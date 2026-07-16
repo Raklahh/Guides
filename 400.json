@@ -1,0 +1,926 @@
+{
+  "game": {
+    "appid": 400,
+    "slug": "portal",
+    "title": "Portal",
+    "version": "1.0",
+    "lastPatchChecked": "2026-03-25",
+    "estTotalHours": 12,
+    "difficultyRating": 5,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Story playthrough + easy unlocks",
+      "description": "Play through the story once. Story achievements unlock automatically; grab Friendly Fire, Terminal Velocity, and Long Jump along the way, and detach all 33 cameras for Camera Shy BEFORE the final battle, since finishing the game resets that counter.",
+      "achievementRefs": [
+        "PORTAL_DETACH_ALL_CAMERAS",
+        "PORTAL_GET_PORTALGUNS",
+        "PORTAL_KILL_COMPANIONCUBE",
+        "PORTAL_ESCAPE_TESTCHAMBERS",
+        "PORTAL_HIT_TURRET_WITH_TURRET",
+        "PORTAL_INFINITEFALL",
+        "PORTAL_LONGJUMP",
+        "PORTAL_BEAT_GAME"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Advanced Chambers",
+      "description": "Beating the story unlocks the 6 Advanced Chambers. Clear them to stack Cupcake, Fruitcake, and Vanilla Crazy Cake.",
+      "achievementRefs": [
+        "PORTAL_BEAT_2ADVANCEDMAPS",
+        "PORTAL_BEAT_4ADVANCEDMAPS",
+        "PORTAL_BEAT_6ADVANCEDMAPS"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Challenge medals",
+      "description": "The 18 Challenges also unlock after the story. Work up through bronze, then silver, then gold on all of them.",
+      "achievementRefs": [
+        "PORTAL_GET_ALLBRONZE",
+        "PORTAL_GET_ALLSILVER",
+        "PORTAL_GET_ALLGOLD"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Radio collectible run",
+      "description": "The 26 radios for Transmission Received only appear after completing the story once. Do a dedicated run carrying each radio to where it receives its transmission.",
+      "achievementRefs": [
+        "PORTAL_TRANSMISSION_RECEIVED"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "PORTAL_GET_PORTALGUNS",
+      "displayName": "Lab Rat",
+      "description": "Acquire the fully powered Aperture Science Handheld Portal Device.",
+      "hidden": false,
+      "globalPercent": 81.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick up the fully powered portal gun in @loc{Test Chamber 11}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Story-related and completely unmissable — you get this just by progressing.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach @loc{Test Chamber 11} and grab the @item{dual Portal Device}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_KILL_COMPANIONCUBE",
+      "displayName": "Fratricide",
+      "description": "Do whatever it takes to survive.",
+      "hidden": false,
+      "globalPercent": 63.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Incinerate the @item{Weighted Companion Cube} at the end of @loc{Test Chamber 17}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The chamber cannot be finished without doing this, so it unlocks on its own.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the end of @loc{Test Chamber 17}, drop the @item{Companion Cube} into the incinerator to proceed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_ESCAPE_TESTCHAMBERS",
+      "displayName": "Partygoer",
+      "description": "Make the correct party escort submission position decision.",
+      "hidden": false,
+      "globalPercent": 55.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Escape the fire pit after \"The Final Test\" instead of being incinerated.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlocks automatically the moment you break out of the incinerator room and into the escape levels.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When @npc{GLaDOS} lowers you toward the fire, portal out and continue into the back areas."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_BEAT_GAME",
+      "displayName": "Heartbreaker",
+      "description": "Complete Portal.",
+      "hidden": false,
+      "globalPercent": 52.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-4 hours",
+      "estMinutes": 180,
+      "stage": 1,
+      "prerequisites": [
+        "PORTAL_DETACH_ALL_CAMERAS"
+      ],
+      "sortReason": "Placed after Camera Shy so you collect all cameras before finishing the game resets their counter.",
+      "confidence": "verified",
+      "summary": "Defeat @npc{GLaDOS} to complete the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "The natural end of your first run. Make sure Camera Shy is done first — beating the game resets the camera counter.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach and defeat @npc{GLaDOS} in the final battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_INFINITEFALL",
+      "displayName": "Terminal Velocity",
+      "description": "Fall 30,000 feet.",
+      "hidden": false,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Make an infinite @mechanic{portal fall loop} and drop through it for a few minutes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the dual portal gun (from @loc{Test Chamber 11} onward) and a room with a portalable floor and ceiling — @loc{Test Chamber 15} works well.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Put one portal on the floor and one directly above it on the ceiling."
+          },
+          {
+            "id": "s2",
+            "text": "Step into the loop and keep falling until the achievement pops.",
+            "note": "It takes a few minutes of continuous falling to reach 30,000 ft."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_LONGJUMP",
+      "displayName": "Long Jump",
+      "description": "Jump 300 feet.",
+      "hidden": false,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Use a @mechanic{fling} to cover 300 ft in one jump in the open late-game rooms.",
+      "guide": {
+        "kind": "standard",
+        "context": "Build horizontal speed by dropping through a floor portal and launching out of a wall portal; the large open areas near the end give the most room.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Place a floor portal below a drop and a wall portal facing across the open space."
+          },
+          {
+            "id": "s2",
+            "text": "Drop in to build @mechanic{fling} momentum, then exit horizontally.",
+            "kind": "tip",
+            "note": "Alignment is fiddly — expect a few retries to clear the full 300 ft."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_BEAT_2ADVANCEDMAPS",
+      "displayName": "Cupcake",
+      "description": "Beat two Portal advanced maps.",
+      "hidden": false,
+      "globalPercent": 18.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "PORTAL_BEAT_GAME"
+      ],
+      "group": "advanced",
+      "confidence": "verified",
+      "summary": "Beat any 2 of the 6 @mechanic{Advanced Chambers}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @mechanic{Advanced Chambers} unlock after you finish the story. They are harder variants of the story chambers.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete any 2 Advanced Chambers (maps 13-14)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_BEAT_4ADVANCEDMAPS",
+      "displayName": "Fruitcake",
+      "description": "Beat four Portal advanced maps.",
+      "hidden": false,
+      "globalPercent": 12.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "prerequisites": [
+        "PORTAL_BEAT_2ADVANCEDMAPS"
+      ],
+      "group": "advanced",
+      "confidence": "verified",
+      "summary": "Beat any 4 of the 6 @mechanic{Advanced Chambers}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Continues from Cupcake; the two you already cleared count toward this.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete a total of 4 Advanced Chambers (maps 13-16)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_BEAT_6ADVANCEDMAPS",
+      "displayName": "Vanilla Crazy Cake",
+      "description": "Beat all six Portal advanced maps.",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "prerequisites": [
+        "PORTAL_BEAT_4ADVANCEDMAPS"
+      ],
+      "group": "advanced",
+      "confidence": "verified",
+      "summary": "Beat all 6 @mechanic{Advanced Chambers}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Finishes the Advanced Chamber set.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete all 6 Advanced Chambers (maps 13-18)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_GET_ALLBRONZE",
+      "displayName": "Basic Science",
+      "description": "Earn bronze medals on all Portal challenges.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "prerequisites": [
+        "PORTAL_BEAT_GAME"
+      ],
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Earn bronze on all 18 @mechanic{Challenges}.",
+      "guide": {
+        "kind": "standard",
+        "context": "After the story, open @mechanic{Bonus Maps} and beat Least Portals, Least Steps, and Least Time for Chambers 13-18 at or below these bronze limits.",
+        "steps": [
+          {
+            "id": "b13",
+            "text": "@loc{Chamber 13}: 9 portals, 30 steps, and 40 seconds or fewer."
+          },
+          {
+            "id": "b14",
+            "text": "@loc{Chamber 14}: 6 portals, 55 steps, and 50 seconds or fewer."
+          },
+          {
+            "id": "b15",
+            "text": "@loc{Chamber 15}: 23 portals, 75 steps, and 185 seconds or fewer."
+          },
+          {
+            "id": "b16",
+            "text": "@loc{Chamber 16}: 9 portals, 70 steps, and 70 seconds or fewer."
+          },
+          {
+            "id": "b17",
+            "text": "@loc{Chamber 17}: 4 portals, 215 steps, and 160 seconds or fewer."
+          },
+          {
+            "id": "b18",
+            "text": "@loc{Chamber 18}: 30 portals, 150 steps, and 130 seconds or fewer; the 18th bronze medal triggers the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_GET_ALLSILVER",
+      "displayName": "Rocket Science",
+      "description": "Earn silver medals on all Portal challenges.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "prerequisites": [
+        "PORTAL_GET_ALLBRONZE"
+      ],
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Earn silver on all 18 @mechanic{Challenges}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Improve all three challenge categories for Chambers 13-18 to these silver limits; a gold result also satisfies its silver slot.",
+        "steps": [
+          {
+            "id": "s13",
+            "text": "@loc{Chamber 13}: 5 portals, 20 steps, and 30 seconds or fewer."
+          },
+          {
+            "id": "s14",
+            "text": "@loc{Chamber 14}: 4 portals, 20 steps, and 20 seconds or fewer."
+          },
+          {
+            "id": "s15",
+            "text": "@loc{Chamber 15}: 21 portals, 65 steps, and 125 seconds or fewer."
+          },
+          {
+            "id": "s16",
+            "text": "@loc{Chamber 16}: 4 portals, 55 steps, and 60 seconds or fewer."
+          },
+          {
+            "id": "s17",
+            "text": "@loc{Chamber 17}: 3 portals, 175 steps, and 105 seconds or fewer."
+          },
+          {
+            "id": "s18",
+            "text": "@loc{Chamber 18}: 25 portals, 120 steps, and 120 seconds or fewer; the 18th silver-or-better result triggers the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_GET_ALLGOLD",
+      "displayName": "Aperture Science",
+      "description": "Earn gold medals on all Portal challenges.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "3-6 hours",
+      "estMinutes": 300,
+      "stage": 3,
+      "prerequisites": [
+        "PORTAL_GET_ALLSILVER"
+      ],
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Earn gold on all 18 @mechanic{Challenges} — the hardest achievement in the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Meet all 18 gold limits. Quick-save before precision throws and portal placements so a failed attempt can be retried without replaying the whole chamber.",
+        "steps": [
+          {
+            "id": "g13",
+            "text": "@loc{Chamber 13}: 4 portals, 10 steps, and 19 seconds or fewer."
+          },
+          {
+            "id": "g14",
+            "text": "@loc{Chamber 14}: 2 portals, 10 steps, and 10 seconds or fewer."
+          },
+          {
+            "id": "g15",
+            "text": "@loc{Chamber 15}: 14 portals, 55 steps, and 54 seconds or fewer."
+          },
+          {
+            "id": "g16",
+            "text": "@loc{Chamber 16}: 2 portals, 40 steps, and 52 seconds or fewer."
+          },
+          {
+            "id": "g17",
+            "text": "@loc{Chamber 17}: 2 portals, 150 steps, and 87 seconds or fewer."
+          },
+          {
+            "id": "g18",
+            "text": "@loc{Chamber 18}: 16 portals, 85 steps, and 73 seconds or fewer; the final gold triggers Aperture Science and also satisfies the bronze/silver sets."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_DETACH_ALL_CAMERAS",
+      "displayName": "Camera Shy",
+      "description": "Detach security cameras from the walls.",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 30,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "summary": "Detach all 33 @item{security cameras} across @loc{Test Chambers 2-19} before beating the game.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Detach the 33 cameras in one uninterrupted story run; loading or skipping chambers resets this counter. Only cameras fixed to white portalable walls count, and placing a portal behind one knocks it free.",
+        "collectibles": [
+          {
+            "id": "cam-02",
+            "index": 1,
+            "name": "Chamber 2 — 3 cameras",
+            "location": "@loc{Test Chamber 2}",
+            "method": "After taking the Portal Device, backtrack for the camera over the entrance; detach the one beside the first blue portal and the one above the portal-gun observation window.",
+            "missable": true
+          },
+          {
+            "id": "cam-03",
+            "index": 2,
+            "name": "Chamber 3 — 3 cameras",
+            "location": "@loc{Test Chamber 3}",
+            "method": "Detach the cameras beside the chamber sign, beside the fixed orange portal, and beside the exit door.",
+            "missable": true
+          },
+          {
+            "id": "cam-04",
+            "index": 3,
+            "name": "Chamber 4 — 2 cameras",
+            "location": "@loc{Test Chamber 4}",
+            "method": "Remove the camera beside the floor button, then the camera near the exit.",
+            "missable": true
+          },
+          {
+            "id": "cam-05",
+            "index": 4,
+            "name": "Chamber 5 — 3 cameras",
+            "location": "@loc{Test Chamber 5}",
+            "method": "Remove the cameras beside the chamber sign, beside the main-room door, and on the wall opposite the exit.",
+            "missable": true
+          },
+          {
+            "id": "cam-10",
+            "index": 5,
+            "name": "Chamber 10 — 1 camera",
+            "location": "@loc{Test Chamber 10}",
+            "method": "Detach the camera beside the entrance stairs.",
+            "missable": true
+          },
+          {
+            "id": "cam-11",
+            "index": 6,
+            "name": "Chamber 11 — 1 camera",
+            "location": "@loc{Test Chamber 11}",
+            "method": "Detach the camera above the corridor leading out of the starting observation room.",
+            "missable": true
+          },
+          {
+            "id": "cam-13",
+            "index": 7,
+            "name": "Chamber 13 — 3 cameras",
+            "location": "@loc{Test Chamber 13}",
+            "method": "Remove the camera over the entrance corridor, the one near the highest button platform in the main room, and the one beside the exit door.",
+            "missable": true
+          },
+          {
+            "id": "cam-15",
+            "index": 8,
+            "name": "Chamber 15 — 5 cameras",
+            "location": "@loc{Test Chamber 15}",
+            "method": "Check the chamber sign, the doorway beyond the first Emancipation Grill, the second area's exit, the third area's side room, and the entrance to the final moving-platform area.",
+            "missable": true
+          },
+          {
+            "id": "cam-16",
+            "index": 9,
+            "name": "Chamber 16 — 5 cameras",
+            "location": "@loc{Test Chamber 16}",
+            "method": "Remove the camera behind the first turret, the one in room two, the one behind turret three, the one above the turret opposite the button, and the one beyond the button-operated door.",
+            "missable": true
+          },
+          {
+            "id": "cam-17",
+            "index": 10,
+            "name": "Chamber 17 — 2 cameras",
+            "location": "@loc{Test Chamber 17}",
+            "method": "Detach the camera at the end of the second energy-pellet corridor and the camera above the main-room doorway.",
+            "missable": true
+          },
+          {
+            "id": "cam-18",
+            "index": 11,
+            "name": "Chamber 18 — 2 cameras",
+            "location": "@loc{Test Chamber 18}",
+            "method": "Remove the camera at the turret-area entrance and the camera beside the goo at the start of the fling section.",
+            "missable": true
+          },
+          {
+            "id": "cam-19",
+            "index": 12,
+            "name": "Chamber 19 — 3 cameras",
+            "location": "@loc{Test Chamber 19}",
+            "method": "Detach the first-area camera, the camera above the moving-platform door button, and the final camera near the far end of that moving-platform route; the 33rd removal triggers the achievement.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_HIT_TURRET_WITH_TURRET",
+      "displayName": "Friendly Fire",
+      "description": "Knock down a turret with another turret.",
+      "hidden": false,
+      "globalPercent": 48.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick up a @enemy{turret} and knock over another one with it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Easy and repeatable in any of the turret rooms in the later chambers.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Grab a @enemy{turret} and swing or throw it into a second @enemy{turret} to topple it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PORTAL_TRANSMISSION_RECEIVED",
+      "displayName": "Transmission Received",
+      "description": "Find and carry all 26 hidden radios to the spot where each receives its transmission. The radios only appear after completing the story once.",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2-3 hours",
+      "estMinutes": 150,
+      "stage": 4,
+      "prerequisites": [
+        "PORTAL_BEAT_GAME"
+      ],
+      "confidence": "verified",
+      "summary": "Carry all 26 hidden @item{radios} to where each picks up a transmission (needs a post-story run).",
+      "guide": {
+        "kind": "collectible",
+        "context": "Complete the story once, start another story run, and tune every radio below. A successful spot changes the radio light to green and replaces the music with a coded signal.",
+        "collectibles": [
+          {
+            "id": "radio-01",
+            "index": 1,
+            "name": "Chamber 00",
+            "location": "Radio in the @loc{Relaxation Vault}",
+            "method": "Carry it into the button room and hold it just beyond the floor button until the signal starts.",
+            "missable": true
+          },
+          {
+            "id": "radio-02",
+            "index": 2,
+            "name": "Chamber 01",
+            "location": "On the camera right of the entrance, before the pit",
+            "method": "Take it to the exit and hold it immediately before the Emancipation Grill door.",
+            "missable": true
+          },
+          {
+            "id": "radio-03",
+            "index": 3,
+            "name": "Chamber 02",
+            "location": "On the wall by the portal-gun firing aperture",
+            "method": "Portal to the ceiling above it from the fixed orange portal, retrieve it, then carry it to the Portal Device's original pedestal.",
+            "missable": true
+          },
+          {
+            "id": "radio-04",
+            "index": 4,
+            "name": "Chamber 03",
+            "location": "Balanced on the camera near the exit",
+            "method": "Portal behind the camera to drop both objects, then take the radio to the ceiling corner above the second pier, against the wall facing the orange portal.",
+            "missable": true
+          },
+          {
+            "id": "radio-05",
+            "index": 5,
+            "name": "Chamber 04",
+            "location": "Dispensed with the storage cube",
+            "method": "Carry the radio back to the chamber entrance.",
+            "missable": true
+          },
+          {
+            "id": "radio-06",
+            "index": 6,
+            "name": "Chamber 05",
+            "location": "Behind the two-button door",
+            "method": "Before crossing that door, place a portal beneath the radio so it remains reachable; bring it to the pit that originally held a cube.",
+            "missable": true
+          },
+          {
+            "id": "radio-07",
+            "index": 7,
+            "name": "Chamber 06",
+            "location": "Above the energy-pellet launcher",
+            "method": "Open a portal beside the launcher, pull the radio through, and take it into the exit lift.",
+            "missable": true
+          },
+          {
+            "id": "radio-08",
+            "index": 8,
+            "name": "Chamber 07",
+            "location": "Beneath the starting ledge, tucked behind its stairway",
+            "method": "Carry it to the exit door.",
+            "missable": true
+          },
+          {
+            "id": "radio-09",
+            "index": 9,
+            "name": "Chamber 08",
+            "location": "Below the moving platform's starting point",
+            "method": "Bring it back to the chamber-number sign.",
+            "missable": true
+          },
+          {
+            "id": "radio-10",
+            "index": 10,
+            "name": "Chamber 09",
+            "location": "In the narrow opening between the two test sections",
+            "method": "Carry it to the exit.",
+            "missable": true
+          },
+          {
+            "id": "radio-11",
+            "index": 11,
+            "name": "Chamber 10",
+            "location": "Third section, tiny ledge on the left",
+            "method": "Cross the gap, jump toward the radio while repeatedly pressing Use, then carry it to the fixed orange portal.",
+            "missable": true
+          },
+          {
+            "id": "radio-12",
+            "index": 12,
+            "name": "Chamber 11",
+            "location": "On the approach to the doorway joining the central and last sections",
+            "method": "Stand partly inside a nearby portal to reach it, then return it to the spot where the orange Portal Device upgrade was collected.",
+            "missable": true
+          },
+          {
+            "id": "radio-13",
+            "index": 13,
+            "name": "Chamber 12",
+            "location": "Middle support of the farthest-extending panels",
+            "method": "Fling from the first level using the angled panel and floor portals; take the radio directly below that angled panel.",
+            "missable": true
+          },
+          {
+            "id": "radio-14",
+            "index": 14,
+            "name": "Chamber 13",
+            "location": "Right side of the main room",
+            "method": "Grab it from the moving platform and return it to the window above the first room's button.",
+            "missable": true
+          },
+          {
+            "id": "radio-15",
+            "index": 15,
+            "name": "Chamber 14",
+            "location": "Right wall between the button and its powered door",
+            "method": "Use momentum and a portal below the radio to catch it, then carry it to the fixed platform in the middle of the goo.",
+            "missable": true
+          },
+          {
+            "id": "radio-16",
+            "index": 16,
+            "name": "Chamber 15 — first radio",
+            "location": "Right wall between the button and its door",
+            "method": "Fling through a portal beneath it, catch the radio, and take it to the fixed platform in the goo channel.",
+            "missable": true
+          },
+          {
+            "id": "radio-17",
+            "index": 17,
+            "name": "Chamber 15 — second radio",
+            "location": "Final room, inside the energy-pellet catcher enclosure",
+            "method": "Press both timed buttons, use two floor portals to jump into the enclosure, take the radio after GLaDOS releases you, and carry it to the exit.",
+            "missable": true
+          },
+          {
+            "id": "radio-18",
+            "index": 18,
+            "name": "Chamber 16",
+            "location": "Side room containing several storage cubes",
+            "method": "Bring it to the chamber exit.",
+            "missable": true
+          },
+          {
+            "id": "radio-19",
+            "index": 19,
+            "name": "Chamber 17",
+            "location": "Under the third lift on the exit route",
+            "method": "Carry it to the Companion Cube incinerator.",
+            "missable": true
+          },
+          {
+            "id": "radio-20",
+            "index": 20,
+            "name": "Chamber 18 — first radio",
+            "location": "Side room beyond the first gap",
+            "method": "On the next platform, portal the ceiling over the two-dot floor symbol and a floor beneath you; crouch and hold the radio through the paired portal until it tunes.",
+            "missable": true
+          },
+          {
+            "id": "radio-21",
+            "index": 21,
+            "name": "Chamber 18 — second radio",
+            "location": "On the energy-pellet catcher housing in the turret-platform room",
+            "method": "Fling from a floor portal onto the housing, take the radio, and carry it to the rear of the small-button area below the cube dispenser.",
+            "missable": true
+          },
+          {
+            "id": "radio-22",
+            "index": 22,
+            "name": "Chamber 18 — third radio",
+            "location": "Bottom of the left pit in the final room",
+            "method": "Retrieve it and place it around the center of the exit platform.",
+            "missable": true
+          },
+          {
+            "id": "radio-23",
+            "index": 23,
+            "name": "Chamber 19",
+            "location": "Left side of the giant incinerator when viewed from its balcony",
+            "method": "Portal above the radio and reach through a second portal without entering the fire; after the two large fans, take it to the center of the side office.",
+            "missable": true
+          },
+          {
+            "id": "radio-24",
+            "index": 24,
+            "name": "Escape 00",
+            "location": "Supply alcove reached through the fence and vent under the first stairs",
+            "method": "Bring it to the rear-center of the platform above the two vertical pistons used for the ceiling-portal ascent.",
+            "missable": true
+          },
+          {
+            "id": "radio-25",
+            "index": 25,
+            "name": "Escape 01",
+            "location": "Beside the broken sentry after the three-turret ambush",
+            "method": "In the following room, topple the turret and carry the radio into the supply alcove.",
+            "missable": true
+          },
+          {
+            "id": "radio-26",
+            "index": 26,
+            "name": "Escape 02",
+            "location": "Lower floor of the turret arena, opposite its entrance",
+            "method": "Keep it through the arena; after the pair of ceiling-dropped turrets, fling to the upper level and hold the radio beside the green generators to trigger the final transmission and achievement.",
+            "missable": true
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "PORTAL_DETACH_ALL_CAMERAS",
+    "PORTAL_GET_PORTALGUNS",
+    "PORTAL_KILL_COMPANIONCUBE",
+    "PORTAL_ESCAPE_TESTCHAMBERS",
+    "PORTAL_HIT_TURRET_WITH_TURRET",
+    "PORTAL_INFINITEFALL",
+    "PORTAL_LONGJUMP",
+    "PORTAL_BEAT_GAME",
+    "PORTAL_BEAT_2ADVANCEDMAPS",
+    "PORTAL_BEAT_4ADVANCEDMAPS",
+    "PORTAL_BEAT_6ADVANCEDMAPS",
+    "PORTAL_GET_ALLBRONZE",
+    "PORTAL_GET_ALLSILVER",
+    "PORTAL_GET_ALLGOLD",
+    "PORTAL_TRANSMISSION_RECEIVED"
+  ]
+}

@@ -1,0 +1,2834 @@
+{
+  "game": {
+    "appid": 367520,
+    "slug": "hollow-knight",
+    "title": "Hollow Knight",
+    "version": "1.0",
+    "lastPatchChecked": "2026-03-27",
+    "estTotalHours": 80,
+    "difficultyRating": 10,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-16"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Main route and early choices",
+      "description": "Explore normally, save Zote in Greenpath and Deepnest, collect maps/Charms/shards/Grubs as abilities open routes, and spare the Nailsmith on this save. Destroy the three Dreamers, but finish The Hollow Knight ending before creating Void Heart.",
+      "achievementRefs": [
+        "CHARMED",
+        "PROTECTED",
+        "SOULFUL",
+        "FK_DEFEAT",
+        "HORNET_1",
+        "SOUL_MASTER_DEFEAT",
+        "MANTIS_LORDS",
+        "DUNG_DEFENDER",
+        "BROKEN_VESSEL",
+        "STAG_STATION_HALF",
+        "TEACHER",
+        "WATCHER",
+        "BEAST",
+        "ENDING_A"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Exploration and quest cleanup",
+      "description": "Complete the collectible sets, Essence rewards, Hunter's Journal, Zote, Quirrel, Grey Mourner, and the remaining world bosses. Obtain Void Heart only after the basic ending.",
+      "achievementRefs": [
+        "ENCHANTED",
+        "BLESSED",
+        "MASKED",
+        "WORLDSOUL",
+        "DREAM_FK",
+        "HORNET_2",
+        "DREAM_BROKEN_VESSEL",
+        "COLLECTOR",
+        "ZOTE",
+        "ATTUNEMENT",
+        "AWAKENING",
+        "ASCENSION",
+        "GRUBFRIEND",
+        "METAMORPHOSIS",
+        "NAILSMITH_SPARE",
+        "QUIRREL_EPILOGUE",
+        "MOURNER",
+        "TRAITOR_LORD",
+        "STAG_STATION_ALL",
+        "MAP",
+        "HUNTER_1",
+        "HUNTER_2",
+        "DREAM_SOUL_MASTER_DEFEAT",
+        "WHITE_DEFENDER",
+        "GREY_PRINCE",
+        "VOID"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Endings and full completion",
+      "description": "Use Void Heart to earn Sealed Siblings and Dream No More, finish Mister Mushroom's seven meetings, clear the Colosseum, and reach 112% before completing another ending.",
+      "achievementRefs": [
+        "COLOSSEUM_1",
+        "COLOSSEUM_2",
+        "COLOSSEUM_3",
+        "ENDING_B",
+        "ENDING_C",
+        "MR_MUSHROOM",
+        "COMPLETION",
+        "COMPLETIONGG"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Grimm Troupe and Godhome",
+      "description": "On the main save, finish the Ritual route and then clear the five Pantheons. Practice bosses in Hall of Gods before attempting Pantheon of Hallownest.",
+      "achievementRefs": [
+        "GRIMM",
+        "NIGHTMARE_GRIMM",
+        "PANTHEON1",
+        "PANTHEON2",
+        "PANTHEON3",
+        "PANTHEON4",
+        "ENDINGD"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Steel Soul speed and opposite choices",
+      "description": "Start Steel Soul for the opposite Zote, Nailsmith, and Grimm choices. Follow the cited five-hour route for both speedrun achievements, then continue safely to 100% and finish again for Steel Heart and Speed Completion.",
+      "achievementRefs": [
+        "NEGLECT",
+        "NAILSMITH_KILL",
+        "BANISHMENT",
+        "SPEEDRUN_1",
+        "SPEEDRUN_2",
+        "SPEED_COMPLETION",
+        "STEELSOUL",
+        "STEELSOUL_COMPLETION"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "CHARMED",
+      "displayName": "Charmed",
+      "description": "Acquire your first Charm",
+      "hidden": false,
+      "globalPercent": 76.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "early game",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Acquire any @item{Charm}, such as @item{Fury of the Fallen} in @loc{King's Pass}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A guaranteed alternative is @item{Soul Catcher}, awarded after the @loc{Ancestral Mound} spell tutorial.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick up @item{Fury of the Fallen} in the spike passage east of the starting room in @loc{King's Pass}, or collect any other Charm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENCHANTED",
+      "displayName": "Enchanted",
+      "description": "Acquire half of Hallownest's Charms",
+      "hidden": false,
+      "globalPercent": 39.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10-20 hours",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Hold 20 of Hallownest's 40 simultaneously obtainable @item{Charms}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Five Charms can be exchanged for replacements, but each original/replacement pair occupies one collection slot, so the inventory maximum remains 40.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy Charms from @npc{Sly}, @npc{Salubra}, and @npc{Leg Eater}; collect exploration, boss, Grub, Dream Nail, and quest rewards until the inventory contains 20 Charms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BLESSED",
+      "displayName": "Blessed",
+      "description": "Acquire all Charms and receive Salubra's blessing",
+      "hidden": false,
+      "globalPercent": 20.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30-45 hours",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect all 40 @item{Charms} and buy @item{My Blessing} from @npc{Salubra} for 800 Geo.",
+      "guide": {
+        "kind": "standard",
+        "context": "Salubra only offers the Blessing after the inventory contains 40 Charms and all four of her Charm Notches have been purchased.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete the Charm collection, including one Charm from each mutually replaceable pair such as @item{Kingsoul}/@item{Void Heart} and @item{Grimmchild}/@item{Carefree Melody}."
+          },
+          {
+            "id": "s2",
+            "text": "At @npc{Salubra}'s shop in the southeast @loc{Forgotten Crossroads}, buy her four Charm Notches, then purchase the menu item @item{My Blessing} for 800 Geo."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROTECTED",
+      "displayName": "Protected",
+      "description": "Acquire 4 Mask Shards",
+      "hidden": false,
+      "globalPercent": 47.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-5 hours",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect any 4 @item{Mask Shards} to form one Ancient Mask.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every fourth shard automatically adds one permanent Mask and fully heals the Knight; the game contains 16 shards in total.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "For an early set, buy Sly's 150- and 500-Geo shards in @loc{Dirtmouth}, rescue 5 Grubs for @npc{Grubfather}'s shard, and collect the shard south of @enemy{False Knight}'s arena."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MASKED",
+      "displayName": "Masked",
+      "description": "Acquire all Mask Shards",
+      "hidden": false,
+      "globalPercent": 20.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "25-40 hours",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect all 16 @item{Mask Shards} across Hallownest.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Four shards form one Ancient Mask. Several sources require late movement abilities or quest completion, so use this as an end-game checklist.",
+        "collectibles": [
+          {
+            "id": "m1",
+            "index": 1,
+            "name": "Sly's four shards",
+            "location": "@loc{Dirtmouth}",
+            "method": "Buy the shards for 150, 500, 800, and 1500 Geo; the last two require the @item{Shopkeeper's Key}."
+          },
+          {
+            "id": "m2",
+            "index": 2,
+            "name": "Brooding Mawlek",
+            "location": "West @loc{Forgotten Crossroads}",
+            "method": "Defeat @enemy{Brooding Mawlek} and collect the reward."
+          },
+          {
+            "id": "m3",
+            "index": 3,
+            "name": "Grubfather",
+            "location": "@loc{Forgotten Crossroads}",
+            "method": "Rescue 5 Grubs, then collect @npc{Grubfather}'s reward."
+          },
+          {
+            "id": "m4",
+            "index": 4,
+            "name": "Goam passage",
+            "location": "South of @enemy{False Knight}",
+            "method": "Cross the Goam passage; @item{Mantis Claw} is recommended."
+          },
+          {
+            "id": "m5",
+            "index": 5,
+            "name": "Queen's Station",
+            "location": "East @loc{Queen's Station}",
+            "method": "Use @item{Mantis Claw} to reach the ledge below the Fungal Wastes entrance."
+          },
+          {
+            "id": "m6",
+            "index": 6,
+            "name": "Bretta's house",
+            "location": "@loc{Dirtmouth}",
+            "method": "Rescue @npc{Bretta} in @loc{Fungal Wastes}, then enter her house."
+          },
+          {
+            "id": "m7",
+            "index": 7,
+            "name": "Stone Sanctuary",
+            "location": "@loc{Greenpath}",
+            "method": "Collect the shard northeast of @enemy{No Eyes}; @item{Lumafly Lantern} makes the dark route visible."
+          },
+          {
+            "id": "m8",
+            "index": 8,
+            "name": "Royal Waterways",
+            "location": "Northwest @loc{Royal Waterways}",
+            "method": "Swim west beneath the main path."
+          },
+          {
+            "id": "m9",
+            "index": 9,
+            "name": "Fungal Core entrance",
+            "location": "West @loc{Deepnest}",
+            "method": "Enter from @loc{Fungal Core} near the Mantis Lords and use @item{Monarch Wings}."
+          },
+          {
+            "id": "m10",
+            "index": 10,
+            "name": "Enraged Guardian",
+            "location": "@loc{Crystal Peak}",
+            "method": "Use @item{Monarch Wings} to reach and defeat @enemy{Enraged Guardian}."
+          },
+          {
+            "id": "m11",
+            "index": 11,
+            "name": "Hive wall",
+            "location": "@loc{The Hive}",
+            "method": "Lure a @enemy{Hive Guardian} into breaking the wall west of Hive Knight's arena."
+          },
+          {
+            "id": "m12",
+            "index": 12,
+            "name": "Seer's reward",
+            "location": "@loc{Resting Grounds}",
+            "method": "Collect 1500 Essence and claim the reward from @npc{Seer}."
+          },
+          {
+            "id": "m13",
+            "index": 13,
+            "name": "Grey Mourner's reward",
+            "location": "@loc{Resting Grounds}",
+            "method": "Complete the @item{Delicate Flower} delivery to the grave in Queen's Gardens, then return to @npc{Grey Mourner}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SOULFUL",
+      "displayName": "Soulful",
+      "description": "Acquire 3 Vessel Fragments",
+      "hidden": false,
+      "globalPercent": 43.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 hours",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect any 3 @item{Vessel Fragments} to form one Soul Vessel.",
+      "guide": {
+        "kind": "standard",
+        "context": "A completed vessel adds 33 maximum SOUL and refills the main SOUL meter after a short delay.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy Sly's 550-Geo fragment in @loc{Dirtmouth}, collect the fragment near the blocked Queen's Gardens entrance in @loc{Greenpath}, and collect the fragment left of the City lift after opening that lift."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WORLDSOUL",
+      "displayName": "Worldsoul",
+      "description": "Acquire all Vessel Fragments",
+      "hidden": false,
+      "globalPercent": 25.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "25-40 hours",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect all 9 @item{Vessel Fragments} across Hallownest.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Every third fragment creates a Soul Vessel; the final collection doubles the base SOUL capacity from 99 to 198.",
+        "collectibles": [
+          {
+            "id": "v1",
+            "index": 1,
+            "name": "Sly's first fragment",
+            "location": "@loc{Dirtmouth}",
+            "method": "Find @npc{Sly} in Forgotten Crossroads, then buy the fragment for 550 Geo."
+          },
+          {
+            "id": "v2",
+            "index": 2,
+            "name": "Sly's key fragment",
+            "location": "@loc{Dirtmouth}",
+            "method": "Return the @item{Shopkeeper's Key} to Sly, then buy the fragment for 900 Geo."
+          },
+          {
+            "id": "v3",
+            "index": 3,
+            "name": "Greenpath",
+            "location": "Near the Queen's Gardens entrance",
+            "method": "Collect the fragment beside the inaccessible entrance."
+          },
+          {
+            "id": "v4",
+            "index": 4,
+            "name": "City lift",
+            "location": "Left of the Forgotten Crossroads lift",
+            "method": "Open the lift from @loc{City of Tears}, then approach the fragment from the lift route."
+          },
+          {
+            "id": "v5",
+            "index": 5,
+            "name": "King's Station",
+            "location": "Above @loc{King's Station}",
+            "method": "Climb to the room near the lift and collect the fragment."
+          },
+          {
+            "id": "v6",
+            "index": 6,
+            "name": "Deepnest tram",
+            "location": "Above the working tram",
+            "method": "Cross the Garpede passage above the tram route."
+          },
+          {
+            "id": "v7",
+            "index": 7,
+            "name": "Stag Nest",
+            "location": "Entrance to @loc{Stag Nest}",
+            "method": "Open the full Stagway network, travel to Stag Nest, and collect the fragment near the entrance."
+          },
+          {
+            "id": "v8",
+            "index": 8,
+            "name": "Seer's reward",
+            "location": "@loc{Resting Grounds}",
+            "method": "Collect 700 Essence and claim the fragment from @npc{Seer}."
+          },
+          {
+            "id": "v9",
+            "index": 9,
+            "name": "Ancient Basin fountain",
+            "location": "@loc{Ancient Basin}",
+            "method": "Donate a total of 3000 Geo to the fountain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FK_DEFEAT",
+      "displayName": "Falsehood",
+      "description": "Defeat the False Knight",
+      "hidden": false,
+      "globalPercent": 71.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat @enemy{False Knight} in @loc{Forgotten Crossroads}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This early boss drops the City Crest and opens the Ancestral Mound route needed for Vengeful Spirit.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the large arena in central @loc{Forgotten Crossroads}, break False Knight's armour during each stagger, strike the exposed maggot, and finish the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DREAM_FK",
+      "displayName": "Strength",
+      "description": "Defeat the Failed Champion.",
+      "hidden": true,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "late game",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "FK_DEFEAT",
+        "ATTUNEMENT"
+      ],
+      "confidence": "verified",
+      "summary": "Dream Nail the corpse above @enemy{False Knight}'s arena and defeat @enemy{Failed Champion}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The corpse is behind a breakable wall above the old arena. Dream Boss deaths return the Knight safely and do not end Steel Soul runs.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After obtaining the @item{Dream Nail}, break the wall above False Knight's arena in @loc{Forgotten Crossroads} and use the Dream Nail on the armoured maggot's corpse."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Failed Champion} inside the dream."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HORNET_1",
+      "displayName": "Test of Resolve",
+      "description": "Defeat Hornet in Greenpath",
+      "hidden": false,
+      "globalPercent": 62.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Hornet Protector} in @loc{Greenpath}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The victory awards @item{Mothwing Cloak}, the horizontal dash required for the next major routes.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow Hornet through Greenpath to her arena, defeat @enemy{Hornet Protector}, and collect @item{Mothwing Cloak}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HORNET_2",
+      "displayName": "Proof of Resolve",
+      "description": "Defeat Hornet in Kingdom's Edge.",
+      "hidden": true,
+      "globalPercent": 38.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "mid game",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "HORNET_1"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Hornet Sentinel} at @loc{Cast-Off Shell} in Kingdom's Edge.",
+      "guide": {
+        "kind": "standard",
+        "context": "The victory awards @item{King's Brand}, which opens the sealed entrance to the Abyss in Ancient Basin.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb eastern @loc{Kingdom's Edge} to Cast-Off Shell and defeat @enemy{Hornet Sentinel}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SOUL_MASTER_DEFEAT",
+      "displayName": "Illumination",
+      "description": "Defeat the Soul Master",
+      "hidden": false,
+      "globalPercent": 46.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Soul Master} at the top of @loc{Soul Sanctum} in City of Tears.",
+      "guide": {
+        "kind": "standard",
+        "context": "Soul Master has a second phase below the first arena; the fight is not over when the floor initially breaks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb @loc{Soul Sanctum}, defeat both phases of @enemy{Soul Master}, then collect @item{Desolate Dive}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BROKEN_VESSEL",
+      "displayName": "Release",
+      "description": "Defeat the Broken Vessel",
+      "hidden": false,
+      "globalPercent": 41.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "mid game",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Broken Vessel} in @loc{Ancient Basin}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The route beyond the arena leads to @item{Monarch Wings}, which unlocks double-jump routes throughout Hallownest.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Cross western @loc{Ancient Basin}, defeat @enemy{Broken Vessel}, and continue left to collect @item{Monarch Wings}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DREAM_BROKEN_VESSEL",
+      "displayName": "Peace",
+      "description": "Defeat the Lost Kin.",
+      "hidden": true,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "late game",
+      "estMinutes": 25,
+      "stage": 2,
+      "prerequisites": [
+        "BROKEN_VESSEL",
+        "ATTUNEMENT"
+      ],
+      "confidence": "verified",
+      "summary": "Dream Nail @enemy{Broken Vessel}'s corpse in Ancient Basin and defeat @enemy{Lost Kin}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Dream Nail becomes available long before this optional rematch, and a dream death has no normal or Steel Soul penalty.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Return to Broken Vessel's arena with the @item{Dream Nail} and strike the corpse with the Dream Nail."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Lost Kin} inside the dream."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DUNG_DEFENDER",
+      "displayName": "Honour",
+      "description": "Defeat the Dung Defender",
+      "hidden": false,
+      "globalPercent": 42.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "mid game",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Dung Defender} in @loc{Royal Waterways}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Activating the lever beyond the arena opens the route toward Isma's Grove; the boss also drops @item{Defender's Crest}.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use a @item{Simple Key} below City of Tears to enter Royal Waterways, follow the eastern route, and defeat @enemy{Dung Defender}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MANTIS_LORDS",
+      "displayName": "Respect",
+      "description": "Defeat the Mantis Lords",
+      "hidden": false,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "early-mid game",
+      "estMinutes": 25,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat all three @enemy{Mantis Lords} beneath @loc{Mantis Village}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Winning makes the Mantis Tribe peaceful and opens the direct gate into Deepnest plus the Mark of Pride reward room.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect @item{Mantis Claw} in Mantis Village, descend to the throne room, challenge the Mantis Lords, and defeat the single lord followed by the paired lords."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECTOR",
+      "displayName": "Obsession",
+      "description": "Defeat the Collector.",
+      "hidden": true,
+      "globalPercent": 30.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "late game",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use the @item{Love Key} to enter @loc{Tower of Love} and defeat @enemy{the Collector}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The reward room at the top contains the Collector's Map, which permanently marks every unrescued Grub.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect the @item{Love Key} in @loc{Queen's Gardens}, then unlock Tower of Love between City of Tears and Kingdom's Edge."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{the Collector}, climb to the top room, and pick up @item{the Collector's Map}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ZOTE",
+      "displayName": "Rivalry",
+      "description": "Defeat Zote in the Colosseum of Fools.",
+      "hidden": true,
+      "globalPercent": 28.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "quest chain",
+      "estMinutes": 60,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Before obtaining Mantis Claw, rescue @npc{Zote} in Greenpath; rescue him again in Deepnest, then defeat him in @loc{Trial of the Warrior}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Leaving Zote to die in Greenpath removes this achievement and the Grey Prince Zote chain from that save.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Vengefly King} in @loc{Greenpath} and rescue Zote before collecting @item{Mantis Claw}; returning after that upgrade finds only his skull. Later, cut Zote free from the web in @loc{Deepnest}."
+          },
+          {
+            "id": "s2",
+            "text": "Enter @loc{Trial of the Warrior} at the Colosseum of Fools and defeat @npc{Zote} when he appears at the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ATTUNEMENT",
+      "displayName": "Attunement",
+      "description": "Collect 600 Essence",
+      "hidden": false,
+      "globalPercent": 37.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "mid game",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect 600 @item{Essence} after receiving the Dream Nail.",
+      "guide": {
+        "kind": "standard",
+        "context": "Warrior Dreams, Dream Bosses, and Whispering Roots supply fixed Essence; random enemy drops are not needed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Receive the @item{Dream Nail} in @loc{Resting Grounds}, then clear enough Warrior Dreams, Dream Bosses, and Whispering Roots for the Essence counter to reach 600."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AWAKENING",
+      "displayName": "Awakening",
+      "description": "Collect 1800 Essence and awaken the Dream Nail",
+      "hidden": false,
+      "globalPercent": 30.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "late game",
+      "estMinutes": 300,
+      "stage": 2,
+      "prerequisites": [
+        "ATTUNEMENT"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1800 Essence and ask @npc{Seer} to awaken the Dream Nail.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Awoken Dream Nail opens protected memories, including White Palace and the Radiance route.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Raise the Essence counter to 1800, return to @npc{Seer} in @loc{Resting Grounds}, and continue her dialogue until the Dream Nail awakens."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ASCENSION",
+      "displayName": "Ascension",
+      "description": "Collect 2400 Essence and hear the Seer's final words",
+      "hidden": false,
+      "globalPercent": 20.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "late game",
+      "estMinutes": 420,
+      "stage": 2,
+      "prerequisites": [
+        "AWAKENING"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 2400 Essence and hear @npc{Seer}'s final words in Resting Grounds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hallownest contains more than 2400 fixed Essence, so spending a few points on Dreamgate warps does not block the threshold.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Raise the Essence counter to 2400, return to @npc{Seer}, and exhaust her final dialogue to witness the ascension."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GRUBFRIEND",
+      "displayName": "Grubfriend",
+      "description": "Rescue half of the imprisoned grubs",
+      "hidden": false,
+      "globalPercent": 38.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Break the jars of any 23 of Hallownest's 46 imprisoned @npc{Grubs}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Collector's Map marks every unrescued Grub with a green pin, turning late cleanup into a map sweep.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Rescue Grubs while exploring, or defeat @enemy{the Collector} and use the resulting map pins until 23 jars have been broken."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "METAMORPHOSIS",
+      "displayName": "Metamorphosis",
+      "description": "Rescue all of the imprisoned grubs",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "late-game cleanup",
+      "estMinutes": 600,
+      "stage": 2,
+      "prerequisites": [
+        "COLLECTOR",
+        "GRUBFRIEND"
+      ],
+      "confidence": "verified",
+      "summary": "Rescue all 46 imprisoned @npc{Grubs} across Hallownest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Some jars require late abilities such as Crystal Heart, Monarch Wings, Isma's Tear, and access through Tower of Love.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{the Collector} in Tower of Love and collect @item{the Collector's Map}."
+          },
+          {
+            "id": "s2",
+            "text": "Visit every remaining green Grub pin, break each glass jar, and free the Grub; the final rescue triggers the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEGLECT",
+      "displayName": "Neglect",
+      "description": "Leave Zote to die",
+      "hidden": false,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "early game",
+      "estMinutes": 10,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Leave @npc{Zote} to die in Greenpath, then strike his skull after obtaining Mantis Claw.",
+      "guide": {
+        "kind": "standard",
+        "context": "This permanent choice blocks Rivalry and Dark Romance on the same save, so use the opposite-choice playthrough.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Do not fight @enemy{Vengefly King} at Zote's Greenpath location."
+          },
+          {
+            "id": "s2",
+            "text": "After collecting @item{Mantis Claw}, return to the abandoned Greenpath arena and strike @npc{Zote}'s skull."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NAILSMITH_KILL",
+      "displayName": "Purity",
+      "description": "Slay the Nailsmith with the Pure Nail.",
+      "hidden": true,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "late game",
+      "estMinutes": 5,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Forge the @item{Pure Nail}, then strike @npc{Nailsmith} outside his City of Tears hut.",
+      "guide": {
+        "kind": "standard",
+        "context": "The kill autosaves immediately and permanently blocks Happy Couple on that save.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pay the Nailsmith for all four Nail upgrades, using 6 Pale Ore and 7050 Geo in total, to forge the @item{Pure Nail}."
+          },
+          {
+            "id": "s2",
+            "text": "Follow the Nailsmith outside, wait for his request to be cut down, and strike him once with the Pure Nail."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NAILSMITH_SPARE",
+      "displayName": "Happy Couple",
+      "description": "Allow the Nailsmith to find a new calling.",
+      "hidden": true,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "late game",
+      "estMinutes": 10,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Forge the Pure Nail, spare @npc{Nailsmith}, then listen to him at @npc{Sheo}'s Greenpath hut.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Nailsmith relocates only after Great Slash has been learned and the spared state is advanced by resting at a Bench or using a Stagway. Any strike during his request locks this route out.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Learn @item{Great Slash} from @npc{Nailmaster Sheo} in western Greenpath, forge the @item{Pure Nail}, follow the Nailsmith outside, and leave without attacking him."
+          },
+          {
+            "id": "s2",
+            "text": "Rest at any Bench or travel on the Stagway to trigger the move, then return to @npc{Nailmaster Sheo}'s hut in western @loc{Greenpath} and listen to the Nailsmith there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QUIRREL_EPILOGUE",
+      "displayName": "Witness",
+      "description": "Spend a final moment with Quirrel.",
+      "hidden": true,
+      "globalPercent": 24.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "after Monomon",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "TEACHER"
+      ],
+      "confidence": "verified",
+      "summary": "After destroying @npc{Monomon}, sit beside @npc{Quirrel} at Blue Lake in Resting Grounds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Quirrel moves to Blue Lake only after helping remove Monomon's protection inside Teacher's Archives.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Uumuu} with Quirrel's help and destroy @npc{Monomon the Teacher}."
+          },
+          {
+            "id": "s2",
+            "text": "Enter @loc{Blue Lake} from Resting Grounds, approach Quirrel at the shore, and sit beside him through the final conversation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MOURNER",
+      "displayName": "Solace",
+      "description": "Bring peace to the Grey Mourner",
+      "hidden": false,
+      "globalPercent": 20.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "prerequisites": [
+        "TRAITOR_LORD"
+      ],
+      "confidence": "verified",
+      "summary": "Carry @npc{Grey Mourner}'s Delicate Flower to the grave in Queen's Gardens without damage or fast travel.",
+      "guide": {
+        "kind": "standard",
+        "context": "The flower breaks from any damage, Stagway ride, or Dreamgate warp. Cleared enemies remain gone until a Bench is used, so preparing the walking route first lowers the risk.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use @item{Desolate Dive} or Descending Dark to reach Grey Mourner behind breakable walls in eastern @loc{Resting Grounds}, then accept the flower."
+          },
+          {
+            "id": "s2",
+            "text": "Carry the flower to the grave of the Traitor's Child in @loc{Queen's Gardens}. Any damage destroys it, and the delivery also forbids Stag travel and Dreamgate use."
+          },
+          {
+            "id": "s3",
+            "text": "Return to @npc{Grey Mourner} and collect the final Mask Shard."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TRAITOR_LORD",
+      "displayName": "Execution",
+      "description": "Defeat the Traitor Lord",
+      "hidden": false,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "late game",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pass the Shade Gate in Queen's Gardens and defeat @enemy{Traitor Lord}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The arena guards the White Lady and one half of Kingsoul, making this fight part of the Void Heart route.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Obtain @item{Shade Cloak} in the Abyss, cross the Shade Gate in eastern @loc{Queen's Gardens}, and defeat @enemy{Traitor Lord}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STAG_STATION_HALF",
+      "displayName": "Connection",
+      "description": "Open half of Hallownest's Stag Stations",
+      "hidden": false,
+      "globalPercent": 48.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open any 6 of Hallownest's 11 @loc{Stag Stations} by paying their tolls and ringing the bells.",
+      "guide": {
+        "kind": "standard",
+        "context": "A station counts only after its toll gate opens and the bell summons the Last Stag.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open six stations while exploring; early options include Dirtmouth, Forgotten Crossroads, Greenpath, Queen's Station, City Storerooms, and Resting Grounds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STAG_STATION_ALL",
+      "displayName": "Hope",
+      "description": "Open all of Hallownest's Stag Stations and discover the Stag Nest",
+      "hidden": false,
+      "globalPercent": 32.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "late-game cleanup",
+      "estMinutes": 240,
+      "stage": 2,
+      "prerequisites": [
+        "STAG_STATION_HALF"
+      ],
+      "confidence": "verified",
+      "summary": "Open the complete Stagway network and travel with @npc{Last Stag} to @loc{Stag Nest}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The network includes Dirtmouth, Forgotten Crossroads, Greenpath, Queen's Station, Queen's Gardens, City Storerooms, King's Station, Resting Grounds, Distant Village, and Hidden Station before Stag Nest is discovered.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pay every station toll, ring every bell, and speak to the Last Stag after the ten reachable network stations are open."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @loc{Stag Nest} from the travel menu and enter the nest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TEACHER",
+      "displayName": "Teacher",
+      "description": "Destroy Monomon the Teacher",
+      "hidden": false,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat Uumuu, Dream Nail @npc{Monomon the Teacher}, and absorb her in Teacher's Archives.",
+      "guide": {
+        "kind": "standard",
+        "context": "Quirrel removes Monomon's protective seal only after helping expose Uumuu during the preceding boss fight.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach @loc{Teacher's Archives} in Fog Canyon and defeat @enemy{Uumuu} with @npc{Quirrel}'s help."
+          },
+          {
+            "id": "s2",
+            "text": "After Quirrel removes the seal, use the @item{Dream Nail} on Monomon and strike her dream form until she is absorbed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WATCHER",
+      "displayName": "Watcher",
+      "description": "Destroy Lurien the Watcher",
+      "hidden": false,
+      "globalPercent": 37.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "story",
+      "estMinutes": 35,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat Watcher Knights, Dream Nail @npc{Lurien the Watcher}, and absorb him in Watcher's Spire.",
+      "guide": {
+        "kind": "standard",
+        "context": "Breaking the ceiling before the Watcher Knights arena lets the Knight drop a chandelier and permanently remove one knight from the battle.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb @loc{Watcher's Spire} in City of Tears and defeat @enemy{Watcher Knights}."
+          },
+          {
+            "id": "s2",
+            "text": "Reach Lurien's chamber above the arena, use the @item{Dream Nail} on Lurien, and strike his dream form until he is absorbed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BEAST",
+      "displayName": "Beast",
+      "description": "Destroy Herrah the Beast",
+      "hidden": false,
+      "globalPercent": 38.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Find @npc{Herrah the Beast} in Beast's Den, Dream Nail her, and absorb her.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beast's Den is entered from Distant Village in Deepnest; sitting on the marked Bench triggers the route into the den.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the large building in @loc{Distant Village}, sit on the Bench, and traverse @loc{Beast's Den} to Herrah's chamber."
+          },
+          {
+            "id": "s2",
+            "text": "Use the @item{Dream Nail} on Herrah and strike her dream form until she is absorbed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MAP",
+      "displayName": "Cartographer",
+      "description": "Acquire a map of each area",
+      "hidden": false,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 360,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Buy the 13 maps for every mapped area from @npc{Cornifer} or @npc{Iselda}.",
+      "guide": {
+        "kind": "standard",
+        "context": "If Cornifer leaves an area before a purchase, his map appears in Iselda's Dirtmouth shop at a slightly higher price, so no map is permanently missable.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy maps for Ancient Basin, City of Tears, Crystal Peak, Deepnest, Fog Canyon, Forgotten Crossroads, and Fungal Wastes."
+          },
+          {
+            "id": "s2",
+            "text": "Purchase the six remaining area maps: Royal Waterways, Resting Grounds, Greenpath, Queen's Gardens, Kingdom's Edge, and Howling Cliffs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLOSSEUM_1",
+      "displayName": "Warrior",
+      "description": "Complete the Trial of the Warrior",
+      "hidden": false,
+      "globalPercent": 37.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete @mechanic{Trial of the Warrior} at the Colosseum of Fools.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Colosseum sits at the top of Kingdom's Edge; this first trial also awards a Charm Notch.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Inspect the first trial board, pay the entry fee, enter the arena, and survive every wave through the final enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLOSSEUM_2",
+      "displayName": "Conqueror",
+      "description": "Complete the Trial of the Conqueror",
+      "hidden": false,
+      "globalPercent": 34.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20-30 min",
+      "estMinutes": 25,
+      "stage": 3,
+      "prerequisites": [
+        "COLOSSEUM_1"
+      ],
+      "confidence": "verified",
+      "summary": "Complete @mechanic{Trial of the Conqueror} at the Colosseum of Fools.",
+      "guide": {
+        "kind": "standard",
+        "context": "This trial becomes available after Trial of the Warrior and awards a Pale Ore on the first clear.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Inspect the second trial board, pay the entry fee, and survive every wave through the Oblobbles boss fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLOSSEUM_3",
+      "displayName": "Fool",
+      "description": "Complete the Trial of the Fool",
+      "hidden": false,
+      "globalPercent": 20.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "prerequisites": [
+        "COLOSSEUM_2"
+      ],
+      "confidence": "verified",
+      "summary": "Complete @mechanic{Trial of the Fool} at the Colosseum of Fools.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final trial contains extended wall-only sections and ends with God Tamer; late health, Soul, Nail, and Charm upgrades substantially reduce the difficulty.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Inspect the third trial board, pay the entry fee, and survive every wave through the @enemy{God Tamer} fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_A",
+      "displayName": "The Hollow Knight",
+      "description": "Defeat the Hollow Knight and become the Vessel.",
+      "hidden": true,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story ending",
+      "estMinutes": 30,
+      "stage": 1,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Before acquiring Void Heart, destroy the three Dreamers and defeat @enemy{the Hollow Knight}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Acquiring @item{Void Heart} permanently removes this ending from the save. Completing an ending reloads the profile at the Black Egg Bench, so cleanup remains available.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Absorb @npc{Monomon}, @npc{Lurien}, and @npc{Herrah}, then enter the opened @loc{Temple of the Black Egg} without Void Heart."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{the Hollow Knight} and complete the ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_B",
+      "displayName": "Sealed Siblings",
+      "description": "Defeat the Hollow Knight with Hornet by your side.",
+      "hidden": true,
+      "globalPercent": 18.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "ending",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "VOID"
+      ],
+      "confidence": "verified",
+      "summary": "With Void Heart, keep attacking the restrained Hollow Knight and complete the Sealed Siblings ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hornet's restraint creates two branches: normal Nail attacks continue this ending, while the Awoken Dream Nail leads to the Radiance instead.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Acquire @item{Void Heart}, enter the Black Egg, and fight @enemy{the Hollow Knight} until @npc{Hornet} pins the boss."
+          },
+          {
+            "id": "s2",
+            "text": "Use normal Nail attacks instead of the Dream Nail, then finish the Hollow Knight after Hornet is knocked aside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_C",
+      "displayName": "Dream No More",
+      "description": "Defeat the Radiance and consume the light.",
+      "hidden": true,
+      "globalPercent": 20.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "ending",
+      "estMinutes": 30,
+      "stage": 3,
+      "prerequisites": [
+        "VOID",
+        "AWAKENING"
+      ],
+      "confidence": "verified",
+      "summary": "With Void Heart and the Awoken Dream Nail, enter the Hollow Knight's dream and defeat @enemy{the Radiance}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Dream Nail must be awakened at 1800 Essence; an ordinary Dream Nail cannot open the Radiance fight.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight @enemy{the Hollow Knight} until @npc{Hornet} pins the boss, then use the @item{Awoken Dream Nail} on the restrained Hollow Knight."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{the Radiance} and complete the Dream No More ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "VOID",
+      "displayName": "Void",
+      "description": "Remember the past and unite the Abyss.",
+      "hidden": true,
+      "globalPercent": 25.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "late-game quest",
+      "estMinutes": 180,
+      "stage": 2,
+      "prerequisites": [
+        "ENDING_A",
+        "AWAKENING",
+        "TRAITOR_LORD"
+      ],
+      "confidence": "verified",
+      "summary": "Transform @item{Kingsoul} into @item{Void Heart} at the Birthplace in the Abyss.",
+      "guide": {
+        "kind": "standard",
+        "context": "Void Heart is permanent and locks the basic Hollow Knight ending, so earn that ending first.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Receive one @item{White Fragment} from the White Lady beyond Traitor Lord and one from the end of White Palace to form Kingsoul."
+          },
+          {
+            "id": "s2",
+            "text": "Equip @item{Kingsoul}, descend to the west side of the Abyss floor, and enter the Birthplace revealed by the shaking ground."
+          },
+          {
+            "id": "s3",
+            "text": "Reach the black egg at the end and strike the egg with the @item{Dream Nail} to create @item{Void Heart}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPEEDRUN_1",
+      "displayName": "Speedrun 1",
+      "description": "Complete the game in under 10 hours",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "under 10 hours",
+      "estMinutes": 300,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Complete any Hollow Knight ending before the save-file timer reaches 10 hours.",
+      "guide": {
+        "kind": "standard",
+        "context": "The cited five-hour route also satisfies this threshold, and opening the pause menu stops the in-game timer while route notes are checked.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take @item{Fury of the Fallen} from King's Pass. Defeat @enemy{False Knight}, finish the Vengeful Spirit lesson and collect @item{Soul Catcher}, defeat @enemy{Hornet Protector} for Mothwing Cloak, and obtain Mantis Claw. Enter City of Tears with the City Crest, buy the first Nail upgrade, collect @item{Spell Twister}, defeat @enemy{Soul Master} for Desolate Dive, and pick up the City Simple Key."
+          },
+          {
+            "id": "s2",
+            "text": "Have 2260 Geo ready, defeat @enemy{Gruz Mother}, and free @npc{Sly}. Buy @item{Steady Body} from Sly, then obtain @item{Shaman Stone} and Salubra's first Charm Notch before buying @item{Lumafly Lantern} from Sly. Equip Shaman Stone with Spell Twister, then collect Crystal Heart, Descending Dark, and the Dream Nail in that order."
+          },
+          {
+            "id": "s3",
+            "text": "Use the @item{Simple Key} at the City manhole to enter Royal Waterways, defeat @enemy{Dung Defender}, operate the lever beyond him, and collect Isma's Tear. Reach Watcher Spire with the background-object pogo below it, or detour through Broken Vessel for Monarch Wings; drop the chandelier before defeating Watcher Knights and absorbing Lurien."
+          },
+          {
+            "id": "s4",
+            "text": "Defeat Uumuu and absorb Monomon, enter Beast's Den from Distant Village and absorb Herrah, then defeat @enemy{the Hollow Knight} before 10:00:00 appears on the save file."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPEEDRUN_2",
+      "displayName": "Speedrun 2",
+      "description": "Complete the game in under 5 hours",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "under 5 hours",
+      "estMinutes": 240,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Complete any Hollow Knight ending before the save-file timer reaches 5 hours.",
+      "guide": {
+        "kind": "standard",
+        "context": "The beginner route invests time in Shaman Stone, Spell Twister, Descending Dark, and safety Benches so the mandatory bosses are faster and failed segments cost less time.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect @item{Fury of the Fallen} in King's Pass, defeat @enemy{False Knight}, and finish the Vengeful Spirit tutorial for @item{Soul Catcher}. Defeat @enemy{Hornet Protector} for Mothwing Cloak, obtain Mantis Claw, enter City of Tears with the City Crest, buy one Nail upgrade, collect @item{Spell Twister}, defeat @enemy{Soul Master} for Desolate Dive, and take the City Simple Key."
+          },
+          {
+            "id": "s2",
+            "text": "Reserve 2260 Geo, defeat @enemy{Gruz Mother}, and send @npc{Sly} back to Dirtmouth. Purchase @item{Steady Body} from Sly, then buy @item{Shaman Stone} and Salubra's first Charm Notch; finish the budget with @item{Lumafly Lantern} from Sly. Equip Shaman Stone and Spell Twister, collect Crystal Heart, detour to Crystallised Mound for Descending Dark, and take the Dream Nail afterward."
+          },
+          {
+            "id": "s3",
+            "text": "Unlock Royal Waterways at the City manhole with the @item{Simple Key}, defeat @enemy{Dung Defender}, operate his route lever, and collect Isma's Tear. Access Watcher Spire with the documented background-object pogo below it; if that jump is unreliable, defeat Broken Vessel and take Monarch Wings instead."
+          },
+          {
+            "id": "s4",
+            "text": "Drop the chandelier before Watcher Knights, defeat them, and absorb Lurien. Defeat Uumuu and absorb Monomon, traverse Beast's Den from Distant Village to absorb Herrah, then defeat @enemy{the Hollow Knight} before 5:00:00."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETION",
+      "displayName": "Completion",
+      "description": "Achieve 100% game completion and finish the game",
+      "hidden": false,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "30-45 hours",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach at least 100% completion and then complete any ending on the same save.",
+      "guide": {
+        "kind": "standard",
+        "context": "The current maximum is 112%, and the 100% can use any mixture of base-game and content-pack percentage points.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After obtaining @item{World Sense}, check the inventory percentage and collect bosses, equipment, spells, Charms, upgrades, Dreamers, trials, Essence rewards, Grimm content, or Pantheons until the counter is at least 100%."
+          },
+          {
+            "id": "s2",
+            "text": "Enter an available final route and complete the ending; reaching 100% alone does not trigger the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPEED_COMPLETION",
+      "displayName": "Speed Completion",
+      "description": "Achieve 100% game completion and finish the game in under 20 hours",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "under 20 hours",
+      "estMinutes": 1140,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Reach at least 100% and complete an ending before the save timer reaches 20 hours.",
+      "guide": {
+        "kind": "collectible",
+        "context": "This route uses exactly 100 of 112 points: 14+7+2+32+14+6+3+3+2+4+2+3+6+1+1+0. The checklist names every included source and marks all 12 omissions.",
+        "collectibles": [
+          {
+            "id": "sc01",
+            "index": 1,
+            "name": "Base-game bosses — 14%",
+            "location": "Across @loc{Hallownest}",
+            "method": "Defeat Broken Vessel, Brooding Mawlek, the Collector, Dung Defender, False Knight, Gruz Mother, Hornet Protector, Hornet Sentinel, Mantis Lords, Nosk, Soul Master, Traitor Lord, Uumuu, and Watcher Knights."
+          },
+          {
+            "id": "sc02",
+            "index": 2,
+            "name": "Warrior Dreams — 7%",
+            "location": "Dream graves",
+            "method": "Defeat Elder Hu, Galien, Gorb, Markoth, Marmu, No Eyes, and Xero."
+          },
+          {
+            "id": "sc03",
+            "index": 3,
+            "name": "Colosseum — 2% of 3%",
+            "location": "@loc{Colosseum of Fools}",
+            "method": "Complete Trial of the Warrior and Trial of the Conqueror; omit Trial of the Fool for one skipped point."
+          },
+          {
+            "id": "sc04",
+            "index": 4,
+            "name": "Charms — 32% of 36%",
+            "location": "Charm collection",
+            "method": "Collect Dream Wielder, Nailmaster's Glory, Shape of Unn, Sharp Shadow, Spore Shroom, Hiveblood, Grubsong, Joni's Blessing, Lifeblood Heart, Quick Focus, Glowing Womb, Defender's Crest, Flukenest, Baldur Shell, Mark of Pride, Longnail, Quick Slash, Heavy Blow, Steady Body, Spell Twister, the Fragile or Unbreakable versions of Strength, Greed, and Heart, Fury of the Fallen from King's Pass, Thorns of Agony from Greenpath, Dashmaster from Fungal Wastes, Soul Eater, Shaman Stone, Soul Catcher, Stalwart Shell, Gathering Swarm, and Wayward Compass. Omit Deep Focus, Lifeblood Core, Grubberfly's Elegy, and Kingsoul or Void Heart. Each Heart, Greed, or Strength point counts only while its Fragile version is in the inventory or after the Unbreakable upgrade; Divine's temporary possession removes that point."
+          },
+          {
+            "id": "sc05",
+            "index": 5,
+            "name": "Equipment — 14%",
+            "location": "Movement routes",
+            "method": "Acquire Crystal Heart, Isma's Tear, King's Brand, Mantis Claw, Monarch Wings, Mothwing Cloak, and Shade Cloak; each contributes 2%."
+          },
+          {
+            "id": "sc06",
+            "index": 6,
+            "name": "Spells — 6%",
+            "location": "Spell locations",
+            "method": "Acquire Desolate Dive, Descending Dark, Howling Wraiths, Abyss Shriek, Vengeful Spirit, and Shade Soul."
+          },
+          {
+            "id": "sc07",
+            "index": 7,
+            "name": "Nail Arts — 3%",
+            "location": "Nailmaster huts",
+            "method": "Learn Cyclone Slash from Mato, Dash Slash from Oro, and Great Slash from Sheo."
+          },
+          {
+            "id": "sc08",
+            "index": 8,
+            "name": "Mask upgrades — 3% of 4%",
+            "location": "Mask Shard collection",
+            "method": "Form three Ancient Masks from 12 Mask Shards; omit the fourth upgrade and its final four shards."
+          },
+          {
+            "id": "sc09",
+            "index": 9,
+            "name": "Vessel upgrades — 2% of 3%",
+            "location": "Vessel Fragment collection",
+            "method": "Form two Soul Vessels from 6 Vessel Fragments; omit the third upgrade and its final three fragments."
+          },
+          {
+            "id": "sc10",
+            "index": 10,
+            "name": "Nail upgrades — 4%",
+            "location": "@npc{Nailsmith}",
+            "method": "Forge the Sharpened Nail, Channelled Nail, Coiled Nail, and Pure Nail."
+          },
+          {
+            "id": "sc11",
+            "index": 11,
+            "name": "Dream Nail and Essence — 2% of 3%",
+            "location": "@loc{Resting Grounds}",
+            "method": "Receive the Dream Nail and awaken it at 1800 Essence; omit Seer's final 2400-Essence milestone."
+          },
+          {
+            "id": "sc12",
+            "index": 12,
+            "name": "Dreamers — 3%",
+            "location": "Dreamer chambers",
+            "method": "Absorb Herrah the Beast, Lurien the Watcher, and Monomon the Teacher."
+          },
+          {
+            "id": "sc13",
+            "index": 13,
+            "name": "Grimm Troupe — 6%",
+            "location": "Content-pack routes",
+            "method": "Collect Dreamshield, Grimmchild or Carefree Melody, Sprintmaster, and Weaversong; defeat Troupe Master Grimm, then choose Banishment for the Nightmare King Grimm or Banishment point."
+          },
+          {
+            "id": "sc14",
+            "index": 14,
+            "name": "Hive Knight — 1%",
+            "location": "@loc{The Hive}",
+            "method": "Defeat Hive Knight."
+          },
+          {
+            "id": "sc15",
+            "index": 15,
+            "name": "Godtuner — 1%",
+            "location": "@loc{Junk Pit}",
+            "method": "Open Godseeker's cocoon and collect Godtuner."
+          },
+          {
+            "id": "sc16",
+            "index": 16,
+            "name": "Pantheons — omit 4%",
+            "location": "@loc{Godhome}",
+            "method": "Skip Pantheons of the Master, Artist, Sage, and Knight; these are the final four omitted points."
+          },
+          {
+            "id": "sc17",
+            "index": 17,
+            "name": "Ending trigger",
+            "location": "An available ending route",
+            "method": "Use @item{World Sense} to verify at least 100%, then complete any ending before 20:00:00 appears on the save file."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STEELSOUL",
+      "displayName": "Steel Soul",
+      "description": "Finish the game in Steel Soul mode",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "5-15 hours",
+      "estMinutes": 480,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Complete any ending on a @mechanic{Steel Soul} save without suffering a permanent death.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dream Boss and Godhome deaths are safe, but ordinary world deaths, White Palace deaths, Radiance deaths, and death inside the Lifeblood Core room delete the run.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After finishing the game once, choose @mechanic{Steel Soul} when creating a save and follow a safe Dreamer route."
+          },
+          {
+            "id": "s2",
+            "text": "Absorb the three Dreamers and defeat @enemy{the Hollow Knight} without a permanent death."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STEELSOUL_COMPLETION",
+      "displayName": "Steel Heart",
+      "description": "Achieve 100% game completion and finish the game in Steel Soul mode",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "10-20 hours",
+      "estMinutes": 900,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Reach at least 100% and complete an ending on the same Steel Soul save.",
+      "guide": {
+        "kind": "collectible",
+        "context": "This Steel Soul route totals exactly 100 points: 14+7+2+32+14+6+3+3+2+4+2+3+6+1+1+0. It omits White Palace's Charm point and the lethal Lifeblood Core room.",
+        "collectibles": [
+          {
+            "id": "sh01",
+            "index": 1,
+            "name": "Base-game bosses — 14%",
+            "location": "Across @loc{Hallownest}",
+            "method": "Defeat Broken Vessel, Brooding Mawlek, the Collector, Dung Defender, False Knight, Gruz Mother, Hornet Protector, Hornet Sentinel, Mantis Lords, Nosk, Soul Master, Traitor Lord, Uumuu, and Watcher Knights without a permanent death."
+          },
+          {
+            "id": "sh02",
+            "index": 2,
+            "name": "Warrior Dreams — 7%",
+            "location": "Dream graves",
+            "method": "Defeat Elder Hu, Galien, Gorb, Markoth, Marmu, No Eyes, and Xero; deaths in these dreams do not delete the Steel Soul file."
+          },
+          {
+            "id": "sh03",
+            "index": 3,
+            "name": "Colosseum — 2% of 3%",
+            "location": "@loc{Colosseum of Fools}",
+            "method": "Complete Trial of the Warrior and Trial of the Conqueror; omit Trial of the Fool."
+          },
+          {
+            "id": "sh04",
+            "index": 4,
+            "name": "Charms — 32% of 36%",
+            "location": "Charm collection",
+            "method": "Collect Dream Wielder, Nailmaster's Glory, Shape of Unn, Sharp Shadow, Spore Shroom, Hiveblood, Grubsong, Joni's Blessing, Lifeblood Heart, Quick Focus, Glowing Womb, Defender's Crest, Flukenest, Baldur Shell, Mark of Pride, Longnail, Quick Slash, Heavy Blow, Steady Body, Spell Twister, the Fragile or Unbreakable versions of Strength, Greed, and Heart, Fury of the Fallen from King's Pass, Thorns of Agony from Greenpath, Dashmaster from Fungal Wastes, Soul Eater, Shaman Stone, Soul Catcher, Stalwart Shell, Gathering Swarm, and Wayward Compass. Omit Deep Focus, Lifeblood Core, Grubberfly's Elegy, and Kingsoul or Void Heart. Count each Heart, Greed, or Strength point only while its Fragile version is in the inventory or after the Unbreakable upgrade; a Charm held by Divine contributes zero."
+          },
+          {
+            "id": "sh05",
+            "index": 5,
+            "name": "Equipment — 14%",
+            "location": "Movement routes",
+            "method": "Acquire Crystal Heart, Isma's Tear, King's Brand, Mantis Claw, Monarch Wings, Mothwing Cloak, and Shade Cloak; each contributes 2%."
+          },
+          {
+            "id": "sh06",
+            "index": 6,
+            "name": "Spells — 6%",
+            "location": "Spell locations",
+            "method": "Acquire Desolate Dive, Descending Dark, Howling Wraiths, Abyss Shriek, Vengeful Spirit, and Shade Soul."
+          },
+          {
+            "id": "sh07",
+            "index": 7,
+            "name": "Nail Arts — 3%",
+            "location": "Nailmaster huts",
+            "method": "Learn Cyclone Slash from Mato, Dash Slash from Oro, and Great Slash from Sheo."
+          },
+          {
+            "id": "sh08",
+            "index": 8,
+            "name": "Mask upgrades — 3% of 4%",
+            "location": "Mask Shard collection",
+            "method": "Form three Ancient Masks from 12 Mask Shards; omit the fourth upgrade."
+          },
+          {
+            "id": "sh09",
+            "index": 9,
+            "name": "Vessel upgrades — 2% of 3%",
+            "location": "Vessel Fragment collection",
+            "method": "Form two Soul Vessels from 6 Vessel Fragments; omit the third upgrade."
+          },
+          {
+            "id": "sh10",
+            "index": 10,
+            "name": "Nail upgrades — 4%",
+            "location": "@npc{Nailsmith}",
+            "method": "Forge the Sharpened Nail, Channelled Nail, Coiled Nail, and Pure Nail."
+          },
+          {
+            "id": "sh11",
+            "index": 11,
+            "name": "Dream Nail and Essence — 2% of 3%",
+            "location": "@loc{Resting Grounds}",
+            "method": "Receive the Dream Nail and awaken it at 1800 Essence; omit Seer's final 2400-Essence milestone."
+          },
+          {
+            "id": "sh12",
+            "index": 12,
+            "name": "Dreamers — 3%",
+            "location": "Dreamer chambers",
+            "method": "Absorb Herrah the Beast, Lurien the Watcher, and Monomon the Teacher."
+          },
+          {
+            "id": "sh13",
+            "index": 13,
+            "name": "Grimm Troupe — 6%",
+            "location": "Content-pack routes",
+            "method": "Collect Dreamshield, Grimmchild or Carefree Melody, Sprintmaster, and Weaversong; defeat Troupe Master Grimm, then choose Banishment for the final Grimm percentage point."
+          },
+          {
+            "id": "sh14",
+            "index": 14,
+            "name": "Hive Knight — 1%",
+            "location": "@loc{The Hive}",
+            "method": "Defeat Hive Knight without a permanent death."
+          },
+          {
+            "id": "sh15",
+            "index": 15,
+            "name": "Godtuner — 1%",
+            "location": "@loc{Junk Pit}",
+            "method": "Open Godseeker's cocoon and collect Godtuner."
+          },
+          {
+            "id": "sh16",
+            "index": 16,
+            "name": "Pantheons — omit 4%",
+            "location": "@loc{Godhome}",
+            "method": "Skip Pantheons of the Master, Artist, Sage, and Knight; these account for four omitted points."
+          },
+          {
+            "id": "sh17",
+            "index": 17,
+            "name": "Ending trigger",
+            "location": "@loc{Temple of the Black Egg}",
+            "method": "After @item{World Sense} confirms 100%, defeat @enemy{the Hollow Knight} without a permanent death. Steel Soul and Steel Heart can unlock together after this ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HUNTER_1",
+      "displayName": "Keen Hunter",
+      "description": "Record all of Hallownest's creatures in the Hunter's Journal",
+      "hidden": false,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20-35 hours",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Record all 146 required creatures in the @item{Hunter's Journal}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Journal can contain 164 counted entries, but content-pack bosses and several special entries are excluded from the achievement requirement. World Sense displays the required total.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Listen to @npc{the Hunter} in @loc{Greenpath} and pick up the Hunter's Journal."
+          },
+          {
+            "id": "s2",
+            "text": "Encounter or defeat every required creature until the World Sense Journal counter shows 146 required entries recorded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HUNTER_2",
+      "displayName": "True Hunter",
+      "description": "Receive the Hunter's Mark",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "25-40 hours",
+      "estMinutes": 1500,
+      "stage": 2,
+      "prerequisites": [
+        "HUNTER_1"
+      ],
+      "confidence": "verified",
+      "summary": "Complete the Hunter's Notes for every required Journal creature and receive @item{Hunter's Mark}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recording an enemy starts its entry; True Hunter additionally requires the kill quota printed beneath each required entry.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open every required @item{Hunter's Journal} entry and defeat the listed creature until each required kill counter is complete."
+          },
+          {
+            "id": "s2",
+            "text": "Return to @npc{the Hunter} in Greenpath and exhaust his dialogue to receive @item{Hunter's Mark}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MR_MUSHROOM",
+      "displayName": "Passing of the Age",
+      "description": "Help the Herald move on.",
+      "hidden": true,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "prerequisites": [
+        "TEACHER",
+        "WATCHER",
+        "BEAST"
+      ],
+      "confidence": "verified",
+      "summary": "After the three Dreamers, speak to Mister Mushroom at seven locations with Spore Shroom equipped, then finish an ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "Without @item{Spore Shroom}, Mister Mushroom's speech is unreadable and he does not advance. The achievement appears only after the post-ending secret scene.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip @item{Spore Shroom} and exhaust Mister Mushroom's dialogue in order at Fungal Wastes, then Kingdom's Edge near Isma's Grove, then Deepnest near Galien."
+          },
+          {
+            "id": "s2",
+            "text": "Continue in order at @npc{Mato}'s hut in Howling Cliffs, Ancient Basin near Monarch Wings, Fog Canyon near Overgrown Mound, and King's Pass."
+          },
+          {
+            "id": "s3",
+            "text": "Complete any ending and watch the additional Mister Mushroom scene through the achievement trigger."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DREAM_SOUL_MASTER_DEFEAT",
+      "displayName": "Mortality",
+      "description": "Defeat the Soul Tyrant.",
+      "hidden": true,
+      "globalPercent": 23.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "late game",
+      "estMinutes": 25,
+      "stage": 2,
+      "prerequisites": [
+        "SOUL_MASTER_DEFEAT",
+        "ATTUNEMENT"
+      ],
+      "confidence": "verified",
+      "summary": "Dream Nail Soul Master's corpse in Soul Sanctum and defeat @enemy{Soul Tyrant}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The corpse remains in the original Soul Master arena after Desolate Dive is collected; a dream death has no Steel Soul penalty.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Return to the top of @loc{Soul Sanctum} with the @item{Dream Nail} and use the Dream Nail on Soul Master's corpse."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Soul Tyrant} inside the dream."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WHITE_DEFENDER",
+      "displayName": "Memory",
+      "description": "Defeat the White Defender.",
+      "hidden": true,
+      "globalPercent": 18.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "late game",
+      "estMinutes": 25,
+      "stage": 2,
+      "prerequisites": [
+        "DUNG_DEFENDER",
+        "TEACHER",
+        "WATCHER",
+        "BEAST"
+      ],
+      "confidence": "verified",
+      "summary": "Dream Nail the sleeping Dung Defender beneath Royal Waterways and defeat @enemy{White Defender}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hidden dream becomes available after Dung Defender and the three Dreamers have been defeated.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use @item{Desolate Dive} or Descending Dark beneath the pump room near Dung Defender's arena in @loc{Royal Waterways}."
+          },
+          {
+            "id": "s2",
+            "text": "Use the @item{Dream Nail} on the sleeping Dung Defender and defeat @enemy{White Defender}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GREY_PRINCE",
+      "displayName": "Dark Romance",
+      "description": "Defeat Grey Prince Zote.",
+      "hidden": true,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "quest chain",
+      "estMinutes": 30,
+      "stage": 2,
+      "lockoutStage": 2,
+      "prerequisites": [
+        "ZOTE"
+      ],
+      "confidence": "verified",
+      "summary": "Dream Nail the Zote statue in Bretta's basement and defeat @enemy{Grey Prince Zote} once.",
+      "guide": {
+        "kind": "standard",
+        "context": "The statue appears only after Zote is rescued in Greenpath and Deepnest, Bretta is rescued, and Zote is defeated in Trial of the Warrior.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete the Zote rescue chain and rescue @npc{Bretta} from Fungal Wastes."
+          },
+          {
+            "id": "s2",
+            "text": "Enter Bretta's basement in @loc{Dirtmouth}, use the @item{Dream Nail} on the Zote statue, and defeat @enemy{Grey Prince Zote}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GRIMM",
+      "displayName": "Grand Performance",
+      "description": "Defeat Troupe Master Grimm.",
+      "hidden": true,
+      "globalPercent": 26.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "quest chain",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Summon the Grimm Troupe, collect six marked flames with Grimmchild, and defeat @enemy{Troupe Master Grimm}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grimmchild must be equipped for Grimmkin and flame markers to appear; the quest's first boss awards a Charm Notch.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Howling Cliffs}, pass the breakable walls, Dream Nail the large corpse, return to the torch room, and strike the brazier until the Nightmare Lantern ignites."
+          },
+          {
+            "id": "s2",
+            "text": "Speak to @npc{Grimm} in Dirtmouth, equip @item{Grimmchild}, defeat the three marked Grimmkin Novices, return to Grimm, then defeat the three marked Grimmkin Masters."
+          },
+          {
+            "id": "s3",
+            "text": "Return to Grimm's tent and defeat @enemy{Troupe Master Grimm}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NIGHTMARE_GRIMM",
+      "displayName": "Ritual",
+      "description": "Defeat the Nightmare King and complete the Ritual.",
+      "hidden": true,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "1-4 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "lockoutStage": 4,
+      "prerequisites": [
+        "GRIMM"
+      ],
+      "confidence": "verified",
+      "summary": "Collect three final Grimmkin flames, Dream Nail sleeping Grimm, and defeat @enemy{Nightmare King Grimm}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Following this route completes the Ritual and permanently excludes Banishment from the same save.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Troupe Master Grimm, equip @item{Grimmchild} and defeat three of the final flame-bearing Grimmkin Nightmares."
+          },
+          {
+            "id": "s2",
+            "text": "Return to the large Dirtmouth tent, use the @item{Dream Nail} on sleeping @npc{Grimm}, and defeat @enemy{Nightmare King Grimm}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BANISHMENT",
+      "displayName": "Banishment",
+      "description": "Banish the Grimm Troupe from Hallownest.",
+      "hidden": true,
+      "globalPercent": 8.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "final quest phase",
+      "estMinutes": 30,
+      "stage": 5,
+      "lockoutStage": 5,
+      "prerequisites": [
+        "GRIMM"
+      ],
+      "confidence": "verified",
+      "summary": "Meet @npc{Brumm} in Deepnest, then break the Nightmare Lantern brazier in Howling Cliffs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Banishment replaces Nightmare King Grimm and is permanently lost if the lantern room is left after Brumm's proposal but before the brazier is broken.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "During the final Grimmchild flame phase, visit @npc{Brumm} at the marked flame in @loc{Deepnest} and exhaust his dialogue."
+          },
+          {
+            "id": "s2",
+            "text": "Return to the @loc{Howling Cliffs} Nightmare Lantern, meet Brumm, and repeatedly strike the brazier until the lantern breaks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PANTHEON1",
+      "displayName": "Brotherhood",
+      "description": "Complete the Pantheon of the Master.",
+      "hidden": true,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "30-90 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Enter Godhome and complete @mechanic{Pantheon of the Master}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Free Godseeker's cocoon in Junk Pit with a Simple Key, then Dream Nail Godseeker. Door symbols show any overworld bosses that still need tuning.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use Desolate Dive below the Royal Waterways Bench, enter @loc{Junk Pit}, unlock @npc{Godseeker}'s cocoon with a @item{Simple Key}, and use the @item{Dream Nail} on Godseeker."
+          },
+          {
+            "id": "s2",
+            "text": "Tune any missing bosses shown on the first door, then defeat all 10 fights in Pantheon of the Master, ending with @enemy{Brothers Oro & Mato}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PANTHEON2",
+      "displayName": "Inspiration",
+      "description": "Complete the Pantheon of the Artist.",
+      "hidden": true,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "30-90 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "prerequisites": [
+        "PANTHEON1"
+      ],
+      "confidence": "verified",
+      "summary": "Complete @mechanic{Pantheon of the Artist} in Godhome.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pantheon Benches and hot springs split the sequence for healing and Charm changes, but they are not respawn checkpoints after a loss.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Tune any missing bosses shown on the second door, then defeat all 10 fights in Pantheon of the Artist, ending with @enemy{Paintmaster Sheo}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PANTHEON3",
+      "displayName": "Focus",
+      "description": "Complete the Pantheon of the Sage.",
+      "hidden": true,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "1-3 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "prerequisites": [
+        "PANTHEON2"
+      ],
+      "confidence": "verified",
+      "summary": "Complete @mechanic{Pantheon of the Sage} in Godhome.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grey Prince Zote joins this Pantheon only on saves where Zote was rescued, making the Neglect save's version shorter.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Tune every boss required by the third door, then defeat the Pantheon of the Sage sequence, ending with @enemy{Great Nailsage Sly}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PANTHEON4",
+      "displayName": "Soul & Shade",
+      "description": "Complete the Pantheon of the Knight.",
+      "hidden": true,
+      "globalPercent": 9.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "2-5 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "prerequisites": [
+        "PANTHEON3"
+      ],
+      "confidence": "verified",
+      "summary": "Complete @mechanic{Pantheon of the Knight} in Godhome.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing the fourth Pantheon opens Godhome's upper level and the entrance to Pantheon of Hallownest.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Tune every boss required by the fourth door, then defeat the Pantheon of the Knight sequence, ending with @enemy{Pure Vessel}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDINGD",
+      "displayName": "Embrace the Void",
+      "description": "Ascend the Pantheon of Hallownest and take your place at its peak.",
+      "hidden": true,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 10,
+      "estTime": "5-20 hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "prerequisites": [
+        "PANTHEON4",
+        "VOID"
+      ],
+      "confidence": "verified",
+      "summary": "With Void Heart, clear all 42 bosses in Pantheon of Hallownest and defeat @enemy{Absolute Radiance}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The fifth Pantheon requires the first four Pantheons and Void Heart. A Delicate Flower given to Godseeker changes the ending scene but awards the same achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete Pantheons of the Master, Artist, Sage, and Knight, obtain @item{Void Heart}, and open the mechanism above the fourth Pantheon."
+          },
+          {
+            "id": "s2",
+            "text": "Enter @mechanic{Pantheon of Hallownest}, defeat the full 42-boss sequence, and defeat @enemy{Absolute Radiance} at the peak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETIONGG",
+      "displayName": "Pure Completion",
+      "description": "Achieve 112% game completion and finish the game.",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "50-70 hours",
+      "estMinutes": 3000,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach 112% completion and then complete any Hollow Knight ending.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The exact ledger is 14+7+3+36+14+6+3+4+3+4+3+3+6+1+1+4 = 112. Pantheon of Hallownest adds no percentage, and World Sense shows only the current total.",
+        "collectibles": [
+          {
+            "id": "pc01",
+            "index": 1,
+            "name": "Base-game bosses — 14%",
+            "location": "Across @loc{Hallownest}",
+            "method": "Defeat Broken Vessel, Brooding Mawlek, the Collector, Dung Defender, False Knight, Gruz Mother, Hornet Protector, Hornet Sentinel, Mantis Lords, Nosk, Soul Master, Traitor Lord, Uumuu, and Watcher Knights."
+          },
+          {
+            "id": "pc02",
+            "index": 2,
+            "name": "Warrior Dreams — 7%",
+            "location": "Dream graves",
+            "method": "Defeat Elder Hu, Galien, Gorb, Markoth, Marmu, No Eyes, and Xero."
+          },
+          {
+            "id": "pc03",
+            "index": 3,
+            "name": "Colosseum — 3%",
+            "location": "@loc{Colosseum of Fools}",
+            "method": "Clear the Warrior board first, the Conqueror board second, and the Fool board third."
+          },
+          {
+            "id": "pc04",
+            "index": 4,
+            "name": "Charms — 36%",
+            "location": "Charm collection",
+            "method": "Collect Kingsoul or Void Heart, Dream Wielder, Nailmaster's Glory, Shape of Unn, Sharp Shadow, Spore Shroom, Hiveblood, Grubberfly's Elegy, Grubsong, Joni's Blessing, Lifeblood Core, Lifeblood Heart, Deep Focus, Quick Focus, Glowing Womb, Defender's Crest, Flukenest, Baldur Shell, Mark of Pride, Longnail, Quick Slash, Heavy Blow, Steady Body, Spell Twister, the Fragile or Unbreakable versions of Strength, Greed, and Heart, Fury of the Fallen from King's Pass, Thorns of Agony from Greenpath, Dashmaster from Fungal Wastes, Soul Eater, Shaman Stone, Soul Catcher, Stalwart Shell, Gathering Swarm, and Wayward Compass. Heart, Greed, and Strength each count only while the Fragile Charm is in the inventory or once its Unbreakable upgrade is complete; a Fragile Charm held by Divine contributes no percentage."
+          },
+          {
+            "id": "pc05",
+            "index": 5,
+            "name": "Equipment — 14%",
+            "location": "Movement routes",
+            "method": "Acquire Crystal Heart, Isma's Tear, King's Brand, Mantis Claw, Monarch Wings, Mothwing Cloak, and Shade Cloak; each contributes 2%."
+          },
+          {
+            "id": "pc06",
+            "index": 6,
+            "name": "Spells — 6%",
+            "location": "Spell locations",
+            "method": "Acquire Desolate Dive, Descending Dark, Howling Wraiths, Abyss Shriek, Vengeful Spirit, and Shade Soul."
+          },
+          {
+            "id": "pc07",
+            "index": 7,
+            "name": "Nail Arts — 3%",
+            "location": "Nailmaster huts",
+            "method": "Learn Cyclone Slash from Mato, Dash Slash from Oro, and Great Slash from Sheo."
+          },
+          {
+            "id": "pc08",
+            "index": 8,
+            "name": "Mask upgrades — 4%",
+            "location": "Mask Shard collection",
+            "method": "Collect all 16 Mask Shards to form four Ancient Masks."
+          },
+          {
+            "id": "pc09",
+            "index": 9,
+            "name": "Vessel upgrades — 3%",
+            "location": "Vessel Fragment collection",
+            "method": "Collect all 9 Vessel Fragments to form three Soul Vessels."
+          },
+          {
+            "id": "pc10",
+            "index": 10,
+            "name": "Nail upgrades — 4%",
+            "location": "@npc{Nailsmith}",
+            "method": "Forge the Sharpened Nail, Channelled Nail, Coiled Nail, and Pure Nail."
+          },
+          {
+            "id": "pc11",
+            "index": 11,
+            "name": "Dream Nail and Essence — 3%",
+            "location": "@loc{Resting Grounds}",
+            "method": "Receive the Dream Nail, awaken it at 1800 Essence, and hear Seer's final words at 2400 Essence."
+          },
+          {
+            "id": "pc12",
+            "index": 12,
+            "name": "Dreamers — 3%",
+            "location": "Dreamer chambers",
+            "method": "Absorb Herrah the Beast, Lurien the Watcher, and Monomon the Teacher."
+          },
+          {
+            "id": "pc13",
+            "index": 13,
+            "name": "Grimm Troupe — 6%",
+            "location": "Content-pack routes",
+            "method": "Collect Dreamshield, Grimmchild or Carefree Melody, Sprintmaster, and Weaversong; defeat Troupe Master Grimm, then complete either Nightmare King Grimm or Banishment."
+          },
+          {
+            "id": "pc14",
+            "index": 14,
+            "name": "Hive Knight — 1%",
+            "location": "@loc{The Hive}",
+            "method": "Defeat Hive Knight."
+          },
+          {
+            "id": "pc15",
+            "index": 15,
+            "name": "Godtuner — 1%",
+            "location": "@loc{Junk Pit}",
+            "method": "Open Godseeker's cocoon and collect Godtuner."
+          },
+          {
+            "id": "pc16",
+            "index": 16,
+            "name": "First four Pantheons — 4%",
+            "location": "@loc{Godhome}",
+            "method": "Complete Pantheons of the Master, Artist, Sage, and Knight; Pantheon of Hallownest is not a percentage source."
+          },
+          {
+            "id": "pc17",
+            "index": 17,
+            "name": "Ending trigger",
+            "location": "An available ending route",
+            "method": "Use @item{World Sense} to verify 112%, then complete any available ending to trigger Pure Completion."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "CHARMED",
+    "PROTECTED",
+    "SOULFUL",
+    "FK_DEFEAT",
+    "HORNET_1",
+    "SOUL_MASTER_DEFEAT",
+    "MANTIS_LORDS",
+    "DUNG_DEFENDER",
+    "BROKEN_VESSEL",
+    "STAG_STATION_HALF",
+    "TEACHER",
+    "WATCHER",
+    "BEAST",
+    "ENDING_A",
+    "ENCHANTED",
+    "BLESSED",
+    "MASKED",
+    "WORLDSOUL",
+    "COLLECTOR",
+    "ZOTE",
+    "ATTUNEMENT",
+    "DREAM_FK",
+    "DREAM_BROKEN_VESSEL",
+    "AWAKENING",
+    "ASCENSION",
+    "GRUBFRIEND",
+    "METAMORPHOSIS",
+    "NAILSMITH_SPARE",
+    "QUIRREL_EPILOGUE",
+    "TRAITOR_LORD",
+    "MOURNER",
+    "STAG_STATION_ALL",
+    "MAP",
+    "HUNTER_1",
+    "HUNTER_2",
+    "DREAM_SOUL_MASTER_DEFEAT",
+    "WHITE_DEFENDER",
+    "GREY_PRINCE",
+    "VOID",
+    "COLOSSEUM_1",
+    "COLOSSEUM_2",
+    "COLOSSEUM_3",
+    "ENDING_B",
+    "ENDING_C",
+    "MR_MUSHROOM",
+    "COMPLETION",
+    "GRIMM",
+    "NIGHTMARE_GRIMM",
+    "PANTHEON1",
+    "PANTHEON2",
+    "PANTHEON3",
+    "PANTHEON4",
+    "ENDINGD",
+    "COMPLETIONGG",
+    "NEGLECT",
+    "SPEEDRUN_1",
+    "SPEEDRUN_2",
+    "STEELSOUL",
+    "NAILSMITH_KILL",
+    "BANISHMENT",
+    "HORNET_2",
+    "SPEED_COMPLETION",
+    "STEELSOUL_COMPLETION"
+  ]
+}

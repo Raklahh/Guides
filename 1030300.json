@@ -1,0 +1,3281 @@
+{
+  "game": {
+    "appid": 1030300,
+    "slug": "hollow-knight-silksong",
+    "title": "Hollow Knight: Silksong",
+    "version": "1.0",
+    "lastPatchChecked": "2026-03-16",
+    "estTotalHours": 75,
+    "difficultyRating": 9,
+    "minPlaythroughs": 3,
+    "createdAt": "2026-07-16"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Act 1 and the missable Deep Docks duel",
+      "description": "Collect early movement and survival upgrades, grant a first Wish, defeat Lace in Deep Docks before her Citadel meeting, and enter the Citadel through Last Judge.",
+      "achievementRefs": [
+        "FIRST_TOOL",
+        "FIRST_SILK_SKILL",
+        "FIRST_CREST",
+        "FIRST_MASK",
+        "FIRST_SILK_SPOOL",
+        "FIRST_WISH",
+        "DEFEATED_BELLBEAST",
+        "DEFEATED_LACE_1",
+        "DEFEATED_SONG_GOLEM",
+        "DEFEATED_WIDOW",
+        "DEFEATED_LAST_JUDGE_1"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Act 2, Citadel song, and pre-Snare endings",
+      "description": "Clear the Citadel bosses and Wishes, establish Bellhome, then earn Weaver Queen and Twisted Child before Soul Snare permanently advances the save.",
+      "achievementRefs": [
+        "DEFEATED_COGWORK_DANCERS",
+        "DEFEATED_TROBBIO",
+        "DEFEATED_PHANTOM_1",
+        "DEFEATED_FIRST_SINNER",
+        "DEFEATED_LACE_2",
+        "CITADEL_SONG",
+        "BELLHOME",
+        "GOURMAND_WISH",
+        "SHAKRA_FINAL_QUEST",
+        "EVA_FINAL_QUEST",
+        "FLEAS_HALF",
+        "JOURNAL_HALF",
+        "ENDING_A",
+        "ENDING_D"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Soul Snare and Act 3",
+      "description": "Trigger Snared Silk, learn Beastling Call, finish the Old Hearts and Act 3 character Wishes, claim Everbloom, and defeat Lost Lace.",
+      "achievementRefs": [
+        "ENDING_C",
+        "BELLWAY_MELODY",
+        "DEFEATED_CORAL_KING",
+        "DEFEATED_FLOWER_QUEEN",
+        "DEFEATED_HUNTER_QUEEN",
+        "DEFEATED_GREEN_PRINCE",
+        "GARMOND_FINAL_QUEST",
+        "PINSTRESS_WISH",
+        "WHITE_FLOWER_GAINED",
+        "ENDING_E",
+        "HERALD_WISH"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Full-world collection and 100%",
+      "description": "Sweep every Tool, upgrade, map, station, Flea, and Journal entry. Use Farsight to verify the exact 100-point ledger before an ending.",
+      "achievementRefs": [
+        "ALL_TOOLS",
+        "ALL_SILK_SKILLS",
+        "ALL_CRESTS",
+        "ALL_MASKS",
+        "ALL_SILK_SPOOLS",
+        "ALL_SILK_HEARTS",
+        "ALL_MAPS",
+        "BELLWAYS_FULL",
+        "TUBES_FULL",
+        "FLEAS_ALL",
+        "JOURNAL_FULL",
+        "COMPLETION",
+        "SPEED_COMPLETION"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Dedicated speed and Steel Soul profiles",
+      "description": "Run the sub-five-hour route on a fresh save, then combine Steel Soul and Steel Heart on a conservative 100% profile.",
+      "achievementRefs": [
+        "SPEEDRUN_1",
+        "STEEL_SOUL",
+        "STEEL_SOUL_FULL"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "FIRST_TOOL",
+      "displayName": "Equipped",
+      "description": "Acquire your first Tool",
+      "hidden": false,
+      "globalPercent": 89.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Acquire any Tool, such as the Shard Pendant in The Marrow.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tools later occupy Red, Blue, or Yellow Crest slots, but the achievement is awarded on acquisition and does not require a Tool to be equipped.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "During the long descent through The Marrow, hug the left wall and land on the ledge holding Shard Pendant to collect the Tool."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_TOOLS",
+      "displayName": "Arsenal",
+      "description": "Acquire all Tools",
+      "hidden": false,
+      "globalPercent": 21.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Acquire the 51 Tools counted by Arsenal, with any upgraded replacement accepted for its original Tool.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The game contains temporary and mutually exclusive variants, so the current wiki's achievement total is 51 rather than every inventory object. Upgraded Curveclaw, Silkshot, Druid's Eye, and Claw Mirror forms retain credit.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Straight Pin",
+            "location": "The Marrow",
+            "method": "Open Grindle's cell and collect the Straight Pin above the cell."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Threefold Pin",
+            "location": "Greymoor",
+            "method": "Enter the secret cave above Craw Lake and defeat the Tallcraw guarding the tool."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Sting Shard",
+            "location": "Deep Docks",
+            "method": "Pay Forge Daughter 140 Rosaries and one Craftmetal to craft the Sting Shard."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Tacks",
+            "location": "Sinner's Road",
+            "method": "Complete the Roach Guts Wish and take the Tacks reward."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Longpin",
+            "location": "Shellwood",
+            "method": "Break through the Wood Wasp nest above Bellhart's main entrance and collect the Longpin."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Curveclaw or Curvesickle",
+            "location": "Hunter's March or Far Fields",
+            "method": "Buy Curveclaw from Mottled Skarr for 140 Rosaries; its Act 3 Curvesickle replacement also counts."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Throwing Ring",
+            "location": "Bilewater",
+            "method": "Complete Shakra's Trail's End Wish and accept the Throwing Ring reward."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Pimpillo",
+            "location": "Northwest Greymoor",
+            "method": "Use one Craftmetal at Yarnaby's hidden crafting room to make Pimpillo."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Conchcutter",
+            "location": "Sands of Karak",
+            "method": "Finish the Coral Tower route and collect Conchcutter inside the tower."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Silkshot",
+            "location": "Weavenest Murglin",
+            "method": "Find the Ruined Tool, then repair one of its three Silkshot variants at Forge Daughter, Twelfth Architect, or Mount Fay."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Delver's Drill",
+            "location": "Southwest Underworks",
+            "method": "Take Delver's Drill from the crafting table."
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Cogwork Wheel",
+            "location": "Underworks",
+            "method": "Pay Twelfth Architect 360 Rosaries and one Craftmetal to craft Cogwork Wheel."
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Cogfly",
+            "location": "High Halls",
+            "method": "Spend one Craftmetal at the High Halls crafting room to build Cogfly."
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Rosary Cannon",
+            "location": "High Halls",
+            "method": "Open the locked room east of the Forum and take Rosary Cannon from the table."
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Voltvessels",
+            "location": "Northeast Memorium",
+            "method": "Break the concealed wall and collect Voltvessels."
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Flintslate",
+            "location": "Deep Docks",
+            "method": "Reach the eastern Deep Docks tool room and collect Flintslate."
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Flea Brew",
+            "location": "Flea Caravan",
+            "method": "Rescue five Fleas and speak with Fleamaster Mooshka for Flea Brew."
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Plasmium Phial",
+            "location": "Wormways",
+            "method": "Complete the Alchemist's Assistant Wish and take Plasmium Phial."
+          },
+          {
+            "id": "item-19",
+            "index": 19,
+            "name": "Druid's Eye or Druid's Eyes",
+            "location": "Moss Grotto",
+            "method": "Complete Berry Picking for Druid's Eye; the upgraded Druid's Eyes replacement also counts."
+          },
+          {
+            "id": "item-20",
+            "index": 20,
+            "name": "Magma Bell",
+            "location": "Deep Docks",
+            "method": "Pay Forge Daughter 110 Rosaries and one Craftmetal to craft Magma Bell."
+          },
+          {
+            "id": "item-21",
+            "index": 21,
+            "name": "Warding Bell",
+            "location": "Far Fields",
+            "method": "Reach the exposed Far Fields platform and collect Warding Bell."
+          },
+          {
+            "id": "item-22",
+            "index": 22,
+            "name": "Pollip Pouch",
+            "location": "Shellwood",
+            "method": "Complete the Rite of the Pollip Wish and accept Pollip Pouch."
+          },
+          {
+            "id": "item-23",
+            "index": 23,
+            "name": "Fractured Mask",
+            "location": "Hunter's March",
+            "method": "Buy Fractured Mask from Mottled Skarr for 260 Rosaries, or collect the relocated copy above his Act 3 room."
+          },
+          {
+            "id": "item-24",
+            "index": 24,
+            "name": "Multibinder",
+            "location": "Bellhart",
+            "method": "Complete My Missing Courier, then buy Multibinder from Frey for 880 Rosaries."
+          },
+          {
+            "id": "item-25",
+            "index": 25,
+            "name": "Weavelight",
+            "location": "Weavenest Atla",
+            "method": "Defeat Moss Mother and take Weavelight."
+          },
+          {
+            "id": "item-26",
+            "index": 26,
+            "name": "Sawtooth Circlet",
+            "location": "Underworks",
+            "method": "Pay Twelfth Architect 230 Rosaries and one Craftmetal to craft Sawtooth Circlet."
+          },
+          {
+            "id": "item-27",
+            "index": 27,
+            "name": "Injector Band",
+            "location": "Whiteward",
+            "method": "Take Injector Band from the Whiteward table."
+          },
+          {
+            "id": "item-28",
+            "index": 28,
+            "name": "Spool Extender",
+            "location": "Songclave",
+            "method": "Buy Spool Extender from Jubilana for 720 Rosaries."
+          },
+          {
+            "id": "item-29",
+            "index": 29,
+            "name": "Reserve Bind",
+            "location": "High Halls",
+            "method": "Defeat the Second Sentinel and take Reserve Bind."
+          },
+          {
+            "id": "item-30",
+            "index": 30,
+            "name": "Claw Mirror or Claw Mirrors",
+            "location": "Whispering Vaults",
+            "method": "Defeat Trobbio; either the original or upgraded Claw Mirrors version counts."
+          },
+          {
+            "id": "item-31",
+            "index": 31,
+            "name": "Memory Crystal",
+            "location": "Mount Fay",
+            "method": "Break the ice wall and collect Memory Crystal."
+          },
+          {
+            "id": "item-32",
+            "index": 32,
+            "name": "Snitch Pick",
+            "location": "Grindle's shop",
+            "method": "Buy Snitch Pick from Grindle for 740 Rosaries."
+          },
+          {
+            "id": "item-33",
+            "index": 33,
+            "name": "Volt Filament",
+            "location": "Sands of Karak",
+            "method": "Defeat Voltvyrm and take Volt Filament."
+          },
+          {
+            "id": "item-34",
+            "index": 34,
+            "name": "Quick Sling",
+            "location": "Bilewater",
+            "method": "Break the concealed ceiling and collect Quick Sling."
+          },
+          {
+            "id": "item-35",
+            "index": 35,
+            "name": "Wreath of Purity",
+            "location": "Putrified Ducts",
+            "method": "Traverse the Ducts tool chamber and collect Wreath of Purity."
+          },
+          {
+            "id": "item-36",
+            "index": 36,
+            "name": "Longclaw",
+            "location": "Putrified Ducts",
+            "method": "Complete the Broodfeast Wish and take Longclaw."
+          },
+          {
+            "id": "item-37",
+            "index": 37,
+            "name": "Wispfire Lantern",
+            "location": "Wisp Thicket",
+            "method": "Defeat Father of the Flame in western Wisp Thicket."
+          },
+          {
+            "id": "item-38",
+            "index": 38,
+            "name": "Egg of Flealia",
+            "location": "The Marrow",
+            "method": "Complete Lost Fleas and accept Egg of Flealia."
+          },
+          {
+            "id": "item-39",
+            "index": 39,
+            "name": "Pin Badge",
+            "location": "Mount Fay",
+            "method": "During Act 3, complete Fatal Resolve and defeat Pinstress."
+          },
+          {
+            "id": "item-40",
+            "index": 40,
+            "name": "Compass",
+            "location": "Shakra",
+            "method": "Buy Compass from Shakra for 70 Rosaries."
+          },
+          {
+            "id": "item-41",
+            "index": 41,
+            "name": "Shard Pendant",
+            "location": "The Marrow",
+            "method": "Collect Shard Pendant from the ledge beside the long Marrow descent."
+          },
+          {
+            "id": "item-42",
+            "index": 42,
+            "name": "Magnetite Brooch",
+            "location": "Bone Bottom",
+            "method": "Buy Magnetite Brooch from Pebb for 120 Rosaries."
+          },
+          {
+            "id": "item-43",
+            "index": 43,
+            "name": "Weighted Belt",
+            "location": "Pilgrim's Rest",
+            "method": "Buy Weighted Belt from Mort for 160 Rosaries, or recover the belt from his Act 3 location."
+          },
+          {
+            "id": "item-44",
+            "index": 44,
+            "name": "Barbed Bracelet",
+            "location": "Sinner's Road",
+            "method": "Take Barbed Bracelet from the bug corpse."
+          },
+          {
+            "id": "item-45",
+            "index": 45,
+            "name": "Dead Bug's Purse or Shell Satchel",
+            "location": "Wormways",
+            "method": "Collect Dead Bug's Purse in normal mode or Shell Satchel from the same place in Steel Soul."
+          },
+          {
+            "id": "item-46",
+            "index": 46,
+            "name": "Magnetite Dice",
+            "location": "Lumble's game or Grindle",
+            "method": "Win Lumble's game several consecutive times, or buy Magnetite Dice from Grindle in Act 3."
+          },
+          {
+            "id": "item-47",
+            "index": 47,
+            "name": "Scuttlebrace",
+            "location": "Underworks",
+            "method": "Pay Twelfth Architect 140 Rosaries and one Craftmetal to craft Scuttlebrace."
+          },
+          {
+            "id": "item-48",
+            "index": 48,
+            "name": "Ascendant's Grip",
+            "location": "Songclave",
+            "method": "Complete The Wandering Merchant, then buy Ascendant's Grip from Jubilana for 350 Rosaries."
+          },
+          {
+            "id": "item-49",
+            "index": 49,
+            "name": "Spider Strings",
+            "location": "Songclave",
+            "method": "Complete The Wandering Merchant, then buy Spider Strings from Jubilana for 320 Rosaries."
+          },
+          {
+            "id": "item-50",
+            "index": 50,
+            "name": "Silkspeed Anklets",
+            "location": "Weavenest Cindril",
+            "method": "Sprint through the full timed room in the Far Fields weavenest."
+          },
+          {
+            "id": "item-51",
+            "index": 51,
+            "name": "Thief's Mark",
+            "location": "Blasted Steps",
+            "method": "Buy Thief's Mark from Grindle for 350 Rosaries."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_SILK_SKILL",
+      "displayName": "Bound",
+      "description": "Bind your first Silk Skill",
+      "hidden": false,
+      "globalPercent": 87.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Bind any Silk Skill, with Silkspear at the Mosshome door serving as the earliest unlock.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every Silk Skill consumes four Silk and must be bound before use; six skills count toward Woven.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Reach the sealed Mosshome door from Moss Grotto and complete the binding sequence to obtain Silkspear."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_SILK_SKILLS",
+      "displayName": "Woven",
+      "description": "Bind all Silk Skills",
+      "hidden": false,
+      "globalPercent": 30.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Bind Pale Nails, Rune Rage, Sharpdart, Cross Stitch, Thread Storm, and Silkspear.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Pale Nails is Act 3 content; the other five skills can be collected before the Snared Silk ending.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Silkspear",
+            "location": "Mosshome",
+            "method": "Complete the binding sequence at the sealed Mosshome door."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Thread Storm",
+            "location": "Greymoor",
+            "method": "Enter Craw Lake's upper chamber and bind Thread Storm."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Cross Stitch",
+            "location": "Bilewater",
+            "method": "Defeat Phantom in Exhaust Organ and bind Cross Stitch."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Sharpdart",
+            "location": "Weavenest Karn",
+            "method": "Open the weavenest route and bind Sharpdart."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Rune Rage",
+            "location": "The Slab",
+            "method": "Use the Key of Heretic to reach First Sinner, defeat the boss, and bind Rune Rage."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Pale Nails",
+            "location": "Cradle, Act 3",
+            "method": "Return with Silk Soar and bind Grand Mother Silk's remaining arm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_CREST",
+      "displayName": "Claimed",
+      "description": "Claim your first Crest",
+      "hidden": false,
+      "globalPercent": 70.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Claim a non-default Crest, such as Beast Crest after Hunter's March's arena.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hunter Crest is owned from the beginning and counts toward Consumed, but Claimed requires collecting another Crest.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter the Hunter's March Crest arena, finish its platforming and combat trial, and claim Beast Crest from the shrine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_CRESTS",
+      "displayName": "Consumed",
+      "description": "Claim all Crests",
+      "hidden": false,
+      "globalPercent": 31.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Claim Hunter, Beast, Reaper, Wanderer, Witch, Architect, and Shaman Crests.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Cursed Crest is a temporary state on the Witch route, while Vesticrest is Eva's separate Tool-slot system; neither adds an eighth achievement Crest.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Hunter Crest",
+            "location": "Starting equipment",
+            "method": "Keep the default Hunter Crest; the game counts the starting Crest."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Beast Crest",
+            "location": "Hunter's March",
+            "method": "Complete the Crest arena and claim Beast Crest."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Reaper Crest",
+            "location": "Greymoor",
+            "method": "Complete the Greymoor Crest arena and claim Reaper Crest."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Wanderer Crest",
+            "location": "Bonegrave",
+            "method": "Complete the Bonegrave Crest arena and claim Wanderer Crest."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Witch Crest",
+            "location": "Shellwood Wish chain",
+            "method": "Complete Rite of Rebirth for Cursed Crest, then complete Infestation Operation to evolve Witch Crest."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Architect Crest",
+            "location": "Underworks",
+            "method": "Own at least 25 Tools, buy Architect's Key for 110 Rosaries, open the chapel, and claim Architect Crest."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Shaman Crest",
+            "location": "Ruined Chapel, Act 3",
+            "method": "Obtain Silk Soar, return to the Snail Shamans' chapel, and claim Shaman Crest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_MASK",
+      "displayName": "Protected",
+      "description": "Acquire 4 Mask Shards",
+      "hidden": false,
+      "globalPercent": 62.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Collect four Mask Shards to form one additional Mask.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mask Shards convert automatically in groups of four; five completed Masks are available from 20 shards.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Buy Pebb's Bone Bottom shard for 300 Rosaries and collect three more early shards from lower Wormways, the Marrow–Deep Docks passage, and above the Far Fields Seamstress."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_MASKS",
+      "displayName": "Masked",
+      "description": "Acquire all Mask Shards",
+      "hidden": false,
+      "globalPercent": 23.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Collect all 20 Mask Shards to form five additional Masks.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Seven shards require late movement abilities or Act 3 Wishes, so the set cannot be finished during Act 2.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Shard 1",
+            "location": "Bone Bottom",
+            "method": "Buy the shard from Pebb for 300 Rosaries; Grindle sells the relocated Act 3 shard for 320."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Shard 2",
+            "location": "Lower Wormways",
+            "method": "Enter through Mosshome and break the wall before the Simple Key door."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Shard 3",
+            "location": "Marrow–Deep Docks passage",
+            "method": "Use Cling Grip to climb the passage and reach the shard."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Shard 4",
+            "location": "Far Fields",
+            "method": "Use Drifter's Cloak above the Seamstress to reach the shard."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Shard 5",
+            "location": "Central Shellwood",
+            "method": "Break the concealed wall and finish the platforming room."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Shard 6",
+            "location": "Eastern Weavenest Atla",
+            "method": "Open Atla with Needolin, then break the interior wall."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Shard 7",
+            "location": "Songclave",
+            "method": "Complete The Wandering Merchant and buy the shard from Jubilana for 750 Rosaries."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Shard 8",
+            "location": "Western Cogwork Core",
+            "method": "Defeat Cogwork Dancers and clear the combat gauntlet."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Shard 9",
+            "location": "Whispering Vaults",
+            "method": "Solve the central moving-box puzzle."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Shard 10",
+            "location": "Songclave Wish board",
+            "method": "Complete Savage Beastfly after defeating Fourth Chorus and Savage Beastfly."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Shard 11",
+            "location": "Skull Cave, eastern Far Fields",
+            "method": "Use Clawline and Drifter's Cloak to cross Skull Cave."
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Shard 12",
+            "location": "Southwest Mount Fay",
+            "method": "Use Faydown Cloak west of the bench."
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Shard 13",
+            "location": "Northeast Slab",
+            "method": "Use the Key of Apostate and Faydown Cloak; Silk Soar provides a shortcut."
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Shard 14",
+            "location": "Eastern Bilewater",
+            "method": "Cross the Slubberlug hall and collect the shard."
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Shard 15",
+            "location": "Eastern Wisp Thicket",
+            "method": "Use Faydown Cloak through the eastern platforming route."
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Shard 16",
+            "location": "Western Blasted Steps",
+            "method": "Use Clawline and Faydown Cloak; Silk Soar provides a shortcut."
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Shard 17",
+            "location": "Brightvein",
+            "method": "Use Silk Soar to enter Brightvein and reach the shard."
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Shard 18",
+            "location": "Eastern Far Fields",
+            "method": "Complete Fastest in Pharloom."
+          },
+          {
+            "id": "item-19",
+            "index": 19,
+            "name": "Shard 19",
+            "location": "Act 3 Wish board",
+            "method": "Complete Awaiting the End, then finish the Dark Hearts Wish."
+          },
+          {
+            "id": "item-20",
+            "index": 20,
+            "name": "Shard 20",
+            "location": "Act 3 Wish board",
+            "method": "Meet Skarrsinger Karmelita, then complete Hidden Hunter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_SILK_SPOOL",
+      "displayName": "Restored",
+      "description": "Acquire 2 Spool Fragments",
+      "hidden": false,
+      "globalPercent": 66.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Collect two Spool Fragments to increase Hornet's Silk capacity once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spool Fragments convert automatically in pairs, producing nine total Silk-capacity upgrades from 18 fragments.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Break the mossy wall above Bone Bottom for one fragment, then complete the burning-floor lever route southwest of Forge Daughter in Deep Docks for a second fragment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_SILK_SPOOLS",
+      "displayName": "Extended",
+      "description": "Acquire all Spool Fragments",
+      "hidden": false,
+      "globalPercent": 23.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Collect all 18 Spool Fragments to complete nine Silk-capacity upgrades.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The final fragments require Faydown Cloak, Clawline, White Key access, completed Wishes, or late-game merchants.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Fragment 1",
+            "location": "Above Bone Bottom",
+            "method": "Break the wall in the mossy room above town."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Fragment 2",
+            "location": "Central Deep Docks",
+            "method": "Use the lever and platforms above the burning floor southwest of Forge Daughter."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Fragment 3",
+            "location": "Greymoor",
+            "method": "Use Cling Grip above Shakra's bench and cross the balloon route."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Fragment 4",
+            "location": "Bellhart",
+            "method": "Complete My Missing Courier, then buy the fragment from Frey for 270 Rosaries."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Fragment 5",
+            "location": "Weavenest Atla",
+            "method": "Open the weavenest with Needolin and finish the inner passage."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Fragment 6",
+            "location": "The Slab",
+            "method": "Use Cling Grip and the Slab transport route from its Bellway."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Fragment 7",
+            "location": "Grand Gate",
+            "method": "Solve the scales puzzle at the top of Grand Gate."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Fragment 8",
+            "location": "Central Underworks",
+            "method": "Clear the combat gauntlet west of the main shaft."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Fragment 9",
+            "location": "Flea Caravan",
+            "method": "Rescue 12 Fleas, defeat Last Judge, and collect the caravan reward at Grand Gate."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Fragment 10",
+            "location": "Whiteward",
+            "method": "Use the White Key route and search below the lift."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Fragment 11",
+            "location": "Southeast Cogwork Core",
+            "method": "Finish the southeast machinery route."
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Fragment 12",
+            "location": "Eastern Underworks",
+            "method": "Cross the burning floor and break the western wall."
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Fragment 13",
+            "location": "Whiteward",
+            "method": "Complete Balm for the Wounded, obtain the White Key, and speak with Sherma."
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Fragment 14",
+            "location": "Songclave",
+            "method": "Complete The Lost Merchant, then buy the fragment from Jubilana for 500 Rosaries."
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Fragment 15",
+            "location": "Southeast Deep Docks",
+            "method": "Use Clawline to open the gate, break the explosive rock, and finish the spike-and-lava route with Cling Grip."
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Fragment 16",
+            "location": "High Halls",
+            "method": "Use Faydown Cloak and Clawline to reach the top of the western shaft; Silk Soar skips the challenge."
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Fragment 17",
+            "location": "Western Memorium",
+            "method": "Go west from the fourth floor, use Faydown Cloak and Clawline around the spikes, then break the southern vines."
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Fragment 18",
+            "location": "Grindle's shop",
+            "method": "Use Faydown Cloak and Cling Grip to reach Grindle, then buy the fragment for 680 Rosaries."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_SILK_HEARTS",
+      "displayName": "Regenerated",
+      "description": "Acquire all Silk Hearts",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Defeat Bell Beast, The Unravelled, and Lace, then complete each Silk Heart memory.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Touching a spawned Silk Heart locks Hornet into a Cradle-like platforming memory; the Heart is awarded only after reaching the memory's exit.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Bell Beast Heart",
+            "location": "The Marrow",
+            "method": "Obtain Silkspear, defeat Bell Beast, touch the Heart, and finish the memory climb."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Unravelled Heart",
+            "location": "Whiteward",
+            "method": "Use the Surgeon's Key to reach The Unravelled, defeat the boss, and finish the Heart memory."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Lace Heart",
+            "location": "The Cradle",
+            "method": "Learn the Threefold Melody, defeat Lace in the Cradle, and finish the Heart memory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_MAPS",
+      "displayName": "Cartographer",
+      "description": "Acquire a map of each area",
+      "hidden": false,
+      "globalPercent": 29.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Acquire the map for each of Pharloom's 28 mapped areas.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Most maps come from Shakra; Citadel maps use machines, and several late areas use fixed pickups. Choral Chambers has two purchase positions but remains one area map.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Mosslands",
+            "location": "Mosslands",
+            "method": "Buy the map from Shakra for 40 Rosaries."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "The Marrow",
+            "location": "The Marrow",
+            "method": "Buy the map from Shakra for 50 Rosaries."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Deep Docks",
+            "location": "Deep Docks",
+            "method": "Buy the map from Shakra for 50 Rosaries."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Far Fields",
+            "location": "Far Fields",
+            "method": "Buy the map from Shakra for 50 Rosaries."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Wormways",
+            "location": "Wormways",
+            "method": "Buy the map from Shakra for 70 Rosaries."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Hunter's March",
+            "location": "Hunter's March",
+            "method": "Buy the map from Shakra for 70 Rosaries."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Greymoor",
+            "location": "Greymoor",
+            "method": "Buy the map from Shakra for 70 Rosaries."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Bellhart",
+            "location": "Bellhart",
+            "method": "Buy the map from Shakra for 40 Rosaries."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Shellwood",
+            "location": "Shellwood",
+            "method": "Buy the map from Shakra for 70 Rosaries."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Blasted Steps",
+            "location": "Blasted Steps",
+            "method": "Buy the map from Shakra for 70 Rosaries."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Sinner's Road",
+            "location": "Sinner's Road",
+            "method": "Buy the map from Shakra for 90 Rosaries."
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Mount Fay",
+            "location": "Mount Fay",
+            "method": "Buy the map from Shakra for 40 Rosaries."
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Sands of Karak",
+            "location": "Sands of Karak",
+            "method": "Buy the map from Shakra for 90 Rosaries."
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Bilewater",
+            "location": "Bilewater",
+            "method": "Buy the map from Shakra for 90 Rosaries."
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Grand Gate",
+            "location": "Grand Gate",
+            "method": "Pay 40 Rosaries at the area's Citadel map machine."
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Choral Chambers",
+            "location": "Choral Chambers",
+            "method": "Pay 70 Rosaries at either of the area's map machines."
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Whispering Vaults",
+            "location": "Whispering Vaults",
+            "method": "Pay 70 Rosaries at the area's Citadel map machine."
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Whiteward",
+            "location": "Whiteward",
+            "method": "Pay 70 Rosaries at the area's Citadel map machine."
+          },
+          {
+            "id": "item-19",
+            "index": 19,
+            "name": "High Halls",
+            "location": "High Halls",
+            "method": "Pay 70 Rosaries at the area's Citadel map machine."
+          },
+          {
+            "id": "item-20",
+            "index": 20,
+            "name": "Memorium",
+            "location": "Memorium",
+            "method": "Pay 70 Rosaries at the area's Citadel map machine."
+          },
+          {
+            "id": "item-21",
+            "index": 21,
+            "name": "Cradle",
+            "location": "Cradle",
+            "method": "Pay 70 Rosaries at the Act 2 machine, or collect the free map beside its broken Act 3 machine."
+          },
+          {
+            "id": "item-22",
+            "index": 22,
+            "name": "Underworks",
+            "location": "Underworks",
+            "method": "Take the free map from the map board."
+          },
+          {
+            "id": "item-23",
+            "index": 23,
+            "name": "Putrified Ducts",
+            "location": "Putrified Ducts",
+            "method": "Take the free map from the desk."
+          },
+          {
+            "id": "item-24",
+            "index": 24,
+            "name": "Verdania",
+            "location": "Verdania",
+            "method": "Take the free map at the abandoned camp before starting the memory route."
+          },
+          {
+            "id": "item-25",
+            "index": 25,
+            "name": "Cogwork Core",
+            "location": "Cogwork Core",
+            "method": "Activate the mechanism that provides the free map."
+          },
+          {
+            "id": "item-26",
+            "index": 26,
+            "name": "Slab",
+            "location": "The Slab",
+            "method": "Use the Key of Indolent to enter the room and read the map etched on the dead bug's shell."
+          },
+          {
+            "id": "item-27",
+            "index": 27,
+            "name": "Weavenest Atla",
+            "location": "Weavenest Atla",
+            "method": "Read the free map tablet inside the weavenest."
+          },
+          {
+            "id": "item-28",
+            "index": 28,
+            "name": "Abyss",
+            "location": "Abyss",
+            "method": "Read the free map tablet during the Act 3 descent."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BELLWAYS_FULL",
+      "displayName": "Connected",
+      "description": "Open all of Pharloom's Bellways",
+      "hidden": false,
+      "globalPercent": 43.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Open the 10 Bellway stations tracked by Connected.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Bone Bottom and The Marrow become available with Bell Beast and do not add paid activations; the achievement tracks the other ten stations.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Deep Docks",
+            "location": "Deep Docks",
+            "method": "Pay 40 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Far Fields",
+            "location": "Far Fields",
+            "method": "Pay 40 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Greymoor",
+            "location": "Greymoor",
+            "method": "Pay 60 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Bellhart",
+            "location": "Bellhart",
+            "method": "Pay 60 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Shellwood",
+            "location": "Shellwood",
+            "method": "Pay 40 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Blasted Steps",
+            "location": "Blasted Steps",
+            "method": "Pay 60 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "The Slab",
+            "location": "The Slab",
+            "method": "Pay 40 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Grand Bellway",
+            "location": "Grand Bellway",
+            "method": "Pay 80 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Bilewater",
+            "location": "Bilewater",
+            "method": "Pay 80 Rosaries and strike the station bell to activate the stop."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Putrified Ducts",
+            "location": "Putrified Ducts",
+            "method": "Pay 80 Rosaries and strike the station bell to activate the stop."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BELLWAY_MELODY",
+      "displayName": "Bonded",
+      "description": "Learn the Beastling Call.",
+      "hidden": true,
+      "globalPercent": 38.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Learn Beastling Call after defeating Bell Eater during Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Snared Silk opens Act 3 and changes the Bellway journey that exposes Bell Eater; Beastling Call later summons the Beastlings.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "After entering Act 3, use a Bellway and drop through the newly opened hole on the route."
+          },
+          {
+            "id": "step-2",
+            "text": "Defeat Bell Eater and complete the scene with the Bell Beast to learn Beastling Call."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TUBES_FULL",
+      "displayName": "Transported",
+      "description": "Open all of the Citadel's Ventrica Stations",
+      "hidden": false,
+      "globalPercent": 45.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Open the six Citadel Ventrica Stations tracked by Transported.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Terminus is the network entry point and does not add a seventh paid activation to the current achievement counter.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Memorium",
+            "location": "Memorium",
+            "method": "Pay the station fare and activate the Ventrica stop."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "High Halls",
+            "location": "High Halls",
+            "method": "Pay the station fare and activate the Ventrica stop."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "First Shrine",
+            "location": "First Shrine",
+            "method": "Pay the station fare and activate the Ventrica stop."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Choral Chambers",
+            "location": "Choral Chambers",
+            "method": "Pay the station fare and activate the Ventrica stop."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Grand Bellway",
+            "location": "Grand Bellway",
+            "method": "Pay the station fare and activate the Ventrica stop."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Underworks",
+            "location": "Underworks",
+            "method": "Pay the station fare and activate the Ventrica stop."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JOURNAL_HALF",
+      "displayName": "Keen Hunter",
+      "description": "Grant Nuu's wish",
+      "hidden": false,
+      "globalPercent": 54.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Record 100 Hunter's Journal entries, then return to Nuu in Halfway Home.",
+      "guide": {
+        "kind": "standard",
+        "context": "Keen Hunter needs an entry for each creature, not the extra kills that master an entry for True Hunter.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Meet Nuu on Halfway Home's second floor in Greymoor and accept her Wish to receive the Hunter's Journal."
+          },
+          {
+            "id": "step-2",
+            "text": "Defeat 100 distinct creatures so 100 entries appear, then speak with Nuu again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JOURNAL_FULL",
+      "displayName": "True Hunter",
+      "description": "Receive the Hunter's Memento",
+      "hidden": false,
+      "globalPercent": 9.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Master every required Hunter's Journal entry, then receive Hunter's Memento from Nuu.",
+      "guide": {
+        "kind": "standard",
+        "context": "Flintbeetle, Palestag, Shakra, Summoned Saviour, Garmond and Zaza, Lost Garmond, and Lost Lace are excluded from the Memento requirement.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Defeat each required creature enough times to reveal the additional notes on its Journal entry."
+          },
+          {
+            "id": "step-2",
+            "text": "Return to Nuu in Halfway Home after every required entry is mastered and accept Hunter's Memento."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FLEAS_HALF",
+      "displayName": "Flea Finder",
+      "description": "Rescue half of Pharloom's lost fleas",
+      "hidden": false,
+      "globalPercent": 50.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Rescue any 15 of Pharloom's 30 lost Fleas.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rescued Fleas join the caravan permanently, so the first-half counter can be accumulated across the entire save.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Open cages, break containers or vines, and finish any required fights until the caravan roster reaches 15 rescued Fleas."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FLEAS_ALL",
+      "displayName": "Fleafriend",
+      "description": "Rescue all of Pharloom's lost fleas and receive their final gift",
+      "hidden": false,
+      "globalPercent": 34.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Rescue all 30 lost Fleas, move the caravan to Fleatopia, and receive the final gift.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The rescue counter alone is insufficient: the caravan moves at milestones and the final reward is awarded only after the Fleatopia conclusion.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Flea 1",
+            "location": "The Marrow",
+            "method": "Finish the Bell Beast route, then complete the nearby platforming section."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Flea 2",
+            "location": "Western Deep Docks",
+            "method": "Break the wall left of the Bellway."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Flea 3",
+            "location": "Deep Docks",
+            "method": "Pull the lever left of Swift Step and open the container."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Flea 4",
+            "location": "Eastern Deep Docks",
+            "method": "Use Clawline to enter the lower door and clear the gauntlet."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Flea 5",
+            "location": "Hunter's March",
+            "method": "Enter through the Skarrgard route and finish the cage platforming."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Flea 6",
+            "location": "Far Fields",
+            "method": "Spring the Skarr Scout trap and free the captive Flea."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Flea 7",
+            "location": "Far Fields",
+            "method": "Use Drifter's Cloak and Cling Grip through the secret route behind the Bellway."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Flea 8",
+            "location": "Wormways",
+            "method": "Strike the Aknid carrying the Flea and free the captive."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Flea 9",
+            "location": "Greymoor",
+            "method": "Cross the balloon route and clear the Craw Lake gauntlet."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Flea 10",
+            "location": "Greymoor",
+            "method": "Use Cling Grip to climb the western tower."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Flea 11",
+            "location": "Kratt",
+            "method": "Break the wall above Halfway Home and use Cling Grip to reach Kratt."
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Flea 12",
+            "location": "Bellhart",
+            "method": "Defeat Sister Splinter, then climb the upper Bellveins with Cling Grip."
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Flea 13",
+            "location": "Shellwood",
+            "method": "Approach the chamber below Gahlia from the tower's upper entrance."
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Flea 14",
+            "location": "Blasted Steps",
+            "method": "Use Cling Grip in the room left of the Bellway."
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Flea 15",
+            "location": "Sinner's Road",
+            "method": "Defeat the nearby Muckroach and open the cage."
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Flea 16",
+            "location": "Bilewater",
+            "method": "Break the wall and defeat both Snitchflies."
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Flea 17",
+            "location": "Bilewater",
+            "method": "Complete the Mist, enter Exhaust Organ, and use its secret passage to the upper entrance."
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Flea 18",
+            "location": "Northern Bilewater",
+            "method": "Use Cling Grip above the secret bench room."
+          },
+          {
+            "id": "item-19",
+            "index": 19,
+            "name": "Flea 19",
+            "location": "Western Underworks",
+            "method": "Enter from Wisp Thicket, break the ceiling, and use Cling Grip plus Faydown Cloak."
+          },
+          {
+            "id": "item-20",
+            "index": 20,
+            "name": "Flea 20",
+            "location": "Central Underworks",
+            "method": "Cross the Cogwork Hauler room and open the container."
+          },
+          {
+            "id": "item-21",
+            "index": 21,
+            "name": "Flea 21",
+            "location": "Choral Chambers",
+            "method": "Complete the cage platforming section."
+          },
+          {
+            "id": "item-22",
+            "index": 22,
+            "name": "Flea 22",
+            "location": "Choral Chambers",
+            "method": "Break the wall and use Drifter's Cloak; needle-bouncing across the saws also reaches the Flea."
+          },
+          {
+            "id": "item-23",
+            "index": 23,
+            "name": "Flea 23",
+            "location": "Memorium",
+            "method": "Use Faydown Cloak to enter the chamber, free Huge Flea, and defeat the resulting boss."
+          },
+          {
+            "id": "item-24",
+            "index": 24,
+            "name": "Flea 24",
+            "location": "The Slab",
+            "method": "Enter the mist-covered door and open the cage."
+          },
+          {
+            "id": "item-25",
+            "index": 25,
+            "name": "Flea 25",
+            "location": "The Slab",
+            "method": "Use Faydown Cloak to reach the small chamber above-left of the bench."
+          },
+          {
+            "id": "item-26",
+            "index": 26,
+            "name": "Flea 26",
+            "location": "Mount Fay",
+            "method": "Use Cling Grip to reach the ice block, then strike the ice until the Flea is free."
+          },
+          {
+            "id": "item-27",
+            "index": 27,
+            "name": "Flea 27",
+            "location": "Sands of Karak",
+            "method": "Break the encrusted coral on the upper-right route; Silk Soar offers another entrance."
+          },
+          {
+            "id": "item-28",
+            "index": 28,
+            "name": "Flea 28",
+            "location": "Putrified Ducts",
+            "method": "Let the Barnak pull Hornet upward, finish the platforming, and speak with Vog."
+          },
+          {
+            "id": "item-29",
+            "index": 29,
+            "name": "Flea 29",
+            "location": "Whispering Vaults",
+            "method": "Jump behind the curtains below Cardinius, then complete the long Clawline and Cling Grip route."
+          },
+          {
+            "id": "item-30",
+            "index": 30,
+            "name": "Flea 30",
+            "location": "Whispering Vaults",
+            "method": "Move the room's western box into position, use the box to climb upward, and open the cage at the summit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_BELLBEAST",
+      "displayName": "Liberated",
+      "description": "Defeat the Bell Beast",
+      "hidden": false,
+      "globalPercent": 85.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Defeat Bell Beast in The Marrow and collect the resulting Silk Heart.",
+      "guide": {
+        "kind": "standard",
+        "context": "Silkspear breaks the web sealing Bell Beast's route from Mosshome; the Heart memory must be completed before the arena reopens.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Bind Silkspear in Mosshome, break the webbed barrier into The Marrow, and defeat Bell Beast."
+          },
+          {
+            "id": "step-2",
+            "text": "Touch the spawned Silk Heart and reach the end of its memory platforming sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_LACE_1",
+      "displayName": "Pharloom's Welcome",
+      "description": "Defeat Lace in Deep Docks",
+      "hidden": false,
+      "globalPercent": 77.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "lockoutStage": 2,
+      "summary": "Defeat Lace in Deep Docks before speaking with Lace in the Citadel.",
+      "guide": {
+        "kind": "standard",
+        "context": "This optional Deep Docks encounter becomes unavailable after Lace's Citadel meeting, making Pharloom's Welcome missable on that save.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter Deep Docks from the bottom-east of The Marrow, cross the lava platforms to Lace's arena, and win the fight before reaching Lace in the Citadel."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_SONG_GOLEM",
+      "displayName": "Servant",
+      "description": "Defeat Fourth Chorus",
+      "hidden": false,
+      "globalPercent": 75.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Defeat Fourth Chorus at the end of Far Fields.",
+      "guide": {
+        "kind": "standard",
+        "context": "The route follows the Seamstress's Flexile Spines Wish and the Drifter's Cloak traversal across Far Fields.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Bring the Seamstress the requested Flexile Spines, obtain Drifter's Cloak, cross the eastern lava route, and defeat Fourth Chorus."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_WIDOW",
+      "displayName": "Fanatic",
+      "description": "Defeat Widow",
+      "hidden": false,
+      "globalPercent": 65.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Defeat Widow in Bellhart to obtain Needolin.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cling Grip from Shellwood opens the upper Bellhart route; Needolin then unlocks song doors and story progression.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Defeat Sister Splinter in Shellwood, obtain Cling Grip, climb into upper Bellhart, and defeat Widow."
+          },
+          {
+            "id": "step-2",
+            "text": "Complete the post-fight sequence to receive Needolin."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_LAST_JUDGE_1",
+      "displayName": "Judge",
+      "description": "Defeat the Last Judge",
+      "hidden": false,
+      "globalPercent": 59.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Defeat Last Judge at the summit of Blasted Steps.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needolin and the five activated bell benches open the Citadel approach at the end of Act 1.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Obtain Needolin, activate the five bell benches on the ascent, reach the top of Blasted Steps, and defeat Last Judge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_COGWORK_DANCERS",
+      "displayName": "Last Dance",
+      "description": "Defeat the Cogwork Dancers",
+      "hidden": false,
+      "globalPercent": 57.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Defeat Cogwork Dancers in the central Citadel.",
+      "guide": {
+        "kind": "standard",
+        "context": "The fight becomes reachable after Last Judge opens the Citadel and the Underworks route reaches Choral Chambers.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter the Citadel, climb from Underworks into Choral Chambers, reach the central dancers' hall, and defeat Cogwork Dancers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_TROBBIO",
+      "displayName": "Tragedian",
+      "description": "Defeat Trobbio",
+      "hidden": false,
+      "globalPercent": 51.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Defeat Trobbio in Whispering Vaults.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cogwork Dancers open the route deeper into the Citadel; Trobbio's first defeat awards Claw Mirror.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter Whispering Vaults after Cogwork Dancers, navigate to Trobbio's theatre, and win the staged boss fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_LACE_2",
+      "displayName": "White Knight",
+      "description": "Defeat Lace in the Cradle",
+      "hidden": false,
+      "globalPercent": 46.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Defeat Lace in the Cradle after learning the Threefold Melody.",
+      "guide": {
+        "kind": "standard",
+        "context": "Playing the completed Citadel song opens the Cradle route and makes the second Lace battle mandatory for the first endings.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Collect the Conductor's, Vaultkeeper's, and Architect's melodies, play the Threefold Melody in Cogwork Dancers' hall, then climb the Cradle and defeat Lace."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_PHANTOM_1",
+      "displayName": "Grey Ghost",
+      "description": "Defeat Phantom.",
+      "hidden": true,
+      "globalPercent": 47.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Navigate the Mist and defeat Phantom at the top of Exhaust Organ.",
+      "guide": {
+        "kind": "standard",
+        "context": "White butterflies mark the safe Mist route; playing Needolin in each correct room reveals the next passage.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter the Mist from Sinner's Road, follow the white butterflies, play Needolin through the labyrinth, and reach Exhaust Organ."
+          },
+          {
+            "id": "step-2",
+            "text": "Climb to the organ's summit and defeat Phantom."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_FIRST_SINNER",
+      "displayName": "Heretic",
+      "description": "Defeat First Sinner.",
+      "hidden": true,
+      "globalPercent": 40.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Use the Key of Heretic in The Slab and defeat First Sinner.",
+      "guide": {
+        "kind": "standard",
+        "context": "The key is in the Slab's upper section, while the boss door is in the lower prison route; victory awards Rune Rage.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Collect the Key of Heretic from upper Slab, open the locked lower door, and defeat First Sinner."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_CORAL_KING",
+      "displayName": "Tyrant",
+      "description": "Defeat Crust King Khann.",
+      "hidden": true,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "During Act 3, overcome Crust King Khann after clearing Sands of Karak's full route.",
+      "guide": {
+        "kind": "standard",
+        "context": "This Old Hearts target requires Silk Soar, the Raging Conchfly encounter, and Coral Tower's three combat arenas.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "During Act 3, enter Sands of Karak with Silk Soar, defeat Raging Conchfly, clear all three Coral Tower arenas, and defeat Crust King Khann."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_FLOWER_QUEEN",
+      "displayName": "Seed",
+      "description": "Defeat Nyleth.",
+      "hidden": true,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Defeat Nyleth beneath Grand Gate during the Act 3 Old Hearts quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shrine Guardian Seth blocks Nyleth's hidden route, and Elegy of the Deep exposes the memory encounter.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "During Act 3, find the concealed shrine below Grand Gate, defeat Shrine Guardian Seth, use Elegy of the Deep, and defeat Nyleth."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_HUNTER_QUEEN",
+      "displayName": "Diva",
+      "description": "Defeat Skarrsinger Karmelita.",
+      "hidden": true,
+      "globalPercent": 32.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Use Silk Soar in Hunter's March and defeat Skarrsinger Karmelita.",
+      "guide": {
+        "kind": "standard",
+        "context": "Karmelita is one of the optional Act 3 Old Hearts targets and waits by the Hunter's March statue route east of The Marrow.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "During Act 3, travel east from The Marrow to the Hunter's March statue, use Silk Soar to reach Karmelita, and win the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEFEATED_GREEN_PRINCE",
+      "displayName": "Lamenter",
+      "description": "Defeat Clover Dancers.",
+      "hidden": true,
+      "globalPercent": 28.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1–3 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Complete Verdania's memory route and defeat Clover Dancers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Green Prince must first be freed from Sinner's Road with a Simple Key and met in Cogwork Dancers' arena before his Act 3 Craw Lake appearance.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Free Green Prince from Sinner's Road, speak with him in Cogwork Dancers' hall, then find him at Craw Lake during Act 3."
+          },
+          {
+            "id": "step-2",
+            "text": "Obtain Verdania's map before playing Elegy of the Deep, collect two flower, three statue, and one shrine essence, defeat Palestag, enter Green Prince's home, and defeat Clover Dancers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_WISH",
+      "displayName": "Granted",
+      "description": "Grant your first wish",
+      "hidden": false,
+      "globalPercent": 81.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 1; complete when its prerequisites are available.",
+      "summary": "Grant any Wish, with Berry Picking's three Mossberries serving as the earliest option.",
+      "guide": {
+        "kind": "standard",
+        "context": "Wish completion is recorded when the requesting NPC accepts the objective and gives the reward, not when the Wish is merely accepted.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Speak with Moss Druid in Moss Grotto, accept Berry Picking, collect three Mossberries, and return all three Mossberries to Moss Druid."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GOURMAND_WISH",
+      "displayName": "Glutton",
+      "description": "Satiate the Grand Gourmand",
+      "hidden": false,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Deliver the five requested dishes to Loyal Mergwin and satisfy the Great Gourmand.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Great Taste of Pharloom starts from Loyal Mergwin in Choral Chambers; Courier's Rasher can be spoiled by taking too much damage during delivery.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Mossberry Stew",
+            "location": "Moss Grotto",
+            "method": "Complete Moss Druid's Mossberry objective and collect the prepared dish."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Vintage Nectar",
+            "location": "Halfway Home",
+            "method": "Pay 480 Rosaries for cellar access and collect the nectar."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Pickled Muckmaggot",
+            "location": "Disgraced Chef Lugoli",
+            "method": "Complete Lugoli's requirement and take the dish."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Courier's Rasher",
+            "location": "Bellhart courier chain",
+            "method": "Complete the courier assignment and deliver the rasher while avoiding excessive damage."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Crustnut",
+            "location": "Sands of Karak",
+            "method": "Break through the spike-lined secret route and collect Crustnut."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SHAKRA_FINAL_QUEST",
+      "displayName": "Trail's End",
+      "description": "Grant Shakra's wish",
+      "hidden": false,
+      "globalPercent": 42.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Complete Shakra's Trail's End Wish in upper Bilewater.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Wish appears in Bellhart after the required Shakra encounters and map purchases; her scattered throwing rings lead toward her master.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Buy Shakra's available maps and meet her along the route until Trail's End appears on Bellhart's Wish board."
+          },
+          {
+            "id": "step-2",
+            "text": "In upper-eastern Bilewater, follow Shakra's throwing rings, reach her master, and play Needolin to complete the song-sending scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GARMOND_FINAL_QUEST",
+      "displayName": "Hero's Call",
+      "description": "Defeat Lost Garmond.",
+      "hidden": true,
+      "globalPercent": 30.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Accept Hero's Call and defeat Lost Garmond in Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Bellhart Wish appears after the earlier Garmond and Zaza encounters in Greymoor and Shellwood.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "During Act 3, finish the Garmond and Zaza encounters until Hero's Call appears on Bellhart's board, then accept the Wish."
+          },
+          {
+            "id": "step-2",
+            "text": "Travel to the Blasted Steps Bellway, follow Zaza to Lost Garmond, and defeat Lost Garmond."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PINSTRESS_WISH",
+      "displayName": "Fatal Resolve",
+      "description": "Defeat Pinstress.",
+      "hidden": true,
+      "globalPercent": 31.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Accept Fatal Resolve and defeat Pinstress at Mount Fay during Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pinstress must first be found in the large Blasted Steps house immediately before the Sands of Karak ascent.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Accept Fatal Resolve from Bellhart's board and speak with Pinstress in the Blasted Steps house."
+          },
+          {
+            "id": "step-2",
+            "text": "Travel from the Slab Bellway toward Mount Fay, wake Pinstress, finish her dialogue, and win the duel."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EVA_FINAL_QUEST",
+      "displayName": "Entwined",
+      "description": "Bind Eva.",
+      "hidden": true,
+      "globalPercent": 25.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Unlock 32 Tool slots across non-Hunter Crests, then bind Eva in Weavenest Atla.",
+      "guide": {
+        "kind": "standard",
+        "context": "Starting slots on the six other Crests count; efficient allocation needs at least 12 of the 20 Memory Lockets, while spending lockets on Hunter Crest can raise the requirement to 18.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Obtain Needolin, open Weavenest Atla, meet Eva, and allow Eva to inspect and enhance Hunter Crest."
+          },
+          {
+            "id": "step-2",
+            "text": "Claim the six non-Hunter Crests and spend Memory Lockets until their combined unlocked slots reach 32."
+          },
+          {
+            "id": "step-3",
+            "text": "Return to Eva without Plasmium or Cursed Crest blocking access, accept the binding, and receive Sylphsong."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BELLHOME",
+      "displayName": "Resident",
+      "description": "Acquire your own Bellhome",
+      "hidden": false,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Complete Bellhart's restoration chain and receive the Bellhome key from Pavo.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pavo's final dialogue can require leaving Bellhart and returning after Widow and both repair Wishes are complete.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Complete Bone Bottom's repair Wish for 200 Shell Shards, defeat Widow, and complete Restoration of Bellhart for 250 Rosaries."
+          },
+          {
+            "id": "step-2",
+            "text": "Return to Pavo near the Bellway, exhaust his dialogue until he gives the key, then unlock the upper Bellhart residence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CITADEL_SONG",
+      "displayName": "Harmonious",
+      "description": "Learn the Citadel's Threefold song",
+      "hidden": false,
+      "globalPercent": 47.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Collect the Conductor's, Vaultkeeper's, and Architect's melodies, then play the Threefold Melody.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Cogwork Dancers' defeat activates the central statue that records the three Citadel melody components.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Conductor's Melody",
+            "location": "High Halls",
+            "method": "Clear the Forum battle and collect the melody."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Vaultkeeper's Melody",
+            "location": "Whispering Vaults",
+            "method": "Obtain Sacred Cylinder, deliver it to Vaultkeeper Cardinius, and collect the melody."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Architect's Melody",
+            "location": "Cogwork Core",
+            "method": "Solve the three-pillar machinery puzzle at the top of Cogwork Core."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Threefold Melody",
+            "location": "Cogwork Dancers' hall",
+            "method": "Return to the central statue and play the completed song."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WHITE_FLOWER_GAINED",
+      "displayName": "Remembrance",
+      "description": "Claim Everbloom.",
+      "hidden": true,
+      "globalPercent": 32.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Collect three Old Hearts, finish the Red Memory, and claim Everbloom.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any three of the Karmelita, Khann, Nyleth, and Clover Dancers Old Heart routes satisfy the Snail Shamans' Act 3 request.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Defeat three Old Heart targets and return their Hearts to the Snail Shamans in Moss Grotto."
+          },
+          {
+            "id": "step-2",
+            "text": "Enter the Red Memory, complete its platforming and encounter sequence, and take Everbloom at the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_A",
+      "displayName": "Weaver Queen",
+      "description": "Defeat Grand Mother Silk and bind her power.",
+      "hidden": true,
+      "globalPercent": 40.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "summary": "Defeat Grand Mother Silk and choose Bind before completing Snared Silk.",
+      "guide": {
+        "kind": "standard",
+        "context": "After this ending, the save reloads before Grand Mother Silk, so other pre-Act 3 endings remain available on the same profile.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Reach Grand Mother Silk through the Cradle without completing the Soul Snare route, defeat her, and choose Bind to accept her power."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_C",
+      "displayName": "Snared Silk",
+      "description": "Entrap Grand Mother Silk with the Soul Snare.",
+      "hidden": true,
+      "globalPercent": 39.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Complete Silk and Soul, defeat Grand Mother Silk, and play Needolin to activate the Soul Snare.",
+      "guide": {
+        "kind": "standard",
+        "context": "Snared Silk permanently advances the profile to Act 3 and prevents Weaver Queen and Twisted Child on that profile, so finish those endings first.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Complete the required Wish-board route, move at least 25 Fleas toward Fleatopia, and accept Silk and Soul in Songclave."
+          },
+          {
+            "id": "step-2",
+            "text": "Collect Maiden's Soul after Skull Tyrant, Hermit's Soul beyond Bell Beast's Bellhart passage, Seeker's Soul from its arena, and Snare Setter from the Needolin door; return the components to the caretaker."
+          },
+          {
+            "id": "step-3",
+            "text": "Defeat Grand Mother Silk and play Needolin at the ending prompt to trigger Soul Snare."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_D",
+      "displayName": "Twisted Child",
+      "description": "Defeat Grand Mother Silk while cursed.",
+      "hidden": true,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 2; complete when its prerequisites are available.",
+      "lockoutStage": 2,
+      "prerequisites": [
+        "CITADEL_SONG",
+        "DEFEATED_LACE_2"
+      ],
+      "summary": "Obtain Cursed Crest through Rite of Rebirth and defeat Grand Mother Silk while the curse remains active.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing Infestation Operation converts Cursed Crest into Witch Crest and removes this ending condition; Snared Silk also closes the route.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Complete Rite of the Pollip by collecting six Pollip Hearts, then bring Twisted Bud from the Whispering Vaults–Bilewater descent to Greyroot for Rite of Rebirth."
+          },
+          {
+            "id": "step-2",
+            "text": "Accept Cursed Crest, avoid Infestation Operation, reach Grand Mother Silk before Snared Silk, and defeat her while Cursed Crest is equipped."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDING_E",
+      "displayName": "Sister of the Void",
+      "description": "Defeat Lost Lace and free Pharloom.",
+      "hidden": true,
+      "globalPercent": 29.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1–3 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Enter the Abyss during Act 3, defeat Lost Lace, and complete Sister of the Void.",
+      "guide": {
+        "kind": "standard",
+        "context": "Everbloom protects Hornet during the Last Dive; this is the main Act 3 ending and reloads at the Abyss bench.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Collect three Old Hearts, claim Everbloom, reach the Last Dive, and descend into the Abyss."
+          },
+          {
+            "id": "step-2",
+            "text": "Traverse the Abyss, defeat Lost Lace, and finish the ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HERALD_WISH",
+      "displayName": "Passing of the Age",
+      "description": "Grant the Herald's Wish and finish the game.",
+      "hidden": true,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–90 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 3; complete when its prerequisites are available.",
+      "summary": "Complete Mister Mushroom's seven meetings, then finish any ending to trigger Passing of the Age.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The March 2026 achievement clarification confirms that finishing the Herald's Wish alone is insufficient; an ending must play afterward.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Meeting 1",
+            "location": "Moss Grotto",
+            "method": "Find Mister Mushroom right of the Snail Shaman shrine and play Needolin."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Meeting 2",
+            "location": "Above Bone Bottom",
+            "method": "Find Mister Mushroom above town and play Needolin."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Meeting 3",
+            "location": "Far Fields",
+            "method": "Find Mister Mushroom before the Needolin gate and play Needolin."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Meeting 4",
+            "location": "Greymoor",
+            "method": "Climb above Greymoor's towers and play Needolin beside Mister Mushroom."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Meeting 5",
+            "location": "The Slab",
+            "method": "Return to the First Sinner area and play Needolin beside Mister Mushroom."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Meeting 6",
+            "location": "Mount Fay",
+            "method": "Reach the summit near the Faydown Cloak site and play Needolin."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Meeting 7",
+            "location": "Border Caves",
+            "method": "Use the late movement abilities above Grand Mother Silk's arena, reach Mister Mushroom, and play Needolin."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Ending",
+            "location": "Any ending arena",
+            "method": "Finish an ending after the seventh meeting and watch the extra Passing of the Age scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETION",
+      "displayName": "Completion",
+      "description": "Achieve 100% game completion and finish the game",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "across playthrough",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Reach exactly 100% completion, then finish an ending on that save.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Farsight from the Abyss displays completion in the menu. Act 2 stops at 93%; seven points require Act 3, so this cannot unlock before Snared Silk.",
+        "collectibles": [
+          {
+            "id": "item-1",
+            "index": 1,
+            "name": "Tools",
+            "location": "Across Pharloom",
+            "method": "Acquire all 51 counted Tools for 51%."
+          },
+          {
+            "id": "item-2",
+            "index": 2,
+            "name": "Silk Skills",
+            "location": "Across Pharloom",
+            "method": "Bind all six Silk Skills for 6%."
+          },
+          {
+            "id": "item-3",
+            "index": 3,
+            "name": "Tool upgrades",
+            "location": "Merchants and Wishes",
+            "method": "Acquire four Crafting Kit and four Tool Pouch upgrades for 8%."
+          },
+          {
+            "id": "item-4",
+            "index": 4,
+            "name": "Silk Hearts",
+            "location": "Marrow, Whiteward, Cradle",
+            "method": "Complete the three Silk Heart memories for 3%."
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Crests",
+            "location": "Across Pharloom",
+            "method": "Claim the six non-default Crests for 6%."
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Abilities",
+            "location": "Story and exploration",
+            "method": "Acquire Needolin, Swift Step, Cling Grip, Clawline, Silk Soar, Sylphsong, and Needle Strike for 7%."
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Masks",
+            "location": "Across Pharloom",
+            "method": "Collect 20 Mask Shards for five Mask upgrades and 5%."
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Silk Spools",
+            "location": "Across Pharloom",
+            "method": "Collect 18 Spool Fragments for nine Spool upgrades and 9%."
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Needle",
+            "location": "Bellhart and Pale Oil upgrades",
+            "method": "Acquire all four Needle upgrades for 4%."
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Everbloom",
+            "location": "Red Memory",
+            "method": "Claim Everbloom for the final 1%."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Ending",
+            "location": "Any ending arena",
+            "method": "Confirm Farsight shows 100%, then finish the game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPEEDRUN_1",
+      "displayName": "Speedrunner",
+      "description": "Complete the game in under 5 hours",
+      "hidden": false,
+      "globalPercent": 4.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1–3 hr",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 5; complete when its prerequisites are available.",
+      "summary": "Finish any ending with the save timer below five hours.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement uses in-game time; the pause menu, map, and inventory stop the clock according to the post-patch achievement guide.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Route through Bone Bottom and Marrow for Silkspear and Bell Beast, then Deep Docks for Swift Step and Lace."
+          },
+          {
+            "id": "step-2",
+            "text": "Cross Far Fields for Drifter's Cloak and Fourth Chorus, defeat Moorwing in Greymoor, and traverse Shellwood–Bellhart for Cling Grip, Widow, and Needolin."
+          },
+          {
+            "id": "step-3",
+            "text": "Solve the Mist, defeat Phantom, defeat Last Judge at the summit of Blasted Steps, enter the Citadel, then defeat Cogwork Dancers and Trobbio."
+          },
+          {
+            "id": "step-4",
+            "text": "Obtain Vaultkeeper's Melody by delivering Sacred Cylinder in Whispering Vaults, Conductor's Melody after the High Halls Forum battle, and Architect's Melody from Cogwork Core's pillar puzzle; play the completed Threefold Melody in Cogwork Dancers' hall."
+          },
+          {
+            "id": "step-5",
+            "text": "Defeat Lace in the Cradle and choose Bind after defeating Grand Mother Silk before the save timer reaches five hours."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPEED_COMPLETION",
+      "displayName": "Speed Completion",
+      "description": "Achieve 100% game completion and finish the game in under 30 hours",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "across playthrough",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 4; complete when its prerequisites are available.",
+      "summary": "Reach 100% completion and finish an ending before the save timer reaches 30 hours.",
+      "guide": {
+        "kind": "standard",
+        "context": "Because the completion ledger totals exactly 100, no optional percentage buffer exists; route every required Tool and upgrade before committing to the final ending.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Group the route by Moss Grotto, Marrow, Deep Docks, Far Fields, Greymoor, Shellwood, Sinner's Road, Citadel, Mount Fay, and Act 3 cleanup."
+          },
+          {
+            "id": "step-2",
+            "text": "Collect 51 Tools, six Silk Skills, four Crafting Kits, four Tool Pouches, three Silk Hearts, six non-default Crests, seven counted abilities, 20 Mask Shards, 18 Spool Fragments, four Needle upgrades, and Everbloom."
+          },
+          {
+            "id": "step-3",
+            "text": "Use Farsight to verify 100%, then finish Sister of the Void or another available ending while the save timer remains below 30 hours."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STEEL_SOUL",
+      "displayName": "Steel Soul",
+      "description": "Finish the game in Steel Soul mode",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1–3 hr",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 5; complete when its prerequisites are available.",
+      "summary": "Finish any ending in Steel Soul mode without a permanent death.",
+      "guide": {
+        "kind": "standard",
+        "context": "Steel Soul unlocks after one ending; on Extras, the shortcut alternates Up and Down twice, followed by Left and Right twice. Most deaths erase the profile, although First Sinner, Shakra, Garmond and Zaza, and Elegy memories are explicit exceptions; being knocked into spikes during those fights still counts as real death.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Start a new Steel Soul profile, prioritize Masks, Needle upgrades, Bellways, and safe benches, and leave optional high-risk encounters until stronger."
+          },
+          {
+            "id": "step-2",
+            "text": "Obtain Silkspear and defeat Bell Beast; acquire Swift Step in Deep Docks; obtain Drifter's Cloak in Far Fields; acquire Cling Grip in Shellwood; defeat Widow for Needolin; defeat Last Judge to enter the Citadel."
+          },
+          {
+            "id": "step-3",
+            "text": "Defeat Cogwork Dancers, gather the three Citadel melodies, play the Threefold Melody, defeat Lace in the Cradle, then defeat Grand Mother Silk and choose Bind without a permanent death."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STEEL_SOUL_FULL",
+      "displayName": "Steel Heart",
+      "description": "Achieve 100% game completion and finish the game in Steel Soul mode",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "across playthrough",
+      "estMinutes": 1800,
+      "stage": 5,
+      "confidence": "verified",
+      "sortReason": "Roadmap stage 5; complete when its prerequisites are available.",
+      "summary": "Reach 100% completion and finish an ending on one Steel Soul profile without a permanent death.",
+      "guide": {
+        "kind": "standard",
+        "context": "Steel Soul changes Dead Bug's Purse to Shell Satchel and adds exclusive content, but the same exact 100-point completion categories apply. Steel-only Wishes and bosses are not extra percentage.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Use a conservative area route and buy Masks plus Needle upgrades before boss and platforming risks."
+          },
+          {
+            "id": "step-2",
+            "text": "Collect 51 Tools, six Silk Skills, four Crafting Kits, four Tool Pouches, three Silk Hearts, six non-default Crests, seven counted abilities, 20 Mask Shards, 18 Spool Fragments, four Needle upgrades, and Everbloom without a permanent death."
+          },
+          {
+            "id": "step-3",
+            "text": "Use Farsight to confirm 100%, then finish an available ending without a permanent death."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "DEFEATED_LACE_1",
+    "FIRST_TOOL",
+    "FIRST_SILK_SKILL",
+    "DEFEATED_BELLBEAST",
+    "FIRST_WISH",
+    "DEFEATED_SONG_GOLEM",
+    "FIRST_CREST",
+    "FIRST_SILK_SPOOL",
+    "DEFEATED_WIDOW",
+    "FIRST_MASK",
+    "DEFEATED_LAST_JUDGE_1",
+    "DEFEATED_COGWORK_DANCERS",
+    "JOURNAL_HALF",
+    "DEFEATED_TROBBIO",
+    "FLEAS_HALF",
+    "CITADEL_SONG",
+    "DEFEATED_PHANTOM_1",
+    "BELLHOME",
+    "DEFEATED_LACE_2",
+    "ENDING_D",
+    "GOURMAND_WISH",
+    "SHAKRA_FINAL_QUEST",
+    "ENDING_A",
+    "DEFEATED_FIRST_SINNER",
+    "EVA_FINAL_QUEST",
+    "ENDING_C",
+    "BELLWAY_MELODY",
+    "DEFEATED_CORAL_KING",
+    "DEFEATED_FLOWER_QUEEN",
+    "DEFEATED_HUNTER_QUEEN",
+    "WHITE_FLOWER_GAINED",
+    "PINSTRESS_WISH",
+    "GARMOND_FINAL_QUEST",
+    "HERALD_WISH",
+    "ENDING_E",
+    "DEFEATED_GREEN_PRINCE",
+    "TUBES_FULL",
+    "BELLWAYS_FULL",
+    "ALL_SILK_HEARTS",
+    "ALL_CRESTS",
+    "ALL_SILK_SKILLS",
+    "FLEAS_ALL",
+    "ALL_MAPS",
+    "ALL_SILK_SPOOLS",
+    "ALL_MASKS",
+    "ALL_TOOLS",
+    "JOURNAL_FULL",
+    "COMPLETION",
+    "SPEED_COMPLETION",
+    "SPEEDRUN_1",
+    "STEEL_SOUL",
+    "STEEL_SOUL_FULL"
+  ]
+}

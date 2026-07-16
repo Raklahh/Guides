@@ -1,0 +1,2179 @@
+{
+  "game": {
+    "appid": 620,
+    "slug": "portal-2",
+    "title": "Portal 2",
+    "version": "1.0",
+    "lastPatchChecked": "2026-06-30",
+    "estTotalHours": 28,
+    "difficultyRating": 5,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Single-player Chapters 1–5",
+      "description": "Collect the three Chapter 2 Chamber 6 achievements, carry the Companion Cube out of Chamber 7, follow GLaDOS's deadly detour during the escape, and finish both turret-factory interactions.",
+      "achievementRefs": [
+        "ACH.SURVIVE_CONTAINER_RIDE",
+        "ACH.WAKE_UP",
+        "ACH.LASER",
+        "ACH.BRIDGE",
+        "ACH.BREAK_OUT",
+        "ACH.STALEMATE_ASSOCIATE",
+        "ACH.BOX_HOLE_IN_ONE",
+        "ACH.SPEED_RUN_LEVEL",
+        "ACH.SAVE_CUBE",
+        "ACH.LAUNCH_TURRET",
+        "ACH.CLEAN_UP",
+        "ACH.REENTER_TEST_CHAMBERS",
+        "ACH.NOT_THE_DROID",
+        "ACH.SAVE_REDEMPTION_TURRET"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Single-player Chapters 6–9",
+      "description": "Inspect all six vitrified doors, collect the old Aperture secrets, break all 11 Wheatley monitors, obey the pit request, and finish the campaign; use Challenge Mode for any timed cleanup.",
+      "achievementRefs": [
+        "ACH.ADDICTED_TO_SPUDS",
+        "ACH.BLUE_GEL",
+        "ACH.ORANGE_GEL",
+        "ACH.WHITE_GEL",
+        "ACH.TRACTOR_BEAM",
+        "ACH.TRIVIAL_TEST",
+        "ACH.WHEATLEY_TRIES_TO",
+        "ACH.SHOOT_THE_MOON",
+        "ACH.COMPLIANT",
+        "ACH.CATCH_CRAZY_BOX",
+        "ACH.NO_BOAT",
+        "ACH.A3_DOORS",
+        "ACH.PORTRAIT",
+        "ACH.DEFIANT",
+        "ACH.BREAK_MONITORS"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Complete the five co-op courses",
+      "description": "Play Calibration and Courses 1–5 with a partner. Gesture at one camera per course, manually use each unlocked gesture, and collect the chamber-specific opportunities as they appear.",
+      "achievementRefs": [
+        "ACH.HI_FIVE_YOUR_PARTNER",
+        "ACH.TEAM_BUILDING",
+        "ACH.MASS_AND_VELOCITY",
+        "ACH.HUG_NAME",
+        "ACH.EXCURSION_FUNNELS",
+        "ACH.NEW_BLOOD",
+        "ACH.TAUNTS",
+        "ACH.YOU_MONSTER",
+        "ACH.PARTNER_DROP",
+        "ACH.PARTY_OF_THREE",
+        "ACH.PORTAL_TAUNT",
+        "ACH.WITH_STYLE",
+        "ACH.FOUR_PORTALS",
+        "ACH.TAUNT_CAMERA",
+        "ACH.ROCK_CRUSHES_ROBOT"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Co-op challenge and social cleanup",
+      "description": "Replay selected chambers for cube, portal, speed, and no-death challenges. Finish with three online friend hugs and Professor Portal using a profile that has never entered co-op.",
+      "achievementRefs": [
+        "ACH.NICE_CATCH",
+        "ACH.TEACHER",
+        "ACH.LIMITED_PORTALS",
+        "ACH.SPEED_RUN_COOP",
+        "ACH.STAYING_ALIVE",
+        "ACH.SPREAD_THE_LOVE",
+        "ACH.SUMMER_SALE"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH.SURVIVE_CONTAINER_RIDE",
+      "displayName": "Wake Up Call",
+      "description": "Survive the manual override",
+      "hidden": false,
+      "globalPercent": 74.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Escape the container ride.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 1, The Courtesy Call.",
+        "steps": [
+          {
+            "id": "ach-survive_container_ride-1",
+            "text": "Finish the opening fitness check and follow Wheatley until the container reaches the old testing track."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.WAKE_UP",
+      "displayName": "You Monster",
+      "description": "Reunite with GLaDOS",
+      "hidden": false,
+      "globalPercent": 64.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.SURVIVE_CONTAINER_RIDE"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Reawaken GLaDOS.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic near the end of Chapter 1.",
+        "steps": [
+          {
+            "id": "ach-wake_up-1",
+            "text": "Complete Wheatley's tutorial route and enter GLaDOS's old chamber."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.LASER",
+      "displayName": "Undiscouraged",
+      "description": "Complete the first Thermal Discouragement Beam test",
+      "hidden": false,
+      "globalPercent": 62.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.WAKE_UP"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete the first Thermal Discouragement Beam test.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 2, Test Chamber 1.",
+        "steps": [
+          {
+            "id": "ach-laser-1",
+            "text": "Redirect the laser through portals into the receptor, ride the raised platform, and enter the exit elevator."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.BRIDGE",
+      "displayName": "Bridge Over Troubling Water",
+      "description": "Complete the first Hard Light Bridge test",
+      "hidden": false,
+      "globalPercent": 53.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.LASER"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete the first Hard Light Bridge test.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 3, Test Chamber 11.",
+        "steps": [
+          {
+            "id": "ach-bridge-1",
+            "text": "Use the bridge to reach the pedestal button, route it around the central gap, catch the cube, and place the cube on the exit button."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.BREAK_OUT",
+      "displayName": "SaBOTour",
+      "description": "Make a break for it",
+      "hidden": false,
+      "globalPercent": 46.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.BRIDGE"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Escape the test track with Wheatley.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 4, Test Chamber 21.",
+        "steps": [
+          {
+            "id": "ach-break_out-1",
+            "text": "When Wheatley breaks into the chamber, follow him out of the test track."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.STALEMATE_ASSOCIATE",
+      "displayName": "Stalemate Associate",
+      "description": "Press the button!",
+      "hidden": false,
+      "globalPercent": 45.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.BREAK_OUT"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Help Wheatley complete the core transfer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 5.",
+        "steps": [
+          {
+            "id": "ach-stalemate_associate-1",
+            "text": "Return to GLaDOS's chamber, attach Wheatley, and press the stalemate-resolution button when prompted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.ADDICTED_TO_SPUDS",
+      "displayName": "Tater Tote",
+      "description": "Carry science forward",
+      "hidden": false,
+      "globalPercent": 41.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.STALEMATE_ASSOCIATE"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Recover potato-powered GLaDOS.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic late in Chapter 6.",
+        "steps": [
+          {
+            "id": "ach-addicted_to_spuds-1",
+            "text": "Reach the old Aperture control room and pick up GLaDOS after the reunion scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.BLUE_GEL",
+      "displayName": "Vertically Unchallenged",
+      "description": "Master the Repulsion Gel",
+      "hidden": false,
+      "globalPercent": 42.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.STALEMATE_ASSOCIATE"
+      ],
+      "summary": "Master Repulsion Gel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic during Chapter 6's first blue-gel sequence.",
+        "steps": [
+          {
+            "id": "ach-blue_gel-1",
+            "text": "Complete the first Repulsion Gel rooms and cross the large gap to the upward elevator."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.ORANGE_GEL",
+      "displayName": "Stranger Than Friction",
+      "description": "Master the Propulsion Gel",
+      "hidden": false,
+      "globalPercent": 39.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.BLUE_GEL"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Master Propulsion Gel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 7.",
+        "steps": [
+          {
+            "id": "ach-orange_gel-1",
+            "text": "Complete the orange-gel rooms through the long running launch into the elevator."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.WHITE_GEL",
+      "displayName": "White Out",
+      "description": "Complete the first Conversion Gel test",
+      "hidden": false,
+      "globalPercent": 38.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.ORANGE_GEL"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete the first Conversion Gel test.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic near the end of Chapter 7.",
+        "steps": [
+          {
+            "id": "ach-white_gel-1",
+            "text": "Spread Conversion Gel to create portal surfaces, solve the chamber, and enter its elevator."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.TRACTOR_BEAM",
+      "displayName": "Tunnel of Funnel",
+      "description": "Master the Excursion Funnel",
+      "hidden": false,
+      "globalPercent": 35.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.TRIVIAL_TEST"
+      ],
+      "summary": "Master the Excursion Funnel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic in Chapter 8, Test Chamber 15.",
+        "steps": [
+          {
+            "id": "ach-tractor_beam-1",
+            "text": "Complete Wheatley's Test Chamber 15 and enter the exit elevator."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.TRIVIAL_TEST",
+      "displayName": "Dual Pit Experiment",
+      "description": "Do the same test twice",
+      "hidden": false,
+      "globalPercent": 37.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.WHITE_GEL"
+      ],
+      "summary": "Complete Wheatley's repeated test.",
+      "guide": {
+        "kind": "standard",
+        "context": "At the start of Chapter 8, the introductory turret-cube room is separate; Wheatley repeats the next chamber marked TEST.",
+        "steps": [
+          {
+            "id": "ach-trivial_test-1",
+            "text": "Finish the introductory turret-cube room and ride the lift into the chamber marked TEST."
+          },
+          {
+            "id": "ach-trivial_test-2",
+            "text": "First wait for You Made Your Point without touching its button or crossing the room; then solve the marked chamber."
+          },
+          {
+            "id": "ach-trivial_test-3",
+            "text": "Complete Wheatley's forced repeat of that same marked-TEST solution to unlock Dual Pit Experiment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.WHEATLEY_TRIES_TO",
+      "displayName": "The Part Where He Kills You",
+      "description": "This is that part",
+      "hidden": false,
+      "globalPercent": 34.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.TRACTOR_BEAM"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Reach the chapter where Wheatley tries to kill you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic at the start of Chapter 9.",
+        "steps": [
+          {
+            "id": "ach-wheatley_tries_to-1",
+            "text": "Finish Chapter 8 and fall into Wheatley's trap."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SHOOT_THE_MOON",
+      "displayName": "Lunacy",
+      "description": "That just happened",
+      "hidden": false,
+      "globalPercent": 34.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.WHEATLEY_TRIES_TO"
+      ],
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Finish the single-player campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automatic after the final boss.",
+        "steps": [
+          {
+            "id": "ach-shoot_the_moon-1",
+            "text": "Defeat Wheatley, fire the final portal at the Moon, and complete the ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.BOX_HOLE_IN_ONE",
+      "displayName": "Drop Box",
+      "description": "Place a cube on a button without touching the cube",
+      "hidden": false,
+      "globalPercent": 28.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.LASER"
+      ],
+      "summary": "Drop the cube directly onto its button.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use Chapter 2, Test Chamber 6; quicksave before pressing the dispenser button.",
+        "steps": [
+          {
+            "id": "ach-box_hole_in_one-1",
+            "text": "Place one portal on the ceiling directly above the floor button."
+          },
+          {
+            "id": "ach-box_hole_in_one-2",
+            "text": "Place the other portal on the first slanted panel in the cube's normal flight path."
+          },
+          {
+            "id": "ach-box_hole_in_one-3",
+            "text": "Press the dispenser button so the cube enters the slanted-panel portal and falls through the ceiling portal onto the floor button without Chell touching it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SPEED_RUN_LEVEL",
+      "displayName": "Overclocker",
+      "description": "Complete Test Chamber 10 in 70 seconds",
+      "hidden": false,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.LASER"
+      ],
+      "summary": "Finish Chapter 3, Test Chamber 10 in under 70 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "The timer starts on chamber entry and ends when the final cube lands on its button; Challenge Mode's No Return – Ricochet also works.",
+        "steps": [
+          {
+            "id": "ach-speed_run_level-1",
+            "text": "Make a save before the elevator doors open, then solve the chamber once as practice."
+          },
+          {
+            "id": "ach-speed_run_level-2",
+            "text": "Reload, execute the practiced route without pauses, and put the final cube on the pressure plate before 70 seconds elapse.",
+            "note": "The achievement appears as soon as the timed solve registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.COMPLIANT",
+      "displayName": "Pit Boss",
+      "description": "Show that pit who's boss",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.WHEATLEY_TRIES_TO"
+      ],
+      "summary": "Obey Wheatley's request to jump into the pit.",
+      "guide": {
+        "kind": "standard",
+        "context": "This occurs immediately after escaping the trap at the start of Chapter 9.",
+        "steps": [
+          {
+            "id": "ach-compliant-1",
+            "text": "Use Conversion Gel and portals to escape the trap, then start down the walkway."
+          },
+          {
+            "id": "ach-compliant-2",
+            "text": "When Wheatley calls you back, return to the pit and wait until he explicitly asks you to jump."
+          },
+          {
+            "id": "ach-compliant-3",
+            "text": "Jump only after his request; jumping early does not count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SAVE_CUBE",
+      "displayName": "Preservation of Mass",
+      "description": "Break the rules in Test Chamber 07",
+      "hidden": false,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.LASER"
+      ],
+      "summary": "Carry the Companion Cube out of Test Chamber 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the third, surviving Companion Cube in Chapter 2, Test Chamber 7.",
+        "steps": [
+          {
+            "id": "ach-save_cube-1",
+            "text": "Solve the chamber with the surviving Companion Cube and reach the exit doors."
+          },
+          {
+            "id": "ach-save_cube-2",
+            "text": "Walk through the doors, place a portal on a wall in the exit hallway, and place the paired portal back beside the cube."
+          },
+          {
+            "id": "ach-save_cube-3",
+            "text": "Pull the cube through the portals; the achievement unlocks when it crosses the exit threshold."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.LAUNCH_TURRET",
+      "displayName": "Pturretdactyl",
+      "description": "Use an Aerial Faith Plate to launch a turret",
+      "hidden": false,
+      "globalPercent": 8.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.LASER"
+      ],
+      "summary": "Launch a turret from an Aerial Faith Plate.",
+      "guide": {
+        "kind": "standard",
+        "context": "The earliest setup is Chapter 2, Test Chamber 6.",
+        "steps": [
+          {
+            "id": "ach-launch_turret-1",
+            "text": "Quicksave before pressing the dispenser button."
+          },
+          {
+            "id": "ach-launch_turret-2",
+            "text": "Press it once and catch or retrieve the broken turret from the junk items before it falls into the water."
+          },
+          {
+            "id": "ach-launch_turret-3",
+            "text": "Carry the turret through portals to the chamber's starting Faith Plate and set it on the plate to launch it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.CLEAN_UP",
+      "displayName": "Final Transmission",
+      "description": "Find the hidden signal in one of the Rat Man's dens",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.LASER"
+      ],
+      "summary": "Carry the radio into Rat Man's hidden den.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the radio ejected with the junk in Chapter 2, Test Chamber 6.",
+        "steps": [
+          {
+            "id": "ach-clean_up-1",
+            "text": "Quicksave before using the dispenser and keep the radio from falling into the water."
+          },
+          {
+            "id": "ach-clean_up-2",
+            "text": "Carry it to the starting Faith Plate and set portals to fling Chell into the hidden room across from the dispenser button."
+          },
+          {
+            "id": "ach-clean_up-3",
+            "text": "Hold the radio through the fling and walk it to the desk at the rear of the den; its signal changes and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.REENTER_TEST_CHAMBERS",
+      "displayName": "Good Listener",
+      "description": "Take GLaDOS' escape advice",
+      "hidden": false,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.BREAK_OUT"
+      ],
+      "summary": "Follow GLaDOS into the deadly final test.",
+      "guide": {
+        "kind": "standard",
+        "context": "Missable during the Chapter 4 escape from Test Chamber 21.",
+        "steps": [
+          {
+            "id": "ach-reenter_test_chambers-1",
+            "text": "As Wheatley leads you away, stop when GLaDOS opens a test chamber across a Hard Light Bridge."
+          },
+          {
+            "id": "ach-reenter_test_chambers-2",
+            "text": "Ignore Wheatley's escape direction and cross the bridge into GLaDOS's chamber.",
+            "note": "The chamber kills Chell after the achievement, so a checkpoint reload returns you to the escape.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.NOT_THE_DROID",
+      "displayName": "Scanned Alone",
+      "description": "Stand in a defective turret detector",
+      "hidden": false,
+      "globalPercent": 34.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.BREAK_OUT"
+      ],
+      "summary": "Stand in the master turret scanner.",
+      "guide": {
+        "kind": "standard",
+        "context": "Missable in Chapter 5's Turret Control Center.",
+        "steps": [
+          {
+            "id": "ach-not_the_droid-1",
+            "text": "After Wheatley opens the control-room door, remove the good master turret from the Quality Control scanner."
+          },
+          {
+            "id": "ach-not_the_droid-2",
+            "text": "Step into the empty scanner frame yourself and remain there until its scan completes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SAVE_REDEMPTION_TURRET",
+      "displayName": "No Hard Feelings",
+      "description": "Save a turret from redemption",
+      "hidden": false,
+      "globalPercent": 31.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 1; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.BREAK_OUT"
+      ],
+      "summary": "Rescue the speaking turret from the redemption line.",
+      "guide": {
+        "kind": "standard",
+        "context": "Missable on Chapter 5's turret-factory conveyor belts.",
+        "steps": [
+          {
+            "id": "ach-save_redemption_turret-1",
+            "text": "From the first control room, portal onto the conveyor and run toward the incinerator."
+          },
+          {
+            "id": "ach-save_redemption_turret-2",
+            "text": "Climb the right-side vent ducts to the upper conveyor and wait near its incinerator."
+          },
+          {
+            "id": "ach-save_redemption_turret-3",
+            "text": "Pick up the defective turret with the flickering laser that calls, “I'm different!” before it is destroyed.",
+            "note": "Reload the control-room save if it has already passed into the incinerator.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.CATCH_CRAZY_BOX",
+      "displayName": "Schrodinger's Catch",
+      "description": "Catch a blue-painted box before it touches the ground",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.BLUE_GEL"
+      ],
+      "summary": "Catch the blue-gel cube before it touches any surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the sealed glass-box room in Chapter 6 and save before releasing the cube.",
+        "steps": [
+          {
+            "id": "ach-catch_crazy_box-1",
+            "text": "Portal the Repulsion Gel under the glass box so the cube begins bouncing and breaks the glass."
+          },
+          {
+            "id": "ach-catch_crazy_box-2",
+            "text": "As soon as glass opens, move that portal under the water stream to wash the gel off the cube before it escapes."
+          },
+          {
+            "id": "ach-catch_crazy_box-3",
+            "text": "Bounce into the broken box and grab the cleaned cube while it is still inside; reload if it touches a floor or wall."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.NO_BOAT",
+      "displayName": "Ship Overboard",
+      "description": "Discover the missing experiment",
+      "hidden": false,
+      "globalPercent": 10.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.A3_DOORS"
+      ],
+      "summary": "Find the Borealis experiment.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Borealis room is beside Chapter 6's second group of vitrified doors.",
+        "steps": [
+          {
+            "id": "ach-no_boat-1",
+            "text": "After inspecting doors 4–6 in the secret upper office, enter the nearby test-chamber doorway that is broken off its hinges."
+          },
+          {
+            "id": "ach-no_boat-2",
+            "text": "Walk down the metal catwalk to the orange Borealis life preserver."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.A3_DOORS",
+      "displayName": "Door Prize",
+      "description": "Examine all the vitrified test chamber doors",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.BLUE_GEL"
+      ],
+      "summary": "Inspect all six vitrified test-chamber doors.",
+      "guide": {
+        "kind": "standard",
+        "context": "All six are in Chapter 6 and each valid inspection triggers a Cave Johnson message.",
+        "steps": [
+          {
+            "id": "ach-a3_doors-1",
+            "text": "After the flooded cavern, ride the large elevator tower to the top, turn around, and portal to the cave wall containing three doors; approach all three."
+          },
+          {
+            "id": "ach-a3_doors-2",
+            "text": "After activating the orange and blue gels, portal into the office hanging above the master control room."
+          },
+          {
+            "id": "ach-a3_doors-3",
+            "text": "Go behind the consoles in its far-left corner, enter the sliding secret passage, and approach the final three doors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.PORTRAIT",
+      "displayName": "Portrait of a Lady",
+      "description": "Find a hidden portrait",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.ADDICTED_TO_SPUDS"
+      ],
+      "summary": "Find the Cave Johnson and Caroline portrait.",
+      "guide": {
+        "kind": "standard",
+        "context": "The portrait is shortly after Chapter 7's first Propulsion Gel section.",
+        "steps": [
+          {
+            "id": "ach-portrait-1",
+            "text": "Pass the first Emancipation Grid, but stop before crossing the second grid on the metal walkway."
+          },
+          {
+            "id": "ach-portrait-2",
+            "text": "Look left through the barred gate, place a portal on the white wall beyond it, and enter the hidden office."
+          },
+          {
+            "id": "ach-portrait-3",
+            "text": "Approach the Cave Johnson and Caroline painting until GLaDOS comments."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.DEFIANT",
+      "displayName": "You Made Your Point",
+      "description": "Refuse to solve the first test in Chapter 8",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.WHITE_GEL"
+      ],
+      "summary": "Refuse to solve Wheatley's first marked test.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chapter 8 begins with an introductory turret-cube room; the opportunity is the next chamber marked TEST, before solving it the first time or triggering its repeat.",
+        "steps": [
+          {
+            "id": "ach-defiant-1",
+            "text": "Finish the introductory turret-cube room and ride the lift into the chamber marked TEST."
+          },
+          {
+            "id": "ach-defiant-2",
+            "text": "On this first visit, do not press the pedestal button and do not cross to the opposite side; remain idle for about 30 seconds until Wheatley gives up and the achievement unlocks."
+          },
+          {
+            "id": "ach-defiant-3",
+            "text": "After it unlocks, solve this chamber and its forced repeat for Dual Pit Experiment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.BREAK_MONITORS",
+      "displayName": "Smash TV",
+      "description": "Break 11 test chamber monitors",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "group": "single-player",
+      "sortReason": "Roadmap stage 2; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.DEFIANT",
+        "ACH.TRACTOR_BEAM"
+      ],
+      "summary": "Destroy all 11 Wheatley monitors in Chapter 8.",
+      "guide": {
+        "kind": "standard",
+        "context": "The monitors span Test Chambers 1–6, 11, 12, 15, and 16; save after each confirmed break.",
+        "steps": [
+          {
+            "id": "ach-break_monitors-1",
+            "text": "Chambers 1–3: fling Chell into monitor 1; launch a turret-cube into monitor 2; fling Chell into monitor 3 beside the exit."
+          },
+          {
+            "id": "ach-break_monitors-2",
+            "text": "Chambers 4–6: place the live turret behind monitor 4; launch turret-cubes into both monitors in Chamber 5; use Chamber 6's Faith Plate for monitor 7."
+          },
+          {
+            "id": "ach-break_monitors-3",
+            "text": "Chambers 11–12: redirect the laser through portals into monitor 8, then aim the redirection cube's laser at monitor 9."
+          },
+          {
+            "id": "ach-break_monitors-4",
+            "text": "Chamber 15: lift the turret-cube with the funnel and launch it through a wall portal into monitor 10."
+          },
+          {
+            "id": "ach-break_monitors-5",
+            "text": "Chamber 16: use funnel-carried Repulsion Gel to disable two turrets, retrieve the surviving turret, and place it facing monitor 11.",
+            "note": "If any monitor survives, reload before leaving that chamber; the achievement unlocks on the eleventh break.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.HI_FIVE_YOUR_PARTNER",
+      "displayName": "High Five",
+      "description": "Celebrate your cooperative calibration success",
+      "hidden": false,
+      "globalPercent": 58.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete co-op calibration and high-five your partner.",
+      "guide": {
+        "kind": "standard",
+        "context": "Start the Calibration Course with a co-op partner.",
+        "steps": [
+          {
+            "id": "ach-hi_five_your_partner-1",
+            "text": "Complete both portal-placement exercises and the short joint-button test."
+          },
+          {
+            "id": "ach-hi_five_your_partner-2",
+            "text": "At the finish, perform the prompted High Five gesture with your partner."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.TEAM_BUILDING",
+      "displayName": "Team Building",
+      "description": "Complete all test chambers in the Team Building co-op course",
+      "hidden": false,
+      "globalPercent": 49.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.HI_FIVE_YOUR_PARTNER"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete all six Team Building chambers.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is co-op Course 1.",
+        "steps": [
+          {
+            "id": "ach-team_building-1",
+            "text": "Complete Chambers 1–6 with the same or different partners and insert the disc at the course finale."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.MASS_AND_VELOCITY",
+      "displayName": "Confidence Building",
+      "description": "Complete all test chambers in the Mass and Velocity co-op course",
+      "hidden": false,
+      "globalPercent": 40.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.TEAM_BUILDING"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete all eight Mass and Velocity chambers.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is co-op Course 2.",
+        "steps": [
+          {
+            "id": "ach-mass_and_velocity-1",
+            "text": "Complete Chambers 1–8 and insert the finale disc."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.HUG_NAME",
+      "displayName": "Bridge Building",
+      "description": "Complete all test chambers in the Hard-Light Surfaces co-op course",
+      "hidden": false,
+      "globalPercent": 32.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.MASS_AND_VELOCITY"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete all eight Hard-Light Surfaces chambers.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is co-op Course 3 and unlocks the Hug gesture in Chamber 8.",
+        "steps": [
+          {
+            "id": "ach-hug_name-1",
+            "text": "Complete Chambers 1–8 and insert the finale disc."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.EXCURSION_FUNNELS",
+      "displayName": "Obstacle Building",
+      "description": "Complete all test chambers in the Excursion Funnels co-op course",
+      "hidden": false,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.HUG_NAME"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete all nine Excursion Funnels chambers.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is co-op Course 4.",
+        "steps": [
+          {
+            "id": "ach-excursion_funnels-1",
+            "text": "Complete Chambers 1–9 and insert the finale disc."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.NEW_BLOOD",
+      "displayName": "You Saved Science",
+      "description": "Complete all test chambers in all courses of co-op",
+      "hidden": false,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across co-op campaign",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.EXCURSION_FUNNELS"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete all five core co-op courses.",
+      "guide": {
+        "kind": "standard",
+        "context": "Advanced Challenges and Art Therapy are not required.",
+        "steps": [
+          {
+            "id": "ach-new_blood-1",
+            "text": "Finish Team Building, Mass and Velocity, Hard-Light Surfaces, Excursion Funnels, and Mobility Gels."
+          },
+          {
+            "id": "ach-new_blood-2",
+            "text": "Complete Mobility Gels Chamber 6 to register the fifth course and unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.NICE_CATCH",
+      "displayName": "Iron Grip",
+      "description": "Never lose a cube in Chamber 6 of the Mass and Velocity co-op course",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.MASS_AND_VELOCITY"
+      ],
+      "summary": "Keep the cube out of the water in Course 2, Chamber 6.",
+      "guide": {
+        "kind": "standard",
+        "context": "Assign one player to press the dispenser and the other to catch the cube across the Faith Plates.",
+        "steps": [
+          {
+            "id": "ach-nice_catch-1",
+            "text": "Reach the chamber's second area and practice the catcher’s Faith Plate loop before releasing the cube."
+          },
+          {
+            "id": "ach-nice_catch-2",
+            "text": "The catcher steps onto the first plate; the button player releases the cube after the catcher passes halfway to the next plate."
+          },
+          {
+            "id": "ach-nice_catch-3",
+            "text": "Catch and preserve the cube through the remainder of the solve; restart the chamber if it touches the water."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.TAUNTS",
+      "displayName": "Gesticul-8",
+      "description": "Perform all 8 gestures of your own volition in co-op",
+      "hidden": false,
+      "globalPercent": 27.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.EXCURSION_FUNNELS"
+      ],
+      "summary": "Perform all eight co-op gestures manually.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gestures unlock through co-op Course 4, Chamber 4; prompted story gestures alone are not enough.",
+        "steps": [
+          {
+            "id": "ach-taunts-1",
+            "text": "Unlock Wave, High Five, Rock Paper Scissors, Laugh, Robot Dance, Team Tease, Team Hug, and Trick Fire by progressing through Courses 1–4."
+          },
+          {
+            "id": "ach-taunts-2",
+            "text": "Open the gesture wheel and deliberately perform each gesture once; use a partner for paired gestures."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.YOU_MONSTER",
+      "displayName": "Can't Touch This",
+      "description": "Dance in front of a turret blocked by a hard light bridge in co-op",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.MASS_AND_VELOCITY"
+      ],
+      "summary": "Gesture in front of a turret blocked by a bridge.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use co-op Course 3, Chamber 6.",
+        "steps": [
+          {
+            "id": "ach-you_monster-1",
+            "text": "Stand in the pre-existing turret's line of fire with the Hard Light Bridge between you and the turret."
+          },
+          {
+            "id": "ach-you_monster-2",
+            "text": "Perform Robot Dance or another valid gesture while the bridge blocks its shots."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.PARTNER_DROP",
+      "displayName": "Empty Gesture",
+      "description": "Drop your co-op partner in goo while they are gesturing by removing the bridge under them",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.MASS_AND_VELOCITY"
+      ],
+      "summary": "Drop a gesturing partner into goo.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use co-op Course 3, Chamber 1.",
+        "steps": [
+          {
+            "id": "ach-partner_drop-1",
+            "text": "Portal the Hard Light Bridge over the goo and have your partner walk onto it."
+          },
+          {
+            "id": "ach-partner_drop-2",
+            "text": "When your partner begins a gesture, move the bridge portal so the bridge vanishes and they fall into the goo."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.PARTY_OF_THREE",
+      "displayName": "Party of Three",
+      "description": "Find the hidden companion cube in co-op test chamber",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.HUG_NAME"
+      ],
+      "summary": "See the hidden Companion Cube in Course 4, Chamber 9.",
+      "guide": {
+        "kind": "standard",
+        "context": "The cube is beyond the normal disc room near the chamber's end.",
+        "steps": [
+          {
+            "id": "ach-party_of_three-1",
+            "text": "At the final office, aim an Excursion Funnel along the dark tunnel that continues past the disc room."
+          },
+          {
+            "id": "ach-party_of_three-2",
+            "text": "Ride the funnel into that tunnel and look through the window at the Companion Cube; seeing it unlocks the achievement before the route kills the robot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.PORTAL_TAUNT",
+      "displayName": "Narbacular Drop",
+      "description": "Place a portal under your co-op partner while they are gesturing",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.TEAM_BUILDING"
+      ],
+      "summary": "Move a gesturing partner with a portal.",
+      "guide": {
+        "kind": "standard",
+        "context": "The earliest clean setup is co-op Course 2, Chamber 1.",
+        "steps": [
+          {
+            "id": "ach-portal_taunt-1",
+            "text": "Have your partner stand on a portalable floor tile and begin any gesture."
+          },
+          {
+            "id": "ach-portal_taunt-2",
+            "text": "While the gesture is active, place one portal beneath them and the linked portal on a wall or ceiling so the portal moves them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.TEACHER",
+      "displayName": "Professor Portal",
+      "description": "After completing co-op, complete Calibration Course online with a friend who hasn’t played before",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across co-op campaign",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.NEW_BLOOD"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Teach the Calibration Course to a brand-new co-op player.",
+      "guide": {
+        "kind": "standard",
+        "context": "You must first earn You Saved Science; your partner must never have started Portal 2 co-op, and the session must be online.",
+        "steps": [
+          {
+            "id": "ach-teacher-1",
+            "text": "Finish all five co-op courses on your own profile."
+          },
+          {
+            "id": "ach-teacher-2",
+            "text": "Find a Steam friend whose profile has never entered Portal 2 co-op; do not use that profile for any earlier co-op achievement.",
+            "kind": "warning"
+          },
+          {
+            "id": "ach-teacher-3",
+            "text": "Invite that friend to an online session and complete the full Calibration Course together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.WITH_STYLE",
+      "displayName": "Air Show",
+      "description": "Perform 2 aerial gestures before touching the ground in co-op",
+      "hidden": false,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.TEAM_BUILDING"
+      ],
+      "summary": "Perform two gestures during one uninterrupted fall.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use co-op Course 2, Chamber 2.",
+        "steps": [
+          {
+            "id": "ach-with_style-1",
+            "text": "Have your partner place linked portals on the two vertically aligned white panels in the far-right corner."
+          },
+          {
+            "id": "ach-with_style-2",
+            "text": "Jump into the loop so you fall continuously through both portals."
+          },
+          {
+            "id": "ach-with_style-3",
+            "text": "Perform two different aerial gestures before leaving the loop or touching a surface."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.LIMITED_PORTALS",
+      "displayName": "Portal Conservation Society",
+      "description": "Complete Chamber 3 in the Hard-Light Surfaces co-op course using only 5 total portal placements",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.HUG_NAME"
+      ],
+      "summary": "Complete Course 3, Chamber 3 with five portal placements total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five-placement limit is shared across both players: use three placements in section one and two in section two.",
+        "steps": [
+          {
+            "id": "ach-limited_portals-1",
+            "text": "In section one, spend two portals to route the bridge to the switch and a third to extend it so one player presses the control and the other catches the ball."
+          },
+          {
+            "id": "ach-limited_portals-2",
+            "text": "Do not replace any of those portals; carry the ball into section two."
+          },
+          {
+            "id": "ach-limited_portals-3",
+            "text": "Use placement four on the bridge's receiving wall so the Hard Light Bridge projects vertically beside the exit route."
+          },
+          {
+            "id": "ach-limited_portals-4",
+            "text": "Use placement five on the ceiling above the Aerial Faith Plate, step onto the plate, and let it launch you into the vertical bridge so the collision bounces you onto the exit ledge.",
+            "note": "Neither player may fire another portal; restart the chamber immediately if the shared count reaches six."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.FOUR_PORTALS",
+      "displayName": "Four Ring Circus",
+      "description": "Enter 4 different portals without touching the ground in co-op",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.TEAM_BUILDING"
+      ],
+      "summary": "Pass through all four co-op portals without landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use co-op Course 2, Chamber 8's lower floor.",
+        "steps": [
+          {
+            "id": "ach-four_portals-1",
+            "text": "Place both players' four portals together on the long portalable floor strip."
+          },
+          {
+            "id": "ach-four_portals-2",
+            "text": "Jump into your own portal pair and pass through both."
+          },
+          {
+            "id": "ach-four_portals-3",
+            "text": "As you fall again, have your partner replace the floor beneath you with one of their portals so you pass through both of theirs before touching the floor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SPEED_RUN_COOP",
+      "displayName": "Triple Crown",
+      "description": "Solve 3 co-op chambers in the Mass and Velocity course in under 60 seconds each",
+      "hidden": false,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across co-op campaign",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.MASS_AND_VELOCITY"
+      ],
+      "summary": "Beat three Course 2 chambers in under 60 seconds each.",
+      "guide": {
+        "kind": "standard",
+        "context": "The results are cumulative; Chambers 2, 3, and 4 are the simplest choices.",
+        "steps": [
+          {
+            "id": "ach-speed_run_coop-1",
+            "text": "Practice Mass and Velocity Chambers 2–4 and assign every portal/button action in advance."
+          },
+          {
+            "id": "ach-speed_run_coop-2",
+            "text": "Replay each chamber until its exit door opens within 60 seconds; a failed chamber can be retried without repeating successful ones."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.STAYING_ALIVE",
+      "displayName": "Still Alive",
+      "description": "Complete Course 4 with neither you nor your co-op partner dying",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across co-op campaign",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.EXCURSION_FUNNELS"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Complete all of Course 4 without either robot dying.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both players must survive all nine Excursion Funnels chambers in one continuous course run.",
+        "steps": [
+          {
+            "id": "ach-staying_alive-1",
+            "text": "Practice Chambers 1–9 first, especially the timing in Chambers 8 and 9."
+          },
+          {
+            "id": "ach-staying_alive-2",
+            "text": "Restart Course 4 from Chamber 1, avoid every death for both players, and finish Chamber 9 in the same session.",
+            "note": "If either robot dies, restart the entire course rather than only the chamber.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.TAUNT_CAMERA",
+      "displayName": "Asking for Trouble",
+      "description": "Taunt GLaDOS in front of a camera in each of the five co-op courses",
+      "hidden": false,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.EXCURSION_FUNNELS"
+      ],
+      "summary": "Gesture at a GLaDOS camera in each co-op course.",
+      "guide": {
+        "kind": "standard",
+        "context": "One valid camera gesture is required in each of Courses 1–5.",
+        "steps": [
+          {
+            "id": "ach-taunt_camera-1",
+            "text": "During every course, stand where a wall-mounted GLaDOS camera can see you and perform any gesture."
+          },
+          {
+            "id": "ach-taunt_camera-2",
+            "text": "Track Team Building, Mass and Velocity, Hard-Light Surfaces, Excursion Funnels, and Mobility Gels separately; the fifth distinct course triggers the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.ROCK_CRUSHES_ROBOT",
+      "displayName": "Rock Portal Scissors",
+      "description": "Win 3 co-op games of rock-paper-scissors in a row",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 3; complete when the named chapter, course, or prerequisite is available.",
+      "prerequisites": [
+        "ACH.TEAM_BUILDING"
+      ],
+      "summary": "Win three Rock Paper Scissors games consecutively.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlock the gesture after Course 1, Chamber 4.",
+        "steps": [
+          {
+            "id": "ach-rock_crushes_robot-1",
+            "text": "Start the paired Rock Paper Scissors gesture with your partner."
+          },
+          {
+            "id": "ach-rock_crushes_robot-2",
+            "text": "Keep replaying until the same player wins three resolved games in a row; a draw does not advance the streak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SPREAD_THE_LOVE",
+      "displayName": "Friends List With Benefits",
+      "description": "While playing co-op, hug 3 different people on your friends list",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across co-op campaign",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.HUG_NAME"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Hug three different Steam friends online.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one player needs the Team Hug gesture unlocked from Course 3, Chamber 8; each helper must already be on your Steam friends list before the session starts.",
+        "steps": [
+          {
+            "id": "ach-spread_the_love-1",
+            "text": "Complete Course 3, Chamber 8 to unlock Team Hug."
+          },
+          {
+            "id": "ach-spread_the_love-2",
+            "text": "Invite the first Steam friend to an online co-op lobby and complete one Team Hug; leave after the profile saves."
+          },
+          {
+            "id": "ach-spread_the_love-3",
+            "text": "Repeat in fresh online sessions with two other Steam friends.",
+            "note": "Local split-screen and repeatedly hugging the same profile do not count.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH.SUMMER_SALE",
+      "displayName": "Talent Show",
+      "description": "Never lose a cube in Chamber 6 of the Mobility Gels co-op course",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10–45 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH.NEW_BLOOD"
+      ],
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; complete when the named chapter, course, or prerequisite is available.",
+      "summary": "Keep the cube safe in Course 5, Chamber 6.",
+      "guide": {
+        "kind": "standard",
+        "context": "Assign one player to the dispenser button and one to catch the cube and redirect the laser.",
+        "steps": [
+          {
+            "id": "ach-summer_sale-1",
+            "text": "Before releasing the cube, agree on the catcher’s gel-launch route and the button player's portal timing."
+          },
+          {
+            "id": "ach-summer_sale-2",
+            "text": "Release the cube only when the catcher is in position, then place portals under the catcher fast enough to prevent a water landing."
+          },
+          {
+            "id": "ach-summer_sale-3",
+            "text": "The catcher redirects the horizontal laser into the turrets and both players finish without ever losing the cube; restart the chamber if it falls into goo."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH.SURVIVE_CONTAINER_RIDE",
+    "ACH.WAKE_UP",
+    "ACH.LASER",
+    "ACH.LAUNCH_TURRET",
+    "ACH.CLEAN_UP",
+    "ACH.BOX_HOLE_IN_ONE",
+    "ACH.SAVE_CUBE",
+    "ACH.SPEED_RUN_LEVEL",
+    "ACH.BRIDGE",
+    "ACH.BREAK_OUT",
+    "ACH.REENTER_TEST_CHAMBERS",
+    "ACH.SAVE_REDEMPTION_TURRET",
+    "ACH.NOT_THE_DROID",
+    "ACH.STALEMATE_ASSOCIATE",
+    "ACH.BLUE_GEL",
+    "ACH.CATCH_CRAZY_BOX",
+    "ACH.A3_DOORS",
+    "ACH.NO_BOAT",
+    "ACH.ADDICTED_TO_SPUDS",
+    "ACH.PORTRAIT",
+    "ACH.ORANGE_GEL",
+    "ACH.WHITE_GEL",
+    "ACH.DEFIANT",
+    "ACH.TRIVIAL_TEST",
+    "ACH.TRACTOR_BEAM",
+    "ACH.BREAK_MONITORS",
+    "ACH.WHEATLEY_TRIES_TO",
+    "ACH.COMPLIANT",
+    "ACH.SHOOT_THE_MOON",
+    "ACH.HI_FIVE_YOUR_PARTNER",
+    "ACH.TEAM_BUILDING",
+    "ACH.ROCK_CRUSHES_ROBOT",
+    "ACH.MASS_AND_VELOCITY",
+    "ACH.PORTAL_TAUNT",
+    "ACH.WITH_STYLE",
+    "ACH.FOUR_PORTALS",
+    "ACH.HUG_NAME",
+    "ACH.PARTNER_DROP",
+    "ACH.YOU_MONSTER",
+    "ACH.EXCURSION_FUNNELS",
+    "ACH.PARTY_OF_THREE",
+    "ACH.TAUNTS",
+    "ACH.TAUNT_CAMERA",
+    "ACH.NEW_BLOOD",
+    "ACH.NICE_CATCH",
+    "ACH.LIMITED_PORTALS",
+    "ACH.SPEED_RUN_COOP",
+    "ACH.STAYING_ALIVE",
+    "ACH.SUMMER_SALE",
+    "ACH.SPREAD_THE_LOVE",
+    "ACH.TEACHER"
+  ]
+}

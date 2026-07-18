@@ -1,0 +1,2013 @@
+{
+  "game": {
+    "appid": 1145360,
+    "slug": "hades",
+    "title": "Hades",
+    "version": "1.0",
+    "lastPatchChecked": "2021-03-01",
+    "estTotalHours": 80,
+    "difficultyRating": 6,
+    "minPlaythroughs": 80,
+    "createdAt": "2026-07-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Build Zagreus and clear each region",
+      "description": "Spend Darkness and Keys, gift every new character Nectar, rotate Keepsakes, unlock the six weapons, fish whenever possible, and push through Tartarus, Asphodel, and Elysium toward the first successful escape.",
+      "achievementRefs": [
+        "AchClearTartarus",
+        "AchClearAsphodel",
+        "AchClearElysium",
+        "AchClearAnyRun",
+        "AchUnlockedAllWeapons",
+        "AchSkellyKills",
+        "AchCerberusPets",
+        "AchGreaterCall",
+        "AchManyBrokerTrades",
+        "AchManyCosmetics",
+        "AchManyQuests",
+        "AchOrpheusSingsAgain",
+        "AchMirrorAllUnlocked",
+        "AchMeetChthonicGods",
+        "AchAccessAdminChamber"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Exploit each run for counters and combat tests",
+      "description": "Use the Pact, varied Boons and Hammers, every weapon, the two timing Keepsakes, Wells, Trials, Charon's challenge, fishing regions, and relationship gifts while working toward ten clears.",
+      "achievementRefs": [
+        "AchClearElysiumEM",
+        "AchClearHeatGate",
+        "AchBeatCharon",
+        "AchMaxedAnyAspect",
+        "AchPickedManyBoons",
+        "AchPurgedLegendBoon",
+        "AchPickedManyHammers",
+        "AchOlympiansCodex",
+        "AchFishFromEachBiome",
+        "AchWellShopItems",
+        "AchBuffedButterfly",
+        "AchBuffedPlume",
+        "AchCrushedThanatos",
+        "AchGreaterCallSpurned",
+        "AchReachedEnding",
+        "AchFoundKeepsakes"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Complete aspects, Companions, and Pact prophecies",
+      "description": "Reveal all hidden Aspects, clear with each weapon and Mirror talent, cycle every Pact Condition and Benefits Package perk, claim Skelly's Heat prizes, and resolve the contract storylines that grant Companions.",
+      "achievementRefs": [
+        "AchClearRun4thAspect",
+        "AchBronzeSkellyTrophy",
+        "AchSilverSkellyTrophy",
+        "AchFoundSummon",
+        "AchFoundAllSummons",
+        "ActUnlockedAllAspects",
+        "AchForgedBond",
+        "AchNyxChaosReunion",
+        "AchAresKills",
+        "AchSisyphusLiberation",
+        "AchSingersReunion",
+        "AchMyrmidonReunion",
+        "AchMirrorUpgradeClears",
+        "AchPactUpgradesClears",
+        "AchWeaponClears",
+        "AchEliteAttributeKills"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish bonds, Keepsakes, and the epilogue",
+      "description": "Keep gifting and talking after every run, finish the Olympian invitation plan, max every standard Keepsake, and claim any remaining long-form prophecy or collection achievements.",
+      "achievementRefs": [
+        "AchLeveledKeepsakes",
+        "AchReachedEpilogue"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "AchClearTartarus",
+      "displayName": "Escaped Tartarus",
+      "description": "Clear Tartarus",
+      "hidden": false,
+      "globalPercent": 81.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–5 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat the @enemy{Fury boss} at the end of @loc{Tartarus} and leave the boss room.",
+      "guide": {
+        "kind": "standard",
+        "context": "Later runs can substitute Alecto or Tisiphone for Megaera, but defeating any Fury variant satisfies the regional clear.",
+        "steps": [
+          {
+            "id": "tartarus-reach",
+            "text": "Fight through every required Tartarus chamber until the Fury boss door opens."
+          },
+          {
+            "id": "tartarus-clear",
+            "text": "Defeat Megaera, Alecto, or Tisiphone, collect the boss reward, and take the exit into the inter-region chamber."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearAsphodel",
+      "displayName": "Escaped Asphodel",
+      "description": "Clear Asphodel",
+      "hidden": false,
+      "globalPercent": 72.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2–8 hr",
+      "estMinutes": 240,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearTartarus"
+      ],
+      "summary": "Defeat the @enemy{Bone Hydra} at the end of @loc{Asphodel} and take the exit toward Elysium.",
+      "guide": {
+        "kind": "standard",
+        "context": "Asphodel follows Tartarus in every escape attempt, and falling or dashing into magma inflicts repeated damage during its chambers.",
+        "steps": [
+          {
+            "id": "asphodel-reach",
+            "text": "Leave the Tartarus boss room, cross Asphodel, and enter the Bone Hydra arena."
+          },
+          {
+            "id": "asphodel-clear",
+            "text": "Destroy the Hydra's central head and summoned neck phases, collect the reward, and leave through the Elysium exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearElysium",
+      "displayName": "Escaped Elysium",
+      "description": "Clear Elysium",
+      "hidden": false,
+      "globalPercent": 59.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4–12 hr",
+      "estMinutes": 420,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAsphodel"
+      ],
+      "summary": "Defeat @enemy{Theseus and Asterius} in the @loc{Elysium stadium} and leave for the Temple of Styx.",
+      "guide": {
+        "kind": "standard",
+        "context": "The stadium encounter contains both bosses at once; defeating Asterius during an earlier solo miniboss room does not remove him from the stadium fight.",
+        "steps": [
+          {
+            "id": "elysium-reach",
+            "text": "Clear Elysium until the stadium door leads to Theseus and Asterius."
+          },
+          {
+            "id": "elysium-clear",
+            "text": "Reduce both bosses to zero health, collect the Ambrosia or Darkness reward, and take the exit into the next inter-region chamber."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearElysiumEM",
+      "displayName": "Champion of Elysium",
+      "description": "Clear Elysium with the 'Extreme Measures' Condition",
+      "hidden": false,
+      "globalPercent": 13.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15–35 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "Set @mechanic{Extreme Measures to rank 3} on the Pact of Punishment, defeat the modified @enemy{Theseus and Asterius}, and leave Elysium.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Pact appears after the first successful escape. Extreme Measures rank 3 also enables the altered Tartarus and Asphodel bosses before the Elysium stadium.",
+        "steps": [
+          {
+            "id": "em-enable",
+            "text": "At the Courtyard exit, open the Pact of Punishment and raise `Extreme Measures` to rank 3 before beginning the run."
+          },
+          {
+            "id": "em-clear",
+            "text": "Reach the Elysium stadium, defeat chariot-riding Theseus and Asterius, then exit the boss room while the Condition is active."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearHeatGate",
+      "displayName": "Hold the Onions",
+      "description": "Clear an Infernal Gate without taking damage",
+      "hidden": false,
+      "globalPercent": 17.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20–45 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "At @mechanic{5 Heat in Tartarus, 10 in Asphodel, or 15 in Elysium}, enter an @loc{Infernal Gate}, take no damage, and collect its reward.",
+      "guide": {
+        "kind": "standard",
+        "context": "Taking damage during the Erebus encounter changes the displayed prize into a one-health onion and invalidates that Gate attempt.",
+        "steps": [
+          {
+            "id": "gate-unlock",
+            "text": "After the first escape, purchase every regional `Fountain Chamber` and obtain `Plunder, Lesser`, `Urns of Wealth, Lesser`, and `Court Musician's Sentence`. Add `Keepsake Collection, Regional` and `Fated List of Minor Prophecies`, then purchase `Contractor's Desk, Deluxe` followed by the 5-Diamond `Gateways, Erebus` Work Order."
+          },
+          {
+            "id": "gate-enter",
+            "text": "Start a Pact run at the regional Heat threshold and enter a randomly offered Infernal Gate before the region boss."
+          },
+          {
+            "id": "gate-perfect",
+            "text": "Defeat the entire Erebus encounter without losing health, then collect the original reward instead of an onion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearAnyRun",
+      "displayName": "Is There No Escape?",
+      "description": "Clear an escape attempt",
+      "hidden": false,
+      "globalPercent": 46.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "8–20 hr",
+      "estMinutes": 720,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearElysium"
+      ],
+      "summary": "Clear Tartarus, Asphodel, Elysium, and the Temple of Styx, then defeat @enemy{Hades} to complete one escape.",
+      "guide": {
+        "kind": "standard",
+        "context": "Death ends an attempt but preserves permanent currencies such as Darkness and Chthonic Keys, which can strengthen later attempts through the Mirror and arsenal.",
+        "steps": [
+          {
+            "id": "run-regions",
+            "text": "Defeat the bosses of Tartarus, Asphodel, and Elysium, then locate the Satyr Sack in the Temple of Styx and give it to Cerberus."
+          },
+          {
+            "id": "run-hades",
+            "text": "Leave the Temple for Greece and defeat both phases of Hades to complete the escape attempt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearRun4thAspect",
+      "displayName": "Weapon of Fate",
+      "description": "Clear an escape attempt with a hidden Weapon Aspect",
+      "hidden": false,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "30–60 hr",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun",
+        "ActUnlockedAllAspects"
+      ],
+      "summary": "Equip any @mechanic{hidden Weapon Aspect} and defeat @enemy{Hades} to complete that escape attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "A hidden Aspect must first be revealed through its waking phrase and unlocked with Titan Blood; simply carrying it to Greece without winning does not count.",
+        "steps": [
+          {
+            "id": "fate-equip",
+            "text": "In the Courtyard, equip a weapon, reopen its Aspect screen, unlock a revealed hidden Aspect, and select that Aspect."
+          },
+          {
+            "id": "fate-clear",
+            "text": "Use the hidden Aspect through all four regions and defeat Hades to finish the escape."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBeatCharon",
+      "displayName": "To Charon's Credit",
+      "description": "Earn a Loyalty Card",
+      "hidden": false,
+      "globalPercent": 22.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "15–40 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "Borrow @item{Charon's 300 Obols} from a mid-region shop, defeat @npc{Charon}, and collect his @item{Loyalty Card}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The money sack can appear only behind Charon in a shop before the region's final shop; boss-adjacent shops never offer the challenge. The Loyalty Card's discount lasts only for that run.",
+        "steps": [
+          {
+            "id": "charon-find",
+            "text": "After successful escapes begin, inspect behind Charon whenever a shop appears partway through Tartarus, Asphodel, or Elysium."
+          },
+          {
+            "id": "charon-borrow",
+            "text": "When the 300-Obol sack appears, use its borrow prompt to enter Charon's arena."
+          },
+          {
+            "id": "charon-win",
+            "text": "Defeat Charon and pick up the Loyalty Card he drops."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBronzeSkellyTrophy",
+      "displayName": "The Useless Trinket",
+      "description": "Earn the first of Skelly's prizes",
+      "hidden": false,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20–40 hr",
+      "estMinutes": 1500,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "After @mechanic{five successful escapes} and Skelly's prize dialogue, inspect the leftmost covered Courtyard statue, win at 8 Heat or higher, then uncover the first statue.",
+      "guide": {
+        "kind": "standard",
+        "context": "A single 16-Heat clear can satisfy both the first prize's 8-Heat threshold and the second prize's 16-Heat threshold when both objectives are active.",
+        "steps": [
+          {
+            "id": "bronze-reveal",
+            "text": "After at least five successful escapes, exhaust Skelly's prize dialogue and inspect the leftmost covered statue at the lower edge of the Courtyard to activate its objective."
+          },
+          {
+            "id": "bronze-clear",
+            "text": "Configure at least 8 Heat on the Pact and defeat Hades to complete the run."
+          },
+          {
+            "id": "bronze-claim",
+            "text": "Return to the Courtyard and uncover the first prize statue."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchSilverSkellyTrophy",
+      "displayName": "Skelly's Last Lamentations",
+      "description": "Earn the second of Skelly's prizes",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "30–60 hr",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchBronzeSkellyTrophy"
+      ],
+      "summary": "Claim Skelly's first prize, inspect the @npc{second covered Courtyard statue}, complete an escape at @mechanic{16 Heat or higher}, then return and uncover the second statue.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every Pact Condition active on the 16-Heat win can also check off its entry in the cumulative `Harsh Conditions` prophecy.",
+        "steps": [
+          {
+            "id": "silver-set",
+            "text": "Claim Skelly's first prize, then interact with the second covered statue in the Courtyard to activate its objective and configure Pact Conditions totaling at least 16 Heat."
+          },
+          {
+            "id": "silver-clear",
+            "text": "Complete the entire escape attempt with the 16-Heat configuration active."
+          },
+          {
+            "id": "silver-claim",
+            "text": "Return to the Courtyard and uncover the second prize statue."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchFoundKeepsakes",
+      "displayName": "Something From Everyone",
+      "description": "Unlock each standard Keepsake",
+      "hidden": false,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35–65 hr",
+      "estMinutes": 2700,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchReachedEnding"
+      ],
+      "summary": "Fill all @mechanic{25 standard-Keepsake slots} with Nectar gifts; after the main ending, give Persephone her first Nectar and Hades his second.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pom Blossom from Persephone and Sigil of the Dead from Hades are the only two standard Keepsakes unavailable before the main ending. Chthonic Companions belong to a separate collection.",
+        "steps": [
+          {
+            "id": "keepsakes-gift",
+            "text": "Before the ending, give one Nectar to Cerberus, Achilles, Nyx, Thanatos, Charon, Hypnos, Megaera, Orpheus, Dusa, Skelly, Zeus, Poseidon, Athena, Aphrodite, Ares, Artemis, Dionysus, Hermes, Demeter, Chaos, Sisyphus, Eurydice, and Patroclus; also give Hades his first Nectar, which awards no Keepsake."
+          },
+          {
+            "id": "keepsakes-late",
+            "text": "After ten successful escapes, give Persephone her first Nectar for Pom Blossom and Hades his second Nectar for Sigil of the Dead."
+          },
+          {
+            "id": "keepsakes-audit",
+            "text": "Inspect the Keepsake display case and fill all 25 standard-Keepsake slots."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchLeveledKeepsakes",
+      "displayName": "Friends Forever",
+      "description": "Max-rank each standard Keepsake",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "70–100 hr",
+      "estMinutes": 5100,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchFoundKeepsakes"
+      ],
+      "summary": "Equip each of the @mechanic{25 standard Keepsakes} and clear 75 encounters with each one to raise every Keepsake to rank 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Keepsake needs 25 cleared encounters for rank 2 and 50 more for rank 3. Progress persists between runs; Companions are excluded, but the late Keepsakes from Hades and Persephone count.",
+        "steps": [
+          {
+            "id": "keepsakes-equip",
+            "text": "At a Keepsake display case, equip any standard Keepsake whose icon has fewer than three stars."
+          },
+          {
+            "id": "keepsakes-level",
+            "text": "Clear combat encounters with that Keepsake equipped until its third star fills, then switch to another unfinished Keepsake between regions or runs."
+          },
+          {
+            "id": "keepsakes-finish",
+            "text": "Repeat until the display case shows rank 3 for all 25 standard Keepsakes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchFoundSummon",
+      "displayName": "Rare Collectible",
+      "description": "Equip a Chthonic Companion",
+      "hidden": false,
+      "globalPercent": 20.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–55 hr",
+      "estMinutes": 2100,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete a Favor for @npc{Megaera, Thanatos, Skelly, Sisyphus, Dusa, or Achilles}, give Ambrosia, and equip the received Companion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each listed character can grant a Chthonic Companion after the locked affinity heart opens; Nectar alone cannot cross that lock.",
+        "steps": [
+          {
+            "id": "companion-bond",
+            "text": "Give Nectar to one listed character until the affinity gauge reaches its locked heart, then complete the Favor revealed through that character's dialogue."
+          },
+          {
+            "id": "companion-receive",
+            "text": "Give Ambrosia after the locked heart opens to receive the character's Chthonic Companion."
+          },
+          {
+            "id": "companion-equip",
+            "text": "Open a Keepsake display case before a run and select the new Companion in the lower section."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchFoundAllSummons",
+      "displayName": "Complete Set",
+      "description": "Earn all Chthonic Companions",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "60–90 hr",
+      "estMinutes": 4500,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchFoundSummon",
+        "AchSisyphusLiberation",
+        "AchMyrmidonReunion"
+      ],
+      "summary": "Earn @mechanic{Battie from Megaera, Mort from Thanatos, Rib from Skelly, Shady from Sisyphus, Fidi from Dusa, and Antos from Achilles}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shady depends on freeing Sisyphus, and Antos depends on reuniting Achilles with Patroclus, making the contract prophecies part of the collection route.",
+        "steps": [
+          {
+            "id": "companions-direct",
+            "text": "Raise Megaera, Thanatos, Skelly, and Dusa to their locked hearts, complete each Favor, and give Ambrosia to receive Battie, Mort, Rib, and Fidi."
+          },
+          {
+            "id": "companions-contracts",
+            "text": "Complete `End to Torment` for Sisyphus and `Divided by Death` for Achilles, then give each Ambrosia to receive Shady and Antos."
+          },
+          {
+            "id": "companions-audit",
+            "text": "Confirm that all six Companion slots are filled in a Keepsake display case."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchMaxedAnyAspect",
+      "displayName": "Blood Bound",
+      "description": "Max any Weapon Aspect",
+      "hidden": false,
+      "globalPercent": 31.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–30 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchUnlockedAllWeapons"
+      ],
+      "summary": "Spend @item{Titan Blood} in one weapon's Aspect screen until a single @mechanic{Weapon Aspect reaches maximum rank}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Aspect screen becomes available after all six weapons are unlocked and another run is completed. A Zagreus Aspect costs only 5 Titan Blood to maximize.",
+        "steps": [
+          {
+            "id": "aspect-open",
+            "text": "Equip a weapon in the Courtyard, interact with its pedestal again, and open the Aspect screen."
+          },
+          {
+            "id": "aspect-max",
+            "text": "Choose one Aspect and purchase every remaining rank with Titan Blood until the rank indicator is full."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ActUnlockedAllAspects",
+      "displayName": "Infernal Arms",
+      "description": "Unlock all Weapon Aspects",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "45–75 hr",
+      "estMinutes": 3300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchUnlockedAllWeapons",
+        "AchClearAnyRun"
+      ],
+      "summary": "Reveal and buy every ordinary and hidden @mechanic{Aspect for all six Infernal Arms} with Titan Blood.",
+      "guide": {
+        "kind": "standard",
+        "context": "The spear's Aspect of Guan Yu must be revealed before the other five hidden Aspects can receive their waking phrases; Guan Yu does not need to be purchased first.",
+        "steps": [
+          {
+            "id": "aspects-guan",
+            "text": "Own the Fated List, reach Hades once, unlock five non-Zagreus Aspects, and continue speaking with Achilles until he reveals Aspect of Guan Yu."
+          },
+          {
+            "id": "aspects-wake",
+            "text": "After Guan Yu is revealed, invest 5 Titan Blood in each relevant weapon and obtain the waking phrases from Nyx for Blade, Artemis for Bow, Chaos for Shield, Asterius alone for Fists, and Zeus for Rail."
+          },
+          {
+            "id": "aspects-buy",
+            "text": "Open each weapon's Aspect screen and spend Titan Blood to unlock every ordinary Aspect and the revealed Arthur, Guan Yu, Rama, Beowulf, Gilgamesh, and Lucifer Aspects."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchPickedManyBoons",
+      "displayName": "Blessed by the Gods",
+      "description": "Choose 100 different Olympian Boon effects",
+      "hidden": false,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–55 hr",
+      "estMinutes": 2400,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Choose @mechanic{100 different Olympian Boon effects} across any number of escape attempts.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter tracks unique effects rather than total Boons. A scroll icon and the literal `Fated Choice` label identify an effect not previously selected.",
+        "steps": [
+          {
+            "id": "boons-track",
+            "text": "Buy the Fated List and inspect each Olympian's Boon prophecy for unchecked effects."
+          },
+          {
+            "id": "boons-pick",
+            "text": "During runs, prioritize Boons marked `Fated Choice` until 100 distinct effects have been selected."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchPurgedLegendBoon",
+      "displayName": "Thanks, But No Thanks",
+      "description": "Purge a Legendary Boon",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15–50 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Acquire a @mechanic{Legendary Boon} and sell that Legendary at a red @loc{Pool of Purging} during the same run.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Pool offers only a subset of current Boons, so a newly acquired Legendary may require checking multiple Pools before it appears as a sale choice.",
+        "steps": [
+          {
+            "id": "legendary-get",
+            "text": "Meet a god's prerequisite Boons and select the resulting Legendary Boon when offered."
+          },
+          {
+            "id": "legendary-purge",
+            "text": "Use a red Pool of Purging in a chamber or inter-region room and sell the Legendary when its name appears in the offered list."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchPickedManyHammers",
+      "displayName": "Tools of the Architect",
+      "description": "Choose 50 different Daedalus Hammer enchantments",
+      "hidden": false,
+      "globalPercent": 20.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35–65 hr",
+      "estMinutes": 2700,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Choose @mechanic{50 different Daedalus Hammer enchantments} across all six Infernal Arms.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each weapon has its own Hammer pool, so rotating arms is necessary. The associated Fated prophecies preserve which upgrades have already been used.",
+        "steps": [
+          {
+            "id": "hammers-rotate",
+            "text": "Run with every Infernal Arm and enter Daedalus Hammer reward chambers whenever possible."
+          },
+          {
+            "id": "hammers-track",
+            "text": "Choose upgrades marked `Fated Choice` and use each weapon's Hammer prophecy to target unchecked enchantments until the unique total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchUnlockedAllWeapons",
+      "displayName": "Arms Collector",
+      "description": "Unlock each of the Infernal Arms",
+      "hidden": false,
+      "globalPercent": 62.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3–10 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Spend @item{24 Chthonic Keys} in the Courtyard to unlock @mechanic{Coronacht, Aegis, Varatha, Malphon, and Exagryph} alongside Stygius.",
+      "guide": {
+        "kind": "standard",
+        "context": "Malphon appears after the first four weapons are available, and Exagryph appears only after every other arm is unlocked.",
+        "steps": [
+          {
+            "id": "weapons-keys",
+            "text": "Collect Chthonic Keys from chamber rewards and the Wretched Broker."
+          },
+          {
+            "id": "weapons-buy",
+            "text": "In the Courtyard, unlock Coronacht for 1 Key, Aegis for 3, Varatha for 4, Malphon for 8, and finally Exagryph for 8."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchForgedBond",
+      "displayName": "Grown Close",
+      "description": "Forge a bond with any character",
+      "hidden": false,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–60 hr",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Give @npc{Charon} 6 Nectar, spend @mechanic{10,000 cumulative Obols} in his shops, then give him 1 Ambrosia to forge the bond.",
+      "guide": {
+        "kind": "standard",
+        "context": "Charon's Favor uses lifetime shop spending, so purchases across separate escape attempts contribute to the 10,000-Obol requirement.",
+        "steps": [
+          {
+            "id": "bond-nectar",
+            "text": "Give Charon 6 Nectar over repeated shop visits until his affinity gauge reaches the locked heart."
+          },
+          {
+            "id": "bond-favor",
+            "text": "Keep buying goods from Charon's shops until cumulative spending reaches 10,000 Obols and opens the locked heart."
+          },
+          {
+            "id": "bond-ambrosia",
+            "text": "Give Charon 1 Ambrosia on a later visit and confirm that his affinity gauge and Bone Hourglass display a forged-bond icon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchOlympiansCodex",
+      "displayName": "Well Versed",
+      "description": "Fully Unlock the Olympians' Codex entries",
+      "hidden": false,
+      "globalPercent": 15.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "50–80 hr",
+      "estMinutes": 3600,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Accept Boons until the @mechanic{Codex entries for all nine Olympians} display `Entry Complete`.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Olympian's Codex page displays its remaining Boon count, and that god's Keepsake can force an early Boon encounter when progress lags.",
+        "steps": [
+          {
+            "id": "codex-audit",
+            "text": "Open the Codex's Olympian Gods section and note each god whose page still displays a remaining Boon count."
+          },
+          {
+            "id": "codex-force",
+            "text": "Equip that Olympian's Keepsake, begin a run, accept the forced Boon, and repeat for every incomplete god."
+          },
+          {
+            "id": "codex-finish",
+            "text": "Continue accepting Boons until all nine Olympian pages display `Entry Complete`."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchManyBrokerTrades",
+      "displayName": "Day-or-Night Trader",
+      "description": "Trade 20 times with the Wretched Broker",
+      "hidden": false,
+      "globalPercent": 34.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10–25 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete @mechanic{20 separate trades} with the @npc{Wretched Broker} on the right side of the House Lounge.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both permanent exchanges and the rotating limited-time deal count, so inexpensive repeated conversions can finish the total.",
+        "steps": [
+          {
+            "id": "broker-trade",
+            "text": "Enter the Lounge between runs, open the Wretched Broker's exchange menu, and complete 20 individual material trades."
+          },
+          {
+            "id": "broker-save",
+            "text": "Leave the Lounge after the final exchanges so the transaction total is recorded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchManyCosmetics",
+      "displayName": "Home Makeover",
+      "description": "Pay for 50 jobs from the House Contractor",
+      "hidden": false,
+      "globalPercent": 23.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25–50 hr",
+      "estMinutes": 1800,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pay the @npc{House Contractor} beside Hades' desk for @mechanic{50 different jobs}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Functional Work Orders and decorative renovations share the purchase counter, letting cheap cosmetic jobs supplement mandatory progression work.",
+        "steps": [
+          {
+            "id": "contractor-buy",
+            "text": "Spend Gemstones, Diamonds, or other requested currencies on available Work Orders, House renovations, and cosmetic jobs."
+          },
+          {
+            "id": "contractor-fifty",
+            "text": "Keep purchasing distinct jobs from the Contractor until the cumulative total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchManyQuests",
+      "displayName": "Had to Happen",
+      "description": "Fulfill any 15 Prophecies",
+      "hidden": false,
+      "globalPercent": 22.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35–65 hr",
+      "estMinutes": 2700,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Buy @item{Fountain Chamber, Tartarus}, then the 20-Gemstone Fated List; fulfill any @mechanic{15 prophecies} and collect their rewards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The List contains 55 tasks that unlock gradually, and many weapon, Boon, story, and Pact objectives can advance together.",
+        "steps": [
+          {
+            "id": "prophecy-buy",
+            "text": "Buy `Fountain Chamber, Tartarus` from the House Contractor, then pay 20 Gemstones for `Fated List of Minor Prophecies` and inspect the installed List beside Zagreus' desk."
+          },
+          {
+            "id": "prophecy-complete",
+            "text": "Meet the exact checked-list requirements for any 15 prophecies across subsequent runs."
+          },
+          {
+            "id": "prophecy-claim",
+            "text": "Return to the Fated List in Zagreus' bedchamber and claim each completed reward until fifteen fulfillments are registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchFishFromEachBiome",
+      "displayName": "River Denizens",
+      "description": "Catch a fish from each region",
+      "hidden": false,
+      "globalPercent": 25.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–50 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearElysium"
+      ],
+      "summary": "Buy the @item{Rod of Fishing} and catch a fish in @loc{Tartarus, Asphodel, Elysium, Styx, and Greece} across any number of runs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chaos fish are excluded. Fishing-point spawns are random and a brief sound plays after a chamber clear when one is present.",
+        "steps": [
+          {
+            "id": "fish-rod",
+            "text": "Reach the Temple of Styx, own the Fated List, and buy the 1-Diamond Rod of Fishing from the House Contractor when offered."
+          },
+          {
+            "id": "fish-regions",
+            "text": "After clearing chambers, inspect each region's water for a bright fishing point and complete the timing minigame at least once in all five required regions."
+          },
+          {
+            "id": "fish-register",
+            "text": "Leave the chamber after the fifth regional catch so the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchOrpheusSingsAgain",
+      "displayName": "Urge to Sing",
+      "description": "Compel Orpheus to sing again",
+      "hidden": false,
+      "globalPercent": 31.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–30 hr",
+      "estMinutes": 900,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Buy @item{Court Musician's Sentence}, continue speaking with @npc{Orpheus} after runs, and talk to him when he resumes singing in the House.",
+      "guide": {
+        "kind": "standard",
+        "context": "Releasing Orpheus only makes the later performance dialogue possible; the singing event arrives after additional House conversations and runs.",
+        "steps": [
+          {
+            "id": "orpheus-free",
+            "text": "Purchase the `Court Musician's Sentence` Work Order from the House Contractor to release Orpheus from confinement."
+          },
+          {
+            "id": "orpheus-talk",
+            "text": "Speak with Orpheus beside the Contractor after each return to the House and exhaust his available dialogue."
+          },
+          {
+            "id": "orpheus-sing",
+            "text": "When music is already playing upon a later return, speak with Orpheus to complete the unlock."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchMirrorAllUnlocked",
+      "displayName": "Nyx's Mirror",
+      "description": "Have at least one rank in each Mirror of Night Talent",
+      "hidden": false,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–60 hr",
+      "estMinutes": 2400,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock both sides of every Mirror row and buy @mechanic{at least one rank in all 24 Mirror of Night talents}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nyx reveals the green alternate talents through post-run dialogue after all twelve purple rows have been exposed with Chthonic Keys.",
+        "steps": [
+          {
+            "id": "mirror-rows",
+            "text": "Spend Chthonic Keys at the Mirror in Zagreus' bedchamber until all 12 talent rows are visible."
+          },
+          {
+            "id": "mirror-green",
+            "text": "Continue speaking with Nyx after runs, then use the arrow button beside each row to reveal its green alternate talent."
+          },
+          {
+            "id": "mirror-ranks",
+            "text": "Spend Darkness on at least one rank of both talents in every row; use the Key-funded reset if Darkness must be redistributed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchNyxChaosReunion",
+      "displayName": "Night and Darkness",
+      "description": "Fulfill the 'Night and Darkness' Prophecy",
+      "hidden": false,
+      "globalPercent": 10.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45–75 hr",
+      "estMinutes": 3300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAccessAdminChamber"
+      ],
+      "summary": "Buy @item{Eldest Sigil Restoration} for 3,142 Darkness, then enter a Chaos Gate, speak with @npc{Nyx and Chaos together}, and claim their prophecy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nyx and Chaos must both reach their locked affinity hearts, and Administrative Chamber access must be restored before the sigil Work Order can appear.",
+        "steps": [
+          {
+            "id": "night-bonds",
+            "text": "Give Nectar and exhaust dialogue with Nyx in the House and Chaos behind Chaos Gates until both discuss reuniting."
+          },
+          {
+            "id": "night-sigil",
+            "text": "After Nyx identifies the damaged link, buy `Eldest Sigil Restoration` from the Contractor for 3,142 Darkness and speak with Nyx again."
+          },
+          {
+            "id": "night-reunion",
+            "text": "Enter a later Chaos Gate, speak with Nyx beside Chaos, then return to the Fated List and claim `Night and Darkness`."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchMeetChthonicGods",
+      "displayName": "Chthonic Colleagues",
+      "description": "Fulfill the 'Chthonic Colleagues' Prophecy",
+      "hidden": false,
+      "globalPercent": 56.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8–25 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reveal @mechanic{Hades, Nyx, Hypnos, Charon, Thanatos, Megaera, Alecto, Tisiphone, and Chaos} in the Codex, then claim their prophecy.",
+      "guide": {
+        "kind": "standard",
+        "context": "The three Fury sisters occupy the same boss slot on different runs, while Thanatos and Chaos require their random encounter and Gate appearances.",
+        "steps": [
+          {
+            "id": "chthonic-house",
+            "text": "Meet Hades, Nyx, and Hypnos in the House and Charon in a shop."
+          },
+          {
+            "id": "chthonic-runs",
+            "text": "Encounter Thanatos, fight all three Fury variants across Tartarus runs, and take a Chaos Gate to meet Chaos."
+          },
+          {
+            "id": "chthonic-claim",
+            "text": "Open the Fated List after all nine Codex names are revealed and claim `Chthonic Colleagues`."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAresKills",
+      "displayName": "War-God's Bloodlust",
+      "description": "Fulfill the 'War-God's Bloodlust' Prophecy",
+      "hidden": false,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "55–85 hr",
+      "estMinutes": 4200,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Receive @mechanic{War-God's Bloodlust} from Ares, reach 10,000 cumulative enemy kills, hear Ares acknowledge the total, and claim the prophecy.",
+      "guide": {
+        "kind": "standard",
+        "context": "The optional `Pool, Scrying` renovation in Zagreus' bedchamber displays the lifetime kill count, which persists across every escape attempt.",
+        "steps": [
+          {
+            "id": "ares-prophecy",
+            "text": "Give Ares Nectar and keep accepting his Boons until he foretells `War-God's Bloodlust`."
+          },
+          {
+            "id": "ares-kills",
+            "text": "Continue killing enemies across runs until `Pool, Scrying` reports at least 10,000 slain foes."
+          },
+          {
+            "id": "ares-claim",
+            "text": "Accept further Ares Boons until he comments on the bloodshed, then claim the completed prophecy from the Fated List."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchSisyphusLiberation",
+      "displayName": "End to Torment",
+      "description": "Fulfill the 'End to Torment' Prophecy",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45–75 hr",
+      "estMinutes": 3300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAccessAdminChamber"
+      ],
+      "summary": "Buy @item{Knave-King's Sentence} for 4 Diamonds, tell @npc{Sisyphus} he is free in Tartarus, and claim @mechanic{End to Torment}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The contract location requires Administrative Chamber access plus locked-heart progress with Sisyphus, Nyx, and Megaera; Bouldy also becomes part of Sisyphus' dialogue chain.",
+        "steps": [
+          {
+            "id": "sisyphus-bond",
+            "text": "Give Nectar and exhaust dialogue with Sisyphus, speak with and gift Bouldy when enabled, and advance Nyx and Megaera to their locked hearts."
+          },
+          {
+            "id": "sisyphus-contract",
+            "text": "After Nyx identifies the pact, inspect the marked scroll shelf in the Administrative Chamber and buy `Knave-King's Sentence` from the Contractor for 4 Diamonds."
+          },
+          {
+            "id": "sisyphus-free",
+            "text": "Find Sisyphus on a later Tartarus run, tell him his sentence is ended, then claim `End to Torment` from the Fated List."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchSingersReunion",
+      "displayName": "Musician and Muse",
+      "description": "Fulfill the 'Musician and Muse' Prophecy",
+      "hidden": false,
+      "globalPercent": 13.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45–75 hr",
+      "estMinutes": 3300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchOrpheusSingsAgain",
+        "AchAccessAdminChamber"
+      ],
+      "summary": "Buy @item{Singer's Gamble}, find @npc{Orpheus and Eurydice together} in Asphodel, speak with them, and claim @mechanic{Musician and Muse}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The reunion chain requires the Administrative Chamber and locked-heart progress with Orpheus, Eurydice, and Nyx after Orpheus has been released.",
+        "steps": [
+          {
+            "id": "singers-bonds",
+            "text": "Release Orpheus, give Nectar to Orpheus, Eurydice, and Nyx until their locked hearts, and exhaust their dialogue about the separation."
+          },
+          {
+            "id": "singers-contract",
+            "text": "After Nyx locates the pact, inspect the marked Administrative Chamber shelf and buy `Singer's Gamble` from the House Contractor."
+          },
+          {
+            "id": "singers-meet",
+            "text": "Tell Orpheus he is free, enter Eurydice's special Asphodel chamber on a later run, speak with the reunited pair, and claim the prophecy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchMyrmidonReunion",
+      "displayName": "Divided by Death",
+      "description": "Fulfill the 'Divided by Death' Prophecy",
+      "hidden": false,
+      "globalPercent": 8.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "60–90 hr",
+      "estMinutes": 4500,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchSisyphusLiberation"
+      ],
+      "summary": "Give Achilles and Patroclus 6 Nectar each, finish @mechanic{End to Torment}, buy Hero's Sacrifice for 5 Diamonds, reunite the pair in Elysium, and claim Divided by Death.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing `Musician and Muse` can replace `End to Torment` as the contract-story gate for this route.",
+        "steps": [
+          {
+            "id": "myrmidon-message",
+            "text": "Give Achilles and Patroclus 6 Nectar apiece, then visit Patroclus in Elysium until he asks Zagreus to tell Achilles to `risk it all` and deliver that message in the House."
+          },
+          {
+            "id": "myrmidon-contract",
+            "text": "After resolving `End to Torment`, continue speaking with Achilles until `Divided by Death` appears, buy `Hero's Sacrifice` from the House Contractor for 5 Diamonds, and speak with Achilles again."
+          },
+          {
+            "id": "myrmidon-reunion",
+            "text": "Find Patroclus' chamber again, speak with Achilles and Patroclus together, then claim `Divided by Death` from the Fated List."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchMirrorUpgradeClears",
+      "displayName": "Dark Reflections",
+      "description": "Fulfill the 'Dark Reflections' Prophecy",
+      "hidden": false,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "50–80 hr",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchMirrorAllUnlocked",
+        "AchClearAnyRun"
+      ],
+      "summary": "Complete successful escapes while every one of the @mechanic{24 Mirror of Night talents} has been active at least once, then claim @mechanic{Dark Reflections}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The prophecy is cumulative: opposing talents do not need to be active together, and unfamiliar green alternatives can be tested one at a time on low-Heat clears.",
+        "steps": [
+          {
+            "id": "reflections-track",
+            "text": "Open `Dark Reflections` on the Fated List and compare its unchecked entries with both talents on each Mirror row."
+          },
+          {
+            "id": "reflections-clear",
+            "text": "Activate unchecked talents before a run and defeat Hades; repeat with different Mirror choices until all 24 entries are checked."
+          },
+          {
+            "id": "reflections-claim",
+            "text": "Return to the bedchamber and claim the completed prophecy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchPactUpgradesClears",
+      "displayName": "Harsh Conditions",
+      "description": "Fulfill the 'Harsh Conditions' Prophecy",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "50–80 hr",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "Activate all @mechanic{15 Pact Conditions across successful escapes} at least once apiece, then claim @mechanic{Harsh Conditions}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress is cumulative and Conditions can be split across many clears; multiple manageable Conditions may be combined to reduce the number of runs.",
+        "steps": [
+          {
+            "id": "harsh-track",
+            "text": "Inspect `Harsh Conditions` on the Fated List and note every unchecked Pact Condition."
+          },
+          {
+            "id": "harsh-clear",
+            "text": "Enable one or more unchecked Conditions at the Courtyard Pact and complete the escape so those Conditions receive credit."
+          },
+          {
+            "id": "harsh-claim",
+            "text": "Repeat until all 15 entries are checked, then claim the prophecy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchWeaponClears",
+      "displayName": "Master of Arms",
+      "description": "Fulfill the 'Master of Arms' Prophecy",
+      "hidden": false,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30–60 hr",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchUnlockedAllWeapons",
+        "AchClearAnyRun"
+      ],
+      "summary": "Defeat @enemy{Hades} once with each of @mechanic{Stygius, Varatha, Aegis, Coronacht, Malphon, and Exagryph}, then claim Master of Arms.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any Aspect of a weapon counts, and the Permanent Record can confirm which arms already have successful clears.",
+        "steps": [
+          {
+            "id": "arms-audit",
+            "text": "Check `Master of Arms` on the Fated List or the Permanent Record for weapons without a successful escape."
+          },
+          {
+            "id": "arms-clear",
+            "text": "Equip each missing Infernal Arm and complete a full escape by defeating Hades."
+          },
+          {
+            "id": "arms-claim",
+            "text": "After all six weapons have clears, claim `Master of Arms` from the Fated List."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchEliteAttributeKills",
+      "displayName": "Slashed Benefits",
+      "description": "Fulfill the 'Slashed Benefits' Prophecy",
+      "hidden": false,
+      "globalPercent": 11.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "35–65 hr",
+      "estMinutes": 2700,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "Use @mechanic{Benefits Package} to defeat armored foes with every modifier listed by @mechanic{Slashed Benefits}, then claim the prophecy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Higher Benefits Package ranks assign more modifiers to each armored enemy, accelerating discovery, and a successful escape is not required for encounters to appear.",
+        "steps": [
+          {
+            "id": "benefits-enable",
+            "text": "Enable at least one rank of `Benefits Package` on the Pact and begin encountering modified armored foes."
+          },
+          {
+            "id": "benefits-track",
+            "text": "After `Slashed Benefits` appears on the Fated List, keep Benefits Package active and defeat enemies carrying every unchecked modifier."
+          },
+          {
+            "id": "benefits-claim",
+            "text": "Return to the House after all modifier entries are checked and claim the prophecy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAccessAdminChamber",
+      "displayName": "Back to Work",
+      "description": "Earn access to and enter the Administrative Chamber",
+      "hidden": false,
+      "globalPercent": 34.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15–35 hr",
+      "estMinutes": 1200,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the Administrative Chamber flashback, buy @item{Administrative Privilege} for 2 Diamonds, and enter the @loc{Administrative Chamber}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bedroom sleep objective and work-shift flashback arrive through story progression after repeated escape attempts; the Contractor order appears afterward.",
+        "steps": [
+          {
+            "id": "admin-dream",
+            "text": "When the objective in Zagreus' bedroom instructs him to sleep, use the bed and complete the Administrative Chamber work-shift flashback."
+          },
+          {
+            "id": "admin-buy",
+            "text": "Purchase `Administrative Privilege` from the House Contractor for 2 Diamonds."
+          },
+          {
+            "id": "admin-enter",
+            "text": "Use the formerly locked doorway in the House to walk into the Administrative Chamber."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchReachedEnding",
+      "displayName": "The Family Secret",
+      "description": "Complete the main quest in the story",
+      "hidden": false,
+      "globalPercent": 23.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "25–45 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearAnyRun"
+      ],
+      "summary": "Complete @mechanic{ten successful escapes}; the tenth surface sequence returns Persephone to the House and rolls the credits.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tenth successful escape skips the final Hades battle, making it a useful opportunity for a demanding Heat configuration.",
+        "steps": [
+          {
+            "id": "ending-nine",
+            "text": "Defeat Hades and complete the surface sequence on nine separate escape attempts."
+          },
+          {
+            "id": "ending-ten",
+            "text": "Reach Greece on the tenth successful attempt and finish the story sequence that brings Persephone home and starts the credits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchReachedEpilogue",
+      "displayName": "One for the Ages",
+      "description": "Reach the epilogue of the story",
+      "hidden": false,
+      "globalPercent": 8.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "65–90 hr",
+      "estMinutes": 4500,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchReachedEnding",
+        "AchForgedBond"
+      ],
+      "summary": "Complete @mechanic{The Queen's Plan and Family Reunion}, invite all nine Olympians by accepting their Boons, and return to Persephone for the feast.",
+      "guide": {
+        "kind": "standard",
+        "context": "The epilogue becomes available only after the ten-clear ending, bonds with at least five Olympians, Demeter's locked-heart progress, and continued Persephone/Hades dialogue.",
+        "steps": [
+          {
+            "id": "epilogue-plan",
+            "text": "After Persephone returns, speak with her and Hades after runs, forge bonds with at least five Olympians, and raise Demeter to her locked heart until `The Queen's Plan` completes."
+          },
+          {
+            "id": "epilogue-invite",
+            "text": "Accept `Family Reunion`, then take at least one Boon from each of the nine Olympians; equip each god's Keepsake to force missing invitations."
+          },
+          {
+            "id": "epilogue-feast",
+            "text": "Return to the House and speak with Persephone and Hades to begin the Olympian feast and epilogue."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchWellShopItems",
+      "displayName": "Well Stocked",
+      "description": "Buy 9 'Well of Charon' items in one escape attempt",
+      "hidden": false,
+      "globalPercent": 39.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–20 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Buy @mechanic{nine items from Wells of Charon} during one escape attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each purple Well offers three items, and guaranteed inter-region Wells make three full purchases sufficient if Zagreus saves enough Obols.",
+        "steps": [
+          {
+            "id": "well-save",
+            "text": "Preserve Charon's Obols during a run and enter optional Well chambers when their purple symbol appears."
+          },
+          {
+            "id": "well-buy",
+            "text": "Purchase nine total items from purple Wells before the run ends, using the guaranteed Wells between regions if necessary."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBuffedButterfly",
+      "displayName": "Thorn of Thanatos",
+      "description": "Get 30% bonus damage with the Pierced Butterfly",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "25–60 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Equip a max-rank @item{Pierced Butterfly} and earn @mechanic{30% bonus damage in one run} by clearing 15 encounters without taking damage.",
+      "guide": {
+        "kind": "standard",
+        "context": "Thanatos gives the Pierced Butterfly for one Nectar. At rank 3 it grants 2% per flawless encounter, halving the room count from the base-rank requirement.",
+        "steps": [
+          {
+            "id": "butterfly-get",
+            "text": "Meet Thanatos, give him one Nectar in the House to receive the Pierced Butterfly, and rank the Keepsake to level 3 through encounter clears."
+          },
+          {
+            "id": "butterfly-run",
+            "text": "Start a run with the Pierced Butterfly equipped and clear combat rooms without losing health while its flawless-room indicator remains active."
+          },
+          {
+            "id": "butterfly-thirty",
+            "text": "Accumulate fifteen 2% bonuses before the run ends so the Keepsake displays at least 30% damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBuffedPlume",
+      "displayName": "Haste of Hermes",
+      "description": "Get 20% dodge chance with the Lambent Plume",
+      "hidden": false,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20–50 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Equip a max-rank @item{Lambent Plume} and reach @mechanic{at least 20% dodge in one run} by earning 17 fast-clear bonuses.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hermes gives the Lambent Plume for one Nectar. At rank 3 each room cleared before the visible timer expires adds 1.2% dodge for that run.",
+        "steps": [
+          {
+            "id": "plume-get",
+            "text": "Give Hermes one Nectar at a Boon encounter to receive the Lambent Plume, then clear encounters with it until it reaches rank 3."
+          },
+          {
+            "id": "plume-run",
+            "text": "Begin a run with the Plume equipped and defeat every encounter before the circular Keepsake timer expires."
+          },
+          {
+            "id": "plume-twenty",
+            "text": "Earn seventeen fast-clear bonuses in that run so the displayed dodge bonus reaches at least 20%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchCrushedThanatos",
+      "displayName": "Death Dealer",
+      "description": "Beat Thanatos by 15 kills or more",
+      "hidden": false,
+      "globalPercent": 42.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10–35 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish one @npc{Thanatos} chamber contest with @mechanic{at least 15 more kills than Thanatos}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Thanatos can begin appearing in random chambers after story progression; his attacks instantly claim marked enemies if Zagreus does not kill them first.",
+        "steps": [
+          {
+            "id": "thanatos-contest",
+            "text": "When Thanatos appears at the start of a chamber, watch the two kill counters in the upper-left corner."
+          },
+          {
+            "id": "thanatos-lead",
+            "text": "Prioritize enemies under his scythe mark or attack circle and finish the encounter with Zagreus' score at least fifteen above his."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchGreaterCall",
+      "displayName": "Friends in High Places",
+      "description": "Use Greater Call to invoke an Olympian's aid",
+      "hidden": false,
+      "globalPercent": 62.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–10 hr",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Take an Olympian @mechanic{Aid Boon}, fill all four God Gauge segments in one encounter, and activate the full-gauge Greater Call.",
+      "guide": {
+        "kind": "standard",
+        "context": "Boss encounters usually last long enough to fill the entire yellow God Gauge; activating a partially filled Call does not satisfy the requirement.",
+        "steps": [
+          {
+            "id": "call-aid",
+            "text": "Choose any Olympian Boon whose name ends in `Aid` to add the Call command and God Gauge."
+          },
+          {
+            "id": "call-full",
+            "text": "During one combat encounter, deal and receive enough damage to fill all four yellow gauge segments without spending them."
+          },
+          {
+            "id": "call-use",
+            "text": "Press the Call command while the gauge is completely full to invoke the Greater Call."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchGreaterCallSpurned",
+      "displayName": "Bad Call",
+      "description": "Use an Olympian's Greater Call against them in a Trial",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "8–30 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchGreaterCall"
+      ],
+      "summary": "During a @loc{Trial of the Gods}, use an Olympian's full-gauge @mechanic{Greater Call against that same Olympian}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Trial must feature the owner of Zagreus' Aid; choosing the other god's first Boon makes the Aid's owner the hostile god for the encounter.",
+        "steps": [
+          {
+            "id": "badcall-setup",
+            "text": "Take an Olympian Aid, then enter a two-god Trial whose door includes that Olympian's symbol."
+          },
+          {
+            "id": "badcall-spurn",
+            "text": "At the Trial altar, choose the other Olympian's Boon so the Aid's owner attacks during the ensuing encounter."
+          },
+          {
+            "id": "badcall-use",
+            "text": "Fill all four God Gauge segments and activate the hostile Olympian's Greater Call before the Trial ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchSkellyKills",
+      "displayName": "Skelly Slayer",
+      "description": "Slay Skelly 15 times",
+      "hidden": false,
+      "globalPercent": 40.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reduce @npc{Skelly} to zero health @mechanic{15 times} in the Courtyard across any number of visits.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skelly revives after each defeat, and the counter persists across weapons, runs, and House returns.",
+        "steps": [
+          {
+            "id": "skelly-kill",
+            "text": "Attack Skelly beside the Courtyard arsenal until his health reaches zero, wait for him to revive, and repeat until fifteen defeats are recorded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchCerberusPets",
+      "displayName": "Three-Headed Boy",
+      "description": "Pet Cerberus 10 times",
+      "hidden": false,
+      "globalPercent": 35.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Use the @mechanic{Pet prompt on Cerberus ten times} beside Hades' desk across House visits.",
+      "guide": {
+        "kind": "standard",
+        "context": "The pet counter is cumulative, and Cerberus is normally stationed beside Hades in the Great Hall after Zagreus returns from a run.",
+        "steps": [
+          {
+            "id": "cerberus-pet",
+            "text": "Approach Cerberus in the Great Hall after each return, use the `Pet` prompt whenever it appears, and continue until ten pets are recorded."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "AchSkellyKills",
+    "AchCerberusPets",
+    "AchClearTartarus",
+    "AchGreaterCall",
+    "AchClearAsphodel",
+    "AchUnlockedAllWeapons",
+    "AchClearElysium",
+    "AchManyBrokerTrades",
+    "AchMeetChthonicGods",
+    "AchOrpheusSingsAgain",
+    "AchClearAnyRun",
+    "AchAccessAdminChamber",
+    "AchManyCosmetics",
+    "AchMirrorAllUnlocked",
+    "AchManyQuests",
+    "AchWellShopItems",
+    "AchGreaterCallSpurned",
+    "AchMaxedAnyAspect",
+    "AchCrushedThanatos",
+    "AchClearElysiumEM",
+    "AchBeatCharon",
+    "AchFishFromEachBiome",
+    "AchPurgedLegendBoon",
+    "AchClearHeatGate",
+    "AchBuffedPlume",
+    "AchReachedEnding",
+    "AchFoundKeepsakes",
+    "AchBuffedButterfly",
+    "AchPickedManyBoons",
+    "AchPickedManyHammers",
+    "AchOlympiansCodex",
+    "AchBronzeSkellyTrophy",
+    "AchFoundSummon",
+    "AchForgedBond",
+    "AchWeaponClears",
+    "AchSilverSkellyTrophy",
+    "AchEliteAttributeKills",
+    "AchSingersReunion",
+    "AchNyxChaosReunion",
+    "AchSisyphusLiberation",
+    "ActUnlockedAllAspects",
+    "AchClearRun4thAspect",
+    "AchMirrorUpgradeClears",
+    "AchPactUpgradesClears",
+    "AchAresKills",
+    "AchMyrmidonReunion",
+    "AchFoundAllSummons",
+    "AchReachedEpilogue",
+    "AchLeveledKeepsakes"
+  ]
+}

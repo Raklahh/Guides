@@ -1,0 +1,609 @@
+{
+  "game": {
+    "appid": 239030,
+    "slug": "papers-please",
+    "title": "Papers, Please",
+    "version": "1.0",
+    "lastPatchChecked": "2023-03-21",
+    "estTotalHours": 14,
+    "difficultyRating": 4,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Begin the loyal route and collect the early tokens",
+      "description": "Play normally through day 11. Handle the scripted entrants on days 4, 5, and 11 exactly as listed so the first three country tokens are secured without restarting.",
+      "achievementRefs": [
+        "ACH_TOKEN_IMPOR",
+        "ACH_TOKEN_ANTEGRIA",
+        "ACH_TOKEN_OBRISTAN"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish the loyal route, token set, and apartment upgrades",
+      "description": "Complete no ending-related EZIC tasks. Distribute Messof's cards, protect enough savings for all three apartment upgrades, collect the remaining tokens, then defend the wall on day 31 for the loyal ending.",
+      "achievementRefs": [
+        "ACH_TOKEN_ARSTOTZKA",
+        "ACH_APT_CLASS5",
+        "ACH_TOKEN_REPUBLIA",
+        "ACH_TOKEN_KOLECHIA",
+        "ACH_TOKEN_UNITEDFED",
+        "ACH_END_IGNOREEZIC"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Use Day Select for the immediate-ending branches",
+      "description": "Revisit days 12, 23, and 29 after the loyal timeline is complete. Trigger Too Honest, Hired Rifle, and the full-family Obristan escape, returning to Day Select after each ending.",
+      "achievementRefs": [
+        "ACH_END_TURNEDOVEREZICDOCS",
+        "ACH_END_KILLEDTARGET",
+        "ACH_END_ESCAPE"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Replay from day 11 for the EZIC ending",
+      "description": "Start from day 11, complete at least four of the five real EZIC tasks, and obey the day-31 order to hold fire while the wall is destroyed.",
+      "achievementRefs": [
+        "ACH_END_HELPEZICHOLDFIRE"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_TOKEN_ANTEGRIA",
+      "displayName": "Antegria Token",
+      "description": "Collect the hidden Antegria Token",
+      "hidden": false,
+      "globalPercent": 39.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min on day 5",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "summary": "On day 5, approve @npc{Pyotr Vostok}, then identify his wife @npc{Katya}'s missing @item{Entry Permit} and approve her anyway.",
+      "guide": {
+        "kind": "standard",
+        "context": "Katya arrives immediately after Pyotr and her approval is deliberately illegal, so the Antegria Token costs one citation.",
+        "steps": [
+          {
+            "id": "approve-pyotr",
+            "text": "On day 5, process @npc{Pyotr Vostok}'s valid documents, stamp his passport @mechanic{APPROVED}, and return everything when he says his wife is next."
+          },
+          {
+            "id": "question-katya",
+            "text": "When @npc{Katya} enters without an @item{Entry Permit}, use inspection mode to compare the missing permit against the foreigner entry rule and question her."
+          },
+          {
+            "id": "approve-katya",
+            "text": "Stamp Katya's passport @mechanic{APPROVED} despite the missing permit and return her documents to receive the Antegria Token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TOKEN_REPUBLIA",
+      "displayName": "Republia Token",
+      "description": "Collect the hidden Republia Token",
+      "hidden": false,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across days 21-23",
+      "estMinutes": 15,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Approve @npc{Danic Lorun} on day 21, keep his watch unsold, then return the watch and his 10-credit payment before approving him on day 23.",
+      "guide": {
+        "kind": "standard",
+        "context": "Selling the watch to either buyer on days 22-23 breaks the exchange. Danic gives the returned 10 credits back, so honoring his complaint does not reduce your final balance.",
+        "steps": [
+          {
+            "id": "take-watch",
+            "text": "On day 21, call the sixth entrant, @npc{Danic Lorun}; accept his watch as collateral and stamp his passport @mechanic{APPROVED} despite his missing supporting papers."
+          },
+          {
+            "id": "refuse-buyers",
+            "text": "Keep Danic's watch when the ninth entrant on day 22 and the fifth entrant on day 23 offer to buy it."
+          },
+          {
+            "id": "return-watch",
+            "text": "When Danic returns on day 23, give him the watch; after he pays 10 credits and complains that it is scratched, return those 10 credits."
+          },
+          {
+            "id": "approve-danic",
+            "text": "After Danic gives the money back, stamp his now-valid passport @mechanic{APPROVED} and return it to receive the Republia Token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TOKEN_IMPOR",
+      "displayName": "Impor Token",
+      "description": "Collect the hidden Impor Token",
+      "hidden": false,
+      "globalPercent": 16.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min on day 4",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "summary": "On day 4, confront the fifth entrant from Impor about her expired @item{Entry Permit}, then stamp her passport @mechanic{APPROVED} to receive the token.",
+      "guide": {
+        "kind": "standard",
+        "context": "The token is awarded only after the expired permit discrepancy makes the woman plead for entry; approving her without that interrogation does not count and the successful method causes a citation.",
+        "steps": [
+          {
+            "id": "call-imporian",
+            "text": "On day 4, call the fifth entrant, an Imporian woman who says she has not seen her son in six years."
+          },
+          {
+            "id": "question-expiry",
+            "text": "Enter inspection mode, compare the @item{Entry Permit} expiration date with the current date, and question the detected discrepancy."
+          },
+          {
+            "id": "approve-imporian",
+            "text": "After she asks to be admitted, stamp her passport @mechanic{APPROVED} and return her documents; she hands over the Impor Token before the citation arrives."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TOKEN_OBRISTAN",
+      "displayName": "Obristan Token",
+      "description": "Collect the hidden Obristan Token",
+      "hidden": false,
+      "globalPercent": 57.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min on day 11",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "summary": "Approve @npc{Jorji Costava}'s valid documents on day 11 to receive the Obristan Token without taking a citation.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jorji can award the same token after illegal approvals on days 4, 6, or 8, but waiting for his valid day-11 papers preserves your income.",
+        "steps": [
+          {
+            "id": "meet-jorji",
+            "text": "Continue to day 11 and call @npc{Jorji Costava} when he reaches the booth."
+          },
+          {
+            "id": "approve-jorji",
+            "text": "Verify Jorji's documents, stamp his passport @mechanic{APPROVED}, and return his papers; he gives you the Obristan Token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TOKEN_KOLECHIA",
+      "displayName": "Kolechia Token",
+      "description": "Collect the hidden Kolechia Token",
+      "hidden": false,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min on day 25",
+      "estMinutes": 5,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "On day 25, keep the fifth entrant's love note and give it to the depressed seventh entrant from Kolechia.",
+      "guide": {
+        "kind": "standard",
+        "context": "The love note remains on the desk even if its owner is denied, but returning the note with his documents removes the item needed for the token.",
+        "steps": [
+          {
+            "id": "keep-note",
+            "text": "On day 25, take the love note from the fifth entrant and leave it on the desk while returning his other documents."
+          },
+          {
+            "id": "give-note",
+            "text": "When the seventh entrant says that nobody loves him, drag the love note to the depressed Kolechian; he gives you the Kolechia Token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TOKEN_ARSTOTZKA",
+      "displayName": "Arstotzka Token",
+      "description": "Collect the hidden Arstotzka Token",
+      "hidden": false,
+      "globalPercent": 36.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across days 12-16",
+      "estMinutes": 20,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "From days 12-15, give @npc{Messof Anegovych}'s four business cards to four different entrants whose @item{Work Passes} list Engineering work.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each card must reach a different engineer before Messof returns; repeatedly offering cards to the same entrant can permanently spoil this token for the timeline.",
+        "steps": [
+          {
+            "id": "receive-cards",
+            "text": "On day 12, approve the fourth entrant, @npc{Messof Anegovych} of Meskor Engineering, and keep the four business cards he leaves on the desk."
+          },
+          {
+            "id": "find-engineers",
+            "text": "During days 12-15, inspect each worker's @item{Work Pass} and give one business card to each of four separate entrants whose listed work is Engineering."
+          },
+          {
+            "id": "meet-messof-again",
+            "text": "On day 16, call Messof when he returns; if all four engineers received cards, he hands over the Arstotzka Token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TOKEN_UNITEDFED",
+      "displayName": "United Federation Token",
+      "description": "Collect the hidden United Federation Token",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across days 29-30",
+      "estMinutes": 15,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Keep the murdered daughter's photograph from her father on day 29; on day 30, approve @npc{Simon Wens} while confiscating his passport, then give that passport to the father.",
+      "guide": {
+        "kind": "standard",
+        "context": "Simon must enter Arstotzka alive so the father can pursue him; detaining Simon or returning his passport prevents the planned handoff and token.",
+        "steps": [
+          {
+            "id": "meet-father",
+            "text": "On day 29, keep the photograph given by the father who names @npc{Simon Wens} and asks you to confiscate Wens's passport while admitting him."
+          },
+          {
+            "id": "admit-wens",
+            "text": "On day 30, call the third entrant, Simon Wens; confiscate his passport, stamp him @mechanic{APPROVED}, return his remaining documents, and do not detain him."
+          },
+          {
+            "id": "give-passport",
+            "text": "When the father returns later on day 30, give him @item{Simon Wens's passport} to receive the United Federation Token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_END_TURNEDOVEREZICDOCS",
+      "displayName": "Too Honest",
+      "description": "Turn over EZIC documents to the M.O.I. investigator.",
+      "hidden": true,
+      "globalPercent": 22.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min from day 12",
+      "estMinutes": 5,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "summary": "On day 12, give @npc{M. Vonel} one of the EZIC cipher documents when he questions you about the organization.",
+      "guide": {
+        "kind": "standard",
+        "context": "Handing over the document immediately ends the current route with ending 3, so trigger it from a day-12 branch and return to Day Select afterward.",
+        "steps": [
+          {
+            "id": "load-day-twelve",
+            "text": "From Day Select, load day 12 after preserving a timeline you intend to continue."
+          },
+          {
+            "id": "give-ezic-paper",
+            "text": "When @npc{M. Vonel} visits and asks about EZIC, drag one of the @item{EZIC cipher documents} to him."
+          },
+          {
+            "id": "finish-ending-three",
+            "text": "Complete the resulting arrest sequence to reach ending 3 and unlock Too Honest, then return to Day Select."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_END_KILLEDTARGET",
+      "displayName": "Hired Rifle",
+      "description": "Kill the man in red for EZIC.",
+      "hidden": true,
+      "globalPercent": 14.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min from day 23",
+      "estMinutes": 10,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "summary": "On day 23, use EZIC's golden key to unlock the lethal sniper rifle and shoot the red-clothed man waiting in the entrant line.",
+      "guide": {
+        "kind": "standard",
+        "context": "The shot immediately ends the route with ending 9 and is not one of the five tasks used by the day-31 EZIC endings, making it ideal for a disposable day-23 branch.",
+        "steps": [
+          {
+            "id": "receive-golden-key",
+            "text": "Load day 23 and process entrants until the EZIC messenger gives you the @item{golden key} with the order to shoot the man in red."
+          },
+          {
+            "id": "unlock-rifle",
+            "text": "When the red-clothed man is visible in the entrant line, use the golden key to unlock the lethal @item{sniper rifle} and select the weapon."
+          },
+          {
+            "id": "shoot-target",
+            "text": "Aim at the man wearing red and fire; the shot triggers ending 9 and unlocks Hired Rifle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_END_HELPEZICHOLDFIRE",
+      "displayName": "Member of the Order",
+      "description": "Help EZIC overthrow the government.",
+      "hidden": true,
+      "globalPercent": 8.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "replay days 11-31",
+      "estMinutes": 210,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "summary": "Complete at least four tasks by approving @npc{Mikhail Saratov}, @npc{Stepheni Graire}, or @npc{Marie Escalli}, poisoning @npc{Khaled Istom}, and delivering @npc{Kordon Kallo}'s passport; on day 31, do not fire at either attacker so the wall is destroyed.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any four tasks are sufficient, but completing all five is the safest route. An EZIC messenger appearing as day 31's second entrant confirms that the ending is available; returning Corman Drex's note, taking money, and killing the man in red do not count toward the threshold.",
+        "steps": [
+          {
+            "id": "approve-first-agents",
+            "text": "Approve @npc{Mikhail Saratov} on day 11 and @npc{Stepheni Graire} on day 14 despite their invalid papers."
+          },
+          {
+            "id": "approve-marie",
+            "text": "On day 17, identify @npc{Marie Escalli} from the EZIC cipher and stamp her passport @mechanic{APPROVED}."
+          },
+          {
+            "id": "poison-istom",
+            "text": "On day 20, click the poison packet's arrows three times without touching the powder, align the exposed film over @npc{Khaled Istom}'s passport, press the film to affix the poison, and return the poisoned passport without detaining him.",
+            "kind": "warning"
+          },
+          {
+            "id": "deliver-kallo-passport",
+            "text": "On day 27, confiscate @npc{Kordon Kallo}'s passport, stamp him @mechanic{APPROVED}, and give the confiscated passport to the EZIC agent who arrives later that day."
+          },
+          {
+            "id": "confirm-messenger",
+            "text": "On day 31, confirm that the second entrant is an EZIC messenger carrying the instruction to hold fire; if no messenger appears, fewer than four tasks succeeded."
+          },
+          {
+            "id": "hold-fire",
+            "text": "During the final attack, do not select a weapon or shoot either EZIC attacker; allow the upper attacker to demolish the border wall."
+          },
+          {
+            "id": "finish-ending-nineteen",
+            "text": "Let the attack sequence finish without firing to reach ending 19 and unlock Member of the Order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_END_ESCAPE",
+      "displayName": "Snowier Pastures",
+      "description": "Escape to Obristan with every living family member.",
+      "hidden": true,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15-30 min from day 29",
+      "estMinutes": 25,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "summary": "At the end of days 29-31, spend one confiscated Obristan passport and 25 credits per traveler to escape with the inspector and every living family member.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only living relatives count and adopting the niece is optional. Leaving even one living family member behind produces ending 16; taking everyone alive produces ending 18 and the achievement.",
+        "steps": [
+          {
+            "id": "collect-passports",
+            "text": "From day 29 onward, keep the Obristan passport that @npc{Jorji Costava} provides and confiscate enough additional Obristan passports to have one for the inspector and each living family member."
+          },
+          {
+            "id": "save-escape-money",
+            "text": "Keep 25 credits for every traveler; a six-person household with the adopted niece requires six passports and 150 credits."
+          },
+          {
+            "id": "choose-everyone",
+            "text": "At the end of day 29, 30, or 31, choose the @mechanic{ESCAPE} option and include the inspector plus every family member who is still alive."
+          },
+          {
+            "id": "reach-ending-eighteen",
+            "text": "Confirm the escape and finish the Obristan border sequence; ending 18 unlocks Snowier Pastures."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_END_IGNOREEZIC",
+      "displayName": "Glory to Arstotzka",
+      "description": "Ignore all ending-related EZIC tasks and serve Arstotzka.",
+      "hidden": true,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the loyal playthrough",
+      "estMinutes": 240,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Deny @npc{Mikhail Saratov}, @npc{Stepheni Graire}, and @npc{Marie Escalli}, do not poison @npc{Khaled Istom} or deliver @npc{Kordon Kallo}'s passport, then shoot both day-31 attackers before the wall is destroyed.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the five tasks on days 11, 14, 17, 20, and 27 control ending 20. The lower attacker targets the booth and will kill the inspector if ignored, while the upper attacker must be stopped during the brief window before the wall charge detonates.",
+        "steps": [
+          {
+            "id": "refuse-ezic-agents",
+            "text": "Deny @npc{Mikhail Saratov} on day 11, @npc{Stepheni Graire} on day 14, and @npc{Marie Escalli} on day 17."
+          },
+          {
+            "id": "refuse-late-tasks",
+            "text": "Do not poison @npc{Khaled Istom} on day 20, and do not deliver @npc{Kordon Kallo}'s passport to EZIC on day 27."
+          },
+          {
+            "id": "shoot-lower-attacker",
+            "text": "During the day-31 attack, unlock the available @item{tranquilizer rifle} and shoot the lower attacker who advances toward the inspection booth first."
+          },
+          {
+            "id": "shoot-wall-bomber",
+            "text": "Immediately shoot the upper attacker after he places the explosives but before he detonates them, leaving the border wall intact."
+          },
+          {
+            "id": "pass-audit",
+            "text": "Do not choose the Obristan escape at the end of day 31; finish the end-of-day screen and pass @npc{M. Vonel}'s audit to reach ending 20 and unlock Glory to Arstotzka."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_APT_CLASS5",
+      "displayName": "Worker's Best",
+      "description": "Move the inspector's family into a Class-5 apartment.",
+      "hidden": true,
+      "globalPercent": 8.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across days 12-22",
+      "estMinutes": 120,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Keep more than 20 credits in opening savings so housing offers appear, then pay 100 credits each for the Class-7, Class-6, and Class-5 upgrades in sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "Better apartments provide no financial advantage: mandatory rent rises faster than heating falls. Keep enough savings for three 100-credit moves, and maintain more than 20 credits at the start of qualifying days so offers are not delayed.",
+        "steps": [
+          {
+            "id": "save-money",
+            "text": "Process entrants efficiently and preserve savings for the three 100-credit housing upgrades instead of buying optional booth upgrades."
+          },
+          {
+            "id": "class-seven",
+            "text": "At the end of day 12 or the first later qualifying day, accept the @mechanic{Class-7 apartment} offer."
+          },
+          {
+            "id": "class-six",
+            "text": "Maintain sufficient savings for five more days, then accept the @mechanic{Class-6 apartment} offer after day 17 at the earliest."
+          },
+          {
+            "id": "class-five",
+            "text": "Maintain sufficient savings for another five days and accept the @mechanic{Class-5 apartment} offer after day 22 at the earliest; moving in unlocks Worker's Best immediately."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_TOKEN_IMPOR",
+    "ACH_TOKEN_ANTEGRIA",
+    "ACH_TOKEN_OBRISTAN",
+    "ACH_TOKEN_ARSTOTZKA",
+    "ACH_APT_CLASS5",
+    "ACH_TOKEN_REPUBLIA",
+    "ACH_TOKEN_KOLECHIA",
+    "ACH_TOKEN_UNITEDFED",
+    "ACH_END_IGNOREEZIC",
+    "ACH_END_TURNEDOVEREZICDOCS",
+    "ACH_END_KILLEDTARGET",
+    "ACH_END_ESCAPE",
+    "ACH_END_HELPEZICHOLDFIRE"
+  ]
+}

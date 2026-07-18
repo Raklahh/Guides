@@ -1,0 +1,3167 @@
+{
+  "game": {
+    "appid": 1771300,
+    "slug": "kingdom-come-deliverance-ii",
+    "title": "Kingdom Come: Deliverance II",
+    "version": "1.5.3",
+    "lastPatchChecked": "2026-07-10",
+    "estTotalHours": 260,
+    "difficultyRating": 10,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Secure the opening and early Trosky achievements",
+      "description": "Win the Hans duel, preserve the Semine route, recover Pebbles and Mutt, and complete early story opportunities before the Trosky point of no return.",
+      "achievementRefs": [
+        "1",
+        "2",
+        "8",
+        "9",
+        "12",
+        "27",
+        "31",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Clear Trosky side content",
+      "description": "Finish the village truce, Bozhena repayment, brawling chain, boulder kill, and other Trosky missables before Necessary Evil closes their quest windows.",
+      "achievementRefs": [
+        "15",
+        "29",
+        "33",
+        "47"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Work through Kuttenberg before Oratores",
+      "description": "Complete the dense Kuttenberg story and side-quest checklist, including Rosa, Godwin, Maleshov, the commanders, Victoria, and every activity that Oratores can close.",
+      "achievementRefs": [
+        "3",
+        "4",
+        "5",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17",
+        "18",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "39",
+        "43",
+        "44",
+        "48",
+        "53"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish cumulative and endgame tasks",
+      "description": "Complete the story, quest-count, spending, weapon, minigame, combat, and remaining free-roam achievements before starting the challenge run.",
+      "achievementRefs": [
+        "6",
+        "7",
+        "10",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "35",
+        "37",
+        "40",
+        "45",
+        "46",
+        "52"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Complete the all-negative-perk Hardcore run",
+      "description": "Enable every negative perk on a new Hardcore save, preserve Lent's zero-stat requirements if combining them, and complete the story once more.",
+      "achievementRefs": [
+        "28",
+        "50",
+        "51"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Complete Brushes with Death",
+      "description": "Enter with high Scholarship, Charisma, and Alchemy, follow every optional Voyta and Libor branch, then finish the shield-painting cleanup.",
+      "achievementRefs": [
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Build the Legacy of the Forge",
+      "description": "Track all eight sketches from the start, resolve the guild activity finales peacefully, restore every forge section, and complete the clock.",
+      "achievementRefs": [
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Run Mysteria Ecclesiae cleanly",
+      "description": "Bring saves and supplies, avoid knight detection, start Maddening Pain during Anamnesis, interact with the cat in three quests, finish every aid task, and leave the monastery after all nine achievements are secured.",
+      "achievementRefs": [
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "1",
+      "displayName": "Déjà Vu",
+      "description": "You defeated Capon during practice. Again.",
+      "hidden": false,
+      "globalPercent": 68.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Win the @loc{Easy Riders} training bout against @npc{Hans Capon}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The practice fight occurs near the beginning of the second main quest and cannot be replayed within that run.",
+        "steps": [
+          {
+            "id": "win-practice",
+            "text": "During Easy Riders, accept the practice duel with Hans Capon and reduce his health until he yields."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "2",
+      "displayName": "Silence is Golden",
+      "description": "Thanks to you, the raid on Semine didn't happen.",
+      "hidden": true,
+      "globalPercent": 24.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Conceal Semine's involvement while reporting after @mechanic{Back in the Saddle}, then protect the settlement again throughout @mechanic{Necessary Evil}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The route depends on two consecutive reports to Otto von Bergow; exposing Semine at either point leads to the raid.",
+        "steps": [
+          {
+            "id": "first-report",
+            "text": "At the end of Back in the Saddle, tell Otto von Bergow @mechanic{I don't know of anything}."
+          },
+          {
+            "id": "interrogate",
+            "text": "During Necessary Evil, extract the Nebakov location without implicating Semine. Select We asked first; then Slap; inspect the tongs; ask where the band is hiding; say We already know anyway; use Punch and Hit harder; take the hammer; Continue; ask about the ambush; say You're not worth it; threaten But you will; use Torture; and finish with Let's change the subject."
+          },
+          {
+            "id": "final-report",
+            "text": "Report @mechanic{Bandits are in Nebakov} and @mechanic{Nobody helped the bandits here} to Otto."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "3",
+      "displayName": "Vengeance",
+      "description": "Istvan is dead. It's about time!",
+      "hidden": true,
+      "globalPercent": 51.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 hours",
+      "estMinutes": 1200,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Advance the main story until @npc{Istvan Toth} dies.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is an automatic story milestone and does not depend on a dialogue branch.",
+        "steps": [
+          {
+            "id": "continue-story",
+            "text": "Complete the required main quests until the story resolves Henry's pursuit of Istvan Toth."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "4",
+      "displayName": "New Horizons",
+      "description": "Welcome to the Kuttenberg region!",
+      "hidden": true,
+      "globalPercent": 51.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 20 hours",
+      "estMinutes": 1200,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish the Trosky-region story and arrive in the @loc{Kuttenberg region}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The regional transition follows the main quest Storm and opens the second map.",
+        "steps": [
+          {
+            "id": "reach-kuttenberg",
+            "text": "Complete the Trosky main-quest chain through Storm and continue into the Kuttenberg region."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "5",
+      "displayName": "High Noon",
+      "description": "You shot a gun-wielding enemy with a gun.",
+      "hidden": true,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Kill an enemy who is holding a firearm by shooting that enemy with Henry's own firearm.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dancing with the Devil provides a reliable scripted target after the Maleshov gate sequence.",
+        "steps": [
+          {
+            "id": "prepare-gun",
+            "text": "Carry a loaded hand cannon and ammunition before starting Dancing with the Devil."
+          },
+          {
+            "id": "rescue-route",
+            "text": "After opening the gate, begin with Let's make a deal. Propose torching the tower, refuse to endanger Rosa, volunteer to rescue her, and confirm the plan."
+          },
+          {
+            "id": "gun-duel",
+            "text": "Approach the tower door and shoot the guard while he is visibly wielding his gun."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "6",
+      "displayName": "Bohemian Sniper",
+      "description": "You killed an enemy with a crossbow shot to the head at long range.",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Kill an enemy with a @mechanic{crossbow headshot from at least 30 metres}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A heavy crossbow, quality bolts, and Bowman's Brew reduce the accuracy and damage uncertainty at the required distance.",
+        "steps": [
+          {
+            "id": "equip-crossbow",
+            "text": "Equip a loaded crossbow and bolts, then find a stationary bandit at a camp with at least 30 metres of clear sight."
+          },
+          {
+            "id": "land-headshot",
+            "text": "Save before firing, aim at the enemy's head from 30 metres or farther, and make sure the single bolt kills the target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "7",
+      "displayName": "Overkill",
+      "description": "You pulverized a rabbit with a gunshot.",
+      "hidden": true,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Kill a @enemy{rabbit} with a gunshot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rabbits spawn around deer-hunting spots and are easiest to hit with scattershot at short range.",
+        "steps": [
+          {
+            "id": "find-rabbit",
+            "text": "Load a firearm with scattershot and search a deer-hunting spot, such as the one near Bylany, until a rabbit appears."
+          },
+          {
+            "id": "shoot-rabbit",
+            "text": "Save, approach within reliable firearm range, and kill the rabbit with the gunshot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "8",
+      "displayName": "Fancy Fighting",
+      "description": "You killed an enemy with a combo.",
+      "hidden": false,
+      "globalPercent": 64.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill an enemy with the final strike of a learned @mechanic{weapon combo}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Available combo inputs are listed under Player > Combos and differ by weapon family.",
+        "steps": [
+          {
+            "id": "learn-combo",
+            "text": "Open Player > Combos, choose a combo supported by the equipped weapon, and memorise its attack directions."
+          },
+          {
+            "id": "combo-kill",
+            "text": "Weaken a hostile enemy, perform the full combo without interruption, and let its finishing strike deliver the kill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "9",
+      "displayName": "Lights Out",
+      "description": "You slit the throat of an enemy who was looking for you.",
+      "hidden": false,
+      "globalPercent": 36.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Slit the throat of an enemy while that enemy is actively searching for Henry.",
+      "guide": {
+        "kind": "standard",
+        "context": "A thrown stone creates the required search state without immediately exposing Henry.",
+        "steps": [
+          {
+            "id": "create-search",
+            "text": "Remain hidden near an isolated enemy and throw a stone onto nearby ground."
+          },
+          {
+            "id": "throat-kill",
+            "text": "When the enemy investigates the noise, approach from behind and use the throat-slitting stealth kill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "10",
+      "displayName": "Hic-Hic-Boom",
+      "description": "Making gunpowder while drunk isn't a very good idea.",
+      "hidden": true,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Craft gunpowder during the @mechanic{Hangover} phase after becoming drunk.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement checks Henry's hangover state during ammunition crafting; a learned recipe is unnecessary.",
+        "steps": [
+          {
+            "id": "get-hangover",
+            "text": "Drink alcohol until Henry is drunk, then wait until the status changes to Hangover."
+          },
+          {
+            "id": "craft-powder",
+            "text": "At an alchemy bench, use water; grind Saltpetre and Sulphur; add them and boil two turns; add Charcoal and boil two turns; then pour and grind the result while Hangover remains active."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "11",
+      "displayName": "Reforged",
+      "description": "You reforged the sword you'd been searching for so long.",
+      "hidden": true,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Reforge @item{Radzig Kobyla's sword} after recovering it at the end of Storm.",
+      "guide": {
+        "kind": "standard",
+        "context": "The sword can be reforged only once; Martin's Secret at Craftsmanship level 16 improves the resulting quality but is not required for the unlock.",
+        "steps": [
+          {
+            "id": "recover-sword",
+            "text": "Complete Storm and keep the recovered sword in Henry's inventory or storage."
+          },
+          {
+            "id": "reforge",
+            "text": "Obtain the listed materials, select Radzig Kobyla's sword in the smithing menu, and complete the forging process at an anvil before the final ending choice."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "12",
+      "displayName": "Man's Best Friend",
+      "description": "You found and saved Mutt.",
+      "hidden": true,
+      "globalPercent": 60.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the @mechanic{Mutt} quest and reunite with Mutt.",
+      "guide": {
+        "kind": "standard",
+        "context": "The search begins by examining the place where Mutt disappeared and asking Bozhena about the trail.",
+        "steps": [
+          {
+            "id": "start-search",
+            "text": "Inspect Mutt's disappearance site and speak with Bozhena the herbwoman about the missing dog."
+          },
+          {
+            "id": "find-mutt",
+            "text": "Follow the Mutt quest objectives to the wolves' area, resolve the encounter, and call Mutt back to Henry."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "13",
+      "displayName": "Original Gunslinger",
+      "description": "You got four loaded hand cannons ready.",
+      "hidden": true,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Equip a four-slot belt with @mechanic{four loaded hand cannons} at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tailor Latsek in Kuttenberg sells a belt with four weapon slots; each firearm must contain ammunition before being placed in a slot.",
+        "steps": [
+          {
+            "id": "obtain-loadout",
+            "text": "In Kuttenberg, buy Tailor Latsek's belt with four weapon positions, obtain four hand cannons, and load every gun."
+          },
+          {
+            "id": "equip-four",
+            "text": "Equip the four-slot belt and assign one loaded firearm to each belt slot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "14",
+      "displayName": "Shiny",
+      "description": "You won a gold badge in a game of dice.",
+      "hidden": false,
+      "globalPercent": 29.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win a dice game while using a @item{gold badge}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A gold badge can be bought from an alehouse maid at the Iron Eagle tavern in Kuttenberg.",
+        "steps": [
+          {
+            "id": "get-badge",
+            "text": "Obtain a gold-quality dice badge and place it in Henry's inventory."
+          },
+          {
+            "id": "win-dice",
+            "text": "Start a dice game, select the gold badge for the match, and reach the winning score before the opponent."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "15",
+      "displayName": "Henry the Bruiser",
+      "description": "You beat the best brawler around.",
+      "hidden": false,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Defeat either regional fistfighting grandmaster after completing that region's brawling activity chain.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Trosky chain begins with Melee at the Mill, continues through Wine, Women and Blood, and ends at The Best for Last; the grandmaster bout is a one-attempt opportunity unless a save is reloaded.",
+        "steps": [
+          {
+            "id": "finish-brawls",
+            "text": "Complete Melee at the Mill and Wine, Women and Blood, then begin The Best for Last."
+          },
+          {
+            "id": "beat-master",
+            "text": "Save before the final bout and defeat the grandmaster under the activity's unarmed-combat rules."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "16",
+      "displayName": "Die Another Day",
+      "description": "As Godwin, you saved your brother.",
+      "hidden": true,
+      "globalPercent": 30.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "As @npc{Godwin}, keep Godwin's green-clothed brother alive through the battle in The Feast.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement is evaluated when combat ends, so staying beside the brother and intercepting attackers is safer than pursuing distant enemies.",
+        "steps": [
+          {
+            "id": "protect-brother",
+            "text": "During the main quest The Feast, identify Godwin's brother by his green clothing and remain close enough to defend and heal the fight around him."
+          },
+          {
+            "id": "finish-battle",
+            "text": "Win the encounter while Godwin's brother is still alive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "17",
+      "displayName": "Tales of Kuttenberg",
+      "description": "You helped Rosa finish her book.",
+      "hidden": false,
+      "globalPercent": 32.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Retrieve @item{Rosa's book} from Maleshov during Taking French Leave and return it to help finish her work.",
+      "guide": {
+        "kind": "standard",
+        "context": "The book lies on a bench beneath the window in Lady Ofka's second-floor room inside the main castle building.",
+        "steps": [
+          {
+            "id": "take-book",
+            "text": "During Taking French Leave, enter Maleshov's main building, reach Lady Ofka's room on the second floor, and take the book from the bench under the window."
+          },
+          {
+            "id": "return-book",
+            "text": "Bring the book back to Rosa and complete her related dialogue before advancing past the quest opportunity."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "18",
+      "displayName": "True Cardinal",
+      "description": "You made it through the church council without raising suspicion.",
+      "hidden": true,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Complete Godwin's church-council impersonation in The Italian Job without raising suspicion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Godwin gains better Italian responses while drunk, and the early captain conversation requires a demanding Speech check.",
+        "steps": [
+          {
+            "id": "enter-council",
+            "text": "Bow and Evade when meeting Jerome Naaz, drink schnapps before Captain Giuseppe Cabrini, then choose Try speaking in Italian and Try to answer in Italian."
+          },
+          {
+            "id": "gather-positions",
+            "text": "Continue formally and choose the response beginning @mechanic{The Pope has not...}; refresh Drunk at the wine barrel, ask Albich, Father Konrad, and Abbot Jan III for their positions, and leave each conversation calmly."
+          },
+          {
+            "id": "close-council",
+            "text": "Tell Janosh Usher to start the closing speech, choose Albich is right (Support Sedletz), and select Calm down."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "19",
+      "displayName": "Penitent One",
+      "description": "You made the penitential pilgrimage.",
+      "hidden": false,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Ask a priest to begin a @mechanic{penitential pilgrimage}, then pray at the assigned destination.",
+      "guide": {
+        "kind": "standard",
+        "context": "Father Marian at Old Kutna church offers a reliable Kuttenberg route through his reputation dialogue.",
+        "steps": [
+          {
+            "id": "request-pilgrimage",
+            "text": "Speak to Father Marian in Old Kutna church, ask to improve Henry's reputation, and confirm with the response beginning @mechanic{Yes, I want...}."
+          },
+          {
+            "id": "complete-pilgrimage",
+            "text": "Travel to the new pilgrimage objective and use the prayer interaction there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "20",
+      "displayName": "Groschen Must Flow",
+      "description": "You spent ten thousand groschen.",
+      "hidden": false,
+      "globalPercent": 38.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Spend a cumulative total of @mechanic{10,000 groschen} in one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "Normal purchases, services, repairs, and reconstruction costs all contribute, so completion play naturally supplies most of the total.",
+        "steps": [
+          {
+            "id": "spend-money",
+            "text": "Continue buying equipment, supplies, training, repairs, and DLC upgrades until the cumulative amount spent reaches 10,000 groschen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "21",
+      "displayName": "Slip the Noose",
+      "description": "You managed to talk your way out of an execution.",
+      "hidden": true,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Accept punishment for one murder, then commit another witnessed murder and pass the guard check that avoids execution.",
+      "guide": {
+        "kind": "standard",
+        "context": "A high-Charisma outfit and a low-status second victim make the social check easier; Freshly Branded may need to expire first.",
+        "steps": [
+          {
+            "id": "accept-sentence",
+            "text": "In Troskowitz, commit a witnessed murder, surrender, and choose @mechanic{I accept my punishment}."
+          },
+          {
+            "id": "repeat-crime",
+            "text": "After release, equip high-Charisma clothing, murder a low-status civilian in front of a guard, and surrender again."
+          },
+          {
+            "id": "talk-free",
+            "text": "Choose the available persuasion response and pass the check that cancels the execution; if necessary, wait about a week for Freshly Branded to disappear before trying another guard."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "22",
+      "displayName": "The End",
+      "description": "You completed the story.",
+      "hidden": true,
+      "globalPercent": 28.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 60 hours",
+      "estMinutes": 3600,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Complete all 32 main quests and finish the story.",
+      "guide": {
+        "kind": "standard",
+        "context": "A permanent save is retained at the start of each main quest, but the first full ending still closes the main campaign route.",
+        "steps": [
+          {
+            "id": "finish-story",
+            "text": "Advance the main questline through Judgement Day and complete the final ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "23",
+      "displayName": "Been There Done That",
+      "description": "You've completed most of the game's content.",
+      "hidden": true,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 80 hours",
+      "estMinutes": 4800,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Complete @mechanic{100 unique quests and tasks} in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is playthrough-wide progress: the Trosky point of no return is Necessary Evil, and the Kuttenberg point is Oratores, after which several unfinished side quests disappear.",
+        "steps": [
+          {
+            "id": "clear-trosky",
+            "text": "Before finishing Necessary Evil, complete available Trosky side content, especially Demons of Trosky and Gules's Canker, Handsome Charlie, Johnny the Gob, and Casper tasks."
+          },
+          {
+            "id": "clear-kuttenberg",
+            "text": "Before finishing Oratores, clear Lost Honour, Ransom, Spoils of War, Hush, My Darling, The Stalker, Absolver, and The Thunderstone."
+          },
+          {
+            "id": "reach-total",
+            "text": "Reach 100 successful, unique quest and task completions in the same playthrough; repeated runs of repeatable activities do not add another qualifying completion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "24",
+      "displayName": "The Lord Taketh Away",
+      "description": "You lost ten thousand groschen.",
+      "hidden": true,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Lose @mechanic{10,000 groschen} in a single punishment payment.",
+      "guide": {
+        "kind": "standard",
+        "context": "Serious crimes against civilians can raise the guard fine to the required amount.",
+        "steps": [
+          {
+            "id": "raise-fine",
+            "text": "Carry more than 10,000 groschen and commit enough witnessed civilian murders or other severe crimes for the demanded punishment to reach at least 10,000."
+          },
+          {
+            "id": "pay-guard",
+            "text": "Surrender to a guard and pay the full fine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "25",
+      "displayName": "Nimble Fingers",
+      "description": "You picked the hardest lock.",
+      "hidden": true,
+      "globalPercent": 43.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Open a @mechanic{Very Hard lock} after reaching at least Lockpicking level 15.",
+      "guide": {
+        "kind": "standard",
+        "context": "Very Hard locks remain unavailable at low skill even if the player can manipulate the lock correctly.",
+        "steps": [
+          {
+            "id": "train-lockpicking",
+            "text": "Raise Lockpicking to level 15 or higher and carry several lockpicks."
+          },
+          {
+            "id": "open-hardest",
+            "text": "Find a lock labelled Very Hard, start lockpicking while unobserved, and open it successfully."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "26",
+      "displayName": "My Shoes!",
+      "description": "While you were passed out drunk, somebody nicked your shoes.",
+      "hidden": true,
+      "globalPercent": 16.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Pass out from heavy drinking and awaken after an NPC has stolen Henry's shoes.",
+      "guide": {
+        "kind": "standard",
+        "context": "The theft is a random blackout event, so removing every other garment and reloading before drinking shortens retries.",
+        "steps": [
+          {
+            "id": "prepare-blackout",
+            "text": "Remove Henry's clothing except footwear and make a manual save."
+          },
+          {
+            "id": "pass-out",
+            "text": "Drink four or five bottles of schnapps, then skip time until Henry blacks out and wakes up."
+          },
+          {
+            "id": "verify-shoes",
+            "text": "Check that the footwear was stolen; reload the prepared save and repeat if another blackout event occurs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "27",
+      "displayName": "Old Raven",
+      "description": "You found the true Lord of Nebakov.",
+      "hidden": true,
+      "globalPercent": 23.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Find the jailed true Lord of Nebakov during Back in the Saddle and speak with him.",
+      "guide": {
+        "kind": "standard",
+        "context": "The prisoner is behind the ground-floor jail door at Nebakov Fortress; its key is on a table upstairs, or the door can be lockpicked.",
+        "steps": [
+          {
+            "id": "enter-jail",
+            "text": "During Back in the Saddle, enter Nebakov Fortress's ground-floor jail by using the upstairs table key or picking the door."
+          },
+          {
+            "id": "speak-prisoner",
+            "text": "Talk to the prisoner inside; any dialogue outcome awards the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "28",
+      "displayName": "Lent",
+      "description": "You finished the game without eating meat or killing any animals.",
+      "hidden": true,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "about 70 hours",
+      "estMinutes": 4200,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Finish the entire story in one playthrough with @mechanic{Meat eaten = 0 and Animals killed = 0}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counters are visible under Player > Statistics; honey and cooking-pot soup are safe, and kills made by Mutt do not increase Henry's animal-kill statistic.",
+        "steps": [
+          {
+            "id": "start-clean-run",
+            "text": "Begin a new playthrough and regularly verify Player > Statistics > General > Meat eaten and Combat > Animals killed both remain zero."
+          },
+          {
+            "id": "avoid-violations",
+            "text": "Eat honey, vegetarian food, and cooking-pot soup; do not personally kill livestock, game, wolves, or other animals."
+          },
+          {
+            "id": "finish-story",
+            "text": "Complete Judgement Day with both statistics still at zero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "29",
+      "displayName": "Rock and Stone!",
+      "description": "You killed an enemy with a boulder dropped from the battlements. Karl would be proud!",
+      "hidden": false,
+      "globalPercent": 45.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Kill an attacker by dropping a battlement boulder during The Finger of God or So it begins.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both opportunities occur during fortress defence objectives and disappear after the relevant assault.",
+        "steps": [
+          {
+            "id": "find-boulders",
+            "text": "During The Finger of God objective Repel the attack on the gate, use the rock pile behind the two archers; alternatively use the stone-drop opening above the main gate during So it begins."
+          },
+          {
+            "id": "drop-kill",
+            "text": "Wait until an enemy stands beneath the drop point, then use the boulder interaction and confirm the falling rock kills that enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "30",
+      "displayName": "No Good Deed",
+      "description": "You saved Maleshov without getting caught.",
+      "hidden": true,
+      "globalPercent": 20.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Open Maleshov's gate during Dancing with the Devil without any guard detecting Henry.",
+      "guide": {
+        "kind": "standard",
+        "context": "The game saves after Henry climbs the wall; disagreeing with burning the village and duelling Dry Devil leads to the stealth approach.",
+        "steps": [
+          {
+            "id": "choose-stealth",
+            "text": "Reject burning the village and defeat Dry Devil in the duel, then climb Maleshov's wall."
+          },
+          {
+            "id": "clear-guards",
+            "text": "Throw stones onto the ground to turn each guard away, quietly kill or bypass the guards, and hide any bodies before another patrol sees them."
+          },
+          {
+            "id": "open-gate",
+            "text": "Reach and operate the gate mechanism without a detection alert."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "31",
+      "displayName": "An Old Friend",
+      "description": "You found Pebbles.",
+      "hidden": false,
+      "globalPercent": 64.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Recover @npc{Pebbles} from the Semine stables.",
+      "guide": {
+        "kind": "standard",
+        "context": "The stablemaster initially asks roughly 50 groschen, and the price can be paid or negotiated.",
+        "steps": [
+          {
+            "id": "recover-pebbles",
+            "text": "Visit the Semine stables, identify Pebbles, speak to the stablemaster, and buy or persuade him to return the horse."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "32",
+      "displayName": "The Hydra's Heads",
+      "description": "All three commanders are dead and the powder magazine's been taken care of.",
+      "hidden": true,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "During The Lion's Den, ensure @npc{Chertan, Grozav, and Katz} die and Sigismund's powder magazine explodes.",
+      "guide": {
+        "kind": "standard",
+        "context": "The trial route must expose Grozav while preserving Katz long enough to leave camp, after which Katz can be killed before speaking to Zizka.",
+        "steps": [
+          {
+            "id": "collect-case",
+            "text": "After Chertan dies, examine the blood, broken lock, gunpowder hut, and cannon; find the guard-tower alcohol; steal and read Lord Borumlaca's bond; tell Katz The guards drink on duty; and do not accuse Musa."
+          },
+          {
+            "id": "convict-grozav",
+            "text": "Identify Kiss of Death from the Book of Poison, make a deal with Stephen Crow, inspect Grozav's table, then at the morning trial defend Musa and accuse Grozav using the promissory note, debt motive, poisoned wine, and found herbs."
+          },
+          {
+            "id": "kill-katz",
+            "text": "Warn Katherine, leave with Katz, defeat the Prague soldiers, then kill Katz near the horses before speaking to Zizka; complete the quest route that destroys the powder magazine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "33",
+      "displayName": "Truce",
+      "description": "You've helped the two quarrelling villages reconcile. For now.",
+      "hidden": true,
+      "globalPercent": 16.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Reconcile @loc{Tachov and Zhelejov} through the Frogs or Mice questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "The peaceful Frogs route requires finding the historical pasture boundary without removing its iron nail.",
+        "steps": [
+          {
+            "id": "start-frogs",
+            "text": "Complete Frogs for Old Olbram in Zhelejov, ask whether he would rather make peace, and volunteer to resolve the conflict first."
+          },
+          {
+            "id": "prove-boundary",
+            "text": "Ask Bailiff Thrush about reconciliation, pass the Speech and Scholarship checks, read the historical book, ask Gaibl for its meaning, select the Latin answer mentioning @mechanic{clavi ferrei}, locate the marked tree, and examine the nail without pulling it out."
+          },
+          {
+            "id": "make-truce",
+            "text": "Report that Henry found the pasture boundary to Thrush, then invite Old Olbram to meet the Tachovites and propose making peace."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "34",
+      "displayName": "Master of Masters",
+      "description": "You beat Zavish in three disciplines.",
+      "hidden": true,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Defeat @npc{Zavish} with a polearm, a shield, and a one-handed weapon during Lost Honour.",
+      "guide": {
+        "kind": "standard",
+        "context": "Lost Honour begins from the Polite Armed Man road encounter between Miskowitz and Horschan; Jezhek must survive his surrender.",
+        "steps": [
+          {
+            "id": "start-lost-honour",
+            "text": "Trigger the road ambush between Miskowitz and Horschan and spare Jezhek when he surrenders."
+          },
+          {
+            "id": "challenge-zavish",
+            "text": "Find Zavish in Sigismund's camp, enter his private tent carefully, and challenge him to the three disciplines."
+          },
+          {
+            "id": "win-three",
+            "text": "Beat Zavish once with a polearm, once using the shield discipline, and once with a one-handed weapon, then speak to him for permission to recover Jezhek's armour."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "35",
+      "displayName": "Without Protection",
+      "description": "You broke an enemy's shield.",
+      "hidden": true,
+      "globalPercent": 30.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Break an enemy's equipped @item{shield} during combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Giving an enemy a nearly broken shield makes the durability requirement controllable.",
+        "steps": [
+          {
+            "id": "damage-shield",
+            "text": "Block an unarmed enemy's attacks with a spare shield until that shield has very low durability."
+          },
+          {
+            "id": "give-shield",
+            "text": "Knock out a different shield-bearing enemy, remove that enemy's original shield, and place the damaged shield in the enemy's inventory."
+          },
+          {
+            "id": "break-shield",
+            "text": "Let the enemy re-equip it, then attack the shield side repeatedly until the shield breaks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "36",
+      "displayName": "Henry the Matchmaker",
+      "description": "You brought Victoria her sweetheart. Against his will.",
+      "hidden": true,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Kidnap @npc{Black} from Sigismund's camp and deliver him alive to @npc{Victoria} during Hush, My Darling.",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest becomes available after The Devil's Pack and can fail on time; finding Victoria dead means the window has closed.",
+        "steps": [
+          {
+            "id": "treat-black",
+            "text": "Start Hush, My Darling in Miskowitz immediately, enter Sigismund's camp, give Black a Digestive potion, and learn Victoria's location."
+          },
+          {
+            "id": "carry-black",
+            "text": "Return at night, knock Black unconscious without killing him, pick him up, and carry him out of camp to Victoria."
+          },
+          {
+            "id": "finish-match",
+            "text": "Ask Victoria whether Black is the father, question the blood on the floor, and promise to return shortly; pass the Speech check and then speak to her again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "37",
+      "displayName": "Face to Face",
+      "description": "You finally met Markvart von Aulitz.",
+      "hidden": true,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Reach @npc{Markvart von Aulitz} in Sigismund's camp during Reckoning.",
+      "guide": {
+        "kind": "standard",
+        "context": "A guarded alley key route through the barn avoids searching the whole camp.",
+        "steps": [
+          {
+            "id": "enter-alley",
+            "text": "During Reckoning, enter the barn, climb to its second floor, and drop into the alley."
+          },
+          {
+            "id": "get-key",
+            "text": "Silently remove the alley guards, including the guard behind the tent, and loot Von Aulitz's key."
+          },
+          {
+            "id": "meet-markvart",
+            "text": "Use the key to reach Markvart von Aulitz and begin the encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "38",
+      "displayName": "Under a Brown Flag",
+      "description": "You hung used underwear on the tavern. Very used.",
+      "hidden": true,
+      "globalPercent": 13.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Hang the used braies from the Black Horse Tavern attic during Striped Tonics.",
+      "guide": {
+        "kind": "standard",
+        "context": "After Yackers 'n' Fash, visit Vlach at roughly 18:00 inside the Black Horse Tavern to begin Striped Tonics.",
+        "steps": [
+          {
+            "id": "start-revenge",
+            "text": "Complete Yackers 'n' Fash, meet Vlach around 18:00, agree to visit Hoprink Church the next morning, then tell the miners Henry wants revenge on Preng and accept their plan."
+          },
+          {
+            "id": "hang-braies",
+            "text": "Enter the Black Horse Tavern attic by taking the stairs, the right-hand door, the next door, and the corner ladder; use the beam interaction to hang the braies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "39",
+      "displayName": "Canny Shooter",
+      "description": "You won the miners' competition on the highest difficulty.",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win the miners' shooting competition on @mechanic{Master Archers} difficulty by hitting at least 6 of 11 targets.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kubyenka offers the contest at Devil's Den during daylight after Speak of the Devil; a crossbow must be carried.",
+        "steps": [
+          {
+            "id": "start-contest",
+            "text": "After Speak of the Devil, bring a crossbow to Kubyenka at Devil's Den during daylight, ask to enter the shooting contest, and select @mechanic{Master archers}."
+          },
+          {
+            "id": "win-contest",
+            "text": "Hit at least six of the eleven targets and finish with the winning score."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "40",
+      "displayName": "Under Pressure",
+      "description": "You won three skirmishes while bleeding.",
+      "hidden": false,
+      "globalPercent": 57.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win @mechanic{three separate combat skirmishes while Henry is bleeding}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter advances only when the encounter ends in victory before the Bleeding status expires or is treated.",
+        "steps": [
+          {
+            "id": "bleed-and-win",
+            "text": "In three different hostile encounters, allow an enemy to inflict Bleeding, then defeat every opponent while Bleeding remains active."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "41",
+      "displayName": "This Won't End Well",
+      "description": "And that was just the beginning...",
+      "hidden": true,
+      "globalPercent": 82.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the opening main quest sequence after Henry's first major defeat.",
+      "guide": {
+        "kind": "standard",
+        "context": "This automatic prologue milestone has no missable condition.",
+        "steps": [
+          {
+            "id": "complete-opening",
+            "text": "Continue through Last Rites and the opening story scenes until the achievement appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "42",
+      "displayName": "A Bird in the Hand",
+      "description": "You saved Capon from the gallows.",
+      "hidden": true,
+      "globalPercent": 56.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 hours",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Rescue @npc{Hans Capon} from the gallows through the main story.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is awarded automatically after the required Trosky castle sequence.",
+        "steps": [
+          {
+            "id": "save-capon",
+            "text": "Complete the main quests leading through For Whom the Bell Tolls and secure Hans Capon's release."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "43",
+      "displayName": "The Dirty Seven",
+      "description": "You found all of Dry Devil's comrades-in-arms.",
+      "hidden": true,
+      "globalPercent": 38.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 hours",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Find every surviving member of @npc{Dry Devil's old company} during The Devil's Pack.",
+      "guide": {
+        "kind": "standard",
+        "context": "The main quest requires assembling the group and awards the achievement automatically when the search is complete.",
+        "steps": [
+          {
+            "id": "find-company",
+            "text": "Follow every search objective in The Devil's Pack until each surviving veteran from Dry Devil's former company has been located."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "44",
+      "displayName": "Martyr",
+      "description": "You helped the legate attain martyrdom.",
+      "hidden": true,
+      "globalPercent": 30.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 15 hours",
+      "estMinutes": 900,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete the story route in which the papal legate attains martyrdom.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is an automatic main-story result during the Kuttenberg campaign.",
+        "steps": [
+          {
+            "id": "continue-story",
+            "text": "Complete the required Kuttenberg main quests through the legate's final sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "45",
+      "displayName": "Jack of All Trades",
+      "description": "You have successfully completed every mini-game.",
+      "hidden": false,
+      "globalPercent": 47.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 3 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Successfully complete @mechanic{dice, alchemy, blacksmithing, sharpening, pickpocketing, and lockpicking} at least once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each activity must reach its success state; merely opening the interface does not count.",
+        "steps": [
+          {
+            "id": "craft-games",
+            "text": "Win one dice game, brew one potion at an alchemy bench, forge one item at an anvil, and fully sharpen one weapon at a grindstone."
+          },
+          {
+            "id": "theft-games",
+            "text": "Successfully steal an item through pickpocketing and open one locked door or chest with a lockpick."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "46",
+      "displayName": "Weapon of Choice",
+      "description": "You've defeated an enemy with every type of weapon.",
+      "hidden": false,
+      "globalPercent": 8.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 4 hours",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Kill at least one enemy with each of nine weapon categories in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "The required families are longsword, short sword, crossbow, bow, polearm, mace, axe, firearm, and dagger.",
+        "steps": [
+          {
+            "id": "collect-weapons",
+            "text": "Obtain one longsword, short sword, crossbow, bow, polearm, mace, axe, firearm with ammunition, and dagger."
+          },
+          {
+            "id": "record-kills",
+            "text": "Use each weapon category to deliver a killing blow to a hostile human enemy, keeping a personal checklist until all nine have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "47",
+      "displayName": "A Knight's Word",
+      "description": "You rewarded the herbwoman for her help as promised.",
+      "hidden": false,
+      "globalPercent": 51.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Complete Bad Blood before leaving for Kuttenberg and repay @npc{Bozhena} for helping Henry and Hans.",
+      "guide": {
+        "kind": "standard",
+        "context": "Once Henry moves to the Kuttenberg region without resolving Bozhena's request, this promise can no longer be fulfilled.",
+        "steps": [
+          {
+            "id": "finish-bad-blood",
+            "text": "Complete Bozhena's side quest Bad Blood while still in the Trosky region."
+          },
+          {
+            "id": "repay-bozhena",
+            "text": "Return to Bozhena and choose the dialogue/payment option that gives the herbwoman the promised reward."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "48",
+      "displayName": "Remember Remember…",
+      "description": "Did you really think it wouldn't blow up? Really?",
+      "hidden": true,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Complete Chenyek's questline and ignite the stolen gunpowder to destroy the Via Argentum mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Spark becomes available only after Via Argentum and after Feast for the Poor plus The Thieves' Code, followed by a three-day messenger event.",
+        "steps": [
+          {
+            "id": "unlock-spark",
+            "text": "Complete Feast for the Poor and The Thieves' Code for Chenyek, wait three in-game days, meet the messenger on the Miskowitz–Suchdol road, and return to Chenyek for The Spark."
+          },
+          {
+            "id": "steal-powder",
+            "text": "Ask gunmaker Prokop Eldris about the stockpile, pass, bribe, or fight through its guards, and take the gunpowder from the chest."
+          },
+          {
+            "id": "ignite-mine",
+            "text": "Give the gunpowder to Goliath, choose I'll wait here with you and I'll do it, stealth-kill Goliath at the mine entrance, return to camp, and throw the gunpowder into the fire."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "50",
+      "displayName": "Hardcore Henry II",
+      "description": "You finished the story in Hardcore mode.",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 60 hours",
+      "estMinutes": 3600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Start a new @mechanic{Hardcore Mode} campaign and complete the full story.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hardcore removes conveniences such as normal autosaves and is best attempted after learning both regions on Standard.",
+        "steps": [
+          {
+            "id": "start-hardcore",
+            "text": "Create a new game with Hardcore Mode enabled and do not change to a lower mode."
+          },
+          {
+            "id": "finish-hardcore",
+            "text": "Complete the main story through Judgement Day and the ending sequence on that Hardcore save."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "51",
+      "displayName": "Against All Odds",
+      "description": "You finished the game in Hardcore mode with all negative perks enabled.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 10,
+      "estTime": "about 70 hours",
+      "estMinutes": 4200,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "50"
+      ],
+      "summary": "Finish the story in @mechanic{Hardcore Mode with every negative perk enabled} from character creation.",
+      "guide": {
+        "kind": "standard",
+        "context": "This run also earns Hardcore Henry II, so enabling all negative perks on the first Hardcore attempt avoids another full playthrough.",
+        "steps": [
+          {
+            "id": "enable-all-perks",
+            "text": "At Hardcore character creation, select every available negative perk and confirm the campaign."
+          },
+          {
+            "id": "survive-run",
+            "text": "Use Saviour Schnapps for manual saves, carry reliable food and alchemy supplies, and complete all 32 main quests without disabling Hardcore."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "52",
+      "displayName": "Flagellum Dei",
+      "description": "You scored 150 points in the mounted archery competition.",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Accumulate @mechanic{150 points} across mounted-archery contests.",
+      "guide": {
+        "kind": "standard",
+        "context": "The score persists across attempts, so the achievement does not require 150 points in one race.",
+        "steps": [
+          {
+            "id": "unlock-contests",
+            "text": "Complete Horses for Courses at the Nomad Camp and speak with Bibrek the Archer afterward."
+          },
+          {
+            "id": "score-points",
+            "text": "Enter mounted-archery contests repeatedly and accumulate 150 total points across completed runs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "53",
+      "displayName": "Boneworks",
+      "description": "You helped the executioner, knacker and ossuary guardian.",
+      "hidden": true,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 4 hours",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Complete @mechanic{Forbidden Fruit, Thou Art But Dust, and The Executioner's Pride} in one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "The three quests help Ignatius, Brother Morticus, and Executioner Heinz respectively; Forbidden Fruit depends on completing Materia Prima in Trosky.",
+        "steps": [
+          {
+            "id": "help-ignatius",
+            "text": "Complete Materia Prima, then finish Forbidden Fruit for Knacker Ignatius at Trosky cemetery."
+          },
+          {
+            "id": "help-morticus",
+            "text": "After Speak of the Devil, complete Thou Art But Dust for Brother Morticus north of Sedletz Monastery."
+          },
+          {
+            "id": "help-heinz",
+            "text": "Ask Innkeeper Mole at The Hole about The Executioner's Pride and complete it for Executioner Heinz outside Kuttenberg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "54",
+      "displayName": "Nothing But the Best",
+      "description": "You gave the painter medicine of the highest quality.",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Brew and give @npc{Voyta} a potion of @mechanic{Henry's quality} during Root of Evil.",
+      "guide": {
+        "kind": "standard",
+        "context": "Henry's quality requires the Secret of Secrets alchemy perk, unlocked at Alchemy level 16.",
+        "steps": [
+          {
+            "id": "unlock-perk",
+            "text": "Reach Alchemy level 16 and take the Secret of Secrets perk before Root of Evil."
+          },
+          {
+            "id": "brew-best",
+            "text": "During Root of Evil, brew Voyta's requested medicine with a flawless procedure until its quality reads Henry's, then hand that potion to Voyta."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "55",
+      "displayName": "Rest in One Piece",
+      "description": "The skull finally reached its final resting place.",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Place @npc{Voyta's skull} in the cleaned grave from God Disposes.",
+      "guide": {
+        "kind": "standard",
+        "context": "The skull is retained only if Henry does not tell Voyta to destroy his final work during Unveiling.",
+        "steps": [
+          {
+            "id": "preserve-skull",
+            "text": "Complete God Disposes and clean the grave; during Unveiling, do not select Then don't finish it. Destroy it."
+          },
+          {
+            "id": "bury-skull",
+            "text": "After receiving Voyta's skull, return to the God Disposes grave and use the interaction to place the skull inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "56",
+      "displayName": "All Fun and Games",
+      "description": "Hopefully now Stihlau understands there are some things you shouldn't joke about.",
+      "hidden": true,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Free @npc{Chrudosh} after obtaining the @item{Mother Mary statuette}, send him away safely, then tell @npc{Stihlau} about him during Unveiling.",
+      "guide": {
+        "kind": "standard",
+        "context": "Freeing Chrudosh before securing the statuette can remove the dialogue chain required for the joke's resolution.",
+        "steps": [
+          {
+            "id": "get-statuette",
+            "text": "During Unveiling, open the Hard chest beside the bandit camp's cooking pot and take the Mother Mary statuette before releasing Chrudosh."
+          },
+          {
+            "id": "question-chrudosh",
+            "text": "Free and follow Chrudosh until he stops, then ask why he stole the statuette, ask about the woman and his captivity, and finish with You should get out of here."
+          },
+          {
+            "id": "tell-stihlau",
+            "text": "Return to Stihlau and choose @mechanic{I met Chrudosh}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "57",
+      "displayName": "Curiosity Killed the Cat",
+      "description": "If you hadn't poked around, Libor wouldn't be swinging.",
+      "hidden": true,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Return the reforged Broken Sword to @npc{Libor}, persuade him to keep it, then inspect his body after his suicide.",
+      "guide": {
+        "kind": "standard",
+        "context": "Man Proposes must remain unfinished while the sword is repaired, and Libor's final outcome appears after several in-game days.",
+        "steps": [
+          {
+            "id": "take-sword",
+            "text": "After The Night-Mare, ask Voyta about his past, start Man Proposes, accept Libor's Broken Sword, and do not finish the quest."
+          },
+          {
+            "id": "return-sword",
+            "text": "Reforge the Broken Sword, return it to Libor, pass the hard Speech check, then say that the sword is his and urge him to face his fears."
+          },
+          {
+            "id": "inspect-libor",
+            "text": "Travel far enough away, wait two or three days, return to Libor's dugout, and inspect his hanging body."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "58",
+      "displayName": "Painted",
+      "description": "Painted, but not paid for.",
+      "hidden": true,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Deface @npc{Voyta's artwork} when the bailiff offers the opportunity during Stained Honour.",
+      "guide": {
+        "kind": "standard",
+        "context": "The vandalism can be saved, completed for the achievement, and then reloaded if the player prefers the other quest outcome.",
+        "steps": [
+          {
+            "id": "accept-defacing",
+            "text": "Accept the bailiff's sabotage proposal during Stained Honour, agreeing to ruin Voyta's artwork."
+          },
+          {
+            "id": "vandalise",
+            "text": "Enter the guarded room and use the deface interaction on the painting."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "59",
+      "displayName": "Confessor",
+      "description": "The painter told you everything.",
+      "hidden": true,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Complete @mechanic{Man Proposes and God Disposes}, then exhaust Voyta's confession dialogue.",
+      "guide": {
+        "kind": "standard",
+        "context": "God Disposes requires examining and cleaning the grave, inspecting the nearby tree, and praying before Voyta will disclose everything.",
+        "steps": [
+          {
+            "id": "unlock-god-disposes",
+            "text": "Complete the Man Proposes branch and question Voyta about Libor, the real Voyta, the dugout, and Burkhard until God Disposes begins."
+          },
+          {
+            "id": "prepare-confession",
+            "text": "At the grave, clean it, inspect the tree, and pray."
+          },
+          {
+            "id": "hear-confession",
+            "text": "Return to Voyta and select every available personal-history dialogue until no confession topics remain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "60",
+      "displayName": "Poet's Gut",
+      "description": "Every strophe is a work of art.",
+      "hidden": true,
+      "globalPercent": 9.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Impress @npc{Kvyetoslava} with the correct poem in Source of Inspiration while meeting the Scholarship and Charisma requirements.",
+      "guide": {
+        "kind": "standard",
+        "context": "The recital is a one-conversation branch after returning Kvyetoslava's dress, so keep a save before the hand-in in case a stanza is answered incorrectly.",
+        "steps": [
+          {
+            "id": "prepare-stats",
+            "text": "Raise Scholarship to 20 and equip enough Charisma gear and effects to reach 19 before finishing Source of Inspiration."
+          },
+          {
+            "id": "recite-poem",
+            "text": "Return the dress and accept the dance. Recite the answers about yearning for more, receiving gifts, being equals, and remembering Veles, in that order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "61",
+      "displayName": "Vengeance Solves Nothing",
+      "description": "You let Burkhard live.",
+      "hidden": true,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Take @item{Killer's helmet} from Burkhard's camp without killing Burkhard, then convince Voyta that Burkhard died.",
+      "guide": {
+        "kind": "standard",
+        "context": "The required lie occurs in Portrait in Red and depends on a successful Speech check.",
+        "steps": [
+          {
+            "id": "steal-helmet",
+            "text": "During Portrait in Red, enter Burkhard's camp at night, remain undetected, take Killer's helmet, and leave Burkhard alive."
+          },
+          {
+            "id": "lie-voyta",
+            "text": "Return to Voyta, choose I've got Burkhard's helmet, then select Yes, he's dead (Lie) and pass the Speech check."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "62",
+      "displayName": "Masterpiece",
+      "description": "You finished Brushes with Death.",
+      "hidden": true,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 10 hours",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete all ten main quests in @mechanic{Brushes with Death}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The DLC ends with Unveiling; other optional achievements require earlier branches and should be completed before its finale.",
+        "steps": [
+          {
+            "id": "finish-brushes",
+            "text": "Complete the Brushes with Death questline from A Sketchy Situation through Unveiling and reach its final resolution."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "63",
+      "displayName": "Bohemian Graffitti",
+      "description": "You painted every type of shield.",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Paint one @item{circular, heater, knight, and pavese shield} after unlocking shield painting.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Maleshov master carpenter sells heater, knight, and pavese shields; circular shields can be looted from shield-bearing Cumans.",
+        "steps": [
+          {
+            "id": "collect-shields",
+            "text": "Obtain one circular, heater, knight, and pavese shield."
+          },
+          {
+            "id": "paint-four",
+            "text": "Use the Brushes with Death shield-painting interface on each of the four shield shapes, choosing any design for each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "64",
+      "displayName": "Bohemians Rise Up!",
+      "description": "You were ahead of your time and created the foundations for the state emblem of Bohemia.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "After Judgement Day and Portrait in Red, paint three knight shields as the historical emblems of @mechanic{Bohemia, Moravia, and Silesia}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This shield-painting cleanup remains available after the Brushes with Death finale, so the three knight shields can be stored until both crest prerequisites are complete.",
+        "steps": [
+          {
+            "id": "paint-bohemia",
+            "text": "For the Bohemian knight shield, set Division to Barry Indented, both colour slots to Gules, category to Historical, and charge to Lion Argent."
+          },
+          {
+            "id": "paint-moravia",
+            "text": "For the Moravian knight shield, set Division to Per Fess, both colours to Azure, category to Historical, and charge to Moravian Eagle."
+          },
+          {
+            "id": "paint-silesia",
+            "text": "For the Silesian knight shield, set Division to Per Fess, both colours to Or, category to Historical, and charge to Eagle Sable."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "65",
+      "displayName": "Martin’s Legacy",
+      "description": "You’ve completed the restoration of the Kuttenberg astronomical clock.",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 10 hours",
+      "estMinutes": 600,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Complete The Last Step and restore the @loc{Kuttenberg astronomical clock}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The clock restoration is the final main quest of Legacy of the Forge.",
+        "steps": [
+          {
+            "id": "restore-clock",
+            "text": "Complete the Legacy of the Forge main quests through The Last Step and finish the astronomical-clock restoration."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "66",
+      "displayName": "Innovator",
+      "description": "You've acquired all the new weapons and armour from your journeymen.",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "about 12 hours",
+      "estMinutes": 720,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Collect all eight journeyman sketches, deliver them, and purchase every new weapon and armour design.",
+      "guide": {
+        "kind": "standard",
+        "context": "Several sketches have one-time quest rewards or hidden chests; missing them leaves only unreliable activity rewards.",
+        "steps": [
+          {
+            "id": "collect-main-sketches",
+            "text": "Take Armourer III from the Klaus' Introduction bandit chest; refuse Bushek's reward to receive Armourer V; obtain Caster I and Armourer II from Ragman's finale."
+          },
+          {
+            "id": "collect-hidden-sketches",
+            "text": "In the Silent Partner cave, loot Armourer I beside Matthias's dagger and Caster II behind the crates; buy Caster III from Raven after his quests; steal Armourer IV from Koniash's camp."
+          },
+          {
+            "id": "commission-all",
+            "text": "Give all eight sketches to the journeymen and spend the required roughly 13,000–15,000 groschen to acquire every resulting weapon and armour item."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "67",
+      "displayName": "Master of the Blacksmiths’ Guild",
+      "description": "You passed the Trial and became a Master blacksmith.",
+      "hidden": false,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Answer every smithing question correctly and forge the trial sword during Adept.",
+      "guide": {
+        "kind": "standard",
+        "context": "The questions are randomized, but the four correct concepts remain Shape, That depends, Straw yellow, and Quenching.",
+        "steps": [
+          {
+            "id": "answer-trial",
+            "text": "During Adept, answer progress with Shape, sparks with That depends, proper heat colour with Straw yellow, and the final step with Quenching."
+          },
+          {
+            "id": "forge-sword",
+            "text": "Complete the trial sword at the anvil without failing the required quality check."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "68",
+      "displayName": "Home Sweet Home!",
+      "description": "You completed the reconstruction of your smithy.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 10 hours",
+      "estMinutes": 600,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Reach forge prestige 15 and purchase every reconstruction upgrade for Henry's smithy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Forge contracts and activities provide the prestige and money needed to unlock all sections.",
+        "steps": [
+          {
+            "id": "raise-prestige",
+            "text": "Complete smithy commissions and guild activities until forge prestige reaches 15."
+          },
+          {
+            "id": "buy-upgrades",
+            "text": "Open the reconstruction interface and purchase every available smithy section and upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "69",
+      "displayName": "Nevermore",
+      "description": "You acquired a clever raven.",
+      "hidden": true,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 6 hours",
+      "estMinutes": 360,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Reach forge prestige 25 and buy the @npc{raven} from the Chamber reconstruction category for 3,500 groschen.",
+      "guide": {
+        "kind": "standard",
+        "context": "The raven is the final high-prestige Chamber purchase rather than a wild animal encounter.",
+        "steps": [
+          {
+            "id": "reach-prestige",
+            "text": "Complete Legacy of the Forge work until prestige reaches 25 and save 3,500 groschen."
+          },
+          {
+            "id": "buy-raven",
+            "text": "Open the forge reconstruction menu, enter Chamber, and purchase the raven."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "70",
+      "displayName": "Racing the Leech",
+      "description": "You won a race against the guard nicknamed Leech.",
+      "hidden": true,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Challenge and defeat the guard @npc{Leech} in the wagered race during Martin's Dream.",
+      "guide": {
+        "kind": "standard",
+        "context": "The race branch appears while solving Fly's troubles and requires staking 500 groschen.",
+        "steps": [
+          {
+            "id": "challenge-leech",
+            "text": "During Martin's Dream, propose a wager to Leech, say Henry prefers racing, and stake 500 groschen."
+          },
+          {
+            "id": "win-race",
+            "text": "Finish the route ahead of Leech."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "71",
+      "displayName": "Two Brothers",
+      "description": "You resolved things with Koniash without a fight.",
+      "hidden": true,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Use the bailiff's letter to make @npc{Koniash} leave Raven alone without fighting or paying him.",
+      "guide": {
+        "kind": "standard",
+        "context": "Speaking to Koniash before investigating Brada removes the evidence-led resolution.",
+        "steps": [
+          {
+            "id": "investigate-brada",
+            "text": "During the last Kuttenberg Sharpshooters activity, finish Raven's other dialogue topics, then ask about the place where Brada was captured; do not visit Koniash yet."
+          },
+          {
+            "id": "get-letter",
+            "text": "Ask Bailiff Andreas Plumel Did you arrest Brada the bandit? and receive the letter."
+          },
+          {
+            "id": "confront-koniash",
+            "text": "Show the evidence to Koniash using I know who turned Brada in! and Leave Raven be; do not pay him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "72",
+      "displayName": "The Ragman’s Dream",
+      "description": "You helped the Ragman save his dream.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Complete Ragman's final thieving contract, buy back the documents, and return them to him.",
+      "guide": {
+        "kind": "standard",
+        "context": "The finale appears after the preceding Sinners of Kuttenberg activities and supplies two Innovator sketches.",
+        "steps": [
+          {
+            "id": "reach-finale",
+            "text": "Complete Ragman's earlier thieving activities until he reports that blackmailers stole his documents."
+          },
+          {
+            "id": "recover-documents",
+            "text": "Meet the blackmailers and pay the 1,000 groschen supplied by Ragman, then locate the Almoner and resolve the remaining dialogue."
+          },
+          {
+            "id": "return-documents",
+            "text": "Bring the recovered documents to Ragman."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "73",
+      "displayName": "Silent Partner",
+      "description": "You handed over the evidence from the underground and no one died.",
+      "hidden": true,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Recover @item{Master Mathias's Dagger} from the underground shaft and return it to Klaus without killing anyone at the site.",
+      "guide": {
+        "kind": "standard",
+        "context": "The peaceful meeting requires supporting Klaus and passing a Very Hard Speech check before entering the cave.",
+        "steps": [
+          {
+            "id": "make-deal",
+            "text": "During Klaus Eichner's final In the Service of the Guild investigation, tell Olbert Klaus should stay as guildmaster, pass I propose a deal, and ask No further conditions?"
+          },
+          {
+            "id": "take-evidence",
+            "text": "At the walled objective southwest of Kuttenberg, enter the left-hand building and descend its ladders. Avoid or knock out the four guards, take the left passage just before the final guard, and pick up Master Mathias's Dagger from the box there."
+          },
+          {
+            "id": "return-proof",
+            "text": "Leave the shaft and hand Master Mathias's Dagger to Klaus without killing anyone in the objective area."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "74",
+      "displayName": "Voice of the Bell",
+      "description": "Thanks to your generosity, Old Kutna gained a new bell.",
+      "hidden": true,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 1 hours",
+      "estMinutes": 75,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Donate @mechanic{2,000 groschen} for Old Kutna's church bell, wait three days, then look at the ringing bell around noon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing The Mouth of Hell in the main game may be required before this donation activity appears.",
+        "steps": [
+          {
+            "id": "donate-bell",
+            "text": "Complete The Mouth of Hell if needed, start Old Kutna's donation activity, and give the priest 2,000 groschen for the bell."
+          },
+          {
+            "id": "watch-bell",
+            "text": "Wait at least three in-game days, visit Old Kutna church between 11:30 and 12:30, and use the Look at the bell prompt when it rings."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "75",
+      "displayName": "Warlock’s Riddle  ",
+      "description": "You cracked the riddle of the lost alchemist.",
+      "hidden": true,
+      "globalPercent": 10.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Solve Master Bushek's lost-alchemist case in the recurring guild-service activity.",
+      "guide": {
+        "kind": "standard",
+        "context": "Refusing Bushek's offered payment at the end also preserves the unique Armourer V sketch for Innovator.",
+        "steps": [
+          {
+            "id": "search-room",
+            "text": "Accept Bushek's Warlock's Riddle investigation and visit the roadside inn west of Kuttenberg. On the upper floor, open and then kick through the second-last room's blocked door; take the Strange Riddle from the shelf on the left."
+          },
+          {
+            "id": "find-cache",
+            "text": "Leave the inn toward the east and climb the small wooded hill across the road. At its unmarked shrine, interact with the ground behind the shrine to recover acidum chloridum, tincal, and cinnabar amalgam."
+          },
+          {
+            "id": "report-riddle",
+            "text": "Return all three ingredients to Bushek and finish the investigation."
+          },
+          {
+            "id": "take-sketch",
+            "text": "When Bushek offers payment, choose @mechanic{I don't want anything} so he gives the materials and Sketch for armourer V."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "76",
+      "displayName": "Fresh Air",
+      "description": "You finished DLC3.",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 8 hours",
+      "estMinutes": 480,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Complete the six main quests of @mechanic{Mysteria Ecclesiae} and leave Sedletz Monastery.",
+      "guide": {
+        "kind": "standard",
+        "context": "The DLC locks Henry inside the monastery for its investigation, so bring Saviour Schnapps, lockpicks, and needed supplies before beginning.",
+        "steps": [
+          {
+            "id": "finish-mysteria",
+            "text": "Complete The Royal Physician, followed by Anamnesis. Continue through Silent Witnesses and Seek and You Shall Find, then finish To Dust You Shan't Return and The Time Has Come, including the final exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "77",
+      "displayName": "Holy Relic",
+      "description": "You found a Holy Relic.",
+      "hidden": true,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "During Seek and You Shall Find, inspect the sarcophagus beside @npc{Boleslav Bavor's grave} and take the @item{True Cross splinter reliquary}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The sarcophagus prompt appears only after Henry examines Bavor's mural on the church's eastern wall and recognizes the matching crest.",
+        "steps": [
+          {
+            "id": "inspect-mural",
+            "text": "On the church's main floor, inspect the third mural from the right beneath the eastern windows; it shows an angel holding Bavor's crest."
+          },
+          {
+            "id": "open-grave",
+            "text": "Enter the graveyard east of the infirmary, using the key hanging in the Drying Rack shed beside the herbalist's house if the Hard door is locked. Clear the bushes from the first grave on the right, take the nearby spade, dig up Bavor, and loot his sword."
+          },
+          {
+            "id": "take-relic",
+            "text": "Face the sarcophagus immediately left of Bavor's grave and use Examine the sarcophagus on its silver cross. Taking the True Cross splinter reliquary unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "78",
+      "displayName": "Better Safe Than Sorry",
+      "description": "You made yourself a plague mask.",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "Complete Prevention by gathering rope, leather, and four mint, then have @npc{Zacharias} make Henry a plague mask.",
+      "guide": {
+        "kind": "standard",
+        "context": "Prevention becomes available after Anamnesis; the mask materials must be gathered inside the locked-down monastery.",
+        "steps": [
+          {
+            "id": "start-prevention",
+            "text": "After Anamnesis, accept Prevention from Zacharias."
+          },
+          {
+            "id": "gather-materials",
+            "text": "Collect one rope, one leather, and four mint within the monastery."
+          },
+          {
+            "id": "make-mask",
+            "text": "Give every material to Zacharias and receive the completed plague mask."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "79",
+      "displayName": "Do Good to All People",
+      "description": "You helped the people of the monastery.",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 3 hours",
+      "estMinutes": 180,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "Help @npc{Maddie, Vincent, and the monastery food workers} before completing Mysteria Ecclesiae.",
+      "guide": {
+        "kind": "standard",
+        "context": "Maddening Pain must be started during Anamnesis before that quest ends; the Vincent and Our Daily Bread tasks become available afterward.",
+        "steps": [
+          {
+            "id": "help-maddie",
+            "text": "During Anamnesis, speak to the woman with stomach pain at the infirmary entrance and promise to ask the infirmary staff. Get Albich's recipe, brew the medicine, and give it to Maddie."
+          },
+          {
+            "id": "help-vincent",
+            "text": "After Anamnesis, find Vincent in the third-from-last monks' cell above the library, identified by untouched food outside. Address him through the door and give him a Chamomile potion. Pass the opening Speech line beginning @mechanic{I'm here on behalf of Albich}; its final word is @mechanic{speak}. Select @mechanic{I sleep quite soundly}; ask @mechanic{This happened to you?} and @mechanic{Has this happened to you before?}; then choose @mechanic{What did the demon look like?}. Pass @mechanic{You can rest easy} at Speech 23, select @mechanic{Let's pray} at Scholarship 21, and finish with @mechanic{Do you feel better now?}."
+          },
+          {
+            "id": "help-food",
+            "text": "Select @mechanic{Can I help you with anything?} when speaking to Zacharias, then accept Our Daily Bread from Denes. Visit Cellarius Julian in the monastery kitchen to the southwest and exhaust his dialogue until he requests his spectacles and mentions the rationing book. Knock down the magpie nest in the cloister garden, return Julian's spectacles, and ask about stretching the rations to receive the Sack of supplies. Read Crayfish the Poor Man's Salmon in the library, collect eight crayfish from the three connected hatchery ponds on the monastery's western grounds, then give Denes the Sack of supplies, book, and crayfish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "80",
+      "displayName": "Feline Affection",
+      "description": "You repeatedly interacted with a cat. Aren't you worried Mutt will know?",
+      "hidden": true,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "Use @mechanic{Kitty kitty} on the library cat during three different Mysteria Ecclesiae main quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "The cat grants credit only once in each eligible quest. Opportunities occur in The Time Has Come, Anamnesis, To Dust You Shan't Return, Silent Witnesses, and Seek and You Shall Find.",
+        "steps": [
+          {
+            "id": "find-cat",
+            "text": "During an eligible main quest, locate the cat atop the back-left bookshelf in the monastery library and select Kitty kitty."
+          },
+          {
+            "id": "repeat-quests",
+            "text": "Return during two later eligible main quests and use Kitty kitty once in each, for three credited interactions total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "81",
+      "displayName": "Survivor",
+      "description": "You listened to all of Brother Vojta's jokes... and survived.",
+      "hidden": true,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "During Anamnesis, repeatedly ask @npc{Brother Vojta} to tell another joke until the achievement unlocks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Vojta is encountered in the monastery cellar and the joke chain is available only during that conversation window.",
+        "steps": [
+          {
+            "id": "hear-jokes",
+            "text": "Find Brother Vojta in the cellar during Anamnesis, exhaust his normal dialogue, then select Tell me another joke repeatedly until he has no new joke and the achievement appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "82",
+      "displayName": "Stop Licking That!",
+      "description": "You tasted flour... from the hair of a dead person.",
+      "hidden": true,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "During To Dust You Shan't Return, inspect the younger corpse's head and @mechanic{taste the flour in its hair}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Attacking or knocking out the nearby guard can break the later investigation, so use the intended examination interaction.",
+        "steps": [
+          {
+            "id": "taste-hair",
+            "text": "When examining the recovered bodies, choose Examine the head, Inspect the hair, and Taste it on the younger body."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "83",
+      "displayName": "Ostraconophobia",
+      "description": "You were nipped to death by crayfish.",
+      "hidden": true,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "Unlock crayfish during Our Daily Bread, reduce Henry to very low health, and let a @enemy{crayfish} kill him.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crayfish do not spawn for this task until Henry reads the monastery-library book about them.",
+        "steps": [
+          {
+            "id": "unlock-crayfish",
+            "text": "Start Our Daily Bread and read the crayfish book in the monastery library."
+          },
+          {
+            "id": "lower-health",
+            "text": "Reduce Henry to roughly 5–10 HP through controlled fall damage or poison and save before approaching the water."
+          },
+          {
+            "id": "die-to-crayfish",
+            "text": "Find a spawned crayfish in the task area and repeatedly pick it up or provoke it until its nip delivers the killing blow."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "84",
+      "displayName": "Quiet as a Church Mouse",
+      "description": "The knights never had to escort you to the infirmary.",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "about 8 hours",
+      "estMinutes": 480,
+      "stage": 8,
+      "confidence": "verified",
+      "lockoutStage": 8,
+      "summary": "Finish Mysteria Ecclesiae without any patrolling knight catching Henry or escorting him to the infirmary for misconduct.",
+      "guide": {
+        "kind": "standard",
+        "context": "The single mandatory story escort does not fail the achievement; arrests, theft detection, and guard takedowns can compromise the final state.",
+        "steps": [
+          {
+            "id": "remain-undetected",
+            "text": "Throughout every monastery quest, avoid restricted-area detection, theft accusations, arrests, and combat with patrolling knights; reload immediately after any non-scripted escort."
+          },
+          {
+            "id": "finish-cleanly",
+            "text": "Complete The Time Has Come and leave the monastery without any knight having escorted Henry to the infirmary outside the mandatory story scene."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "1",
+    "27",
+    "2",
+    "41",
+    "31",
+    "8",
+    "12",
+    "9",
+    "42",
+    "29",
+    "47",
+    "33",
+    "15",
+    "11",
+    "17",
+    "16",
+    "38",
+    "5",
+    "30",
+    "34",
+    "18",
+    "36",
+    "48",
+    "53",
+    "32",
+    "14",
+    "13",
+    "39",
+    "43",
+    "44",
+    "4",
+    "3",
+    "37",
+    "23",
+    "19",
+    "26",
+    "24",
+    "10",
+    "25",
+    "35",
+    "6",
+    "7",
+    "40",
+    "21",
+    "45",
+    "52",
+    "46",
+    "20",
+    "22",
+    "28",
+    "50",
+    "51",
+    "58",
+    "55",
+    "56",
+    "59",
+    "54",
+    "61",
+    "64",
+    "57",
+    "60",
+    "63",
+    "62",
+    "67",
+    "70",
+    "75",
+    "72",
+    "71",
+    "73",
+    "66",
+    "74",
+    "69",
+    "65",
+    "68",
+    "81",
+    "77",
+    "82",
+    "78",
+    "80",
+    "83",
+    "79",
+    "84",
+    "76"
+  ]
+}

@@ -1,0 +1,2250 @@
+{
+  "game": {
+    "appid": 1145350,
+    "slug": "hades-ii",
+    "title": "Hades II",
+    "version": "1.0",
+    "lastPatchChecked": "2026-06-10",
+    "estTotalHours": 80,
+    "difficultyRating": 7,
+    "minPlaythroughs": 80,
+    "createdAt": "2026-07-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Open both routes and build the Crossroads",
+      "description": "Push through the first three regions of each route while unlocking social facilities, Arcana, arms, and early combat-specific achievements.",
+      "achievementRefs": [
+        "AchClearErebus",
+        "AchClearOceanus",
+        "AchClearFields",
+        "AchClearEphyra",
+        "AchClearThessaly",
+        "AchClearOlympus",
+        "AchBathHouse",
+        "AchFishingPier",
+        "AchMaxMem",
+        "AchAllArcana",
+        "AchAllWeapons",
+        "AchConfideFrinos",
+        "AchKillWitchAsSheep",
+        "AchSummonSiren"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Clear both final Guardians and unlock endgame systems",
+      "description": "Defeat Chronos and Typhon, expand the Cauldron, Oath, familiars, Chaos Trials, fishing, and the first Fear thresholds while continuing every relationship.",
+      "achievementRefs": [
+        "AchClearTartarus",
+        "AchClearSummit",
+        "AchCauldronSpells1",
+        "AchTaverna",
+        "AchAllFamiliars",
+        "AchEarnPrestige1",
+        "AchBounties1",
+        "AchBeatHecateNoArcana",
+        "AchCatchFish",
+        "AchNemesisCombat",
+        "AchTartarusInDress",
+        "AchEarnStatue1"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish the True Ending and long-form prophecies",
+      "description": "Rotate weapons, aspects, Arcana, and Fear across full clears; resolve character stories, max collections, and complete the True Ending before postgame cleanup.",
+      "achievementRefs": [
+        "AchForgeBonds",
+        "AchProphecies1",
+        "AchAllArcanaMax",
+        "AchAllAspects",
+        "AchAllFamiliarsMax",
+        "AchAllKeepsakes",
+        "AchAllRandomStreak",
+        "AchAllRandomUnderworld",
+        "AchHelpOdysseus",
+        "AchHelpDora",
+        "AchHelpHypnos",
+        "AchHelpArachne",
+        "AchHelpNarcissusAndEcho",
+        "AchBeatRivalsVow1",
+        "AchBeatTyphonWithWeapons",
+        "AchBeatChronosWithArcana",
+        "AchClearWithAllAspects",
+        "AchClearChaosQuest",
+        "AchFamiliarCostumes",
+        "AchEarnStatue2",
+        "AchWinSecretContest",
+        "AchTrueEnding"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Find the Fates and finish the achievement set",
+      "description": "Complete the epilogue's consecutive Engraved Pin test, then collect the automatic meta-achievement after every other requirement is done.",
+      "achievementRefs": [
+        "AchEpilogue",
+        "AchAllOtherAch"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "AchClearErebus",
+      "displayName": "Witch of the Woods",
+      "description": "Clear Erebus",
+      "hidden": false,
+      "globalPercent": 66.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–4 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Hecate} to clear @loc{Erebus} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through @loc{Erebus} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Hecate} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearOceanus",
+      "displayName": "Witch of the Depths",
+      "description": "Clear Oceanus",
+      "hidden": false,
+      "globalPercent": 60.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2–8 hr",
+      "estMinutes": 240,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearErebus"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Scylla and the Sirens} to clear @loc{Oceanus} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through @loc{Oceanus} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Scylla and the Sirens} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearFields",
+      "displayName": "Witch of the Plains",
+      "description": "Clear the Fields of Mourning",
+      "hidden": false,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "4–12 hr",
+      "estMinutes": 420,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearOceanus"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Cerberus} to clear the @loc{Fields of Mourning} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through the @loc{Fields of Mourning} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Cerberus} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearTartarus",
+      "displayName": "Witch of the Abyss",
+      "description": "Clear Tartarus",
+      "hidden": false,
+      "globalPercent": 45.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "8–25 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearFields"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Chronos} to clear @loc{Tartarus} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through @loc{Tartarus} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Chronos} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearEphyra",
+      "displayName": "Witch of the Outskirts",
+      "description": "Clear the City of Ephyra",
+      "hidden": false,
+      "globalPercent": 50.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3–10 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearErebus"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Polyphemus} to clear the @loc{City of Ephyra} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through the @loc{City of Ephyra} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Polyphemus} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearThessaly",
+      "displayName": "Witch of the Waters",
+      "description": "Clear the Rift of Thessaly",
+      "hidden": false,
+      "globalPercent": 46.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5–15 hr",
+      "estMinutes": 480,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearEphyra"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Eris} to clear the @loc{Rift of Thessaly} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through the @loc{Rift of Thessaly} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Eris} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearOlympus",
+      "displayName": "Witch of the Mountains",
+      "description": "Clear Mount Olympus",
+      "hidden": false,
+      "globalPercent": 41.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "8–20 hr",
+      "estMinutes": 720,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearThessaly"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Prometheus} to clear @loc{Mount Olympus} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through @loc{Mount Olympus} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Prometheus} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearSummit",
+      "displayName": "Witch of the Clouds",
+      "description": "Clear the Summit",
+      "hidden": false,
+      "globalPercent": 35.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "12–30 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearOlympus"
+      ],
+      "group": "route-clears",
+      "summary": "Defeat @enemy{Typhon} to clear the @loc{Summit} on a single route attempt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Region-clear achievements register when the Guardian falls; the run may end later without removing credit.",
+        "steps": [
+          {
+            "id": "reach-guardian",
+            "text": "Follow the route through the @loc{Summit} until the Guardian chamber opens."
+          },
+          {
+            "id": "defeat-guardian",
+            "text": "Defeat @enemy{Typhon} and leave the completed Guardian encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchCauldronSpells1",
+      "displayName": "So Mote It Be",
+      "description": "Cast 50 Incantations at the Crossroads Cauldron",
+      "hidden": false,
+      "globalPercent": 41.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20–45 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Cast any @mechanic{50 distinct or repeatable Incantations} at the @loc{Crossroads Cauldron} across the save.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hecate unlocks the Cauldron early, and new recipes arrive through dialogue, region progress, and completed prophecies.",
+        "steps": [
+          {
+            "id": "unlock-cauldron",
+            "text": "Advance Hecate's early Crossroads dialogue until the Cauldron becomes usable."
+          },
+          {
+            "id": "gather-reagents",
+            "text": "Gather the reagents named on available Incantation recipes during Underworld and Surface runs."
+          },
+          {
+            "id": "cast-fifty",
+            "text": "Brew available Incantations at the Cauldron until the lifetime counter reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBathHouse",
+      "displayName": "Soothing Soak",
+      "description": "Take one of your comrades to the Hot Springs",
+      "hidden": false,
+      "globalPercent": 46.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3–12 hr",
+      "estMinutes": 240,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "relationships",
+      "summary": "Cast @mechanic{Rite of Vapor-Cleansing}, raise @npc{Hecate's affinity}, then give her @item{Bath Salts} and complete the Hot Springs scene.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gift availability depends on affinity; Hecate is one of the earliest characters who can accept Bath Salts.",
+        "steps": [
+          {
+            "id": "build-springs",
+            "text": "Cast `Rite of Vapor-Cleansing` at the Crossroads Cauldron to restore the Hot Springs and receive Bath Salts."
+          },
+          {
+            "id": "raise-affinity",
+            "text": "Give Nectar and speak with Hecate or another Crossroads resident until the Book of Shadows shows that Bath Salts are accepted."
+          },
+          {
+            "id": "invite-springs",
+            "text": "Offer Bath Salts to the eligible comrade and finish the Hot Springs event."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchFishingPier",
+      "displayName": "Catch of the Night",
+      "description": "Take one of your comrades to the Fishing Pier",
+      "hidden": false,
+      "globalPercent": 35.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4–15 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "relationships",
+      "summary": "Cast @mechanic{Rite of River-Fording}, raise @npc{Dora's affinity}, then give her @item{Twin Lures} and complete the Fishing Pier scene.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Book of Shadows records which companions have enough affinity to accept Twin Lures; Dora is an early option.",
+        "steps": [
+          {
+            "id": "build-pier",
+            "text": "Cast `Rite of River-Fording` at the Crossroads Cauldron to restore the Fishing Pier and receive Twin Lures."
+          },
+          {
+            "id": "raise-pier-affinity",
+            "text": "Raise Dora's affinity, or that of another Crossroads comrade, until Twin Lures appear as an accepted gift."
+          },
+          {
+            "id": "invite-pier",
+            "text": "Offer Twin Lures to that comrade and finish the Fishing Pier event."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchTaverna",
+      "displayName": "Ambrosia for Two",
+      "description": "Take one of your comrades to the Taverna",
+      "hidden": false,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8–25 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "relationships",
+      "summary": "Cast @mechanic{Rite of Social Solidarity}, raise @npc{Odysseus's affinity}, then give him @item{Ambrosia} and complete the Taverna scene.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ambrosia is accepted later in most affinity tracks than Nectar; Odysseus is among the earliest available invitees.",
+        "steps": [
+          {
+            "id": "build-taverna",
+            "text": "Cast `Rite of Social Solidarity` at the Crossroads Cauldron to restore the Taverna."
+          },
+          {
+            "id": "raise-taverna-affinity",
+            "text": "Keep gifting Nectar and talking to Odysseus or another eligible Crossroads comrade until Ambrosia is accepted."
+          },
+          {
+            "id": "invite-taverna",
+            "text": "Offer Ambrosia to the eligible comrade and finish the Taverna event."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchForgeBonds",
+      "displayName": "Close Comrades",
+      "description": "Forge a bond with 10 comrades",
+      "hidden": false,
+      "globalPercent": 11.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45–80 hr",
+      "estMinutes": 2700,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "relationships",
+      "summary": "Raise affinity and resolve locked-heart requirements until @mechanic{10 different characters display a forged bond} in the Book of Shadows.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nectar starts each relationship, while later hearts can require Bath Salts, Twin Lures, Ambrosia, dialogue, or a character prophecy; gifts cannot be repeated to the same person on one night.",
+        "steps": [
+          {
+            "id": "gift-broadly",
+            "text": "Gift Nectar to every recurring character and speak with them whenever they appear."
+          },
+          {
+            "id": "check-hearts",
+            "text": "Cast `Empath's Intuition`, then use the Book of Shadows to identify ten characters whose locked-heart conditions are close to completion."
+          },
+          {
+            "id": "resolve-bonds",
+            "text": "Complete the required social events or prophecies and continue gifting until ten affinity entries show a forged bond."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchProphecies1",
+      "displayName": "Hand of the Fates",
+      "description": "Fulfill 60 Minor Prophecies",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "60–90 hr",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Cast @mechanic{Fated Intervention}, receive the Fated List from Moros, fulfill @mechanic{60 Minor Prophecies}, and claim their rewards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Fated List contains 89 prophecies whose counters often track before their entries are revealed, so weapon, Boon, story, and collection goals can overlap.",
+        "steps": [
+          {
+            "id": "obtain-list",
+            "text": "Cast `Fated Intervention`, complete another run, and speak with Moros when he delivers the Fated List at the Crossroads."
+          },
+          {
+            "id": "complete-prophecies",
+            "text": "Inspect unchecked requirements between runs and combine compatible weapon, route, relationship, Boon, and Oath objectives."
+          },
+          {
+            "id": "claim-sixty",
+            "text": "Return to the Fated List and claim completed entries until 60 prophecies have been fulfilled."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchMaxMem",
+      "displayName": "Mind for Magick",
+      "description": "Gain 30 Grasp at the Altar of Ashes",
+      "hidden": false,
+      "globalPercent": 32.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8–25 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "arcana",
+      "summary": "Spend @item{Psyche} at the @loc{Altar of Ashes} until Melinoë has @mechanic{30 Grasp}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Psyche comes from Lost Shades, the Wretched Broker, and other rewards; Frinos or the Tablet of Peace makes Lost Shade collection easier.",
+        "steps": [
+          {
+            "id": "collect-psyche",
+            "text": "Collect Psyche from route rewards, pacified Lost Shades, Frinos, or the Wretched Broker."
+          },
+          {
+            "id": "raise-grasp",
+            "text": "Interact with Melinoë's portrait at the Altar of Ashes and spend each requested Psyche amount until Grasp reaches 30."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllArcana",
+      "displayName": "Breadth of Knowledge",
+      "description": "Fulfill the Prophecy 'Breadth of Knowledge'",
+      "hidden": false,
+      "globalPercent": 37.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–35 hr",
+      "estMinutes": 900,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "arcana",
+      "summary": "Spend Ashes and the listed Guardian reagents at the @loc{Altar of Ashes} to unlock all @mechanic{25 Arcana Cards}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlocking cards reveals adjacent cards on the Altar; some late cards require rewards from both the Underworld and Surface routes.",
+        "steps": [
+          {
+            "id": "reveal-cards",
+            "text": "Spend Ashes on available Arcana Cards so every adjacent position on the five-by-five Altar is revealed."
+          },
+          {
+            "id": "collect-card-costs",
+            "text": "Defeat route Guardians and gather the special reagents shown on locked late-game cards."
+          },
+          {
+            "id": "unlock-twenty-five",
+            "text": "Purchase every remaining card until all 25 Arcana Cards are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllArcanaMax",
+      "displayName": "Unassailable Insight",
+      "description": "Fully upgrade all Arcana",
+      "hidden": false,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "50–80 hr",
+      "estMinutes": 3000,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllArcana"
+      ],
+      "group": "arcana",
+      "summary": "Cast @mechanic{Consecration of Ashes}, then spend @item{Moon Dust} and each listed reagent to upgrade all @mechanic{25 Arcana Cards to maximum rank}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Moon Dust can be crafted, bought from the Wretched Broker, or requested with Obol Points; the last ranks also consume rare route materials.",
+        "steps": [
+          {
+            "id": "enable-upgrades",
+            "text": "Cast `Consecration of Ashes` at the Cauldron to add Arcana rank upgrades to the Altar of Ashes."
+          },
+          {
+            "id": "stock-moon-dust",
+            "text": "Craft or buy Moon Dust and retain the special materials shown on each card's upgrade screen."
+          },
+          {
+            "id": "max-cards",
+            "text": "Purchase every displayed rank for all 25 Arcana Cards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllWeapons",
+      "displayName": "The Arms of Night",
+      "description": "Fulfill the Prophecy 'The Arms of Night'",
+      "hidden": false,
+      "globalPercent": 45.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "8–25 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "weapons",
+      "summary": "Spend the requested materials at the @loc{Silver Pool} to unlock all six arms: @item{Black Coat, Argent Skull, Moonstone Axe, Umbral Flames, Sister Blades, and Witch's Staff}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Arms of Night prophecy appears after four arms are available; the Black Coat is the final Surface-gated arm and does not count toward that reveal threshold.",
+        "steps": [
+          {
+            "id": "gather-arm-costs",
+            "text": "Collect Silver, Cinder, Bronze, Glassrock, and the other materials displayed on locked weapons at the Silver Pool."
+          },
+          {
+            "id": "unlock-six-arms",
+            "text": "Purchase all six Nocturnal Arms at the Silver Pool, including the Surface-gated Black Coat."
+          },
+          {
+            "id": "claim-arms",
+            "text": "Open the Fated List and claim `The Arms of Night` if the prophecy reward does not trigger immediately."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllAspects",
+      "displayName": "The Unseen Sentinel",
+      "description": "Fulfill the Prophecy 'The Unseen Sentinel'",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "55–90 hr",
+      "estMinutes": 3300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllWeapons"
+      ],
+      "group": "weapons",
+      "summary": "Cast @mechanic{Aspects of Night and Darkness}, unlock every regular aspect, obtain all six waking phrases, and purchase all @mechanic{24 Nocturnal Arm aspects}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A hidden waking phrase requires all three listed aspects for that arm and one non-Melinoë aspect at maximum rank; the phrase giver is tied to that weapon.",
+        "steps": [
+          {
+            "id": "unlock-aspect-menu",
+            "text": "Unlock all six arms and cast `Aspects of Night and Darkness` to expose the second and third aspects for each weapon."
+          },
+          {
+            "id": "prepare-hidden-aspects",
+            "text": "For each arm, buy its three visible aspects and fully upgrade either visible non-Melinoë aspect."
+          },
+          {
+            "id": "receive-phrases",
+            "text": "Receive the Staff phrase from Circe, Blades from Artemis, Flames from Moros, Axe from Charon, Skull from Medea, and Coat from Selene."
+          },
+          {
+            "id": "purchase-hidden",
+            "text": "Return to each weapon at the Silver Pool after hearing its phrase and buy the revealed hidden aspect, completing all 24 aspects."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchConfideFrinos",
+      "displayName": "Familiar Confidant",
+      "description": "Fulfill the Prophecy 'Familiar Confidant'",
+      "hidden": false,
+      "globalPercent": 36.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "6 runs",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "familiars",
+      "summary": "Return from @mechanic{six different Underworld, Surface, or Chaos Trial outings} and use the Confide prompt on @npc{Frinos} after each one.",
+      "guide": {
+        "kind": "standard",
+        "context": "The route must advance through six distinct outings; ordinary repeated Crossroads conversations alone do not satisfy the prophecy.",
+        "steps": [
+          {
+            "id": "start-confiding",
+            "text": "Speak with Frinos beside Melinoë's tent after returning from a run and choose the Confide interaction when it appears."
+          },
+          {
+            "id": "vary-outings",
+            "text": "Complete different Underworld, Surface, or Chaos Trial outings, returning to Frinos after each one."
+          },
+          {
+            "id": "sixth-confide",
+            "text": "Use Confide after the sixth qualifying outing and claim `Familiar Confidant` from the Fated List."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllFamiliars",
+      "displayName": "Animal Whisperer",
+      "description": "Recruit all Animal Familiars",
+      "hidden": false,
+      "globalPercent": 24.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–45 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "familiars",
+      "summary": "Cast @mechanic{Faith of Familiar Spirits}, then give @item{Witch's Delight} to recruit @npc{Frinos, Raki, Toula, Hecuba, and Gale}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each candidate appears at a fixed type of location, but later familiars require story and dialogue progress before they accept Witch's Delight.",
+        "steps": [
+          {
+            "id": "enable-familiars",
+            "text": "Receive and cast `Faith of Familiar Spirits`, then brew enough Witch's Delight at the Crossroads Cauldron."
+          },
+          {
+            "id": "recruit-early",
+            "text": "Recruit Frinos beside Melinoë's tent, Raki in an Erebus fountain room, and Toula at the docks before the Rift of Thessaly."
+          },
+          {
+            "id": "recruit-late",
+            "text": "Recruit Hecuba in Echo's Fields of Mourning chamber and Gale in the last Mount Olympus Charon shop before Prometheus."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllFamiliarsMax",
+      "displayName": "Beast Master",
+      "description": "Fully upgrade all Animal Familiars",
+      "hidden": false,
+      "globalPercent": 8.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45–75 hr",
+      "estMinutes": 2700,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllFamiliars"
+      ],
+      "group": "familiars",
+      "summary": "Give @item{45 Witch's Delight} at the Silver Pool to raise all three skills of @npc{Frinos, Raki, Toula, Hecuba, and Gale} to @mechanic{Rank III}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every familiar has three upgrade tracks with three ranks, so each familiar consumes nine Witch's Delight after recruitment.",
+        "steps": [
+          {
+            "id": "brew-delights",
+            "text": "Brew Witch's Delight at the Cauldron and collect additional portions from familiar Incantations or high-Fear Bounties."
+          },
+          {
+            "id": "upgrade-tracks",
+            "text": "Interact with each recruited familiar at the Silver Pool and spend Witch's Delight on all three skill tracks."
+          },
+          {
+            "id": "max-five",
+            "text": "Raise every skill on all five familiars to Rank III."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchEarnPrestige1",
+      "displayName": "Giving Back",
+      "description": "Earn 10,000 Kudos",
+      "hidden": false,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35–70 hr",
+      "estMinutes": 2100,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Cast @mechanic{Earthly Fortune}, then trade resources to the @npc{Wretched Broker} until the save has earned @mechanic{10,000 cumulative Kudos}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The milestone counts Kudos earned rather than the amount currently unspent; spare Rubbish, Gemstones, Psyche, and Ashes can be converted after their progression uses are covered.",
+        "steps": [
+          {
+            "id": "unlock-kudos",
+            "text": "Cast `Earthly Fortune` so the Wretched Broker begins offering resource exchanges for Kudos."
+          },
+          {
+            "id": "preserve-needs",
+            "text": "Reserve materials still required for Arcana, arms, Incantations, familiars, and keepsakes."
+          },
+          {
+            "id": "trade-ten-thousand",
+            "text": "Use the Broker's remaining exchanges across visits until cumulative Kudos earned reaches 10,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllKeepsakes",
+      "displayName": "Sentimental Value",
+      "description": "Collect every Keepsake",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "55–85 hr",
+      "estMinutes": 3300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchTrueEnding"
+      ],
+      "group": "keepsakes",
+      "summary": "Collect all @mechanic{33 Keepsakes}, including the post-ending Keepsakes from @npc{Hades and Persephone, Chronos, and Zagreus}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most characters give a Keepsake for their first Nectar, but the final three sources only become giftable or challengeable after the True Ending.",
+        "steps": [
+          {
+            "id": "gift-crossroads",
+            "text": "Give Nectar to the Crossroads residents, Charon, Circe, Medea, Selene, Icarus, Eris, and every Olympian whose Boon or encounter appears."
+          },
+          {
+            "id": "gift-route-characters",
+            "text": "Give Nectar to Artemis, Athena, Dionysus, Arachne, Narcissus, Echo, Heracles, and Chaos in their route encounters."
+          },
+          {
+            "id": "collect-postgame",
+            "text": "After the True Ending, gift Hades and Persephone in Tartarus, gift Chronos between Erebus and Oceanus, and defeat Zagreus in the Contest of Champions twice for his Keepsake."
+          },
+          {
+            "id": "verify-thirty-three",
+            "text": "Inspect the Keepsake cabinet and fill every one of its 33 slots."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBounties1",
+      "displayName": "Infinite Possibility",
+      "description": "Clear 20 Chaos Trials",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "25–55 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "chaos-trials",
+      "summary": "Unlock the @loc{Pitch-Black Stone} with @mechanic{Abyssal Insight} and successfully clear @mechanic{20 different Chaos Trials}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chaos Trials use fixed regions and prebuilt loadouts; additional trials reveal as weapon aspects, Arcana, keepsakes, familiars, and routes become available.",
+        "steps": [
+          {
+            "id": "unlock-stone",
+            "text": "Enter Chaos Gates, gift Chaos at least one Nectar, receive `Abyssal Insight`, and cast it to activate the Pitch-Black Stone."
+          },
+          {
+            "id": "expand-trials",
+            "text": "Continue unlocking arms, aspects, Arcana, keepsakes, familiars, and regions so more named Chaos Trials appear."
+          },
+          {
+            "id": "clear-twenty",
+            "text": "Select uncleared trials at the Pitch-Black Stone and satisfy each trial's stated region objective until 20 victories are recorded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllRandomStreak",
+      "displayName": "Improbable Outcomes",
+      "description": "Fulfill the Prophecy 'Improbable Outcomes'",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "60–90 hr",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllAspects",
+        "AchAllKeepsakes",
+        "AchAllFamiliars",
+        "AchMaxMem"
+      ],
+      "group": "chaos-trials",
+      "summary": "Clear any combination of @mechanic{Chaos Above and Chaos Below} all-random Trials @mechanic{twice consecutively without a failed run between them}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The random trials require 30 Grasp, ten clears of each full route, all 24 aspects, all 33 keepsakes, and all five familiars before they appear.",
+        "steps": [
+          {
+            "id": "unlock-random-trials",
+            "text": "Meet the listed collection and route-clear requirements, gift Chaos at least six Nectar, and verify that Chaos Above and Chaos Below are available."
+          },
+          {
+            "id": "win-first-random",
+            "text": "Start either zero-Fear all-random trial and clear its entire assigned route."
+          },
+          {
+            "id": "win-second-random",
+            "text": "Without starting or failing any other outing, clear Chaos Above or Chaos Below again to record the back-to-back victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllRandomUnderworld",
+      "displayName": "Chaos in Hell",
+      "description": "Clear the 'Great Chaos Below' Trial",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "60–90 hr",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "AchBounties1"
+      ],
+      "group": "chaos-trials",
+      "summary": "Clear the @mechanic{Great Chaos Below} Trial: a full Underworld route with a randomized loadout and @mechanic{20 randomized Fear}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The cited sources confirm the randomized loadout, 20 Fear, and full Underworld objective, but do not establish the exact reveal trigger; treat its appearance as an unverified postgame gate.",
+        "steps": [
+          {
+            "id": "find-great-below",
+            "text": "Check the Pitch-Black Stone after further Chaos Trial and postgame progress; begin only when `Great Chaos Below` is actually listed."
+          },
+          {
+            "id": "audit-roll",
+            "text": "Begin the trial and assess the randomized weapon, Arcana, familiar, keepsakes, and 20-Fear Vows before committing to the run."
+          },
+          {
+            "id": "clear-underworld",
+            "text": "Defeat Hecate, Scylla and the Sirens, Cerberus, and Chronos in that Great Chaos Below attempt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBeatHecateNoArcana",
+      "displayName": "Natural Talent",
+      "description": "Fulfill the Prophecy 'Natural Talent'",
+      "hidden": false,
+      "globalPercent": 30.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20–45 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearErebus"
+      ],
+      "group": "challenge-runs",
+      "summary": "After the prophecy appears, defeat @enemy{Hecate} with @mechanic{zero Arcana Cards active}, either in a normal Erebus run or the Trial of Humility.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural Talent reveals after at least 18 Grasp, eight Hecate defeats, and completion of Witch of the Crossroads; weapon and familiar upgrades remain allowed.",
+        "steps": [
+          {
+            "id": "reveal-natural-talent",
+            "text": "Reach 18 Grasp, defeat Hecate at least eight times, complete `Witch of the Crossroads`, and inspect the revealed prophecy."
+          },
+          {
+            "id": "remove-arcana",
+            "text": "At the Altar of Ashes, deactivate every card so the Grasp display reads 0 used, or select the Arcana-free Trial of Humility."
+          },
+          {
+            "id": "beat-hecate-empty",
+            "text": "Reach the end of Erebus and defeat Hecate without activating an Arcana Card."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchHelpOdysseus",
+      "displayName": "Unfinished Business",
+      "description": "Fulfill the Prophecy 'Unfinished Business'",
+      "hidden": false,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "post-ending",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchTrueEnding"
+      ],
+      "group": "character-prophecies",
+      "summary": "After the True Ending and @mechanic{10 affinity hearts with Odysseus}, equip @item{Knuckle Bones} to encounter @npc{Scylla, Polyphemus, and Circe}, then report to Odysseus.",
+      "guide": {
+        "kind": "standard",
+        "context": "The prerequisite dialogue asks Melinoë to visit Odysseus's old acquaintances; merely meeting the three characters before that request does not complete the prophecy.",
+        "steps": [
+          {
+            "id": "prepare-odysseus",
+            "text": "Reach the True Ending, raise Odysseus to at least 10 hearts, and exhaust his Crossroads dialogue until he asks for the Keepsake visits."
+          },
+          {
+            "id": "carry-knuckle-bones",
+            "text": "Equip Odysseus's Knuckle Bones before runs and encounter Scylla in Oceanus, Polyphemus in Ephyra, and Circe in the Rift of Thessaly while it remains equipped."
+          },
+          {
+            "id": "report-odysseus",
+            "text": "Return to the Crossroads and speak with Odysseus to fulfill `Unfinished Business`."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchHelpDora",
+      "displayName": "Haunted by the Past",
+      "description": "Fulfill the Prophecy 'Haunted by the Past'",
+      "hidden": false,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35–70 hr",
+      "estMinutes": 2100,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearOlympus"
+      ],
+      "group": "character-prophecies",
+      "summary": "Raise @npc{Dora} to @mechanic{10 affinity hearts}, cast @mechanic{Return of Latent Memories}, then speak with Dora after she returns to the Crossroads.",
+      "guide": {
+        "kind": "standard",
+        "context": "Prometheus encounters and later Dora dialogue expose her forgotten identity before Hecate provides the memory-restoration Incantation.",
+        "steps": [
+          {
+            "id": "bond-dora",
+            "text": "Give Dora gifts and speak with her beside Melinoë's tent until she reaches at least 10 hearts."
+          },
+          {
+            "id": "discuss-past",
+            "text": "Defeat Prometheus repeatedly and speak with Dora after runs until her past and the required Incantation enter the dialogue chain."
+          },
+          {
+            "id": "restore-memories",
+            "text": "Cast `Return of Latent Memories`, complete another outing, and speak with Dora after she reappears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchHelpHypnos",
+      "displayName": "Soundest of Sleepers",
+      "description": "Fulfill the Prophecy 'Soundest of Sleepers'",
+      "hidden": false,
+      "globalPercent": 15.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "post-ending",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchTrueEnding"
+      ],
+      "group": "character-prophecies",
+      "summary": "Give @npc{Hypnos} two Nectar and all @item{three Dream Vapors}; obtain @item{Soot} from Hades after the True Ending to brew the final vapor and wake Hypnos.",
+      "guide": {
+        "kind": "standard",
+        "context": "Medea supplies the later sleep Incantations through repeated Ephyra visits, while Soot is unavailable until Hades and Persephone return to Tartarus.",
+        "steps": [
+          {
+            "id": "start-hypnos",
+            "text": "On separate nights, give Hypnos two Nectar, harvest a Poppy seed from Tartarus, cast `End to Deepest Slumber`, and give him the first Dream Vapor."
+          },
+          {
+            "id": "medea-vapors",
+            "text": "Visit Medea in Ephyra until she reveals `End to Dearest Slumber`; cast it, deliver its Dream Vapor, then visit Medea again for `End to Dumbest Slumber`."
+          },
+          {
+            "id": "obtain-soot",
+            "text": "After the True Ending, find Hades with Persephone in Tartarus, gift him Nectar, and receive Soot."
+          },
+          {
+            "id": "wake-hypnos",
+            "text": "Use Soot in `End to Dumbest Slumber`, give the final Dream Vapor to Hypnos, and finish his waking scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchHelpArachne",
+      "displayName": "Silk and Spitefulness",
+      "description": "Fulfill the Prophecy 'Silk and Spitefulness'",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35–75 hr",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "character-prophecies",
+      "summary": "Give @npc{Arachne three Nectar, Hecate three, and Athena four}; after Athena agrees to meet, equip @item{Gorgon Amulet} and visit Arachne in Erebus.",
+      "guide": {
+        "kind": "standard",
+        "context": "The prophecy requires at least three Nectar for Arachne, three for Hecate, and four for Athena, followed by dialogue in which Athena agrees to meet Arachne.",
+        "steps": [
+          {
+            "id": "raise-three-affinities",
+            "text": "Give at least three Nectar to Arachne, three to Hecate, and four to Athena while exhausting their dialogue."
+          },
+          {
+            "id": "arrange-reunion",
+            "text": "Keep speaking with Arachne, Hecate, and Athena until Athena agrees to meet the weaver in Erebus and `Silk and Spitefulness` appears."
+          },
+          {
+            "id": "bring-amulet",
+            "text": "Equip Athena's Gorgon Amulet before an Underworld run, enter Arachne's Erebus chamber, and finish the reunion event."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchHelpNarcissusAndEcho",
+      "displayName": "Voice and Vanity",
+      "description": "Fulfill the Prophecy 'Voice and Vanity'",
+      "hidden": false,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25–60 hr",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "character-prophecies",
+      "summary": "Gift @npc{Narcissus and Echo} at least one Nectar, advance their dialogue, cast @mechanic{Purification of Crystal Clarity}, then speak with Narcissus again.",
+      "guide": {
+        "kind": "standard",
+        "context": "Their relationship advances through separate Oceanus and Fields of Mourning visits; later encounters can place both characters together before the pond-cleaning Incantation appears.",
+        "steps": [
+          {
+            "id": "meet-pair",
+            "text": "Visit Narcissus in Oceanus and Echo in the Fields of Mourning, gift each at least one Nectar, and exhaust their dialogue across runs."
+          },
+          {
+            "id": "reunite-pair",
+            "text": "Continue taking their special chambers until Melinoë offers to purify Narcissus's clouded pond and receives the Incantation."
+          },
+          {
+            "id": "purify-pond",
+            "text": "Cast `Purification of Crystal Clarity`, revisit Narcissus, and speak with him to finish `Voice and Vanity`."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchCatchFish",
+      "displayName": "Denizens of the Depths",
+      "description": "Fulfill the Prophecy 'Denizens of the Depths'",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–70 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Craft the @item{Rod of Fishing}, manually catch @mechanic{8 fish}, give @npc{Poseidon 3 Nectar}, receive his prophecy, and catch @mechanic{20 different species}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each region has three species, so the requirement is variety rather than total catches; Toula raises fishing-point frequency and catches automatically.",
+        "steps": [
+          {
+            "id": "craft-rod",
+            "text": "Cast `Night's Craftwork`, then craft the Rod of Fishing at the Silver Pool for 2 Fate Fabric and 1 Bronze."
+          },
+          {
+            "id": "obtain-fish-prophecy",
+            "text": "Manually catch at least eight fish with the Rod, give Poseidon at least three Nectar, and keep taking his dialogue until `Denizens of the Depths` appears."
+          },
+          {
+            "id": "fish-broadly",
+            "text": "Use fishing points in Erebus, Oceanus, Fields of Mourning, Tartarus, Ephyra, Thessaly, Olympus, the Summit, and Chaos until 20 Codex species are recorded."
+          },
+          {
+            "id": "claim-fish",
+            "text": "Return to the Fated List and claim the prophecy after the twentieth distinct species."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBeatRivalsVow1",
+      "displayName": "Unrivaled Prowess",
+      "description": "Fulfill the Prophecy 'Unrivaled Prowess'",
+      "hidden": false,
+      "globalPercent": 9.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "50–85 hr",
+      "estMinutes": 3000,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearTartarus",
+        "AchClearSummit"
+      ],
+      "group": "fear",
+      "summary": "Use the matching Vow of Rivals ranks to defeat @enemy{Hecate and Polyphemus}, then @enemy{Scylla and Eris}, then @enemy{Cerberus and Prometheus}; @mechanic{encounter Chronos and Typhon at rank 4}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each pair unlocks the next Rivals Incantation; the two final Guardians only need to be reached, not defeated, for the prophecy's last checks.",
+        "steps": [
+          {
+            "id": "unlock-rivals",
+            "text": "Unlock the Oath of the Unseen, receive the Vow of Rivals dialogue from Hecate and Selene, and activate rank 1."
+          },
+          {
+            "id": "beat-first-pairs",
+            "text": "Defeat Hecate and Polyphemus at rank 1, cast the next Rivals Incantation, then defeat Scylla and Eris at rank 2."
+          },
+          {
+            "id": "beat-third-pair",
+            "text": "Cast the next Rivals Incantation, defeat Cerberus and Prometheus at rank 3, and cast the final Rivals Incantation."
+          },
+          {
+            "id": "reach-final-rivals",
+            "text": "Activate Vow of Rivals rank 4 and enter the Chronos fight on one run and the Typhon fight on another."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBeatTyphonWithWeapons",
+      "displayName": "Sword of the Night",
+      "description": "Fulfill the Prophecy 'Sword of the Night'",
+      "hidden": false,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "45–80 hr",
+      "estMinutes": 2700,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllWeapons",
+        "AchClearSummit"
+      ],
+      "group": "challenge-runs",
+      "summary": "Defeat @enemy{Typhon} once apiece with @item{Black Coat, Argent Skull, Moonstone Axe, Umbral Flames, Sister Blades, and Witch's Staff}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any aspect counts and the prophecy tracks the six arms cumulatively, so the clears can be combined with aspect, Familiar, and Fear objectives.",
+        "steps": [
+          {
+            "id": "unlock-prophecy",
+            "text": "Defeat Typhon once, complete `Temporary Setback`, unlock all six arms, and inspect `Sword of the Night` on the Fated List."
+          },
+          {
+            "id": "track-arms",
+            "text": "Check the prophecy before each Surface run and equip a Nocturnal Arm whose entry remains unchecked."
+          },
+          {
+            "id": "six-typhon-clears",
+            "text": "Complete the Surface route and defeat Typhon with each of the six arms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchBeatChronosWithArcana",
+      "displayName": "Arcana of the Ages",
+      "description": "Fulfill the Prophecy 'Arcana of the Ages'",
+      "hidden": false,
+      "globalPercent": 15.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "45–85 hr",
+      "estMinutes": 2700,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllArcana",
+        "AchClearTartarus"
+      ],
+      "group": "challenge-runs",
+      "summary": "Defeat @enemy{Chronos} across enough runs that each of the @mechanic{25 Arcana Cards was active for at least one victory}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress is cumulative and the Fated List shows unchecked cards; Judgment can activate additional cards after each Guardian without raising the starting-card limit.",
+        "steps": [
+          {
+            "id": "reveal-arcana-prophecy",
+            "text": "Defeat Chronos twice, unlock at least three Arcana Cards, complete `Temporary Setback`, and inspect `Arcana of the Ages`."
+          },
+          {
+            "id": "equip-unchecked",
+            "text": "Before each Underworld run, activate Arcana Cards whose prophecy entries are still unchecked."
+          },
+          {
+            "id": "cover-judgment",
+            "text": "For the restrictive Judgment card, start with Judgment and no more than three other cards; let its Guardian victories activate more cards during the run."
+          },
+          {
+            "id": "repeat-chronos",
+            "text": "Defeat Chronos and repeat with different Arcana loadouts until all 25 entries are checked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearWithAllAspects",
+      "displayName": "Bearing Dark Gifts",
+      "description": "Fulfill the Prophecy 'Bearing Dark Gifts'",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "65–100 hr",
+      "estMinutes": 3900,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllAspects",
+        "AchClearTartarus",
+        "AchClearSummit"
+      ],
+      "group": "challenge-runs",
+      "summary": "Record a final-boss victory against @enemy{Chronos or Typhon} for each of the @mechanic{24 aspects across all six Nocturnal Arms}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each final-boss victory credits only the equipped aspect; either full route is valid, and the Fated List identifies every remaining aspect by name.",
+        "steps": [
+          {
+            "id": "unlock-bearing-gifts",
+            "text": "Complete `The Unseen Sentinel`, then inspect `Bearing Dark Gifts` to expose its 24 aspect entries."
+          },
+          {
+            "id": "rotate-aspects",
+            "text": "Before every route, equip an unchecked aspect and choose either the Underworld or Surface final boss."
+          },
+          {
+            "id": "win-twenty-four",
+            "text": "Defeat Chronos or Typhon with that aspect and repeat until all four aspects of all six arms have victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchClearChaosQuest",
+      "displayName": "Born to Win",
+      "description": "Fulfill the Prophecy 'Born to Win'",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "35–75 hr",
+      "estMinutes": 2100,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearTartarus"
+      ],
+      "group": "challenge-runs",
+      "summary": "Equip @item{Transcendent Embryo before leaving the Crossroads}, never replace it, and defeat @enemy{Chronos or Typhon} with that Keepsake equipped for the entire route.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chaos reveals the prophecy after at least three Nectar and later dialogue while the Embryo is equipped; equipping it only at an inter-region cabinet does not count.",
+        "steps": [
+          {
+            "id": "reveal-chaos-quest",
+            "text": "Give Chaos at least three Nectar, equip the Transcendent Embryo, and visit Chaos Gates until `Born to Win` appears."
+          },
+          {
+            "id": "start-with-embryo",
+            "text": "Equip the Transcendent Embryo at the Crossroads before beginning an Underworld or Surface run."
+          },
+          {
+            "id": "keep-embryo",
+            "text": "Do not exchange the Keepsake at an inter-region cabinet, then defeat Chronos or Typhon."
+          },
+          {
+            "id": "report-chaos",
+            "text": "Visit Chaos again after the victory if the prophecy requires its final dialogue."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchNemesisCombat",
+      "displayName": "Fair Fight",
+      "description": "Earn 1,000 Gold competing against Nemesis",
+      "hidden": false,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20–60 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win enemy-kill contests against @npc{Nemesis} until her cumulative contest rewards total @mechanic{1,000 Gold}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nemesis appears randomly in Underworld encounters; only the Gold awarded for outscoring her advances this counter.",
+        "steps": [
+          {
+            "id": "find-nemesis",
+            "text": "Enter Underworld combat chambers until Nemesis appears and starts a kill-count contest."
+          },
+          {
+            "id": "outscore-nemesis",
+            "text": "Focus weak enemies and targets Nemesis is attacking so Melinoë's upper-left kill counter finishes higher."
+          },
+          {
+            "id": "earn-thousand",
+            "text": "Repeat and win later contests until the Gold earned from Nemesis totals 1,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchFamiliarCostumes",
+      "displayName": "Unfamiliar Forms",
+      "description": "Alter the appearance of each Animal Familiar",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50–85 hr",
+      "estMinutes": 3000,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchAllFamiliars"
+      ],
+      "group": "familiars",
+      "summary": "Cast @mechanic{Alteration of Familiar Forms}, then buy and equip a different appearance for @npc{Frinos, Raki, Toula, Hecuba, and Gale}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Circe reveals the appearance Incantation after all five familiars are recruited, 20 Witch's Delight have been spent, one familiar is fully upgraded, and Melinoë has 30 Grasp.",
+        "steps": [
+          {
+            "id": "prepare-familiars",
+            "text": "Recruit all five familiars, spend at least 20 lifetime Witch's Delight on them, fully upgrade one familiar, and reach 30 Grasp."
+          },
+          {
+            "id": "unlock-forms",
+            "text": "Receive `Alteration of Familiar Forms` from Circe and cast it at the Crossroads Cauldron."
+          },
+          {
+            "id": "change-five",
+            "text": "Approach each familiar in the Training Grounds, use the new form interaction, and spend the displayed Kudos and reagents to buy and equip one alternate appearance for all five."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchKillWitchAsSheep",
+      "displayName": "Sheep's Clothing",
+      "description": "Slay a Sister of the Dead while afflicted with Twilight Curse",
+      "hidden": false,
+      "globalPercent": 41.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5–30 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearErebus"
+      ],
+      "group": "combat-tricks",
+      "summary": "During @enemy{Hecate's Erebus fight}, become a sheep from @mechanic{Twilight Curse} and kill a @enemy{Sister of the Dead before the curse ends}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Damage from a familiar, reanimated ally, Lone Shade, or exploded arena tree is credited while Melinoë remains transformed, avoiding the sheep's weak bite.",
+        "steps": [
+          {
+            "id": "leave-sister-alive",
+            "text": "During Hecate's add phase, weaken a Sister of the Dead without killing her."
+          },
+          {
+            "id": "take-twilight-curse",
+            "text": "Let Hecate's Twilight Curse projectile hit Melinoë so she transforms into a sheep."
+          },
+          {
+            "id": "secure-sheep-kill",
+            "text": "While still transformed, bite the weakened Sister or trigger familiar, Shade, summon, or tree damage that kills her."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchSummonSiren",
+      "displayName": "Breaking Up the Band",
+      "description": "Use Night Bloom to raise a Siren",
+      "hidden": false,
+      "globalPercent": 23.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8–35 hr",
+      "estMinutes": 480,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearOceanus"
+      ],
+      "group": "combat-tricks",
+      "summary": "Take Selene's @mechanic{Night Bloom Hex} into the Oceanus Guardian fight, kill @enemy{Roxy or Jetty}, then activate Night Bloom to raise that Siren.",
+      "guide": {
+        "kind": "standard",
+        "context": "Night Bloom resurrects the most recently slain non-boss foe, and the supporting Sirens count even though Scylla remains the Guardian.",
+        "steps": [
+          {
+            "id": "take-night-bloom",
+            "text": "Accept Selene's `Night Bloom` Hex during an Underworld run and spend enough Magick to charge it before the Oceanus Guardian."
+          },
+          {
+            "id": "kill-support-siren",
+            "text": "During the Scylla and the Sirens fight, defeat Roxy on drums or Jetty on guitar before finishing Scylla."
+          },
+          {
+            "id": "raise-siren",
+            "text": "Activate Night Bloom immediately after that supporting Siren dies so she returns as Melinoë's ally."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchTartarusInDress",
+      "displayName": "Dressed to Kill",
+      "description": "Reach the final confrontation in an Arachne outfit",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15–50 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearFields"
+      ],
+      "group": "challenge-runs",
+      "summary": "Accept an @item{Arachne dress in Erebus} and enter @enemy{Chronos's Tartarus arena} with at least @mechanic{1 point of that dress's Armor} remaining.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement triggers on reaching the final confrontation, so Chronos does not need to be defeated; losing all dress Armor removes the outfit for that run.",
+        "steps": [
+          {
+            "id": "take-dress",
+            "text": "Enter Arachne's Erebus chamber and choose a dress with a large Armor value, preferably Onyx, Moonlight, or Emerald."
+          },
+          {
+            "id": "protect-dress",
+            "text": "Equip Arachne's Silken Sash and use defensive play or Armor-granting Hephaestus Boons to keep the dress above zero Armor."
+          },
+          {
+            "id": "reach-chronos-dressed",
+            "text": "Clear Oceanus and the Fields of Mourning, descend through Tartarus, and enter Chronos's arena while the dress is still equipped."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchEarnStatue1",
+      "displayName": "Behold Night's Champion",
+      "description": "Earn the first Gift of the Veil",
+      "hidden": false,
+      "globalPercent": 24.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "25–55 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearTartarus",
+        "AchClearSummit"
+      ],
+      "group": "fear",
+      "summary": "After Schelemeus reveals the Gift of the Veil, clear the @loc{Underworld at 8 Fear} and the @loc{Surface at 6 Fear}, then claim the Stone statue.",
+      "guide": {
+        "kind": "standard",
+        "context": "The statue challenge appears after inspecting the Oath, clearing the Underworld at least five times, and clearing the Surface at least once; the two Fear clears are separate and cumulative.",
+        "steps": [
+          {
+            "id": "reveal-gift",
+            "text": "Unlock and inspect the Oath of the Unseen, complete at least five Underworld clears and one Surface clear, then speak with Schelemeus about the veiled gifts."
+          },
+          {
+            "id": "clear-eight-below",
+            "text": "Configure any Vows totaling at least 8 Fear and defeat Chronos on an Underworld run."
+          },
+          {
+            "id": "clear-six-above",
+            "text": "Configure any Vows totaling at least 6 Fear and defeat Typhon on a Surface run."
+          },
+          {
+            "id": "claim-stone-statue",
+            "text": "Return to the Training Grounds and uncover the first Gift of the Veil."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchEarnStatue2",
+      "displayName": "Mercy, Night's Executioner",
+      "description": "Earn the second Gift of the Veil",
+      "hidden": false,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "40–75 hr",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchEarnStatue1"
+      ],
+      "group": "fear",
+      "summary": "After earning the first Gift of the Veil, clear the @loc{Underworld at 16 Fear} and the @loc{Surface at 12 Fear}, then claim the Silver statue.",
+      "guide": {
+        "kind": "standard",
+        "context": "These thresholds can use any Vow combination and do not require Vow of Rivals; successful clears at higher Fear also satisfy the listed minimums.",
+        "steps": [
+          {
+            "id": "clear-sixteen-below",
+            "text": "Choose manageable Vows totaling at least 16 Fear and complete an Underworld route by defeating Chronos."
+          },
+          {
+            "id": "clear-twelve-above",
+            "text": "Choose manageable Vows totaling at least 12 Fear and complete a Surface route by defeating Typhon."
+          },
+          {
+            "id": "claim-silver-statue",
+            "text": "Return to the Training Grounds and uncover the second Gift of the Veil."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchWinSecretContest",
+      "displayName": "Elysian Glory",
+      "description": "Prevail in the Contest of Champions",
+      "hidden": false,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "post-ending",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchTrueEnding"
+      ],
+      "group": "postgame",
+      "summary": "After the True Ending, accept an @mechanic{Infernal Contract} in a marked Charon shop and defeat @enemy{Zagreus's two phases in Elysium}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The contract icon appears above eligible Charon-shop doors; losing the contest immediately ends the current run and returns Melinoë to the Crossroads.",
+        "steps": [
+          {
+            "id": "find-contract",
+            "text": "After the True Ending, watch Charon shop doors on either route for the small black-parchment Infernal Contract icon."
+          },
+          {
+            "id": "accept-contest",
+            "text": "Enter the marked shop and accept the contract to travel to Elysium for the Contest of Champions."
+          },
+          {
+            "id": "defeat-zagreus",
+            "text": "Avoid Zagreus's high-damage attacks, deplete both health bars, and finish the victory sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchTrueEnding",
+      "displayName": "Death to Chronos",
+      "description": "Complete the lifelong task of the Princess of the Underworld",
+      "hidden": false,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "35–65 hr",
+      "estMinutes": 2100,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearTartarus",
+        "AchClearSummit"
+      ],
+      "group": "story",
+      "summary": "Defeat @enemy{Chronos six times and Typhon five times}, cast @mechanic{Disintegration of Monstrosity and Dissolution of Time}, then defeat Chronos once more for the True Ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "The two route grinds can progress in parallel: early Chronos wins supply Zodiac Sand and Zagreus dialogue for Gigaros, while early Typhon wins supply Void Lenses and the fifth yields Entropy after the first Incantation.",
+        "steps": [
+          {
+            "id": "collect-ending-materials",
+            "text": "Defeat Chronos six times to obtain Zodiac Sand and advance Zagreus until he provides Gigaros; defeat Typhon four times for four Void Lenses."
+          },
+          {
+            "id": "disintegrate-typhon",
+            "text": "Cast `Disintegration of Monstrosity` with Gigaros, 4 Void Lenses, and 1 Zodiac Sand, then defeat Typhon a fifth time to obtain Entropy."
+          },
+          {
+            "id": "dissolve-time",
+            "text": "Cast `Dissolution of Time` with 5 Zodiac Sand and Entropy."
+          },
+          {
+            "id": "final-chronos",
+            "text": "Complete another Underworld route, defeat Chronos after Dissolution of Time, and finish the ending sequence and credits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchEpilogue",
+      "displayName": "Golden Age",
+      "description": "Reach the epilogue of the story",
+      "hidden": false,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "60–90 hr",
+      "estMinutes": 3600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchTrueEnding"
+      ],
+      "group": "story",
+      "summary": "After the True Ending, complete @mechanic{Melinoë, Remember Us and Melinoë, Seek Us}, activate @item{Moros's Engraved Pin in three consecutive Oceanus fights}, and die in the fourth.",
+      "guide": {
+        "kind": "standard",
+        "context": "Seek Us needs max affinity with Moros and Hecate, prerequisite dialogue from Nemesis for Chaos, three Nectar for Heracles, and specific Fates dialogue from Chaos, Chronos in Erebus, Prometheus, and Heracles.",
+        "steps": [
+          {
+            "id": "remember-fates",
+            "text": "After the True Ending, speak with Chronos at the ends of both the Underworld and Surface routes, then receive Moros's dialogue that changes `Melinoë, Remember Us` into `Melinoë, Seek Us`."
+          },
+          {
+            "id": "seek-six-sources",
+            "text": "Max Moros and Hecate; advance Moros, Hecate, and Nemesis until Chaos discusses the Fates; hear the linked dialogue from Chronos in Erebus and Prometheus; give Heracles three Nectar and hear his Fates dialogue; then speak with Moros again."
+          },
+          {
+            "id": "prepare-pin",
+            "text": "Equip Moros's Engraved Pin before Oceanus and enter four consecutive combat chambers without a shop, story, or other noncombat room between them."
+          },
+          {
+            "id": "trigger-pin-thrice",
+            "text": "In each of the first three combat chambers, fall to zero health, kill the remaining foes before the Pin's 10-second timer expires, and proceed."
+          },
+          {
+            "id": "die-fourth",
+            "text": "In the fourth consecutive combat chamber, return to shadow instead of surviving the Engraved Pin effect, then finish the Fates epilogue scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AchAllOtherAch",
+      "displayName": "Goddess of Nightmares",
+      "description": "Earn all other Achievements",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "after 49 achievements",
+      "estMinutes": 1,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "AchClearErebus",
+        "AchClearOceanus",
+        "AchClearFields",
+        "AchClearTartarus",
+        "AchClearEphyra",
+        "AchClearThessaly",
+        "AchClearOlympus",
+        "AchClearSummit",
+        "AchCauldronSpells1",
+        "AchBathHouse",
+        "AchFishingPier",
+        "AchTaverna",
+        "AchForgeBonds",
+        "AchProphecies1",
+        "AchMaxMem",
+        "AchAllArcana",
+        "AchAllArcanaMax",
+        "AchAllWeapons",
+        "AchAllAspects",
+        "AchConfideFrinos",
+        "AchAllFamiliars",
+        "AchAllFamiliarsMax",
+        "AchEarnPrestige1",
+        "AchAllKeepsakes",
+        "AchBounties1",
+        "AchAllRandomStreak",
+        "AchAllRandomUnderworld",
+        "AchBeatHecateNoArcana",
+        "AchHelpOdysseus",
+        "AchHelpDora",
+        "AchHelpHypnos",
+        "AchHelpArachne",
+        "AchHelpNarcissusAndEcho",
+        "AchCatchFish",
+        "AchBeatRivalsVow1",
+        "AchBeatTyphonWithWeapons",
+        "AchBeatChronosWithArcana",
+        "AchClearWithAllAspects",
+        "AchClearChaosQuest",
+        "AchNemesisCombat",
+        "AchFamiliarCostumes",
+        "AchKillWitchAsSheep",
+        "AchSummonSiren",
+        "AchTartarusInDress",
+        "AchEarnStatue1",
+        "AchEarnStatue2",
+        "AchWinSecretContest",
+        "AchTrueEnding",
+        "AchEpilogue"
+      ],
+      "group": "meta",
+      "summary": "Unlock every other one of Hades II's @mechanic{49 Steam achievements}; @mechanic{Goddess of Nightmares} then unlocks automatically.",
+      "guide": {
+        "kind": "standard",
+        "context": "This meta-achievement has no independent gameplay condition and therefore must be the final entry in a 100% route.",
+        "steps": [
+          {
+            "id": "complete-other-achievements",
+            "text": "Use the Steam achievement list to verify that every achievement except `Goddess of Nightmares` is unlocked."
+          },
+          {
+            "id": "trigger-meta",
+            "text": "Return to gameplay or complete the final outstanding achievement so Steam evaluates and awards the meta-achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "AchMaxMem",
+    "AchAllArcana",
+    "AchConfideFrinos",
+    "AchBathHouse",
+    "AchFishingPier",
+    "AchClearErebus",
+    "AchKillWitchAsSheep",
+    "AchClearOceanus",
+    "AchSummonSiren",
+    "AchClearEphyra",
+    "AchClearFields",
+    "AchClearThessaly",
+    "AchClearOlympus",
+    "AchAllWeapons",
+    "AchCauldronSpells1",
+    "AchNemesisCombat",
+    "AchCatchFish",
+    "AchEarnPrestige1",
+    "AchTartarusInDress",
+    "AchBeatHecateNoArcana",
+    "AchBounties1",
+    "AchAllFamiliars",
+    "AchTaverna",
+    "AchClearTartarus",
+    "AchClearSummit",
+    "AchEarnStatue1",
+    "AchProphecies1",
+    "AchAllArcanaMax",
+    "AchClearChaosQuest",
+    "AchBeatChronosWithArcana",
+    "AchBeatTyphonWithWeapons",
+    "AchHelpNarcissusAndEcho",
+    "AchHelpDora",
+    "AchHelpArachne",
+    "AchAllFamiliarsMax",
+    "AchFamiliarCostumes",
+    "AchEarnStatue2",
+    "AchBeatRivalsVow1",
+    "AchForgeBonds",
+    "AchTrueEnding",
+    "AchHelpHypnos",
+    "AchHelpOdysseus",
+    "AchAllKeepsakes",
+    "AchWinSecretContest",
+    "AchAllAspects",
+    "AchClearWithAllAspects",
+    "AchAllRandomStreak",
+    "AchAllRandomUnderworld",
+    "AchEpilogue",
+    "AchAllOtherAch"
+  ]
+}

@@ -1,0 +1,2128 @@
+{
+  "game": {
+    "appid": 1086940,
+    "slug": "baldur-s-gate-3",
+    "title": "Baldur's Gate 3",
+    "version": "Hotfix 36",
+    "lastPatchChecked": "2026-03-26",
+    "estTotalHours": 180,
+    "difficultyRating": 10,
+    "minPlaythroughs": 3,
+    "createdAt": "2026-07-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Escape the nautiloid",
+      "description": "Recruit both available companions, defeat Commander Zhalk if desired, then activate the Helm transponder before the prologue timer expires.",
+      "achievementRefs": [
+        "BG3_Quest31",
+        "BG3_Quest01"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build the completion route through Act I",
+      "description": "Protect the Emerald Grove, begin Karlach and companion routes, preserve Sazza by knocking Minthara out, clear the Underdark and Adamantine Forge, and collect the early cumulative and combat achievements before entering the Shadow-Cursed Lands.",
+      "achievementRefs": [
+        "BG3_Quest10",
+        "BG3_Quest13",
+        "BG3_Quest12",
+        "BG3_Quest17",
+        "BG3_Quest09",
+        "BG3_Quest15",
+        "BG3_Quest14",
+        "BG3_Quest11",
+        "BG3_Quest19",
+        "BG3_Quest32",
+        "BG3_Quest20",
+        "BG3_Quest33",
+        "BG3_Quest23",
+        "BG3_Quest50",
+        "BG3_Quest46",
+        "BG3_Quest45",
+        "BG3_Quest18",
+        "BG3_Quest28",
+        "BG3_Quest27",
+        "BG3_Quest30",
+        "BG3_Quest29",
+        "BG3_Quest41",
+        "BG3_Quest42",
+        "BG3_Quest02"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Protect Last Light and clear Act II",
+      "description": "Keep Isobel and the refugee roster alive, rescue Moonrise prisoners before the Shadowfell, finish the crèche and companion setup, then defeat Ketheric and Myrkul under their achievement restrictions.",
+      "achievementRefs": [
+        "BG3_Quest48",
+        "BG3_Quest22",
+        "BG3_Quest34",
+        "BG3_Quest35",
+        "BG3_Quest21",
+        "BG3_Quest36",
+        "BG3_Quest47",
+        "BG3_Quest03"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish Act III's missables",
+      "description": "Complete Karlach, Wyll, Emperor, Murder Tribunal, Orin, Gortash, Ansur, and remaining cumulative tasks before committing to the Upper City finale.",
+      "achievementRefs": [
+        "BG3_Quest16",
+        "BG3_Quest43",
+        "BG3_Quest44",
+        "BG3_Quest49",
+        "BG3_Quest51",
+        "BG3_Quest26",
+        "BG3_Quest25",
+        "BG3_Quest37",
+        "BG3_Quest38",
+        "BG3_Quest40"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Use ending saves for incompatible choices",
+      "description": "Outside Honour Mode, keep a save before the final decision and obtain the heroic, domination, and player-character ceremorphosis endings while preserving the required tieflings and killing the dominated red dragon.",
+      "achievementRefs": [
+        "BG3_Quest24",
+        "BG3_Quest39",
+        "BG3_Quest04",
+        "BG3_Quest05",
+        "BG3_Quest06",
+        "BG3_Quest08"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Complete The Dark Urge branch",
+      "description": "Use a separate Dark Urge campaign to accept the Slayer and Bhaal, then dominate the Netherbrain for the Throne of Blood ending.",
+      "achievementRefs": [
+        "BG3_Quest52",
+        "BG3_Quest07"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Complete Honour Mode",
+      "description": "Run a fresh Honour campaign last, using the route knowledge and defensive preparation gained earlier; finish in Act III without a party wipe to earn Foehammer and Critical Hit.",
+      "achievementRefs": [
+        "BG3_Quest53",
+        "BG3_Quest54"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "BG3_Quest01",
+      "displayName": "Descent From Avernus",
+      "description": "Take control of the nautiloid and escape the Hells.",
+      "hidden": false,
+      "globalPercent": 89.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach the nautiloid's helm and activate the @mechanic{transponder} before the turn limit expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "The cambion battle is optional; the prologue ends as soon as the transponder is activated.",
+        "steps": [
+          {
+            "id": "reach-helm",
+            "text": "Follow the nautiloid corridors to the Helm and enter the battle with Commander Zhalk."
+          },
+          {
+            "id": "use-transponder",
+            "text": "Move any party member to the control console at the far end of the Helm and select @mechanic{Use} before the displayed turn counter reaches zero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest02",
+      "displayName": "The Plot Thickens",
+      "description": "Leave Act I - for somewhere altogether darker.",
+      "hidden": true,
+      "globalPercent": 50.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 20 hours",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Complete Act I and enter the @loc{Shadow-Cursed Lands} through the Mountain Pass or Underdark route.",
+      "guide": {
+        "kind": "standard",
+        "context": "The transition advances unresolved Act I quests, so finish the Emerald Grove and other missable tasks before accepting the warning.",
+        "steps": [
+          {
+            "id": "finish-act-one",
+            "text": "Resolve the Emerald Grove conflict and complete any remaining Act I achievement setups."
+          },
+          {
+            "id": "enter-act-two",
+            "text": "Use the Mountain Pass or Grymforge elevator, accept the region-change warning, and enter the Shadow-Cursed Lands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest03",
+      "displayName": "The City Awaits",
+      "description": "Leave Act II - Baldur's Gate is just over the horizon.",
+      "hidden": true,
+      "globalPercent": 39.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 30 hours",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Defeat Ketheric Thorm, leave the Shadow-Cursed Lands, and enter the road to @loc{Baldur's Gate}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The transition closes Act II, so complete Moonrise Prison, Last Light Inn, and companion tasks before leaving.",
+        "steps": [
+          {
+            "id": "finish-act-two",
+            "text": "Complete the Gauntlet of Shar and Mind Flayer Colony, then defeat Ketheric Thorm and the Apostle of Myrkul."
+          },
+          {
+            "id": "leave-act-two",
+            "text": "Return to the surface, follow the road west from the Shadow-Cursed Lands, accept the region-change warning, and enter Act III."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest04",
+      "displayName": "All's Well That Ends Well",
+      "description": "Finish the game (with a heartfelt 'thank you' from Larian Studios).",
+      "hidden": true,
+      "globalPercent": 23.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 70 hours",
+      "estMinutes": 4200,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Complete the Netherbrain finale and reach any ending that proceeds into the closing scenes.",
+      "guide": {
+        "kind": "standard",
+        "context": "This broad completion achievement can unlock alongside a specific heroic, domination, mind-flayer, Tactician, or Honour ending.",
+        "steps": [
+          {
+            "id": "reach-finale",
+            "text": "Obtain the three Netherstones, confront the Elder Brain, and complete the Upper City and Netherbrain battles."
+          },
+          {
+            "id": "finish-ending",
+            "text": "Resolve the final choice to destroy or dominate the Netherbrain and continue through the resulting ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest05",
+      "displayName": "Absolute Power Corrupts",
+      "description": "Reign with terror: take control of the Netherbrain and bend the world to your will.",
+      "hidden": true,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "After defeating the Netherbrain, choose to @mechanic{dominate it} and rule through the Absolute.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ending is mutually exclusive with destroying the Netherbrain on the same final choice, so keep a pre-choice save outside Honour Mode.",
+        "steps": [
+          {
+            "id": "defeat-brain",
+            "text": "Complete the final battle and reduce the Netherbrain to zero hit points."
+          },
+          {
+            "id": "take-control",
+            "text": "During the ending decision, betray any ally who opposes domination if required and choose the dialogue option to control the Netherbrain rather than destroy it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest06",
+      "displayName": "Hero of the Forgotten Realms",
+      "description": "Save the day: kill the Netherbrain and destroy the Absolute tadpoles.",
+      "hidden": true,
+      "globalPercent": 24.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Defeat the Netherbrain and choose to @mechanic{destroy it and every Absolute tadpole}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The heroic route requires rejecting domination at the final decision after the Netherbrain battle.",
+        "steps": [
+          {
+            "id": "defeat-brain",
+            "text": "Reach the Crown of Karsus, enter the Netherbrain's psyche, and reduce the Netherbrain to zero hit points."
+          },
+          {
+            "id": "destroy-absolute",
+            "text": "At the final decision, choose the dialogue option that orders the Netherbrain to destroy itself and the tadpoles."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest07",
+      "displayName": "Sins of the Father",
+      "description": "Claim your Throne of Blood: take control of the Netherbrain for Bhaal and break the world.",
+      "hidden": true,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 70 hours",
+      "estMinutes": 4200,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "As @mechanic{The Dark Urge}, accept Bhaal after defeating Orin, defeat the Netherbrain, and dominate it in Bhaal's name.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rejecting Bhaal after the Orin duel permanently removes this ending; a non-Honour save before that decision preserves the redemption branch.",
+        "steps": [
+          {
+            "id": "accept-bhaal",
+            "text": "Play The Dark Urge through Act III, defeat Orin in the Temple of Bhaal, and choose to become Bhaal's Chosen."
+          },
+          {
+            "id": "reach-ending",
+            "text": "Obtain the Netherstones, complete the final assault, and defeat the Netherbrain."
+          },
+          {
+            "id": "claim-throne",
+            "text": "At the final choice, dominate the Netherbrain for Bhaal and continue through the Throne of Blood ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest08",
+      "displayName": "Ceremorphosis",
+      "description": "Make the ultimate sacrifice: become a mind flayer to defeat the Netherbrain.",
+      "hidden": true,
+      "globalPercent": 9.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Have the player character become a @mechanic{mind flayer}, then defeat and destroy the Netherbrain.",
+      "guide": {
+        "kind": "standard",
+        "context": "Accepting ceremorphosis is offered during the final Astral Prism decisions; letting Karlach or Orpheus transform does not satisfy the player-character requirement.",
+        "steps": [
+          {
+            "id": "choose-transformation",
+            "text": "During the final Astral Prism meeting, volunteer the player character to undergo ceremorphosis and complete the transformation into a mind flayer."
+          },
+          {
+            "id": "destroy-brain",
+            "text": "Use the transformed character to reach the Crown, defeat the Netherbrain, and choose to destroy it at the ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest09",
+      "displayName": "Roleplayer",
+      "description": "Complete ten background goals in a single playthrough - you are one with your character.",
+      "hidden": false,
+      "globalPercent": 57.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Trigger ten @mechanic{Inspiration} events tied to the player character's background in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "Background goals award Inspiration automatically when their listed world conditions are met; companion-only goals do not replace the player character's required ten.",
+        "steps": [
+          {
+            "id": "check-background",
+            "text": "Open the character sheet and note the player character's background, such as Acolyte, Charlatan, or Soldier."
+          },
+          {
+            "id": "pursue-goals",
+            "text": "Complete exploration, dialogue, and quest outcomes associated with that background until ten Inspiration notifications have appeared in the same playthrough."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest10",
+      "displayName": "Bedrolls and Breakfast",
+      "description": "Take four full Long Rests in a single playthrough - adventuring's tiring work.",
+      "hidden": false,
+      "globalPercent": 65.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete @mechanic{four full Long Rests} with the required camp supplies in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "Partial rests do not advance this counter because they spend no camp supplies.",
+        "steps": [
+          {
+            "id": "long-rest-four",
+            "text": "At camp, select @mechanic{Long Rest}, choose enough food and drink to meet the displayed supply cost, and confirm the rest four separate times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest11",
+      "displayName": "Expand Your Mind",
+      "description": "Consume a parasite and unlock a new power - is it meant to wriggle the whole way down?",
+      "hidden": true,
+      "globalPercent": 54.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Consume a @item{Mind Flayer Parasite Specimen}, open Illithid Powers, and unlock one power.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Illithid Powers interface becomes available after the Guardian explains how parasite specimens can be used.",
+        "steps": [
+          {
+            "id": "obtain-parasite",
+            "text": "Loot a @item{Mind Flayer Parasite Specimen} from an infected True Soul and keep it in the party inventory."
+          },
+          {
+            "id": "unlock-power",
+            "text": "After the Guardian's dream introduces parasite powers, open @mechanic{Illithid Powers}, consume the specimen, select an available node, and confirm the unlock."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest12",
+      "displayName": "Dig for Victory",
+      "description": "Dig up five buried chests in a single playthrough - treasure!",
+      "hidden": false,
+      "globalPercent": 58.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use a @item{Shovel} to dig up five buried chests in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "A successful Survival check exposes a dirt mound, but a shovel can also dig at a suspected spot without the mound marker.",
+        "steps": [
+          {
+            "id": "carry-shovel",
+            "text": "Keep a @item{Shovel} in the active party's inventory."
+          },
+          {
+            "id": "dig-five",
+            "text": "When a dirt mound appears, select it and confirm digging; open five separately buried chests before starting another playthrough."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest13",
+      "displayName": "No Penny Required",
+      "description": "Successfully use Detect Thoughts to pry into someone's thoughts.",
+      "hidden": false,
+      "globalPercent": 62.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Succeed on a dialogue option marked @mechanic{Detect Thoughts} after casting the spell or drinking a Potion of Mind Reading.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement requires a successful thought-reading dialogue check, not merely applying the spell's condition.",
+        "steps": [
+          {
+            "id": "prepare-thoughts",
+            "text": "Learn or prepare @mechanic{Detect Thoughts}, or carry a Potion of Mind Reading."
+          },
+          {
+            "id": "read-mind",
+            "text": "Start a conversation that offers a @mechanic{Detect Thoughts} line, select that labelled line, and pass its check."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest14",
+      "displayName": "Escapologist",
+      "description": "Break out of prison after being arrested - aren't you daring?",
+      "hidden": false,
+      "globalPercent": 29.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Submit to an arrest, enter a prison cell, and leave confinement without using the jailer's normal release.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recovering confiscated equipment is optional; the unlock is tied to escaping the prison state.",
+        "steps": [
+          {
+            "id": "get-arrested",
+            "text": "Commit a witnessed crime in a guarded settlement and choose the dialogue option to submit and go to prison."
+          },
+          {
+            "id": "escape-cell",
+            "text": "Inside the cell, pick or break the door, use a hidden exit, or teleport out, then move beyond the prison area."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest15",
+      "displayName": "Outsourcing",
+      "description": "Recruit a hireling. You can befriend them or use them as cannon-fodder - we won't judge.",
+      "hidden": false,
+      "globalPercent": 18.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Ask @npc{Withers} at camp to recruit any hireling and pay the displayed fee.",
+      "guide": {
+        "kind": "standard",
+        "context": "Withers joins camp after the party explores the Dank Crypt or after the story advances far enough.",
+        "steps": [
+          {
+            "id": "unlock-withers",
+            "text": "Explore the Dank Crypt and speak to @npc{Withers}, then talk to him again after he appears at camp."
+          },
+          {
+            "id": "recruit-hireling",
+            "text": "Select @mechanic{I would like to talk about hirelings}, choose any available hireling, and confirm the displayed payment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest16",
+      "displayName": "Jack-of-all-Trades",
+      "description": "Multiclass into every class in one playthrough without asking Withers to change your character.",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Give one character exactly one level in @mechanic{all 12 classes} without ever respeccing that character through Withers.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement can be earned with an origin companion or hireling instead of the player character, but the chosen character must never be respecced through Withers.",
+        "steps": [
+          {
+            "id": "reserve-character",
+            "text": "Choose one origin character or hireling for this build and never ask Withers to change that character's class."
+          },
+          {
+            "id": "take-all-classes",
+            "text": "At each of the character's twelve level-up screens, select @mechanic{Add Class} and choose one class not previously taken. The final build must contain Fighter, Wizard, Rogue, Cleric, Ranger, Druid, Paladin, Bard, Monk, Warlock, Sorcerer, and Barbarian."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest17",
+      "displayName": "Homebrewer",
+      "description": "Create three unique alchemical solutions in a single playthrough - bottoms up!",
+      "hidden": false,
+      "globalPercent": 29.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use the @mechanic{Alchemy} menu to create three different potions, elixirs, coatings, grenades, or salts in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter tracks unique alchemical recipes, so crafting three copies of one recipe is insufficient.",
+        "steps": [
+          {
+            "id": "extract-reagents",
+            "text": "Collect plants and minerals, open the Alchemy menu, and select @mechanic{Extract All Ingredients}."
+          },
+          {
+            "id": "craft-three",
+            "text": "Choose three different available recipes and select @mechanic{Craft Item} once for each recipe."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest18",
+      "displayName": "You Have Two Hands for a Reason",
+      "description": "Pet Scratch and the owlbear cub at the same time - the greatest joy an adventurer could ask for.",
+      "hidden": true,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Recruit @npc{Scratch} and the @npc{owlbear cub}, then pet both animals when they appear together during a camp Long Rest.",
+      "guide": {
+        "kind": "standard",
+        "context": "The shared camp scene occurs only after both animals have independently settled in camp; using Speak with Animals during the scene can prevent the simultaneous-petting choice.",
+        "steps": [
+          {
+            "id": "recruit-scratch",
+            "text": "Invite Scratch to camp after meeting him northeast of the Blighted Village."
+          },
+          {
+            "id": "recruit-cub",
+            "text": "Visit the Owlbear Nest, avoid killing the cub, then find the cub at the Goblin Camp and free it or tell it to follow your scent."
+          },
+          {
+            "id": "pet-both",
+            "text": "Take Long Rests until Scratch and the owlbear cub appear together at night, avoid casting @mechanic{Speak with Animals} for that scene, and choose the option to pet both animals at once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest19",
+      "displayName": "Rude, Crude, and Full of Attitude",
+      "description": "Find and summon the quasit Shovel. Or is her name... Fork? Maybe Basket?",
+      "hidden": true,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Find the @item{Scroll of Summon Quasit} in the Apothecary's Cellar beneath the Blighted Village and summon Shovel.",
+      "guide": {
+        "kind": "standard",
+        "context": "The unique scroll lies in the coffin area beyond the cellar's hidden passage; learning or casting that scroll summons the required quasit.",
+        "steps": [
+          {
+            "id": "enter-cellar",
+            "text": "Enter the Apothecary's Cellar through the Blighted Village apothecary and use the lever behind the movable bookcase to reveal the deeper passage."
+          },
+          {
+            "id": "take-scroll",
+            "text": "Open the coffin on the right side of the mouldering-casket chamber and take the @item{Scroll of Summon Quasit}."
+          },
+          {
+            "id": "summon-shovel",
+            "text": "Use the scroll from inventory, or have a Wizard learn and cast it, to summon @npc{Shovel}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest20",
+      "displayName": "Forged in Blood and Fire",
+      "description": "Craft an item in the Adamantine Forge.",
+      "hidden": true,
+      "globalPercent": 39.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Insert Mithral Ore and a mould into the @loc{Adamantine Forge}, release the lava, and use the Forge Hammer to craft an item.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two Mithral Ore deposits exist in Grymforge, allowing two Adamantine items in one playthrough.",
+        "steps": [
+          {
+            "id": "load-forge",
+            "text": "At the Adamantine Forge in Grymforge, place one @item{Mithral Ore} in the crucible and one equipment mould in the mould chamber."
+          },
+          {
+            "id": "prepare-smelting",
+            "text": "Pull the @mechanic{Forge Lever} once so the Forge Hammer strikes the loaded crucible and prepares the Mithral Ore for smelting, then turn the @mechanic{Lava Valve}; survive or defeat Grym when it appears."
+          },
+          {
+            "id": "forge-item",
+            "text": "Pull the Forge Lever a second time so the hammer shapes the heated metal, then take the completed Adamantine item from the mould chamber."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest21",
+      "displayName": "Under Lock and Key",
+      "description": "Rescue all the prisoners from the depths of Moonrise Towers in one playthrough.",
+      "hidden": true,
+      "globalPercent": 26.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Rescue every living tiefling and deep-gnome prisoner from @loc{Moonrise Towers Prison} before entering the Shadowfell.",
+      "guide": {
+        "kind": "standard",
+        "context": "Entering the Shadowfell advances Moonrise Towers and removes the prisoners, so the prison break must occur while the tower is still approachable as a friendly infiltrator.",
+        "steps": [
+          {
+            "id": "reach-prison",
+            "text": "Enter Moonrise Towers before the assault and descend to Moonrise Towers Prison."
+          },
+          {
+            "id": "prepare-escape",
+            "text": "Give @npc{Wulbren Bongle} his hammer or another bludgeoning weapon, then tell him to begin the escape; alternatively break both rear cell walls yourself."
+          },
+          {
+            "id": "protect-prisoners",
+            "text": "Open the route to the dock, kill pursuing guards, and escort every tiefling and deep gnome onto the escape boat to Last Light Inn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest22",
+      "displayName": "She Cannot Be Caged!",
+      "description": "Rescue Sazza from the Emerald Grove, Goblin Camp and Moonrise Towers in one playthrough.",
+      "hidden": true,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 10 hours",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Save @npc{Sazza} at the Emerald Grove and Goblin Camp, then free her during judgment at Moonrise Towers in the same playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sazza is killed when the last of the three goblin leaders dies. A tiefling-friendly route can preserve her by knocking Minthara out and killing only Priestess Gut and Dror Ragzlin.",
+        "steps": [
+          {
+            "id": "grove-rescue",
+            "text": "In the Emerald Grove Makeshift Prison, stand between Arka and Sazza, unlock Sazza's cage, and escort her through the hidden passage without letting her die."
+          },
+          {
+            "id": "camp-rescue",
+            "text": "Bring Sazza to Minthara in the Shattered Sanctum and choose the dialogue option that spares Sazza. If protecting the Grove, knock Minthara unconscious with Non-Lethal Attacks instead of killing her."
+          },
+          {
+            "id": "tower-rescue",
+            "text": "In Act II, enter Moonrise Towers before attacking the stronghold, watch Ketheric judge the goblins in the audience chamber, and choose a dialogue outcome that releases Sazza and the other goblins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest23",
+      "displayName": "Taking Blood",
+      "description": "Steal the Blood of Lathander from underneath Rosymorn Monastery.",
+      "hidden": true,
+      "globalPercent": 36.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Take the @item{Blood of Lathander} from its chamber beneath Rosymorn Monastery.",
+      "guide": {
+        "kind": "standard",
+        "context": "Placing the Dawnmaster's Crest in the weapon's pedestal prevents the monastery's solar weapon from activating, but surviving or disabling the trap also awards the achievement.",
+        "steps": [
+          {
+            "id": "reach-chamber",
+            "text": "Complete the secret-statue passage in Crèche Y'llek's Inquisitor's Chamber and cross the trapped corridor to the Blood of Lathander chamber."
+          },
+          {
+            "id": "take-mace",
+            "text": "Insert the @item{Dawnmaster's Crest} into the pedestal and take the mace; without the crest, remove the mace and then disable the four energy crystals or escape before the countdown ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest24",
+      "displayName": "Leave No One Behind",
+      "description": "Save every tiefling refugee you can throughout the game in a single playthrough.",
+      "hidden": true,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 80 hours",
+      "estMinutes": 4800,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Keep @npc{Alfira, Arabella, Bex, Cal, Cerys, Dammon, Danis, Ide, Lakrissa, Lia, Mol, Rolan, Umi, Zevlor, and Zorru} alive across Acts I–III through game completion.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tracked roster is narrower than every tiefling encountered, but the achievement is awarded only at the ending; Last Light Inn must never fall.",
+        "steps": [
+          {
+            "id": "act-one-roster",
+            "text": "In Act I, side with the Emerald Grove tieflings, stop the Rite of Thorns, save Arabella, and convince Rolan to stay. The required survivors are Zevlor, Rolan, Lia, Cal, Alfira, Lakrissa, Bex, Danis, Dammon, Ide, Umi, Mol, and Zorru."
+          },
+          {
+            "id": "act-two-roster",
+            "text": "In Act II, prevent Isobel's abduction and save the Nightsong; rescue Rolan at X:-54 Y:-111, find Arabella at X:-153 Y:15 and finish her quest, rescue Cal, Danis, Lakrissa, and Lia from Moonrise Prison, and free Zevlor in the Mind Flayer Colony."
+          },
+          {
+            "id": "act-three-roster",
+            "text": "In Act III, speak to Mol in the Guildhall, keep Rolan alive if fighting Lorroakan, and do not risk Zevlor as a summoned ally in the final battle."
+          },
+          {
+            "id": "finish-game",
+            "text": "Complete the final Netherbrain sequence with every required refugee still alive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest25",
+      "displayName": "Murder in Baldur's Gate",
+      "description": "Coat the streets of Baldur's Gate in blood - become an Unholy Assassin of Bhaal.",
+      "hidden": true,
+      "globalPercent": 9.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 1 hours",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Enter the @loc{Murder Tribunal}, pass its trial, and kill @npc{Valeria} to become an Unholy Assassin of Bhaal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Becoming an Unholy Assassin grants access to the Bhaalist vendor but conflicts with a heroic resolution of the tribunal.",
+        "steps": [
+          {
+            "id": "obtain-hand",
+            "text": "Investigate the Open Hand Temple murders and obtain a victim's severed hand, or take Gortash's hand after killing him."
+          },
+          {
+            "id": "enter-tribunal",
+            "text": "Bring the hand to Candulhallow's Tombstones, use the password to enter the Murder Tribunal, and present the hand to Sarevok Anchev."
+          },
+          {
+            "id": "become-assassin",
+            "text": "Accept Sarevok's trial, enter the sacrificial chamber, and kill @npc{Valeria} as instructed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest26",
+      "displayName": "Mind Blown",
+      "description": "Romance the Emperor.",
+      "hidden": true,
+      "globalPercent": 13.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 hours",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Support @npc{the Emperor} through the Act III Astral Prism attack and complete his shirtless romance scene during a later Long Rest.",
+      "guide": {
+        "kind": "standard",
+        "context": "The romance is available regardless of gender or other romances, but hostile dialogue toward the Emperor can close it.",
+        "steps": [
+          {
+            "id": "support-emperor",
+            "text": "At the start of Act III, help the Emperor defeat the githyanki monks in the Astral Prism and continue cooperating with him."
+          },
+          {
+            "id": "visit-hideout",
+            "text": "Complete the Emperor's former-hideout sequence beneath Elfsong Tavern and take Long Rests until he appears shirtless in the dream."
+          },
+          {
+            "id": "romance-emperor",
+            "text": "Choose the affectionate dialogue options, move closer when prompted, and accept intimacy with the Emperor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest27",
+      "displayName": "Kill Two Birds With One Gnome",
+      "description": "Use one enemy as an improvised weapon against another.",
+      "hidden": false,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use @mechanic{Improvised Melee Weapon} to pick up one enemy and strike a second enemy with that body.",
+      "guide": {
+        "kind": "standard",
+        "context": "Throw does not qualify; select Improvised Melee Weapon or the corresponding bonus-action version.",
+        "steps": [
+          {
+            "id": "find-light-enemies",
+            "text": "Use a strong character beside two Small or otherwise liftable enemies."
+          },
+          {
+            "id": "swing-enemy",
+            "text": "Select @mechanic{Improvised Melee Weapon}, choose the first enemy as the weapon, then choose the second enemy as the target and complete the attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest28",
+      "displayName": "Busker",
+      "description": "Earn a hundred gold from playing sweet, sweet music in a single playthrough.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Earn @mechanic{100 gold from NPC tips} by performing music in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "Passing the Performance check makes nearby listeners toss coins; the same audience does not immediately tip the same song again.",
+        "steps": [
+          {
+            "id": "gain-perform",
+            "text": "Use a Bard, take the Performer feat, or have Alfira teach the player character instrument proficiency."
+          },
+          {
+            "id": "perform-crowds",
+            "text": "Equip an instrument, use @mechanic{Perform} near groups of friendly NPCs, and complete the song after passing the Performance check."
+          },
+          {
+            "id": "collect-tips",
+            "text": "Pick up the coins listeners throw and move to new crowds until the playthrough total reaches 100 gold."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest29",
+      "displayName": "Action Surge",
+      "description": "Perform five attacks in one turn. Your enemies won't know what hit them (literally).",
+      "hidden": false,
+      "globalPercent": 56.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Make @mechanic{five weapon or unarmed attacks} with one character during a single turn.",
+      "guide": {
+        "kind": "standard",
+        "context": "Extra Attack and Action Surge supply four attacks at Fighter level 5; one additional attack can come from a bonus action, Haste, or another extra-action effect.",
+        "steps": [
+          {
+            "id": "prepare-attacks",
+            "text": "Use a level-5 Fighter with Extra Attack and Action Surge, then equip two light melee weapons or apply @mechanic{Haste}."
+          },
+          {
+            "id": "attack-five",
+            "text": "In one turn, make two attacks with the first Action, activate @mechanic{Action Surge}, make two more attacks, and use the bonus action or Haste Action for the fifth attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest30",
+      "displayName": "Fists of Fury",
+      "description": "Kill a character with an Unarmed Strike.",
+      "hidden": false,
+      "globalPercent": 42.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill any character with the final damage from an @mechanic{Unarmed Strike}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A summoned creature's unarmed kill also qualifies, so the finishing blow does not need to come from the player character.",
+        "steps": [
+          {
+            "id": "weaken-target",
+            "text": "Reduce a low-health enemy until an unarmed attack can finish it."
+          },
+          {
+            "id": "unarmed-kill",
+            "text": "Unequip the attacker's melee weapons or use an unarmed summon, then select @mechanic{Unarmed Strike} and kill the target with that hit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest31",
+      "displayName": "Devil's in the Details ",
+      "description": "Defeat Commander Zhalk on the nautiloid.",
+      "hidden": false,
+      "globalPercent": 40.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Defeat @enemy{Commander Zhalk} in the nautiloid Helm before activating the transponder.",
+      "guide": {
+        "kind": "standard",
+        "context": "Zhalk is an optional prologue enemy fighting a mind flayer; the run continues only if the transponder is activated before the Helm timer expires.",
+        "steps": [
+          {
+            "id": "prepare-zhalk",
+            "text": "Free Shadowheart, recruit Lae'zel, and conserve spell slots and healing for the Helm."
+          },
+          {
+            "id": "kill-zhalk",
+            "text": "In the Helm, focus attacks and explosive objects on @enemy{Commander Zhalk} while the mind flayer occupies him, and make sure Zhalk dies before the turn limit."
+          },
+          {
+            "id": "escape",
+            "text": "Loot Zhalk if time permits, then activate the transponder to finish the prologue."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest32",
+      "displayName": "Pest Control",
+      "description": "Kill the Spider Matriarch before her eggs hatch - why do they have so many legs?",
+      "hidden": true,
+      "globalPercent": 15.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Kill the @enemy{Phase Spider Matriarch} in the Whispering Depths before any of her spiderling eggs hatch.",
+      "guide": {
+        "kind": "standard",
+        "context": "The matriarch hatches egg clusters during combat, so destroying every cluster before engaging removes the failure condition.",
+        "steps": [
+          {
+            "id": "reach-depths",
+            "text": "Enter the Whispering Depths through the Blighted Village well or a broken wall in the blacksmith's cellar."
+          },
+          {
+            "id": "destroy-eggs",
+            "text": "Stay out of the matriarch's sight and destroy all three spiderling egg clusters with ranged attacks or thrown alchemist's fire."
+          },
+          {
+            "id": "kill-matriarch",
+            "text": "Engage and defeat the @enemy{Phase Spider Matriarch} without allowing an egg cluster to hatch."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest33",
+      "displayName": "A Grym Fate",
+      "description": "Kill the Adamantine Golem without using the Forge Hammer.",
+      "hidden": true,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Defeat @enemy{Grym} at the Adamantine Forge without damaging it with the Forge Hammer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grym is vulnerable only while Superheated by lava and otherwise resists ordinary damage; bludgeoning attacks are the safest direct method.",
+        "steps": [
+          {
+            "id": "start-grym",
+            "text": "Load the Adamantine Forge, lower the platform, and turn the lava valve to summon @enemy{Grym}."
+          },
+          {
+            "id": "keep-superheated",
+            "text": "Keep lava flowing so Grym retains @mechanic{Superheated}, and do not pull the forge lever while Grym stands beneath the hammer."
+          },
+          {
+            "id": "kill-directly",
+            "text": "Use bludgeoning weapons, summons, and attacks against Grym until it dies from party damage alone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest34",
+      "displayName": "Non-Invasive Procedure",
+      "description": "Kill the Surgeon before he performs surgery on you in combat.",
+      "hidden": false,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Kill @enemy{Malus Thorm} in the House of Healing before he uses a surgery attack on a party member.",
+      "guide": {
+        "kind": "standard",
+        "context": "Persuading Malus to let the nurses practise on him resolves the encounter without exposing the party to his surgical actions.",
+        "steps": [
+          {
+            "id": "reach-surgeon",
+            "text": "Enter the House of Healing in Reithwin Town and approach @enemy{Malus Thorm} in the operating theatre."
+          },
+          {
+            "id": "prevent-surgery",
+            "text": "Use the dialogue checks that persuade the nurses to practise on Malus, or begin combat and kill Malus before he performs any surgery action on a party member."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest35",
+      "displayName": "Penny Pincher",
+      "description": "Defeat the Toll Collector without her using gold against you - excellent budgeting.",
+      "hidden": false,
+      "globalPercent": 27.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Defeat @enemy{Gerringothe Thorm} at the Reithwin Tollhouse before she uses an attack that consumes the party's gold.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sending carried gold to camp removes the resource used by her gold-based attacks and makes the condition safer.",
+        "steps": [
+          {
+            "id": "store-gold",
+            "text": "Before entering the Reithwin Tollhouse, send the party's loose gold to camp."
+          },
+          {
+            "id": "fight-collector",
+            "text": "Confront @enemy{Gerringothe Thorm}, destroy the nearby Visages to remove pieces of her armour, and defeat her before she successfully uses gold against a party member."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest36",
+      "displayName": "No Free Lunches",
+      "description": "Defeat the Apostle of Myrkul before it consumes any necromites.",
+      "hidden": true,
+      "globalPercent": 32.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Kill the @enemy{Apostle of Myrkul} without allowing the boss to consume a Necromite.",
+      "guide": {
+        "kind": "standard",
+        "context": "Necromites and their incubating pods are the boss's healing resource, so destroying them immediately prevents the forbidden consumption.",
+        "steps": [
+          {
+            "id": "free-nightsong",
+            "text": "Before damaging Ketheric in the Mind Flayer Colony, free the Nightsong if she is present so the Apostle can be harmed immediately."
+          },
+          {
+            "id": "clear-necromites",
+            "text": "Destroy every Necromite and every Necromite pod as soon as it appears, prioritizing them over boss damage."
+          },
+          {
+            "id": "kill-myrkul",
+            "text": "Finish the Apostle of Myrkul while every spawned Necromite remains unconsumed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest37",
+      "displayName": "Fancy Footwork",
+      "description": "Defeat Gortash in Wyrm's Rock without activating any traps.",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Defeat @enemy{Enver Gortash} in Wyrm's Rock Fortress without any party member activating a trap during the encounter.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grenade launchers, incinerators, and other fortress devices count as traps when triggered; fighting outside the audience chamber avoids most of them.",
+        "steps": [
+          {
+            "id": "avoid-traps",
+            "text": "Approach Gortash without stepping into trap triggers or setting off wall devices; lure him onto the rooftop or outside the trapped chamber if needed."
+          },
+          {
+            "id": "kill-gortash",
+            "text": "Defeat @enemy{Enver Gortash} while no fortress trap has activated during that battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest38",
+      "displayName": "First Blood",
+      "description": "Kill Orin while her cultists are performing their ritual chant.",
+      "hidden": true,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Kill @enemy{Orin} while the surrounding Bhaal cultists are still performing their ritual chant.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killing a chanting cultist ends the required state; burst damage that removes Orin's Unstoppable stacks is safer than clearing the arena.",
+        "steps": [
+          {
+            "id": "prepare-burst",
+            "text": "Bring multi-hit attacks or Magic Missile to remove Orin's Unstoppable stacks and save high-damage abilities for her."
+          },
+          {
+            "id": "kill-orin-first",
+            "text": "Start the Temple of Bhaal confrontation, leave every chanting cultist alive, strip Orin's defenses, and kill Orin before attacking the ritual circle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest39",
+      "displayName": "Interfectorem Draconis",
+      "description": "Kill the red dragon in the Upper City.",
+      "hidden": true,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Kill the @enemy{Dominated Red Dragon} in the Upper City courtyard during the final battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "The dragon is optional; entering the Netherbrain portal without killing it permanently leaves this achievement behind for that run.",
+        "steps": [
+          {
+            "id": "reach-courtyard",
+            "text": "Begin the final Upper City assault and reach the courtyard where the dominated red dragon guards the Crown of Karsus route."
+          },
+          {
+            "id": "kill-dragon",
+            "text": "Focus the party and allied summons on the @enemy{Dominated Red Dragon} and kill it before entering the portal to the Netherbrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest40",
+      "displayName": "Crash Landing",
+      "description": "In the Wyrmway, wait until the dragon is mid-flight, then knock it out of the sky - KAPOW.",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "In the @loc{Wyrmway}, kill @enemy{Ansur} while the dragon is airborne during Gather Power.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ansur becomes airborne and resistant to all damage during Gather Power. On Honour difficulty, his first reduction to zero triggers Unrelenting Storm instead of death, leaving him at 1 HP with 100 temporary HP.",
+        "steps": [
+          {
+            "id": "reach-ansur",
+            "text": "Enter the Wyrmway from Wyrm's Rock Prison, complete its four trials, and prepare lightning resistance and strong burst damage before approaching Ansur."
+          },
+          {
+            "id": "lower-health",
+            "text": "Damage Ansur until he rises into the air and begins @mechanic{Gather Power}."
+          },
+          {
+            "id": "airborne-kill",
+            "text": "While Ansur is still airborne and before Gather Power resolves, use the party's saved burst attacks to kill him. On Honour difficulty, continue attacking after Unrelenting Storm prevents the first kill: remove the new 100 temporary HP and the remaining 1 HP before Hoarding Energy ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest41",
+      "displayName": "Bottoms Up",
+      "description": "Long Rest using only alcohol - a time-honoured dwarven tradition.",
+      "hidden": false,
+      "globalPercent": 30.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete a full Long Rest whose selected camp supplies consist entirely of @item{alcoholic drinks}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every selected supply must be alcohol, but the drinks must still meet the full displayed supply cost.",
+        "steps": [
+          {
+            "id": "collect-alcohol",
+            "text": "Store enough wine, beer, or other items labelled as alcohol to meet one full Long Rest supply requirement."
+          },
+          {
+            "id": "rest-on-alcohol",
+            "text": "At camp, start a Long Rest, manually deselect food, select only alcoholic drinks until the supply bar is full, and confirm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest42",
+      "displayName": "Shove Off",
+      "description": "Kill a creature with falling damage.",
+      "hidden": false,
+      "globalPercent": 47.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use @mechanic{Shove}, Repelling Blast, or another forced movement effect so a living creature dies from the resulting fall.",
+      "guide": {
+        "kind": "standard",
+        "context": "Throwing an already dead body does not count because falling damage must deliver the kill.",
+        "steps": [
+          {
+            "id": "position-target",
+            "text": "Fight beside a cliff, chasm, or high ledge and leave an enemy alive near the edge."
+          },
+          {
+            "id": "cause-fall",
+            "text": "Push the enemy from the ledge with @mechanic{Shove} or another forced movement effect and make sure the fall damage kills the target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest43",
+      "displayName": "Bookworm",
+      "description": "Read 100 different books in a single playthrough. Adventuring isn't just daring quests, you know.",
+      "hidden": false,
+      "globalPercent": 39.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 3 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Open and read @mechanic{100 different books, letters, notes, or tablets} in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "Distinct readable objects count once each; merely looting a document without opening its text does not reliably advance the counter.",
+        "steps": [
+          {
+            "id": "read-documents",
+            "text": "Open readable objects in ruins, homes, libraries, and quest areas, then close each text after it appears on screen."
+          },
+          {
+            "id": "reach-hundred",
+            "text": "Continue opening new titles throughout all three acts until 100 unique documents have been read in the same playthrough."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest44",
+      "displayName": "Punch Drunk",
+      "description": "Defeat twenty opponents while drunk - down them.",
+      "hidden": false,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Defeat @mechanic{20 opponents while the attacking party member has the Alcohol condition} in one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "Consuming an alcoholic camp supply applies Alcohol for two turns; drinking immediately before an area-of-effect attack against many weak enemies makes the cumulative counter efficient.",
+        "steps": [
+          {
+            "id": "find-weak-group",
+            "text": "Save a group of weak enemies, such as the rats in the Elfsong Tavern cellar, for one prepared character."
+          },
+          {
+            "id": "gain-alcohol",
+            "text": "During combat, consume an alcoholic camp supply so the acting character gains @mechanic{Alcohol} for two turns."
+          },
+          {
+            "id": "kill-with-alcohol",
+            "text": "Use area damage to defeat enemies before Alcohol expires, and accumulate twenty qualifying defeats in the same playthrough."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest45",
+      "displayName": "Fetch Quest",
+      "description": "Play fetch with Scratch - the best boy in the Realms.",
+      "hidden": false,
+      "globalPercent": 38.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Recruit @npc{Scratch}, obtain Scratch's Ball at camp, and throw the ball for Scratch to return.",
+      "guide": {
+        "kind": "standard",
+        "context": "Scratch moves to camp after the party meets him beside his dead master and lets him follow the scent there.",
+        "steps": [
+          {
+            "id": "recruit-scratch",
+            "text": "Find Scratch northeast of the Blighted Village, reassure him, and offer your scent so he can follow the party to camp."
+          },
+          {
+            "id": "get-ball",
+            "text": "Take Long Rests until Scratch brings @item{Scratch's Ball}; accept the ball and keep it in inventory."
+          },
+          {
+            "id": "play-fetch",
+            "text": "While Scratch is present at camp, use @mechanic{Throw} on Scratch's Ball and place the target on open ground so he retrieves it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest46",
+      "displayName": "Repairing the Weave",
+      "description": "Stabilise Gale's Netherese orb.",
+      "hidden": true,
+      "globalPercent": 44.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Recruit @npc{Gale} and let him consume three eligible magic items when his Netherese Orb hunger appears.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gale requests a magic item three times; the third feeding reveals the orb and completes its temporary stabilization.",
+        "steps": [
+          {
+            "id": "recruit-gale",
+            "text": "Pull @npc{Gale} from the Roadside Cliffs Ancient Rune Circle and keep him in the party or camp."
+          },
+          {
+            "id": "feed-three",
+            "text": "Whenever Gale doubles over and asks for help, speak to him, choose @mechanic{Give Gale a magic artefact}, select an item marked as consumable by Gale, and confirm. Complete all three requests."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest47",
+      "displayName": "The Lich-Queen's Wrath",
+      "description": "Ally with Voss against the githyanki God-Queen. Good luck.",
+      "hidden": true,
+      "globalPercent": 37.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 3 hours",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Complete Crèche Y'llek, reject Vlaakith, and agree to help @npc{Kith'rak Voss} oppose her when he visits camp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Voss's alliance scene occurs after the inquisitor and Astral Prism sequence; Lae'zel must remain available for the githyanki quest route.",
+        "steps": [
+          {
+            "id": "finish-creche",
+            "text": "Take Lae'zel through Crèche Y'llek, meet Vlaakith after the inquisitor encounter, and leave without killing the Dream Visitor."
+          },
+          {
+            "id": "meet-voss",
+            "text": "Take a Long Rest after leaving the crèche or entering the Shadow-Cursed Lands, speak with @npc{Kith'rak Voss} at camp, and agree to ally against Vlaakith."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest48",
+      "displayName": "To Bloom in Darkest Night",
+      "description": "Gift Shadowheart a night orchid - her favourite flower. Always knew she was a softie.",
+      "hidden": true,
+      "globalPercent": 27.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Pick a @item{Night Orchid} in the Shadow-Cursed Lands and give it to @npc{Shadowheart} through her dialogue.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shadowheart reveals that night orchids are her favourite flower in an earlier personal conversation; carrying one enables the gift line.",
+        "steps": [
+          {
+            "id": "find-orchid",
+            "text": "Collect a @item{Night Orchid} in the Shadow-Cursed Lands during Act II."
+          },
+          {
+            "id": "give-flower",
+            "text": "Keep Shadowheart recruited, speak to her, and select the dialogue line offering her the Night Orchid."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest49",
+      "displayName": "Hot Date",
+      "description": "Go on a date with Karlach - now that's playing with fire.",
+      "hidden": true,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 50 hours",
+      "estMinutes": 3000,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Romance @npc{Karlach}, complete both infernal-engine upgrades with Dammon, and accept Karlach's Act III date invitation.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dammon must survive the Emerald Grove and Last Light Inn routes. Do not become partnered with another companion before Karlach's Act II romance scene, and trigger Karlach's scene after the second engine repair but before leaving Act II.",
+        "steps": [
+          {
+            "id": "begin-romance",
+            "text": "Recruit Karlach, raise her approval, deliver Infernal Iron to Dammon at the Emerald Grove, and choose Karlach's romantic dialogue at the tiefling celebration in Act I."
+          },
+          {
+            "id": "second-upgrade",
+            "text": "Keep Dammon alive, find him at Last Light Inn in Act II, give him another Infernal Iron for Karlach's second engine upgrade, and choose to kiss Karlach when she can touch safely."
+          },
+          {
+            "id": "take-date",
+            "text": "Continue the romance into Act III, take Long Rests until Karlach proposes a date, accept, and complete the date at @loc{The Singing Lute}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest50",
+      "displayName": "Just a Nibble",
+      "description": "Let Astarion bite you - ouch.",
+      "hidden": true,
+      "globalPercent": 50.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Recruit @npc{Astarion}, allow his nighttime bite, and choose the dialogue option that lets him drink the player character's blood.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bite scene occurs during a Long Rest after Astarion has joined the party; staking or driving him away permanently closes this route.",
+        "steps": [
+          {
+            "id": "recruit-astarion",
+            "text": "Recruit @npc{Astarion} near the Nautiloid Wreck and take Long Rests until he approaches the sleeping player character."
+          },
+          {
+            "id": "allow-bite",
+            "text": "During the bite scene, choose the line that permits Astarion to continue feeding; stop him later if desired, but do not refuse the initial bite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest51",
+      "displayName": "Loophole",
+      "description": "Break Wyll's pact with Mizora.",
+      "hidden": true,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 30 hours",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Rescue @npc{Mizora} in Act II, then choose the Act III pact dialogue that permanently frees @npc{Wyll} from her contract.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mizora must survive the Mind Flayer Colony; the contract decision follows Gortash's coronation and a camp visit from Mizora.",
+        "steps": [
+          {
+            "id": "rescue-mizora",
+            "text": "Bring Wyll to the Mind Flayer Colony, open Mizora's pod, and choose @mechanic{Release} rather than annihilating her."
+          },
+          {
+            "id": "trigger-contract",
+            "text": "In Act III, attend Gortash's coronation, speak with Mizora outside Wyrm's Rock, and take a Long Rest so she appears in camp."
+          },
+          {
+            "id": "break-pact",
+            "text": "During Mizora's camp bargain, choose the option that breaks Wyll's pact permanently rather than renewing it for Duke Ravengard's location."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest52",
+      "displayName": "Embrace Your Urge",
+      "description": "Become Bhaal's ultimate weapon - become his Slayer.",
+      "hidden": true,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 hours",
+      "estMinutes": 1800,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Play @mechanic{The Dark Urge} and accept Bhaal's gift of the Slayer after killing Isobel or defeating Orin.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Slayer can be granted in Act II for killing Isobel or in Act III after winning the Dark Urge confrontation with Orin and submitting to Bhaal.",
+        "steps": [
+          {
+            "id": "start-dark-urge",
+            "text": "Create or select @mechanic{The Dark Urge} as the origin character."
+          },
+          {
+            "id": "accept-slayer",
+            "text": "Either kill Isobel and accept the reward from Sceleritas Fel, or defeat Orin in Act III and choose to accept Bhaal's inheritance instead of rejecting him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest53",
+      "displayName": "Critical Hit",
+      "description": "Complete the game in Tactician mode.",
+      "hidden": false,
+      "globalPercent": 6.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "about 70 hours",
+      "estMinutes": 4200,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Start a new @mechanic{Tactician} campaign and complete the Netherbrain ending without lowering the difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Changing to a lower difficulty invalidates the continuous Tactician completion requirement; Honour completion can also satisfy this tier.",
+        "steps": [
+          {
+            "id": "start-tactician",
+            "text": "Create a new campaign with @mechanic{Tactician} selected and keep that difficulty for the entire run."
+          },
+          {
+            "id": "complete-run",
+            "text": "Finish all three acts, enter the Netherbrain's psyche through the Crown of Karsus, reduce the Netherbrain to zero hit points, and continue through the ending until the completion achievement appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BG3_Quest54",
+      "displayName": "Foehammer",
+      "description": "Complete the game in Honour mode.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "about 80 hours",
+      "estMinutes": 4800,
+      "stage": 7,
+      "confidence": "verified",
+      "lockoutStage": 7,
+      "summary": "Start a new @mechanic{Honour Mode} campaign and complete the Act III Netherbrain ending without the party wiping.",
+      "guide": {
+        "kind": "standard",
+        "context": "Honour Mode uses one save. Continuing a defeated run in Custom Mode does not award Foehammer, and detonating Gale's orb in Act II is not a valid completion.",
+        "steps": [
+          {
+            "id": "start-honour",
+            "text": "Create a new campaign with @mechanic{Honour Mode}; never use a continuation that has been converted to Custom Mode after a total-party defeat."
+          },
+          {
+            "id": "reach-brainstem",
+            "text": "Survive through Act III, obtain all three Netherstones, recruit Gale, and reach the brainstem before the Upper City final battle."
+          },
+          {
+            "id": "finish-honour",
+            "text": "Either complete the final battle normally or, after Gale offers at the brainstem, let Gale climb alone and detonate the orb through the dialogue scene. Continue through the ending until Foehammer unlocks."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "BG3_Quest31",
+    "BG3_Quest01",
+    "BG3_Quest11",
+    "BG3_Quest50",
+    "BG3_Quest19",
+    "BG3_Quest20",
+    "BG3_Quest18",
+    "BG3_Quest23",
+    "BG3_Quest46",
+    "BG3_Quest32",
+    "BG3_Quest33",
+    "BG3_Quest02",
+    "BG3_Quest13",
+    "BG3_Quest10",
+    "BG3_Quest42",
+    "BG3_Quest12",
+    "BG3_Quest30",
+    "BG3_Quest45",
+    "BG3_Quest41",
+    "BG3_Quest14",
+    "BG3_Quest17",
+    "BG3_Quest15",
+    "BG3_Quest29",
+    "BG3_Quest27",
+    "BG3_Quest09",
+    "BG3_Quest28",
+    "BG3_Quest48",
+    "BG3_Quest35",
+    "BG3_Quest34",
+    "BG3_Quest36",
+    "BG3_Quest47",
+    "BG3_Quest21",
+    "BG3_Quest22",
+    "BG3_Quest03",
+    "BG3_Quest25",
+    "BG3_Quest38",
+    "BG3_Quest37",
+    "BG3_Quest40",
+    "BG3_Quest51",
+    "BG3_Quest26",
+    "BG3_Quest49",
+    "BG3_Quest16",
+    "BG3_Quest44",
+    "BG3_Quest43",
+    "BG3_Quest06",
+    "BG3_Quest05",
+    "BG3_Quest08",
+    "BG3_Quest39",
+    "BG3_Quest04",
+    "BG3_Quest24",
+    "BG3_Quest52",
+    "BG3_Quest07",
+    "BG3_Quest53",
+    "BG3_Quest54"
+  ]
+}

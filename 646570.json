@@ -1,0 +1,2045 @@
+{
+  "game": {
+    "appid": 646570,
+    "slug": "slay-the-spire",
+    "title": "Slay the Spire",
+    "version": "2.3.4",
+    "lastPatchChecked": "2022-12-18",
+    "estTotalHours": 175,
+    "difficultyRating": 9,
+    "minPlaythroughs": 24,
+    "createdAt": "2026-07-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Learn the four characters and clear every Act boss",
+      "description": "Use unseeded Standard runs to record each character's first Act III victory, defeat all nine rotating bosses, and collect the easy combat and mode achievements.",
+      "achievementRefs": [
+        "SHRUG_IT_OFF",
+        "COME_AT_ME",
+        "PERFECT",
+        "GUARDIAN",
+        "GHOST_GUARDIAN",
+        "SLIME_BOSS",
+        "AUTOMATON",
+        "COLLECTOR",
+        "CHAMP",
+        "CROW",
+        "SHAPES",
+        "TIME_EATER",
+        "RUBY",
+        "EMERALD",
+        "SAPPHIRE",
+        "AMETHYST",
+        "ASCEND_0",
+        "LUCKY_DAY"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build specialist engines and complete every Ending",
+      "description": "Use focused Ironclad, Silent, and Defect decks for threshold achievements, unlock the three Keys, then defeat the Corrupt Heart with all four characters.",
+      "achievementRefs": [
+        "THE_PACT",
+        "ADRENALINE",
+        "POWERFUL",
+        "JAXXED",
+        "IMPERVIOUS",
+        "BARRICADED",
+        "CATALYST",
+        "PLAGUE",
+        "NINJA",
+        "INFINITY",
+        "YOU_ARE_NOTHING",
+        "PURITY",
+        "DONUT",
+        "FOCUSED",
+        "NEON",
+        "TRANSIENT",
+        "RUBY_PLUS",
+        "EMERALD_PLUS",
+        "SAPPHIRE_PLUS",
+        "AMETHYST_PLUS",
+        "THE_ENDING"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish restricted victories and the Ascension climb",
+      "description": "Attempt the five-card, Common-only, one-Relic, and sub-20-minute victories after all unlocks are available, then win sequential Ascensions through level 20.",
+      "achievementRefs": [
+        "COMMON_SENSE",
+        "MINIMALIST",
+        "ONE_RELIC",
+        "SPEED_CLIMBER",
+        "ASCEND_10",
+        "ASCEND_20"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Collect the automatic completion achievement",
+      "description": "Verify the other 45 achievements so Eternal One can register as the final unlock.",
+      "achievementRefs": [
+        "ETERNAL_ONE"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "SHRUG_IT_OFF",
+      "displayName": "Shrug It Off",
+      "description": "Win a battle with 1 HP remaining.",
+      "hidden": false,
+      "globalPercent": 59.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-20 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "Finish any combat at exactly @mechanic{1 HP} and take the victory reward.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the HP value after the last enemy dies matters, so Block can be used to tune the final incoming hit without preventing the unlock.",
+        "steps": [
+          {
+            "id": "prepare-one-hp",
+            "text": "Enter a low-risk Standard combat, leave one enemy alive, and compare its shown damage with your current HP and available Block."
+          },
+          {
+            "id": "take-exact-damage",
+            "text": "Use enough Block, Weak, or healing control so the enemy's attack leaves the character at exactly 1 HP."
+          },
+          {
+            "id": "finish-combat",
+            "text": "Kill the final enemy while still at 1 HP and proceed to the combat reward screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PURITY",
+      "displayName": "Purity",
+      "description": "Have 3 or fewer cards in hand, draw, and discard pile combined.",
+      "hidden": false,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10-60 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "After floor 3, reduce the combined cards in your @mechanic{hand, draw pile, and discard pile to three or fewer} during combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Exhausted cards and cards held outside those three zones do not count, so a small deck or an Ironclad Exhaust engine can meet the threshold before combat ends.",
+        "steps": [
+          {
+            "id": "prepare-small-deck",
+            "text": "Use card-removal services and avoid unnecessary rewards so the run has a compact deck, preferably with Ironclad Exhaust cards such as Fiend Fire or Sever Soul."
+          },
+          {
+            "id": "enter-later-combat",
+            "text": "Start a combat on floor 4 or later and keep one manageable enemy alive."
+          },
+          {
+            "id": "reduce-three-zones",
+            "text": "Play and Exhaust cards until the total visible across the hand, draw pile, and discard pile is three or fewer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COME_AT_ME",
+      "displayName": "Come At Me",
+      "description": "Win a combat without playing an Attack.",
+      "hidden": false,
+      "globalPercent": 54.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-20 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "Win a Standard combat without playing any @mechanic{Attack card}; damage from Skills, Powers, Potions, Relics, Poison, or Orbs is allowed.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Defect starts combat with a Lightning Orb, making an early enemy a reliable target because passive Orb damage does not count as playing an Attack.",
+        "steps": [
+          {
+            "id": "select-defect",
+            "text": "Start an unseeded Standard run as the Defect; take Neow's Lament if it is offered to reduce the first three enemies to 1 HP."
+          },
+          {
+            "id": "avoid-attacks",
+            "text": "In an early combat, play only Defend cards or other non-Attacks."
+          },
+          {
+            "id": "use-passive-damage",
+            "text": "Let the starting Lightning Orb or another non-Attack damage source kill the final enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THE_PACT",
+      "displayName": "The Pact",
+      "description": "Exhaust 20 cards in a single combat.",
+      "hidden": false,
+      "globalPercent": 62.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10-60 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "Use Ironclad Exhaust effects to @mechanic{Exhaust 20 cards in one combat} before killing the last enemy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Exhaust removes a card for the rest of the current combat; a larger deck and a durable enemy provide enough material and time for the counter.",
+        "steps": [
+          {
+            "id": "draft-exhaust-engine",
+            "text": "Draft several Ironclad cards that Exhaust cards, especially Fiend Fire and Sever Soul, while retaining enough defense to prolong combat."
+          },
+          {
+            "id": "choose-durable-enemy",
+            "text": "Enter a combat against an enemy whose incoming damage can be blocked consistently."
+          },
+          {
+            "id": "exhaust-twenty",
+            "text": "Cycle the deck and use Exhaust effects until 20 cards have entered the Exhaust pile during that combat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ADRENALINE",
+      "displayName": "Adrenaline",
+      "description": "Have 9 Energy during a single turn of combat.",
+      "hidden": false,
+      "globalPercent": 60.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "Accumulate at least @mechanic{9 Energy at the same time during one combat turn}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ice Cream preserves unused Energy between turns; Watcher Miracles and Deus Ex Machina or Defect Plasma and Double Energy can supply the remaining Energy on the target turn.",
+        "steps": [
+          {
+            "id": "build-energy-engine",
+            "text": "Take Ice Cream when available, or draft Watcher Miracle generators or Defect cards that Channel Plasma and Double Energy."
+          },
+          {
+            "id": "store-or-generate",
+            "text": "Keep a safe enemy alive, save Energy with Ice Cream or prepare the needed retained and draw-pile Energy cards."
+          },
+          {
+            "id": "reach-nine",
+            "text": "Generate Energy without spending it until the combat Energy display reaches 9 or more during the turn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "POWERFUL",
+      "displayName": "Powerful",
+      "description": "Have 10 or more buffs during combat.",
+      "hidden": false,
+      "globalPercent": 33.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10-60 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "Hold @mechanic{10 different positive buffs at the same time} during one combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Defect's Creative AI can keep generating different Power cards, allowing a long defensive combat to accumulate many persistent buff icons.",
+        "steps": [
+          {
+            "id": "draft-creative-ai",
+            "text": "Build a defensive Defect deck and take Creative AI plus varied Power cards and buff-granting Relics."
+          },
+          {
+            "id": "stall-safely",
+            "text": "Against a low-damage enemy, play Creative AI and block while it adds a random Power to the hand each turn."
+          },
+          {
+            "id": "stack-ten-buffs",
+            "text": "Play Powers that create distinct positive status icons until 10 buffs are active simultaneously."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JAXXED",
+      "displayName": "Jaxxed",
+      "description": "Have 50 or more Strength during combat.",
+      "hidden": false,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10-60 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat-thresholds",
+      "summary": "Raise the character to @mechanic{50 Strength or more} during one combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ironclad's Demon Form adds Strength every turn, so a block-heavy deck can reach the threshold by extending a safe fight.",
+        "steps": [
+          {
+            "id": "draft-strength",
+            "text": "As Ironclad, take Demon Form, Inflame, and enough Block cards to survive a long combat."
+          },
+          {
+            "id": "play-demon-form",
+            "text": "Play Demon Form early against an enemy whose damage can be blocked consistently."
+          },
+          {
+            "id": "wait-for-fifty",
+            "text": "Continue ending turns and blocking until the Strength counter reaches at least 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IMPERVIOUS",
+      "displayName": "Impervious",
+      "description": "Have 99 or more Block during combat.",
+      "hidden": false,
+      "globalPercent": 38.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "block",
+      "summary": "Reach @mechanic{99 Block or more} at one time during combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barricade prevents Block from disappearing at the start of the next turn, while Entrench doubles the Block already accumulated.",
+        "steps": [
+          {
+            "id": "draft-block-engine",
+            "text": "As Ironclad, obtain Barricade, Entrench, and several efficient Block cards."
+          },
+          {
+            "id": "retain-block",
+            "text": "Play Barricade against a manageable enemy and build Block over multiple turns."
+          },
+          {
+            "id": "cross-ninety-nine",
+            "text": "Use Entrench after accumulating a substantial Block total until the display reaches at least 99."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BARRICADED",
+      "displayName": "Barricaded",
+      "description": "Have 999 Block during combat.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15-80 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "IMPERVIOUS"
+      ],
+      "group": "block",
+      "summary": "Use a retained-Block engine to reach the @mechanic{999 Block cap} during one combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barricade retains Block between turns and repeated Entrench plays double the stored amount, making the cap reachable against an enemy that cannot break the engine.",
+        "steps": [
+          {
+            "id": "assemble-barricade",
+            "text": "As Ironclad, build around Barricade, Entrench, reliable card draw, and enough Block to become damage-proof."
+          },
+          {
+            "id": "stabilize-combat",
+            "text": "Choose a low-scaling enemy, play Barricade, and establish more Block per cycle than the enemy removes."
+          },
+          {
+            "id": "double-to-cap",
+            "text": "Cycle and replay Entrench while adding Block until the counter reaches 999."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CATALYST",
+      "displayName": "Catalyst",
+      "description": "Apply 99 or more Poison on a single enemy.",
+      "hidden": false,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10-60 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "silent",
+      "summary": "Apply @mechanic{99 Poison or more to one enemy} during a Silent combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "An upgraded Catalyst triples the target's current Poison; starting from 11 Poison and resolving two Catalyst+ cards reaches 99 exactly.",
+        "steps": [
+          {
+            "id": "draft-catalysts",
+            "text": "As the Silent, obtain and upgrade two Catalyst cards while drafting reliable Poison application and card draw."
+          },
+          {
+            "id": "apply-eleven",
+            "text": "Against a durable enemy, apply at least 11 Poison and keep the enemy alive."
+          },
+          {
+            "id": "triple-twice",
+            "text": "Play both Catalyst+ cards on that enemy before Poison damage kills it, raising the stack to at least 99."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PLAGUE",
+      "displayName": "Plague",
+      "description": "Defeat 3 enemies with Poison in a single combat.",
+      "hidden": false,
+      "globalPercent": 53.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "silent",
+      "summary": "In one combat with at least three enemies, apply Poison to three enemies and let @mechanic{Poison deliver the killing blow to each enemy}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Poison must deal each target's final damage; direct attacks can lower enemy HP, but they should stop before taking a required killing blow.",
+        "steps": [
+          {
+            "id": "prepare-wide-poison",
+            "text": "As the Silent, draft enough Poison application to affect several targets in the same fight; Corpse Explosion can support the setup, but each required target must have Poison."
+          },
+          {
+            "id": "find-three-enemy-fight",
+            "text": "Enter a normal or Elite combat containing at least three enemies."
+          },
+          {
+            "id": "poison-three",
+            "text": "Apply Poison to three enemies, stop direct damage before they die, and defend until Poison removes all three during that combat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NINJA",
+      "displayName": "Ninja",
+      "description": "Play 10 Shivs in a single turn.",
+      "hidden": false,
+      "globalPercent": 27.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "silent",
+      "summary": "Play @mechanic{10 Shiv cards during a single turn} as the Silent.",
+      "guide": {
+        "kind": "standard",
+        "context": "Blade Dance+ creates four Shivs, so three upgraded copies produce enough Shivs if the turn has the Energy and hand space to play them all.",
+        "steps": [
+          {
+            "id": "draft-shivs",
+            "text": "As the Silent, collect and upgrade multiple Blade Dance cards; Cloak and Dagger and Infinite Blades can supply additional Shivs."
+          },
+          {
+            "id": "prepare-energy-space",
+            "text": "Enter a safe combat with three Blade Dance+ cards available, at least 3 Energy, and enough hand space for generated Shivs."
+          },
+          {
+            "id": "play-ten-shivs",
+            "text": "Generate and play Shivs without ending the turn until 10 Shiv cards have been played."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "INFINITY",
+      "displayName": "Infinity",
+      "description": "Play 25 cards in a single turn.",
+      "hidden": false,
+      "globalPercent": 23.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "15-80 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "infinite-loop",
+      "summary": "Use a draw-and-Energy loop to @mechanic{play 25 cards in one turn}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two Dropkick cards can loop after Vulnerable is applied when the remaining draw and discard cycle is small enough: each Dropkick draws the other and refunds its Energy.",
+        "steps": [
+          {
+            "id": "build-dropkick-loop",
+            "text": "As Ironclad, obtain two Dropkick cards, a reliable Vulnerable source, and remove or Exhaust enough other cards to make the pair cycle."
+          },
+          {
+            "id": "apply-vulnerable",
+            "text": "Against a durable enemy, apply Vulnerable and clear the other cards from the active draw and discard cycle."
+          },
+          {
+            "id": "loop-twenty-five",
+            "text": "Alternate the two Dropkicks while Vulnerable remains until at least 25 cards have been played that turn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "YOU_ARE_NOTHING",
+      "displayName": "You Are Nothing",
+      "description": "Defeat a boss on turn 1.",
+      "hidden": false,
+      "globalPercent": 13.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "20-100 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "INFINITY"
+      ],
+      "group": "infinite-loop",
+      "summary": "Defeat any Act boss during @mechanic{turn 1}; killing the Awakened One's first phase on turn 1 also qualifies.",
+      "guide": {
+        "kind": "standard",
+        "context": "A compact Dropkick loop or another first-turn infinite removes the boss before it can act, and an Act I boss has the lowest health requirement.",
+        "steps": [
+          {
+            "id": "prepare-first-turn-loop",
+            "text": "Build a compact deck that can draw its complete damage-and-Energy loop immediately, such as two Dropkicks plus a Vulnerable source."
+          },
+          {
+            "id": "reach-act-one-boss",
+            "text": "Preserve the combo through Act I and enter the floor 16 boss encounter."
+          },
+          {
+            "id": "kill-on-turn-one",
+            "text": "On the opening turn, establish the loop and deal the boss's full health before pressing End Turn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PERFECT",
+      "displayName": "Perfect",
+      "description": "Defeat a boss without taking any damage.",
+      "hidden": false,
+      "globalPercent": 56.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-30 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "boss-challenges",
+      "summary": "Defeat a normal Act boss without @mechanic{losing HP to the boss or its effects during that combat}.",
+      "guide": {
+        "kind": "standard",
+        "context": "HP loss from the character's own cards does not invalidate the achievement, but the Act I boss fought through Mind Bloom does not count.",
+        "steps": [
+          {
+            "id": "build-defense",
+            "text": "Prepare a deck with reliable Block, Weak, Intangible, or rapid scaling before a normal act-ending boss."
+          },
+          {
+            "id": "prevent-boss-damage",
+            "text": "During the boss encounter, block or avoid every incoming point of enemy attack damage."
+          },
+          {
+            "id": "finish-undamaged",
+            "text": "Kill the boss without the boss reducing the character's HP."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GUARDIAN",
+      "displayName": "The Guardian",
+      "description": "Defeat the Guardian.",
+      "hidden": true,
+      "globalPercent": 85.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-50 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act I floor 16 on a Standard run and defeat @enemy{The Guardian}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Guardian changes to Defensive Mode after enough damage; stop multi-hit attacks while Sharp Hide is active and block the return attacks.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act I boss portrait for The Guardian."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to The Guardian while climbing to floor 16."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against The Guardian."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GHOST_GUARDIAN",
+      "displayName": "The Ghost",
+      "description": "Defeat Hexaghost.",
+      "hidden": true,
+      "globalPercent": 81.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-50 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act I floor 16 on a Standard run and defeat @enemy{Hexaghost}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hexaghost adds Burns and eventually repeats its large Inferno sequence, so scale damage while blocking the early multi-hit pattern.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act I boss portrait for Hexaghost."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to Hexaghost while climbing to floor 16."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against Hexaghost."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SLIME_BOSS",
+      "displayName": "The Boss",
+      "description": "Defeat the Slime Boss.",
+      "hidden": true,
+      "globalPercent": 78.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-50 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act I floor 16 on a Standard run and defeat @enemy{Slime Boss}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Slime Boss splits at half health; push it from just above the threshold to as low as possible before the split, then use area damage on the smaller slimes.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act I boss portrait for Slime Boss."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to Slime Boss while climbing to floor 16."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against Slime Boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AUTOMATON",
+      "displayName": "The Automaton",
+      "description": "Defeat the Bronze Automaton.",
+      "hidden": true,
+      "globalPercent": 66.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-50 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act II floor 33 on a Standard run and defeat @enemy{Bronze Automaton}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bronze Orbs steal cards and return them when destroyed; recover the cards before Hyper Beam and prepare enough Block for that attack.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act II boss portrait for Bronze Automaton."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to Bronze Automaton while climbing to floor 33."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against Bronze Automaton."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECTOR",
+      "displayName": "The Collector",
+      "description": "Defeat the Collector.",
+      "hidden": true,
+      "globalPercent": 64.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-50 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act II floor 33 on a Standard run and defeat @enemy{The Collector}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Collector summons Torch Heads and applies a multi-debuff; area damage controls the minions while focused damage ends the boss before repeated summons overwhelm the deck.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act II boss portrait for The Collector."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to The Collector while climbing to floor 33."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against The Collector."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CHAMP",
+      "displayName": "The Champion",
+      "description": "Defeat the Champ.",
+      "hidden": true,
+      "globalPercent": 71.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-50 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act II floor 33 on a Standard run and defeat @enemy{The Champ}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Champ clears debuffs and becomes much more dangerous after dropping low, so establish scaling above that threshold and finish the second half quickly.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act II boss portrait for The Champ."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to The Champ while climbing to floor 33."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against The Champ."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CROW",
+      "displayName": "The Crow",
+      "description": "Defeat the Awakened One.",
+      "hidden": true,
+      "globalPercent": 55.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-50 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act III floor 50 on a Standard run and defeat @enemy{Awakened One}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Awakened One gains Strength when Powers are played and revives for a second phase; play essential Powers carefully and reserve enough defense for the revived form.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act III boss portrait for Awakened One."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to Awakened One while climbing to floor 50."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against Awakened One."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SHAPES",
+      "displayName": "The Shapes",
+      "description": "Defeat Donu and Deca.",
+      "hidden": true,
+      "globalPercent": 55.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-50 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act III floor 50 on a Standard run and defeat @enemy{Donu and Deca}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Donu increases both enemies' Strength while Deca adds defense, so concentrating damage on one target prevents their scaling from compounding.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act III boss portrait for Donu and Deca."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to Donu and Deca while climbing to floor 50."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against Donu and Deca."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TIME_EATER",
+      "displayName": "The Time Eater",
+      "description": "Defeat the Time Eater.",
+      "hidden": true,
+      "globalPercent": 49.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-50 hr",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "bosses",
+      "summary": "Reach Act III floor 50 on a Standard run and defeat @enemy{Time Eater}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Time Eater ends the turn whenever the 12-card counter fills; plan each turn around the visible counter instead of leaving unused Energy when the limit triggers.",
+        "steps": [
+          {
+            "id": "identify-boss",
+            "text": "Start an unseeded Standard run and check the Act III boss portrait for Time Eater."
+          },
+          {
+            "id": "prepare-matchup",
+            "text": "Build damage, Block, and scaling suited to Time Eater while climbing to floor 50."
+          },
+          {
+            "id": "defeat-boss",
+            "text": "Win the complete boss encounter against Time Eater."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RUBY",
+      "displayName": "Ruby",
+      "description": "Beat the game with the Ironclad.",
+      "hidden": false,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "character-wins",
+      "summary": "Use the @npc{Ironclad} to defeat the Act III boss without carrying the Ruby, Emerald, and Sapphire Keys together into Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defeating Act III counts as a run victory only when at least one Key is missing; collecting all three postpones victory until the Corrupt Heart is defeated.",
+        "steps": [
+          {
+            "id": "unlock-character",
+            "text": "Ironclad is available from the first save-file run."
+          },
+          {
+            "id": "select-character",
+            "text": "Select Ironclad for an unseeded Standard run."
+          },
+          {
+            "id": "leave-key-missing",
+            "text": "Do not collect all three of the Ruby, Emerald, and Sapphire Keys during the run."
+          },
+          {
+            "id": "win-act-three",
+            "text": "Climb through all three acts and defeat the Act III boss to record the character victory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EMERALD",
+      "displayName": "Emerald",
+      "description": "Beat the game with the Silent.",
+      "hidden": false,
+      "globalPercent": 50.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "character-wins",
+      "summary": "Use the @npc{Silent} to defeat the Act III boss without carrying the Ruby, Emerald, and Sapphire Keys together into Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defeating Act III counts as a run victory only when at least one Key is missing; collecting all three postpones victory until the Corrupt Heart is defeated.",
+        "steps": [
+          {
+            "id": "unlock-character",
+            "text": "Complete any Ironclad run, even a loss, to unlock Silent."
+          },
+          {
+            "id": "select-character",
+            "text": "Select Silent for an unseeded Standard run."
+          },
+          {
+            "id": "leave-key-missing",
+            "text": "Do not collect all three of the Ruby, Emerald, and Sapphire Keys during the run."
+          },
+          {
+            "id": "win-act-three",
+            "text": "Climb through all three acts and defeat the Act III boss to record the character victory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ONE_RELIC",
+      "displayName": "Who Needs Relics?",
+      "description": "Beat the game with a single relic.",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "40-150 hr",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "restricted-runs",
+      "summary": "Defeat the Act III boss with @mechanic{exactly one Relic total}, counting the character's starting Relic or its replacement.",
+      "guide": {
+        "kind": "standard",
+        "context": "Replacing the starting Relic with a Boss Relic still leaves one total, but Neow's Lament adds a second Relic and invalidates the restriction.",
+        "steps": [
+          {
+            "id": "start-one-relic",
+            "text": "Begin an unseeded Standard run and keep the starting Relic, or choose Neow's option that replaces it with one Boss Relic."
+          },
+          {
+            "id": "decline-relics",
+            "text": "Skip every Elite, chest, event, shop, and boss Relic reward; avoid any option that automatically grants another Relic."
+          },
+          {
+            "id": "verify-and-win",
+            "text": "Before the Act III boss, verify the Relic bar contains exactly one icon, then defeat that boss without collecting all three Keys."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPEED_CLIMBER",
+      "displayName": "Speed Climber",
+      "description": "Beat the game in under 20 minutes.",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "40-150 hr",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "restricted-runs",
+      "summary": "Enable @mechanic{Fast Mode} and defeat the Act III boss in an unseeded Standard run before the timer reaches @mechanic{20:00}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Act IV is unnecessary, and avoiding Elites, long events, and complex reward decisions saves more time than attempting a slow high-value route.",
+        "steps": [
+          {
+            "id": "enable-fast-mode",
+            "text": "Open Settings before the run and enable `Fast Mode` to shorten combat animations."
+          },
+          {
+            "id": "take-fast-route",
+            "text": "Use a familiar character, favor direct combat paths, skip optional Elites and lengthy deck decisions, and build immediate area damage."
+          },
+          {
+            "id": "finish-before-twenty",
+            "text": "Leave at least one Key uncollected and defeat the Act III boss before the run timer reaches 20 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MINIMALIST",
+      "displayName": "Minimalist",
+      "description": "Beat the game with a 5 card deck or smaller.",
+      "hidden": false,
+      "globalPercent": 4.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "40-150 hr",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "restricted-runs",
+      "summary": "Defeat the Act III boss with @mechanic{five or fewer permanent cards in the deck}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Merchant removal, removal events, and Peace Pipe can shrink the deck; a compact Watcher Pressure Points deck or Ironclad Dropkick loop can still supply enough damage.",
+        "steps": [
+          {
+            "id": "choose-compact-plan",
+            "text": "Start an unseeded Standard run and take very few card rewards, keeping only cards required for a compact win condition."
+          },
+          {
+            "id": "remove-to-five",
+            "text": "Route through Merchants and card-removal events, spending Gold to remove starter cards until the deck counter is five or lower."
+          },
+          {
+            "id": "win-with-five",
+            "text": "Leave at least one Key uncollected and defeat the Act III boss while the permanent deck contains no more than five cards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DONUT",
+      "displayName": "Ooh Donut!",
+      "description": "Finish Donu with a Feed.",
+      "hidden": false,
+      "globalPercent": 8.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20-120 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "boss-challenges",
+      "summary": "As Ironclad, use @item{Feed} to deal the killing blow to @enemy{Donu} during the Donu and Deca boss fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "Feed Exhausts after use, and Donu and Deca are only one of three possible Act III bosses, so preserve Feed and Donu's final health for the Fatal hit.",
+        "steps": [
+          {
+            "id": "draft-feed",
+            "text": "As Ironclad, take a Feed card and keep it in the deck through Acts I and II."
+          },
+          {
+            "id": "find-donu",
+            "text": "Reach Act III on a run whose boss portrait shows Donu and Deca."
+          },
+          {
+            "id": "feed-donu",
+            "text": "During the boss fight, target Donu, reduce Donu to Feed's displayed damage or less, and play Feed for the killing blow."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ASCEND_0",
+      "displayName": "Ascend 0",
+      "description": "Unlock Ascension mode.",
+      "hidden": false,
+      "globalPercent": 66.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "ascension",
+      "summary": "Defeat an Act III boss with any character to unlock that character's @mechanic{Ascension selector}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension progress is separate for each character, and defeating the Corrupt Heart or entering Act IV is not required to unlock the next level.",
+        "steps": [
+          {
+            "id": "choose-character",
+            "text": "Start an unseeded Standard run with the character whose Ascension ladder you want to use."
+          },
+          {
+            "id": "win-act-three",
+            "text": "Leave at least one Key uncollected and defeat the Act III boss."
+          },
+          {
+            "id": "confirm-ascension",
+            "text": "Return to character select and verify that the Ascension checkbox and level selector are available for that character."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ASCEND_10",
+      "displayName": "Ascend 10",
+      "description": "Complete Ascension Level 10.",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "60-170 hr",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ASCEND_0"
+      ],
+      "group": "ascension",
+      "summary": "Select @mechanic{Ascension 10} on one character and defeat the Act III boss at that level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each completed Ascension unlocks the next level only for that character; Ascension 10 also adds Ascender's Bane to the starting deck.",
+        "steps": [
+          {
+            "id": "climb-to-ten",
+            "text": "Use one preferred character and defeat the Act III boss at Ascension levels 1 through 9 in order."
+          },
+          {
+            "id": "select-a10",
+            "text": "On character select, enable Ascension and set the unlocked level to 10."
+          },
+          {
+            "id": "complete-a10",
+            "text": "Leave at least one Key uncollected and defeat the Act III boss on Ascension 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SAPPHIRE",
+      "displayName": "Sapphire",
+      "description": "Beat the game with the Defect.",
+      "hidden": false,
+      "globalPercent": 44.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "character-wins",
+      "summary": "Use the @npc{Defect} to defeat the Act III boss without carrying the Ruby, Emerald, and Sapphire Keys together into Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defeating Act III counts as a run victory only when at least one Key is missing; collecting all three postpones victory until the Corrupt Heart is defeated.",
+        "steps": [
+          {
+            "id": "unlock-character",
+            "text": "Complete any Silent run, even a loss, to unlock Defect."
+          },
+          {
+            "id": "select-character",
+            "text": "Select Defect for an unseeded Standard run."
+          },
+          {
+            "id": "leave-key-missing",
+            "text": "Do not collect all three of the Ruby, Emerald, and Sapphire Keys during the run."
+          },
+          {
+            "id": "win-act-three",
+            "text": "Climb through all three acts and defeat the Act III boss to record the character victory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMMON_SENSE",
+      "displayName": "Common Sense",
+      "description": "Beat the game with a deck containing no uncommons or rares.",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "40-150 hr",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "restricted-runs",
+      "summary": "Defeat the Act III boss with @mechanic{no Uncommon or Rare cards in the permanent deck}; Basic, Common, Curse, and Special cards are allowed.",
+      "guide": {
+        "kind": "standard",
+        "context": "The deck is checked only when victory registers, so generated combat cards do not count and any forbidden card removed before the final boss no longer invalidates the run.",
+        "steps": [
+          {
+            "id": "choose-common-plan",
+            "text": "Start an unseeded Standard run and build around Common cards, such as Ironclad Perfected Strike or Watcher Pressure Points."
+          },
+          {
+            "id": "audit-rarities",
+            "text": "Skip Uncommon and Rare card rewards, or remove every such card before the Act III boss; inspect the deck to confirm none remain."
+          },
+          {
+            "id": "win-common-only",
+            "text": "Leave at least one Key uncollected and defeat the Act III boss with the compliant deck."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FOCUSED",
+      "displayName": "Focused",
+      "description": "Have 25 or more Focus during combat.",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "15-80 hr",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "defect",
+      "summary": "Raise the Defect to @mechanic{25 Focus or more} during one combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Consume can be replayed after adding Orb slots with Capacitor or Inserter; Biased Cognition also supplies Focus, and Artifact prevents its Focus-loss debuff only when active first.",
+        "steps": [
+          {
+            "id": "draft-focus-engine",
+            "text": "As the Defect, obtain Consume with Orb-slot support, or collect multiple Defragment and Biased Cognition cards plus an Artifact source."
+          },
+          {
+            "id": "choose-safe-fight",
+            "text": "Enter a combat that can be stalled and establish enough Block to cycle the deck repeatedly."
+          },
+          {
+            "id": "reach-twenty-five",
+            "text": "Replay Consume or stack the other Focus effects until the Focus counter reaches at least 25."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEON",
+      "displayName": "Neon",
+      "description": "Channel 9 Plasma in a single turn.",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "20-100 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "defect",
+      "summary": "As the Defect, @mechanic{Channel nine Plasma during one turn}; one reproducible line is Echo Form plus two Meteor Strike resolutions and one more Meteor Strike.",
+      "guide": {
+        "kind": "standard",
+        "context": "Meteor Strike Channels three Plasma, Echo Form repeats the first card played each turn, and the resulting Plasma Evokes can fund Hologram+ retrieving Meteor Strike for the ninth Channel.",
+        "steps": [
+          {
+            "id": "assemble-plasma-line",
+            "text": "Draft Meteor Strike, Echo Form, Hologram+, and enough Energy generation to pay Meteor Strike's initial 5 Energy; Nuclear Battery and Double Energy help start the line."
+          },
+          {
+            "id": "establish-echo",
+            "text": "In a durable combat, play Echo Form on an earlier turn and retain or draw Meteor Strike and Hologram+ together."
+          },
+          {
+            "id": "channel-nine",
+            "text": "Make Meteor Strike the first card of the target turn so Echo Form resolves it twice for six Plasma, use Hologram+ to return Meteor Strike from the discard pile, then play it again for three more Plasma."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LUCKY_DAY",
+      "displayName": "My Lucky Day",
+      "description": "Win a Daily Climb.",
+      "hidden": false,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-30 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "modes",
+      "summary": "Open @mechanic{Daily Climb}, use the day's fixed character and modifiers, and defeat the Act III boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "Daily Climb changes once per day and uses a shared seeded challenge; this is the achievement intended for that mode.",
+        "steps": [
+          {
+            "id": "open-daily",
+            "text": "From the main menu, open `Daily Climb` while connected so the current challenge loads."
+          },
+          {
+            "id": "adapt-to-modifiers",
+            "text": "Review the displayed character and modifiers, then build around the advantages and restrictions they create."
+          },
+          {
+            "id": "win-daily",
+            "text": "Complete all three acts and defeat the Daily Climb's Act III boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TRANSIENT",
+      "displayName": "The Transient",
+      "description": "Defeat the Transient before it fades away.",
+      "hidden": false,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "20-100 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "boss-challenges",
+      "summary": "Find @enemy{The Transient in Act III} and reduce its @mechanic{999 HP to zero within five turns}, before it fades away.",
+      "guide": {
+        "kind": "standard",
+        "context": "An infinite card loop, very high Ironclad Strength, or rapidly multiplied Silent Poison can supply the required burst; merely surviving until the enemy disappears does not count.",
+        "steps": [
+          {
+            "id": "prepare-burst",
+            "text": "Build a deck capable of dealing roughly 200 damage per turn or an infinite loop before entering Act III."
+          },
+          {
+            "id": "find-transient",
+            "text": "Take normal enemy rooms in Act III until The Transient appears."
+          },
+          {
+            "id": "deal-nine-ninety-nine",
+            "text": "Use the complete damage engine immediately and remove all 999 HP before the fifth turn ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ASCEND_20",
+      "displayName": "Ascend 20",
+      "description": "Complete Ascension Level 20.",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "150-200 hr",
+      "estMinutes": 9000,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ASCEND_10"
+      ],
+      "group": "ascension",
+      "summary": "Select @mechanic{Ascension 20} on one character and defeat both consecutive Act III bosses.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension modifiers are cumulative, and level 20 adds a second, different Act III boss immediately after the first.",
+        "steps": [
+          {
+            "id": "climb-to-twenty",
+            "text": "Continue winning with the same character at Ascension levels 11 through 19 to unlock level 20."
+          },
+          {
+            "id": "select-a20",
+            "text": "Enable Ascension 20 at character select and build a deck with enough health, scaling, and flexibility for two boss matchups."
+          },
+          {
+            "id": "defeat-double-boss",
+            "text": "Leave at least one Key uncollected, then defeat both Act III bosses in sequence on Ascension 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RUBY_PLUS",
+      "displayName": "Ruby+",
+      "description": "Complete the Ending with the Ironclad.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "25-120 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RUBY",
+        "EMERALD",
+        "SAPPHIRE"
+      ],
+      "group": "heart",
+      "summary": "With the @npc{Ironclad}, collect the Ruby, Emerald, and Sapphire Keys in one run and defeat the @enemy{Corrupt Heart} in Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Act IV becomes available after Act III victories with Ironclad, Silent, and Defect; all three Keys must be carried past the Act III boss in the same run.",
+        "steps": [
+          {
+            "id": "unlock-act-four",
+            "text": "Record an Act III victory with Ironclad, Silent, and Defect so the three Key slots appear on later runs."
+          },
+          {
+            "id": "collect-three-keys",
+            "text": "As Ironclad, choose `Recall` at a Rest Site for the Ruby Key, defeat the burning Elite for the Emerald Key, and take the Sapphire Key instead of a chest Relic."
+          },
+          {
+            "id": "enter-act-four",
+            "text": "Defeat the Act III boss while carrying all three Keys, then defeat the Spire Shield and Spire Spear in Act IV."
+          },
+          {
+            "id": "defeat-heart",
+            "text": "Defeat the Corrupt Heart to complete the Ending with Ironclad."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EMERALD_PLUS",
+      "displayName": "Emerald+",
+      "description": "Complete the Ending with the Silent.",
+      "hidden": true,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "25-120 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RUBY",
+        "EMERALD",
+        "SAPPHIRE"
+      ],
+      "group": "heart",
+      "summary": "With the @npc{Silent}, collect the Ruby, Emerald, and Sapphire Keys in one run and defeat the @enemy{Corrupt Heart} in Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Act IV becomes available after Act III victories with Ironclad, Silent, and Defect; all three Keys must be carried past the Act III boss in the same run.",
+        "steps": [
+          {
+            "id": "unlock-act-four",
+            "text": "Record an Act III victory with Ironclad, Silent, and Defect so the three Key slots appear on later runs."
+          },
+          {
+            "id": "collect-three-keys",
+            "text": "As Silent, choose `Recall` at a Rest Site for the Ruby Key, defeat the burning Elite for the Emerald Key, and take the Sapphire Key instead of a chest Relic."
+          },
+          {
+            "id": "enter-act-four",
+            "text": "Defeat the Act III boss while carrying all three Keys, then defeat the Spire Shield and Spire Spear in Act IV."
+          },
+          {
+            "id": "defeat-heart",
+            "text": "Defeat the Corrupt Heart to complete the Ending with Silent."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SAPPHIRE_PLUS",
+      "displayName": "Sapphire+",
+      "description": "Complete the Ending with the Defect.",
+      "hidden": true,
+      "globalPercent": 14.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "25-120 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RUBY",
+        "EMERALD",
+        "SAPPHIRE"
+      ],
+      "group": "heart",
+      "summary": "With the @npc{Defect}, collect the Ruby, Emerald, and Sapphire Keys in one run and defeat the @enemy{Corrupt Heart} in Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Act IV becomes available after Act III victories with Ironclad, Silent, and Defect; all three Keys must be carried past the Act III boss in the same run.",
+        "steps": [
+          {
+            "id": "unlock-act-four",
+            "text": "Record an Act III victory with Ironclad, Silent, and Defect so the three Key slots appear on later runs."
+          },
+          {
+            "id": "collect-three-keys",
+            "text": "As Defect, choose `Recall` at a Rest Site for the Ruby Key, defeat the burning Elite for the Emerald Key, and take the Sapphire Key instead of a chest Relic."
+          },
+          {
+            "id": "enter-act-four",
+            "text": "Defeat the Act III boss while carrying all three Keys, then defeat the Spire Shield and Spire Spear in Act IV."
+          },
+          {
+            "id": "defeat-heart",
+            "text": "Defeat the Corrupt Heart to complete the Ending with Defect."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THE_ENDING",
+      "displayName": "The End?",
+      "description": "Complete the Ending with the Ironclad, Silent, and Defect.",
+      "hidden": true,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "40-140 hr",
+      "estMinutes": 2400,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RUBY_PLUS",
+        "EMERALD_PLUS",
+        "SAPPHIRE_PLUS"
+      ],
+      "group": "heart",
+      "summary": "Defeat the @enemy{Corrupt Heart once each with Ironclad, Silent, and Defect} after collecting the Ruby, Emerald, and Sapphire Keys on each run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each character's Ending is tracked separately, so three complete Act IV victories are required even though the Key route is identical.",
+        "steps": [
+          {
+            "id": "complete-ironclad-ending",
+            "text": "Collect all three Keys and defeat the Corrupt Heart with Ironclad."
+          },
+          {
+            "id": "complete-silent-ending",
+            "text": "Collect all three Keys and defeat the Corrupt Heart with Silent."
+          },
+          {
+            "id": "complete-defect-ending",
+            "text": "Collect all three Keys and defeat the Corrupt Heart with Defect."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ETERNAL_ONE",
+      "displayName": "Eternal One",
+      "description": "Obtain all other Achievements.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "150-200 hr",
+      "estMinutes": 9000,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "meta",
+      "prerequisites": [
+        "SHRUG_IT_OFF",
+        "PURITY",
+        "COME_AT_ME",
+        "THE_PACT",
+        "ADRENALINE",
+        "POWERFUL",
+        "JAXXED",
+        "IMPERVIOUS",
+        "BARRICADED",
+        "CATALYST",
+        "PLAGUE",
+        "NINJA",
+        "INFINITY",
+        "YOU_ARE_NOTHING",
+        "PERFECT",
+        "GUARDIAN",
+        "GHOST_GUARDIAN",
+        "SLIME_BOSS",
+        "AUTOMATON",
+        "COLLECTOR",
+        "CHAMP",
+        "CROW",
+        "SHAPES",
+        "TIME_EATER",
+        "RUBY",
+        "EMERALD",
+        "ONE_RELIC",
+        "SPEED_CLIMBER",
+        "MINIMALIST",
+        "DONUT",
+        "ASCEND_0",
+        "ASCEND_10",
+        "SAPPHIRE",
+        "COMMON_SENSE",
+        "FOCUSED",
+        "NEON",
+        "LUCKY_DAY",
+        "TRANSIENT",
+        "ASCEND_20",
+        "RUBY_PLUS",
+        "EMERALD_PLUS",
+        "SAPPHIRE_PLUS",
+        "THE_ENDING",
+        "AMETHYST",
+        "AMETHYST_PLUS"
+      ],
+      "summary": "Unlock @mechanic{all 45 other Steam achievements} in Slay the Spire; Eternal One then unlocks automatically.",
+      "guide": {
+        "kind": "standard",
+        "context": "Eternal One has no independent run condition and includes both Watcher achievements in the current 46-achievement list.",
+        "steps": [
+          {
+            "id": "finish-other-achievements",
+            "text": "Open the in-game Statistics achievement page or Steam list and verify every achievement except Eternal One is unlocked."
+          },
+          {
+            "id": "trigger-final-check",
+            "text": "Return to the main menu or complete the final outstanding run so the game and Steam evaluate the full set."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AMETHYST",
+      "displayName": "Amethyst",
+      "description": "Beat the game with the Watcher.",
+      "hidden": false,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-50 hr",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "character-wins",
+      "summary": "Use the @npc{Watcher} to defeat the Act III boss without carrying the Ruby, Emerald, and Sapphire Keys together into Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defeating Act III counts as a run victory only when at least one Key is missing; collecting all three postpones victory until the Corrupt Heart is defeated.",
+        "steps": [
+          {
+            "id": "unlock-character",
+            "text": "Defeat the Act III boss in an unseeded run with Ironclad, Silent, or Defect to unlock Watcher."
+          },
+          {
+            "id": "select-character",
+            "text": "Select Watcher for an unseeded Standard run."
+          },
+          {
+            "id": "leave-key-missing",
+            "text": "Do not collect all three of the Ruby, Emerald, and Sapphire Keys during the run."
+          },
+          {
+            "id": "win-act-three",
+            "text": "Climb through all three acts and defeat the Act III boss to record the character victory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AMETHYST_PLUS",
+      "displayName": "Amethyst+",
+      "description": "Complete the Ending with the Watcher.",
+      "hidden": false,
+      "globalPercent": 13.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "25-120 hr",
+      "estMinutes": 1500,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RUBY",
+        "EMERALD",
+        "SAPPHIRE"
+      ],
+      "group": "heart",
+      "summary": "With the @npc{Watcher}, collect the Ruby, Emerald, and Sapphire Keys in one run and defeat the @enemy{Corrupt Heart} in Act IV.",
+      "guide": {
+        "kind": "standard",
+        "context": "Act IV becomes available after Act III victories with Ironclad, Silent, and Defect; all three Keys must be carried past the Act III boss in the same run.",
+        "steps": [
+          {
+            "id": "unlock-act-four",
+            "text": "Record an Act III victory with Ironclad, Silent, and Defect so the three Key slots appear on later runs."
+          },
+          {
+            "id": "collect-three-keys",
+            "text": "As Watcher, choose `Recall` at a Rest Site for the Ruby Key, defeat the burning Elite for the Emerald Key, and take the Sapphire Key instead of a chest Relic."
+          },
+          {
+            "id": "enter-act-four",
+            "text": "Defeat the Act III boss while carrying all three Keys, then defeat the Spire Shield and Spire Spear in Act IV."
+          },
+          {
+            "id": "defeat-heart",
+            "text": "Defeat the Corrupt Heart to complete the Ending with Watcher."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "SHRUG_IT_OFF",
+    "COME_AT_ME",
+    "PERFECT",
+    "GUARDIAN",
+    "GHOST_GUARDIAN",
+    "SLIME_BOSS",
+    "AUTOMATON",
+    "COLLECTOR",
+    "CHAMP",
+    "CROW",
+    "SHAPES",
+    "TIME_EATER",
+    "RUBY",
+    "EMERALD",
+    "SAPPHIRE",
+    "AMETHYST",
+    "ASCEND_0",
+    "LUCKY_DAY",
+    "THE_PACT",
+    "ADRENALINE",
+    "POWERFUL",
+    "JAXXED",
+    "IMPERVIOUS",
+    "BARRICADED",
+    "CATALYST",
+    "PLAGUE",
+    "NINJA",
+    "INFINITY",
+    "YOU_ARE_NOTHING",
+    "PURITY",
+    "DONUT",
+    "FOCUSED",
+    "NEON",
+    "TRANSIENT",
+    "RUBY_PLUS",
+    "EMERALD_PLUS",
+    "SAPPHIRE_PLUS",
+    "AMETHYST_PLUS",
+    "THE_ENDING",
+    "COMMON_SENSE",
+    "MINIMALIST",
+    "ONE_RELIC",
+    "SPEED_CLIMBER",
+    "ASCEND_10",
+    "ASCEND_20",
+    "ETERNAL_ONE"
+  ]
+}

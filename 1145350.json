@@ -1130,19 +1130,35 @@
       "estTime": "60–90 hr",
       "estMinutes": 3600,
       "stage": 3,
-      "confidence": "unverified",
+      "confidence": "verified",
       "prerequisites": [
-        "AchBounties1"
+        "AchAllAspects",
+        "AchAllKeepsakes",
+        "AchAllFamiliars",
+        "AchAllArcana",
+        "AchMaxMem"
       ],
       "group": "chaos-trials",
-      "summary": "Clear the @mechanic{Great Chaos Below} Trial: a full Underworld route with a randomized loadout and @mechanic{20 randomized Fear}.",
+      "summary": "Cast @mechanic{Abyssal Insight}; gift @npc{Chaos six Nectar}; reach 30 Grasp; record 10 clears per route; unlock all 25 Arcana, 24 aspects, 33 Keepsakes, and five Familiars; clear both routes at 10+ Fear; then clear @mechanic{Great Chaos Below}.",
       "guide": {
         "kind": "standard",
-        "context": "The cited sources confirm the randomized loadout, 20 Fear, and full Underworld objective, but do not establish the exact reveal trigger; treat its appearance as an unverified postgame gate.",
+        "context": "The randomized trials draw from every weapon aspect, Arcana Card, Familiar, and Keepsake you own. Great Chaos Below also randomizes the 20 Fear Vows, while weapon and Familiar upgrade ranks carry into the trial.",
         "steps": [
           {
+            "id": "unlock-pitch-black-stone",
+            "text": "Enter Chaos Gates, gift Chaos at least one Nectar, receive `Abyssal Insight`, and cast it to activate the Pitch-Black Stone."
+          },
+          {
+            "id": "complete-random-pool",
+            "text": "Raise Chaos to at least six Nectar, reach 30 Grasp, unlock all 25 Arcana Cards, all 24 weapon aspects, all 33 Keepsakes, and all five Animal Familiars."
+          },
+          {
+            "id": "finish-route-gates",
+            "text": "Record at least 10 complete Underworld clears and 10 complete Surface clears, then clear each full route once with at least 10 Fear so the Great randomized trials appear."
+          },
+          {
             "id": "find-great-below",
-            "text": "Check the Pitch-Black Stone after further Chaos Trial and postgame progress; begin only when `Great Chaos Below` is actually listed."
+            "text": "Use the Pitch-Black Stone in the Training Grounds and select `Great Chaos Below`."
           },
           {
             "id": "audit-roll",

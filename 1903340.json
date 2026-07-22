@@ -1,0 +1,3310 @@
+{
+  "game": {
+    "appid": 1903340,
+    "slug": "clair-obscur-expedition-33",
+    "title": "Clair Obscur: Expedition 33",
+    "version": "1.0",
+    "lastPatchChecked": "2026-06-30",
+    "estTotalHours": 60,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-22"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Prologue and Act 1 safeguards",
+      "description": "Defeat the Lumière Mime, finish Gustave's Overcharge requirement before the end of Act 1, and begin the friendly Nevron questline without attacking any quest giver.",
+      "achievementRefs": [
+        "LUMIERE_MIME",
+        "BREAK",
+        "GUSTAVE_OVERCHARGE",
+        "LUMIERE",
+        "NO_DAMAGE_BOSS",
+        "SPRING_MEADOWS",
+        "NEVRON_QUESTS",
+        "PAINT_CAGE",
+        "FLYING_WATERS",
+        "WEAPON_FIRST_UPGRADE",
+        "FIRST_LUMINA_POINT",
+        "OPTIONAL_CAMP",
+        "LUNE_STAINS",
+        "MAELLE_STANCES",
+        "ANCIENT_SANCTUARY",
+        "GESTRAL_VILLAGE",
+        "SCIEL_FORETELL",
+        "ESQUIE_UNLOCK",
+        "ESQUIES_NEST",
+        "STONE_WAVE_CLIFFS"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Act 2 and both Axons",
+      "description": "Recruit Verso and Monoco, clear Old Lumière, defeat both Axons, and complete the Monolith. Protect Connoisseur by viewing the optional Camp scene for Lettre à Maelle immediately after the first Axon.",
+      "achievementRefs": [
+        "VERSO_PERFECTION",
+        "FORGOTTEN_BATTLEFIELD",
+        "ALL_CHARACTERS",
+        "GRANDIS_STATION",
+        "LEVEL_33",
+        "OLD_LUMIERE",
+        "MONOCO_WHEEL",
+        "FIRST_AXON",
+        "ALL_SONGS",
+        "SECOND_AXON",
+        "MONOLITH",
+        "PAINTRESS"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Act 3 relationships and world cleanup",
+      "description": "Unlock Esquie's full traversal, finish every relationship with the correct Maelle choice, clear world bosses and side areas, rescue Gestrals, and complete all friendly Nevron quests without attacking their quest givers.",
+      "achievementRefs": [
+        "BACK_TO_LUMIERE",
+        "SCIEL_RELATIONSHIP",
+        "ESQUIE_UPGRADES",
+        "ESQUIE_RELATIONSHIP",
+        "LOST_GESTRALS",
+        "LVL3_GRADIENT_ATTACK",
+        "LEVEL_66",
+        "MAELLE_RELATIONSHIP",
+        "SPRONG",
+        "LUNE_RELATIONSHIP",
+        "MONOCO_RELATIONSHIP",
+        "GESTRAL_BEACH",
+        "WEAPON_FULL_UPGRADE",
+        "SERPENPHARE",
+        "PETANK_ALPHA",
+        "PAINTING_WORKSHOP",
+        "CLEA",
+        "ALL_MONOCO_SKILLS",
+        "ENDLESS_TOWER"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Endgame mastery and collections",
+      "description": "Defeat Simon with a prepared reserve party, finish the story for Our Drafts Collide, finish the 49-journal and 33-record checklists started earlier, and use Renoir's Drafts to reach level 99.",
+      "achievementRefs": [
+        "SIMON",
+        "JOURNALS",
+        "LEVEL_99",
+        "THE_END"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "LUMIERE",
+      "displayName": "Lumière",
+      "description": "Embark on the Expedition.",
+      "hidden": false,
+      "globalPercent": 88.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Complete the @loc{Lumière Prologue} and depart with Expedition 33.",
+      "guide": {
+        "kind": "standard",
+        "context": "This story unlock occurs after the Festival and harbor departure, so no optional route is required.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the Festival preparations in @loc{Lumière} and continue to the harbor."
+          },
+          {
+            "id": "s2",
+            "text": "Complete the departure sequence; the achievement unlocks when the expedition begins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPRING_MEADOWS",
+      "displayName": "Spring Meadows",
+      "description": "Defeat Évêque, finish Spring Meadows, and reach the World Map.",
+      "hidden": true,
+      "globalPercent": 81.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Évêque}, finish @loc{Spring Meadows}, and reach the World Map.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement is story-related and unlocks after the boss cutscene when the party exits the area's far side.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the main route through @loc{Spring Meadows} to @enemy{Évêque}."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Évêque}, watch the following cutscene, and walk onto the @loc{World Map}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FLYING_WATERS",
+      "displayName": "Flying Waters",
+      "description": "Defeat Goblu beyond the Lumieran Streets flag and leave Flying Waters.",
+      "hidden": true,
+      "globalPercent": 74.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Goblu} beyond the Lumieran Streets flag and leave @loc{Flying Waters}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This story achievement appears shortly after the area's boss rather than at the instant Goblu falls.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Advance through @loc{Flying Waters} past the @loc{Lumieran Streets} Expedition Flag."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Goblu}, continue along the main route, and exit to the World Map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ANCIENT_SANCTUARY",
+      "displayName": "Ancient Sanctuary",
+      "description": "Defeat the Ultimate Sakapatate at the end of Ancient Sanctuary.",
+      "hidden": true,
+      "globalPercent": 70.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat the @enemy{Ultimate Sakapatate} at the end of @loc{Ancient Sanctuary}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Breaking the boss exposes an arm weak point but also changes its attack pattern.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the main path through @loc{Ancient Sanctuary} to the @enemy{Ultimate Sakapatate}."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat the boss; the achievement unlocks immediately after the battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GESTRAL_VILLAGE",
+      "displayName": "Gestral Village",
+      "description": "Speak with Golgra and win the Arena Tournament in Gestral Village.",
+      "hidden": true,
+      "globalPercent": 68.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Speak with @npc{Golgra} and win the Arena Tournament in @loc{Gestral Village}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The winning character determines the weapon reward; Maelle receives Medalum, which otherwise requires a much harder late-game Golgra duel.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Meet @npc{Golgra}, the village Chief, and enter the @mechanic{Arena Tournament}."
+          },
+          {
+            "id": "s2",
+            "text": "Win the tournament, receive Esquie's Nest password from Golgra, and leave @loc{Gestral Village}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ESQUIES_NEST",
+      "displayName": "Esquie's Nest",
+      "description": "Defeat François, recruit Esquie, and finish Esquie's Nest.",
+      "hidden": true,
+      "globalPercent": 67.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "GESTRAL_VILLAGE"
+      ],
+      "summary": "Defeat @enemy{François}, recruit @npc{Esquie}, and finish @loc{Esquie's Nest}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This story achievement unlocks at the same moment as Legend.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach and defeat @enemy{François} inside @loc{Esquie's Nest}."
+          },
+          {
+            "id": "s2",
+            "text": "Speak with @npc{Esquie} again to finish the area and recruit him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STONE_WAVE_CLIFFS",
+      "displayName": "Stone Wave Cliffs",
+      "description": "Defeat Lampmaster near the fifth flag and finish Stone Wave Cliffs.",
+      "hidden": true,
+      "globalPercent": 62.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Lampmaster} near the fifth flag and finish @loc{Stone Wave Cliffs}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crossing the end of the area closes Act 1 and permanently removes Gustave from the party, so finish Overcharge first.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Advance through @loc{Stone Wave Cliffs} to the fifth Expedition Flag and defeat @enemy{Lampmaster}."
+          },
+          {
+            "id": "s2",
+            "text": "Continue through the remaining story sequence to finish the area and Act 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FORGOTTEN_BATTLEFIELD",
+      "displayName": "Forgotten Battlefield",
+      "description": "Defeat Dualliste at the Ancient Bridge and exit Forgotten Battlefield.",
+      "hidden": true,
+      "globalPercent": 58.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Dualliste} at the Ancient Bridge and exit @loc{Forgotten Battlefield}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dualliste has two phases and appears immediately after the party tries to cross the Ancient Bridge.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach the @loc{Ancient Bridge} Expedition Flag in @loc{Forgotten Battlefield}."
+          },
+          {
+            "id": "s2",
+            "text": "Approach the bridge, defeat both phases of @enemy{Dualliste}, and leave through the far exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GRANDIS_STATION",
+      "displayName": "Monoco's Station",
+      "description": "Recruit Monoco and complete his tutorial at Monoco's Station.",
+      "hidden": true,
+      "globalPercent": 57.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "ALL_CHARACTERS"
+      ],
+      "summary": "Recruit @npc{Monoco} and complete his tutorial at @loc{Monoco's Station}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tutorial may be played or skipped; either choice advances the story and grants the achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @npc{Monoco} and @enemy{Stalact} to recruit Monoco."
+          },
+          {
+            "id": "s2",
+            "text": "Play or skip Monoco's tutorial when prompted; the achievement unlocks afterward."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OLD_LUMIERE",
+      "displayName": "Old Lumière",
+      "description": "Win the Renoir battle that closes Old Lumière.",
+      "hidden": true,
+      "globalPercent": 55.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Win the @enemy{Renoir} battle that closes @loc{Old Lumière}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The fight begins with Lune, Maelle, and Verso; failing Renoir's Gradient Parry removes party members from the battle.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow both party routes through @loc{Old Lumière} and reunite near the Manor."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Renoir} at the area's end to complete Old Lumière."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_AXON",
+      "displayName": "First Axon",
+      "description": "Defeat the first Axon in either Visages or Sirène.",
+      "hidden": true,
+      "globalPercent": 52.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "OLD_LUMIERE"
+      ],
+      "summary": "Defeat the first Axon in either @loc{Visages} or @loc{Sirène}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both Axon routes open after Old Lumière; Visages is generally the easier first destination.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete either @loc{Visages} or @loc{Sirène} and reach its Axon boss."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Mask Keeper} in Visages or @enemy{Sirène} to register the first Axon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SECOND_AXON",
+      "displayName": "Second Axon",
+      "description": "Defeat the remaining Axon in Visages or Sirène.",
+      "hidden": true,
+      "globalPercent": 51.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_AXON"
+      ],
+      "summary": "Defeat the remaining Axon in @loc{Visages} or @loc{Sirène}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tisseur in Sirène drops Anti-Charm, which prevents Sirène's Charm status and makes that route safer.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Travel to the Axon area not completed for First Axon."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Mask Keeper} in Visages or @enemy{Sirène} to secure the second Axon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MONOLITH",
+      "displayName": "Monolith",
+      "description": "Use the weapon forged from both Axons to breach the barrier and enter The Monolith.",
+      "hidden": true,
+      "globalPercent": 50.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "SECOND_AXON"
+      ],
+      "summary": "Use the weapon forged from both Axons to breach the barrier and enter @loc{The Monolith}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement triggers during the first scripted confrontation with the Paintress, before the long interior route.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After defeating both Axons, follow the story until their power is forged into the barrier-breaking weapon."
+          },
+          {
+            "id": "s2",
+            "text": "Approach @loc{The Monolith}, breach its barrier, and complete the scripted opening encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PAINTRESS",
+      "displayName": "Paintress",
+      "description": "Defeat all three phases of The Paintress at the top of The Monolith.",
+      "hidden": true,
+      "globalPercent": 48.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "MONOLITH"
+      ],
+      "summary": "Defeat all three phases of @enemy{The Paintress} at the top of @loc{The Monolith}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Victory awards Painted Power, whose Lumina allows damage to exceed 9,999 and is valuable for Act 3 cleanup.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb through the interior of @loc{The Monolith} to the summit."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat all three phases of @enemy{The Paintress}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BACK_TO_LUMIERE",
+      "displayName": "Back to Lumière",
+      "description": "Complete the Act 2 finale and return to Lumière at the start of Act 3.",
+      "hidden": true,
+      "globalPercent": 47.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "PAINTRESS"
+      ],
+      "summary": "Complete the Act 2 finale and return to @loc{Lumière} at the start of Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "This automatic story unlock bridges the Monolith sequence and the Act 3 World Map.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the post-Paintress story sequences at the end of Act 2."
+          },
+          {
+            "id": "s2",
+            "text": "Continue until the party returns to @loc{Lumière} and Act 3 begins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THE_END",
+      "displayName": "The End",
+      "description": "Defeat Renoir in Act 3 Lumière and complete either final choice.",
+      "hidden": true,
+      "globalPercent": 39.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 4,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Renoir} in Act 3 Lumière and complete either final choice.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both the Verso and Maelle endings grant the achievement; reloading afterward returns to the last flag and keeps endgame exploration available.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{Lumière} in Act 3 and defeat @enemy{Renoir} in front of the Tower."
+          },
+          {
+            "id": "s2",
+            "text": "Choose either Verso or Maelle, complete the resulting final battle and ending, and let the completion save update."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ESQUIE_UPGRADES",
+      "displayName": "Plane, Train, and Submarine",
+      "description": "Unlock Esquie's four story travel powers, then reach bond level 6 for underwater diving.",
+      "hidden": true,
+      "globalPercent": 34.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "BACK_TO_LUMIERE",
+        "ESQUIE_UNLOCK"
+      ],
+      "summary": "Unlock Esquie's four story travel powers, then reach bond level 6 for underwater diving.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rough terrain, swimming, coral breaking, and flight come from story progress; diving is the only ability tied to Esquie's relationship.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Continue the story through the start of Act 3 to unlock Esquie's rough-terrain, swimming, coral-breaking, and flying abilities."
+          },
+          {
+            "id": "s2",
+            "text": "Speak with @npc{Esquie} at @loc{Camp} whenever a new relationship conversation appears."
+          },
+          {
+            "id": "s3",
+            "text": "Complete Esquie's level 6 conversation to unlock underwater diving and the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JOURNALS",
+      "displayName": "Follow The Trail",
+      "description": "Find all of the journals from prior expeditions.",
+      "hidden": false,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 240 min",
+      "estMinutes": 240,
+      "stage": 4,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "SIMON"
+      ],
+      "summary": "Collect all 49 expedition journals, including Fracture Survivor behind the Old Key gate and Simon's boss reward.",
+      "guide": {
+        "kind": "collectible",
+        "context": "A replacement Old Key is available between crates left of the docks stairs in Act 3 Lumière; hidden journals may not appear as grey slots in the menu.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Verso",
+            "location": "@loc{World Map — west of Forgotten Battlefield's north exit}",
+            "method": "After Esquie learns to fly, land in the isolated area and collect the journal farther inside."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Aline",
+            "location": "@loc{The Monolith — Tainted Battlefield}",
+            "method": "Enter the cave leading to a Manor greenhouse and collect the journal beside the L'Amour d'une Mère record."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Renoir",
+            "location": "@loc{Old Lumière — Manor rooms}",
+            "method": "Enter the Manor door left of the final Manor, behind the hedges, and collect the journal beside the Renoir record."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Unknown 1",
+            "location": "@loc{Visages — Anger path}",
+            "method": "Take the path just right of the middle route, hug the right wall to a cave, enter its Manor door, and collect the journal."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Unknown 2",
+            "location": "@loc{The Canvas and Manor Main Foyer}",
+            "method": "Take the Dessendre Family Portrait from The Canvas west of the Monolith, place it in the empty frame upstairs in the Manor foyer, enter the opened rear room, and collect Unknown 2."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Unknown 3",
+            "location": "@loc{The Reacher — Ladder Area}",
+            "method": "Move southwest from the Ladder Area flag, drop to the lowest level, enter the Manor door beside the wood pile, and collect Unknown 3 inside."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Fracture Survivor",
+            "location": "@loc{Old Lumière — Maelle and Verso route}",
+            "method": "Climb into the large pipe protruding from the cliff, drop inside, use the Old Key on the gate, and collect the journal.",
+            "note": "If the Festival key was missed, Patch 1.5.0 places another between crates left of the docks stairs in Act 3 Lumière."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Expedition 34",
+            "location": "@loc{The Crows}",
+            "method": "Collect the journal in the small central area among the crows."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Expedition 35",
+            "location": "@loc{Falling Leaves}",
+            "method": "After the first flag, descend the ropes near the Manor door and climb the nearby ledges to the journal."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Expedition 36",
+            "location": "@loc{White Tree}",
+            "method": "Collect the journal in the middle of the small area."
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Expedition 37",
+            "location": "@loc{World Map — northeastern Gestral Beach}",
+            "method": "Enter the Gestral Beach with the handhold water-bubble game and collect the journal on the right."
+          },
+          {
+            "id": "c12",
+            "index": 12,
+            "name": "Expedition 38",
+            "location": "@loc{Yellow Harvest — Harvester's Hollow}",
+            "method": "From Harvester's Hollow, climb the large ramp beside the lake and collect the journal on top."
+          },
+          {
+            "id": "c13",
+            "index": 13,
+            "name": "Expedition 39",
+            "location": "@loc{Visages — Sadness path}",
+            "method": "Take the middle path, hug the right wall, climb the cliff, and collect the journal at the top."
+          },
+          {
+            "id": "c14",
+            "index": 14,
+            "name": "Expedition 40",
+            "location": "@loc{World Map — Monolith barrier island}",
+            "method": "After Esquie can break reefs, land on the island beside the Monolith barrier and collect the journal."
+          },
+          {
+            "id": "c15",
+            "index": 15,
+            "name": "Expedition 41",
+            "location": "@loc{Forgotten Battlefield — Vanguard Point}",
+            "method": "At the Fading Woman in the split path, turn right, take the first left, and collect the journal beside the burning Nevron body."
+          },
+          {
+            "id": "c16",
+            "index": 16,
+            "name": "Expedition 42",
+            "location": "@loc{Old Lumière — final Manor}",
+            "method": "Face the Manor, go right before the hedges, descend the rope, and collect the journal below."
+          },
+          {
+            "id": "c17",
+            "index": 17,
+            "name": "Expedition 43",
+            "location": "@loc{World Map — east of Coastal Cave}",
+            "method": "Use Esquie's reef-breaking ability to reach the land east of Coastal Cave and collect the journal."
+          },
+          {
+            "id": "c18",
+            "index": 18,
+            "name": "Expedition 44",
+            "location": "@loc{Yellow Harvest — Harvester's Hollow}",
+            "method": "Walk beside the large lake toward the cave containing the Mime and collect the journal before the cave."
+          },
+          {
+            "id": "c19",
+            "index": 19,
+            "name": "Expedition 45",
+            "location": "@loc{Crushing Cavern}",
+            "method": "Defeat the Giant Sapling, follow the path behind the boss arena, and collect the journal."
+          },
+          {
+            "id": "c20",
+            "index": 20,
+            "name": "Expedition 46",
+            "location": "@loc{Sirène's Dress}",
+            "method": "Raise Lune to relationship level 5, enter Sirène's Dress, defeat Chromatic Glissando, and collect the journal behind it."
+          },
+          {
+            "id": "c21",
+            "index": 21,
+            "name": "Expedition 47",
+            "location": "@loc{World Map — west of Monoco's Station}",
+            "method": "Leave Monoco's Station through its northwestern exit, travel as far west as the land allows, and collect the journal."
+          },
+          {
+            "id": "c22",
+            "index": 22,
+            "name": "Expedition 48",
+            "location": "@loc{Stone Quarry}",
+            "method": "Collect the journal beside the friendly Troubadour Nevron."
+          },
+          {
+            "id": "c23",
+            "index": 23,
+            "name": "Expedition 49",
+            "location": "@loc{Falling Leaves}",
+            "method": "Complete the Young Boy's request and collect the journal behind him."
+          },
+          {
+            "id": "c24",
+            "index": 24,
+            "name": "Expedition 50",
+            "location": "@loc{Stone Wave Cliffs — Paintress Shrine}",
+            "method": "After the shrine, hug the left edge and collect the journal near the cliff."
+          },
+          {
+            "id": "c25",
+            "index": 25,
+            "name": "Expedition 51",
+            "location": "@loc{Frozen Hearts}",
+            "method": "Cross the train-track bridge after the first flag, enter the broken-train area, and collect the journal beside a patrolling enemy."
+          },
+          {
+            "id": "c26",
+            "index": 26,
+            "name": "Expedition 52",
+            "location": "@loc{Gestral Village}",
+            "method": "Take the narrow path immediately right of the Infirmary Doctor and collect the journal."
+          },
+          {
+            "id": "c27",
+            "index": 27,
+            "name": "Expedition 53",
+            "location": "@loc{The Small Bourgeon}",
+            "method": "Reach the far end of the optional area and collect the journal."
+          },
+          {
+            "id": "c28",
+            "index": 28,
+            "name": "Expedition 54",
+            "location": "@loc{Stone Wave Cliffs Cave}",
+            "method": "Collect the journal beside the Chromatic Hexga; the boss does not need to be defeated first."
+          },
+          {
+            "id": "c29",
+            "index": 29,
+            "name": "Expedition 55",
+            "location": "@loc{Sirène — Dancing Classes}",
+            "method": "Climb the stairs from the Dancing Classes flag and collect the visible journal on the right."
+          },
+          {
+            "id": "c30",
+            "index": 30,
+            "name": "Expedition 56",
+            "location": "@loc{Stone Wave Cliffs — cliff section}",
+            "method": "When the route reaches the cliffs, hug the left side and collect the journal beside the statue."
+          },
+          {
+            "id": "c31",
+            "index": 31,
+            "name": "Expedition 57",
+            "location": "@loc{Forgotten Battlefield — Vanguard Point}",
+            "method": "Pass through the corridor behind the Fading Woman; in the next open area, collect the journal straight ahead before the route turns left toward Ancient Bridge."
+          },
+          {
+            "id": "c32",
+            "index": 32,
+            "name": "Expedition 58",
+            "location": "@loc{Old Lumière}",
+            "method": "Finish Lune's split-party route; Lune collects this journal during the ending cutscene."
+          },
+          {
+            "id": "c33",
+            "index": 33,
+            "name": "Expedition 59",
+            "location": "@loc{Yellow Harvest — Yellow Spire Wrecks}",
+            "method": "Enter the cave left of the Yellow Spire Wrecks flag and collect the journal."
+          },
+          {
+            "id": "c34",
+            "index": 34,
+            "name": "Expedition 60",
+            "location": "@loc{Act 3 Lumière — Opera House}",
+            "method": "Before the Opera House flag, take the eastern walkway to the water and use the prompt for Esquie to fetch the journal."
+          },
+          {
+            "id": "c35",
+            "index": 35,
+            "name": "Expedition 61",
+            "location": "@loc{The Reacher — Foggy Area}",
+            "method": "Follow the required path after the Foggy Area flag and collect the journal before the next hot-air balloon."
+          },
+          {
+            "id": "c36",
+            "index": 36,
+            "name": "Expedition 62",
+            "location": "@loc{World Map — north of Gestral Village}",
+            "method": "Use Esquie to break the blue rocks north of Gestral Village and collect the journal behind them."
+          },
+          {
+            "id": "c37",
+            "index": 37,
+            "name": "Expedition 63",
+            "location": "@loc{Ancient Sanctuary}",
+            "method": "Leave the brick path that leads toward the area's end and collect the journal beside it."
+          },
+          {
+            "id": "c38",
+            "index": 38,
+            "name": "Expedition 64",
+            "location": "@loc{World Map — east of Twilight Quarry}",
+            "method": "Land on the small beach east of Twilight Quarry and collect the journal."
+          },
+          {
+            "id": "c39",
+            "index": 39,
+            "name": "Expedition 65",
+            "location": "@loc{Monoco's Station — East Exit}",
+            "method": "Cross the train-track bridge beyond Monoco's first location and collect the journal near the East Exit."
+          },
+          {
+            "id": "c40",
+            "index": 40,
+            "name": "Expedition 66",
+            "location": "@loc{Esquie's Nest}",
+            "method": "After finishing the area, follow the route opened when Esquie knocks over the pillar and collect the journal."
+          },
+          {
+            "id": "c41",
+            "index": 41,
+            "name": "Expedition 67",
+            "location": "@loc{Sirène — Dancing Area}",
+            "method": "Collect the journal beside the boxes and bodies near the Dancing Area flag."
+          },
+          {
+            "id": "c42",
+            "index": 42,
+            "name": "Expedition 68",
+            "location": "@loc{Flying Waters}",
+            "method": "Collect the journal on the required route through the area."
+          },
+          {
+            "id": "c43",
+            "index": 43,
+            "name": "Expedition 69",
+            "location": "@loc{Visages — Joy path}",
+            "method": "Take the leftmost path, keep against the left wall, and collect the journal beneath the stone overhang."
+          },
+          {
+            "id": "c44",
+            "index": 44,
+            "name": "Expedition 70",
+            "location": "@loc{The Monolith — Tainted Lumière}",
+            "method": "Pass the large circular stalls, enter the alley beyond them, and collect the journal."
+          },
+          {
+            "id": "c45",
+            "index": 45,
+            "name": "Expedition 78",
+            "location": "@loc{Stone Wave Cliffs}",
+            "method": "After the first flag, hug the right wall to a rope, climb it, and collect the journal at the top."
+          },
+          {
+            "id": "c46",
+            "index": 46,
+            "name": "Expedition 81",
+            "location": "@loc{Spring Meadows}",
+            "method": "Continue until the cutscene with the friendly Jar Nevron; the journal is collected automatically."
+          },
+          {
+            "id": "c47",
+            "index": 47,
+            "name": "Expedition 84",
+            "location": "@loc{The Fountain}",
+            "method": "Pass the friendly Nevron Blanche and collect the journal just beyond her."
+          },
+          {
+            "id": "c48",
+            "index": 48,
+            "name": "Julie Search and Rescue",
+            "location": "@loc{World Map — west of Forgotten Battlefield's north exit}",
+            "method": "After Esquie learns to fly, land in the isolated area and collect the first journal."
+          },
+          {
+            "id": "c49",
+            "index": 49,
+            "name": "Simon",
+            "location": "@loc{Renoir's Drafts — The Abyss}",
+            "method": "Defeat Simon and collect the journal awarded by the battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEVRON_QUESTS",
+      "displayName": "Aiding the Enemy",
+      "description": "Complete all ten friendly white Nevron quests without attacking their quest givers.",
+      "hidden": true,
+      "globalPercent": 13.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 120 min",
+      "estMinutes": 120,
+      "stage": 1,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Complete all ten friendly white Nevron quests without attacking their quest givers.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Current achievement guidance treats attacking a friendly white Nevron as a playthrough lockout. Chalier's final mercy request is safe, but optional aggression after other quests is not.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Jar",
+            "location": "@loc{Spring Meadows}",
+            "method": "Pick up the Resin farther along the route, give it to Jar, then shoot the tip of Jar's staff to supply light."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Démineur",
+            "location": "@loc{Flying Waters}",
+            "method": "Collect the Intact Mine just beyond Démineur and return it to the Nevron."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Bourgeon",
+            "location": "@loc{The Small Bourgeon}",
+            "method": "Defeat any Bourgeon for a Bourgeon Skin, give the skin to the Small Bourgeon, leave the area, and return for the reward."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Hexga",
+            "location": "@loc{Stone Wave Cliffs — before Tide Caverns}",
+            "method": "Collect three Lustrous Rock Crystals in the dark cavern ahead of Hexga, then return all three crystals."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Bénisseur",
+            "location": "@loc{Red Woods}",
+            "method": "Pay Bénisseur 5,000, 10,000, 25,000, and 50,000 Chroma in sequence."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Troubadour",
+            "location": "@loc{Stone Quarry}",
+            "method": "Accept the music trial, dodge every red note, and allow every green note to hit through all three phases."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Portier",
+            "location": "@loc{Esoteric Ruins}",
+            "method": "Retrieve the Wood Boards at the end of Esoteric Ruins and return them to Portier."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Danseuse",
+            "location": "@loc{Frozen Hearts}",
+            "method": "Accept the teacher's trial and parry the complete Danseuse attack sequence."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Chalier",
+            "location": "@loc{Floating Cemetary}",
+            "method": "Choose one of Chalier's three weapons, defeat Chalier, and answer the final request; either final response completes the quest.",
+            "note": "Granting the mercy request also awards the unique Auto Powerful Pictos."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Noire/Blanche",
+            "location": "@loc{The Fountain}",
+            "method": "After helping the other friendly Nevrons without attacking them, speak with Blanche to complete the final quest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SIMON",
+      "displayName": "Peace At Last",
+      "description": "Reach The Abyss in Renoir's Drafts and defeat both phases of Simon.",
+      "hidden": true,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 90 min",
+      "estMinutes": 90,
+      "stage": 4,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "ESQUIE_UPGRADES"
+      ],
+      "summary": "Reach @loc{The Abyss} in Renoir's Drafts and defeat both phases of @enemy{Simon}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At one-quarter health in phase two, Simon erases the active party, so the three reserve characters must be equipped to finish the battle.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use Esquie's underwater ability between Visages and Sirène to enter @loc{Renoir's Drafts}."
+          },
+          {
+            "id": "s2",
+            "text": "Continue beyond the @loc{Golden Tree} Expedition Flag into @loc{The Abyss} and challenge @enemy{Simon}."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat phase one and reduce phase two to one-quarter health; after the active party is erased, finish Simon with the reserve party."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GESTRAL_BEACH",
+      "displayName": "Gestral Games",
+      "description": "Finish Parkour Training, beat The Weakest and Just a normal one in Rafting Volley, then clear Gestral Ascension, Gestral Race, and Wall Climb; The Strongest is not required.",
+      "hidden": true,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 60 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Finish Parkour Training, beat The Weakest and Just a normal one in Rafting Volley, then clear Gestral Ascension, Gestral Race, and Wall Climb; The Strongest is not required.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The beaches contain traversal and timing minigames rather than combat; the fifth beach requires Esquie's flight ability in Act 3.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Parkour Training",
+            "location": "@loc{Gestral Beach west of Gestral Village}",
+            "method": "Complete the log obstacle course; sprint across the opening logs and slow down for the rotating platforms."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Rafting Volley Club",
+            "location": "@loc{Gestral Beach northeast of Stone Wave Cliffs}",
+            "method": "Beat The Weakest and Just a normal one opponents; The Strongest is not required for the achievement."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Gestral Ascension",
+            "location": "@loc{Gestral Beach west of Monoco's Station}",
+            "method": "Climb the full tower without falling; pause before each jump so the character catches the next ledge."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Gestral Race",
+            "location": "@loc{Gestral Beach east of Sirène}",
+            "method": "Sprint through the course and take the right-hand branch at the final fork."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Wall Climb",
+            "location": "@loc{Gestral Beach south of the Gestral Race}",
+            "method": "After Esquie learns to fly, complete the wall climb while watching the falling balls near the top and moving in advance."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CLEA",
+      "displayName": "Clea",
+      "description": "Defeat the four rematch bosses and Clea in Flying Manor.",
+      "hidden": true,
+      "globalPercent": 20.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 90 min",
+      "estMinutes": 90,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat the four rematch bosses and @enemy{Clea} in @loc{Flying Manor}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Clea reuses attack timings from Nevrons encountered throughout the game, making the preceding rematches practical preparation.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fly to @loc{Flying Manor} above and south of Monoco's Station."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat all four powered-up rematch bosses to open the final door."
+          },
+          {
+            "id": "s3",
+            "text": "Enter the final chamber and defeat @enemy{Clea}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENDLESS_TOWER",
+      "displayName": "“Endless”",
+      "description": "Clear all 33 trials across the 11 stages of Endless Tower.",
+      "hidden": true,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 240 min",
+      "estMinutes": 240,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Clear all 33 trials across the 11 stages of @loc{Endless Tower}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress is saved when leaving, so the increasingly difficult stages can be split across multiple visits.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fly to @loc{Endless Tower} in the southwestern World Map and begin Stage 1."
+          },
+          {
+            "id": "s2",
+            "text": "Complete all three trials in each of Stages 1 through 11; leave to improve the party whenever later fights become too difficult."
+          },
+          {
+            "id": "s3",
+            "text": "Win Stage 11, Trial 3 to finish the tower."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOST_GESTRALS",
+      "displayName": "Lost Gestrals",
+      "description": "Find all nine Lost Gestrals on the World Map, then report to Sastro at Camp.",
+      "hidden": true,
+      "globalPercent": 15.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Find all nine Lost Gestrals on the World Map, then report to @npc{Sastro} at Camp.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Every Lost Gestral is outdoors on The Continent; none is inside a dungeon. The ninth requires Esquie's flight ability.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Lost Gestral 1",
+            "location": "@loc{World Map — Esquie's Nest}",
+            "method": "Speak to the Lost Gestral standing directly in front of Esquie's Nest."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Lost Gestral 2",
+            "location": "@loc{World Map — Stone Wave Cliffs}",
+            "method": "Starting at the Stone Wave Cliffs doorway, head east beyond the giant Bourgeon and speak to the Lost Gestral."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Lost Gestral 3",
+            "location": "@loc{World Map — White Tree island}",
+            "method": "Reach White Tree's island opposite the first Gestral Beach and speak to the Lost Gestral."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Lost Gestral 4",
+            "location": "@loc{World Map — Monoco's Station}",
+            "method": "From Monoco's Station's south entrance, travel east to the two green trees among the snowy trees and speak to the Lost Gestral."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Lost Gestral 5",
+            "location": "@loc{World Map — north of Old Lumière}",
+            "method": "Reach the red island north of Old Lumière, pass the two Mimes, and speak to the Lost Gestral."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Lost Gestral 6",
+            "location": "@loc{World Map — Coastal Cave}",
+            "method": "Land on the small beach north of Coastal Cave, near the entrance guarded by a Grosse Tête, and speak to the Lost Gestral."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Lost Gestral 7",
+            "location": "@loc{World Map — Endless Night Sanctuary}",
+            "method": "Travel to the far-eastern entrance of Endless Night Sanctuary and speak to the nearby Lost Gestral."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Lost Gestral 8",
+            "location": "@loc{World Map — The Reacher}",
+            "method": "Land in the enclosed clearing immediately north of The Reacher and speak to the Lost Gestral."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Lost Gestral 9",
+            "location": "@loc{World Map — above Endless Tower}",
+            "method": "Use Esquie's flight ability to land on the high floating island above the Endless Tower entrance and speak to the Lost Gestral."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SERPENPHARE",
+      "displayName": "À On",
+      "description": "Defeat Serpenphare in the sky above White Sands during Act 3.",
+      "hidden": true,
+      "globalPercent": 25.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 25 min",
+      "estMinutes": 25,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Serpenphare} in the sky above White Sands during Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Serpenphare drains the party's AP at the start and later converts the stolen AP into a heavy attack.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use Esquie's flight ability to reach @enemy{Serpenphare} above @loc{White Sands} on the eastern World Map."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat Serpenphare, managing the opening AP drain with low-cost actions, AP restoration, or enough damage to shorten the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPRONG",
+      "displayName": "Sprong",
+      "description": "Defeat Sprong in the ocean outside Blades' Graveyard during Act 3.",
+      "hidden": true,
+      "globalPercent": 32.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Sprong} in the ocean outside @loc{Blades' Graveyard} during Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sprong is tuned for later Act 3; victory awards Cheater, whose Lumina lets a character act twice in a row.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use Esquie to reach the large sea creature just outside @loc{Blades' Graveyard}."
+          },
+          {
+            "id": "s2",
+            "text": "Approach @enemy{Sprong} and defeat it; use the nearby island to force an autosave before repeated attempts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PAINTING_WORKSHOP",
+      "displayName": "Noir et Blanc",
+      "description": "Collect all three Beast components from the Painting Workshop entrances, complete the statue, and defeat Lampmaster.",
+      "hidden": true,
+      "globalPercent": 19.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Collect all three Beast components from the Painting Workshop entrances, complete the statue, and defeat @enemy{Lampmaster}.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The three entrances share one interior statue; swimming reaches the first entrance, while the other two require Esquie's flight ability.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Light of the Beast",
+            "location": "@loc{Island diagonally right of both Stone Wave Cliffs and Forgotten Battlefield}",
+            "method": "Swim to the entrance; it sits above Stone Wave Cliffs and below Forgotten Battlefield. Descend to the Faceless Boy, choose We Will, and place the Light of the Beast in the statue below."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Colour of the Beast",
+            "location": "@loc{Floating island northwest of Forgotten Battlefield}",
+            "method": "Fly to the entrance, descend to the Faceless Boy, choose We Will, and place the Colour of the Beast in the statue below."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Shape of the Beast",
+            "location": "@loc{Floating island east of Sirène}",
+            "method": "Fly to the entrance, descend to the Faceless Boy, choose We Will, and place the Shape of the Beast in the statue below."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Completed Beast",
+            "location": "@loc{Painting Workshop — statue arena}",
+            "method": "After all three components are inserted, enter the opened arena behind the statue and defeat the unique Lampmaster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SCIEL_RELATIONSHIP",
+      "displayName": "Sciel",
+      "description": "Complete Sciel's Camp conversations and reach relationship level 7 in Act 3.",
+      "hidden": true,
+      "globalPercent": 33.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Complete @npc{Sciel's} Camp conversations and reach relationship level 7 in Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Relationship conversations unlock in stages as the story advances; Sciel's final level also grants End Slice.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "From Act 2 onward, speak with @npc{Sciel} at @loc{Camp} whenever a new conversation is available."
+          },
+          {
+            "id": "s2",
+            "text": "After Act 3 begins, complete the remaining conversations until Sciel reaches relationship level 7."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MONOCO_RELATIONSHIP",
+      "displayName": "Monoco",
+      "description": "Complete Monoco's Sacred River quest and defeat Golgra with Verso and Monoco to reach relationship level 7.",
+      "hidden": true,
+      "globalPercent": 29.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Complete Monoco's Sacred River quest and defeat @npc{Golgra} with Verso and Monoco to reach relationship level 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Sacred River is accessible only by flight and appears north of Monoco's Station after Monoco requests help for Noco.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Raise @npc{Monoco} to relationship level 5 and speak with him at @loc{Camp} until @loc{Sacred River} is marked."
+          },
+          {
+            "id": "s2",
+            "text": "Fly to Sacred River, choose to resurrect @npc{Noco}, and win Golgra's trial using only Verso and Monoco."
+          },
+          {
+            "id": "s3",
+            "text": "Return to Camp and finish Monoco's level 6 and level 7 conversations."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MAELLE_RELATIONSHIP",
+      "displayName": "Maelle",
+      "description": "Clear The Reacher, then choose (Truth) in Maelle's final Camp conversation to reach level 7.",
+      "hidden": true,
+      "globalPercent": 30.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 60 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Clear @loc{The Reacher}, then choose @mechanic{(Truth)} in Maelle's final Camp conversation to reach level 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "Choosing (Lie) permanently blocks level 7 and Maelle's Gommage Gradient Attack unless an earlier autosave is restored.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Raise @npc{Maelle} to relationship level 5 by completing her available Camp conversations."
+          },
+          {
+            "id": "s2",
+            "text": "Travel to @loc{The Reacher} northwest of The Crows, reach its summit, and defeat the area's boss."
+          },
+          {
+            "id": "s3",
+            "text": "Back at @loc{Camp}, continue Maelle's conversations and choose @mechanic{(Truth)} when the final scene offers (Truth) or (Lie).",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LUNE_RELATIONSHIP",
+      "displayName": "Lune",
+      "description": "Defeat Chromatic Glissando in Sirène's Dress, then finish Lune's Camp talks to reach level 7.",
+      "hidden": true,
+      "globalPercent": 31.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Chromatic Glissando} in Sirène's Dress, then finish @npc{Lune's} Camp talks to reach level 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sirène's Dress opens only after Lune reaches relationship level 5 and discusses her parents' expedition.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Raise @npc{Lune} to relationship level 5 and speak with her at @loc{Camp} to mark @loc{Sirène's Dress}."
+          },
+          {
+            "id": "s2",
+            "text": "Enter Sirène's Dress east of Sirène's island and defeat @enemy{Chromatic Glissando}."
+          },
+          {
+            "id": "s3",
+            "text": "Collect the journal behind the boss, return to Camp, and complete Lune's remaining conversations to reach level 7."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ESQUIE_RELATIONSHIP",
+      "displayName": "Esquie",
+      "description": "Complete Esquie's Camp conversations and reach relationship level 7 in Act 3.",
+      "hidden": true,
+      "globalPercent": 31.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Complete @npc{Esquie's} Camp conversations and reach relationship level 7 in Act 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Level 6 grants underwater diving; the next available conversation raises Esquie to level 7 and grants Angel's Eyes to Verso.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Speak with @npc{Esquie} at @loc{Camp} throughout Acts 2 and 3 until diving unlocks at relationship level 6."
+          },
+          {
+            "id": "s2",
+            "text": "Complete the next Esquie conversation available in Act 3 to reach relationship level 7."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WEAPON_FIRST_UPGRADE",
+      "displayName": "Weapon Upgrade",
+      "description": "Upgrade a weapon once.",
+      "hidden": false,
+      "globalPercent": 72.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "FLYING_WATERS"
+      ],
+      "summary": "Spend a Chroma Catalyst to upgrade any weapon through @npc{The Curator} at Camp.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Curator joins Camp after Maelle is recruited in Flying Waters; receiving a higher-level duplicate weapon does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After recruiting @npc{Maelle} in @loc{Flying Waters}, leave for the World Map and enter @loc{Camp}."
+          },
+          {
+            "id": "s2",
+            "text": "Speak to @npc{The Curator}, select @mechanic{Weapon Upgrades}, and spend the required catalyst on any weapon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WEAPON_FULL_UPGRADE",
+      "displayName": "Weapon Mastery",
+      "description": "Fully upgrade a weapon.",
+      "hidden": false,
+      "globalPercent": 25.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 60 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Upgrade any weapon to level 33 with a @item{Perfect Chroma Catalyst}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Weapons use Chroma Catalysts through level 32 and one Perfect Chroma Catalyst for level 33; Flying Manor bosses provide several guaranteed late-game catalysts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach @loc{Flying Manor}, the floating island south of Monoco's Station, and defeat its powered-up rematch bosses until one drops a @item{Perfect Chroma Catalyst}."
+          },
+          {
+            "id": "s2",
+            "text": "At @loc{Camp}, use The Curator's @mechanic{Weapon Upgrades} menu to raise one weapon through level 32."
+          },
+          {
+            "id": "s3",
+            "text": "Spend the Perfect Chroma Catalyst on that weapon to reach level 33."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_LUMINA_POINT",
+      "displayName": "Lumina",
+      "description": "Consume a Lumina point.",
+      "hidden": false,
+      "globalPercent": 71.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "FLYING_WATERS"
+      ],
+      "summary": "Use @npc{The Curator's} @mechanic{Upgrade Expedition Resources} menu to consume one Colour of Lumina.",
+      "guide": {
+        "kind": "standard",
+        "context": "Lumina capacity upgrades become available at Camp after the Curator follows the party from Flying Waters.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After recruiting @npc{Maelle} in @loc{Flying Waters}, enter @loc{Camp} from the World Map."
+          },
+          {
+            "id": "s2",
+            "text": "Speak to @npc{The Curator}, choose @mechanic{Upgrade Expedition Resources}, and spend one @item{Colour of Lumina}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LEVEL_33",
+      "displayName": "Expeditioner",
+      "description": "Reach level 33.",
+      "hidden": false,
+      "globalPercent": 54.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Raise any one playable character to level 33.",
+      "guide": {
+        "kind": "standard",
+        "context": "Patch 1.4.0 fixed skipped-threshold failures, so a character who gains multiple levels and passes 33 should now receive credit.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep one character in the active or reserve roster while earning experience from story and side-area battles."
+          },
+          {
+            "id": "s2",
+            "text": "Finish a battle that raises that character to level 33 or higher."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LEVEL_66",
+      "displayName": "Trailbreaker",
+      "description": "Reach level 66.",
+      "hidden": false,
+      "globalPercent": 33.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Raise any one playable character to level 66 through Act 3 battles and side areas.",
+      "guide": {
+        "kind": "standard",
+        "context": "Normal Act 3 exploration is usually sufficient; The Reacher, Frozen Hearts, and Dark Shore are suitable early Act 3 routes.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete Act 3 side areas and optional bosses with the chosen character in the roster."
+          },
+          {
+            "id": "s2",
+            "text": "Finish a battle that raises that character to level 66 or higher."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LEVEL_99",
+      "displayName": "Survivor",
+      "description": "Reach level 99.",
+      "hidden": false,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 180 min",
+      "estMinutes": 180,
+      "stage": 4,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "ESQUIE_UPGRADES"
+      ],
+      "summary": "Raise any one playable character to level 99, using the Golden Tree loop in Renoir's Drafts if needed.",
+      "guide": {
+        "kind": "standard",
+        "context": "The enemies around Golden Tree give roughly two million experience per battle and respawn whenever the party rests.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{Renoir's Drafts} through the underwater passage between Visages and Sirène, then activate the second flag, @loc{Golden Tree}."
+          },
+          {
+            "id": "s2",
+            "text": "Clear the three enemy packs surrounding the Gestral Merchant's building, return to Golden Tree, and rest to respawn them."
+          },
+          {
+            "id": "s3",
+            "text": "Repeat the loop with the chosen character in the roster until that character reaches level 99."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GUSTAVE_OVERCHARGE",
+      "displayName": "Overcharge",
+      "description": "With Gustave, use a fully charged Overcharge that Breaks an enemy.",
+      "hidden": false,
+      "globalPercent": 81.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Use @npc{Gustave's} fully charged @mechanic{Overcharge} to Break an enemy before Act 1 ends.",
+      "guide": {
+        "kind": "standard",
+        "context": "The opportunity ends with Act 1 because Gustave is no longer available afterward; the Prologue Mime is an early target but is not required.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build @npc{Gustave's} Overcharge meter to 10/10 by parrying and using @mechanic{Lumière Assault}; keep enough AP to cast Overcharge."
+          },
+          {
+            "id": "s2",
+            "text": "Choose an enemy whose yellow Break bar is close enough to full for the charged hit to finish it."
+          },
+          {
+            "id": "s3",
+            "text": "Cast the fully charged @mechanic{Overcharge}; the same hit must trigger Break."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LUNE_STAINS",
+      "displayName": "Perfect Flow",
+      "description": "Have Lune use skills that consume Stains on four consecutive turns.",
+      "hidden": true,
+      "globalPercent": 50.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Have @npc{Lune} use skills that consume Stains on four consecutive turns.",
+      "guide": {
+        "kind": "standard",
+        "context": "A long boss, Mime, or Pétank fight provides enough turns; Trebuchim can generate a random Stain with each Free Aim shot.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip @npc{Lune} with several low-cost skills whose enhanced effects consume available Stains."
+          },
+          {
+            "id": "s2",
+            "text": "Generate Stains with other skills or the @item{Trebuchim} weapon, and restore AP with Thermal Transfer, Energy Tints, or allies."
+          },
+          {
+            "id": "s3",
+            "text": "On each of Lune's next four turns, cast a skill that actually consumes at least one Stain; do not break the sequence with a non-consuming action."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MAELLE_STANCES",
+      "displayName": "Synergy",
+      "description": "While Maelle occupies Virtuose Stance, strike a Marked target with Percée.",
+      "hidden": true,
+      "globalPercent": 44.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "While @npc{Maelle} occupies Virtuose Stance, strike a Marked target with Percée.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mark disappears when consumed by an attack, so other party members should skip their turns after the target is prepared.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Apply @mechanic{Mark} to a durable enemy with @npc{Gustave's} Marking Shot or another guaranteed Mark source."
+          },
+          {
+            "id": "s2",
+            "text": "Move @npc{Maelle} into @mechanic{Virtuose Stance} with one of her stance-changing skills and preserve enough AP for Percée."
+          },
+          {
+            "id": "s3",
+            "text": "Before another attack consumes Mark, cast @mechanic{Percée} on the Marked target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SCIEL_FORETELL",
+      "displayName": "Maximisation",
+      "description": "Have Sciel consume 20 Foretell from one target while Twilight is active.",
+      "hidden": true,
+      "globalPercent": 35.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Have @npc{Sciel} consume 20 Foretell from one target while Twilight is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "Twilight doubles newly applied Foretell and lasts two turns; the Chation weapon makes Sun skills apply 10 Foretell at level 4.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter a long fight with @npc{Sciel} and build 10 Foretell on a single enemy before Twilight."
+          },
+          {
+            "id": "s2",
+            "text": "Enter @mechanic{Twilight}, then apply five more base Foretell so the doubled amount reaches the 20-Foretell cap."
+          },
+          {
+            "id": "s3",
+            "text": "Before Twilight expires, cast a skill that consumes all 20 Foretell from that target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "VERSO_PERFECTION",
+      "displayName": "Perfection",
+      "description": "Raise Verso's Perfection rank to S during one battle.",
+      "hidden": true,
+      "globalPercent": 56.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "STONE_WAVE_CLIFFS"
+      ],
+      "summary": "Raise @npc{Verso's} Perfection rank to S during one battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Verso gains Perfection by succeeding in combat and loses it when hit; the Sakaram weapon prevents rank loss but removes the rank damage bonus.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter a durable fight with @npc{Verso} in the active party."
+          },
+          {
+            "id": "s2",
+            "text": "Keep taking Verso's turns while dodging or parrying every incoming attack until his @mechanic{Perfection} reaches Rank S."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MONOCO_WHEEL",
+      "displayName": "Wheel Control",
+      "description": "Have Monoco cast an upgraded skill on four consecutive turns.",
+      "hidden": true,
+      "globalPercent": 28.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "ALL_CHARACTERS"
+      ],
+      "summary": "Have @npc{Monoco} cast an upgraded skill on four consecutive turns.",
+      "guide": {
+        "kind": "standard",
+        "context": "A skill upgrades only when its mask matches the Bestial Wheel's current mask; Monoco must be in the active party to learn new enemy skills.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip one low-AP skill for every colored mask: Abbest Wind for Agile, Rocher Hammering for Heavy, Braseleur Smash for Balanced, and Bruler Bash for Caster."
+          },
+          {
+            "id": "s2",
+            "text": "Enter a durable fight and use the skill matching the wheel's current mask so the cast is upgraded."
+          },
+          {
+            "id": "s3",
+            "text": "Restore Monoco's AP with Energy Tints or allies, then repeat upgraded casts on his next three turns without an unupgraded Monoco turn between them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PETANK_ALPHA",
+      "displayName": "Carreau Parfait",
+      "description": "Chase and defeat the Chromatic Pétank in the southeastern World Map enclosure.",
+      "hidden": true,
+      "globalPercent": 21.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Chase and defeat the @enemy{Chromatic Pétank} in the southeastern World Map enclosure.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Pétank must be herded into the southern dead end before combat begins.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fly into the large landlocked area at the far southeastern edge of the World Map."
+          },
+          {
+            "id": "s2",
+            "text": "Approach the @enemy{Chromatic Pétank} from the north and keep chasing it south until it is trapped."
+          },
+          {
+            "id": "s3",
+            "text": "Engage and defeat the trapped Chromatic Pétank."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_MONOCO_SKILLS",
+      "displayName": "Feet Collection",
+      "description": "Learn all 46 enemy skills by defeating every skill-awarding Nevron type with Monoco in the active party.",
+      "hidden": true,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 180 min",
+      "estMinutes": 180,
+      "stage": 3,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Learn all 46 enemy skills by defeating every skill-awarding Nevron type with @npc{Monoco} in the active party.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Endless Tower supplies almost every required enemy, but Grosse Tête is most reliably cleaned up in Flying Manor; the in-battle foot icon marks an enemy whose skill is still missing.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Abbest Wind",
+            "location": "@loc{World Map — south of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat an Abbest."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Aberration Light",
+            "location": "@loc{Renoir's Drafts or Act 3 Lumière}",
+            "method": "Keep Monoco in the active party and defeat an Aberration."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Ballet Charm",
+            "location": "@loc{Sirène}",
+            "method": "Keep Monoco in the active party and defeat a Ballet."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Boucheclier Fortify",
+            "location": "@loc{Visages}",
+            "method": "Keep Monoco in the active party and defeat a Boucheclier."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Braseleur Smash",
+            "location": "@loc{The Continent — Braseleur territory near Old Lumière's western side}",
+            "method": "Keep Monoco in the active party and defeat a Braseleur."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Bruler Bash",
+            "location": "@loc{World Map — southwest of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Bruler."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Bénisseur Mortar",
+            "location": "@loc{Sirène}",
+            "method": "Keep Monoco in the active party and defeat a Bénisseur."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Chalier Combo",
+            "location": "@loc{Monoco's Station}",
+            "method": "Recruit Monoco; Chalier Combo is one of his starting skills."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Chapelier Slash",
+            "location": "@loc{Visages}",
+            "method": "Keep Monoco in the active party and defeat a Chapelier."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Chevalière Ice",
+            "location": "@loc{Old Lumière}",
+            "method": "Keep Monoco in the active party and defeat a Gold Chevalière."
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Chevalière Piercing",
+            "location": "@loc{Old Lumière}",
+            "method": "Keep Monoco in the active party and defeat a Ceramic Chevalière."
+          },
+          {
+            "id": "c12",
+            "index": 12,
+            "name": "Chevalière Thrusts",
+            "location": "@loc{Old Lumière}",
+            "method": "Keep Monoco in the active party and defeat a Steel Chevalière."
+          },
+          {
+            "id": "c13",
+            "index": 13,
+            "name": "Clair Enfeeble",
+            "location": "@loc{The Monolith — Tainted Meadows}",
+            "method": "Keep Monoco in the active party and defeat a Clair."
+          },
+          {
+            "id": "c14",
+            "index": 14,
+            "name": "Contorsionniste Blast",
+            "location": "@loc{Visages}",
+            "method": "Keep Monoco in the active party and defeat a Contorsionniste."
+          },
+          {
+            "id": "c15",
+            "index": 15,
+            "name": "Création Void",
+            "location": "@loc{Renoir's Drafts or Act 3 Lumière}",
+            "method": "Keep Monoco in the active party and defeat a Création."
+          },
+          {
+            "id": "c16",
+            "index": 16,
+            "name": "Cruler Barrier",
+            "location": "@loc{World Map — southeast of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Cruler."
+          },
+          {
+            "id": "c17",
+            "index": 17,
+            "name": "Cultist Blood",
+            "location": "@loc{Sirène}",
+            "method": "Keep Monoco in the active party and defeat a Greatsword Cultist."
+          },
+          {
+            "id": "c18",
+            "index": 18,
+            "name": "Cultist Slashes",
+            "location": "@loc{World Map — northwest of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Reaper Cultist."
+          },
+          {
+            "id": "c19",
+            "index": 19,
+            "name": "Danseuse Waltz",
+            "location": "@loc{Frozen Hearts}",
+            "method": "Keep Monoco in the active party and defeat a Danseuse."
+          },
+          {
+            "id": "c20",
+            "index": 20,
+            "name": "Dualliste Storm",
+            "location": "@loc{Flying Manor}",
+            "method": "Keep Monoco in the active party and defeat a Dualliste."
+          },
+          {
+            "id": "c21",
+            "index": 21,
+            "name": "Démineur Thunder",
+            "location": "@loc{The Monolith — Tainted Meadows}",
+            "method": "Keep Monoco in the active party and defeat a Démineur."
+          },
+          {
+            "id": "c22",
+            "index": 22,
+            "name": "Gault Fury",
+            "location": "@loc{World Map — south of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Gault."
+          },
+          {
+            "id": "c23",
+            "index": 23,
+            "name": "Glaise Earthquakes",
+            "location": "@loc{The Continent — Glaise territory above Endless Night Sanctuary}",
+            "method": "Keep Monoco in the active party and defeat a Glaise."
+          },
+          {
+            "id": "c24",
+            "index": 24,
+            "name": "Grosse Tête Whack",
+            "location": "@loc{Flying Manor or west of Coastal Cave}",
+            "method": "Keep Monoco in the active party and defeat a Grosse Tête; Flying Manor has the respawning source."
+          },
+          {
+            "id": "c25",
+            "index": 25,
+            "name": "Hexga Crush",
+            "location": "@loc{The Monolith — Tainted Cliffs}",
+            "method": "Keep Monoco in the active party and defeat a Hexga."
+          },
+          {
+            "id": "c26",
+            "index": 26,
+            "name": "Jar Lampstorm",
+            "location": "@loc{World Map — Endless Night Sanctuary entrance}",
+            "method": "Keep Monoco in the active party and defeat the Jar beside the entrance."
+          },
+          {
+            "id": "c27",
+            "index": 27,
+            "name": "Lampmaster Light",
+            "location": "@loc{Flying Manor}",
+            "method": "Keep Monoco in the active party and defeat a Lampmaster."
+          },
+          {
+            "id": "c28",
+            "index": 28,
+            "name": "Lancelier Impale",
+            "location": "@loc{The Monolith — Entrance}",
+            "method": "Keep Monoco in the active party and defeat a Lancelier."
+          },
+          {
+            "id": "c29",
+            "index": 29,
+            "name": "Luster Slices",
+            "location": "@loc{The Monolith — Tainted Waters}",
+            "method": "Keep Monoco in the active party and defeat a Luster."
+          },
+          {
+            "id": "c30",
+            "index": 30,
+            "name": "Moissonneuse Vendange",
+            "location": "@loc{Visages}",
+            "method": "Keep Monoco in the active party and defeat a Moissonneuse."
+          },
+          {
+            "id": "c31",
+            "index": 31,
+            "name": "Obscur Sword",
+            "location": "@loc{The Monolith — Tainted Cliffs}",
+            "method": "Keep Monoco in the active party and defeat an Obscur."
+          },
+          {
+            "id": "c32",
+            "index": 32,
+            "name": "Orphelin Cheers",
+            "location": "@loc{The Reacher}",
+            "method": "Keep Monoco in the active party and defeat an Orphelin."
+          },
+          {
+            "id": "c33",
+            "index": 33,
+            "name": "Portier Crash",
+            "location": "@loc{Spring Meadows or The Monolith — Entrance}",
+            "method": "Keep Monoco in the active party and defeat a Portier."
+          },
+          {
+            "id": "c34",
+            "index": 34,
+            "name": "Potier Energy",
+            "location": "@loc{The Continent — Potier's red island, diagonally above Old Lumière}",
+            "method": "Keep Monoco in the active party and defeat a Potier."
+          },
+          {
+            "id": "c35",
+            "index": 35,
+            "name": "Pèlerin Heal",
+            "location": "@loc{World Map — northwest of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Pèlerin."
+          },
+          {
+            "id": "c36",
+            "index": 36,
+            "name": "Ramasseur Bonk",
+            "location": "@loc{Visages}",
+            "method": "Keep Monoco in the active party and defeat a Ramasseur."
+          },
+          {
+            "id": "c37",
+            "index": 37,
+            "name": "Rocher Hammering",
+            "location": "@loc{World Map — south of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Rocher."
+          },
+          {
+            "id": "c38",
+            "index": 38,
+            "name": "Sakapatate Explosion",
+            "location": "@loc{Ancient Sanctuary or The Monolith — Tainted Sanctuary}",
+            "method": "Keep Monoco in the active party and defeat a Catapult Sakapatate."
+          },
+          {
+            "id": "c39",
+            "index": 39,
+            "name": "Sakapatate Fire",
+            "location": "@loc{The Monolith — Tainted Sanctuary}",
+            "method": "Keep Monoco in the active party and defeat an Ultimate Sakapatate."
+          },
+          {
+            "id": "c40",
+            "index": 40,
+            "name": "Sakapatate Slam",
+            "location": "@loc{Ancient Sanctuary or The Monolith — Tainted Sanctuary}",
+            "method": "Keep Monoco in the active party and defeat a Robust Sakapatate."
+          },
+          {
+            "id": "c41",
+            "index": 41,
+            "name": "Sakapate Estoc",
+            "location": "@loc{Ancient Sanctuary or The Monolith — Tainted Sanctuary}",
+            "method": "Keep Monoco in the active party and defeat a Ranger Sakapatate."
+          },
+          {
+            "id": "c42",
+            "index": 42,
+            "name": "Sapling Absorption",
+            "location": "@loc{World Map — beach north of Coastal Cave}",
+            "method": "Keep Monoco in the active party and defeat a Sapling."
+          },
+          {
+            "id": "c43",
+            "index": 43,
+            "name": "Stalact Punches",
+            "location": "@loc{Monoco's Station}",
+            "method": "Recruit Monoco; Stalact Punches is one of his starting skills."
+          },
+          {
+            "id": "c44",
+            "index": 44,
+            "name": "Troubadour Trumpet",
+            "location": "@loc{World Map — southeast of Monoco's Station}",
+            "method": "Keep Monoco in the active party and defeat a Troubadour."
+          },
+          {
+            "id": "c45",
+            "index": 45,
+            "name": "Échassier Stabs",
+            "location": "@loc{The Reacher}",
+            "method": "Keep Monoco in the active party and defeat an Échassier."
+          },
+          {
+            "id": "c46",
+            "index": 46,
+            "name": "Évêque Spear",
+            "location": "@loc{The Monolith — Tainted Meadows}",
+            "method": "Keep Monoco in the active party and defeat an Évêque."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_CHARACTERS",
+      "displayName": "Expedition 33",
+      "description": "Defeat Monoco and Stalact at Monoco's Station to recruit the final playable character.",
+      "hidden": true,
+      "globalPercent": 57.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 2,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "FORGOTTEN_BATTLEFIELD"
+      ],
+      "summary": "Defeat @npc{Monoco} and @enemy{Stalact} at Monoco's Station to recruit the final playable character.",
+      "guide": {
+        "kind": "standard",
+        "context": "All other playable characters join through earlier story progress, so Monoco completes the roster automatically.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach @loc{Monoco's Station}, meet @npc{Monoco}, and defeat him in the duel."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{Stalact} and finish the following scene to recruit Monoco."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LVL3_GRADIENT_ATTACK",
+      "displayName": "Chroma Proficiency",
+      "description": "Build three Gradient charges and use any level 3 Gradient Attack unlocked at relationship level 7.",
+      "hidden": true,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "SCIEL_RELATIONSHIP"
+      ],
+      "summary": "Build three Gradient charges and use any level 3 Gradient Attack unlocked at relationship level 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each combat character gains a level 3 Gradient Attack from a completed level 7 relationship; the party shares the Gradient meter.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach relationship level 7 with Sciel, Maelle, Lune, Monoco, or Esquie to unlock a level 3 Gradient Attack."
+          },
+          {
+            "id": "s2",
+            "text": "Enter combat, build the shared Gradient meter to three charges, and select the unlocked level 3 attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_SONGS",
+      "displayName": "Connoisseur",
+      "description": "Find all 33 music records.",
+      "hidden": false,
+      "globalPercent": 10.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 180 min",
+      "estMinutes": 180,
+      "stage": 2,
+      "group": "collectibles",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Collect all 33 unique records, including Lettre à Maelle after the first Axon and Our Drafts Collide after reloading the completion save.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The Lumière record has two pickup locations and can make the counter unlock at 32 unique records, but the checklist follows all 33 unique titles.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Alicia",
+            "location": "@loc{Falling Leaves}",
+            "method": "Descend the ropes after the first flag, enter the nearby Manor door, and collect the record inside."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Alicia's Birthday Party",
+            "location": "@loc{Boat Graveyard}",
+            "method": "Collect the record in the middle of the small optional area."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Aline",
+            "location": "@loc{White Sands}",
+            "method": "Walk to the far end of the small area and collect the record."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Aline's Glasshouse",
+            "location": "@loc{Lost Woods}",
+            "method": "After Esquie joins, enter Lost Woods beyond Yellow Harvest and collect the record."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Children of Lumière",
+            "location": "@loc{World Map — Sacred River entrance}",
+            "method": "Buy the record from the Gestral Merchant outside Sacred River."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Clea",
+            "location": "@loc{Endless Tower}",
+            "method": "Complete all 33 Endless Tower trials to receive the record automatically."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Clea! Don't Pull Your Sister's Hair!",
+            "location": "@loc{Frozen Hearts}",
+            "method": "Beyond the rope cave, use the grapple point to reach a Manor door and collect the record inside."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Endless Light",
+            "location": "@loc{Renoir's Drafts}",
+            "method": "From the entrance, hug the left wall to the grapple point, climb onto the roof, and collect the record on its far side."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Forlorn",
+            "location": "@loc{World Map — southeastern enclosure}",
+            "method": "Enter the Manor door in the same enclosed region as the Chromatic Pétank and collect the record."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Goblu",
+            "location": "@loc{World Map — north of The Small Bourgeon}",
+            "method": "Buy the record from the merchant north of The Small Bourgeon."
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Gustave",
+            "location": "@loc{Stone Wave Cliffs — Lampmaster arena}",
+            "method": "In Act 2, use the rear entrance to return to the Lampmaster arena and collect the record."
+          },
+          {
+            "id": "c12",
+            "index": 12,
+            "name": "Honeymoon in Lumière",
+            "location": "@loc{White Tree}",
+            "method": "Collect the record in the middle of the small optional area."
+          },
+          {
+            "id": "c13",
+            "index": 13,
+            "name": "L'Amour d'une Mère",
+            "location": "@loc{The Monolith — Tainted Battlefield}",
+            "method": "Enter the cave leading to a Manor greenhouse and collect the record beside Aline's journal."
+          },
+          {
+            "id": "c14",
+            "index": 14,
+            "name": "Le Grand Café de Lumière",
+            "location": "@loc{The Carousel}",
+            "method": "From the central carousel, take the subtle path on the left and collect the record at its end."
+          },
+          {
+            "id": "c15",
+            "index": 15,
+            "name": "Lettre à Maelle",
+            "location": "@loc{Camp — after the first Axon}",
+            "method": "Immediately after the first Axon falls, use the campfire's Check up on the others option and watch the piano scene.",
+            "note": "This one-time Camp scene is the record that can lock the achievement.",
+            "missable": true
+          },
+          {
+            "id": "c16",
+            "index": 16,
+            "name": "Lights of the Past",
+            "location": "@loc{Ancient Gestral City}",
+            "method": "After Esquie joins, find Ancient Gestral City with Flying Waters to its west and collect the record."
+          },
+          {
+            "id": "c17",
+            "index": 17,
+            "name": "Linen and Cotton",
+            "location": "@loc{World Map — Isle of the Eyes entrance}",
+            "method": "Buy the record from the Gestral Merchant outside Isle of the Eyes."
+          },
+          {
+            "id": "c18",
+            "index": 18,
+            "name": "Lost Voice",
+            "location": "@loc{World Map — north of Forgotten Battlefield's exit}",
+            "method": "Buy the record from the trader Strabami north of the exit."
+          },
+          {
+            "id": "c19",
+            "index": 19,
+            "name": "Lumière",
+            "location": "@loc{Prologue Lumière or Act 3 Opera House}",
+            "method": "Defeat the Prologue Mime for the first copy, or collect the replacement inside the Act 3 Opera House."
+          },
+          {
+            "id": "c20",
+            "index": 20,
+            "name": "Lune",
+            "location": "@loc{Camp}",
+            "method": "Raise Lune to relationship level 6 to receive the record."
+          },
+          {
+            "id": "c21",
+            "index": 21,
+            "name": "Monoco",
+            "location": "@loc{Camp}",
+            "method": "Raise Monoco to relationship level 6 to receive the record."
+          },
+          {
+            "id": "c22",
+            "index": 22,
+            "name": "Nocturne pour Lumière",
+            "location": "@loc{Sinister Cave}",
+            "method": "Hug the right wall to the first grapple, turn and grapple across the chasm, stay above the merchant, and drop through the small hole to the record."
+          },
+          {
+            "id": "c23",
+            "index": 23,
+            "name": "Nocturne pour un masque de tristesse",
+            "location": "@loc{The Manor — dining room}",
+            "method": "Activate all four wall fixtures in the dining room with the piano and enter the revealed passage."
+          },
+          {
+            "id": "c24",
+            "index": 24,
+            "name": "Our Drafts Collide",
+            "location": "@loc{Act 3 ending}",
+            "method": "Complete either ending, reload the completion save, and receive the record automatically."
+          },
+          {
+            "id": "c25",
+            "index": 25,
+            "name": "Our Painted Family",
+            "location": "@loc{The Meadows}",
+            "method": "Collect the record in the middle of the small optional area."
+          },
+          {
+            "id": "c26",
+            "index": 26,
+            "name": "Renoir",
+            "location": "@loc{Old Lumière — final Manor}",
+            "method": "Enter the Manor door left of the final Manor, behind the hedges, and collect the record inside."
+          },
+          {
+            "id": "c27",
+            "index": 27,
+            "name": "Robe de Jour",
+            "location": "@loc{World Map — island south of Sirène}",
+            "method": "After Esquie can break reefs, reach the small island and buy the record from its merchant."
+          },
+          {
+            "id": "c28",
+            "index": 28,
+            "name": "Révérence",
+            "location": "@loc{Blades' Graveyard}",
+            "method": "Collect the record in the middle of the optional area."
+          },
+          {
+            "id": "c29",
+            "index": 29,
+            "name": "Rêveries dans Paris",
+            "location": "@loc{Flying Casino}",
+            "method": "Reach the casino building, circle around its right side, and collect the record behind it."
+          },
+          {
+            "id": "c30",
+            "index": 30,
+            "name": "Sciel",
+            "location": "@loc{Camp}",
+            "method": "Raise Sciel to relationship level 6 to receive the record."
+          },
+          {
+            "id": "c31",
+            "index": 31,
+            "name": "Un 33 Décembre à Lumière",
+            "location": "@loc{Twilight Quarry}",
+            "method": "After Esquie joins, enter Twilight Quarry south of Esquie's Nest and collect the record."
+          },
+          {
+            "id": "c32",
+            "index": 32,
+            "name": "Until Next Life",
+            "location": "@loc{Falling Leaves}",
+            "method": "Complete the Young Boy's request and defeat the area's boss to receive the record."
+          },
+          {
+            "id": "c33",
+            "index": 33,
+            "name": "Verso",
+            "location": "@loc{Visages — Anger path Manor}",
+            "method": "Take the path just right of Sadness, hug the right wall to a cave, enter the Manor door, and collect the record."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PAINT_CAGE",
+      "displayName": "Paint Cage",
+      "description": "Break a Paint Cage.",
+      "hidden": false,
+      "globalPercent": 76.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Shoot all three locks around one @item{Paint Cage} to open it.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first cage appears near the beginning of Flying Waters; valid locks turn the Free Aim reticle red.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find a @item{Paint Cage}, then search the nearby walls and scenery for its three paint locks."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Free Aim} to shoot each lock when the reticle turns red."
+          },
+          {
+            "id": "s3",
+            "text": "Destroy the third lock to open the cage and unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BREAK",
+      "displayName": "Time to Spill Some Ink",
+      "description": "Break an enemy.",
+      "hidden": false,
+      "globalPercent": 84.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Fill an enemy's yellow @mechanic{Break bar} and trigger Break during combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Break buildup is shown by the yellow gauge directly beneath an enemy's health bar.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use attacks with high Break damage, such as @npc{Gustave's} @mechanic{Overcharge}, until the enemy's yellow Break bar is full."
+          },
+          {
+            "id": "s2",
+            "text": "Land the attack that fills the gauge to trigger @mechanic{Break} and unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NO_DAMAGE_BOSS",
+      "displayName": "Professional",
+      "description": "Defeat a boss without taking any damage.",
+      "hidden": false,
+      "globalPercent": 51.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "summary": "Defeat a boss or Chromatic miniboss without any party member taking damage.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chromatic enemies count, making the @enemy{Chromatic Lancelier} in Spring Meadows an easier late cleanup target than most story bosses.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Leave the @enemy{Chromatic Lancelier} in @loc{Spring Meadows} alive until your party can defeat it quickly, or choose another boss whose attacks you know."
+          },
+          {
+            "id": "s2",
+            "text": "Dodge or parry every attack and defeat the boss without any party member losing health."
+          },
+          {
+            "id": "s3",
+            "text": "If anyone takes damage, use the battle-retry prompt or reload an autosave and repeat the full fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OPTIONAL_CAMP",
+      "displayName": "Curious",
+      "description": "Witness an optional scene at camp.",
+      "hidden": false,
+      "globalPercent": 71.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "FLYING_WATERS"
+      ],
+      "summary": "Choose @mechanic{Check up on the others} at Camp after completing Flying Waters.",
+      "guide": {
+        "kind": "standard",
+        "context": "The option appears when the party first camps after Flying Waters and starts an optional group conversation.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After leaving @loc{Flying Waters}, inspect the campfire at @loc{Camp}."
+          },
+          {
+            "id": "s2",
+            "text": "Select @mechanic{Check up on the others} and watch the optional scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ESQUIE_UNLOCK",
+      "displayName": "Legend",
+      "description": "Defeat François in Esquie's Nest and speak with Esquie afterward.",
+      "hidden": true,
+      "globalPercent": 67.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "story",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "prerequisites": [
+        "GESTRAL_VILLAGE"
+      ],
+      "summary": "Defeat @enemy{François} in Esquie's Nest and speak with @npc{Esquie} afterward.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlocking Esquie also grants rough-terrain travel and completes the Esquie's Nest story section.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Progress through @loc{Esquie's Nest} and defeat @enemy{François}."
+          },
+          {
+            "id": "s2",
+            "text": "Return to @npc{Esquie} and finish the conversation that recruits him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LUMIERE_MIME",
+      "displayName": "A Peculiar Encounter",
+      "description": "Defeat the Mime in Lumière.",
+      "hidden": false,
+      "globalPercent": 45.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "cleanup",
+      "sortReason": "Placed in the chronological route used by the current achievement guide and its patch-sensitive lockouts.",
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Defeat the @enemy{Mime} beside the performers near @loc{Lumière's harbor} before leaving the Prologue.",
+      "guide": {
+        "kind": "standard",
+        "context": "This specific Prologue Mime is the only enemy that grants the achievement; later Mimes do not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Before walking to the harbor in @loc{Lumière}, take the path right of the stairs toward the stage where people are performing."
+          },
+          {
+            "id": "s2",
+            "text": "Approach the @enemy{Mime} beside the stage, start the optional battle, and defeat it before continuing to the harbor.",
+            "kind": "warning"
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "LUMIERE_MIME",
+    "BREAK",
+    "GUSTAVE_OVERCHARGE",
+    "LUMIERE",
+    "NO_DAMAGE_BOSS",
+    "SPRING_MEADOWS",
+    "NEVRON_QUESTS",
+    "PAINT_CAGE",
+    "FLYING_WATERS",
+    "WEAPON_FIRST_UPGRADE",
+    "FIRST_LUMINA_POINT",
+    "OPTIONAL_CAMP",
+    "LUNE_STAINS",
+    "MAELLE_STANCES",
+    "ANCIENT_SANCTUARY",
+    "GESTRAL_VILLAGE",
+    "SCIEL_FORETELL",
+    "ESQUIE_UNLOCK",
+    "ESQUIES_NEST",
+    "STONE_WAVE_CLIFFS",
+    "VERSO_PERFECTION",
+    "FORGOTTEN_BATTLEFIELD",
+    "ALL_CHARACTERS",
+    "GRANDIS_STATION",
+    "LEVEL_33",
+    "OLD_LUMIERE",
+    "MONOCO_WHEEL",
+    "FIRST_AXON",
+    "ALL_SONGS",
+    "SECOND_AXON",
+    "MONOLITH",
+    "PAINTRESS",
+    "BACK_TO_LUMIERE",
+    "SCIEL_RELATIONSHIP",
+    "ESQUIE_UPGRADES",
+    "ESQUIE_RELATIONSHIP",
+    "LOST_GESTRALS",
+    "LVL3_GRADIENT_ATTACK",
+    "LEVEL_66",
+    "MAELLE_RELATIONSHIP",
+    "SPRONG",
+    "LUNE_RELATIONSHIP",
+    "MONOCO_RELATIONSHIP",
+    "GESTRAL_BEACH",
+    "WEAPON_FULL_UPGRADE",
+    "SERPENPHARE",
+    "PETANK_ALPHA",
+    "PAINTING_WORKSHOP",
+    "CLEA",
+    "ALL_MONOCO_SKILLS",
+    "ENDLESS_TOWER",
+    "SIMON",
+    "JOURNALS",
+    "LEVEL_99",
+    "THE_END"
+  ]
+}

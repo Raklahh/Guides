@@ -1,0 +1,618 @@
+{
+  "game": {
+    "appid": 848450,
+    "slug": "subnautica-below-zero",
+    "title": "Subnautica: Below Zero",
+    "version": "1.0",
+    "lastPatchChecked": "2025-10-03",
+    "estTotalHours": 25,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-22"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Establish the ocean route",
+      "description": "Keep the save free of console commands, enter the Drop Pod, build the Seatruck, and answer the alien distress signal in Sanctuary Zero.",
+      "achievementRefs": [
+        "droppod",
+        "seatruck",
+        "alan"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Follow Delta and Marguerit",
+      "description": "Scan Delta Station's Jukebox, locate Marguerit's deep seabase, and use her Test Override Module blueprint to disable the Communications Tower.",
+      "achievementRefs": [
+        "jukebox",
+        "marg",
+        "radiotower"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Clear the Glacial Basin",
+      "description": "Build the Spy Pengling, Cold Suit, and Snowfox; repair the Glacial Bay bridge; then recover Sam's antidote and cure the Frozen Leviathan before leaving the region.",
+      "achievementRefs": [
+        "spypengling",
+        "coldsuit",
+        "bridge",
+        "snowfox",
+        "frolo"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Rebuild Al-An and depart",
+      "description": "Scan the three Architect components, assemble Al-An's Storage Medium in the Fabricator Base, and complete the one-way Phase Gate finale.",
+      "achievementRefs": [
+        "body",
+        "ending"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "droppod",
+      "displayName": "Drop in the Ocean",
+      "description": "Locate your Drop Pod.",
+      "hidden": true,
+      "globalPercent": 88.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Use the beacon to find your @loc{Drop Pod} within the @loc{Shallow Twisty Bridges}, then step through its door.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Drop Pod lands at one of three possible Shallow Twisty Bridges positions, so its beacon is more reliable than fixed coordinates. Console commands disable achievements on the current save unless you quit without saving.",
+        "steps": [
+          {
+            "id": "droppod-1",
+            "text": "Survive the opening descent, move downhill from the crash site, and enter the water."
+          },
+          {
+            "id": "droppod-2",
+            "text": "Follow the @mechanic{Drop Pod} beacon into the @loc{Shallow Twisty Bridges}, open the pod's door, and step inside to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "snowfox",
+      "displayName": "Like Riding a Bike",
+      "description": "Ride a Snowfox.",
+      "hidden": true,
+      "globalPercent": 30.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "bridge"
+      ],
+      "summary": "Scan three @item{Snowfox Fragments}, build a @item{Snowfox} on a @item{Snowfox Hoverpad}, and mount the finished vehicle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Snowfox fragments appear around the Glacial Basin, Phi Robotics Center, and Marguerit Maida's Base. The Hoverpad works anywhere on land and does not require base power.",
+        "steps": [
+          {
+            "id": "snowfox-1",
+            "text": "Scan three @item{Snowfox Fragments} around the @loc{Glacial Basin}, @loc{Phi Robotics Center}, or @loc{Marguerit Maida's Base}."
+          },
+          {
+            "id": "snowfox-2",
+            "text": "At @loc{Phi Robotics Center}, scan a @item{Snowfox Hoverpad}; use the Habitat Builder on open land to construct one with two Titanium and one Wiring Kit."
+          },
+          {
+            "id": "snowfox-3",
+            "text": "Use the Hoverpad console to build a @item{Snowfox} with two Magnetite, one Battery, one Lubricant, and one Titanium, then mount and ride it to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "seatruck",
+      "displayName": "Truckin'",
+      "description": "Construct a Seatruck.",
+      "hidden": true,
+      "globalPercent": 63.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hr",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "droppod"
+      ],
+      "summary": "Scan three @item{Seatruck Fragments}, then construct the @item{Seatruck} from a deployed @item{Mobile Vehicle Bay}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Seatruck fragments are found in the Twisty Bridges and Thermal Spires; the Purple Vents also contain a single fragment. The unmodified Seatruck is rated to 150 meters.",
+        "steps": [
+          {
+            "id": "seatruck-1",
+            "text": "Scan three @item{Mobile Vehicle Bay Fragments} in the @loc{Arctic Kelp Caves}, @loc{Arctic Kelp Forest}, or @loc{Twisty Bridges}; fabricate the bay with one Titanium Ingot, one Lubricant, and one Computer Chip."
+          },
+          {
+            "id": "seatruck-2",
+            "text": "Scan three @item{Seatruck Fragments} in the @loc{Twisty Bridges} and @loc{Thermal Spires} to complete the vehicle blueprint."
+          },
+          {
+            "id": "seatruck-3",
+            "text": "Deploy the Mobile Vehicle Bay at the surface and select @mechanic{Vehicles > Seatruck} with one Titanium Ingot, one Advanced Wiring Kit, two Glass, three Lead, and one Power Cell; construction completion unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "jukebox",
+      "displayName": "Jukebox Hero",
+      "description": "Install a jukebox.",
+      "hidden": true,
+      "globalPercent": 33.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10-20 min after reaching Delta",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "droppod"
+      ],
+      "summary": "Scan the @item{Jukebox} in @loc{Delta Station}, then construct one inside your Seabase with the @item{Habitat Builder}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only placing the Jukebox in a player-built Seabase satisfies the achievement; the Jukebox inside a Seatruck Sleeper Module is not the required installation.",
+        "steps": [
+          {
+            "id": "jukebox-1",
+            "text": "Reach @loc{Delta Island}, enter @loc{Delta Station}, and scan the installed @item{Jukebox} to unlock its blueprint."
+          },
+          {
+            "id": "jukebox-2",
+            "text": "Build an enterable Seabase compartment if you do not already have one, then use the @item{Habitat Builder} inside it to construct a Jukebox from one Quartz and two Titanium."
+          },
+          {
+            "id": "jukebox-3",
+            "text": "Finish construction to 100%; installing the Jukebox inside the base unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "coldsuit",
+      "displayName": "Dressed For The Weather",
+      "description": "Construct a cold suit.",
+      "hidden": true,
+      "globalPercent": 25.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "spypengling"
+      ],
+      "summary": "Scan the @item{Cold Suit Fragment} at @loc{Phi Robotics Center}, fabricate the suit, gloves, and helmet, then equip all three pieces together.",
+      "guide": {
+        "kind": "standard",
+        "context": "The single fragment in Zeta's bedroom unlocks all three blueprints. You need four Fiber Mesh and four Snow Stalker Fur for the complete set; a Spy Pengling can safely collect fur from Snow Stalkers.",
+        "steps": [
+          {
+            "id": "coldsuit-1",
+            "text": "At @loc{Phi Robotics Center} near @mechanic{-1182, 17, -654}, enter Zeta's bedroom on the lower floor and scan the @item{Cold Suit Fragment} in her closet."
+          },
+          {
+            "id": "coldsuit-2",
+            "text": "Use a @item{Spy Pengling Remote} near a Snow Stalker, drive the Spy Pengling close, collect four @item{Snow Stalker Fur} with its arm, and retrieve the fur from the drone's storage."
+          },
+          {
+            "id": "coldsuit-3",
+            "text": "At a Fabricator, spend two Fiber Mesh and two Snow Stalker Fur on the @item{Cold Suit}. Then craft the helmet and gloves separately; each costs one Fiber Mesh plus one Snow Stalker Fur."
+          },
+          {
+            "id": "coldsuit-4",
+            "text": "Wear the suit body, insulated gloves, and matching helmet simultaneously to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "spypengling",
+      "displayName": "Spy Pengling",
+      "description": "Construct a Spy Pengling.",
+      "hidden": true,
+      "globalPercent": 37.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10-20 min after finding a fragment",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "marg"
+      ],
+      "summary": "Scan one @item{Spy Pengling Fragment}, then fabricate a @item{Spy Pengling} from its unlocked blueprint.",
+      "guide": {
+        "kind": "standard",
+        "context": "One scan completes the blueprint. Fragments are available at Phi Robotics Center, below Marguerit Maida's Base, and elsewhere in the Glacial Basin; the separate remote is needed to operate the drone but not to earn this achievement.",
+        "steps": [
+          {
+            "id": "spypengling-1",
+            "text": "Scan one @item{Spy Pengling Fragment} in the @loc{Phi Robotics Center} robotics lab, on the terrace below @loc{Marguerit Maida's Base}, or in the @loc{Glacial Basin}."
+          },
+          {
+            "id": "spypengling-2",
+            "text": "At a Fabricator, construct the @item{Spy Pengling} with two Titanium, one Wiring Kit, one Silicone Rubber, and one Battery; fabrication completion unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "bridge",
+      "displayName": "Necessary Repairs",
+      "description": "Repair the bridge.",
+      "hidden": true,
+      "globalPercent": 37.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15-30 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Scan the bridge's @item{Hydraulic Fluid Fragment}, craft one @item{Hydraulic Fluid}, and install it in the @loc{Glacial Bay Bridge} control panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bridge at approximately -1021, 9, -389 is the initial route from Glacial Bay into the Arctic Spires. Its nearby fragment supplies the required Hydraulic Fluid blueprint.",
+        "steps": [
+          {
+            "id": "bridge-1",
+            "text": "Reach the @loc{Glacial Bay Bridge} near @mechanic{-1021, 9, -389}; beside its controls, scan the fragment that unlocks the @item{Hydraulic Fluid} blueprint."
+          },
+          {
+            "id": "bridge-2",
+            "text": "At a Fabricator, craft one @item{Hydraulic Fluid} from one Creepvine Seed Cluster and four Gel Sacks."
+          },
+          {
+            "id": "bridge-3",
+            "text": "Return to the bridge, place the Hydraulic Fluid into the control panel, and operate the terminal to extend the bridge and unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "alan",
+      "displayName": "Xenobiology",
+      "description": "Encounter an intelligent alien lifeform.",
+      "hidden": true,
+      "globalPercent": 61.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "droppod"
+      ],
+      "summary": "Enter @loc{Sanctuary Zero} in the @loc{Twisty Bridges} and use the chamber console to transfer @npc{Al-An} into Robin's mind.",
+      "guide": {
+        "kind": "standard",
+        "context": "An alien distress call and blinking green Architect pillars lead toward the sanctuary. Scanning an Architect Artifact before visiting also adds an approximate sanctuary beacon.",
+        "steps": [
+          {
+            "id": "alan-1",
+            "text": "Follow the alien distress signal and green Architect markers through the @loc{Twisty Bridges} cave to @loc{Sanctuary Zero}, roughly @mechanic{-551, -199, -488} at 200 meters."
+          },
+          {
+            "id": "alan-2",
+            "text": "Enter the square storage-cube chamber and interact with the consciousness-transfer console opposite the entrance."
+          },
+          {
+            "id": "alan-3",
+            "text": "Allow the transfer sequence to finish; @npc{Al-An} enters Robin's mind and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "frolo",
+      "displayName": "Finding the Cure",
+      "description": "Use the antidote.",
+      "hidden": true,
+      "globalPercent": 20.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "spypengling"
+      ],
+      "lockoutStage": 4,
+      "summary": "Use a @item{Spy Pengling} to recover the @item{Kharaa Antidote} from its @loc{Glacial Basin} cave near @mechanic{-1305, 6, -1141}, then inject it into the @loc{Frozen Leviathan}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This cure is optional and is not required to finish Al-An's story. The original antidote is at approximately -1305, 6, -1141; one dose clears every pustule, and crafting a replacement is only necessary if that dose is lost.",
+        "steps": [
+          {
+            "id": "frolo-1",
+            "text": "After unlocking the @item{Spy Pengling}, use a Fabricator to make its @item{Spy Pengling Remote} from one Titanium and one Copper Wire."
+          },
+          {
+            "id": "frolo-2",
+            "text": "Bring both devices to the small @loc{Glacial Basin} cave near @mechanic{-1305, 6, -1141}; deploy the Spy Pengling and use the Remote to drive it through the low entrance."
+          },
+          {
+            "id": "frolo-3",
+            "text": "Use the Spy Pengling's arm to collect the @item{Kharaa Antidote}, exit drone control, and remove the antidote from its storage. If the original was lost, fabricate one from one Frost Vase Plant and one Fevered Pepper."
+          },
+          {
+            "id": "frolo-4",
+            "text": "Travel to @loc{Phi Excavation Site} near @mechanic{-1619, 29, -763}, take the elevator to the @loc{Frozen Leviathan}'s head, and load the antidote into the injection machine."
+          },
+          {
+            "id": "frolo-5",
+            "text": "Use the nearby screen to inject the antidote; when all Kharaa pustules disappear, the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "marg",
+      "displayName": "Another Survivor",
+      "description": "Find Marguerit Maida.",
+      "hidden": true,
+      "globalPercent": 51.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min after Delta",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "seatruck"
+      ],
+      "summary": "After meeting @npc{Marguerit Maida} on @loc{Delta Island}, enter her seabase in the @loc{Lilypads Crevice}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Delta Island encounter opens the base's Moonpool bulkhead and adds the Pilot - Last Known Position waypoint. The most direct approach continues north into the caves from that waypoint.",
+        "steps": [
+          {
+            "id": "marg-1",
+            "text": "Climb @loc{Delta Island} to @loc{Delta Station} and complete the first encounter with @npc{Marguerit Maida}."
+          },
+          {
+            "id": "marg-2",
+            "text": "Follow @mechanic{Pilot - Last Known Position}, then continue north and descend through the @loc{Lilypads Crevice} to the seabase at roughly @mechanic{102, -366, -922}."
+          },
+          {
+            "id": "marg-3",
+            "text": "Enter the Moonpool from below, pass through the now-open bulkhead into @loc{Marguerit Maida's Base}, and complete the conversation to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "radiotower",
+      "displayName": "Pirate Radio",
+      "description": "Disable Alterra communications.",
+      "hidden": true,
+      "globalPercent": 39.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "marg"
+      ],
+      "summary": "Fit a @item{Test Override Module} to the @loc{Communications Tower}'s maintenance port and activate @mechanic{[Enter Test Mode]} from the terminal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Marguerit requests the sabotage after the meeting in her seabase. The Test Override Module needs a Parallel Processing Unit assembled from three fragments found inside Mercury II wreck sections.",
+        "steps": [
+          {
+            "id": "radiotower-1",
+            "text": "Inside @loc{Marguerit Maida's Base}, scan the @item{Test Override Module Fragment} on the desk."
+          },
+          {
+            "id": "radiotower-2",
+            "text": "Scan three @item{Parallel Processing Unit Fragments} inside the @loc{Mercury II} wrecks, then fabricate one Parallel Processing Unit."
+          },
+          {
+            "id": "radiotower-3",
+            "text": "Fabricate the @item{Test Override Module} from one Parallel Processing Unit, one Titanium, one Lead, and one Copper Wire."
+          },
+          {
+            "id": "radiotower-4",
+            "text": "At the @loc{Communications Tower} on Delta Island, insert the module into the maintenance port on the back of the upper level; return to the lower terminal and select @mechanic{[Enter Test Mode]} to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "body",
+      "displayName": "Out of Mind",
+      "description": "Construct an alien vessel.",
+      "hidden": true,
+      "globalPercent": 25.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3-6 hr",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "alan",
+        "bridge"
+      ],
+      "summary": "Scan all three Architect body components, fabricate them at the @loc{Fabricator Base}, and assemble @npc{Al-An}'s Storage Medium.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each cache opens only while Al-An is in Robin's mind. The three scans unlock separate component recipes, and all three components must be fabricated before the central assembly terminal activates.",
+        "steps": [
+          {
+            "id": "body-1",
+            "text": "Scan the exposed arm in the @loc{Arctic Spires Cache} near @mechanic{-1011, 21, 720} for @item{Architect Tissues}; scan the remains in the @loc{Deep Lilypads Cave Cache} near @mechanic{541, -619, -1099} for the @item{Architect Skeleton}."
+          },
+          {
+            "id": "body-2",
+            "text": "Scan the open container in the @loc{Crystal Caves Cache} near @mechanic{517, -828, -696} for @item{Architect Organs}."
+          },
+          {
+            "id": "body-3",
+            "text": "Descend to the @loc{Fabricator Base} in the Fabricator Caverns near @mechanic{1204, -950, -310}. Use its three side fabricators to make Organs from one Ion Cube, two Ribbon Plants, and three Kyanite; a Skeleton from three Diamonds, one Plasteel Ingot, and one Polyaniline; and Tissues from two Root Pustules, one Synthetic Fibers, and two Gel Sacks."
+          },
+          {
+            "id": "body-4",
+            "text": "Use the central terminal and fluid tank to assemble @npc{Al-An}'s Storage Medium, then let the consciousness-transfer sequence finish to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ending",
+      "displayName": "Into the Unknown",
+      "description": "Leave 4546B.",
+      "hidden": true,
+      "globalPercent": 23.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15-30 min after constructing the vessel",
+      "estMinutes": 25,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "body"
+      ],
+      "summary": "After constructing @npc{Al-An}'s Storage Medium, meet him at the @loc{Architect Phase Gate Facility}, repair two energy masts, and depart through the Phase Gate.",
+      "guide": {
+        "kind": "standard",
+        "context": "The teleporter beyond the facility's generator becomes one-way for the finale and saving is disabled after entering it. Save beforehand and finish the optional Frozen Leviathan cure before departure if it is still incomplete.",
+        "steps": [
+          {
+            "id": "ending-1",
+            "text": "After the Fabricator Base sequence, follow @npc{Al-An}'s request to the @loc{Architect Phase Gate Facility} near @loc{Outpost Zero} at roughly @mechanic{-37, 26, 524}."
+          },
+          {
+            "id": "ending-2",
+            "text": "Enter the facility, wait for Al-An to repair the generator and activate the back-room teleporter, then make a manual save before crossing through it."
+          },
+          {
+            "id": "ending-3",
+            "text": "On the Shuttle Platform, use the two mechanical limbs Al-An provides to repair the two collapsed energy masts."
+          },
+          {
+            "id": "ending-4",
+            "text": "Board the completed shuttle and finish the launch and Phase Gate cinematics; leaving 4546B unlocks the achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "droppod",
+    "alan",
+    "seatruck",
+    "jukebox",
+    "marg",
+    "radiotower",
+    "spypengling",
+    "bridge",
+    "snowfox",
+    "coldsuit",
+    "frolo",
+    "body",
+    "ending"
+  ]
+}

@@ -1,0 +1,2445 @@
+{
+  "game": {
+    "appid": 268910,
+    "slug": "cuphead",
+    "title": "Cuphead",
+    "version": "1.0",
+    "lastPatchChecked": "2022-08-19",
+    "estTotalHours": 40,
+    "difficultyRating": 8,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-22"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Regular route through the three isles",
+      "description": "Clear Isles I–III on Regular difficulty, aim for A-ranks while learning each boss, finish the Mausoleums, collect coins, and complete the Run 'n' Gun P-ranks.",
+      "achievementRefs": [
+        "DefeatBoss",
+        "NoHitsTaken",
+        "ExWin",
+        "CompleteWorld1",
+        "ARankWorld1",
+        "FoundSecretPassage",
+        "ParryApprentice",
+        "CompleteWorld2",
+        "ARankWorld2",
+        "ParryChain",
+        "CompleteWorld3",
+        "ARankWorld3",
+        "UnlockedAllSupers",
+        "SuperWin",
+        "FoundAllLevelMoney",
+        "FoundAllMoney",
+        "BoughtAllItems",
+        "PacifistRun",
+        "ParryMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Inkwell Hell, endings, and base mastery",
+      "description": "Clear King Dice without damage if possible, view the contract-surrender ending before refusing The Devil, finish the Regular ending, and establish the Expert and S-rank requirements.",
+      "achievementRefs": [
+        "CompleteDicePalace",
+        "NoHitsTakenDicePalace",
+        "SmallPlaneOnlyWin",
+        "BadEnding",
+        "CompleteDevil",
+        "GoodEnding",
+        "ARankWorld4",
+        "SRank",
+        "CompleteWorldDLC"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "The Delicious Last Course",
+      "description": "Clear Isle IV with Ms. Chalice and a DLC weapon, complete the King's Leap and Saltbaker quest, solve the graveyard, transform the Cursed Relic, and finish the DLC challenge achievements.",
+      "achievementRefs": [
+        "DefeatBossAsChalice",
+        "DefeatBossDLCWeapon",
+        "DefeatAllKOG",
+        "DefeatSaltbaker",
+        "ARankWorldDLC",
+        "ChaliceSuperWin",
+        "DefeatXBossesAsChalice",
+        "DefeatBossNoMinions",
+        "HP9",
+        "DefeatDevilPhase2",
+        "Paladin",
+        "DefeatKOGGauntlet",
+        "SRankAnyDLC"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Expert and final S-rank cleanup",
+      "description": "Earn an Isle IV S-rank and defeat all 19 main-game bosses on Expert difficulty, using the completed equipment collection to tailor each fight.",
+      "achievementRefs": [
+        "NewGamePlus"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "DefeatBoss",
+      "displayName": "Taking Names",
+      "description": "Defeat a boss",
+      "hidden": false,
+      "globalPercent": 76.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Win an Inkwell Isle I fight against Goopy Le Grande or The Root Pack.",
+      "guide": {
+        "kind": "standard",
+        "context": "Simple difficulty is sufficient for this first victory, although later rank and completion achievements require Regular or Expert clears.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{Botanic Panic!} or @loc{Ruse of an Ooze} on Simple or Regular difficulty."
+          },
+          {
+            "id": "s2",
+            "text": "Win the boss fight in the selected stage and reach the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteWorld1",
+      "displayName": "A Walk in the Park",
+      "description": "Defeat every boss in Inkwell Isle I",
+      "hidden": false,
+      "globalPercent": 53.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Clear Inkwell Isle I by beating The Root Pack and Ribby and Croaks; then defeat Goopy Le Grande, Hilda Berg, and Cagney Carnation.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The five Isle I contracts open the route to Inkwell Isle II; Simple clears count for progression but cannot earn an A-rank.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "The Root Pack",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{The Root Pack} on any available difficulty."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Ribby and Croaks",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Ribby and Croaks} on any available difficulty."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Goopy Le Grande",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Goopy Le Grande} on any available difficulty."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Hilda Berg",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Hilda Berg} on any available difficulty."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Cagney Carnation",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Cagney Carnation} on any available difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteWorld2",
+      "displayName": "A Day at the Fair",
+      "description": "Defeat every boss in Inkwell Isle II",
+      "hidden": false,
+      "globalPercent": 31.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteWorld1"
+      ],
+      "summary": "Clear Inkwell Isle II by beating Baroness von Bon Bon and Beppi the Clown; also defeat Djimmi the Great, Grim Matchstick, and Wally Warbles.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Clearing all five Isle II contracts opens Inkwell Isle III; airplane and ground bosses both count.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Baroness von Bon Bon",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Baroness von Bon Bon} on any available difficulty."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Djimmi the Great",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Djimmi the Great} on any available difficulty."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Beppi the Clown",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Beppi the Clown} on any available difficulty."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Wally Warbles",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Wally Warbles} on any available difficulty."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Grim Matchstick",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Grim Matchstick} on any available difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteWorld3",
+      "displayName": "A Trip Downtown",
+      "description": "Defeat every boss in Inkwell Isle III",
+      "hidden": false,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteWorld2"
+      ],
+      "summary": "Clear all seven Inkwell Isle III fights: defeat Rumor Honeybottoms, Sally Stageplay, and Cala Maria, plus Dr. Kahl's Robot, Werner Werman, Captain Brineybeard, and Phantom Express.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The seven contracts from Isle III complete the set needed to enter Inkwell Hell and confront King Dice.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Rumor Honeybottoms",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Rumor Honeybottoms} on any available difficulty."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Dr. Kahl's Robot",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Dr. Kahl's Robot} on any available difficulty."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Sally Stageplay",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Sally Stageplay} on any available difficulty."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Werner Werman",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Werner Werman} on any available difficulty."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Captain Brineybeard",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Captain Brineybeard} on any available difficulty."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Cala Maria",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Cala Maria} on any available difficulty."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Phantom Express",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Phantom Express} on any available difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteDicePalace",
+      "displayName": "Casino Night",
+      "description": "Complete the Casino",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteWorld3"
+      ],
+      "summary": "Clear the Inkwell Hell casino by defeating every mini-boss encountered on the chosen board route and then defeating King Dice.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rolling 2, 4, and 8 with Safe spaces between them gives a relatively manageable route through Chips Bettigan, Pip and Dot, and Mangosteen before the finale.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{All Bets Are Off!} after collecting every main-game Soul Contract."
+          },
+          {
+            "id": "s2",
+            "text": "Parry the die to move across the board and clear every mini-boss space on the chosen route without landing on Start Over."
+          },
+          {
+            "id": "s3",
+            "text": "Reach FIN and defeat @enemy{King Dice} to complete the casino."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteDevil",
+      "displayName": "Swing You Sinner",
+      "description": "Refuse The Devil and defeat him.",
+      "hidden": true,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteDicePalace"
+      ],
+      "summary": "Refuse The Devil's demand for the Soul Contracts and defeat him in One Hell of a Time!",
+      "guide": {
+        "kind": "standard",
+        "context": "The final dialogue branches immediately: accepting the demand gives the bad ending, while refusing starts The Devil's boss fight.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After defeating @enemy{King Dice}, enter @loc{One Hell of a Time!} and approach @npc{The Devil}."
+          },
+          {
+            "id": "s2",
+            "text": "Select @mechanic{No} when The Devil asks for the Soul Contracts."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat @enemy{The Devil} and finish the resulting ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BadEnding",
+      "displayName": "Selling Out",
+      "description": "Give the Soul Contracts to The Devil.",
+      "hidden": true,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteDicePalace"
+      ],
+      "summary": "Give The Devil the Soul Contracts by selecting Yes at his final demand.",
+      "guide": {
+        "kind": "standard",
+        "context": "This branch ends at the dialogue choice instead of starting The Devil's boss fight.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{King Dice}, enter @loc{One Hell of a Time!}, and approach @npc{The Devil}."
+          },
+          {
+            "id": "s2",
+            "text": "Select @mechanic{Yes} when The Devil asks whether you will hand over the Soul Contracts."
+          },
+          {
+            "id": "s3",
+            "text": "Watch the bad-ending sequence until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SRank",
+      "displayName": "Put On a Show",
+      "description": "Get an S-Rank",
+      "hidden": false,
+      "globalPercent": 8.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "group": "ranks",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "GoodEnding"
+      ],
+      "summary": "After completing the main game, earn an S rank on Expert against Goopy Le Grande or The Root Pack.",
+      "guide": {
+        "kind": "standard",
+        "context": "An S rank requires Expert difficulty, at least 3 HP remaining, three scored parries, six Super Meter uses, and the boss-specific time limit; a Super Art contributes five meter uses.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete the main game once to unlock @mechanic{Expert} difficulty."
+          },
+          {
+            "id": "s2",
+            "text": "Start @loc{Botanic Panic!} or @loc{Ruse of an Ooze} on Expert difficulty."
+          },
+          {
+            "id": "s3",
+            "text": "Finish within the displayed target time with at least 3 HP, three scored parries, and six Super Meter uses."
+          },
+          {
+            "id": "s4",
+            "text": "Complete the fight and confirm an @mechanic{S} grade on the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARankWorld1",
+      "displayName": "Sheriff",
+      "description": "Obtain an A-Rank or higher on all bosses in Inkwell Isle I",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "ranks",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Earn A- or better against every boss in Inkwell Isle I on Regular or Expert difficulty.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Simple difficulty caps the result below A-. A strong score balances completion time, remaining HP, three scored parries, and six Super Meter uses; a Super Art supplies five meter uses.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "The Root Pack",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{The Root Pack} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Ribby and Croaks",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Ribby and Croaks} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Goopy Le Grande",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Goopy Le Grande} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Hilda Berg",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Hilda Berg} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Cagney Carnation",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Defeat @enemy{Cagney Carnation} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARankWorld2",
+      "displayName": "Boss",
+      "description": "Obtain an A-Rank or higher on all bosses in Inkwell Isle II",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "ranks",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Earn A- or better against every boss in Inkwell Isle II on Regular or Expert difficulty.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Simple difficulty caps the result below A-. A strong score balances completion time, remaining HP, three scored parries, and six Super Meter uses; a Super Art supplies five meter uses.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Baroness von Bon Bon",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Baroness von Bon Bon} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Djimmi the Great",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Djimmi the Great} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Beppi the Clown",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Beppi the Clown} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Wally Warbles",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Wally Warbles} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Grim Matchstick",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Defeat @enemy{Grim Matchstick} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARankWorld3",
+      "displayName": "Mayor",
+      "description": "Obtain an A-Rank or higher on all bosses in Inkwell Isle III",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "ranks",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Earn A- or better against every boss in Inkwell Isle III on Regular or Expert difficulty.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Simple difficulty caps the result below A-. A strong score balances completion time, remaining HP, three scored parries, and six Super Meter uses; a Super Art supplies five meter uses.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Rumor Honeybottoms",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Rumor Honeybottoms} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Dr. Kahl's Robot",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Dr. Kahl's Robot} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Sally Stageplay",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Sally Stageplay} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Werner Werman",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Werner Werman} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Captain Brineybeard",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Captain Brineybeard} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Cala Maria",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Cala Maria} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Phantom Express",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Defeat @enemy{Phantom Express} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARankWorld4",
+      "displayName": "King",
+      "description": "Obtain an A-Rank or higher on all bosses in Inkwell Hell",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "group": "ranks",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Earn A- or better against every boss in Inkwell Hell on Regular or Expert difficulty.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Simple difficulty caps the result below A-. A strong score balances completion time, remaining HP, three scored parries, and six Super Meter uses; a Super Art supplies five meter uses.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "King Dice",
+            "location": "@loc{Inkwell Hell}",
+            "method": "Defeat @enemy{King Dice} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "The Devil",
+            "location": "@loc{Inkwell Hell}",
+            "method": "Defeat @enemy{The Devil} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GoodEnding",
+      "displayName": "Souls Saved",
+      "description": "Complete the game on Normal",
+      "hidden": false,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteDevil"
+      ],
+      "summary": "Defeat every main-game boss on Regular difficulty, refuse The Devil's demand, and defeat The Devil.",
+      "guide": {
+        "kind": "standard",
+        "context": "Simple victories advance the map but do not satisfy the Normal-completion requirement, so any Simple-only boss must be replayed on Regular or Expert.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat all five bosses in @loc{Inkwell Isle I}, all five in @loc{Inkwell Isle II}, and all seven in @loc{Inkwell Isle III} on Regular difficulty."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat @enemy{King Dice} on Regular difficulty in @loc{All Bets Are Off!}."
+          },
+          {
+            "id": "s3",
+            "text": "Select @mechanic{No} at The Devil's demand and defeat @enemy{The Devil} on Regular difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NewGamePlus",
+      "displayName": "Beat The Devil At His Own Game",
+      "description": "Complete the game on Expert",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "across the playthrough",
+      "estMinutes": 600,
+      "stage": 4,
+      "group": "ranks",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "GoodEnding"
+      ],
+      "summary": "Defeat all 19 main-game bosses—including King Dice and The Devil—on Expert difficulty.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Expert unlocks after the main game is completed. The six Run 'n' Gun stages have no Expert version and are not part of this achievement.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "The Root Pack",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{The Root Pack} on Expert difficulty."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Ribby and Croaks",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Ribby and Croaks} on Expert difficulty."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Goopy Le Grande",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Goopy Le Grande} on Expert difficulty."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Hilda Berg",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Hilda Berg} on Expert difficulty."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Cagney Carnation",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Cagney Carnation} on Expert difficulty."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Baroness von Bon Bon",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Baroness von Bon Bon} on Expert difficulty."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Djimmi the Great",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Djimmi the Great} on Expert difficulty."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Beppi the Clown",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Beppi the Clown} on Expert difficulty."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Wally Warbles",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Wally Warbles} on Expert difficulty."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Grim Matchstick",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Grim Matchstick} on Expert difficulty."
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Rumor Honeybottoms",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Rumor Honeybottoms} on Expert difficulty."
+          },
+          {
+            "id": "c12",
+            "index": 12,
+            "name": "Dr. Kahl's Robot",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Dr. Kahl's Robot} on Expert difficulty."
+          },
+          {
+            "id": "c13",
+            "index": 13,
+            "name": "Sally Stageplay",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Sally Stageplay} on Expert difficulty."
+          },
+          {
+            "id": "c14",
+            "index": 14,
+            "name": "Werner Werman",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Werner Werman} on Expert difficulty."
+          },
+          {
+            "id": "c15",
+            "index": 15,
+            "name": "Captain Brineybeard",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Captain Brineybeard} on Expert difficulty."
+          },
+          {
+            "id": "c16",
+            "index": 16,
+            "name": "Cala Maria",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Cala Maria} on Expert difficulty."
+          },
+          {
+            "id": "c17",
+            "index": 17,
+            "name": "Phantom Express",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{Phantom Express} on Expert difficulty."
+          },
+          {
+            "id": "c18",
+            "index": 18,
+            "name": "King Dice",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{King Dice} on Expert difficulty."
+          },
+          {
+            "id": "c19",
+            "index": 19,
+            "name": "The Devil",
+            "location": "@loc{Main-game boss stages}",
+            "method": "Defeat @enemy{The Devil} on Expert difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BoughtAllItems",
+      "displayName": "Butter-and-Egg Man",
+      "description": "Buy everything in Porkrind's Shop",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Buy Spread, Chaser, Lobber, Charge, Roundabout, Heart, Smoke Bomb, P. Sugar, Coffee, Whetstone, and Twin Heart from Porkrind's Emporium.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The eleven base-game purchases cost 40 coins in total. Coins from The Delicious Last Course can also pay for these base-game items.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Spread",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Spread} for 4 coins."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Chaser",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Chaser} for 4 coins."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Lobber",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Lobber} for 4 coins."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Charge",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Charge} for 4 coins."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Roundabout",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Roundabout} for 4 coins."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Heart",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Heart} for 3 coins."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Smoke Bomb",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Smoke Bomb} for 3 coins."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "P. Sugar",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{P. Sugar} for 3 coins."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Coffee",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Coffee} for 3 coins."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Whetstone",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Whetstone} for 3 coins."
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Twin Heart",
+            "location": "@loc{Porkrind's Emporium}",
+            "method": "Purchase @item{Twin Heart} for 5 coins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FoundSecretPassage",
+      "displayName": "Cutting Corners",
+      "description": "Use a hidden path on an Inkwell Isle.",
+      "hidden": true,
+      "globalPercent": 54.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Walk through the hidden Inkwell Isle I shortcut beneath the airplane tutorial, to the right of Goopy Le Grande.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each of the first three isles has a shortcut, but the Isle I path is available earliest and requires no boss-specific challenge.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to @loc{Inkwell Isle I} and stand to the right of @loc{Ruse of an Ooze}, below the airplane tutorial platform."
+          },
+          {
+            "id": "s2",
+            "text": "Walk behind the foreground terrain and follow the concealed path until you emerge on the other side."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ExWin",
+      "displayName": "Ceramic Strike",
+      "description": "Defeat a boss with an Extra Special move",
+      "hidden": false,
+      "globalPercent": 40.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Land the killing blow on any boss with a one-card weapon EX attack or airplane EX attack.",
+      "guide": {
+        "kind": "standard",
+        "context": "Simple difficulty and King Dice mini-bosses are valid, so an early boss can be weakened before saving one Super Meter card for the finisher.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter an easy boss fight such as @enemy{The Root Pack} and build at least one full Super Meter card."
+          },
+          {
+            "id": "s2",
+            "text": "Damage the boss until it is near defeat without spending the final card."
+          },
+          {
+            "id": "s3",
+            "text": "Use the equipped weapon's @mechanic{EX attack} for the killing blow and finish the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SuperWin",
+      "displayName": "Porcelain Power",
+      "description": "Defeat a boss with a Super Art",
+      "hidden": false,
+      "globalPercent": 28.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Land the killing blow on any boss with Energy Beam, Giant Ghost, or an airplane Super Art.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Invincibility Super Art cannot deal the final damage and therefore does not qualify; Simple difficulty and King Dice mini-bosses remain valid.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete at least one Mausoleum and equip a damaging @mechanic{Super Art}, such as Energy Beam."
+          },
+          {
+            "id": "s2",
+            "text": "Enter an easy boss fight, fill all five Super Meter cards, and weaken the boss near defeat."
+          },
+          {
+            "id": "s3",
+            "text": "Activate the damaging Super Art for the killing blow and complete the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SmallPlaneOnlyWin",
+      "displayName": "Bravo Zulu P-26",
+      "description": "Defeat a boss using only mini-plane bullets.",
+      "hidden": true,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Defeat Mr. Chimes, King Dice's number 9 mini-boss, using only mini-plane bullets.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mr. Chimes has comparatively light dodging pressure, making him the safest casino target for this restriction.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{All Bets Are Off!} and manipulate the die so the route reaches space 9, @enemy{Mr. Chimes}."
+          },
+          {
+            "id": "s2",
+            "text": "Switch to mini-plane form as soon as the fight begins."
+          },
+          {
+            "id": "s3",
+            "text": "Use only mini-plane bullets until Mr. Chimes is defeated; do not fire normal-plane bullets, EX attacks, bombs, or a Super Art.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UnlockedAllSupers",
+      "displayName": "Magician Lord",
+      "description": "Obtain all Super Arts",
+      "hidden": false,
+      "globalPercent": 24.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Complete Mausoleum I, Mausoleum II, and Mausoleum III to obtain Energy Beam, Invincibility, and Giant Ghost.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Mausoleums are defensive parry stages rather than conventional bosses; protect the central urn by parrying every ghost before it reaches the vessel.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Energy Beam",
+            "location": "@loc{Mausoleum I, Inkwell Isle I}",
+            "method": "Complete Mausoleum I to receive @mechanic{Energy Beam}."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Invincibility",
+            "location": "@loc{Mausoleum II, Inkwell Isle II}",
+            "method": "Complete Mausoleum II to receive @mechanic{Invincibility}."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Giant Ghost",
+            "location": "@loc{Mausoleum III, Inkwell Isle III}",
+            "method": "Complete Mausoleum III to receive @mechanic{Giant Ghost}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NoHitsTaken",
+      "displayName": "Perfect Run",
+      "description": "Complete a level without getting hit",
+      "hidden": false,
+      "globalPercent": 45.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Finish an Isle I fight against Goopy Le Grande or The Root Pack without losing any HP.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any boss fight and any available difficulty can qualify; the predictable Isle I bosses provide the earliest low-risk attempts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start @loc{Botanic Panic!} or @loc{Ruse of an Ooze} on a comfortable difficulty."
+          },
+          {
+            "id": "s2",
+            "text": "Restart immediately after any hit so the completed attempt retains all starting HP."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat the boss without taking damage and reach the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FoundAllLevelMoney",
+      "displayName": "Coffers Full",
+      "description": "Get every coin in all of the levels",
+      "hidden": false,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Collect all five coins in each of the six Run 'n' Gun stages, for 30 level coins total.",
+      "guide": {
+        "kind": "collectible",
+        "context": "A coin is saved only when the stage is completed; dying requires collecting that attempt's coins again.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Forest Follies",
+            "location": "@loc{Forest Follies}",
+            "method": "Collect all five coins in @loc{Forest Follies} and finish the stage alive."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Treetop Trouble",
+            "location": "@loc{Treetop Trouble}",
+            "method": "Collect all five coins in @loc{Treetop Trouble} and finish the stage alive."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Funfair Fever",
+            "location": "@loc{Funfair Fever}",
+            "method": "Collect all five coins in @loc{Funfair Fever} and finish the stage alive."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Funhouse Frazzle",
+            "location": "@loc{Funhouse Frazzle}",
+            "method": "Collect all five coins in @loc{Funhouse Frazzle} and finish the stage alive."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Rugged Ridge",
+            "location": "@loc{Rugged Ridge}",
+            "method": "Collect all five coins in @loc{Rugged Ridge} and finish the stage alive."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Perilous Piers",
+            "location": "@loc{Perilous Piers}",
+            "method": "Collect all five coins in @loc{Perilous Piers} and finish the stage alive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ParryChain",
+      "displayName": "Bouncing Ball",
+      "description": "Parry five times before hitting the ground",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Parry the pink balloon at the start of Funfair Fever five times consecutively without touching the ground.",
+      "guide": {
+        "kind": "standard",
+        "context": "The balloon remains parryable after each bounce, so matching its horizontal movement keeps the chain away from the floor.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{Funfair Fever} in Inkwell Isle II and reach the pink balloon near the beginning."
+          },
+          {
+            "id": "s2",
+            "text": "Jump into the balloon and press parry on contact, then steer in the balloon's direction."
+          },
+          {
+            "id": "s3",
+            "text": "Parry the same balloon four more times before Cuphead touches the ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ParryApprentice",
+      "displayName": "Parry Persistance",
+      "description": "Complete 20 parries",
+      "hidden": false,
+      "globalPercent": 75.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Accumulate 20 successful parries across any stages or the tutorial.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tutorial's pink parry targets refresh indefinitely, so the counter can be completed without risking a boss attempt.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Return to the @loc{Tutorial} and reach the section with the suspended pink parry targets."
+          },
+          {
+            "id": "s2",
+            "text": "Parry the refreshing targets until the cumulative counter reaches 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ParryMaster",
+      "displayName": "Parry Performance",
+      "description": "Complete 100 parries",
+      "hidden": false,
+      "globalPercent": 59.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Accumulate 100 successful parries across any stages or the tutorial.",
+      "guide": {
+        "kind": "standard",
+        "context": "Parries persist cumulatively, and the tutorial's targets respawn indefinitely for deterministic cleanup.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Return to the @loc{Tutorial} and reach the suspended pink parry targets."
+          },
+          {
+            "id": "s2",
+            "text": "Continue parrying the refreshing targets until the cumulative counter reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NoHitsTakenDicePalace",
+      "displayName": "Rolling Sixes",
+      "description": "Defeat King Dice without taking damage during the casino run.",
+      "hidden": true,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "about 90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Defeat every mini-boss encountered on the chosen casino board route and King Dice in one All Bets Are Off! attempt without taking damage.",
+      "guide": {
+        "kind": "standard",
+        "context": "The no-hit condition covers the entire casino run, not only the King Dice phase; the 2–Safe–4–Safe–8–Safe route limits the run to three manageable mini-bosses.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter @loc{All Bets Are Off!} and aim for spaces 2, 4, and 8 with Safe spaces between them."
+          },
+          {
+            "id": "s2",
+            "text": "Restart the entire casino attempt after any hit during Chips Bettigan, Pip and Dot, Mangosteen, or a different selected mini-boss.",
+            "kind": "warning"
+          },
+          {
+            "id": "s3",
+            "text": "Reach FIN and defeat @enemy{King Dice} without taking damage anywhere in the attempt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FoundAllMoney",
+      "displayName": "High Roller",
+      "description": "Collect all 40 base-game coins.",
+      "hidden": true,
+      "globalPercent": 8.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across the playthrough",
+      "estMinutes": 240,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Collect all 40 base-game coins: 30 from the six Run 'n' Gun stages and 10 from the tutorial, NPC rewards, and overworld hiding places.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The three coins from Mac count among the ten non-level coins, while each Run 'n' Gun set is retained only after finishing its stage alive.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Tutorial coin",
+            "location": "@loc{Tutorial, Inkwell Isle I}",
+            "method": "Complete the movement tutorial and collect the coin at its end."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Mac's three coins",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "Talk to @npc{Mac}, the apple NPC, and accept all three coins."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Forest Follies coins",
+            "location": "@loc{Forest Follies}",
+            "method": "Collect all five coins and complete Forest Follies alive."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Treetop Trouble coins",
+            "location": "@loc{Treetop Trouble}",
+            "method": "Collect all five coins and complete Treetop Trouble alive."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Chip's hidden coin",
+            "location": "@loc{Inkwell Isle I}",
+            "method": "After defeating every Isle I boss, walk behind @npc{Chip}, the axe NPC, and collect the hidden coin."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Buster's coin",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Parry four times before touching the ground, then talk to @npc{Buster}, the juggler NPC, for the coin."
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Ginger's coin",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Use the Isle II secret passage, then talk to @npc{Ginger}, the gingerbread NPC, for the coin."
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Funfair Fever coins",
+            "location": "@loc{Funfair Fever}",
+            "method": "Collect all five coins and complete Funfair Fever alive."
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Funhouse Frazzle coins",
+            "location": "@loc{Funhouse Frazzle}",
+            "method": "Collect all five coins and complete Funhouse Frazzle alive."
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Green-cabin coin",
+            "location": "@loc{Inkwell Isle II}",
+            "method": "Collect the hidden coin behind the green cabin near Funhouse Frazzle."
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Rugged Ridge coins",
+            "location": "@loc{Rugged Ridge}",
+            "method": "Collect all five coins and complete Rugged Ridge alive."
+          },
+          {
+            "id": "c12",
+            "index": 12,
+            "name": "Perilous Piers coins",
+            "location": "@loc{Perilous Piers}",
+            "method": "Collect all five coins and complete Perilous Piers alive."
+          },
+          {
+            "id": "c13",
+            "index": 13,
+            "name": "Ticket-booth coin",
+            "location": "@loc{Inkwell Isle III}",
+            "method": "Collect the hidden coin behind the ticket booth located behind Porkrind's Emporium."
+          },
+          {
+            "id": "c14",
+            "index": 14,
+            "name": "Casino-wall coin",
+            "location": "@loc{Inkwell Hell}",
+            "method": "Collect the hidden coin behind the outside section of the left wall leading toward the casino."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PacifistRun",
+      "displayName": "Pacifist",
+      "description": "Earn P-ranks on all six Run 'n' Gun stages.",
+      "hidden": true,
+      "globalPercent": 4.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "across the playthrough",
+      "estMinutes": 240,
+      "stage": 1,
+      "group": "base",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Earn a P-rank in Forest Follies, Treetop Trouble, Funfair Fever, Funhouse Frazzle, Rugged Ridge, and Perilous Piers without killing enemies.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Normal shots, EX attacks, and Super Arts invalidate a P-rank when they kill an enemy; parrying a pink enemy is permitted. Smoke Bomb and Invincibility help cross blocked passages.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Forest Follies P-rank",
+            "location": "@loc{Forest Follies}",
+            "method": "Reach the exit without killing an enemy; use a mushroom's pink projectile to bounce over the Acorn Maker."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Treetop Trouble P-rank",
+            "location": "@loc{Treetop Trouble}",
+            "method": "Reach the exit without killing an enemy; dash below the Dragonfly or jump and dash above it."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Funfair Fever P-rank",
+            "location": "@loc{Funfair Fever}",
+            "method": "Reach the exit without killing an enemy; use Smoke Bomb to pass the Robot Monkeys, Cannon Walls, and Shooting Range, then cross above the Hot Dog."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Funhouse Frazzle P-rank",
+            "location": "@loc{Funhouse Frazzle}",
+            "method": "Reach the exit without killing an enemy; wait for each Two-Mouthed Wall to open and dash through with Smoke Bomb."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Rugged Ridge P-rank",
+            "location": "@loc{Rugged Ridge}",
+            "method": "Reach the exit without killing an enemy; parry the Gate Faces at their highest positions and dash through."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Perilous Piers P-rank",
+            "location": "@loc{Perilous Piers}",
+            "method": "Reach the exit without killing an enemy and confirm the P grade on the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteWorldDLC",
+      "displayName": "A Vacation in the Wilds",
+      "description": "Defeat every boss in Inkwell Isle IV",
+      "hidden": false,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Defeat Moonshine Mob, Esther Winchester, The Howling Aces, Mortimer Freeze, and Glumstone the Giant in Inkwell Isle IV.",
+      "guide": {
+        "kind": "collectible",
+        "context": "These five contract bosses constitute the Isle IV world-completion set; Chef Saltbaker belongs to the separate quest-finale achievement.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Moonshine Mob",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Moonshine Mob} on any available difficulty."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Esther Winchester",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Esther Winchester} on any available difficulty."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "The Howling Aces",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{The Howling Aces} on any available difficulty."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Mortimer Freeze",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Mortimer Freeze} on any available difficulty."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Glumstone the Giant",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Glumstone the Giant} on any available difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARankWorldDLC",
+      "displayName": "Ranger",
+      "description": "Obtain an A-Rank or Higher on all bosses in Inkwell Isle IV",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Earn A- or better against every boss in Inkwell Isle IV on Regular or Expert difficulty.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Simple difficulty caps the result below A-. A strong score balances completion time, remaining HP, three scored parries, and six Super Meter uses; a Super Art supplies five meter uses.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Moonshine Mob",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Moonshine Mob} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Esther Winchester",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Esther Winchester} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "The Howling Aces",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{The Howling Aces} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Mortimer Freeze",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Mortimer Freeze} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Glumstone the Giant",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Glumstone the Giant} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Chef Saltbaker",
+            "location": "@loc{Inkwell Isle IV}",
+            "method": "Defeat @enemy{Chef Saltbaker} on Regular or Expert difficulty with a final grade of A-, A, A+, or S."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatBossAsChalice",
+      "displayName": "Alive and Kicking",
+      "description": "Defeat a boss with Ms. Chalice",
+      "hidden": false,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Equip the Astral Cookie to play as Ms. Chalice and defeat any boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Astral Cookie becomes available when the Isle IV introduction unlocks Ms. Chalice; equipping it replaces Cuphead or Mugman for the whole fight.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach @loc{Inkwell Isle IV}, complete the introductory sequence, and equip the @item{Astral Cookie} charm."
+          },
+          {
+            "id": "s2",
+            "text": "Enter an easy boss fight such as @enemy{The Root Pack} while Ms. Chalice is active."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat the boss and finish the results screen as @npc{Ms. Chalice}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatXBossesAsChalice",
+      "displayName": "Decadent",
+      "description": "Defeat 10 bosses with Ms. Chalice",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "across the playthrough",
+      "estMinutes": 120,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "DefeatBossAsChalice"
+      ],
+      "summary": "Equip the Astral Cookie and complete 10 boss victories as Ms. Chalice.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any ten bosses in the base game or DLC count, so previously cleared Isle I and Isle II fights can be replayed on Simple difficulty.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip the @item{Astral Cookie} so @npc{Ms. Chalice} is active."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat ten bosses while Ms. Chalice remains active; replay easy bosses on Simple difficulty if desired."
+          },
+          {
+            "id": "s3",
+            "text": "Complete the tenth results screen as Ms. Chalice."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ChaliceSuperWin",
+      "displayName": "The Golden Touch",
+      "description": "Defeat a boss with one of Ms. Chalice's Super Arts",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "DefeatBossAsChalice"
+      ],
+      "summary": "Land the killing blow on any boss with Ms. Chalice's Spiral Pillar Super Art.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shield Pal does not deal damage and therefore cannot satisfy the finishing-blow condition; an easy Isle I boss keeps retries short.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip the @item{Astral Cookie} and select @mechanic{Spiral Pillar}, Ms. Chalice's damaging Super Art I."
+          },
+          {
+            "id": "s2",
+            "text": "Enter an easy boss fight, fill all five Super Meter cards, and weaken the boss near defeat."
+          },
+          {
+            "id": "s3",
+            "text": "Activate Spiral Pillar for the killing blow and finish the results screen as Ms. Chalice."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatBossDLCWeapon",
+      "displayName": "The Latest Sensation",
+      "description": "Defeat a boss with one of Porkrind's new weapons",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Defeat any boss using Converge, Twist-Up, or Crackshot, the weapons sold in the Isle IV version of Porkrind's Emporium.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crackshot's homing projectiles make it the simplest DLC weapon for keeping damage on an early boss while concentrating on dodges.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Visit @loc{Porkrind's Emporium} on Inkwell Isle IV and buy @item{Converge}, @item{Twist-Up}, or @item{Crackshot}."
+          },
+          {
+            "id": "s2",
+            "text": "Equip the purchased DLC weapon and enter an easy boss fight such as @enemy{The Root Pack}."
+          },
+          {
+            "id": "s3",
+            "text": "Use the DLC weapon to defeat the boss and complete the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatAllKOG",
+      "displayName": "Checkmate",
+      "description": "Defeat all of the King of Games' Champions",
+      "hidden": false,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Defeat the Pawns, Knight, Bishop, Rook, and Queen in the King of Games' five Champion challenges.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The sky ladder relocates around Inkwell Isle IV after wins; walking around the island makes it appear again so the next Champion can be selected.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Pawns",
+            "location": "@loc{King's Leap, Inkwell Isle IV}",
+            "method": "Climb the sky ladder and defeat the @enemy{Pawns} Champion challenge."
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Knight",
+            "location": "@loc{King's Leap, Inkwell Isle IV}",
+            "method": "Climb the sky ladder and defeat the @enemy{Knight} Champion challenge."
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Bishop",
+            "location": "@loc{King's Leap, Inkwell Isle IV}",
+            "method": "Climb the sky ladder and defeat the @enemy{Bishop} Champion challenge."
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Rook",
+            "location": "@loc{King's Leap, Inkwell Isle IV}",
+            "method": "Climb the sky ladder and defeat the @enemy{Rook} Champion challenge."
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Queen",
+            "location": "@loc{King's Leap, Inkwell Isle IV}",
+            "method": "Climb the sky ladder and defeat the @enemy{Queen} Champion challenge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatKOGGauntlet",
+      "displayName": "A King's Admiration",
+      "description": "Defeat the King's Gauntlet",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "DefeatAllKOG"
+      ],
+      "summary": "Select The Gauntlet from the King of Games and defeat the Pawns, Knight, Bishop, Rook, and Queen consecutively without dying.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Gauntlet appears only after all five individual Champion challenges are cleared, and HP is restored between its fights.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the @enemy{Pawns}, @enemy{Knight}, @enemy{Bishop}, @enemy{Rook}, and @enemy{Queen} individually."
+          },
+          {
+            "id": "s2",
+            "text": "Return to @npc{The King of Games} and select the literal menu option @mechanic{The Gauntlet}."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat all five Champions in the resulting boss rush without dying; choosing them individually does not count.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatSaltbaker",
+      "displayName": "Compliments to the Chef",
+      "description": "Complete your quest on Inkwell Isle IV",
+      "hidden": false,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "CompleteWorldDLC"
+      ],
+      "summary": "Deliver ingredients won from Moonshine Mob, Esther Winchester, The Howling Aces, Mortimer Freeze, and Glumstone the Giant, then defeat Chef Saltbaker on Regular difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Bakery finale becomes available after the five Isle IV contract bosses are defeated and their ingredients have been collected.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Moonshine Mob}, @enemy{Esther Winchester}, @enemy{The Howling Aces}, @enemy{Mortimer Freeze}, and @enemy{Glumstone the Giant}."
+          },
+          {
+            "id": "s2",
+            "text": "Return to @loc{The Bakery} and enter @loc{A Dish to Die For} on Regular difficulty."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat @enemy{Chef Saltbaker} and complete the Isle IV ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SRankAnyDLC",
+      "displayName": "Cooked to Perfection",
+      "description": "Get an S-Rank on a stage of Inkwell Isle IV",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "about 60 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "DefeatSaltbaker"
+      ],
+      "summary": "Earn an S rank against The Howling Aces or another Inkwell Isle IV boss on Expert difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Expert for Isle IV unlocks after Chef Saltbaker is defeated. An S rank requires the target time, at least 3 HP, three scored parries, and six Super Meter uses; a Super Art contributes five uses.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Chef Saltbaker} to unlock Expert difficulty for Isle IV."
+          },
+          {
+            "id": "s2",
+            "text": "Start @loc{Doggone Dogfight} or another Isle IV boss stage on Expert difficulty."
+          },
+          {
+            "id": "s3",
+            "text": "Finish within the stage's target time with at least 3 HP, three scored parries, and six Super Meter uses."
+          },
+          {
+            "id": "s4",
+            "text": "Complete the fight and confirm an @mechanic{S} grade on the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatBossNoMinions",
+      "displayName": "The High Hat",
+      "description": "Defeat a boss on Inkwell Isle IV without killing any of its minions",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Clear High-Noon Hoopla against Esther Winchester while leaving every flying pony minion alive.",
+      "guide": {
+        "kind": "standard",
+        "context": "The flying ponies appear only during Esther's first phase, and Simple difficulty shortens the encounter while still allowing this achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start @loc{High-Noon Hoopla} against @enemy{Esther Winchester} on Simple difficulty."
+          },
+          {
+            "id": "s2",
+            "text": "During phase one, aim every shot away from the flying pony minions that fire cactus balls; damage only Esther Winchester."
+          },
+          {
+            "id": "s3",
+            "text": "Complete the fight without killing a pony minion and finish the results screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HP9",
+      "displayName": "Hearty",
+      "description": "Have 9HP at one time",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Reach 9 HP during the King Dice encounter by landing on every bonus-heart space and using Heart Ring to gain HP on the first, third, and sixth parries without taking damage.",
+      "guide": {
+        "kind": "standard",
+        "context": "Heart Ring awards one HP after the first, third, and sixth parries. Patch 1.3.3 adjusted this achievement to unlock more consistently and made result-screen HP depend on remaining health.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip the @item{Heart Ring} charm and start @loc{All Bets Are Off!} against King Dice."
+          },
+          {
+            "id": "s2",
+            "text": "Parry the die so the board route lands on every space marked with a bonus heart."
+          },
+          {
+            "id": "s3",
+            "text": "Accumulate six successful parries during the selected mini-bosses to receive all three Heart Ring HP rewards."
+          },
+          {
+            "id": "s4",
+            "text": "Avoid all damage until the health display reaches 9 HP."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatDevilPhase2",
+      "displayName": "A Horrible Night To Have a Curse",
+      "description": "Defeat the Angel and Demon secret boss.",
+      "hidden": true,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "summary": "Solve the randomized graveyard code with the Broken Relic, then defeat the Angel and Demon secret boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first-, second-, and third-place contestants give a save-specific order: directional words such as up, down, left, and right identify each grave relative to the center stone.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy the @item{Broken Relic} from @loc{Porkrind's Emporium} on Inkwell Isle IV."
+          },
+          {
+            "id": "s2",
+            "text": "At the contest podium northeast of the island, talk to the middle first-place NPC, the left second-place NPC, and the right third-place NPC; record each directional clue in placement order."
+          },
+          {
+            "id": "s3",
+            "text": "At the central graveyard, activate the three graves described by those clues in first-, second-, then third-place order."
+          },
+          {
+            "id": "s4",
+            "text": "Activate the center grave to enter the nightmare and defeat @enemy{Angel and Demon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Paladin",
+      "displayName": "Paladin",
+      "description": "Transform the Cursed Relic into the Divine Relic.",
+      "hidden": true,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "across the playthrough",
+      "estMinutes": 180,
+      "stage": 3,
+      "group": "dlc",
+      "sortReason": "Placed in the hand-curated route so prerequisite fights, equipment, and difficulty unlocks are available before the attempt.",
+      "confidence": "verified",
+      "prerequisites": [
+        "DefeatDevilPhase2"
+      ],
+      "summary": "Evolve the Cursed Relic by earning 16 boss points on Regular or Expert difficulty; its final form is the Divine Relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "Isle I and II bosses give 2 or 2.5 points, Isle III and IV bosses give 3, King Dice gives 1, and The Devil or Chef Saltbaker gives 4; Simple victories do not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Angel and Demon} so the Broken Relic becomes the @item{Cursed Relic}."
+          },
+          {
+            "id": "s2",
+            "text": "Equip the Cursed Relic and earn 10 points by defeating Cagney Carnation, Hilda Berg, Ribby and Croaks, Goopy Le Grande, and The Root Pack on Regular or Expert difficulty."
+          },
+          {
+            "id": "s3",
+            "text": "Keep the Cursed Relic equipped and defeat Werner Werman and Phantom Express on Regular or Expert difficulty for 6 more points."
+          },
+          {
+            "id": "s4",
+            "text": "After reaching 16 points, confirm that the charm has transformed into the @item{Divine Relic}."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "DefeatBoss",
+    "NoHitsTaken",
+    "ExWin",
+    "CompleteWorld1",
+    "ARankWorld1",
+    "FoundSecretPassage",
+    "ParryApprentice",
+    "CompleteWorld2",
+    "ARankWorld2",
+    "ParryChain",
+    "CompleteWorld3",
+    "ARankWorld3",
+    "UnlockedAllSupers",
+    "SuperWin",
+    "FoundAllLevelMoney",
+    "FoundAllMoney",
+    "BoughtAllItems",
+    "PacifistRun",
+    "ParryMaster",
+    "CompleteDicePalace",
+    "NoHitsTakenDicePalace",
+    "SmallPlaneOnlyWin",
+    "BadEnding",
+    "CompleteDevil",
+    "GoodEnding",
+    "ARankWorld4",
+    "SRank",
+    "CompleteWorldDLC",
+    "DefeatBossAsChalice",
+    "DefeatBossDLCWeapon",
+    "DefeatAllKOG",
+    "DefeatSaltbaker",
+    "ARankWorldDLC",
+    "ChaliceSuperWin",
+    "DefeatXBossesAsChalice",
+    "DefeatBossNoMinions",
+    "HP9",
+    "DefeatDevilPhase2",
+    "Paladin",
+    "DefeatKOGGauntlet",
+    "SRankAnyDLC",
+    "NewGamePlus"
+  ]
+}

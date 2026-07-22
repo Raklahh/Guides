@@ -1,0 +1,770 @@
+{
+  "game": {
+    "appid": 264710,
+    "slug": "subnautica",
+    "title": "Subnautica",
+    "version": "1.0",
+    "lastPatchChecked": "2025-10-03",
+    "estTotalHours": 30,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-22"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Establish the surface route",
+      "description": "Keep the save free of console commands, enter the ocean, build a starter base and Seamoth, then investigate the Floating and Mountain Islands.",
+      "achievementRefs": [
+        "DiveForTheVeryFirstTime",
+        "BuildBase",
+        "BuildSeamoth",
+        "FindDegasiFloatingIslandsBase",
+        "FindPrecursorGun"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Clear the Aurora and Degasi trail",
+      "description": "Repair the Aurora drive, scan and build the Prawn Suit, follow both deeper Degasi signals, build the Cyclops, and hatch the finite Cuddlefish Egg before the endgame.",
+      "achievementRefs": [
+        "RepairAuroraReactor",
+        "BuildExosuit",
+        "FindDegasiJellyshroomCavesBase",
+        "BuildCyclops",
+        "FindDegasiDeepGrandReefBase",
+        "HatchCutefish"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Descend through the alien facilities",
+      "description": "Upgrade a deep vehicle, enter the Lost River research base, collect the Thermal Plant's Blue Tablet, reach the Primary Containment Facility, and complete the Enzyme 42 healing sequence.",
+      "achievementRefs": [
+        "FindPrecursorLostRiverFacility",
+        "FindPrecursorLavaCastleFacility",
+        "FindPrecursorPrisonFacility",
+        "CureInfection"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Prepare and launch the Neptune",
+      "description": "Download and build every rocket stage, disable the Quarantine Enforcement Platform, prepare a valid Time Capsule, complete the pre-flight checks, and launch.",
+      "achievementRefs": [
+        "DeployTimeCapsule",
+        "LaunchRocket"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "DiveForTheVeryFirstTime",
+      "displayName": "Getting Your Feet Wet",
+      "description": "Dive into the ocean for the first time.",
+      "hidden": true,
+      "globalPercent": 89.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Exit @loc{Lifepod 5} through either hatch and enter the ocean for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Using any console command disables achievements for that save unless you quit without saving, so keep the completion route on a command-free save.",
+        "steps": [
+          {
+            "id": "divefortheveryfirsttime-1",
+            "text": "Open the bottom hatch of @loc{Lifepod 5}, or climb through the top hatch and jump overboard; touching the ocean unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RepairAuroraReactor",
+      "displayName": "Extinction Event Avoided",
+      "description": "Repair every breach in the Aurora's drive core.",
+      "hidden": true,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Board the @loc{Aurora}, reach the @loc{Drive Room}, and seal all 11 reactor breaches with a charged @item{Repair Tool}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Aurora becomes safely accessible after its explosion. Bring the complete Radiation Suit set and a fully charged Repair Tool; sealing every breach removes the surrounding radiation after three in-game days.",
+        "steps": [
+          {
+            "id": "repairaurorareactor-1",
+            "text": "After the Aurora explodes, equip the @item{Radiation Suit}, @item{Radiation Helmet}, and @item{Radiation Gloves}, then enter the wreck through its damaged bow."
+          },
+          {
+            "id": "repairaurorareactor-2",
+            "text": "Carry a charged @item{Repair Tool} through the Cargo Bay and flooded junction to the @loc{Drive Room}."
+          },
+          {
+            "id": "repairaurorareactor-3",
+            "text": "Inspect all four reactors and hold the Repair Tool on each sparking breach until its repair indicator completes; sealing the eleventh breach unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindPrecursorGun",
+      "displayName": "Ancient Technologies",
+      "description": "Discover the Quarantine Enforcement Platform.",
+      "hidden": true,
+      "globalPercent": 44.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach @loc{Mountain Island} and enter the @loc{Quarantine Enforcement Platform} at coordinates @mechanic{375, 8, 1106}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Sunbeam radio sequence eventually marks Mountain Island, but the facility can be visited earlier. A Purple Tablet found on the island opens the beach entrance.",
+        "steps": [
+          {
+            "id": "findprecursorgun-1",
+            "text": "Travel to @loc{Mountain Island} at approximately @mechanic{375, 8, 1106}; the alien structure occupies the island's shoreline."
+          },
+          {
+            "id": "findprecursorgun-2",
+            "text": "Collect a @item{Purple Tablet} from the island, approach the large beach door, and insert the tablet into the forcefield terminal."
+          },
+          {
+            "id": "findprecursorgun-3",
+            "text": "Cross into the @loc{Quarantine Enforcement Platform}; discovering the facility unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindPrecursorLavaCastleFacility",
+      "displayName": "Thermal Activity",
+      "description": "Discover the Alien Thermal Plant.",
+      "hidden": true,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindPrecursorLostRiverFacility"
+      ],
+      "summary": "At @mechanic{-75, -1182, 5}, cross into the @loc{Alien Thermal Plant} hidden within the @loc{Lava Castle}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bring two Purple Tablets if you want every progression item in one visit. One sealed room contains the Blue Tablet needed for the Primary Containment Facility; collecting it also unlocks the recipe for a second Blue Tablet.",
+        "steps": [
+          {
+            "id": "findprecursorlavacastlefacility-1",
+            "text": "Upgrade a Prawn Suit or Cyclops for at least 1,300 meters, descend from the Lost River into the @loc{Inactive Lava Zone}, and find the central @loc{Lava Castle}."
+          },
+          {
+            "id": "findprecursorlavacastlefacility-2",
+            "text": "Use the lava-tube entrances to reach the alien doorway near @mechanic{-75, -1182, 5}, then enter the @loc{Alien Thermal Plant} to unlock the achievement."
+          },
+          {
+            "id": "findprecursorlavacastlefacility-3",
+            "text": "Use a @item{Purple Tablet} on the sealed room containing the @item{Blue Tablet}, collect it, and preserve or craft a second Blue Tablet for the next facility."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindPrecursorLostRiverFacility",
+      "displayName": "Follow the Lost River",
+      "description": "Discover the Disease Research Facility in the Lost River.",
+      "hidden": true,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindDegasiDeepGrandReefBase"
+      ],
+      "summary": "Reach coordinates @mechanic{-252, -814, 316} in the @loc{Lost River} and swim into the ruined @loc{Disease Research Facility}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The facility sits near the Lost River Junction and requires a vehicle rated beyond 800 meters. Its achievement triggers on discovery; the Purple Tablet side room is optional for the unlock.",
+        "steps": [
+          {
+            "id": "findprecursorlostriverfacility-1",
+            "text": "Enter the @loc{Lost River} in a Seamoth with Depth Module MK3, a depth-upgraded Prawn Suit, or a Cyclops rated beyond 800 meters."
+          },
+          {
+            "id": "findprecursorlostriverfacility-2",
+            "text": "Navigate to approximately @mechanic{-252, -814, 316} and locate the ruined alien structure hanging near the Lost River Junction."
+          },
+          {
+            "id": "findprecursorlostriverfacility-3",
+            "text": "Find the elevated opening on the structure's northeastern side and swim through it; crossing into the @loc{Disease Research Facility} unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindPrecursorPrisonFacility",
+      "displayName": "Fourteen Thousand Leagues Under the Sea",
+      "description": "Discover the Primary Containment Facility.",
+      "hidden": true,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindPrecursorLavaCastleFacility"
+      ],
+      "summary": "At @mechanic{200, -1440, -222} in the @loc{Lava Lakes}, spend a @item{Blue Tablet} to cross the @loc{Primary Containment Facility}'s outer forcefield.",
+      "guide": {
+        "kind": "standard",
+        "context": "The main entrance and the internal Moonpool each consume a Blue Tablet. Bring the tablet collected from the Thermal Plant plus one crafted copy so the cure sequence is not interrupted.",
+        "steps": [
+          {
+            "id": "findprecursorprisonfacility-1",
+            "text": "Carry two @item{Blue Tablets} and descend in a vehicle rated for at least 1,500 meters from the Inactive Lava Zone into the @loc{Lava Lakes}."
+          },
+          {
+            "id": "findprecursorprisonfacility-2",
+            "text": "Travel to approximately @mechanic{200, -1440, -222} and approach the large @loc{Primary Containment Facility} beyond the lava field."
+          },
+          {
+            "id": "findprecursorprisonfacility-3",
+            "text": "Insert one Blue Tablet at the outer forcefield and cross into the antechamber; entering the facility unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CureInfection",
+      "displayName": "Optimal Health",
+      "description": "Cure the Kharaa infection.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45-90 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindPrecursorPrisonFacility"
+      ],
+      "summary": "Hatch the Sea Emperor's five infants, touch their @item{Enzyme 42}, and complete the full healing cutscene.",
+      "guide": {
+        "kind": "standard",
+        "context": "Activating the Aquarium Arch unlocks the Hatching Enzymes recipe. Four facility arches lead to required plants; the Sea Crown grows inside the aquarium trenches.",
+        "steps": [
+          {
+            "id": "cureinfection-1",
+            "text": "Inside the @loc{Primary Containment Facility}, spend the second @item{Blue Tablet} to open the Moonpool and enter the Sea Emperor's aquarium."
+          },
+          {
+            "id": "cureinfection-2",
+            "text": "Speak with the @npc{Sea Emperor Leviathan}, place an @item{Ion Cube} in the Aquarium Arch, and receive the @item{Hatching Enzymes} blueprint."
+          },
+          {
+            "id": "cureinfection-3",
+            "text": "Collect one Eye Stalk Seed, one Fungal Sample, one Ghost Weed Seed, one Sea Crown Seed, and one Bulb Bush Sample through the facility arches and aquarium, then fabricate one Hatching Enzymes."
+          },
+          {
+            "id": "cureinfection-4",
+            "text": "Insert the Hatching Enzymes into the @mechanic{Incubator Device} to hatch all five infants, then touch an @item{Enzyme 42} globule and allow the complete healing cutscene to finish; the achievement unlocks when the infection is cured."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DeployTimeCapsule",
+      "displayName": "Leave Only Time Capsules",
+      "description": "Create and deploy a Time Capsule.",
+      "hidden": true,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 min after building the rocket",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "CureInfection"
+      ],
+      "lockoutStage": 4,
+      "summary": "Fill a valid @item{Time Capsule} in the Neptune Cockpit and select @mechanic{Prepare}; if the achievement remains locked, launch the @item{Neptune Escape Rocket} to jettison the capsule.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Time Capsule console is optional for launching. A valid capsule needs content in at least one field; Prepare confirms its configuration, while liftoff supplies the capsule's deployment event.",
+        "steps": [
+          {
+            "id": "deploytimecapsule-1",
+            "text": "Finish the @item{Neptune Cockpit}, climb to its upper deck, and open the @mechanic{Time Capsule} console."
+          },
+          {
+            "id": "deploytimecapsule-2",
+            "text": "Write a message and add a screenshot or a non-blacklisted item until the console reports a valid capsule, then select @mechanic{Prepare}."
+          },
+          {
+            "id": "deploytimecapsule-3",
+            "text": "After selecting Prepare, check whether the achievement unlocked. If it remains locked, complete the rocket pre-flight checks and launch; the valid capsule is jettisoned during the countdown and the achievement registers by deployment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindDegasiFloatingIslandsBase",
+      "displayName": "Seaside Living with an Ocean View",
+      "description": "Discover the Degasi habitat on the Floating Island.",
+      "hidden": true,
+      "globalPercent": 42.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach the @loc{Floating Island}, enter its lower central @loc{Degasi Seabase}, and collect the @item{Storm! PDA}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Aurora Rendezvous Point radio signal leads directly to the island. The island's abandoned PDAs also reveal the next Degasi base, so collect every PDA before leaving.",
+        "steps": [
+          {
+            "id": "finddegasifloatingislandsbase-1",
+            "text": "Follow the @mechanic{Aurora Rendezvous Point} signal to the @loc{Floating Island}, or travel toward the permanent mist bank southwest of the Aurora."
+          },
+          {
+            "id": "finddegasifloatingislandsbase-2",
+            "text": "From the beach, take the right fork and follow the outer path downhill to the lower central @loc{Degasi Seabase} beneath the two mountaintop observatories."
+          },
+          {
+            "id": "finddegasifloatingislandsbase-3",
+            "text": "Enter the lower habitat and collect the @item{Storm! PDA}; the base discovery and PDA pickup award the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindDegasiJellyshroomCavesBase",
+      "displayName": "Follow the Degasi",
+      "description": "Discover the Degasi habitat in the Jellyshroom Cave.",
+      "hidden": true,
+      "globalPercent": 32.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindDegasiFloatingIslandsBase",
+        "BuildSeamoth"
+      ],
+      "summary": "Enter the @loc{Jellyshroom Cave Degasi Seabase} near 250 meters and collect @item{Bart Torgal's Log #2 – Stalker Teeth}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A PDA at the Floating Island base adds the 250-meter Degasi signal. Following that story signal is safer than searching the cave's four entrances without a beacon.",
+        "steps": [
+          {
+            "id": "finddegasijellyshroomcavesbase-1",
+            "text": "Collect the next-base coordinates from the @loc{Floating Island Degasi Seabase}, then follow the @mechanic{Degasi Seabase (250m)} signal into the @loc{Jellyshroom Cave}."
+          },
+          {
+            "id": "finddegasijellyshroomcavesbase-2",
+            "text": "Park a depth-capable Seamoth beside the abandoned habitat and swim through a broken entrance."
+          },
+          {
+            "id": "finddegasijellyshroomcavesbase-3",
+            "text": "Pick up @item{Bart Torgal's Log #2 – Stalker Teeth} inside the base; discovering the habitat and collecting the log unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindDegasiDeepGrandReefBase",
+      "displayName": "Seamonsters",
+      "description": "Discover the Degasi habitat in the Deep Grand Reef.",
+      "hidden": true,
+      "globalPercent": 23.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindDegasiJellyshroomCavesBase"
+      ],
+      "summary": "Enter the multi-story @loc{Deep Grand Reef Degasi Seabase} near 500 meters and collect its second-floor abandoned PDA.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Jellyshroom base supplies the 500-meter signal. Crabsquids can disable vehicles and the flooded structure has no internal oxygen, so park close, carry a high-capacity tank, and save before collecting the PDAs.",
+        "steps": [
+          {
+            "id": "finddegasideepgrandreefbase-1",
+            "text": "Collect the next-base coordinates in the @loc{Jellyshroom Cave Degasi Seabase}, then follow the @mechanic{Degasi Seabase (500m)} signal into the @loc{Deep Grand Reef}."
+          },
+          {
+            "id": "finddegasideepgrandreefbase-2",
+            "text": "Enter the damaged multi-story habitat and reach its second floor while monitoring oxygen and nearby Crabsquids."
+          },
+          {
+            "id": "finddegasideepgrandreefbase-3",
+            "text": "Collect the abandoned PDA on the second floor; the base discovery and PDA pickup unlock the achievement. Before leaving, also take the Cuddlefish Egg and Orange Tablet from the base."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BuildBase",
+      "displayName": "Settling in for the Long Haul",
+      "description": "Construct a seabase module.",
+      "hidden": true,
+      "globalPercent": 53.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15-30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft a @item{Habitat Builder} and use it to complete any @mechanic{Seabase module}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A completed module is the achievement condition; adding a Hatch makes the compartment accessible and turns the structure into a practical starter base.",
+        "steps": [
+          {
+            "id": "buildbase-1",
+            "text": "At a Fabricator, craft a @item{Habitat Builder} from one Wiring Kit, one Computer Chip, and one Battery."
+          },
+          {
+            "id": "buildbase-2",
+            "text": "Equip the Habitat Builder, open its build menu, choose a compartment such as an @mechanic{I Compartment}, and hold the build control until construction reaches 100%."
+          },
+          {
+            "id": "buildbase-3",
+            "text": "Build a @item{Hatch} on the compartment if you want to enter and use the new Seabase; the achievement unlocks when the first module is completed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BuildSeamoth",
+      "displayName": "Personal Propulsion",
+      "description": "Construct a Seamoth.",
+      "hidden": true,
+      "globalPercent": 52.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Scan three @item{Seamoth Fragments}, then construct a @item{Seamoth} from a deployed @item{Mobile Vehicle Bay}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Mobile Vehicle Bay is the shared construction station for all three vehicle achievements. Its own blueprint requires three fragments commonly found in Kelp Forest cargo crates.",
+        "steps": [
+          {
+            "id": "buildseamoth-1",
+            "text": "Scan three @item{Mobile Vehicle Bay Fragments} in cargo crates around the @loc{Kelp Forest}, then fabricate the bay from one Titanium Ingot, one Lubricant, and one Power Cell."
+          },
+          {
+            "id": "buildseamoth-2",
+            "text": "Scan three @item{Seamoth Fragments} around @loc{Grassy Plateaus} wrecks and seabed debris to complete the vehicle blueprint."
+          },
+          {
+            "id": "buildseamoth-3",
+            "text": "Deploy the Mobile Vehicle Bay at the surface and select @mechanic{Vehicles > Seamoth} with one Titanium Ingot, one Power Cell, two Glass, one Lubricant, and one Lead; construction completion unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BuildCyclops",
+      "displayName": "40-foot Sub For One",
+      "description": "Construct a Cyclops submarine.",
+      "hidden": true,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Scan three Hull, three Engine, and three Bridge fragments, then construct a @item{Cyclops} from a @item{Mobile Vehicle Bay}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each fragment family completes one-third of the Cyclops blueprint. Mushroom Forests are the safer Hull and Bridge route, while Crag Field offers Engine fragments without relying on the Reaper-patrolled Mountain Island side.",
+        "steps": [
+          {
+            "id": "buildcyclops-1",
+            "text": "Scan three @item{Cyclops Hull Fragments} and three @item{Cyclops Bridge Fragments} in either @loc{Mushroom Forest} or @loc{Sea Treader's Path}."
+          },
+          {
+            "id": "buildcyclops-2",
+            "text": "Scan three @item{Cyclops Engine Fragments} around @loc{Crag Field}, the Aurora, Mountains wrecks, or the Underwater Islands wreck to complete all nine scans."
+          },
+          {
+            "id": "buildcyclops-3",
+            "text": "At a deployed @item{Mobile Vehicle Bay}, select @mechanic{Vehicles > Cyclops} with three Plasteel Ingots, three Enameled Glass, one Lubricant, one Advanced Wiring Kit, and three Lead; construction completion unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BuildExosuit",
+      "displayName": "Ordered the Prawn",
+      "description": "Construct a Prawn Suit.",
+      "hidden": true,
+      "globalPercent": 32.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15-30 min after Aurora access",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RepairAuroraReactor"
+      ],
+      "summary": "Scan four @item{Prawn Suit Fragments} in the Aurora's @loc{Prawn Bay}, then construct a @item{Prawn Suit} at a @item{Mobile Vehicle Bay}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Aurora contains five scannable suit fragments, so one can be missed without blocking the blueprint. The Prawn Suit's 900-meter base crush depth makes it the first deep-route vehicle.",
+        "steps": [
+          {
+            "id": "buildexosuit-1",
+            "text": "Inside the @loc{Aurora}, repair the door panel leading into the @loc{Prawn Bay} and extinguish any fire blocking the hanging suit wreckage."
+          },
+          {
+            "id": "buildexosuit-2",
+            "text": "Scan four of the five @item{Prawn Suit Fragments} in the bay to complete the blueprint."
+          },
+          {
+            "id": "buildexosuit-3",
+            "text": "At a deployed @item{Mobile Vehicle Bay}, select @mechanic{Vehicles > Prawn Suit} with two Plasteel Ingots, two Aerogel, one Enameled Glass, two Diamonds, and two Lead; the finished suit unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LaunchRocket",
+      "displayName": "Go Among the Stars",
+      "description": "Launch the Neptune Escape Rocket and leave Planet 4546B.",
+      "hidden": true,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 hr of construction",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "CureInfection",
+        "DeployTimeCapsule"
+      ],
+      "summary": "Cure the infection, disable the @loc{Quarantine Enforcement Platform}, build the Neptune Launch Platform, Gantry, Ion Boosters, Fuel Reserve, and Cockpit, then launch.",
+      "guide": {
+        "kind": "standard",
+        "context": "The launch blueprint is downloaded in the Aurora's Captain's Quarters using door code 2679. Launching does not delete the save; after the credits, the file resumes from its most recent manual save.",
+        "steps": [
+          {
+            "id": "launchrocket-1",
+            "text": "In the @loc{Aurora Captain's Quarters}, enter code @mechanic{2679} and download the @item{Neptune Launch Platform} blueprint."
+          },
+          {
+            "id": "launchrocket-2",
+            "text": "Use a @item{Mobile Vehicle Bay} to construct the Neptune Launch Platform, then build the Gantry, Ion Boosters, Fuel Reserve, and Cockpit in sequence on the platform."
+          },
+          {
+            "id": "launchrocket-3",
+            "text": "After curing the infection, return to @loc{Mountain Island} and use the control terminal inside the @loc{Quarantine Enforcement Platform} to disable the weapon."
+          },
+          {
+            "id": "launchrocket-4",
+            "text": "Inside the completed rocket, activate Life Support, Hydraulics, Auxiliary Power, Communications, and Primary Computer systems; configure the Time Capsule before launch if its achievement is still missing."
+          },
+          {
+            "id": "launchrocket-5",
+            "text": "Use the cockpit flight chair to begin liftoff; completing the departure cutscene unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HatchCutefish",
+      "displayName": "\"Man's Best Friend\"",
+      "description": "Hatch and release a Cuddlefish.",
+      "hidden": true,
+      "globalPercent": 11.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20-40 min plus hatch time",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindDegasiDeepGrandReefBase",
+        "BuildBase"
+      ],
+      "lockoutStage": 2,
+      "summary": "Hatch one @item{Cuddlefish Egg} inside an @item{Alien Containment}, pick up the Cuddlefish, and release it into the open ocean.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only five Cuddlefish Eggs exist. Save before the release so a failed trigger can be retried without sacrificing another finite egg.",
+        "steps": [
+          {
+            "id": "hatchcutefish-1",
+            "text": "At the @loc{Deep Grand Reef Degasi Seabase} near @mechanic{-635, -506, -941}, scan the installed @item{Alien Containment} to learn its blueprint and take the Cuddlefish Egg from the lowest floor."
+          },
+          {
+            "id": "hatchcutefish-2",
+            "text": "Inside a Multipurpose Room or Large Room, build an @item{Alien Containment} from five Glass and two Titanium, then attach a Hatch to its side."
+          },
+          {
+            "id": "hatchcutefish-3",
+            "text": "Enter the containment and drop the Cuddlefish Egg inside. Wait about 20 real minutes—potentially three to five in-game days—for the hatch notification, then return and pick up the newly hatched Cuddlefish."
+          },
+          {
+            "id": "hatchcutefish-4",
+            "text": "Leave the base, place the Cuddlefish into open ocean, and choose the release action; the achievement unlocks when the released Cuddlefish begins swimming outside."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "DiveForTheVeryFirstTime",
+    "BuildBase",
+    "BuildSeamoth",
+    "FindDegasiFloatingIslandsBase",
+    "FindPrecursorGun",
+    "RepairAuroraReactor",
+    "BuildExosuit",
+    "FindDegasiJellyshroomCavesBase",
+    "BuildCyclops",
+    "FindDegasiDeepGrandReefBase",
+    "HatchCutefish",
+    "FindPrecursorLostRiverFacility",
+    "FindPrecursorLavaCastleFacility",
+    "FindPrecursorPrisonFacility",
+    "CureInfection",
+    "DeployTimeCapsule",
+    "LaunchRocket"
+  ]
+}

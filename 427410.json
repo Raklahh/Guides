@@ -1,0 +1,2110 @@
+{
+  "game": {
+    "appid": 427410,
+    "slug": "abiotic-factor",
+    "title": "Abiotic Factor",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-14",
+    "estTotalHours": 90,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-22"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Induction and the Office Sector",
+      "description": "Learn the facility systems, clear the opening story objectives, and finish the optional Office tasks before entering Manufacturing West. In co-op, operate a Keypad Hacker yourself. Explore all of Flathill so the final Power Cell is not left behind.",
+      "achievementRefs": [
+        "ACH_CRAFTY",
+        "ACH_INTRO_COMPLETE",
+        "ACH_KILL_PEST_1",
+        "ACH_GREEN_THUMB",
+        "ACH_POOP_SELF",
+        "ACH_FARGARDEN",
+        "ACH_FOG",
+        "ACH_SECTOR_1",
+        "ACH_HACKERMAN",
+        "ACH_KITTED_OUT",
+        "ACH_FASHION_SPEC"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Manufacturing West",
+      "description": "Repair the three electron pumps and overload the Synchrotron while collecting the Manufacturing uniform and clearing the train, tutorial portal, and Encroachment branches. Let the 50 Order-soldier counter progress naturally.",
+      "achievementRefs": [
+        "ACH_MFGARB",
+        "ACH_TRAIN",
+        "ACH_DUMMY",
+        "ACH_MGT",
+        "ACH_SECTOR_2",
+        "ACH_KILL_ORDER"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Cascade Laboratories and Security",
+      "description": "Reset laboratory security, craft Antethermite, and open Hydroplant. Clear the available anteverses by their far exits; returning through an entrance or personal teleporter can bypass an achievement trigger.",
+      "achievementRefs": [
+        "ACH_HELMHOLTZ",
+        "ACH_MYCOFIELDS",
+        "ACH_FUNGUS_AMONGUS",
+        "ACH_LABRAT",
+        "ACH_MIRROR",
+        "ACH_RISE",
+        "ACH_NIGHTR",
+        "ACH_TILE",
+        "ACH_WINTER",
+        "ACH_SECTOR_3",
+        "ACH_SECTOR_4"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Hydroplant and midgame cleanup",
+      "description": "Restore the spillway systems while fishing, recovering the Hydroplant uniform, containing a Leyak, and beginning Kylie's quest. Prepare the neural chip before entering underwater Robotics.",
+      "achievementRefs": [
+        "ACH_ALPS",
+        "ACH_SHORE",
+        "ACH_FISHONCE",
+        "ACH_RAREFISH",
+        "ACH_HYDROGARB",
+        "ACH_91",
+        "ACH_COFFEEHOLE",
+        "ACH_KYLIE",
+        "ACH_SECTOR_5"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Reactors and Shadowgate",
+      "description": "Recover Anti-Fungal Gelatin, restore all four reactors, and destroy Shadowgate's five devices. Open the four keyed crate types and let Gatekeeper kills accumulate before any dedicated farming.",
+      "achievementRefs": [
+        "ACH_WARHEAD",
+        "ACH_SALEM",
+        "ACH_DUSK",
+        "ACH_MAESTRO",
+        "ACH_OPENCRATE_FOG",
+        "ACH_OPENCRATE_ORN",
+        "ACH_OPENCRATE_SEC",
+        "ACH_OPENCRATE_GK",
+        "ACH_KILL_JOTUN",
+        "ACH_KILL_GK",
+        "ACH_SUOMI",
+        "ACH_SECTOR_6"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Residence, Albatross, and the ending",
+      "description": "Complete Praetorium and Botanical Wing, finish Kylie's restoration, repair the Residence suppressor, and reach Albatross. Defeat the Wayseeker and stay for the final conversations that register story completion.",
+      "achievementRefs": [
+        "ACH_INQ",
+        "ACH_BOTANIC",
+        "ACH_SECTOR_7",
+        "ACH_END"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_KILL_PEST_1",
+      "displayName": "One Down, One Million To Go",
+      "description": "Kill a pest for the very first time.",
+      "hidden": false,
+      "globalPercent": 94.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill one @enemy{Pest} anywhere in the facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pests are the small four-legged anteverse creatures encountered immediately after the tutorial, so no special weapon or sector access is required.",
+        "steps": [
+          {
+            "id": "kill-pest",
+            "text": "Attack any @enemy{Pest} until it dies; the first Pest kill unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HACKERMAN",
+      "displayName": "Hackerman",
+      "description": "Hack a door or other security feature.",
+      "hidden": false,
+      "globalPercent": 47.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Personally use a @item{Keypad Hacker} on any compatible security keypad.",
+      "guide": {
+        "kind": "standard",
+        "context": "Alice Mayfield can provide the crafting route. In multiplayer, every player seeking the achievement must operate a hacker themselves; a teammate opening the door gives no credit.",
+        "steps": [
+          {
+            "id": "obtain-hacker",
+            "text": "Speak with @npc{Alice Mayfield}, obtain the relevant components, and craft a @item{Keypad Hacker}."
+          },
+          {
+            "id": "hack-keypad",
+            "text": "Equip the Keypad Hacker and personally complete a hack on a compatible keypad.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GREEN_THUMB",
+      "displayName": "Green Thumb",
+      "description": "Cultivate any crop",
+      "hidden": false,
+      "globalPercent": 48.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Plant a seed in a @item{Garden Plot}, keep it watered, and let the crop reach full maturity.",
+      "guide": {
+        "kind": "standard",
+        "context": "Growth advances while the plot contains water. Harvesting early is unnecessary and can delay the achievement because only a fully grown crop counts.",
+        "steps": [
+          {
+            "id": "plant-seed",
+            "text": "Build or find a @item{Garden Plot}, add soil if required, and plant any crop seed."
+          },
+          {
+            "id": "grow-crop",
+            "text": "Keep the plot supplied with water until the planted crop reaches its final growth stage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INTRO_COMPLETE",
+      "displayName": "Down Under",
+      "description": "You've taken your first steps into the GATE Cascade Research Facility.",
+      "hidden": false,
+      "globalPercent": 80.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the opening tutorial and leave the induction area for the GATE Cascade Research Facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tutorial ends after the tram disaster and teaches the basic power-routing interaction used throughout the facility.",
+        "steps": [
+          {
+            "id": "restore-heater",
+            "text": "Redeploy the @item{Heater} in the damaged tram area and connect it to power."
+          },
+          {
+            "id": "enter-facility",
+            "text": "Follow the objective route into @loc{The Office Sector} until the tutorial completion registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_1",
+      "displayName": "Office: Managed",
+      "description": "Open the route from the Office Sector into Manufacturing West.",
+      "hidden": true,
+      "globalPercent": 64.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_INTRO_COMPLETE"
+      ],
+      "summary": "Complete the @loc{Office Sector} by powering the forklift and opening the route into Manufacturing West.",
+      "guide": {
+        "kind": "standard",
+        "context": "Warren directs the route after the Cafeteria opens. Flathill's portal in Silo 3 supplies the Power Cell needed for the forklift.",
+        "steps": [
+          {
+            "id": "reach-silo",
+            "text": "Open the @loc{Cafeteria}, report to @npc{Warren}, and follow the objectives to the @loc{Silo 3} portal."
+          },
+          {
+            "id": "obtain-cell",
+            "text": "Enter @loc{Flathill} and return with at least one @item{Power Cell}."
+          },
+          {
+            "id": "open-manufacturing",
+            "text": "Install the Power Cell in the forklift and use the newly opened access route into @loc{Manufacturing West}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_2",
+      "displayName": "Synced Up",
+      "description": "Open the route from Manufacturing West into Cascade Laboratories.",
+      "hidden": true,
+      "globalPercent": 48.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "120 min",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_1"
+      ],
+      "summary": "Repair all three electron pumps and overload the Manufacturing West Synchrotron to enter Cascade Laboratories.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Blacksmith and Frake anchor this sector's objectives. Each yellow, green, and red pump route contributes to the Synchrotron overload.",
+        "steps": [
+          {
+            "id": "meet-survivors",
+            "text": "Meet the @npc{Blacksmith} and @npc{Frake} and accept the Manufacturing objectives."
+          },
+          {
+            "id": "repair-pumps",
+            "text": "Repair the yellow, green, and red @mechanic{electron pumps}."
+          },
+          {
+            "id": "overload-synchrotron",
+            "text": "Use the restored systems to overload the @mechanic{Synchrotron} and pass into @loc{Cascade Laboratories}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_3",
+      "displayName": "Regaining Control",
+      "description": "Open the route from Cascade Laboratories into the Security Sector.",
+      "hidden": true,
+      "globalPercent": 34.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "150 min",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_2"
+      ],
+      "summary": "Reset Cascade Laboratories security and open the Vacuum Chamber route into the Security Sector.",
+      "guide": {
+        "kind": "standard",
+        "context": "The sector combines the Furniture Store reset with Mycofields materials. Anteverse Gel becomes Antethermite, which removes the Vacuum Chamber obstruction.",
+        "steps": [
+          {
+            "id": "reset-security",
+            "text": "Complete the @loc{Furniture Store} and use its systems to reset laboratory security."
+          },
+          {
+            "id": "make-antethermite",
+            "text": "Find @loc{The Mycofields}, obtain @item{Anteverse Gel}, and craft @item{Antethermite}."
+          },
+          {
+            "id": "open-vacuum",
+            "text": "Use Antethermite to open the @loc{Vacuum Chamber} and enter the @loc{Security Sector}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_POOP_SELF",
+      "displayName": "Accidents Happen",
+      "description": "Have an accident after Continence reaches zero.",
+      "hidden": true,
+      "globalPercent": 31.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Let @mechanic{Continence} fall to zero without using a toilet so your character defecates on the floor.",
+      "guide": {
+        "kind": "standard",
+        "context": "Continence decreases naturally after eating. A toilet resets the need, so avoid every toilet while preparing this unlock.",
+        "steps": [
+          {
+            "id": "wait-for-accident",
+            "text": "Eat normally, ignore the toilet warning, and wait until @mechanic{Continence} reaches zero and the accident occurs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CRAFTY",
+      "displayName": "Crafty Creations",
+      "description": "You created your very first item, all by yourself, probably.",
+      "hidden": false,
+      "globalPercent": 97.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Use a @item{Crafting Bench} to craft any item.",
+      "guide": {
+        "kind": "standard",
+        "context": "The portable crafting menu does not satisfy this achievement; the completed item must come from a placed Crafting Bench.",
+        "steps": [
+          {
+            "id": "use-bench",
+            "text": "Interact with a powered @item{Crafting Bench}, choose any available recipe, and finish crafting the item."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KITTED_OUT",
+      "displayName": "Kitted Out",
+      "description": "Equip an item into every available slot, at the same time.",
+      "hidden": false,
+      "globalPercent": 42.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Fill any seven of the eight equipment slots with armor, a headlamp, shield, and trinkets.",
+      "guide": {
+        "kind": "standard",
+        "context": "One equipment slot may remain empty. Ordinary clothing does not fill armor slots, while a valid shield or trinket does count toward the seven-slot total.",
+        "steps": [
+          {
+            "id": "fill-slots",
+            "text": "Equip items until seven equipment-slot icons are occupied at the same time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FASHION_SPEC",
+      "displayName": "Fashion Spec",
+      "description": "Equip a complete armor set with a unique buff.",
+      "hidden": false,
+      "globalPercent": 39.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Equip all four pieces of one armor set at the same time to activate its set bonus.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Office-only Makeshift set is the earliest practical option: Helmet, Armwraps, Chestplate, and Legwraps activate the Employee of the Month bonus together.",
+        "steps": [
+          {
+            "id": "craft-set",
+            "text": "Collect Office supplies and craft the @item{Makeshift Helmet}, @item{Makeshift Armwraps}, @item{Makeshift Chestplate}, and @item{Makeshift Legwraps}."
+          },
+          {
+            "id": "equip-set",
+            "text": "Equip all four Makeshift pieces simultaneously and confirm the @mechanic{Employee of the Month} set effect appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FUNGUS_AMONGUS",
+      "displayName": "Mycelium about the Consilium",
+      "description": "Complete The Mycofields while owning and wearing a Mushroom Helmet.",
+      "hidden": true,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_MYCOFIELDS"
+      ],
+      "summary": "Complete @loc{The Mycofields}, craft a @item{Mushroom Helmet}, and wear the helmet.",
+      "guide": {
+        "kind": "standard",
+        "context": "The helmet recipe uses fungal materials obtained from Mushroom Carbuncles. Both the anteverse completion and the equipped helmet are required on the same save.",
+        "steps": [
+          {
+            "id": "collect-fungus",
+            "text": "Kill and harvest @enemy{Mushroom Carbuncles} for the materials needed by the @item{Mushroom Helmet} recipe."
+          },
+          {
+            "id": "finish-mycofields",
+            "text": "Reach and use @loc{The Mycofields} upper exit portal."
+          },
+          {
+            "id": "wear-helmet",
+            "text": "Craft the Mushroom Helmet at a bench and equip it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_ORDER",
+      "displayName": "Supremus Ordo Petrae",
+      "description": "Take down 50 combatants from The Order, by any means available.",
+      "hidden": false,
+      "globalPercent": 35.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the playthrough",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill 50 @enemy{Order soldiers} across Grunt, Captain, Medic, Breacher, and Sniper variants.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is cumulative across the save and accepts the listed Order combat roles. Natural encounters provide steady progress, so postpone farming until late in the story.",
+        "steps": [
+          {
+            "id": "kill-order",
+            "text": "Kill Order Grunts, Captains, Medics, Breachers, and Snipers whenever they appear."
+          },
+          {
+            "id": "finish-counter",
+            "text": "Continue until the cumulative Order-soldier kill count reaches @mechanic{50}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LABRAT",
+      "displayName": "Lab Rat",
+      "description": "Wear a Rat Suit and Rat Pack at the same time.",
+      "hidden": true,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–90 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Equip a @item{Rat Suit} and @item{Rat Pack} simultaneously.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Rat Suit is a chance-based harvest from a Lab Rat or Garage Rat. The Rat Pack has a special condition: kill a Lab Rat with blunt damage while it remains trapped by a Net Launcher.",
+        "steps": [
+          {
+            "id": "get-suit",
+            "text": "Kill a @enemy{Lab Rat} or @enemy{Garage Rat}, harvest its remains, and repeat until the @item{Rat Suit} drops."
+          },
+          {
+            "id": "get-pack",
+            "text": "Trap a Lab Rat with a @item{Net Launcher}, then kill it with a blunt weapon before the net releases it; avoid damage-over-time effects."
+          },
+          {
+            "id": "equip-rat-set",
+            "text": "Wear the @item{Rat Suit} while the @item{Rat Pack} occupies its equipment slot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MFGARB",
+      "displayName": "Engineering Success",
+      "description": "Collect the full Manufacturing uniform.",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Interact with the dead engineer in @loc{Manufacturing West Upper Shipping} to equip the full Manufacturing uniform.",
+      "guide": {
+        "kind": "standard",
+        "context": "The body is near the lift above the Garage; the uniform is awarded as a complete outfit rather than assembled from random drops.",
+        "steps": [
+          {
+            "id": "find-engineer",
+            "text": "Take the lift near the @loc{Garage} to @loc{Upper Shipping} and locate the dead Manufacturing worker."
+          },
+          {
+            "id": "take-uniform",
+            "text": "Interact with the body and equip the awarded Manufacturing uniform."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_4",
+      "displayName": "Survive the Night",
+      "description": "Open the route from the Security Sector into Hydroplant.",
+      "hidden": true,
+      "globalPercent": 30.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "120 min",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_3"
+      ],
+      "summary": "Survive the Security Sector and Canaan, then unlock the final Security door leading to Hydroplant.",
+      "guide": {
+        "kind": "standard",
+        "context": "The surface-elevator crash diverts the route through Canaan. Opening the remaining gates there restores access to the last Security objective.",
+        "steps": [
+          {
+            "id": "reach-elevator",
+            "text": "Traverse @loc{Security Sector} and reach the @mechanic{Surface Elevator}."
+          },
+          {
+            "id": "clear-canaan",
+            "text": "After the crash, explore @loc{Canaan} and open the remaining gates."
+          },
+          {
+            "id": "enter-hydroplant",
+            "text": "Return to Security, unlock its final door, and pass into @loc{Hydroplant}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_5",
+      "displayName": "The Darkwater",
+      "description": "Reactivate Hydroplant's spillway systems and enter Reactors.",
+      "hidden": true,
+      "globalPercent": 26.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "180 min",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_4"
+      ],
+      "summary": "Restore Hydroplant's electrical station, spillway computer, reservoir valves, and transmission tower to open the spillway route into Reactors.",
+      "guide": {
+        "kind": "standard",
+        "context": "The four systems form one objective chain: power and computer control enable the valves, while the tower interference must be blocked before the spillway can operate.",
+        "steps": [
+          {
+            "id": "restore-electricity",
+            "text": "Find the survivors and reactivate the @mechanic{Electrical Station}."
+          },
+          {
+            "id": "restore-spillway",
+            "text": "Reboot the @mechanic{Spillway Computer} and open the reservoir flow valves."
+          },
+          {
+            "id": "clear-signal",
+            "text": "Reach the transmission tower and block the source of its interference."
+          },
+          {
+            "id": "enter-reactors",
+            "text": "Open the spillway and follow the route into @loc{Reactors}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALPS",
+      "displayName": "Je Suis Perdu!",
+      "description": "Escape Voussoir through its far-end cave portal.",
+      "hidden": true,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Cross @loc{Voussoir} and return through the portal in the cave at the far end.",
+      "guide": {
+        "kind": "standard",
+        "context": "The portal sits inside the Neutrino Detector complex. Cold is the main hazard, so +3 cold resistance is recommended; using the exit also opens access to the Jetpack area.",
+        "steps": [
+          {
+            "id": "enter-voussoir",
+            "text": "Find the portal inside the @loc{Neutrino Detector} and enter @loc{Voussoir} with strong cold protection."
+          },
+          {
+            "id": "reach-cave",
+            "text": "Follow the mountain route to the cave at the far end."
+          },
+          {
+            "id": "use-voussoir-exit",
+            "text": "Use the cave portal to return rather than backtracking or teleporting.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SHORE",
+      "displayName": "We Don't Talk About That Place",
+      "description": "Reach Some Distant Shore through a Portal Toilet.",
+      "hidden": true,
+      "globalPercent": 9.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–30 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Sit on a @mechanic{Portal Toilet} with 15 or less Continence and trigger its random trip to @loc{Some Distant Shore}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Toilet Time or Toilet Emergency must be active. Before the achievement is earned, each qualifying use has a 50% trip chance; later trips use the normal 5% chance.",
+        "steps": [
+          {
+            "id": "lower-continence",
+            "text": "Let @mechanic{Continence} fall to 15 or less, then confirm that Toilet Time or Toilet Emergency is active."
+          },
+          {
+            "id": "use-portal-toilet",
+            "text": "Sit on a @mechanic{Portal Toilet}; repeat qualifying uses until it sends you to @loc{Some Distant Shore}."
+          },
+          {
+            "id": "return-from-shore",
+            "text": "After the achievement unlocks, walk into the ocean to return to the facility."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TILE",
+      "displayName": "No Running",
+      "description": "Find the hidden wall tile and escape the Pool Room.",
+      "hidden": true,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Enter the @loc{Pool Room} through the Red Chair, press the small raised wall tile, and leave through the opened gate.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tile has a slightly different color and a randomized position on the curved walls or pillars. An invisible creature patrols the water while you search.",
+        "steps": [
+          {
+            "id": "enter-pool",
+            "text": "Sit in the @mechanic{Red Chair} designated IS-0018 in @loc{Cascade Laboratories}."
+          },
+          {
+            "id": "find-tile",
+            "text": "Inspect the rounded walls and pillars for a small off-color raised tile and press it."
+          },
+          {
+            "id": "leave-pool",
+            "text": "Pass through the large gate opened by the tile and exit the @loc{Pool Room}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HELMHOLTZ",
+      "displayName": "No More Room In Helmholtz",
+      "description": "Escape the Furniture Store through its top-floor portal.",
+      "hidden": true,
+      "globalPercent": 34.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Press all five randomized buttons in the @loc{Furniture Store}, ride the powered elevator, and use the top-floor exit portal.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one button appears on each of the store's three floors, and their positions change between visits. Zombies begin spawning after the first activation.",
+        "steps": [
+          {
+            "id": "find-buttons",
+            "text": "Search all three floors in one visit and press the five illuminated wall buttons."
+          },
+          {
+            "id": "take-elevator",
+            "text": "After the fifth button powers the central elevator, ride it to the top floor."
+          },
+          {
+            "id": "exit-store",
+            "text": "Leave through the top-floor portal to register the completion.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MIRROR",
+      "displayName": "Flat as a Pancake",
+      "description": "Touch the grass inside the World in Mirror.",
+      "hidden": true,
+      "globalPercent": 17.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Open the IS-0855 cell in upper Cascade Laboratories with a Tier 5 @item{Keypad Hacker} and touch the grass inside the @loc{World in Mirror}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This anteverse is behind a high-tier security hatch and is optional; obtaining Tier 5 hacking access is the practical prerequisite.",
+        "steps": [
+          {
+            "id": "open-cell",
+            "text": "Reach the upper level of @loc{Cascade Laboratories} and hack the IS-0855 cell with a Tier 5 @item{Keypad Hacker}."
+          },
+          {
+            "id": "touch-grass",
+            "text": "Enter the @loc{World in Mirror} and physically walk onto the grass."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NIGHTR",
+      "displayName": "Sleepwalking",
+      "description": "Enter the final Nightsphere chamber in The Night Realm.",
+      "hidden": true,
+      "globalPercent": 28.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Step inside @loc{The Night Realm} room that holds the last @mechanic{Nightsphere}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaper gateways provide access, and each Nightsphere clears a corresponding shadow in Security. If the last sphere is destroyed from outside its room, another gateway or a personal teleporter can revisit the chamber.",
+        "steps": [
+          {
+            "id": "enter-night-realm",
+            "text": "Use a @mechanic{Reaper gateway} to enter @loc{The Night Realm}."
+          },
+          {
+            "id": "reach-final-room",
+            "text": "Follow the Nightsphere route and step inside the room containing the final @mechanic{Nightsphere}.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MYCOFIELDS",
+      "displayName": "Field of Dreams",
+      "description": "Exit The Mycofields through its upper portal.",
+      "hidden": true,
+      "globalPercent": 27.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Climb through @loc{The Mycofields} and return through the portal at the top of the anteverse.",
+      "guide": {
+        "kind": "standard",
+        "context": "Extreme heat is the principal environmental hazard; a Fire Proximity Suit or equivalent heat protection makes the ascent substantially safer.",
+        "steps": [
+          {
+            "id": "prepare-heat",
+            "text": "Equip strong heat protection before entering @loc{The Mycofields}."
+          },
+          {
+            "id": "climb-fields",
+            "text": "Follow the upward route through the fungal terrain."
+          },
+          {
+            "id": "use-exit",
+            "text": "Use the portal at the top rather than returning through the entrance or a personal teleporter.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FARGARDEN",
+      "displayName": "It Only Gets Stranger From Here",
+      "description": "Reach the Far Garden's exit portal.",
+      "hidden": true,
+      "globalPercent": 57.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Enter the @loc{Far Garden} from Office Sector Level 3 and approach its return portal.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement is tied to the portal at the far end, not merely entering the anteverse. A railing shortcut can bypass its trigger, so follow the intended route.",
+        "steps": [
+          {
+            "id": "enter-garden",
+            "text": "Use the @loc{Office Sector Level 3} portal to enter the @loc{Far Garden}."
+          },
+          {
+            "id": "reach-exit",
+            "text": "Traverse the islands by the normal path and walk up to the far return portal until the achievement unlocks.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRAIN",
+      "displayName": "All Aboard",
+      "description": "Exit the train route through its far-end portal.",
+      "hidden": true,
+      "globalPercent": 41.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Ride the Manufacturing West train and leave through the portal at the far end of the train route.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tram station lies near the old mines and requires the Tram Station Key. Returning by the entrance or a personal teleporter skips the achievement trigger.",
+        "steps": [
+          {
+            "id": "open-station",
+            "text": "Obtain the @item{Tram Station Key} and unlock the station near the @loc{Manufacturing West mines}."
+          },
+          {
+            "id": "use-far-portal",
+            "text": "Board the train, traverse the destination, and return through its far-end portal.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FOG",
+      "displayName": "The Composers",
+      "description": "Recover the final Power Cell from Flathill.",
+      "hidden": true,
+      "globalPercent": 48.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect the final @item{Power Cell} in @loc{Flathill} before leaving the anteverse.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Office story accepts a single Power Cell, but this achievement requires Flathill's last cell; continue the local objectives instead of departing early.",
+        "steps": [
+          {
+            "id": "search-flathill",
+            "text": "Complete the routes through @loc{Flathill} and collect every @item{Power Cell}."
+          },
+          {
+            "id": "take-final-cell",
+            "text": "Pick up the final Power Cell to trigger the achievement, then return through the portal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RISE",
+      "displayName": "The Big Apple",
+      "description": "Escape Rise Facility through its far-end portal.",
+      "hidden": true,
+      "globalPercent": 20.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Solve the Adjustment Wing laser puzzle, traverse @loc{Rise Facility}, and leave through its portal at the end.",
+      "guide": {
+        "kind": "standard",
+        "context": "Antethermite is needed to burn the obstruction that exposes this route. The achievement is awarded by the destination's exit, not its entrance.",
+        "steps": [
+          {
+            "id": "open-rise",
+            "text": "Use @item{Antethermite} on the obstruction and solve the laser puzzle in the @loc{Adjustment Wing}."
+          },
+          {
+            "id": "traverse-rise",
+            "text": "Enter @loc{Rise Facility} and complete its route."
+          },
+          {
+            "id": "exit-rise",
+            "text": "Use the portal at the far end to return to the facility.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DUMMY",
+      "displayName": "Dummy",
+      "description": "Inspect the crushed Pest Dummy in the tutorial facility.",
+      "hidden": true,
+      "globalPercent": 28.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use Manufacturing West's mine portal, return to the tutorial facility, and inspect the debris-trapped @mechanic{Pest Dummy} in Staff Processing.",
+      "guide": {
+        "kind": "standard",
+        "context": "This portal revisits a tutorial facility rather than advancing the main route. The target is a physical training dummy trapped beneath debris.",
+        "steps": [
+          {
+            "id": "enter-portal",
+            "text": "Search the @loc{Manufacturing West mines} for the tutorial gateway and travel through it."
+          },
+          {
+            "id": "inspect-dummy",
+            "text": "Reach @loc{Staff Processing}, locate the crushed @mechanic{Pest Dummy}, and interact with it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FISHONCE",
+      "displayName": "Catch a Fish",
+      "description": "You've successfully caught a fish, but it isn't quite what you expected!",
+      "hidden": false,
+      "globalPercent": 29.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Hook and land any fish with a fishing rod.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pull opposite the fish's movement to exhaust it, and reel only while it stops struggling; forcing the reel during a run risks losing the catch.",
+        "steps": [
+          {
+            "id": "hook-fish",
+            "text": "Cast a fishing rod into valid water and wait for a bite."
+          },
+          {
+            "id": "land-fish",
+            "text": "Move the rod opposite the fish's direction, reel while the fish pauses, and repeat until the fish is landed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RAREFISH",
+      "displayName": "Rare Catch",
+      "description": "Catch any rare fish with its applicable bait or special lure.",
+      "hidden": true,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–150 min",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Use the applicable bait or special lure, then land any rare fish with a fishing rod.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most rare fish require ordinary bait, while rare Chordfish and Inkfish instead use a Fog Lantern or Night Helmet as their lure. Fishing level 3 hotspots prevent junk catches, level 5 Tacklebox shortens fights, and the level 10 Lucky Fishing Hat improves rare odds.",
+        "steps": [
+          {
+            "id": "equip-bait",
+            "text": "Select bait through the reload control, or equip the Fog Lantern or Night Helmet lure when targeting a rare Chordfish or Inkfish."
+          },
+          {
+            "id": "fish-hotspot",
+            "text": "Cast at a fishing hotspot and land catches until a rare variant appears."
+          },
+          {
+            "id": "land-rare",
+            "text": "Complete the tension sequence and bring the rare fish ashore."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HYDROGARB",
+      "displayName": "Go With The Flow",
+      "description": "Collect the full Hydroplant uniform.",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Interact with the dead Hydroplant worker in the underwater elevator shaft to equip the full Hydroplant uniform.",
+      "guide": {
+        "kind": "standard",
+        "context": "The body is inside a flooded vertical shaft, so bring sufficient air or diving support before attempting the recovery.",
+        "steps": [
+          {
+            "id": "enter-shaft",
+            "text": "Locate and descend into the underwater elevator shaft in @loc{Hydroplant}."
+          },
+          {
+            "id": "take-hydro-uniform",
+            "text": "Find the dead worker, interact with the body, and equip the awarded Hydroplant uniform."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SALEM",
+      "displayName": "A Lode Off My Mind",
+      "description": "Defeat Niketas the Priest in Canaan.",
+      "hidden": true,
+      "globalPercent": 28.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Find and kill @enemy{Niketas the Priest} in the large hilltop church in @loc{Canaan}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Niketas is heavily protected; holy damage bypasses his armor, while ranged attacks and slushie effects help control the fight.",
+        "steps": [
+          {
+            "id": "find-niketas",
+            "text": "Return to @loc{Canaan} and enter the large church on the hill."
+          },
+          {
+            "id": "kill-niketas",
+            "text": "Defeat @enemy{Niketas the Priest}; use holy damage to ignore his armor if available."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WINTER",
+      "displayName": "Rumble on the Royal Range",
+      "description": "Escape the Royal Range after collecting seven Royal Crowns.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect seven @item{Royal Crowns} in the @loc{Royal Range}, open its exit, and use the portal.",
+      "guide": {
+        "kind": "standard",
+        "context": "The frozen IS-0083 cell in Helmholtz requires Tier 5 hacking access. Any seven of the eight crowns open the route, and at least +2 cold resistance is recommended.",
+        "steps": [
+          {
+            "id": "enter-range",
+            "text": "Hack the IS-0083 cell in @loc{Helmholtz} with a Tier 5 @item{Keypad Hacker} and enter the @loc{Royal Range}."
+          },
+          {
+            "id": "collect-crowns",
+            "text": "Explore the range and collect @mechanic{7 of 8 Royal Crowns}."
+          },
+          {
+            "id": "use-range-exit",
+            "text": "Open the final route with the crowns and use the exit portal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WARHEAD",
+      "displayName": "The Village",
+      "description": "Recover Anti-Fungal Gelatin and escape The Village.",
+      "hidden": true,
+      "globalPercent": 22.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Take the @item{Anti-Fungal Gelatin} from the central structure in @loc{The Village} and leave through the red portal beyond the bridge.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Village portal is near Reactors. Picking up the gelatin opens the far route, and the achievement requires the red exit portal rather than an entrance return.",
+        "steps": [
+          {
+            "id": "enter-village",
+            "text": "Use the portal near @loc{Reactors} to enter @loc{The Village}."
+          },
+          {
+            "id": "take-gelatin",
+            "text": "Reach the central island structure and collect the @item{Anti-Fungal Gelatin}."
+          },
+          {
+            "id": "use-red-portal",
+            "text": "Cross the opened bridge route and leave through the red exit portal.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DUSK",
+      "displayName": "Dawn Til' Dusk",
+      "description": "Reactivate the Dusk Reactor.",
+      "hidden": true,
+      "globalPercent": 23.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_WARHEAD"
+      ],
+      "summary": "Clear the fungal obstruction with @item{Anti-Fungal Gelatin} and reactivate the @mechanic{Dusk Reactor}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dusk is the first reactor in the restoration chain. The gelatin recovered from The Village removes the growth blocking reactor access.",
+        "steps": [
+          {
+            "id": "clear-fungus",
+            "text": "Use @item{Anti-Fungal Gelatin} on the fungal obstruction in @loc{Reactors}."
+          },
+          {
+            "id": "start-dusk",
+            "text": "Reach the @mechanic{Dusk Reactor}, complete its local controls, and reactivate it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_6",
+      "displayName": "Dark Energy",
+      "description": "Restore the reactor network and pass through Shadowgate.",
+      "hidden": true,
+      "globalPercent": 19.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3–5 hours",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_5",
+        "ACH_SUOMI"
+      ],
+      "summary": "Restore the Dusk, Gale, Mist, and Cloud reactors, access the Fusion Generator, and complete Shadowgate.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reactors is the longest system-restoration sector. Dusk starts the sequence; the Fusion Generator route opens only after the remaining reactors are online.",
+        "steps": [
+          {
+            "id": "restore-reactors",
+            "text": "Reactivate @mechanic{Dusk}, @mechanic{Gale}, @mechanic{Mist}, and @mechanic{Cloud}."
+          },
+          {
+            "id": "reach-fusion",
+            "text": "Use the restored reactor network to access the @mechanic{Fusion Generator}."
+          },
+          {
+            "id": "complete-shadowgate",
+            "text": "Enter @loc{Shadowgate}, destroy its five containment devices, and pass through the rift."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SUOMI",
+      "displayName": "Shadowgate",
+      "description": "Complete Shadowgate by destroying its five containment devices.",
+      "hidden": true,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "120 min",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Destroy all five shielded containment devices in @loc{Shadowgate} and enter the opened rift.",
+      "guide": {
+        "kind": "standard",
+        "context": "Null Grenades disable hardlight shields: three outer barriers block the approach, and each of the five inner devices must be nulled before it can be destroyed.",
+        "steps": [
+          {
+            "id": "breach-outer-gates",
+            "text": "Use @item{Null Grenades} to disable the three outer hardlight barriers in @loc{Shadowgate}."
+          },
+          {
+            "id": "destroy-fetters",
+            "text": "Null the shield around each of the five @mechanic{Containment Devices}, then destroy all five devices."
+          },
+          {
+            "id": "enter-rift",
+            "text": "Pass through the rift opened by the destroyed devices."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MGT",
+      "displayName": "Coreverse",
+      "description": "Activate the Core in Encroachment.",
+      "hidden": true,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Defeat @enemy{Nyth} in @loc{Encroachment}, place its @item{Core Fragment} into the inactive Core, and activate the machine.",
+      "guide": {
+        "kind": "standard",
+        "context": "Encroachment branches from the Manufacturing West mines beyond one of the electron-pump routes. The Core cannot be started until its guardian provides the missing fragment.",
+        "steps": [
+          {
+            "id": "reach-encroachment",
+            "text": "Enter @loc{Encroachment} from the @loc{Manufacturing West mines}."
+          },
+          {
+            "id": "claim-fragment",
+            "text": "Kill @enemy{Nyth} and collect the @item{Core Fragment}."
+          },
+          {
+            "id": "activate-core",
+            "text": "Insert the Core Fragment into the inactive @mechanic{Core} and activate it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INQ",
+      "displayName": "The Inquisition",
+      "description": "Complete Praetorium and touch its Sun Disk.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete @loc{Praetorium} and touch the @mechanic{Sun Disk} at the top of its final stairs.",
+      "guide": {
+        "kind": "standard",
+        "context": "After Shadowgate, the route begins through a yellow portal reached from the high Far Garden island. Touching IS-0101 grants Sun-Touched and completes the area.",
+        "steps": [
+          {
+            "id": "enter-praetorium",
+            "text": "After @loc{Shadowgate}, reach the high island in @loc{Far Garden} and enter the yellow portal to @loc{Praetorium}."
+          },
+          {
+            "id": "reach-sun-disk",
+            "text": "Traverse Praetorium to the final staircase."
+          },
+          {
+            "id": "touch-sun-disk",
+            "text": "Climb the stairs and interact with the @mechanic{Sun Disk} designated IS-0101."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOTANIC",
+      "displayName": "The Gardens",
+      "description": "Complete the Botanical Wing objectives.",
+      "hidden": true,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "120 min",
+      "estMinutes": 120,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Recover two @item{Motion Modules} and three @item{Mystagogue Eyes} in @loc{Botanical Wing}, then help Dr. Cahn activate the @item{Dark Lens} and open the Albatross route.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Botanical Wing includes both present and altered states. Its five named components complete the Dark Lens setup that advances the Residence objective chain.",
+        "steps": [
+          {
+            "id": "enter-botanical",
+            "text": "Follow the Residence objectives into the @loc{Botanical Wing}."
+          },
+          {
+            "id": "recover-components",
+            "text": "Explore both wing states and collect two @item{Motion Modules} and three @item{Mystagogue Eyes}."
+          },
+          {
+            "id": "finish-wing",
+            "text": "Bring the five components to @npc{Dr. Cahn} and help him activate the @item{Dark Lens}, opening the route toward @loc{Albatross}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTOR_7",
+      "displayName": "End of the Earth",
+      "description": "Complete the Residence Sector and reach Albatross.",
+      "hidden": true,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3–5 hours",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_6",
+        "ACH_INQ",
+        "ACH_BOTANIC"
+      ],
+      "summary": "Repair the Residence suppressor, defeat @enemy{The Fallow}, and reach @loc{Albatross}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Praetorium's Sun-Touched effect and Botanical Wing components feed the sector route. A Flamethrower is needed to melt the ice wall blocking later progress.",
+        "steps": [
+          {
+            "id": "enter-residence",
+            "text": "Complete @loc{Praetorium}, touch the @mechanic{Sun Disk}, and use the opened route into @loc{Residence}."
+          },
+          {
+            "id": "repair-suppressor",
+            "text": "Complete @loc{Botanical Wing}, obtain its components, and repair the suppressor."
+          },
+          {
+            "id": "break-ice",
+            "text": "Use a @item{Flamethrower} to melt the ice wall on the objective route."
+          },
+          {
+            "id": "reach-albatross",
+            "text": "Defeat @enemy{The Fallow} and continue into @loc{Albatross}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_END",
+      "displayName": "Apocalypse Now",
+      "description": "Defeat the Wayseeker and complete the story.",
+      "hidden": true,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTOR_7"
+      ],
+      "summary": "Activate the Albatross ritual stone, defeat the @enemy{Wayseeker}, then speak with Dr. Cahn, Janet, the Sister of the Unlost, and Dr. Riggs.",
+      "guide": {
+        "kind": "standard",
+        "context": "The story continues after the boss dies. Cahn and the other survivors must be spoken to around the ritual sequence before the ending registers.",
+        "steps": [
+          {
+            "id": "start-ritual",
+            "text": "Speak with @npc{Cahn} in @loc{Albatross} and activate the ritual stone."
+          },
+          {
+            "id": "defeat-wayseeker",
+            "text": "Complete the ritual encounter and defeat the @enemy{Wayseeker}."
+          },
+          {
+            "id": "finish-story",
+            "text": "After the fight, speak with @npc{Dr. Cahn}, @npc{Janet}, the @npc{Sister of the Unlost}, and @npc{Dr. Riggs} to register the ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COFFEEHOLE",
+      "displayName": "Coffee in the Coffee Hole",
+      "description": "You fed coffee to an entity that probably doesn't need more coffee.",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Give a hot @item{Mug of Coffee} to a nighttime @npc{Coworker} while it asks for food.",
+      "guide": {
+        "kind": "standard",
+        "context": "Coworkers appear passively near players at night and disappear at 6:00 AM. The drink must still be a Mug of Coffee rather than an empty mug.",
+        "steps": [
+          {
+            "id": "prepare-coffee",
+            "text": "Make or obtain a hot @item{Mug of Coffee} before night."
+          },
+          {
+            "id": "feed-coworker",
+            "text": "Find a @npc{Coworker} before 6:00 AM and give it the Mug of Coffee when it requests food."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OPENCRATE_FOG",
+      "displayName": "Music Box",
+      "description": "Open a Cacophonous Crate with a Porcelain Key.",
+      "hidden": true,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_MAESTRO"
+      ],
+      "group": "crates",
+      "summary": "Use a @item{Porcelain Key} to open any @mechanic{Cacophonous Crate}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A guaranteed route trades one Symphonist Head to Marion for the key. Convenient crates sit behind the Flathill portal and in the Office Executive Office.",
+        "steps": [
+          {
+            "id": "get-porcelain-key",
+            "text": "Kill a @enemy{Symphonist} and trade its head to @npc{Marion} for a @item{Porcelain Key}."
+          },
+          {
+            "id": "open-cacophonous",
+            "text": "Use the key on a @mechanic{Cacophonous Crate}, such as the one behind the Flathill portal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OPENCRATE_ORN",
+      "displayName": "Nosy Neighbor",
+      "description": "Open an Ornate Crate with an Ornate Key.",
+      "hidden": true,
+      "globalPercent": 27.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "crates",
+      "summary": "Loot an @item{Ornate Key} from a Captain, Breacher, Lab Rat, Archivist, Assassin, or Garage Rat, then open any @mechanic{Ornate Crate}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the six named enemy types carry this key. Early crates include the truck at the Manufacturing West crossroads near the crane and the Mapping Center.",
+        "steps": [
+          {
+            "id": "get-ornate-key",
+            "text": "Kill and loot Captains, Breachers, Lab Rats, Archivists, Assassins, or Garage Rats until an @item{Ornate Key} drops."
+          },
+          {
+            "id": "open-ornate",
+            "text": "Use the Ornate Key on an @mechanic{Ornate Crate} in Manufacturing West or another sector."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OPENCRATE_SEC",
+      "displayName": "Security Breach",
+      "description": "You've unlocked a GATE Security Crate.",
+      "hidden": false,
+      "globalPercent": 8.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "crates",
+      "summary": "Buy a @item{GATE Security Crate Key} from Warren for one Nyxshade Seed and open a @mechanic{GATE Security Crate}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The easiest matching crate is beside Alice Hong at the Office Level 2 Security door, allowing this cleanup after the required seed becomes available.",
+        "steps": [
+          {
+            "id": "buy-security-key",
+            "text": "Trade @npc{Warren} one @item{Nyxshade Seed} for a @item{GATE Security Crate Key}."
+          },
+          {
+            "id": "open-security-crate",
+            "text": "Use the key on the @mechanic{GATE Security Crate} beside @npc{Alice Hong} at the Office Level 2 Security door."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OPENCRATE_GK",
+      "displayName": "Ancient Treasure",
+      "description": "Open a Runic Crate with a GATE Defense Rune.",
+      "hidden": true,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "crates",
+      "summary": "Obtain a @item{GATE Defense Rune} and use it to open any @mechanic{Runic Crate}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mystagogues, Jotuns, Chieftains, and Witches can drop the rune; Corrupted Defense Bots can also be harvested for one. Reactors and Encroachment contain convenient crates.",
+        "steps": [
+          {
+            "id": "get-defense-rune",
+            "text": "Loot a qualifying Gatekeeper enemy or harvest a @enemy{Corrupted Defense Bot} for a @item{GATE Defense Rune}."
+          },
+          {
+            "id": "open-runic",
+            "text": "Use the rune on a @mechanic{Runic Crate} in @loc{Reactors}, @loc{Encroachment}, or another location."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_JOTUN",
+      "displayName": "Sjaund",
+      "description": "Defeat a Jotun.",
+      "hidden": true,
+      "globalPercent": 20.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Kill one @enemy{Jotun} in Shadowgate or Albatross.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jotuns are large Gatekeeper enemies encountered on the late-game route, so the story supplies opportunities without a separate online or challenge mode.",
+        "steps": [
+          {
+            "id": "kill-jotun",
+            "text": "Engage a @enemy{Jotun} in @loc{Shadowgate} or @loc{Albatross} and reduce it to zero health."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_GK",
+      "displayName": "Ragnarok",
+      "description": "Defeat 100 Gatekeepers.",
+      "hidden": true,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "across the late game",
+      "estMinutes": 360,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Kill 100 @enemy{Gatekeepers} across Reactors, Shadowgate, Praetorium, and later areas.",
+      "guide": {
+        "kind": "standard",
+        "context": "The kill counter persists across the save. Natural late-game encounters contribute, so finish the story route before deliberately farming respawns.",
+        "steps": [
+          {
+            "id": "kill-gatekeepers",
+            "text": "Kill Gatekeeper enemies throughout @loc{Reactors}, @loc{Shadowgate}, @loc{Praetorium}, and @loc{Albatross}."
+          },
+          {
+            "id": "finish-gatekeeper-count",
+            "text": "Farm remaining Gatekeepers until the cumulative counter reaches @mechanic{100}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MAESTRO",
+      "displayName": "Blind Luck",
+      "description": "Defeat a Symphonist.",
+      "hidden": true,
+      "globalPercent": 24.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Kill one blind, sound-hunting @enemy{Symphonist} in Flathill or during a Fog event.",
+      "guide": {
+        "kind": "standard",
+        "context": "Symphonists begin appearing in Flathill after the Office-to-Manufacturing route opens and can also invade during Fog events. They are durable and track sound rather than sight.",
+        "steps": [
+          {
+            "id": "find-symphonist",
+            "text": "Enter @loc{Flathill} after opening Manufacturing West, or wait for a @mechanic{Fog event}, and locate a @enemy{Symphonist}."
+          },
+          {
+            "id": "kill-symphonist",
+            "text": "Use a prepared combat loadout and defeat the Symphonist."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_91",
+      "displayName": "Friendly Presence",
+      "description": "Contain a Leyak inside Containment Unit: 91.",
+      "hidden": true,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Power @mechanic{Containment Unit: 91}, fill it with @item{Greyeb}, and force a nearby @enemy{Leyak} inside with X-ray light.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two Greyeb fully charge the unit for seven in-game days. The unit must stay powered, and an X-Ray Lamp, X-Ray Tower, OX Lamp, or OX Tower can trigger containment.",
+        "steps": [
+          {
+            "id": "prepare-unit",
+            "text": "Connect @mechanic{Containment Unit: 91} to power and load it with two @item{Greyeb}."
+          },
+          {
+            "id": "lure-leyak",
+            "text": "Wait for a @enemy{Leyak} and draw it close to the powered containment unit."
+          },
+          {
+            "id": "contain-leyak",
+            "text": "Illuminate the Leyak with an @item{X-Ray Lamp}, @mechanic{X-Ray Tower}, @item{OX Lamp}, or @mechanic{OX Tower} until it vanishes and appears inside the unit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KYLIE",
+      "displayName": "Electric Dreams",
+      "description": "Restore Kylie and reunite with the robot at Albatross.",
+      "hidden": true,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 1 hour of optional routing",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Restore @npc{Kylie} in Hydroplant, upload the Kylie Trinket or Kylie (Shield Generator) into the modified Defense Bot in Botanical Wing, and reach Albatross.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Hyper-Dense Neural Chip repairs Kylie's underwater Robotics terminal. Upgrading the trinket into Kylie (Shield Generator) is safe because the Botanical Wing upload accepts either form.",
+        "steps": [
+          {
+            "id": "craft-neural-chip",
+            "text": "Craft a @item{Hyper-Dense Neural Chip} from 4 Reservoir Growth, 8 Circuit Boards, 1 Reinforced CPU, and 1 Sensor."
+          },
+          {
+            "id": "recover-kylie",
+            "text": "Reach the underwater @loc{Robotics} subsection of Hydroplant, repair the neural terminal with the chip, and take the @item{Kylie Trinket}."
+          },
+          {
+            "id": "upload-kylie",
+            "text": "In the future @loc{Botanical Wing}, use the side walkway near the ruined helix statue to reach the robot workshop and upload the Kylie Trinket or Kylie (Shield Generator) into the modified Defense Bot."
+          },
+          {
+            "id": "reach-albatross",
+            "text": "Continue the story to @loc{Albatross} and meet the restored Kylie there."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_CRAFTY",
+    "ACH_KILL_PEST_1",
+    "ACH_INTRO_COMPLETE",
+    "ACH_KITTED_OUT",
+    "ACH_GREEN_THUMB",
+    "ACH_POOP_SELF",
+    "ACH_FARGARDEN",
+    "ACH_HACKERMAN",
+    "ACH_FOG",
+    "ACH_FASHION_SPEC",
+    "ACH_SECTOR_1",
+    "ACH_TRAIN",
+    "ACH_MFGARB",
+    "ACH_DUMMY",
+    "ACH_SECTOR_2",
+    "ACH_MGT",
+    "ACH_KILL_ORDER",
+    "ACH_HELMHOLTZ",
+    "ACH_MIRROR",
+    "ACH_MYCOFIELDS",
+    "ACH_FUNGUS_AMONGUS",
+    "ACH_NIGHTR",
+    "ACH_TILE",
+    "ACH_RISE",
+    "ACH_WINTER",
+    "ACH_SECTOR_3",
+    "ACH_SECTOR_4",
+    "ACH_LABRAT",
+    "ACH_FISHONCE",
+    "ACH_COFFEEHOLE",
+    "ACH_HYDROGARB",
+    "ACH_SHORE",
+    "ACH_91",
+    "ACH_ALPS",
+    "ACH_KYLIE",
+    "ACH_RAREFISH",
+    "ACH_SECTOR_5",
+    "ACH_WARHEAD",
+    "ACH_SALEM",
+    "ACH_KILL_JOTUN",
+    "ACH_MAESTRO",
+    "ACH_DUSK",
+    "ACH_SUOMI",
+    "ACH_SECTOR_6",
+    "ACH_KILL_GK",
+    "ACH_OPENCRATE_SEC",
+    "ACH_OPENCRATE_ORN",
+    "ACH_OPENCRATE_FOG",
+    "ACH_OPENCRATE_GK",
+    "ACH_INQ",
+    "ACH_BOTANIC",
+    "ACH_SECTOR_7",
+    "ACH_END"
+  ]
+}

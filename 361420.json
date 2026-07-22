@@ -1,0 +1,2678 @@
+{
+  "game": {
+    "appid": 361420,
+    "slug": "astroneer",
+    "title": "ASTRONEER",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-15",
+    "estTotalHours": 40,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-22"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Establish a normal Sylva save",
+      "description": "Keep Creative Mode disabled, claim the opening mission chain, build research and soil production, activate a Sylva Gateway Chamber, and collect the easy exploration unlocks.",
+      "achievementRefs": [
+        "TutorialDone",
+        "InstantResearch",
+        "HazardUprooted",
+        "ChangeSuit",
+        "PlantSeed",
+        "ResearchChamber",
+        "SoilExtract",
+        "BuildRover",
+        "FindChamber",
+        "SolveChamber",
+        "PuzzleSolve"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build the interplanetary production chain",
+      "description": "Launch from Sylva, land on every other world, mine every raw resource, smelt every refined resource, collect all gases, synthesize every composite, and establish shredding and trade infrastructure.",
+      "achievementRefs": [
+        "EverySmelt",
+        "LeaveTerran",
+        "LandMoon",
+        "LandArid",
+        "LandExotic",
+        "LandExoMoon",
+        "LandTundra",
+        "LandRadiated",
+        "CatalyzeComponent",
+        "CollectGas",
+        "EveryGas",
+        "EveryComponent",
+        "EveryRaw",
+        "HardTerrain",
+        "GoMantle",
+        "UseShredder",
+        "TradePlatform",
+        "BytesConcurrent"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Sweep planets, probes, flora, and cores",
+      "description": "On each world, dance, collect its required hostile-flora seeds, locate its Vintage Probe, activate one surface Gateway Chamber, and activate the core while carrying home a second triptych.",
+      "achievementRefs": [
+        "EverySeed",
+        "PlanetDance",
+        "WandererFirstProbe",
+        "WandererAllProbes",
+        "FindEngine",
+        "SolveTerranEngine",
+        "FastTravel",
+        "SolveBarrenEngine",
+        "SolveAridEngine",
+        "SolveExoticEngine",
+        "SolveExomoonEngine",
+        "SolveTundraEngine",
+        "SolveRadiatedEngine"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Complete the Gateway network and ending",
+      "description": "Power all 34 surface Gateway Chambers, confirm all seven engines, carry the seven spare triptychs to the Unidentified Satellite, and activate the final portal.",
+      "achievementRefs": [
+        "ChamberAll",
+        "SolveAllEngines",
+        "BeatGame"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Finish cumulative and stunt cleanup",
+      "description": "Complete the Byte and shred totals, build controlled ramps for the slide and rover airtime challenges, and trigger ten prepared fireworks in one window.",
+      "achievementRefs": [
+        "SlideTime",
+        "RoverAirtime",
+        "BackpackFirework",
+        "ScrapX",
+        "BytesGain"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Clear the five multiplayer requirements",
+      "description": "Use a Steam friend session for guest research, a shared shuttle landing, a multiplayer core visit, and more than four cumulative connected hours; then confirm the base-game meta unlock.",
+      "achievementRefs": [
+        "MPSession",
+        "GuestResearch",
+        "CoOpShuttle",
+        "MPCore",
+        "MPTime",
+        "AllAchievements"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "TutorialDone",
+      "displayName": "EXO Dynamics Training Seal of Approval",
+      "description": "Complete the training missions.",
+      "hidden": false,
+      "globalPercent": 60.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the @mechanic{Printing Up} mission by printing a Medium Printer and attaching it to a platform.",
+      "guide": {
+        "kind": "standard",
+        "context": "The separate tutorial was removed in Update 1.21.127.0, which reassigned this achievement to Printing Up. A save that finished Printing Up before that update may require a new Adventure save because the trigger was not retroactive.",
+        "steps": [
+          {
+            "id": "tutorialdone-1",
+            "text": "In an @mechanic{Adventure} save, complete the opening missions until @mechanic{Printing Up} appears in the Mission Log."
+          },
+          {
+            "id": "tutorialdone-2",
+            "text": "Use the Small Printer to print a @item{Medium Printer}."
+          },
+          {
+            "id": "tutorialdone-3",
+            "text": "Attach the Medium Printer to a platform to complete @mechanic{Printing Up} and trigger the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HazardUprooted",
+      "displayName": "Up By the Roots",
+      "description": "Dig up a hazard.",
+      "hidden": false,
+      "globalPercent": 65.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Use the @item{Terrain Tool} to remove all soil beneath a hazardous plant until the plant is uprooted.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hazardous flora may attack when approached. Dig from the edge of the plant's range and wait for the seed or research drop before moving closer.",
+        "steps": [
+          {
+            "id": "hazarduprooted-1",
+            "text": "Locate a hostile or defensive plant such as a @enemy{Popcoral}, @enemy{Daggeroot}, or @enemy{Bouncevine}."
+          },
+          {
+            "id": "hazarduprooted-2",
+            "text": "Excavate the soil around and beneath its base with the @item{Terrain Tool} until it detaches from the ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ResearchChamber",
+      "displayName": "Pursuit of Knowledge",
+      "description": "Research an item in the Research Chamber.",
+      "hidden": false,
+      "globalPercent": 64.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Place a carryable @item{Research Item} in a powered @item{Research Chamber} and start the chamber from its control panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Research Items are the large objects carried in both hands. Keep the chamber continuously powered until processing begins; small Research Samples can be scanned without this module.",
+        "steps": [
+          {
+            "id": "researchchamber-1",
+            "text": "Print a @item{Research Chamber}, mount it on a platform, and connect the platform to power."
+          },
+          {
+            "id": "researchchamber-2",
+            "text": "Carry a large @item{Research Item} to the chamber and place it in the top slot."
+          },
+          {
+            "id": "researchchamber-3",
+            "text": "Open the chamber control panel and select @mechanic{Start}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "InstantResearch",
+      "displayName": "A Little Byte Goes a Long Way",
+      "description": "Scan a Research Sample of any type.",
+      "hidden": false,
+      "globalPercent": 75.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hold the scan control on any small @item{Research Sample} until it converts into Bytes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Research Samples grow on plants and mineral formations and can be scanned in place; the larger carryable Research Items belong in a Research Chamber instead.",
+        "steps": [
+          {
+            "id": "instantresearch-1",
+            "text": "Find a small @item{Research Sample} attached to vegetation or a mineral formation near the Sylva shelter."
+          },
+          {
+            "id": "instantresearch-2",
+            "text": "Aim at the sample and hold @mechanic{Scan} until the Byte award appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SoilExtract",
+      "displayName": "Dirt Don't Hurt",
+      "description": "Extract a resource using the Soil Centrifuge.",
+      "hidden": false,
+      "globalPercent": 47.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Fill a canister with soil, load it into a powered @item{Soil Centrifuge}, select a resource, and run one extraction cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Soil Centrifuge blueprint costs 750 Bytes and prints at the Medium Printer from two Compound and one Aluminum.",
+        "steps": [
+          {
+            "id": "soilextract-1",
+            "text": "Attach a @item{Small Canister} to the Terrain Tool and excavate ordinary terrain until the canister fills with soil."
+          },
+          {
+            "id": "soilextract-2",
+            "text": "Unlock and print the @item{Soil Centrifuge}, mount it on a powered platform, and transfer the soil into its tank."
+          },
+          {
+            "id": "soilextract-3",
+            "text": "Choose any available output such as @item{Compound} and start the cycle; collect the produced resource."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CatalyzeComponent",
+      "displayName": "Do Science To It",
+      "description": "Synthesize a composite material with the Chemistry Lab.",
+      "hidden": false,
+      "globalPercent": 39.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "EverySmelt"
+      ],
+      "summary": "Use a powered @item{Chemistry Lab} to synthesize any composite resource, such as Rubber from Organic and Resin.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Chemistry Lab blueprint costs 1,600 Bytes and prints from Ceramic, Tungsten, and Glass; obtaining Tungsten requires Wolframite from Desolo or Calidor.",
+        "steps": [
+          {
+            "id": "catalyzecomponent-1",
+            "text": "Smelt @item{Wolframite} into Tungsten, then print a @item{Chemistry Lab} from Ceramic, Tungsten, and Glass."
+          },
+          {
+            "id": "catalyzecomponent-2",
+            "text": "Mount and power the lab, select @item{Rubber}, and load one Organic plus one Resin."
+          },
+          {
+            "id": "catalyzecomponent-3",
+            "text": "Start the synthesis and collect the finished Rubber."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CollectGas",
+      "displayName": "A Little Gassy",
+      "description": "Collect a gas with the Atmospheric Condenser.",
+      "hidden": false,
+      "globalPercent": 33.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "CatalyzeComponent"
+      ],
+      "summary": "Use a powered @item{Atmospheric Condenser} to fill a canister with any atmospheric gas.",
+      "guide": {
+        "kind": "standard",
+        "context": "The condenser blueprint costs 2,200 Bytes and prints from Plastic, Glass, and Iron. Each planet offers a fixed gas mixture, so the same machine can be shuttled between planets.",
+        "steps": [
+          {
+            "id": "collectgas-1",
+            "text": "Print an @item{Atmospheric Condenser} from Plastic, Glass, and Iron and place it on a powered platform."
+          },
+          {
+            "id": "collectgas-2",
+            "text": "Select any gas available on the current planet and start condensation."
+          },
+          {
+            "id": "collectgas-3",
+            "text": "Wait until one gas canister fills, then remove it from the output."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BuildRover",
+      "displayName": "Sweet New Ride",
+      "description": "Build a rover of any type.",
+      "hidden": false,
+      "globalPercent": 51.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock and print any @item{Rover}, such as a Buggy or Tractor, from the appropriate printer.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement checks vehicle construction, not driving distance. A Tractor is a practical first choice because trailers later carry gateway power and storage.",
+        "steps": [
+          {
+            "id": "buildrover-1",
+            "text": "Use the Research Catalog to unlock a rover blueprint such as @item{Tractor}."
+          },
+          {
+            "id": "buildrover-2",
+            "text": "Load the listed materials into the correct printer and start the rover print."
+          },
+          {
+            "id": "buildrover-3",
+            "text": "Wait for construction to finish, then detach the completed rover from the printer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UseShredder",
+      "displayName": "Scrap for the Scrapper",
+      "description": "Scrap an object in a Shredder.",
+      "hidden": false,
+      "globalPercent": 38.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Place any shreddable debris or crafted object in a powered @item{Shredder} and let it convert fully into Scrap.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shredders accept only objects within their tier size. Small debris and expendable crafted items are the easiest first inputs.",
+        "steps": [
+          {
+            "id": "useshredder-1",
+            "text": "Print a Shredder, mount it on a powered platform, and switch it on."
+          },
+          {
+            "id": "useshredder-2",
+            "text": "Insert a compatible piece of debris and wait until the machine produces @item{Scrap}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TradePlatform",
+      "displayName": "Junk Trader",
+      "description": "Use the Trade Platform to exchange Scrap for another resource.",
+      "hidden": false,
+      "globalPercent": 28.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "UseShredder"
+      ],
+      "summary": "Load @item{Scrap} onto a @item{Trade Platform}, select a resource, launch the rocket, and collect the returned shipment.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Trade Platform blueprint costs 2,500 Bytes and prints from one EXO Chip, one Tungsten, and one Iron. A normal Scrap trade takes about 45 seconds.",
+        "steps": [
+          {
+            "id": "tradeplatform-1",
+            "text": "Unlock and print a @item{Trade Platform}, place it on a powered platform, and attach enough Scrap for the selected trade."
+          },
+          {
+            "id": "tradeplatform-2",
+            "text": "Use the panel to choose a resource whose displayed Scrap cost is covered, then launch the rocket."
+          },
+          {
+            "id": "tradeplatform-3",
+            "text": "Wait for the rocket to return and remove at least one delivered resource."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HardTerrain",
+      "displayName": "Barrier Buster",
+      "description": "Use a drill to deform a harder type of terrain.",
+      "hidden": false,
+      "globalPercent": 19.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Attach a powered @item{Drill Mod} to the Terrain Tool and deform terrain hard enough to resist the unmodified tool.",
+      "guide": {
+        "kind": "standard",
+        "context": "Insufficient drill strength produces sparks and very slow deformation. Drill Mod 1 handles the first harder layers; stronger planets and deeper layers may need Drill Mod 2 or 3.",
+        "steps": [
+          {
+            "id": "hardterrain-1",
+            "text": "Unlock and print @item{Drill Mod 1}, attach it to an active Terrain Tool slot, and supply backpack power."
+          },
+          {
+            "id": "hardterrain-2",
+            "text": "Descend into a cave layer until the unmodified tool sparks against resistant terrain."
+          },
+          {
+            "id": "hardterrain-3",
+            "text": "Use the powered tool with the Drill Mod attached until the hard terrain visibly deforms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GoMantle",
+      "displayName": "Delve Greedily and Deep",
+      "description": "Travel to the Mantle depth of any planet.",
+      "hidden": false,
+      "globalPercent": 35.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Descend from a planet's caves into the @loc{Mantle} layer.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five depth bands progress from the surface into caves, then the mantle, outer core, and inner core. Build a sloped tunnel and extend oxygen rather than dropping vertically into an unrecoverable shaft.",
+        "steps": [
+          {
+            "id": "gomantle-1",
+            "text": "Carry tethers, oxygen, power, and a suitable Drill Mod into a cave."
+          },
+          {
+            "id": "gomantle-2",
+            "text": "Excavate a continuous downward ramp through the cave layers."
+          },
+          {
+            "id": "gomantle-3",
+            "text": "Continue until the terrain and flora change to the @loc{Mantle} biome and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PlantSeed",
+      "displayName": "Making a New Friend",
+      "description": "Plant a seed.",
+      "hidden": false,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "HazardUprooted"
+      ],
+      "summary": "Uproot hazardous flora, pick up the dropped @item{seed}, and plant that seed in open terrain.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutant plants grown from hostile-flora seeds no longer attack and later yield two seeds when uprooted, making them useful for the seven-species checklist.",
+        "steps": [
+          {
+            "id": "plantseed-1",
+            "text": "Dig a hazardous plant out by its roots and collect one of the seeds it drops."
+          },
+          {
+            "id": "plantseed-2",
+            "text": "Place the seed on clear soil and use the @mechanic{Plant} interaction."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ChangeSuit",
+      "displayName": "Well Hello There, Fancypants",
+      "description": "Change into a different suit.",
+      "hidden": false,
+      "globalPercent": 58.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open the customization menu and equip any @item{suit} different from the currently selected suit.",
+      "guide": {
+        "kind": "standard",
+        "context": "Colors and visors do not satisfy the requirement by themselves; change the suit model and leave the customization menu.",
+        "steps": [
+          {
+            "id": "changesuit-1",
+            "text": "Open the pause menu and enter the @mechanic{Customization} tab."
+          },
+          {
+            "id": "changesuit-2",
+            "text": "Select a different unlocked suit model, apply it, and return to play."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PuzzleSolve",
+      "displayName": "Thank You For Your Continued Assistance",
+      "description": "Solve an EXO Dynamics Research Aid.",
+      "hidden": false,
+      "globalPercent": 52.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open any @loc{EXO Dynamics Research Aid} by supplying the resource or power shown on its symbol panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Research Aids are black-and-white field containers. Their symbol identifies either a resource socket or a power condition, and the opened compartment provides a high-value Research Item or technology item.",
+        "steps": [
+          {
+            "id": "puzzlesolve-1",
+            "text": "Locate an @loc{EXO Dynamics Research Aid} while exploring a planet layer."
+          },
+          {
+            "id": "puzzlesolve-2",
+            "text": "Read the symbol on its side and insert the matching resource, or connect enough power for a power-locked aid."
+          },
+          {
+            "id": "puzzlesolve-3",
+            "text": "Wait for the shell to open and expose its contents."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EveryComponent",
+      "displayName": "Lab Rat",
+      "description": "Use the Chemistry Lab to synthesize each composite material.",
+      "hidden": false,
+      "globalPercent": 13.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "EveryGas",
+        "EverySmelt"
+      ],
+      "summary": "Synthesize all 12 composite resources in the @item{Chemistry Lab}, ending with Nanocarbon Alloy.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The full chain needs all six gases and refined resources from several planets. Produce each material in the lab rather than relying on mission rewards or found items.",
+        "collectibles": [
+          {
+            "id": "rubber",
+            "index": 1,
+            "name": "Rubber",
+            "location": "Chemistry Lab",
+            "method": "Combine Organic and Resin."
+          },
+          {
+            "id": "plastic",
+            "index": 2,
+            "name": "Plastic",
+            "location": "Chemistry Lab",
+            "method": "Combine Carbon and Compound."
+          },
+          {
+            "id": "aluminum-alloy",
+            "index": 3,
+            "name": "Aluminum Alloy",
+            "location": "Chemistry Lab",
+            "method": "Combine Aluminum and Copper."
+          },
+          {
+            "id": "tungsten-carbide",
+            "index": 4,
+            "name": "Tungsten Carbide",
+            "location": "Chemistry Lab",
+            "method": "Combine Tungsten and Carbon."
+          },
+          {
+            "id": "graphene",
+            "index": 5,
+            "name": "Graphene",
+            "location": "Chemistry Lab",
+            "method": "Combine Graphite and Hydrazine."
+          },
+          {
+            "id": "diamond",
+            "index": 6,
+            "name": "Diamond",
+            "location": "Chemistry Lab",
+            "method": "Combine two Graphene."
+          },
+          {
+            "id": "hydrazine",
+            "index": 7,
+            "name": "Hydrazine",
+            "location": "Chemistry Lab",
+            "method": "Combine two Ammonium with Hydrogen."
+          },
+          {
+            "id": "silicone",
+            "index": 8,
+            "name": "Silicone",
+            "location": "Chemistry Lab",
+            "method": "Combine Resin, Quartz, and Methane."
+          },
+          {
+            "id": "explosive-powder",
+            "index": 9,
+            "name": "Explosive Powder",
+            "location": "Chemistry Lab",
+            "method": "Combine two Carbon with Sulfur."
+          },
+          {
+            "id": "steel",
+            "index": 10,
+            "name": "Steel",
+            "location": "Chemistry Lab",
+            "method": "Combine Iron, Carbon, and Argon."
+          },
+          {
+            "id": "titanium-alloy",
+            "index": 11,
+            "name": "Titanium Alloy",
+            "location": "Chemistry Lab",
+            "method": "Combine Titanium, Graphene, and Nitrogen."
+          },
+          {
+            "id": "nanocarbon",
+            "index": 12,
+            "name": "Nanocarbon Alloy",
+            "location": "Chemistry Lab",
+            "method": "Combine Titanium Alloy, Steel, and Helium."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EveryGas",
+      "displayName": "Gas Giant",
+      "description": "Use the Atmospheric Condenser to collect every type of gas.",
+      "hidden": false,
+      "globalPercent": 16.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "CollectGas"
+      ],
+      "summary": "Collect all six gases with an @item{Atmospheric Condenser}: Hydrogen, Argon, Methane, Nitrogen, Sulfur, and Helium.",
+      "guide": {
+        "kind": "collectible",
+        "context": "A three-stop route covers the set: Vesania supplies Hydrogen, Argon, and Nitrogen; Atrox supplies Methane, Nitrogen, Sulfur, and Helium; Calidor is an alternate source of Sulfur.",
+        "collectibles": [
+          {
+            "id": "hydrogen",
+            "index": 1,
+            "name": "Hydrogen",
+            "location": "Sylva, Calidor, Vesania, or Novus",
+            "method": "Condense one full canister on any listed planet."
+          },
+          {
+            "id": "argon",
+            "index": 2,
+            "name": "Argon",
+            "location": "Vesania or Glacio",
+            "method": "Condense one full canister on either listed planet."
+          },
+          {
+            "id": "methane",
+            "index": 3,
+            "name": "Methane",
+            "location": "Novus or Atrox",
+            "method": "Condense one full canister on either listed planet."
+          },
+          {
+            "id": "nitrogen",
+            "index": 4,
+            "name": "Nitrogen",
+            "location": "Sylva, Vesania, or Atrox",
+            "method": "Condense one full canister on any listed planet."
+          },
+          {
+            "id": "sulfur",
+            "index": 5,
+            "name": "Sulfur",
+            "location": "Calidor or Atrox",
+            "method": "Condense one full canister on either listed planet."
+          },
+          {
+            "id": "helium",
+            "index": 6,
+            "name": "Helium",
+            "location": "Atrox",
+            "method": "Condense one full canister on Atrox."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ScrapX",
+      "displayName": "Chop Shop",
+      "description": "Scrap 50 objects in a Shredder.",
+      "hidden": false,
+      "globalPercent": 16.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "UseShredder"
+      ],
+      "summary": "Shred 50 separate objects across the save.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is based on objects completed by a Shredder, not the quantity of Scrap produced. Cheap small items make the count easier to track than large wreckage.",
+        "steps": [
+          {
+            "id": "scrapx-1",
+            "text": "Collect small wreck debris or print inexpensive expendable objects."
+          },
+          {
+            "id": "scrapx-2",
+            "text": "Feed each object completely through a powered Shredder and keep a manual tally."
+          },
+          {
+            "id": "scrapx-3",
+            "text": "Continue until the fiftieth object finishes shredding."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EverySeed",
+      "displayName": "In An Astroneer's Garden",
+      "description": "Plant a Spinelily, Lashleaf, Bouncevine, Wheezeweed, Thistlewhip, Popcoral and Daggeroot seed.",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "75 min",
+      "estMinutes": 75,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "PlantSeed"
+      ],
+      "summary": "Plant one seed from each required species: Bouncevine, Daggeroot, Lashleaf, Popcoral, Spinelily, Thistlewhip, and Wheezeweed.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Dig beneath each wild plant to obtain its seed, then use Plant on clear soil. Popcoral and Daggeroot exist broadly, while the other five have specific surface habitats.",
+        "collectibles": [
+          {
+            "id": "spinelily",
+            "index": 1,
+            "name": "Spinelily",
+            "location": "Calidor or Atrox surface",
+            "method": "Uproot a Spinelily, collect its seed, and plant it."
+          },
+          {
+            "id": "lashleaf",
+            "index": 2,
+            "name": "Lashleaf",
+            "location": "Vesania or Novus",
+            "method": "Uproot a Lashleaf, collect its seed, and plant it."
+          },
+          {
+            "id": "bouncevine",
+            "index": 3,
+            "name": "Bouncevine",
+            "location": "Sylva mountains",
+            "method": "Uproot a Bouncevine, collect its seed, and plant it."
+          },
+          {
+            "id": "wheezeweed",
+            "index": 4,
+            "name": "Wheezeweed",
+            "location": "Atrox or Calidor surface",
+            "method": "Uproot a Wheezeweed, collect its seed, and plant it."
+          },
+          {
+            "id": "thistlewhip",
+            "index": 5,
+            "name": "Thistlewhip",
+            "location": "Vesania or Novus surface",
+            "method": "Uproot a Thistlewhip, collect its seed, and plant it."
+          },
+          {
+            "id": "popcoral",
+            "index": 6,
+            "name": "Popcoral",
+            "location": "All planets in caves; Glacio and Atrox surface",
+            "method": "Uproot a Popcoral from outside its blast range, collect its seed, and plant it."
+          },
+          {
+            "id": "daggeroot",
+            "index": 7,
+            "name": "Daggeroot",
+            "location": "All planets from mantle downward; Desolo and Atrox surface/caves",
+            "method": "Uproot a Daggeroot, collect its seed, and plant it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EveryRaw",
+      "displayName": "Resources in the Rough",
+      "description": "Use the Terrain Tool to harvest every type of raw material.",
+      "hidden": false,
+      "globalPercent": 19.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Harvest every backpack-sized natural resource directly with the @item{Terrain Tool}.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Mission rewards, Soil Centrifuge output, and Trade Platform deliveries do not demonstrate Terrain Tool harvesting. Mine at least one loose unit from a natural deposit for each checklist entry.",
+        "collectibles": [
+          {
+            "id": "compound",
+            "index": 1,
+            "name": "Compound",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "resin",
+            "index": 2,
+            "name": "Resin",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "organic",
+            "index": 3,
+            "name": "Organic",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "clay",
+            "index": 4,
+            "name": "Clay",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "graphite",
+            "index": 5,
+            "name": "Graphite",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "quartz",
+            "index": 6,
+            "name": "Quartz",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "ammonium",
+            "index": 7,
+            "name": "Ammonium",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "laterite",
+            "index": 8,
+            "name": "Laterite",
+            "location": "All planets",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "malachite",
+            "index": 9,
+            "name": "Malachite",
+            "location": "Sylva or Calidor",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "sphalerite",
+            "index": 10,
+            "name": "Sphalerite",
+            "location": "Sylva or Desolo",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "wolframite",
+            "index": 11,
+            "name": "Wolframite",
+            "location": "Desolo or Calidor",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "lithium",
+            "index": 12,
+            "name": "Lithium",
+            "location": "Vesania or Novus",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "hematite",
+            "index": 13,
+            "name": "Hematite",
+            "location": "Novus or Glacio",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "titanite",
+            "index": 14,
+            "name": "Titanite",
+            "location": "Vesania or Glacio",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          },
+          {
+            "id": "astronium",
+            "index": 15,
+            "name": "Astronium",
+            "location": "outer core and core layers",
+            "method": "Use the Terrain Tool on a natural deposit until one unit enters the backpack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EverySmelt",
+      "displayName": "They Who Smelt It",
+      "description": "Use the Smelter to craft every type of refined resource.",
+      "hidden": false,
+      "globalPercent": 28.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use a powered @item{Smelting Furnace} to produce all nine refined resources: Carbon, Ceramic, Glass, Aluminum, Zinc, Copper, Tungsten, Iron, and Titanium.",
+      "guide": {
+        "kind": "standard",
+        "context": "The furnace blueprint costs 250 Bytes and prints from two Resin and one Compound. Feed each raw input yourself so every output is credited to the same account.",
+        "steps": [
+          {
+            "id": "everysmelt-1",
+            "text": "Unlock and print a @item{Smelting Furnace}, mount it on a powered platform, and enable it."
+          },
+          {
+            "id": "everysmelt-2",
+            "text": "Smelt @item{Organic, Clay, Quartz, Laterite, Sphalerite, Malachite, Wolframite, Hematite}, and @item{Titanite} at least once each."
+          },
+          {
+            "id": "everysmelt-3",
+            "text": "Remove each finished refined resource from the output storage and keep a nine-item checklist."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BytesGain",
+      "displayName": "Research Scientist",
+      "description": "Gain 100,000 Bytes across all games.",
+      "hidden": false,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "throughout the completion route",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Earn a cumulative total of @mechanic{100,000 Bytes} across all Adventure saves.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter spans games and does not require 100,000 unspent Bytes. Keep Research Chambers processing high-value items while completing planets and gateways.",
+        "steps": [
+          {
+            "id": "bytesgain-1",
+            "text": "Maintain one or more powered @item{Research Chambers} and feed them high-value Research Items from Glacio or Atrox."
+          },
+          {
+            "id": "bytesgain-2",
+            "text": "Scan Research Samples during normal exploration instead of leaving them behind."
+          },
+          {
+            "id": "bytesgain-3",
+            "text": "Continue earning Bytes until the account-wide total reaches 100,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BytesConcurrent",
+      "displayName": "Information Dump",
+      "description": "Reach more than 150 Bytes-Per-Minute of concurrent research.",
+      "hidden": false,
+      "globalPercent": 51.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "CollectGas",
+        "ResearchChamber"
+      ],
+      "summary": "Run concurrent research above @mechanic{150 Bytes per minute} until the displayed total exceeds the threshold.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gas can be researched directly. A canister of Methane from Atrox yields 480 BpM in a powered Research Chamber, so one chamber can clear the threshold without synchronized items.",
+        "steps": [
+          {
+            "id": "bytesconcurrent-1",
+            "text": "Condense one canister of @item{Methane} on Atrox and place it in a powered @item{Research Chamber}."
+          },
+          {
+            "id": "bytesconcurrent-2",
+            "text": "Start research and confirm that the HUD's combined research rate rises above @mechanic{150 BpM}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ChamberAll",
+      "displayName": "Secrets of the Universe",
+      "description": "Activate all 34 surface Gateway Chambers.",
+      "hidden": true,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across the route",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Activate all 34 surface @loc{Gateway Chambers}: six on each planet and two on each moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Planets have six chambers apiece; Desolo and Novus have two apiece. Use the compass to distinguish inactive purple-dot markers from active chamber icons, and remain within simulation range during every 30-second activation.",
+        "steps": [
+          {
+            "id": "chamberall-1",
+            "text": "Prepare mobile power for each threshold: Sylva 5, Desolo 8, Calidor 12, Vesania 16, Novus 21, Glacio 26, and Atrox 30 U/s."
+          },
+          {
+            "id": "chamberall-2",
+            "text": "On Sylva, Calidor, Vesania, Glacio, and Atrox, use the compass to find and power all six chambers for 30 seconds each."
+          },
+          {
+            "id": "chamberall-3",
+            "text": "On Desolo and Novus, locate and power both chambers for 30 seconds each."
+          },
+          {
+            "id": "chamberall-4",
+            "text": "Revisit the compass on every body and confirm that no inactive purple-dot Gateway marker remains."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindChamber",
+      "displayName": "Shapes and Other Shapes",
+      "description": "Find a Gateway Chamber.",
+      "hidden": true,
+      "globalPercent": 53.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Approach any large purple @loc{Gateway Chamber} on a planet's surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "The compass marks the nearest inactive chamber with a purple dot and an active chamber with a chamber icon, making it the reliable way to navigate generated terrain.",
+        "steps": [
+          {
+            "id": "findchamber-1",
+            "text": "Open the compass on @loc{Sylva} and follow the nearest purple Gateway marker."
+          },
+          {
+            "id": "findchamber-2",
+            "text": "Walk or drive onto the structure until @mechanic{Shapes and Other Shapes} unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveChamber",
+      "displayName": "First Step Into a Larger World",
+      "description": "Activate a Gateway Chamber.",
+      "hidden": true,
+      "globalPercent": 37.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FindChamber"
+      ],
+      "summary": "Supply a @loc{Sylva Gateway Chamber} with at least @mechanic{5 U/s} continuously for 30 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Power below the threshold is wasted. Sylva needs 5 U/s; stay near the structure during activation so it does not enter the known out-of-range bugged state.",
+        "steps": [
+          {
+            "id": "solvechamber-1",
+            "text": "Bring a power setup that provides at least @mechanic{5 U/s} to a Sylva Gateway Chamber."
+          },
+          {
+            "id": "solvechamber-2",
+            "text": "Connect the setup to one of the chamber's three cable ports and maintain full power for 30 uninterrupted seconds."
+          },
+          {
+            "id": "solvechamber-3",
+            "text": "Confirm that the central stele sinks and the @item{Odd Stone} appears before leaving."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindEngine",
+      "displayName": "Encounter With the Infinite",
+      "description": "Reach a Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 26.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SolveChamber"
+      ],
+      "summary": "Reach the spherical @loc{Gateway Engine} at the center of any planet.",
+      "guide": {
+        "kind": "standard",
+        "context": "The core shield remains closed until at least one surface Gateway Chamber on that planet is active. The engine has its own gravity, so approach its pillars slowly when the orientation shifts.",
+        "steps": [
+          {
+            "id": "findengine-1",
+            "text": "Activate a surface Gateway Chamber on the chosen planet."
+          },
+          {
+            "id": "findengine-2",
+            "text": "Excavate or drive a sloped tunnel through the mantle and outer core toward the center."
+          },
+          {
+            "id": "findengine-3",
+            "text": "Approach the spherical Gateway Engine until its local gravity engages and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveTerranEngine",
+      "displayName": "Sylva Awakened",
+      "description": "Activate the Sylva Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 21.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SolveChamber"
+      ],
+      "summary": "Activate the @loc{Sylva Gateway Engine} with @item{Quartz}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solveterranengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Sylva}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solveterranengine-2",
+            "text": "Place one @item{Quartz} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solveterranengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solveterranengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveBarrenEngine",
+      "displayName": "Desolo Awakened",
+      "description": "Activate the Desolo Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 13.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "LandMoon"
+      ],
+      "summary": "Activate the @loc{Desolo Gateway Engine} with @item{Zinc}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solvebarrenengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Desolo}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solvebarrenengine-2",
+            "text": "Place one @item{Zinc} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solvebarrenengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solvebarrenengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveAridEngine",
+      "displayName": "Calidor Awakened",
+      "description": "Activate the Calidor Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "LandArid"
+      ],
+      "summary": "Activate the @loc{Calidor Gateway Engine} with @item{Explosive Powder}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solvearidengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Calidor}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solvearidengine-2",
+            "text": "Place one @item{Explosive Powder} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solvearidengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solvearidengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveExoticEngine",
+      "displayName": "Vesania Awakened",
+      "description": "Activate the Vesania Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "LandExotic"
+      ],
+      "summary": "Activate the @loc{Vesania Gateway Engine} with @item{Graphene}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solveexoticengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Vesania}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solveexoticengine-2",
+            "text": "Place one @item{Graphene} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solveexoticengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solveexoticengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveExomoonEngine",
+      "displayName": "Novus Awakened",
+      "description": "Activate the Novus Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 10.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "LandExoMoon"
+      ],
+      "summary": "Activate the @loc{Novus Gateway Engine} with @item{Silicone}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solveexomoonengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Novus}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solveexomoonengine-2",
+            "text": "Place one @item{Silicone} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solveexomoonengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solveexomoonengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveTundraEngine",
+      "displayName": "Glacio Awakened",
+      "description": "Activate the Glacio Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 10.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "LandTundra"
+      ],
+      "summary": "Activate the @loc{Glacio Gateway Engine} with @item{Diamond}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solvetundraengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Glacio}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solvetundraengine-2",
+            "text": "Place one @item{Diamond} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solvetundraengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solvetundraengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveRadiatedEngine",
+      "displayName": "Atrox Awakened",
+      "description": "Activate the Atrox Gateway Engine.",
+      "hidden": true,
+      "globalPercent": 9.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "LandRadiated"
+      ],
+      "summary": "Activate the @loc{Atrox Gateway Engine} with @item{Hydrogen}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At least one surface Gateway Chamber on the planet must be active before the core shield opens. Generate two Geometric Triptychs if you also want to finish the Gateway Portal without revisiting the core.",
+        "steps": [
+          {
+            "id": "solveradiatedengine-1",
+            "text": "Activate one surface Gateway Chamber on @loc{Atrox}, then descend through the mantle and outer core to the Gateway Engine."
+          },
+          {
+            "id": "solveradiatedengine-2",
+            "text": "Place one @item{Hydrogen} on any of the three resource platforms to generate a @item{Geometric Triptych}."
+          },
+          {
+            "id": "solveradiatedengine-3",
+            "text": "Carry the triptych across the raised bridge and insert it in the opposite single slot to activate the engine."
+          },
+          {
+            "id": "solveradiatedengine-4",
+            "text": "Generate a second triptych and take it with you for the Unidentified Satellite."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SolveAllEngines",
+      "displayName": "To Infinity...",
+      "description": "Activate all seven Gateway Engines.",
+      "hidden": true,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SolveTerranEngine",
+        "SolveBarrenEngine",
+        "SolveAridEngine",
+        "SolveExoticEngine",
+        "SolveExomoonEngine",
+        "SolveTundraEngine",
+        "SolveRadiatedEngine"
+      ],
+      "summary": "Activate the Gateway Engine at the center of all seven planets and moons.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each engine achievement records separately. Keep the second Geometric Triptych made at every core so the ending can be completed in one satellite trip.",
+        "steps": [
+          {
+            "id": "solveallengines-1",
+            "text": "Confirm that Sylva, Desolo, Calidor, Vesania, Novus, Glacio, and Atrox each have an active Gateway Engine."
+          },
+          {
+            "id": "solveallengines-2",
+            "text": "If a planet is missing, return with its required resource and insert the generated triptych into the core's opposite slot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LeaveTerran",
+      "displayName": "Blast Off",
+      "description": "Use a shuttle to leave Sylva.",
+      "hidden": false,
+      "globalPercent": 42.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Launch from @loc{Sylva} in a shuttle and enter orbit for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Small Shuttle needs a thruster. Patch 1.42.3 leaves consumed Solid-Fuel Thrusters in the thruster slot, so replace the spent unit manually before a later launch.",
+        "steps": [
+          {
+            "id": "leaveterran-1",
+            "text": "Print a @item{Small Shuttle} and attach a @item{Solid-Fuel Thruster} to its thruster slot."
+          },
+          {
+            "id": "leaveterran-2",
+            "text": "Enter the shuttle on Sylva and choose @mechanic{Launch to Orbit}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LandMoon",
+      "displayName": "One Small Step",
+      "description": "Visit Desolo.",
+      "hidden": false,
+      "globalPercent": 35.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LeaveTerran"
+      ],
+      "summary": "Land a shuttle on @loc{Desolo} and exit onto the surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural landing zones appear from orbit as selectable bubbles. Bring a spare thruster or enough Hydrazine for the return trip before leaving the shuttle.",
+        "steps": [
+          {
+            "id": "landmoon-1",
+            "text": "From orbit, select @loc{Desolo} as the destination and wait for the shuttle to enter local orbit."
+          },
+          {
+            "id": "landmoon-2",
+            "text": "Choose an unoccupied landing bubble, land, and exit the shuttle onto the terrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LandArid",
+      "displayName": "It's a Dry Heat",
+      "description": "Visit Calidor.",
+      "hidden": false,
+      "globalPercent": 25.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LeaveTerran"
+      ],
+      "summary": "Land a shuttle on @loc{Calidor} and exit onto the surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural landing zones appear from orbit as selectable bubbles. Bring a spare thruster or enough Hydrazine for the return trip before leaving the shuttle.",
+        "steps": [
+          {
+            "id": "landarid-1",
+            "text": "From orbit, select @loc{Calidor} as the destination and wait for the shuttle to enter local orbit."
+          },
+          {
+            "id": "landarid-2",
+            "text": "Choose an unoccupied landing bubble, land, and exit the shuttle onto the terrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LandExotic",
+      "displayName": "Into the Woods",
+      "description": "Visit Vesania.",
+      "hidden": false,
+      "globalPercent": 26.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LeaveTerran"
+      ],
+      "summary": "Land a shuttle on @loc{Vesania} and exit onto the surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural landing zones appear from orbit as selectable bubbles. Bring a spare thruster or enough Hydrazine for the return trip before leaving the shuttle.",
+        "steps": [
+          {
+            "id": "landexotic-1",
+            "text": "From orbit, select @loc{Vesania} as the destination and wait for the shuttle to enter local orbit."
+          },
+          {
+            "id": "landexotic-2",
+            "text": "Choose an unoccupied landing bubble, land, and exit the shuttle onto the terrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LandExoMoon",
+      "displayName": "To the Forest Moon",
+      "description": "Visit Novus.",
+      "hidden": false,
+      "globalPercent": 27.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LeaveTerran"
+      ],
+      "summary": "Land a shuttle on @loc{Novus} and exit onto the surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural landing zones appear from orbit as selectable bubbles. Bring a spare thruster or enough Hydrazine for the return trip before leaving the shuttle.",
+        "steps": [
+          {
+            "id": "landexomoon-1",
+            "text": "From orbit, select @loc{Novus} as the destination and wait for the shuttle to enter local orbit."
+          },
+          {
+            "id": "landexomoon-2",
+            "text": "Choose an unoccupied landing bubble, land, and exit the shuttle onto the terrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LandRadiated",
+      "displayName": "I Feel Sick",
+      "description": "Visit Atrox.",
+      "hidden": false,
+      "globalPercent": 23.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LeaveTerran"
+      ],
+      "summary": "Land a shuttle on @loc{Atrox} and exit onto the surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural landing zones appear from orbit as selectable bubbles. Bring a spare thruster or enough Hydrazine for the return trip before leaving the shuttle.",
+        "steps": [
+          {
+            "id": "landradiated-1",
+            "text": "From orbit, select @loc{Atrox} as the destination and wait for the shuttle to enter local orbit."
+          },
+          {
+            "id": "landradiated-2",
+            "text": "Choose an unoccupied landing bubble, land, and exit the shuttle onto the terrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LandTundra",
+      "displayName": "Cool As Ice",
+      "description": "Visit Glacio.",
+      "hidden": false,
+      "globalPercent": 29.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LeaveTerran"
+      ],
+      "summary": "Land a shuttle on @loc{Glacio} and exit onto the surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natural landing zones appear from orbit as selectable bubbles. Bring a spare thruster or enough Hydrazine for the return trip before leaving the shuttle.",
+        "steps": [
+          {
+            "id": "landtundra-1",
+            "text": "From orbit, select @loc{Glacio} as the destination and wait for the shuttle to enter local orbit."
+          },
+          {
+            "id": "landtundra-2",
+            "text": "Choose an unoccupied landing bubble, land, and exit the shuttle onto the terrain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FastTravel",
+      "displayName": "Now You See Me...",
+      "description": "Use the Gateway Fast Travel Network.",
+      "hidden": true,
+      "globalPercent": 27.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SolveTerranEngine"
+      ],
+      "summary": "Use an @item{Odd Stone} to teleport from one activated gateway node to another.",
+      "guide": {
+        "kind": "standard",
+        "context": "An active core adds the Gateway Engine as a destination to every active surface chamber on that planet. Bright nodes are available destinations; dim nodes still need activation.",
+        "steps": [
+          {
+            "id": "fasttravel-1",
+            "text": "Activate a surface Gateway Chamber and the Gateway Engine on the same planet, or activate two surface chambers."
+          },
+          {
+            "id": "fasttravel-2",
+            "text": "Interact with the @item{Odd Stone}, select a bright destination node, and confirm the teleport."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BeatGame",
+      "displayName": "...And Beyond",
+      "description": "Activate the Gateway Portal and trigger the ending.",
+      "hidden": true,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SolveAllEngines"
+      ],
+      "summary": "Place all seven planet-specific @item{Geometric Triptychs} in the @loc{Gateway Portal}, then interact with its central Odd Stone.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Unidentified Satellite becomes reachable by shuttle after any Gateway Engine is active. Bring only the seven triptychs because the wiki records a current risk of shuttles disappearing from the platform.",
+        "steps": [
+          {
+            "id": "beatgame-1",
+            "text": "Fly a shuttle to the @loc{Unidentified Satellite} and interact with the outer @item{Odd Stone} to enable its fast-travel node."
+          },
+          {
+            "id": "beatgame-2",
+            "text": "Insert the second triptych from each planet into the matching one of the seven concentric slots on the central platform."
+          },
+          {
+            "id": "beatgame-3",
+            "text": "After all seven rings illuminate and the portal opens, interact with the central @item{Odd Stone} to trigger the ending cutscene and credits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SlideTime",
+      "displayName": "Hang 10-Squared",
+      "description": "Slide uninterrupted for at least 10 seconds.",
+      "hidden": false,
+      "globalPercent": 44.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Slide continuously down a smooth slope for at least 10 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "A player-built ramp is more repeatable than generated terrain. Use the Terrain Tool's level mode to remove bumps that would interrupt the slide.",
+        "steps": [
+          {
+            "id": "slidetime-1",
+            "text": "Build a long, steep, smooth soil ramp with the Terrain Tool's flatten and elevate modes."
+          },
+          {
+            "id": "slidetime-2",
+            "text": "Sprint downhill until the Astroneer enters the sliding animation, then stay centered without jumping for at least 10 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RoverAirtime",
+      "displayName": "Where We're Going, We Don't Need Roads",
+      "description": "Drive an airborne rover for at least 10 seconds.",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Drive a rover off a sufficiently tall ramp and remain airborne for at least 10 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use a light rover and a long clear landing zone. Save first, keep the vehicle powered, and wear an oxygen source so a failed landing is recoverable.",
+        "steps": [
+          {
+            "id": "roverairtime-1",
+            "text": "Use the Terrain Tool to build a high launch ramp with a straight run-up and no overhead obstacles."
+          },
+          {
+            "id": "roverairtime-2",
+            "text": "Accelerate a powered Buggy or Rover up the ramp and drive cleanly off its end."
+          },
+          {
+            "id": "roverairtime-3",
+            "text": "Keep the drive control held while airborne and remain off the terrain for at least 10 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PlanetDance",
+      "displayName": "Galactic Boogaloo",
+      "description": "Dance on every planet.",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Perform a dance emote while standing on each of the seven planets and moons.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The game tracks the body where the dance begins, so dance after exiting the shuttle on solid terrain. Repeat on a planet if an orbital or shuttle animation did not register.",
+        "collectibles": [
+          {
+            "id": "sylva",
+            "index": 1,
+            "name": "Sylva",
+            "location": "Sylva surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          },
+          {
+            "id": "desolo",
+            "index": 2,
+            "name": "Desolo",
+            "location": "Desolo surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          },
+          {
+            "id": "calidor",
+            "index": 3,
+            "name": "Calidor",
+            "location": "Calidor surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          },
+          {
+            "id": "vesania",
+            "index": 4,
+            "name": "Vesania",
+            "location": "Vesania surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          },
+          {
+            "id": "novus",
+            "index": 5,
+            "name": "Novus",
+            "location": "Novus surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          },
+          {
+            "id": "glacio",
+            "index": 6,
+            "name": "Glacio",
+            "location": "Glacio surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          },
+          {
+            "id": "atrox",
+            "index": 7,
+            "name": "Atrox",
+            "location": "Atrox surface",
+            "method": "Exit the shuttle, stand on terrain, and select any dance emote from the emote wheel."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BackpackFirework",
+      "displayName": "Baby You're a Firework",
+      "description": "Launch 10 fireworks in 10 seconds.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Activate 10 @item{Fireworks} within a 10-second window.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each normal firework costs one Explosive Powder and can be placed on the ground, in storage, or in backpack/vehicle activation slots. Arrange all ten before starting the timer.",
+        "steps": [
+          {
+            "id": "backpackfirework-1",
+            "text": "Craft 10 @item{Fireworks} from 10 Explosive Powder, or obtain a colored bundle through the Trade Platform and supply the remainder."
+          },
+          {
+            "id": "backpackfirework-2",
+            "text": "Place the fireworks in a tight row or in backpack and vehicle activation slots so every one is immediately reachable."
+          },
+          {
+            "id": "backpackfirework-3",
+            "text": "Activate all ten in rapid succession within 10 seconds; activation, not the later explosion, advances the counter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MPSession",
+      "displayName": "EXO Dynamics Outreach Participant",
+      "description": "Join or host a multiplayer game session.",
+      "hidden": false,
+      "globalPercent": 54.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Join another player's game or host a session that another player joins.",
+      "guide": {
+        "kind": "standard",
+        "context": "Steam listen-server co-op requires Steam friends. The host must load an Adventure save and leave the shelter before the invited player can join.",
+        "steps": [
+          {
+            "id": "mpsession-1",
+            "text": "Add the partner as a Steam friend and have the host load an Adventure save and step outside the shelter."
+          },
+          {
+            "id": "mpsession-2",
+            "text": "Send or accept the Steam game invitation and remain connected until both Astroneers appear in the world."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GuestResearch",
+      "displayName": "Let Me Borrow This Just A Second",
+      "description": "Use a Research Chamber to research something in another Astroneer's game.",
+      "hidden": false,
+      "globalPercent": 28.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "MPSession"
+      ],
+      "summary": "As a guest in another player's world, start a @item{Research Chamber} on a valid Research Item.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wording is ownership-sensitive: join the partner's save rather than inviting them into yours. Previously completed research is not shared with a late joiner.",
+        "steps": [
+          {
+            "id": "guestresearch-1",
+            "text": "Join a partner's Adventure save as the guest and locate their powered @item{Research Chamber}."
+          },
+          {
+            "id": "guestresearch-2",
+            "text": "Place a valid Research Item in the chamber and use its control panel yourself to start research."
+          },
+          {
+            "id": "guestresearch-3",
+            "text": "Remain connected until processing begins and the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MPCore",
+      "displayName": "Journey to the Center of the Thing",
+      "description": "Travel to the center of any planet in a multiplayer game.",
+      "hidden": false,
+      "globalPercent": 28.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Reach the center of any planet while connected to a multiplayer session.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlocked world progress is not retroactively shared with players who join later. Have both players present before entering the core; using an already active gateway from the surface is the fastest valid route.",
+        "steps": [
+          {
+            "id": "mpcore-1",
+            "text": "Join or host a multiplayer Adventure session and make sure both players are active in the world."
+          },
+          {
+            "id": "mpcore-2",
+            "text": "Travel together down a core tunnel, or use an active Gateway Chamber to teleport to an already activated Gateway Engine."
+          },
+          {
+            "id": "mpcore-3",
+            "text": "Step onto the inner-core Gateway Engine structure while the multiplayer connection remains active."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MPTime",
+      "displayName": "EXO Dynamics Outreach Advocate",
+      "description": "Spend more than 4 total hours in multiplayer sessions.",
+      "hidden": false,
+      "globalPercent": 45.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "more than 4 hours",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "MPSession"
+      ],
+      "summary": "Accumulate more than four total hours while connected to multiplayer sessions.",
+      "guide": {
+        "kind": "standard",
+        "context": "The time is cumulative across sessions. Do active gateway, research, or resource cleanup with a partner so disconnects are noticed and the four-hour requirement is not wasted.",
+        "steps": [
+          {
+            "id": "mptime-1",
+            "text": "Join or host multiplayer and keep the session connected while completing other co-op tasks."
+          },
+          {
+            "id": "mptime-2",
+            "text": "Accumulate more than four total connected hours across any number of sessions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CoOpShuttle",
+      "displayName": "Interplanetary Road Trip",
+      "description": "Travel to another planet with another player in the same shuttle.",
+      "hidden": false,
+      "globalPercent": 18.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "MPSession"
+      ],
+      "summary": "Land on another planet while two players occupy the same shuttle.",
+      "guide": {
+        "kind": "standard",
+        "context": "A shuttle cockpit seats only one. Attach a Rover Seat to a shuttle storage slot for the passenger, and have both players board before launch.",
+        "steps": [
+          {
+            "id": "coopshuttle-1",
+            "text": "Attach a @item{Rover Seat} to an open storage slot on a shuttle and verify that the shuttle has enough fuel for the trip."
+          },
+          {
+            "id": "coopshuttle-2",
+            "text": "Have one player enter the cockpit and the other sit in the Rover Seat."
+          },
+          {
+            "id": "coopshuttle-3",
+            "text": "Launch together, choose a different planet or moon, and remain seated until the shuttle lands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AllAchievements",
+      "displayName": "EXO Dynamics Solar System Mastery",
+      "description": "Obtain every Achievement in Astroneer.",
+      "hidden": false,
+      "globalPercent": 2.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "TutorialDone",
+        "InstantResearch",
+        "HazardUprooted",
+        "ChangeSuit",
+        "PlantSeed",
+        "ResearchChamber",
+        "SoilExtract",
+        "EverySmelt",
+        "BuildRover",
+        "FindChamber",
+        "SolveChamber",
+        "PuzzleSolve",
+        "LeaveTerran",
+        "LandMoon",
+        "LandArid",
+        "LandExotic",
+        "LandExoMoon",
+        "LandRadiated",
+        "LandTundra",
+        "CatalyzeComponent",
+        "CollectGas",
+        "EveryGas",
+        "EveryComponent",
+        "EveryRaw",
+        "HardTerrain",
+        "GoMantle",
+        "UseShredder",
+        "TradePlatform",
+        "ScrapX",
+        "BytesConcurrent",
+        "BytesGain",
+        "EverySeed",
+        "PlanetDance",
+        "SolveTerranEngine",
+        "SolveBarrenEngine",
+        "SolveAridEngine",
+        "SolveExoticEngine",
+        "SolveExomoonEngine",
+        "SolveTundraEngine",
+        "SolveRadiatedEngine",
+        "FindEngine",
+        "FastTravel",
+        "MPCore",
+        "ChamberAll",
+        "SolveAllEngines",
+        "BeatGame",
+        "SlideTime",
+        "RoverAirtime",
+        "BackpackFirework",
+        "MPSession",
+        "GuestResearch",
+        "CoOpShuttle",
+        "MPTime"
+      ],
+      "summary": "Unlock every base-game achievement except the two Wanderer Update achievements: The First Discovery and The Wanderer's Way.",
+      "guide": {
+        "kind": "standard",
+        "context": "The two Wanderer Update achievements—The First Discovery and The Wanderer's Way—were added after release and do not count for this meta-achievement, although they are still required for a displayed 56/56 Steam completion.",
+        "steps": [
+          {
+            "id": "allachievements-1",
+            "text": "Complete every non-Wanderer achievement in this guide, including the five multiplayer requirements."
+          },
+          {
+            "id": "allachievements-2",
+            "text": "If the meta unlock is delayed, load a normal Adventure save while online after Steam has recorded the final required base achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WandererFirstProbe",
+      "displayName": "The First Discovery",
+      "description": "Use the Probe Scanner to find one of the mysterious Vintage Probes.",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Use a @item{Probe Scanner} to locate a Vintage Probe, then insert the scanner into the probe's socket.",
+      "guide": {
+        "kind": "standard",
+        "context": "The scanner blueprint costs 4,000 Bytes and prints from one Steel. Each activation runs for 15 seconds, uses power, and points more accurately as its lights and tone intensify.",
+        "steps": [
+          {
+            "id": "wandererfirstprobe-1",
+            "text": "Complete @mechanic{Echoes of the Past}, unlock the @item{Probe Scanner}, and print one from Steel."
+          },
+          {
+            "id": "wandererfirstprobe-2",
+            "text": "Place it in a backpack auxiliary slot, activate it, and travel in the direction indicated after each 10-second cooldown."
+          },
+          {
+            "id": "wandererfirstprobe-3",
+            "text": "At the Vintage Probe, place the scanner in the probe socket; the scanner is consumed and the probe activates."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WandererAllProbes",
+      "displayName": "The Wanderer's Way",
+      "description": "Greet the Wanderer after activating all seven Vintage Probes.",
+      "hidden": true,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "180 min",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "WandererFirstProbe"
+      ],
+      "summary": "Activate the unique Vintage Probe on all seven planets, then complete @mechanic{When and Where?} by greeting the Wanderer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each probe consumes one scanner, so carry a fresh Probe Scanner on every planet. The final achievement is not awarded by the seventh socket alone; the follow-up greeting is required.",
+        "steps": [
+          {
+            "id": "wandererallprobes-1",
+            "text": "Print at least seven @item{Probe Scanners} from Steel and activate one Vintage Probe on each planet and moon."
+          },
+          {
+            "id": "wandererallprobes-2",
+            "text": "After @mechanic{Things to Remember} records all seven probes, track the @mechanic{When and Where?} mission."
+          },
+          {
+            "id": "wandererallprobes-3",
+            "text": "Return to the indicated rift, interact with the Wanderer, and choose the @mechanic{Greet} action."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "TutorialDone",
+    "InstantResearch",
+    "HazardUprooted",
+    "ChangeSuit",
+    "PlantSeed",
+    "ResearchChamber",
+    "SoilExtract",
+    "BuildRover",
+    "FindChamber",
+    "SolveChamber",
+    "PuzzleSolve",
+    "EverySmelt",
+    "LeaveTerran",
+    "LandMoon",
+    "LandArid",
+    "LandExotic",
+    "LandExoMoon",
+    "LandTundra",
+    "LandRadiated",
+    "CatalyzeComponent",
+    "CollectGas",
+    "EveryGas",
+    "EveryComponent",
+    "EveryRaw",
+    "HardTerrain",
+    "GoMantle",
+    "UseShredder",
+    "TradePlatform",
+    "BytesConcurrent",
+    "EverySeed",
+    "PlanetDance",
+    "WandererFirstProbe",
+    "WandererAllProbes",
+    "FindEngine",
+    "SolveTerranEngine",
+    "FastTravel",
+    "SolveBarrenEngine",
+    "SolveAridEngine",
+    "SolveExoticEngine",
+    "SolveExomoonEngine",
+    "SolveTundraEngine",
+    "SolveRadiatedEngine",
+    "ChamberAll",
+    "SolveAllEngines",
+    "BeatGame",
+    "SlideTime",
+    "RoverAirtime",
+    "BackpackFirework",
+    "ScrapX",
+    "BytesGain",
+    "MPSession",
+    "GuestResearch",
+    "CoOpShuttle",
+    "MPCore",
+    "MPTime",
+    "AllAchievements"
+  ]
+}

@@ -1,0 +1,1531 @@
+{
+  "game": {
+    "appid": 553850,
+    "slug": "helldivers-2",
+    "title": "HELLDIVERS™ 2",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-07",
+    "estTotalHours": 60,
+    "difficultyRating": 6,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-27"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Training and natural mission progress",
+      "description": "Finish Basic Training, customize the Helldiver, sample every enemy front, and clear ordinary missions while collecting samples and completing optional objectives.",
+      "achievementRefs": [
+        "32",
+        "30",
+        "22",
+        "23",
+        "16",
+        "17",
+        "18",
+        "20",
+        "21",
+        "24",
+        "26",
+        "27",
+        "28",
+        "29",
+        "31",
+        "33",
+        "34",
+        "35",
+        "37"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Solo combat challenges",
+      "description": "Use low- or mid-difficulty missions to isolate the Charger, fire, sustained-fire, limb-injury, stratagem, long-range, and personal kill-count requirements.",
+      "achievementRefs": [
+        "5",
+        "10",
+        "11",
+        "12",
+        "13",
+        "38"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Coordinated squad challenges",
+      "description": "Form a prepared squad for the no-death run, restricted-weapon run, six-minute Blitz, full-team extraction, six simultaneous barrages, and living disarmed-Hulk extraction.",
+      "achievementRefs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "19"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Samples, ship upgrades, and cumulative cleanup",
+      "description": "Consolidate sample carriers at extraction, buy the six first-tier ship upgrades, finish one five-tier module chain, and continue missions until the 50-, 100-, and 5,000-kill counters complete.",
+      "achievementRefs": [
+        "6",
+        "7",
+        "9",
+        "14",
+        "15",
+        "25",
+        "36"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "1",
+      "displayName": "Hell Dive",
+      "description": "Complete an Extreme difficulty mission or higher without anyone dying.",
+      "hidden": false,
+      "globalPercent": 32.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "squad",
+      "summary": "Complete any @mechanic{Extreme-or-higher mission} without a single squad member dying.",
+      "guide": {
+        "kind": "standard",
+        "context": "The condition covers the entire squad and the entire mission. Reinforcing a dead player does not repair the attempt, so survival matters more than clearing optional sites.",
+        "steps": [
+          {
+            "id": "choose-short-mission",
+            "text": "Choose a short @mechanic{Extreme-or-higher mission} and equip mobility, crowd-control, and defensive stratagems."
+          },
+          {
+            "id": "protect-squad",
+            "text": "Stay together, avoid optional fights, and complete the primary objective without any player dying."
+          },
+          {
+            "id": "extract-alive",
+            "text": "Call extraction, defend conservatively, and board @npc{Pelican-1} with the no-death condition intact."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "2",
+      "displayName": "Hold my primary, I'm going in!",
+      "description": "Complete a full Hard difficulty mission or higher without anyone firing their primary or support weapon.",
+      "hidden": false,
+      "globalPercent": 10.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "squad",
+      "summary": "Complete a full @mechanic{Hard-or-higher mission} without anyone firing a primary or support weapon.",
+      "guide": {
+        "kind": "standard",
+        "context": "The restriction applies to every player from deployment through mission completion. Secondary weapons, grenades, offensive stratagems, sentries, emplacements, and exosuits remain usable.",
+        "steps": [
+          {
+            "id": "prepare-allowed-damage",
+            "text": "Have every squad member holster primary and support weapons and prepare secondary weapons, grenades, sentries, orbitals, Eagles, emplacements, or exosuits instead."
+          },
+          {
+            "id": "complete-mission",
+            "text": "Finish the primary objective on @mechanic{Hard difficulty or higher} without any player firing either restricted weapon type."
+          },
+          {
+            "id": "avoid-misfire",
+            "text": "Keep primary and support weapons unused through the mission-complete result; one accidental shot by any teammate invalidates the attempt.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "3",
+      "displayName": "Gone in 360 seconds!",
+      "description": "Complete a full Extreme difficulty Blitz mission and extract in under 6 minutes.",
+      "hidden": false,
+      "globalPercent": 10.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "squad",
+      "summary": "Complete an @mechanic{Extreme Blitz mission} and board extraction before six minutes have elapsed.",
+      "guide": {
+        "kind": "standard",
+        "context": "Blitz missions use a reduced map and a nest- or fabricator-destruction quota. Optional objectives and samples consume the narrow timer without helping the unlock.",
+        "steps": [
+          {
+            "id": "prepare-squad",
+            "text": "Form a coordinated squad and equip fast objective-clearing tools such as explosive support weapons, Eagle strikes, or an @item{Emancipator Exosuit}."
+          },
+          {
+            "id": "rush-targets",
+            "text": "Split up immediately, destroy only the required bug holes or Automaton fabricators, and call extraction as soon as the primary quota completes."
+          },
+          {
+            "id": "board-before-six",
+            "text": "Regroup at extraction and have the squad board @npc{Pelican-1} before the mission clock reaches @mechanic{6:00}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "4",
+      "displayName": "Extractamundo!",
+      "description": "Extract with a full team on a Hard difficulty or more mission.",
+      "hidden": true,
+      "globalPercent": 71.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "squad",
+      "summary": "Extract all four squad members alive from one @mechanic{Hard-or-higher mission}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A full team means four players, not merely every member of a smaller lobby. Players may join before extraction as long as four living Helldivers board.",
+        "steps": [
+          {
+            "id": "fill-squad",
+            "text": "Start with four players or leave room for the lobby to reach four before the mission ends."
+          },
+          {
+            "id": "finish-hard-mission",
+            "text": "Complete the primary objective on @mechanic{Hard difficulty or higher} and keep all four players available for extraction."
+          },
+          {
+            "id": "board-four",
+            "text": "Have all four Helldivers board @npc{Pelican-1} alive before it departs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "5",
+      "displayName": "Caught them by Supplies!",
+      "description": "Kill a Charger with a resupply pod.",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Kill a @enemy{Charger} with the direct impact of a falling @item{Resupply Pod}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A blue Resupply beacon tracks the surface it sticks to. Weakening the Charger first gives the pod impact a safer chance to deliver the killing blow.",
+        "steps": [
+          {
+            "id": "isolate-charger",
+            "text": "Find a @enemy{Charger}, clear nearby enemies, and damage the Charger without killing it."
+          },
+          {
+            "id": "stick-beacon",
+            "text": "Call @item{Resupply} and throw the blue beacon directly onto the Charger's head or back so it sticks."
+          },
+          {
+            "id": "hold-under-pod",
+            "text": "Keep the Charger near the tracking beacon and let the falling Resupply Pod land on and kill it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "6",
+      "displayName": "Samples are a diver's best friend",
+      "description": "Extract at least 15 rare samples from a mission as a team.",
+      "hidden": false,
+      "globalPercent": 54.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "samples",
+      "summary": "Successfully extract with at least @item{15 Rare Samples} carried across the whole squad.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rare Samples begin appearing on Hard difficulty, and this achievement uses the team's combined extracted total. They may be divided among several surviving carriers.",
+        "steps": [
+          {
+            "id": "select-hard",
+            "text": "Choose a @mechanic{Hard-or-higher mission} whose displayed Rare Sample total can reach at least 15."
+          },
+          {
+            "id": "collect-rares",
+            "text": "Search objectives and minor points of interest until the squad collectively carries at least @item{15 Rare Samples}."
+          },
+          {
+            "id": "secure-samples",
+            "text": "Recover any dropped sample containers and successfully extract every carrier needed to preserve a team total of 15 or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "7",
+      "displayName": "Doing your part",
+      "description": "Complete at least 100 missions.",
+      "hidden": false,
+      "globalPercent": 34.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Complete @mechanic{100 missions} across any factions and difficulties.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is a cumulative account counter, so no single operation or difficulty is required. Mission completion is what advances it; abandoned attempts do not help.",
+        "steps": [
+          {
+            "id": "finish-missions",
+            "text": "Keep completing missions on any available front while working on samples, optional objectives, and combat achievements."
+          },
+          {
+            "id": "reach-hundred",
+            "text": "Finish the primary objective and mission result for the hundredth completed mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "8",
+      "displayName": "It's the only way to be sure...",
+      "description": "Have 6 orbital barrage stratagems in the same place at the same time.",
+      "hidden": false,
+      "globalPercent": 13.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "squad",
+      "summary": "Overlap six @mechanic{Orbital Gatling, Napalm, Walking, 120mm HE, or 380mm HE Barrages} in one area at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Qualifying choices are Orbital Gatling, Napalm, Walking, 120mm HE, and 380mm HE Barrages. Two players are sufficient when each brings three barrage stratagems.",
+        "steps": [
+          {
+            "id": "equip-six",
+            "text": "Have two or more players equip a combined six barrage stratagem slots, with three qualifying barrages on each of two loadouts if using the minimum squad."
+          },
+          {
+            "id": "choose-area",
+            "text": "Move to a clear open area and agree on one small target zone for every beacon."
+          },
+          {
+            "id": "throw-together",
+            "text": "Throw all six barrage beacons into that zone in rapid succession so all six effects are active simultaneously."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "9",
+      "displayName": "For the greater good!",
+      "description": "Kill 5,000 enemies.",
+      "hidden": false,
+      "globalPercent": 56.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Accumulate @mechanic{5,000 enemy kills} across all completed missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kills persist across missions and enemy factions. Dense Terminid waves and high-spawn objectives shorten the cleanup, but normal progression supplies most of the total.",
+        "steps": [
+          {
+            "id": "accumulate-kills",
+            "text": "Complete missions while using wide-area weapons and stratagems against dense enemy groups."
+          },
+          {
+            "id": "reach-five-thousand",
+            "text": "Continue until the cumulative personal kill counter reaches @mechanic{5,000}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "10",
+      "displayName": "Kill it with fire!",
+      "description": "Kill 100 enemies using fire damage during the same mission.",
+      "hidden": false,
+      "globalPercent": 34.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Personally kill @mechanic{100 enemies with fire damage} during a single mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "Weak enemies packed into Terminid or Voteless waves are reliable targets for burning damage. The entire count must be earned before the current mission ends.",
+        "steps": [
+          {
+            "id": "prepare-fire-build",
+            "text": "Equip a @item{Flamethrower} plus incendiary, napalm, or flame-based stratagems and choose a mission with dense weak-enemy spawns."
+          },
+          {
+            "id": "farm-fire-kills",
+            "text": "Apply fire to every large wave and let burning damage finish enemies whenever possible."
+          },
+          {
+            "id": "stay-for-count",
+            "text": "Remain in the mission until @mechanic{100 fire-damage kills} have registered on the same deployment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "11",
+      "displayName": "Get some!",
+      "description": "Fire at least 150 rounds in one burst, killing at least 10 enemies.",
+      "hidden": false,
+      "globalPercent": 52.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Fire at least @mechanic{150 rounds without releasing the trigger} and kill 10 enemies during that burst.",
+      "guide": {
+        "kind": "standard",
+        "context": "Choose a weapon that holds more than 150 rounds; working options include the M-1000 Maxigun, MG-43 Machine Gun, and M-105 Stalwart.",
+        "steps": [
+          {
+            "id": "equip-large-magazine",
+            "text": "Equip a sufficiently large-magazine support weapon and set its fire rate high enough to sustain the burst."
+          },
+          {
+            "id": "gather-wave",
+            "text": "Wait for a dense group of at least 10 weak enemies and line up a safe firing lane."
+          },
+          {
+            "id": "hold-trigger",
+            "text": "Hold the trigger continuously for at least 150 rounds while sweeping through and killing 10 or more enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "12",
+      "displayName": "That which does not kill you...",
+      "description": "Be injured in all limbs at the same time.",
+      "hidden": false,
+      "globalPercent": 26.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Remain alive while both arms and both legs are injured at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Armor with the Democracy Protects passive gives a 50% chance to survive otherwise lethal damage, making a blast capable of damaging every limb without immediately ending the attempt.",
+        "steps": [
+          {
+            "id": "equip-democracy-protects",
+            "text": "Equip armor with the @mechanic{Democracy Protects} passive and enter a low-pressure mission."
+          },
+          {
+            "id": "trigger-limb-damage",
+            "text": "Take a strong explosion or controlled friendly shots that injure both arms and both legs while leaving the Helldiver alive."
+          },
+          {
+            "id": "check-four-limbs",
+            "text": "Confirm all four limb indicators are injured simultaneously before using a stim."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "13",
+      "displayName": "The power of Democracy",
+      "description": "Kill 25 enemies with one stratagem.",
+      "hidden": false,
+      "globalPercent": 66.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Kill @mechanic{25 enemies with one stratagem deployment}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A low- or mid-difficulty Terminid Eradicate/Exterminate mission concentrates weak enemies into a small area, reducing the chance that the deployment's kills are split across multiple targets.",
+        "steps": [
+          {
+            "id": "bring-wide-area",
+            "text": "Equip one wide-area orbital, Eagle, minefield, or sentry stratagem and enter a dense swarm mission."
+          },
+          {
+            "id": "build-crowd",
+            "text": "Let at least 25 weak enemies gather in the intended kill zone without thinning the group."
+          },
+          {
+            "id": "deploy-once",
+            "text": "Place the chosen stratagem so that this single deployment kills at least @mechanic{25 enemies}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "14",
+      "displayName": "Fully operational",
+      "description": "Reach max level on one ship module.",
+      "hidden": false,
+      "globalPercent": 25.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–30 hours of sample collection",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Purchase all five upgrade tiers in any one @mechanic{ship-module section}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The maximum was expanded from three tiers to five, and the achievement now requires the full current chain. The cheapest section is Patriotic Administration Center; budget 50,000 Requisition Slips plus 40 Super, 450 Rare, and 570 Common Samples.",
+        "steps": [
+          {
+            "id": "save-resources",
+            "text": "Extract with samples until the account holds enough @item{Common, Rare, and Super Samples} plus Requisition Slips for one complete five-tier chain."
+          },
+          {
+            "id": "open-ship-management",
+            "text": "Use @loc{Ship Management} on the Super Destroyer and open the Ship Modules tab."
+          },
+          {
+            "id": "buy-five-tiers",
+            "text": "Purchase tiers one through five in the same section in order; completing the fifth upgrade reaches maximum level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "15",
+      "displayName": "Ship it!",
+      "description": "Upgrade all ship modules at least 1 level.",
+      "hidden": false,
+      "globalPercent": 31.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–10 hours of sample collection",
+      "estMinutes": 420,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Buy the first upgrade in each of the six @mechanic{ship-module sections}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The six sections are Patriotic Administration Center, Orbital Cannons, Hangar, Bridge, Engineering Bay, and Robotics Workshop. Their first tiers cost 420 Common and 30 Rare Samples in total.",
+        "steps": [
+          {
+            "id": "collect-first-tier-cost",
+            "text": "Bank @item{30 Rare Samples} and @item{420 Common Samples} through successful extractions."
+          },
+          {
+            "id": "visit-modules",
+            "text": "Open the Ship Modules tab at @loc{Ship Management} on the Super Destroyer."
+          },
+          {
+            "id": "upgrade-six-sections",
+            "text": "Purchase the first listed upgrade in each of the six sections."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "16",
+      "displayName": "Nothing is bigger than Freedom",
+      "description": "Defeat a Hulk.",
+      "hidden": false,
+      "globalPercent": 75.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "progression",
+      "summary": "Kill one @enemy{Hulk} during an Automaton mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hulks appear naturally on harder Automaton missions and can also be the target of a dedicated elimination mission. Their faceplate and rear heat sink are the practical weak points.",
+        "steps": [
+          {
+            "id": "find-hulk",
+            "text": "Deploy on the Automaton front at a difficulty or mission type that spawns a @enemy{Hulk}."
+          },
+          {
+            "id": "kill-hulk",
+            "text": "Use anti-armor fire on the faceplate or damage the rear heat sink until the Hulk dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "17",
+      "displayName": "The taller they are...",
+      "description": "Defeat a Bile Titan.",
+      "hidden": false,
+      "globalPercent": 64.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "progression",
+      "summary": "Kill one @enemy{Bile Titan} during a Terminid mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bile Titans appear as dedicated elimination targets and as heavy enemies on higher Terminid difficulties. Anti-tank weapons and heavy orbital or Eagle strikes are suited to their armor.",
+        "steps": [
+          {
+            "id": "find-bile-titan",
+            "text": "Deploy on the Terminid front in a mission that lists or can spawn a @enemy{Bile Titan}."
+          },
+          {
+            "id": "kill-bile-titan",
+            "text": "Concentrate anti-tank support weapons, orbital strikes, or heavy Eagle ordnance until the Bile Titan dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "18",
+      "displayName": "They don't call it Tacticool for nothin'",
+      "description": "Complete 10 tactical objectives.",
+      "hidden": false,
+      "globalPercent": 72.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "progression",
+      "summary": "Complete @mechanic{10 tactical objectives} across any non-Trivial missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tactical objectives are the blue optional sites on the map, such as Radar Stations, SEAF Artillery, SAM Sites, Escape Pods, Rogue Research Stations, and Illegal Broadcasts. Trivial missions do not generate them.",
+        "steps": [
+          {
+            "id": "choose-nontrivial",
+            "text": "Select missions above @mechanic{Trivial difficulty} and search the map for blue optional-objective icons."
+          },
+          {
+            "id": "complete-objectives",
+            "text": "Perform each site's full interaction or destruction sequence until its objective-complete message appears."
+          },
+          {
+            "id": "reach-ten",
+            "text": "Repeat across missions until @mechanic{10 tactical objectives} have completed cumulatively."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "19",
+      "displayName": "Let's call it a draw",
+      "description": "Shoot off both arms on a Hulk and then extract while it's alive.",
+      "hidden": false,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "squad",
+      "summary": "Shoot both arms off one @enemy{Hulk}, keep that Hulk alive, and then extract.",
+      "guide": {
+        "kind": "standard",
+        "context": "Heavy-penetration weapons such as the Autocannon or Laser Cannon can sever the arm joints without relying on an anti-tank hit that may destroy the Hulk outright.",
+        "steps": [
+          {
+            "id": "isolate-hulk",
+            "text": "Find an @enemy{Hulk} on the Automaton front and clear nearby enemies that could complicate the setup."
+          },
+          {
+            "id": "remove-arms",
+            "text": "Fire controlled heavy-penetration shots into each arm joint until both weapon arms detach, then stop damaging the Hulk."
+          },
+          {
+            "id": "extract-with-hulk-alive",
+            "text": "Keep the disarmed Hulk away from squad fire and stratagems, complete the mission, and board @npc{Pelican-1} while it remains alive.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "20",
+      "displayName": "Cool guys don't loo- AAAAH!",
+      "description": "Fly at least 25 meters from the shockwave of an explosion.",
+      "hidden": false,
+      "globalPercent": 82.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Let an explosion's @mechanic{shockwave} launch the Helldiver at least 25 meters through the air.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Moor Mushroom produces a strong concussive blast when destroyed and can supply the distance without placing a heavy enemy nearby. Open terrain prevents an early collision.",
+        "steps": [
+          {
+            "id": "find-open-blast",
+            "text": "Find a @item{Moor Mushroom} or prepare another strong explosion beside a clear downhill or open flight path."
+          },
+          {
+            "id": "trigger-launch",
+            "text": "Stand near the edge of the blast, dive as it detonates, travel at least 25 meters through the air, and survive the landing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "21",
+      "displayName": "Hot Potato!",
+      "description": "Throw back a live grenade.",
+      "hidden": false,
+      "globalPercent": 44.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Use the interaction prompt to throw back a live enemy grenade before it explodes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automaton Troopers, Commissars, Marauders, and other grenade-capable infantry provide frequent attempts. The grenade must still be live and close enough to show the prompt.",
+        "steps": [
+          {
+            "id": "bait-grenade",
+            "text": "Keep a grenade-throwing @enemy{Automaton infantry unit} alive and wait at medium range for a red grenade to land nearby."
+          },
+          {
+            "id": "throw-back",
+            "text": "Approach the live grenade and press the displayed throw-back interaction before its fuse expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "22",
+      "displayName": "Bot Scrapper",
+      "description": "Play 1 Bot Mission.",
+      "hidden": false,
+      "globalPercent": 86.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "progression",
+      "summary": "Deploy into any mission on the @enemy{Automaton front}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Automaton-controlled sectors appear in red on the Galactic Map. No particular difficulty, planet, or mission objective is required.",
+        "steps": [
+          {
+            "id": "select-bot-front",
+            "text": "Open the Galactic Map, choose an Automaton-controlled sector and planet, and select any available mission."
+          },
+          {
+            "id": "deploy-bot-mission",
+            "text": "Launch in the Hellpod and play the mission; completing it also advances the cumulative mission achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "23",
+      "displayName": "Bug Stomper",
+      "description": "Play 1 Bug Mission.",
+      "hidden": false,
+      "globalPercent": 92.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "progression",
+      "summary": "Deploy into any mission on the @enemy{Terminid front}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Terminid-controlled sectors appear in yellow on the Galactic Map. No particular difficulty, planet, or mission objective is required.",
+        "steps": [
+          {
+            "id": "select-bug-front",
+            "text": "Open the Galactic Map, choose a Terminid-controlled sector and planet, and select any available mission."
+          },
+          {
+            "id": "deploy-bug-mission",
+            "text": "Launch in the Hellpod and play the mission; completing it also advances the cumulative mission achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "24",
+      "displayName": "Extractinating the Countryside",
+      "description": "Play a planet defense mission.",
+      "hidden": false,
+      "globalPercent": 77.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 minutes when a defense campaign is active",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "progression",
+      "summary": "Play a mission on a planet marked with an active @mechanic{defense campaign}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defense campaigns are live Galactic War events rather than a permanently selectable mission type. Eligible planets display a shield or DEFEND marker and a campaign timer.",
+        "steps": [
+          {
+            "id": "find-defense",
+            "text": "Check the Galactic Map for a planet carrying the @mechanic{shield or DEFEND marker}."
+          },
+          {
+            "id": "play-defense-mission",
+            "text": "Select that planet and deploy into any mission within its active defense operation."
+          },
+          {
+            "id": "complete-defense",
+            "text": "Finish the mission so it records cleanly before the defense campaign expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "25",
+      "displayName": "Patriot",
+      "description": "Play at least 50 missions.",
+      "hidden": false,
+      "globalPercent": 54.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Play @mechanic{50 missions} across any factions and difficulties.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any faction and difficulty can advance this cumulative milestone, so combine the attempts with sample, tactical-objective, and personal kill cleanup.",
+        "steps": [
+          {
+            "id": "finish-fifty",
+            "text": "Keep playing missions on any front until the cumulative total reaches @mechanic{50}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "26",
+      "displayName": "Hold My Liber-tea!",
+      "description": "While using a jump pack, knock yourself into a ragdoll state.",
+      "hidden": false,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Activate a @item{Jump Pack} and enter a ragdoll state before landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "A teammate's melee hit is a controlled way to create the required airborne ragdoll. A small explosion near the landing point can produce the same state.",
+        "steps": [
+          {
+            "id": "equip-jump-pack",
+            "text": "Call down and equip a @item{Jump Pack}, then wait until it is charged."
+          },
+          {
+            "id": "ragdoll-airborne",
+            "text": "Activate the Jump Pack and have a teammate melee the Helldiver before landing, or time a safe nearby explosion to knock the airborne Helldiver down."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "27",
+      "displayName": "Eat This!",
+      "description": "Kill a bug warrior with a shotgun within 1 meter.",
+      "hidden": false,
+      "globalPercent": 57.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Kill a @enemy{Terminid Warrior} with a shotgun from within @mechanic{one meter}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the killing shot must meet the distance and weapon conditions. Weakening the Warrior first reduces the time spent exposed at point-blank range.",
+        "steps": [
+          {
+            "id": "find-warrior",
+            "text": "Equip any shotgun and find a @enemy{Terminid Warrior} on the bug front."
+          },
+          {
+            "id": "close-and-kill",
+            "text": "Damage it if necessary, move to within one meter, and deliver the killing shotgun blast."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "28",
+      "displayName": "Democracy ain't done with you yet",
+      "description": "Heal another player using stims.",
+      "hidden": false,
+      "globalPercent": 68.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "teamwork",
+      "summary": "Use a @item{stim} to heal an injured teammate.",
+      "guide": {
+        "kind": "standard",
+        "context": "The teammate must be missing health and remain unhealed long enough for the contextual interaction. A cooperating player can take controlled damage and wait beside you.",
+        "steps": [
+          {
+            "id": "injure-teammate",
+            "text": "Have another Helldiver take nonlethal damage and avoid using a personal stim."
+          },
+          {
+            "id": "apply-stim",
+            "text": "Stand next to the injured teammate and use the displayed heal interaction to administer your stim."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "29",
+      "displayName": "Promote Synergy",
+      "description": "Provide assisted reload for a teammate.",
+      "hidden": false,
+      "globalPercent": 35.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "teamwork",
+      "summary": "Reload a teammate's support weapon with its matching @item{ammunition backpack}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Recoilless Rifle, Autocannon, Spear, and other crew-served support weapons expose an assist prompt when one player holds the weapon and an adjacent teammate carries the matching ammunition pack.",
+        "steps": [
+          {
+            "id": "split-weapon-pack",
+            "text": "Have one player equip the support weapon while you equip its matching @item{ammunition backpack}."
+          },
+          {
+            "id": "assist-reload",
+            "text": "Stand beside the weapon user after ammunition is spent and press the displayed assisted-reload prompt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "30",
+      "displayName": "Strapping young lad",
+      "description": "Customize your Helldiver with new cape, armor, and helmet.",
+      "hidden": false,
+      "globalPercent": 83.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "setup",
+      "summary": "Equip a new @item{helmet}, @item{armor}, and @item{cape} on the same Helldiver.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Armory applies appearance changes immediately. Basic Training and early progression provide alternatives to the initial equipment in all three required slots.",
+        "steps": [
+          {
+            "id": "open-armory",
+            "text": "Use the @loc{Armory} terminal on the Super Destroyer."
+          },
+          {
+            "id": "change-three-slots",
+            "text": "Open Character customization and equip a different helmet, armor, and cape."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "31",
+      "displayName": "In the nick of time",
+      "description": "Extract after the timer reaches zero.",
+      "hidden": false,
+      "globalPercent": 74.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Complete a mission and board extraction only after the mission timer reaches @mechanic{0:00}.",
+      "guide": {
+        "kind": "standard",
+        "context": "When mission time expires, remaining stratagem support is withdrawn and Pelican-1 begins the emergency extraction sequence. Once it lands, its departure countdown no longer waits for boarding.",
+        "steps": [
+          {
+            "id": "complete-objective",
+            "text": "Finish the primary objective while leaving enough supplies and reinforcements to survive near extraction."
+          },
+          {
+            "id": "wait-for-zero",
+            "text": "After the primary objective, remain outside @npc{Pelican-1} until the mission clock reaches @mechanic{0:00}, then wait for emergency extraction to land."
+          },
+          {
+            "id": "board-final-countdown",
+            "text": "Board during the emergency departure countdown after time has expired."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "32",
+      "displayName": "The Real Deal",
+      "description": "Complete Basic Training.",
+      "hidden": false,
+      "globalPercent": 95.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "setup",
+      "summary": "Finish every @mechanic{Basic Training} station and collect the cape at the end.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skipping tutorial sections does not satisfy the condition. Follow each prompted exercise in sequence so the final cape pickup records full training completion.",
+        "steps": [
+          {
+            "id": "complete-training",
+            "text": "Follow the marked route through movement, combat, injury, stratagem, and objective training."
+          },
+          {
+            "id": "claim-cape",
+            "text": "Reach the final platform and collect the @item{Helldiver cape} to complete training."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "33",
+      "displayName": "The long arm of Justice",
+      "description": "Kill a target at a distance of over 100m.",
+      "hidden": false,
+      "globalPercent": 81.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Kill any enemy from a measured distance greater than @mechanic{100 meters}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Marking an enemy displays its range, removing guesswork. A stationary light target and a precise weapon such as the Anti-Materiel Rifle or Diligence make the shot repeatable.",
+        "steps": [
+          {
+            "id": "mark-target",
+            "text": "Find a stationary enemy in open terrain and mark it to display the distance."
+          },
+          {
+            "id": "move-past-hundred",
+            "text": "Back away until the marker reads more than @mechanic{100 meters}."
+          },
+          {
+            "id": "take-kill-shot",
+            "text": "Kill the marked enemy with a precise long-range shot while remaining beyond 100 meters."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "34",
+      "displayName": "Stalking is illegal",
+      "description": "Complete a Stalker Hive tactical objective.",
+      "hidden": true,
+      "globalPercent": 71.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "objectives",
+      "summary": "Find and fully destroy one @enemy{Stalker Hive} tactical objective.",
+      "guide": {
+        "kind": "standard",
+        "context": "Stalker Lairs can appear on Challenging-or-higher Terminid missions. Incoming Stalkers usually travel from the direction of the concealed hive, which may not be marked until discovered.",
+        "steps": [
+          {
+            "id": "choose-challenging",
+            "text": "Deploy on a @mechanic{Challenging-or-higher Terminid mission} and watch for attacking Stalkers."
+          },
+          {
+            "id": "trace-stalkers",
+            "text": "Move opposite the Stalkers' attack direction until the @enemy{Stalker Hive} and its bug holes are found."
+          },
+          {
+            "id": "destroy-hive",
+            "text": "Destroy every bug hole in the hive and wait for the tactical-objective completion message."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "35",
+      "displayName": "Job's done!",
+      "description": "Complete a mission but fail to extract.",
+      "hidden": true,
+      "globalPercent": 80.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Complete a mission's primary objective, then let the squad fail extraction.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mission must already be recorded as successful before the extraction failure. Dying or missing Pelican-1 before the primary objective completes produces a failed mission instead.",
+        "steps": [
+          {
+            "id": "complete-primary",
+            "text": "Choose a short mission and finish every required primary-objective step until mission completion is announced."
+          },
+          {
+            "id": "fail-extraction",
+            "text": "Afterward, exhaust the remaining reinforcements and die, or remain outside @npc{Pelican-1} until it departs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "36",
+      "displayName": "Science is done by quantity",
+      "description": "Extract with at least 15 common samples.",
+      "hidden": false,
+      "globalPercent": 43.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "samples",
+      "summary": "Personally board extraction while carrying at least @item{15 Common Samples}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlike the team-wide Rare Sample achievement, all 15 Common Samples must be on the extracting player's own sample container. Teammates can drop containers near extraction for consolidation.",
+        "steps": [
+          {
+            "id": "gather-commons",
+            "text": "Search objectives and points of interest until the intended carrier holds @item{15 Common Samples}, collecting dropped teammate containers if needed."
+          },
+          {
+            "id": "protect-carrier",
+            "text": "Keep that carrier alive near extraction and recover the sample container immediately if it is dropped."
+          },
+          {
+            "id": "extract-fifteen",
+            "text": "Have the player carrying all 15 Common Samples board @npc{Pelican-1}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "37",
+      "displayName": "They mostly come at night...",
+      "description": "Extract from a mission during nighttime.",
+      "hidden": false,
+      "globalPercent": 92.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Successfully extract from a mission marked as taking place at @mechanic{night}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mission-selection cursor shows a blue crescent moon for a night deployment, so the required time of day can be confirmed before launching.",
+        "steps": [
+          {
+            "id": "select-night",
+            "text": "On the Galactic Map, move across available missions until the cursor shows the @mechanic{blue crescent moon} night indicator."
+          },
+          {
+            "id": "extract-at-night",
+            "text": "Launch that mission, complete its primary objective, and successfully board @npc{Pelican-1}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "38",
+      "displayName": "Spread Managed Democracy",
+      "description": "Kill 150 enemies during the same mission.",
+      "hidden": false,
+      "globalPercent": 82.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Personally kill @mechanic{150 enemies} during one mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "The count is personal rather than squad-wide. Higher difficulties and swarm-heavy objectives provide more targets, while a private solo mission prevents teammates from taking kills.",
+        "steps": [
+          {
+            "id": "choose-dense-mission",
+            "text": "Select a high-density Terminid, Voteless, Eradicate/Exterminate, Raise Flag, or defensive mission and equip wide-area weapons."
+          },
+          {
+            "id": "farm-personal-kills",
+            "text": "Prioritize every large wave with personal gunfire and damaging stratagems until the same-mission kill total reaches @mechanic{150}."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "32",
+    "30",
+    "22",
+    "23",
+    "16",
+    "17",
+    "18",
+    "20",
+    "21",
+    "24",
+    "26",
+    "27",
+    "28",
+    "29",
+    "31",
+    "33",
+    "34",
+    "35",
+    "37",
+    "5",
+    "10",
+    "11",
+    "12",
+    "13",
+    "38",
+    "1",
+    "2",
+    "3",
+    "4",
+    "8",
+    "19",
+    "6",
+    "36",
+    "15",
+    "14",
+    "25",
+    "7",
+    "9"
+  ]
+}

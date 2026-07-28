@@ -1,0 +1,2377 @@
+{
+  "game": {
+    "appid": 3564740,
+    "slug": "where-winds-meet",
+    "title": "Where Winds Meet",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-22",
+    "estTotalHours": 110,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Core progression",
+      "description": "Advance the opening story while upgrading gear, Martial Arts, Internal Arts, and the two Ability Steal weapons.",
+      "achievementRefs": [
+        "301007",
+        "301009",
+        "301001",
+        "301010",
+        "301011",
+        "401001",
+        "401004",
+        "101022"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Qinghe completion",
+      "description": "Finish Qinghe campaigns and encounters, collect regional targets, defeat the timed boss, and complete the Qinghe Tales and Echoes route.",
+      "achievementRefs": [
+        "1201003",
+        "1201002",
+        "1201011",
+        "1201018",
+        "1201005",
+        "1203003",
+        "1204001",
+        "1203005",
+        "1201007",
+        "1205006",
+        "1204016",
+        "1202003",
+        "1201020"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Kaifeng completion",
+      "description": "Clear Kaifeng campaigns, bosses, encounters, exploration targets, and the Ever-Normal Granary follow-up.",
+      "achievementRefs": [
+        "1401009",
+        "1401002",
+        "1406001",
+        "1405001",
+        "1401015",
+        "1403003",
+        "1404001",
+        "1403007",
+        "1406003",
+        "1002062",
+        "1002039",
+        "1402003"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Hexi completion",
+      "description": "Clear the Hexi story and Jianghu Legacy routes, regional exploration tasks, timed boss, and Goosy Slide campaign-boss cleanup.",
+      "achievementRefs": [
+        "1503002",
+        "1504001",
+        "1502009",
+        "1501001",
+        "1501024",
+        "1504019",
+        "1505021",
+        "1501032",
+        "1505051",
+        "1501031",
+        "9999001"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Imperial Palace completion",
+      "description": "Finish the palace campaigns and side activities, activate every Boundary Stone, and beat The Lone Tyrant within the limit.",
+      "achievementRefs": [
+        "1401079",
+        "1402012",
+        "1404145",
+        "1002134",
+        "1404142",
+        "801020"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Hidden Mountain completion",
+      "description": "Finish the new Hidden Mountain campaigns, tales, exploration interactions, and mask entry condition; use the in-game tracker for entries still awaiting complete community routes.",
+      "achievementRefs": [
+        "1601006",
+        "1601004",
+        "1604007",
+        "1604026",
+        "1404095",
+        "1404107",
+        "1404092",
+        "1604093",
+        "1404123",
+        "1404076"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Final base-set cleanup",
+      "description": "Verify that every original Qinghe and Kaifeng Steam achievement has unlocked to trigger the base meta-achievement.",
+      "achievementRefs": [
+        "all_achievement"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "all_achievement",
+      "displayName": "The Hero is the Voice of the World",
+      "description": "All achievements unlocked. With heroic compassion, we've journeyed thousands of miles together.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across completion",
+      "estMinutes": 0,
+      "stage": 7,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Unlock every Steam achievement in the original @mechanic{Qinghe and Kaifeng achievement set}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The base meta-achievement excludes Hexi and later regional additions, so it can register before all 61 current Steam entries are complete.",
+        "steps": [
+          {
+            "id": "hero-qinghe",
+            "text": "Complete every original Steam achievement assigned to @loc{Qinghe}."
+          },
+          {
+            "id": "hero-kaifeng",
+            "text": "Complete every original Steam achievement assigned to @loc{Kaifeng} and the shared progression group."
+          },
+          {
+            "id": "hero-register",
+            "text": "Return to normal play after the last required base-set unlock so Steam awards the meta-achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1204016",
+      "displayName": "Goose Slayer",
+      "description": "Defeat the Demon Goose once.",
+      "hidden": true,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Fail the Demon Goose treatment near @loc{West Heavens Pier}, then defeat the hostile @enemy{Demon Goose}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The treatment minigame is the trigger for combat; repeatedly pressing the wrong prompt fails it, and Tai Chi can end the difficult fight by throwing the goose into the river.",
+        "steps": [
+          {
+            "id": "goose-find",
+            "text": "Near @loc{West Heavens Pier}, activate Wind Sense and approach the @enemy{Demon Goose}."
+          },
+          {
+            "id": "goose-fail",
+            "text": "Start the treatment minigame and deliberately fail it so the Demon Goose attacks."
+          },
+          {
+            "id": "goose-kill",
+            "text": "Defeat the Demon Goose with normal attacks or use @mechanic{Tai Chi} to throw it into the river."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201007",
+      "displayName": "Victory in the Abyss",
+      "description": "Defeat ​The Void King within 60s.",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "After completing @mechanic{Gleaming Abyss}, defeat the @enemy{Void King} within @mechanic{60 seconds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campaign unlocks the replayable boss fight, and lowering the difficulty plus improving gear makes the one-minute requirement substantially safer.",
+        "steps": [
+          {
+            "id": "void-unlock",
+            "text": "Complete the @mechanic{Gleaming Abyss} campaign to unlock the Void King fight."
+          },
+          {
+            "id": "void-prepare",
+            "text": "Equip a high-damage build and select an easier difficulty if the first attempt exceeds one minute."
+          },
+          {
+            "id": "void-speed",
+            "text": "Start the fight and defeat the @enemy{Void King} within @mechanic{60 seconds}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1002039",
+      "displayName": "Mighty Wolf Rider",
+      "description": "Defeat Wolf Maiden.",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Find and defeat the @enemy{Wolf Maiden} open-world boss in Kaifeng.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement is tied directly to the open-world boss kill and does not require a special finishing move.",
+        "steps": [
+          {
+            "id": "wolf-find",
+            "text": "Locate the @enemy{Wolf Maiden} boss marker in Kaifeng and enter the arena."
+          },
+          {
+            "id": "wolf-win",
+            "text": "Defeat the Wolf Maiden and remain through the encounter-completion result."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1406003",
+      "displayName": "Speedrun in Granary",
+      "description": "Defeat Zheng E within 180s.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "After @mechanic{Ever-Normal Granary}, defeat @enemy{Zheng E} within @mechanic{180 seconds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing the campaign unlocks the boss fight; stronger gear and an easier difficulty help preserve the three-minute margin.",
+        "steps": [
+          {
+            "id": "granary-unlock",
+            "text": "Complete the @mechanic{Ever-Normal Granary} campaign to unlock Zheng E's fight."
+          },
+          {
+            "id": "granary-speed",
+            "text": "Start the encounter with a high-damage build and defeat @enemy{Zheng E} within @mechanic{180 seconds}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201002",
+      "displayName": "Past Secrets Unsung",
+      "description": "Clear Campaign: Palace of Annals.",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Start @mechanic{Palace of Annals} from Journal > Campaign and complete its entire Qinghe campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Palace of Annals is also one of the prerequisites for Halo Peak and the final Qinghe route, so clearing it early avoids later backtracking.",
+        "steps": [
+          {
+            "id": "annals-track",
+            "text": "Open @mechanic{Journal > Campaign > Palace of Annals} and track the campaign."
+          },
+          {
+            "id": "annals-finish",
+            "text": "Complete every tracked Palace of Annals objective through the campaign conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201003",
+      "displayName": "Source of Still Shore",
+      "description": "Clear Campaign: Still Shore.",
+      "hidden": false,
+      "globalPercent": 29.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Start @mechanic{Still Shore} from Journal > Campaign and complete its entire Qinghe campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campaign can also be discovered at its world entrance, but the Journal > Campaign listing provides the direct tracked route.",
+        "steps": [
+          {
+            "id": "still-track",
+            "text": "Open @mechanic{Journal > Campaign > Still Shore} and track the campaign."
+          },
+          {
+            "id": "still-finish",
+            "text": "Follow the tracked Still Shore objectives through the campaign's final completion screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1405001",
+      "displayName": "Jinming Pool Secrets",
+      "description": "Clear Campaign: Jinming Pool.",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Start @mechanic{Jinming Pool} from Journal > Campaign and complete its entire Kaifeng campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Journal listing provides a direct route even if the campaign's physical world entrance has not been revisited.",
+        "steps": [
+          {
+            "id": "jinming-track",
+            "text": "Open @mechanic{Journal > Campaign > Jinming Pool} and track the campaign."
+          },
+          {
+            "id": "jinming-finish",
+            "text": "Complete every tracked Jinming Pool objective through the campaign conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1401015",
+      "displayName": "Savior of Kaifeng",
+      "description": "Clear Campaign: Heavenfall.",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Start @mechanic{Heavenfall} from Journal > Campaign and complete its entire Kaifeng campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is awarded by campaign completion, so optional Kaifeng exploration is not part of its unlock condition.",
+        "steps": [
+          {
+            "id": "heavenfall-track",
+            "text": "Open @mechanic{Journal > Campaign > Heavenfall} and track the campaign."
+          },
+          {
+            "id": "heavenfall-finish",
+            "text": "Complete every tracked Heavenfall objective through the campaign conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1002062",
+      "displayName": "Broken Spear Victory",
+      "description": "Defeat the Nameless General.",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Find and defeat the @enemy{Nameless General} open-world boss in Kaifeng.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is an open-world boss rather than a campaign completion reward, so the achievement appears when the Nameless General's fight itself ends.",
+        "steps": [
+          {
+            "id": "spear-find",
+            "text": "Locate the @enemy{Nameless General} boss marker in Kaifeng and enter the arena."
+          },
+          {
+            "id": "spear-win",
+            "text": "Defeat the Nameless General and remain through the encounter-completion result."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1403007",
+      "displayName": "Quick on the Uptake - Kaifeng",
+      "description": "Collect 250 Oddities in Kaifeng.",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–10 hrs",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Collect @mechanic{250 Oddities} throughout Kaifeng.",
+      "guide": {
+        "kind": "standard",
+        "context": "Oddities are Kaifeng's peculiar open-world challenges, and their large total makes it efficient to clear each one encountered during quests and chest routes.",
+        "steps": [
+          {
+            "id": "kaifeng-oddities",
+            "text": "Complete Kaifeng's Oddities and peculiar challenges until the regional counter reaches @mechanic{250}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1203005",
+      "displayName": "Qinghe · Seeker of Melodies",
+      "description": "Complete 150 peculiar challenges in the Qinghe area.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–10 hrs",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete @mechanic{150 Oddities or peculiar challenges} across Qinghe.",
+      "guide": {
+        "kind": "standard",
+        "context": "These small open-world activities are distributed throughout the region, so the efficient route is to clear them while traveling between quests and chests.",
+        "steps": [
+          {
+            "id": "qinghe-oddities",
+            "text": "Complete Qinghe's marked peculiar challenges and collected Oddities until the regional counter reaches @mechanic{150}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1203003",
+      "displayName": "Quick on the Uptake - Qinghe",
+      "description": "Collect 40 chests.",
+      "hidden": false,
+      "globalPercent": 33.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Open @mechanic{40 treasure chests} within the Qinghe region.",
+      "guide": {
+        "kind": "standard",
+        "context": "Qinghe contains far more than 40 chests, so opening visible chests during story, campaign, and exploration routes steadily advances the same regional total.",
+        "steps": [
+          {
+            "id": "qinghe-chests",
+            "text": "Explore Qinghe and open every visible treasure chest until the regional count reaches @mechanic{40}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1403003",
+      "displayName": "Every Inch Covered - Kaifeng",
+      "description": "Collect 40 chests in Kaifeng.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Open @mechanic{40 treasure chests} within the Kaifeng region.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is regional, and the many chests found during campaigns and exploration can be combined rather than collected from one sub-area.",
+        "steps": [
+          {
+            "id": "kaifeng-chests",
+            "text": "Explore Kaifeng and open every visible treasure chest until the regional count reaches @mechanic{40}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1202003",
+      "displayName": "Horizon Seeker",
+      "description": "Reach the highest point in Qinghe: Moonveil Mountain Tower.",
+      "hidden": false,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Climb to the highest point of @loc{Moonveil Mountain Tower} in Qinghe.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement checks reaching the top rather than completing a separate quest, so it can be collected whenever free exploration reaches the tower.",
+        "steps": [
+          {
+            "id": "horizon-climb",
+            "text": "Travel to @loc{Moonveil Mountain Tower} in Qinghe and climb the structure to its highest reachable point."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1402003",
+      "displayName": "Peak of All Arts",
+      "description": "Reach the highest point, East of Beast Reverie, in the Fair Grounds of Kaifeng.",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "East of Beast Reverie in Kaifeng's @loc{Fair Grounds}, climb to the highest point of the tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "The unlock checks elevation at the landmark rather than campaign progress, so the tower can be climbed during ordinary free exploration.",
+        "steps": [
+          {
+            "id": "peak-travel",
+            "text": "Travel to the @loc{Fair Grounds} in Kaifeng and move east of Beast Reverie."
+          },
+          {
+            "id": "peak-climb",
+            "text": "Climb the area's tallest tower to its highest reachable point."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1204001",
+      "displayName": "Paws on Point - Qinghe",
+      "description": "Solve 10 Meow Meow Puzzles in Qinghe.",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Clear @mechanic{10} of Qinghe's @mechanic{Meow Meow Puzzles}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completed and available Meow Meow activities use cat-paw markers on the world map, making the regional count easier to route alongside chest cleanup.",
+        "steps": [
+          {
+            "id": "qinghe-paws",
+            "text": "Use the Qinghe map's @mechanic{cat-paw icons} to locate and solve ten different Meow Meow Puzzles."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404001",
+      "displayName": "Feline Riddler - Kaifeng",
+      "description": "Solve 5 Meow Meow Puzzles in Kaifeng.",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Clear @mechanic{5} of Kaifeng's @mechanic{Meow Meow Puzzles}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kaifeng cat puzzles use the same cat-paw map icon as Qinghe, but only five completions are required here.",
+        "steps": [
+          {
+            "id": "kaifeng-paws",
+            "text": "Use the Kaifeng map's @mechanic{cat-paw icons} to locate and solve five different Meow Meow Puzzles."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201020",
+      "displayName": "Life Goes to Dogs",
+      "description": "Transform into a rural dog once.",
+      "hidden": true,
+      "globalPercent": 12.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "At @loc{Blissful Retreat}, interact with the dogs to transform into a rural dog once.",
+      "guide": {
+        "kind": "standard",
+        "context": "After the Qinghe main story removes the outdoor dogs, the nearby sword opens a Blissful Retreat dreamscape where the same transformation remains obtainable.",
+        "steps": [
+          {
+            "id": "dogs-travel",
+            "text": "Fast travel to @loc{Blissful Retreat} and check for the dogs outside the nearby house."
+          },
+          {
+            "id": "dogs-dream",
+            "text": "If the dogs are absent after the Qinghe story, interact with the nearby sword to enter the @mechanic{Blissful Retreat dreamscape}."
+          },
+          {
+            "id": "dogs-transform",
+            "text": "Approach the dogs in the normal area or dreamscape and use their interaction to transform into a rural dog."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1205006",
+      "displayName": "The Old Timer Got It",
+      "description": "Get defeated by Elder Gongsun in a Sparring match.",
+      "hidden": true,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Challenge @npc{Elder Gongsun} at Generals Shrine to Sparring and let him defeat the player character.",
+      "guide": {
+        "kind": "standard",
+        "context": "A story encounter can award this naturally, but the Generals Shrine rematch provides a reliable cleanup opportunity.",
+        "steps": [
+          {
+            "id": "old-travel",
+            "text": "Fast travel to @loc{Generals Shrine} and speak with @npc{Elder Gongsun}."
+          },
+          {
+            "id": "old-lose",
+            "text": "Start a Sparring match and stop attacking until Elder Gongsun defeats the player character."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "301009",
+      "displayName": "Echoes Unbound",
+      "description": "Reach Avg. Enhancement Lv.5.",
+      "hidden": false,
+      "globalPercent": 19.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Raise the displayed @mechanic{average gear enhancement level} to 5 by enhancing every gear category evenly.",
+      "guide": {
+        "kind": "standard",
+        "context": "The average is limited by under-upgraded categories, so concentrating materials in one weapon or armor slot will not efficiently increase this counter.",
+        "steps": [
+          {
+            "id": "echoes-open",
+            "text": "Open @mechanic{Develop > Gear > Enhance} and review the level shown for every gear category."
+          },
+          {
+            "id": "echoes-balance",
+            "text": "Upgrade the lowest categories first until the displayed average enhancement level reaches @mechanic{5}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "301011",
+      "displayName": "Power of Four",
+      "description": "Equip 4 Internal Arts.",
+      "hidden": false,
+      "globalPercent": 17.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Equip @mechanic{4 Internal Arts} simultaneously in Develop > Abilities > Inner Way.",
+      "guide": {
+        "kind": "standard",
+        "context": "Selecting an empty Inner Way slot shows how its missing Internal Arts can be obtained, while ordinary progression awards more than the four required.",
+        "steps": [
+          {
+            "id": "four-open",
+            "text": "Open @mechanic{Develop > Abilities > Inner Way}."
+          },
+          {
+            "id": "four-equip",
+            "text": "Fill four Inner Way slots with four different @mechanic{Internal Arts} at the same time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "301010",
+      "displayName": "Perfect Harmony",
+      "description": "Tune an Epic gear to max level.",
+      "hidden": false,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Tune one equipped @item{Epic gear piece} to its maximum @mechanic{300/300} score and confirm the result.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gear consumed for tuning is permanently removed, so feed unused pieces rather than equipment reserved for another build.",
+        "steps": [
+          {
+            "id": "harmony-select",
+            "text": "Open @mechanic{Develop > Gear}, select an equipped Epic item, and choose @mechanic{Tune}."
+          },
+          {
+            "id": "harmony-feed",
+            "text": "Select enough unused gear to fill the tuning meter to @mechanic{300/300}."
+          },
+          {
+            "id": "harmony-confirm",
+            "text": "Confirm the completed tune to apply the maximum score."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "301007",
+      "displayName": "First Resonance",
+      "description": "Enhance a piece of gear to Lv.2.",
+      "hidden": false,
+      "globalPercent": 41.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Upgrade any @item{gear piece} from level 1 to @mechanic{level 2} in the Enhance menu.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gear enhancement is available under Develop > Gear, and this first upgrade requires only one item rather than an average across the loadout.",
+        "steps": [
+          {
+            "id": "first-resonance-menu",
+            "text": "Open @mechanic{Develop > Gear > Enhance} and select any level 1 gear piece."
+          },
+          {
+            "id": "first-resonance-upgrade",
+            "text": "Spend the displayed materials to raise the selected gear piece to @mechanic{level 2}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "301001",
+      "displayName": "Skill at Hand",
+      "description": "Upgrade a Martial Style to Lv. 30.",
+      "hidden": false,
+      "globalPercent": 21.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Upgrade one @mechanic{Martial Style} to @mechanic{level 30} through Develop > Abilities > Martial Arts.",
+      "guide": {
+        "kind": "standard",
+        "context": "Normal story and side-activity progress supplies the required materials; selecting a missing resource in the upgrade screen shows its available acquisition routes.",
+        "steps": [
+          {
+            "id": "skill-open",
+            "text": "Open @mechanic{Develop > Abilities > Martial Arts > Upgrade} and select one Martial Style."
+          },
+          {
+            "id": "skill-level",
+            "text": "Spend the listed resources until the selected Martial Style reaches @mechanic{level 30}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "401001",
+      "displayName": "Healing Hands",
+      "description": "Master the Panacea Fan.",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "In eastern Qinghe, find the cave east of the large river bend, interact with the statue outside its entrance, and complete the @mechanic{Panacea Fan Ability Steal}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mastery activity remains available even if another route has already unlocked the Panacea Fan, so owning the weapon does not block the achievement.",
+        "steps": [
+          {
+            "id": "fan-locate",
+            "text": "In eastern Qinghe, travel east of the large river bend to the cave shown on the regional map."
+          },
+          {
+            "id": "fan-steal",
+            "text": "Outside the cave door, interact with the small stone statue, then complete the full Ability Steal sequence for the @item{Panacea Fan}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "401004",
+      "displayName": "The Grand Strategist",
+      "description": "Master the Strategic Sword.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "At the southeastern coastal cave beside a small inland pool, activate the statue and complete the @mechanic{Strategic Sword Ability Steal}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock comes from the dedicated Ability Steal activity rather than ordinary Strategic Sword combat or weapon upgrading.",
+        "steps": [
+          {
+            "id": "sword-locate",
+            "text": "Travel to the southeastern coast and find the cave beside the small inland pool shown on the regional map."
+          },
+          {
+            "id": "sword-steal",
+            "text": "Interact with the small stone statue outside the cave, then finish the Ability Steal sequence to master the @item{Strategic Sword}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201018",
+      "displayName": "The Final Destiny - Qinghe",
+      "description": "Unlock the ending of main story of Qinghe.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2–10 hrs",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Reach @mechanic{100% Qinghe Tales and Echoes}, complete @mechanic{The Promised Light}, and open the final story door.",
+      "guide": {
+        "kind": "standard",
+        "context": "Full Qinghe journal completion requires every Bright Tide node, the Halo Peak campaign, and all seven Dark Surge stories before the unknown ending becomes available.",
+        "steps": [
+          {
+            "id": "destiny-bright",
+            "text": "Complete all Qinghe main-story quests so every @mechanic{Bright Tide} node is unlocked."
+          },
+          {
+            "id": "destiny-dark",
+            "text": "Unlock all @mechanic{7 Qinghe Dark Surge stories} and complete Halo Peak."
+          },
+          {
+            "id": "destiny-legacy",
+            "text": "Finish @mechanic{Final: The Promised Light} and confirm Qinghe Tales and Echoes shows 100%."
+          },
+          {
+            "id": "destiny-door",
+            "text": "Travel to the final indicated door and open it to trigger the unknown Qinghe ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201011",
+      "displayName": "Buddha's Afterglow",
+      "description": "Clear Campaign: Halo Peak.",
+      "hidden": false,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete @mechanic{The Promised Light} after clearing Palace of Annals and Bodhi Sea and reaching @mechanic{6,000 Qinghe exploration points}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Exploration points come from side quests, Boundary Stones, Meow Meow Puzzles, and other Qinghe open-world activities.",
+        "steps": [
+          {
+            "id": "halo-prereqs",
+            "text": "Clear both required campaigns: @mechanic{Palace of Annals} and @mechanic{Bodhi Sea}."
+          },
+          {
+            "id": "halo-exploration",
+            "text": "Raise Qinghe exploration to @mechanic{6,000 points} through regional activities."
+          },
+          {
+            "id": "halo-finish",
+            "text": "In the Jianghu Legacy journal, select @mechanic{Final: The Promised Light} and finish that questline."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "101022",
+      "displayName": "The First Finding",
+      "description": "Unlock a Dark Surge story.",
+      "hidden": false,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Collect every fragment for any one @mechanic{Dark Surge story} and unlock that story in Journal > Tales and Echoes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Fragments come from specific side quests, NPC conversations, collectibles, and other regional activities; the journal records each incomplete story separately.",
+        "steps": [
+          {
+            "id": "finding-journal",
+            "text": "Open @mechanic{Journal > Tales and Echoes > Dark Surge} and select one incomplete Dark Surge story."
+          },
+          {
+            "id": "finding-fragments",
+            "text": "Complete the listed regional activities until every fragment for that Dark Surge story is collected."
+          },
+          {
+            "id": "finding-unlock",
+            "text": "Return to the Dark Surge journal and unlock the completed story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1401009",
+      "displayName": "Voice of the Valiant",
+      "description": "Complete the final Kaifeng main-story quest.",
+      "hidden": true,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete the final @mechanic{Kaifeng main-story quest}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hidden achievement is tied to the conclusion of Kaifeng's main route rather than a separate optional interaction.",
+        "steps": [
+          {
+            "id": "valiant-story",
+            "text": "Continue the Kaifeng main story through its final quest and complete the concluding objective."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1201005",
+      "displayName": "Quirks of Fate - Qinghe",
+      "description": "Complete 3 encounters in Qinghe.",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Accept and complete any @mechanic{3 Encounter quests} in Qinghe.",
+      "guide": {
+        "kind": "standard",
+        "context": "An unaccepted Encounter appears as a question-mark icon and can disappear after a short time; accepting it preserves the quest in the Encounter menu.",
+        "steps": [
+          {
+            "id": "qf-qinghe-find",
+            "text": "Explore Qinghe until a question-mark @mechanic{Encounter} icon appears, then accept the quest before the icon vanishes."
+          },
+          {
+            "id": "qf-qinghe-complete",
+            "text": "Complete the accepted Encounter and use @mechanic{Quest > Encounter > Encounter Journal} to find more hints."
+          },
+          {
+            "id": "qf-qinghe-three",
+            "text": "Finish three different Qinghe Encounter quests."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1401002",
+      "displayName": "Quirks of Fate - Kaifeng",
+      "description": "Complete 3 encounters in Southeast Kaifeng.",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Accept and complete any @mechanic{3 Encounter quests} in Southeast Kaifeng.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unaccepted question-mark encounters can disappear; the Encounter Journal retains accepted quests and provides activation hints for undiscovered entries.",
+        "steps": [
+          {
+            "id": "qf-kaifeng-find",
+            "text": "Explore Southeast Kaifeng, accept a question-mark @mechanic{Encounter} before it disappears, and complete the quest."
+          },
+          {
+            "id": "qf-kaifeng-three",
+            "text": "Use @mechanic{Quest > Encounter > Encounter Journal} for activation hints and finish three Southeast Kaifeng Encounters."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1406001",
+      "displayName": "A Promise Fulfilled",
+      "description": "Witness the full Granary of Plenty grain-relief story.",
+      "hidden": true,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "After @mechanic{Ever-Normal Granary}, speak to Zheng E, leave the village note, then collect Zheng E's letter from his former house.",
+      "guide": {
+        "kind": "standard",
+        "context": "Quest markers stop after the campaign, and Zheng E may require one or two in-game days to appear before the unmarked epilogue can begin.",
+        "steps": [
+          {
+            "id": "promise-campaign",
+            "text": "Complete the full @mechanic{Ever-Normal Granary} campaign."
+          },
+          {
+            "id": "promise-zheng",
+            "text": "Wait one or two in-game days if needed, then return to the campaign area and speak with @npc{Zheng E}."
+          },
+          {
+            "id": "promise-note",
+            "text": "Travel to the indicated village house and leave the requested note inside."
+          },
+          {
+            "id": "promise-letter",
+            "text": "Return to Zheng E's former house and pick up the letter he left there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1503002",
+      "displayName": "Hexi: Relentless Hunter",
+      "description": "Collect 20 chests of any quality in Hexi.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Open @mechanic{20 treasure chests} of any quality within Hexi.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every chest quality contributes to the same regional total, so common chests found along the Hexi story route are sufficient.",
+        "steps": [
+          {
+            "id": "hexi-chests",
+            "text": "Explore Hexi and open treasure chests of any quality until the regional count reaches @mechanic{20}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1504001",
+      "displayName": "Hexi: Paws on Point",
+      "description": "Solve 6 Meow Meow Puzzles in Hexi.",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Solve @mechanic{6 Meow Meow Puzzles} within Hexi.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hexi uses the same cat-paw activity markers as the earlier regions, allowing the six puzzles to be routed during chest cleanup.",
+        "steps": [
+          {
+            "id": "hexi-paws",
+            "text": "Use the Hexi map's @mechanic{cat-paw icons} to locate and solve six different Meow Meow Puzzles."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1502009",
+      "displayName": "A Fish Out of Water",
+      "description": "A fish atop the tallest tree? In this desert, anything goes.",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "In @loc{Jade Gate Pass}, climb the large tree to its highest branch.",
+      "guide": {
+        "kind": "standard",
+        "context": "This exploration unlock checks the top of the tree rather than a collectible or quest completion.",
+        "steps": [
+          {
+            "id": "fish-tree",
+            "text": "Travel to @loc{Jade Gate Pass}, locate the area's large tree, and climb to its highest reachable point."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1501001",
+      "displayName": "Cat Fever",
+      "description": "Unlock the Cat Fever Encounter after completing its prerequisites.",
+      "hidden": true,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete @mechanic{Tale A Tassel} and @mechanic{The Final Retreat}, then pet the nearby cat @mechanic{5 times}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each pet interaction has roughly a three-second cooldown, and merely unlocking the Cat Fever Encounter is sufficient; the Encounter itself does not need to be completed.",
+        "steps": [
+          {
+            "id": "cat-tassel",
+            "text": "Start @mechanic{Tale A Tassel} by speaking with @npc{Granny Pan}, steal the requested item, and report to @npc{Young Yichao}."
+          },
+          {
+            "id": "cat-retreat",
+            "text": "Continue the linear Wandering Tale route and complete @mechanic{The Final Retreat}."
+          },
+          {
+            "id": "cat-pet",
+            "text": "At the nearby cat, wait for the interaction cooldown and pet the cat five separate times until @mechanic{Cat Fever} appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1501024",
+      "displayName": "Swift Annihilation",
+      "description": "Defeat Wucan within 180 seconds.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Find @enemy{Wucan} in Liangzhou and defeat the boss within @mechanic{180 seconds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The three-minute challenge is easier with upgraded gear and a lower difficulty, and the timer applies to the boss fight rather than travel to the arena.",
+        "steps": [
+          {
+            "id": "wucan-find",
+            "text": "Travel to @loc{Liangzhou}, locate the @enemy{Wucan} boss encounter, and prepare a high-damage build."
+          },
+          {
+            "id": "wucan-speed",
+            "text": "Start the encounter and defeat Wucan within @mechanic{180 seconds}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1504019",
+      "displayName": "Egg-cellent Luck",
+      "description": "Perform a 10x smash in Wang Quanyou's egg-smashing game.",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Buy @mechanic{10 hammers} from @npc{Wang Quanyou} in Liangzhou and perform one 10x egg smash.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement checks the bundled 10x action, so ten separate single smashes are not the same requirement.",
+        "steps": [
+          {
+            "id": "egg-find",
+            "text": "In @loc{Liangzhou}, speak with @npc{Wang Quanyou} at the egg-smashing game."
+          },
+          {
+            "id": "egg-buy",
+            "text": "Spend the requested money on ten hammers and select the @mechanic{10x smash} option."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1505021",
+      "displayName": "Alone in Chang'an",
+      "description": "Complete Hexi Jianghu Legacy: The Homeward Vow.",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Start @mechanic{The Homeward Vow} from Hexi's Jianghu Legacy journal and complete the questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Jianghu Legacy becomes available after reaching Liangzhou, so no separate collectible threshold is required to begin it.",
+        "steps": [
+          {
+            "id": "homeward-open",
+            "text": "After reaching @loc{Liangzhou}, open @mechanic{Journal > Jianghu Legacy} and track The Homeward Vow."
+          },
+          {
+            "id": "homeward-finish",
+            "text": "Complete every tracked objective through the conclusion of @mechanic{The Homeward Vow}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1501032",
+      "displayName": "Hexi: Full Moon Rising",
+      "description": "Unlock all Tales and Echoes in Hexi.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–10 hrs",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Reach @mechanic{100% Hexi Tales and Echoes} by unlocking every Bright Tide and Dark Surge node.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bright Tide nodes come from the Hexi main story, while Dark Surge nodes require the region's separate fragment-based stories.",
+        "steps": [
+          {
+            "id": "hexi-bright",
+            "text": "Complete every Hexi main-story quest so all @mechanic{Bright Tide} nodes are unlocked."
+          },
+          {
+            "id": "hexi-dark",
+            "text": "Collect the required fragments and unlock every Hexi @mechanic{Dark Surge story}."
+          },
+          {
+            "id": "hexi-full",
+            "text": "Open @mechanic{Journal > Tales and Echoes} and confirm Hexi displays 100%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1505051",
+      "displayName": "A Squeak to Remember",
+      "description": "The tiny squeak of a woodchuck sealed your defeat.",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "On @loc{Qinchuan Path}, approach the woodchuck guarding a treasure chest and let the @enemy{woodchuck} defeat the player character.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement requires losing to this specific small enemy, so killing it or only opening the nearby treasure does not satisfy the condition.",
+        "steps": [
+          {
+            "id": "squeak-find",
+            "text": "Travel along @loc{Qinchuan Path} and locate the woodchuck sitting in front of a treasure chest."
+          },
+          {
+            "id": "squeak-lose",
+            "text": "Approach the @enemy{woodchuck}, avoid retaliating, and allow its attack to defeat the player character."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1501031",
+      "displayName": "Reflections of Obsession",
+      "description": "Clear Campaign - Dim Lamp Night.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Progress @mechanic{Final: Gone with the Wind} and defeat @enemy{Azure Glow} during the Dim Lamp Night campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final Jianghu Legacy entry appears only after enough Hexi story progress, so it may not be selectable on the first visit to Qinchuan Path.",
+        "steps": [
+          {
+            "id": "lamp-unlock",
+            "text": "Advance Hexi's story until the Jianghu Legacy journal lists @mechanic{Final: Gone with the Wind}."
+          },
+          {
+            "id": "lamp-boss",
+            "text": "Track the questline and continue through @mechanic{Dim Lamp Night} until @enemy{Azure Glow} is defeated."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "9999001",
+      "displayName": "The Unspeakable Victory",
+      "description": "Defeat every required campaign boss using Goosy Slide.",
+      "hidden": true,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2–10 hrs",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Use @mechanic{Goosy Slide} to defeat every required Campaign Challenge boss through @enemy{Guoxin}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Goosy Slide has a 25% instant-defeat chance on active bosses. Heartseeker, Qianye, God of Avarice, Liangzhou bosses, and later additions are outside the required through-Guoxin set.",
+        "steps": [
+          {
+            "id": "goosy-equip",
+            "text": "Equip the @mechanic{Goosy Slide} Mystic Skill."
+          },
+          {
+            "id": "goosy-menu",
+            "text": "Enter @mechanic{Wandering Paths}, open Challenges, choose Campaign Challenge, and select a required boss marked Resting."
+          },
+          {
+            "id": "goosy-defeat",
+            "text": "Stand before the boss and use Goosy Slide for the instant defeat; if the boss is active, recast whenever available until the 25% effect triggers."
+          },
+          {
+            "id": "goosy-all",
+            "text": "Apply the Goosy Slide defeat to every required campaign boss up to and including @enemy{Guoxin}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1401079",
+      "displayName": "All Hail Me",
+      "description": "Your martial prowess is the stuff of legend. Someone fetch the imperial robes. They were made for you.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "After completing @mechanic{Confinement Tower}, defeat @enemy{The Lone Tyrant} within @mechanic{180 seconds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campaign unlocks the boss fight, and the timer begins with combat rather than during the prerequisite campaign.",
+        "steps": [
+          {
+            "id": "tyrant-unlock",
+            "text": "Complete the @mechanic{Confinement Tower} campaign to unlock The Lone Tyrant encounter."
+          },
+          {
+            "id": "tyrant-speed",
+            "text": "Use a high-damage build and defeat @enemy{The Lone Tyrant} within @mechanic{180 seconds}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1402012",
+      "displayName": "The Grand Tour",
+      "description": "If the Emperor can wander these halls, so can you. Every last room of them.",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Discover and activate every @mechanic{Boundary Stone} in the Imperial Palace region.",
+      "guide": {
+        "kind": "standard",
+        "context": "Boundary Stones function as the area's travel network, so activating each newly reached stone reduces later cleanup travel.",
+        "steps": [
+          {
+            "id": "tour-stones",
+            "text": "Explore every Imperial Palace sub-area and activate each @mechanic{Boundary Stone} until none remain undiscovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404145",
+      "displayName": "Strength of Character",
+      "description": "Anyone can win by force, but true loyalty can't be beaten into someone. Earn it.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete @mechanic{Palm of Health}, then finish @mechanic{5 Ultimate Slap events}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ultimate Slap events do not become available until the Palm of Health side quest has been completed.",
+        "steps": [
+          {
+            "id": "slap-unlock",
+            "text": "Finish the side quest named @mechanic{Palm of Health}; its completion makes Ultimate Slap activities available."
+          },
+          {
+            "id": "slap-five",
+            "text": "Locate and successfully finish five separate @mechanic{Ultimate Slap events}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1002134",
+      "displayName": "We're Cool Now",
+      "description": "Cross blades with the Black-Clad Thief under the moonlight.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete the @mechanic{Sealed Treasury} campaign and its moonlit fight against the @enemy{Black-Clad Thief}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The encounter is part of the campaign route, so starting Sealed Treasury from the Journal provides the required setup and time of day.",
+        "steps": [
+          {
+            "id": "treasury-track",
+            "text": "Open @mechanic{Journal > Campaign > Sealed Treasury} and track the campaign."
+          },
+          {
+            "id": "treasury-finish",
+            "text": "Complete every objective, including the moonlit battle with the @enemy{Black-Clad Thief}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404142",
+      "displayName": "The Real Treasure",
+      "description": "The palace holds more than silver and gold. Some things money simply can't buy.",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Follow the @mechanic{Art in Cricket} side quest and catch one @item{golden cricket}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest introduces the cricket-catching mechanic and awards the required golden specimen during its normal objective chain.",
+        "steps": [
+          {
+            "id": "cricket-track",
+            "text": "Start and track the Imperial Palace side quest @mechanic{Art in Cricket}."
+          },
+          {
+            "id": "cricket-catch",
+            "text": "Follow the quest objectives and successfully catch the @item{golden cricket}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "801020",
+      "displayName": "King for a Day",
+      "description": "Sit on the imperial throne.",
+      "hidden": true,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Enter the Imperial Palace throne room and use @mechanic{Sit} on the imperial throne.",
+      "guide": {
+        "kind": "standard",
+        "context": "The unlock is attached to the throne interaction itself rather than completing a palace campaign.",
+        "steps": [
+          {
+            "id": "king-throne",
+            "text": "Travel to the @loc{Imperial Palace throne room}, approach the imperial throne, and select @mechanic{Sit}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1601006",
+      "displayName": "A Heart in Ruins",
+      "description": "Some wounds are not carved in flesh, but in the soul itself.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "Complete the Hidden Mountain @mechanic{Changeless Heart} campaign involving the underwater-breathing bell.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching the underwater city does not end the route; the campaign must continue through the concluding Changeless Heart objective.",
+        "steps": [
+          {
+            "id": "heart-ruins-track",
+            "text": "Open Hidden Mountain's campaign journal and track @mechanic{Changeless Heart}."
+          },
+          {
+            "id": "heart-ruins-finish",
+            "text": "Complete the campaign objectives through the underwater-breathing-bell city and its conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1601004",
+      "displayName": "Heart of Gold",
+      "description": "Every story needs an ending. You chose to make this one gentle.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "Complete @mechanic{Honor Among Thieves} on the coast west of @loc{Millennium Crossing}, then give the former prisoner his letter.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two completed encounters can make Honor Among Thieves appear: @mechanic{A Mound of Murmurs} and @mechanic{Tale Within Tale}. The prisoner may be standing on the ground or waiting in a nearby tree.",
+        "steps": [
+          {
+            "id": "gold-prerequisites",
+            "text": "Finish @mechanic{A Mound of Murmurs}. Also finish @mechanic{Tale Within Tale}."
+          },
+          {
+            "id": "gold-find",
+            "text": "Travel to the coast directly west of @loc{Millennium Crossing} and speak with the prisoner to start @mechanic{Honor Among Thieves}; if he is in the tree, jump up until the talk interaction appears."
+          },
+          {
+            "id": "gold-rescue",
+            "text": "Complete every tracked Honor Among Thieves objective through the encounter's conclusion."
+          },
+          {
+            "id": "gold-letter",
+            "text": "After the encounter ends, speak with the former prisoner and give him his letter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1604007",
+      "displayName": "Boop the Snoot",
+      "description": "Just one little boop. What could go wrong?",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "During the @mechanic{Wooden Chicken} material objective, find and pet the @npc{baby boar} in the ground hollow.",
+      "guide": {
+        "kind": "standard",
+        "context": "Several adult boars surround the correct hollow; the required interaction is with the smaller baby boar inside it.",
+        "steps": [
+          {
+            "id": "boop-objective",
+            "text": "Progress the Hidden Mountain mission until the objective says to collect materials for the @item{Wooden Chicken}."
+          },
+          {
+            "id": "boop-find",
+            "text": "Within the Wooden Chicken objective area, find the small ground hollow surrounded by adult boars and approach the @npc{baby boar} inside."
+          },
+          {
+            "id": "boop-pet",
+            "text": "Use the pet interaction on the baby boar."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1604026",
+      "displayName": "No Mountain High Enough",
+      "description": "I ask every mountain here: which of you dares stand taller?",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "Climb the large rock pillar directly west of @loc{Gaping Chasm Boundary Stone} and approach the @mechanic{6 summit chests}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tightly grouped six chests identify the correct summit, distinguishing this rock pillar from the other climbable peaks west of Gaping Chasm.",
+        "steps": [
+          {
+            "id": "mountain-travel",
+            "text": "Fast travel to @loc{Gaping Chasm Boundary Stone} and face directly west."
+          },
+          {
+            "id": "mountain-climb",
+            "text": "Reach and climb the large rock pillar to its summit."
+          },
+          {
+            "id": "mountain-chests",
+            "text": "Approach the cluster of @mechanic{six treasure chests} at the top."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404095",
+      "displayName": "A Flawed Ascension",
+      "description": "Complete Hidden Mountain Campaign - Skyward City Ruins",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete the Hidden Mountain campaign @mechanic{Skyward City Ruins}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is tied to the campaign conclusion rather than the separate Hidden Mountain exploration interactions.",
+        "steps": [
+          {
+            "id": "ascension-track",
+            "text": "Open Hidden Mountain's campaign journal and track @mechanic{Skyward City Ruins}."
+          },
+          {
+            "id": "ascension-finish",
+            "text": "Complete every tracked Skyward City Ruins objective through the campaign conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404107",
+      "displayName": "High Spirits",
+      "description": "Never fly a bird while drunk, unless you're in a dream.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "In a Hidden Mountain dream, make the player character drunk and complete the @mechanic{bird-flight sequence}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both conditions must overlap: the player character must be drunk during the bird flight inside a Hidden Mountain dream.",
+        "steps": [
+          {
+            "id": "spirits-dream",
+            "text": "Enter a Hidden Mountain dream that presents a bird-flight sequence."
+          },
+          {
+            "id": "spirits-drink",
+            "text": "Before taking flight, consume alcohol until the player character receives the game's drunken state."
+          },
+          {
+            "id": "spirits-fly",
+            "text": "Complete the bird-flight sequence while the drunken state is active."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404092",
+      "displayName": "Sky's the Limit",
+      "description": "Always strive to fly higher, no matter the time or place.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "Completing @mechanic{Sky's the Limit} currently closes the Wandering Tale but does not award its Steam achievement; start the tale from @npc{Zhou Fei} northwest of @loc{Millennium Crossing Landmark}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This Wandering Tale requires two separate four-day waits. Advancing time with @mechanic{Shen — Day After Tomorrow} twice completes each wait quickly.",
+        "steps": [
+          {
+            "id": "sky-start",
+            "text": "In Hidden Mountain's Shenze area, climb the rocky hills northwest of the @loc{Millennium Crossing Landmark} fast-travel point and speak with @npc{Zhou Fei}."
+          },
+          {
+            "id": "sky-book",
+            "text": "Go to Zhou Fei's right and collect the @item{Swordsman Book}."
+          },
+          {
+            "id": "sky-first-poultice",
+            "text": "Search the cave-like workshop northwest of the Millennium Crossing Landmark fast-travel point and collect the first @item{Trauma Poultice} from the shelter roof."
+          },
+          {
+            "id": "sky-first-return",
+            "text": "Return to Zhou Fei, give him the Trauma Poultice, and advance four in-game days."
+          },
+          {
+            "id": "sky-second-poultice",
+            "text": "Speak with Zhou Fei at the same location, return to the workshop, collect the second Trauma Poultice near the ladder, and give it to him."
+          },
+          {
+            "id": "sky-second-wait",
+            "text": "Advance another four in-game days; Zhou Fei will leave his previous location."
+          },
+          {
+            "id": "sky-finish",
+            "text": "Climb the stone mountain northwest of the Millennium Crossing Landmark fast-travel point, use the tale's sensing ability to follow the path, leap onto the upper stone, and collect the @item{Flight Experiment Journal}. The journal finishes the tale, but the current update does not award the Steam achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1604093",
+      "displayName": "My Domain, My Rules",
+      "description": "Allow no one to sleep peacefully in your domain.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "No current Hidden Mountain domain interaction can unlock @mechanic{My Domain, My Rules}; a future update must add the condition that prevents anyone from sleeping peacefully.",
+      "guide": {
+        "kind": "standard",
+        "context": "Four other new Hidden Mountain achievements are obtainable in the current update. The domain entry remains outside that available set.",
+        "steps": [
+          {
+            "id": "domain-wait",
+            "text": "Wait for a content update that adds the Hidden Mountain domain activity, then complete its sleep-disruption condition."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404123",
+      "displayName": "Mountain of Skulls",
+      "description": "Add your enemies' heads to the macabre monument.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "In Hidden Mountain, place defeated enemies' heads on the @mechanic{macabre skull monument}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement connects combat spoils to a specific Hidden Mountain monument, so ordinary enemy defeats away from that monument do not complete the condition.",
+        "steps": [
+          {
+            "id": "skulls-defeat",
+            "text": "Defeat enemies in Hidden Mountain and retain the enemy heads used by the macabre monument."
+          },
+          {
+            "id": "skulls-add",
+            "text": "Bring the collected heads to the @mechanic{macabre skull monument} and add them to the display."
+          },
+          {
+            "id": "skulls-check",
+            "text": "Continue adding enemy heads until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1404076",
+      "displayName": "Undercover Boss",
+      "description": "Enter Derndale for the first time while wearing the Infinite Truths mask.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–60 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Equip the @item{Infinite Truths mask} before entering @loc{Derndale} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mask must already be visibly equipped when the first-entry transition occurs; carrying it in the inventory does not express the required disguise condition.",
+        "steps": [
+          {
+            "id": "undercover-mask",
+            "text": "Obtain the @item{Infinite Truths mask} and equip it on the player character."
+          },
+          {
+            "id": "undercover-enter",
+            "text": "While the Infinite Truths mask remains equipped, cross into @loc{Derndale} for the first time."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "301007",
+    "301009",
+    "301001",
+    "301010",
+    "301011",
+    "401001",
+    "401004",
+    "101022",
+    "1201003",
+    "1201002",
+    "1201011",
+    "1201018",
+    "1201005",
+    "1203003",
+    "1204001",
+    "1203005",
+    "1201007",
+    "1205006",
+    "1204016",
+    "1202003",
+    "1201020",
+    "1401009",
+    "1401002",
+    "1406001",
+    "1405001",
+    "1401015",
+    "1403003",
+    "1404001",
+    "1403007",
+    "1406003",
+    "1002062",
+    "1002039",
+    "1402003",
+    "1503002",
+    "1504001",
+    "1502009",
+    "1501001",
+    "1501024",
+    "1504019",
+    "1505021",
+    "1501032",
+    "1505051",
+    "1501031",
+    "9999001",
+    "1401079",
+    "1402012",
+    "1404145",
+    "1002134",
+    "1404142",
+    "801020",
+    "1601006",
+    "1601004",
+    "1604007",
+    "1604026",
+    "1404095",
+    "1404107",
+    "1404092",
+    "1604093",
+    "1404123",
+    "1404076",
+    "all_achievement"
+  ]
+}

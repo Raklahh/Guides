@@ -1,0 +1,435 @@
+{
+  "game": {
+    "appid": 3722330,
+    "slug": "shift-at-midnight",
+    "title": "Shift At Midnight",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-23",
+    "estTotalHours": 12,
+    "difficultyRating": 3,
+    "minPlaythroughs": 3,
+    "createdAt": "2026-07-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "True Ending and broad cleanup",
+      "description": "Use the first 13-shift run for the strict $250 True Ending while buying the full arsenal and killing the three Hunt enemies. Protect personal income by avoiding human kills.",
+      "achievementRefs": [
+        "ACH_FIRST_BLOOD",
+        "ACH_STILL_BREATHING",
+        "ACH_SILENCED",
+        "ACH_FREED",
+        "ACH_LAST_PERFORMANCE",
+        "ACH_LOCKED_AND_LOADED",
+        "ACH_TRUE_ENDING"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Fast Hunt and Grave Decision",
+      "description": "On a new run, prepare Shift 1 for a sub-30-second Hunt, then continue through Shift 12 and call Clyde to obtain Grave Decision.",
+      "achievementRefs": [
+        "ACH_RELENTLESS",
+        "ACH_GRAVE_DECISION"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Empty Home ending",
+      "description": "On the third run, keep Clyde alive, refuse to call him after Shift 12, and complete Shift 13 with less than $250 in personal funds.",
+      "achievementRefs": [
+        "ACH_EMPTY_HOME"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_FIRST_BLOOD",
+      "displayName": "First Blood",
+      "description": "Kill Your First Customer",
+      "hidden": false,
+      "globalPercent": 96.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill any store @npc{customer}; either a human or a doppelganger satisfies the first-customer kill.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killing a real human reduces personal income needed for the True Ending. The low-risk route is to identify a doppelganger, finish its transaction, and eliminate it afterward.",
+        "steps": [
+          {
+            "id": "first-blood-identify",
+            "text": "During a shift, identify a @enemy{doppelganger customer} and complete that customer's transaction."
+          },
+          {
+            "id": "first-blood-kill",
+            "text": "Use any available weapon to kill the doppelganger before the shift ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STILL_BREATHING",
+      "displayName": "Still Breathing",
+      "description": "Survive Your First Hunt",
+      "hidden": false,
+      "globalPercent": 92.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Trigger a @mechanic{Hunt} by serving a doppelganger or reaching a Blood Moon, then survive the complete nightly assault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Serving a doppelganger can start a Hunt before the first scripted Blood Moon, so this achievement does not require waiting for a particular late shift.",
+        "steps": [
+          {
+            "id": "still-breathing-trigger",
+            "text": "Serve a doppelganger during a shift, or continue Story Mode until the first @mechanic{Blood Moon} begins."
+          },
+          {
+            "id": "still-breathing-survive",
+            "text": "Use traps, boards, and weapons to stay alive until the Hunt ends and normal shift play resumes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SILENCED",
+      "displayName": "Silenced",
+      "description": "Kill a Shrieking Doll",
+      "hidden": false,
+      "globalPercent": 87.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hrs",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "During a @mechanic{Hunt}, find and kill one crawling @enemy{Shrieking Doll} accompanying the main entity.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shrieking Dolls are the small, crawling, baby-like enemies in an assault. They can be killed with normal weapons.",
+        "steps": [
+          {
+            "id": "silenced-start-hunt",
+            "text": "Trigger or reach a @mechanic{Hunt} and watch for the smaller enemies moving near the main entity."
+          },
+          {
+            "id": "silenced-kill-doll",
+            "text": "Identify a crawling @enemy{Shrieking Doll} and shoot or strike it until it dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FREED",
+      "displayName": "Freed",
+      "description": "Kill a Demented",
+      "hidden": false,
+      "globalPercent": 75.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hrs",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Place a @item{Bear Trap} in a @enemy{Demented}'s path during a Hunt, look away so it moves, and let the trap kill it.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Demented behaves like a weeping angel: direct observation freezes it, while breaking line of sight lets it advance.",
+        "steps": [
+          {
+            "id": "freed-find-demented",
+            "text": "During a @mechanic{Hunt}, identify the humanoid @enemy{Demented} that stops moving while you look directly at it."
+          },
+          {
+            "id": "freed-place-trap",
+            "text": "Place a @item{Bear Trap} on the floor between the Demented and your position."
+          },
+          {
+            "id": "freed-break-sight",
+            "text": "Look away from the Demented so it walks forward and enters the Bear Trap."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LAST_PERFORMANCE",
+      "displayName": "Last Performance",
+      "description": "Kill a Marionette",
+      "hidden": false,
+      "globalPercent": 35.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–3 hrs",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "From @mechanic{Shift 9 onward}, leave a jack-in-the-box unwound until its @enemy{Marionette} attacks, then kill the Marionette.",
+      "guide": {
+        "kind": "standard",
+        "context": "Marionettes are unavailable before Shift 9. Rewinding their jack-in-the-box prevents the enemy from emerging, so intentionally allow one box to expire.",
+        "steps": [
+          {
+            "id": "last-performance-reach-shift",
+            "text": "Progress Story Mode to @mechanic{Shift 9 or later} and enter a Hunt containing a jack-in-the-box."
+          },
+          {
+            "id": "last-performance-release",
+            "text": "Do not wind that jack-in-the-box; wait until the @enemy{Marionette} emerges and begins attacking."
+          },
+          {
+            "id": "last-performance-kill",
+            "text": "Use any available weapon to damage the Marionette until it dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELENTLESS",
+      "displayName": "Relentless",
+      "description": "Finish a Hunt within 30 seconds",
+      "hidden": false,
+      "globalPercent": 40.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "On a new save, trigger the first Shift 1 @mechanic{Hunt} and kill its entity within @mechanic{30 seconds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first Hunt on a fresh save is the lightest version of the assault. Preparing Bear Traps and loaded guns before serving the doppelganger prevents setup time from consuming the 30-second window.",
+        "steps": [
+          {
+            "id": "relentless-new-save",
+            "text": "Start a new save and prepare @item{Bear Traps} and loaded guns during Shift 1."
+          },
+          {
+            "id": "relentless-trigger",
+            "text": "Identify a doppelganger, deliberately complete its transaction, and position yourself at the prepared defenses before the Hunt begins."
+          },
+          {
+            "id": "relentless-finish",
+            "text": "Immediately focus every trap and weapon on the Hunt entity and finish the complete assault within @mechanic{30 seconds}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LOCKED_AND_LOADED",
+      "displayName": "Locked And Loaded",
+      "description": "Purchase all Melee Weapons & Fill out the Weapons Arsenal",
+      "hidden": false,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hrs",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "On one save, buy the @item{Brick}, @item{Baseball Bat}, @item{Sledgehammer}, and every one of the @mechanic{4 ranged-weapon slots}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The default Pistol does not need to be purchased. Store-shopping money is separate from personal surgery funds, so arsenal purchases do not reduce the $250 True Ending reserve.",
+        "steps": [
+          {
+            "id": "locked-loaded-melee",
+            "text": "On the same save file, purchase the @item{Brick}, @item{Baseball Bat}, and @item{Sledgehammer}."
+          },
+          {
+            "id": "locked-loaded-ranged",
+            "text": "Purchase every available ranged weapon until all @mechanic{4 ranged arsenal slots} covering the SMGs, Shotguns, and Flamethrower are filled."
+          },
+          {
+            "id": "locked-loaded-confirm",
+            "text": "Check that the complete weapon arsenal is filled; the default Pistol requires no purchase."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GRAVE_DECISION",
+      "displayName": "Grave Decision",
+      "description": "Let Sheriff Clyde die so your pet survives.",
+      "hidden": true,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4 hrs",
+      "estMinutes": 240,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "summary": "Keep @npc{Sheriff Clyde} alive, choose @mechanic{Call Clyde} after Shift 12, then complete Shift 13 so the pet survives and Clyde dies.",
+      "guide": {
+        "kind": "standard",
+        "context": "Calling Clyde guarantees that the pet's surgery is funded regardless of the player's personal balance, but Clyde dies after helping.",
+        "steps": [
+          {
+            "id": "grave-decision-protect-clyde",
+            "text": "Keep @npc{Sheriff Clyde} alive through the first 12 shifts."
+          },
+          {
+            "id": "grave-decision-call",
+            "text": "After Shift 12, select the literal choice @mechanic{Call Clyde}."
+          },
+          {
+            "id": "grave-decision-finish",
+            "text": "Complete Shift 13 and continue through the veterinarian outcome in which the pet survives and Clyde dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EMPTY_HOME",
+      "displayName": "Empty Home",
+      "description": "Let your pet die while Sheriff Clyde survives.",
+      "hidden": true,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4 hrs",
+      "estMinutes": 240,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "summary": "Keep @npc{Sheriff Clyde} alive, choose @mechanic{Don't Call Clyde} after Shift 12, and finish Shift 13 below @mechanic{$250 in personal funds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ending checks the personal balance after the final Shift 13 payout. Store revenue and store-shopping money do not count toward the $250 surgery bill.",
+        "steps": [
+          {
+            "id": "empty-home-protect-clyde",
+            "text": "Keep @npc{Sheriff Clyde} alive through the first 12 shifts and keep personal funds low enough to remain below $250 after one final payout."
+          },
+          {
+            "id": "empty-home-refuse-call",
+            "text": "After Shift 12, select the literal choice @mechanic{Don't Call Clyde}."
+          },
+          {
+            "id": "empty-home-finish",
+            "text": "Complete Shift 13 and reach the veterinarian with less than @mechanic{$250 in personal funds} so Clyde survives but the pet's surgery cannot be paid."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRUE_ENDING",
+      "displayName": "True Ending",
+      "description": "Keep both your pet and Sheriff Clyde alive.",
+      "hidden": true,
+      "globalPercent": 13.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4 hrs",
+      "estMinutes": 240,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "summary": "Keep @npc{Sheriff Clyde} alive, choose @mechanic{Don't Call Clyde} after Shift 12, and finish Shift 13 with at least @mechanic{$250 in personal funds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The veterinarian checks personal funds only after the final Shift 13 payout; store revenue and the shopping balance cannot pay for surgery. Killing real humans reduces personal income, while store purchases do not touch the surgery reserve.",
+        "steps": [
+          {
+            "id": "true-ending-protect-clyde",
+            "text": "Keep @npc{Sheriff Clyde} alive throughout the Story Mode run and avoid killing real human customers."
+          },
+          {
+            "id": "true-ending-save-money",
+            "text": "After the surgery warning following Shift 10, preserve personal earnings until the displayed personal-funds total can reach @mechanic{$250} with the final payout."
+          },
+          {
+            "id": "true-ending-refuse-call",
+            "text": "After Shift 12, select the literal choice @mechanic{Don't Call Clyde}."
+          },
+          {
+            "id": "true-ending-finish",
+            "text": "Complete Shift 13, receive its payout, and pay the veterinarian with at least @mechanic{$250 in personal funds} so both the pet and Clyde survive."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_FIRST_BLOOD",
+    "ACH_STILL_BREATHING",
+    "ACH_SILENCED",
+    "ACH_FREED",
+    "ACH_LAST_PERFORMANCE",
+    "ACH_LOCKED_AND_LOADED",
+    "ACH_TRUE_ENDING",
+    "ACH_RELENTLESS",
+    "ACH_GRAVE_DECISION",
+    "ACH_EMPTY_HOME"
+  ]
+}

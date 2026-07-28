@@ -1,0 +1,245 @@
+{
+  "game": {
+    "appid": 284160,
+    "slug": "beamng-drive",
+    "title": "BeamNG.drive",
+    "version": "1.0",
+    "lastPatchChecked": "2026-05-18",
+    "estTotalHours": 3,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Finish the scenario and legacy campaigns",
+      "description": "Complete Driver Training, Senseless Destruction, A Rocky Start, and Hustle and Bustle from the current mission interface or the legacy More menu. Handle the four finite activities first so their driving counts toward the distance achievement.",
+      "achievementRefs": [
+        "DRIVERTRAINING_COMPLETE",
+        "CHAPTER1_COMPLETE",
+        "CHAPTER2_COMPLETE",
+        "BUS_COMPLETE"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Clean up the 1,000 km distance",
+      "description": "After the campaign achievements, use a fast vehicle on an official Freeroam map until the remaining distance toward 1,000 km registers.",
+      "achievementRefs": [
+        "KILOMETER_KICKOFF"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "CHAPTER1_COMPLETE",
+      "displayName": "Senseless Destructor",
+      "description": "Destroy everything",
+      "hidden": false,
+      "globalPercent": 10.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–45 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open @mechanic{More > Campaigns > Senseless Destruction} and pass all @mechanic{11 levels} to finish the campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The unlock is tied to completing the full Senseless Destruction campaign. No specific medal tier is required, so passing each level is more important than improving its score.",
+        "steps": [
+          {
+            "id": "senseless-open-campaign",
+            "text": "From the main menu, open @mechanic{More}, select @mechanic{Campaigns}, and start @mechanic{Senseless Destruction}."
+          },
+          {
+            "id": "senseless-finish-levels",
+            "text": "Pass each of the campaign's @mechanic{11 levels} and continue until the campaign completion screen appears."
+          },
+          {
+            "id": "senseless-confirm-unlock",
+            "text": "Allow the campaign to return to its ending state and confirm that Steam unlocks @mechanic{Senseless Destructor}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DRIVERTRAINING_COMPLETE",
+      "displayName": "Beginner's Racing License",
+      "description": "Dodge some cones",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–15 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "At the @loc{ETK Driver Experience Center}, open the map with @mechanic{M} and complete the @mechanic{Driver Training} activity.",
+      "guide": {
+        "kind": "standard",
+        "context": "Driver Training moved out of the old career section and into ETK Driver Experience. Some installations also expose the same one-level activity as the main-menu scenario named Beginning.",
+        "steps": [
+          {
+            "id": "driver-training-load-etk",
+            "text": "Launch BeamNG.drive through Steam, enter Freeroam, and load the @loc{ETK Driver Experience Center}."
+          },
+          {
+            "id": "driver-training-map",
+            "text": "Press @mechanic{M}, locate @mechanic{Driver Training} on the map, and start the training activity."
+          },
+          {
+            "id": "driver-training-complete",
+            "text": "Complete the Driver Training challenges until Steam unlocks @mechanic{Beginner's Racing License}."
+          },
+          {
+            "id": "driver-training-fallback",
+            "text": "If Driver Training is not shown at the ETK center, return to the main menu, open @mechanic{More > Scenarios > Beginning}, and finish that single-level scenario."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CHAPTER2_COMPLETE",
+      "displayName": "A Rocky Start",
+      "description": "Experience the start of the story",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Complete all @mechanic{6 levels} of @mechanic{More > Campaigns > A Rocky Start}, using the faint white map circles when mission markers are missing.",
+      "guide": {
+        "kind": "standard",
+        "context": "This legacy campaign has used different map behavior across game versions. If labeled mission markers are missing, the faint white circles on the regular map still identify the campaign destinations.",
+        "steps": [
+          {
+            "id": "rocky-start-open-campaign",
+            "text": "From the main menu, open @mechanic{More > Campaigns}, start @mechanic{A Rocky Start}, and complete the introductory challenge that has you push junk from a cliff."
+          },
+          {
+            "id": "rocky-start-find-circles",
+            "text": "Open the regular map, ignore the ordinary points of interest, and locate the @mechanic{very faint white circles} that mark the campaign challenges."
+          },
+          {
+            "id": "rocky-start-first-three",
+            "text": "Drive to the white-circle locations and complete the next @mechanic{3 challenges} in any order."
+          },
+          {
+            "id": "rocky-start-final-two",
+            "text": "Complete the remaining @mechanic{2 challenges} as they unlock sequentially, then continue to the campaign completion screen."
+          },
+          {
+            "id": "rocky-start-confirm-unlock",
+            "text": "Confirm that finishing the sixth campaign level unlocks @mechanic{A Rocky Start} on Steam."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUS_COMPLETE",
+      "displayName": "Outstanding Performance",
+      "description": "That's it! All scenes perfectly in the can!",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–45 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open @mechanic{More > Campaigns > Hustle and Bustle} and pass all @mechanic{6 levels} to finish the bus campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement tracks completion of the Hustle and Bustle campaign. The word “perfectly” in the Steam description does not add a separate perfect-score or medal requirement.",
+        "steps": [
+          {
+            "id": "hustle-open-campaign",
+            "text": "From the main menu, open @mechanic{More}, select @mechanic{Campaigns}, and start @mechanic{Hustle and Bustle}."
+          },
+          {
+            "id": "hustle-finish-levels",
+            "text": "Pass all @mechanic{6 levels} and continue until the Hustle and Bustle campaign reaches its completion screen."
+          },
+          {
+            "id": "hustle-confirm-unlock",
+            "text": "Allow the campaign ending to register and confirm that Steam unlocks @mechanic{Outstanding Performance}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KILOMETER_KICKOFF",
+      "displayName": "Kilometer Kickoff",
+      "description": "Drive 1000km. You're officially on the road!",
+      "hidden": false,
+      "globalPercent": 23.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "60–120 min cleanup",
+      "estMinutes": 75,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Accumulate @mechanic{1,000 km driven} on official maps; use a fast vehicle in @loc{Grid, Small, Pure} for any remaining distance.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only distance driven on official maps counts. Complete the scenario and campaigns first so their driving contributes before starting a dedicated distance session.",
+        "steps": [
+          {
+            "id": "kilometer-finish-other-content",
+            "text": "Finish Driver Training and the three campaign achievements before beginning the dedicated distance cleanup."
+          },
+          {
+            "id": "kilometer-load-grid",
+            "text": "Open Freeroam, load the official map @loc{Grid, Small, Pure}, and select a fast vehicle."
+          },
+          {
+            "id": "kilometer-drive-distance",
+            "text": "Keep driving on the official map until your cumulative distance reaches @mechanic{1,000 km} and Steam unlocks @mechanic{Kilometer Kickoff}."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "CHAPTER1_COMPLETE",
+    "DRIVERTRAINING_COMPLETE",
+    "CHAPTER2_COMPLETE",
+    "BUS_COMPLETE",
+    "KILOMETER_KICKOFF"
+  ]
+}

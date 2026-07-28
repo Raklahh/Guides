@@ -1,0 +1,1565 @@
+{
+  "game": {
+    "appid": 2592160,
+    "slug": "dispatch",
+    "title": "Dispatch",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-14",
+    "estTotalHours": 25,
+    "difficultyRating": 4,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First run: Blonde Blazer and failed mentor",
+      "description": "Play Episodes 1–8 with Blonde Blazer's romance, the failed-mentor route, Coupé cut, Waterboy recruited, and Robert's identity hidden. Preserve an Episode 3 save, choose Plain Glazed and Cigars, complete all 28 hacks, and target the shift achievements.",
+      "achievementRefs": [
+        "ACH_HIRED",
+        "ACH_LISTEN",
+        "ACH_DONUT",
+        "ACH_PERFECT",
+        "ACH_POWER",
+        "ACH_KNIFE",
+        "ACH_FIRST_SHOT",
+        "ACH_TRUTH_HID",
+        "ACH_STORE",
+        "ACH_HACK_ALL",
+        "ACH_CONVOY",
+        "ACH_MENTOR_FAIL",
+        "ACH_CAR"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Second run: Invisigal and successful mentor",
+      "description": "Resume from Episode 3 or begin the alternate run, cut Sonar, recruit Phenomaman, reveal Mecha Man, romance and support Invisigal, and duplicate the Episode 7 changing-room save before the romance decision.",
+      "achievementRefs": [
+        "ACH_TIE",
+        "ACH_SECOND_CHANCE",
+        "ACH_TRUTH_TOLD",
+        "ACH_MENTOR_SUCCESS",
+        "ACH_STRETCHER",
+        "ACH_MERCY"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Episode 7–8 no-romance branch",
+      "description": "Load the duplicated Episode 7 save, choose “We're Done,” retain the successful mentor outcome, finish Episode 8 without a kiss, and use the ending to collect the no-romance achievement plus whichever Shroud fate remains.",
+      "achievementRefs": [
+        "ACH_FRIENDS",
+        "ACH_VENGEANCE"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Dispatch and hacking cleanup",
+      "description": "Use the easiest cited calls for the percentage, full-graph, Synergy, healing, training, timed-hack, stat, rank, performance, and antivirus requirements; replay the relevant Episode or Shift from its save when RNG fails.",
+      "achievementRefs": [
+        "ACH_PERFORMANCE",
+        "ACH_SYNERGY",
+        "ACH_VIRUS",
+        "ACH_TRAIN",
+        "ACH_SCEN_SUCCESS",
+        "ACH_SCEN_FAIL",
+        "ACH_SCEN_PERFECT",
+        "ACH_SCEN_MAX",
+        "ACH_SCEN_MODS",
+        "ACH_HEAL_TWICE",
+        "ACH_HACK_SLOW",
+        "ACH_HACK_FAST",
+        "ACH_STAT_MAX",
+        "ACH_HERO_MAX",
+        "ACH_DISPATCH_ALL"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_MENTOR_FAIL",
+      "displayName": "\"Didn’t see that coming?\"",
+      "description": "Fail as Invisigal's mentor.",
+      "hidden": true,
+      "globalPercent": 31.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one story route",
+      "estMinutes": 0,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish @loc{Episode 8} with @npc{Invisigal}'s mentor score at 45 or lower to receive her failed-mentor ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hidden mentor score rises when Invisigal succeeds on calls, completes hacks or QTEs, and attends Blazer training. A failed dispatch subtracts one point, cutting her subtracts five, and going into the finale alone subtracts five.",
+        "steps": [
+          {
+            "id": "episodes-2-3",
+            "text": "Do not send @npc{Invisigal} to optional calls or Blazer training. In Episode 2 choose @mechanic{You chose that life}, @mechanic{I told Chase you disobeyed}, @mechanic{I'm the real hero here}, and @mechanic{Invisigal punched me}; in Episode 3 choose @mechanic{Take your anger out on him}."
+          },
+          {
+            "id": "episodes-5-6",
+            "text": "Choose @mechanic{I'm Robert} in Episode 5, then choose @mechanic{This is out of our league} and @mechanic{Everybody calm down} in Episode 6."
+          },
+          {
+            "id": "cut-invisigal",
+            "text": "During Episode 7 choose @mechanic{[Cut Her]}, @mechanic{You gave me no choice}, and @mechanic{We're Done}."
+          },
+          {
+            "id": "go-alone",
+            "text": "In Episode 8, tell Invisigal @mechanic{I can't trust you}, choose @mechanic{[Go It Alone]}, and finish the rooftop confrontation with her mentor score at 45 or lower."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MENTOR_SUCCESS",
+      "displayName": "\"Sorry, kid.\"",
+      "description": "Succeed as Invisigal's mentor.",
+      "hidden": true,
+      "globalPercent": 55.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "one story route",
+      "estMinutes": 0,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Raise @npc{Invisigal}'s mentor score above 45, then finish @loc{Episode 8} and have her take Shroud's bullet.",
+      "guide": {
+        "kind": "standard",
+        "context": "Successful Invisigal dispatches add one point and Blazer training adds five. Defending her in Episode 7 and untying her in Episode 8 each add another five, so the route rewards consistent support across the whole story.",
+        "steps": [
+          {
+            "id": "episodes-2-3",
+            "text": "Succeed at the Episode 2 Granny's Donuts sprinkler hack. In Episode 3 choose @mechanic{This could make a difference} and successfully complete all three Jewellery Store hacks."
+          },
+          {
+            "id": "episodes-4-5",
+            "text": "In Episode 4 choose @mechanic{[Movie with Invisigal]} and @mechanic{Thought we already were}. In Episode 5 succeed at the straw/darts, dodge, and arm-break QTEs, then choose @mechanic{I'm Mecha Man}."
+          },
+          {
+            "id": "episode-6",
+            "text": "In Episode 6 choose @mechanic{Why'd you do all this?} or @mechanic{Thanks guys}, choose @mechanic{We go tonight} or @mechanic{Make a plan first}, choose @mechanic{He doesn't mean that} or @mechanic{Back off, Chase!}, and succeed at all four dock hacks."
+          },
+          {
+            "id": "defend-invisigal",
+            "text": "In Episode 7 choose @mechanic{[Defend Her]}, @mechanic{I care about you}, @mechanic{They'll come around}, and @mechanic{It's not your fault}."
+          },
+          {
+            "id": "untie-invisigal",
+            "text": "Choose @mechanic{[Untie Her]} in Episode 8, complete the rooftop confrontation, and confirm that Invisigal takes @enemy{Shroud}'s bullet; the achievement appears after Shroud's fate is decided."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CONVOY",
+      "displayName": "\"All gas no brakes baby.\"",
+      "description": "Protect Los Angeles from the Red Ring Captain.",
+      "hidden": true,
+      "globalPercent": 62.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Episode 8 Night Shift Part 3",
+      "estMinutes": 30,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_HACK_ALL"
+      ],
+      "summary": "Win all five @enemy{Red Ring Captain} Attack Calls in Episode 8 before Torrance's health reaches zero.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final hacking level appears late in Night Shift Part 3. Defeating the Captain or losing the city too early can end the shift before that hack, so hold the fifth Attack Call until the hack is complete.",
+        "steps": [
+          {
+            "id": "protect-torrance",
+            "text": "During @loc{Episode 8 Night Shift Part 3}, keep clearing ordinary calls so the Torrance health bar remains above zero."
+          },
+          {
+            "id": "clear-four-attacks",
+            "text": "Complete four of the five @enemy{Red Ring Captain} Attack Calls, but do not finish the fifth before @mechanic{Defeat Mindfucker} appears."
+          },
+          {
+            "id": "finish-after-hack",
+            "text": "Complete Defeat Mindfucker, then cover the final Attack Call with the full available roster and a Level 3 Synergy duo if needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MERCY",
+      "displayName": "\"I can confirm he’s a bad ass.\"",
+      "description": "Choose mercy for Shroud.",
+      "hidden": true,
+      "globalPercent": 34.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one ending choice",
+      "estMinutes": 5,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_MENTOR_SUCCESS"
+      ],
+      "summary": "Reach @npc{Invisigal}'s redeemed ending, spare @enemy{Shroud}, and continue to Track Blazer's news interview.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mercy choice only produces this unlock on the successful-mentor route. The result is delayed until the post-fight news interview rather than appearing at the rooftop decision.",
+        "steps": [
+          {
+            "id": "redeem-invisigal",
+            "text": "Keep Invisigal's mentor score above 45, defend her in Episode 7, and choose @mechanic{[Untie Her]} in Episode 8."
+          },
+          {
+            "id": "spare-shroud",
+            "text": "Defeat @enemy{Shroud} on the rooftop and choose the option that spares his life."
+          },
+          {
+            "id": "reach-interview",
+            "text": "Continue through the ending until @npc{Track Blazer}'s news interview confirms the mercy outcome."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VENGEANCE",
+      "displayName": "\"Muuuuurrrdaaaaah!\"",
+      "description": "Choose vengeance against Shroud.",
+      "hidden": true,
+      "globalPercent": 27.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one ending choice",
+      "estMinutes": 5,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_MENTOR_SUCCESS"
+      ],
+      "summary": "Reach @npc{Invisigal}'s redeemed ending, kill @enemy{Shroud}, and continue to the post-fight news interview.",
+      "guide": {
+        "kind": "standard",
+        "context": "The vengeance result requires the successful-mentor route even though Shroud's fate is a separate final choice. The achievement is delayed until the news sequence after the fight.",
+        "steps": [
+          {
+            "id": "redeem-invisigal",
+            "text": "Keep Invisigal's mentor score above 45, defend her in Episode 7, and choose @mechanic{[Untie Her]} in Episode 8."
+          },
+          {
+            "id": "kill-shroud",
+            "text": "Defeat @enemy{Shroud} on the rooftop and choose the option that kills him."
+          },
+          {
+            "id": "reach-news",
+            "text": "Continue through the ending until the post-fight news interview confirms the vengeance outcome."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STRETCHER",
+      "displayName": "\"I'm a bleeder.\"",
+      "description": "Kiss Invisigal on a stretcher.",
+      "hidden": true,
+      "globalPercent": 44.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one romance route",
+      "estMinutes": 0,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_MENTOR_SUCCESS"
+      ],
+      "summary": "Complete @npc{Invisigal}'s romance and redeemed ending, then kiss her while she is loaded onto the ambulance.",
+      "guide": {
+        "kind": "standard",
+        "context": "Romance alone is insufficient: Invisigal must also finish with a successful mentor score so she takes Shroud's bullet and reaches the ambulance scene.",
+        "steps": [
+          {
+            "id": "start-romance",
+            "text": "Choose @mechanic{[Movie with Invisigal]} at the end of Episode 4."
+          },
+          {
+            "id": "continue-romance",
+            "text": "In Episode 7 choose @mechanic{[Defend Her]}, tell Invisigal @mechanic{I forgive you}, and choose @mechanic{[Lean In]} for the changing-room kiss."
+          },
+          {
+            "id": "take-stretcher-kiss",
+            "text": "In Episode 8 choose @mechanic{[Untie Her]}, defeat Shroud, and accept the kiss while Invisigal is being loaded onto the ambulance."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CAR",
+      "displayName": "\"Any plans tonight?\"",
+      "description": "Kiss Blonde Blazer on a car.",
+      "hidden": true,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one romance route",
+      "estMinutes": 0,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete @npc{Blonde Blazer}'s romance and take the kiss on the car during the Episode 8 ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Blonde Blazer and Invisigal romance endings are mutually exclusive on one run. Earlier Episode 4 conversations do not determine the route; the dinner-versus-movie decision at the end of that episode establishes it.",
+        "steps": [
+          {
+            "id": "choose-blazer",
+            "text": "At the end of Episode 4, choose @mechanic{[Dinner with Blazer]} instead of Movie with Invisigal."
+          },
+          {
+            "id": "kiss-on-car",
+            "text": "Finish Episode 8 and take Blonde Blazer's kiss on the car in the final cinematic."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FRIENDS",
+      "displayName": "\"We can just be friends.\"",
+      "description": "Finish the story without a workplace romance.",
+      "hidden": true,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "replay Episodes 7–8",
+      "estMinutes": 150,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_MENTOR_SUCCESS"
+      ],
+      "summary": "Finish @loc{Episode 8} without an active romance and reach the scene where Robert drinks with Blonde Blazer on the police car.",
+      "guide": {
+        "kind": "standard",
+        "context": "A full third run is unnecessary. An Invisigal romance can be ended from an Episode 7 changing-room save while preserving her redeemed mentor outcome.",
+        "steps": [
+          {
+            "id": "duplicate-save",
+            "text": "On the Invisigal route, duplicate the Episode 7 save after the boardroom scene and before speaking to her in the changing room."
+          },
+          {
+            "id": "end-romance",
+            "text": "During the second changing-room dialogue after Invisigal reveals her past, choose @mechanic{We're Done} and do not accept any later kiss."
+          },
+          {
+            "id": "finish-no-romance",
+            "text": "Complete Episodes 7–8, keep the successful mentor route intact, and continue until Robert drinks with @npc{Blonde Blazer} on the police car."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRUTH_TOLD",
+      "displayName": "\"That’s, like, a real superhero.\"",
+      "description": "Tell the Z-Team that Robert is Mecha Man.",
+      "hidden": true,
+      "globalPercent": 71.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 5 choice",
+      "estMinutes": 5,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Tell the Z-Team @mechanic{I'm Mecha Man} during the Sardine drinks scene at the end of Episode 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "Revealing the identity adds five points to Invisigal's mentor score, but Flambae becomes unavailable for the following Episode 6 Shift.",
+        "steps": [
+          {
+            "id": "finish-night-shift",
+            "text": "After clearing Episode 5's Night Shift, join the team for the following scene at @loc{the Sardine}."
+          },
+          {
+            "id": "reveal-identity",
+            "text": "When the team asks who Robert is, choose @mechanic{I'm Mecha Man}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRUTH_HID",
+      "displayName": "\"I’m the guy behind the desk.\"",
+      "description": "Hide Robert's identity from the Z-Team.",
+      "hidden": true,
+      "globalPercent": 19.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 5 choice",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Tell the Z-Team @mechanic{I'm Robert} during the Sardine drinks scene at the end of Episode 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hiding the identity subtracts five points from Invisigal's mentor score. Use the choice on a failed-mentor route or compensate with other positive mentor actions.",
+        "steps": [
+          {
+            "id": "finish-night-shift",
+            "text": "After clearing Episode 5's Night Shift, join the team for the following scene at @loc{the Sardine}."
+          },
+          {
+            "id": "hide-identity",
+            "text": "When the team asks who Robert is, choose @mechanic{I'm Robert}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIRST_SHOT",
+      "displayName": "\"It smells very chemically in here.\"",
+      "description": "Add Waterboy to the Z-Team.",
+      "hidden": true,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 4 choice",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Choose @npc{Waterboy} as the replacement Z-Team hero at the end of Episode 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "Waterboy and Phenomaman occupy the same branch slot, so their two achievements require opposite Episode 4 choices on separate routes.",
+        "steps": [
+          {
+            "id": "reach-replacement",
+            "text": "Finish the Episode 4 shifts and reach the replacement-hero decision."
+          },
+          {
+            "id": "choose-waterboy",
+            "text": "Add @npc{Waterboy} to the Z-Team instead of Phenomaman."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECOND_CHANCE",
+      "displayName": "\"I wish to make love to you again.\"",
+      "description": "Return Phenomaman to the Z-Team.",
+      "hidden": true,
+      "globalPercent": 44.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 4 choice",
+      "estMinutes": 5,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Choose @npc{Phenomaman} as the replacement Z-Team hero at the end of Episode 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "Phenomaman and Waterboy occupy the same branch slot, so their two achievements require opposite Episode 4 choices on separate routes.",
+        "steps": [
+          {
+            "id": "reach-replacement",
+            "text": "Finish the Episode 4 shifts and reach the replacement-hero decision."
+          },
+          {
+            "id": "choose-phenomaman",
+            "text": "Return @npc{Phenomaman} to the Z-Team instead of adding Waterboy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TIE",
+      "displayName": "\"Watch your back, Robert.\"",
+      "description": "Cut Sonar from the Z-Team.",
+      "hidden": true,
+      "globalPercent": 40.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 3 choice",
+      "estMinutes": 5,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "During Episode 3's final roster decision, remove @npc{Sonar} from the Z-Team.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sonar and Coupé are mutually exclusive cuts. Preserving a save at the start of Episode 3 avoids replaying Episodes 1–2 for the alternate result.",
+        "steps": [
+          {
+            "id": "preserve-save",
+            "text": "Duplicate the save before progressing through Episode 3 if the alternate team cut is still needed."
+          },
+          {
+            "id": "cut-sonar",
+            "text": "Finish the Episode 3 Night Shift and choose @npc{Sonar} when Robert must remove one hero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KNIFE",
+      "displayName": "\"But I cheered for Invisigal...\"",
+      "description": "Cut Coupé from the Z-Team.",
+      "hidden": true,
+      "globalPercent": 64.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 3 choice",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "During Episode 3's final roster decision, remove @npc{Coupé} from the Z-Team.",
+      "guide": {
+        "kind": "standard",
+        "context": "Coupé and Sonar are mutually exclusive cuts. Preserving a save at the start of Episode 3 avoids replaying Episodes 1–2 for the alternate result.",
+        "steps": [
+          {
+            "id": "preserve-save",
+            "text": "Duplicate the save before progressing through Episode 3 if the alternate team cut is still needed."
+          },
+          {
+            "id": "cut-coupe",
+            "text": "Finish the Episode 3 Night Shift and choose @npc{Coupé} when Robert must remove one hero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PERFORMANCE",
+      "displayName": "Career Development",
+      "description": "Aced Your Performance Review",
+      "hidden": false,
+      "globalPercent": 70.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Raise Robert's @mechanic{performance score} through three review levels by completing calls successfully.",
+      "guide": {
+        "kind": "standard",
+        "context": "Performance grows across shifts rather than in one isolated call. Frequent failures slow the third review level, while successful calls and bonus requirements keep it on the normal story pace.",
+        "steps": [
+          {
+            "id": "complete-calls",
+            "text": "Complete calls successfully across the early Z-Team shifts and pursue displayed bonus requirements when the roster can cover them."
+          },
+          {
+            "id": "reach-third-review",
+            "text": "Continue through the performance reviews until Robert's score levels up for the third time; Episode 6 is the expected natural unlock point."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HACK_ALL",
+      "displayName": "H4ck3d by R0b3rt",
+      "description": "Succeeded On All Hacking Levels",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "all 28 hacks in one playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Successfully complete all @mechanic{28 hacking levels} in one playthrough without leaving any hack failed or skipped.",
+      "guide": {
+        "kind": "standard",
+        "context": "The launch unlock bug was fixed in DisPatch 1.0.16409. Progress still belongs to one continuous playthrough, and Unlimited Hacking Attempts disables the three timed hacking achievements.",
+        "steps": [
+          {
+            "id": "episode-1-2",
+            "text": "Complete the Episode 1 tablet hack, then Episode 2's Cray Cray Bidet, Museum Robbery, and both Granny's Donuts camera hacks."
+          },
+          {
+            "id": "episode-3",
+            "text": "In Episode 3, trigger Flambae's sabotage by sending him with anyone except Prism and choose @mechanic{Unlock the tank}; also complete Hack the Scammer, choose @mechanic{Trap the Robbers inside the vault} at Bank Robbery, and finish the three Jewellery Store hacks."
+          },
+          {
+            "id": "episode-4-7",
+            "text": "Take every offered hack through Episodes 4–7, including Superhero Squabble's sprinkler option, Discern the Target, Stalker Stalking Film Shoot's @mechanic{Delete all of his files}, Cyberbully, and Runaway Car."
+          },
+          {
+            "id": "episode-8",
+            "text": "Complete Lockdown in Episode 8, then keep the Red Ring Captain alive and Torrance above zero until @mechanic{Defeat Mindfucker} appears after the last ordinary call; finish that final hack immediately."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SYNERGY",
+      "displayName": "Work Spouse",
+      "description": "Reached Max Synergy With a Hero Duo",
+      "hidden": false,
+      "globalPercent": 61.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "several successful paired calls",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Raise one compatible hero duo to @mechanic{Synergy Level 3} by repeatedly completing calls with both heroes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Synergy begins building in Episode 3 and increases only for compatible partners sent together. Level 3 also grants a 15% call bonus, which helps with the Episode 8 Captain fight.",
+        "steps": [
+          {
+            "id": "choose-pair",
+            "text": "Choose @npc{Invisigal/Golem}, @npc{Flambae/Prism}, @npc{Sonar/Malevola}, or @npc{Punch Up/Coupé} as the pair to develop."
+          },
+          {
+            "id": "dispatch-together",
+            "text": "Send the same pair together on successful calls from Episode 3 onward until their Synergy reaches Level 3."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VIRUS",
+      "displayName": "Anti-Antivirus Club",
+      "description": "Destroyed 3 Antiviruses in Less Than 15 Seconds",
+      "hidden": false,
+      "globalPercent": 49.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "one late Episode 5 hack",
+      "estMinutes": 10,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Destroy @enemy{three Anti-Viruses} within 15 seconds during one hacking level.",
+      "guide": {
+        "kind": "standard",
+        "context": "The 15-second window begins when the first Anti-Virus is destroyed, not when the hacking level starts. Episode 5's final district power-restoration hack contains exactly three targets.",
+        "steps": [
+          {
+            "id": "destroy-first",
+            "text": "In Episode 5's final district power-restoration hack, destroy the first @enemy{Anti-Virus} to start the 15-second timer."
+          },
+          {
+            "id": "reach-second",
+            "text": "Open the Path Node into the 4×3 area, rush to the lower Electricity Node, and use it to destroy the second Anti-Virus."
+          },
+          {
+            "id": "destroy-third",
+            "text": "Move to the upper-right Electricity Node, avoid the remaining Anti-Virus, and destroy it before 15 seconds have elapsed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRAIN",
+      "displayName": "Power Trip",
+      "description": "Expanded Powers for 4 Different Heroes",
+      "hidden": false,
+      "globalPercent": 82.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "four Hero Training calls",
+      "estMinutes": 0,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Send four different heroes to qualifying @mechanic{Hero Training} calls to reveal four expanded powers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hero Training begins appearing in Episode 3. Flight School can award a power but does not advance this four-hero achievement.",
+        "steps": [
+          {
+            "id": "accept-training",
+            "text": "Accept each @mechanic{Hero Training} call that appears from Episode 3 onward."
+          },
+          {
+            "id": "rotate-heroes",
+            "text": "Send a different hero to four qualifying Hero Training calls and do not count Flight School toward the total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DONUT",
+      "displayName": "\"Love ‘em from my mouth to my butt.\"",
+      "description": "Choose the least popular donut.",
+      "hidden": true,
+      "globalPercent": 37.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "finish Episode 2",
+      "estMinutes": 60,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Choose the live least-selected donut at @loc{Granny's Donuts} in Episode 2 and view its choice statistic after the episode.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement is evaluated at the end-of-episode statistic rather than when Invisigal asks the question. Player percentages can change; Plain Glazed was still lowest at 32% on July 8, 2026.",
+        "steps": [
+          {
+            "id": "choose-plain-glazed",
+            "text": "When @npc{Invisigal} asks for Robert's favorite donut at Granny's Donuts, choose @item{Plain Glazed}."
+          },
+          {
+            "id": "finish-episode",
+            "text": "Finish Episode 2 and open the donut choice statistic during the credits to confirm Plain Glazed remains the least-selected option."
+          },
+          {
+            "id": "preserve-save",
+            "text": "If another donut has become less popular, reload the preserved Episode 2 save and choose the new lowest option.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STORE",
+      "displayName": "\"There. You happy now?\"",
+      "description": "Choose the least popular store item.",
+      "hidden": true,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "finish Episode 7",
+      "estMinutes": 75,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Ask Chase for the live least-selected store item in Episode 7 and view its choice statistic after the episode.",
+      "guide": {
+        "kind": "standard",
+        "context": "The result is delayed until Episode 7's choice-stat montage. Cigars remained the lowest selection at 11% on June 29, 2026, but the live percentage controls the unlock.",
+        "steps": [
+          {
+            "id": "choose-cigars",
+            "text": "Near the start of Episode 7, ask @npc{Chase} to bring back @item{Cigars} from the store."
+          },
+          {
+            "id": "finish-episode",
+            "text": "Finish Episode 7 and view the store-item statistic in the choice montage to confirm Cigars remain the least-selected option."
+          },
+          {
+            "id": "preserve-save",
+            "text": "Keep the Episode 7 save until the statistic confirms the choice; reload if the live least-selected item has changed.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HIRED",
+      "displayName": "\"Did I drool on you?\"",
+      "description": "Hired at SDN",
+      "hidden": false,
+      "globalPercent": 94.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "finish Episode 1",
+      "estMinutes": 75,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete the @loc{Episode 1} SDN interview and return home to Beef.",
+      "guide": {
+        "kind": "standard",
+        "context": "The interview outcome does not block the unlock, and the tutorial dispatch performance is irrelevant. The achievement arrives only after Robert returns home.",
+        "steps": [
+          {
+            "id": "complete-interview",
+            "text": "Play through Episode 1, attend the SDN interview with @npc{Blonde Blazer}, and complete the tutorial shift."
+          },
+          {
+            "id": "return-home",
+            "text": "Continue the episode until Robert returns home and sees @npc{Beef}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LISTEN",
+      "displayName": "\"You gonna eat those twinks?\"",
+      "description": "Disobeyed by Invisigal",
+      "hidden": false,
+      "globalPercent": 90.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "finish Episode 2",
+      "estMinutes": 75,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish @loc{Episode 2} after Invisigal disobeys Robert, then give Sonar the Twinkies in the break room.",
+      "guide": {
+        "kind": "standard",
+        "context": "The unlock is part of Episode 2's fixed story outcome. Earlier dialogue with Blonde Blazer and Invisigal does not change whether the disobedience occurs.",
+        "steps": [
+          {
+            "id": "finish-shift",
+            "text": "Complete the first Z-Team Day Shift and continue until Robert confronts @npc{Invisigal} in the break room."
+          },
+          {
+            "id": "give-twinkies",
+            "text": "Give @npc{Sonar} the @item{Twinkies}, finish the break-room scene, and complete Episode 2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PERFECT",
+      "displayName": "Shift Was Lit",
+      "description": "Completed a Z-Team Shift Without Missing or Failing a Call",
+      "hidden": false,
+      "globalPercent": 48.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "one complete Episode 2 shift",
+      "estMinutes": 30,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Clear every call in one @mechanic{Z-Team Shift}; no call may expire or end in failure.",
+      "guide": {
+        "kind": "standard",
+        "context": "Episode 2's first Day Shift is the safest attempt because it contains only 12 comparatively simple calls. The achievement is awarded with the performance review after the shift.",
+        "steps": [
+          {
+            "id": "start-episode-2",
+            "text": "Use the first Episode 2 Day Shift and preserve the save before dispatching begins."
+          },
+          {
+            "id": "clear-all-calls",
+            "text": "Answer and successfully finish all 12 calls without allowing any call timer to expire."
+          },
+          {
+            "id": "reload-on-failure",
+            "text": "If any call fails or disappears, quit to the main menu and reload the pre-shift save before continuing.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_POWER",
+      "displayName": "Getting to Know Yous",
+      "description": "Discovered Every Hero's Starting Power",
+      "hidden": false,
+      "globalPercent": 84.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Episodes 2–3 setup",
+      "estMinutes": 45,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Reveal the starting powers of all @npc{eight original Z-Team heroes} by satisfying each hero's dispatch condition.",
+      "guide": {
+        "kind": "standard",
+        "context": "Five powers can be exposed in Episode 2 and the remaining three in Episode 3. Coupé, Prism, and Golem only need to be placed in the graph; the call does not need to be dispatched for those placements.",
+        "steps": [
+          {
+            "id": "flambae-sonar-invisigal",
+            "text": "Successfully dispatch @npc{Flambae}, dispatch @npc{Sonar} on any call, and send @npc{Invisigal} alone on a call."
+          },
+          {
+            "id": "coupe-prism",
+            "text": "On a call with at least three slots, place @npc{Coupé} in the first slot and @npc{Prism} in the second slot."
+          },
+          {
+            "id": "punch-up-malevola",
+            "text": "Let @npc{Punch Up} become injured through a failed or sabotaged call, then send the injured hero on a call with @npc{Malevola}."
+          },
+          {
+            "id": "golem",
+            "text": "Place @npc{Golem} on a call with at least four hero slots to reveal his final starting power."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SCEN_SUCCESS",
+      "displayName": "Fool's Luck",
+      "description": "Succeeded a Call with <15% of Success",
+      "hidden": false,
+      "globalPercent": 16.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one Episode 8 call",
+      "estMinutes": 5,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_SECOND_CHANCE"
+      ],
+      "summary": "Complete one call successfully when its displayed success chance is below 15%.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recruiting Phenomaman in Episode 4 causes low-level Waterboy to join after Episode 8 Night Shift Part 1. Part 3 then supplies a scripted Blonde Blazer rescue that converts Waterboy's expected failure into a success.",
+        "steps": [
+          {
+            "id": "keep-waterboy-low",
+            "text": "On the Phenomaman route, leave @npc{Waterboy}'s skill points unspent after he joins during Episode 8."
+          },
+          {
+            "id": "send-waterboy",
+            "text": "During Night Shift Part 3, send Waterboy alone to @mechanic{Atomic Automatons} when his displayed chance is below 15%."
+          },
+          {
+            "id": "allow-rescue",
+            "text": "Let the call resolve and allow @npc{Blonde Blazer} to rescue Waterboy, converting the low-chance attempt into a success."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SCEN_FAIL",
+      "displayName": "Snake Eyes",
+      "description": "Failed a Call with >70% of Success",
+      "hidden": false,
+      "globalPercent": 72.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "RNG retries in Episode 2",
+      "estMinutes": 20,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Fail one call when its displayed success chance is above 70%.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is an inverse-RNG condition, so a strong team is not the goal. Episode 2 provides a repeatable 72% setup at the very start of its Day Shift.",
+        "steps": [
+          {
+            "id": "preserve-shift-save",
+            "text": "Preserve the save before the Episode 2 Day Shift begins."
+          },
+          {
+            "id": "send-coupe",
+            "text": "Send @npc{Coupé} alone to @mechanic{Lost Balloon}; the setup displays exactly 72% success."
+          },
+          {
+            "id": "reload-until-fail",
+            "text": "If Coupé succeeds, quit to the main menu and reload the shift until the 72% call fails."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SCEN_PERFECT",
+      "displayName": "Nailed It",
+      "description": "Achieved a Perfect Dispatch With Only One Hero",
+      "hidden": false,
+      "globalPercent": 81.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one Episode 2 call",
+      "estMinutes": 5,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete a @mechanic{Perfect Dispatch} using only one hero on the call.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Perfect Dispatch requires the selected hero to cover the call graph completely. Episode 2 opens with two single-hero 100% matches.",
+        "steps": [
+          {
+            "id": "choose-call",
+            "text": "In Episode 2, use @mechanic{Lost Balloon} with @npc{Flambae} alone or @mechanic{Vand-Go Opening} with Hybrid-form @npc{Sonar} alone."
+          },
+          {
+            "id": "complete-perfect",
+            "text": "Confirm the graph shows a 100% match, dispatch only that hero, and complete the call successfully."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SCEN_MAX",
+      "displayName": "Overkill",
+      "description": "Covered the Entire Graph on a Single Call",
+      "hidden": false,
+      "globalPercent": 59.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "one late-game call",
+      "estMinutes": 5,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_HERO_MAX"
+      ],
+      "summary": "Fill Mobility, Vigor, Charisma, Intelligence, and Combat to 10 on one call, then complete that call.",
+      "guide": {
+        "kind": "standard",
+        "context": "Late Episode 8 calls offer three or four slots and a roster near Rank 10. The achievement checks the completed call, not the team preview.",
+        "steps": [
+          {
+            "id": "choose-large-call",
+            "text": "During Episode 8 Night Shift Part 3, select an ordinary call with three or four hero slots."
+          },
+          {
+            "id": "fill-five-stats",
+            "text": "Combine late-game heroes until the graph reaches 10 in @mechanic{Mobility, Vigor, Charisma, Intelligence, and Combat}."
+          },
+          {
+            "id": "complete-call",
+            "text": "Dispatch that team and finish the call successfully to register the full graph."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SCEN_MODS",
+      "displayName": "Modded",
+      "description": "Reached all bonuses and successfully avoid all failures",
+      "hidden": false,
+      "globalPercent": 52.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "one Episode 6 Day Shift",
+      "estMinutes": 35,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "During one shift, meet every Bonus threshold and remain below every Fail threshold shown on its calls.",
+      "guide": {
+        "kind": "standard",
+        "context": "Episode 6's Day Shift is the easiest route because only six of its 14 calls have graph modifiers. A Bonus call may fail after the threshold was assembled without erasing that modifier credit.",
+        "steps": [
+          {
+            "id": "housekeeping-red-alert",
+            "text": "Reach @mechanic{7 Charisma} on Housekeeping and @mechanic{8 Combat} on Red Alert."
+          },
+          {
+            "id": "yachtie-delivery",
+            "text": "Reach @mechanic{9 Mobility} on Yachtie Afterparty and @mechanic{7 Vigor} on Delivery Bots."
+          },
+          {
+            "id": "shipment-bots",
+            "text": "Reach @mechanic{5 Intelligence} on Shipment Down and keep @mechanic{Combat below 4} on Reprogram the Bots."
+          },
+          {
+            "id": "finish-shift",
+            "text": "Complete the Episode 6 Day Shift after satisfying all six displayed modifier conditions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HEAL_TWICE",
+      "displayName": "Phoenixes Down",
+      "description": "Healed the Same Hero Twice in a Shift",
+      "hidden": false,
+      "globalPercent": 50.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "one shift part",
+      "estMinutes": 20,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Heal the same injured hero twice within one continuous shift.",
+      "guide": {
+        "kind": "standard",
+        "context": "Episode 8's three Night Shift parts are separate shifts for this counter even though injuries carry between them. Both healing actions must occur inside the same part.",
+        "steps": [
+          {
+            "id": "injure-and-heal",
+            "text": "During one shift part, let one hero become injured and heal that hero with @npc{Malevola} or @item{Pharmacy Patch Up}."
+          },
+          {
+            "id": "injure-again",
+            "text": "Send the same hero back out, allow a second injury during the same shift part, and heal that hero again before the part ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HACK_SLOW",
+      "displayName": "Time's Running Out",
+      "description": "Completed a Hacking Level With less than 5 Seconds Left",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one Episode 2 hack",
+      "estMinutes": 5,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish one timed hacking level with fewer than five seconds remaining.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlimited Hacking Attempts disables the three timer-based achievements. Episode 2's Granny's Donuts camera hack is forgiving because the final breach can be selected before waiting.",
+        "steps": [
+          {
+            "id": "disable-unlimited",
+            "text": "Turn off @mechanic{Unlimited Hacking Attempts} before starting the timed hack."
+          },
+          {
+            "id": "prepare-final-breach",
+            "text": "During the Episode 2 Granny's Donuts camera hack, solve the route and select the Final Breach without activating it."
+          },
+          {
+            "id": "finish-under-five",
+            "text": "Wait until the displayed timer drops below five seconds, then execute the selected Final Breach before time expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HACK_FAST",
+      "displayName": "Burning Chrome",
+      "description": "Completed a Hacking Level With at least a third of the Timer Left",
+      "hidden": false,
+      "globalPercent": 81.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one Episode 2 hack",
+      "estMinutes": 5,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish one timed hacking level with at least one-third of its timer remaining.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlimited Hacking Attempts disables the three timer-based achievements. Episode 2's Museum Robbery is the earliest straightforward timed hack.",
+        "steps": [
+          {
+            "id": "disable-unlimited",
+            "text": "Turn off @mechanic{Unlimited Hacking Attempts} before starting the timed hack."
+          },
+          {
+            "id": "finish-museum-fast",
+            "text": "Enter the Episode 2 @mechanic{Museum Robbery} hack and complete its route before two-thirds of the timer has elapsed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STAT_MAX",
+      "displayName": "Min Max",
+      "description": "Upgraded a Stat to 10",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Invest skill points until one hero's Mobility, Vigor, Charisma, Intelligence, or Combat stat reaches 10.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spreading upgrades delays the threshold. Heroes already specialize in particular stats, so continuing a natural strength reaches 10 with fewer conflicting build choices.",
+        "steps": [
+          {
+            "id": "choose-stat",
+            "text": "Choose one focused target such as @npc{Sonar}'s Intelligence, @npc{Invisigal}'s Mobility, @npc{Prism}'s Charisma, or @npc{Golem}'s Vigor."
+          },
+          {
+            "id": "invest-to-ten",
+            "text": "Apply earned skill points to that same stat until its displayed value reaches @mechanic{10}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HERO_MAX",
+      "displayName": "From Zero To Hero",
+      "description": "Maxed Out a Hero",
+      "hidden": false,
+      "globalPercent": 80.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "through normal progression",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Raise one hero to natural @mechanic{Rank 10} through dispatch experience and bonus requirements.",
+      "guide": {
+        "kind": "standard",
+        "context": "Performance-review bonus skill points can raise stats but do not count as natural hero ranks. Call experience must supply the ten rank levels.",
+        "steps": [
+          {
+            "id": "focus-hero",
+            "text": "Choose one core hero and send that hero on successful calls as often as roster coverage allows."
+          },
+          {
+            "id": "complete-bonuses",
+            "text": "Meet displayed bonus requirements on that hero's calls to accelerate experience gains."
+          },
+          {
+            "id": "reach-rank-ten",
+            "text": "Continue dispatching the hero until the roster displays natural @mechanic{Rank 10}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DISPATCH_ALL",
+      "displayName": "Dispatched",
+      "description": "Collected All Achievements",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–30 hours total",
+      "estMinutes": 1500,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_MENTOR_FAIL",
+        "ACH_MENTOR_SUCCESS",
+        "ACH_CONVOY",
+        "ACH_MERCY",
+        "ACH_VENGEANCE",
+        "ACH_STRETCHER",
+        "ACH_CAR",
+        "ACH_FRIENDS",
+        "ACH_TRUTH_TOLD",
+        "ACH_TRUTH_HID",
+        "ACH_FIRST_SHOT",
+        "ACH_SECOND_CHANCE",
+        "ACH_TIE",
+        "ACH_KNIFE",
+        "ACH_PERFORMANCE",
+        "ACH_HACK_ALL",
+        "ACH_SYNERGY",
+        "ACH_VIRUS",
+        "ACH_TRAIN",
+        "ACH_DONUT",
+        "ACH_STORE",
+        "ACH_HIRED",
+        "ACH_LISTEN",
+        "ACH_PERFECT",
+        "ACH_POWER",
+        "ACH_SCEN_SUCCESS",
+        "ACH_SCEN_FAIL",
+        "ACH_SCEN_PERFECT",
+        "ACH_SCEN_MAX",
+        "ACH_SCEN_MODS",
+        "ACH_HEAL_TWICE",
+        "ACH_HACK_SLOW",
+        "ACH_HACK_FAST",
+        "ACH_STAT_MAX",
+        "ACH_HERO_MAX"
+      ],
+      "summary": "Unlock every other achievement in Dispatch to complete the full set of 36.",
+      "guide": {
+        "kind": "standard",
+        "context": "The current Steam schema contains 36 achievements including this completion award. Two full routes plus the Episode 7–8 no-romance branch cover the mutually exclusive team, identity, mentor, romance, and Shroud choices.",
+        "steps": [
+          {
+            "id": "complete-story-routes",
+            "text": "Finish the Blonde Blazer/failed-mentor route and the Invisigal/successful-mentor route while making opposite Episode 3–5 branch choices."
+          },
+          {
+            "id": "finish-no-romance",
+            "text": "Replay Episodes 7–8 from the duplicated changing-room save with @mechanic{We're Done} to finish the no-romance ending."
+          },
+          {
+            "id": "clear-mechanics",
+            "text": "Complete the remaining dispatch, hacking, training, Synergy, stat, rank, percentage, and full-graph achievements until the Steam total reaches 35 other unlocks."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_HIRED",
+    "ACH_LISTEN",
+    "ACH_DONUT",
+    "ACH_PERFECT",
+    "ACH_POWER",
+    "ACH_KNIFE",
+    "ACH_FIRST_SHOT",
+    "ACH_TRUTH_HID",
+    "ACH_STORE",
+    "ACH_HACK_ALL",
+    "ACH_CONVOY",
+    "ACH_MENTOR_FAIL",
+    "ACH_CAR",
+    "ACH_TIE",
+    "ACH_SECOND_CHANCE",
+    "ACH_TRUTH_TOLD",
+    "ACH_MENTOR_SUCCESS",
+    "ACH_STRETCHER",
+    "ACH_MERCY",
+    "ACH_FRIENDS",
+    "ACH_VENGEANCE",
+    "ACH_PERFORMANCE",
+    "ACH_SYNERGY",
+    "ACH_VIRUS",
+    "ACH_TRAIN",
+    "ACH_SCEN_FAIL",
+    "ACH_SCEN_PERFECT",
+    "ACH_SCEN_MODS",
+    "ACH_HEAL_TWICE",
+    "ACH_HACK_SLOW",
+    "ACH_HACK_FAST",
+    "ACH_STAT_MAX",
+    "ACH_HERO_MAX",
+    "ACH_SCEN_MAX",
+    "ACH_SCEN_SUCCESS",
+    "ACH_DISPATCH_ALL"
+  ]
+}

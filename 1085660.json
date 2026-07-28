@@ -1,0 +1,1023 @@
+{
+  "game": {
+    "appid": 1085660,
+    "slug": "destiny-2",
+    "title": "Destiny 2",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-25",
+    "estTotalHours": 200,
+    "difficultyRating": 9,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "New Light onboarding and basic activities",
+      "description": "Create the three classes, finish their Light-subclass onboarding, complete Light Reforged, and use repeatable public events for the early achievements.",
+      "achievementRefs": [
+        "ACH_1",
+        "ACH_2",
+        "ACH_3",
+        "ACH_4",
+        "ACH_5",
+        "ACH_7",
+        "ACH_6"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Weekly systems, Xûr, and Gambit",
+      "description": "Reach Weekly Rewards Rank 20 within one reset, visit Xûr during his Friday-to-Tuesday window, and win a Gambit match.",
+      "achievementRefs": [
+        "ACH_10",
+        "ACH_13",
+        "ACH_20"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Long-term collections and Triumphs",
+      "description": "Build the Exotic collections, claim 5,000 Triumph score, finish an attainable seal, and complete a compatible legacy Collections Badge.",
+      "achievementRefs": [
+        "ACH_9",
+        "ACH_14",
+        "ACH_15",
+        "ACH_16",
+        "ACH_17"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Master and Grandmaster Ops",
+      "description": "Prepare an endgame build and fireteam, then combine Master and Grandmaster Portal completions where possible and watch for the two eligible Darkness Falls activities.",
+      "achievementRefs": [
+        "ACH_8",
+        "ACH_11",
+        "ACH_12",
+        "ACH_21"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Dreaming City and Forsaken endgame",
+      "description": "Enter the Dreaming City, earn Wish-Ender, clear Shattered Throne, and finish Last Wish through Queenswalk.",
+      "achievementRefs": [
+        "ACH_18",
+        "ACH_19",
+        "ACH_22",
+        "ACH_23"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_1",
+      "displayName": "Long and Winding Road",
+      "description": "Reach level 20.",
+      "hidden": false,
+      "globalPercent": 82.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Create a Guardian and finish class selection plus character customization to trigger the legacy level achievement.",
+      "guide": {
+        "kind": "standard",
+        "context": "The displayed level-20 requirement is a legacy description. New Guardians now receive credit when their initial character setup is complete.",
+        "steps": [
+          {
+            "id": "create-guardian",
+            "text": "Select an empty character slot and choose Titan, Hunter, or Warlock."
+          },
+          {
+            "id": "finish-customization",
+            "text": "Complete the Guardian's appearance and confirm the character to enter the opening sequence."
+          },
+          {
+            "id": "check-unlock",
+            "text": "Wait for the achievement after character creation finishes; no level grind is required."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_2",
+      "displayName": "Zavala's Lieutenant",
+      "description": "Acquire each Titan subclass.",
+      "hidden": false,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_1"
+      ],
+      "summary": "Unlock and equip the Arc, Solar, and Void Light subclasses on one Titan after completing Ikora Rey's two missing-subclass quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "A new Titan begins with Arc. The legacy counter requires only the three original Light subclasses, so Stasis, Strand, and Prismatic are unnecessary.",
+        "steps": [
+          {
+            "id": "reach-ikora",
+            "text": "Finish @mechanic{A Guardian Rises}, start @mechanic{A Spark of Hope}, and follow Commander Zavala's Tower objective to @npc{Ikora Rey}."
+          },
+          {
+            "id": "complete-titan-quests",
+            "text": "Accept @mechanic{Stoking the Flame} for Solar and @mechanic{Gazing Into the Abyss} for Void. In each quest, earn 1,000 points by defeating combatants—matching-element damage awards substantially more points—and generate 3 Orbs of Power."
+          },
+          {
+            "id": "equip-titan-subclasses",
+            "text": "Open the Titan subclass screen and equip Arc, Solar, and Void at least once each after both quests are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_3",
+      "displayName": "Cayde's Pathfinder",
+      "description": "Acquire each Hunter subclass.",
+      "hidden": false,
+      "globalPercent": 34.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_1"
+      ],
+      "summary": "Unlock and equip the Solar, Arc, and Void Light subclasses on one Hunter after completing Ikora Rey's two missing-subclass quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "A new Hunter begins with Solar. The legacy counter requires only the three original Light subclasses, so Stasis, Strand, and Prismatic are unnecessary.",
+        "steps": [
+          {
+            "id": "reach-ikora",
+            "text": "Finish @mechanic{A Guardian Rises}, start @mechanic{A Spark of Hope}, and follow Commander Zavala's Tower objective to @npc{Ikora Rey}."
+          },
+          {
+            "id": "complete-hunter-quests",
+            "text": "Accept @mechanic{Riding the Storm} for Arc and @mechanic{Gazing Into the Abyss} for Void. In each quest, earn 1,000 points by defeating combatants—matching-element damage awards substantially more points—and generate 3 Orbs of Power."
+          },
+          {
+            "id": "equip-hunter-subclasses",
+            "text": "Open the Hunter subclass screen and equip Solar, Arc, and Void at least once each after both quests are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_4",
+      "displayName": "Ikora's Protégé",
+      "description": "Acquire each Warlock subclass.",
+      "hidden": false,
+      "globalPercent": 27.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_1"
+      ],
+      "summary": "Unlock and equip the Void, Arc, and Solar Light subclasses on one Warlock after completing Ikora Rey's two missing-subclass quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "A new Warlock begins with Void. The legacy counter requires only the three original Light subclasses, so Stasis, Strand, and Prismatic are unnecessary.",
+        "steps": [
+          {
+            "id": "reach-ikora",
+            "text": "Finish @mechanic{A Guardian Rises}, start @mechanic{A Spark of Hope}, and follow Commander Zavala's Tower objective to @npc{Ikora Rey}."
+          },
+          {
+            "id": "complete-warlock-quests",
+            "text": "Accept @mechanic{Riding the Storm} for Arc and @mechanic{Stoking the Flame} for Solar. In each quest, earn 1,000 points by defeating combatants—matching-element damage awards substantially more points—and generate 3 Orbs of Power."
+          },
+          {
+            "id": "equip-warlock-subclasses",
+            "text": "Open the Warlock subclass screen and equip Void, Arc, and Solar at least once each after both quests are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_5",
+      "displayName": "Show Me What You Got",
+      "description": "Complete the \"Light Reforged\" quest.",
+      "hidden": false,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 3 hours",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_1"
+      ],
+      "summary": "Complete Lord Shaxx's @mechanic{Light Reforged} quest after finishing the New Light introduction through @mechanic{The Disgraced}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Light Reforged becomes available only after the onboarding route reaches The Disgraced strike and returns the Guardian to the Tower.",
+        "steps": [
+          {
+            "id": "finish-disgraced",
+            "text": "Progress @mechanic{A Guardian Rises} through the complete @mechanic{The Disgraced} strike."
+          },
+          {
+            "id": "collect-light-reforged",
+            "text": "Return to @loc{the Tower}, speak to @npc{Lord Shaxx}, and accept the quest named @mechanic{Light Reforged}."
+          },
+          {
+            "id": "finish-light-reforged",
+            "text": "Complete every objective displayed in Light Reforged and turn in its final step to Lord Shaxx."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_6",
+      "displayName": "In A Flash",
+      "description": "Complete 5 Heroic Public Events.",
+      "hidden": false,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_7"
+      ],
+      "summary": "Activate and successfully finish five Heroic Public Events, using repeated @mechanic{Glimmer Extraction} events if desired.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each successful Heroic completion advances the cumulative counter, so the five events may use the same event type and can be completed across different destinations.",
+        "steps": [
+          {
+            "id": "find-glimmer-event",
+            "text": "Open a destination map, select a Public Event icon for @mechanic{Glimmer Extraction}, and reach the event before it begins."
+          },
+          {
+            "id": "trigger-heroic-five-times",
+            "text": "During each run, destroy one small Glimmer Refinery beside each of the three extraction sites, then defend the large Heroic Glimmer pile until its progress bar fills."
+          },
+          {
+            "id": "complete-five",
+            "text": "Finish five separate Glimmer Extraction events after their Heroic state activates; a normal completion does not advance this counter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_7",
+      "displayName": "The People's Hero",
+      "description": "Complete a Heroic public event.",
+      "hidden": false,
+      "globalPercent": 49.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Trigger @mechanic{Glimmer Extraction} as Heroic by destroying three Glimmer Refineries, then defend the Glimmer pile until completion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Public Events contain event-specific hidden triggers. The Heroic state must activate before the ordinary event objective finishes.",
+        "steps": [
+          {
+            "id": "join-glimmer-extraction",
+            "text": "Track a @mechanic{Glimmer Extraction} Public Event from a destination map and join it before the first extraction site is cleared."
+          },
+          {
+            "id": "destroy-refineries",
+            "text": "Destroy the small Glimmer Refinery device beside each extraction site for three devices total; a missed device can appear again at the final site."
+          },
+          {
+            "id": "finish-heroic-defense",
+            "text": "After the event changes to Heroic, stand near the large Glimmer pile and defend it until the capture bar reaches full."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_8",
+      "displayName": "Heart of Darkness",
+      "description": "Complete a Vanguard Ops activity on Master difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 27.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 45 minutes after preparation",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish one Master-or-higher activity from the Director Portal's @mechanic{Vanguard Ops} selection.",
+      "guide": {
+        "kind": "standard",
+        "context": "Master Portal activities impose a large Power disadvantage. Completion credit is awarded at the activity result, not when the difficulty is selected.",
+        "steps": [
+          {
+            "id": "open-vanguard-ops",
+            "text": "From the @loc{Director}, use the lower-screen @loc{Portal Ops} entry and choose an available @mechanic{Vanguard Ops} activity."
+          },
+          {
+            "id": "set-master",
+            "text": "Choose @mechanic{Master} difficulty or a higher available tier and assemble a fireteam if matchmaking is unavailable."
+          },
+          {
+            "id": "complete-vanguard-op",
+            "text": "Finish every objective and defeat the final boss so the Master-or-higher activity completion registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_9",
+      "displayName": "The Life Exotic",
+      "description": "Collect 15 Red War exotic weapons or armor.",
+      "hidden": false,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–80 hours depending on drops and legacy tracking",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "Add 15 distinct Red War entries—weapon or armor—to Exotic Collections, then relaunch if the legacy counter is delayed.",
+      "guide": {
+        "kind": "standard",
+        "context": "This legacy counter has awarded at varying total-Exotic counts for different accounts. Red War entries follow the displayed condition most directly, while delayed credit may appear after changing characters or restarting.",
+        "steps": [
+          {
+            "id": "check-red-war-collection",
+            "text": "Open @loc{Collections}, identify the Red War Exotic weapon and armor entries already registered, and count progress toward 15 distinct entries."
+          },
+          {
+            "id": "collect-exotics",
+            "text": "Acquire missing eligible Exotics through Exotic engrams, surviving Exotic quests, or purchases from @npc{Xûr} until at least 15 Red War entries are recorded."
+          },
+          {
+            "id": "refresh-legacy-counter",
+            "text": "If the achievement does not appear after the fifteenth Red War entry, continue adding distinct Exotics, wait for server credit, then change characters or restart Destiny 2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_10",
+      "displayName": "Challenge Accepted",
+      "description": "Reach Weekly Rewards Rank 20 in the Seasonal Hub.",
+      "hidden": false,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "one weekly cycle",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Reach Rank 20 on the account-wide Weekly Reward Track in the @loc{Seasonal Hub} before the weekly reset.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Weekly Reward Track resets with the weekly cycle. Daily Objectives award one track rank and Weekly Objectives award four ranks under the current system.",
+        "steps": [
+          {
+            "id": "open-seasonal-hub",
+            "text": "From the @loc{Director}, use the lower-screen @loc{Portal Ops} entry, open @loc{Seasonal Hub}, and view its Daily and Weekly Objectives."
+          },
+          {
+            "id": "complete-objectives",
+            "text": "Complete and claim Daily and Weekly Objectives until their awarded Weekly Reward Track progress reaches Rank 20."
+          },
+          {
+            "id": "claim-rank-twenty",
+            "text": "Open the Weekly Reward Track and claim the Rank 20 reward before the next weekly reset."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_11",
+      "displayName": "Belly Of The Beast",
+      "description": "Complete an Ops Activity on Master difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 45 minutes after preparation",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete any Ops activity in the Director's Portal on Master difficulty or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Grandmaster Portal clear also satisfies this Master-or-higher condition, allowing the achievement to unlock alongside The Prestige.",
+        "steps": [
+          {
+            "id": "select-portal-op",
+            "text": "Open the @loc{Director}, enter the @loc{Portal}, and choose an available Solo, Fireteam, or Pinnacle Ops activity."
+          },
+          {
+            "id": "choose-master",
+            "text": "Set the activity to @mechanic{Master} difficulty or higher and prepare the required build and fireteam."
+          },
+          {
+            "id": "finish-master-op",
+            "text": "Complete the entire Ops activity through its final result screen on the selected difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_12",
+      "displayName": "The Prestige",
+      "description": "Complete an Ops Activity on Grandmaster difficulty.",
+      "hidden": false,
+      "globalPercent": 8.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "1–2 hours after endgame preparation",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_11"
+      ],
+      "summary": "Complete any Ops activity in the Director's Portal on Grandmaster difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grandmaster is the highest Portal tier used by this legacy achievement and demands an endgame-ready build. The same clear also awards the Master-or-higher achievement if it is still locked.",
+        "steps": [
+          {
+            "id": "select-grandmaster-op",
+            "text": "Open the @loc{Director}, enter the @loc{Portal}, and choose an Ops activity that currently offers @mechanic{Grandmaster} difficulty."
+          },
+          {
+            "id": "prepare-fireteam",
+            "text": "Set Grandmaster, equip a build suited to the displayed modifiers, and form the required fireteam before launching."
+          },
+          {
+            "id": "finish-grandmaster-op",
+            "text": "Complete every encounter and reach the activity result screen without lowering the selected difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_13",
+      "displayName": "Lest Ye Be Judged",
+      "description": "Encounter an Agent of the Nine somewhere in the system.",
+      "hidden": false,
+      "globalPercent": 24.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes during Xûr's visit",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Speak to @npc{Xûr} in the Tower Bazaar between Friday's arrival and Tuesday's weekly reset.",
+      "guide": {
+        "kind": "standard",
+        "context": "Xûr is unavailable from the Tuesday reset until Friday. During his visit, the Tower map displays his vendor marker.",
+        "steps": [
+          {
+            "id": "visit-during-window",
+            "text": "Launch Destiny 2 between Friday's Xûr arrival and the Tuesday weekly reset."
+          },
+          {
+            "id": "find-xur",
+            "text": "Travel to @loc{the Tower Bazaar} and enter the small nook beside the ramen shop, following Xûr's map marker."
+          },
+          {
+            "id": "speak-to-xur",
+            "text": "Open @npc{Xûr}'s vendor screen while he is present."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_14",
+      "displayName": "Legends Grow",
+      "description": "Earn 5,000 Triumph points.",
+      "hidden": false,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "50–100 hours",
+      "estMinutes": 4500,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete and claim enough Triumph objectives in the Journey menu to raise the account's Triumph score to 5,000.",
+      "guide": {
+        "kind": "standard",
+        "context": "Triumph objectives track across many activities, but completed Triumphs must be claimed before their displayed points are added to the account score.",
+        "steps": [
+          {
+            "id": "inspect-triumphs",
+            "text": "Open @loc{Journey}, select @loc{Triumphs}, and identify currently obtainable objectives with score values."
+          },
+          {
+            "id": "complete-triumphs",
+            "text": "Finish Triumph objectives across available activities, destinations, and modes until at least 5,000 total points are available."
+          },
+          {
+            "id": "claim-five-thousand",
+            "text": "Claim each completed Triumph in the Journey menu until the displayed account Triumph score reaches 5,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_15",
+      "displayName": "Exotique",
+      "description": "Collect 10 Forsaken Exotic weapons or armor.",
+      "hidden": false,
+      "globalPercent": 12.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "40–100 hours depending on ownership and drops",
+      "estMinutes": 4200,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Register 10 distinct @item{Forsaken Exotic weapons or armor pieces} in Collections.",
+      "guide": {
+        "kind": "standard",
+        "context": "Collections records distinct items rather than duplicate drops. Forsaken entries can come from surviving quests, eligible Exotic drops, Xûr, or the Monument to Lost Lights.",
+        "steps": [
+          {
+            "id": "audit-forsaken-exotics",
+            "text": "Open @loc{Collections} and count the Forsaken Exotic weapons and armor entries already registered on the account."
+          },
+          {
+            "id": "obtain-missing-exotics",
+            "text": "Acquire missing Forsaken Exotics from their available quests, eligible Exotic engrams, @npc{Xûr}, or the @loc{Monument to Lost Lights}."
+          },
+          {
+            "id": "reach-ten-forsaken",
+            "text": "Continue until Collections records 10 distinct Forsaken Exotic weapon or armor entries."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_16",
+      "displayName": "Seal the Deal",
+      "description": "Complete a Triumph Seal.",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "30–100 hours depending on the chosen seal",
+      "estMinutes": 3600,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete every Triumph in one currently attainable Triumph Seal, then claim its title in the Journey menu.",
+      "guide": {
+        "kind": "standard",
+        "context": "Seals group Triumphs around an activity, destination, event, or season. A seal with vaulted or expired requirements cannot be finished, so confirm every listed Triumph is still obtainable before committing.",
+        "steps": [
+          {
+            "id": "choose-seal",
+            "text": "Open @loc{Journey}, select @loc{Titles}, and choose a Triumph Seal whose complete requirement list is currently available."
+          },
+          {
+            "id": "finish-seal-triumphs",
+            "text": "Complete and claim every Triumph shown inside that same seal."
+          },
+          {
+            "id": "claim-title",
+            "text": "Return to the completed seal and claim its title after every requirement is marked complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_17",
+      "displayName": "Fashion Statement",
+      "description": "Complete a Collections Badge.",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": true,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "50–150 hours depending on the legacy badge",
+      "estMinutes": 6000,
+      "stage": 3,
+      "confidence": "unverified",
+      "dependencies": [],
+      "summary": "Complete every item slot in one Forsaken-era or earlier Collections Badge on a single character, preferably @item{Destinations: Dreaming City}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The platform achievement uses a legacy badge list. Newer badges can complete in-game without awarding credit, while the Dreaming City badge is a known compatible route.",
+        "steps": [
+          {
+            "id": "select-compatible-badge",
+            "text": "Open @loc{Collections}, select @loc{Badges}, and choose the @item{Destinations: Dreaming City} badge or another Forsaken-era-or-earlier badge."
+          },
+          {
+            "id": "collect-badge-items",
+            "text": "Acquire every weapon, armor piece, emblem, shader, Ghost shell, ship, and Sparrow shown in that badge, including the selected character's class-specific armor slots."
+          },
+          {
+            "id": "complete-one-character",
+            "text": "Fill every slot on the same character and reopen the completed badge so the account-wide completion registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_18",
+      "displayName": "Heart of the Awoken",
+      "description": "Enter the Dreaming City.",
+      "hidden": true,
+      "globalPercent": 19.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Select the @loc{Dreaming City} in the Director and land in its patrol space.",
+      "guide": {
+        "kind": "standard",
+        "context": "This hidden achievement requires destination entry rather than campaign completion or a Dreaming City activity clear.",
+        "steps": [
+          {
+            "id": "open-dreaming-city",
+            "text": "Open the @loc{Director} and select the @loc{Dreaming City} destination."
+          },
+          {
+            "id": "launch-patrol",
+            "text": "Choose an available Dreaming City landing zone and launch the patrol destination."
+          },
+          {
+            "id": "enter-destination",
+            "text": "Wait until the Guardian finishes loading into the Dreaming City patrol space."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_19",
+      "displayName": "An Exotic Journey",
+      "description": "Complete the Hunters' Remembrance quest and claim Wish-Ender.",
+      "hidden": true,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "2–4 hours",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_18"
+      ],
+      "summary": "Complete @npc{Petra Venj}'s @mechanic{Hunters' Remembrance} quest in Shattered Throne and claim @item{Wish-Ender} from the pre-boss statue.",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest requires three specific Shattered Throne minibosses rather than a full dungeon clear. The charged mementos are presented before the final boss encounter.",
+        "steps": [
+          {
+            "id": "accept-hunters-remembrance",
+            "text": "Speak to @npc{Petra Venj} in the @loc{Dreaming City}, accept @mechanic{Hunters' Remembrance}, and keep its Awoken Memento on that same character throughout Shattered Throne."
+          },
+          {
+            "id": "defeat-querim",
+            "text": "In @loc{Erebus}, carry the blue orb from the Tower of the Deep to the empty-handed statue on the central building's roof, then defeat @enemy{Theratos, Archersbane} and @enemy{Querim, the Waking}."
+          },
+          {
+            "id": "defeat-eriviks",
+            "text": "In @loc{the Descent}, place the Ogre-catwalk orb in the empty right-side statue and carry the Thrallway orb to the empty statue after the railing drop; enter the opened hidden room and defeat @enemy{Eriviks, the Waking}."
+          },
+          {
+            "id": "defeat-xavoth",
+            "text": "During the @enemy{Vorgeth} encounter, extinguish a Petitioner's Burden, kill the camouflaged @enemy{Fleeting Shade} near the exit, place its orb in the side-wall statue, and defeat @enemy{Xavoth, the Waking} before killing Vorgeth."
+          },
+          {
+            "id": "claim-wish-ender",
+            "text": "Defeat Vorgeth, approach @npc{Sjur Eido}'s statue before the final boss, present the three purified mementos, and claim the @item{Wish-Ender} Exotic bow."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_20",
+      "displayName": "High-Stakes Play",
+      "description": "Win a Gambit match.",
+      "hidden": false,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15–60 minutes",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish a full Gambit match on the winning team.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the match result matters for this achievement. Completing a match on the losing team does not award credit.",
+        "steps": [
+          {
+            "id": "launch-gambit",
+            "text": "Open the @loc{Director}, select @mechanic{Gambit}, and enter its matchmaking queue."
+          },
+          {
+            "id": "play-full-match",
+            "text": "Complete the match objectives without leaving before the final result."
+          },
+          {
+            "id": "secure-win",
+            "text": "Defeat the opposing team and remain through the victory result screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_21",
+      "displayName": "Darkness Falls",
+      "description": "Complete \"The Corrupted\" or \"Warden of Nothing\" on Master difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "about 1 hour when an eligible activity is available",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Complete @loc{The Corrupted} or @loc{Warden of Nothing} on Master difficulty or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the two named activities satisfy this Forsaken-boss counter, and their availability rotates. A different Master activity does not count.",
+        "steps": [
+          {
+            "id": "wait-for-eligible-activity",
+            "text": "Check the current Vanguard or Portal activity selection until @loc{The Corrupted} or @loc{Warden of Nothing} is available."
+          },
+          {
+            "id": "choose-master",
+            "text": "Select the eligible activity on @mechanic{Master} difficulty or higher and prepare a fireteam for its displayed modifiers."
+          },
+          {
+            "id": "finish-eligible-activity",
+            "text": "Complete the full activity and defeat its final boss on the selected difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_22",
+      "displayName": "Nothing Left to Say",
+      "description": "Complete the Shattered Throne dungeon.",
+      "hidden": true,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "1–3 hours",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_18"
+      ],
+      "summary": "Clear every @loc{Shattered Throne} encounter, including the final battle against @enemy{Dûl Incaru}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shattered Throne is structured for a three-player fireteam, although it can be entered with fewer players. Completion credit is tied to the final encounter.",
+        "steps": [
+          {
+            "id": "launch-shattered-throne",
+            "text": "Open the @loc{Dreaming City} in the Director, select @loc{Shattered Throne}, and launch with the intended fireteam."
+          },
+          {
+            "id": "clear-dungeon",
+            "text": "Progress through the dungeon's navigation sections and combat encounters until the final arena."
+          },
+          {
+            "id": "defeat-dul-incaru",
+            "text": "Kill @enemy{Dûl Incaru} and remain in the final arena until the dungeon completion registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_23",
+      "displayName": "Wishing for the Best",
+      "description": "Complete the \"Last Wish\" Raid.",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "2–6 hours depending on checkpoint and group",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [
+        "ACH_18"
+      ],
+      "summary": "Complete the @loc{Last Wish} raid by defeating Riven and finishing the Queenswalk encounter.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Riven checkpoint is sufficient for the platform achievement. The raid is designed for six coordinated players, and defeating Riven alone is incomplete until Queenswalk finishes.",
+        "steps": [
+          {
+            "id": "form-raid-team",
+            "text": "Form a six-player fireteam and launch @loc{Last Wish} from the @loc{Dreaming City}, using a Riven checkpoint if available."
+          },
+          {
+            "id": "defeat-riven",
+            "text": "Complete the Riven encounter and enter the final heart-carrying sequence."
+          },
+          {
+            "id": "finish-queenswalk",
+            "text": "Complete @mechanic{Queenswalk} and remain through the raid-completion result."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_1",
+    "ACH_2",
+    "ACH_3",
+    "ACH_4",
+    "ACH_5",
+    "ACH_7",
+    "ACH_6",
+    "ACH_10",
+    "ACH_13",
+    "ACH_20",
+    "ACH_9",
+    "ACH_14",
+    "ACH_15",
+    "ACH_16",
+    "ACH_17",
+    "ACH_8",
+    "ACH_11",
+    "ACH_12",
+    "ACH_21",
+    "ACH_18",
+    "ACH_19",
+    "ACH_22",
+    "ACH_23"
+  ]
+}

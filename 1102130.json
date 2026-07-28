@@ -1,0 +1,546 @@
+{
+  "game": {
+    "appid": 1102130,
+    "slug": "florence",
+    "title": "Florence",
+    "version": "1.0",
+    "lastPatchChecked": "2022-03-18",
+    "estTotalHours": 1,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Chapter 1 — Adult Life",
+      "description": "Like every social post on the train, hang up on Mom five times before answering, and deliberately mismatch three accounting pairs before finishing the work sequence.",
+      "achievementRefs": [
+        "Influencer",
+        "NotNow",
+        "BadAccountant"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Chapter 2 — Memories",
+      "description": "Cycle one drawing's palette five times and submit one wrong response on each of the three math problems before solving them.",
+      "achievementRefs": [
+        "Indecisive",
+        "Oops"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Chapter 7 — Inspiration",
+      "description": "Use the fixed room layout to click all 17 cleaning targets within 15 seconds; retry the chapter if the timer is missed.",
+      "achievementRefs": [
+        "QuickCleaner"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Chapters 9–11 — Groceries, Moving In, and Happy Together",
+      "description": "Stop responding during the argument, retain both Marmite/Vegemite jars and both family photos, and use only heart emojis while texting Krish.",
+      "achievementRefs": [
+        "Overruled",
+        "Necessities",
+        "FamilyPhoto",
+        "Heart"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Chapters 18–20 — Let Go and completion",
+      "description": "Let Florence walk without interruption until Krish fades, then finish the final chapters and use Chapter Select for any remaining optional actions.",
+      "achievementRefs": [
+        "Acceptance",
+        "Complete"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "NotNow",
+      "displayName": "Not Now",
+      "description": "Hang up on Mom 5 times",
+      "hidden": false,
+      "globalPercent": 28.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "In @loc{Chapter 1 — Adult Life}, reject Florence's mother's phone call five times before answering it.",
+      "guide": {
+        "kind": "standard",
+        "context": "The story cannot advance until Florence eventually answers, so the five rejected calls must be counted before accepting the sixth attempt. Chapter Select can replay this scene.",
+        "steps": [
+          {
+            "id": "wait-for-call",
+            "text": "Play Chapter 1 until Florence's mother calls during the Adult Life routine."
+          },
+          {
+            "id": "reject-five",
+            "text": "Press the hang-up control on five consecutive incoming calls from Florence's mother."
+          },
+          {
+            "id": "answer-sixth",
+            "text": "Answer the next call after the fifth rejection so the chapter can continue."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Influencer",
+      "displayName": "Influencer",
+      "description": "Like all social media posts in Adulthood",
+      "hidden": false,
+      "globalPercent": 42.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "During @loc{Chapter 1}'s train sequence, press the heart button on every social-media post without reblogging any post.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each post offers a heart and a circular-arrow reblog control. The achievement requires the heart response across the entire sequence, but the scene can be retried through Chapter Select.",
+        "steps": [
+          {
+            "id": "reach-social-feed",
+            "text": "Continue Chapter 1 until Florence scrolls through social-media posts on the train."
+          },
+          {
+            "id": "heart-every-post",
+            "text": "Press the @mechanic{heart button} on every displayed post and never press the circular-arrow reblog button."
+          },
+          {
+            "id": "finish-feed",
+            "text": "Continue until the social-media sequence ends after every post has received a heart."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Indecisive",
+      "displayName": "Indecisive",
+      "description": "Change the color of artwork 5 times",
+      "hidden": false,
+      "globalPercent": 70.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 1 minute",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Change one drawing's colors five times with the palette in @loc{Chapter 2 — Memories}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five changes can all be made while decorating either the boat or the butterfly; they do not need to be divided between both drawings.",
+        "steps": [
+          {
+            "id": "open-drawing",
+            "text": "Reach the boat or butterfly decorating scene in Chapter 2."
+          },
+          {
+            "id": "cycle-palette",
+            "text": "Press the @mechanic{palette} five times on that drawing to cycle through five color changes."
+          },
+          {
+            "id": "continue-scene",
+            "text": "After the fifth change registers, press the arrow to move to the next scene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Necessities",
+      "displayName": "Necessities",
+      "description": "Keep both jars of Marmite/Vegemite",
+      "hidden": false,
+      "globalPercent": 36.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Keep both @item{Marmite/Vegemite jars} in the kitchen during @loc{Chapter 10 — Moving In}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Florence's jar begins on the kitchen's bottom shelf beside the Nutella. Only Krish's jar needs to be moved from his unpacked possessions, and placing either jar in Storage prevents the pair from remaining together.",
+        "steps": [
+          {
+            "id": "find-existing-jar",
+            "text": "During Chapter 10's kitchen setup, leave Florence's @item{Marmite/Vegemite jar} on the bottom shelf beside the Nutella."
+          },
+          {
+            "id": "place-krish-jar",
+            "text": "Find Krish's Marmite/Vegemite jar among his unpacked possessions and place it in the kitchen."
+          },
+          {
+            "id": "avoid-storage",
+            "text": "Finish the kitchen scene with both jars in the kitchen and neither jar inside the @mechanic{Storage box}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Oops",
+      "displayName": "Oops",
+      "description": "Get every math problem wrong",
+      "hidden": false,
+      "globalPercent": 23.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Submit one wrong answer on each of the three math problems in @loc{Chapter 2}, then solve every problem correctly.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter requires an error on three separate problems, not three attempts on one problem. Correct answers are still required afterward because the scene cannot progress while a problem remains unsolved.",
+        "steps": [
+          {
+            "id": "answer-first-wrong",
+            "text": "On the first math problem, deliberately select an incorrect answer, then enter the correct answer."
+          },
+          {
+            "id": "answer-second-wrong",
+            "text": "On the second math problem, deliberately select an incorrect answer, then enter the correct answer."
+          },
+          {
+            "id": "answer-third-wrong",
+            "text": "On the third math problem, deliberately select an incorrect answer, then enter the correct answer to finish the sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BadAccountant",
+      "displayName": "Bad Accountant",
+      "description": "Mismatch 3 numbers",
+      "hidden": false,
+      "globalPercent": 34.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Create three mismatched number pairs during @loc{Chapter 1}'s accounting sequence before matching the numbers correctly.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chapter 1 is the earliest opportunity, although a later accounting scene can also advance the same requirement. The work sequence will not end until all numbers are eventually paired correctly.",
+        "steps": [
+          {
+            "id": "reach-accounting",
+            "text": "Continue Chapter 1 until Florence begins matching numbers at work."
+          },
+          {
+            "id": "make-mismatches",
+            "text": "Choose two different numbers as one pair, then create two more different-number pairs for a total of three mismatches."
+          },
+          {
+            "id": "finish-correctly",
+            "text": "After the third mismatch, pair every remaining number with its identical value to complete the work sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FamilyPhoto",
+      "displayName": "Family Photo",
+      "description": "Unpack and keep both family photos on the shelf",
+      "hidden": false,
+      "globalPercent": 68.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Leave Florence's and Krish's @item{family photos} together on the shelf in @loc{Chapter 10 — Moving In}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This shelf scene follows the kitchen setup. Florence's photo is already displayed, so the required action is to retain it and add Krish's photo instead of discarding either one into Storage.",
+        "steps": [
+          {
+            "id": "keep-florence-photo",
+            "text": "In Chapter 10's shelf-unpacking scene, leave Florence's @item{family photo} on the shelf."
+          },
+          {
+            "id": "add-krish-photo",
+            "text": "Find Krish's family photo among his possessions and place it on the same shelf."
+          },
+          {
+            "id": "finish-with-both",
+            "text": "Complete the scene with both family photos on the shelf and neither photo in the @mechanic{Storage box}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Heart",
+      "displayName": "<3",
+      "description": "Reply only in Heart emojis",
+      "hidden": false,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Use only the heart emoji for every reply to Krish during the @loc{Chapter 11} train conversation.",
+      "guide": {
+        "kind": "standard",
+        "context": "Four emoji choices appear for each message. Any non-heart response breaks the condition for that chapter attempt, so Chapter Select is the cleanup route after a wrong input.",
+        "steps": [
+          {
+            "id": "reach-texting",
+            "text": "Play Chapter 11 until Florence begins texting @npc{Krish} on the train."
+          },
+          {
+            "id": "send-hearts-only",
+            "text": "Select the @mechanic{heart emoji} for every reply, regardless of Krish's message."
+          },
+          {
+            "id": "finish-conversation",
+            "text": "Continue sending hearts until the text conversation ends without any other emoji being used."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuickCleaner",
+      "displayName": "Quick Cleaner",
+      "description": "Clean Krish's room in less then 15 seconds",
+      "hidden": false,
+      "globalPercent": 30.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 5 minutes including retries",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Click all 17 cleaning targets in Krish's room within 15 seconds during @loc{Chapter 7 — Inspiration}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The target positions are fixed, and Chapter Select allows immediate practice runs. Learning the room layout before the successful attempt reduces time lost searching for the remaining targets.",
+        "steps": [
+          {
+            "id": "prepare-room",
+            "text": "Open Chapter 7 through normal play or Chapter Select and be ready when Krish's messy room appears."
+          },
+          {
+            "id": "clear-wall-and-dresser",
+            "text": "Click the window, bed, poster, shelf above the dresser, dresser clutter, action figure, and open dresser drawer."
+          },
+          {
+            "id": "clear-floor-items",
+            "text": "Click the orange shirt, cricket bat, red sneakers, open crumb-filled box, black boots, yellow backpack, skateboard, and both separate socks."
+          },
+          {
+            "id": "close-guitar-case",
+            "text": "Click the open guitar case as the seventeenth target and finish the complete room cleanup before 15 seconds have elapsed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Overruled",
+      "displayName": "Overruled",
+      "description": "Lose the fight to Krish in Groceries",
+      "hidden": false,
+      "globalPercent": 43.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 4,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Lose the argument with Krish in @loc{Chapter 9 — Groceries} by stopping all response-piece assembly when the fight begins.",
+      "guide": {
+        "kind": "standard",
+        "context": "The opening conversation still requires normal puzzle responses. The transition into the actual fight is signaled when the black frame disappears and Florence can assemble replies while Krish continues speaking.",
+        "steps": [
+          {
+            "id": "finish-opening-talk",
+            "text": "Assemble Florence's responses during the initial black-framed conversation in Chapter 9."
+          },
+          {
+            "id": "stop-at-fight",
+            "text": "When the black frame disappears and the simultaneous argument begins, stop moving or matching Florence's response pieces."
+          },
+          {
+            "id": "wait-for-loss",
+            "text": "Leave the puzzle untouched while Krish talks until the scene changes to Florence and Krish sitting back-to-back."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Acceptance",
+      "displayName": "Acceptance",
+      "description": "Play through all of Let Go without stopping",
+      "hidden": false,
+      "globalPercent": 28.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 3 minutes",
+      "estMinutes": 3,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Let Florence walk through all of @loc{Chapter 18 — Let Go} without clicking or making her stop.",
+      "guide": {
+        "kind": "standard",
+        "context": "Clicking while Krish remains visible stops Florence and lets him catch up, which breaks the uninterrupted attempt. The safe completion cue is the checkmark that appears only after Krish has fully faded.",
+        "steps": [
+          {
+            "id": "start-walking",
+            "text": "Start Chapter 18 and allow Florence and @npc{Krish} to begin walking side by side."
+          },
+          {
+            "id": "do-not-click",
+            "text": "Do not click or press the screen while Florence walks and Krish gradually fades away."
+          },
+          {
+            "id": "select-checkmark",
+            "text": "After Krish has disappeared and the checkmark appears in the lower-right corner, select the checkmark to finish the chapter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Complete",
+      "displayName": "Complete",
+      "description": "Completing the game",
+      "hidden": false,
+      "globalPercent": 83.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "0–1 hour total",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish @loc{Chapter 20 — Moving On}, the final chapter of Florence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the story-completion achievement and has no optional input condition. Any earlier missed achievement can be revisited through Chapter Select after the ending.",
+        "steps": [
+          {
+            "id": "reach-final-chapter",
+            "text": "Progress through all six acts until Chapter 20 — Moving On becomes available."
+          },
+          {
+            "id": "finish-story",
+            "text": "Complete every interaction in Chapter 20 and continue through the final story sequence."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Influencer",
+    "NotNow",
+    "BadAccountant",
+    "Indecisive",
+    "Oops",
+    "QuickCleaner",
+    "Overruled",
+    "Necessities",
+    "FamilyPhoto",
+    "Heart",
+    "Acceptance",
+    "Complete"
+  ]
+}

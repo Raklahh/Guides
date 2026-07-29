@@ -1,0 +1,1831 @@
+{
+  "game": {
+    "appid": 2651280,
+    "slug": "marvel-s-spider-man-2",
+    "title": "Marvel's Spider-Man 2",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-28",
+    "estTotalHours": 40,
+    "difficultyRating": 3,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-30"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Finish the story on any difficulty",
+      "description": "Play the campaign freely, equip the tutorial suit style, use Reverse Flux on six enemies during No Escape, and collect automatic story achievements. No optional activity can be permanently missed.",
+      "achievementRefs": [
+        "DefeatSandman",
+        "CompleteAct1",
+        "DefeatLizard",
+        "DefeatLi",
+        "DefeatKraven",
+        "VenomModeKills",
+        "VenoMJ",
+        "AntiVenomSymbioteKill",
+        "GoldenPath",
+        "EquipSuitVariant",
+        "ReverseFluxTargetCount"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Complete every district and miscellaneous objective",
+      "description": "Use post-story free roam to clear all 14 district checklists, purchase the base suits and upgrades, finish combat counters in Crimes, and complete the graves, stadium, science trophy, tricks, and Web Wings route.",
+      "achievementRefs": [
+        "VisitMayGrave",
+        "ProwlerTechStashes",
+        "PlatinumTrophy",
+        "CompleteAllDistricts",
+        "UpgradeAllGadgets",
+        "AllSuits",
+        "CompleteAllMysterioChallenges",
+        "MaxLevel",
+        "FalconChases",
+        "WraithBoss",
+        "SymbioteNests",
+        "SandmanCollectibles",
+        "HunterBases",
+        "CompleteAllFNSM",
+        "SymbiotePowersDuringRageMode",
+        "EmilyMayFoundationQuests",
+        "BlueVenomKills",
+        "IronArmKills",
+        "AllSuitTech",
+        "BrooklynVisions",
+        "HarlemArc",
+        "CompleteAllSpiderBots",
+        "WebLineTakedowns",
+        "AirTricksInARow",
+        "ConeyIslandHomeRun",
+        "FindMilesAndPhinTrophy",
+        "WingsuitConeyIslandToQueens",
+        "FailAirTrick",
+        "FNSM_Howard",
+        "CollectTechParts",
+        "AllPhotoLocations"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish New Game+",
+      "description": "Create New Game+ from the completed save, choose any difficulty, and replay only the yellow main-story missions through the ending.",
+      "achievementRefs": [
+        "NewGamePlusComplete"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "VisitMayGrave",
+      "displayName": "You Know What to Do",
+      "description": "As Peter, visit Aunt May's grave",
+      "hidden": false,
+      "globalPercent": 16.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "As Peter, interact with Aunt May’s grave in the cemetery at the northwest corner of Harlem.",
+      "guide": {
+        "kind": "standard",
+        "context": "May’s grave shares a grassy plot with Ben Parker’s grave in the cemetery’s northern half, away from the paved path. The interaction prompt appears only while playing as Peter.",
+        "steps": [
+          {
+            "id": "switch-peter",
+            "text": "Switch to @npc{Peter Parker} during unrestricted free roam."
+          },
+          {
+            "id": "find-cemetery",
+            "text": "Travel to the cemetery in the northwest corner of @loc{Harlem} and search the northern grassy area beneath the trees."
+          },
+          {
+            "id": "visit-may",
+            "text": "Approach the paired Parker graves, use the prompt at @loc{Aunt May’s grave}, and remain until Peter finishes speaking."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ProwlerTechStashes",
+      "displayName": "Co-Signing",
+      "description": "Complete all Tech Stashes",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Solve and open all 10 purple Prowler Stashes across New York.",
+      "guide": {
+        "kind": "standard",
+        "context": "The activity unlocks after “Amends.” Each stash uses environmental scanning and a short traversal or circuit puzzle, and every completed stash also advances its district.",
+        "steps": [
+          {
+            "id": "unlock-stashes",
+            "text": "Complete @loc{Main Mission 6 — Amends} to reveal the Prowler Stash activity."
+          },
+          {
+            "id": "track-stashes",
+            "text": "Open the Map, select each purple @mechanic{Prowler Stash} icon, and follow its scan trail to the sealed entrance."
+          },
+          {
+            "id": "open-ten",
+            "text": "Solve the entrance puzzle and open the cache at all 10 Prowler Stash locations."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatSandman",
+      "displayName": "You're Gonna Need Help",
+      "description": "Complete “Surface Tension”",
+      "hidden": true,
+      "globalPercent": 91.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission 1 — Surface Tension} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission 1 — Surface Tension} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission 1 — Surface Tension} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PlatinumTrophy",
+      "displayName": "Dedicated",
+      "description": "Collect all Achievements",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "35 hr total",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "completion",
+      "prerequisites": [
+        "VisitMayGrave",
+        "ProwlerTechStashes",
+        "DefeatSandman",
+        "CompleteAct1",
+        "DefeatLizard",
+        "DefeatLi",
+        "DefeatKraven",
+        "VenomModeKills",
+        "VenoMJ",
+        "AntiVenomSymbioteKill",
+        "CompleteAllDistricts",
+        "GoldenPath",
+        "UpgradeAllGadgets",
+        "AllSuits",
+        "CompleteAllMysterioChallenges",
+        "MaxLevel",
+        "FalconChases",
+        "WraithBoss",
+        "SymbioteNests",
+        "SandmanCollectibles",
+        "HunterBases",
+        "CompleteAllFNSM",
+        "SymbiotePowersDuringRageMode",
+        "EmilyMayFoundationQuests",
+        "BlueVenomKills",
+        "IronArmKills",
+        "AllSuitTech",
+        "BrooklynVisions",
+        "HarlemArc",
+        "CompleteAllSpiderBots",
+        "EquipSuitVariant",
+        "WebLineTakedowns",
+        "AirTricksInARow",
+        "ReverseFluxTargetCount",
+        "ConeyIslandHomeRun",
+        "FindMilesAndPhinTrophy",
+        "WingsuitConeyIslandToQueens",
+        "FailAirTrick",
+        "FNSM_Howard",
+        "CollectTechParts",
+        "AllPhotoLocations"
+      ],
+      "summary": "Unlock every achievement from the original release; the post-launch New Game+ achievement is not required.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dedicated mirrors the original platinum set. “Once More, With Feeling” was added later, so Steam awards Dedicated after the other 41 base achievements even if the New Game+ run remains unfinished.",
+        "steps": [
+          {
+            "id": "finish-story-set",
+            "text": "Complete the first-playthrough story, combat, traversal, upgrade, and district achievements."
+          },
+          {
+            "id": "finish-last-base",
+            "text": "Unlock the final remaining original achievement and wait for @mechanic{Dedicated} to register automatically."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteAllDistricts",
+      "displayName": "Superior",
+      "description": "100% complete all districts",
+      "hidden": false,
+      "globalPercent": 24.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8–12 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "prerequisites": [
+        "GoldenPath"
+      ],
+      "summary": "Raise all 14 New York districts to 100% by completing every listed mission and collectible.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Map shows a separate checklist for each district. Most categories unlock through story progress, Spider-Bots rely on the minimap rather than normal map icons, and some finale activities appear only after their earlier locations are cleared.",
+        "steps": [
+          {
+            "id": "finish-story",
+            "text": "Finish the main story so every late activity category and post-story objective can appear."
+          },
+          {
+            "id": "clear-map",
+            "text": "Use each district’s Map checklist to finish Marko’s Memories, Photo Ops, FNSM Requests, Prowler Stashes, The Flame, Brooklyn Visions, EMF Experiments, Hunter Blinds and Bases, Spider-Bots, Mysteriums, Cultural Museums, Unidentified Targets, and Symbiote Nests."
+          },
+          {
+            "id": "verify-districts",
+            "text": "Move the cursor over all 14 districts and confirm that every district reads 100%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GoldenPath",
+      "displayName": "Heal the World",
+      "description": "Finish the main story",
+      "hidden": false,
+      "globalPercent": 52.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "18–20 hr",
+      "estMinutes": 1080,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Complete the full main campaign through its final mission and credits on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "There is no difficulty requirement, and the ending returns both Spider-Men to free roam with unfinished activities still available.",
+        "steps": [
+          {
+            "id": "follow-story",
+            "text": "Complete every yellow main-story mission from @loc{Surface Tension} through the campaign finale."
+          },
+          {
+            "id": "finish-credits",
+            "text": "Complete the final encounter and continue through the ending until the credits begin."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UpgradeAllGadgets",
+      "displayName": "To the Max",
+      "description": "Purchase all Gadget upgrades",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across 100% cleanup",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Buy every upgrade for all five gadgets from the pause-menu Gadgets tab.",
+      "guide": {
+        "kind": "standard",
+        "context": "District completion supplies the required Tech Parts and Tokens. The complete base upgrade grid costs 4,495 Tech Parts, 76 Rare Tech Parts, 28 City Tokens, and 31 Hero Tokens.",
+        "steps": [
+          {
+            "id": "unlock-gadgets",
+            "text": "Advance the story until all five gadgets are available in the @mechanic{Gadgets} menu."
+          },
+          {
+            "id": "earn-materials",
+            "text": "Complete district activities and open Tech Crates until the required Tech Parts and Tokens are available."
+          },
+          {
+            "id": "buy-upgrades",
+            "text": "Open @mechanic{Gadgets} and purchase every upgrade node for Web-Shooters, Upshot, Web Grabber, Sonic Burst, and Ricochet Web."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AllSuits",
+      "displayName": "Kitted Out",
+      "description": "Purchase all available Suits",
+      "hidden": false,
+      "globalPercent": 24.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across 100% cleanup",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Own all 68 base-game suits for Peter and Miles by crafting every required suit and earning the activity rewards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The requirement covers 34 original suits per Spider-Man. Alternate styles and post-launch New Game+ or free-update suits are outside the base set.",
+        "steps": [
+          {
+            "id": "unlock-suits",
+            "text": "Complete @loc{Suit Is Sandy} to open the @mechanic{Suits} menu."
+          },
+          {
+            "id": "complete-rewards",
+            "text": "Finish the story and district activity chains that award suits automatically."
+          },
+          {
+            "id": "craft-base-set",
+            "text": "In @mechanic{Suits}, craft every remaining locked base-game suit for Peter and Miles until all 68 original suits are owned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteAllMysterioChallenges",
+      "displayName": "Behind the Masks",
+      "description": "Complete “Grand Finale”",
+      "hidden": true,
+      "globalPercent": 32.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Earn at least bronze in the nine Mysteriums, then complete the Grand Finale mission in Downtown Brooklyn.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mysteriums appear after “Hunt to Live, Live to Hunt.” Medal color does not affect this achievement; clearing all nine initial gates reveals the tenth location, Grand Finale.",
+        "steps": [
+          {
+            "id": "unlock-mysteriums",
+            "text": "Complete the story hunt @loc{Hunt to Live, Live to Hunt} to place Mysterium gates on the Map."
+          },
+          {
+            "id": "medal-nine",
+            "text": "Enter each of the nine initial @mechanic{Mysteriums} and meet its bronze objective."
+          },
+          {
+            "id": "grand-finale",
+            "text": "Travel to the new marker in @loc{Downtown Brooklyn} and complete @loc{Grand Finale}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MaxLevel",
+      "displayName": "Amazing",
+      "description": "Reach max level",
+      "hidden": false,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across 100% cleanup",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Earn enough experience to reach base level 60 with Peter and Miles.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both Spider-Men share progression. Level 60 is the original cap; New Game+ Ultimate Levels begin beyond it and are not required.",
+        "steps": [
+          {
+            "id": "earn-xp",
+            "text": "Complete the main story, side missions, district activities, and Crimes to earn shared experience."
+          },
+          {
+            "id": "reach-sixty",
+            "text": "Continue earning experience until the shared level indicator reaches 60."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FalconChases",
+      "displayName": "Data Collector",
+      "description": "Complete “Target Identified”",
+      "hidden": true,
+      "globalPercent": 32.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45–60 min",
+      "estMinutes": 50,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Finish the eight Unidentified Target drone chases, then complete Target Identified in Midtown.",
+      "guide": {
+        "kind": "standard",
+        "context": "The activity starts during “Wings of My Own.” Each chase requires staying in the drone’s wake until download reaches 100%; finishing the first eight reveals the ninth, story-style finale.",
+        "steps": [
+          {
+            "id": "unlock-targets",
+            "text": "Complete the Unidentified Target tutorial during @loc{Wings of My Own}."
+          },
+          {
+            "id": "chase-drones",
+            "text": "Complete the other seven drone icons by following each target with Web Wings until its download bar reaches 100%."
+          },
+          {
+            "id": "finish-target",
+            "text": "At the new @loc{Midtown} marker, defeat the guards, enter through the roof, inspect the kitchen counter and chessboard, move the queen, and search the hidden basement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WraithBoss",
+      "displayName": "Crimson Hour",
+      "description": "Complete “It Was Meant for Me”",
+      "hidden": true,
+      "globalPercent": 41.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Finish all four The Flame missions and complete It Was Meant for Me in Williamsburg.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Flame storyline begins after “Amends.” Each chapter unlocks through story and prior-mission progress, with the Williamsburg finale appearing last.",
+        "steps": [
+          {
+            "id": "start-flame",
+            "text": "After @loc{Main Mission 6 — Amends}, complete the first The Flame mission in the Financial District."
+          },
+          {
+            "id": "continue-flame",
+            "text": "Track and finish the next two @mechanic{The Flame} missions as their Map markers appear."
+          },
+          {
+            "id": "finish-flame",
+            "text": "Travel to @loc{Williamsburg} and complete @loc{It Was Meant for Me}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SymbioteNests",
+      "displayName": "Exterminator",
+      "description": "Complete all Symbiote Nests",
+      "hidden": true,
+      "globalPercent": 35.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Destroy all 10 Symbiote Nests that appear late in the story and post-game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nests unlock gradually from the final story act. Each defense has separate sonic charges; both timers must finish before Symbiotes destroy either device.",
+        "steps": [
+          {
+            "id": "unlock-nests",
+            "text": "Advance through the late campaign until @mechanic{Symbiote Nest} icons begin appearing."
+          },
+          {
+            "id": "defend-charges",
+            "text": "At each icon, plant the sonic charges and keep both devices intact until their timers complete."
+          },
+          {
+            "id": "clear-ten",
+            "text": "Finish every one of the 10 Symbiote Nests shown across the district checklists."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SandmanCollectibles",
+      "displayName": "Grains of Sand",
+      "description": "Piece together broken memories",
+      "hidden": true,
+      "globalPercent": 40.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Recover all 14 Marko’s Memories and finish the final memory sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first memory follows the opening Sandman mission. The remaining crystals appear on the Map as districts are uncovered, and the last location resolves Marko’s story.",
+        "steps": [
+          {
+            "id": "unlock-memories",
+            "text": "Complete @loc{One Thing at a Time} to unlock Marko’s Memory crystals."
+          },
+          {
+            "id": "collect-crystals",
+            "text": "Visit every @mechanic{Marko’s Memory} icon, defeat the sand enemies, and break the crystal core."
+          },
+          {
+            "id": "finish-fourteen",
+            "text": "Complete the final memory after the earlier crystals until the set reaches 14/14."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "VenomModeKills",
+      "displayName": "Leave Us Alone",
+      "description": "Complete “Don’t Be Scared”",
+      "hidden": true,
+      "globalPercent": 57.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission 25 — Don’t Be Scared} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission 25 — Don’t Be Scared} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission 25 — Don’t Be Scared} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatKraven",
+      "displayName": "The Great Hunt",
+      "description": "Complete “Anything Can Be Broken”",
+      "hidden": true,
+      "globalPercent": 58.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission 24 — Anything Can Be Broken} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission 24 — Anything Can Be Broken} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission 24 — Anything Can Be Broken} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HunterBases",
+      "displayName": "Seek and Destroy",
+      "description": "Complete all Hunter Bases",
+      "hidden": true,
+      "globalPercent": 36.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Clear all 11 Hunter Blinds to reveal and complete the four Hunter Bases.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each base is gated by every Blind in its district. Bases can be finished in stealth or open combat, and all 15 locations contribute to district completion.",
+        "steps": [
+          {
+            "id": "clear-blinds",
+            "text": "Complete all 11 @mechanic{Hunter Blinds} as they unlock from the middle story chapters."
+          },
+          {
+            "id": "reveal-bases",
+            "text": "After clearing every Blind in a district, track the newly revealed @mechanic{Hunter Base}."
+          },
+          {
+            "id": "clear-bases",
+            "text": "Defeat the Hunters and finish the objective in all four Hunter Bases."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteAllFNSM",
+      "displayName": "Friendly Neighborhood Spider-Man",
+      "description": "Complete all FNSM requests",
+      "hidden": false,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Complete all six Friendly Neighborhood Spider-Man requests from the FNSM App or Map.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests unlock gradually between early and mid-story progress. Each has its own mission marker, and all remain available after the campaign.",
+        "steps": [
+          {
+            "id": "open-app",
+            "text": "Open the @mechanic{FNSM App} or Map and track an available request."
+          },
+          {
+            "id": "complete-requests",
+            "text": "Finish every objective in each request and return to the requester when the mission directs it."
+          },
+          {
+            "id": "verify-six",
+            "text": "Confirm all six FNSM requests are complete in the district and mission lists."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatLizard",
+      "displayName": "Medicine",
+      "description": "Complete “It Chose You”",
+      "hidden": true,
+      "globalPercent": 60.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission 20 — It Chose You} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission 20 — It Chose You} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission 20 — It Chose You} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SymbiotePowersDuringRageMode",
+      "displayName": "Surge",
+      "description": "Use Symbiote Abilities 25 times during Symbiote Surge",
+      "hidden": true,
+      "globalPercent": 20.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20–30 min",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "As Peter, activate 25 white-icon Symbiote or Anti-Venom abilities while Symbiote Surge is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter records ability activations, not kills, but only during the temporary Surge state. Equipping four charged abilities before filling the yellow Surge meter lets one activation contribute several uses.",
+        "steps": [
+          {
+            "id": "unlock-surge",
+            "text": "Complete @loc{Good Men} to unlock Peter’s @mechanic{Symbiote Surge}."
+          },
+          {
+            "id": "equip-abilities",
+            "text": "Open @mechanic{Abilities}, equip four white-icon Symbiote or Anti-Venom abilities, and let all four recharge."
+          },
+          {
+            "id": "spend-during-surge",
+            "text": "Fill the yellow Surge meter in combat, activate Symbiote Surge, and use all charged white-icon abilities before Surge ends."
+          },
+          {
+            "id": "reach-twenty-five",
+            "text": "Repeat during Crimes until 25 ability activations have occurred inside Symbiote Surge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EmilyMayFoundationQuests",
+      "displayName": "Foundational",
+      "description": "Complete all EMF Experiments",
+      "hidden": false,
+      "globalPercent": 28.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "prerequisites": [
+        "GoldenPath"
+      ],
+      "summary": "Complete the first eight EMF Experiments, finish the story, then solve Emily-May Foundation at Peter’s Astoria garage.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final experiment is deliberately post-story and does not appear until the other eight are complete. Its garage workbench leads to one final plant-splicing puzzle.",
+        "steps": [
+          {
+            "id": "complete-eight",
+            "text": "After @loc{Healing the World}, complete the eight EMF Experiment icons available across New York."
+          },
+          {
+            "id": "finish-campaign",
+            "text": "Complete the main story after the first eight experiments are finished."
+          },
+          {
+            "id": "final-experiment",
+            "text": "At Peter’s house in @loc{Astoria}, inspect the box on the garage workbench and complete the plant-splicing puzzle at the experiment table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BlueVenomKills",
+      "displayName": "Evolved",
+      "description": "Defeat 100 enemies with Evolved Venom abilities",
+      "hidden": false,
+      "globalPercent": 38.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Use Miles Morales’s Evolved Venom abilities to deliver the final blow to 100 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "Damage dealt by other attacks does not matter, but the qualifying ability must defeat the enemy. Post-story Crimes provide unlimited cleanup encounters.",
+        "steps": [
+          {
+            "id": "equip-set",
+            "text": "Switch to @npc{Miles Morales}, open @mechanic{Abilities}, and equip Chain Lightning, Thunder Burst, Reverse Flux, and Galvanize."
+          },
+          {
+            "id": "weaken-enemies",
+            "text": "Damage enemies with normal attacks until they are close to defeat."
+          },
+          {
+            "id": "ability-finisher",
+            "text": "Finish enemies with Evolved Venom abilities and continue through Crimes until 100 qualifying defeats register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IronArmKills",
+      "displayName": "Armed and Dangerous",
+      "description": "Defeat 100 enemies with Spider Arm abilities",
+      "hidden": false,
+      "globalPercent": 35.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Use Peter Parker’s Spider Arm abilities to deliver the final blow to 100 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "Damage dealt by other attacks does not matter, but the qualifying ability must defeat the enemy. Post-story Crimes provide unlimited cleanup encounters.",
+        "steps": [
+          {
+            "id": "equip-set",
+            "text": "Switch to @npc{Peter Parker}, open @mechanic{Abilities}, and equip Spider Barrage, Spider Rush, Spider Shock, and Spider Whiplash."
+          },
+          {
+            "id": "weaken-enemies",
+            "text": "Damage enemies with normal attacks until they are close to defeat."
+          },
+          {
+            "id": "ability-finisher",
+            "text": "Finish enemies with Spider Arm abilities and continue through Crimes until 100 qualifying defeats register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DefeatLi",
+      "displayName": "Another Way",
+      "description": "Complete “No Escape”",
+      "hidden": true,
+      "globalPercent": 58.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission 23 — No Escape} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission 23 — No Escape} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission 23 — No Escape} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AllSuitTech",
+      "displayName": "Fully Loaded",
+      "description": "Purchase all of Spider-Man's Suit Tech upgrades",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across 100% cleanup",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Purchase all eight nodes in each of the Health, Damage, Focus, and Traversal Suit Tech branches.",
+      "guide": {
+        "kind": "standard",
+        "context": "Suit Tech is shared by Peter and Miles and unlocks during “Amends.” Completing the base grid requires 620 regular and 53 Rare Tech Parts, plus 44 City and 94 Hero Tokens.",
+        "steps": [
+          {
+            "id": "unlock-suit-tech",
+            "text": "Complete @loc{Main Mission 6 — Amends} to open @mechanic{Suit Tech}."
+          },
+          {
+            "id": "earn-resources",
+            "text": "Clear district activities until enough Tech Parts and Tokens are available."
+          },
+          {
+            "id": "buy-thirty-two",
+            "text": "Purchase every tier in Health, Damage, Focus, and Traversal; either perk may be selected at each paired node."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BrooklynVisions",
+      "displayName": "Brooklyn Pride",
+      "description": "Complete \"A Gift\"",
+      "hidden": false,
+      "globalPercent": 39.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Finish all five Brooklyn Visions missions, then complete A Gift in Williamsburg.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Brooklyn Visions chain begins after “Amends.” The finale marker appears only after the preceding campus missions are complete.",
+        "steps": [
+          {
+            "id": "start-visions",
+            "text": "After @loc{Amends}, track the available @mechanic{Brooklyn Visions} mission."
+          },
+          {
+            "id": "complete-campus",
+            "text": "Finish the first four Brooklyn Visions missions and their return objectives."
+          },
+          {
+            "id": "complete-gift",
+            "text": "Travel to the new @loc{Williamsburg} marker and complete @loc{A Gift}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HarlemArc",
+      "displayName": "My Community",
+      "description": "Complete \"Hard Bop\"",
+      "hidden": false,
+      "globalPercent": 44.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30–45 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Finish both Cultural Museum missions and complete Hard Bop in Harlem.",
+      "guide": {
+        "kind": "standard",
+        "context": "The two-mission museum storyline becomes available after the main mission “Funky.” Hard Bop is the second and final entry.",
+        "steps": [
+          {
+            "id": "unlock-museum",
+            "text": "Complete the main-story mission @loc{Funky} to reveal the Cultural Museum storyline."
+          },
+          {
+            "id": "first-museum",
+            "text": "Finish the first @mechanic{Cultural Museum} mission in Harlem."
+          },
+          {
+            "id": "hard-bop",
+            "text": "Track the follow-up marker and complete @loc{Hard Bop}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "VenoMJ",
+      "displayName": "I Quit",
+      "description": "Complete “This Isn’t You”",
+      "hidden": true,
+      "globalPercent": 55.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission — This Isn’t You} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission — This Isn’t You} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission — This Isn’t You} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteAllSpiderBots",
+      "displayName": "Funky Wireless Protocols",
+      "description": "Solve the mystery of the Spider-Bots' origin",
+      "hidden": false,
+      "globalPercent": 25.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–3 hr",
+      "estMinutes": 150,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Collect all 42 Spider-Bot pickups across New York, then complete the origin mission that closes the 43-location activity set.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spider-Bots are absent from the normal Map but appear on the minimap when nearby and emit a large multicolored pulse in the world. The origin mission is the category’s final entry, so the achievement does not unlock at the 42nd pickup.",
+        "steps": [
+          {
+            "id": "unlock-bots",
+            "text": "Finish @loc{Hunt to Live, Live to Hunt}, which is Main Mission 13, to unlock Spider-Bots."
+          },
+          {
+            "id": "collect-bots",
+            "text": "Explore every district, follow nearby Spider-Bot minimap icons and visual pulses, and collect all 42 pickups."
+          },
+          {
+            "id": "solve-origin",
+            "text": "After the 42nd pickup, travel to the new finale marker and finish the Spider-Bot origin mission as the 43rd category entry."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EquipSuitVariant",
+      "displayName": "Stylish",
+      "description": "Equip a suit style",
+      "hidden": false,
+      "globalPercent": 75.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progress",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Craft and equip any alternate suit style from the Suits menu.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Suits tutorial during “Suit Is Sandy” forces an early valid style change. Only suits marked with a style indicator offer alternate colors.",
+        "steps": [
+          {
+            "id": "open-suits",
+            "text": "Complete @loc{Suit Is Sandy} until the @mechanic{Suits} menu tutorial opens."
+          },
+          {
+            "id": "craft-style",
+            "text": "Select a suit with alternate styles and spend the listed resource to craft one color variant."
+          },
+          {
+            "id": "equip-style",
+            "text": "Select the crafted style and leave the Suits menu while it is equipped."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WebLineTakedowns",
+      "displayName": "Slack Line",
+      "description": "Stealth takedown 25 enemies in stealth from the Web Line",
+      "hidden": false,
+      "globalPercent": 35.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20–30 min",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Perform 25 unseen perch takedowns while standing on player-created Web Lines.",
+      "guide": {
+        "kind": "standard",
+        "context": "Web Line unlocks during “Bad Guys on the Block.” The 25 takedowns accumulate across encounters; a target labelled Safe will not expose the Spider-Man, while Danger invalidates stealth.",
+        "steps": [
+          {
+            "id": "unlock-web-line",
+            "text": "Complete @loc{Bad Guys on the Block} to unlock @mechanic{Web Line}."
+          },
+          {
+            "id": "create-line",
+            "text": "While unseen above an enemy group, aim between two solid surfaces and deploy a Web Line."
+          },
+          {
+            "id": "safe-takedown",
+            "text": "Stand on the Web Line, select an enemy labelled @mechanic{Safe}, and perform the perch takedown."
+          },
+          {
+            "id": "reach-twenty-five",
+            "text": "Repeat across Hunter Bases or stealth Crimes until 25 Web Line stealth takedowns register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AirTricksInARow",
+      "displayName": "Hang Ten",
+      "description": "Perform 30 Air Tricks in a row without touching the ground",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "traversal",
+      "summary": "Chain 30 air tricks while swinging without Peter or Miles touching the street or a rooftop.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each directional trick adds separately to the streak. Long roads beside Central Park provide tall anchor buildings and enough open air to alternate swings with tricks.",
+        "steps": [
+          {
+            "id": "find-street",
+            "text": "Choose a long straight avenue beside @loc{Central Park} with tall buildings on both sides."
+          },
+          {
+            "id": "start-tricks",
+            "text": "Release near the top of a swing, hold the Trick control, and move in a direction until a trick completes."
+          },
+          {
+            "id": "chain-thirty",
+            "text": "Attach the next web before losing height and continue alternating swings and completed tricks until the streak reaches 30."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ReverseFluxTargetCount",
+      "displayName": "Overdrive",
+      "description": "As Miles, use Reverse Flux to pull 6 or more enemies together simultaneously",
+      "hidden": true,
+      "globalPercent": 56.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story opportunity",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "As Miles, trigger Reverse Flux while at least six enemies are inside its pull radius.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reverse Flux unlocks during “No Escape,” and its tutorial fight already supplies a large group. If the ability was replaced later, it can be restored in Miles’s right-side ability slot.",
+        "steps": [
+          {
+            "id": "unlock-flux",
+            "text": "Reach the Reverse Flux tutorial encounter in @loc{No Escape}."
+          },
+          {
+            "id": "group-six",
+            "text": "Leave at least six enemies active and move into the middle of the group as @npc{Miles Morales}."
+          },
+          {
+            "id": "activate-flux",
+            "text": "Use @mechanic{Reverse Flux} once so the same activation pulls six or more enemies inward."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ConeyIslandHomeRun",
+      "displayName": "Home Run!",
+      "description": "Round the bases at the Big Apple Ballers Stadium",
+      "hidden": false,
+      "globalPercent": 14.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "Run one complete circuit of all four bases on the Big Apple Ballers field in southeast Downtown Brooklyn.",
+      "guide": {
+        "kind": "standard",
+        "context": "The stadium sits at the district’s southeastern edge. The white base plates lie inside the brown diamond and must be rounded on foot rather than by swinging.",
+        "steps": [
+          {
+            "id": "find-stadium",
+            "text": "Travel to the Big Apple Ballers baseball stadium in the southeast corner of @loc{Downtown Brooklyn}."
+          },
+          {
+            "id": "enter-field",
+            "text": "Land inside the playing field and stand beside home plate."
+          },
+          {
+            "id": "round-bases",
+            "text": "Run on foot from home plate through first, second, and third base, then return to home plate."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindMilesAndPhinTrophy",
+      "displayName": "Just Let Go",
+      "description": "As Miles, find the science trophy Miles and Phin won together",
+      "hidden": false,
+      "globalPercent": 13.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "misc",
+      "summary": "As Miles, collect the blue science trophy from the rear of the church tower in southern Financial District.",
+      "guide": {
+        "kind": "standard",
+        "context": "The object is the blue cube placed during Marvel’s Spider-Man: Miles Morales. Its pickup prompt is character-locked and will not appear for Peter.",
+        "steps": [
+          {
+            "id": "switch-miles",
+            "text": "Complete @loc{Main Mission 3 — Show Me New York}, then switch to @npc{Miles Morales} during unrestricted free roam."
+          },
+          {
+            "id": "find-church",
+            "text": "Travel to the church in southern @loc{Financial District} and climb the rear face of its tower."
+          },
+          {
+            "id": "collect-trophy",
+            "text": "Approach the blue cube attached to the tower and use the prompt to take the @item{science trophy}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WingsuitConeyIslandToQueens",
+      "displayName": "Soar",
+      "description": "Using only your Web Wings, glide from the Financial District to Astoria (Wind Tunnels are okay!)",
+      "hidden": false,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "traversal",
+      "summary": "Glide from Financial District into Astoria using only Web Wings and the two connecting wind tunnels.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any web swing, Web Zip, or Point Launch after takeoff invalidates the run. Wind tunnels become available after “Show Me New York” and provide all the altitude needed.",
+        "steps": [
+          {
+            "id": "set-marker",
+            "text": "Place a waypoint at the southwest edge of @loc{Astoria}, then climb the rooftop radio tower at the northeast edge of @loc{Financial District}."
+          },
+          {
+            "id": "first-tunnel",
+            "text": "Jump from the tower, deploy @mechanic{Web Wings}, and enter the nearby wind tunnel that carries the Spider-Man toward the waterfront."
+          },
+          {
+            "id": "river-tunnel",
+            "text": "At the river, enter the wind tunnel to the right and follow its green rings across the water."
+          },
+          {
+            "id": "enter-astoria",
+            "text": "Remain in Web Wings flight after leaving the second tunnel until the district label changes to Astoria."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FailAirTrick",
+      "displayName": "Splat",
+      "description": "Attempt and fail a trick before \"landing\" on the ground",
+      "hidden": false,
+      "globalPercent": 52.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "traversal",
+      "summary": "Begin an air trick, keep holding the Trick control, and hit the ground before the animation finishes.",
+      "guide": {
+        "kind": "standard",
+        "context": "A normal landing does not qualify; the collision must interrupt an active trick animation. Either Spider-Man can perform it in open world free roam.",
+        "steps": [
+          {
+            "id": "gain-height",
+            "text": "Swing above an open street as Peter or Miles and release the web at modest height."
+          },
+          {
+            "id": "hold-trick",
+            "text": "Hold the Trick control and a direction to start an air trick."
+          },
+          {
+            "id": "crash",
+            "text": "Keep the trick input held and do not attach another web, allowing the Spider-Man to collide with the street mid-animation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FNSM_Howard",
+      "displayName": "A New Adventure",
+      "description": "Help Howard",
+      "hidden": false,
+      "globalPercent": 38.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Complete Howard’s A New Adventure FNSM request in the Financial District.",
+      "guide": {
+        "kind": "standard",
+        "context": "The request becomes available after “Hunt to Live, Live to Hunt” and is also one of the six requests needed for full FNSM completion.",
+        "steps": [
+          {
+            "id": "unlock-howard",
+            "text": "Complete @loc{Hunt to Live, Live to Hunt} so Howard’s request can appear."
+          },
+          {
+            "id": "track-request",
+            "text": "Open the FNSM App or Map and track @loc{A New Adventure} in the Financial District."
+          },
+          {
+            "id": "help-howard",
+            "text": "Meet @npc{Howard}, complete the full pigeon flight route, and finish the closing objective."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CollectTechParts",
+      "displayName": "Resourceful",
+      "description": "Collect a total of 10,000 Tech Parts",
+      "hidden": false,
+      "globalPercent": 42.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across 100% cleanup",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "summary": "Accumulate 10,000 Tech Parts from missions, district activities, Crimes, and open-world Tech Crates.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is a lifetime collection counter, so spending Tech Parts on suits and upgrades does not erase progress. A full district-completion route awards more than the required total.",
+        "steps": [
+          {
+            "id": "clear-activities",
+            "text": "Complete story missions, side missions, and district activities that award Tech Parts."
+          },
+          {
+            "id": "open-crates",
+            "text": "Scan while traversing New York and open visible blue Tech Crates for additional parts."
+          },
+          {
+            "id": "reach-total",
+            "text": "Continue earning Tech Parts until the lifetime total reaches 10,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AllPhotoLocations",
+      "displayName": "New York, New York",
+      "description": "Complete all Photo Ops",
+      "hidden": false,
+      "globalPercent": 33.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "districts",
+      "summary": "Photograph the required subject at all 23 Photo Ops across New York.",
+      "guide": {
+        "kind": "standard",
+        "context": "Photo Ops begin after “Show Me New York” and appear on the Map as districts are uncovered. The viewfinder turns green when the intended subject is framed correctly.",
+        "steps": [
+          {
+            "id": "unlock-camera",
+            "text": "Complete @loc{Show Me New York} to unlock Photo Ops and the camera."
+          },
+          {
+            "id": "track-photo",
+            "text": "Visit each @mechanic{Photo Op} icon and open the camera at the marked area."
+          },
+          {
+            "id": "take-twenty-three",
+            "text": "Frame the highlighted landmark or activity until the reticle confirms the subject, then take the photo at all 23 locations."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AntiVenomSymbioteKill",
+      "displayName": "Antidote",
+      "description": "Defeat a Symbiote under the Anti-Venom effect",
+      "hidden": true,
+      "globalPercent": 55.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "As Peter during Set Things Right, use Anti-Venom Bomb on a Symbiote and defeat it while the Anti-Venom status effect is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mission introduces Anti-Venom Bomb in a mandatory tutorial encounter. The affected Symbiote turns white, making the qualifying window visible.",
+        "steps": [
+          {
+            "id": "reach-tutorial",
+            "text": "Continue the main story until @loc{Set Things Right} introduces @mechanic{Anti-Venom Bomb}."
+          },
+          {
+            "id": "apply-effect",
+            "text": "Use @mechanic{Anti-Venom Bomb} on a Symbiote and confirm that the enemy turns white."
+          },
+          {
+            "id": "defeat-target",
+            "text": "Defeat that Symbiote before the white Anti-Venom effect expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteAct1",
+      "displayName": "A New Suit",
+      "description": "Acquire the Black Suit",
+      "hidden": true,
+      "globalPercent": 65.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progress",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Finish @loc{Main Mission 15 — Good Men} and complete its mandatory combat or tutorial sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlock is part of the linear campaign; difficulty and optional activities do not affect the story flag.",
+        "steps": [
+          {
+            "id": "reach-mission",
+            "text": "Continue the main story until @loc{Main Mission 15 — Good Men} begins."
+          },
+          {
+            "id": "finish-mission",
+            "text": "Complete every marked objective and mandatory encounter in @loc{Main Mission 15 — Good Men} until the next story checkpoint registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NewGamePlusComplete",
+      "displayName": "Once More, With Feeling",
+      "description": "Finish the main story in New Game+ mode",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–12 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "new-game-plus",
+      "prerequisites": [
+        "GoldenPath"
+      ],
+      "summary": "Create New Game+ from a completed save and finish the full main story again on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "New Game+ carries suits, skills, gadgets, abilities, and upgrades into a separate save. Side activities are unnecessary for this achievement, and choosing the easiest difficulty does not block it.",
+        "steps": [
+          {
+            "id": "create-ngplus",
+            "text": "At the save-selection screen, highlight the completed campaign save and choose @mechanic{Create New Game+}."
+          },
+          {
+            "id": "choose-setting",
+            "text": "Select any difficulty and begin the New Game+ campaign."
+          },
+          {
+            "id": "story-only",
+            "text": "Complete every yellow main-story mission; skip optional requests, activities, Crimes, and collectibles unless desired."
+          },
+          {
+            "id": "finish-again",
+            "text": "Complete the New Game+ finale and continue until the ending registers."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "EquipSuitVariant",
+    "DefeatSandman",
+    "CompleteAct1",
+    "DefeatLizard",
+    "DefeatLi",
+    "DefeatKraven",
+    "VenomModeKills",
+    "VenoMJ",
+    "AntiVenomSymbioteKill",
+    "ReverseFluxTargetCount",
+    "GoldenPath",
+    "WebLineTakedowns",
+    "SymbiotePowersDuringRageMode",
+    "BlueVenomKills",
+    "IronArmKills",
+    "FNSM_Howard",
+    "HarlemArc",
+    "BrooklynVisions",
+    "CompleteAllFNSM",
+    "WraithBoss",
+    "ProwlerTechStashes",
+    "AllPhotoLocations",
+    "SandmanCollectibles",
+    "EmilyMayFoundationQuests",
+    "FalconChases",
+    "SymbioteNests",
+    "CompleteAllMysterioChallenges",
+    "CompleteAllSpiderBots",
+    "HunterBases",
+    "CompleteAllDistricts",
+    "ConeyIslandHomeRun",
+    "FindMilesAndPhinTrophy",
+    "VisitMayGrave",
+    "FailAirTrick",
+    "AirTricksInARow",
+    "WingsuitConeyIslandToQueens",
+    "CollectTechParts",
+    "MaxLevel",
+    "UpgradeAllGadgets",
+    "AllSuitTech",
+    "AllSuits",
+    "PlatinumTrophy",
+    "NewGamePlusComplete"
+  ]
+}

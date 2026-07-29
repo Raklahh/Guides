@@ -1,0 +1,2796 @@
+{
+  "game": {
+    "appid": 1627720,
+    "slug": "lies-of-p",
+    "title": "Lies of P",
+    "version": "1.0",
+    "lastPatchChecked": "2025-09-23",
+    "estTotalHours": 65,
+    "difficultyRating": 6,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-07-29"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Chapters 1–4: establish the route",
+      "description": "Clear the early mandatory bosses, unlock the hotel systems, answer the first riddles, and collect every weapon, gesture, record, Legion Plug, and Cryptic Vessel before leaving each chapter.",
+      "achievementRefs": [
+        "LOP_118",
+        "LOP_119",
+        "LOP_122",
+        "LOP_121",
+        "LOP_124",
+        "LOP_123",
+        "LOP_120",
+        "LOP_125",
+        "LOP_126",
+        "LOP_127"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Chapters 5–10: protect every questline",
+      "description": "Maintain high Humanity, give Antonia the cure, complete the merchant and character quests, preserve every Rare Ergo for weapons, and finish each chapter’s collectible cleanup before its world-state change.",
+      "achievementRefs": [
+        "LOP_128",
+        "LOP_136",
+        "LOP_129",
+        "LOP_130",
+        "LOP_137",
+        "LOP_131",
+        "LOP_132",
+        "LOP_133",
+        "LOP_106",
+        "LOP_107",
+        "LOP_108",
+        "LOP_109"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Chapter 11 and backed-up endings",
+      "description": "Complete the final Trinity and character stories, choose Give her peace at Sophia, and back up at Under the Abyss. Record Real Boy and Rise of P, then return to Hotel Krat after each ending for its letter, piano, and final weapon cleanup.",
+      "achievementRefs": [
+        "LOP_134",
+        "LOP_135",
+        "LOP_140",
+        "LOP_105",
+        "LOP_104",
+        "LOP_102",
+        "LOP_110",
+        "LOP_138",
+        "LOP_139",
+        "LOP_141",
+        "LOP_142",
+        "LOP_143",
+        "LOP_111",
+        "LOP_112",
+        "LOP_113",
+        "LOP_115",
+        "LOP_116",
+        "LOP_117"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "New Game+ base-game cleanup",
+      "description": "Buy the five Gold Records as their merchants appear, collect any missed base item, choose Let her live at Sophia, refuse Geppetto, and defeat Nameless Puppet for Free from the puppet string.",
+      "achievementRefs": [
+        "LOP_103",
+        "LOP_114"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Overture in New Game+",
+      "description": "Enter Forgotten Time from Path of the Pilgrim, follow the chapter collectible route, buy all three New Game+ Gold Records, finish the ciphers before Rose Garden Entrance, defeat Blood Artist, and return for Lea’s Recollection.",
+      "achievementRefs": [
+        "LOP_151",
+        "LOP_152",
+        "LOP_154",
+        "LOP_147",
+        "LOP_146",
+        "LOP_149",
+        "LOP_150",
+        "LOP_153",
+        "LOP_144",
+        "LOP_145",
+        "LOP_148"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "LOP_102",
+      "displayName": "Real boy : They all lived happily ever after",
+      "description": "Reach the Real Boy ending.",
+      "hidden": true,
+      "globalPercent": 15.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "At Under the Abyss, give P’s heart to Geppetto and watch the Real Boy ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "Humanity and Sophia’s fate do not block this branch. After the credits, return to Hotel Krat instead of starting the next playthrough so the related letter and piano remain available.",
+        "steps": [
+          {
+            "id": "reach-geppetto",
+            "text": "Defeat Simon Manus and descend from @loc{Arche Abbey Cradle of the God} to the @loc{Under the Abyss} Stargazer."
+          },
+          {
+            "id": "give-heart",
+            "text": "When @npc{Geppetto} asks for P’s heart, select @mechanic{Give the Heart} and watch the ending through the achievement unlock."
+          },
+          {
+            "id": "return-hotel",
+            "text": "After the credits, select @mechanic{Return to the Hotel} rather than starting the next playthrough."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_103",
+      "displayName": "Free from the puppet string",
+      "description": "Reach the Free from the puppet string ending.",
+      "hidden": true,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Unlock Free from the puppet string by letting Sophia live, refusing Geppetto, and defeating the Nameless Puppet.",
+      "guide": {
+        "kind": "standard",
+        "context": "P needs enough Humanity for the Refuse option to appear. Choosing to let Sophia live fixes the refused-heart branch to this ending even if P’s Humanity is otherwise high.",
+        "steps": [
+          {
+            "id": "humanity",
+            "text": "Gain enough Humanity through dialogue choices, character stories, riddles, and fully played records before the final chapter."
+          },
+          {
+            "id": "let-live",
+            "text": "After defeating @enemy{Laxasia the Complete}, tell @npc{Sophia} @mechanic{Let her live}."
+          },
+          {
+            "id": "refuse",
+            "text": "At @loc{Under the Abyss}, answer @npc{Geppetto} with @mechanic{Refuse}."
+          },
+          {
+            "id": "defeat-puppet",
+            "text": "Defeat both phases of the @enemy{Nameless Puppet} and watch the ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_104",
+      "displayName": "Rise of P",
+      "description": "Reach the Rise of P ending.",
+      "hidden": true,
+      "globalPercent": 27.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Reach the “Your heart is pounding” Humanity tier, give Sophia peace, refuse Geppetto, and defeat the Nameless Puppet for the Rise of P ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "The visible confirmation for the required Sophia branch is P’s hair turning white after the choice. A few earlier truth answers are recoverable if later quests, records, and riddles still raise Humanity to the top tier.",
+        "steps": [
+          {
+            "id": "max-humanity",
+            "text": "Raise Humanity until a gain displays @mechanic{Your heart is pounding} before entering Sophia’s room after Laxasia."
+          },
+          {
+            "id": "give-peace",
+            "text": "Tell @npc{Sophia} @mechanic{Give her peace} and confirm that P’s hair turns white in the following scene."
+          },
+          {
+            "id": "refuse",
+            "text": "Defeat Simon Manus, descend to @loc{Under the Abyss}, and select @mechanic{Refuse} when Geppetto requests P’s heart."
+          },
+          {
+            "id": "finish-ending",
+            "text": "Defeat both phases of the @enemy{Nameless Puppet} and watch the Rise of P ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_105",
+      "displayName": "The First Puppet",
+      "description": "Defeat the Nameless Puppet.",
+      "hidden": true,
+      "globalPercent": 37.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Refuse to give P’s heart to Geppetto, then defeat both phases of the Nameless Puppet.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Nameless Puppet is optional and disappears from the current cycle if P gives Geppetto the heart. Sophia’s choice affects the ending but not access to this fight.",
+        "steps": [
+          {
+            "id": "refuse-heart",
+            "text": "At @loc{Under the Abyss}, answer @npc{Geppetto} with @mechanic{Refuse}."
+          },
+          {
+            "id": "kill-nameless",
+            "text": "Defeat the @enemy{Nameless Puppet} through both phases and complete the final execution."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_106",
+      "displayName": "Strongest Normal Weapon",
+      "description": "Strengthen a normal weapon to its max level.",
+      "hidden": false,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "At Hotel Krat, upgrade one normal weapon blade to +10 with Moonstones and Ergo.",
+      "guide": {
+        "kind": "standard",
+        "context": "Across all ten levels, the material bill is three each of Hidden, Crescent, and Half Moonstones, followed by one Full Moonstone. Corrupted Parade Master guarantees the final stone late in the story.",
+        "steps": [
+          {
+            "id": "unlock-upgrades",
+            "text": "After reaching @loc{Hotel Krat}, speak to @npc{Eugénie} to unlock the weapon-upgrade station."
+          },
+          {
+            "id": "upgrade-ten",
+            "text": "Choose one normal weapon blade and apply every upgrade through @mechanic{+10}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_107",
+      "displayName": "Strongest Special Weapon",
+      "description": "Strengthen a special weapon to its max level.",
+      "hidden": false,
+      "globalPercent": 42.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Exchange a boss Rare Ergo for a special weapon, then upgrade that special weapon to +5.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching +5 costs three Dark moon stones of the Covenant, then two Full Moonstones of the Covenant. Consuming every boss Rare Ergo or spending each one on an amulet can delay the achievement to another cycle.",
+        "steps": [
+          {
+            "id": "buy-special",
+            "text": "Find @npc{Alidoro} above St. Frangelico Cathedral Library, then exchange any available boss Rare Ergo for a @item{special weapon}."
+          },
+          {
+            "id": "upgrade-five",
+            "text": "At @npc{Eugénie}, spend the Covenant Moonstones and Ergo required to raise that special weapon to @mechanic{+5}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_108",
+      "displayName": "Strongest Legion Arm",
+      "description": "Modify a Legion Arm to its max level.",
+      "hidden": false,
+      "globalPercent": 47.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Spend six Legion Calibers to unlock every modification node on one Legion Arm.",
+      "guide": {
+        "kind": "standard",
+        "context": "Legion Arm modification opens at Hotel Krat after Parade Master and the Puppet String introduction. The Saintess of Mercy Statue can later refund modifications if Calibers were spread across several arms.",
+        "steps": [
+          {
+            "id": "unlock-bench",
+            "text": "Defeat @enemy{Parade Master}, speak to @npc{Eugénie}, and use the Legion Arm workbench in @loc{Hotel Krat}."
+          },
+          {
+            "id": "max-arm",
+            "text": "Select one Legion Arm and spend @item{six Legion Calibers} to purchase all three modification tiers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_109",
+      "displayName": "Extreme Potential",
+      "description": "Activate P-Organ to Phase 5.",
+      "hidden": false,
+      "globalPercent": 45.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use Quartz to activate enough complete P-Organ nodes to open Phase 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each P-Organ node activates only when all of its slots are filled, and opening the next phase requires two activated nodes in the preceding phase. Version 1.12.0.0 fixes the former Recalibration unlock failure.",
+        "steps": [
+          {
+            "id": "unlock-organ",
+            "text": "Defeat @enemy{Scrapped Watchman}, take the Core to @npc{Geppetto}, and use the chair in Geppetto’s Study."
+          },
+          {
+            "id": "fill-nodes",
+            "text": "Spend @item{Quartz} to fill every slot in at least two nodes per phase until @mechanic{Phase 5} opens."
+          },
+          {
+            "id": "current-patch",
+            "text": "If an older save met the requirement without unlocking it, update to version 1.12.0.0 or later and load the affected save."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_110",
+      "displayName": "Pianist of Krat",
+      "description": "Play a perfect tune on the piano at Hotel Krat.",
+      "hidden": false,
+      "globalPercent": 23.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "After any base-game ending, return to Hotel Krat and play the glowing ground-floor piano.",
+      "guide": {
+        "kind": "standard",
+        "context": "The perfect performance becomes available only in the post-ending hotel state. Starting the next playthrough at the credits prompt removes that state until another ending is completed.",
+        "steps": [
+          {
+            "id": "finish-ending",
+            "text": "Complete any of the three base-game endings and watch the credits."
+          },
+          {
+            "id": "return-hotel",
+            "text": "Choose @mechanic{Return to the Hotel} at the post-credits prompt."
+          },
+          {
+            "id": "play-piano",
+            "text": "On @loc{Hotel Krat}’s ground floor, use the piano that now glows."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_111",
+      "displayName": "Legion Arm Collector",
+      "description": "Collect all Legion Arms.",
+      "hidden": false,
+      "globalPercent": 29.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Keep Left Arm of Steel, obtain Puppet String, Fulminis, and Flamberge, then craft Deus Ex Machina, Aegis, Falcon Eyes, and Pandemonium.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Left Arm of Steel is starting equipment, three arms come from story progression, and four use Legion Plugs. The world contains six plugs, so the collection does not require every plug.",
+        "collectibles": [
+          {
+            "id": "left-arm-of-steel",
+            "index": 1,
+            "name": "Left Arm of Steel",
+            "location": "@loc{Starting equipment}",
+            "method": "Keep P’s original Legion Arm; it counts toward the collection."
+          },
+          {
+            "id": "puppet-string",
+            "index": 2,
+            "name": "Puppet String",
+            "location": "@loc{Hotel Krat}",
+            "method": "Speak to @npc{Eugénie} after defeating Parade Master."
+          },
+          {
+            "id": "fulminis",
+            "index": 3,
+            "name": "Fulminis",
+            "location": "@loc{Hotel Krat}",
+            "method": "Return after Scrapped Watchman and receive Fulminis through the story."
+          },
+          {
+            "id": "flamberge",
+            "index": 4,
+            "name": "Flamberge",
+            "location": "@loc{Hotel Krat}",
+            "method": "Return after King’s Flame, Fuoco and receive Flamberge through the story."
+          },
+          {
+            "id": "deus-ex-machina",
+            "index": 5,
+            "name": "Deus Ex Machina",
+            "location": "@loc{Venigni Craft Machine}",
+            "method": "Spend one Legion Plug in the Craft Legion Arms menu."
+          },
+          {
+            "id": "aegis",
+            "index": 6,
+            "name": "Aegis",
+            "location": "@loc{Venigni Craft Machine}",
+            "method": "Spend one Legion Plug in the Craft Legion Arms menu."
+          },
+          {
+            "id": "falcon-eyes",
+            "index": 7,
+            "name": "Falcon Eyes",
+            "location": "@loc{Venigni Craft Machine}",
+            "method": "Spend one Legion Plug in the Craft Legion Arms menu."
+          },
+          {
+            "id": "pandemonium",
+            "index": 8,
+            "name": "Pandemonium",
+            "location": "@loc{Venigni Craft Machine}",
+            "method": "Spend one Legion Plug in the Craft Legion Arms menu."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_112",
+      "displayName": "Special Weapon Collector",
+      "description": "Collect all special weapons.",
+      "hidden": false,
+      "globalPercent": 13.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Own all 11 base-game special weapons, including ten Rare-Ergo weapons and Golden Lie.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Rare Ergo can be consumed or exchanged for an amulet, so reserve one copy from every listed boss. Explorer Hugo reopens the weapon exchange after Alidoro’s Chapter 10 outcome.",
+        "collectibles": [
+          {
+            "id": "seven-coil-spring-sword",
+            "index": 1,
+            "name": "Seven-Coil Spring Sword",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Parade Leader’s Ergo with Alidoro or Explorer Hugo."
+          },
+          {
+            "id": "etiquette",
+            "index": 2,
+            "name": "Etiquette",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Broken Hero’s Ergo with Alidoro or Explorer Hugo."
+          },
+          {
+            "id": "holy-sword-of-the-ark",
+            "index": 3,
+            "name": "Holy Sword of the Ark",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange King’s Flame Ergo with Alidoro or Explorer Hugo."
+          },
+          {
+            "id": "trident-of-the-covenant",
+            "index": 4,
+            "name": "Trident of the Covenant",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Twisted Angel’s Ergo with Alidoro or Explorer Hugo."
+          },
+          {
+            "id": "puppet-ripper",
+            "index": 5,
+            "name": "Puppet Ripper",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Burnt-White King’s Ergo with Alidoro or Explorer Hugo."
+          },
+          {
+            "id": "frozen-feast",
+            "index": 6,
+            "name": "Frozen Feast",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Reborn Champion’s Ergo with Alidoro or Explorer Hugo; keep the weapon for the Mechanical Cryptic Vessel."
+          },
+          {
+            "id": "two-dragons-sword",
+            "index": 7,
+            "name": "Two Dragons Sword",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Puppet-Devouring Green Hunter’s Ergo with Alidoro or Explorer Hugo."
+          },
+          {
+            "id": "uroboros-s-eye",
+            "index": 8,
+            "name": "Uroboros’s Eye",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Sad Zealot’s Ergo with Explorer Hugo."
+          },
+          {
+            "id": "noblesse-oblige",
+            "index": 9,
+            "name": "Noblesse Oblige",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Fallen One’s Ergo with Explorer Hugo."
+          },
+          {
+            "id": "proof-of-humanity",
+            "index": 10,
+            "name": "Proof of Humanity",
+            "location": "@loc{Hotel Krat}",
+            "method": "Exchange Nameless Puppet’s Ergo with Explorer Hugo after a refused-heart ending."
+          },
+          {
+            "id": "golden-lie",
+            "index": 11,
+            "name": "Golden Lie",
+            "location": "@loc{Geppetto’s Study}",
+            "method": "Return the Portrait of a Boy, raise Humanity until its nose becomes collectible, then take the weapon from the portrait."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_113",
+      "displayName": "Normal Weapon Collector",
+      "description": "Collect all normal weapons.",
+      "hidden": false,
+      "globalPercent": 14.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Own all 29 normal weapons sold by base-game merchants or found in their fixed chests and enemy drops.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Normal weapons persist into New Game+, but merchant stock and world pickups must be revisited if missed. Return each Venigni Collection box to Pulcinella as soon as it is found so his weapon stock opens on schedule.",
+        "collectibles": [
+          {
+            "id": "greatsword-of-fate",
+            "index": 1,
+            "name": "Greatsword of Fate",
+            "location": "@loc{Cerasani Alley}",
+            "method": "Buy it from the Wandering Merchant before Parade Master."
+          },
+          {
+            "id": "wintry-s-rapier",
+            "index": 2,
+            "name": "Wintry’s Rapier",
+            "location": "@loc{Cerasani Alley}",
+            "method": "Buy it from the Wandering Merchant before Parade Master."
+          },
+          {
+            "id": "puppet-s-saber",
+            "index": 3,
+            "name": "Puppet’s Saber",
+            "location": "@loc{Cerasani Alley}",
+            "method": "Buy it from the Wandering Merchant before Parade Master."
+          },
+          {
+            "id": "electric-coil-stick",
+            "index": 4,
+            "name": "Electric Coil Stick",
+            "location": "@loc{Inside the House on Elysion Boulevard}",
+            "method": "Buy it from the Wandering Merchant beside the Stargazer."
+          },
+          {
+            "id": "krat-police-baton",
+            "index": 5,
+            "name": "Krat Police Baton",
+            "location": "@loc{Elysion Boulevard}",
+            "method": "Kill the police-officer puppet near the Weeping Woman quest route."
+          },
+          {
+            "id": "salamander-dagger",
+            "index": 6,
+            "name": "Salamander Dagger",
+            "location": "@loc{Workshop Union Entrance}",
+            "method": "Enter the first upstairs room, drop through the floor, and open the safe."
+          },
+          {
+            "id": "booster-glaive",
+            "index": 7,
+            "name": "Booster Glaive",
+            "location": "@loc{Workshop Union Culvert}",
+            "method": "After crossing the decay pool, loot the weapon chest beyond the Puppet of the Future."
+          },
+          {
+            "id": "fire-axe",
+            "index": 8,
+            "name": "Fire Axe",
+            "location": "@loc{Workshop Union Culvert}",
+            "method": "Pass the rolling fireball tunnel and open the chest at its far end."
+          },
+          {
+            "id": "big-pipe-wrench",
+            "index": 9,
+            "name": "Big Pipe Wrench",
+            "location": "@loc{Venigni Works Control Room}",
+            "method": "Open the chest on the main factory route before Fuoco."
+          },
+          {
+            "id": "blind-man-s-double-sided-spear",
+            "index": 10,
+            "name": "Blind Man’s Double-Sided Spear",
+            "location": "@loc{St. Frangelico Cathedral Chapel}",
+            "method": "Ride the second turning wheel and drop onto the side platform leading to the chest."
+          },
+          {
+            "id": "acidic-crystal-spear",
+            "index": 11,
+            "name": "Acidic Crystal Spear",
+            "location": "@loc{Path of the Pilgrim}",
+            "method": "Take the right path beyond the Stargazer, pass two bear traps, and open the chest."
+          },
+          {
+            "id": "bone-cutting-saw",
+            "index": 12,
+            "name": "Bone-Cutting Saw",
+            "location": "@loc{Malum District}",
+            "method": "Climb from the square to the rooftops and open the chest above the entrance route."
+          },
+          {
+            "id": "bramble-curved-sword",
+            "index": 13,
+            "name": "Bramble Curved Sword",
+            "location": "@loc{Red Lobster Inn}",
+            "method": "Buy it from the Black Market Trader on the inn’s upper floor."
+          },
+          {
+            "id": "dancer-s-curved-sword",
+            "index": 14,
+            "name": "Dancer’s Curved Sword",
+            "location": "@loc{Rosa Isabelle Street Entrance}",
+            "method": "Open the chest beside the shortcut gate at the end of the street."
+          },
+          {
+            "id": "exploding-pickaxe",
+            "index": 15,
+            "name": "Exploding Pickaxe",
+            "location": "@loc{Estella Opera House Entrance}",
+            "method": "Open the safe in the upstairs room with the large ballerina puppet."
+          },
+          {
+            "id": "tyrant-murderer-s-dagger",
+            "index": 16,
+            "name": "Tyrant Murderer’s Dagger",
+            "location": "@loc{Hotel Krat}",
+            "method": "Return the Incredible Venigni Collection and buy it from Pulcinella."
+          },
+          {
+            "id": "clock-sword",
+            "index": 17,
+            "name": "Clock Sword",
+            "location": "@loc{Estella Opera House Stage}",
+            "method": "Climb the ladder beside the carnival tunnel and follow the upper path to the chest."
+          },
+          {
+            "id": "circular-electric-chainsaw",
+            "index": 18,
+            "name": "Circular Electric Chainsaw",
+            "location": "@loc{Lorenzini Arcade}",
+            "method": "Buy it from the Wandering Merchant near the fountain."
+          },
+          {
+            "id": "spear-of-honor",
+            "index": 19,
+            "name": "Spear of Honor",
+            "location": "@loc{Lorenzini Arcade}",
+            "method": "Open the safe in the decay-area room containing a Dimensional Butterfly."
+          },
+          {
+            "id": "live-puppet-s-axe",
+            "index": 20,
+            "name": "Live Puppet’s Axe",
+            "location": "@loc{Barren Swamp}",
+            "method": "Climb the first cannon tower and open the chest at its top."
+          },
+          {
+            "id": "city-longspear",
+            "index": 21,
+            "name": "City Longspear",
+            "location": "@loc{Barren Swamp Ravine}",
+            "method": "Leave the cave, enter the house on the right, and open its chest."
+          },
+          {
+            "id": "pistol-rock-drill",
+            "index": 22,
+            "name": "Pistol Rock Drill",
+            "location": "@loc{Hotel Krat}",
+            "method": "Return the Fancy Venigni Collection and buy it from Pulcinella."
+          },
+          {
+            "id": "master-chef-s-knife",
+            "index": 23,
+            "name": "Master Chef’s Knife",
+            "location": "@loc{Krat Central Station Platform}",
+            "method": "Descend the station stairs and open the chest among the piled suitcases."
+          },
+          {
+            "id": "coil-mjolnir",
+            "index": 24,
+            "name": "Coil Mjolnir",
+            "location": "@loc{Krat Central Station Lobby}",
+            "method": "Open the chest in the rear-left corner of the outdoor fountain courtyard."
+          },
+          {
+            "id": "military-shovel",
+            "index": 25,
+            "name": "Military Shovel",
+            "location": "@loc{Abandoned Apartment}",
+            "method": "Buy it from the Wandering Merchant."
+          },
+          {
+            "id": "black-steel-cutter",
+            "index": 26,
+            "name": "Black Steel Cutter",
+            "location": "@loc{Hermit’s Cave}",
+            "method": "Defeat the Decay-shield elite on the decoded Rusty Vessel route."
+          },
+          {
+            "id": "cursed-knight-s-halberd",
+            "index": 27,
+            "name": "Cursed Knight’s Halberd",
+            "location": "@loc{Relic of Trismegistus Entrance}",
+            "method": "Open the bridge chest beside the elite that breaks through the wall."
+          },
+          {
+            "id": "carcass-crystal-axe",
+            "index": 28,
+            "name": "Carcass Crystal Axe",
+            "location": "@loc{Rosa Isabelle Street}",
+            "method": "Meet Test Subject 826 in Arche Abbey, defeat Laxasia, then buy the weapon from him above Rosa Isabelle Street."
+          },
+          {
+            "id": "acidic-great-curved-sword",
+            "index": 29,
+            "name": "Acidic Great Curved Sword",
+            "location": "@loc{Arche Abbey Outer Wall}",
+            "method": "Open the chest in the room guarded by an elite enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_114",
+      "displayName": "Golden Melody",
+      "description": "Collect and play all records.",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Collect all 16 base-game records and start playback for every record at Hotel Krat’s gramophone.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Five Gold records spawn only in New Game+. The Overture launch patch made both Eugénie records obtainable in one cycle, so her old truth-versus-lie split is obsolete.",
+        "collectibles": [
+          {
+            "id": "feel",
+            "index": 1,
+            "name": "Feel",
+            "location": "@loc{Elysion Boulevard}",
+            "method": "Return the Broken Baby Puppet to the Weeping Woman and answer @mechanic{She’s a cute baby}.",
+            "missable": true
+          },
+          {
+            "id": "divine-service",
+            "index": 2,
+            "name": "Divine Service",
+            "location": "@loc{St. Frangelico Cathedral Library}",
+            "method": "Before fighting Andreus, hand Cecile the Archbishop’s Holy Mark; revisit her room after the victory.",
+            "missable": true
+          },
+          {
+            "id": "someday",
+            "index": 3,
+            "name": "Someday",
+            "location": "@loc{Red Lobster Inn}",
+            "method": "Buy the record from the upstairs Wandering Merchant."
+          },
+          {
+            "id": "fascination",
+            "index": 4,
+            "name": "Fascination",
+            "location": "@loc{Estella Opera House}",
+            "method": "Give Adelina the Red Apple before King of Puppets, then revisit her room after the boss.",
+            "missable": true
+          },
+          {
+            "id": "quixotic",
+            "index": 5,
+            "name": "Quixotic",
+            "location": "@loc{Grand Exhibition}",
+            "method": "Give Red Fox and Black Cat one Gold Coin Fruit before boarding the train.",
+            "missable": true
+          },
+          {
+            "id": "why",
+            "index": 6,
+            "name": "Why",
+            "location": "@loc{Hotel Krat}",
+            "method": "Complete Belle’s station quest and report that her partner died fighting a puppet.",
+            "missable": true
+          },
+          {
+            "id": "misty-e-ra",
+            "index": 7,
+            "name": "Misty E’rA",
+            "location": "@loc{Hermit’s Cave}",
+            "method": "Decode the Rusty Cryptic Vessel, enter Hermit’s Cave, and defeat the Decay-shield elite."
+          },
+          {
+            "id": "proposal-flower-wolf-part-1",
+            "index": 8,
+            "name": "Proposal, Flower, Wolf Part 1",
+            "location": "@loc{Relic of Trismegistus}",
+            "method": "Kill Alidoro after the Brotherhood rematch and collect the record with his Cryptic Vessel.",
+            "missable": true
+          },
+          {
+            "id": "far-east-princess",
+            "index": 9,
+            "name": "Far East Princess",
+            "location": "@loc{Hotel Krat}",
+            "method": "Have Venigni decode Alidoro’s Vessel and read it fully. Speak with Eugénie, then select her Alidoro response labeled @mechanic{He was Eugenie’s older brother}.",
+            "missable": true
+          },
+          {
+            "id": "memory-of-beach",
+            "index": 10,
+            "name": "Memory of Beach",
+            "location": "@loc{Geppetto’s Study}",
+            "method": "Administer Antonia’s cure, defeat Laxasia, and take the record from Antonia’s wheelchair.",
+            "missable": true
+          },
+          {
+            "id": "shadow-flower",
+            "index": 11,
+            "name": "Shadow Flower",
+            "location": "@loc{Ascension Bridge}",
+            "method": "Choose @mechanic{Give her peace} with Sophia and take the record from her chair.",
+            "missable": true
+          },
+          {
+            "id": "proposal-flower-wolf-part-1-gold",
+            "index": 12,
+            "name": "Proposal, Flower, Wolf Part 1 (Gold)",
+            "location": "@loc{Cerasani Alley — New Game+}",
+            "method": "Buy it from the Wandering Merchant for 10,000 Ergo.",
+            "missable": true
+          },
+          {
+            "id": "quixotic-gold",
+            "index": 13,
+            "name": "Quixotic (Gold)",
+            "location": "@loc{Inside the House on Elysion Boulevard — New Game+}",
+            "method": "Buy it from the Wandering Merchant for 10,000 Ergo.",
+            "missable": true
+          },
+          {
+            "id": "shadow-flower-gold",
+            "index": 14,
+            "name": "Shadow Flower (Gold)",
+            "location": "@loc{Lorenzini Arcade — New Game+}",
+            "method": "Buy it from the Wandering Merchant for 10,000 Ergo.",
+            "missable": true
+          },
+          {
+            "id": "memory-of-beach-gold",
+            "index": 15,
+            "name": "Memory of Beach (Gold)",
+            "location": "@loc{Abandoned Apartment — New Game+}",
+            "method": "Buy it from the Wandering Merchant for 10,000 Ergo.",
+            "missable": true
+          },
+          {
+            "id": "fascination-gold",
+            "index": 16,
+            "name": "Fascination (Gold)",
+            "location": "@loc{Rosa Isabelle Street — New Game+}",
+            "method": "Meet Test Subject 826 in Arche Abbey, then buy the record from him after Laxasia.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_115",
+      "displayName": "Learning about Emotions",
+      "description": "Learn all gestures.",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Learn all 17 base-game gestures from the starting set, NPC quests, letters, bosses, and Sophia’s choice.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Several gestures are quest rewards with hard timing cutoffs. Read letters to their last page, and complete Cecile, Julian, Antonia, and Test Subject 826 before their world states change.",
+        "collectibles": [
+          {
+            "id": "sit",
+            "index": 1,
+            "name": "Sit",
+            "location": "@loc{Starting inventory}",
+            "method": "The gesture is available from the beginning."
+          },
+          {
+            "id": "check-ground",
+            "index": 2,
+            "name": "Check Ground",
+            "location": "@loc{Starting inventory}",
+            "method": "The gesture is available from the beginning."
+          },
+          {
+            "id": "show-off-clothes",
+            "index": 3,
+            "name": "Show Off Clothes",
+            "location": "@loc{Hotel Krat}",
+            "method": "Speak with Antonia after first entering the hotel."
+          },
+          {
+            "id": "remembrance",
+            "index": 4,
+            "name": "Remembrance",
+            "location": "@loc{Inside the House on Elysion Boulevard}",
+            "method": "Read Frozen Man’s Letter through its final page."
+          },
+          {
+            "id": "stalker-s-promise",
+            "index": 5,
+            "name": "Stalker’s Promise",
+            "location": "@loc{Venigni Works Control Room}",
+            "method": "Climb to the Survivor’s room and defeat the Stalker."
+          },
+          {
+            "id": "fear",
+            "index": 6,
+            "name": "Fear",
+            "location": "@loc{Venigni Works Control Room}",
+            "method": "Speak with Venigni when first meeting him."
+          },
+          {
+            "id": "swagger",
+            "index": 7,
+            "name": "Swagger",
+            "location": "@loc{Hotel Krat}",
+            "method": "After Fuoco, exhaust Venigni’s dialogue about Pulcinella.",
+            "missable": true
+          },
+          {
+            "id": "pray",
+            "index": 8,
+            "name": "Pray",
+            "location": "@loc{St. Frangelico Cathedral Library}",
+            "method": "Return Cecile’s Holy Mark before Andreus, then read her post-boss confession fully.",
+            "missable": true
+          },
+          {
+            "id": "taunt",
+            "index": 9,
+            "name": "Taunt",
+            "location": "@loc{Malum District Town Hall}",
+            "method": "Win the Chapter 5 Brotherhood battle against its Eldest member."
+          },
+          {
+            "id": "clap",
+            "index": 10,
+            "name": "Clap",
+            "location": "@loc{Hotel Krat}",
+            "method": "Give the Portrait of a Boy from the Brotherhood hideout to Geppetto."
+          },
+          {
+            "id": "sad",
+            "index": 11,
+            "name": "Sad",
+            "location": "@loc{Rosa Isabelle Street Culvert}",
+            "method": "Return Julian’s wedding ring and choose the line beginning @mechanic{I saw the message she left} and ending @mechanic{saying she loves you}.",
+            "missable": true
+          },
+          {
+            "id": "respect",
+            "index": 12,
+            "name": "Respect",
+            "location": "@loc{Grand Exhibition Gallery}",
+            "method": "Use Champion Victor’s key to enter the Saintess of Mercy room."
+          },
+          {
+            "id": "beg",
+            "index": 13,
+            "name": "Beg",
+            "location": "@loc{Grand Exhibition}",
+            "method": "Give Red Fox and Black Cat one Gold Coin Fruit before the train.",
+            "missable": true
+          },
+          {
+            "id": "greet",
+            "index": 14,
+            "name": "Greet",
+            "location": "@loc{Hotel Krat}",
+            "method": "Administer Antonia’s cure, defeat the Green Monster, and speak with Antonia.",
+            "missable": true
+          },
+          {
+            "id": "anger",
+            "index": 15,
+            "name": "Anger",
+            "location": "@loc{Hotel Krat}",
+            "method": "Once Corrupted Parade Master is dead, return to the hotel for Antonia’s new dialogue."
+          },
+          {
+            "id": "happy",
+            "index": 16,
+            "name": "Happy",
+            "location": "@loc{Arche Abbey Outer Wall}",
+            "method": "Ride the lift below the beam room and speak to Test Subject 826.",
+            "missable": true
+          },
+          {
+            "id": "entreat",
+            "index": 17,
+            "name": "Entreat",
+            "location": "@loc{Ascension Bridge}",
+            "method": "After Laxasia, tell Sophia @mechanic{Give her peace}.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_116",
+      "displayName": "Veteran Explorer",
+      "description": "Decipher all cryptic vessels and claim the rewards.",
+      "hidden": false,
+      "globalPercent": 18.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Decode all six base-game Cryptic Vessels with Venigni and claim every reward described by their clues.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Possessing or decoding a vessel is not sufficient; each photographed location, locked room, or NPC instruction must be completed. Alidoro’s vessel also controls Eugénie’s final story.",
+        "collectibles": [
+          {
+            "id": "crafted-cryptic-vessel",
+            "index": 1,
+            "name": "Crafted Cryptic Vessel",
+            "location": "@loc{St. Frangelico Cathedral Chapel}",
+            "method": "Knock down the brazier, loot the drained lower room, decode the vessel, strike the Alchemist Bridge puppet with a Sawtoothed Wheel, then open the marked Elysion Boulevard safe.",
+            "missable": true
+          },
+          {
+            "id": "jeweled-cryptic-vessel",
+            "index": 2,
+            "name": "Jeweled Cryptic Vessel",
+            "location": "@loc{Estella Opera House}",
+            "method": "Loot the upper ladder chest, decode it, reach the Krat Central Station Plaza cliff shown in the photograph, and use Check Ground."
+          },
+          {
+            "id": "old-cryptic-vessel",
+            "index": 3,
+            "name": "Old Cryptic Vessel",
+            "location": "@loc{Barren Swamp Bridge}",
+            "method": "Receive it from Rookie Explorer Hugo, decode it, obtain Robber’s Shack Key from the Slum Resident near Path of the Pilgrim, and loot the shack."
+          },
+          {
+            "id": "rusty-cryptic-vessel",
+            "index": 4,
+            "name": "Rusty Cryptic Vessel",
+            "location": "@loc{Hotel Krat}",
+            "method": "Return the Special Krat Supply Box, buy the vessel from Polendina, decode it, and clear Hermit’s Cave."
+          },
+          {
+            "id": "mechanical-cryptic-vessel",
+            "index": 5,
+            "name": "Mechanical Cryptic Vessel",
+            "location": "@loc{Arche Abbey Broken Rift}",
+            "method": "Loot the guarded chest, decode the vessel, equip Frozen Feast, and speak with the Wandering Merchant beyond Abandoned Apartment.",
+            "missable": true
+          },
+          {
+            "id": "alidoro-s-cryptic-vessel",
+            "index": 6,
+            "name": "Alidoro’s Cryptic Vessel",
+            "location": "@loc{Relic of Trismegistus}",
+            "method": "After the Brotherhood rematch, select Attack Alidoro twice, take the vessel, give it to Venigni, and read the full decryption.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_117",
+      "displayName": "End of Riddles",
+      "description": "Discover all Trinity Sanctums.",
+      "hidden": false,
+      "globalPercent": 26.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Answer Arlecchino’s four telephone riddles, obtain the Chosen One’s Key, and open all five Trinity Sanctums.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The third riddle awards a clue rather than the key itself; rotate the second Grand Exhibition statue to expose it. The final key comes from reopening Arlecchino’s reward box after the fourth sanctum.",
+        "collectibles": [
+          {
+            "id": "workshop-union-culvert-sanctum",
+            "index": 1,
+            "name": "Workshop Union Culvert Sanctum",
+            "location": "@loc{Workshop Union Culvert}",
+            "method": "Answer @mechanic{Human} at the Elysion Boulevard telephone, then open the green door beside the large orange drain.",
+            "missable": true
+          },
+          {
+            "id": "cathedral-chapel-sanctum",
+            "index": 2,
+            "name": "Cathedral Chapel Sanctum",
+            "location": "@loc{St. Frangelico Cathedral Chapel}",
+            "method": "Answer @mechanic{Candle} at the Malum District telephone, then climb past the rolling electrified boulder and open the green door.",
+            "missable": true
+          },
+          {
+            "id": "estella-opera-house-sanctum",
+            "index": 3,
+            "name": "Estella Opera House Sanctum",
+            "location": "@loc{Estella Opera House}",
+            "method": "Answer @mechanic{Egg} at Grand Exhibition, rotate the movable cold-woman statue for the key, then open the door below the swinging chandelier.",
+            "missable": true
+          },
+          {
+            "id": "krat-central-station-lobby-sanctum",
+            "index": 4,
+            "name": "Krat Central Station Lobby Sanctum",
+            "location": "@loc{Krat Central Station Lobby}",
+            "method": "Answer @mechanic{Ergo} at the ruined-station telephone, then open the green door on the street side of the lobby.",
+            "missable": true
+          },
+          {
+            "id": "chosen-one-s-sanctum",
+            "index": 5,
+            "name": "Chosen One’s Sanctum",
+            "location": "@loc{Arche Abbey Outer Wall}",
+            "method": "Return to the telephone after the fourth sanctum, open Arlecchino’s reward box for the Chosen One’s Key, and open the door at the bottom of the beam room.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_118",
+      "displayName": "First Lie",
+      "description": "Tell the mandatory lie at Hotel Krat’s entrance.",
+      "hidden": true,
+      "globalPercent": 87.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "After defeating Parade Master, answer “Human” at Hotel Krat’s entrance.",
+      "guide": {
+        "kind": "standard",
+        "context": "This mandatory lie opens the hotel and does not lock P into any ending.",
+        "steps": [
+          {
+            "id": "answer-human",
+            "text": "Use the intercom at @loc{Hotel Krat Entrance} and select @mechanic{Human}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_119",
+      "displayName": "Stargazer’s Guide",
+      "description": "Repair a Stargazer.",
+      "hidden": false,
+      "globalPercent": 95.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Repair the first Stargazer in Krat Central Plaza after leaving Krat Central Station.",
+      "guide": {
+        "kind": "standard",
+        "context": "Stargazers provide checkpoints and later expand into fast travel, equipment, weapon assembly, and other menus.",
+        "steps": [
+          {
+            "id": "repair",
+            "text": "Approach the inactive device in @loc{Krat Central Plaza} and confirm the prompt to repair the @mechanic{Stargazer}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_120",
+      "displayName": "Exploring Possibilities",
+      "description": "Try to assemble a weapon.",
+      "hidden": false,
+      "globalPercent": 64.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Use the Assemble Weapons menu to combine any normal weapon blade with a compatible handle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Geppetto gives the Enigma Assembly Tool after Mad Donkey, enabling assembly at Stargazers. Special weapons cannot be disassembled.",
+        "steps": [
+          {
+            "id": "get-tool",
+            "text": "Defeat @enemy{Mad Donkey} on Alchemist Bridge and receive the @item{Enigma Assembly Tool} from Geppetto."
+          },
+          {
+            "id": "assemble",
+            "text": "At the next Stargazer, open @mechanic{Assemble Weapons → New Weapon Assemble}, choose a normal blade and handle, and confirm the new weapon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_121",
+      "displayName": "The Ultimate Defense Technique",
+      "description": "Destroy an enemy’s weapon with a perfect guard.",
+      "hidden": false,
+      "globalPercent": 81.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Perfect Guard a weapon-wielding enemy repeatedly until the enemy’s weapon breaks.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Perfect Guard occurs when guard begins immediately before impact. The number of deflections varies with the enemy and weapon, so an early basic puppet is the safest target.",
+        "steps": [
+          {
+            "id": "choose-enemy",
+            "text": "Leave one basic weapon-wielding puppet alive in an early area."
+          },
+          {
+            "id": "break-weapon",
+            "text": "Guard each swing at the final moment until the enemy’s visible weapon shatters."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_122",
+      "displayName": "Fatal Blow",
+      "description": "Deliver a successful Fatal Attack.",
+      "hidden": false,
+      "globalPercent": 95.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Move behind an enemy and perform the prompted Fatal Attack when the red slash marker appears.",
+      "guide": {
+        "kind": "standard",
+        "context": "Back attacks qualify immediately; a full stagger is unnecessary. The first puppet guards in Krat Central Station provide a safe early target.",
+        "steps": [
+          {
+            "id": "backstab",
+            "text": "Approach a basic puppet from behind, wait for the red slash prompt, and perform the @mechanic{Fatal Attack}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_123",
+      "displayName": "The Bastards and the Sweepers",
+      "description": "Kill a Stalker.",
+      "hidden": false,
+      "globalPercent": 77.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat a Stalker, such as Mad Donkey on Alchemist Bridge.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mad Donkey is the first mandatory Stalker and blocks the route to Geppetto, so normal story progression supplies an early qualifying fight.",
+        "steps": [
+          {
+            "id": "kill-stalker",
+            "text": "Defeat @enemy{Mad Donkey} on @loc{Alchemist Bridge} and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_124",
+      "displayName": "Parade Master",
+      "description": "Defeat Parade Master.",
+      "hidden": true,
+      "globalPercent": 87.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Clear Cerasani Alley by killing its mandatory boss, Parade Master.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the first mandatory main boss and opens Hotel Krat.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Cerasani Alley}, defeat @enemy{Parade Master} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_125",
+      "displayName": "Scrapped Watchman",
+      "description": "Defeat Scrapped Watchman.",
+      "hidden": true,
+      "globalPercent": 75.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat Scrapped Watchman in Krat City Hall Courtyard.",
+      "guide": {
+        "kind": "standard",
+        "context": "The victory supplies the Core that opens the P-Organ system.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Krat City Hall Courtyard}, defeat @enemy{Scrapped Watchman} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_126",
+      "displayName": "King's Flame",
+      "description": "Defeat King’s Flame, Fuoco.",
+      "hidden": true,
+      "globalPercent": 68.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat King’s Flame, Fuoco in Venigni Works.",
+      "guide": {
+        "kind": "standard",
+        "context": "Fuoco’s Rare Ergo can be exchanged for Holy Sword of the Ark; preserve it for the special-weapon collection.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Venigni Works Control Room}, defeat @enemy{King’s Flame, Fuoco} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_127",
+      "displayName": "Fallen Archbishop",
+      "description": "Defeat Fallen Archbishop Andreus.",
+      "hidden": true,
+      "globalPercent": 62.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat both phases of Fallen Archbishop Andreus at St. Frangelico Cathedral.",
+      "guide": {
+        "kind": "standard",
+        "context": "Return Cecile’s Holy Mark before entering the fight if Divine Service and Pray are still needed.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{St. Frangelico Cathedral}, defeat @enemy{Fallen Archbishop Andreus} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_128",
+      "displayName": "The Delayed Match",
+      "description": "Defeat the Eldest of the Black Rabbit Brotherhood.",
+      "hidden": true,
+      "globalPercent": 59.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win the Malum District Town Hall battle against the Black Rabbit Brotherhood’s Eldest member.",
+      "guide": {
+        "kind": "standard",
+        "context": "The victory opens the route to the Gold Coin Fruit Tree and awards Taunt.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "At @loc{Malum District Town Hall}, survive the Brotherhood encounter and finish its @enemy{Eldest} member."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_129",
+      "displayName": "King of Puppets",
+      "description": "Defeat the King of Puppets.",
+      "hidden": true,
+      "globalPercent": 55.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "At Estella Opera House, kill the King of Puppets through both combat phases.",
+      "guide": {
+        "kind": "standard",
+        "context": "Give Adelina the Red Apple before this fight so Fascination remains collectible afterward.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Estella Opera House Stage}, defeat @enemy{King of Puppets} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_130",
+      "displayName": "The Champion of Evolution",
+      "description": "Defeat Champion Victor.",
+      "hidden": true,
+      "globalPercent": 52.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win the mandatory Grand Exhibition Conference Room fight against Champion Victor.",
+      "guide": {
+        "kind": "standard",
+        "context": "Victor’s defeat opens Antonia’s cure decision and the Saintess of Mercy room.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Grand Exhibition Conference Room}, defeat @enemy{Champion Victor} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_131",
+      "displayName": "Puppet-Devouring Green Monster",
+      "description": "Defeat the Puppet-Devouring Green Monster of the Swamp.",
+      "hidden": true,
+      "globalPercent": 49.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill the Puppet-Devouring Green Monster in Barren Swamp through both phases.",
+      "guide": {
+        "kind": "standard",
+        "context": "The second phase reuses Scrapped Watchman-style attacks; the victory advances Antonia’s cured-state dialogue.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Barren Swamp}, defeat @enemy{Puppet-Devouring Green Monster} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_132",
+      "displayName": "Corrupted Parade Master",
+      "description": "Defeat Corrupted Parade Master.",
+      "hidden": true,
+      "globalPercent": 47.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill Corrupted Parade Master during the return through Krat Central Station.",
+      "guide": {
+        "kind": "standard",
+        "context": "This story victory restores Hotel Krat access and awards a Full Moonstone for a +10 normal weapon.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Krat Central Station}, defeat @enemy{Corrupted Parade Master} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_133",
+      "displayName": "Revenge of Black",
+      "description": "Defeat the Black Rabbit Brotherhood at Relic of Trismegistus.",
+      "hidden": true,
+      "globalPercent": 46.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Defeat the Black Rabbit Brotherhood rematch at Relic of Trismegistus.",
+      "guide": {
+        "kind": "standard",
+        "context": "Alidoro waits uphill after the fight; resolve his vessel and Eugénie quest before advancing too far.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Relic of Trismegistus Combat Field}, defeat @enemy{Black Rabbit Brotherhood} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_134",
+      "displayName": "The Complete One",
+      "description": "Defeat Laxasia the Complete.",
+      "hidden": true,
+      "globalPercent": 43.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat both phases of Laxasia the Complete in Arche Abbey.",
+      "guide": {
+        "kind": "standard",
+        "context": "Laxasia’s defeat opens Sophia’s ending choice and several final character-story cleanups.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Arche Abbey}, defeat @enemy{Laxasia the Complete} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_135",
+      "displayName": "The Awakened God",
+      "description": "Defeat Simon Manus, Awakened God.",
+      "hidden": true,
+      "globalPercent": 42.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat Simon Manus, Awakened God at Arche Abbey Cradle of the God.",
+      "guide": {
+        "kind": "standard",
+        "context": "Simon is the last mandatory boss before Geppetto’s heart decision and the optional Nameless Puppet.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Arche Abbey Cradle of the God}, defeat @enemy{Simon Manus, Awakened God} through every phase, and complete the final attack."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_136",
+      "displayName": "Bear Gold Coin Fruit",
+      "description": "Harvest Gold Coin Fruit.",
+      "hidden": true,
+      "globalPercent": 59.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "After the Chapter 5 Brotherhood fight, reveal the Gold Coin Fruit Tree and harvest one fruit.",
+      "guide": {
+        "kind": "standard",
+        "context": "Giangio first appears on Path of Misery and later moves behind the Brotherhood hideout. The tree supplies respec currency and Antonia’s cure ingredient.",
+        "steps": [
+          {
+            "id": "meet-giangio",
+            "text": "Speak with @npc{Giangio} beyond the Path of Misery chapel."
+          },
+          {
+            "id": "reveal-tree",
+            "text": "Win the Chapter 5 Brotherhood battle, ride the hideout elevator, speak with Giangio, and open his rear door."
+          },
+          {
+            "id": "harvest",
+            "text": "Interact with the revealed @item{Gold Coin Fruit Tree} and collect at least one fruit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_137",
+      "displayName": "From Across the Rift",
+      "description": "Kill all types of Dimensional Butterflies.",
+      "hidden": false,
+      "globalPercent": 54.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill at least one red, pink, blue, and yellow Dimensional Butterfly.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Monad’s Lamp glows red near a hidden butterfly. If one escapes, rest at a Stargazer and return; Lorenzini Arcade is the first route area containing the yellow type.",
+        "collectibles": [
+          {
+            "id": "red-dimensional-butterfly",
+            "index": 1,
+            "name": "Red Dimensional Butterfly",
+            "location": "@loc{Early Krat routes}",
+            "method": "Follow Monad’s Lamp, reveal a red butterfly, and kill it before it vanishes."
+          },
+          {
+            "id": "pink-dimensional-butterfly",
+            "index": 2,
+            "name": "Pink Dimensional Butterfly",
+            "location": "@loc{Midgame routes}",
+            "method": "Follow Monad’s Lamp, reveal a pink butterfly, and kill it before it vanishes."
+          },
+          {
+            "id": "blue-dimensional-butterfly",
+            "index": 3,
+            "name": "Blue Dimensional Butterfly",
+            "location": "@loc{Midgame routes}",
+            "method": "Follow Monad’s Lamp, reveal a blue butterfly, and kill it before it vanishes."
+          },
+          {
+            "id": "yellow-dimensional-butterfly",
+            "index": 4,
+            "name": "Yellow Dimensional Butterfly",
+            "location": "@loc{Lorenzini Arcade}",
+            "method": "Follow Monad’s Lamp to the yellow butterfly and kill it before it vanishes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_138",
+      "displayName": "The Story of the Prince",
+      "description": "Find out about the last story of Venigni.",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Give Venigni the Moon World Warrior Toy after uncovering the truth behind the Venigni incident.",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest combines the final Trinity Sanctum with a book found much earlier in Lorenzini Arcade. Read the book fully before requesting Arlecchino’s final Venigni dialogue.",
+        "steps": [
+          {
+            "id": "meet-venigni",
+            "text": "Meet @npc{Venigni} at Venigni Works Control Room and continue his Hotel Krat conversations."
+          },
+          {
+            "id": "read-scandal",
+            "text": "Take the Lorenzini Arcade bathroom book titled @item{Scandal! V}; its subtitle is @item{The Tragedy Behind the Flamboyance!}. Read every page."
+          },
+          {
+            "id": "ask-arlecchino",
+            "text": "Open the Chosen One’s Sanctum in Arche Abbey, speak with @npc{Arlecchino}, then choose @mechanic{The truth behind the Venigni incident}."
+          },
+          {
+            "id": "give-toy",
+            "text": "Return to Hotel Krat and hand Venigni the @item{Moon World Warrior Toy}, then finish the conversation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_139",
+      "displayName": "The Story of the Refined Old Lady",
+      "description": "Find out about the last story of Antonia.",
+      "hidden": false,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Give Antonia Giangio’s cure, then speak to Polendina after Laxasia.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rejecting the cure permanently removes this outcome from the cycle. The same route also produces the Greet gesture and Memory of Beach record.",
+        "steps": [
+          {
+            "id": "craft-cure",
+            "text": "After Champion Victor, give @npc{Giangio} one Gold Coin Fruit for the @item{Cure for Antonia}."
+          },
+          {
+            "id": "use-cure",
+            "text": "Tell @npc{Polendina} @mechanic{Use the Cure}, reload Hotel Krat, and speak with Antonia."
+          },
+          {
+            "id": "finish-story",
+            "text": "Once @enemy{Laxasia the Complete} is dead, visit Polendina at Hotel Krat for Antonia’s conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_140",
+      "displayName": "The Story of the One Who Dreamed",
+      "description": "Discover the last story of Simon Manus.",
+      "hidden": true,
+      "globalPercent": 42.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat Simon Manus, Awakened God and finish the post-battle conversation.",
+      "guide": {
+        "kind": "standard",
+        "context": "This character-story achievement shares the mandatory final-boss victory but registers only after the scene following the fight.",
+        "steps": [
+          {
+            "id": "defeat-simon",
+            "text": "Defeat both phases of @enemy{Simon Manus, Awakened God}."
+          },
+          {
+            "id": "finish-dialogue",
+            "text": "Complete Simon Manus’s final dialogue before leaving @loc{Arche Abbey Cradle of the God}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_141",
+      "displayName": "The Story of One Father",
+      "description": "Find out about the last story of Geppetto.",
+      "hidden": false,
+      "globalPercent": 11.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "After the Real Boy ending, return to Hotel Krat and read every page of Geppetto’s letter.",
+      "guide": {
+        "kind": "standard",
+        "context": "The letter exists only in the post–Give the Heart hotel state. Starting New Game+ at the credits prompt removes the pickup until the ending is repeated.",
+        "steps": [
+          {
+            "id": "real-boy",
+            "text": "At Under the Abyss, choose @mechanic{Give the Heart} and complete the Real Boy ending."
+          },
+          {
+            "id": "read-letter",
+            "text": "Choose Return to the Hotel, take @item{Geppetto’s Letter} from his Study desk, and turn through every page in the Collectibles menu."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_142",
+      "displayName": "The Story of a Stranger Girl",
+      "description": "Find out about the last story of Eugénie.",
+      "hidden": false,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Decode Alidoro’s Cryptic Vessel, identify Alidoro to Eugénie as her older brother, reload, and speak to Eugénie again.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Overture patch made the two Eugénie records obtainable in one playthrough. The current route rewards Proposal, Flower, Wolf Part 1 with Alidoro’s vessel and Far East Princess for the truth.",
+        "steps": [
+          {
+            "id": "kill-alidoro",
+            "text": "After the Brotherhood rematch, speak with @npc{Alidoro} uphill and select @mechanic{Attack Alidoro} twice."
+          },
+          {
+            "id": "decode-vessel",
+            "text": "Give @item{Alidoro’s Cryptic Vessel} to Venigni and read the complete decryption."
+          },
+          {
+            "id": "tell-truth",
+            "text": "In Eugénie’s Alidoro conversation, use this literal dialogue label: @mechanic{He was Eugenie’s older brother}."
+          },
+          {
+            "id": "reload",
+            "text": "Rest at a @mechanic{Stargazer} to reload the area, then speak with Eugénie again to finish her story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_143",
+      "displayName": "The Story of the Blue Butterfly",
+      "description": "Find out about the last story of Sophia.",
+      "hidden": false,
+      "globalPercent": 21.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "After the Rise of P ending, return to Hotel Krat and read every page of The Blue Butterfly’s Letter.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sophia must receive peace, P must refuse Geppetto, and the Nameless Puppet must die. The letter appears only in that post-ending Hotel Krat state.",
+        "steps": [
+          {
+            "id": "rise-ending",
+            "text": "Raise Humanity until @mechanic{Your heart is pounding} appears, choose @mechanic{Give her peace} for Sophia, refuse Geppetto, and defeat the Nameless Puppet."
+          },
+          {
+            "id": "read-blue-letter",
+            "text": "Choose Return to the Hotel, take @item{The Blue Butterfly’s Letter} from Geppetto’s Study, and read every page."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_144",
+      "displayName": "The Rose's Memory",
+      "description": "Reach Overture’s ending.",
+      "hidden": true,
+      "globalPercent": 15.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defeat the Blood Artist at Rose Garden Entrance and watch Overture’s ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "Overture has one ending. Finish collectible and cipher cleanup before entering the Rose Garden boss because the DLC cannot be reset without replaying the base-game access route.",
+        "steps": [
+          {
+            "id": "clear-point",
+            "text": "Finish all open Forgotten Time quests before crossing the point of no return at @loc{Rose Garden Entrance}."
+          },
+          {
+            "id": "finish-dlc",
+            "text": "Defeat @enemy{the Blood Artist} and watch the Overture ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_145",
+      "displayName": "Enduring Resolve",
+      "description": "Listen to the Legend’s final recording.",
+      "hidden": true,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "After Overture’s ending, return to Eventide Hotel Krat, open Forgotten Time’s golden-tree secret room, and finish Lea’s Recollection.",
+      "guide": {
+        "kind": "standard",
+        "context": "Blood Artist drops the Secret Room Key, but P returns to the present after the ending. The white butterflies lead back through the Forgotten Time hotel to the locked room.",
+        "steps": [
+          {
+            "id": "get-key",
+            "text": "Defeat @enemy{the Blood Artist} and receive the @item{Secret Room Key}."
+          },
+          {
+            "id": "return-forgotten",
+            "text": "Follow the white butterflies to the Stargazer, return to @loc{Eventide Hotel Krat}, and follow the butterflies upstairs to the golden tree."
+          },
+          {
+            "id": "listen",
+            "text": "Unlock the secret room, pick up @item{Lea’s Recollection}, and let the entire recording finish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_146",
+      "displayName": "True Combat Gear Collector",
+      "description": "Collect all weapons and Legion Arms in the Forgotten Time.",
+      "hidden": false,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Own all 10 Overture weapons and craft both Forgotten Time Legion Arms, Icarus and Cataclysm.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The two Overture Rare Ergos have weapon and amulet exchanges; choose Death’s Talons and Pale Knight. Missing a quest weapon or Ergo exchange requires replaying the DLC access route in another cycle.",
+        "collectibles": [
+          {
+            "id": "lorenzini-bolt",
+            "index": 1,
+            "name": "Lorenzini Bolt",
+            "location": "@loc{Jungle Zoo Walkway}",
+            "method": "Break the icicles left of the broken bridge and open the chest."
+          },
+          {
+            "id": "manic-s-pinwheel",
+            "index": 2,
+            "name": "Manic’s Pinwheel",
+            "location": "@loc{Carnival Garden}",
+            "method": "Insert a Carnival Coin at the concession puppet and roll through 12 clown balloons in the minigame."
+          },
+          {
+            "id": "puppet-of-the-future-s-welder",
+            "index": 3,
+            "name": "Puppet of the Future’s Welder",
+            "location": "@loc{Zelator Underground Facility}",
+            "method": "Break the wooden cell wall, follow the ladder-and-drop route, defeat the miniboss, and open the chest."
+          },
+          {
+            "id": "la-vendetta",
+            "index": 4,
+            "name": "La Vendetta",
+            "location": "@loc{Zelator Underground Facility}",
+            "method": "After Veronique, open the chest in the room containing a bed and workshop."
+          },
+          {
+            "id": "arche-s-guardian",
+            "index": 5,
+            "name": "Arche’s Guardian",
+            "location": "@loc{Ergo Mining Site}",
+            "method": "Take the left side path before the wooden bridge and open the chest."
+          },
+          {
+            "id": "silent-evangelists-mace",
+            "index": 6,
+            "name": "Silent Evangelists’ Mace",
+            "location": "@loc{Shipwreck Interior}",
+            "method": "On the ship’s deck, walk toward the lighthouse side and open the chest."
+          },
+          {
+            "id": "royal-horn-bow",
+            "index": 7,
+            "name": "Royal Horn Bow",
+            "location": "@loc{Hall of Adventure}",
+            "method": "Defeat or pass the elite elephant, take the upper eastern path, and open the chest."
+          },
+          {
+            "id": "death-s-talons",
+            "index": 8,
+            "name": "Death’s Talons",
+            "location": "@loc{Eventide Hotel Krat}",
+            "method": "Exchange Macabre Puppeteer’s Ergo with Klaus instead of buying the amulet.",
+            "missable": true
+          },
+          {
+            "id": "pale-knight",
+            "index": 9,
+            "name": "Pale Knight",
+            "location": "@loc{Eventide Hotel Krat}",
+            "method": "Exchange Tortured Guardian’s Ergo with Klaus instead of buying the amulet.",
+            "missable": true
+          },
+          {
+            "id": "monad-s-rose-sword",
+            "index": 10,
+            "name": "Monad’s Rose Sword",
+            "location": "@loc{Rose Garden Entrance}",
+            "method": "Defeat the Blood Artist and receive the weapon automatically."
+          },
+          {
+            "id": "icarus",
+            "index": 11,
+            "name": "Icarus",
+            "location": "@loc{Eventide Hotel Krat}",
+            "method": "Find Genius’s Legion Plug and craft Icarus at the Legion Arm table."
+          },
+          {
+            "id": "cataclysm",
+            "index": 12,
+            "name": "Cataclysm",
+            "location": "@loc{Eventide Hotel Krat}",
+            "method": "Use Genius’s Legion Plug access to craft Cataclysm at the Legion Arm table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_147",
+      "displayName": "Beyond Limitless Potential",
+      "description": "Further upgrade the abilities of the P-Organ.",
+      "hidden": false,
+      "globalPercent": 15.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "At Eventide Hotel Krat, take the Upgrade Core and spend one Quartz in the Overture P-Organ tab.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Forgotten Time upgrade tab is separate from the base P-Organ phases. One applied upgrade is sufficient; a fully completed node tier is unnecessary on the current requirement.",
+        "steps": [
+          {
+            "id": "take-core",
+            "text": "At @loc{Eventide Hotel Krat}, take the @item{Upgrade Core} from the box beside the P-Organ chair."
+          },
+          {
+            "id": "apply-upgrade",
+            "text": "Sit in the chair, switch to the Forgotten Time P-Organ tab, and spend at least @item{one Quartz} on any available upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_148",
+      "displayName": "Memory's Melody",
+      "description": "Collect and listen to all records from the Forgotten Time.",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Collect and play Lisrim, Lisrim (Gold), The Clear Blue Sky, The Clear Blue Sky (Gold), Nightmare, Nightmare (Gold), Survivor, and Survivor (Red).",
+      "guide": {
+        "kind": "collectible",
+        "context": "The three Gold records never spawn on a first playthrough, which makes New Game+ mandatory. Start each record at a gramophone after collecting the full set.",
+        "collectibles": [
+          {
+            "id": "lisrim",
+            "index": 1,
+            "name": "Lisrim",
+            "location": "@loc{Carnival Garden}",
+            "method": "Find Rosaura’s shoes by riding the Ferris wheel route to the carousel roof, then return the shoes to Rosaura.",
+            "missable": true
+          },
+          {
+            "id": "lisrim-gold",
+            "index": 2,
+            "name": "Lisrim (Gold)",
+            "location": "@loc{Archon Fleet Shipwrecks — New Game+}",
+            "method": "Buy it from the Wandering Merchant for 10,000 Ergo.",
+            "missable": true
+          },
+          {
+            "id": "the-clear-blue-sky",
+            "index": 3,
+            "name": "The Clear Blue Sky",
+            "location": "@loc{Zoo Tram Station / Elixir Research Zone}",
+            "method": "Praise Goddard’s blank painting, recover her Art Supplies, revisit after Lumacchio, and read To the One Within the Darkness.",
+            "missable": true
+          },
+          {
+            "id": "the-clear-blue-sky-gold",
+            "index": 4,
+            "name": "The Clear Blue Sky (Gold)",
+            "location": "@loc{Carnival Garden — New Game+}",
+            "method": "Buy it from the Wandering Merchant for 10,000 Ergo.",
+            "missable": true
+          },
+          {
+            "id": "nightmare",
+            "index": 5,
+            "name": "Nightmare",
+            "location": "@loc{Pistris Harbor}",
+            "method": "Speak to the Crusher Puppet at all three mining locations, then tell the Brain in a Vat @mechanic{Help him}.",
+            "missable": true
+          },
+          {
+            "id": "nightmare-gold",
+            "index": 6,
+            "name": "Nightmare (Gold)",
+            "location": "@loc{Eventide Hotel Krat — New Game+}",
+            "method": "Find the Luxury Bag and buy the record from Klaus for one Ancient Disc.",
+            "missable": true
+          },
+          {
+            "id": "survivor",
+            "index": 7,
+            "name": "Survivor",
+            "location": "@loc{Eventide Hotel Krat}",
+            "method": "Solve all three Cipher Machines, then choose the Tracker line beginning @mechanic{They will be} and ending @mechanic{Krat will be saved}.",
+            "missable": true
+          },
+          {
+            "id": "survivor-red",
+            "index": 8,
+            "name": "Survivor (Red)",
+            "location": "@loc{Golden-tree secret room}",
+            "method": "After the ending, unlock the golden-tree room with its key and play Lea’s Recollection completely."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_149",
+      "displayName": "To Be Human",
+      "description": "Learn all gestures from the Forgotten Time.",
+      "hidden": false,
+      "globalPercent": 8.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Learn all eight Overture gestures: Shiver, Play Dead, Tap Dance, Cheer, Doubt, Heart, Deep Bow, and Peer into Distance.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Doubt and Heart depend on multi-area NPC quest progress, while Cheer requires using Tap Dance at a specific carnival prompt. Resolve each as soon as its route opens.",
+        "collectibles": [
+          {
+            "id": "shiver",
+            "index": 1,
+            "name": "Shiver",
+            "location": "@loc{Any Forgotten Time area}",
+            "method": "Let Frost status kill P once."
+          },
+          {
+            "id": "play-dead",
+            "index": 2,
+            "name": "Play Dead",
+            "location": "@loc{Hall of Adventure}",
+            "method": "Read Discover Wildlife: Bears behind the mammoth statue."
+          },
+          {
+            "id": "tap-dance",
+            "index": 3,
+            "name": "Tap Dance",
+            "location": "@loc{Carnival Garden}",
+            "method": "Open the Carnival gate, turn left, and collect the @item{Carnival Coin} lying at the clock tower’s front side; insert that coin into the music machine and watch its performance."
+          },
+          {
+            "id": "cheer",
+            "index": 4,
+            "name": "Cheer",
+            "location": "@loc{Carnival Garden}",
+            "method": "Perform Tap Dance in front of the Show your talent clown."
+          },
+          {
+            "id": "doubt",
+            "index": 5,
+            "name": "Doubt",
+            "location": "@loc{Ancient Ruins / Ergo Mining Site}",
+            "method": "Find and exhaust dialogue with all three Crusher Puppets.",
+            "missable": true
+          },
+          {
+            "id": "heart",
+            "index": 6,
+            "name": "Heart",
+            "location": "@loc{Pistris Harbor}",
+            "method": "Finish Rosaura’s shoes quest, meet her again at the harbor, and give her any Ergo.",
+            "missable": true
+          },
+          {
+            "id": "deep-bow",
+            "index": 7,
+            "name": "Deep Bow",
+            "location": "@loc{Archon Fleet Shipwrecks}",
+            "method": "Board the second ship, cross the river by the log route, and read the document."
+          },
+          {
+            "id": "peer-into-distance",
+            "index": 8,
+            "name": "Peer into Distance",
+            "location": "@loc{Krat Lighthouse}",
+            "method": "Climb to the lighthouse summit and finish the cutscene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_150",
+      "displayName": "Tracker of Dark Secrets",
+      "description": "Decrypt all clues hidden inside the cipher machines and claim the rewards.",
+      "hidden": false,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "summary": "Decrypt and solve the Bloody, Corroded, and Frosted Cipher Machines before fighting the Blood Artist.",
+      "guide": {
+        "kind": "collectible",
+        "context": "All three chains must reach their final document, not merely be decrypted. The Tracker’s final answer also controls the Survivor record required by Memory’s Melody.",
+        "collectibles": [
+          {
+            "id": "bloody-cipher-machine",
+            "index": 1,
+            "name": "Bloody Cipher Machine",
+            "location": "@loc{Hall of Adventure}",
+            "method": "Defeat Two-Faced Overseer, ask the Tracker to decrypt the machine, then press the second-floor button near the crocodile and take the confession.",
+            "missable": true
+          },
+          {
+            "id": "corroded-cipher-machine",
+            "index": 2,
+            "name": "Corroded Cipher Machine",
+            "location": "@loc{Ergo Mining Site}",
+            "method": "Defeat the Giant Drill miniboss, decrypt the machine, cross the long wooden bridge, break the marked wall, and take the diary.",
+            "missable": true
+          },
+          {
+            "id": "frosted-cipher-machine",
+            "index": 3,
+            "name": "Frosted Cipher Machine",
+            "location": "@loc{Archon Fleet Shipwrecks / Krat Lighthouse}",
+            "method": "Open the pre-Shipwreck Exterior vault and decrypt the machine. At the Archon Fleet Shipwrecks merchant, buy and equip @item{Giant’s Amulet} so Character Info reads @mechanic{Heavy} or @mechanic{Very Heavy}; stand on Krat Lighthouse’s floor plate and take the Lighthouse Keeper’s Journal.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_151",
+      "displayName": "Puppeteer of Death",
+      "description": "Defeat Markiona, the Puppeteer of Death.",
+      "hidden": true,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defeat Markiona, the Puppeteer of Death during Overture.",
+      "guide": {
+        "kind": "standard",
+        "context": "Markiona’s Rare Ergo buys Death’s Talons; reserve it for the combat-gear collection.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Overture Chapter 1}, defeat @enemy{Markiona, the Puppeteer of Death}, and complete the encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_152",
+      "displayName": "Anguished Guardian",
+      "description": "Defeat the Anguished Guardian of the Ruins.",
+      "hidden": true,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defeat the Anguished Guardian of the Ruins during Overture.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Guardian’s Rare Ergo buys Pale Knight; reserve it for the combat-gear collection.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Forgotten Time ruins}, defeat @enemy{Anguished Guardian of the Ruins}, and complete the encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_153",
+      "displayName": "The Blood Artist",
+      "description": "Defeat the Blood Artist.",
+      "hidden": true,
+      "globalPercent": 15.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defeat the Blood Artist at Rose Garden Entrance.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is Overture’s final boss and point of no return; finish the Tracker and collection cleanup first.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Rose Garden Entrance}, defeat @enemy{the Blood Artist}, and complete the encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LOP_154",
+      "displayName": "Honor and Revenge",
+      "description": "Defeat the Leader of the Bastards and the Leader of the Sweepers.",
+      "hidden": true,
+      "globalPercent": 16.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "During Overture, kill both faction chiefs: the Bastards’ Leader and the Sweepers’ Leader.",
+      "guide": {
+        "kind": "standard",
+        "context": "The paired leaders are mandatory Overture story targets and both must die for the shared achievement.",
+        "steps": [
+          {
+            "id": "defeat-boss",
+            "text": "Reach @loc{Forgotten Time story route}, defeat @enemy{Leader of the Bastards and Leader of the Sweepers}, and complete the encounter."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "LOP_118",
+    "LOP_119",
+    "LOP_122",
+    "LOP_121",
+    "LOP_124",
+    "LOP_123",
+    "LOP_120",
+    "LOP_125",
+    "LOP_126",
+    "LOP_127",
+    "LOP_128",
+    "LOP_136",
+    "LOP_129",
+    "LOP_130",
+    "LOP_137",
+    "LOP_131",
+    "LOP_132",
+    "LOP_133",
+    "LOP_106",
+    "LOP_107",
+    "LOP_108",
+    "LOP_109",
+    "LOP_134",
+    "LOP_135",
+    "LOP_140",
+    "LOP_105",
+    "LOP_104",
+    "LOP_102",
+    "LOP_110",
+    "LOP_138",
+    "LOP_139",
+    "LOP_141",
+    "LOP_142",
+    "LOP_143",
+    "LOP_111",
+    "LOP_112",
+    "LOP_113",
+    "LOP_115",
+    "LOP_116",
+    "LOP_117",
+    "LOP_103",
+    "LOP_114",
+    "LOP_151",
+    "LOP_152",
+    "LOP_154",
+    "LOP_147",
+    "LOP_146",
+    "LOP_149",
+    "LOP_150",
+    "LOP_153",
+    "LOP_144",
+    "LOP_145",
+    "LOP_148"
+  ]
+}

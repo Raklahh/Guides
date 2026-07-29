@@ -1,0 +1,1245 @@
+{
+  "game": {
+    "appid": 3440070,
+    "slug": "dinoblade",
+    "title": "Dinoblade",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-28",
+    "estTotalHours": 14,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-07-30"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Cross Tyrant's Canyon",
+      "description": "Learn deflects and Instinct Counters, rescue the Ankylosaurus, defeat Kira, Axe, and Kasei, and collect the canyon pickups.",
+      "achievementRefs": [
+        "NEW_ACHIEVEMENT_1_1",
+        "NEW_ACHIEVEMENT_1_10",
+        "NEW_ACHIEVEMENT_1_11",
+        "NEW_ACHIEVEMENT_1_12",
+        "NEW_ACHIEVEMENT_1_25"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Clear the Great Lake and Darkclaw's Forest",
+      "description": "Defeat every route boss while collecting the swords and Max Heal Ore before leaving each biome.",
+      "achievementRefs": [
+        "NEW_ACHIEVEMENT_1_13",
+        "NEW_ACHIEVEMENT_1_16",
+        "NEW_ACHIEVEMENT_1_17",
+        "NEW_ACHIEVEMENT_1_18",
+        "NEW_ACHIEVEMENT_1_19",
+        "NEW_ACHIEVEMENT_1_20"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish the swamp and Snow Crater",
+      "description": "Clear Red Ashe's Swamp, defeat Akai Tsuki, kill six Sauropods, and complete the Maakyuurii finale.",
+      "achievementRefs": [
+        "NEW_ACHIEVEMENT_1_7",
+        "NEW_ACHIEVEMENT_1_9",
+        "NEW_ACHIEVEMENT_1_14",
+        "NEW_ACHIEVEMENT_1_15",
+        "NEW_ACHIEVEMENT_1_21",
+        "NEW_ACHIEVEMENT_1_22",
+        "NEW_ACHIEVEMENT_1_23",
+        "NEW_ACHIEVEMENT_1_24"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Clean up collections and upgrades",
+      "description": "Use Save Stone travel for remaining swords, ores, Souls, deflects, summons, and fully upgraded Soul Arts.",
+      "achievementRefs": [
+        "NEW_ACHIEVEMENT_1_2",
+        "NEW_ACHIEVEMENT_1_4",
+        "NEW_ACHIEVEMENT_1_5",
+        "NEW_ACHIEVEMENT_1_6",
+        "NEW_ACHIEVEMENT_1_8",
+        "NEW_ACHIEVEMENT_1_26",
+        "NEW_ACHIEVEMENT_1_27",
+        "NEW_ACHIEVEMENT_1_28",
+        "NEW_ACHIEVEMENT_1_29"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Complete Boss Rush",
+      "description": "Carry the finished campaign build into the four-boss main-menu gauntlet and clear it without a failed encounter.",
+      "achievementRefs": [
+        "NEW_ACHIEVEMENT_1_3"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_1",
+      "displayName": "THE PRICE OF SURVIVAL",
+      "description": "Complete the opening Soul Bind with Akai's soul",
+      "hidden": true,
+      "globalPercent": 98.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the opening Soul Bind with Akai's soul.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the campaign's first automatic story flag and occurs before the combat route to Kira the Exile.",
+        "steps": [
+          {
+            "id": "begin-campaign",
+            "text": "Start a new campaign and continue through the opening cutscenes."
+          },
+          {
+            "id": "finish-bind",
+            "text": "Continue until the Soul Bind with Akai's soul finishes and control returns to the player."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_2",
+      "displayName": "STAINLESS EXTINCTION",
+      "description": "Collect all Swords in game",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Collect all seven @item{swords}, including the starting weapon and six campaign pickups.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Save Stones permit travel back to explored biomes, so missed world pickups can be recovered before or after the final boss.",
+        "collectibles": [
+          {
+            "id": "sword-1",
+            "index": 1,
+            "name": "Starting Great Sword",
+            "location": "@loc{Opening area}",
+            "method": "Begin the campaign; the first sword is equipped automatically.",
+            "missable": false
+          },
+          {
+            "id": "sword-2",
+            "index": 2,
+            "name": "Kasei sword",
+            "location": "@loc{Tyrant's Canyon}, beyond Kasei's arena",
+            "method": "Defeat @enemy{Kasei the Tyrant}, leave the arena, and pull the sword from the rock directly ahead.",
+            "missable": false
+          },
+          {
+            "id": "sword-3",
+            "index": 3,
+            "name": "Mokusei sword",
+            "location": "@loc{Great Lake}, Mokusei's arena",
+            "method": "Defeat @enemy{Mokusei the Titan} and collect the sword that appears in the arena's center.",
+            "missable": false
+          },
+          {
+            "id": "sword-4",
+            "index": 4,
+            "name": "Ketsuro sword",
+            "location": "@loc{Darkclaw's Forest}, cliff above Ketsuro's arena",
+            "method": "Defeat @enemy{Ketsuro}, climb from the arena to the cliff above it, and pull the sword from the rock.",
+            "missable": false
+          },
+          {
+            "id": "sword-5",
+            "index": 5,
+            "name": "Dosei sword",
+            "location": "@loc{Darkclaw's Forest}, Dosei's arena",
+            "method": "Defeat @enemy{Dosei the Giant Claw} and collect the sword from the rock near the defeat location.",
+            "missable": false
+          },
+          {
+            "id": "sword-6",
+            "index": 6,
+            "name": "Swamp river sword",
+            "location": "@loc{Red Ashe's Swamp}, opposite Akai Tsuki's entrance",
+            "method": "Find the dead Sauropod on the map's right side, enter the riverside gap between the trees, and pull the sword from the rock.",
+            "missable": false
+          },
+          {
+            "id": "sword-7",
+            "index": 7,
+            "name": "Akai Tsuki sword",
+            "location": "@loc{Red Ashe's Swamp}, Akai Tsuki's arena",
+            "method": "Defeat both forms of @enemy{Akai Tsuki} and collect the final sword after the cutscene.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_3",
+      "displayName": "FEEDING THE BLADE",
+      "description": "Beat Boss Rush",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "across the campaign",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_9"
+      ],
+      "summary": "Defeat all four bosses consecutively in @mechanic{Boss Rush} after completing the campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Boss Rush is selected from the main menu on a completed save and is independent of New Game+. The campaign build and equipment carry over, health carries between fights, and a defeat restarts the sequence.",
+        "steps": [
+          {
+            "id": "finish-campaign",
+            "text": "Defeat Maakyuurii and keep the completed campaign save on the profile."
+          },
+          {
+            "id": "prepare-build",
+            "text": "Spend the remaining Boss SP, equip the preferred sword and summon, and practice deflecting before leaving the campaign."
+          },
+          {
+            "id": "start-rush",
+            "text": "Choose @mechanic{Boss Rush} from the main menu."
+          },
+          {
+            "id": "clear-rush",
+            "text": "Defeat Styracosaurus, Carnotaurus, Kira, and T-Rex in sequence without failing the run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_4",
+      "displayName": "FEED THE BEAST",
+      "description": "Fully upgrade Alpha Roar, then activate it once",
+      "hidden": true,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Max every @mechanic{Alpha Roar} rank with Boss SP, then activate the fully upgraded Soul Art once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Optional Boss SP is found behind the early Tyrant's Canyon waterfall, on the underwater bone pile at the Great Lake's center, on the left cliff after Darkclaw's Forest's Hammer Rex, along the right-hand river from the swamp's blue-flower Save Stone, and beside the right tree line on entering the snowy area.",
+        "steps": [
+          {
+            "id": "buy-ranks",
+            "text": "Open the Soul Arts page and spend Boss SP on every @mechanic{Alpha Roar} upgrade rank."
+          },
+          {
+            "id": "equip-roar",
+            "text": "Assign the fully upgraded @mechanic{Alpha Roar} to an available Soul Art slot."
+          },
+          {
+            "id": "use-roar",
+            "text": "Enter combat and activate @mechanic{Alpha Roar} once after its final rank has been purchased."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_5",
+      "displayName": "PARRY GOD",
+      "description": "Deflect 100 times",
+      "hidden": false,
+      "globalPercent": 30.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the campaign",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Deflect 100 blockable enemy attacks with correctly timed guards.",
+      "guide": {
+        "kind": "standard",
+        "context": "A correct deflect restores stamina and resonance while adding enemy posture; an ordinary late block consumes stamina instead. Red-flash attacks must be dodged and do not provide safe deflect attempts.",
+        "steps": [
+          {
+            "id": "choose-enemy",
+            "text": "Fight a familiar non-boss dinosaur near a Save Stone so its blockable attack timing is predictable."
+          },
+          {
+            "id": "time-guard",
+            "text": "Press guard immediately before each blockable strike connects to produce the deflect effect."
+          },
+          {
+            "id": "reach-total",
+            "text": "Rest to respawn enemies and continue until 100 successful deflects have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_6",
+      "displayName": "The Necromancer",
+      "description": "Unlock all Ghost Summons",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Unlock every @mechanic{Ghost Summon} shown by the Summoning system.",
+      "guide": {
+        "kind": "standard",
+        "context": "Summoning becomes available after Kira the Exile, and later boss victories can add ghosts with distinct passive effects.",
+        "steps": [
+          {
+            "id": "unlock-summoning",
+            "text": "Defeat @enemy{Kira the Exile} in Tyrant's Canyon to enable Summoning."
+          },
+          {
+            "id": "check-boss-rewards",
+            "text": "After each later boss victory, open the Summoning page and check whether a new Ghost Summon was added."
+          },
+          {
+            "id": "continue-roster",
+            "text": "Continue through campaign and optional boss encounters until the complete Ghost Summon achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_7",
+      "displayName": "SILENCING THE EARTHQUAKES",
+      "description": "Defeat 6 Sauropods.",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the campaign",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat six @enemy{Sauropods} in the @loc{Snow Crater}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The six large Snow Crater targets are normally passive. The kill counter persists through Save Stone rests and area resets.",
+        "steps": [
+          {
+            "id": "reach-snow",
+            "text": "Defeat @enemy{Akai Tsuki} and enter the @loc{Snow Crater} from the following cutscene."
+          },
+          {
+            "id": "find-sauropods",
+            "text": "Explore the snowy field beyond the first Save Stone and locate the six large passive Sauropods."
+          },
+          {
+            "id": "defeat-six",
+            "text": "Defeat six Sauropods in any order; resting at a Save Stone does not erase recorded kills."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_8",
+      "displayName": "THE REAPER",
+      "description": "Collect 666 Souls",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the campaign",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Accumulate a lifetime total of 666 @item{Souls} from defeated enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is cumulative, so spending Souls on character upgrades does not remove previously collected progress. Save Stone rests respawn nearby ordinary enemies.",
+        "steps": [
+          {
+            "id": "choose-loop",
+            "text": "Choose a short enemy route beside any unlocked Save Stone."
+          },
+          {
+            "id": "collect-souls",
+            "text": "Defeat every dinosaur on the route and collect the Souls awarded by the kills."
+          },
+          {
+            "id": "respawn-enemies",
+            "text": "Rest at the Save Stone to respawn the route, then continue until the lifetime counter reaches 666 Souls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_9",
+      "displayName": "I AM the Meteor",
+      "description": "Destroy the Meteor by defeating Maakyuurii's final phase",
+      "hidden": true,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_24"
+      ],
+      "summary": "Destroy the Meteor by defeating Maakyuurii's final phase.",
+      "guide": {
+        "kind": "standard",
+        "context": "Maakyuurii changes from the Ice King into the Flame Reborn. The returning cleaver and ground fire make attacking during active patterns unsafe.",
+        "steps": [
+          {
+            "id": "reach-final-boss",
+            "text": "Cross the Snow Crater, defeat the three flaming T-Rex enemies, and pass between the ice spikes to reach Maakyuurii."
+          },
+          {
+            "id": "destroy-meteor",
+            "text": "Defeat the Ice King phase, avoid the Flame Reborn's returning cleaver and fire lines, and finish the final phase to destroy the Meteor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_10",
+      "displayName": "FIRST BLOOD",
+      "description": "Defeat Kira the Exile in Tyrant's Canyon",
+      "hidden": true,
+      "globalPercent": 84.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_1"
+      ],
+      "summary": "Defeat Kira the Exile in Tyrant's Canyon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kira's defeat unlocks Summoning and access to Soul Arts bought with Boss SP. His three-hit chain begins with a visible charge.",
+        "steps": [
+          {
+            "id": "reach-kira",
+            "text": "Cross Tyrant's Canyon through the deflect and Instinct Counter tutorials until Kira the Exile blocks the route."
+          },
+          {
+            "id": "defeat-kira",
+            "text": "Avoid Kira's charge and straight ground blast, then deflect or punish the three-hit chain until Kira is defeated."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_11",
+      "displayName": "AN AXE-TINCTION EVENT",
+      "description": "Defeat Axe in Tyrant's Canyon",
+      "hidden": true,
+      "globalPercent": 67.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_10"
+      ],
+      "summary": "Defeat Axe in Tyrant's Canyon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Axe is the next mandatory weapon boss after Kira and serves as preparation for the faster Alpha encounters.",
+        "steps": [
+          {
+            "id": "reach-axe",
+            "text": "Continue through the Tyrant's Canyon cave after Kira until the Axe arena begins."
+          },
+          {
+            "id": "defeat-axe",
+            "text": "Break Axe's posture with timed deflects and finish the encounter before taking the cave's left-hand exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_12",
+      "displayName": "THE FALLEN TYRANT",
+      "description": "Defeat Kasei the Tyrant at the end of Tyrant's Canyon",
+      "hidden": true,
+      "globalPercent": 51.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_11"
+      ],
+      "summary": "Defeat Kasei the Tyrant at the end of Tyrant's Canyon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kasei has two phases; the second is faster. The thrown cleaver and its follow-up create a reliable attack opening.",
+        "steps": [
+          {
+            "id": "reach-kasei",
+            "text": "Follow the moon through Tyrant's Canyon to the final Save Stone and enter Kasei the Tyrant's arena."
+          },
+          {
+            "id": "defeat-kasei",
+            "text": "Punish Kasei after the thrown-cleaver sequence, preserve Soul Arts for safe openings, and win both phases."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_13",
+      "displayName": "BROKEN PLATES",
+      "description": "Defeat Shield at the optional arena in the Great Lake",
+      "hidden": true,
+      "globalPercent": 39.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_12"
+      ],
+      "summary": "Defeat Shield at the optional arena in the Great Lake.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shield is optional but grants a Ghost Summon. Frontal pressure is risky because the Stegosaurus can counter while guarding.",
+        "steps": [
+          {
+            "id": "find-shield",
+            "text": "At the Great Lake, descend to the second Save Stone on the left, then climb the higher route to its right to enter Shield's arena."
+          },
+          {
+            "id": "defeat-shield",
+            "text": "Avoid Shield's shove and tail pressure, use charged attacks from safer angles, and empty the boss's health bar."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_14",
+      "displayName": "DROP THE HAMMER",
+      "description": "Defeat Haku beside the Red Lake in Red Ashe's Swamp",
+      "hidden": true,
+      "globalPercent": 34.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_15"
+      ],
+      "summary": "Defeat Haku beside the Red Lake in Red Ashe's Swamp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Haku's charged mallet attacks cover close range but leave a clear opening after the final ground impact.",
+        "steps": [
+          {
+            "id": "find-haku",
+            "text": "Leave Tank's rocky enclosure to the left, turn right at the next junction, and use the Save Stone beside Haku's arena."
+          },
+          {
+            "id": "defeat-haku",
+            "text": "Create distance when Haku charges the spiked mallet, then counter after the spinning smash finishes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_15",
+      "displayName": "OUT-HEAVIED",
+      "description": "Defeat Tank in the rocky Red Lake arena",
+      "hidden": true,
+      "globalPercent": 34.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_20"
+      ],
+      "summary": "Defeat Tank in the rocky Red Lake arena.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tank is slow despite the rolling and full-body spins, so waiting outside the attack path creates generous punish windows.",
+        "steps": [
+          {
+            "id": "find-tank",
+            "text": "In Red Ashe's Swamp, follow the marked route past the dead Brachiosaurus to the rocky arena near the descending slopes."
+          },
+          {
+            "id": "defeat-tank",
+            "text": "Sidestep Tank's rolls and hammer spins, attack after the movement stops, and defeat the Ankylosaurus."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_16",
+      "displayName": "THE SKY-EATER FALLS",
+      "description": "Defeat Mokusei the Titan in the Great Lake",
+      "hidden": true,
+      "globalPercent": 32.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_13"
+      ],
+      "summary": "Defeat Mokusei the Titan in the Great Lake.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mokusei's stomps and spins threaten a wide area with both the tail and carried log; ranged charged attacks reduce that exposure.",
+        "steps": [
+          {
+            "id": "reach-mokusei",
+            "text": "Follow the Great Lake's gravel route past the pond and Save Stone, then climb the hill to Mokusei the Titan's cutscene."
+          },
+          {
+            "id": "defeat-mokusei",
+            "text": "Keep outside the stomp radius, throw charged attacks between spins, and defeat Mokusei the Titan."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_17",
+      "displayName": "PARRYSAUR!",
+      "description": "Defeat Stick in Darkclaw's Forest",
+      "hidden": true,
+      "globalPercent": 29.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_16"
+      ],
+      "summary": "Defeat Stick in Darkclaw's Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Stick steps backward before the spear charge, making that retreat the clearest warning for the incoming swing.",
+        "steps": [
+          {
+            "id": "reach-stick",
+            "text": "Enter Darkclaw's Forest, use the Save Stone on the right, follow the wooded passage, and ascend the slope to Stick."
+          },
+          {
+            "id": "defeat-stick",
+            "text": "Dodge when Stick retreats into the spear charge, counter during the recovery, and finish the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_18",
+      "displayName": "THE PACK IN THE FOREST",
+      "description": "Defeat Speed in Darkclaw's Forest",
+      "hidden": true,
+      "globalPercent": 27.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_17"
+      ],
+      "summary": "Defeat Speed in Darkclaw's Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Speed is a small, highly mobile T-Rex; defeating the boss also adds Speed to the Summoning roster.",
+        "steps": [
+          {
+            "id": "reach-speed",
+            "text": "After Stick, pass through the rocks, climb the left hill, descend the grassy slope, and take the left route to Speed's arena."
+          },
+          {
+            "id": "defeat-speed",
+            "text": "Track Speed's jumping attacks, wait for each acrobatic sequence to end, and punish the recovery until the boss falls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_19",
+      "displayName": "GROUNDED PERMANENTLY",
+      "description": "Defeat Ketsuro in Darkclaw's Forest",
+      "hidden": true,
+      "globalPercent": 27.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_18"
+      ],
+      "summary": "Defeat Ketsuro in Darkclaw's Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ketsuro closes distance with a charge when the player retreats too far, so short disengagements are safer than permanent range.",
+        "steps": [
+          {
+            "id": "reach-ketsuro",
+            "text": "Continue beyond Speed to the next Save Stone, descend the path, and enter the lightning-marked Ketsuro arena."
+          },
+          {
+            "id": "defeat-ketsuro",
+            "text": "Stay near enough to avoid repeated charges, dodge the axe slams, and counter after each completed swing chain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_20",
+      "displayName": "OUT-SLASHED",
+      "description": "Defeat Dosei the Giant Claw at the end of Darkclaw's Forest",
+      "hidden": true,
+      "globalPercent": 23.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_19"
+      ],
+      "summary": "Defeat Dosei the Giant Claw at the end of Darkclaw's Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dosei becomes an invisible shadow at half health and ignites the scythe, making the second phase substantially more dangerous.",
+        "steps": [
+          {
+            "id": "reach-dosei",
+            "text": "Continue through Darkclaw's Forest beyond Ketsuro until the decorated stone, then pass through the rocks to Dosei's cutscene."
+          },
+          {
+            "id": "defeat-dosei",
+            "text": "Stay outside Dosei's barrel rolls and scythe strings, then use Soul Arts during the boss's recovery windows in both phases."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_21",
+      "displayName": "SILENCING THE DUAL ROAR",
+      "description": "Defeat Reaper and Shade together in Red Ashe's Swamp",
+      "hidden": true,
+      "globalPercent": 20.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_22"
+      ],
+      "summary": "Defeat Reaper and Shade together in Red Ashe's Swamp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaper and Shade attack simultaneously. Concentrating damage on one target shortens the period spent tracking two fast bosses.",
+        "steps": [
+          {
+            "id": "reach-duo",
+            "text": "After Red Ash, follow the river back to the fire tree and approach the Save Stone to begin the Reaper and Shade encounter."
+          },
+          {
+            "id": "defeat-duo",
+            "text": "Keep both bosses visible, focus every safe attack on one target, then eliminate the remaining boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_22",
+      "displayName": "FROM ASH TO DUST",
+      "description": "Defeat Red Ash in Red Ashe's Swamp",
+      "hidden": true,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_14"
+      ],
+      "summary": "Defeat Red Ash in Red Ashe's Swamp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Red Ash finishes the fast charge sequence with a heavy downward strike; the recovery after that blow is the safe damage window.",
+        "steps": [
+          {
+            "id": "reach-red-ash",
+            "text": "Return to Red Ashe's Swamp after Haku, take the lakeside route on the left, and pass the Save Stone into the wooded path."
+          },
+          {
+            "id": "defeat-red-ash",
+            "text": "Avoid the fire-sword charge sequence, move in after the final downward strike, and defeat Red Ash."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_23",
+      "displayName": "CHAINBREAKER",
+      "description": "Defeat Horn in Red Ashe's Swamp",
+      "hidden": true,
+      "globalPercent": 18.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_21"
+      ],
+      "summary": "Defeat Horn in Red Ashe's Swamp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Horn combines physical spins with lasers projected across the ground; both must finish before the safest counterattack.",
+        "steps": [
+          {
+            "id": "reach-horn",
+            "text": "After Reaper and Shade, follow the moon uphill, turn left at the Save Stone, and enter the arena behind the next Save Stone."
+          },
+          {
+            "id": "defeat-horn",
+            "text": "Move clear of Horn's ground lasers and spinning body, then attack during the recovery until Horn is defeated."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_24",
+      "displayName": "BREAK THE SPIRIT, CLAIM THE STEEL",
+      "description": "Defeat both phases of Akai Tsuki, the Blood Moon",
+      "hidden": true,
+      "globalPercent": 11.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_1_23"
+      ],
+      "summary": "Defeat both phases of Akai Tsuki, the Blood Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Akai Tsuki's True Form switches to two katanas, rapid overhead chains, and ranged fireballs. The seventh sword is awarded after this fight.",
+        "steps": [
+          {
+            "id": "reach-akai",
+            "text": "After Horn, cross the woods to the river, turn left, and pass under the stone arch in the water to start Akai Tsuki's cutscene."
+          },
+          {
+            "id": "defeat-akai",
+            "text": "Survive the first form's rushes, then dodge the True Form's katana chains and fireballs before punishing the ending animations."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_25",
+      "displayName": "TINY TANK",
+      "description": "Save the Anky",
+      "hidden": false,
+      "globalPercent": 12.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill two carnivores in @loc{Tyrant's Canyon} without harming the @npc{Ankylosaurus} they are attacking.",
+      "guide": {
+        "kind": "standard",
+        "context": "The rescue encounter resets when the nearby waterfall Save Stone is used, so an accidental Ankylosaurus death does not permanently block the achievement.",
+        "steps": [
+          {
+            "id": "find-rescue",
+            "text": "In Tyrant's Canyon, descend beside the waterfall, take the left detour near the hammer-wielding Rex, and locate two carnivores attacking an Ankylosaurus."
+          },
+          {
+            "id": "protect-anky",
+            "text": "Target only the two carnivores and keep every attack away from the Ankylosaurus."
+          },
+          {
+            "id": "wait-for-credit",
+            "text": "After both attackers die, leave the Ankylosaurus alive and wait several seconds for the rescue to register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_26",
+      "displayName": "THE IRON DINO",
+      "description": "Discover all extra Max Heal Ores",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Collect all three extra @item{Max Heal Ores} hidden in Tyrant's Canyon, the Great Lake, and Red Ashe's Swamp.",
+      "guide": {
+        "kind": "collectible",
+        "context": "These three optional ores increase the maximum heal supply. Save Stone travel allows every biome to be revisited after its story route.",
+        "collectibles": [
+          {
+            "id": "ore-1",
+            "index": 1,
+            "name": "Canyon Max Heal Ore",
+            "location": "@loc{Tyrant's Canyon}, late split path",
+            "method": "Take the left branch, defeat the two player-sized dinosaurs, pass their cave, and enter the small opening at the back.",
+            "missable": false
+          },
+          {
+            "id": "ore-2",
+            "index": 2,
+            "name": "Great Lake Max Heal Ore",
+            "location": "@loc{Great Lake}, behind Haku's arena",
+            "method": "Face the arena entrance, climb the left hillside, hug the left wall toward the cliff, and enter the hidden cave.",
+            "missable": false
+          },
+          {
+            "id": "ore-3",
+            "index": 3,
+            "name": "Swamp Max Heal Ore",
+            "location": "@loc{Red Ashe's Swamp}, dead Sauropod clearing",
+            "method": "Find the dead Sauropod on the map's right side and search the small tree clearing immediately to its left.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_27",
+      "displayName": "MASTER OF THE BLADE",
+      "description": "Upgrade Meteor Zone to its limits",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the campaign",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Purchase every upgrade rank for @mechanic{Meteor Zone} with Boss SP.",
+      "guide": {
+        "kind": "standard",
+        "context": "Optional Boss SP is found behind the early Tyrant's Canyon waterfall, on the underwater bone pile at the Great Lake's center, on the left cliff after Darkclaw's Forest's Hammer Rex, along the right-hand river from the swamp's blue-flower Save Stone, and beside the right tree line on entering the snowy area. Boss Rush also supplies opportunities to finish skill trees left incomplete by the campaign.",
+        "steps": [
+          {
+            "id": "collect-boss-sp",
+            "text": "Defeat campaign bosses and collect optional Boss SP pickups until the Soul Art has enough upgrade currency."
+          },
+          {
+            "id": "max-skill",
+            "text": "Open the Soul Arts page, select @mechanic{Meteor Zone}, and purchase every remaining rank."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_28",
+      "displayName": "MASTER OF THE DANCE",
+      "description": "Upgrade Meteor Slice to its limits",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the campaign",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Purchase every upgrade rank for @mechanic{Meteor Slice} with Boss SP.",
+      "guide": {
+        "kind": "standard",
+        "context": "Optional Boss SP is found behind the early Tyrant's Canyon waterfall, on the underwater bone pile at the Great Lake's center, on the left cliff after Darkclaw's Forest's Hammer Rex, along the right-hand river from the swamp's blue-flower Save Stone, and beside the right tree line on entering the snowy area. Boss Rush also supplies opportunities to finish skill trees left incomplete by the campaign.",
+        "steps": [
+          {
+            "id": "collect-boss-sp",
+            "text": "Defeat campaign bosses and collect optional Boss SP pickups until the Soul Art has enough upgrade currency."
+          },
+          {
+            "id": "max-skill",
+            "text": "Open the Soul Arts page, select @mechanic{Meteor Slice}, and purchase every remaining rank."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_ACHIEVEMENT_1_29",
+      "displayName": "MASTER OF THE DASH",
+      "description": "Upgrade Meteor Dash to its limits",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the campaign",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Purchase every upgrade rank for @mechanic{Meteor Dash} with Boss SP.",
+      "guide": {
+        "kind": "standard",
+        "context": "Optional Boss SP is found behind the early Tyrant's Canyon waterfall, on the underwater bone pile at the Great Lake's center, on the left cliff after Darkclaw's Forest's Hammer Rex, along the right-hand river from the swamp's blue-flower Save Stone, and beside the right tree line on entering the snowy area. Boss Rush also supplies opportunities to finish skill trees left incomplete by the campaign.",
+        "steps": [
+          {
+            "id": "collect-boss-sp",
+            "text": "Defeat campaign bosses and collect optional Boss SP pickups until the Soul Art has enough upgrade currency."
+          },
+          {
+            "id": "max-skill",
+            "text": "Open the Soul Arts page, select @mechanic{Meteor Dash}, and purchase every remaining rank."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "NEW_ACHIEVEMENT_1_1",
+    "NEW_ACHIEVEMENT_1_10",
+    "NEW_ACHIEVEMENT_1_11",
+    "NEW_ACHIEVEMENT_1_12",
+    "NEW_ACHIEVEMENT_1_25",
+    "NEW_ACHIEVEMENT_1_13",
+    "NEW_ACHIEVEMENT_1_16",
+    "NEW_ACHIEVEMENT_1_17",
+    "NEW_ACHIEVEMENT_1_18",
+    "NEW_ACHIEVEMENT_1_19",
+    "NEW_ACHIEVEMENT_1_20",
+    "NEW_ACHIEVEMENT_1_15",
+    "NEW_ACHIEVEMENT_1_14",
+    "NEW_ACHIEVEMENT_1_22",
+    "NEW_ACHIEVEMENT_1_21",
+    "NEW_ACHIEVEMENT_1_23",
+    "NEW_ACHIEVEMENT_1_24",
+    "NEW_ACHIEVEMENT_1_9",
+    "NEW_ACHIEVEMENT_1_7",
+    "NEW_ACHIEVEMENT_1_4",
+    "NEW_ACHIEVEMENT_1_6",
+    "NEW_ACHIEVEMENT_1_26",
+    "NEW_ACHIEVEMENT_1_2",
+    "NEW_ACHIEVEMENT_1_5",
+    "NEW_ACHIEVEMENT_1_8",
+    "NEW_ACHIEVEMENT_1_28",
+    "NEW_ACHIEVEMENT_1_29",
+    "NEW_ACHIEVEMENT_1_27",
+    "NEW_ACHIEVEMENT_1_3"
+  ]
+}

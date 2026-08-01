@@ -1,0 +1,1458 @@
+{
+  "game": {
+    "appid": 3948120,
+    "slug": "scritchy-scratchy",
+    "title": "Scritchy Scratchy",
+    "version": "1.0",
+    "lastPatchChecked": "2026-05-01",
+    "estTotalHours": 12,
+    "difficultyRating": 3,
+    "minPlaythroughs": 6,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Four catalogue deaths",
+      "description": "Progress through Catalogues 1-4 and lose each Final Chance in sequence. Take a loan, trash one jackpot, and collect the natural jackpot and prize-multiplier achievements while scaling.",
+      "achievementRefs": [
+        "Take Loan",
+        "Super Jackpot",
+        "Trash Jackpot",
+        "Lucky ticket",
+        "Big win",
+        "High level gambling",
+        "Death_1",
+        "Death_2",
+        "Death_3",
+        "Death_4",
+        "Spend all the worlds money"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Permanent tools and automation",
+      "description": "Use JP to establish the automation gadgets, Spell Book, Egg Timer, Night Market, and Machine. Build enough income for idle production while letting Mundo chase its jackpot.",
+      "achievementRefs": [
+        "Soul Siphon",
+        "Wizard",
+        "Time machine",
+        "Clicker minigame",
+        "Idle game",
+        "Visit the Night Market",
+        "Lucky cat",
+        "Nap time"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Restriction and catalogue cleanup",
+      "description": "Respec for the plate and Mundo failures, then complete the first-ticket, Day Job, full-catalogue, and skipped-catalogue challenge runs with the exact restrictions preserved.",
+      "achievementRefs": [
+        "Broken Plates",
+        "Jackpot on First Ticket",
+        "Bad kitty",
+        "Win your job",
+        "Honest work",
+        "Workaholic",
+        "One of each please",
+        "Winning streak",
+        "Skip a catalogue"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Endings and final grind",
+      "description": "Win Final Chance for the normal and corporation endings, complete a sub-30-minute post-prestige run, buy the remaining cosmetics and prestige upgrades, then collect the all-achievements reward.",
+      "achievementRefs": [
+        "Scratch Final Chance Without Dying",
+        "Faithful Servant",
+        "Speedrun",
+        "Walk-in-closet",
+        "Max out skill tree",
+        "Achievement Hunter"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "Take Loan",
+      "displayName": "Don't read the fine print",
+      "description": "Take a loan",
+      "hidden": false,
+      "globalPercent": 81.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "economy",
+      "sortReason": "Trigger the loan during an early negative-balance run.",
+      "summary": "Reduce the cash balance below @item{$0}, answer the ringing phone, and accept the offered loan.",
+      "guide": {
+        "kind": "standard",
+        "context": "The debt does not need to be repaid. Apple Tree unlocks at level 3 and provides a quick way to create a negative balance by collecting worms.",
+        "steps": [
+          {
+            "id": "go-negative",
+            "text": "Reach level 3, open @item{Apple Tree}, and collect its worms until the displayed cash balance falls below @item{$0}."
+          },
+          {
+            "id": "accept-loan",
+            "text": "Answer the phone when it rings, then accept or sign the loan offer to receive the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Super Jackpot",
+      "displayName": "What are the odds?",
+      "description": "Win a super jackpot",
+      "hidden": false,
+      "globalPercent": 89.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "random",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "random",
+      "sortReason": "Occurs naturally while collecting jackpots.",
+      "summary": "Keep scratching and collecting ordinary jackpots until one upgrades into a @mechanic{Super Jackpot}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Super Jackpots are a random follow-up to normal jackpots rather than a separate ticket. Final Chance attempts improve later ordinary-ticket odds, but no guaranteed trigger exists.",
+        "steps": [
+          {
+            "id": "generate-jackpots",
+            "text": "Run the highest-volume ticket setup available and collect every ordinary jackpot."
+          },
+          {
+            "id": "collect-super",
+            "text": "Continue until the result is explicitly labeled @mechanic{Super Jackpot}, then collect that prize."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Broken Plates",
+      "displayName": "Bad luck",
+      "description": "Crack 2 plates in a row",
+      "hidden": false,
+      "globalPercent": 53.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "random",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "challenge",
+      "sortReason": "Respec Soft Hands before the dedicated Day Job attempt.",
+      "summary": "Use @mechanic{Day Job} with @item{Soft Hands} disabled and crack two plates consecutively.",
+      "guide": {
+        "kind": "standard",
+        "context": "Soft Hands can reduce the plate-break chance to zero, so an endgame build may need a free prestige-tree respec before this attempt.",
+        "steps": [
+          {
+            "id": "disable-soft-hands",
+            "text": "Open the Prestige tree, respec if needed, and leave @item{Soft Hands} unpurchased for the next run."
+          },
+          {
+            "id": "break-plates",
+            "text": "Open @mechanic{Day Job} and keep washing plates until two consecutive plates crack without a successful plate between them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Jackpot on First Ticket",
+      "displayName": "Good luck",
+      "description": "Get a jackpot on the first ticket you scratch",
+      "hidden": false,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "unverified",
+      "group": "challenge",
+      "sortReason": "Use the automation-only luck setup after its required perks are owned.",
+      "summary": "In a fresh run, let Scratch Bot and Mundo raise @mechanic{Scratch Luck} to level 3 through Day Job, then personally scratch one @item{Two Win} as the first catalogue ticket and hit its jackpot.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first-ticket state is fragile: personally washing a plate or scratching a Day Job Super Jackpot may consume it. Automated dishwashing avoids both risks while building money for luck upgrades.",
+        "steps": [
+          {
+            "id": "prepare-perks",
+            "text": "Before the attempt, own @item{Starter Kit}, @item{Pet Lover}, and @item{Dishwasher} so Scratch Bot and Mundo can handle Day Job plates."
+          },
+          {
+            "id": "start-clean-run",
+            "text": "Begin a fresh run through Prestige, a Final Chance death, or @mechanic{Abandon Run}; do not personally scratch any plate or ticket."
+          },
+          {
+            "id": "automate-dishes",
+            "text": "Let Scratch Bot and Mundo wash Day Job plates, skip every Day Job Super Jackpot ticket, and spend the income to raise @mechanic{Scratch Luck} to level 3."
+          },
+          {
+            "id": "scratch-two-win",
+            "text": "Buy exactly one @item{Two Win} as the first catalogue ticket, scratch it personally, and require the normal jackpot result."
+          },
+          {
+            "id": "retry-run",
+            "text": "If Two Win does not jackpot or the achievement fails to register, abandon the run and repeat the clean setup.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Trash Jackpot",
+      "displayName": "Why?",
+      "description": "Trash a Jackpot ticket",
+      "hidden": false,
+      "globalPercent": 73.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "unverified",
+      "group": "challenge",
+      "sortReason": "Discard an early cheap jackpot before automation complicates control.",
+      "summary": "Scratch a regular ticket until it becomes a @mechanic{Jackpot} ticket, then place that winning ticket in the trash instead of collecting it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use a cheap early ticket so discarding the payout does not disrupt the run. Current builds can miss the trigger, so another clearly labeled jackpot may be required.",
+        "steps": [
+          {
+            "id": "make-jackpot",
+            "text": "Buy and scratch inexpensive regular tickets until one result is explicitly labeled @mechanic{Jackpot}."
+          },
+          {
+            "id": "trash-winner",
+            "text": "Before collecting the payout, drag or send that Jackpot ticket to the trash can."
+          },
+          {
+            "id": "retry-jackpot",
+            "text": "If the achievement does not appear, repeat with a newly scratched Jackpot ticket rather than a normal blue-sparkle result.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Speedrun",
+      "displayName": "Speedrun",
+      "description": "Reach the ending in 30 min or less after prestige",
+      "hidden": false,
+      "globalPercent": 21.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "under 30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "unverified",
+      "group": "challenge",
+      "sortReason": "Attempt after the automation and payout tree is mature.",
+      "summary": "After prestiging, reach a winning @item{Final Chance} and complete the @mechanic{Claim} ending within 30 minutes of the new run.",
+      "guide": {
+        "kind": "standard",
+        "context": "The normal Claim ending is faster than the corporation wait. This is best attempted after permanent automation and payout upgrades are mature, but current builds have failed-credit reports even below 30 minutes.",
+        "steps": [
+          {
+            "id": "prepare-speed-build",
+            "text": "Start with Scratch Bot and Mundo unlocked, then activate Egg Timer, Fan, and Subscription Bot. Prioritize Recycling, Picky Eater, Electric Fan, and Booster Kit; add Built Different, Learn by Doing, Ignorance is Bliss, Self Made Millionaire, Experienced, Smart Investment, Collector, and Big Winner for scaling."
+          },
+          {
+            "id": "start-timed-run",
+            "text": "Prestige to begin the timed run, keep the best current ticket in Scratch Bot, maximize Scratch Luck as each tier opens, and keep Egg Timer active."
+          },
+          {
+            "id": "prepare-final-attempts",
+            "text": "Reach The Machine and build roughly @item{200 souls} for repeated Final Chance attempts without losing the run."
+          },
+          {
+            "id": "claim-under-thirty",
+            "text": "Win Final Chance and select @mechanic{Claim} before 30 minutes have elapsed from the post-Prestige start."
+          },
+          {
+            "id": "retry-on-failed-credit",
+            "text": "If a clearly sub-30-minute Claim ending does not register, repeat the route on another Prestige run; no reliable in-run repair is documented.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Death_1",
+      "displayName": "Gambling never pays off",
+      "description": "Die",
+      "hidden": false,
+      "globalPercent": 95.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "The first Final Chance loss ends Catalogue 1.",
+      "summary": "Complete @loc{Catalogue 1}, buy its @item{$50M Final Chance}, and scratch that Final Chance to lose the first run.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Final Chance loss is intended progression: it records a death, restarts the economy, and opens the next catalogue tier for later runs.",
+        "steps": [
+          {
+            "id": "finish-catalogue-1",
+            "text": "Scratch through Catalogue 1 until its @item{Final Chance} becomes available, then accumulate @item{$50M} and buy it."
+          },
+          {
+            "id": "lose-final-chance-1",
+            "text": "Scratch Final Chance and allow its losing result to end the run and award the first-death achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Death_2",
+      "displayName": "A loosing bet",
+      "description": "Die twice",
+      "hidden": false,
+      "globalPercent": 80.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "The second Final Chance loss ends Catalogue 2.",
+      "prerequisites": [
+        "Death_1"
+      ],
+      "summary": "On the second progression run, complete @loc{Catalogue 2}, buy its @item{$5T Final Chance}, and scratch it to die a second time.",
+      "guide": {
+        "kind": "standard",
+        "context": "The second death requires the Catalogue 2 Final Chance; repeating the earlier catalogue does not replace that progression step.",
+        "steps": [
+          {
+            "id": "finish-catalogue-2",
+            "text": "Progress through Catalogue 2, accumulate @item{$5T}, and buy its Final Chance ticket."
+          },
+          {
+            "id": "lose-final-chance-2",
+            "text": "Scratch that Final Chance and let the losing result end the run and register death two."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Death_3",
+      "displayName": "Go for broke",
+      "description": "Die three times",
+      "hidden": false,
+      "globalPercent": 69.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "The third Final Chance loss ends Catalogue 3.",
+      "prerequisites": [
+        "Death_2"
+      ],
+      "summary": "On the third progression run, complete @loc{Catalogue 3}, buy its @item{$200Qi Final Chance}, and scratch it to die a third time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Catalogue deaths are cumulative across runs and unlock the later Machine/endgame systems after the fourth loss.",
+        "steps": [
+          {
+            "id": "finish-catalogue-3",
+            "text": "Progress through Catalogue 3, accumulate @item{$200Qi}, and buy its Final Chance ticket."
+          },
+          {
+            "id": "lose-final-chance-3",
+            "text": "Scratch that Final Chance and let the losing result end the run and register death three."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Death_4",
+      "displayName": "House always wins",
+      "description": "Die four times",
+      "hidden": false,
+      "globalPercent": 61.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "The fourth Final Chance loss ends Catalogue 4.",
+      "prerequisites": [
+        "Death_3"
+      ],
+      "summary": "On the fourth progression run, complete @loc{Catalogue 4}, buy its @item{$1N Final Chance}, and scratch it to die a fourth time.",
+      "guide": {
+        "kind": "standard",
+        "context": "This fourth loss finishes the forced-death sequence and unlocks The Machine, which supplies extra Final Chance attempts for a winning run.",
+        "steps": [
+          {
+            "id": "finish-catalogue-4",
+            "text": "Progress through Catalogue 4, accumulate @item{$1N}, and buy its Final Chance ticket."
+          },
+          {
+            "id": "lose-final-chance-4",
+            "text": "Scratch that Final Chance and let the losing result end the run and register death four."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Scratch Final Chance Without Dying",
+      "displayName": "Win everything?",
+      "description": "Scratch final chance without dying",
+      "hidden": false,
+      "globalPercent": 54.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "random",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "ending",
+      "sortReason": "Use Machine souls to win Final Chance after four deaths.",
+      "prerequisites": [
+        "Death_4",
+        "Soul Siphon"
+      ],
+      "summary": "After four deaths, use artificial souls for repeated @item{Final Chance} attempts, win the ticket, and select @mechanic{Claim}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each artificial soul funds another endgame attempt without ending the run. The outcome is still random; 50-100 souls is a starting reserve rather than a guaranteed requirement.",
+        "steps": [
+          {
+            "id": "prepare-souls",
+            "text": "Buy @item{The Machine}, select @mechanic{Feed Money} until it creates souls, and prepare roughly @item{50-100 souls} as a starting reserve before the first winning attempt."
+          },
+          {
+            "id": "scratch-until-win",
+            "text": "Reach Final Chance and keep scratching it, spending souls on retries whenever the result loses, until the ticket wins."
+          },
+          {
+            "id": "claim-ending",
+            "text": "On the winning result, select @mechanic{Claim} and let the normal ending begin."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Bad kitty",
+      "displayName": "Bad kitty",
+      "description": "Have mundo bankrupt you",
+      "hidden": false,
+      "globalPercent": 69.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "random",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "challenge",
+      "sortReason": "Respec Picky Eater and deliberately feed Mundo losing tickets.",
+      "summary": "With Mundo active and @item{Picky Eater} disabled, feed Mundo losing tickets until Mundo pushes the cash balance below @item{$0}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Picky Eater or another auto-trash effect can discard negative tickets before Mundo collects them, preventing the required bankruptcy.",
+        "steps": [
+          {
+            "id": "disable-auto-trash",
+            "text": "Respec the Prestige tree if needed, activate Mundo through @item{Pet Lover}, and leave @item{Picky Eater} or auto-trash disabled."
+          },
+          {
+            "id": "feed-losing-tickets",
+            "text": "Queue many @item{Apple Tree}, @item{Scratch My Back}, or @item{Berry Picking} tickets because their negative symbols create frequent losses."
+          },
+          {
+            "id": "let-mundo-bankrupt",
+            "text": "Allow Mundo to collect the losing results until the balance drops below @item{$0} because of Mundo's collection."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Lucky cat",
+      "displayName": "Lucky cat",
+      "description": "Have mundo scratch a super jackpot",
+      "hidden": false,
+      "globalPercent": 83.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "random",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "random",
+      "sortReason": "Leave Mundo active during a high-volume automated run.",
+      "summary": "Keep Mundo collecting Scratch Bot results until Mundo scratches and collects a @mechanic{Super Jackpot}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is a random automation trigger. The Vault is a recommended late-game ticket because a fast, sustained Scratch Bot queue produces many attempts.",
+        "steps": [
+          {
+            "id": "activate-mundo",
+            "text": "Start a run with Scratch Bot and Mundo active, then fill Scratch Bot with the best high-volume ticket available."
+          },
+          {
+            "id": "wait-for-mundo-super",
+            "text": "Keep the bot running and let Mundo collect every result until Mundo receives a result explicitly labeled @mechanic{Super Jackpot}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Win your job",
+      "displayName": "Win your job",
+      "description": "Win a jackpot on Day Job",
+      "hidden": false,
+      "globalPercent": 50.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "late game",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "day job",
+      "sortReason": "Fine Dining enables the required Day Job jackpot.",
+      "summary": "Buy @item{Fine Dining}, then wash @mechanic{Day Job} plates until one produces and collects a jackpot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Day Job cannot roll jackpots before Fine Dining is active. Its prerequisite path is Starter Kit, Completionist, and Dishwasher.",
+        "steps": [
+          {
+            "id": "unlock-fine-dining",
+            "text": "In Prestige, buy @item{Starter Kit}, @item{Completionist}, and @item{Dishwasher}, then purchase @item{Fine Dining} for the next run."
+          },
+          {
+            "id": "jackpot-day-job",
+            "text": "Open @mechanic{Day Job}, wash plates until a jackpot result appears, and collect that jackpot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "One of each please",
+      "displayName": "One of each please",
+      "description": "Have all different tickets from all 4 catalogues on the table at once",
+      "hidden": false,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "catalogues",
+      "sortReason": "Use an endgame run with all four catalogues unlocked.",
+      "summary": "Unlock all four catalogues, buy one of every distinct regular ticket from all four, and keep every purchased ticket unscratched on the table simultaneously.",
+      "guide": {
+        "kind": "standard",
+        "context": "The table state is checked at once, so scratching, selling, or trashing any required ticket removes that ticket type from the set.",
+        "steps": [
+          {
+            "id": "unlock-four-catalogues",
+            "text": "Progress until @loc{Catalogues 1, 2, 3, and 4} are all available in one run."
+          },
+          {
+            "id": "place-every-ticket",
+            "text": "Open each catalogue in turn, buy one copy of every distinct regular ticket, and leave each copy unscratched on the table."
+          },
+          {
+            "id": "complete-table-set",
+            "text": "After the last missing ticket type is placed, keep the entire set on the table until the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Winning streak",
+      "displayName": "Winning streak",
+      "description": "Win a jackpot on all tickets from all 4 catalogues",
+      "hidden": false,
+      "globalPercent": 39.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "unverified",
+      "group": "catalogues",
+      "sortReason": "Sweep each ticket type and Day Job with endgame luck.",
+      "summary": "Win and collect a jackpot on every regular ticket type in all four catalogues and on @mechanic{Day Job}; Final Chance tickets do not count.",
+      "guide": {
+        "kind": "standard",
+        "context": "The game tracks jackpot credit by ticket type across the run. Endgame Scratch Luck and automation reduce retries, but current builds can fail to register a completed set.",
+        "steps": [
+          {
+            "id": "enable-day-job-jackpot",
+            "text": "Activate @item{Fine Dining} so Day Job can roll a jackpot, then win and collect one Day Job jackpot."
+          },
+          {
+            "id": "sweep-catalogues",
+            "text": "For every regular ticket in Catalogues 1-4, keep buying and scratching that exact type until its jackpot is collected before moving to the next type."
+          },
+          {
+            "id": "exclude-final-chance",
+            "text": "Do not count any Final Chance result toward the checklist; only the regular catalogue tickets and Day Job qualify.",
+            "kind": "tip"
+          },
+          {
+            "id": "retry-missing-credit",
+            "text": "If the achievement does not register after the full sweep, repeat the ticket types whose jackpot credit is uncertain.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Skip a catalogue",
+      "displayName": "Skip a catalogue",
+      "description": "Scratch final chance with a catalogue still on the table",
+      "hidden": false,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "challenge",
+      "sortReason": "Skip Catalogue 1 with the developed Day Job route.",
+      "summary": "Leave @loc{Catalogue 1} unused on the table, earn @item{$50M} through Day Job, then scratch Final Chance while Catalogue 1 is still present and untouched.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progression is based on money earned, so a developed Day Job can bypass Catalogue 1 entirely. Keeping the catalogue object visible proves it was skipped.",
+        "steps": [
+          {
+            "id": "leave-catalogue-1",
+            "text": "Start a run, move the Catalogue 1 object to a corner of the table, and do not open or scratch any of its tickets."
+          },
+          {
+            "id": "earn-with-day-job",
+            "text": "Use only @mechanic{Day Job} until the run reaches @item{$50M}, including the @item{$20M} progression requirement and enough to buy @item{Sand Dollar}."
+          },
+          {
+            "id": "progress-without-catalogue",
+            "text": "Continue into the later ticket tier without using Catalogue 1; use Subscription Bot for later purchases if table space is needed."
+          },
+          {
+            "id": "scratch-final-chance",
+            "text": "Buy and scratch Final Chance while the unused Catalogue 1 object remains on the table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Spend all the worlds money",
+      "displayName": "Spend all the worlds money",
+      "description": "Buy something more expensive than the global economy",
+      "hidden": false,
+      "globalPercent": 72.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "economy",
+      "sortReason": "Catalogue 3 provides the first documented qualifying purchase.",
+      "summary": "Unlock @loc{Catalogue 3} and buy @item{Xmas Countdown} for @item{$10Qa}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Xmas Countdown is the first documented purchase whose listed price exceeds the achievement's global-economy threshold.",
+        "steps": [
+          {
+            "id": "unlock-catalogue-3",
+            "text": "Progress through the earlier Final Chance runs until Catalogue 3 is available."
+          },
+          {
+            "id": "buy-xmas-countdown",
+            "text": "Accumulate @item{$10Qa}, open Catalogue 3, and purchase @item{Xmas Countdown}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Nap time",
+      "displayName": "Nap time",
+      "description": "Make 1Sx while idle for at least 5 min",
+      "hidden": false,
+      "globalPercent": 42.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min idle",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "automation",
+      "sortReason": "Attempt once automation earns at least $1Sx unattended.",
+      "summary": "Earn at least @item{$1Sx} through automation while providing no manual input for five continuous minutes.",
+      "guide": {
+        "kind": "standard",
+        "context": "The inactivity window should begin only after the automated queue is already capable of sextillion-scale income; otherwise five idle minutes can finish below the threshold.",
+        "steps": [
+          {
+            "id": "configure-automation",
+            "text": "Turn on Fan and Subscription Bot alongside Scratch Bot and Mundo, then queue @item{Berry Picking} or a ticket from Catalogue 3 or later."
+          },
+          {
+            "id": "confirm-sx-rate",
+            "text": "Keep upgrading the automated setup until it can generate at least @item{$1Sx} without manual collection."
+          },
+          {
+            "id": "idle-five-minutes",
+            "text": "Leave the game running and provide no input for at least five continuous minutes while automation earns the required amount."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Lucky ticket",
+      "displayName": "Lucky ticket",
+      "description": "Win a prize that is 1000 times larger than the ticket cost",
+      "hidden": false,
+      "globalPercent": 86.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "midgame",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "payout",
+      "sortReason": "Prize scaling begins during catalogue progression.",
+      "summary": "Win one prize worth at least 1,000 times its ticket cost, such as @item{$10,000} from the @item{$10 Two Win} ticket.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two Win reaches its Scratch Luck cap at level 3. Permanent payout upgrades increase jackpot value without changing the inexpensive $10 denominator.",
+        "steps": [
+          {
+            "id": "raise-two-win-luck",
+            "text": "Raise @mechanic{Scratch Luck} to level 3 and buy useful Prestige payout upgrades."
+          },
+          {
+            "id": "win-thousand-times",
+            "text": "Scratch @item{Two Win} until one result pays at least @item{$10,000}, then collect that prize."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Big win",
+      "displayName": "Big win",
+      "description": "Win a prize that is 10.000 times larger than the ticket cost",
+      "hidden": false,
+      "globalPercent": 56.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "midgame",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "payout",
+      "sortReason": "Continue the same Two Win payout setup.",
+      "prerequisites": [
+        "Lucky ticket"
+      ],
+      "summary": "Win one prize worth at least 10,000 times its ticket cost, such as @item{$100,000} from the @item{$10 Two Win} ticket.",
+      "guide": {
+        "kind": "standard",
+        "context": "The same low-cost Two Win setup used for Lucky ticket remains efficient; only the required payout multiplier increases.",
+        "steps": [
+          {
+            "id": "upgrade-payout",
+            "text": "Keep @mechanic{Scratch Luck} at level 3 and add Prestige payout upgrades until Two Win jackpots can reach @item{$100,000}."
+          },
+          {
+            "id": "win-ten-thousand-times",
+            "text": "Scratch @item{Two Win} until one prize is at least @item{$100,000}, then collect it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "High level gambling",
+      "displayName": "High level gambling",
+      "description": "Win a prize that is 100.000 times larger than the ticket cost",
+      "hidden": false,
+      "globalPercent": 42.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "late game",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "unverified",
+      "group": "payout",
+      "sortReason": "Requires the largest prize multiplier.",
+      "prerequisites": [
+        "Big win"
+      ],
+      "summary": "Win one prize worth at least 100,000 times its ticket cost, such as @item{$1,000,000} from the @item{$10 Two Win} ticket.",
+      "guide": {
+        "kind": "standard",
+        "context": "Valve's requirement is 100,000x. Late Prestige payout upgrades are needed, and current builds have occasional failed-credit reports.",
+        "steps": [
+          {
+            "id": "maximize-two-win-payout",
+            "text": "Use level 3 @mechanic{Scratch Luck} and late Prestige payout upgrades until Two Win jackpots can reach @item{$1,000,000}."
+          },
+          {
+            "id": "win-hundred-thousand-times",
+            "text": "Scratch @item{Two Win}, collect a prize of at least @item{$1,000,000}, and check for the achievement."
+          },
+          {
+            "id": "retry-large-prize",
+            "text": "If a qualifying payout does not register, obtain and collect another prize at or above the same threshold.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Clicker minigame",
+      "displayName": "Clicker minigame",
+      "description": "Have a stack of 100 or more scratched tickets in Scratch Bot",
+      "hidden": false,
+      "globalPercent": 71.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "automation",
+      "sortReason": "Let Scratch Bot hold a 100-ticket stack before Mundo collects it.",
+      "summary": "Let @mechanic{Scratch Bot} hold a stack of at least 100 scratched tickets before Mundo or the player collects the stack.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mundo normally empties completed tickets from Scratch Bot, so disabling Mundo preserves the growing stack for the counter.",
+        "steps": [
+          {
+            "id": "unlock-scratch-bot",
+            "text": "Buy the Scratch Bot Prestige unlock for @item{1 JP} and start a run with Scratch Bot available."
+          },
+          {
+            "id": "disable-mundo",
+            "text": "Turn Mundo off and do not manually collect Scratch Bot's completed stack."
+          },
+          {
+            "id": "build-hundred-stack",
+            "text": "Keep supplying tickets until the stack counter reaches at least @item{100 scratched tickets}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Idle game",
+      "displayName": "Idle game",
+      "description": "Start with all automation gadgets unlocked",
+      "hidden": false,
+      "globalPercent": 52.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "484 JP",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "automation",
+      "sortReason": "Start a run after buying every start-unlocked gadget perk.",
+      "summary": "Buy every start-unlocked automation perk, then begin a run with Egg Timer, Fan, Mundo, Scratch Bot, and Subscription Bot already available.",
+      "guide": {
+        "kind": "standard",
+        "context": "The required prestige path costs 484 JP in the post-patch guide and is checked when a new run initializes, not when the final perk is bought mid-run.",
+        "steps": [
+          {
+            "id": "buy-automation-perks",
+            "text": "Activate @item{Starter Kit}, @item{Pet Lover}, @item{Air Condition}, @item{Fully Automated}, and @item{Timer Travel} in the Prestige tree."
+          },
+          {
+            "id": "start-automated-run",
+            "text": "Prestige or finish the current run, then begin the next run and confirm that all five automation gadgets are present immediately."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Max out skill tree",
+      "displayName": "Max out skill tree",
+      "description": "Buy all prestige upgrades",
+      "hidden": false,
+      "globalPercent": 13.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "28,450 JP",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "prestige",
+      "sortReason": "Spend the final cleanup runs farming JP.",
+      "summary": "Spend @item{28,450 JP} to purchase every upgrade in the Prestige menu.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the main completion grind. Later runs yield the most JP when Catalogue 3 and 4 Super Jackpots are collected before prestiging.",
+        "steps": [
+          {
+            "id": "farm-jp",
+            "text": "Repeat late-game runs, collect Catalogue 3 and 4 jackpots and Super Jackpots, then Prestige to bank their JP."
+          },
+          {
+            "id": "buy-every-upgrade",
+            "text": "Purchase every remaining node in every Prestige branch until no upgrade is unowned and the total spend reaches the full tree cost."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Visit the Night Market",
+      "displayName": "Visit the Night Market",
+      "description": "Buy and equip a cosmetic",
+      "hidden": false,
+      "globalPercent": 70.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "cosmetics",
+      "sortReason": "Unlock the shop and equip its first cosmetic.",
+      "summary": "Buy the @item{Night Market} prestige unlock for @item{10 JP}, purchase one cosmetic with achievement tokens, and equip it.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Night Market tab appears beside Prestige in the following run. Tokens come from claimed achievement badges rather than cash or JP.",
+        "steps": [
+          {
+            "id": "unlock-night-market",
+            "text": "Spend @item{10 JP} on the Night Market prestige upgrade and start the next run."
+          },
+          {
+            "id": "buy-cosmetic",
+            "text": "Open @mechanic{Night Market}, spend achievement tokens on any cosmetic, then select that cosmetic and equip it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Walk-in-closet",
+      "displayName": "Walk-in-closet",
+      "description": "Buy all cosmetics",
+      "hidden": false,
+      "globalPercent": 31.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "achievement-token cleanup",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "cosmetics",
+      "sortReason": "Buy every post-Patch 1.1 base-game cosmetic.",
+      "prerequisites": [
+        "Visit the Night Market"
+      ],
+      "summary": "Buy @item{Badge Collection} for @item{$50M}, claim achievement tokens, and purchase every base-game cosmetic in the post-Patch 1.1 Night Market.",
+      "guide": {
+        "kind": "standard",
+        "context": "Patch 1.1 added 12 cosmetics to the required base-game shop set. Supporter Pack cosmetics are DLC and do not count toward this achievement.",
+        "steps": [
+          {
+            "id": "buy-badge-collection",
+            "text": "Accumulate @item{$50M}, purchase @item{Badge Collection}, and claim every earned achievement badge to receive its tokens."
+          },
+          {
+            "id": "buy-night-market-set",
+            "text": "Open Night Market and purchase every unowned base-game cosmetic, including the 12 items added in Patch 1.1."
+          },
+          {
+            "id": "exclude-supporter-pack",
+            "text": "Do not include Supporter Pack cosmetics when checking the remaining list.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Honest work",
+      "displayName": "Honest work",
+      "description": "Have $2000 without buying a scratch-off",
+      "hidden": false,
+      "globalPercent": 42.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "day job",
+      "sortReason": "Begin the no-scratch-off Day Job run at $0.",
+      "summary": "In a fresh run, buy and scratch no scratch-offs, then earn and hold @item{$2,000} using only @mechanic{Day Job}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Prestige perks do not violate the restriction. Fine Dining and PlateMaster5000 accelerate progression, while Clean Freak and Soft Hands improve plate work.",
+        "steps": [
+          {
+            "id": "start-work-run",
+            "text": "Begin a fresh run and leave every catalogue and scratch-off unpurchased."
+          },
+          {
+            "id": "earn-two-thousand",
+            "text": "Wash, sell, and collect only Day Job plates until the displayed balance reaches @item{$2,000}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Workaholic",
+      "displayName": "Workaholic",
+      "description": "Have $20M without buying a scratch-off",
+      "hidden": false,
+      "globalPercent": 25.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "day job",
+      "sortReason": "Continue the same restricted Day Job run to $20M.",
+      "prerequisites": [
+        "Honest work"
+      ],
+      "summary": "In one fresh run, buy and scratch no scratch-offs, then earn and hold @item{$20M} using only @mechanic{Day Job}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The complete 1,823-JP Day Job build combines Fine Dining with PlateMaster5000, Clean Freak, and Soft Hands to reduce the late scaling time.",
+        "steps": [
+          {
+            "id": "equip-day-job-build",
+            "text": "Before starting, activate @item{Fine Dining} and @item{PlateMaster5000}, then add @item{Clean Freak} and @item{Soft Hands} in the Prestige tree."
+          },
+          {
+            "id": "avoid-scratch-offs",
+            "text": "Begin the run and do not buy, scratch, or collect any catalogue scratch-off."
+          },
+          {
+            "id": "scale-to-twenty-million",
+            "text": "Use only Day Job, reinvesting its output to level the activity, until the held balance reaches @item{$20M}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Soul Siphon",
+      "displayName": "Soul Siphon",
+      "description": "Create an artificial soul",
+      "hidden": false,
+      "globalPercent": 58.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "machine",
+      "sortReason": "The Machine becomes available after the four death runs.",
+      "prerequisites": [
+        "Death_4"
+      ],
+      "summary": "After four Final Chance deaths, buy @item{The Machine}, select @mechanic{Feed Money}, and fill the meter to create one artificial soul.",
+      "guide": {
+        "kind": "standard",
+        "context": "Artificial souls are consumable retries for the final winning run, so this first creation also establishes the endgame recovery mechanic.",
+        "steps": [
+          {
+            "id": "unlock-machine",
+            "text": "Complete the fourth Final Chance death, then buy @item{The Machine} when it becomes available."
+          },
+          {
+            "id": "create-soul",
+            "text": "Open The Machine and repeatedly select @mechanic{Feed Money} until the soul meter fills and the first artificial soul is created."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Wizard",
+      "displayName": "Wizard",
+      "description": "Use magic to scratch a ticket",
+      "hidden": false,
+      "globalPercent": 71.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "prestige",
+      "sortReason": "Use the Spell Book after unlocking Tool Belt.",
+      "summary": "Buy @item{Spell Book} for @item{35 JP}, then select Spell Book on a scratch-off and use its magic to scratch that ticket.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spell Book sits behind Tool Belt and Ignorance is Bliss in the Prestige tree, so both prerequisite nodes must be active for the run.",
+        "steps": [
+          {
+            "id": "unlock-spell-book",
+            "text": "Buy @item{Tool Belt} and @item{Ignorance is Bliss}, then spend @item{35 JP} on @item{Spell Book} and start a run."
+          },
+          {
+            "id": "cast-on-ticket",
+            "text": "Place any scratch-off on the table, select Spell Book from the tool belt, and cast it on that ticket until the magical scratch completes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Time machine",
+      "displayName": "Time machine",
+      "description": "Upgrade Egg Timer to x5 speed",
+      "hidden": false,
+      "globalPercent": 55.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "late game",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "automation",
+      "sortReason": "Upgrade the late Egg Timer to its x5 cap.",
+      "summary": "Unlock @item{Egg Timer}, then buy all three @item{Warp Speed} upgrades until Egg Timer displays @mechanic{x5 speed}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Egg Timer becomes available after the Catalogue 4 progression. The three in-run Warp Speed upgrades cost $1D in total.",
+        "steps": [
+          {
+            "id": "unlock-egg-timer",
+            "text": "Finish the Catalogue 4/Final Chance progression and start a run with @item{Egg Timer} available."
+          },
+          {
+            "id": "buy-warp-speed",
+            "text": "Accumulate @item{$1D} and purchase Warp Speed I, II, and III in order until Egg Timer shows @mechanic{x5 speed}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Faithful Servant",
+      "displayName": "Faithful Servant",
+      "description": "Give the winning Final Chance to the corporation",
+      "hidden": false,
+      "globalPercent": 23.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 min wait",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "ending",
+      "sortReason": "Use the alternate corporation ending on a later winning run.",
+      "prerequisites": [
+        "Scratch Final Chance Without Dying"
+      ],
+      "summary": "Win the final @item{Final Chance}, answer the corporation's call, and wait on the @mechanic{Claim} screen without claiming until the representative takes the ticket.",
+      "guide": {
+        "kind": "standard",
+        "context": "The corporation ending requires real waiting time with the game focused. Arrival begins after five minutes but can take closer to ten; trashing the winning ticket can softlock the run.",
+        "steps": [
+          {
+            "id": "win-final-chance-again",
+            "text": "Reach the endgame on a later run, answer the corporation's phone call, and scratch Final Chance until it wins."
+          },
+          {
+            "id": "do-not-claim",
+            "text": "When @mechanic{Claim} appears, do not press it and do not move the winning Final Chance into the trash.",
+            "kind": "warning"
+          },
+          {
+            "id": "wait-for-corporation",
+            "text": "Keep the game focused on that screen for at least five minutes and continue waiting up to about ten minutes until the representative arrives and takes the ticket."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement Hunter",
+      "displayName": "Achievement Hunter",
+      "description": "Get all achievements in the game",
+      "hidden": false,
+      "globalPercent": 12.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "completion",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "completion",
+      "sortReason": "Unlocks after the other 33 achievements.",
+      "summary": "Unlock the other 33 Scritchy Scratchy Steam achievements so the all-achievements reward registers.",
+      "guide": {
+        "kind": "standard",
+        "context": "This meta achievement depends on Steam credit for every earlier entry, including the current trigger-risk challenges, rather than the in-game badge tokens alone.",
+        "steps": [
+          {
+            "id": "finish-other-achievements",
+            "text": "Complete every other achievement in the guide and confirm that all 33 show as unlocked in Steam."
+          },
+          {
+            "id": "trigger-meta",
+            "text": "Return to the game after the final unlock and allow the achievement system to award @mechanic{Achievement Hunter}."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Take Loan",
+    "Super Jackpot",
+    "Trash Jackpot",
+    "Lucky ticket",
+    "Death_1",
+    "Death_2",
+    "Spend all the worlds money",
+    "Big win",
+    "Death_3",
+    "High level gambling",
+    "Death_4",
+    "Soul Siphon",
+    "Wizard",
+    "Time machine",
+    "Clicker minigame",
+    "Idle game",
+    "Visit the Night Market",
+    "Lucky cat",
+    "Nap time",
+    "Broken Plates",
+    "Jackpot on First Ticket",
+    "Bad kitty",
+    "Win your job",
+    "Honest work",
+    "Workaholic",
+    "One of each please",
+    "Winning streak",
+    "Skip a catalogue",
+    "Scratch Final Chance Without Dying",
+    "Faithful Servant",
+    "Speedrun",
+    "Walk-in-closet",
+    "Max out skill tree",
+    "Achievement Hunter"
+  ]
+}

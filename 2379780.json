@@ -1,0 +1,1350 @@
+{
+  "game": {
+    "appid": 2379780,
+    "slug": "balatro",
+    "title": "Balatro",
+    "version": "1.0.1o",
+    "lastPatchChecked": "2026-05-05",
+    "estTotalHours": 220,
+    "difficultyRating": 10,
+    "minPlaythroughs": 155,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Learn the standard run",
+      "description": "Reach Antes 4 and 8, win a run, form the basic poker-hand achievements, and begin the persistent play and discard counters.",
+      "achievementRefs": [
+        "BAL_01",
+        "BAL_02",
+        "BAL_03",
+        "BAL_07",
+        "BAL_08",
+        "BAL_14",
+        "BAL_15",
+        "BAL_16"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Clear deliberate single-run setups",
+      "description": "Build the money, Voucher, speed, no-reroll, card-modifier, deck-size, and high-score conditions on suitable standard runs.",
+      "achievementRefs": [
+        "BAL_09",
+        "BAL_10",
+        "BAL_11",
+        "BAL_12",
+        "BAL_13",
+        "BAL_17",
+        "BAL_18",
+        "BAL_19",
+        "BAL_20",
+        "BAL_21",
+        "BAL_24"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Advance stakes and challenges",
+      "description": "Climb one deck through Red, Black, and Gold Stake, unlock Challenge Mode with five deck wins, then complete all 20 Challenge Decks.",
+      "achievementRefs": [
+        "BAL_04",
+        "BAL_05",
+        "BAL_06",
+        "BAL_22",
+        "BAL_23"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Complete the collection",
+      "description": "Discover every Tarot, Planet, Spectral, Voucher, Joker, deck, pack, tag, edition, and Boss Blind entry without using the achievement-disabling Unlock All option.",
+      "achievementRefs": [
+        "BAL_25",
+        "BAL_26",
+        "BAL_27",
+        "BAL_28",
+        "BAL_29"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Finish Gold Stake mastery",
+      "description": "Win Gold Stake with all 15 decks, carry every Joker through a Gold Stake win, and perform the required encore wins after both final completion conditions.",
+      "achievementRefs": [
+        "BAL_30",
+        "BAL_31"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "BAL_01",
+      "displayName": "Ante Up!",
+      "description": "Reach Ante 4",
+      "hidden": false,
+      "globalPercent": 90.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Advance a standard run to @mechanic{Ante 4} by defeating the Ante 3 Boss Blind.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge Decks disable ordinary achievements, so use any standard deck and stake for this progression milestone.",
+        "steps": [
+          {
+            "id": "start-standard-run",
+            "text": "Start a run with any standard deck on an available stake."
+          },
+          {
+            "id": "clear-ante-three",
+            "text": "Defeat the Small Blind, Big Blind, and Boss Blind as needed through Ante 3."
+          },
+          {
+            "id": "reach-ante-four",
+            "text": "Leave the Ante 3 Boss shop and advance until the run displays Ante 4."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_02",
+      "displayName": "Ante Upper!",
+      "description": "Reach Ante 8",
+      "hidden": false,
+      "globalPercent": 74.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45-90 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_01"
+      ],
+      "summary": "Advance a standard run to @mechanic{Ante 8} by defeating the Ante 7 Boss Blind.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching Ante 8 is the final approach to a normal win; the run is won only after the Ante 8 Boss Blind is defeated.",
+        "steps": [
+          {
+            "id": "build-winning-run",
+            "text": "Start a standard run and build enough Chips and Mult to clear each rising Blind requirement."
+          },
+          {
+            "id": "clear-ante-seven",
+            "text": "Defeat the Ante 7 Boss Blind and continue from its shop."
+          },
+          {
+            "id": "reach-ante-eight",
+            "text": "Advance until the run display changes to Ante 8."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_03",
+      "displayName": "Heads Up",
+      "description": "Win a Run",
+      "hidden": false,
+      "globalPercent": 71.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_02"
+      ],
+      "summary": "Win a standard run by defeating the @mechanic{Ante 8 Boss Blind}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement can register at the win screen or after another run starts, rather than at the exact moment the final score is reached.",
+        "steps": [
+          {
+            "id": "reach-final-ante",
+            "text": "Reach Ante 8 with a standard deck and a scoring build capable of meeting the final Blind requirement."
+          },
+          {
+            "id": "defeat-showdown",
+            "text": "Defeat the Ante 8 Boss Blind before running out of hands."
+          },
+          {
+            "id": "finish-win",
+            "text": "Proceed to the You Win screen and start another run if the achievement notification is delayed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_04",
+      "displayName": "Low Stakes",
+      "description": "Win a run on at least Red Stake difficulty",
+      "hidden": false,
+      "globalPercent": 43.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-5 h",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_03"
+      ],
+      "summary": "Win a standard run on @mechanic{Red Stake} difficulty or any higher stake.",
+      "guide": {
+        "kind": "standard",
+        "context": "Stake progression is tracked separately for each deck, and a deck unlocks its next stake only by winning its highest available stake.",
+        "steps": [
+          {
+            "id": "unlock-red-stake",
+            "text": "Win White Stake with one standard deck to unlock Red Stake for that same deck."
+          },
+          {
+            "id": "select-red-stake",
+            "text": "Start that deck on Red Stake or a higher unlocked stake."
+          },
+          {
+            "id": "win-red-run",
+            "text": "Defeat the Ante 8 Boss Blind and reach the You Win screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_05",
+      "displayName": "Mid Stakes",
+      "description": "Win a run on at least Black Stake difficulty",
+      "hidden": false,
+      "globalPercent": 30.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-12 h",
+      "estMinutes": 480,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_04"
+      ],
+      "summary": "Win a standard run on @mechanic{Black Stake} difficulty or any higher stake.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each higher stake includes all modifiers from the lower stakes, so continue the same deck's stake ladder rather than switching decks.",
+        "steps": [
+          {
+            "id": "unlock-black-stake",
+            "text": "Win the successive available stakes with one standard deck until Black Stake is unlocked for that deck."
+          },
+          {
+            "id": "select-black-stake",
+            "text": "Start the prepared deck on Black Stake or a higher unlocked stake."
+          },
+          {
+            "id": "win-black-run",
+            "text": "Defeat the Ante 8 Boss Blind and reach the You Win screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_06",
+      "displayName": "High Stakes",
+      "description": "Win a run on at least Gold Stake difficulty",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "10-25 h",
+      "estMinutes": 900,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_05"
+      ],
+      "summary": "Win a standard run on @mechanic{Gold Stake}, Balatro's eighth stake difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gold Stake is unlocked per deck after wins on the seven preceding stakes and adds every earlier stake modifier.",
+        "steps": [
+          {
+            "id": "unlock-gold-stake",
+            "text": "With one standard deck, win each available stake in sequence until Gold Stake unlocks for that deck."
+          },
+          {
+            "id": "start-gold-run",
+            "text": "Select that deck, choose Gold Stake, and begin the run."
+          },
+          {
+            "id": "win-gold-run",
+            "text": "Defeat the Ante 8 Boss Blind and reach the You Win screen on Gold Stake."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_07",
+      "displayName": "Card Player",
+      "description": "Play at least 2500 Cards",
+      "hidden": false,
+      "globalPercent": 58.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across many runs",
+      "estMinutes": 1800,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Play a cumulative total of 2,500 playing cards across standard runs on the same profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "This counter persists across the entire profile rather than requiring 2,500 cards in one run.",
+        "steps": [
+          {
+            "id": "play-scoring-hands",
+            "text": "Play normal poker hands in standard runs, selecting up to five playing cards each time."
+          },
+          {
+            "id": "continue-profile",
+            "text": "Continue playing cards across later runs until the cumulative total reaches 2,500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_08",
+      "displayName": "Card Discarder",
+      "description": "Discard at least 2500 Cards",
+      "hidden": false,
+      "globalPercent": 48.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across many runs",
+      "estMinutes": 1800,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Discard a cumulative total of 2,500 playing cards across standard runs on the same profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement counts discarded cards across the profile, so selecting several cards per discard advances it faster than single-card discards.",
+        "steps": [
+          {
+            "id": "discard-multiple-cards",
+            "text": "Use the Discard command on as many unwanted playing cards as the current hand and discard allowance permit."
+          },
+          {
+            "id": "continue-profile",
+            "text": "Keep discarding cards across standard runs until the cumulative total reaches 2,500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_09",
+      "displayName": "Nest Egg",
+      "description": "Have $400 or more during a single run",
+      "hidden": false,
+      "globalPercent": 16.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-4 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Raise the money display to at least @mechanic{$400} during one standard run.",
+      "guide": {
+        "kind": "standard",
+        "context": "The $400 must be held simultaneously; money earned and later spent does not count toward the requirement.",
+        "steps": [
+          {
+            "id": "build-economy",
+            "text": "Use Blind rewards, interest, economy Jokers, and money-generating cards to build a stable income."
+          },
+          {
+            "id": "stop-spending",
+            "text": "Preserve the scoring pieces needed to survive, then stop unnecessary shop purchases and rerolls."
+          },
+          {
+            "id": "hold-four-hundred",
+            "text": "Continue the run until the money display reaches $400 or more at one time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_10",
+      "displayName": "Flushed",
+      "description": "Play a Flush with 5 Wild Cards",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-5 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Play a normal @mechanic{Flush} made from five @item{Wild Cards} in one scoring hand.",
+      "guide": {
+        "kind": "standard",
+        "context": "Four Wild Cards work when Four Fingers is active, but Flush House and Flush Five hands do not satisfy this achievement.",
+        "steps": [
+          {
+            "id": "create-wild-cards",
+            "text": "Use copies of the @item{The Lovers} Tarot card to enhance five playing cards into Wild Cards."
+          },
+          {
+            "id": "draw-five-wilds",
+            "text": "Manipulate and discard the hand until five Wild Cards are held together."
+          },
+          {
+            "id": "play-wild-flush",
+            "text": "Select the five Wild Cards, confirm that the hand preview reads Flush, and play the hand."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_11",
+      "displayName": "Speedrunner",
+      "description": "Win a run in 12 or fewer rounds",
+      "hidden": false,
+      "globalPercent": 20.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-4 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win a standard eight-Ante run after playing no more than 12 Blind rounds.",
+      "guide": {
+        "kind": "standard",
+        "context": "A standard run offers 24 Blinds across eight Antes, so this route requires skipping at least 12 Small or Big Blinds while still defeating every Boss Blind.",
+        "steps": [
+          {
+            "id": "prepare-fast-deck",
+            "text": "Choose a standard deck and build scoring power that can survive with fewer shop visits and Blind rewards."
+          },
+          {
+            "id": "skip-twelve-blinds",
+            "text": "Use Skip Blind on at least 12 Small or Big Blinds while tracking the rounds played."
+          },
+          {
+            "id": "win-by-round-twelve",
+            "text": "Defeat every required Boss Blind, including the Ante 8 Boss, before the played-round count exceeds 12."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_12",
+      "displayName": "ROI",
+      "description": "Buy 5 Vouchers by the end of Ante 4",
+      "hidden": false,
+      "globalPercent": 15.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-5 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Purchase five @item{Vouchers} before leaving Ante 4 in one standard run.",
+      "guide": {
+        "kind": "standard",
+        "context": "A normal run supplies one Voucher per Ante; an extra purchase can come from a Voucher Tag or from Hieroglyph or Petroglyph lowering the Ante. Vouchers granted by a starting deck do not count.",
+        "steps": [
+          {
+            "id": "buy-regular-vouchers",
+            "text": "Buy the offered Voucher during each early Ante whenever funds permit."
+          },
+          {
+            "id": "create-extra-offer",
+            "text": "Claim a Voucher Tag by skipping its Blind, or buy Hieroglyph or Petroglyph to create another Voucher opportunity before Ante 4 ends."
+          },
+          {
+            "id": "purchase-fifth",
+            "text": "Buy the fifth counted Voucher while the run is still in Ante 4 or earlier."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_13",
+      "displayName": "Shattered",
+      "description": "Break 2 Glass Cards in a single hand",
+      "hidden": false,
+      "globalPercent": 17.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-4 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Make two @item{Glass Cards} shatter after scoring in the same played hand.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Glass Card supplies X2 Mult and has a 1-in-4 chance to be destroyed after scoring, so both cards must pass that destruction roll on one hand.",
+        "steps": [
+          {
+            "id": "create-glass-cards",
+            "text": "Use @item{Justice} Tarot cards to enhance at least two playing cards into Glass Cards."
+          },
+          {
+            "id": "draw-glass-pair",
+            "text": "Draw two Glass Cards together and select a poker hand in which both cards will score."
+          },
+          {
+            "id": "play-until-both-break",
+            "text": "Play the hand and repeat the setup in later hands or runs until two Glass Cards shatter after the same scoring sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_14",
+      "displayName": "Royale",
+      "description": "Play a Royal Flush",
+      "hidden": false,
+      "globalPercent": 63.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15-90 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Play a @mechanic{Royal Flush}: Ace, King, Queen, Jack, and 10 from the same suit.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Royal Flush is evaluated as a Straight Flush whose five ranks are all 10 or higher, and card selection order does not matter.",
+        "steps": [
+          {
+            "id": "choose-suit",
+            "text": "Choose one suit and preserve its Ace, King, Queen, Jack, and 10 while discarding unrelated cards."
+          },
+          {
+            "id": "assemble-royal",
+            "text": "Draw all five required ranks from the chosen suit into the same hand."
+          },
+          {
+            "id": "play-royal",
+            "text": "Select the five cards, confirm the hand preview reads Royal Flush, and play them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_15",
+      "displayName": "Retrograde",
+      "description": "Get any poker hand to level 10",
+      "hidden": false,
+      "globalPercent": 65.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-90 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Raise any single poker hand type from level 1 to @mechanic{level 10} during one run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Poker-hand levels reset each run; matching Planet cards raise their hand by one level, while Black Hole raises every hand by one.",
+        "steps": [
+          {
+            "id": "choose-hand-type",
+            "text": "Choose a frequently played poker hand and identify its matching Planet card in Run Info."
+          },
+          {
+            "id": "buy-planet-cards",
+            "text": "Open Celestial Packs and shops, then use repeated copies of that Planet card or Black Hole."
+          },
+          {
+            "id": "reach-level-ten",
+            "text": "Open Run Info and continue upgrading until the chosen poker hand displays level 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_16",
+      "displayName": "10K",
+      "description": "Score 10,000 Chips in a single hand",
+      "hidden": false,
+      "globalPercent": 84.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during early wins",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Score at least 10,000 Chips with one played poker hand.",
+      "guide": {
+        "kind": "standard",
+        "context": "The threshold uses the final Chips multiplied by Mult for a single hand, not the total score accumulated across a Blind.",
+        "steps": [
+          {
+            "id": "build-score",
+            "text": "Combine Chip-producing Jokers, additive Mult, multiplicative Mult, card enhancements, and hand levels."
+          },
+          {
+            "id": "play-qualifying-hand",
+            "text": "Play the build's strongest poker hand and finish its scoring sequence at 10,000 Chips or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_17",
+      "displayName": "1,000K",
+      "description": "Score 1,000,000 Chips in a single hand",
+      "hidden": false,
+      "globalPercent": 48.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "during developed runs",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_16"
+      ],
+      "summary": "Score at least 1,000,000 Chips with one played poker hand.",
+      "guide": {
+        "kind": "standard",
+        "context": "Multiplicative Mult effects apply after additive Mult and are the main scaling layer needed beyond early-game score thresholds.",
+        "steps": [
+          {
+            "id": "scale-hand",
+            "text": "Level a reliable poker hand and build a Joker lineup with Chips, additive Mult, and multiple X Mult effects."
+          },
+          {
+            "id": "improve-cards",
+            "text": "Add useful enhancements, editions, and seals to the playing cards used by the scoring hand."
+          },
+          {
+            "id": "score-million",
+            "text": "Play the optimized hand and finish its scoring sequence at 1,000,000 Chips or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_18",
+      "displayName": "100,000K",
+      "description": "Score 100,000,000 Chips in a single hand",
+      "hidden": false,
+      "globalPercent": 22.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "during advanced runs",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_17"
+      ],
+      "summary": "Score at least 100,000,000 Chips with one played poker hand.",
+      "guide": {
+        "kind": "standard",
+        "context": "This threshold requires exponential scaling from several compatible X Mult or retrigger effects rather than a large Blind total spread across hands.",
+        "steps": [
+          {
+            "id": "build-exponential-engine",
+            "text": "Assemble a stable hand type with high levels, repeatable card enhancements, and multiple compatible X Mult or retrigger effects."
+          },
+          {
+            "id": "protect-key-pieces",
+            "text": "Preserve the Jokers and modified cards that supply each multiplication layer through the late Antes."
+          },
+          {
+            "id": "score-hundred-million",
+            "text": "Play the fully prepared hand and finish its scoring sequence at 100,000,000 Chips or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_19",
+      "displayName": "Tiny Hands",
+      "description": "Thin your deck down to 20 or fewer cards",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-6 h",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Reduce the current deck to 20 or fewer playing cards during one standard run.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Hanged Man destroys up to two selected cards, while Immolate destroys five random cards in hand, making consumable generation the direct route to a small deck.",
+        "steps": [
+          {
+            "id": "collect-destruction-cards",
+            "text": "Buy Arcana and Spectral Packs and take The Hanged Man or Immolate whenever the run can survive the loss of cards."
+          },
+          {
+            "id": "destroy-deck-cards",
+            "text": "Use The Hanged Man on up to two selected cards and Immolate when its five random destructions are acceptable."
+          },
+          {
+            "id": "reach-twenty",
+            "text": "Check the deck viewer and continue permanent card destruction until 20 or fewer cards remain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_20",
+      "displayName": "Big Hands",
+      "description": "Have 80 or more cards in your deck",
+      "hidden": false,
+      "globalPercent": 19.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-5 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Increase the current deck to 80 or more playing cards during one standard run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Standard Packs add purchased playing cards, while DNA and Cryptid can repeatedly copy valuable cards already in the deck.",
+        "steps": [
+          {
+            "id": "add-pack-cards",
+            "text": "Open Standard Packs and add a playing card whenever the run's economy permits."
+          },
+          {
+            "id": "copy-playing-cards",
+            "text": "Use DNA's first single-card hand each round and copies of Cryptid to add permanent card copies."
+          },
+          {
+            "id": "reach-eighty",
+            "text": "Check the deck viewer and continue adding permanent cards until the deck contains at least 80."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_21",
+      "displayName": "You Get What You Get",
+      "description": "Win a run without rerolling the shop",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win a standard run without pressing @mechanic{Reroll} in any shop.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buying offered cards, packs, and Vouchers is allowed; only manually rerolling the shop invalidates the run.",
+        "steps": [
+          {
+            "id": "start-clean-run",
+            "text": "Start a standard run and commit to the first shop inventory shown after each Blind."
+          },
+          {
+            "id": "avoid-reroll",
+            "text": "Never press the Reroll button, even when no useful purchase appears."
+          },
+          {
+            "id": "win-without-reroll",
+            "text": "Defeat the Ante 8 Boss Blind and reach the You Win screen without any shop reroll."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_22",
+      "displayName": "Rule Bender",
+      "description": "Complete any challenge run",
+      "hidden": false,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "after five deck wins",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win any one of Balatro's 20 @mechanic{Challenge Deck} runs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge Mode unlocks after standard-run wins with five different decks, and its first five challenges become available together.",
+        "steps": [
+          {
+            "id": "unlock-challenges",
+            "text": "Win standard runs with five different decks to unlock Challenge Mode."
+          },
+          {
+            "id": "select-challenge",
+            "text": "Open Challenge Mode from the deck selection screen and choose one of the first five Challenge Decks."
+          },
+          {
+            "id": "win-challenge",
+            "text": "Meet that Challenge Deck's restrictions and defeat its Ante 8 Boss Blind."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_23",
+      "displayName": "Rule Breaker",
+      "description": "Complete every challenge run",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "20-50 h",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_22"
+      ],
+      "summary": "Win all 20 @mechanic{Challenge Deck} runs in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge Mode and its first five challenges unlock after standard-run wins with five different decks; later challenges appear after new Challenge Deck wins, and all use White Stake.",
+        "steps": [
+          {
+            "id": "clear-first-five",
+            "text": "Complete each of the first five available Challenge Decks."
+          },
+          {
+            "id": "unlock-remaining",
+            "text": "Continue winning newly available Challenge Decks until all 20 challenge entries are visible."
+          },
+          {
+            "id": "complete-all-twenty",
+            "text": "Defeat the Ante 8 Boss Blind with every Challenge Deck until all 20 entries show completion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_24",
+      "displayName": "Legendary",
+      "description": "Discover a Legendary Joker",
+      "hidden": false,
+      "globalPercent": 57.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "random",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use @item{The Soul} from a Tarot or Spectral Pack to create and discover a Legendary Joker.",
+      "guide": {
+        "kind": "standard",
+        "context": "Legendary Jokers do not appear in the shop; The Soul occupies an eligible Tarot or Spectral Pack choice only 0.3% of the time.",
+        "steps": [
+          {
+            "id": "fund-pack-opening",
+            "text": "Build enough economy to open Tarot and Spectral Packs whenever they appear."
+          },
+          {
+            "id": "find-the-soul",
+            "text": "Inspect every choice in those packs until the rare The Soul card appears."
+          },
+          {
+            "id": "create-legendary",
+            "text": "Keep an open Joker slot, choose The Soul, and create the Legendary Joker to record its discovery."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_25",
+      "displayName": "Astronomy",
+      "description": "Discover every Planet card",
+      "hidden": false,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10-30 h",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Obtain and discover all 12 @item{Planet Cards} on one achievement-enabled profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "Three secret Planet Cards become eligible only during a run after their matching secret poker hands—Five of a Kind, Flush House, and Flush Five—have been played.",
+        "steps": [
+          {
+            "id": "collect-normal-planets",
+            "text": "Buy or take each available Planet Card from shops, Celestial Packs, and other card-generation effects."
+          },
+          {
+            "id": "unlock-secret-planets",
+            "text": "Play Five of a Kind, Flush House, and Flush Five in standard runs so their secret Planet Cards can appear during those runs."
+          },
+          {
+            "id": "finish-planet-pages",
+            "text": "Open Collection from the main menu and continue obtaining missing Planet Cards until all 12 are discovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_26",
+      "displayName": "Cartomancy",
+      "description": "Discover every Tarot card",
+      "hidden": false,
+      "globalPercent": 61.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5-20 h",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Obtain and discover all 22 @item{Tarot Cards} on one achievement-enabled profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "A collectible card is discovered when it is obtained from a shop, pack, seal, or generation effect; merely viewing a locked Collection entry is insufficient.",
+        "steps": [
+          {
+            "id": "open-arcana-packs",
+            "text": "Buy Arcana Packs and take Tarot Cards that remain undiscovered in the Collection."
+          },
+          {
+            "id": "use-other-sources",
+            "text": "Buy missing Tarot Cards from shops or obtain them through purple seals and Tarot-generating effects."
+          },
+          {
+            "id": "finish-tarot-pages",
+            "text": "Check Collection and continue obtaining missing entries until all 22 Tarot Cards are discovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_27",
+      "displayName": "Clairvoyance",
+      "description": "Discover every Spectral card",
+      "hidden": false,
+      "globalPercent": 29.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15-40 h",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Obtain and discover all 18 @item{Spectral Cards} on one achievement-enabled profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spectral discoveries include rare cards such as The Soul; Challenge Deck discoveries do not count toward Collection progress.",
+        "steps": [
+          {
+            "id": "open-spectral-packs",
+            "text": "Buy Spectral Packs and take cards that remain undiscovered in the Collection."
+          },
+          {
+            "id": "use-ghost-deck",
+            "text": "Use the Ghost Deck after it is unlocked to gain more access to Spectral Cards during standard runs."
+          },
+          {
+            "id": "finish-spectral-pages",
+            "text": "Check Collection and continue obtaining missing entries until all 18 Spectral Cards are discovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_28",
+      "displayName": "Extreme Couponer",
+      "description": "Discover every Voucher",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "30-80 h",
+      "estMinutes": 3600,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Purchase and discover all 32 @item{Vouchers} on one achievement-enabled profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "The 32 Vouchers form 16 pairs; each upgraded Voucher must first be unlocked by its listed condition, then can appear only after its base Voucher is bought in the same run.",
+        "steps": [
+          {
+            "id": "check-voucher-pages",
+            "text": "Open Collection, inspect the four Voucher pages, and note each locked or undiscovered entry."
+          },
+          {
+            "id": "unlock-upgrades",
+            "text": "Complete every locked upgraded Voucher's displayed unlock condition on standard runs."
+          },
+          {
+            "id": "buy-paired-vouchers",
+            "text": "During later runs, buy a pair's base Voucher, then purchase its upgraded Voucher when it appears in a subsequent Ante shop."
+          },
+          {
+            "id": "finish-all-thirty-two",
+            "text": "Continue until Collection shows all 32 Vouchers as discovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_29",
+      "displayName": "Completionist",
+      "description": "Discover 100% of your collection",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "80-160 h",
+      "estMinutes": 7200,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_24",
+        "BAL_25",
+        "BAL_26",
+        "BAL_27",
+        "BAL_28"
+      ],
+      "summary": "Discover all 340 counted items in the @mechanic{Collection} on one achievement-enabled profile.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Collection tracks Jokers, decks, Vouchers, consumables, editions, booster packs, tags, and Boss Blinds; Challenge Deck finds do not count.",
+        "steps": [
+          {
+            "id": "audit-collection",
+            "text": "Open Collection from the main menu or Options and inspect every page for locked or undiscovered entries."
+          },
+          {
+            "id": "complete-unlocks",
+            "text": "Fulfill the condition printed on each locked Joker, deck, or upgraded Voucher so it becomes obtainable."
+          },
+          {
+            "id": "discover-every-category",
+            "text": "Obtain remaining cards and Vouchers, acquire missing tags and editions, open each booster type, and defeat missing Boss Blinds."
+          },
+          {
+            "id": "avoid-unlock-all",
+            "text": "Do not use Profile > Unlock All, because confirming that option disables achievements for the profile."
+          },
+          {
+            "id": "reach-full-collection",
+            "text": "Continue standard runs until Collection reports all 340 counted items discovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_30",
+      "displayName": "Completionist+",
+      "description": "Win with every deck on Gold Stake difficulty",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "120-220 h",
+      "estMinutes": 10200,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_06",
+        "BAL_29"
+      ],
+      "summary": "Win @mechanic{Gold Stake} with each of Balatro's 15 standard decks, then complete one additional standard run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each deck has its own eight-stake ladder. A current trigger error delays the achievement after the fifteenth Gold Stake win until another non-Challenge run is won on any stake.",
+        "steps": [
+          {
+            "id": "unlock-all-decks",
+            "text": "Discover all 15 standard decks through Collection milestones and the deck- or stake-win requirements shown on locked decks."
+          },
+          {
+            "id": "climb-each-ladder",
+            "text": "With each deck, win every stake in sequence until Gold Stake is available for that deck."
+          },
+          {
+            "id": "win-each-gold-stake",
+            "text": "Defeat the Ante 8 Boss Blind on Gold Stake with every one of the 15 standard decks."
+          },
+          {
+            "id": "complete-encore-run",
+            "text": "After the final deck receives its Gold Stake sticker, win any standard non-Challenge run on any stake to trigger the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BAL_31",
+      "displayName": "Completionist++",
+      "description": "Earn a Gold Sticker on every Joker",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "150-300 h",
+      "estMinutes": 13500,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "BAL_06",
+        "BAL_24",
+        "BAL_29"
+      ],
+      "summary": "Hold each of the 150 Jokers through a @mechanic{Gold Stake} win to earn every Gold Sticker, then complete one additional standard run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gold Stickers are applied at the You Win screen to Jokers still held after the Ante 8 Boss Blind; self-destroying Jokers must therefore survive through that screen.",
+        "steps": [
+          {
+            "id": "track-missing-stickers",
+            "text": "Enable Display Stake Sticker During Run and record the Joker names that still lack a Gold Sticker when they appear."
+          },
+          {
+            "id": "carry-new-jokers",
+            "text": "During Gold Stake runs, buy unstickered Jokers and keep as many as the winning build can carry through the Ante 8 Boss Blind."
+          },
+          {
+            "id": "target-difficult-jokers",
+            "text": "Prioritize rare Jokers and acquire self-destroying Jokers as late as possible so they remain held at the You Win screen."
+          },
+          {
+            "id": "find-legendary-jokers",
+            "text": "Open Tarot and Spectral Packs for The Soul; on a random Gold Stake seed, its first use selects a Legendary Joker still missing a Gold Sticker."
+          },
+          {
+            "id": "complete-all-stickers",
+            "text": "Repeat Gold Stake wins until all 150 Joker entries display Gold Stickers."
+          },
+          {
+            "id": "complete-encore-run",
+            "text": "Win one standard non-Challenge run on any stake after the final Gold Sticker is applied to trigger the achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "BAL_01",
+    "BAL_02",
+    "BAL_03",
+    "BAL_04",
+    "BAL_05",
+    "BAL_06",
+    "BAL_07",
+    "BAL_08",
+    "BAL_09",
+    "BAL_10",
+    "BAL_11",
+    "BAL_12",
+    "BAL_13",
+    "BAL_14",
+    "BAL_15",
+    "BAL_16",
+    "BAL_17",
+    "BAL_18",
+    "BAL_19",
+    "BAL_20",
+    "BAL_21",
+    "BAL_22",
+    "BAL_23",
+    "BAL_24",
+    "BAL_25",
+    "BAL_26",
+    "BAL_27",
+    "BAL_28",
+    "BAL_29",
+    "BAL_30",
+    "BAL_31"
+  ]
+}

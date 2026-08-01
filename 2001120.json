@@ -1,0 +1,970 @@
+{
+  "game": {
+    "appid": 2001120,
+    "slug": "split-fiction",
+    "title": "Split Fiction",
+    "version": "1.0",
+    "lastPatchChecked": "2026-04-09",
+    "estTotalHours": 12,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Chronological co-op story run",
+      "description": "Play all eight chapters with a co-op partner, finish every glowing-bubble side story, use each bench, and complete the optional interactions in story order. Chapter Select and the Allow Skipping to Next Checkpoint accessibility option remain available for cleanup.",
+      "achievementRefs": [
+        "Antihero",
+        "WhipEars",
+        "BigGas",
+        "BrickHouse",
+        "KilledByReceptionist",
+        "CaptchaCompleted",
+        "PunchedOnSwing",
+        "GameshowNoExplosion",
+        "ThrowStones",
+        "PlayerChair",
+        "AllCauldronForms",
+        "FindCakeRoom",
+        "FeedBabyDragon",
+        "CompleteSideStories",
+        "SharkDeath",
+        "ShootCardboardBox",
+        "TazerBotKill",
+        "LockedInCell",
+        "FindAllBenches",
+        "CompleteGame"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "CompleteGame",
+      "displayName": "BFF's",
+      "description": "Finally published",
+      "hidden": false,
+      "globalPercent": 28.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story completion",
+      "estMinutes": 0,
+      "stage": 1,
+      "group": "20-ch8-ending",
+      "sortReason": "Automatic during the Chapter 8 credits after Final Showdown.",
+      "confidence": "verified",
+      "summary": "Defeat the final boss in Chapter 8 — Split and continue through the epilogue into the credits.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the only automatic story achievement. The credits may be skipped without preventing the unlock.",
+        "steps": [
+          {
+            "id": "finish-final-showdown",
+            "text": "Complete @loc{Chapter 8 — Split, Final Showdown} with your co-op partner and defeat the final boss."
+          },
+          {
+            "id": "reach-credits",
+            "text": "Continue through the epilogue until the credits begin and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CompleteSideStories",
+      "displayName": "Bookworms",
+      "description": "Complete all side stories",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "through Chapter 5",
+      "estMinutes": 180,
+      "stage": 1,
+      "group": "14-ch5-final-side-story",
+      "sortReason": "Unlocks after the 12th side story in Treasure Temple.",
+      "confidence": "verified",
+      "summary": "Finish all 12 glowing-bubble side stories and earn a checkmark for each one in Chapter Select.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Chapter Select shows “???” for an untouched side story, a blue dot for an incomplete attempt, and a checkmark for a completed story. Checkpoint skipping is allowed before the finale, but every side story’s last checkpoint must be played normally to earn its checkmark.",
+        "collectibles": [
+          {
+            "id": "legend-of-the-sandfish",
+            "index": 1,
+            "name": "The Legend of the Sandfish",
+            "location": "@loc{Chapter 2 — Neon Revenge, Play Me Techno}",
+            "method": "After the opening story cutscene, enter the glowing bubble directly in front of Mio and Zoe and finish the side story’s final checkpoint without skipping it.",
+            "missable": false
+          },
+          {
+            "id": "farmlife",
+            "index": 2,
+            "name": "Farmlife",
+            "location": "@loc{Chapter 2 — Neon Revenge, Streets of Neon}",
+            "method": "When the main route points toward the elevators on the left, take the route on the right to the glowing bubble and complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "mountain-hike",
+            "index": 3,
+            "name": "Mountain Hike",
+            "location": "@loc{Chapter 2 — Neon Revenge, Big City Life}",
+            "method": "At the three portable toilets, have Zoe launch Mio inside a toilet onto the rear balcony. Mio drops the ladder, allowing Zoe to join her at the portal before both players complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "train-heist",
+            "index": 4,
+            "name": "Train Heist",
+            "location": "@loc{Chapter 3 — Hopes of Spring, Lord Evergreen}",
+            "method": "Late in the mission, ignore the story poles on the left, follow the glowing right-hand path, wall-run, and swing to the portal before completing the side story.",
+            "missable": false
+          },
+          {
+            "id": "gameshow",
+            "index": 5,
+            "name": "Gameshow",
+            "location": "@loc{Chapter 3 — Hopes of Spring, Walking Stick of Doom}",
+            "method": "After crossing the bridge into the open area, take the glowing path on the left instead of the story route on the right, then enter and complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "collapsing-star",
+            "index": 6,
+            "name": "Collapsing Star",
+            "location": "@loc{Chapter 3 — Hopes of Spring, Halls of Ice}",
+            "method": "When the story directs the characters into the castle with their ability, take the right-hand route to the glowing bubble and complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "kites",
+            "index": 7,
+            "name": "Kites",
+            "location": "@loc{Chapter 4 — Final Dawn, Toxic Tumblers}",
+            "method": "In the corridor of large moving cylinders, continue straight to the corridor’s end instead of taking the story path on the left, then complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "moon-market",
+            "index": 8,
+            "name": "Moon Market",
+            "location": "@loc{Chapter 4 — Final Dawn, Test Chamber}",
+            "method": "In the red-and-blue gate corridor, reach the platform with four smaller moving platforms, take the left branch to the portal, and complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "notebook",
+            "index": 9,
+            "name": "Notebook",
+            "location": "@loc{Chapter 4 — Final Dawn, Soaring Desperados}",
+            "method": "At the huge pipe containing rotating blades, use the jetpack to reach the glowing bubble on the pipe’s left side and complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "slopes-of-war",
+            "index": 10,
+            "name": "Slopes of War",
+            "location": "@loc{Water Temple in Rise of the Dragon Realm} — Chapter 5",
+            "method": "At the two golden globes, turn left and coordinate the two lever-operated platforms to reach the glowing bubble, then complete the side story.",
+            "missable": false
+          },
+          {
+            "id": "space-escape",
+            "index": 11,
+            "name": "Space Escape",
+            "location": "@loc{Craft Temple in Rise of the Dragon Realm} — Chapter 5",
+            "method": "Leave the cave at the mission start, take the right-hand route instead of continuing straight, and finish the side story at the path’s end.",
+            "missable": false
+          },
+          {
+            "id": "birthday-cake",
+            "index": 12,
+            "name": "Birthday Cake",
+            "location": "@loc{Treasure Temple in Rise of the Dragon Realm} — Chapter 5",
+            "method": "Follow the opening pink-crystal path, take the left branch rather than the temple route on the right, bounce from the floating gummy bear into the portal, and complete the final checkpoint normally.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AllCauldronForms",
+      "displayName": "Potion Chef",
+      "description": "I need your strongest potions",
+      "hidden": false,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "11-ch4-moon-market-potions",
+      "sortReason": "Complete beside Chair the Load inside Moon Market.",
+      "confidence": "verified",
+      "summary": "Brew and drink all six recipes shown on the Moon Market potion shop’s recipe board.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every required ingredient is available around the shop. A single player may consume all six potions, and the sixth transformation awards the achievement to both partners.",
+        "steps": [
+          {
+            "id": "enter-moon-market",
+            "text": "Enter the @item{Moon Market} side story from @loc{Chapter 4 — Final Dawn, Test Chamber}."
+          },
+          {
+            "id": "find-potion-shop",
+            "text": "From the market entrance, go to the potion shop on the right and read its displayed recipe board."
+          },
+          {
+            "id": "drink-six-potions",
+            "text": "Use the nearby ingredients to prepare each of the six listed recipes, and have one player drink every finished potion until the sixth transformation triggers the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PlayerChair",
+      "displayName": "Chair the Load",
+      "description": "Get off me...",
+      "hidden": false,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 3,
+      "stage": 1,
+      "group": "10-ch4-moon-market-chair",
+      "sortReason": "The wand shop is near the Moon Market entrance.",
+      "confidence": "verified",
+      "summary": "Transform your partner into a chair with the Moon Market magic wand, then sit on the transformed player.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wand chooses a random transformation, so producing the chair may take several casts. Either character can wield the wand, and one successful seating awards both players credit.",
+        "steps": [
+          {
+            "id": "enter-moon-market",
+            "text": "Enter the @item{Moon Market} side story from @loc{Chapter 4 — Final Dawn, Test Chamber}."
+          },
+          {
+            "id": "take-wand",
+            "text": "Near the entrance, enter the book-filled shop on the left and take the magic wand from its central display."
+          },
+          {
+            "id": "make-chair",
+            "text": "Aim the wand at the other player and cast repeatedly until the partner transforms into a chair."
+          },
+          {
+            "id": "sit-on-partner",
+            "text": "Have the wand holder sit on the transformed chair-player to trigger the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CaptchaCompleted",
+      "displayName": "You Are Not a Robot",
+      "description": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "group": "06-ch2-gravity-bike",
+      "sortReason": "Timed phone sequence at the end of Gravity Bike.",
+      "confidence": "verified",
+      "summary": "Cancel the Gravity Bike phone’s self-destruction sequence as Zoe before its 64-second timer expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only Zoe operates the phone while Mio drives. If the timer expires, restart the entire Gravity Bike mission; Restart Checkpoint returns with only about 6–10 seconds and is unsuitable for a clean retry.",
+        "steps": [
+          {
+            "id": "start-phone",
+            "text": "In @loc{Chapter 2 — Neon Revenge, Gravity Bike}, survive the chase until Zoe receives the phone, then swipe to unlock it and scan Zoe’s face."
+          },
+          {
+            "id": "solve-image-captchas",
+            "text": "Skip the first image CAPTCHA, select the four bottom-right fire-truck squares in the second grid and choose @item{VERIFY}, then skip the giraffe grid because it contains no giraffes."
+          },
+          {
+            "id": "attempt-deactivation",
+            "text": "Select every Terms and Conditions checkbox, choose @item{DEACTIVATE SELF-DESTRUCTION}, and decline the incoming @item{Unknown Caller}."
+          },
+          {
+            "id": "read-terms",
+            "text": "Select every checkbox again and choose @item{DEACTIVATE SELF-DESTRUCTION}; when the error appears, open the blue @item{Terms and Conditions} text."
+          },
+          {
+            "id": "accept-terms",
+            "text": "Choose @item{Next} 12 times, then choose @item{Accept} on the final terms page."
+          },
+          {
+            "id": "enter-letter-captchas",
+            "text": "Type @item{bke}, select the first autocorrect suggestion, type @item{xqj}, select the first autocorrect suggestion, and choose @item{ENTER}."
+          },
+          {
+            "id": "finish-authentication",
+            "text": "Keep the bike running while authentication reaches 100% and the phone confirms that self-destruction was cancelled."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindAllBenches",
+      "displayName": "Sisters: A Tale Of Two Besties",
+      "description": "Relax on all 6 benches",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "through Chapter 7",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "19-ch7-final-bench",
+      "sortReason": "Unlocks after the sixth bench in Mosaic of Memories.",
+      "confidence": "verified",
+      "summary": "Have both players sit together on all six chapter benches, finish each conversation, and stand afterward.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Bench progress persists through Chapter Select. Once a conversation finishes and both characters stand, the players may leave immediately without reaching another checkpoint.",
+        "collectibles": [
+          {
+            "id": "neon-revenge-bench",
+            "index": 1,
+            "name": "Neon Revenge bench",
+            "location": "@loc{Chapter 2 — Neon Revenge, Big City Life}",
+            "method": "After the pool, swing to the next building. Before attaching to the flying car, use the left-hand bench with Mio and Zoe, finish their conversation, and stand.",
+            "missable": false
+          },
+          {
+            "id": "hopes-of-spring-bench",
+            "index": 2,
+            "name": "Hopes of Spring bench",
+            "location": "@loc{Chapter 3 — Hopes of Spring, Halls of Ice}",
+            "method": "Enter the Ice King’s castle through the large door, turn left before the ice-block puzzle, and use the balcony bench with both characters.",
+            "missable": false
+          },
+          {
+            "id": "final-dawn-bench",
+            "index": 3,
+            "name": "Final Dawn bench",
+            "location": "@loc{Chapter 4 — Final Dawn, Soaring Desperados}",
+            "method": "Near the mission’s end, surrender the jetpacks at the pedestal, leave the room, and use the bench on the left in front of the large window.",
+            "missable": false
+          },
+          {
+            "id": "dragon-realm-bench",
+            "index": 4,
+            "name": "Rise of the Dragon Realm bench",
+            "location": "@loc{Water Temple in Rise of the Dragon Realm} — Chapter 5",
+            "method": "Near the end, let Zoe climb the purple-vined water wheels while Mio reverses them; after Zoe raises the hook and both players reunite upstairs, use the cliffside bench together.",
+            "missable": false
+          },
+          {
+            "id": "isolation-bench",
+            "index": 5,
+            "name": "Isolation bench",
+            "location": "@loc{Chapter 6 — Isolation, Waste Depot}",
+            "method": "Near the mission’s end, locate the container Mio must hack for story progress. Before hacking it, turn right and use the adjacent bench.",
+            "missable": false
+          },
+          {
+            "id": "hollow-bench",
+            "index": 6,
+            "name": "The Hollow bench",
+            "location": "@loc{Chapter 7 — The Hollow, Mosaic of Memories}",
+            "method": "After climbing the long chain and crossing the second light-shard sequence, use the bench at the far edge with both characters to finish the six-bench set.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ThrowStones",
+      "displayName": "One Bird, Three Stones",
+      "description": "You couldn't have known",
+      "hidden": false,
+      "globalPercent": 10.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "09-ch3-halls-of-ice",
+      "sortReason": "The snowman is at the beginning of Halls of Ice.",
+      "confidence": "verified",
+      "summary": "Use Mio’s monkey form to throw all three snowballs beside the Halls of Ice snowman.",
+      "guide": {
+        "kind": "standard",
+        "context": "The snowballs may be thrown in any order. The third throw automatically hits the large bird and completes the trigger.",
+        "steps": [
+          {
+            "id": "find-snowman",
+            "text": "Early in @loc{Halls of Ice within Hopes of Spring} (Chapter 3), climb the stairs and turn left to the snowman with three snowballs."
+          },
+          {
+            "id": "throw-snowballs",
+            "text": "Transform Mio into the monkey form and throw each of the three snowballs until the third throw strikes the arriving bird."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GameshowNoExplosion",
+      "displayName": "Cold Potato",
+      "description": "Complete the Gameshow without the bomb exploding",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 5 min per attempt",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "08-ch3-gameshow",
+      "sortReason": "Complete during the Gameshow side story before Halls of Ice.",
+      "confidence": "verified",
+      "summary": "Complete all seven stages of the Gameshow side story without the bomb exploding once.",
+      "guide": {
+        "kind": "standard",
+        "context": "A missed catch or holding the bomb too long causes an explosion and invalidates the full run, including the four practice throws. Restart Side Story is required after a failure; Restart Checkpoint does not restore eligibility.",
+        "steps": [
+          {
+            "id": "enter-gameshow",
+            "text": "Enter @item{Gameshow} from @loc{Chapter 3 — Hopes of Spring, Walking Stick of Doom} by taking the glowing left-hand path after the bridge."
+          },
+          {
+            "id": "practice-and-warmup",
+            "text": "Catch and return all four practice throws in Stage 1, then keep passing the bomb safely while crossing the Stage 2 warmup route."
+          },
+          {
+            "id": "glass-and-fire",
+            "text": "Use the green bounce circles to pass over the Stage 3 glass divider, then cross the burning walls and floors in Stage 4 without delaying a throw."
+          },
+          {
+            "id": "tank-and-platforms",
+            "text": "In Stage 5, evade the tank chasing the bomb holder; in Stage 6, coordinate passes while crossing the fire walls and moving platforms."
+          },
+          {
+            "id": "finish-stage-seven",
+            "text": "Avoid the electrical walls in Stage 7, cross the moving platforms, jump onto the game-show host’s robot head, and throw the live bomb into its head."
+          },
+          {
+            "id": "watch-cutscene",
+            "text": "Finish the following cutscene without any earlier explosion to receive the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TazerBotKill",
+      "displayName": "Tazed and Confused",
+      "description": "Adding insult to injury",
+      "hidden": false,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "17-ch6-cell-blocks",
+      "sortReason": "Available when Mio controls the Tazer-Bot in Cell Blocks.",
+      "confidence": "verified",
+      "summary": "Use Mio’s Tazer-Bot to sweep its extended pole sideways into Zoe in Chapter 6 — Cell Blocks.",
+      "guide": {
+        "kind": "standard",
+        "context": "The pole must strike Zoe with a sideways sweep. Extending the pole straight into her counts only as a poke and does not trigger the achievement.",
+        "steps": [
+          {
+            "id": "hack-tazer-bot",
+            "text": "In @loc{Chapter 6 — Isolation, Cell Blocks}, have Mio hack the Tazer-Bot whose extendable pole creates Zoe’s bridge."
+          },
+          {
+            "id": "cross-zoe",
+            "text": "Extend the pole and let Zoe walk across it to the opposite platform."
+          },
+          {
+            "id": "sweep-zoe",
+            "text": "Rotate the extended pole sideways through Zoe and knock her down to trigger the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LockedInCell",
+      "displayName": "Locked Up",
+      "description": "No way out",
+      "hidden": false,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "18-ch6-maximum-security",
+      "sortReason": "Available after Cell Blocks in Maximum Security.",
+      "confidence": "verified",
+      "summary": "Place one player inside the Maximum Security prison container and have the other press its lock button.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mio and Zoe may exchange roles; the achievement only requires one character inside when the outside player activates the lock.",
+        "steps": [
+          {
+            "id": "find-container",
+            "text": "In @loc{Chapter 6 — Isolation, Maximum Security}, follow the two laser paths to the prison container at their end."
+          },
+          {
+            "id": "lock-partner",
+            "text": "Have one player enter the container, then have the other player press the nearby button and close the lock."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BrickHouse",
+      "displayName": "Huffing and Puffing",
+      "description": "It's not the big bad wolf you have to worry about",
+      "hidden": false,
+      "globalPercent": 26.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 3,
+      "stage": 1,
+      "group": "04-ch2-farmlife-house",
+      "sortReason": "The brick house appears after the giant pig in Farmlife.",
+      "confidence": "verified",
+      "summary": "Use Mio’s Farmlife fart flight to strike the rear bullseye and destroy the pig’s brick house.",
+      "guide": {
+        "kind": "standard",
+        "context": "The brick house appears after the enormous pig and the second barn, beyond the third apple door. Only Mio’s pig form has the required fart-flight attack.",
+        "steps": [
+          {
+            "id": "reach-brick-house",
+            "text": "Enter @item{Farmlife} from @loc{Chapter 2 — Neon Revenge, Streets of Neon}, pass the giant-pig area and second barn, and open the third apple door."
+          },
+          {
+            "id": "break-house",
+            "text": "Move behind the boasting pig’s brick house and use Mio’s fart flight to hit the bullseye on the rear wall until the house collapses."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KilledByReceptionist",
+      "displayName": "Robot Revolution",
+      "description": "Hasta la vista, baby",
+      "hidden": false,
+      "globalPercent": 29.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 3,
+      "stage": 1,
+      "group": "05-ch2-hotel",
+      "sortReason": "The hotel follows the portable-toilet traffic crossing.",
+      "confidence": "verified",
+      "summary": "Have both players repeatedly attack the Big City Life hotel’s robot receptionist until its face turns red and angry.",
+      "guide": {
+        "kind": "standard",
+        "context": "The receptionist retaliates only after enough hits change its face to red; that hostile state confirms the achievement trigger.",
+        "steps": [
+          {
+            "id": "cross-traffic-gap",
+            "text": "In @loc{Chapter 2 — Neon Revenge, Big City Life}, use the portable-toilet throw to cross the traffic gap and reunite Mio and Zoe on the opposite rooftop."
+          },
+          {
+            "id": "attack-receptionist",
+            "text": "Enter the hotel lobby and have both characters strike the robot receptionist repeatedly until its face becomes red and it attacks back."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FeedBabyDragon",
+      "displayName": "Feed Me",
+      "description": "Take a snack",
+      "hidden": false,
+      "globalPercent": 32.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "13-ch5-water-temple",
+      "sortReason": "The fruit plants appear after the long Water Temple boat section.",
+      "confidence": "verified",
+      "summary": "Feed one fruit from a Water Temple path plant to either Mio’s or Zoe’s baby dragon after the long boat section.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only fruit encountered during Water Temple counts. Either character can perform the feeding, and one valid snack awards the achievement to both players.",
+        "steps": [
+          {
+            "id": "finish-boat-section",
+            "text": "In Chapter 5’s @loc{Water Temple within Rise of the Dragon Realm}, finish the long boat sequence and continue until Mio and Zoe split onto separate dragon paths."
+          },
+          {
+            "id": "feed-dragon",
+            "text": "On either character’s main path, take a fruit from the fruit-bearing plant and feed that fruit to the accompanying baby dragon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PunchedOnSwing",
+      "displayName": "A Friendly Push",
+      "description": "Monkey strong",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "07-ch3-underlands",
+      "sortReason": "First optional achievement in Chapter 3.",
+      "confidence": "verified",
+      "summary": "Seat Zoe on The Underlands tree swing, then use Mio’s monkey punch to throw Zoe off.",
+      "guide": {
+        "kind": "standard",
+        "context": "The character roles are fixed: Zoe uses the swing while Mio’s monkey form supplies the required punch.",
+        "steps": [
+          {
+            "id": "find-swing",
+            "text": "In @loc{Chapter 3 — Hopes of Spring, The Underlands}, roll the large boulder through the vine-covered opening and find the wooden swing on the right."
+          },
+          {
+            "id": "punch-swing",
+            "text": "Have Zoe sit on the swing, transform Mio into the monkey form, and punch the occupied swing hard enough to throw Zoe off."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WhipEars",
+      "displayName": "Rose's Best Friend",
+      "description": "Tear the stuffed elephant’s right leg and ear from the Mastodon Pet Store display.",
+      "hidden": true,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "02-ch2-elephant",
+      "sortReason": "The Mastodon Pet Store follows the glass-bridge interaction.",
+      "confidence": "verified",
+      "summary": "Use Zoe’s gravity whip to tear both the right leg and ear from the Mastodon Pet Store’s stuffed elephant.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both named body parts are required; removing only the leg or only the ear leaves the trigger incomplete.",
+        "steps": [
+          {
+            "id": "find-elephant",
+            "text": "In @loc{Chapter 2 — Neon Revenge, Play Me Techno}, climb the ladder, open the door near the @item{Wake Up} graffiti tunnel, and turn right to the @item{Mastodon Pet Store}."
+          },
+          {
+            "id": "remove-parts",
+            "text": "Aim Zoe’s gravity whip at the stuffed elephant above the store and tear away its right leg and its ear."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SharkDeath",
+      "displayName": "We're Gonna Need a Bigger Boat",
+      "description": "Duuuun dun… duuuun dun…",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "15-ch6-hydration",
+      "sortReason": "First optional achievement in Chapter 6.",
+      "confidence": "verified",
+      "summary": "Swim Mio’s boat form into the bubbles beside the Hydration Facility waterfall after the third rotating platform.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bubbles conceal the shark trigger. Mio must approach them in boat form, and the resulting attack awards the achievement to both players.",
+        "steps": [
+          {
+            "id": "pass-platforms",
+            "text": "In @loc{Chapter 6 — Isolation, Hydration Facility}, carry Zoe’s ball across the water as Mio’s boat and pass the third rotating platform."
+          },
+          {
+            "id": "enter-bubbles",
+            "text": "Turn into the dead-end area with the waterfall on the left and swim Mio directly into the bubbles in front of the waterfall."
+          },
+          {
+            "id": "trigger-shark",
+            "text": "Remain in the bubbling water until the shark attacks Mio and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Antihero",
+      "displayName": "Are We the Baddies?",
+      "description": "No worries, it's just a simulation",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "01-ch2-glass-bridge",
+      "sortReason": "First optional achievement after The Legend of the Sandfish.",
+      "confidence": "verified",
+      "summary": "Have Zoe throw an explosive gravity ball through the glass floor of the pedestrian bridge in Play Me Techno.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bridge is above the route where Zoe breaks two required windows. A third gravity ball can be used for the optional bridge attack before leaving the area.",
+        "steps": [
+          {
+            "id": "cross-windows",
+            "text": "After @item{The Legend of the Sandfish} in @loc{Chapter 2 — Neon Revenge, Play Me Techno}, have Mio send explosive gravity balls across the gap while Zoe uses the first two to break both glass windows and cross."
+          },
+          {
+            "id": "break-bridge",
+            "text": "From Zoe’s side, look above for the glass-floored bridge carrying pedestrians, catch another gravity ball with Zoe’s whip, and throw the ball through the bridge floor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FindCakeRoom",
+      "displayName": "The Cake is Not a Lie",
+      "description": "Reach the hidden cake room above the purple portals in Run and Gun.",
+      "hidden": true,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "under 5 min",
+      "estMinutes": 4,
+      "stage": 1,
+      "group": "12-ch4-run-and-gun",
+      "sortReason": "The secret cake room appears after Moon Market in Chapter 4.",
+      "confidence": "verified",
+      "summary": "Bounce between the upper purple portals in Run and Gun, then wall-jump into the secret cake room above them.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hidden room contains two portals that loop into each other and a large cake; entering that room completes the trigger.",
+        "steps": [
+          {
+            "id": "reach-upper-portals",
+            "text": "In @loc{Chapter 4 — Final Dawn, Run and Gun}, reach the arena with six purple portals, defeat the central gunner, and climb to the upper pair of portals."
+          },
+          {
+            "id": "enter-secret-room",
+            "text": "Jump back and forth through the upper portals to build height, then wall-jump into the opening above and enter the room containing the large cake."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ShootCardboardBox",
+      "displayName": "Snaaaaaaaaake",
+      "description": "Shoot the cardboard box while Zoe hides inside it in Prison Courtyard.",
+      "hidden": true,
+      "globalPercent": 2.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "16-ch6-prison-courtyard",
+      "sortReason": "The cardboard box appears after the large courtyard gap.",
+      "confidence": "verified",
+      "summary": "Have Zoe hide inside the cardboard box after the Prison Courtyard gap, then make Mio shoot the occupied box.",
+      "guide": {
+        "kind": "standard",
+        "context": "The roles are fixed by the stealth sequence: Zoe moves as the ball and hides in the box, while Mio disables guards and fires the shot.",
+        "steps": [
+          {
+            "id": "cross-courtyard-gap",
+            "text": "In @loc{Chapter 6 — Isolation, Prison Courtyard}, let Mio temporarily disable the robot guards while Zoe crosses the large gap with the sliding mechanism."
+          },
+          {
+            "id": "shoot-box",
+            "text": "Have Zoe enter the cardboard box on the floor and remain hidden, then have Mio shoot the occupied box."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BigGas",
+      "displayName": "Goin' Whole Hog",
+      "description": "Let it rip",
+      "hidden": false,
+      "globalPercent": 8.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "group": "03-ch2-farmlife-pig",
+      "sortReason": "The enormous pig appears before the brick house in Farmlife.",
+      "confidence": "verified",
+      "summary": "Use Mio’s fart-powered pig flight to land on the enormous pig’s belly in the Farmlife side story.",
+      "guide": {
+        "kind": "standard",
+        "context": "Farmlife gives Mio the fart-flight ability and Zoe a stretching ability. Only Mio can perform the belly impact that makes the enormous pig pass gas.",
+        "steps": [
+          {
+            "id": "reach-huge-pig",
+            "text": "Enter @item{Farmlife} from @loc{Chapter 2 — Neon Revenge, Streets of Neon}, complete the first apple-door section, and turn left toward the enormous pig beside the mud."
+          },
+          {
+            "id": "land-on-belly",
+            "text": "Use Mio’s fart-powered flight to land on the enormous pig’s belly and trigger the resulting gas cutscene."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Antihero",
+    "WhipEars",
+    "BigGas",
+    "BrickHouse",
+    "KilledByReceptionist",
+    "CaptchaCompleted",
+    "PunchedOnSwing",
+    "GameshowNoExplosion",
+    "ThrowStones",
+    "PlayerChair",
+    "AllCauldronForms",
+    "FindCakeRoom",
+    "FeedBabyDragon",
+    "CompleteSideStories",
+    "SharkDeath",
+    "ShootCardboardBox",
+    "TazerBotKill",
+    "LockedInCell",
+    "FindAllBenches",
+    "CompleteGame"
+  ]
+}

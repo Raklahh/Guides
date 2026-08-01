@@ -1,0 +1,539 @@
+{
+  "game": {
+    "appid": 1466640,
+    "slug": "road-96",
+    "title": "Road 96 🛣️",
+    "version": "1.0",
+    "lastPatchChecked": "2026-04-22",
+    "estTotalHours": 8,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First trip and recurring setup",
+      "description": "In Smells Like Teen Spirit, pet the campground cat and blow on Zoe's campfire before advancing. At the first payphone, call home and fund either campaign, while collecting every cassette you encounter.",
+      "achievementRefs": [
+        "catperson",
+        "lightindarkness",
+        "roadpals",
+        "homesick",
+        "campaign",
+        "collect"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Six Road 96 arrivals",
+      "description": "Keep each teen alive until Road 96, add one stone to the waterfall-cave cairn on the first three visits, and free Zoe during Fire Starter. Continue through Zoe's border decision and reach Road 96 with the sixth teen.",
+      "achievementRefs": [
+        "almostthere",
+        "stoneafterstone",
+        "helpfriend",
+        "hardchoice",
+        "oldpro"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Ending and tape cleanup",
+      "description": "Finish the sixth border sequence to see Petria's fate. If fewer than 18 tapes were collected, choose New Game+ and continue taking or buying tape pickups until the collection is complete.",
+      "achievementRefs": [
+        "bordermaster"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "catperson",
+      "displayName": "Cat Person",
+      "description": "Pet the cat in the trailer park.",
+      "hidden": true,
+      "globalPercent": 82.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "first trip",
+      "sortReason": "The cat is at the entrance of the first guaranteed Zoe scene.",
+      "lockoutStage": 1,
+      "summary": "In @loc{Smells Like Teen Spirit}, speak to the person with the cat at the RV campground entrance, then select @mechanic{Pet Cat}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This scene is guaranteed for the first teen, but the cat interaction is at the campground entrance and is lost once the scene advances.",
+        "steps": [
+          {
+            "id": "enter-campground",
+            "text": "At the start of @loc{Smells Like Teen Spirit}, enter the RV campground and stop at the person sitting near the entrance with a cat on their lap."
+          },
+          {
+            "id": "pet-cat",
+            "text": "Finish the conversation with that person, aim at the cat, and select @mechanic{Pet Cat} before walking farther into the campground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "lightindarkness",
+      "displayName": "A Light in the Darkness",
+      "description": "Blow on the campfire.",
+      "hidden": true,
+      "globalPercent": 20.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "first trip",
+      "sortReason": "The fire interaction occurs later in the same first-trip scene.",
+      "prerequisites": [
+        "catperson"
+      ],
+      "lockoutStage": 1,
+      "summary": "In @loc{Smells Like Teen Spirit}, sit with Zoe at the campfire and select @mechanic{Blow on Fire} before continuing the conversation.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campfire moment occurs after the teen rests and Zoe wakes them; interacting with Zoe first can move the scene past the optional fire prompt.",
+        "steps": [
+          {
+            "id": "follow-zoe",
+            "text": "After resting at the RV campground, follow Zoe to the campfire and sit down."
+          },
+          {
+            "id": "blow-fire",
+            "text": "Before speaking to Zoe, look directly at the campfire and select @mechanic{Blow on Fire}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "collect",
+      "displayName": "Collect 'em All",
+      "description": "Collect all tapes",
+      "hidden": false,
+      "globalPercent": 29.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across campaign",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "unverified",
+      "group": "collectibles",
+      "sortReason": "Collect tapes throughout every trip and use New Game+ only if needed.",
+      "summary": "Collect @item{18 distinct cassette tapes} from story rewards, vendors, vehicles, and searchable objects across the campaign or New Game+.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tape opportunities are partly randomized and exceed the required total. New Game+ preserves the collection and can turn repeated pickups into missing tapes; ordinary New Game does not provide that cleanup path.",
+        "steps": [
+          {
+            "id": "take-story-tapes",
+            "text": "Accept every tape offered by story characters and buy vendor tapes for @item{$10} whenever possible."
+          },
+          {
+            "id": "search-scenes",
+            "text": "Inspect magnifying-glass interactions and movable objects in every scene; tapes can be hidden behind or inside them."
+          },
+          {
+            "id": "search-cars",
+            "text": "When traveling by car, check the glove compartment, back seat, floor near the pedals, and stereo; select @mechanic{Eject} when a tape is in the stereo."
+          },
+          {
+            "id": "use-new-game-plus",
+            "text": "If the story ends before the collection reaches @item{18}, choose @mechanic{New Game+} and keep collecting until every distinct tape is registered."
+          },
+          {
+            "id": "retry-trigger",
+            "text": "If all @item{18} tapes appear registered but the achievement does not unlock, continue New Game+ and collect the next tape offered to prompt another achievement check.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "campaign",
+      "displayName": "Campaign Funder",
+      "description": "Call & Donate to the Florres or Tyrak Campaign Funding",
+      "hidden": false,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "calls",
+      "sortReason": "Use the same payphone after calling home.",
+      "summary": "At a working payphone with @item{$11}, dial @mechanic{96555} for Tyrak or @mechanic{96777} for Florres, then donate @item{$10}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The phone call itself costs $1 and the donation costs $10. Either candidate awards the achievement, so political choices do not restrict the route.",
+        "steps": [
+          {
+            "id": "save-money",
+            "text": "Keep @item{$11} until a scene contains a working payphone."
+          },
+          {
+            "id": "dial-campaign",
+            "text": "Pay @item{$1} to dial @mechanic{96555} for Tyrak or @mechanic{96777} for Florres."
+          },
+          {
+            "id": "donate",
+            "text": "Select the campaign donation and spend @item{$10}; complete the call to receive the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "homesick",
+      "displayName": "Homesick",
+      "description": "Call Home",
+      "hidden": false,
+      "globalPercent": 49.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "calls",
+      "sortReason": "Do both optional calls at the first working payphone.",
+      "summary": "Use any working payphone, spend @item{$1}, and select @mechanic{Call Home}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Road scenes are variable, but payphones recur throughout the campaign. This call is separate from the campaign donation call, so reserve money for both.",
+        "steps": [
+          {
+            "id": "keep-dollar",
+            "text": "Keep at least @item{$1} until a scene contains a working payphone."
+          },
+          {
+            "id": "call-home",
+            "text": "Interact with the payphone, pay the call fee, and select @mechanic{Call Home}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "almostthere",
+      "displayName": "Almost There?",
+      "description": "Reach Road 96 for the first time.",
+      "hidden": true,
+      "globalPercent": 75.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic on the first Road 96 arrival.",
+      "summary": "Keep one teen alive until the location card @loc{Road 96} appears for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement checks arrival at the named Road 96 approach, nine miles from the border; the teen does not need to cross the border successfully.",
+        "steps": [
+          {
+            "id": "reach-road-96",
+            "text": "Manage the teen's energy and avoid arrest until the trip reaches @loc{Road 96}; the achievement unlocks when the location begins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "stoneafterstone",
+      "displayName": "Stone After Stone",
+      "description": "Add at least three stones to Road 96's cairn.",
+      "hidden": true,
+      "globalPercent": 29.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 visits",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "missable",
+      "sortReason": "Add stones during the first three Road 96 visits.",
+      "prerequisites": [
+        "almostthere"
+      ],
+      "lockoutStage": 2,
+      "summary": "On three different @loc{Road 96} visits, enter the cave behind the waterfall and select @mechanic{Add Stone} at the cairn on the left.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only one stone can be added per teen. Finish the third addition before the final visit, when the ending state can remove the cairn, and never choose the destructive interaction.",
+        "steps": [
+          {
+            "id": "find-cairn",
+            "text": "From @loc{Road 96}, follow the trail to the lake, take the path behind the waterfall, and enter the cave."
+          },
+          {
+            "id": "add-stone",
+            "text": "Before leaving through the far side, inspect the cairn on the left and select @mechanic{Add Stone}; do not destroy it."
+          },
+          {
+            "id": "repeat-visits",
+            "text": "Repeat @mechanic{Add Stone} with the next two teens that reach Road 96, completing the third addition by the third visit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "roadpals",
+      "displayName": "Road Pals",
+      "description": "Meet Zoe for the first time.",
+      "hidden": true,
+      "globalPercent": 84.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Meeting Zoe is automatic during Smells Like Teen Spirit.",
+      "summary": "Meet Zoe while progressing through the first teen's @loc{Smells Like Teen Spirit} campground scene.",
+      "guide": {
+        "kind": "standard",
+        "context": "The scene blocks further progress until the teen interacts with Zoe, so this meeting is automatic during the opening trip.",
+        "steps": [
+          {
+            "id": "meet-zoe",
+            "text": "Continue through the RV campground until Zoe appears, then interact with her to advance the scene and receive the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "helpfriend",
+      "displayName": "Help a Friend",
+      "description": "Help Zoe escape from the police.",
+      "hidden": true,
+      "globalPercent": 44.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "missable",
+      "sortReason": "Fire Starter occurs around the third story trip.",
+      "lockoutStage": 2,
+      "summary": "In @loc{Fire Starter}, distract the police, steal their van keys, take the handcuff keys from the van, and free Zoe without being spotted.",
+      "guide": {
+        "kind": "standard",
+        "context": "The telephone-tower route is faster when the teen has Hacking or Omen Vitality. The fire route always works but requires a hose, gas can, $2 matches, and a longer setup.",
+        "steps": [
+          {
+            "id": "agree-to-help",
+            "text": "At the gas station in @loc{Fire Starter}, speak to Zoe while she is handcuffed outside the police van and agree to help her."
+          },
+          {
+            "id": "ability-distraction",
+            "text": "For the fast route, take the @item{Telephone Box Key} from the metal shed behind the station, open the yellow tower box, then select @mechanic{Hack} with Hacking or @mechanic{Tear} with Omen Vitality.",
+            "kind": "tip"
+          },
+          {
+            "id": "fire-distraction",
+            "text": "Without either ability, take the hose from the shed and the empty gas can beside the store, siphon fuel from the police van, buy matches for @item{$2}, and ignite the cardboard pile beside the telephone tower."
+          },
+          {
+            "id": "steal-van-keys",
+            "text": "Once the officers move toward the distraction, circle behind the store on the opposite side from them and take the van keys from their table."
+          },
+          {
+            "id": "free-zoe",
+            "text": "Run to the van, unlock the driver's door, take the handcuff keys inside, and use them on Zoe before the officers spot the teen."
+          },
+          {
+            "id": "reload-on-failure",
+            "text": "If the officers catch the teen before Zoe is freed, quit to the menu immediately and reload the scene for another attempt.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "oldpro",
+      "displayName": "Old Pro",
+      "description": "Reach Road 96 for the sixth time.",
+      "hidden": true,
+      "globalPercent": 39.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic on the sixth Road 96 arrival.",
+      "prerequisites": [
+        "almostthere"
+      ],
+      "summary": "Reach the named @loc{Road 96} location with six different teens during the same campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The arrival is counted before the border outcome. If a teen is arrested or loses all energy earlier in a trip, continue with a new teen until six Road 96 arrivals have occurred.",
+        "steps": [
+          {
+            "id": "complete-six-arrivals",
+            "text": "Keep selecting new teens and manage each trip until the location card @loc{Road 96} has appeared six times; the achievement unlocks on the sixth arrival."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hardchoice",
+      "displayName": "Hard Choice",
+      "description": "Make a hard choice while crossing the border.",
+      "hidden": true,
+      "globalPercent": 44.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic after choosing either outcome in Zoe's border scene.",
+      "summary": "During Zoe's fourth @loc{Road 96} border sequence, reach the final decision and choose either available outcome.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both sides of the decision award the achievement, so choose the outcome you want for the story rather than optimizing for achievement credit.",
+        "steps": [
+          {
+            "id": "travel-with-zoe",
+            "text": "On the fourth Road 96 visit, follow Zoe through the waterfall cave and continue through her border sequence."
+          },
+          {
+            "id": "make-choice",
+            "text": "At the final choice involving Zoe, select either response and let the resulting scene play."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "bordermaster",
+      "displayName": "Border Master",
+      "description": "Discover Petria's fate.",
+      "hidden": true,
+      "globalPercent": 39.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story completion",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Finish after Old Pro on the sixth border sequence.",
+      "prerequisites": [
+        "oldpro"
+      ],
+      "summary": "Complete the sixth @loc{Road 96} border sequence and watch the ending through Petria's final fate.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campaign's accumulated choices change the ending, but every completed ending resolves Petria's fate and awards this story achievement.",
+        "steps": [
+          {
+            "id": "finish-sixth-border",
+            "text": "After the sixth Road 96 arrival, continue through the border events and complete every remaining story interaction."
+          },
+          {
+            "id": "watch-ending",
+            "text": "Allow the final Petria scenes to finish until the campaign completion sequence awards the achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "catperson",
+    "roadpals",
+    "lightindarkness",
+    "homesick",
+    "campaign",
+    "almostthere",
+    "stoneafterstone",
+    "helpfriend",
+    "hardchoice",
+    "oldpro",
+    "bordermaster",
+    "collect"
+  ]
+}

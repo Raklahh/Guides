@@ -1,0 +1,577 @@
+{
+  "game": {
+    "appid": 3164500,
+    "slug": "schedule-i",
+    "title": "Schedule I",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-01",
+    "estTotalHours": 70,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Complete the opening and starter tasks",
+      "description": "Play the prologue, establish the Northtown operation, recruit Benji, and finish the quick arrest, pickpocket, skateboard, and $100-product achievements.",
+      "achievementRefs": [
+        "COMPLETE_PROLOGUE",
+        "RV_DESTROYED",
+        "DEALER_RECRUITED",
+        "LONG_ARM_OF_THE_LAW",
+        "INDIAN_DEALER",
+        "ROLLING_IN_STYLE",
+        "MASTER_CHEF"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build the operation while clearing counters",
+      "description": "Scale toward $100,000 while depositing street trash and banking spray cans for a single uninterrupted 25-tag route.",
+      "achievementRefs": [
+        "BUSINESSMAN",
+        "UPSTANDING_CITIZEN",
+        "URBAN_ARTIST"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Defeat the Benzies cartel",
+      "description": "Stay hostile, lower influence to open every region, unlock Uptown, complete Finishing the Job, and continue scaling toward $1 million.",
+      "achievementRefs": [
+        "FINISHING_THE_JOB",
+        "BIGWIG"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish the wealth grind",
+      "description": "Keep the established endgame production and dealer network operating until the displayed net worth reaches $10 million.",
+      "achievementRefs": [
+        "MAGNATE"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "COMPLETE_PROLOGUE",
+      "displayName": "Left in the Dust",
+      "description": "Complete the prologue.",
+      "hidden": false,
+      "globalPercent": 70.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Play the full opening @mechanic{prologue} to its conclusion without using Skip Prologue.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skipping the prologue starts the main game but bypasses this opening completion flag, so use a fresh save if the sequence was skipped.",
+        "steps": [
+          {
+            "id": "start-prologue",
+            "text": "Start a new game and choose to play the @mechanic{prologue}."
+          },
+          {
+            "id": "finish-prologue",
+            "text": "Follow every prologue objective until the opening sequence ends and Hyland Point becomes available."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RV_DESTROYED",
+      "displayName": "Welcome to Hyland Point",
+      "description": "Encounter an unexpected setback.",
+      "hidden": false,
+      "globalPercent": 95.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Follow the early main quest after the prologue, return to the exploded @loc{RV}, and read the note left there.",
+      "guide": {
+        "kind": "standard",
+        "context": "This automatic setback is part of the first main-quest chain and remains available whether the prologue was played or skipped.",
+        "steps": [
+          {
+            "id": "follow-main-quest",
+            "text": "Continue the first main objectives in Hyland Point until an explosion is heard."
+          },
+          {
+            "id": "return-to-rv",
+            "text": "Return to the @loc{RV} after the explosion and approach the wreckage."
+          },
+          {
+            "id": "read-note",
+            "text": "Interact with the note at the destroyed @loc{RV} to finish the setback sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DEALER_RECRUITED",
+      "displayName": "Dodgy Dealing",
+      "description": "Recruit your first dealer.",
+      "hidden": false,
+      "globalPercent": 88.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock @npc{Benji Coleman} by satisfying one of the first three contacts, then pay his $500 cash signing fee in @loc{Motel Room 2}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Benji is the first regional dealer and covers Northtown, so recruit him before expanding the operation into later districts.",
+        "steps": [
+          {
+            "id": "satisfy-contact",
+            "text": "Complete orders for the starting customers until one of the first three contacts becomes satisfied and @npc{Benji Coleman} unlocks."
+          },
+          {
+            "id": "bring-fee",
+            "text": "Carry $500 cash to the @loc{Motel} and enter @loc{Room 2}."
+          },
+          {
+            "id": "recruit-benji",
+            "text": "Speak with @npc{Benji Coleman} and pay the signing fee to recruit him as the first dealer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MASTER_CHEF",
+      "displayName": "Master Chef",
+      "description": "Manufacture a product worth at least $100.",
+      "hidden": false,
+      "globalPercent": 58.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min after setup",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Remove a mixed product worth at least $100 from a @item{Mixing Station}; first-level meth precursor mixed with @item{Addy} is a confirmed recipe.",
+      "guide": {
+        "kind": "standard",
+        "context": "The reliable early route opens after the story mission @mechanic{We Need to Cook}; Addy appears at the Westville corner store after sufficient rank progression.",
+        "steps": [
+          {
+            "id": "unlock-meth",
+            "text": "Complete @mechanic{We Need to Cook} and continue ranking up until @item{Addy} is stocked at the @loc{Westville corner store}."
+          },
+          {
+            "id": "mix-product",
+            "text": "Place first-level @item{meth precursor} and @item{Addy} into a @item{Mixing Station}, then run the mixing process."
+          },
+          {
+            "id": "take-product",
+            "text": "Confirm that the finished product is valued at $100 or more, then remove it from the @item{Mixing Station}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUSINESSMAN",
+      "displayName": "Businessman",
+      "description": "Attain a net worth of $100,000.",
+      "hidden": false,
+      "globalPercent": 54.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across progression",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "net-worth",
+      "summary": "Raise the save file's displayed net worth to $100,000, then sleep in a bed to end the day and trigger the check.",
+      "guide": {
+        "kind": "standard",
+        "context": "The current net-worth total is visible on the save-file screen, while the achievement is evaluated when a day is ended by sleeping.",
+        "steps": [
+          {
+            "id": "reach-100k",
+            "text": "Expand production and sales while retaining enough value for the save-file screen to show at least $100,000 net worth."
+          },
+          {
+            "id": "end-day",
+            "text": "Sleep in a bed to end the day and let the achievement check the qualifying net worth."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIGWIG",
+      "displayName": "Bigwig",
+      "description": "Attain a net worth of $1,000,000.",
+      "hidden": false,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across progression",
+      "estMinutes": 900,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "BUSINESSMAN"
+      ],
+      "group": "net-worth",
+      "summary": "Raise the save file's displayed net worth to $1,000,000, then sleep in a bed to trigger the end-of-day check.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the middle of the three net-worth milestones; the final achievement uses the same displayed total with a $10 million target.",
+        "steps": [
+          {
+            "id": "scale-business",
+            "text": "Reinvest sales into larger production capacity and dealer coverage until the save-file screen shows at least $1,000,000 net worth."
+          },
+          {
+            "id": "end-day",
+            "text": "Sleep in a bed to end the day and trigger the qualifying net-worth check."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MAGNATE",
+      "displayName": "Magnate",
+      "description": "Attain a net worth of $10,000,000.",
+      "hidden": false,
+      "globalPercent": 5.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20-40 h grind",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIGWIG"
+      ],
+      "group": "net-worth",
+      "summary": "Raise the save file's displayed net worth to $10,000,000, then sleep in a bed to trigger the final wealth check.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the dominant completion-time grind, far beyond the earlier $100,000 and $1 million net-worth milestones.",
+        "steps": [
+          {
+            "id": "maximize-income",
+            "text": "Keep the endgame production chain supplied and the dealer network selling until the save-file screen shows at least $10,000,000 net worth."
+          },
+          {
+            "id": "end-day",
+            "text": "Sleep in a bed to end the day and register the final net-worth milestone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UPSTANDING_CITIZEN",
+      "displayName": "Upstanding Citizen",
+      "description": "Dispose of 500 pieces of trash at the Cash for Trash machines.",
+      "hidden": false,
+      "globalPercent": 13.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect and deposit 500 pieces of street trash in @mechanic{Cash for Trash machines}. Use @item{Trash Grabbers} from a hardware store.",
+      "guide": {
+        "kind": "standard",
+        "context": "Trash Grabbers cost $20 at hardware stores and can collect the scattered cigarettes, newspapers, bottles, cans, leaves, syringes, and other litter that feeds the cumulative machine counter.",
+        "steps": [
+          {
+            "id": "buy-grabbers",
+            "text": "Buy several @item{Trash Grabbers} for $20 each from a @loc{hardware store}."
+          },
+          {
+            "id": "collect-litter",
+            "text": "Equip a @item{Trash Grabber} and collect every piece of loose litter along the streets and around buildings."
+          },
+          {
+            "id": "deposit-trash",
+            "text": "Take the collected litter to a @mechanic{Cash for Trash machine} and deposit every piece."
+          },
+          {
+            "id": "reach-500",
+            "text": "Repeat the collection and deposit route until the machine counter has accepted 500 pieces of trash."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ROLLING_IN_STYLE",
+      "displayName": "Rolling in Style",
+      "description": "Purchase a golden skateboard.",
+      "hidden": false,
+      "globalPercent": 52.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min after saving $1,500",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pay @npc{Jeff} $1,500 cash for the @item{Golden Skateboard} at @loc{Shred's Shack} between 6:00 AM and 6:00 PM.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shred's Shack accepts cash and is open from 6:00 AM to 6:00 PM; arriving outside that window prevents the purchase.",
+        "steps": [
+          {
+            "id": "bring-cash",
+            "text": "Carry $1,500 cash and visit @loc{Shred's Shack} between 6:00 AM and 6:00 PM."
+          },
+          {
+            "id": "buy-board",
+            "text": "Speak with @npc{Jeff} and purchase the @item{Golden Skateboard}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LONG_ARM_OF_THE_LAW",
+      "displayName": "The Long Arm of the Law",
+      "description": "Get arrested.",
+      "hidden": false,
+      "globalPercent": 72.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Violate curfew while carrying illegal product, remain near the responding police, and allow the officers to complete an arrest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Curfew violations, fleeing an attempted search, carrying drugs during a search, assault, and witnessed theft can all start the required police response.",
+        "steps": [
+          {
+            "id": "create-offense",
+            "text": "Carry illegal product after curfew or commit another offense in view of a police officer."
+          },
+          {
+            "id": "allow-arrest",
+            "text": "Do not escape the responding officers; remain in their reach until the arrest sequence completes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "INDIAN_DEALER",
+      "displayName": "Indian Dealer",
+      "description": "Sell something to a customer, then pickpocket it back.",
+      "hidden": false,
+      "globalPercent": 38.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete a customer order, crouch behind that same customer, and win the pickpocket minigame to steal back the product just sold.",
+      "guide": {
+        "kind": "standard",
+        "context": "The target must first receive product through a completed order arranged in the phone app; stealing unrelated inventory does not satisfy the sell-and-recover sequence.",
+        "steps": [
+          {
+            "id": "arrange-order",
+            "text": "Accept a customer's order in the phone app and deliver the requested product to complete the sale."
+          },
+          {
+            "id": "get-behind",
+            "text": "Follow the same customer, crouch directly behind them, and use the pickpocket interaction."
+          },
+          {
+            "id": "steal-product",
+            "text": "Complete the pickpocket minigame and take back the product that was delivered in the preceding sale."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "URBAN_ARTIST",
+      "displayName": "Urban Artist",
+      "description": "Graffiti 25 surfaces in a single save.",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 h including stock",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "On the public branch, paint 25 distinct graffiti zones in one save; the safest route completes all 25 in one uninterrupted in-game day.",
+      "guide": {
+        "kind": "standard",
+        "context": "This counter can fail on beta builds or older overwritten saves. Gas Marts add one spray can to stock per level gained, and equipping a can reveals valid white tagging zones around the map.",
+        "steps": [
+          {
+            "id": "use-public-branch",
+            "text": "Switch Steam to the normal public branch, load the intended save, and stockpile 25 spray cans from @loc{Gas Mart} locations before starting the route.",
+            "kind": "warning"
+          },
+          {
+            "id": "reveal-zones",
+            "text": "Equip a @item{spray can} to reveal the white graffiti zones, then plan a route through 25 distinct surfaces."
+          },
+          {
+            "id": "paint-25",
+            "text": "Paint all 25 distinct graffiti zones during one uninterrupted in-game day without sleeping or reloading."
+          },
+          {
+            "id": "recover-counter",
+            "text": "If the achievement still does not register, use 25 @item{Graffiti Removers} to clean 25 tagged zones and repaint all 25 in the same day; retry that uninterrupted route on a fresh public-branch save if the old save continues to undercount.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FINISHING_THE_JOB",
+      "displayName": "Finishing the Job",
+      "description": "Defeat the Benzies Family in Hyland Point.",
+      "hidden": true,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-4 h finale",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "RV_DESTROYED"
+      ],
+      "summary": "Reject @npc{Thomas Benzies}' truce, unlock @loc{Uptown}, and finish the cartel story by detonating a bomb beneath @loc{Hyland Manor}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hostile route permits progression through every region. After Uptown is unlocked and a night passes, Uncle Nelson starts the finale; prepare $10,000 and 20 grams of packaged unmixed cocaine, and be ready to fight an armed thief.",
+        "steps": [
+          {
+            "id": "choose-hostile-route",
+            "text": "Reject @npc{Thomas Benzies}' truce at the @loc{Taco Ticklers parking lot}, lower cartel influence below 300 in each blocked region, and continue until @loc{Uptown} unlocks."
+          },
+          {
+            "id": "start-finale",
+            "text": "Sleep after unlocking @loc{Uptown}, then answer @npc{Uncle Nelson}'s payphone call to begin @mechanic{Finishing the Job}."
+          },
+          {
+            "id": "secure-tunnel",
+            "text": "Meet @npc{Sam} at @loc{Thompson Construction & Demo} and pay $10,000 to have a tunnel dug beneath @loc{Hyland Manor}."
+          },
+          {
+            "id": "obtain-rdx",
+            "text": "Meet @npc{Billy} at the @loc{Chemical Plant} and trade 20 grams of packaged, unmixed cocaine for @item{RDX}."
+          },
+          {
+            "id": "help-stan",
+            "text": "Take the @item{RDX} to @npc{Stan} at the @loc{Illegal Warehouse}, find the armed thief at the @loc{Docks} at night, eliminate him, and return to Stan for the finished bomb."
+          },
+          {
+            "id": "detonate-bomb",
+            "text": "Sleep until @npc{Sam} texts that the map-marked tunnel is ready, enter the tunnel, plant the bomb under @loc{Hyland Manor}, and wait clear of the 45-second countdown until the Benzies Family defeat sequence finishes."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "COMPLETE_PROLOGUE",
+    "RV_DESTROYED",
+    "DEALER_RECRUITED",
+    "LONG_ARM_OF_THE_LAW",
+    "INDIAN_DEALER",
+    "ROLLING_IN_STYLE",
+    "MASTER_CHEF",
+    "BUSINESSMAN",
+    "UPSTANDING_CITIZEN",
+    "URBAN_ARTIST",
+    "FINISHING_THE_JOB",
+    "BIGWIG",
+    "MAGNATE"
+  ]
+}

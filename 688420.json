@@ -1,0 +1,534 @@
+{
+  "game": {
+    "appid": 688420,
+    "slug": "bad-north-jotunn-edition",
+    "title": "Bad North: Jotunn Edition",
+    "version": "2.00 Jotunn Edition",
+    "lastPatchChecked": "2023-02-12",
+    "estTotalHours": 18,
+    "difficultyRating": 6,
+    "minPlaythroughs": 4,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Start an Easy restart-enabled campaign",
+      "description": "Enable level restarts, buy the first commander upgrade, use Archers to clear a ship before landing, and preserve every house for the opening 10-island streak.",
+      "achievementRefs": [
+        "ACHIEVEMENT_READY_FOR_BATTLE",
+        "ACHIEVEMENT_TURN_BACK_THE_TIDE",
+        "ACHIEVEMENT_PROTECTOR_OF_THE_REALM",
+        "ACHIEVEMENT_NORSEBANE"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Complete special conditions and the first campaign",
+      "description": "Recruit a third Infantry commander and win three islands in one turn, use the third battle to finish after nightfall, take the first snow island offered, fully upgrade one commander, and clear the final island.",
+      "achievementRefs": [
+        "ACHIEVEMENT_SPLIT_THE_PARTY",
+        "ACHIEVEMENT_NIGHTWATCH",
+        "ACHIEVEMENT_COLD_STEEL",
+        "ACHIEVEMENT_READY_FOR_ANYTHING",
+        "ACHIEVEMENT_A_NEW_HOME"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish the Hard all-commanders-alive campaign",
+      "description": "Start Hard with Allow Level Restarts, prioritize every flag-marked commander island before the shadow reaches it, restart any battle that kills a commander, and finish the final island with the complete roster alive.",
+      "achievementRefs": [
+        "ACHIEVEMENT_FOLK_HERO"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish the cumulative Viking total",
+      "description": "Continue full campaigns for safely saved kills or farm one restart-enabled late island in a single uninterrupted session until the cumulative total reaches 15,000.",
+      "achievementRefs": [
+        "ACHIEVEMENT_BATH_IN_BLOOD"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACHIEVEMENT_A_NEW_HOME",
+      "displayName": "A New Home",
+      "description": "Complete the campaign on any difficulty",
+      "hidden": false,
+      "globalPercent": 24.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [],
+      "summary": "Reach and win the campaign's final island on any difficulty, including Easy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only campaign completion matters, so the first run can use Easy difficulty and Allow Level Restarts while collecting the condition-based achievements.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Keep winning connected islands ahead of the advancing Viking frontier until the final island becomes reachable."
+          },
+          {
+            "id": "step-2",
+            "text": "Deploy your strongest available commanders to the final island, eliminate every Viking wave, and preserve at least one house to finish the campaign."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_FOLK_HERO",
+      "displayName": "Folk Hero",
+      "description": "Complete the campaign on hard, recruit all commanders and keep them alive",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "about 5 hr",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "challenge",
+      "lockoutStage": 3,
+      "prerequisites": [
+        "ACHIEVEMENT_A_NEW_HOME"
+      ],
+      "summary": "Complete a @mechanic{Hard} campaign after recruiting every flag-marked commander and keeping the entire recruited roster alive.",
+      "guide": {
+        "kind": "standard",
+        "context": "Allow Level Restarts does not invalidate the achievement. The completion check uses the final roster, so accepting an island result after a commander dies or letting the advancing shadow consume an unrecruited commander's island invalidates the run.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Start a new campaign on @mechanic{Hard} difficulty with @mechanic{Allow Level Restarts} enabled."
+          },
+          {
+            "id": "step-2",
+            "text": "Before ending each turn, route toward every reachable island marked with a commander flag and win that island to recruit its commander before the shadow reaches it."
+          },
+          {
+            "id": "step-3",
+            "text": "If any commander dies during a battle, choose @mechanic{Restart Island} and replay instead of accepting the result."
+          },
+          {
+            "id": "step-4",
+            "text": "Build a late-game core around Elite Archers and Elite Infantry, using Infantry to absorb Brute Archer fire while another squad closes from cover."
+          },
+          {
+            "id": "step-5",
+            "text": "After every flag-marked commander has joined and remains alive, win the final island without losing a commander to complete the Hard campaign."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_NORSEBANE",
+      "displayName": "Norsebane",
+      "description": "Kill 1000 vikings",
+      "hidden": false,
+      "globalPercent": 59.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "within the first campaign",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "cumulative",
+      "prerequisites": [],
+      "summary": "Kill @mechanic{1,000 Vikings} cumulatively across any number of campaigns.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter persists across campaigns and is a small portion of the separate 15,000-kill total, so no dedicated farm is normally needed.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Fight island battles and eliminate every arriving Viking instead of fleeing."
+          },
+          {
+            "id": "step-2",
+            "text": "Continue across campaign saves until the cumulative Viking-kill total reaches 1,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_BATH_IN_BLOOD",
+      "displayName": "Bathed in Blood",
+      "description": "Kill 15000 vikings",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15-20 hr total",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "cumulative",
+      "prerequisites": [
+        "ACHIEVEMENT_NORSEBANE"
+      ],
+      "summary": "Kill @mechanic{15,000 Vikings} cumulatively; if farming one restarted island, finish the farm in one sitting before closing the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Several thousand kills accrue during each full campaign. Repeated-island kills have historically failed to save when players quit between farm sessions, although the displayed tracker may not decrease.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Finish the planned Easy and Hard campaigns first so every required battle contributes safely saved Viking kills."
+          },
+          {
+            "id": "step-2",
+            "text": "For remaining kills, use a campaign with Allow Level Restarts and find a late island containing at least 100 mostly basic melee Vikings plus a hill or narrow ramp."
+          },
+          {
+            "id": "step-3",
+            "text": "Place upgraded @item{Pikes} at the hill ramp or choke point and let them eliminate every wave."
+          },
+          {
+            "id": "step-4",
+            "text": "After the last Viking dies, choose @mechanic{Restart Island} and clear the same battle again without closing the game."
+          },
+          {
+            "id": "step-5",
+            "text": "Continue the uninterrupted restart loop until the cumulative counter reaches 15,000 and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_READY_FOR_BATTLE",
+      "displayName": "Ready for Battle",
+      "description": "Purchase an upgrade for one of your commanders",
+      "hidden": false,
+      "globalPercent": 94.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "upgrade",
+      "prerequisites": [],
+      "summary": "Spend campaign gold on any upgrade in one commander's upgrade panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Surviving houses pay gold into the shared bank after an island battle, so the first purchase does not depend on assigning coins to a specific commander.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Win an island while preserving at least one house to collect gold."
+          },
+          {
+            "id": "step-2",
+            "text": "From the campaign map, select a commander to open the upgrade panel and purchase any affordable class, ability, or item upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_READY_FOR_ANYTHING",
+      "displayName": "Ready for Anything",
+      "description": "Fully upgrade one of your commanders",
+      "hidden": false,
+      "globalPercent": 22.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "within one campaign",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrade",
+      "prerequisites": [
+        "ACHIEVEMENT_READY_FOR_BATTLE"
+      ],
+      "summary": "On one commander, reach the @mechanic{Elite} class tier and fully upgrade both one class ability and one equipped item.",
+      "guide": {
+        "kind": "standard",
+        "context": "All three upgrade categories must be completed on the same commander. Class promotions have fixed costs of 6, 12, and 20 gold, while ability and item costs vary.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Choose one commander to receive every required purchase and equip that commander with an item found during the campaign."
+          },
+          {
+            "id": "step-2",
+            "text": "Purchase the commander's class promotions through Standard, Veteran, and @mechanic{Elite}."
+          },
+          {
+            "id": "step-3",
+            "text": "Unlock one ability belonging to that class and buy every remaining tier of that same ability."
+          },
+          {
+            "id": "step-4",
+            "text": "Buy every upgrade tier for the commander's equipped item; the achievement registers when the class, chosen ability, and item are all at maximum level on that commander."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_COLD_STEEL",
+      "displayName": "Cold Steel",
+      "description": "Win an island in the snow",
+      "hidden": false,
+      "globalPercent": 43.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "within one campaign",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "environment",
+      "prerequisites": [],
+      "summary": "Select and win any campaign island whose map and battlefield are visibly covered in snow.",
+      "guide": {
+        "kind": "standard",
+        "context": "Snow-covered islands are generated randomly but normally appear during a campaign, so this condition requires no difficulty setting or special squad.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Advance through the campaign map until a reachable island displays snowy terrain."
+          },
+          {
+            "id": "step-2",
+            "text": "Deploy to that snow-covered island, eliminate every Viking, and preserve at least one house to complete the island victory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_NIGHTWATCH",
+      "displayName": "Nightwatch",
+      "description": "Win an island at nighttime",
+      "hidden": false,
+      "globalPercent": 36.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "challenge",
+      "prerequisites": [
+        "ACHIEVEMENT_SPLIT_THE_PARTY"
+      ],
+      "summary": "Win an island after full nightfall, keeping at least one house standing until the final Viking dies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The lighting advances after the first battle of a campaign turn and is most likely to reach night during the third battle, so this condition pairs naturally with a three-island turn.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "On Easy, begin a fresh turn with three available Infantry commanders and win two small islands using one commander per island without selecting End Turn."
+          },
+          {
+            "id": "step-2",
+            "text": "Start a third low-threat island when the sky has the strong pink hue of sunset."
+          },
+          {
+            "id": "step-3",
+            "text": "Keep at least one house intact and delay the last Viking elimination until the scene is fully dark, then finish the enemy to win the island at night."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_SPLIT_THE_PARTY",
+      "displayName": "Split the Party",
+      "description": "Win 3 islands on a single turn",
+      "hidden": false,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "challenge",
+      "prerequisites": [
+        "ACHIEVEMENT_READY_FOR_BATTLE"
+      ],
+      "summary": "Win three different islands during one campaign turn without selecting @mechanic{End Turn} between the battles.",
+      "guide": {
+        "kind": "standard",
+        "context": "Early Easy islands have fewer weak enemies and can be cleared by one Infantry squad each. A squad normally deploys once per turn, so three ready commanders avoid requiring the Jabena item.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Start an Easy campaign, recruit a third commander, and promote all three commanders to @item{Infantry}."
+          },
+          {
+            "id": "step-2",
+            "text": "At the start of a fresh turn, choose a connected low-threat island and win it using only the first Infantry commander."
+          },
+          {
+            "id": "step-3",
+            "text": "Back on the map, do not select @mechanic{End Turn}; win a second low-threat island with the second Infantry commander."
+          },
+          {
+            "id": "step-4",
+            "text": "Without ending the turn, win a third island using the remaining fresh Infantry commander."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_TURN_BACK_THE_TIDE",
+      "displayName": "Turn Back the Tide",
+      "description": "Kill all the vikings in a ship, before it reaches the shore",
+      "hidden": false,
+      "globalPercent": 87.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "prerequisites": [
+        "ACHIEVEMENT_READY_FOR_BATTLE"
+      ],
+      "summary": "Target a ship carrying only unshielded Vikings and use an @item{Archer} squad to kill every Viking aboard before the ship reaches shore.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shielded Vikings resist ordinary arrows while aboard a ship. Higher Archer class levels improve damage and make an early all-unshielded boat the safest target.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Promote one Militia commander to the @item{Archer} class and upgrade that class if campaign gold allows."
+          },
+          {
+            "id": "step-2",
+            "text": "During an island battle, identify an approaching ship whose visible passengers carry no shields."
+          },
+          {
+            "id": "step-3",
+            "text": "Move the Archer squad onto the shoreline tile in the ship's path and keep the squad there until its arrows kill every passenger before the bow touches land."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_PROTECTOR_OF_THE_REALM",
+      "displayName": "Protector of the Realm",
+      "description": "Win 10 islands in a row, without losing a single house",
+      "hidden": false,
+      "globalPercent": 76.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "challenge",
+      "prerequisites": [],
+      "summary": "Win @mechanic{10 consecutive islands} without allowing any house to be destroyed on those victories.",
+      "guide": {
+        "kind": "standard",
+        "context": "With Allow Level Restarts enabled, replaying a damaged island cleanly preserves the streak; returning to the campaign map after a win with a destroyed house breaks it.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Start an Easy campaign with @mechanic{Allow Level Restarts} enabled."
+          },
+          {
+            "id": "step-2",
+            "text": "Defend every house while eliminating all Vikings on each selected island."
+          },
+          {
+            "id": "step-3",
+            "text": "If any house is destroyed, choose @mechanic{Restart Island} after the battle and replay until every house survives before returning to the campaign map."
+          },
+          {
+            "id": "step-4",
+            "text": "Return to the campaign map after the tenth consecutive clean island victory to register the achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACHIEVEMENT_READY_FOR_BATTLE",
+    "ACHIEVEMENT_TURN_BACK_THE_TIDE",
+    "ACHIEVEMENT_PROTECTOR_OF_THE_REALM",
+    "ACHIEVEMENT_NORSEBANE",
+    "ACHIEVEMENT_SPLIT_THE_PARTY",
+    "ACHIEVEMENT_NIGHTWATCH",
+    "ACHIEVEMENT_COLD_STEEL",
+    "ACHIEVEMENT_READY_FOR_ANYTHING",
+    "ACHIEVEMENT_A_NEW_HOME",
+    "ACHIEVEMENT_FOLK_HERO",
+    "ACHIEVEMENT_BATH_IN_BLOOD"
+  ]
+}

@@ -1,0 +1,1462 @@
+{
+  "game": {
+    "appid": 387990,
+    "slug": "scrap-mechanic",
+    "title": "Scrap Mechanic",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-31",
+    "estTotalHours": 120,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Clear the profile and mode tasks",
+      "description": "Build the main-menu background, publish a Workshop creation, and complete the first six Challenge Mode trials before continuing toward all 50.",
+      "achievementRefs": [
+        "build_main_menu",
+        "share_creation",
+        "complete_some_challenges",
+        "complete_all_challenges"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Establish the Survival route",
+      "description": "Complete Your First Car, collect Hubert's mustache, begin farming and raids, rescue caged farmers, and accumulate early bot and crafting counters.",
+      "achievementRefs": [
+        "complete_firstcar_builderquest",
+        "huberts_mustache",
+        "defeat_farmbot",
+        "destroy_haybots",
+        "destroy_totebots",
+        "driveby_bot_woc",
+        "haybot_electrify",
+        "harvest_amount_of_plants",
+        "save_farmers",
+        "sucessful_raids",
+        "craft_blocks"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Advance through Growlabs and Scrap City",
+      "description": "Complete the first Growlab, rescue the Baby Woc, reach the Garage, clear the Hay Maze, and finish the food and explosive setup achievements.",
+      "achievementRefs": [
+        "complete_first_growlab",
+        "save_the_babywoc",
+        "babywoc_revive",
+        "build_garage",
+        "find_labyrinth",
+        "eat_pizzaburger",
+        "granade_tapebot",
+        "woc_explosive"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish underground progression and collections",
+      "description": "Activate the Mining Hub, defeat Minerbots, survive the Seekerbot, raise the Vault, complete request chains, and finish all schematics and outfits.",
+      "achievementRefs": [
+        "activate_mining_hub",
+        "destroy_minerbots",
+        "survive_seekerbot",
+        "vault_value",
+        "complete_all_builderquest",
+        "complete_all_farmerquests",
+        "unlock_all_blocks",
+        "unlock_all_outfits"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Complete the remaining grinds",
+      "description": "Finish 50 raids, win a level 5 defense, reach the high-speed threshold, close every cumulative counter, and trigger the all-achievements check.",
+      "achievementRefs": [
+        "raid_max_level",
+        "reach_velocity",
+        "unlock_all_achievements"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "defeat_farmbot",
+      "displayName": "Farmbot smackdown",
+      "description": "Defeat a farmbot",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Defeat one @enemy{Farmbot}; spawning and destroying one in Creative Mode also registers the achievement.",
+      "guide": {
+        "kind": "standard",
+        "context": "Creative Mode is the quickest controlled route because it removes the Survival preparation needed for a Farmbot encounter.",
+        "steps": [
+          {
+            "id": "open-creative",
+            "text": "Open a Creative Mode world and place a @enemy{Farmbot} from the inventory."
+          },
+          {
+            "id": "defeat-farmbot",
+            "text": "Use a weapon or armed creation to destroy the spawned @enemy{Farmbot} completely."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "complete_all_challenges",
+      "displayName": "True mechanic genius",
+      "description": "Complete all challenges",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15-25 h",
+      "estMinutes": 1200,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "complete_some_challenges"
+      ],
+      "summary": "Complete all 50 @mechanic{Master Mechanic Trials} in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "The trials are selected from the main menu, and patch 1.0.2 restored items that were missing from some challenge chests.",
+        "steps": [
+          {
+            "id": "open-challenge-mode",
+            "text": "Choose @mechanic{Challenge Mode} from the main menu and open the Master Mechanic Trials set."
+          },
+          {
+            "id": "clear-trials",
+            "text": "Complete Trials 1 through 50, satisfying each level's finish condition before advancing."
+          },
+          {
+            "id": "confirm-all",
+            "text": "Return to the trial selection screen and confirm that all 50 trials show as completed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "complete_some_challenges",
+      "displayName": "True mechanic",
+      "description": "Complete the first 6 challenges",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the first six @mechanic{Master Mechanic Trials} in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "These are the opening levels of the same 50-trial set required for the later full Challenge Mode achievement.",
+        "steps": [
+          {
+            "id": "open-trials",
+            "text": "Choose @mechanic{Challenge Mode} from the main menu and start the Master Mechanic Trials."
+          },
+          {
+            "id": "finish-six",
+            "text": "Complete Trials 1 through 6 in order and return to the selection screen after Trial 6 registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "complete_firstcar_builderquest",
+      "displayName": "My first car",
+      "description": "Complete the builder quest: Your first car",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete the Builder request @mechanic{Your First Car} by assembling its vehicle on the marked construction platform.",
+      "guide": {
+        "kind": "standard",
+        "context": "The request becomes available immediately after its introductory cutscene and uses the orange platform control to start construction.",
+        "steps": [
+          {
+            "id": "start-request",
+            "text": "After the Builder cutscene, press the orange button beside the marked construction platform."
+          },
+          {
+            "id": "place-lift",
+            "text": "Place the @item{Lift} on the platform and build the requested car to the displayed specification."
+          },
+          {
+            "id": "finish-request",
+            "text": "Complete every shown vehicle requirement and wait for the Builder request to close."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "complete_all_builderquest",
+      "displayName": "Helpful builder",
+      "description": "Complete all builder quests",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across Survival",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "complete_firstcar_builderquest"
+      ],
+      "summary": "Complete every construction request offered by the Builder NPCs encountered across the Survival world.",
+      "guide": {
+        "kind": "standard",
+        "context": "Complete the opening @mechanic{Your First Car} request before continuing with the construction-platform requests encountered later in Survival.",
+        "steps": [
+          {
+            "id": "accept-builders",
+            "text": "Accept each Builder construction request encountered during Survival exploration."
+          },
+          {
+            "id": "complete-platforms",
+            "text": "At the request's construction site, build the vehicle or structure specified by its displayed objectives."
+          },
+          {
+            "id": "clear-builder-requests",
+            "text": "Finish every available Builder construction request until the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "complete_first_growlab",
+      "displayName": "Growlab champion",
+      "description": "Complete the first Growlab",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Use @npc{Hubert}'s Growlab key, clear the first @loc{Growlab}, and reach the final chamber where the central sphere bursts.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hubert's quest chain supplies the key and map marker. Patch 1.0.4 redesigned a later Growlab combat corridor to prevent a progression lockout.",
+        "steps": [
+          {
+            "id": "earn-key",
+            "text": "Complete @npc{Hubert}'s active quests until he gives you the first @item{Growlab key} and marks the facility."
+          },
+          {
+            "id": "enter-growlab",
+            "text": "Travel to the marked @loc{Growlab}, insert the key at the entrance, and call the elevator."
+          },
+          {
+            "id": "clear-facility",
+            "text": "Follow the laboratory objectives through every required room until the central sphere bursts in the final chamber."
+          },
+          {
+            "id": "collect-reward",
+            "text": "Collect the completion reward and Large Chest schematic after the first Growlab closes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "complete_all_farmerquests",
+      "displayName": "Farmers eating good lately",
+      "description": "Complete all farmer delivery requests",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across Survival",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Complete every Farmer delivery request recorded in the Survival Quest Journal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Farmer delivery requests are separate from both Builder construction requests and the cumulative Caged Farmer rescues.",
+        "steps": [
+          {
+            "id": "accept-deliveries",
+            "text": "Accept each Farmer delivery request encountered during Survival progression."
+          },
+          {
+            "id": "deliver-items",
+            "text": "Bring the exact items and quantities shown by the active delivery objective to its named destination."
+          },
+          {
+            "id": "clear-requests",
+            "text": "Finish every available Farmer delivery request until the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "save_the_babywoc",
+      "displayName": "New best friend",
+      "description": "Rescue the Baby Woc",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach the campaign encounter with the @npc{Baby Woc}, defeat the attacking bots, and take the rescued Baby Woc with you.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Baby Woc appears through normal campaign progression and becomes a persistent companion after the rescue encounter.",
+        "steps": [
+          {
+            "id": "reach-encounter",
+            "text": "Continue the Survival campaign until the @npc{Baby Woc} is found under attack by bots."
+          },
+          {
+            "id": "clear-attackers",
+            "text": "Destroy every bot threatening the @npc{Baby Woc}."
+          },
+          {
+            "id": "complete-rescue",
+            "text": "Approach and collect the safe @npc{Baby Woc}, then wait for the rescue objective to complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "harvest_amount_of_plants",
+      "displayName": "Fresh fruits and vegetables",
+      "description": "Harvest 500 crops",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 h",
+      "estMinutes": 420,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Grow and harvest 500 seed-planted crops from soil in Survival Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every crop type grown from seed contributes, so normal food farming and Farmer deliveries can advance this counter together.",
+        "steps": [
+          {
+            "id": "plant-crops",
+            "text": "Place soil, plant any crop seeds, and water the plots until the crops mature."
+          },
+          {
+            "id": "harvest-crops",
+            "text": "Collect each mature crop directly from its plant."
+          },
+          {
+            "id": "reach-500",
+            "text": "Replant and harvest until 500 crops have been collected across the save."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "save_farmers",
+      "displayName": "The farmer’s hand",
+      "description": "Save 10 caged farmers by bringing them to the Hideout",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-6 h",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Transport 10 @npc{Caged Farmers} to the delivery point at the @loc{Hideout}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is a cumulative Survival counter, so each rescued cage can be delivered whenever the route passes the Hideout.",
+        "steps": [
+          {
+            "id": "find-farmer",
+            "text": "Find a @npc{Caged Farmer} in the Survival world and secure the cage to a transport creation."
+          },
+          {
+            "id": "reach-hideout",
+            "text": "Drive the cage to the @loc{Hideout} used for Farmer deliveries."
+          },
+          {
+            "id": "deliver-farmer",
+            "text": "Place the @npc{Caged Farmer} in the Hideout's delivery point and wait for the delivery to register."
+          },
+          {
+            "id": "deliver-ten",
+            "text": "Repeat the transport route until 10 separate caged farmers have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "vault_value",
+      "displayName": "Bank mechanic",
+      "description": "Reach a vault value of 2000000",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15-30 h",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Raise the Mining Hub @mechanic{Vault Value} display to 2,000,000 through the Vault questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "Patch 1.0.3 fixed cases where the Vault quota completed before its introduction quest advanced, so install the current patch before building this counter.",
+        "steps": [
+          {
+            "id": "unlock-vault",
+            "text": "Progress through the Mining Hub quest chain until the Vault introduction and its value display are active."
+          },
+          {
+            "id": "raise-vault-value",
+            "text": "Complete the value-raising objectives shown by the active Vault quest and watch the displayed Vault Value."
+          },
+          {
+            "id": "reach-value",
+            "text": "Continue the Vault objectives until the displayed value reaches 2,000,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "destroy_haybots",
+      "displayName": "Haybot Junkyard",
+      "description": "Destroy 100 Haybots",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Destroy 100 @enemy{Haybots}; kills in Creative Mode count toward the total.",
+      "guide": {
+        "kind": "standard",
+        "context": "Creative Mode can provide repeatable spawns, while a Survival run naturally supplies many Haybots during raids and exploration.",
+        "steps": [
+          {
+            "id": "choose-mode",
+            "text": "Use normal Survival encounters or spawn @enemy{Haybots} in a Creative Mode world."
+          },
+          {
+            "id": "destroy-100",
+            "text": "Destroy Haybots completely until 100 kills have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "destroy_totebots",
+      "displayName": "Totebot Junkyard",
+      "description": "Destroy 100 Totebots",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Destroy 100 @enemy{Totebots}; kills in Creative Mode count toward the total.",
+      "guide": {
+        "kind": "standard",
+        "context": "Totebots are common early enemies, so this counter can be advanced naturally before using Creative Mode for any remainder.",
+        "steps": [
+          {
+            "id": "choose-mode",
+            "text": "Fight Totebots during Survival progression or spawn them in a Creative Mode world."
+          },
+          {
+            "id": "destroy-100",
+            "text": "Destroy Totebots completely until 100 kills have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "destroy_minerbots",
+      "displayName": "Minerbot Junkyard",
+      "description": "Destroy 100 Minerbots",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-5 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Destroy 100 @enemy{Minerbots} in the underground or through controlled Creative Mode spawns.",
+      "guide": {
+        "kind": "standard",
+        "context": "Minerbots belong to the 1.0 underground progression, making this the latest of the three 100-bot counters during a normal Survival route.",
+        "steps": [
+          {
+            "id": "reach-minerbots",
+            "text": "Unlock the underground through the Survival questline or open a Creative Mode world with Minerbots available."
+          },
+          {
+            "id": "destroy-100",
+            "text": "Destroy Minerbots completely until 100 kills have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sucessful_raids",
+      "displayName": "Don’t touch my tomatoes",
+      "description": "Successfully defend crops 50 times",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-20 h",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Trigger and successfully defend 50 crop raids by keeping the protected crops intact until every attacking bot is defeated.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cotton and Pigment Flowers have no raid value, so plant food crops when intentionally building this cumulative counter.",
+        "steps": [
+          {
+            "id": "trigger-raid",
+            "text": "Plant and water food crops until the raid indicator confirms an incoming attack."
+          },
+          {
+            "id": "defend-crops",
+            "text": "Return before the raid starts and destroy every attacking bot before the protected crops are lost."
+          },
+          {
+            "id": "repeat-raids",
+            "text": "Harvest and replant between attacks until 50 successful raid defenses have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "craft_blocks",
+      "displayName": "Blocks for days",
+      "description": "Craft 10000 blocks of any kind.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 h",
+      "estMinutes": 420,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Craft 10,000 blocks of any type; Craftbot production in Creative Mode also counts.",
+      "guide": {
+        "kind": "standard",
+        "context": "Because the requirement counts crafted blocks rather than placed blocks, large queued Craftbot batches are more efficient than constructing a large creation.",
+        "steps": [
+          {
+            "id": "set-up-craftbot",
+            "text": "Place and open a @item{Craftbot} in Survival or Creative Mode."
+          },
+          {
+            "id": "queue-blocks",
+            "text": "Queue inexpensive block recipes in the largest practical batches and collect each completed stack."
+          },
+          {
+            "id": "reach-10000",
+            "text": "Continue Craftbot production until 10,000 crafted blocks have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "raid_max_level",
+      "displayName": "Master of defence",
+      "description": "Successfully defend crops against a level 5 raid",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30 min after setup",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Generate at least 1,000 crop value and defeat the resulting level 5 raid without losing the defended farm.",
+      "guide": {
+        "kind": "standard",
+        "context": "In the 1.0 raid table, Pineapple is worth 1,000 crop value by itself; level 5 introduces Farmbots and Blue Tapebots.",
+        "steps": [
+          {
+            "id": "prepare-defense",
+            "text": "Build durable farm walls, ranged firing positions, and repair access before planting the qualifying crops."
+          },
+          {
+            "id": "reach-1000",
+            "text": "Plant crops totaling at least 1,000 raid value, such as one Pineapple, and wait for the raid indicator to show level 5."
+          },
+          {
+            "id": "win-raid",
+            "text": "Be present when the raid begins and destroy the complete level 5 wave before it destroys the farm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "reach_velocity",
+      "displayName": "The Stuntman",
+      "description": "Reach a very high speed while sitting in a seat",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15-60 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "While seated in a creation, exceed the game's undisclosed very-high-speed threshold.",
+      "guide": {
+        "kind": "standard",
+        "context": "The trigger can fail even at very high seated speed, so repeat the run if the first attempt does not register.",
+        "steps": [
+          {
+            "id": "sit-in-creation",
+            "text": "Sit in a seat attached to a creation capable of reaching very high speed."
+          },
+          {
+            "id": "reach-speed",
+            "text": "Accelerate the seated creation to its highest speed and maintain that speed until the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "survive_seekerbot",
+      "displayName": "Surviving the impossible",
+      "description": "Survive the seekerbot",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "encounter dependent",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Let a @enemy{Seekerbot} detect and attack you, then remain alive until its attack ends or you escape detection.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Seekerbot can appear every one to three in-game days and launches many tracking rockets; bridges and enclosed structures provide safer cover than an open chase.",
+        "steps": [
+          {
+            "id": "find-seekerbot",
+            "text": "Watch for the large scanning @enemy{Seekerbot} during Survival exploration and approach until it detects you."
+          },
+          {
+            "id": "take-cover",
+            "text": "Move under a bridge or inside a solid structure before the tracking rockets arrive."
+          },
+          {
+            "id": "survive-attack",
+            "text": "Remain alive through the attack and stay in cover or escape until the encounter ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "haybot_electrify",
+      "displayName": "Wet circuits",
+      "description": "Throw water on a Haybot",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Fill a @item{Bucket} with water and throw the water onto a @enemy{Haybot} to short it out.",
+      "guide": {
+        "kind": "standard",
+        "context": "The water hit disables the Haybot temporarily and can be performed in Creative Mode for a controlled setup.",
+        "steps": [
+          {
+            "id": "fill-bucket",
+            "text": "Equip a @item{Bucket} and fill it from a water source."
+          },
+          {
+            "id": "douse-haybot",
+            "text": "Face a nearby @enemy{Haybot} and throw the bucket's water directly onto the bot."
+          },
+          {
+            "id": "confirm-shutdown",
+            "text": "Wait for the Haybot's electrical shutdown reaction to register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "build_garage",
+      "displayName": "Tool Time Shenanigans",
+      "description": "Build a creation in the Garage.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min after story unlock",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "At the @loc{Scrap City Garage}, select a saved blueprint at the terminal and assemble the creation; a one-block blueprint is sufficient.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @loc{Scrap City Garage} becomes accessible late in Survival progression.",
+        "steps": [
+          {
+            "id": "save-blueprint",
+            "text": "Create and save a small blueprint in Creative Mode; one block on a Lift is enough for the achievement route."
+          },
+          {
+            "id": "reach-garage",
+            "text": "Follow the Survival story until the late-game @loc{Scrap City Garage} becomes accessible, then enter the Garage building."
+          },
+          {
+            "id": "select-creation",
+            "text": "Climb the side stairs, use the Garage terminal, and select the saved blueprint."
+          },
+          {
+            "id": "assemble-creation",
+            "text": "Supply any requested materials and confirm assembly, then wait for the Garage to produce the creation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "granade_tapebot",
+      "displayName": "Lethal snack",
+      "description": "Destroy two blue tapebots with a cornade",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Destroy two @enemy{Blue Tapebots} with the same @item{Cornade} explosion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Creative Mode allows both targets and the Cornade to be staged together without waiting for a Survival encounter.",
+        "steps": [
+          {
+            "id": "stage-tapebots",
+            "text": "Place two @enemy{Blue Tapebots} close enough together for one explosion to hit both; Creative Mode is the simplest setup."
+          },
+          {
+            "id": "throw-cornade",
+            "text": "Throw one @item{Cornade} between the two Blue Tapebots."
+          },
+          {
+            "id": "confirm-double-kill",
+            "text": "Ensure that the single Cornade blast destroys both Blue Tapebots."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "woc_explosive",
+      "displayName": "Questionable behaviour",
+      "description": "Use an explosive canister to blow up a Woc",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill one @npc{Woc} by detonating an @item{Explosive Canister} beside it.",
+      "guide": {
+        "kind": "standard",
+        "context": "The target and canister can be staged in Creative Mode, avoiding the cost of crafting the explosive in Survival.",
+        "steps": [
+          {
+            "id": "stage-explosion",
+            "text": "Place an @npc{Woc} and an @item{Explosive Canister} next to each other in Creative Mode or Survival."
+          },
+          {
+            "id": "detonate-canister",
+            "text": "Damage the Explosive Canister from a safe distance to detonate it."
+          },
+          {
+            "id": "confirm-woc-kill",
+            "text": "Ensure that the canister explosion kills the Woc."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "unlock_all_outfits",
+      "displayName": "Sharp dressed mechanic",
+      "description": "Unlock every outfit",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20-40 h",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Unlock every character outfit through @item{Garment Boxes}, quest rewards, and the 50 Master Mechanic Trials.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Dressbot opens common Garment Boxes for 10 Cotton and rare Garment Boxes for 15 Cotton, while the Stuntman set comes from completing all trials.",
+        "steps": [
+          {
+            "id": "open-boxes",
+            "text": "Open each common @item{Garment Box} in a @item{Dressbot} with 10 Cotton and each rare Garment Box with 15 Cotton."
+          },
+          {
+            "id": "finish-quest-rewards",
+            "text": "Complete quests that award clothing and claim each outfit reward they provide."
+          },
+          {
+            "id": "finish-trials",
+            "text": "Complete all 50 Master Mechanic Trials to unlock the Stuntman outfit."
+          },
+          {
+            "id": "check-wardrobe",
+            "text": "Open the Dressbot Wardrobe and continue earning missing rewards until every outfit entry is unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "build_main_menu",
+      "displayName": "My beautiful background",
+      "description": "Build something in the main menu",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open the main-menu background editor, build any object, and save the edited background when leaving.",
+      "guide": {
+        "kind": "standard",
+        "context": "The editor is opened with the blue button at the bottom of the main menu and accepts even a minimal creation.",
+        "steps": [
+          {
+            "id": "open-editor",
+            "text": "Press the blue edit button at the bottom of the main menu."
+          },
+          {
+            "id": "build-object",
+            "text": "Place at least one block or part in the background scene."
+          },
+          {
+            "id": "save-background",
+            "text": "Exit the editor and choose to save the modified main-menu background."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "share_creation",
+      "displayName": "Blessing the Workshop",
+      "description": "Share a creation on the Steam Workshop",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Save a named Creative Mode creation and publish it with the @mechanic{Share} command to the Steam Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Share command is used from a saved Creative Mode blueprint created on a Lift; saving the blueprint locally is only the preparation step.",
+        "steps": [
+          {
+            "id": "build-creation",
+            "text": "In Creative Mode, place a Lift and build any creation on it."
+          },
+          {
+            "id": "save-blueprint",
+            "text": "Use the Lift menu to save the creation and give it a name."
+          },
+          {
+            "id": "share-workshop",
+            "text": "Open the saved blueprint entry, choose @mechanic{Share}, complete the Steam Workshop upload fields, and publish it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "eat_pizzaburger",
+      "displayName": "Pizza Burger chow down",
+      "description": "Wear the Pizza Burger shirt while eating a Pizza Burger",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-5 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Wear the @item{Pizza Burger Shirt}, then consume a @item{Pizza Burger} cooked from 1 Woc meat, 5 Tomatoes, and 10 Potatoes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Patch 1.0.1 fixed this achievement's launch bug, so update the game before attempting the shirt-and-food check.",
+        "steps": [
+          {
+            "id": "cook-burger",
+            "text": "Use a @item{Cookbot} to craft a Pizza Burger with 1 Woc meat, 5 Tomatoes, and 10 Potatoes."
+          },
+          {
+            "id": "unlock-shirt",
+            "text": "Open Garment Boxes with a @item{Dressbot} until the @item{Pizza Burger Shirt} is unlocked."
+          },
+          {
+            "id": "wear-shirt",
+            "text": "Open character customization and equip the @item{Pizza Burger Shirt}."
+          },
+          {
+            "id": "eat-burger",
+            "text": "While the Pizza Burger Shirt is still equipped, consume the cooked @item{Pizza Burger}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "activate_mining_hub",
+      "displayName": "Up and running",
+      "description": "Activate all stations in the Mining Hub",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Activate every station in the @loc{Mining Hub}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This objective belongs to the underground progression and cannot be completed before the Mining Hub becomes accessible.",
+        "steps": [
+          {
+            "id": "unlock-hub",
+            "text": "Progress through the underground story until the @loc{Mining Hub} becomes accessible."
+          },
+          {
+            "id": "activate-stations",
+            "text": "Activate each station available inside the Mining Hub."
+          },
+          {
+            "id": "finish-hub",
+            "text": "Continue activating stations until the achievement registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "driveby_bot_woc",
+      "displayName": "Bot splat",
+      "description": "Destroy a bot with a creation",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill any bot by striking it with a player-built powered creation.",
+      "guide": {
+        "kind": "standard",
+        "context": "A gasoline-engine vehicle has enough impact force for a simple run-over and is easier to control than an explosive contraption.",
+        "steps": [
+          {
+            "id": "build-vehicle",
+            "text": "Build a drivable creation with a seat, wheels, and a gasoline engine."
+          },
+          {
+            "id": "choose-bot",
+            "text": "Line up a Totebot or Haybot on a clear stretch of ground."
+          },
+          {
+            "id": "ram-bot",
+            "text": "Accelerate the creation into the bot and continue striking it with the vehicle until the bot is destroyed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "unlock_all_achievements",
+      "displayName": "Spectacular Mechanic",
+      "description": "Get every achievement",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "completion meta",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "defeat_farmbot",
+        "complete_all_challenges",
+        "complete_some_challenges",
+        "complete_firstcar_builderquest",
+        "complete_all_builderquest",
+        "complete_first_growlab",
+        "complete_all_farmerquests",
+        "save_the_babywoc",
+        "harvest_amount_of_plants",
+        "save_farmers",
+        "vault_value",
+        "destroy_haybots",
+        "destroy_totebots",
+        "destroy_minerbots",
+        "sucessful_raids",
+        "craft_blocks",
+        "raid_max_level",
+        "reach_velocity",
+        "survive_seekerbot",
+        "haybot_electrify",
+        "build_garage",
+        "granade_tapebot",
+        "woc_explosive",
+        "unlock_all_outfits",
+        "build_main_menu",
+        "share_creation",
+        "eat_pizzaburger",
+        "activate_mining_hub",
+        "driveby_bot_woc",
+        "find_labyrinth",
+        "huberts_mustache",
+        "babywoc_revive",
+        "unlock_all_blocks"
+      ],
+      "summary": "Unlock each of Scrap Mechanic's other 33 Steam achievements on the same Steam account.",
+      "guide": {
+        "kind": "standard",
+        "context": "This meta-achievement is the final completion check and should be left until every mode, Survival counter, collection, and online Workshop task is finished.",
+        "steps": [
+          {
+            "id": "check-roster",
+            "text": "Open Scrap Mechanic's Steam achievement list and identify any locked entry other than Spectacular Mechanic."
+          },
+          {
+            "id": "finish-others",
+            "text": "Complete every remaining locked requirement until the other 33 achievements are unlocked."
+          },
+          {
+            "id": "trigger-meta",
+            "text": "Return to the game and allow the achievement system to register the completed roster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "find_labyrinth",
+      "displayName": "Still in one piece",
+      "description": "Reach the Center of the Hay Maze",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach the center of the @loc{Hay Maze} near Growlab 2 and break open the schematic capsule there.",
+      "guide": {
+        "kind": "standard",
+        "context": "The maze contains several Farmbots and other enemies; a bridge built from roughly 500 blocks can reach the center from above with less direct combat.",
+        "steps": [
+          {
+            "id": "prepare-route",
+            "text": "Bring roughly 500 building blocks, a powered vehicle, fuel, and ranged ammunition before approaching the @loc{Hay Maze} near Growlab 2."
+          },
+          {
+            "id": "gain-height",
+            "text": "Climb onto a tall hay stack at the maze edge and build a protected platform."
+          },
+          {
+            "id": "bridge-to-center",
+            "text": "Extend a four-block-wide bridge over the maze toward the central capsule while staying above the Farmbots."
+          },
+          {
+            "id": "open-capsule",
+            "text": "Reach the center and strike the schematic capsule to open it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "huberts_mustache",
+      "displayName": "Huberts high friction mustache",
+      "description": "Find Hubert's missing mustache piece",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pick up @npc{Hubert}'s missing mustache piece from the corner of his build platform opposite the kiosk.",
+      "guide": {
+        "kind": "standard",
+        "context": "The piece is available around the first meeting with Hubert, so it can be collected near the beginning instead of waiting for later story progress.",
+        "steps": [
+          {
+            "id": "reach-hubert",
+            "text": "Travel to @npc{Hubert}'s build platform during the early Survival questline."
+          },
+          {
+            "id": "search-corner",
+            "text": "Walk to the platform corner on the side opposite Hubert's kiosk."
+          },
+          {
+            "id": "collect-mustache",
+            "text": "Pick up the loose mustache piece lying on that corner of the platform."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "babywoc_revive",
+      "displayName": "Friendly revival",
+      "description": "Get revived by the Baby Woc",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min after rescue",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "save_the_babywoc"
+      ],
+      "summary": "After rescuing the @npc{Baby Woc}, keep it nearby and let your mechanic be knocked out so the Baby Woc revives you.",
+      "guide": {
+        "kind": "standard",
+        "context": "The rescued companion must remain present; keep the Baby Woc fed because it can despawn after roughly 30 in-game days without food.",
+        "steps": [
+          {
+            "id": "rescue-woc",
+            "text": "Complete the campaign rescue encounter and bring the @npc{Baby Woc} to a safe base area."
+          },
+          {
+            "id": "prepare-knockout",
+            "text": "Keep the Baby Woc beside you, restore the save first, and allow a controlled enemy or hazard to reduce your health to zero."
+          },
+          {
+            "id": "receive-revival",
+            "text": "Do not respawn manually; wait for the nearby @npc{Baby Woc} to perform the revival."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "unlock_all_blocks",
+      "displayName": "Schematic collector club",
+      "description": "Unlock all block schematics",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15-30 h",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Use @mechanic{Schematicbots} to unlock every block schematic from Schematic Boxes and eligible owned blocks.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Schematic Box removes one random eligible unlock from the remaining pool, while presenting an eligible block you already own targets that exact part.",
+        "steps": [
+          {
+            "id": "find-schematicbot",
+            "text": "Locate a @mechanic{Schematicbot} beside a road or at the guaranteed underground location."
+          },
+          {
+            "id": "scan-boxes",
+            "text": "Collect Schematic Boxes from loot and submit them to the Schematicbot for random missing block unlocks."
+          },
+          {
+            "id": "target-blocks",
+            "text": "When you possess a still-locked eligible block, present that block to the Schematicbot to unlock its exact schematic."
+          },
+          {
+            "id": "finish-pool",
+            "text": "Continue both scan routes until the Schematicbot has no locked block schematic remaining."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "build_main_menu",
+    "share_creation",
+    "complete_some_challenges",
+    "complete_all_challenges",
+    "complete_firstcar_builderquest",
+    "huberts_mustache",
+    "defeat_farmbot",
+    "haybot_electrify",
+    "driveby_bot_woc",
+    "destroy_totebots",
+    "destroy_haybots",
+    "harvest_amount_of_plants",
+    "save_farmers",
+    "sucessful_raids",
+    "craft_blocks",
+    "complete_first_growlab",
+    "save_the_babywoc",
+    "babywoc_revive",
+    "eat_pizzaburger",
+    "granade_tapebot",
+    "woc_explosive",
+    "find_labyrinth",
+    "build_garage",
+    "activate_mining_hub",
+    "destroy_minerbots",
+    "survive_seekerbot",
+    "vault_value",
+    "complete_all_builderquest",
+    "complete_all_farmerquests",
+    "unlock_all_blocks",
+    "unlock_all_outfits",
+    "raid_max_level",
+    "reach_velocity",
+    "unlock_all_achievements"
+  ]
+}

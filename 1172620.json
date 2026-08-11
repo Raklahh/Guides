@@ -13,9 +13,16 @@
   "roadmap": [
     {
       "step": 1,
-      "title": "Urgent Diving achievements",
-      "description": "Use Dive to Location for the seven qualifying company Voyages before the Season 21 experiment temporarily removes Diving sometime in September 2026. The exact removal and return dates are not set.",
+      "title": "Urgent Diving achievements and Pirate Legend prerequisite",
+      "description": "Complete the non-Athena Diving achievements immediately. Reach Pirate Legend by earning three eligible level-50 Company Promotions before attempting the Athena's Fortune Dive, then finish all seven qualifying Diving achievements before the Season 21 experiment temporarily removes Diving sometime in September 2026. The exact removal and return dates are not set.",
       "achievementRefs": [
+        "29",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
         "257",
         "258",
         "259",
@@ -50,9 +57,6 @@
         "32",
         "33",
         "34",
-        "38",
-        "40",
-        "42",
         "76",
         "77",
         "78",
@@ -60,6 +64,7 @@
         "140",
         "141",
         "142",
+        "143",
         "144",
         "168",
         "249",
@@ -243,10 +248,6 @@
       "title": "Long grinds, ledgers, PvP, and final cleanup",
       "description": "Close monthly Emissary Ledgers, finish Hourglass and Guild commitments, complete large voyage, sale, distance, kill, ship, and RNG counters, then clean up any remaining meta-achievements.",
       "achievementRefs": [
-        "29",
-        "39",
-        "41",
-        "43",
         "44",
         "45",
         "46",
@@ -275,7 +276,6 @@
         "130",
         "136",
         "139",
-        "143",
         "145",
         "146",
         "147",
@@ -1281,7 +1281,7 @@
       "difficulty": 4,
       "estTime": "reach level 50 in three companies",
       "estMinutes": 6000,
-      "stage": 8,
+      "stage": 1,
       "prerequisites": [
         "39",
         "41",
@@ -1390,7 +1390,7 @@
       "stage": 2,
       "confidence": "verified",
       "group": "sailing",
-      "summary": "At night, sail into a storm with every lantern on your ship extinguished.",
+      "summary": "After nightfall, extinguish every ship lantern before steering into an active storm.",
       "guide": {
         "kind": "standard",
         "context": "Every interior and exterior ship lantern counts, so check below deck as well as the deck and masts.",
@@ -1487,7 +1487,7 @@
       "stage": 3,
       "confidence": "verified",
       "group": "crew-actions",
-      "summary": "Race alongside another crew's ship in the same direction for several minutes without either crew firing weapons.",
+      "summary": "Sail alongside another crew's ship in the same direction without either crew firing; keep the race uninterrupted, as the unlock may register after the attempt.",
       "guide": {
         "kind": "standard",
         "context": "The two ships may be allied, but weapon fire invalidates the peaceful race condition.",
@@ -1498,7 +1498,7 @@
           },
           {
             "id": "sail-clean",
-            "text": "Maintain the parallel race for several minutes without either ship firing cannons or other weapons."
+            "text": "Keep both ships sailing side by side in the same direction without either crew firing cannons or other weapons or breaking the race formation. The achievement may register after the qualifying race ends rather than immediately."
           }
         ]
       }
@@ -1589,7 +1589,7 @@
       "difficulty": 1,
       "estTime": "first Gold Hoarder voyage",
       "estMinutes": 20,
-      "stage": 2,
+      "stage": 1,
       "confidence": "verified",
       "group": "gold-hoarders",
       "summary": "Complete one @mechanic{Gold Hoarder Voyage} and finish its final objective.",
@@ -1624,7 +1624,7 @@
       "difficulty": 3,
       "estTime": "reach Gold Hoarders level 50",
       "estMinutes": 1800,
-      "stage": 8,
+      "stage": 1,
       "prerequisites": [
         "38"
       ],
@@ -1662,7 +1662,7 @@
       "difficulty": 1,
       "estTime": "first Order of Souls voyage",
       "estMinutes": 20,
-      "stage": 2,
+      "stage": 1,
       "confidence": "verified",
       "group": "order-of-souls",
       "summary": "Complete one @mechanic{Order of Souls Voyage} and finish its final bounty objective.",
@@ -1697,7 +1697,7 @@
       "difficulty": 3,
       "estTime": "reach Order of Souls level 50",
       "estMinutes": 1800,
-      "stage": 8,
+      "stage": 1,
       "prerequisites": [
         "40"
       ],
@@ -1735,7 +1735,7 @@
       "difficulty": 1,
       "estTime": "first Merchant Alliance voyage",
       "estMinutes": 20,
-      "stage": 2,
+      "stage": 1,
       "confidence": "verified",
       "group": "merchant-alliance",
       "summary": "Complete one @mechanic{Merchant Alliance Voyage} and finish its required delivery or cargo objective.",
@@ -1770,7 +1770,7 @@
       "difficulty": 3,
       "estTime": "reach Merchant Alliance level 50",
       "estMinutes": 1800,
-      "stage": 8,
+      "stage": 1,
       "prerequisites": [
         "42"
       ],
@@ -1849,7 +1849,7 @@
       "summary": "Complete @mechanic{250 Gold Hoarder Voyages} to finish the Golden Voyager Commendation.",
       "guide": {
         "kind": "standard",
-        "context": "Short X Marks the Spot or riddle voyages minimize time, and progress is visible on the matching Gold Hoarder commendation.",
+        "context": "Brief riddle or X Marks the Spot Voyages make the 250 completions faster, and the matching Gold Hoarder commendation displays progress.",
         "steps": [
           {
             "id": "complete-250-gh",
@@ -2347,7 +2347,7 @@
       "stage": 8,
       "confidence": "verified",
       "group": "order-of-souls",
-      "summary": "Accumulate @mechanic{150,000 gold} from Order of Souls sales of bounty skulls.",
+      "summary": "Earn a cumulative @mechanic{150,000 gold} by turning in bounty skulls for Order of Souls credit.",
       "guide": {
         "kind": "standard",
         "context": "The Mercenary of the Ancient Order Commendation on the company page tracks qualifying gold.",
@@ -2778,7 +2778,7 @@
           },
           {
             "id": "confirm-legendary-hunter",
-            "text": "Open the Hunter's Call page and verify that @mechanic{Legendary Hunter of the Sea of Thieves} and its title are both awarded."
+            "text": "Open the Hunter's Call page and confirm that its Grade 5 meta-title and this achievement have both been awarded."
           }
         ]
       }
@@ -3027,7 +3027,7 @@
       ],
       "confidence": "verified",
       "group": "shores-of-gold",
-      "summary": "Complete @mechanic{The Art of the Trickster} Tall Tale once after finishing The Cursed Rogue.",
+      "summary": "After completing The Cursed Rogue, finish one run of @mechanic{The Art of the Trickster}.",
       "guide": {
         "kind": "standard",
         "context": "The tale can be selected at the Quest Table or voted on beside Salty at the east-beach shipwreck on Plunder Valley; the Gunpowder Key explodes if damaged.",
@@ -3068,7 +3068,7 @@
       ],
       "confidence": "verified",
       "group": "shores-of-gold",
-      "summary": "Finish one run of @mechanic{The Fate of the Morningstar} after unlocking it by clearing the four Briggsy routes.",
+      "summary": "Before finishing @mechanic{The Fate of the Morningstar}, complete @mechanic{Wild Rose} and, separately, @mechanic{The Art of the Trickster}; also clear @mechanic{The Legendary Storyteller} plus @mechanic{Stars of a Thief}.",
       "guide": {
         "kind": "standard",
         "context": "Start this Tall Tale from the ship's Quest Table; its in-world Tale Book sits on the @loc{Ferry of the Damned}, beside @npc{the Ferryman}.",
@@ -3639,7 +3639,7 @@
       "stage": 6,
       "confidence": "verified",
       "group": "fort-of-the-damned",
-      "summary": "Activate the @loc{Fort of the Damned} by lighting all six Flame of Fate statues and placing a Ritual Skull on the central skeleton.",
+      "summary": "Light the six @mechanic{Flame of Fate} statues, place a @item{Ritual Skull} on the central skeleton, and start @loc{Fort of the Damned}.",
       "guide": {
         "kind": "standard",
         "context": "A Skull of Destiny can supply all six flames and also function as the Ritual Skull; the traditional method stores six death-earned flames in ship lanterns.",
@@ -3831,7 +3831,7 @@
       "summary": "Open Ashen Chests until you find @item{Tome of Curses I}, then sell that exact tome to Larinna or the Reaper's Bones.",
       "guide": {
         "kind": "standard",
-        "context": "Ashen Chests require Ashen Keys and contain random tomes; both items can come from Skeleton Forts, Skeleton Ships, and Ashen Guardians, and tomes do not spawn in Safer Seas.",
+        "context": "Safer Seas never generates Ashen Tomes. In High Seas, unlock Ashen Chests for random volumes; Skeleton Forts, Skeleton Ships, and Ashen Guardians can supply the chest or key.",
         "steps": [
           {
             "id": "open-ashen-chests",
@@ -4026,7 +4026,7 @@
         "steps": [
           {
             "id": "step-1",
-            "text": "Open locked @item{Ashen Chests} with @item{Ashen Keys} and collect Tome of Curses I, II, III, IV, and V."
+            "text": "Use @item{Ashen Keys} on locked @item{Ashen Chests} until you have the five Curses volumes: V, IV, III, II, and I."
           },
           {
             "id": "step-2",
@@ -4256,7 +4256,7 @@
         "steps": [
           {
             "id": "step-1",
-            "text": "Open locked @item{Ashen Chests} with @item{Ashen Keys} and collect Tome of Power I, II, III, IV, and V."
+            "text": "Use @item{Ashen Keys} on locked @item{Ashen Chests} until you have the five Power volumes: V, IV, III, II, and I."
           },
           {
             "id": "step-2",
@@ -4521,7 +4521,7 @@
         "steps": [
           {
             "id": "step-1",
-            "text": "Open locked @item{Ashen Chests} with @item{Ashen Keys} and collect Tome of Fire I, II, III, IV, and V."
+            "text": "Use @item{Ashen Keys} on locked @item{Ashen Chests} until you have the five Fire volumes: V, IV, III, II, and I."
           },
           {
             "id": "step-2",
@@ -4751,7 +4751,7 @@
         "steps": [
           {
             "id": "step-1",
-            "text": "Open locked @item{Ashen Chests} with @item{Ashen Keys} and collect Tome of Resurrection I, II, III, IV, and V."
+            "text": "Use @item{Ashen Keys} on locked @item{Ashen Chests} until you have the five Resurrection volumes: V, IV, III, II, and I."
           },
           {
             "id": "step-2",
@@ -4782,7 +4782,7 @@
       "prerequisites": [
         "110"
       ],
-      "summary": "Complete the @mechanic{Heart of Fire} Tall Tale once.",
+      "summary": "Finish one complete run of @mechanic{Heart of Fire}.",
       "guide": {
         "kind": "standard",
         "context": "Start the Tall Tale from Tallulah at The Charred Parrot on Morrow's Peak Outpost after completing The Seabound Soul.",
@@ -4873,7 +4873,7 @@
       "summary": "Sell one each of the seven original @mechanic{Legendary Treasure} types to Athena's Fortune.",
       "guide": {
         "kind": "standard",
-        "context": "Legend of the Veil loot is not part of this original seven-item set. Athena's Fortune Voyages provide the required treasures.",
+        "context": "The original seven-item set excludes Legend of the Veil rewards. Obtain the required treasures through Athena's Fortune Voyages instead.",
         "steps": [
           {
             "id": "step-1",
@@ -4959,7 +4959,7 @@
           },
           {
             "id": "step-2",
-            "text": "Gather the crew at the @mechanic{Order of Souls Emissary Table} beside the company representative and vote to raise the flag."
+            "text": "Beside an Order of Souls representative, gather the crew around the @mechanic{Emissary Table} and vote to raise the company flag."
           },
           {
             "id": "step-3",
@@ -5023,7 +5023,7 @@
       "difficulty": 1,
       "estTime": "about 5 min after licence",
       "estMinutes": 5,
-      "stage": 8,
+      "stage": 2,
       "confidence": "verified",
       "group": "emissary-flags",
       "prerequisites": [
@@ -5142,7 +5142,7 @@
       "stage": 8,
       "confidence": "verified",
       "group": "company-levels",
-      "summary": "Reach reputation level 75 with @mechanic{Order of Souls}, then buy the level-75 promotion.",
+      "summary": "Raise @mechanic{Order of Souls} reputation to 75, then purchase that Company's level-75 promotion.",
       "guide": {
         "kind": "standard",
         "context": "Reputation alone is insufficient: the achievement is tied to purchasing the promotion from the company's representative.",
@@ -5475,7 +5475,7 @@
         "dlc": false
       },
       "difficulty": 6,
-      "estTime": "10 ghost-fleet finales",
+      "estTime": "10 Burning Blade finales plus Rank 75 voyage RNG",
       "estMinutes": 900,
       "stage": 8,
       "confidence": "verified",
@@ -5483,19 +5483,19 @@
       "summary": "Destroy @enemy{The Burning Blade} ghost ship ten times.",
       "guide": {
         "kind": "standard",
-        "context": "The qualifying ship appears as the final boss of eligible Order of Souls Ghost Fleet encounters or the matching world event; the Order of Souls quest variant requires reputation level 75.",
+        "context": "The Order of Souls sells Ghost Ship Voyages from reputation Rank 25, but only the highest-tier Rank 75 version can randomly replace its final Ghost Captain Ship with @enemy{The Burning Blade}.",
         "steps": [
           {
             "id": "step-1",
-            "text": "Start an eligible Order of Souls Ghost Fleet encounter or sail to the Burning Blade ghost-fleet world event."
+            "text": "Reach Order of Souls reputation Rank 75, then buy and start the highest-tier Ghost Ship Voyage from an Order of Souls representative at an Outpost."
           },
           {
             "id": "step-2",
-            "text": "Destroy the preliminary ghost-ship waves, then fire cannonballs or Wraith Cannonballs into @enemy{The Burning Blade} until it sinks."
+            "text": "Destroy the preliminary Ghost Ship waves. If @enemy{The Burning Blade} replaces the normal captain in the final wave, hit the flagship with cannon fire until it sinks."
           },
           {
             "id": "step-3",
-            "text": "Repeat until the Order of Souls commendation records ten Burning Blade defeats."
+            "text": "Complete and restart Rank 75 Ghost Ship Voyages whenever the normal captain appears, and keep sinking @enemy{The Burning Blade} until the Order of Souls commendation records ten defeats."
           }
         ]
       }
@@ -5519,22 +5519,22 @@
       "stage": 8,
       "confidence": "verified",
       "group": "ghost-fleets",
-      "summary": "Destroy 500 @enemy{Ghost Ships} across qualifying ghost-fleet encounters.",
+      "summary": "Destroy 500 @enemy{Ghost Ships} during Order of Souls Ghost Ship Voyages.",
       "guide": {
         "kind": "standard",
-        "context": "Order of Souls Ghost Fleet Voyages, the Burning Blade ghost-fleet event, and the final Legend of the Veil chapter all provide qualifying targets.",
+        "context": "Order of Souls Ghost Ship Voyages become available after the Rank 25 Mystic Mercenary promotion. Their ordinary Ghost Ships provide the established progress for this cumulative commendation.",
         "steps": [
           {
             "id": "step-1",
-            "text": "Start Order of Souls Ghost Fleet Voyages, Burning Blade ghost-fleet events, or Legend of the Veil finales."
+            "text": "Reach Order of Souls reputation Rank 25, buy the Mystic Mercenary promotion, and start a Ghost Ship Voyage from an Order of Souls representative at an Outpost."
           },
           {
             "id": "step-2",
-            "text": "Use ship cannons to destroy grunt and captain @enemy{Ghost Ships}; grunt ships normally require three hits."
+            "text": "Use your ship's cannons to destroy the voyage's ordinary @enemy{Ghost Ships}; each grunt ship normally sinks after three cannon hits."
           },
           {
             "id": "step-3",
-            "text": "Continue until the Order of Souls commendation reaches 500 destroyed Ghost Ships."
+            "text": "Complete additional Order of Souls Ghost Ship Voyages until the Scourge of the Damned commendation records 500 destroyed Ghost Ships."
           }
         ]
       }
@@ -6088,7 +6088,7 @@
           },
           {
             "id": "step-2",
-            "text": "Recover the Special Recipe from the cave beside the pulley-platform route, place it by the chess skeletons, put the Cursed Captain on the headless body, and use Dougie's Medallion to win the Ship's Key."
+            "text": "Recover the Special Recipe near the pulley-platform cave and set it beside the chess skeletons. Attach the Cursed Captain to the waiting body, then use Dougie's Medallion to win the Ship's Key."
           },
           {
             "id": "step-3",
@@ -6256,7 +6256,7 @@
           },
           {
             "id": "step-3",
-            "text": "Use the town-wall cannon to hit the ghost ship for Strike Yer Colours, and use the keys from the dog's bowl to free the ghost prisoners before opening the main-path door."
+            "text": "Take the keys from the dog's bowl and release the imprisoned ghosts before opening the route onward. Also fire the town-wall cannon into the ghost ship for Strike Yer Colours."
           },
           {
             "id": "step-4",
@@ -6895,7 +6895,7 @@
       "stage": 8,
       "confidence": "verified",
       "group": "sunken-kingdom",
-      "summary": "Sell 30 Breaths of the Sea, 50 Coral Skulls, 25 Coral Chests, 25 Coral Relics, and 50 Coral Coffers.",
+      "summary": "Sell @mechanic{50 Coral Coffers, 25 Coral Relics, 30 Breaths of the Sea, 25 Coral Chests, and 50 Coral Skulls}.",
       "guide": {
         "kind": "standard",
         "context": "Breaths of the Sea come from Coral Message in a Bottle quests; the bottles glow blue and can appear on beaches, in floating barrels, or in shipwrecks.",
@@ -6906,7 +6906,7 @@
           },
           {
             "id": "step-2",
-            "text": "Explore Siren Shrines and Siren Treasuries, then sell 50 Coral Skulls, 25 Coral Chests, 25 Coral Relics, and 50 Coral Coffers."
+            "text": "Loot Siren Shrines and Treasuries, then turn in @mechanic{50 Coral Coffers, 25 Coral Relics, 25 Coral Chests, and 50 Coral Skulls}."
           },
           {
             "id": "step-3",
@@ -6998,7 +6998,7 @@
           },
           {
             "id": "step-3",
-            "text": "After reading all 30 journals, complete the Legend of the Sunken Kingdom voyage from the ship's Quest Table."
+            "text": "Once all @mechanic{30 journals} are read, select Legend of the Sunken Kingdom at the ship's Quest Table and finish that Voyage."
           },
           {
             "id": "step-4",
@@ -7107,7 +7107,7 @@
       "summary": "Launch at least five @item{Fireworks} during one in-game night.",
       "guide": {
         "kind": "standard",
-        "context": "Fireworks can be found in barrels or purchased from Merchant Alliance Senior Traders; all five must be launched within the same night cycle.",
+        "context": "Merchant Alliance Senior Traders sell fireworks, and barrels may also contain them. Launch the required five before the current night cycle ends.",
         "steps": [
           {
             "id": "step-1",
@@ -7154,7 +7154,7 @@
           },
           {
             "id": "step-3",
-            "text": "Use the Sit prompt on the golden throne in the boss arena."
+            "text": "In the boss arena, interact with the golden throne and choose the Sit prompt."
           }
         ]
       }
@@ -7252,18 +7252,18 @@
       "stage": 8,
       "confidence": "verified",
       "group": "buried-treasure",
-      "summary": "Bury 25 eligible treasure items.",
+      "summary": "Bury 25 unique valuable treasure items; digging up and reburying the same item does not add progress.",
       "guide": {
         "kind": "standard",
-        "context": "The related Bilge Rats commendation is graded and cumulative, so the 25 burials can be spread across islands and sessions.",
+        "context": "The Hider of Secret Treasures counter persists across islands and sessions, but each physical treasure item grants burial credit only once.",
         "steps": [
           {
             "id": "step-1",
-            "text": "Place an eligible treasure item on diggable ground and use the shovel to bury it completely."
+            "text": "Place any valuable treasure that can be buried on soft ground, equip the shovel, and use its bury action until the item is completely underground."
           },
           {
             "id": "step-2",
-            "text": "Repeat with 25 treasure items, checking Pirate Log > Bilge Rats > Buried Treasures for progress."
+            "text": "Repeat with 25 different valuable treasure items, without digging up and reburying an item already credited, and check Pirate Log > Bilge Rats > Buried Treasures for progress."
           }
         ]
       }
@@ -7434,7 +7434,7 @@
             "index": 7,
             "name": "Hider of Secret Treasures",
             "location": "@loc{Diggable island ground}",
-            "method": "Bury 25 eligible treasure items.",
+            "method": "Bury 25 unique valuable treasure items; digging up and reburying the same physical item does not add credit.",
             "missable": false
           },
           {
@@ -7458,23 +7458,23 @@
             "index": 10,
             "name": "Hider of Sizeable Stashes",
             "location": "@loc{One island per map}",
-            "method": "Create a map leading to five treasures on the same island, 25 times; map donation is not required.",
+            "method": "On one island, bury five treasures to generate a map; produce @mechanic{25 such maps} without needing to donate them.",
             "missable": false
           },
           {
             "id": "commendation-11",
             "index": 11,
             "name": "Benevolent Benefactor",
-            "location": "@loc{Outpost Quest Board}",
-            "method": "Donate a Treasure Stash Map carrying the commendation's huge treasure count.",
+            "location": "@loc{Non-Outpost island, then an Outpost or Seapost Quest Board}",
+            "method": "Bury at least five different sellable treasures on one non-Outpost island to create a Treasure Stash Map titled Hoard, then open My Maps at an Outpost or Seapost Quest Board and post that map.",
             "missable": false
           },
           {
             "id": "commendation-12",
             "index": 12,
             "name": "Burying the Past",
-            "location": "@loc{After stealing treasure}",
-            "method": "Bury a qualifying valuable treasure stolen from another crew.",
+            "location": "@loc{High Seas}",
+            "method": "While playing High Seas, obtain a valuable treasure first discovered or touched by another crew, then bury that stolen treasure completely in soft ground.",
             "missable": false
           },
           {
@@ -7482,7 +7482,7 @@
             "index": 13,
             "name": "Nothing To See Here",
             "location": "@loc{Island occupied by another crew}",
-            "method": "Bury a valuable treasure while another crew is at the same island.",
+            "method": "While another crew occupies an island, completely bury one valuable treasure there.",
             "missable": false
           },
           {
@@ -7578,7 +7578,7 @@
             "index": 25,
             "name": "Moment of Reflection",
             "location": "@loc{End of an island dock}",
-            "method": "Sit at the end of a dock while the sun sets.",
+            "method": "Wait for sunset, then use the seat positioned at the far end of an island dock.",
             "missable": false
           },
           {
@@ -7594,7 +7594,7 @@
             "index": 27,
             "name": "Catching Rays",
             "location": "@loc{Plunder Valley}",
-            "method": "Sit on the highest peak in The Ancient Isles at noon.",
+            "method": "At noon, use the seat on Plunder Valley's summit, the highest point in The Ancient Isles.",
             "missable": false
           },
           {
@@ -7602,7 +7602,7 @@
             "index": 28,
             "name": "Adventurer's Eve",
             "location": "@loc{Smuggler's Bay}",
-            "method": "Sit on the highest peak in The Shores of Plenty at sunset, around 20:00 in-game.",
+            "method": "Around 20:00 at sunset, sit atop Smuggler's Bay, the highest point in The Shores of Plenty.",
             "missable": false
           },
           {
@@ -7931,7 +7931,7 @@
       "stage": 4,
       "confidence": "verified",
       "group": "captaincy",
-      "summary": "On a Captained Ship, buy every supply category from the Shipwright's @mechanic{Ship's Manifest}.",
+      "summary": "On a Captained Ship, buy Wood, Cannonballs, Food, Meat, Bait, and Throwables from the Shipwright's @mechanic{Ship's Manifest}.",
       "guide": {
         "kind": "standard",
         "context": "Budget about 18,250 gold for the complete Ship's Manifest order; loose supplies and items placed manually into the ship's barrels do not satisfy the purchase requirement.",
@@ -8044,22 +8044,22 @@
       "stage": 4,
       "confidence": "verified",
       "group": "captaincy",
-      "summary": "Equip and save every required exterior and interior decoration category on a Captained Ship.",
+      "summary": "Save Figurehead, Hull Livery, Sails Livery, Wheel, Cannons, Cannon Flares, Capstan, Flag, Table, Drapes, Bed, Rug, Ship's Crest, Logbook, and Banners on a Captained Ship, plus Chair, Chandelier, and Curtains on a Galleon.",
       "guide": {
         "kind": "standard",
-        "context": "Default Sailor cosmetics qualify, but a flag must be equipped. A ship title is not required; a Galleon has extra interior categories.",
+        "context": "Free default Sailor cosmetics count for every applicable slot. A ship title is not required, while a Galleon adds three mandatory interior slots that a Sloop or Brigantine does not have.",
         "steps": [
           {
             "id": "step-1",
-            "text": "On a Captained Ship, equip Hull, Sails, Cannons, Wheel, Capstan, Figurehead, and Flag cosmetics."
+            "text": "On a Captained Ship, equip and save Figurehead, Hull Livery, Sails Livery, Wheel, Cannons, Cannon Flares, and Capstan cosmetics in the @mechanic{Ship Customisation Chest}, then equip any Flag in the Ship Flag Box."
           },
           {
             "id": "step-2",
-            "text": "Equip the required interior categories: Rug, Table, Drapes, Bed, Ship Crest, Logbook, Banner, and the Galleon's Chair, Chandelier, and Curtains when applicable."
+            "text": "In the @mechanic{Ship Decoration Chest}, equip and save Captain's Table, Captain's Drapes, Captain's Bed, Captain's Rug, Ship's Crest, Captain's Logbook, and Ship's Banners; on a Galleon, also save Captain's Chair, Captain's Chandelier, and Captain's Curtains."
           },
           {
             "id": "step-3",
-            "text": "Use the @mechanic{Ship Decoration Chest} option to save the fully decorated loadout to the Captained Ship."
+            "text": "Confirm that every applicable category is saved to the Captained Ship; leave the Ship's Title slot unchanged because it is not part of the achievement requirement."
           }
         ]
       }
@@ -8710,11 +8710,11 @@
       "summary": "Sell @mechanic{30 Chests of Fortune} to Gold Hoarders, Reaper's Bones, or Sovereigns.",
       "guide": {
         "kind": "standard",
-        "context": "The Chest of Fortune's event location changes by Season, and dived Raid Voyages do not award a Chest of Fortune.",
+        "context": "Each eligible emergent event only has a chance to contain a Chest of Fortune. Season 20 also removed on-demand World Event Raid Voyages, so the chest cannot be targeted through a Raid Voyage.",
         "steps": [
           {
             "id": "prepare",
-            "text": "Complete the current emergent world event that rewards a @item{Chest of Fortune}."
+            "text": "Search emergent @mechanic{Burning Blade events, Fort of the Damned, Ghost Fleets, Skeleton Fleets, Ashen Winds, Forts of Fortune, Reaper Fortresses, and Skeleton Forts} until a @item{Chest of Fortune} appears."
           },
           {
             "id": "perform",
@@ -8782,18 +8782,108 @@
       "prerequisites": [
         "228"
       ],
-      "summary": "Earn every one of the @mechanic{16 commendations} attached to Journey to Mêlée Island.",
+      "summary": "Finish the @mechanic{13 actionable commendations} for Journey to Mêlée Island; Mêlée Island Investigator is awarded automatically as row 14.",
       "guide": {
-        "kind": "standard",
-        "context": "Missable-in-run tasks include 10 Root Beer defeats, six Spiffy dialogue lines, Murray's guided tour, and ten Memoirs seats; the Tale is replayable.",
-        "steps": [
+        "kind": "collectible",
+        "context": "The Tall Tale is replayable and completed commendations persist across runs, so missed side conditions can be cleaned up without redoing entries that already registered.",
+        "collectibles": [
           {
-            "id": "prepare",
-            "text": "Complete the story and every side condition shown in its commendation list."
+            "id": "chef-uniform",
+            "index": 1,
+            "name": "Hired Help",
+            "location": "@loc{Mêlée Island General Store}",
+            "method": "Collect @mechanic{45 Pieces o' Eight}, then purchase the @item{Chef's Uniform} from the General Store."
           },
           {
-            "id": "perform",
-            "text": "Replay the Tall Tale until all @mechanic{16 commendations} are awarded."
+            "id": "missing-cargo",
+            "index": 2,
+            "name": "Delayed in Transit",
+            "location": "@loc{Mêlée Island docks}",
+            "method": "Use the @item{Claw Hammer} to repair the dockside winch, raise the sunken Cargo Crate, and deliver the @item{Crate of Important Goods} to the Citizen of Mêlée."
+          },
+          {
+            "id": "free-otis",
+            "index": 3,
+            "name": "Prison Break",
+            "location": "@loc{Governor's Mansion grounds and Mêlée Island Jail}",
+            "method": "Feed @item{Root Beer Stewed Meat} to the poodles, then place @item{Gunpowder Gummies} and a @item{Gunpowder Fuse} in each of the two jail locks to free Otis."
+          },
+          {
+            "id": "clock-tower",
+            "index": 4,
+            "name": "Save the Clock Tower",
+            "location": "@loc{Mêlée Island Clock Tower}",
+            "method": "Repair the Clock Tower mechanism and set the clock to @mechanic{midnight}."
+          },
+          {
+            "id": "mansion-entry",
+            "index": 5,
+            "name": "House Call",
+            "location": "@loc{Governor's Mansion}",
+            "method": "Finish the required town tasks, assemble Murray's body, and enter the Governor's Mansion after the route opens."
+          },
+          {
+            "id": "finish-tale",
+            "index": 6,
+            "name": "The Journey to Mêlée Island",
+            "location": "@loc{Governor's Mansion and Corina's shop}",
+            "method": "Defeat the Ghost Pirates in the Mansion, return to Corina, and complete the Tall Tale's closing sequence."
+          },
+          {
+            "id": "root-beer-defeats",
+            "index": 7,
+            "name": "Pop Up Pirates",
+            "location": "@loc{Governor's Mansion}",
+            "method": "Defeat @mechanic{10 Ghost Pirates} with Root Beer during the Mansion battle."
+          },
+          {
+            "id": "scumm-bar-seat",
+            "index": 8,
+            "name": "In Good Company",
+            "location": "@loc{Scumm Bar}",
+            "method": "Sit on the available stool inside the Scumm Bar."
+          },
+          {
+            "id": "reelection-poster",
+            "index": 9,
+            "name": "Elected Legend",
+            "location": "@loc{winch house beside the docks}",
+            "method": "Read a Guybrush re-election poster; the poster inside the docks' winch house qualifies."
+          },
+          {
+            "id": "spiffy-dialogue",
+            "index": 10,
+            "name": "Groggy Dog Story",
+            "location": "@loc{Scumm Bar}",
+            "method": "Exhaust Spiffy's @mechanic{six conversations}: four on arrival, one after exchanging the bone for the Cute Monkey Toy, and one after defeating the Ghost Pirates but before leaving Corina."
+          },
+          {
+            "id": "murray-tour",
+            "index": 11,
+            "name": "A Guided Tour",
+            "location": "@loc{Docks, Scumm Bar, Lookout Point, Low Street, Clock Tower, General Store, Alley, Church, and Jail}",
+            "method": "Carry Murray's skull to all @mechanic{nine named locations} and wait for his remark at each stop before attaching the skull to Murray's body."
+          },
+          {
+            "id": "history-book",
+            "index": 12,
+            "name": "Mêlée Island Historian",
+            "location": "@loc{Mêlée Island General Store}",
+            "method": "Once the Ghost Pirates are defeated, pay @mechanic{200 Pieces o' Eight} at the General Store to acquire a copy of @item{Mêlée Island History Book}."
+          },
+          {
+            "id": "memoirs-volume-one",
+            "index": 13,
+            "name": "Memoirs of a Legend, Vol. I",
+            "location": "@loc{Pirate Leaders, outside Scumm Bar, Docks, Low Street by the Citizen, General Store, Alley, Jail, rooftop across from the Church, outside the Mansion, and inside the Mansion}",
+            "method": "Sit at the inkwell-marked viewpoint in each of the @mechanic{10 named locations}."
+          },
+          {
+            "id": "investigator",
+            "index": 14,
+            "name": "Mêlée Island Investigator",
+            "location": "@loc{Journey to Mêlée Island Pirate Log page}",
+            "method": "Complete the preceding @mechanic{13 commendations}; Mêlée Island Investigator is then awarded automatically."
           }
         ]
       }
@@ -8857,18 +8947,115 @@
       "prerequisites": [
         "230"
       ],
-      "summary": "Complete all @mechanic{17 commendations} in The Quest for Guybrush Tall Tale.",
+      "summary": "Complete all @mechanic{14 actionable commendations} in The Quest for Guybrush; Legendary Trial Master then unlocks automatically as the 15th.",
       "guide": {
-        "kind": "standard",
-        "context": "Notable conditions include a circus performance under 25 seconds, all 20 insult retorts, five journals, and one-time character interactions.",
-        "steps": [
+        "kind": "collectible",
+        "context": "The circus clear and its under-25-second challenge can be earned together, while the five Elaine journals and ten Memoir Spots are independent exploration checks that persist across replayed runs.",
+        "collectibles": [
           {
-            "id": "prepare",
-            "text": "Complete every listed story and side condition."
+            "id": "clear-fog",
+            "index": 1,
+            "name": "Clearing the Air",
+            "location": "@loc{Mêlée Island Lookout Point}",
+            "method": "Take Corina's potion to Lookout Point and use it to dispel the cursed fog around Mêlée Island."
           },
           {
-            "id": "perform",
-            "text": "Replay the Tall Tale until all @mechanic{17 commendations} are awarded."
+            "id": "circus-performance",
+            "index": 2,
+            "name": "Mêlée Island Spectacular",
+            "location": "@loc{Fantastic Flying Fettucini Brothers Circus}",
+            "method": "Enter the circus and complete one full cannon performance."
+          },
+          {
+            "id": "trial-sword",
+            "index": 3,
+            "name": "Trial of the Sword",
+            "location": "@loc{Mêlée Island}",
+            "method": "Complete the Trial of the Sword during The Quest for Guybrush."
+          },
+          {
+            "id": "trial-treasure",
+            "index": 4,
+            "name": "Trial of Treasure-Huntery",
+            "location": "@loc{Mêlée Island}",
+            "method": "Complete the Trial of Treasure-Huntery during The Quest for Guybrush."
+          },
+          {
+            "id": "trial-thievery",
+            "index": 5,
+            "name": "Trial of Thievery",
+            "location": "@loc{Mêlée Island}",
+            "method": "Complete the Trial of Thievery during The Quest for Guybrush."
+          },
+          {
+            "id": "finish-quest",
+            "index": 6,
+            "name": "The Quest for Guybrush",
+            "location": "@loc{Mêlée Island}",
+            "method": "Finish the Tall Tale after completing Guybrush's three pirate trials."
+          },
+          {
+            "id": "fast-circus",
+            "index": 7,
+            "name": "Spectacular Superstar",
+            "location": "@loc{Fantastic Flying Fettucini Brothers Circus}",
+            "method": "Complete the circus performance in under @mechanic{25 seconds}."
+          },
+          {
+            "id": "insult-pairings",
+            "index": 8,
+            "name": "Sword Master",
+            "location": "@loc{Insult Sword Fighting encounters}",
+            "method": "Use every one of the @mechanic{20 insult-and-retort pairings} during Insult Sword Fighting."
+          },
+          {
+            "id": "grog-classic",
+            "index": 9,
+            "name": "Yo-ho-ho, and...",
+            "location": "@loc{Stan's Previously Owned Vessels}",
+            "method": "After earning circus currency, buy a @item{Grog Classic} from Stan's vending machine and drink it."
+          },
+          {
+            "id": "get-fired",
+            "index": 10,
+            "name": "Gainful Unemployment",
+            "location": "@loc{Scumm Bar kitchen}",
+            "method": "Speak to the Scumm Bar chef and continue the interaction until the chef fires you from the job."
+          },
+          {
+            "id": "tickle-beast",
+            "index": 11,
+            "name": "The Beast Whisperer",
+            "location": "@loc{Meathook's House on Hook Island}",
+            "method": "Follow the Meathook route into his house and interact with The Beast to tickle it."
+          },
+          {
+            "id": "stan-voyage",
+            "index": 12,
+            "name": "Stantastic Voyage",
+            "location": "@loc{Stan's Previously Owned Vessels}",
+            "method": "After Stan asks the size question during hide-and-seek, repeatedly use the cupboard until Stan is sent out to sea."
+          },
+          {
+            "id": "elaine-journals",
+            "index": 13,
+            "name": "Escape from Mêlée Island",
+            "location": "@loc{behind the Governor's Mansion, southeast forest path, broken cart north of Troll Toll Bridge, Lookout Point scaffolding, and Stan's Previously Owned Vessels}",
+            "method": "Read Elaine's journal at each of the @mechanic{five named locations}."
+          },
+          {
+            "id": "memoirs-volume-two",
+            "index": 14,
+            "name": "Memoirs of a Legend, Vol. II",
+            "location": "@loc{Stan's, outside and inside Captain Smirk's Hut, Hook Island, Meathook's House, Troll Toll Bridge, outside and inside the Circus, Forest, and Carla's House}",
+            "method": "Sit at the inkwell-marked viewpoint in each of the @mechanic{10 named locations}."
+          },
+          {
+            "id": "trial-master",
+            "index": 15,
+            "name": "Legendary Trial Master",
+            "location": "@loc{The Quest for Guybrush commendation table}",
+            "method": "Complete the preceding @mechanic{14 commendations}; Legendary Trial Master is then awarded automatically."
           }
         ]
       }
@@ -8932,18 +9119,101 @@
       "prerequisites": [
         "232"
       ],
-      "summary": "Complete all @mechanic{16 commendations} in The Lair of LeChuck Tall Tale.",
+      "summary": "Complete all @mechanic{12 actionable commendations} in The Lair of LeChuck; Do the Monkey! then unlocks automatically as the 13th required row.",
       "guide": {
-        "kind": "standard",
-        "context": "Ten Castaway notes lie before the stone monkey, while five ghostly journals lie inside the cave system.",
-        "steps": [
+        "kind": "collectible",
+        "context": "The Tale's table also displays the separate Legend of Monkey Island three-Tale meta-commendation, but that row is not required for Do the Monkey!. Herman's ten notes are found before the stone monkey, while LeChuck's five logbooks are inside the cave system.",
+        "collectibles": [
           {
-            "id": "prepare",
-            "text": "Finish every story and side condition, including notes, journals, rock-launcher tasks, and ten Memoirs seats."
+            "id": "black-pearl-crew",
+            "index": 1,
+            "name": "Part of the Crew",
+            "location": "@loc{Black Pearl}",
+            "method": "Speak with all @mechanic{three pirates} aboard the Black Pearl."
           },
           {
-            "id": "perform",
-            "text": "Replay the Tall Tale until all @mechanic{16 commendations} are awarded."
+            "id": "herman-trap",
+            "index": 2,
+            "name": "Highly Strung",
+            "location": "@loc{Herman's Camp on Monkey Island}",
+            "method": "Trigger Herman's own trap so the trap catches Herman instead of the player."
+          },
+          {
+            "id": "monkey-idols",
+            "index": 3,
+            "name": "A Helping Hand",
+            "location": "@loc{Monkey Hand}",
+            "method": "Recover every Monkey Idol, then set all @mechanic{three idols} into their slots on the Monkey Hand."
+          },
+          {
+            "id": "cotton-swab-key",
+            "index": 4,
+            "name": "Second Biggest Monkey Head",
+            "location": "@loc{Giant Monkey Head}",
+            "method": "Use the @item{Cotton Swab Key} on the Giant Monkey Head entrance."
+          },
+          {
+            "id": "catacombs",
+            "index": 5,
+            "name": "Under Monkey Island",
+            "location": "@loc{catacombs beneath Monkey Island}",
+            "method": "Navigate through the catacombs and reach their exit."
+          },
+          {
+            "id": "ghost-ship",
+            "index": 6,
+            "name": "Glad to Be Dead",
+            "location": "@loc{LeChuck's ghost-ship battle}",
+            "method": "Complete the naval encounter and defeat LeChuck's ghost ship."
+          },
+          {
+            "id": "finish-lair",
+            "index": 7,
+            "name": "The Lair of LeChuck",
+            "location": "@loc{Monkey Island and LeChuck's lair}",
+            "method": "Complete the Tall Tale through its final confrontation and ending."
+          },
+          {
+            "id": "banana",
+            "index": 8,
+            "name": "No Fruit-Picker Required",
+            "location": "@loc{Monkey Island banana tree}",
+            "method": "Make one banana fall from the banana tree on Monkey Island."
+          },
+          {
+            "id": "primitive-art",
+            "index": 9,
+            "name": "Whoops...",
+            "location": "@loc{Primitive Art on Monkey Island}",
+            "method": "Operate the Primitive Art launcher so its projectile hits your own ship."
+          },
+          {
+            "id": "memoirs-volume-three",
+            "index": 10,
+            "name": "Memoirs of a Legend, Vol. III",
+            "location": "@loc{Gate to Stone Monkey Head, Swamp Pond, Banana Tree, Jungle, Riverbed, Primitive Art, mountain ledge, Stone Monkey Head, Catacombs, and LeChuck's Ghost Ship}",
+            "method": "Sit at the inkwell-marked viewpoint in each of the @mechanic{10 named locations}."
+          },
+          {
+            "id": "herman-notes",
+            "index": 11,
+            "name": "The Castaway's Musings",
+            "location": "@loc{Monkey Island before the stone monkey}",
+            "method": "Find and read all @mechanic{10 of Herman's Notes}."
+          },
+          {
+            "id": "lechuck-logbooks",
+            "index": 12,
+            "name": "Ghost Writing",
+            "location": "@loc{cave system beneath Monkey Island}",
+            "method": "Find and read all @mechanic{five of LeChuck's logbooks}."
+          },
+          {
+            "id": "do-the-monkey",
+            "index": 13,
+            "name": "Do the Monkey!",
+            "location": "@loc{The Lair of LeChuck commendation table}",
+            "method": "Complete the preceding @mechanic{12 Lair of LeChuck commendations}; Do the Monkey! is then awarded automatically."
           }
         ]
       }
@@ -9159,7 +9429,7 @@
       "confidence": "verified",
       "group": "guilds",
       "sortReason": "Keep with the guilds route.",
-      "summary": "Wear all five @item{Chef of the Seas} pieces, then cook 25 dishes, catch 10 Trophy Fish, and sell 10 cooked Kraken or Megalodon meats.",
+      "summary": "Wear all five @item{Chef of the Seas} pieces while selling 10 cooked Kraken or Megalodon meats, catching 10 Trophy Fish, and cooking 25 dishes.",
       "guide": {
         "kind": "standard",
         "context": "The outfit unlocks at Guild level 40, and burnt Kraken or Megalodon meat counts.",
@@ -9305,16 +9575,78 @@
       "sortReason": "Keep with the guilds route.",
       "summary": "Complete the ten @mechanic{Distinguished Guild Commendations} unlocked from Guild level 15 through Distinction 9.",
       "guide": {
-        "kind": "standard",
+        "kind": "collectible",
         "context": "The set spans more than 900 Guild levels in one Guild; Distinction 10 commendations are not required.",
-        "steps": [
+        "collectibles": [
           {
-            "id": "prepare",
-            "text": "Remain in one Guild as that Guild reaches each unlock threshold through Distinction 9."
+            "id": "guild-emissary",
+            "index": 1,
+            "name": "Distinguished Guild Emissary",
+            "location": "@loc{High Seas aboard a Guild ship}",
+            "method": "After the Guild reaches level 15, raise a Guild Emissary Flag and reach @mechanic{Emissary Grade 5}."
           },
           {
-            "id": "perform",
-            "text": "Complete the Emissary, Sovereign, fishing, sea-monster, map, cannon, enemy, Voyage, Hourglass, and vault objectives."
+            "id": "treasure-handins",
+            "index": 2,
+            "name": "Distinction 1 treasure objective",
+            "location": "@loc{High Seas Sovereigns}",
+            "method": "While representing a Guild at @mechanic{Distinction 1 or higher}, hand in @mechanic{150 treasure items}."
+          },
+          {
+            "id": "fish",
+            "index": 3,
+            "name": "Distinction 2 fishing objective",
+            "location": "@loc{High Seas}",
+            "method": "While representing a Guild at @mechanic{Distinction 2 or higher}, catch @mechanic{20 fish}."
+          },
+          {
+            "id": "sea-monsters",
+            "index": 4,
+            "name": "Distinction 3 sea-monster objective",
+            "location": "@loc{High Seas}",
+            "method": "While representing a Guild at @mechanic{Distinction 3 or higher}, defeat a combined @mechanic{three Megalodons or Krakens}."
+          },
+          {
+            "id": "maps",
+            "index": 5,
+            "name": "Distinction 4 map objective",
+            "location": "@loc{High Seas Quest Board}",
+            "method": "While representing a Guild at @mechanic{Distinction 4 or higher}, donate @mechanic{20 Treasure Stash Maps} to Quest Boards."
+          },
+          {
+            "id": "cannon-hits",
+            "index": 6,
+            "name": "Distinction 5 cannon objective",
+            "location": "@loc{High Seas ship combat}",
+            "method": "While representing a Guild at @mechanic{Distinction 5 or higher}, land @mechanic{50 cannonball hits} on other ships."
+          },
+          {
+            "id": "enemy-defeats",
+            "index": 7,
+            "name": "Distinction 6 enemy objective",
+            "location": "@loc{High Seas islands, forts, and shrines}",
+            "method": "While representing a Guild at @mechanic{Distinction 6 or higher}, defeat a combined @mechanic{50 Skeletons, Ocean Crawlers, or Phantoms}."
+          },
+          {
+            "id": "quests",
+            "index": 8,
+            "name": "Distinction 7 Quest objective",
+            "location": "@loc{High Seas}",
+            "method": "While representing a Guild at @mechanic{Distinction 7 or higher}, complete @mechanic{20 Quests}."
+          },
+          {
+            "id": "faction-wins",
+            "index": 9,
+            "name": "Distinction 8 Faction objective",
+            "location": "@loc{High Seas Hourglass battles}",
+            "method": "While representing a Guild at @mechanic{Distinction 8 or higher}, win @mechanic{three Faction battles}."
+          },
+          {
+            "id": "fort-clears",
+            "index": 10,
+            "name": "Distinction 9 encounter objective",
+            "location": "@loc{High Seas Skeleton Forts, Sea Forts, and Siren Treasuries}",
+            "method": "While representing a Guild at @mechanic{Distinction 9 or higher}, complete a combined @mechanic{five Skeleton Forts, Sea Forts, or Siren Treasuries}."
           }
         ]
       }
@@ -9896,8 +10228,11 @@
       "stage": 1,
       "confidence": "verified",
       "group": "voyages",
-      "sortReason": "Complete before Season 21 temporarily removes Diving; Rare has not announced the exact September start day or return date.",
+      "sortReason": "Reach Pirate Legend first, then complete this Athena's Fortune Dive before Season 21 temporarily removes Diving; the exact September start day and return date are not set.",
       "lockoutStage": 1,
+      "prerequisites": [
+        "29"
+      ],
       "summary": "Choose @mechanic{Dive to Location} for an Athena's Fortune Voyage and complete that Voyage.",
       "guide": {
         "kind": "standard",
@@ -10042,7 +10377,7 @@
       "confidence": "verified",
       "group": "weapons",
       "sortReason": "Keep with the weapons route.",
-      "summary": "Have a skeleton summoned by your @item{Bone Caller} kill another crew's Bone Caller Skeleton.",
+      "summary": "Summon an allied skeleton with a @item{Bone Caller} and ensure it kills another crew's Bone Caller Skeleton.",
       "guide": {
         "kind": "standard",
         "context": "The opposing skeleton may be encountered in ship or island combat; cooperation with another crew makes the matchup controllable.",
@@ -10269,7 +10604,7 @@
           },
           {
             "id": "perform",
-            "text": "Recover the @item{Blade of Souls} and sell the sword to an eligible representative."
+            "text": "If you commanded the Burning Blade, sell its @item{Blade of Souls} only to Reaper's Bones at @loc{Reaper's Hideout}; if you recovered the sword from an enemy crew's sunken Burning Blade, sell it to a Trading Company representative or the Sovereigns."
           }
         ]
       }
@@ -10415,7 +10750,7 @@
       "summary": "Align the constellation beneath each of the @mechanic{6 Skeleton Camps}.",
       "guide": {
         "kind": "standard",
-        "context": "The camps are Picaroon Palms, Lagoon of Whispers, Blind Man's Lagoon, Shiver Retreat, Lookout Point, and Barnacle Cay.",
+        "context": "The six camps are Barnacle Cay, Lookout Point, Shiver Retreat, Blind Man's Lagoon, Lagoon of Whispers, and Picaroon Palms.",
         "steps": [
           {
             "id": "prepare",
@@ -10451,10 +10786,10 @@
       "prerequisites": [
         "272"
       ],
-      "summary": "Complete @mechanic{Sizzling Sinker Grade V} and @mechanic{Secretive Stash Grade V}.",
+      "summary": "As an Athena's Fortune Emissary, sink @mechanic{10 player-crewed Burning Blades} and sell @mechanic{20 Blades of Souls carrying at least three Rituals}.",
       "guide": {
         "kind": "standard",
-        "context": "Secretive Stash requires selling a Blade of Souls carrying at least three Rituals.",
+        "context": "Secretive Stash is High Seas-only, and the Burning Blade's completed Ritual count transfers to the Blade of Souls when the ship sinks.",
         "steps": [
           {
             "id": "prepare",
@@ -10462,7 +10797,7 @@
           },
           {
             "id": "perform",
-            "text": "Sell a Blade of Souls with at least three Rituals @mechanic{20 times}."
+            "text": "Sell a Blade of Souls carrying at least @mechanic{three Rituals} on @mechanic{20 runs}: take a Blade from a Burning Blade you commanded only to Reaper's Bones at @loc{Reaper's Hideout}, or take a Blade recovered from an enemy crew's sunken Burning Blade to a Trading Company representative or the Sovereigns."
           }
         ]
       }
@@ -10490,7 +10825,7 @@
       "prerequisites": [
         "273"
       ],
-      "summary": "Complete @mechanic{Playing the Part Grade V} and @mechanic{Feeding the Fire Grade V}.",
+      "summary": "While wearing the @item{Skeleton Curse}, return @mechanic{10 Burning Blades with at least eight Rituals}; also complete @mechanic{10 four-Ritual command streaks}.",
       "guide": {
         "kind": "standard",
         "context": "Feeding the Fire records one four-Ritual streak per Burning Blade command.",
@@ -11079,7 +11414,7 @@
           },
           {
             "id": "perform",
-            "text": "With an Order skeleton, complete @mechanic{10 quests each} in The Wilds, Ancient Isles, Shores of Plenty, and Devil's Roar."
+            "text": "With an Order skeleton, finish @mechanic{10 quests per region} in Devil's Roar, Shores of Plenty, Ancient Isles, and The Wilds."
           }
         ]
       }
@@ -11285,7 +11620,7 @@
       "confidence": "verified",
       "group": "banished",
       "sortReason": "Keep with the banished route.",
-      "summary": "Light the candles on a large-island sarcophagus and defeat the awakened @enemy{Eternal Guard}.",
+      "summary": "Find a sarcophagus on a large @loc{Devil's Roar island}, light its candles, and defeat the awakened @enemy{Eternal Guard}.",
       "guide": {
         "kind": "standard",
         "context": "Sarcophagi appear by chance on large Devil's Roar islands; a defeated Guard drops a Sanctuary key.",
@@ -11645,10 +11980,17 @@
     "257",
     "258",
     "259",
-    "260",
     "291",
     "296",
     "285",
+    "38",
+    "39",
+    "42",
+    "43",
+    "40",
+    "41",
+    "29",
+    "260",
     "77",
     "76",
     "78",
@@ -11656,8 +11998,7 @@
     "144",
     "141",
     "142",
-    "38",
-    "42",
+    "143",
     "168",
     "34",
     "12",
@@ -11665,7 +12006,6 @@
     "1",
     "3",
     "33",
-    "40",
     "251",
     "252",
     "254",
@@ -11825,6 +12165,7 @@
     "158",
     "159",
     "160",
+    "139",
     "203",
     "301",
     "302",
@@ -11845,6 +12186,7 @@
     "217",
     "145",
     "146",
+    "148",
     "149",
     "147",
     "308",
@@ -11860,7 +12202,6 @@
     "155",
     "156",
     "48",
-    "39",
     "44",
     "49",
     "47",
@@ -11884,10 +12225,11 @@
     "86",
     "84",
     "85",
+    "204",
+    "202",
     "166",
     "165",
     "55",
-    "43",
     "54",
     "53",
     "50",
@@ -11901,18 +12243,11 @@
     "282",
     "281",
     "60",
-    "41",
     "56",
     "61",
     "58",
     "57",
     "59",
-    "29",
-    "139",
-    "148",
-    "143",
-    "204",
-    "202",
     "292",
     "295",
     "293",

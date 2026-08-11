@@ -1,0 +1,572 @@
+{
+  "game": {
+    "appid": 1478500,
+    "slug": "big-walk",
+    "title": "Big Walk",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-07",
+    "estTotalHours": 15,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-08-11"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Open the island",
+      "description": "Solve the four mandatory Beach puzzles, shape the golden key, lower the drawbridge, and cross it.",
+      "achievementRefs": [
+        "Drawbridge"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Unlock navigation and equipment",
+      "description": "Open the Map Room, then use its coordinates to find a backpack and hip bag for the group.",
+      "achievementRefs": [
+        "Map",
+        "Backpack",
+        "Holster"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Activate transport and explore",
+      "description": "Start the trains and chairlift, unlock the Yellow Tunnel, then use the travel network for the highest point, outer wall, and metallic makeover.",
+      "achievementRefs": [
+        "Train",
+        "Chairlift",
+        "Tunnel",
+        "Peak",
+        "Wall",
+        "Shiny"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish both endings",
+      "description": "Complete the main finale, then solve the remaining red and purple puzzles and use the final key to complete the hidden ending.",
+      "achievementRefs": [
+        "Ending1",
+        "Ending2"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "Drawbridge",
+      "displayName": "Big Walk",
+      "description": "Cross the drawbridge",
+      "hidden": false,
+      "globalPercent": 85.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Lower and cross the opening @loc{drawbridge} by completing the four Beach puzzles and shaping their golden key.",
+      "guide": {
+        "kind": "standard",
+        "context": "The four opening Beach puzzles are mandatory because the raised drawbridge blocks access to the island's later puzzle network.",
+        "steps": [
+          {
+            "id": "reach-beach-panel",
+            "text": "Leave the tutorial through the large archway and reach the Beach control panel at coordinates 3550, 1100."
+          },
+          {
+            "id": "collect-four-pieces",
+            "text": "Complete the nearby crane, spyglass, blue-house symbol, and green-scaffolding switch puzzles to collect four red control-panel pieces."
+          },
+          {
+            "id": "shape-golden-key",
+            "text": "Place all four red pieces in the Beach panel, take the released golden key, and follow the revealed arrows through all five key cutters."
+          },
+          {
+            "id": "lower-and-cross",
+            "text": "Insert the shaped key into the grey panel above the stairs, wait for the drawbridge to lower, and walk across it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Map",
+      "displayName": "Big View",
+      "description": "Visit the map",
+      "hidden": false,
+      "globalPercent": 54.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–2 h after the drawbridge",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Drawbridge"
+      ],
+      "summary": "Use the @loc{Red Tower} key to open the @loc{Map Room} at coordinates 3560, 1425, then enter and approach the map.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Red Tower route becomes available after the drawbridge and provides the map needed to navigate later tower coordinates efficiently.",
+        "steps": [
+          {
+            "id": "reach-red-tower",
+            "text": "After crossing the drawbridge, climb to the @loc{Red Tower} at coordinates 3670, 1400."
+          },
+          {
+            "id": "earn-red-key",
+            "text": "Complete any five accessible island puzzles, place their red rewards in the Red Tower panel, and collect the golden key released behind it."
+          },
+          {
+            "id": "shape-red-key",
+            "text": "Take the golden key downstairs and follow the arrows through all five key cutters until it fits the Map Room lock."
+          },
+          {
+            "id": "visit-map",
+            "text": "Go to the blue @loc{Map Room} at coordinates 3560, 1425, insert the shaped key beside the door, enter, and approach the map display."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Chairlift",
+      "displayName": "Big Sit",
+      "description": "Ride the chairlift",
+      "hidden": false,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Map"
+      ],
+      "summary": "Activate the @loc{chairlift station} at coordinates 3950, 1950 with the shaped Green Tower key, then ride a moving chair.",
+      "guide": {
+        "kind": "standard",
+        "context": "Puzzle targets and score requirements scale for two-, three-, and four-player groups, but the Green Tower key route is otherwise unchanged.",
+        "steps": [
+          {
+            "id": "reach-green-tower",
+            "text": "Travel to the @loc{Green Tower} at coordinates 3930, 1900; the main chairlift station stands immediately beside it at 3950, 1950."
+          },
+          {
+            "id": "earn-green-key",
+            "text": "Complete any five accessible puzzles, place their red rewards in the Green Tower panel, and take the golden key."
+          },
+          {
+            "id": "shape-green-key",
+            "text": "Follow the cutter arrows from the tower door through all five key cutters, ending near the chairlift station."
+          },
+          {
+            "id": "ride-chairlift",
+            "text": "Insert the shaped key inside the station, wait for the chairs to begin moving, board one, and remain seated while it travels."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Train",
+      "displayName": "Big Ride",
+      "description": "Ride the train",
+      "hidden": false,
+      "globalPercent": 20.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Map"
+      ],
+      "summary": "Start the island's trains with the shaped Blue Tower key at coordinates 3380, 1740, then board any moving train.",
+      "guide": {
+        "kind": "standard",
+        "context": "One station lock activates the red, green, and yellow trains together; all three then circulate continuously in the same direction.",
+        "steps": [
+          {
+            "id": "reach-blue-tower",
+            "text": "Travel to the @loc{Blue Tower} at coordinates 3540, 1850."
+          },
+          {
+            "id": "earn-blue-key",
+            "text": "Complete any five accessible puzzles, load their red rewards into the Blue Tower panel, and collect the golden key."
+          },
+          {
+            "id": "shape-blue-key",
+            "text": "Use all five arrow-marked key cutters to shape the golden key, then follow the last arrow to the main train station at coordinates 3380, 1740."
+          },
+          {
+            "id": "ride-train",
+            "text": "Insert the shaped key into the station slot, wait for all three trains to start, and board the red, green, or yellow train for a moving ride."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Tunnel",
+      "displayName": "Big Tunnel",
+      "description": "Enter a big tunnel",
+      "hidden": false,
+      "globalPercent": 13.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1–3 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Map"
+      ],
+      "summary": "Shape the Yellow Tower key, unlock the @loc{Yellow Tunnel} at coordinates 3500, 1620, and walk through its entrance.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Yellow Tower is a late-game route whose tunnel also opens access to the metallic paint used for Big Makeover.",
+        "steps": [
+          {
+            "id": "reach-yellow-tower",
+            "text": "Travel to the @loc{Yellow Tower} at coordinates 3310, 1560."
+          },
+          {
+            "id": "earn-yellow-key",
+            "text": "Complete any five accessible puzzles, place their red rewards in the Yellow Tower panel, and take the released golden key."
+          },
+          {
+            "id": "shape-yellow-key",
+            "text": "Follow the arrow chain through five key cutters; the final cutter stands near the Yellow Tunnel entrance."
+          },
+          {
+            "id": "enter-yellow-tunnel",
+            "text": "Go southeast to coordinates 3500, 1620, insert the shaped key into the slot on the entrance's right side, and walk inside the opened @loc{Yellow Tunnel}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Wall",
+      "displayName": "Big Wall",
+      "description": "Go beyond the wall",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "exploration",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Drawbridge"
+      ],
+      "summary": "Go beyond the @loc{wall} associated with Big Wall until the Steam achievement unlocks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Big Wall is separate from Big Walk: crossing the opening drawbridge completes Big Walk but does not complete this wall objective.",
+        "steps": [
+          {
+            "id": "find-wall",
+            "text": "Locate the in-world @loc{wall} used by the Big Wall objective during group exploration."
+          },
+          {
+            "id": "go-beyond-wall",
+            "text": "Move beyond that wall and continue until Big Wall unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Ending1",
+      "displayName": "Big Goodbye",
+      "description": "Finish the game.",
+      "hidden": true,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "12–20 h total",
+      "estMinutes": 720,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Drawbridge",
+        "Map",
+        "Train",
+        "Chairlift",
+        "Tunnel"
+      ],
+      "summary": "Finish Big Walk's main game and remain in the session until Big Goodbye unlocks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Big Goodbye is the main ending; Big Game is a separate full-completion ending that uses additional red and purple puzzle rewards.",
+        "steps": [
+          {
+            "id": "complete-main-objectives",
+            "text": "Continue completing Big Walk's main group objectives until the game's ending becomes available."
+          },
+          {
+            "id": "finish-main-game",
+            "text": "Complete the main ending and remain in the session until Big Goodbye unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Ending2",
+      "displayName": "Big Game",
+      "description": "Completely finish the game.",
+      "hidden": true,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 15 h total",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Ending1"
+      ],
+      "summary": "After Big Goodbye, complete Big Walk's remaining postgame content and finish the full-completion ending to unlock Big Game.",
+      "guide": {
+        "kind": "standard",
+        "context": "@warn{Finish an opened postgame puzzle room before ending the session}; an incomplete room may become inaccessible after reloading the host's save.",
+        "steps": [
+          {
+            "id": "finish-main-game",
+            "text": "Unlock Big Goodbye by completing the main game."
+          },
+          {
+            "id": "clear-remaining-content",
+            "text": "Continue in the same journey and complete every remaining main-world and postgame puzzle objective."
+          },
+          {
+            "id": "finish-full-ending",
+            "text": "Complete the full-completion ending that becomes available and remain in the session until Big Game unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Peak",
+      "displayName": "Big Climb",
+      "description": "Reach the highest point",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "exploration",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Drawbridge"
+      ],
+      "summary": "Reach the highest point in Big Walk to unlock Big Climb.",
+      "guide": {
+        "kind": "standard",
+        "context": "Big Climb is a height-based exploration objective rather than a reward for completing a colored tower panel.",
+        "steps": [
+          {
+            "id": "reach-highest-point",
+            "text": "Explore the island's elevations and reach the game's highest point until Big Climb unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Shiny",
+      "displayName": "Big Makeover",
+      "description": "Get shiny",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min after Yellow Tunnel",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Tunnel"
+      ],
+      "summary": "Beyond the @loc{Yellow Tunnel}, reach the metallic paint palette and have another player coat your avatar with metallic paint.",
+      "guide": {
+        "kind": "standard",
+        "context": "Your avatar cannot apply paint to itself, so a teammate must perform the final metallic makeover after the late-game tunnel is open.",
+        "steps": [
+          {
+            "id": "unlock-yellow-tunnel",
+            "text": "Complete the Yellow Tower route and unlock the @loc{Yellow Tunnel}."
+          },
+          {
+            "id": "follow-colored-corridors",
+            "text": "Follow the tunnel to the dance room, take the rear-left corridor, continue as the walls change from grey to red, and turn right into the red passage at the green junction."
+          },
+          {
+            "id": "reach-metallic-palette",
+            "text": "Continue to the giant red staircase and descend to the metallic paint palette beyond it."
+          },
+          {
+            "id": "apply-metallic-paint",
+            "text": "Have a teammate select metallic paint and apply it to your avatar until Big Makeover unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Backpack",
+      "displayName": "Big Pack",
+      "description": "Wear a backpack",
+      "hidden": false,
+      "globalPercent": 45.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Drawbridge"
+      ],
+      "summary": "At the blue bag shelter southwest of the Red Tower at coordinates 1380, 3750, have another player attach the yellow @item{backpack} to you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Players cannot equip bags onto themselves; a teammate must attach the backpack, which can be worn together with a hip bag.",
+        "steps": [
+          {
+            "id": "find-yellow-backpack",
+            "text": "Reach coordinates 1380, 3750, southwest of the @loc{Red Tower}, and enter the blue circular shelter with the short ramp."
+          },
+          {
+            "id": "pick-up-backpack",
+            "text": "Have a teammate pick up the yellow @item{backpack} hanging inside the shelter."
+          },
+          {
+            "id": "attach-backpack",
+            "text": "Stand facing the teammate and have them aim at your body until the attachment marker appears, then attach the backpack to your avatar."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Holster",
+      "displayName": "Big Help",
+      "description": "Wear something on your hip",
+      "hidden": false,
+      "globalPercent": 21.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Drawbridge"
+      ],
+      "summary": "At coordinates 1860, 3750 northwest of the Green Tower, have another player attach the yellow @item{hip bag} to your hip.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hip bags use a separate attachment point from backpacks, allowing the same player to wear both and carry an additional item.",
+        "steps": [
+          {
+            "id": "find-yellow-hip-bag",
+            "text": "Reach coordinates 1860, 3750, northwest of the @loc{Green Tower}, and enter the blue bag shelter on the mountainside."
+          },
+          {
+            "id": "pick-up-hip-bag",
+            "text": "Have a teammate pick up the triangular yellow @item{hip bag} inside the shelter."
+          },
+          {
+            "id": "attach-hip-bag",
+            "text": "Stand facing the teammate and have them aim at your hip until the attachment marker appears, then attach the bag to your avatar."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Drawbridge",
+    "Map",
+    "Backpack",
+    "Holster",
+    "Train",
+    "Chairlift",
+    "Tunnel",
+    "Peak",
+    "Wall",
+    "Shiny",
+    "Ending1",
+    "Ending2"
+  ]
+}

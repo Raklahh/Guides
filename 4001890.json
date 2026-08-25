@@ -1,0 +1,1638 @@
+{
+  "game": {
+    "appid": 4001890,
+    "slug": "how-to-fish",
+    "title": "How to Fish",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-25",
+    "estTotalHours": 12,
+    "difficultyRating": 6,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-08-25"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Complete the five-island story",
+      "description": "Follow the required boss quests from the lighthouse through the volcano, buying useful boat and weapon upgrades on the way. Save optional trick shots, gambling, collections, and the timed run for later.",
+      "achievementRefs": [
+        "A01_FirstCreature",
+        "A05_DripCreature",
+        "A03_Boss1",
+        "A07_BoatUpgrade",
+        "A08_Boss2",
+        "A14_GrillMaster",
+        "A13_Boss3",
+        "A24_MaxBoat",
+        "A20_Boss4",
+        "A19_AllAttachments",
+        "A21_Boss5",
+        "A25_FinishGame"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Use post-game freedom for cleanup",
+      "description": "After the credits, use the retained endgame gear and access to all five islands to finish trick kills, cooking, gambling, the 49-creature encyclopedia, every Drip variant, and the bare-fist final blow.",
+      "achievementRefs": [
+        "A02_Seagull",
+        "A04_Noob",
+        "A06_FlyingBoat",
+        "A09_BurntCreature",
+        "A10_EatMiniBoss",
+        "A11_KillscoreMultiplier",
+        "A12_360Noscope",
+        "A15_SellWorth",
+        "A16_AllCreatures",
+        "A17_Roulette",
+        "A18_LegendarySkin",
+        "A22_SeagullDynamite",
+        "A23_AllDripCreatures",
+        "A26_FastBoss",
+        "A28_Boss5MeleeKill"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Run Bean on a separate save",
+      "description": "Start a fresh save after learning the route, clear all five islands without the patched island skip, and start the RHIB before the one-hour limit.",
+      "achievementRefs": [
+        "A27_Speedrunner"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "A01_FirstCreature",
+      "displayName": "Getting started",
+      "description": "Kill your first creature",
+      "hidden": false,
+      "globalPercent": 99.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Catch and kill any @enemy{creature} with a weapon or bare fists.",
+      "guide": {
+        "kind": "standard",
+        "context": "No special bait, island, or weapon is required; the first catch from the opening tutorial can satisfy the kill.",
+        "steps": [
+          {
+            "id": "first-catch",
+            "text": "Use the starting fishing equipment to catch any @enemy{creature} on Island 1."
+          },
+          {
+            "id": "first-kill",
+            "text": "Punch or strike the caught creature until the creature dies and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A02_Seagull",
+      "displayName": "Let me go",
+      "description": "Get picked up by a seagull",
+      "hidden": false,
+      "globalPercent": 78.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Die, leave the death screen untouched, and wait for a @enemy{seagull} to carry away the body.",
+      "guide": {
+        "kind": "standard",
+        "context": "The pickup occurs only while the player remains dead; selecting respawn ends the opportunity. A deliberate dynamite death provides a quick setup.",
+        "steps": [
+          {
+            "id": "seagull-die",
+            "text": "Die anywhere outdoors, or detonate @item{dynamite} close enough to kill the player."
+          },
+          {
+            "id": "seagull-wait",
+            "text": "Do not select respawn; remain on the death screen until a @enemy{seagull} descends and carries away the body."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A03_Boss1",
+      "displayName": "Who stole my beer",
+      "description": "Find and kill the culprit, and bring it to the lighthouse keeper",
+      "hidden": false,
+      "globalPercent": 90.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30–45 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Bait and kill the Island 1 @enemy{Spider Crab}, then give its @item{shell} to the lighthouse keeper for the boat keys.",
+      "guide": {
+        "kind": "standard",
+        "context": "Boss quests advance from their distinct trophy drops, not ordinary meat. The Spider Crab briefly stuns after a missed charge, unlike later bosses.",
+        "steps": [
+          {
+            "id": "beer-bait",
+            "text": "On Island 1, equip an @item{Empty Beer Can} as bait on the fishing rod and hook the @enemy{Spider Crab}."
+          },
+          {
+            "id": "crab-fight",
+            "text": "Dodge each charge, move behind the stunned Spider Crab, and attack until the boss dies."
+          },
+          {
+            "id": "shell-return",
+            "text": "After the fight, collect the @item{Spider Crab shell} and deliver that trophy to the @npc{lighthouse keeper}; he awards the boat keys."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A04_Noob",
+      "displayName": "Noob",
+      "description": "Get a kill with no kill score multiplier",
+      "hidden": false,
+      "globalPercent": 82.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill a grounded @enemy{creature} with an ordinary ranged-weapon burst that produces a @mechanic{0x Killscore}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killscore rewards stylish conditions, so this unlock requires the opposite: no spin, jump, headshot, range, one-shot, or other multiplier.",
+        "steps": [
+          {
+            "id": "noob-ground-target",
+            "text": "Catch a durable creature and leave the creature lying on the ground."
+          },
+          {
+            "id": "noob-plain-kill",
+            "text": "Stand normally and fire repeated body shots from a ranged weapon until the creature dies with a displayed @mechanic{0x Killscore}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A05_DripCreature",
+      "displayName": "Drip",
+      "description": "Kill a drip creature",
+      "hidden": false,
+      "globalPercent": 97.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15–30 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Catch and kill any rainbow-named @enemy{Drip creature} variant.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every catch outside the boss pools rolls a 10% Drip chance. Rainbow name text and an alternate appearance identify the variant before the kill.",
+        "steps": [
+          {
+            "id": "drip-fish",
+            "text": "Fish with any normal bait or lure until a caught creature displays rainbow-colored name text."
+          },
+          {
+            "id": "drip-kill",
+            "text": "Kill the rainbow-named @enemy{Drip creature} before spending the creature at a Reel of Fortune."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A06_FlyingBoat",
+      "displayName": "I'm the bird now",
+      "description": "Make the boat fly",
+      "hidden": false,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "prerequisites": [
+        "A03_Boss1"
+      ],
+      "confidence": "verified",
+      "summary": "Detonate one @item{dynamite bundle} directly beneath the boat while the boat floats in water.",
+      "guide": {
+        "kind": "standard",
+        "context": "The explosion launches the boat but does not destroy it, so no save backup or replacement boat is required.",
+        "steps": [
+          {
+            "id": "boat-position",
+            "text": "Leave the boat floating in open water and place one @item{dynamite bundle} directly beneath the hull."
+          },
+          {
+            "id": "boat-detonate",
+            "text": "Move clear of the blast and detonate the dynamite so the explosion throws the boat into the air."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A07_BoatUpgrade",
+      "displayName": "Getting an upgrade",
+      "description": "Upgrade the engine on the boat",
+      "hidden": false,
+      "globalPercent": 82.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1–2 hrs",
+      "estMinutes": 90,
+      "stage": 1,
+      "prerequisites": [
+        "A03_Boss1"
+      ],
+      "confidence": "verified",
+      "summary": "Buy the @item{$230 engine upgrade} from the shack beside the old man on Island 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "A later mid-tier engine also qualifies, but the Island 2 purchase is the earliest and cheapest qualifying upgrade.",
+        "steps": [
+          {
+            "id": "engine-earn",
+            "text": "Reach Island 2 with the boat and earn @mechanic{$230} by fishing and selling catches."
+          },
+          {
+            "id": "engine-buy",
+            "text": "Enter the shack beside the old man and purchase the @item{$230 engine upgrade} for the boat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A08_Boss2",
+      "displayName": "Dinnertime",
+      "description": "Catch dinner for the lady in the forest",
+      "hidden": false,
+      "globalPercent": 78.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–2 hrs",
+      "estMinutes": 120,
+      "stage": 1,
+      "prerequisites": [
+        "A03_Boss1"
+      ],
+      "confidence": "verified",
+      "summary": "Give three @item{leeches} to the Island 2 forest woman, kill the @enemy{Giant Piranha}, and return its tail to her.",
+      "guide": {
+        "kind": "standard",
+        "context": "The leeches can be obscured by Island 2's tall grass, so the pickup prompt is more reliable than the item model. Killing the boss alone does not complete the request.",
+        "steps": [
+          {
+            "id": "piranha-leeches",
+            "text": "Search the forest path, the grass around the house, and the area behind the @npc{forest woman} until three @item{leeches} have been collected."
+          },
+          {
+            "id": "piranha-bait",
+            "text": "Give all three leeches to the forest woman and receive the @item{Modified Leech bait}."
+          },
+          {
+            "id": "piranha-fight",
+            "text": "Equip the Modified Leech bait, hook the @enemy{Giant Piranha}, and kill the boss while circling away from its spawned smaller piranhas."
+          },
+          {
+            "id": "piranha-return",
+            "text": "Pick up the @item{Giant Piranha tail} and give the tail to the forest woman to finish the dinner request."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A09_BurntCreature",
+      "displayName": "Yummy in my tummy",
+      "description": "Eat a burnt creature",
+      "hidden": false,
+      "globalPercent": 40.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "prerequisites": [
+        "A14_GrillMaster"
+      ],
+      "confidence": "verified",
+      "summary": "Use the Island 3 grill to burn a @enemy{creature} solid black at @mechanic{0x cooking value}, then eat the creature.",
+      "guide": {
+        "kind": "standard",
+        "context": "The grill must first be unlocked through the Grillmaster's Blue Shark request. Pressing F while cooking shows the live multiplier, which rises before collapsing to zero.",
+        "steps": [
+          {
+            "id": "burnt-unlock-grill",
+            "text": "Complete the @npc{Grillmaster}'s request on Island 3 so the grill can be used."
+          },
+          {
+            "id": "burnt-cook",
+            "text": "Hold any creature over the grill and press F until the inspection shows @mechanic{0x cooking value} and the creature is solid black."
+          },
+          {
+            "id": "burnt-eat",
+            "text": "Remove the completely burnt creature from the grill and eat the creature."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A10_EatMiniBoss",
+      "displayName": "Competitive eating",
+      "description": "Eat a mini-boss",
+      "hidden": false,
+      "globalPercent": 16.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–20 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "prerequisites": [
+        "A03_Boss1"
+      ],
+      "confidence": "verified",
+      "summary": "Catch and kill a @enemy{Sunfish} or @enemy{The Old Pike} with a Beginner Boss Lure, then eat the mini-boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "The $40 Beginner Boss Lure sold on Island 2 is the cheapest mini-boss summon. Burning this same catch completely before eating can also award the burnt-creature achievement.",
+        "steps": [
+          {
+            "id": "eating-buy-lure",
+            "text": "Buy a @item{Beginner Boss Lure} for $40 on Island 2 and equip the lure on the fishing rod."
+          },
+          {
+            "id": "eating-kill",
+            "text": "Hook and kill the resulting @enemy{Sunfish} or @enemy{The Old Pike} mini-boss."
+          },
+          {
+            "id": "eating-consume",
+            "text": "Pick up and eat the mini-boss; optionally burn the catch to 0x on the Island 3 grill first to combine two achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A11_KillscoreMultiplier",
+      "displayName": "Impressive",
+      "description": "Get a 5x killscore multiplier",
+      "hidden": false,
+      "globalPercent": 75.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Hip-fire an assault rifle at range to kill a flying @enemy{seagull} with a headshot and exceed a @mechanic{5x Killscore}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killscore modifiers multiply together. Guns are hitscan, and a laser sight supplies a hip-fire aiming point without canceling the No Scope modifier.",
+        "steps": [
+          {
+            "id": "impressive-prepare",
+            "text": "Fit an @item{assault rifle} with a @item{laser sight} and find a seagull already flying at a distance."
+          },
+          {
+            "id": "impressive-shot",
+            "text": "Without aiming down sights, use the laser to place a lethal headshot on the flying @enemy{seagull}."
+          },
+          {
+            "id": "impressive-confirm",
+            "text": "Confirm that the flight, range, headshot, one-shot, no-scope, and Overkill conditions combine above @mechanic{5x Killscore}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A12_360Noscope",
+      "displayName": "360 no scope",
+      "description": "Kill a creature with a 360 no scope",
+      "hidden": false,
+      "globalPercent": 57.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–15 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Rotate a full 360 degrees, then hip-fire without aiming down sights to kill a weak @enemy{creature} in one shot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Low sensitivity is fine because several mouse swipes can complete the rotation. A weak target prevents extra shots from breaking the required sequence, and hitscan weapons need no leading.",
+        "steps": [
+          {
+            "id": "noscope-target",
+            "text": "Catch a low-level creature and ready a sniper rifle or shotgun that can kill the creature in one shot."
+          },
+          {
+            "id": "noscope-spin",
+            "text": "Rotate the camera through a complete @mechanic{360-degree turn} immediately before firing."
+          },
+          {
+            "id": "noscope-kill",
+            "text": "Keep aim-down-sights inactive and hip-fire one lethal shot into the weak creature."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A13_Boss3",
+      "displayName": "Vacation",
+      "description": "Help the tourist swim on his vacation",
+      "hidden": false,
+      "globalPercent": 60.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2–4 hrs",
+      "estMinutes": 180,
+      "stage": 1,
+      "prerequisites": [
+        "A08_Boss2"
+      ],
+      "confidence": "verified",
+      "summary": "Give the Island 3 tourist an endangered @enemy{Needlefish}, @enemy{Bowlfish}, or @enemy{Seahorse}, then use his Carrot to kill the Pufferfish.",
+      "guide": {
+        "kind": "standard",
+        "context": "Endangered catches are a separate modifier from Drip variants and appear in the Standard Lure pool. The Pufferfish gains size and a persistent poison trail at half health.",
+        "steps": [
+          {
+            "id": "vacation-endangered",
+            "text": "On Island 3, fish with a @item{Standard Lure} until a Needlefish, Bowlfish, or Seahorse displays the endangered catch modifier."
+          },
+          {
+            "id": "vacation-trade",
+            "text": "Give the endangered fish to the @npc{tourist} and receive the @item{Carrot}."
+          },
+          {
+            "id": "vacation-hook",
+            "text": "Equip the Carrot as bait and hook the @enemy{Pufferfish} boss."
+          },
+          {
+            "id": "vacation-kill",
+            "text": "Keep moving while shooting the Pufferfish, and stay outside the purple poison trail after the boss reaches half health until the Pufferfish dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A14_GrillMaster",
+      "displayName": "Grillmaster",
+      "description": "Start the grill",
+      "hidden": false,
+      "globalPercent": 72.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2–3 hrs",
+      "estMinutes": 150,
+      "stage": 1,
+      "prerequisites": [
+        "A08_Boss2"
+      ],
+      "confidence": "verified",
+      "summary": "Use a $280 Standard Boss Lure to kill a @enemy{Blue Shark}, then give the shark to the Island 3 Grillmaster.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing this request permanently activates the grill, which enables the 1.5x cooking multiplier and the burnt-food achievement.",
+        "steps": [
+          {
+            "id": "grill-buy-lure",
+            "text": "On Island 3, buy a @item{Standard Boss Lure} for $280 and equip the lure."
+          },
+          {
+            "id": "grill-kill-shark",
+            "text": "Hook the @enemy{Blue Shark} and kill the shark in an open area away from obstructing coconut trees."
+          },
+          {
+            "id": "grill-return-shark",
+            "text": "Carry the Blue Shark to the @npc{Grillmaster} and hand over the shark to start the grill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A15_SellWorth",
+      "displayName": "Rich! Millionaire",
+      "description": "Sell something worth 100,000 or more",
+      "hidden": false,
+      "globalPercent": 9.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–90 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "prerequisites": [
+        "A21_Boss5"
+      ],
+      "confidence": "verified",
+      "summary": "Win green roulette on Island 5 with a cooked fish worth at least $2,858, then sell the 35x payout item for $100,000 or more.",
+      "guide": {
+        "kind": "standard",
+        "context": "Green pays 35 times the wagered item's value, so $100,000 divided by 35 sets the $2,858 minimum. Island 5 lava locks cooking at 1.5x without burning the fish.",
+        "steps": [
+          {
+            "id": "millionaire-catch",
+            "text": "Catch a valuable fish on Island 5, cook the fish in lava, and press F until the inspected value is at least @mechanic{$2,858}; aim near $3,200 for margin."
+          },
+          {
+            "id": "millionaire-bet",
+            "text": "Place the qualifying cooked fish on @mechanic{green} at the Island 5 roulette table and continue the farming loop until green wins."
+          },
+          {
+            "id": "millionaire-sell",
+            "text": "Collect the 35x roulette payout item and sell the payout item for at least @mechanic{$100,000}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A16_AllCreatures",
+      "displayName": "Collector",
+      "description": "Find and kill all the creatures",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2–5 hrs",
+      "estMinutes": 210,
+      "stage": 2,
+      "prerequisites": [
+        "A25_FinishGame"
+      ],
+      "confidence": "verified",
+      "summary": "Kill all 49 encyclopedia creatures, using the @mechanic{Tab encyclopedia} and the required bait or lure for each missing entry.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The catch pool is determined by bait or lure rather than the island, so post-game cleanup can be done from Island 5. The normal encyclopedia column records kills; the optional $5,800 Scientific Boss Lure is easy to overlook.",
+        "collectibles": [
+          {
+            "id": "creature-brown-crab",
+            "index": 1,
+            "name": "Brown Crab",
+            "location": "Any shoreline",
+            "method": "Catch Brown Crab with Ham or Hot Dog bait and kill the crab.",
+            "missable": false
+          },
+          {
+            "id": "creature-piranha",
+            "index": 2,
+            "name": "Piranha",
+            "location": "Any shoreline",
+            "method": "Catch Piranha with a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-gar",
+            "index": 3,
+            "name": "Gar",
+            "location": "Any shoreline",
+            "method": "Catch Gar with French Fry bait and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-shrimp",
+            "index": 4,
+            "name": "Shrimp",
+            "location": "Any shoreline",
+            "method": "Catch Shrimp with Ham bait and kill the shrimp.",
+            "missable": false
+          },
+          {
+            "id": "creature-mackerel",
+            "index": 5,
+            "name": "Mackerel",
+            "location": "Any shoreline",
+            "method": "Catch Mackerel with French Fry bait and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-rock-crab",
+            "index": 6,
+            "name": "Rock Crab",
+            "location": "Any shoreline",
+            "method": "Catch Rock Crab with Hot Dog bait and kill the crab.",
+            "missable": false
+          },
+          {
+            "id": "creature-lobster",
+            "index": 7,
+            "name": "Lobster",
+            "location": "Any shoreline",
+            "method": "Catch Lobster with Hot Dog bait and kill the lobster.",
+            "missable": false
+          },
+          {
+            "id": "creature-cod",
+            "index": 8,
+            "name": "Cod",
+            "location": "Any shoreline",
+            "method": "Catch Cod with a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-goby",
+            "index": 9,
+            "name": "Goby",
+            "location": "Any shoreline",
+            "method": "Catch Goby with a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-pike",
+            "index": 10,
+            "name": "Pike",
+            "location": "Any shoreline",
+            "method": "Catch Pike with French Fry bait or a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-salmon",
+            "index": 11,
+            "name": "Salmon",
+            "location": "Any shoreline",
+            "method": "Catch Salmon with a Beginner or Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-perch",
+            "index": 12,
+            "name": "Perch",
+            "location": "Any shoreline",
+            "method": "Catch Perch with a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-triggerfish",
+            "index": 13,
+            "name": "Triggerfish",
+            "location": "Any shoreline",
+            "method": "Catch Triggerfish with a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-goldfish",
+            "index": 14,
+            "name": "Goldfish",
+            "location": "Any shoreline",
+            "method": "Catch Goldfish with a Beginner Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-catfish",
+            "index": 15,
+            "name": "Catfish",
+            "location": "Any shoreline",
+            "method": "Catch Catfish with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-clownfish",
+            "index": 16,
+            "name": "Clownfish",
+            "location": "Any shoreline",
+            "method": "Catch Clownfish with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-sea-urchin",
+            "index": 17,
+            "name": "Sea Urchin",
+            "location": "Any shoreline",
+            "method": "Catch Sea Urchin with a Standard Lure and kill the creature.",
+            "missable": false
+          },
+          {
+            "id": "creature-yellow-boxfish",
+            "index": 18,
+            "name": "Yellow Boxfish",
+            "location": "Any shoreline",
+            "method": "Catch Yellow Boxfish with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-needlefish",
+            "index": 19,
+            "name": "Needlefish",
+            "location": "Any shoreline",
+            "method": "Catch Needlefish with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-angelfish",
+            "index": 20,
+            "name": "Angelfish",
+            "location": "Any shoreline",
+            "method": "Catch Angelfish with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-bluegill",
+            "index": 21,
+            "name": "Bluegill",
+            "location": "Any shoreline",
+            "method": "Catch Bluegill with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-seahorse",
+            "index": 22,
+            "name": "Seahorse",
+            "location": "Any shoreline",
+            "method": "Catch Seahorse with a Standard Lure and kill the creature.",
+            "missable": false
+          },
+          {
+            "id": "creature-bowlfish",
+            "index": 23,
+            "name": "Bowlfish",
+            "location": "Any shoreline",
+            "method": "Catch Bowlfish with a Standard Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-bass",
+            "index": 24,
+            "name": "Bass",
+            "location": "Any shoreline",
+            "method": "Catch Bass with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-eel",
+            "index": 25,
+            "name": "Eel",
+            "location": "Any shoreline",
+            "method": "Catch Eel with a Professional Lure and kill the eel.",
+            "missable": false
+          },
+          {
+            "id": "creature-red-snapper",
+            "index": 26,
+            "name": "Red Snapper",
+            "location": "Any shoreline",
+            "method": "Catch Red Snapper with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-sengarat",
+            "index": 27,
+            "name": "Sengarat",
+            "location": "Any shoreline",
+            "method": "Catch Sengarat with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-halibut",
+            "index": 28,
+            "name": "Halibut",
+            "location": "Any shoreline",
+            "method": "Catch Halibut with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-tigerfish",
+            "index": 29,
+            "name": "Tigerfish",
+            "location": "Any shoreline",
+            "method": "Catch Tigerfish with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-flying-fish",
+            "index": 30,
+            "name": "Flying Fish",
+            "location": "Any shoreline",
+            "method": "Catch Flying Fish with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-voxel-fish",
+            "index": 31,
+            "name": "Voxel Fish",
+            "location": "Any shoreline",
+            "method": "Catch Voxel Fish with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-parrotfish",
+            "index": 32,
+            "name": "Parrotfish",
+            "location": "Any shoreline",
+            "method": "Catch Parrotfish with a Professional Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-dripper",
+            "index": 33,
+            "name": "Dripper",
+            "location": "Any shoreline",
+            "method": "Catch the low-appearance Dripper with a Professional Lure and kill the creature.",
+            "missable": false
+          },
+          {
+            "id": "creature-blobfish",
+            "index": 34,
+            "name": "Blobfish",
+            "location": "Any shoreline",
+            "method": "Catch Blobfish with a Scientific Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-oarfish",
+            "index": 35,
+            "name": "Oarfish",
+            "location": "Any shoreline",
+            "method": "Catch Oarfish with a Scientific Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-anglerfish",
+            "index": 36,
+            "name": "Anglerfish",
+            "location": "Any shoreline",
+            "method": "Catch Anglerfish with a Scientific Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-stonefish",
+            "index": 37,
+            "name": "Stonefish",
+            "location": "Any shoreline",
+            "method": "Catch Stonefish with a Scientific Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-superdwarf",
+            "index": 38,
+            "name": "Superdwarf Fish",
+            "location": "Any shoreline",
+            "method": "Catch Superdwarf Fish with a Scientific Lure and kill the fish.",
+            "missable": false
+          },
+          {
+            "id": "creature-sunfish",
+            "index": 39,
+            "name": "Sunfish",
+            "location": "Any shoreline",
+            "method": "Catch Sunfish with a Beginner Boss Lure and kill the mini-boss.",
+            "missable": false
+          },
+          {
+            "id": "creature-old-pike",
+            "index": 40,
+            "name": "The Old Pike",
+            "location": "Any shoreline",
+            "method": "Catch The Old Pike with a Beginner Boss Lure and kill the mini-boss.",
+            "missable": false
+          },
+          {
+            "id": "creature-blue-shark",
+            "index": 41,
+            "name": "Blue Shark",
+            "location": "Any shoreline",
+            "method": "Catch Blue Shark with a Standard Boss Lure and kill the mini-boss.",
+            "missable": false
+          },
+          {
+            "id": "creature-tuna",
+            "index": 42,
+            "name": "Tuna",
+            "location": "Any shoreline",
+            "method": "Catch Tuna with a Professional Boss Lure and kill the mini-boss.",
+            "missable": false
+          },
+          {
+            "id": "creature-goblin-shark",
+            "index": 43,
+            "name": "Goblin Shark",
+            "location": "Any shoreline",
+            "method": "Buy the $5,800 Scientific Boss Lure, catch Goblin Shark, and kill the mini-boss.",
+            "missable": false
+          },
+          {
+            "id": "creature-bowhead",
+            "index": 44,
+            "name": "Bowhead Whale",
+            "location": "Island 5",
+            "method": "Give five fish to the scientist, use the resulting Fish Bucket, and kill the Bowhead Whale.",
+            "missable": false
+          },
+          {
+            "id": "creature-spider-crab",
+            "index": 45,
+            "name": "Spider Crab",
+            "location": "Island 1",
+            "method": "Use an Empty Beer Can as bait and kill the Spider Crab.",
+            "missable": false
+          },
+          {
+            "id": "creature-giant-piranha",
+            "index": 46,
+            "name": "Giant Piranha",
+            "location": "Island 2",
+            "method": "Give three leeches to the forest woman, use the resulting Modified Leech bait, and kill the Giant Piranha.",
+            "missable": false
+          },
+          {
+            "id": "creature-pufferfish",
+            "index": 47,
+            "name": "Pufferfish",
+            "location": "Island 3",
+            "method": "Use a Standard Lure to catch an endangered Needlefish, Bowlfish, or Seahorse; give that catch to the tourist, use the resulting Carrot as bait, and kill the Pufferfish.",
+            "missable": false
+          },
+          {
+            "id": "creature-albatross",
+            "index": 48,
+            "name": "Albatross",
+            "location": "Island 4",
+            "method": "Place a killed Tuna on the ground and kill the Albatross that arrives for the bait.",
+            "missable": false
+          },
+          {
+            "id": "creature-mutated-whale",
+            "index": 49,
+            "name": "Mutated Bowhead Whale",
+            "location": "Island 5 volcano",
+            "method": "Throw the killed Bowhead Whale into the volcano and defeat the Mutated Bowhead Whale.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A17_Roulette",
+      "displayName": "All in",
+      "description": "Bet on green and win at roulette",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "prerequisites": [
+        "A21_Boss5"
+      ],
+      "confidence": "verified",
+      "summary": "Place any item on @mechanic{green} at the Island 5 roulette table and win when the ball lands on green.",
+      "guide": {
+        "kind": "standard",
+        "context": "Green is one pocket out of 37, pays 35x the wagered value, and has no bet cap. A cooked fish worth at least $2,858 can combine this unlock with the $100,000 sale.",
+        "steps": [
+          {
+            "id": "roulette-select-green",
+            "text": "Reach the Island 5 casino and place an item on the literal @mechanic{green} roulette wager."
+          },
+          {
+            "id": "roulette-repeat",
+            "text": "Spin the wheel and repeat green wagers until the ball lands on the single green pocket."
+          },
+          {
+            "id": "roulette-collect",
+            "text": "Collect the 35x payout item after the green result registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A18_LegendarySkin",
+      "displayName": "GOLD GOLD GOLD",
+      "description": "Unlock a legendary skin from the slot machine",
+      "hidden": false,
+      "globalPercent": 63.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–90 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Feed @enemy{Drip creatures} to a Reel of Fortune until the machine awards a legendary weapon skin.",
+      "guide": {
+        "kind": "standard",
+        "context": "The reward is random, but Drip variants respawn indefinitely. Every island has a Reel of Fortune, so the grind does not depend on a specific machine.",
+        "steps": [
+          {
+            "id": "legendary-catch-drip",
+            "text": "Catch and kill a rainbow-named @enemy{Drip creature}."
+          },
+          {
+            "id": "legendary-insert",
+            "text": "Carry the Drip creature to any @mechanic{Reel of Fortune} and insert the creature when the machine prompts for a Drip catch."
+          },
+          {
+            "id": "legendary-repeat",
+            "text": "Repeat the Drip-creature wager until the Reel of Fortune awards a @item{legendary weapon skin}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A19_AllAttachments",
+      "displayName": "Fully equipped",
+      "description": "Apply all attachments to a single weapon",
+      "hidden": false,
+      "globalPercent": 48.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "4–6 hrs",
+      "estMinutes": 300,
+      "stage": 1,
+      "prerequisites": [
+        "A20_Boss4"
+      ],
+      "confidence": "verified",
+      "summary": "Equip one weapon with an Extended Magazine, Laser Sight, one optic, and one muzzle attachment.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each weapon has four attachment categories. The optic slot accepts Red Dot or Sniper Scope, the muzzle slot accepts Compensator or Suppressor, and the latter Island 4 options are not required if compatible earlier parts are available.",
+        "steps": [
+          {
+            "id": "attachments-weapon",
+            "text": "Choose one weapon with all four attachment slots and buy an @item{Extended Magazine} plus a @item{Laser Sight}."
+          },
+          {
+            "id": "attachments-optic",
+            "text": "Install either a @item{Red Dot} or @item{Sniper Scope} in the weapon's optic slot."
+          },
+          {
+            "id": "attachments-muzzle",
+            "text": "Install either a @item{Compensator} or @item{Suppressor} in the muzzle slot so all four categories are occupied at once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A20_Boss4",
+      "displayName": "Terrorizing bird",
+      "description": "Defend the scared islanders from the terrorizing bird",
+      "hidden": false,
+      "globalPercent": 40.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3–5 hrs",
+      "estMinutes": 240,
+      "stage": 1,
+      "prerequisites": [
+        "A13_Boss3"
+      ],
+      "confidence": "verified",
+      "summary": "Catch a @enemy{Tuna} with the $1,200 Professional Boss Lure on Island 4, place the Tuna on land, and kill the summoned Albatross.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Tuna is always consumed when the Albatross arrives, even if the Professional Boss Lure survives its durability roll. Buildings block both the dive and ranged attacks.",
+        "steps": [
+          {
+            "id": "bird-catch-tuna",
+            "text": "On Island 4, buy a @item{Professional Boss Lure} for $1,200, hook the @enemy{Tuna}, and kill the mini-boss."
+          },
+          {
+            "id": "bird-place-bait",
+            "text": "Place the dead Tuna on open ground and wait for the @enemy{Albatross} to consume the bait and start the fight."
+          },
+          {
+            "id": "bird-use-cover",
+            "text": "Enter the casino or another building during the Albatross's dive and audible ranged windup, then track the red enemy marker through the wall."
+          },
+          {
+            "id": "bird-kill",
+            "text": "Step outside between attacks and fire an upgraded Uzi or sniper rifle until the Albatross dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A21_Boss5",
+      "displayName": "Deadliest catch",
+      "description": "Help the military defeat the big creature they located",
+      "hidden": false,
+      "globalPercent": 27.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5–8 hrs",
+      "estMinutes": 360,
+      "stage": 1,
+      "prerequisites": [
+        "A20_Boss4"
+      ],
+      "confidence": "verified",
+      "summary": "Give the Island 5 scientist five fish, kill the Bowhead Whale, throw its body into the volcano, and defeat the Mutated Bowhead Whale.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hazmat-suited scientist is the military contact named by the achievement; there is no separate military quest. The regular Bowhead Whale is only the sacrifice that starts the final encounter.",
+        "steps": [
+          {
+            "id": "deadliest-five-fish",
+            "text": "On Island 5, give any five fish to the @npc{hazmat-suited scientist} and receive the @item{Fish Bucket}."
+          },
+          {
+            "id": "deadliest-whale",
+            "text": "Use the Fish Bucket as bait, hook the @enemy{Bowhead Whale}, and kill the whale while dodging charges and aerial stomps."
+          },
+          {
+            "id": "deadliest-summon",
+            "text": "Carry the dead Bowhead Whale to the volcano and throw the whale into the crater to summon the @enemy{Mutated Bowhead Whale}."
+          },
+          {
+            "id": "deadliest-final",
+            "text": "Use an upgraded assault rifle and healing fish to kill the Mutated Bowhead Whale while avoiding rolls, stomps, meteorites, and persistent lava pools."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A22_SeagullDynamite",
+      "displayName": "Everyone's dream",
+      "description": "Kill a seagull with dynamite",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–15 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "A03_Boss1"
+      ],
+      "confidence": "verified",
+      "summary": "Bait a normal @enemy{seagull} beside ground-placed dynamite, then shoot the dynamite to kill the bird remotely.",
+      "guide": {
+        "kind": "standard",
+        "context": "A fish placed on the ground draws several seagulls, while shooting dynamite removes the delay and distance problem of a thrown fuse.",
+        "steps": [
+          {
+            "id": "dream-place-charge",
+            "text": "Place one @item{dynamite stick} on open ground and place a fish directly beside the dynamite as bait."
+          },
+          {
+            "id": "dream-retreat",
+            "text": "Move far enough away that the explosion cannot kill the player and aim a gun at the dynamite."
+          },
+          {
+            "id": "dream-detonate",
+            "text": "Wait until a normal @enemy{seagull} lands beside the fish, then shoot the dynamite to detonate the charge and kill the bird."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A23_AllDripCreatures",
+      "displayName": "Fishipedia",
+      "description": "Find and kill all drip creatures",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "4–12 hrs",
+      "estMinutes": 480,
+      "stage": 2,
+      "prerequisites": [
+        "A25_FinishGame"
+      ],
+      "confidence": "verified",
+      "summary": "Kill every rainbow-named @enemy{Drip variant} shown as missing in the Tab encyclopedia's Drip column.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Eligible normal catches have a 10% Drip roll and use the same bait as their ordinary forms. Reel slowly after a bite, right-click to release a non-Drip catch, and keep the same cast active for more rolls; Dripper's low base appearance rate makes its variant a likely final gap.",
+        "collectibles": [
+          {
+            "id": "drip-starter",
+            "index": 1,
+            "name": "Starter-bait Drip variants",
+            "location": "Any shoreline",
+            "method": "Use Ham, Hot Dog, and French Fry bait until rainbow variants of Brown Crab, Shrimp, Rock Crab, Lobster, Mackerel, Gar, and Pike have been killed.",
+            "missable": false
+          },
+          {
+            "id": "drip-beginner",
+            "index": 2,
+            "name": "Beginner Lure Drip variants",
+            "location": "Any shoreline",
+            "method": "Use Beginner Lures until rainbow variants of Goldfish, Perch, Goby, Triggerfish, Salmon, Piranha, Pike, Cod, and Sunfish have been killed.",
+            "missable": false
+          },
+          {
+            "id": "drip-standard",
+            "index": 3,
+            "name": "Standard Lure Drip variants",
+            "location": "Any shoreline",
+            "method": "Use Standard Lures until rainbow variants of Catfish, Bluegill, Sea Urchin, Yellow Boxfish, Angelfish, Needlefish, Clownfish, Seahorse, Bowlfish, and Blue Shark have been killed.",
+            "missable": false
+          },
+          {
+            "id": "drip-professional",
+            "index": 4,
+            "name": "Professional Lure Drip variants",
+            "location": "Any shoreline",
+            "method": "Use Professional Lures until rainbow variants of Bass, Dripper, Eel, Flying Fish, Halibut, Parrotfish, Red Snapper, Tigerfish, Tuna, and Voxel Fish have been killed.",
+            "missable": false
+          },
+          {
+            "id": "drip-scientific",
+            "index": 5,
+            "name": "Scientific Lure Drip variants",
+            "location": "Any shoreline",
+            "method": "Use Scientific Lures until rainbow variants of Stonefish, Blobfish, Anglerfish, Oarfish, and Superdwarf Fish have been killed.",
+            "missable": false
+          },
+          {
+            "id": "drip-audit",
+            "index": 6,
+            "name": "Encyclopedia audit",
+            "location": "Tab encyclopedia",
+            "method": "Open the Tab encyclopedia, compare every Drip entry with the completed lure groups, and kill any remaining rainbow variant until the Drip column is complete.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A24_MaxBoat",
+      "displayName": "I am speed",
+      "description": "Buy the best engine for the boat",
+      "hidden": false,
+      "globalPercent": 49.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3–5 hrs",
+      "estMinutes": 240,
+      "stage": 1,
+      "prerequisites": [
+        "A13_Boss3"
+      ],
+      "confidence": "verified",
+      "summary": "Buy the @item{Dual Motors} boat engine for $860 from the shack beside the Island 4 grill.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dual Motors is the best engine tier; earlier upgrades do not satisfy this specific purchase even though they unlock the first engine achievement.",
+        "steps": [
+          {
+            "id": "speed-earn",
+            "text": "Reach Island 4 and earn @mechanic{$860} through fishing and selling catches."
+          },
+          {
+            "id": "speed-buy",
+            "text": "Enter the shack beside the Island 4 grill and purchase the @item{Dual Motors} boat engine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A25_FinishGame",
+      "displayName": "We are so back",
+      "description": "Finish the game",
+      "hidden": false,
+      "globalPercent": 26.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5–8 hrs",
+      "estMinutes": 390,
+      "stage": 1,
+      "prerequisites": [
+        "A21_Boss5"
+      ],
+      "confidence": "verified",
+      "summary": "After killing the Mutated Bowhead Whale, give its tail to the scientist, take the RHIB keys, and start the RHIB.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final boss kill does not complete the game. The ending requires a trophy hand-in and a second boat; after the credits, the save returns to Island 1 with all equipment and every island open.",
+        "steps": [
+          {
+            "id": "finish-tail",
+            "text": "Pick up the @item{Mutated Bowhead Whale tail} after the final boss dies."
+          },
+          {
+            "id": "finish-keys",
+            "text": "Give the tail to the @npc{hazmat-suited scientist} and receive the @item{RHIB keys}."
+          },
+          {
+            "id": "finish-rhib",
+            "text": "Enter the @item{RHIB}, start the engine with the RHIB keys, and continue through the ending sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A26_FastBoss",
+      "displayName": "Easy",
+      "description": "Kill a boss within 10 seconds",
+      "hidden": false,
+      "globalPercent": 18.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5–15 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "A25_FinishGame"
+      ],
+      "confidence": "verified",
+      "summary": "In post-game, hook the Island 1 Spider Crab with an Empty Beer Can and kill the boss within 10 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Post-game returns the player to Island 1 with endgame equipment, making the lowest-level story boss the safest timed target.",
+        "steps": [
+          {
+            "id": "easy-return",
+            "text": "Finish the story, return to Island 1 in post-game, and equip the strongest upgraded assault rifle."
+          },
+          {
+            "id": "easy-summon",
+            "text": "Use an @item{Empty Beer Can} as rod bait and hook the @enemy{Spider Crab}."
+          },
+          {
+            "id": "easy-kill",
+            "text": "Immediately fire the upgraded assault rifle until the Spider Crab dies within @mechanic{10 seconds} of the fight starting."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A27_Speedrunner",
+      "displayName": "Bean",
+      "description": "Finish the game within 1 hour",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1–4 hrs of attempts",
+      "estMinutes": 180,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "summary": "On a fresh save, clear all five islands and start the RHIB ending before the one-hour timer expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "Version 1.0.5 removed the direct Island 1-to-Volcano skip, so current runs must follow normal island progression. Practice the route on a completed save first, then keep the timed attempt on a separate fresh save.",
+        "steps": [
+          {
+            "id": "bean-island-1",
+            "text": "On Island 1, gather about $50, buy brass knuckles, the Crab Fishing Rod, and an Empty Beer Can, then kill the Spider Crab and exchange its shell for the boat keys within the first 10 minutes."
+          },
+          {
+            "id": "bean-island-2",
+            "text": "On Island 2, buy three dynamite bundles, the normal rod, basic bait, a $50 pistol, and useful inventory slots; collect three leeches, kill the Giant Piranha with Modified Leech bait, return its tail, and leave immediately."
+          },
+          {
+            "id": "bean-island-3",
+            "text": "On Island 3, skip the Grillmaster, use Standard Lures to fund the $650 Uzi, give the tourist an endangered Standard-Lure fish, and kill the Carrot-summoned Pufferfish while avoiding the phase-two poison trail."
+          },
+          {
+            "id": "bean-island-4",
+            "text": "On Island 4, farm with Professional Lures for the $3,800 sniper rifle and $1,200 Professional Boss Lure, kill the Tuna, place the Tuna as bait, and kill the Albatross by firing between attacks from shop-building cover."
+          },
+          {
+            "id": "bean-island-5-gear",
+            "text": "On Island 5, buy one dynamite bundle, throw and detonate the dynamite in the water, collect five fish from the blast, and trade those fish to the scientist for the Fish Bucket; then farm with $500 Scientific Lures for the $20,000 assault rifle and damage upgrades reaching roughly 70–80 damage per shot."
+          },
+          {
+            "id": "bean-island-5-finish",
+            "text": "Fill spare slots with cooked fish, kill the Bowhead Whale, sacrifice the whale at the volcano, kill the Mutated Bowhead Whale, give its tail to the scientist, and start the RHIB before @mechanic{1:00:00}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A28_Boss5MeleeKill",
+      "displayName": "Handyman",
+      "description": "Defeat the final boss with your bare hands",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20–60 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "prerequisites": [
+        "A21_Boss5"
+      ],
+      "confidence": "verified",
+      "summary": "Reduce the Mutated Bowhead Whale to a health sliver, unequip every weapon, and land the killing blow with bare fists.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the final hit must be unarmed; ranged damage is allowed earlier. Brass knuckles do not count as bare fists. In co-op, one player's bare-fist finisher awards the achievement to the whole lobby.",
+        "steps": [
+          {
+            "id": "handyman-prepare",
+            "text": "Reach the @enemy{Mutated Bowhead Whale} with an upgraded ranged weapon, bare fists available, and enough cooked fish for healing."
+          },
+          {
+            "id": "handyman-weaken",
+            "text": "Shoot the Mutated Bowhead Whale until only a visible health sliver remains, then stop firing before the ranged weapon lands the killing blow."
+          },
+          {
+            "id": "handyman-unequip",
+            "text": "Unequip every weapon, including brass knuckles, so the active attack is the player's bare fists."
+          },
+          {
+            "id": "handyman-finish",
+            "text": "Move into melee range and punch the Mutated Bowhead Whale until a bare-fist hit removes the final health and kills the boss."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "A01_FirstCreature",
+    "A05_DripCreature",
+    "A03_Boss1",
+    "A07_BoatUpgrade",
+    "A08_Boss2",
+    "A14_GrillMaster",
+    "A13_Boss3",
+    "A24_MaxBoat",
+    "A20_Boss4",
+    "A19_AllAttachments",
+    "A21_Boss5",
+    "A25_FinishGame",
+    "A02_Seagull",
+    "A04_Noob",
+    "A06_FlyingBoat",
+    "A09_BurntCreature",
+    "A10_EatMiniBoss",
+    "A11_KillscoreMultiplier",
+    "A12_360Noscope",
+    "A22_SeagullDynamite",
+    "A26_FastBoss",
+    "A28_Boss5MeleeKill",
+    "A16_AllCreatures",
+    "A23_AllDripCreatures",
+    "A18_LegendarySkin",
+    "A17_Roulette",
+    "A15_SellWorth",
+    "A27_Speedrunner"
+  ]
+}

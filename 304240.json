@@ -1,0 +1,1804 @@
+{
+  "game": {
+    "appid": 304240,
+    "slug": "resident-evil",
+    "title": "Resident Evil",
+    "version": "1.0",
+    "lastPatchChecked": "2025-02-05",
+    "estTotalHours": 30,
+    "difficultyRating": 7,
+    "minPlaythroughs": 6,
+    "createdAt": "2026-09-04"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Jill exploration and best ending",
+      "description": "Play Jill on Easy. Save Richard and Barry, free Chris, collect every room item, and register Jill's route-specific weapons.",
+      "achievementRefs": [
+        "ACHIEVEMENT_12",
+        "ACHIEVEMENT_13",
+        "ACHIEVEMENT_14",
+        "ACHIEVEMENT_15",
+        "ACHIEVEMENT_16",
+        "ACHIEVEMENT_17",
+        "ACHIEVEMENT_18",
+        "ACHIEVEMENT_19",
+        "ACHIEVEMENT_20",
+        "ACHIEVEMENT_22",
+        "ACHIEVEMENT_23",
+        "ACHIEVEMENT_25",
+        "ACHIEVEMENT_27",
+        "ACHIEVEMENT_29",
+        "ACHIEVEMENT_32",
+        "ACHIEVEMENT_33",
+        "ACHIEVEMENT_34",
+        "ACHIEVEMENT_35",
+        "ACHIEVEMENT_40",
+        "ACHIEVEMENT_43"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Jill Normal speedrun and solo ending",
+      "description": "Continue from the clear data, finish Normal in under three hours, refuse Barry's gun, and leave Chris imprisoned.",
+      "achievementRefs": [
+        "ACHIEVEMENT_0",
+        "ACHIEVEMENT_1",
+        "ACHIEVEMENT_2",
+        "ACHIEVEMENT_31",
+        "ACHIEVEMENT_36",
+        "ACHIEVEMENT_37"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Jill no-save clear",
+      "description": "Use Very Easy and the Infinite Rocket Launcher to finish without touching a typewriter.",
+      "achievementRefs": [
+        "ACHIEVEMENT_39"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Chris knife-only solo ending",
+      "description": "Play Chris on Very Easy, attack only with the Survival Knife, let Rebecca die, and leave Jill imprisoned to avoid the helipad Tyrant.",
+      "achievementRefs": [
+        "ACHIEVEMENT_4",
+        "ACHIEVEMENT_7",
+        "ACHIEVEMENT_8",
+        "ACHIEVEMENT_9",
+        "ACHIEVEMENT_10",
+        "ACHIEVEMENT_11",
+        "ACHIEVEMENT_30",
+        "ACHIEVEMENT_38"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Real Survival clear",
+      "description": "Complete Real Survival while routing around unlinked item boxes; this also covers the Hard clear.",
+      "achievementRefs": [
+        "ACHIEVEMENT_3",
+        "ACHIEVEMENT_5"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Chris Invisible Enemy and final cleanup",
+      "description": "Finish Invisible Enemy as Chris, save Rebecca and Jill, collect Chris's route weapons, and close the costume and weapon checklists.",
+      "achievementRefs": [
+        "ACHIEVEMENT_6",
+        "ACHIEVEMENT_21",
+        "ACHIEVEMENT_24",
+        "ACHIEVEMENT_26",
+        "ACHIEVEMENT_28",
+        "ACHIEVEMENT_41",
+        "ACHIEVEMENT_42"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACHIEVEMENT_0",
+      "displayName": "Like Taking Candy from a Baby",
+      "description": "Finish the game on Very Easy difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 27.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish the campaign on @mechanic{Very Easy} difficulty or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "Difficulty-clear achievements stack, so the planned Normal speedrun awards this automatically.",
+        "steps": [
+          {
+            "id": "clear",
+            "text": "Complete any Jill or Chris route on @mechanic{Very Easy}, Easy, Normal, Hard, or Real Survival."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_1",
+      "displayName": "Not in the Mood to Die",
+      "description": "Finish the game on Easy difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 22.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish the campaign on @mechanic{Easy} difficulty or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Normal, Hard, or Real Survival clear also fulfills this lower difficulty requirement.",
+        "steps": [
+          {
+            "id": "clear",
+            "text": "Reach an ending on @mechanic{Easy} difficulty or any harder setting."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_2",
+      "displayName": "Take that, Zombies!",
+      "description": "Finish the game on Normal difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 11.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish the campaign on @mechanic{Normal} difficulty or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "Normal is available immediately and is also the minimum setting for both timed weapon rewards.",
+        "steps": [
+          {
+            "id": "clear",
+            "text": "Complete the planned @mechanic{Normal} sub-three-hour Jill run to stack the Normal, Easy, and Very Easy clears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_3",
+      "displayName": "Oh, the Horror",
+      "description": "Finish the campaign on Hard difficulty or complete Real Survival.",
+      "hidden": true,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Finish the campaign on @mechanic{Hard} difficulty or complete @mechanic{Real Survival}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hard is locked until the first clear; Real Survival uses Hard-level combat values and also awards the Hard-clear achievement.",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "First finish the game, including a @mechanic{Normal} clear to unlock Real Survival."
+          },
+          {
+            "id": "finish",
+            "text": "Complete @mechanic{Real Survival} from its title-menu option to earn both difficulty achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_4",
+      "displayName": "We're in This Together",
+      "description": "Finish the game with Jill and Chris.",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Reach an ending once as @npc{Jill Valentine} and once as @npc{Chris Redfield}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Character completion is cumulative across the continuing clear-data chain; the two endings do not need matching difficulty or survivor outcomes.",
+        "steps": [
+          {
+            "id": "jill",
+            "text": "Finish any Jill campaign and save the resulting clear data."
+          },
+          {
+            "id": "chris",
+            "text": "Load that clear data, choose @mechanic{Once Again}, and finish any Chris campaign."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_5",
+      "displayName": "The Survival Horror",
+      "description": "Complete the full campaign in Real Survival mode.",
+      "hidden": true,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete the full campaign in @mechanic{Real Survival} mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Real Survival disables auto-aim and makes each item box hold a separate inventory, so leave critical keys and supplies in a deliberately chosen route box.",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Clear @mechanic{Normal} to add Real Survival to the title menu."
+          },
+          {
+            "id": "route",
+            "text": "Choose one frequently visited safe-room box for core supplies and carry late-area keys forward instead of scattering them."
+          },
+          {
+            "id": "clear",
+            "text": "Reach any ending in @mechanic{Real Survival}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_6",
+      "displayName": "Ghost of a Chance",
+      "description": "Complete the campaign in Invisible Enemy mode on any selectable difficulty.",
+      "hidden": true,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete the campaign in @mechanic{Invisible Enemy} mode on any selectable difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every enemy and boss is invisible; zombie blood pools still reveal where a corpse lies and whether it has finished dying.",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Complete @mechanic{Real Survival} to unlock Invisible Enemy."
+          },
+          {
+            "id": "select",
+            "text": "Start Invisible Enemy on @mechanic{Very Easy} and follow a practiced route."
+          },
+          {
+            "id": "finish",
+            "text": "Reach any ending without changing modes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_7",
+      "displayName": "Not Just Any Object",
+      "description": "As Chris, defeat Crimson Head Prototype 1 and take the Stone & Metal Object from its coffin.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "As @npc{Chris}, defeat @enemy{Crimson Head Prototype 1} and take the @item{Stone & Metal Object} from its coffin.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is Chris's counterpart to Jill's Grave Digger unlock and lies on the mandatory route after all four Death Masks are placed.",
+        "steps": [
+          {
+            "id": "masks",
+            "text": "Collect the four @item{Death Masks} and install them on the statues in @loc{Mansion 1F — Graveyard}."
+          },
+          {
+            "id": "claim",
+            "text": "Kill Crimson Head Prototype 1, inspect the fallen coffin, and pick up the @item{Stone & Metal Object}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_8",
+      "displayName": "Herbicide",
+      "description": "As Chris, defeat Plant 42 in the Residence 1F Plant 42 Room.",
+      "hidden": true,
+      "globalPercent": 15.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "As @npc{Chris}, defeat @enemy{Plant 42} in the @loc{Residence 1F Plant 42 Room}.",
+      "guide": {
+        "kind": "standard",
+        "context": "If Richard was not saved, Rebecca can make V-JOLT to weaken Plant 42; saving Richard instead preserves the Assault Shotgun route.",
+        "steps": [
+          {
+            "id": "enter",
+            "text": "Use the Residence keys and puzzle items to enter the Plant 42 Room as Chris."
+          },
+          {
+            "id": "kill",
+            "text": "Attack Plant 42 until the boss dies; if Rebecca's sequence triggers, make and apply @item{V-JOLT} first."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_9",
+      "displayName": "Written Word is Dead",
+      "description": "As Chris, defeat Yawn in the Mansion 3F Library and collect Last Book Vol. 2.",
+      "hidden": true,
+      "globalPercent": 15.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "As @npc{Chris}, defeat @enemy{Yawn} in the @loc{Mansion 3F Library} and collect @item{Last Book Vol. 2}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is Yawn's second encounter; the first Attic encounter awards a different achievement and can end without killing the snake.",
+        "steps": [
+          {
+            "id": "fight",
+            "text": "Enter the Library after obtaining the Helmet Key and defeat Yawn while circling the bookshelves."
+          },
+          {
+            "id": "book",
+            "text": "Pick up @item{Last Book Vol. 2} from the floor beside the bookcase Yawn damaged."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_10",
+      "displayName": "An End to a Poor Girl's Misery",
+      "description": "As Chris, push all four stone weights from the Jessica's Tomb platform until the coffin opens and Lisa Trevor jumps in.",
+      "hidden": true,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "As @npc{Chris}, push all four stone weights from the @loc{Jessica's Tomb} platform until the coffin opens and @enemy{Lisa Trevor} jumps in.",
+      "guide": {
+        "kind": "standard",
+        "context": "Weapons cannot kill Lisa in this encounter; the platform mechanism is the only way to finish the fight.",
+        "steps": [
+          {
+            "id": "weights",
+            "text": "Circle the altar and push all four stone weights off their positions while avoiding Lisa's swings."
+          },
+          {
+            "id": "finish",
+            "text": "Wait for the coffin to open and Lisa to jump into it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_11",
+      "displayName": "You da Man, Chris",
+      "description": "Finish the game using Chris.",
+      "hidden": false,
+      "globalPercent": 14.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Reach any campaign ending while playing as @npc{Chris Redfield}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Partner survival only changes which ending accompanies the character-clear award.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Complete the mansion, courtyard, Residence, caves, and Laboratory route as Chris, then escape from the heliport."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_12",
+      "displayName": "Grave Digger",
+      "description": "As Jill, defeat Crimson Head Prototype 1 in the Mansion graveyard crypt.",
+      "hidden": true,
+      "globalPercent": 27.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "As @npc{Jill}, defeat @enemy{Crimson Head Prototype 1} in the @loc{Mansion graveyard crypt}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The crypt opens only after all four Death Masks are installed, making this a mandatory Jill story fight.",
+        "steps": [
+          {
+            "id": "open",
+            "text": "Place the four @item{Death Masks} on the graveyard statues to lower the hanging coffin."
+          },
+          {
+            "id": "kill",
+            "text": "Enter the crypt and kill Crimson Head Prototype 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_13",
+      "displayName": "The Key Master",
+      "description": "As Jill, defeat Plant 42 and take the Helmet Key from the arena fireplace.",
+      "hidden": true,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "As @npc{Jill}, defeat @enemy{Plant 42} and take the @item{Helmet Key} from the arena fireplace.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jill may destroy Plant 42 with V-JOLT or fight it directly; either route leaves the key in the same lower-level fireplace.",
+        "steps": [
+          {
+            "id": "defeat",
+            "text": "Complete the Residence puzzle route and defeat Plant 42."
+          },
+          {
+            "id": "key",
+            "text": "Descend inside the Plant 42 Room and collect the @item{Helmet Key} from the fireplace."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_14",
+      "displayName": "Giant Snake Got Nothin'",
+      "description": "As Jill, defeat Yawn during the second encounter in the Mansion 3F Library.",
+      "hidden": true,
+      "globalPercent": 23.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "As @npc{Jill}, defeat @enemy{Yawn} during the second encounter in the @loc{Mansion 3F Library}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement belongs to the later Library fight, not the first Attic encounter beside the Death Mask.",
+        "steps": [
+          {
+            "id": "reach",
+            "text": "Use the @item{Helmet Key} to reach the Library after returning from the Residence."
+          },
+          {
+            "id": "kill",
+            "text": "Circle the shelves, avoid Yawn's head, and finish the snake with strong ammunition such as Acid Rounds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_15",
+      "displayName": "Where the Magic Happens",
+      "description": "As Jill, use the Eagle Medal and Wolf Medal to enter Laboratory B1.",
+      "hidden": true,
+      "globalPercent": 22.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "As @npc{Jill}, use the @item{Eagle Medal} and @item{Wolf Medal} to enter @loc{Laboratory B1}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The two medals drain the courtyard fountain and expose the hidden elevator that connects the mansion route to the final area.",
+        "steps": [
+          {
+            "id": "medals",
+            "text": "Extract the Eagle and Wolf Medals from their books after the cave and Library routes."
+          },
+          {
+            "id": "elevator",
+            "text": "Insert both medals at the courtyard fountain, descend, and ride the elevator into the Laboratory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_16",
+      "displayName": "Alpha Team's Finest",
+      "description": "Finish the game using Jill.",
+      "hidden": false,
+      "globalPercent": 22.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach any campaign ending while playing as @npc{Jill Valentine}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The survivor combination does not affect this character-clear award, so the first best-ending route is suitable.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Complete Jill's route through the Laboratory and escape from the heliport."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_17",
+      "displayName": "Get Used To It",
+      "description": "Die for the first time.",
+      "hidden": false,
+      "globalPercent": 68.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Let @npc{Jill} or @npc{Chris} lose all health and die once.",
+      "guide": {
+        "kind": "standard",
+        "context": "The death can occur on any difficulty and does not require preserving the failed attempt.",
+        "steps": [
+          {
+            "id": "die",
+            "text": "Allow any enemy, boss, trap, poison, or explosion to kill the active character and wait for the death screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_18",
+      "displayName": "First Kills Are Special",
+      "description": "Defeat a zombie.",
+      "hidden": false,
+      "globalPercent": 76.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill any @enemy{zombie} during a Jill or Chris campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "A scripted or boss-type undead enemy is unnecessary; an ordinary mansion zombie is sufficient.",
+        "steps": [
+          {
+            "id": "kill",
+            "text": "Use a firearm or the Survival Knife until a standard zombie collapses and is confirmed dead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_19",
+      "displayName": "Not Taking Any Chances",
+      "description": "Burn up a zombie.",
+      "hidden": false,
+      "globalPercent": 38.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Burn one dead @enemy{zombie} with a filled @item{Fuel Canteen} and the @item{Lighter}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Burning a corpse prevents its later Crimson Head revival; Chris carries a personal Lighter, while Jill must find one.",
+        "steps": [
+          {
+            "id": "prepare",
+            "text": "Take the Fuel Canteen from a safe room, fill it at a kerosene container, and carry the Lighter."
+          },
+          {
+            "id": "ignite",
+            "text": "Stand over a prone zombie corpse before it revives and use the filled Fuel Canteen to ignite it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_20",
+      "displayName": "Who's the Hunter Now?",
+      "description": "Kill any Hunter after they begin invading the mansion.",
+      "hidden": true,
+      "globalPercent": 30.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill any @enemy{Hunter} after they begin invading the mansion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hunters first appear when the character returns from the Residence with the Helmet Key.",
+        "steps": [
+          {
+            "id": "kill",
+            "text": "After the return cutscene, aim a Shotgun or stronger weapon at the first Hunter and keep firing whenever it rises."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_21",
+      "displayName": "Bravo, Rebecca",
+      "description": "As Rebecca, bring Serum to a poisoned Chris after the first Yawn encounter.",
+      "hidden": true,
+      "globalPercent": 12.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "As @npc{Rebecca}, bring @item{Serum} to a poisoned @npc{Chris} after the first @enemy{Yawn} encounter.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Yawn route works after Richard was saved and fits the final Chris rescue run; a separate V-JOLT rescue during Plant 42 can also award it if Richard died.",
+        "steps": [
+          {
+            "id": "poison",
+            "text": "As Chris in @loc{Mansion 2F — Attic}, let Yawn bite him until poison registers, collect the Death Mask, and leave."
+          },
+          {
+            "id": "serum",
+            "text": "When control switches to Rebecca, run to @loc{Mansion 1F — Medical Storage Room}, take the Serum, and return to Chris before time expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_22",
+      "displayName": "What a Great Guy",
+      "description": "As Jill, trigger the Living Room ceiling trap and let Barry rescue her.",
+      "hidden": true,
+      "globalPercent": 26.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "As @npc{Jill}, trigger the Living Room ceiling trap and let @npc{Barry} rescue her.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barry will not perform this rescue if Jill has already returned to the Main Hall for his Acid Rounds scene.",
+        "steps": [
+          {
+            "id": "take-shotgun",
+            "text": "Before that Main Hall event, take the @item{Shotgun} from @loc{Mansion 1F — Living Room} without placing the Broken Shotgun."
+          },
+          {
+            "id": "trigger",
+            "text": "Leave into the ceiling-trap room and try both locked doors until Barry's rescue cutscene starts."
+          },
+          {
+            "id": "loot",
+            "text": "Before exiting permanently, collect the Living Room's Ink Ribbons and Dagger for the full-map run.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_23",
+      "displayName": "Delaying the Inevitable",
+      "description": "Bring Serum to poisoned Richard Aiken within roughly five minutes of finding him.",
+      "hidden": true,
+      "globalPercent": 28.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Bring @item{Serum} to poisoned @npc{Richard Aiken} within roughly five minutes of finding him.",
+      "guide": {
+        "kind": "standard",
+        "context": "A successful rescue grants Chris access to the Assault Shotgun later and is confirmed when Richard gives up his Radio.",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Speak to Richard in @loc{Mansion 2F — Pillar Room}."
+          },
+          {
+            "id": "return",
+            "text": "Run to @loc{Mansion 1F — Medical Storage Room}, collect Serum, and apply it to Richard before the timer expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_24",
+      "displayName": "That Was Nice of You",
+      "description": "As Chris, reach Rebecca's Mansion 2F Small Library within three minutes and kill the attacking Hunter.",
+      "hidden": true,
+      "globalPercent": 12.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "As @npc{Chris}, reach Rebecca's @loc{Mansion 2F Small Library} within three minutes and kill the attacking @enemy{Hunter}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hidden timer begins when Rebecca screams after Chris enters the Courtyard Study; leaving the Small Library before killing the Hunter causes her death.",
+        "steps": [
+          {
+            "id": "trigger",
+            "text": "Use the Emblem Key to enter @loc{Mansion 1F — Courtyard Study} and listen for Rebecca's scream."
+          },
+          {
+            "id": "rescue",
+            "text": "Immediately run upstairs to the Small Library and kill the Hunter without leaving the room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_25",
+      "displayName": "Trust Him",
+      "description": "As Jill, return Barry's gun at Jessica's Tomb and keep him alive through the Lisa Trevor encounter.",
+      "hidden": true,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "As @npc{Jill}, return @npc{Barry}'s gun at Jessica's Tomb and keep him alive through the @enemy{Lisa Trevor} encounter.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barry can be knocked from the platform while Jill works, so the four weights must be removed promptly.",
+        "steps": [
+          {
+            "id": "trust",
+            "text": "At @loc{Altar B2 — Jessica's Tomb}, choose to give Barry his gun back."
+          },
+          {
+            "id": "weights",
+            "text": "Push all four stone weights off the platform before Lisa knocks Barry over the edge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_26",
+      "displayName": "Sorry I Made You Wait",
+      "description": "As Chris, use all three MO Disks in the Laboratory and free Jill from the B3 cell.",
+      "hidden": true,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "As @npc{Chris}, use all three @item{MO Disks} in the Laboratory and free @npc{Jill} from the B3 cell.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each disk terminal releases one lock on the cell corridor; collecting disks alone does not open the prison.",
+        "steps": [
+          {
+            "id": "collect",
+            "text": "Take the disks from the Mansion 1F Tiger Statue Room, the Laboratory B2 stairway desk, and the Visual Data Room shelves."
+          },
+          {
+            "id": "terminals",
+            "text": "Insert one disk at each of the three pass-code terminals in Laboratory B3."
+          },
+          {
+            "id": "free",
+            "text": "After the first Tyrant fight, open the three-lock door, descend to the cell, and release Jill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_27",
+      "displayName": "Sorry About the Wait",
+      "description": "As Jill, use all three MO Disks in the Laboratory and free Chris from the B3 cell.",
+      "hidden": true,
+      "globalPercent": 20.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "As @npc{Jill}, use all three @item{MO Disks} in the Laboratory and free @npc{Chris} from the B3 cell.",
+      "guide": {
+        "kind": "standard",
+        "context": "The same disk locations and terminals are used in both character routes, and the prison must be revisited after the first Tyrant fight.",
+        "steps": [
+          {
+            "id": "collect",
+            "text": "Take the disks from the Mansion 1F Tiger Statue Room, the Laboratory B2 stairway desk, and the Visual Data Room shelves."
+          },
+          {
+            "id": "terminals",
+            "text": "Use all three Laboratory B3 pass-code terminals to release the cell-door locks."
+          },
+          {
+            "id": "free",
+            "text": "Open the three-lock corridor door, go downstairs, and release Chris from his cell."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_28",
+      "displayName": "The Nightmare Ends",
+      "description": "Finish as Chris with both Rebecca and Jill alive.",
+      "hidden": true,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Finish as @npc{Chris} with both @npc{Rebecca} and @npc{Jill} alive.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rebecca must survive both her mansion Hunter attack and the helipad Tyrant; Jill's cell requires all three MO Disk terminals.",
+        "steps": [
+          {
+            "id": "rebecca",
+            "text": "Save Rebecca from the Small Library Hunter and keep the Tyrant away from her during the final helipad battle."
+          },
+          {
+            "id": "jill",
+            "text": "Use all three MO Disks and release Jill from the Laboratory B3 cell."
+          },
+          {
+            "id": "escape",
+            "text": "Fire Brad's Rocket Launcher at the Tyrant and board the helicopter with both partners alive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_29",
+      "displayName": "I'm a Member of S.T.A.R.S.",
+      "description": "Finish as Jill with both Barry and Chris alive.",
+      "hidden": true,
+      "globalPercent": 18.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Finish as @npc{Jill} with both @npc{Barry} and @npc{Chris} alive.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barry must receive his gun at Lisa and survive the helipad Tyrant; Chris's cell requires all three MO Disk terminals.",
+        "steps": [
+          {
+            "id": "barry",
+            "text": "Return Barry's gun at Jessica's Tomb and protect him during the final Tyrant battle."
+          },
+          {
+            "id": "chris",
+            "text": "Use all three MO Disks and release Chris from the Laboratory B3 cell."
+          },
+          {
+            "id": "escape",
+            "text": "Kill the helipad Tyrant with Brad's Rocket Launcher and escape with both partners."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_30",
+      "displayName": "Every Man for Himself",
+      "description": "Finish as Chris with both Rebecca and Jill dead.",
+      "hidden": true,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Finish as @npc{Chris} with both @npc{Rebecca} and @npc{Jill} dead.",
+      "guide": {
+        "kind": "standard",
+        "context": "If Rebecca dies during the mansion Hunter event, the self-destruct sequence and helipad Tyrant do not occur, which suits the knife-only route.",
+        "steps": [
+          {
+            "id": "rebecca",
+            "text": "Ignore Rebecca's scream after entering the Courtyard Study, or leave her Small Library without killing the Hunter."
+          },
+          {
+            "id": "jill",
+            "text": "Do not use all three MO Disk terminals and leave Jill imprisoned."
+          },
+          {
+            "id": "finish",
+            "text": "Reach the heliport and escape alone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_31",
+      "displayName": "Every Woman for Herself",
+      "description": "Finish as Jill with both Barry and Chris dead.",
+      "hidden": true,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "summary": "Finish as @npc{Jill} with both @npc{Barry} and @npc{Chris} dead.",
+      "guide": {
+        "kind": "standard",
+        "context": "Refusing Barry's gun at Jessica's Tomb removes him before the ending; leaving Chris imprisoned completes the solo survivor state.",
+        "steps": [
+          {
+            "id": "barry",
+            "text": "At the Lisa Trevor choice, refuse to return Barry's gun."
+          },
+          {
+            "id": "chris",
+            "text": "Skip the three MO Disk rescue and leave Chris in the Laboratory cell."
+          },
+          {
+            "id": "finish",
+            "text": "Complete the escape as Jill's only survivor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_32",
+      "displayName": "Seeing Red",
+      "description": "Kill any Crimson Head after a zombie corpse revives.",
+      "hidden": true,
+      "globalPercent": 40.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill any @enemy{Crimson Head} after a zombie corpse revives.",
+      "guide": {
+        "kind": "standard",
+        "context": "Revival time varies by difficulty; the Crimson Head Prototype boss does not count, but the guaranteed non-Prototype Crimson Head in the Golden Arrowhead hallway does.",
+        "steps": [
+          {
+            "id": "create",
+            "text": "Kill a standard zombie without a headshot or fire and leave the corpse unburned."
+          },
+          {
+            "id": "return",
+            "text": "Return only after that corpse has risen as a red-skinned Crimson Head, or use the guaranteed Crimson Head in the @loc{Golden Arrowhead hallway}, then kill it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_33",
+      "displayName": "Not Waiting to Exhale",
+      "description": "Damage Yawn until it retreats through the roof during the first Mansion 2F — Attic encounter, then leave alive.",
+      "hidden": true,
+      "globalPercent": 26.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Damage @enemy{Yawn} until it retreats through the roof during the first @loc{Mansion 2F — Attic} encounter, then leave alive.",
+      "guide": {
+        "kind": "standard",
+        "context": "Yawn cannot be killed during this first meeting; merely grabbing the Death Mask and escaping before the retreat misses the achievement.",
+        "steps": [
+          {
+            "id": "mask",
+            "text": "Enter the Attic, avoid Yawn's head, and take the @item{Death Mask} from the far side."
+          },
+          {
+            "id": "retreat",
+            "text": "Keep attacking Yawn until the snake withdraws through the roof, then exit the Attic alive; use Serum afterward if the character was poisoned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_34",
+      "displayName": "Deep Sixed",
+      "description": "Electrocute mother Neptune in Aqua Ring B2.",
+      "hidden": true,
+      "globalPercent": 30.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Electrocute @enemy{mother Neptune} in @loc{Aqua Ring B2}.",
+      "guide": {
+        "kind": "standard",
+        "context": "After the tank drains, inspecting the Gallery Key's metal box triggers mother Neptune to knock it into the remaining water and enables the environmental kill.",
+        "steps": [
+          {
+            "id": "drain",
+            "text": "Complete the Aqua Ring control-room sequence to lower the water, then inspect the @item{Gallery Key} in its metal box."
+          },
+          {
+            "id": "electrocute",
+            "text": "After mother Neptune knocks the key into the channel, push the nearby generator into the water and pull the power lever."
+          },
+          {
+            "id": "key",
+            "text": "Collect the Gallery Key after mother Neptune dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_35",
+      "displayName": "Spider Sense",
+      "description": "Kill Black Tiger in the Courtyard B1 Spider Room.",
+      "hidden": true,
+      "globalPercent": 27.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Kill @enemy{Black Tiger} in the @loc{Courtyard B1 Spider Room}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cutting the web-covered exit and fleeing skips this award; Chris can use the Flamethrower here to register a route-specific weapon.",
+        "steps": [
+          {
+            "id": "fight",
+            "text": "Stay in the Spider Room and attack Black Tiger with the Shotgun, Grenade Launcher, or Chris's Flamethrower until it dies."
+          },
+          {
+            "id": "exit",
+            "text": "Cut or burn the web blocking the next door after the kill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_36",
+      "displayName": "Don't Stop Running",
+      "description": "Finish the game in three hours.",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish a @mechanic{Normal} or Hard campaign in less than @mechanic{3 hours}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The same clear also awards the five-hour achievement and permanently unlocks the Infinite Rocket Launcher on the continuing data.",
+        "steps": [
+          {
+            "id": "prepare",
+            "text": "Practice Jill's shortest mandatory route and start from the linked clear data on Normal."
+          },
+          {
+            "id": "run",
+            "text": "Skip optional rooms and cutscenes, pause when consulting the route, and reach the ending before the timer reaches 3:00:00."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_37",
+      "displayName": "Racing and Pacing",
+      "description": "Finish the game in five hours.",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish a @mechanic{Normal} or Hard campaign in less than @mechanic{5 hours}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A qualifying clear unlocks the infinite-ammunition Samurai Edge; finishing below three hours stacks both timed rewards.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Complete the planned Normal Jill speedrun below 3:00:00 to satisfy the five-hour limit at the same time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_38",
+      "displayName": "CQC FTW",
+      "description": "Finish the game using only your knife.",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Complete the campaign using only the @item{Survival Knife}; never use defensive items, burn corpses, stomp zombies, or squash bees.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any non-knife damage invalidates the run. Puzzle actions such as Neptune's electricity, insecticide, and V-JOLT are allowed because the game treats them as key-item events.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Choose Chris on Very Easy, equip only the Survival Knife for combat, turn off automatic defensive-item use, and leave defensive items unequipped."
+          },
+          {
+            "id": "avoid",
+            "text": "Run around optional enemies, do not damage bees, cut the Spider Room web instead of fighting Black Tiger, and never fire or swing another weapon."
+          },
+          {
+            "id": "ending",
+            "text": "Let Rebecca die to the Hunter and leave Jill imprisoned so Chris escapes alone without the helipad Tyrant."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_39",
+      "displayName": "Ink is for Squids",
+      "description": "Finish the game without saving.",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Finish a complete campaign without using any @item{Ink Ribbon} or typewriter save.",
+      "guide": {
+        "kind": "standard",
+        "context": "Death or closing the game loses the entire attempt, so Very Easy plus the unlocked Infinite Rocket Launcher is the low-risk cleanup route.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Begin Jill on Very Easy from the linked clear data and take the Infinite Rocket Launcher."
+          },
+          {
+            "id": "finish",
+            "text": "Complete the campaign in one uninterrupted attempt without interacting with a typewriter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_40",
+      "displayName": "Break Out the Marshmallows!",
+      "description": "Burn up two zombies at the same time with the lighter.",
+      "hidden": false,
+      "globalPercent": 14.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Ignite two overlapping dead @enemy{zombies} with one use of the @item{Fuel Canteen} and Lighter.",
+      "guide": {
+        "kind": "standard",
+        "context": "The ignition check occurs when the lighter is used, so both corpses must already overlap before the flame starts.",
+        "steps": [
+          {
+            "id": "pile",
+            "text": "Knock down and kill two zombies in the same narrow area, using the Shotgun to align their bodies."
+          },
+          {
+            "id": "burn",
+            "text": "Carry a filled Fuel Canteen and Lighter, stand over the overlapping corpses, and ignite them once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_41",
+      "displayName": "Starsenal",
+      "description": "Obtain all weapons.",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Register every standard, character-specific, endgame, and timed-reward weapon on one continuing data set.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Ordinary weapons register only after they are equipped and the inventory is closed. The Grenade Launcher requires repeating that registration with Grenade, Acid, and Incendiary Rounds loaded; timed weapons register when awarded.",
+        "collectibles": [
+          {
+            "id": "hunting-knife",
+            "index": 1,
+            "name": "Hunting Knife",
+            "location": "@loc{Chris's starting equipment}",
+            "method": "Start a Chris route and open his inventory. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "survival-knife",
+            "index": 2,
+            "name": "Survival Knife",
+            "location": "@loc{Jill's starting equipment}",
+            "method": "Start a Jill route and open her inventory. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "handgun",
+            "index": 3,
+            "name": "Handgun",
+            "location": "@loc{Jill starts with it; Chris finds it in the Mansion Main Hall}",
+            "method": "Pick it up and equip it at least once. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "shotgun",
+            "index": 4,
+            "name": "Shotgun",
+            "location": "@loc{Mansion 1F Living Room}",
+            "method": "Take it as Jill through Barry's trap rescue or replace it with the Broken Shotgun. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "assault-shotgun",
+            "index": 5,
+            "name": "Assault Shotgun",
+            "location": "@loc{Richard's death location}",
+            "method": "Save Richard with Serum, then collect the weapon after Yawn as Jill or Neptune as Chris. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "grenade-launcher",
+            "index": 6,
+            "name": "Grenade Launcher and all ammunition",
+            "location": "@loc{Mansion 2F Outside Patio beside Forest, Jill only}",
+            "method": "Take the launcher and separately load Grenade, Acid, and Incendiary Rounds at least once. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "magnum",
+            "index": 7,
+            "name": "Magnum Revolver",
+            "location": "@loc{Courtyard graveyard crest puzzle}",
+            "method": "Use the Wind Crest, then install the Moon, Star, and Sun Crests to open the weapon compartment. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "self-defense",
+            "index": 8,
+            "name": "Self-Defense Gun",
+            "location": "@loc{Residence Room 001 desk}",
+            "method": "Pick up the single-shot weapon beside the hanging victim. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "flamethrower",
+            "index": 9,
+            "name": "Flamethrower",
+            "location": "@loc{Courtyard B1 boulder passages, Chris only}",
+            "method": "Take it from the wall panel and use it before returning it to the required holder. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "barry-magnum",
+            "index": 10,
+            "name": "Barry's .44 Magnum",
+            "location": "@loc{Jessica's Tomb, Jill only}",
+            "method": "Refuse to return Barry's gun and pick up the dropped Magnum. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "rocket",
+            "index": 11,
+            "name": "Endgame Rocket Launcher",
+            "location": "@loc{Heliport final Tyrant}",
+            "method": "Save the route partner, then take Brad's dropped launcher and fire it at the Tyrant. Equip the weapon and close the inventory to register it.",
+            "missable": true
+          },
+          {
+            "id": "samurai",
+            "index": 12,
+            "name": "Samurai Edge",
+            "location": "@loc{Normal or Hard clear below five hours}",
+            "method": "Earn the timed reward; it registers when unlocked.",
+            "missable": true
+          },
+          {
+            "id": "infinite-rocket",
+            "index": 13,
+            "name": "Infinite Rocket Launcher",
+            "location": "@loc{Normal or Hard clear below three hours}",
+            "method": "Earn the timed reward; it registers when unlocked.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_42",
+      "displayName": "Passion for Fashion",
+      "description": "Obtain all costumes.",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 6,
+      "confidence": "verified",
+      "lockoutStage": 6,
+      "summary": "Unlock both alternate costumes for @npc{Jill} and both alternate costume sets for @npc{Chris} on one clear-data chain.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Costume progress belongs to the continuing clear data. Always load the newest clear file and choose Once Again so the four character clears accumulate together.",
+        "collectibles": [
+          {
+            "id": "jill-one",
+            "index": 1,
+            "name": "Jill — Sarah Connor outfit",
+            "location": "@mechanic{First Jill clear}",
+            "method": "Finish any Jill campaign on any difficulty and save the clear data.",
+            "missable": false
+          },
+          {
+            "id": "jill-two",
+            "index": 2,
+            "name": "Jill — Resident Evil 3 outfit",
+            "location": "@mechanic{Second Jill clear}",
+            "method": "Load the linked clear data through Once Again and finish a second Jill campaign.",
+            "missable": false
+          },
+          {
+            "id": "chris-one",
+            "index": 3,
+            "name": "Chris and Rebecca — The Mexican outfits",
+            "location": "@mechanic{First Chris clear}",
+            "method": "Finish any Chris campaign on the same clear-data chain.",
+            "missable": false
+          },
+          {
+            "id": "chris-two",
+            "index": 4,
+            "name": "Chris — CODE: Veronica outfit",
+            "location": "@mechanic{Second Chris clear}",
+            "method": "Finish a second Chris campaign on that same chain.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_43",
+      "displayName": "Every Nook and Cranny",
+      "description": "Visit all places on all maps.",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "6 hr",
+      "estMinutes": 360,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Enter every room and collect every item and document until every area on every map is green.",
+      "guide": {
+        "kind": "standard",
+        "context": "Map rooms remain red while an item is present and turn green when cleared, but the route also needs each accessible doorway traversed. The award normally appears upon reaching the heliport.",
+        "steps": [
+          {
+            "id": "sweep",
+            "text": "On the first Jill Easy run, open the map after each puzzle and collect every item or document from every red room before leaving the area."
+          },
+          {
+            "id": "one-way",
+            "text": "Fully loot the Living Room Shotgun area before Barry's rescue because Jill cannot re-enter it afterward."
+          },
+          {
+            "id": "cell",
+            "text": "After freeing Chris, re-enter his Laboratory B3 cell and take the ammunition that appears there."
+          },
+          {
+            "id": "audit",
+            "text": "Before the heliport, review the Mansion, Courtyard, Residence, Caves, and Laboratory maps; traverse any unused door and clear every remaining red room."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACHIEVEMENT_19",
+    "ACHIEVEMENT_34",
+    "ACHIEVEMENT_23",
+    "ACHIEVEMENT_35",
+    "ACHIEVEMENT_22",
+    "ACHIEVEMENT_33",
+    "ACHIEVEMENT_14",
+    "ACHIEVEMENT_29",
+    "ACHIEVEMENT_25",
+    "ACHIEVEMENT_27",
+    "ACHIEVEMENT_40",
+    "ACHIEVEMENT_43",
+    "ACHIEVEMENT_18",
+    "ACHIEVEMENT_17",
+    "ACHIEVEMENT_32",
+    "ACHIEVEMENT_20",
+    "ACHIEVEMENT_12",
+    "ACHIEVEMENT_16",
+    "ACHIEVEMENT_13",
+    "ACHIEVEMENT_15",
+    "ACHIEVEMENT_31",
+    "ACHIEVEMENT_0",
+    "ACHIEVEMENT_1",
+    "ACHIEVEMENT_2",
+    "ACHIEVEMENT_37",
+    "ACHIEVEMENT_36",
+    "ACHIEVEMENT_39",
+    "ACHIEVEMENT_30",
+    "ACHIEVEMENT_38",
+    "ACHIEVEMENT_11",
+    "ACHIEVEMENT_7",
+    "ACHIEVEMENT_8",
+    "ACHIEVEMENT_9",
+    "ACHIEVEMENT_10",
+    "ACHIEVEMENT_4",
+    "ACHIEVEMENT_3",
+    "ACHIEVEMENT_5",
+    "ACHIEVEMENT_28",
+    "ACHIEVEMENT_26",
+    "ACHIEVEMENT_24",
+    "ACHIEVEMENT_21",
+    "ACHIEVEMENT_42",
+    "ACHIEVEMENT_41",
+    "ACHIEVEMENT_6"
+  ]
+}

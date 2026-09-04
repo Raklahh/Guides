@@ -1,0 +1,544 @@
+{
+  "game": {
+    "appid": 254700,
+    "slug": "resident-evil-4-2005",
+    "title": "Resident Evil 4 (2005)",
+    "version": "1.0",
+    "lastPatchChecked": "2014-04-24",
+    "estTotalHours": 30,
+    "difficultyRating": 6,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-09-04"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Normal story and shooting-gallery cleanup",
+      "description": "Complete the main story on Normal, trigger both optional chapter achievements before passing their locations, and collect all 24 bottle caps once game type D becomes available in Chapter 5-1.",
+      "achievementRefs": [
+        "ACHIEVEMENT_1",
+        "ACHIEVEMENT_2",
+        "ACHIEVEMENT_3",
+        "ACHIEVEMENT_4",
+        "ACHIEVEMENT_5",
+        "ACHIEVEMENT_6",
+        "ACHIEVEMENT_7",
+        "ACHIEVEMENT_8",
+        "ACHIEVEMENT_9",
+        "ACHIEVEMENT_11"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Separate Ways and costume completion",
+      "description": "Open Extras after the Normal clear and complete Separate Ways to unlock Special Costume 2 alongside the Special Costume 1 set earned from the main story.",
+      "achievementRefs": [
+        "ACHIEVEMENT_12"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Fresh Professional playthrough",
+      "description": "Choose New Game and Professional from the title menu, equip Special Costume 2 if desired, and finish the entire main story on the highest difficulty.",
+      "achievementRefs": [
+        "ACHIEVEMENT_10"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACHIEVEMENT_1",
+      "displayName": "It Begins With a Ring",
+      "description": "Ring the mysterious bell. What happens after that, is up to you.",
+      "hidden": false,
+      "globalPercent": 70.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Survive the @loc{Chapter 1-1 village battle} until the church bell rings and the villagers withdraw.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bell sequence is mandatory story progress, so this first campaign achievement cannot be missed.",
+        "steps": [
+          {
+            "id": "enter-village",
+            "text": "Enter the central village in @loc{Chapter 1-1} and trigger the Ganado attack."
+          },
+          {
+            "id": "survive-bell",
+            "text": "Fight or evade the villagers until the church bell cutscene ends the encounter and unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_2",
+      "displayName": "Do Not Shoot the Water!",
+      "description": "Summon the master of the lake. Don't rock the boat.",
+      "hidden": false,
+      "globalPercent": 19.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "lockoutStage": 1,
+      "summary": "Before boarding the @loc{Chapter 1-3 lake boat}, shoot the water from the dock until Del Lago kills Leon and unlocks the achievement.",
+      "guide": {
+        "kind": "standard",
+        "context": "Del Lago's attack kills Leon, so use the nearby typewriter first and reload that save after the achievement appears.",
+        "steps": [
+          {
+            "id": "save-at-lake",
+            "text": "In @loc{Chapter 1-3}, save at the typewriter before stepping onto the motorboat at the lake."
+          },
+          {
+            "id": "shoot-water",
+            "text": "Stand at the end of the dock and fire repeatedly into the open water until @enemy{Del Lago} leaps out and kills Leon."
+          },
+          {
+            "id": "reload-save",
+            "text": "Wait for the achievement to unlock, then reload the typewriter save to continue toward the lake battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_3",
+      "displayName": "A Rock and a Hard Place",
+      "description": "Outmaneuver the rampaging beast, El Gigante.",
+      "hidden": false,
+      "globalPercent": 50.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Defeat @enemy{El Gigante} during the mandatory quarry battle in Chapter 2-1.",
+      "guide": {
+        "kind": "standard",
+        "context": "Freeing the trapped dog near the beginning of Chapter 1-1 causes it to distract El Gigante, but the rescue is optional for the achievement.",
+        "steps": [
+          {
+            "id": "reach-quarry",
+            "text": "Progress through @loc{Chapter 2-1} until the gate closes behind Leon in the quarry."
+          },
+          {
+            "id": "defeat-gigante",
+            "text": "Damage El Gigante until the Plaga emerges from its back, climb onto the boss, and cut the parasite; keep damaging El Gigante, climbing on when the Plaga reappears, and cutting it until the boss dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_4",
+      "displayName": "Secure the Ballistics",
+      "description": "Rescue the president's daughter, Ashley. Afterwards, the real fun begins.",
+      "hidden": false,
+      "globalPercent": 49.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story progression",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Use the @item{Round Insignia} and solve the church light puzzle in Chapter 2-1 to rescue Ashley.",
+      "guide": {
+        "kind": "standard",
+        "context": "The church rescue follows the El Gigante battle and is mandatory story progress.",
+        "steps": [
+          {
+            "id": "enter-church",
+            "text": "Return to the @loc{Chapter 2-1 church} and use the Round Insignia on the locked entrance."
+          },
+          {
+            "id": "reach-puzzle",
+            "text": "Climb to the upper floor, cross the chandelier, and operate the colored-light dial puzzle."
+          },
+          {
+            "id": "rescue-ashley",
+            "text": "Align the colored lights to reproduce the center emblem, confirm the solution, and enter the opened room to rescue @npc{Ashley}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_5",
+      "displayName": "A Bloodline Severed",
+      "description": "Defeat the village chief in battle.",
+      "hidden": false,
+      "globalPercent": 45.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Defeat @enemy{Bitores Mendez} in the Chapter 2-3 barn battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "The village chief is a mandatory boss, so completing both phases of the barn fight guarantees the achievement.",
+        "steps": [
+          {
+            "id": "enter-barn",
+            "text": "Progress through @loc{Chapter 2-3} until Leon is trapped with Bitores Mendez inside the burning barn."
+          },
+          {
+            "id": "finish-mendez",
+            "text": "Damage Mendez's torso through the first phase, then destroy the upper body during the second phase to finish the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_6",
+      "displayName": "A Terrifying Assassin",
+      "description": "Turn the tables on Verdugo, the right hand of Salazar.",
+      "hidden": false,
+      "globalPercent": 30.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10–30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "lockoutStage": 1,
+      "summary": "Freeze and kill @enemy{Verdugo} before taking the Chapter 4-1 underground elevator.",
+      "guide": {
+        "kind": "standard",
+        "context": "The elevator eventually arrives even if Verdugo survives, but leaving on it forfeits the achievement for that playthrough.",
+        "steps": [
+          {
+            "id": "restore-power",
+            "text": "After Salazar's trap in @loc{Chapter 4-1}, follow the underground tunnels to the power room and activate the elevator power."
+          },
+          {
+            "id": "freeze-verdugo",
+            "text": "When Verdugo approaches a liquid-nitrogen cylinder, knock the cylinder over to freeze the boss."
+          },
+          {
+            "id": "kill-verdugo",
+            "text": "Attack Verdugo while frozen; a @item{Rocket Launcher} shot during this state is the simplest way to kill the boss before boarding the elevator."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_7",
+      "displayName": "The Castellan Falls",
+      "description": "Defeat Salazar, and make your escape from the castle.",
+      "hidden": false,
+      "globalPercent": 36.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Defeat @enemy{Ramon Salazar} during the mandatory Chapter 4-4 castle battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Salazar's body is protected until damage to the central eye opens the shell, creating the short window for direct attacks.",
+        "steps": [
+          {
+            "id": "open-shell",
+            "text": "In @loc{Chapter 4-4}, shoot the exposed central eye until the shell opens and reveals Ramon Salazar."
+          },
+          {
+            "id": "defeat-salazar",
+            "text": "Attack Salazar's exposed body, then damage the central eye again whenever the shell closes; continue reopening the shell and attacking Salazar until he dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_8",
+      "displayName": "The Ties That Bind",
+      "description": "Defeat Krauser, your former partner, in battle.",
+      "hidden": false,
+      "globalPercent": 34.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story progression",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Defeat @enemy{Jack Krauser} and take the third insignia piece in Chapter 5-3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Krauser is unusually vulnerable to close-range Knife attacks, which conserve ammunition and can end the final duel quickly.",
+        "steps": [
+          {
+            "id": "collect-insignias",
+            "text": "During @loc{Chapter 5-3}, collect the first two insignia pieces and climb the stairs into Krauser's final arena."
+          },
+          {
+            "id": "defeat-krauser",
+            "text": "Evade Krauser's arm attacks, strike him with the Knife when he closes in, and continue until he dies."
+          },
+          {
+            "id": "take-insignia",
+            "text": "Collect the third insignia piece left after the battle to complete the encounter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_9",
+      "displayName": "We're Going Home",
+      "description": "Defeat Saddler in battle, and escape from the nightmare.",
+      "hidden": false,
+      "globalPercent": 34.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Defeat @enemy{Osmund Saddler} in the Final Chapter and escape the island by jet ski.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defeating Saddler starts a timed escape sequence, so the campaign is not complete until Leon and Ashley reach the island exit.",
+        "steps": [
+          {
+            "id": "expose-saddler",
+            "text": "Shoot the eyes on Saddler's legs to stagger him, then damage the large eye exposed on his body."
+          },
+          {
+            "id": "special-rocket",
+            "text": "Catch the @item{Special Rocket Launcher} thrown by Ada and fire it into Saddler to end the boss fight."
+          },
+          {
+            "id": "escape-island",
+            "text": "Reach Ashley, board the jet ski, and drive through the escape tunnel before the countdown expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_10",
+      "displayName": "A Heart of Steel",
+      "description": "Clear the game on the highest difficulty.",
+      "hidden": false,
+      "globalPercent": 11.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "12–18 hr",
+      "estMinutes": 900,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "professional",
+      "prerequisites": [
+        "ACHIEVEMENT_9"
+      ],
+      "summary": "Clear the main story on Normal to unlock Professional, then finish a fresh @mechanic{Professional New Game}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Loading a completed Normal save starts New Game Plus on Normal and cannot change the difficulty. Special Costume 2 gives Ashley invulnerable knight armor, but completed-save bonus weapons are unavailable on the fresh Professional file.",
+        "steps": [
+          {
+            "id": "unlock-professional",
+            "text": "Complete the main story on @mechanic{Normal} difficulty to add Professional to the New Game difficulty list."
+          },
+          {
+            "id": "select-professional",
+            "text": "Return to the title menu, choose @mechanic{New Game}, and select Professional instead of loading the completed Normal save."
+          },
+          {
+            "id": "clear-professional",
+            "text": "Complete every chapter and the Final Chapter on the Professional file to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_11",
+      "displayName": "What Are They Worth?",
+      "description": "Acquire all of the bottle caps in the game.",
+      "hidden": false,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1–2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "normal-story",
+      "summary": "Earn all @item{24 bottle caps} from shooting-gallery games A–D, then leave the gallery and return the loaned weapons to the Merchant to unlock the achievement.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The four game types unlock in Chapters 3-1, 4-1, 4-2, and 5-1. From Chapter 5-1 onward, later galleries allow every earlier type to be selected for cleanup.",
+        "collectibles": [
+          {
+            "id": "caps-a",
+            "index": 1,
+            "name": "Game A — 6 bottle caps",
+            "location": "Unlocked at the @loc{Chapter 3-1 shooting gallery}",
+            "method": "Earn Leon with Rocket Launcher, Leon with Shotgun, Leon with Handgun, Ashley, Luis, and Ada. Repeat 3,000-point runs for the five standard caps, then hit every enemy target without shooting Ashley or score 4,000 points for the sixth cap.",
+            "missable": false
+          },
+          {
+            "id": "caps-b",
+            "index": 2,
+            "name": "Game B — 6 bottle caps",
+            "location": "Unlocked at the @loc{Chapter 4-1 shooting gallery}",
+            "method": "Earn Villager with Axe, Villager with Sickle, Villager, Villager with Pitchfork, Chainsaw Man, and Chainsaw Sisters. Repeat 3,000-point runs for the five standard caps, then hit every enemy target without shooting Ashley or score 4,000 points for the sixth cap.",
+            "missable": false
+          },
+          {
+            "id": "caps-c",
+            "index": 3,
+            "name": "Game C — 6 bottle caps",
+            "location": "Unlocked at the @loc{Chapter 4-2 shooting gallery}",
+            "method": "Earn Merchant, Cultist with Scythe, Cultist with Shield, Cultist with Bowgun, Cultist Leader, and Villager Parasite. Repeat 3,000-point runs for the five standard caps, then hit every enemy target without shooting Ashley or score 4,000 points for the sixth cap.",
+            "missable": false
+          },
+          {
+            "id": "caps-d",
+            "index": 4,
+            "name": "Game D — 6 bottle caps",
+            "location": "Unlocked at the @loc{Chapter 5-1 shooting gallery}",
+            "method": "Earn Soldier with Dynamite, Soldier with Stun Rod, Soldier with Hammer, Female Villager, Female Villager with Knife, and J.J. Repeat 3,000-point runs for the five standard caps, then hit every enemy target without shooting Ashley or score 4,000 points for the sixth cap; return the loaned weapons to finalize the complete collection.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_12",
+      "displayName": "The S Stands for Stylish!!",
+      "description": "Acquire all of the costumes in the game.",
+      "hidden": false,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4–6 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "separate-ways",
+      "prerequisites": [
+        "ACHIEVEMENT_9"
+      ],
+      "summary": "Clear the main story to unlock @item{Special Costume 1}, then complete Separate Ways to unlock Special Costume 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "Assignment Ada and The Mercenaries do not unlock either required costume set; only the main-story clear and Separate Ways completion matter.",
+        "steps": [
+          {
+            "id": "unlock-special-one",
+            "text": "Complete the main story on any difficulty to unlock @item{Special Costume 1} and add Extras to the title menu."
+          },
+          {
+            "id": "open-separate-ways",
+            "text": "From the title menu, open @mechanic{Extras} and select Separate Ways."
+          },
+          {
+            "id": "unlock-special-two",
+            "text": "Complete all of Separate Ways on its fixed difficulty to unlock @item{Special Costume 2} and the achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACHIEVEMENT_2",
+    "ACHIEVEMENT_6",
+    "ACHIEVEMENT_1",
+    "ACHIEVEMENT_4",
+    "ACHIEVEMENT_3",
+    "ACHIEVEMENT_5",
+    "ACHIEVEMENT_7",
+    "ACHIEVEMENT_9",
+    "ACHIEVEMENT_8",
+    "ACHIEVEMENT_11",
+    "ACHIEVEMENT_12",
+    "ACHIEVEMENT_10"
+  ]
+}

@@ -1,0 +1,2156 @@
+{
+  "game": {
+    "appid": 287290,
+    "slug": "resident-evil-revelations-2",
+    "title": "Resident Evil Revelations 2",
+    "version": "1.0",
+    "lastPatchChecked": "2022-01-24",
+    "estTotalHours": 45,
+    "difficultyRating": 6,
+    "minPlaythroughs": 3,
+    "createdAt": "2026-09-05"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Standard campaign and route setup",
+      "description": "Clear all four episodes on a standard difficulty. Collect opportunistic medals, prepare the Episode Three sewer item, complete one-run challenges, and use opposite Episode Four lever choices across two runs.",
+      "achievementRefs": [
+        "ACH_ALL_EP1_CLEAR",
+        "ACH_ALL_EP2_CLEAR",
+        "ACH_ALL_EP3_CLEAR",
+        "ACH_ALL_EP4_CLEAR",
+        "ACH_FLAME_NOT_USED",
+        "ACH_KNIFE_CLEAR",
+        "ACH_PEDRO_PAST_KILL",
+        "ACH_MOIRA_NEIL_KILLED",
+        "ACH_FLOOD_GATE_ITEM_GET",
+        "ACH_PAST_GHOST_KILL",
+        "ACH_FLOOD_GATE_USED"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "All campaign medals",
+      "description": "Replay Claire's and Barry's halves as needed to finish all twenty medals in each episode; individual medals persist between completed runs.",
+      "achievementRefs": [
+        "ACH_CHALLENGE_MEDAL_EP1_COMP",
+        "ACH_CHALLENGE_MEDAL_EP2_COMP",
+        "ACH_CHALLENGE_MEDAL_EP3_COMP",
+        "ACH_CHALLENGE_MEDAL_EP4_COMP"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Countdown clears",
+      "description": "Buy each Countdown episode from Extras > Rewards for 1,000 BP, then clear all four while using kills and hourglasses to maintain the timer.",
+      "achievementRefs": [
+        "ACH_SURVIVAL_ALL_EP1_CLEAR",
+        "ACH_SURVIVAL_ALL_EP2_CLEAR",
+        "ACH_SURVIVAL_ALL_EP3_CLEAR",
+        "ACH_SURVIVAL_ALL_EP4_CLEAR"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Invisible clears",
+      "description": "Buy and clear each Invisible episode, using Moira's flashlight and Natalia's pointing to reveal enemies before attacking with Claire or Barry.",
+      "achievementRefs": [
+        "ACH_INVISIBLE_ALL_EP1_CLEAR",
+        "ACH_INVISIBLE_ALL_EP2_CLEAR",
+        "ACH_INVISIBLE_ALL_EP3_CLEAR",
+        "ACH_INVISIBLE_ALL_EP4_CLEAR"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Combat counters and Raid cleanup",
+      "description": "Use the Episode One and Two checkpoint farms for remaining campaign counters, then complete a Raid mission, evaluate one item, and clear one Gauntlet.",
+      "achievementRefs": [
+        "ACH_CAMPAINF_PT_MEDIUM",
+        "ACH_PROGRESSOR_KILL",
+        "ACH_HOMUNCULUS_KILL",
+        "ACH_KNIFE_WEAPON_KILL",
+        "ACH_BLOW_ATK_KILL",
+        "ACH_GRAP_BLOW_KILL",
+        "ACH_BACK_ATK_KILL",
+        "ACH_LIGHT_ATK",
+        "ACH_BAR_WEAPON_KILL",
+        "ACH_STONE_KILL",
+        "ACH_SHOT_TWO_KILL",
+        "ACH_HOMU_WEAPON_DEST",
+        "ACH_PROG_JUMPATK_STOP",
+        "ACH_GRAP_COMBINATION",
+        "ACH_ASSIST_HOLD_HELP",
+        "ACH_BOTTLE_FIVE_KILL",
+        "ACH_GHOST_KILL",
+        "ACH_SYS_RAID_MISSION_CLEAR",
+        "ACH_SYS_RAID_USE_JUDGMENT",
+        "ACH_SYS_RAID_DUNGEON_CLEAR"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_ALL_EP1_CLEAR",
+      "displayName": "Three Women and a Barry",
+      "description": "Clear Episode One.",
+      "hidden": false,
+      "globalPercent": 37.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–2 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-1",
+      "summary": "Complete both the @npc{Claire and Moira} and @npc{Barry and Natalia} halves of @loc{Episode One}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is mandatory campaign progress and has no difficulty restriction.",
+        "steps": [
+          {
+            "id": "finish-episode-one",
+            "text": "Select @loc{Episode One}, finish Claire's detention-center escape, then finish Barry's return through the same area to complete the episode."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVAL_ALL_EP1_CLEAR",
+      "displayName": "\"Less Talking, More Walking\"",
+      "description": "Clear Episode One in Countdown Mode.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "countdown",
+      "summary": "Complete both halves of @loc{Episode One} in @mechanic{Countdown Mode} before the timer expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "After a standard Episode One clear, buy this variant for @item{1,000 BP} in @mechanic{Extras > Rewards}; enemy kills and hourglasses add time.",
+        "steps": [
+          {
+            "id": "clear-countdown-one",
+            "text": "Start @mechanic{Countdown Mode: Episode One}, take efficient story routes, collect nearby hourglasses, kill quick targets for time, and finish both Claire's and Barry's segments before the clock reaches zero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INVISIBLE_ALL_EP1_CLEAR",
+      "displayName": "\"Not Even Close to Easy\"",
+      "description": "Clear Episode One in Invisible Mode.",
+      "hidden": false,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "invisible",
+      "summary": "Complete both halves of @loc{Episode One} in @mechanic{Invisible Mode}.",
+      "guide": {
+        "kind": "standard",
+        "context": "After a standard Episode One clear, buy this variant for @item{1,000 BP} in @mechanic{Extras > Rewards}; enemies are hidden from Claire and Barry.",
+        "steps": [
+          {
+            "id": "clear-invisible-one",
+            "text": "Use @npc{Moira's flashlight} and @npc{Natalia's pointing} to reveal targets, switch to Claire or Barry to attack, and finish both Episode One segments."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MEDAL_EP1_COMP",
+      "displayName": "Only Good Guys Win Medals",
+      "description": "Get all medals in Episode One.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2–4 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "medals",
+      "summary": "Earn all @item{20 medals} across Claire's and Barry's completed @loc{Episode One} runs.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each requirement must be completed within one finished character segment, but already-earned medals persist across repeat runs, so incompatible conditions can be split up.",
+        "collectibles": [
+          {
+            "id": "e1c-light-physical",
+            "index": 1,
+            "name": "Claire: five light knockdowns",
+            "location": "Claire Episode One",
+            "method": "Fully blind an enemy with Moira's flashlight, switch to Claire, and use the physical-attack prompt five times.",
+            "missable": false
+          },
+          {
+            "id": "e1c-blades",
+            "index": 2,
+            "name": "Claire: eight rotating-blade kills",
+            "location": "Detention center",
+            "method": "Activate the rotating blades, draw Afflicted into their sweep, and let the trap kill eight enemies.",
+            "missable": false
+          },
+          {
+            "id": "e1c-stuns",
+            "index": 3,
+            "name": "Claire: ten flashlight stuns",
+            "location": "Claire Episode One",
+            "method": "Control Moira and hold her flashlight on enemies until ten full stun reactions occur.",
+            "missable": false
+          },
+          {
+            "id": "e1c-subweapons",
+            "index": 4,
+            "name": "Claire: eight sub-weapon kills",
+            "location": "Claire Episode One",
+            "method": "Use exploding or firebomb bottles to kill eight enemies; clustered Afflicted and Giant Whip Spiders are efficient targets.",
+            "missable": false
+          },
+          {
+            "id": "e1c-stealth",
+            "index": 5,
+            "name": "Claire: three stealth kills",
+            "location": "Claire Episode One",
+            "method": "Crouch behind three unaware enemies as Claire and use the stealth-attack prompt.",
+            "missable": false
+          },
+          {
+            "id": "e1c-headshots",
+            "index": 6,
+            "name": "Claire: eight headshot kills",
+            "location": "Claire Episode One",
+            "method": "Finish eight enemies with bullets to the head while controlling Claire.",
+            "missable": false
+          },
+          {
+            "id": "e1c-treasures",
+            "index": 7,
+            "name": "Claire: three treasures",
+            "location": "Claire Episode One",
+            "method": "Explore side rooms and break containers until three treasure pickups register during the run.",
+            "missable": false
+          },
+          {
+            "id": "e1c-spiders",
+            "index": 8,
+            "name": "Claire: ten Giant Whip Spiders",
+            "location": "Garbage pit",
+            "method": "Kill ten Giant Whip Spiders in the story-required garbage-pit swarm; one exploding bottle can clear most of them.",
+            "missable": false
+          },
+          {
+            "id": "e1c-boxes",
+            "index": 9,
+            "name": "Claire: three military boxes",
+            "location": "Claire Episode One",
+            "method": "Use Moira's crowbar lock-picking interaction to open all three military boxes before finishing Claire's segment.",
+            "missable": false
+          },
+          {
+            "id": "e1c-hidden",
+            "index": 10,
+            "name": "Claire: six hidden items",
+            "location": "Claire Episode One",
+            "method": "Aim Moira's flashlight at sparkling concealed pickups and collect six revealed items.",
+            "missable": false
+          },
+          {
+            "id": "e1b-weakspots",
+            "index": 11,
+            "name": "Barry: five weak-spot Revenants",
+            "location": "Barry Episode One",
+            "method": "Use Natalia to identify each Revenant's glowing core, then expose and destroy only that core with Barry for five kills.",
+            "missable": false
+          },
+          {
+            "id": "e1b-no-guns",
+            "index": 12,
+            "name": "Barry: no gunfire in control area",
+            "location": "Detention-center control area",
+            "method": "From Natalia's warning about seeing monsters through walls until both characters leave the facility, use Natalia for routing and Barry's knife only; never fire a gun.",
+            "missable": false
+          },
+          {
+            "id": "e1b-bricks",
+            "index": 13,
+            "name": "Barry: fifteen brick hits",
+            "location": "Barry Episode One",
+            "method": "Control Natalia, collect loose bricks, and hit enemies fifteen times; hits count even when they do not kill.",
+            "missable": false
+          },
+          {
+            "id": "e1b-followups",
+            "index": 14,
+            "name": "Barry: two follow-up kills",
+            "location": "Barry Episode One",
+            "method": "Knock enemies to the floor with Natalia's bricks, switch to Barry, and use his ground-finisher prompt for two kills.",
+            "missable": false
+          },
+          {
+            "id": "e1b-subweapons",
+            "index": 15,
+            "name": "Barry: eight sub-weapon kills",
+            "location": "Barry Episode One",
+            "method": "Kill eight enemies with exploding, firebomb, decoy, or smoke-assisted bottles while controlling Barry.",
+            "missable": false
+          },
+          {
+            "id": "e1b-stealth",
+            "index": 16,
+            "name": "Barry: six stealth kills",
+            "location": "Barry Episode One",
+            "method": "Crouch behind six unaware enemies with Barry and use the stealth-attack prompt.",
+            "missable": false
+          },
+          {
+            "id": "e1b-knife",
+            "index": 17,
+            "name": "Barry: six knife kills",
+            "location": "Barry Episode One",
+            "method": "Kill six enemies with ordinary knife slashes; ground follow-ups do not count as knife kills.",
+            "missable": false
+          },
+          {
+            "id": "e1b-boxes",
+            "index": 18,
+            "name": "Barry: two gimmick boxes",
+            "location": "Barry Episode One",
+            "method": "Use Natalia's lock interaction to open both gimmick boxes before finishing the segment.",
+            "missable": false
+          },
+          {
+            "id": "e1b-hidden",
+            "index": 19,
+            "name": "Barry: six hidden items",
+            "location": "Barry Episode One",
+            "method": "Use Natalia's pointing ability to reveal six concealed pickups, then collect them.",
+            "missable": false
+          },
+          {
+            "id": "e1b-forest",
+            "index": 20,
+            "name": "Barry: dark forest in 40 seconds",
+            "location": "From the detour hut to the next area",
+            "method": "Control Barry as he exits the detour hut, sprint along the direct forest route without switching to Natalia, and cross the next-area transition within 40 seconds.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CAMPAINF_PT_MEDIUM",
+      "displayName": "Bounty Hunter",
+      "description": "Get a total of 50,000 BP.",
+      "hidden": false,
+      "globalPercent": 16.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across campaign",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Earn a cumulative @item{50,000 BP} in the main campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement tracks BP earned rather than the balance currently held, and campaign medals provide substantial BP during normal completion.",
+        "steps": [
+          {
+            "id": "earn-bp",
+            "text": "Finish episodes and medal conditions until the main-campaign total reaches @item{50,000 BP}; spend BP freely because purchases do not reduce cumulative credit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FLAME_NOT_USED",
+      "displayName": "Who Needs Fire?",
+      "description": "Escape from the detention center in Claire's Episode One without using the flame-thrower bust.",
+      "hidden": false,
+      "globalPercent": 13.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-1",
+      "summary": "Escape Claire's @loc{Episode One detention center} without touching the flamethrower-bust valve.",
+      "guide": {
+        "kind": "standard",
+        "context": "The right-side valve immediately invalidates the attempt; the rotating blades remain safe to use.",
+        "steps": [
+          {
+            "id": "open-cells",
+            "text": "Insert the golden cog to open the prison cells, then leave the flamethrower valve untouched."
+          },
+          {
+            "id": "open-exit",
+            "text": "Switch to Moira and pry the boards from the exit while Claire fights the Afflicted or both characters crouch beneath the rotating blade so the trap kills them."
+          },
+          {
+            "id": "escape",
+            "text": "Move both characters through Moira's opened door to leave the detention center and receive the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PROGRESSOR_KILL",
+      "displayName": "Cure for the Afflicted",
+      "description": "Defeat 100 Afflicted in the main campaign.",
+      "hidden": false,
+      "globalPercent": 26.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across campaign",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{100 Afflicted} across Claire's main-campaign episodes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Afflicted belong to Claire's campaign; Raid Mode enemies do not contribute.",
+        "steps": [
+          {
+            "id": "farm-afflicted",
+            "text": "At the end of @loc{Claire Episode One}, kill the two Afflicted that spawn repeatedly after the first wave until the cumulative campaign counter reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HOMUNCULUS_KILL",
+      "displayName": "Revenant Reaper",
+      "description": "Defeat 100 Revenants in the main campaign.",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 hours cleanup",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{100 Revenants} across Barry's main-campaign episodes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Revenants belong to Barry's campaign; damage their exposed weak cores for fast kills.",
+        "steps": [
+          {
+            "id": "farm-revenants",
+            "text": "Replay Barry's episodes or reload the @loc{Episode One yellow-gate ambush}, use Natalia to locate each core, and kill Revenants with Barry until the cumulative total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KNIFE_WEAPON_KILL",
+      "displayName": "Knifin' Around",
+      "description": "Defeat 100 enemies with the knife in the main campaign.",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–60 min cleanup",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{100 campaign enemies} with Claire's or Barry's knife.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both combat characters contribute to the same counter, but follow-up finishers are tracked separately.",
+        "steps": [
+          {
+            "id": "knife-kills",
+            "text": "Use ordinary knife slashes to finish weak enemies, farming the infinitely spawning Afflicted at the end of @loc{Claire Episode One} if normal play leaves the total below 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BLOW_ATK_KILL",
+      "displayName": "Fudge Them Up!",
+      "description": "Defeat 50 enemies with physical attacks in the main campaign.",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–60 min cleanup",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{50 campaign enemies} with Claire's or Barry's physical attacks.",
+      "guide": {
+        "kind": "standard",
+        "context": "The physical strike must deliver the kill; merely knocking an enemy down does not add to this counter.",
+        "steps": [
+          {
+            "id": "physical-kills",
+            "text": "Fully stun an Afflicted with Moira's flashlight, switch to Claire, and use the physical-attack prompt as the finishing blow; repeat on the infinite pair at the end of @loc{Claire Episode One}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GRAP_BLOW_KILL",
+      "displayName": "And STAY Down",
+      "description": "Perform 50 follow-ups in the main campaign.",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–60 min cleanup",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Perform @mechanic{50 follow-up finishers} on grounded campaign enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "A follow-up is the prompted ground attack, not Barry's charged punch or an ordinary knife slash.",
+        "steps": [
+          {
+            "id": "ground-enemies",
+            "text": "Knock enemies down with Moira's light or crowbar, or with Natalia's bricks."
+          },
+          {
+            "id": "finish-followups",
+            "text": "Switch to Claire or Barry and use the displayed ground-finisher prompt before each target stands; repeat until 50 follow-ups register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BACK_ATK_KILL",
+      "displayName": "From the Shadows",
+      "description": "Defeat 20 enemies with stealth attacks in the main campaign.",
+      "hidden": false,
+      "globalPercent": 11.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across campaign",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{20 unaware campaign enemies} with stealth attacks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barry has the most reliable stealth sections, although Claire can also contribute when an enemy has not detected her.",
+        "steps": [
+          {
+            "id": "stealth-kills",
+            "text": "Crouch, approach directly behind an unaware enemy, and use the stealth-attack prompt; repeat across Barry's campaign or Episode Select until 20 kills register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LIGHT_ATK",
+      "displayName": "Flashlight Duty",
+      "description": "Use Moira's light to stun 50 enemies in the main campaign.",
+      "hidden": false,
+      "globalPercent": 6.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20–40 min cleanup",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Fully stun @enemy{50 campaign enemies} with Moira's flashlight.",
+      "guide": {
+        "kind": "standard",
+        "context": "Briefly illuminating a target is insufficient; credit comes from the full stagger animation after sustained light exposure.",
+        "steps": [
+          {
+            "id": "flashlight-stuns",
+            "text": "Control Moira, hold the flashlight on an enemy's face until it visibly enters the full stun state, let durable targets recover, and repeat until 50 stuns register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BAR_WEAPON_KILL",
+      "displayName": "I Can Do Blunt Weapons",
+      "description": "Use Moira's crowbar to defeat 50 enemies in the main campaign.",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–60 min cleanup",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{50 campaign enemies} while directly controlling Moira and using her crowbar.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only crowbar finishing damage contributes; Claire's physical follow-ups are a different counter.",
+        "steps": [
+          {
+            "id": "crowbar-kills",
+            "text": "Use Moira's crowbar to finish weak or softened enemies, farming the infinite Afflicted at the end of @loc{Claire Episode One} until 50 kills register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STONE_KILL",
+      "displayName": "Brick Layer",
+      "description": "Defeat 20 enemies with a brick as Natalia in the main campaign.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20–40 min cleanup",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{20 campaign enemies} while directly controlling Natalia and throwing bricks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bricks are consumed on impact, so crawling Rotten are ideal because one clean hit commonly kills them.",
+        "steps": [
+          {
+            "id": "brick-kills",
+            "text": "During Barry's episodes, collect a brick with Natalia, throw it at a crawling or weakened enemy for the finishing hit, and repeat until 20 kills register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KNIFE_CLEAR",
+      "displayName": "Cutting Edge",
+      "description": "Clear Episode One only using the knife.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1–2 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "unverified",
+      "group": "episode-1",
+      "sortReason": "The safest route avoids every reported hidden-rule risk.",
+      "summary": "Clear both halves of @loc{Episode One} while your controlled characters damage enemies only with knives.",
+      "guide": {
+        "kind": "standard",
+        "context": "The game applies hidden restrictions inconsistently, so the safest run avoids every optional non-knife action; rotating-blade trap kills are reported safe.",
+        "steps": [
+          {
+            "id": "claire-knife-only",
+            "text": "As Claire and Moira, use Claire's knife only: do not attack with guns, bottles, Moira's flashlight or crowbar, stealth prompts, physical follow-ups, or the flamethrower valve."
+          },
+          {
+            "id": "barry-knife-only",
+            "text": "As Barry and Natalia, use Barry's knife only: do not fire guns, throw or point Natalia's bricks at enemies, use bottles, perform stealth attacks, or trigger follow-up finishers."
+          },
+          {
+            "id": "finish-episode",
+            "text": "Minimize combat, use rotating blades where available, and finish Barry's Episode One segment without restarting the run under looser rules."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SHOT_TWO_KILL",
+      "displayName": "Line 'Em Up!",
+      "description": "Defeat two enemies with one shot in the main campaign.",
+      "hidden": false,
+      "globalPercent": 10.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Kill @enemy{two campaign enemies} with one penetrating bullet.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barry's Python has enough power and penetration to make the setup reliable against weak enemies.",
+        "steps": [
+          {
+            "id": "line-up-two",
+            "text": "Near the start of @loc{Barry Episode One}, position two weak enemies in a straight line and fire one Python round through both so the same shot kills them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HOMU_WEAPON_DEST",
+      "displayName": "Disarmed",
+      "description": "Destroy 30 Revenants' weapon arms.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–45 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Shoot off @enemy{30 large blade weapon arms} from Revenants in the main campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the prominent blade arm counts; small spikes and sword-like growths do not.",
+        "steps": [
+          {
+            "id": "reach-gate",
+            "text": "Reach the locked yellow gate near the end of @loc{Barry Episode One} and inspect it to trigger the Revenant ambush."
+          },
+          {
+            "id": "break-arms",
+            "text": "Shoot the large blade arm off each of the two qualifying Revenants, restart the checkpoint after both breaks, and repeat until 30 arms register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PROG_JUMPATK_STOP",
+      "displayName": "Unfriendly Skies",
+      "description": "Shoot down 30 Afflicted in mid-jump in the main campaign.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Shoot @enemy{30 Afflicted} out of their forward leap in the main campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bullet must connect while the Afflicted is airborne in its attack animation.",
+        "steps": [
+          {
+            "id": "interrupt-jumps",
+            "text": "At the end of @loc{Claire Episode One}, face the infinitely spawning pair, wait for an Afflicted to leap, and fire the shotgun while it is airborne; repeat until 30 interruptions register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GRAP_COMBINATION",
+      "displayName": "Now That's Teamwork!",
+      "description": "Have Moira stun an enemy and Claire follow up with a physical attack in the main campaign.",
+      "hidden": false,
+      "globalPercent": 46.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Fully stagger a target with Moira's light, then make Claire connect with the displayed physical strike.",
+      "guide": {
+        "kind": "standard",
+        "context": "The target does not need to die; the achievement checks the two-character action sequence.",
+        "steps": [
+          {
+            "id": "stun-and-strike",
+            "text": "Control Moira and hold the flashlight on an enemy until it fully staggers, immediately switch to Claire, and use the physical-attack prompt before the stun ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ASSIST_HOLD_HELP",
+      "displayName": "Friend Indeed",
+      "description": "Save your captured partner ten times in the main campaign.",
+      "hidden": false,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Free a grabbed campaign partner @mechanic{10 times}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The same encounter can supply repeated rescues if the partner is allowed to be captured again.",
+        "steps": [
+          {
+            "id": "partner-rescues",
+            "text": "Control Moira, let an Afflicted grab her, switch to Claire and attack the captor to free Moira, then repeat until ten rescues register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOTTLE_FIVE_KILL",
+      "displayName": "Fish in a Barrel",
+      "description": "Defeat five enemies with one exploding bottle or one firebomb bottle in the main campaign.",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Kill at least @enemy{five enemies} with one exploding or firebomb bottle in the campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Episode One garbage pit contains enough small enemies to make one blast reliable.",
+        "steps": [
+          {
+            "id": "save-bottle",
+            "text": "In @loc{Claire Episode One}, collect and save the exploding bottle beside the rusty key."
+          },
+          {
+            "id": "kill-five-spiders",
+            "text": "In the later garbage pit, reach the center before the AI partner thins the swarm, let at least five Giant Whip Spiders cluster, and throw the saved bottle into them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SYS_RAID_MISSION_CLEAR",
+      "displayName": "Raiders of the Evil",
+      "description": "Clear one Raid Mode mission.",
+      "hidden": false,
+      "globalPercent": 27.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "raid",
+      "summary": "Finish any single mission selected from a red door in the @mechanic{Raid Mode} hub.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is Raid Mode's introductory completion task and does not require an entire Gauntlet.",
+        "steps": [
+          {
+            "id": "clear-raid-mission",
+            "text": "Enter @mechanic{Raid Mode}, interact with a red mission door in the hub, select an available mission, and complete its final objective."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SYS_RAID_USE_JUDGMENT",
+      "displayName": "Jammin'",
+      "description": "Evaluate an item in Raid Mode.",
+      "hidden": false,
+      "globalPercent": 25.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "raid",
+      "prerequisites": [
+        "ACH_SYS_RAID_MISSION_CLEAR"
+      ],
+      "summary": "Evaluate one unidentified Raid item at the hub's jukebox.",
+      "guide": {
+        "kind": "standard",
+        "context": "Weapons and parts recovered from mission chests remain unidentified until the jukebox appraisal is used.",
+        "steps": [
+          {
+            "id": "obtain-item",
+            "text": "Complete a Raid mission after collecting a chest that awards an unidentified weapon or part."
+          },
+          {
+            "id": "evaluate-item",
+            "text": "Return to the Raid hub, interact with the jukebox beside the red mission doors, and pay to evaluate that item."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SYS_RAID_DUNGEON_CLEAR",
+      "displayName": "I Saw, I Conquered",
+      "description": "Clear one Gauntlet in Raid Mode.",
+      "hidden": false,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "raid",
+      "prerequisites": [
+        "ACH_SYS_RAID_MISSION_CLEAR"
+      ],
+      "summary": "Complete every mission node in any one @mechanic{Raid Mode Gauntlet}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Gauntlet is the grouped series shown behind one red mission door, not a single node.",
+        "steps": [
+          {
+            "id": "clear-gauntlet",
+            "text": "Open a red mission door, choose one Gauntlet, and finish each of its mission nodes until the group shows complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_EP2_CLEAR",
+      "displayName": "Scared to Death",
+      "description": "Clear Episode Two.",
+      "hidden": false,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-2",
+      "summary": "Complete both the @npc{Claire and Moira} and @npc{Barry and Natalia} halves of @loc{Episode Two}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is mandatory campaign progress and has no difficulty restriction.",
+        "steps": [
+          {
+            "id": "finish-episode-two",
+            "text": "Finish Claire's village and city route, then complete Barry's return through those areas to clear Episode Two."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVAL_ALL_EP2_CLEAR",
+      "displayName": "\"Run, Moira. Run!\"",
+      "description": "Clear Episode Two in Countdown Mode.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1–2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "countdown",
+      "summary": "Complete both halves of @loc{Episode Two} in @mechanic{Countdown Mode} before the timer expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buy the mode for @item{1,000 BP} after a standard Episode Two clear; interaction animations can conserve clock time during the village assault.",
+        "steps": [
+          {
+            "id": "clear-countdown-two",
+            "text": "Collect nearby hourglasses, kill quick enemies for time, use direct objective routes through Claire's and Barry's segments, and finish Episode Two before the clock expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INVISIBLE_ALL_EP2_CLEAR",
+      "displayName": "\"That's Gonna Be Fun\"",
+      "description": "Clear Episode Two in Invisible Mode.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1–2 hours",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "invisible",
+      "summary": "Complete both halves of @loc{Episode Two} in @mechanic{Invisible Mode}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Moira and Natalia expose hidden targets, allowing the combat partner to aim at their marked position.",
+        "steps": [
+          {
+            "id": "clear-invisible-two",
+            "text": "Reveal each threat with Moira's flashlight or Natalia's pointing, switch to Claire or Barry for necessary kills, and finish both Episode Two segments."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MEDAL_EP2_COMP",
+      "displayName": "There's a Medal for That",
+      "description": "Get all medals in Episode Two.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3–5 hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "medals",
+      "summary": "Earn all @item{20 medals} across Claire's and Barry's completed @loc{Episode Two} runs.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Medals persist between finished repeat runs. Killing Pedro as Claire removes him from Barry's segment, so reserve one Claire run for the achievement and another route for Barry's six-eye medal.",
+        "collectibles": [
+          {
+            "id": "e2c-light-physical",
+            "index": 1,
+            "name": "Claire: five light knockdowns",
+            "location": "Claire Episode Two",
+            "method": "Blind an enemy fully with Moira, switch to Claire, and use the physical prompt five times.",
+            "missable": false
+          },
+          {
+            "id": "e2c-windows",
+            "index": 2,
+            "name": "Claire: intact bar windows",
+            "location": "Village bar siege",
+            "method": "Kill attackers before they finish breaking any window, prioritizing every enemy striking the exterior boards.",
+            "missable": false
+          },
+          {
+            "id": "e2c-stuns",
+            "index": 3,
+            "name": "Claire: ten flashlight stuns",
+            "location": "Claire Episode Two",
+            "method": "Control Moira and hold the flashlight on enemies until ten full stuns register.",
+            "missable": false
+          },
+          {
+            "id": "e2c-subweapons",
+            "index": 4,
+            "name": "Claire: eight sub-weapon kills",
+            "location": "Village assault",
+            "method": "Climb to a safe ledge and throw bottles into clustered enemies until eight sub-weapon kills register.",
+            "missable": false
+          },
+          {
+            "id": "e2c-stealth",
+            "index": 5,
+            "name": "Claire: three stealth kills",
+            "location": "Claire Episode Two",
+            "method": "Crouch behind three unaware enemies as Claire and perform the stealth prompt.",
+            "missable": false
+          },
+          {
+            "id": "e2c-headshots",
+            "index": 6,
+            "name": "Claire: eight headshot kills",
+            "location": "Claire Episode Two",
+            "method": "Finish eight enemies with shots to the head while controlling Claire.",
+            "missable": false
+          },
+          {
+            "id": "e2c-craft-sub",
+            "index": 7,
+            "name": "Claire: craft three sub-weapons",
+            "location": "Claire Episode Two",
+            "method": "Collect compatible bottle ingredients and combine them into three sub-weapons during the run.",
+            "missable": false
+          },
+          {
+            "id": "e2c-boxes",
+            "index": 8,
+            "name": "Claire: three military boxes",
+            "location": "Claire Episode Two",
+            "method": "Open three military boxes with Moira's crowbar lock interaction.",
+            "missable": false
+          },
+          {
+            "id": "e2c-hidden",
+            "index": 9,
+            "name": "Claire: six hidden items",
+            "location": "Claire Episode Two",
+            "method": "Reveal six sparkling concealed pickups with Moira's flashlight and collect them.",
+            "missable": false
+          },
+          {
+            "id": "e2c-pedro-no-damage",
+            "index": 10,
+            "name": "Claire: escape Pedro unharmed",
+            "location": "Village after bar siege",
+            "method": "Keep the bar counter between Claire and Mutant Pedro, move away when the exit opens, and climb Neil's ladder without Pedro damaging Claire.",
+            "missable": false
+          },
+          {
+            "id": "e2b-weakspots",
+            "index": 11,
+            "name": "Barry: five weak-spot Revenants",
+            "location": "Barry Episode Two",
+            "method": "Locate each core with Natalia and let Barry damage only the exposed core for five kills.",
+            "missable": false
+          },
+          {
+            "id": "e2b-pedro-eyes",
+            "index": 12,
+            "name": "Barry: destroy Pedro's six eyes",
+            "location": "Apartment building",
+            "method": "Leave Pedro alive as Claire; on Normal or above, reveal each eye with Natalia and shoot it with Barry's low-damage weapon until all six break before Pedro dies.",
+            "missable": false
+          },
+          {
+            "id": "e2b-bricks",
+            "index": 13,
+            "name": "Barry: fifteen brick hits",
+            "location": "Barry Episode Two",
+            "method": "Control Natalia and land fifteen thrown-brick hits on enemies.",
+            "missable": false
+          },
+          {
+            "id": "e2b-followups",
+            "index": 14,
+            "name": "Barry: two follow-up kills",
+            "location": "Barry Episode Two on Normal or higher",
+            "method": "Bring at least two exploding bottles. Throw one beside each of two separate Revenants to knock them down, and use Barry's prompted ground finisher on both before they recover; restart the run if either blast fails to cause a knockdown.",
+            "missable": false
+          },
+          {
+            "id": "e2b-subweapons",
+            "index": 15,
+            "name": "Barry: eight sub-weapon kills",
+            "location": "Barry Episode Two",
+            "method": "Kill eight enemies with bottles; explosive bottles can kill Glasps even when the blast is slightly off-center.",
+            "missable": false
+          },
+          {
+            "id": "e2b-stealth",
+            "index": 16,
+            "name": "Barry: six stealth kills",
+            "location": "Barry Episode Two",
+            "method": "Crouch behind six unaware enemies and use Barry's stealth-attack prompt.",
+            "missable": false
+          },
+          {
+            "id": "e2b-knife",
+            "index": 17,
+            "name": "Barry: six knife kills",
+            "location": "Barry Episode Two",
+            "method": "Finish six enemies with normal Barry knife slashes rather than follow-up attacks.",
+            "missable": false
+          },
+          {
+            "id": "e2b-boxes",
+            "index": 18,
+            "name": "Barry: three gimmick boxes",
+            "location": "Barry Episode Two",
+            "method": "Use Natalia to unlock all three gimmick boxes during the segment.",
+            "missable": false
+          },
+          {
+            "id": "e2b-hidden",
+            "index": 19,
+            "name": "Barry: six hidden items",
+            "location": "Barry Episode Two",
+            "method": "Point out and collect six concealed items with Natalia.",
+            "missable": false
+          },
+          {
+            "id": "e2b-warehouse-stealth",
+            "index": 20,
+            "name": "Barry: five warehouse stealth kills",
+            "location": "City warehouse",
+            "method": "Remain undetected inside the warehouse and stealth-kill five Revenants from behind before leaving it.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PEDRO_PAST_KILL",
+      "displayName": "Pedro, I'm Sorry...",
+      "description": "Defeat Mutant Pedro in Claire's Episode Two.",
+      "hidden": false,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-2",
+      "summary": "Kill @enemy{Mutant Pedro} as Claire after the @loc{Episode Two bar siege} and before escaping by ladder.",
+      "guide": {
+        "kind": "standard",
+        "context": "This route removes Pedro from Barry's later segment, so use a different completed Claire run when pursuing Barry's six-eye medal.",
+        "steps": [
+          {
+            "id": "prepare-weapons",
+            "text": "Carry the Double Barrel Shotgun, MP-AB50, and several exploding bottles into the village sequence."
+          },
+          {
+            "id": "kill-pedro",
+            "text": "After Pedro mutates, keep away from his drill, punish him when the drill sticks in a wall, and kill him before climbing Neil's escape ladder."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GHOST_KILL",
+      "displayName": "\"I Do Not Like Glasps,\" I Gasped",
+      "description": "Defeat 20 Glasps in the main campaign.",
+      "hidden": false,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min cleanup",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "cumulative",
+      "summary": "Kill @enemy{20 Glasps} across the main campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Glasps are nearly invisible; Natalia can identify their position and smoke bottles expose them.",
+        "steps": [
+          {
+            "id": "farm-glasps",
+            "text": "At the start of @loc{Barry Episode Two} after entering the village, locate and kill the nearby Glasp, then reload the checkpoint and repeat until the cumulative total reaches 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_EP3_CLEAR",
+      "displayName": "Conquered Fear",
+      "description": "Clear Episode Three.",
+      "hidden": false,
+      "globalPercent": 18.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2–3 hours",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-3",
+      "summary": "Complete both the @npc{Claire and Moira} and @npc{Barry and Natalia} halves of @loc{Episode Three}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is mandatory campaign progress and has no difficulty restriction.",
+        "steps": [
+          {
+            "id": "finish-episode-three",
+            "text": "Finish Claire's factory and Neil sequence, then complete Barry's sewer and tower route to clear Episode Three."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVAL_ALL_EP3_CLEAR",
+      "displayName": "Pedal to the Metal",
+      "description": "Clear Episode Three in Countdown Mode.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "countdown",
+      "summary": "Complete both halves of @loc{Episode Three} in @mechanic{Countdown Mode} before the timer expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buy this variant for @item{1,000 BP} after the standard clear; its long factory and sewer routes reward memorized objectives over optional combat.",
+        "steps": [
+          {
+            "id": "clear-countdown-three",
+            "text": "Follow the direct objective route, collect reachable hourglasses, kill only quick time-positive targets, and finish Claire's and Barry's Episode Three segments before the timer expires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INVISIBLE_ALL_EP3_CLEAR",
+      "displayName": "I Can See Undead People",
+      "description": "Clear Episode Three in Invisible Mode.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "invisible",
+      "summary": "Complete both halves of @loc{Episode Three} in @mechanic{Invisible Mode}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Partner vision is essential around Glasps and Revenant cores, while unnecessary encounters can be bypassed.",
+        "steps": [
+          {
+            "id": "clear-invisible-three",
+            "text": "Reveal enemies with Moira or Natalia, switch to Claire or Barry for mandatory fights, bypass optional threats, and finish both Episode Three segments."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MEDAL_EP3_COMP",
+      "displayName": "Sweet, Golden Medal",
+      "description": "Get all medals in Episode Three.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3–5 hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "medals",
+      "summary": "Earn all @item{20 medals} across Claire's and Barry's completed @loc{Episode Three} runs.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Already-earned medals persist after a finished run, letting speed, crafting, no-damage, and combat requirements be separated.",
+        "collectibles": [
+          {
+            "id": "e3c-light-physical",
+            "index": 1,
+            "name": "Claire: five light knockdowns",
+            "location": "Claire Episode Three",
+            "method": "Fully blind enemies with Moira and use Claire's physical prompt five times.",
+            "missable": false
+          },
+          {
+            "id": "e3c-factory-time",
+            "index": 2,
+            "name": "Claire: factory escape with over one minute",
+            "location": "Factory escape",
+            "method": "Memorize the exit route and cross the factory escape endpoint with more than 60 seconds remaining.",
+            "missable": false
+          },
+          {
+            "id": "e3c-stuns",
+            "index": 3,
+            "name": "Claire: twenty flashlight stuns",
+            "location": "Claire Episode Three",
+            "method": "Control Moira and produce twenty complete flashlight-stun reactions.",
+            "missable": false
+          },
+          {
+            "id": "e3c-subweapons",
+            "index": 4,
+            "name": "Claire: ten sub-weapon kills",
+            "location": "Claire Episode Three",
+            "method": "Use bottles to finish ten enemies, targeting clustered weak enemies where possible.",
+            "missable": false
+          },
+          {
+            "id": "e3c-stealth",
+            "index": 5,
+            "name": "Claire: three stealth kills",
+            "location": "Claire Episode Three",
+            "method": "Crouch behind and stealth-kill three unaware enemies as Claire.",
+            "missable": false
+          },
+          {
+            "id": "e3c-headshots",
+            "index": 6,
+            "name": "Claire: ten headshot kills",
+            "location": "Claire Episode Three",
+            "method": "Finish ten enemies with headshots while controlling Claire.",
+            "missable": false
+          },
+          {
+            "id": "e3c-craft-sub",
+            "index": 7,
+            "name": "Claire: craft five sub-weapons",
+            "location": "Claire Episode Three",
+            "method": "Combine collected bottle ingredients into five sub-weapons before the segment ends.",
+            "missable": false
+          },
+          {
+            "id": "e3c-craft-heal",
+            "index": 8,
+            "name": "Claire: craft five recovery items",
+            "location": "Claire Episode Three",
+            "method": "Combine herbs or other compatible recovery ingredients five times during the run.",
+            "missable": false
+          },
+          {
+            "id": "e3c-boxes",
+            "index": 9,
+            "name": "Claire: four military boxes",
+            "location": "Claire Episode Three",
+            "method": "Open all four military boxes using Moira's crowbar lock interaction.",
+            "missable": false
+          },
+          {
+            "id": "e3c-hidden",
+            "index": 10,
+            "name": "Claire: seven hidden items",
+            "location": "Claire Episode Three",
+            "method": "Reveal and collect seven concealed pickups with Moira's flashlight.",
+            "missable": false
+          },
+          {
+            "id": "e3b-weakspots",
+            "index": 11,
+            "name": "Barry: three weak-spot Revenants",
+            "location": "Barry Episode Three",
+            "method": "Use Natalia to find each core and let Barry damage only that core for three Revenant kills.",
+            "missable": false
+          },
+          {
+            "id": "e3b-dhurlga",
+            "index": 12,
+            "name": "Barry: preserve every Dhurlga tentacle",
+            "location": "Barry Episode Three",
+            "method": "During each Dhurlga fight, aim damage at the body and complete the segment without severing any tentacle.",
+            "missable": false
+          },
+          {
+            "id": "e3b-bricks",
+            "index": 13,
+            "name": "Barry: fifteen brick hits",
+            "location": "Barry Episode Three",
+            "method": "Control Natalia and hit enemies with thrown bricks fifteen times.",
+            "missable": false
+          },
+          {
+            "id": "e3b-followups",
+            "index": 14,
+            "name": "Barry: three follow-up kills",
+            "location": "Barry Episode Three",
+            "method": "Knock enemies down with Natalia's bricks, switch to Barry, and use three prompted ground finishers.",
+            "missable": false
+          },
+          {
+            "id": "e3b-subweapons",
+            "index": 15,
+            "name": "Barry: ten sub-weapon kills",
+            "location": "Barry Episode Three",
+            "method": "Kill ten enemies with Barry's bottle sub-weapons.",
+            "missable": false
+          },
+          {
+            "id": "e3b-stealth",
+            "index": 16,
+            "name": "Barry: four stealth kills",
+            "location": "Barry Episode Three",
+            "method": "Crouch behind four unaware enemies and execute Barry's stealth attack.",
+            "missable": false
+          },
+          {
+            "id": "e3b-knife",
+            "index": 17,
+            "name": "Barry: ten knife kills",
+            "location": "Barry Episode Three",
+            "method": "Finish ten enemies with ordinary knife slashes, not ground follow-ups.",
+            "missable": false
+          },
+          {
+            "id": "e3b-boxes",
+            "index": 18,
+            "name": "Barry: three gimmick boxes",
+            "location": "Barry Episode Three",
+            "method": "Use Natalia's lock interaction to open three gimmick boxes.",
+            "missable": false
+          },
+          {
+            "id": "e3b-hidden",
+            "index": 19,
+            "name": "Barry: five hidden items",
+            "location": "Barry Episode Three",
+            "method": "Reveal and collect five concealed pickups with Natalia's pointing ability.",
+            "missable": false
+          },
+          {
+            "id": "e3b-natalia-safe",
+            "index": 20,
+            "name": "Barry: Natalia unharmed in sewage plant",
+            "location": "Sewage treatment plant",
+            "method": "Keep Natalia away from attackers and complete the entire treatment-plant section without her taking damage.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MOIRA_NEIL_KILLED",
+      "displayName": "Here's My Resignation",
+      "description": "Moira defeats Neil in Claire's Episode Three.",
+      "hidden": false,
+      "globalPercent": 13.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-3",
+      "summary": "During Claire's @loc{Episode Three} finale, switch to Moira and have her shoot @enemy{Neil} in the interactive sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "Claire may damage Neil throughout the actual boss fight; only the character chosen for the final dropped-gun interaction matters.",
+        "steps": [
+          {
+            "id": "fight-neil",
+            "text": "Defeat Neil's boss phase as Claire by attacking the exposed yellow growth in his chest."
+          },
+          {
+            "id": "choose-moira",
+            "text": "After leaving the elevator, ignore Claire's prompt to pick up the dropped gun, switch to Moira, and use Moira's button prompt to shoot Neil."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FLOOD_GATE_ITEM_GET",
+      "displayName": "A Ripple in Time",
+      "description": "Obtain the item that lies beyond the gate in the sewers in Barry's Episode Three.",
+      "hidden": false,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-3",
+      "summary": "Prepare the sewer cage as Moira, then collect the gated upgrade part as Barry in @loc{Episode Three}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Claire's completed sewer state carries into Barry's later visit; leaving before finishing Claire's segment can prevent the cage from appearing.",
+        "steps": [
+          {
+            "id": "drop-cage",
+            "text": "In Claire's sewers after the burning building, boost Moira onto the wall with the yellow ledge, pick up the cage above, drop it to the lower floor, and complete Claire's segment."
+          },
+          {
+            "id": "use-cage",
+            "text": "When Barry returns to the same sewer room, carry the cage to the wall opposite Claire's climb, place it as a step, climb over the gate, and collect the upgrade part."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_EP4_CLEAR",
+      "displayName": "True or False",
+      "description": "Clear Episode Four.",
+      "hidden": false,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-4",
+      "summary": "Complete both the @npc{Claire and Moira} and @npc{Barry and Natalia} halves of @loc{Episode Four}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is mandatory campaign progress; the ending route does not impose a difficulty requirement.",
+        "steps": [
+          {
+            "id": "finish-episode-four",
+            "text": "Finish Claire's monument escape, then complete Barry's mine, landfill, crane, and final-boss route to clear Episode Four."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVAL_ALL_EP4_CLEAR",
+      "displayName": "\"You are Authorized to Panic\"",
+      "description": "Clear Episode Four in Countdown Mode.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "countdown",
+      "summary": "Complete both halves of @loc{Episode Four} in @mechanic{Countdown Mode} before the timer expires.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buy the variant for @item{1,000 BP} after the standard clear; Episode Four's long Barry route makes direct navigation and clock pickups especially important.",
+        "steps": [
+          {
+            "id": "clear-countdown-four",
+            "text": "Sprint Claire's monument route, then follow Barry's shortest objective path while collecting hourglasses and quick kill bonuses until both segments are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INVISIBLE_ALL_EP4_CLEAR",
+      "displayName": "\"There's Something in Here\"",
+      "description": "Clear Episode Four in Invisible Mode.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "invisible",
+      "summary": "Complete both halves of @loc{Episode Four} in @mechanic{Invisible Mode}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Natalia can expose Revenant cores and invisible Glasps; bypassing optional enemies reduces risk in Barry's long segment.",
+        "steps": [
+          {
+            "id": "clear-invisible-four",
+            "text": "Use Moira and Natalia to reveal mandatory threats, switch to Claire or Barry for attacks, avoid unnecessary fights, and finish both Episode Four segments."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MEDAL_EP4_COMP",
+      "displayName": "I'm Not Leaving Without My Medal",
+      "description": "Get all medals in Episode Four.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "4–6 hours",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "medals",
+      "summary": "Earn all @item{20 medals} across Claire's and Barry's completed @loc{Episode Four} runs.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Split conflicting goals across completed repeats: Claire's accuracy, knife Glasp, speed, and no-retry medals need not share one run, and Barry's no-damage fight can be isolated.",
+        "collectibles": [
+          {
+            "id": "e4c-accuracy",
+            "index": 1,
+            "name": "Claire: 100% accuracy",
+            "location": "Claire Episode Four",
+            "method": "Fire only guaranteed shots; every fired round must hit an enemy before the segment ends.",
+            "missable": false
+          },
+          {
+            "id": "e4c-knife-glasp",
+            "index": 2,
+            "name": "Claire: knife one Glasp",
+            "location": "Monument",
+            "method": "Use Moira's light to track a Glasp, switch to Claire, close the distance, and deliver the killing blow with the knife.",
+            "missable": false
+          },
+          {
+            "id": "e4c-boxes",
+            "index": 3,
+            "name": "Claire: two military boxes",
+            "location": "Claire Episode Four",
+            "method": "Open both military boxes with Moira's crowbar lock interaction.",
+            "missable": false
+          },
+          {
+            "id": "e4c-no-retries",
+            "index": 4,
+            "name": "Claire: no retries",
+            "location": "Claire Episode Four",
+            "method": "Finish Claire's entire segment without dying or selecting Retry from a checkpoint.",
+            "missable": false
+          },
+          {
+            "id": "e4c-glasps",
+            "index": 5,
+            "name": "Claire: three Glasp kills",
+            "location": "Monument",
+            "method": "Reveal Glasps with Moira and kill at least three with Claire before escaping the monument.",
+            "missable": false
+          },
+          {
+            "id": "e4c-escape-time",
+            "index": 6,
+            "name": "Claire: monument escape with 15 seconds",
+            "location": "Final monument countdown",
+            "method": "Use the direct escape route and reach safety with more than 15 seconds left on the escape timer.",
+            "missable": false
+          },
+          {
+            "id": "e4c-animals",
+            "index": 7,
+            "name": "Claire: five indigenous animals",
+            "location": "Claire Episode Four",
+            "method": "Search the short outdoor route and kill five small native animals before the segment ends.",
+            "missable": false
+          },
+          {
+            "id": "e4c-treasures",
+            "index": 8,
+            "name": "Claire: four treasures",
+            "location": "Claire Episode Four",
+            "method": "Search side rooms and break containers until four treasure pickups register.",
+            "missable": false
+          },
+          {
+            "id": "e4c-emblems",
+            "index": 9,
+            "name": "Claire: all three Tower Emblems",
+            "location": "Claire Episode Four",
+            "method": "Locate and shoot all three blue Tower Emblems during Claire's segment.",
+            "missable": false
+          },
+          {
+            "id": "e4c-speed",
+            "index": 10,
+            "name": "Claire: clear within 20 minutes",
+            "location": "Claire Episode Four",
+            "method": "Ignore optional pickups, follow the direct monument route, and complete Claire's segment in under 20 minutes.",
+            "missable": false
+          },
+          {
+            "id": "e4b-weakspots",
+            "index": 11,
+            "name": "Barry: ten weak-spot Revenants",
+            "location": "Barry Episode Four",
+            "method": "Use Natalia to identify each core and let Barry damage only the exposed core for ten Revenant kills.",
+            "missable": false
+          },
+          {
+            "id": "e4b-alex-no-damage",
+            "index": 12,
+            "name": "Barry: defeat Alex unharmed",
+            "location": "Mine sublevel boss room",
+            "method": "Enter with strong weapons and bottles, avoid every attack, and defeat Alex without Barry taking damage.",
+            "missable": false
+          },
+          {
+            "id": "e4b-bricks",
+            "index": 13,
+            "name": "Barry: fifteen brick hits",
+            "location": "Barry Episode Four",
+            "method": "Control Natalia and land fifteen thrown-brick hits on enemies.",
+            "missable": false
+          },
+          {
+            "id": "e4b-followups",
+            "index": 14,
+            "name": "Barry: five follow-up kills",
+            "location": "Barry Episode Four",
+            "method": "Knock enemies down with Natalia's bricks, switch to Barry, and perform five prompted ground finishers.",
+            "missable": false
+          },
+          {
+            "id": "e4b-subweapons",
+            "index": 15,
+            "name": "Barry: ten sub-weapon kills",
+            "location": "Barry Episode Four",
+            "method": "Use Barry's bottles to kill ten enemies during the segment.",
+            "missable": false
+          },
+          {
+            "id": "e4b-stealth",
+            "index": 16,
+            "name": "Barry: five stealth kills",
+            "location": "Barry Episode Four",
+            "method": "Crouch behind and stealth-kill five unaware enemies as Barry.",
+            "missable": false
+          },
+          {
+            "id": "e4b-knife",
+            "index": 17,
+            "name": "Barry: ten knife kills",
+            "location": "Barry Episode Four",
+            "method": "Finish ten enemies with normal knife slashes rather than follow-up attacks.",
+            "missable": false
+          },
+          {
+            "id": "e4b-boxes",
+            "index": 18,
+            "name": "Barry: three gimmick boxes",
+            "location": "Barry Episode Four",
+            "method": "Use Natalia's lock interaction to open all three gimmick boxes.",
+            "missable": false
+          },
+          {
+            "id": "e4b-hidden",
+            "index": 19,
+            "name": "Barry: ten hidden items",
+            "location": "Barry Episode Four",
+            "method": "Reveal and collect ten concealed pickups with Natalia's pointing ability.",
+            "missable": false
+          },
+          {
+            "id": "e4b-crane",
+            "index": 20,
+            "name": "Barry: crane in three moves",
+            "location": "Landfill crane",
+            "method": "Put Natalia on the platform and pull lever 1 with Barry; move Natalia onto the crane and pull lever 3; lower her ladder, move Barry across, pull lever 5, and lower the final ladder.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PAST_GHOST_KILL",
+      "displayName": "What You Can't See Can Kill You",
+      "description": "Defeat six or more Glasps in the monument in Claire's Episode Four, on Normal difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-4",
+      "summary": "On @mechanic{Normal difficulty or higher}, kill at least @enemy{six Glasps} in one Claire @loc{Episode Four monument} run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Casual spawns only four Glasps, while Normal and harder settings place seven in the monument, giving one spare target.",
+        "steps": [
+          {
+            "id": "select-normal",
+            "text": "Start Claire Episode Four on @mechanic{Normal} or a harder difficulty."
+          },
+          {
+            "id": "kill-six",
+            "text": "Use Moira's flashlight to locate each Glasp, switch to Claire to kill it, and defeat six before completing the monument escape."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FLOOD_GATE_USED",
+      "displayName": "Routes of Future Past",
+      "description": "Complete both routes through the landfill in Barry's Episode Four.",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 Episode Four runs",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "episode-4",
+      "summary": "Reach Barry's @loc{Episode Four landfill} once after pulling Claire's opening lever and once after leaving it untouched.",
+      "guide": {
+        "kind": "standard",
+        "context": "The lever in Claire's monitor room changes Barry's later landfill path; Steam patch 2.30 fixed the original unlock failure.",
+        "steps": [
+          {
+            "id": "first-route",
+            "text": "At the start of Claire Episode Four, enter the monitor room, use the lever in the small room to the left, finish Claire's segment, and advance Barry to the landfill."
+          },
+          {
+            "id": "second-route",
+            "text": "Replay Episode Four, leave the same monitor-room lever untouched, finish Claire's segment again, and advance Barry to the landfill by the alternate route."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_ALL_EP1_CLEAR",
+    "ACH_FLAME_NOT_USED",
+    "ACH_KNIFE_CLEAR",
+    "ACH_ALL_EP2_CLEAR",
+    "ACH_PEDRO_PAST_KILL",
+    "ACH_ALL_EP3_CLEAR",
+    "ACH_MOIRA_NEIL_KILLED",
+    "ACH_FLOOD_GATE_ITEM_GET",
+    "ACH_ALL_EP4_CLEAR",
+    "ACH_PAST_GHOST_KILL",
+    "ACH_FLOOD_GATE_USED",
+    "ACH_CHALLENGE_MEDAL_EP1_COMP",
+    "ACH_CHALLENGE_MEDAL_EP2_COMP",
+    "ACH_CHALLENGE_MEDAL_EP3_COMP",
+    "ACH_CHALLENGE_MEDAL_EP4_COMP",
+    "ACH_SURVIVAL_ALL_EP1_CLEAR",
+    "ACH_SURVIVAL_ALL_EP2_CLEAR",
+    "ACH_SURVIVAL_ALL_EP3_CLEAR",
+    "ACH_SURVIVAL_ALL_EP4_CLEAR",
+    "ACH_INVISIBLE_ALL_EP1_CLEAR",
+    "ACH_INVISIBLE_ALL_EP2_CLEAR",
+    "ACH_INVISIBLE_ALL_EP3_CLEAR",
+    "ACH_INVISIBLE_ALL_EP4_CLEAR",
+    "ACH_SHOT_TWO_KILL",
+    "ACH_GRAP_COMBINATION",
+    "ACH_BOTTLE_FIVE_KILL",
+    "ACH_ASSIST_HOLD_HELP",
+    "ACH_BACK_ATK_KILL",
+    "ACH_CAMPAINF_PT_MEDIUM",
+    "ACH_PROGRESSOR_KILL",
+    "ACH_HOMUNCULUS_KILL",
+    "ACH_KNIFE_WEAPON_KILL",
+    "ACH_BLOW_ATK_KILL",
+    "ACH_GRAP_BLOW_KILL",
+    "ACH_LIGHT_ATK",
+    "ACH_BAR_WEAPON_KILL",
+    "ACH_STONE_KILL",
+    "ACH_HOMU_WEAPON_DEST",
+    "ACH_PROG_JUMPATK_STOP",
+    "ACH_GHOST_KILL",
+    "ACH_SYS_RAID_MISSION_CLEAR",
+    "ACH_SYS_RAID_USE_JUDGMENT",
+    "ACH_SYS_RAID_DUNGEON_CLEAR"
+  ]
+}

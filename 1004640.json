@@ -1,0 +1,1951 @@
+{
+  "game": {
+    "appid": 1004640,
+    "slug": "final-fantasy-tactics-the-ivalice-chronicles",
+    "title": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+    "version": "1.5.2",
+    "lastPatchChecked": "2026-07-22",
+    "estTotalHours": 45,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-06"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Enhanced prologue and Chapter 1 setup",
+      "description": "Play the Enhanced version, clear the prologue and Chapter 1, learn and use an ability, change jobs, recruit a generic unit, collect a crystal and buried item, and read five Chronicle person entries.",
+      "achievementRefs": [
+        "1001",
+        "1013",
+        "1016",
+        "1017",
+        "1018",
+        "1041",
+        "1042",
+        "1045",
+        "1002"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Chapter 2 and Mustadio safeguard",
+      "description": "Start errands, recruit and breed the Araguay Woods Chocobo, mount it, master one job, recruit Mustadio permanently, watch Seekers of the Stone, and complete Chapter 2.",
+      "achievementRefs": [
+        "1009",
+        "1019",
+        "1043",
+        "1044",
+        "1047",
+        "1003"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Chapter 3 jobs and combat counters",
+      "description": "Open the Poachers’ Den, build job access while raising five units, work through every ability-specific counter, read the Scriptures of Germonique, and complete Chapter 3.",
+      "achievementRefs": [
+        "1006",
+        "1007",
+        "1030",
+        "1014",
+        "1021",
+        "1022",
+        "1023",
+        "1024",
+        "1025",
+        "1026",
+        "1027",
+        "1028",
+        "1029",
+        "1031",
+        "1032",
+        "1033",
+        "1034",
+        "1035",
+        "1036",
+        "1037",
+        "1038",
+        "1039",
+        "1040",
+        "1046",
+        "1004"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Chapter 4 missable scene and side cleanup",
+      "description": "Immediately visit Goug with Mustadio, reach level 50 with Ramza, breed and process ten unique poacher rewards, and complete all 96 errands plus the two associated titles.",
+      "achievementRefs": [
+        "1048",
+        "1008",
+        "1015",
+        "1012",
+        "1010",
+        "1011"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "All jobs and Midlight’s Deep",
+      "description": "Learn Ultima on Ramza at Limberry Castle Gate if he is the all-jobs candidate, reveal Midlight’s Deep after Mullonde, clear all ten floors, learn Zodiark, and finish every job ability on one unit.",
+      "achievementRefs": [
+        "1020",
+        "1049"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Final story and Akademy completion",
+      "description": "Finish Chapter 4, load the clear save for any cleanup, and complete every remaining Akademy Report entry.",
+      "achievementRefs": [
+        "1005",
+        "1000"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "1000",
+      "displayName": "The Brave, the Forgotten",
+      "description": "Uncover every truth that had gone untold.",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "after all other achievements",
+      "estMinutes": 5,
+      "stage": 6,
+      "confidence": "verified",
+      "group": "completion",
+      "prerequisites": [
+        "1005",
+        "1012",
+        "1020",
+        "1049"
+      ],
+      "summary": "Complete every other entry in @mechanic{Akademy Reports} on the same Enhanced-version save.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completion is checked against the in-game Akademy list, not the Steam profile, so every report must register in the save itself.",
+        "steps": [
+          {
+            "id": "finish-akademy",
+            "text": "Open @mechanic{Main Menu > Akademy Reports}, complete every unfinished report, and return to the list after the final report registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1001",
+      "displayName": "In Pursuit of the Truth",
+      "description": "Complete the prologue.",
+      "hidden": true,
+      "globalPercent": 94.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Win the opening @loc{prologue battle} in the Enhanced version.",
+      "guide": {
+        "kind": "standard",
+        "context": "The prologue is a single tutorial encounter in which Ramza is the only directly controlled ally.",
+        "steps": [
+          {
+            "id": "clear-prologue",
+            "text": "Follow the combat tutorial and defeat the prologue enemies to advance into Chapter 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1002",
+      "displayName": "The Meager",
+      "description": "Complete Chapter 1, The Meager.",
+      "hidden": true,
+      "globalPercent": 58.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–8 hours",
+      "estMinutes": 390,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "1001"
+      ],
+      "summary": "Complete all Chapter 1 story battles through @loc{Zeikden Fortress}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chapter 1 contains ten story battles after the prologue and has no difficulty requirement.",
+        "steps": [
+          {
+            "id": "finish-chapter-one",
+            "text": "Follow the red story destinations and win the battle at @loc{Zeikden Fortress} to finish Chapter 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1003",
+      "displayName": "The Manipulative & the Subservient",
+      "description": "Complete Chapter 2, The Manipulative & the Subservient.",
+      "hidden": true,
+      "globalPercent": 45.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8–12 hours",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "1002"
+      ],
+      "summary": "Complete all Chapter 2 story battles and advance into Chapter 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chapter 2 introduces errands, monster recruitment, and Mustadio; accepting Mustadio permanently protects two later Chronicle achievements.",
+        "steps": [
+          {
+            "id": "keep-mustadio",
+            "text": "When @npc{Mustadio} offers to join, recruit him and keep him alive in the roster."
+          },
+          {
+            "id": "finish-chapter-two",
+            "text": "Continue through every red story destination until the Chapter 2 finale is complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1004",
+      "displayName": "The Valiant",
+      "description": "Complete Chapter 3, The Valiant.",
+      "hidden": true,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8–12 hours",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "1003"
+      ],
+      "summary": "Complete all Chapter 3 story battles through the @loc{Orbonne Monastery} sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Orbonne sequence also awards the Scriptures of Germonique, which becomes readable from the Chronicle afterward.",
+        "steps": [
+          {
+            "id": "finish-chapter-three",
+            "text": "Follow the Chapter 3 story route, prepare before its sequential battles, and clear the full @loc{Orbonne Monastery} sequence."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1005",
+      "displayName": "In the Name of Love",
+      "description": "Complete Chapter 4, In the Name of Love.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10–15 hours",
+      "estMinutes": 750,
+      "stage": 6,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "1004"
+      ],
+      "summary": "Complete Chapter 4 by winning the final battle at @loc{Necrohol — Airship Graveyard}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final battles are sequential, but a clear save returns to the world map before that sequence for unfinished side content.",
+        "steps": [
+          {
+            "id": "finish-final-sequence",
+            "text": "Prepare the active party, enter the final sequence, and defeat the last encounter at @loc{Necrohol — Airship Graveyard}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1006",
+      "displayName": "Dependable Fighters",
+      "description": "Reach level 30 or above with five different party members.",
+      "hidden": false,
+      "globalPercent": 37.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during Chapter 3",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "levels",
+      "summary": "Keep five rostered party members at @mechanic{level 30} or higher at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Levels are counted per character; five qualifying units must coexist in the roster.",
+        "steps": [
+          {
+            "id": "level-five-to-thirty",
+            "text": "Deploy the same five party members through story or random battles until each unit’s status screen shows level 30 or above."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1007",
+      "displayName": "Proven Veterans",
+      "description": "Reach level 40 or above with five different party members.",
+      "hidden": true,
+      "globalPercent": 30.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during Chapters 3–4",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "levels",
+      "summary": "Keep five rostered party members at @mechanic{level 40} or higher at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chapter 4 and Midlight’s Deep provide further experience if the core five finish Chapter 3 below level 40.",
+        "steps": [
+          {
+            "id": "level-five-to-forty",
+            "text": "Continue using five retained party members until each unit’s status screen shows level 40 or above."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1008",
+      "displayName": "Seasoned Warrior",
+      "description": "Reach level 50 with Ramza.",
+      "hidden": true,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during Chapter 4",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "levels",
+      "summary": "Raise @npc{Ramza} to @mechanic{level 50}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ramza cannot be sent on errands, so his remaining experience must come from deployed combat.",
+        "steps": [
+          {
+            "id": "level-ramza-fifty",
+            "text": "Deploy Ramza in story, random, or Midlight’s Deep battles until his status screen shows level 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1009",
+      "displayName": "Inn Demand Worker",
+      "description": "Take on an errand at a tavern.",
+      "hidden": false,
+      "globalPercent": 53.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "errands",
+      "summary": "From Chapter 2 onward, dispatch a party from any @loc{tavern} on one errand.",
+      "guide": {
+        "kind": "standard",
+        "context": "Errands consume in-game days and return their assigned generic units with JP and a result after travel advances the calendar.",
+        "steps": [
+          {
+            "id": "accept-first-errand",
+            "text": "Enter a tavern, open @mechanic{Errands}, select an available job, choose up to three generic units, select a date range, and confirm the dispatch; Ramza and unique units cannot be assigned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1010",
+      "displayName": "Master Treasure Hunter",
+      "description": "Earn the title of Master Treasure Hunter.",
+      "hidden": true,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "during all errands",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "errands",
+      "prerequisites": [
+        "1012"
+      ],
+      "summary": "Earn the @mechanic{Master Treasure Hunter} title by completing the full errand collection.",
+      "guide": {
+        "kind": "standard",
+        "context": "The title is awarded automatically during the 96-errand completion route; it is not tied to buried battlefield items.",
+        "steps": [
+          {
+            "id": "complete-errands-for-treasures",
+            "text": "Finish every regular and seasonal tavern errand until the treasure collection awards the Master Treasure Hunter title."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1011",
+      "displayName": "Master Adventurer",
+      "description": "Earn the title of Master Adventurer.",
+      "hidden": true,
+      "globalPercent": 10.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "during all errands",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "errands",
+      "prerequisites": [
+        "1012"
+      ],
+      "summary": "Earn the @mechanic{Master Adventurer} title by completing the full errand collection.",
+      "guide": {
+        "kind": "standard",
+        "context": "The title tracks adventuring locations discovered through errands and arrives naturally while finishing the entire set.",
+        "steps": [
+          {
+            "id": "complete-errands-for-locations",
+            "text": "Finish every regular and seasonal tavern errand until the location collection awards the Master Adventurer title."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1012",
+      "displayName": "Knight Errand of Ivalice",
+      "description": "Achieve great success in every errand.",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "6–10 hours",
+      "estMinutes": 480,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "errands",
+      "summary": "Complete all @mechanic{96 tavern errands}, including the four month-specific contests.",
+      "guide": {
+        "kind": "standard",
+        "context": "A failed errand has no permanent consequence and reappears after one in-game month; routes can be temporarily locked by story progress.",
+        "steps": [
+          {
+            "id": "clear-current-lists",
+            "text": "Before each major story advance, visit available settlements and complete every errand shown in their taverns."
+          },
+          {
+            "id": "complete-seasonals",
+            "text": "Complete @mechanic{The Gariland Magick Melee} in Gariland during Virgo, @mechanic{The Zaland Melee} in Zaland during Aries, @mechanic{Goug Artificers’ Contest} in Goug during Sagittarius, and @mechanic{The Yardrow Melee} in Yardrow during Cancer."
+          },
+          {
+            "id": "verify-all-towns",
+            "text": "Open the world-map location list, visit every settlement still marked with unfinished errands, and repeat failures after advancing one month until all 96 return the literal @mechanic{Great Success} result with a gold stamp."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1013",
+      "displayName": "Great Expectations",
+      "description": "Recruit a new party member from the warriors' guild.",
+      "hidden": false,
+      "globalPercent": 51.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "basics",
+      "summary": "Recruit any new party member from a @loc{warriors’ guild} after the first Chapter 1 battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "The warriors’ guild opens with party management after the Magick City of Gariland battle.",
+        "steps": [
+          {
+            "id": "hire-generic",
+            "text": "Enter a warriors’ guild, choose @mechanic{Recruit}, select a generic unit, and confirm that unit’s addition to the roster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1014",
+      "displayName": "Welcome, Poacher",
+      "description": "Use the services of a poachers' den.",
+      "hidden": false,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "poaching",
+      "prerequisites": [
+        "1030"
+      ],
+      "summary": "Process one monster carcass at a @loc{Poachers’ Den} after the feature opens in Chapter 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can first find Poachers’ Dens at Merchant City of Dorter and Port City of Warjilis; Trade City of Sal Ghidos gains one later.",
+        "steps": [
+          {
+            "id": "obtain-carcass",
+            "text": "Equip @mechanic{Poach} and kill a monster with the normal @mechanic{Attack} command to collect its carcass."
+          },
+          {
+            "id": "process-carcass",
+            "text": "Visit a Poachers’ Den, open @mechanic{Process Carcasses}, and exchange the carcass for its item."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1015",
+      "displayName": "Rare Wares",
+      "description": "Have ten different items produced at a poachers' den that cannot be purchased from outfitters.",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3–6 hours",
+      "estMinutes": 270,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "poaching",
+      "prerequisites": [
+        "1014",
+        "1030",
+        "1044"
+      ],
+      "summary": "Process @item{ten different poacher-only items} whose menu entries display the poacher icon.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Breed lower monster forms by leaving roster space and advancing days; kill a bred ally with a normal Attack from a unit equipped with Poach, then reload the turn-start autosave when the wrong carcass drops.",
+        "collectibles": [
+          {
+            "id": "barrette",
+            "index": 1,
+            "name": "Barrette",
+            "location": "Rare Red Chocobo carcass",
+            "method": "Breed a Chocobo until a Red Chocobo hatches, poach its rare carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "holy-lance",
+            "index": 2,
+            "name": "Holy Lance",
+            "location": "Normal Sekhret carcass",
+            "method": "Recruit a Wisenkin or Sekhret, breed Sekhret, poach its normal carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "ivory-pole",
+            "index": 3,
+            "name": "Ivory Pole",
+            "location": "Rare Sekhret carcass",
+            "method": "Poach the same Sekhret family until its rare carcass drops, then process it.",
+            "missable": false
+          },
+          {
+            "id": "healing-staff",
+            "index": 4,
+            "name": "Healing Staff",
+            "location": "Rare Dryad carcass",
+            "method": "Recruit a Dryad-family monster, breed a Dryad, poach its rare carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "faerie-harp",
+            "index": 5,
+            "name": "Faerie Harp",
+            "location": "Rare Treant carcass",
+            "method": "Breed the Dryad family until a Treant hatches, poach its rare carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "defender",
+            "index": 6,
+            "name": "Defender",
+            "location": "Rare Elder Treant carcass",
+            "method": "Breed the Dryad family until an Elder Treant hatches, poach its rare carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "cachusha",
+            "index": 7,
+            "name": "Cachusha",
+            "location": "Rare Pig carcass",
+            "method": "Recruit a Pig, poach its rare carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "chantage",
+            "index": 8,
+            "name": "Chantage",
+            "location": "Normal Swine carcass",
+            "method": "Breed the Pig family until a Swine hatches, poach its normal carcass, and process it.",
+            "missable": false
+          },
+          {
+            "id": "nagnarok",
+            "index": 9,
+            "name": "Nagnarok",
+            "location": "Rare Swine carcass",
+            "method": "Poach a Swine until its rare carcass drops, then process it.",
+            "missable": false
+          },
+          {
+            "id": "ribbon",
+            "index": 10,
+            "name": "Ribbon",
+            "location": "Normal Wild Boar carcass",
+            "method": "Breed the Pig family until a Wild Boar hatches, poach its normal carcass, and process it.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1016",
+      "displayName": "A New Path",
+      "description": "Change the job of a party member.",
+      "hidden": false,
+      "globalPercent": 80.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "basics",
+      "summary": "After the @loc{Magick City of Gariland} battle unlocks Jobs, change a party member to another job.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jobs become manageable after the first Chapter 1 battle, and new jobs unlock through levels in prerequisite jobs.",
+        "steps": [
+          {
+            "id": "change-job",
+            "text": "Open a unit’s status screen, select @mechanic{Jobs}, choose a different unlocked job, and confirm the change."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1017",
+      "displayName": "Foundational Learning",
+      "description": "Learn an ability with a party member.",
+      "hidden": false,
+      "globalPercent": 81.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "basics",
+      "summary": "Spend JP to learn any ability with one party member.",
+      "guide": {
+        "kind": "standard",
+        "context": "Successful actions award JP to the acting unit’s current job; ineffective actions do not award JP.",
+        "steps": [
+          {
+            "id": "learn-ability",
+            "text": "Open a unit’s @mechanic{Abilities} menu, select the current job, purchase any affordable ability, and confirm @mechanic{Learn}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1018",
+      "displayName": "Practical Application",
+      "description": "Use an action ability with a party member during battle.",
+      "hidden": false,
+      "globalPercent": 92.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "basics",
+      "summary": "Perform any party member’s action ability successfully in a battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "An action must produce its normal effect; the Squire’s zero-MP Focus is available early and cannot miss.",
+        "steps": [
+          {
+            "id": "use-action",
+            "text": "On a party member’s turn, open @mechanic{Abilities}, select an action such as @mechanic{Focus}, choose its target if prompted, and let it resolve."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1019",
+      "displayName": "Expert in One Field",
+      "description": "Learn all the abilities of a single job with one party member.",
+      "hidden": false,
+      "globalPercent": 46.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1–3 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "jobs",
+      "summary": "Learn every listed ability of one job with a single party member.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching job level 8 does not guarantee mastery; every ability in that job’s list must be purchased or inherited.",
+        "steps": [
+          {
+            "id": "master-one-job",
+            "text": "Keep one unit in a chosen job, earn JP with successful actions, and purchase every remaining entry in that job’s Abilities list."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1020",
+      "displayName": "Master of All Trades",
+      "description": "Learn all the abilities of every job with one party member.",
+      "hidden": true,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10–20 hours",
+      "estMinutes": 900,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "jobs",
+      "sortReason": "Ramza’s Ultima opportunities are limited, and Zodiark is safest during the END boss battle.",
+      "lockoutStage": 5,
+      "summary": "Learn every ability from every job with one party member; if @npc{Ramza} is that unit, he must also learn @mechanic{Ultima}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Patch 1.4.0 fixed the former last-ability report bug. JP Boost, Focus loops, and human-enemy crystals shorten the grind, but Ultima has limited story opportunities.",
+        "steps": [
+          {
+            "id": "learn-ultima",
+            "text": "If Ramza is the candidate, save before @loc{Limberry Castle Gate}, set him to @mechanic{Gallant Knight}, equip @item{Black Garb} and @item{Nu Khai Armband}, and let @npc{Celia} hit him with Ultima while he survives without Stone or Toad; accept the learn prompt."
+          },
+          {
+            "id": "learn-zodiark",
+            "text": "At @loc{Midlight’s Deep — END}, set the candidate to @mechanic{Summoner}, equip @mechanic{Mana Shield}, survive @enemy{Serpentarius’s Zodiark} without Stone or Toad, and accept the learn prompt; reload the pre-cast autosave if learning fails."
+          },
+          {
+            "id": "finish-job-lists",
+            "text": "Use @mechanic{JP Boost} and repeated successful actions to buy every remaining ability in every job, then load the save and open the main menu if the Akademy check does not appear immediately."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1021",
+      "displayName": "Fighting Back",
+      "description": "Knock an enemy away with \"Counter Tackle.\"",
+      "hidden": false,
+      "globalPercent": 49.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Use @mechanic{Counter Tackle} to knock an adjacent enemy one tile away.",
+      "guide": {
+        "kind": "standard",
+        "context": "Counter Tackle is a Squire reaction ability and can trigger only when an adjacent attack activates the reaction.",
+        "steps": [
+          {
+            "id": "trigger-counter-tackle",
+            "text": "Equip Counter Tackle, stand beside a melee enemy with an empty tile directly behind that attacker, and let the enemy attack until the reaction activates and pushes it backward one tile."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1022",
+      "displayName": "Emergency Treatment",
+      "description": "Remove an ally's status ailment or restore their HP five times using \"Throw Items.\"",
+      "hidden": false,
+      "globalPercent": 61.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Restore ally HP or remove an ally’s ailment with @mechanic{Throw Items} five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each item must change the target’s current state; healing a full-health ally or treating no ailment does not count.",
+        "steps": [
+          {
+            "id": "throw-five-items",
+            "text": "Equip Throw Items and, on five separate actions, use a suitable restorative item on an injured or afflicted ally within range."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1023",
+      "displayName": "Fragilities Exposed",
+      "description": "Destroy enemy equipment using Arts of War abilities five times.",
+      "hidden": false,
+      "globalPercent": 9.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Destroy equipment worn by human enemies with @mechanic{Arts of War} five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Monster targets cannot contribute because they do not carry qualifying equipment.",
+        "steps": [
+          {
+            "id": "break-five-items",
+            "text": "Against equipped human enemies, use Knight Arts of War such as @mechanic{Rend Weapon}, @mechanic{Rend Helm}, or @mechanic{Rend Armor} until five pieces are successfully destroyed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1024",
+      "displayName": "Guaranteed Hit",
+      "description": "Inflict damage on enemies five times using Aim abilities.",
+      "hidden": false,
+      "globalPercent": 51.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Damage enemies with Archer @mechanic{Aim} abilities five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Aim delays the shot for extra power, so stationary or disabled targets are more reliable.",
+        "steps": [
+          {
+            "id": "land-five-aims",
+            "text": "Equip Aim, select an enemy that will remain in range, and let five Aim attacks resolve for damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1025",
+      "displayName": "Earth Rent Asunder",
+      "description": "Simultaneously inflict damage on two or more enemies with \"Shockwave\" five times.",
+      "hidden": false,
+      "globalPercent": 23.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Damage at least two enemies with one @mechanic{Shockwave}, five separate times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shockwave travels in a straight line from the Monk, so enemy alignment matters more than adjacency.",
+        "steps": [
+          {
+            "id": "five-shockwaves",
+            "text": "Line up two or more enemies along Shockwave’s path and land the multi-target hit; repeat until five casts have each damaged at least two enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1026",
+      "displayName": "Corrupted Souls",
+      "description": "Deal the felling blow to five enemies with the White Magick ability \"Holy.\"",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Finish five enemies by casting the White Magick spell @mechanic{Holy}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the final blow counts, so lower each target’s HP before spending Holy’s MP and cast time.",
+        "steps": [
+          {
+            "id": "five-holy-kills",
+            "text": "Weaken five enemies individually, cast Holy from a White Magick user, and make sure each spell resolves as that enemy’s killing blow."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1027",
+      "displayName": "As Anticipated",
+      "description": "Inflict damage on an enemy with a Black Magick ability targeted on a tile. Do this five times.",
+      "hidden": false,
+      "globalPercent": 62.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Target Black Magick on a battlefield tile and damage an enemy, five separate times.",
+      "guide": {
+        "kind": "standard",
+        "context": "One cast counts once even if it hits several enemies; the targeting prompt allows an empty tile or the tile beneath a unit.",
+        "steps": [
+          {
+            "id": "tile-cast-five-times",
+            "text": "Choose a Black Magick spell, switch its target to a tile, place the area over an enemy, and repeat until five tile-targeted casts deal damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1028",
+      "displayName": "Now You See Me",
+      "description": "Successfully use \"Teleport\" five times.",
+      "hidden": false,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Complete five successful movements with the Time Mage ability @mechanic{Teleport}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Teleport can ignore obstacles and elevation, but failure chance rises with distance.",
+        "steps": [
+          {
+            "id": "teleport-five-times",
+            "text": "Equip Teleport, choose nearby destination tiles during successive turns, and finish five movements that successfully relocate the unit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1029",
+      "displayName": "Mystical Beings",
+      "description": "Summon five different espers in battle.",
+      "hidden": false,
+      "globalPercent": 27.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Use five different Summoner @mechanic{esper abilities} in battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Distinct learned summons are required; repeating one esper does not add another unique use.",
+        "steps": [
+          {
+            "id": "summon-five-espers",
+            "text": "Learn at least five Summoner abilities, enter battle with sufficient MP, and successfully cast five differently named espers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1030",
+      "displayName": "The Poacher's Way",
+      "description": "Successfully use \"Poach\" five times.",
+      "hidden": false,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Kill five monsters with normal Attacks from a unit equipped with @mechanic{Poach}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Poach is a Thief support ability; ability damage cannot convert the killing blow into a carcass.",
+        "steps": [
+          {
+            "id": "poach-five-monsters",
+            "text": "Equip Poach, weaken a monster, finish it with the base @mechanic{Attack} command, and repeat until five successful poaches have produced carcasses."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1031",
+      "displayName": "I Want You",
+      "description": "Successfully use \"Entice\" five times.",
+      "hidden": false,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Successfully recruit five enemy units with the Orator action @mechanic{Entice}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The displayed success chance changes with Faith and zodiac compatibility, so another target may be much easier even within the same enemy family.",
+        "steps": [
+          {
+            "id": "entice-five",
+            "text": "Deploy an Orator, inspect Entice’s displayed chance on each enemy, cast it on favorable targets, and finish five successful conversions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1032",
+      "displayName": "No Shadow Without Light",
+      "description": "Inflict status ailments on enemies five times with Mystic Arts abilities.",
+      "hidden": false,
+      "globalPercent": 25.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Inflict status ailments on enemies with @mechanic{Mystic Arts} five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Immune or already afflicted targets do not receive a new ailment, so verify the preview and target status first.",
+        "steps": [
+          {
+            "id": "land-five-mystic-ailments",
+            "text": "Use Mystic Arts such as a disabling or weakening spell on vulnerable enemies until five casts successfully apply an ailment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1033",
+      "displayName": "The Lay of the Land",
+      "description": "Inflict damage on enemies with five different Geomancy abilities.",
+      "hidden": false,
+      "globalPercent": 19.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Damage enemies with five different @mechanic{Geomancy abilities}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Geomancy chooses its available action from the ground beneath the caster, so varied terrain exposes different abilities.",
+        "steps": [
+          {
+            "id": "use-five-geomancies",
+            "text": "Move a Geomancer across five terrain types, use the corresponding differently named Geomancy action from each tile, and damage an enemy with every one."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1034",
+      "displayName": "Dizzying Ups, Terrifying Downs",
+      "description": "Inflict damage on enemies with \"Jump\" five times.",
+      "hidden": false,
+      "globalPercent": 33.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Damage enemies with the Dragoon action @mechanic{Jump} five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jump resolves after a delay and can miss if the target moves; speed gear or Immobilize makes the landing more reliable.",
+        "steps": [
+          {
+            "id": "land-five-jumps",
+            "text": "Target enemies that just acted or cannot move, select Jump, and repeat until five delayed landings deal damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1035",
+      "displayName": "Soul of the Sword",
+      "description": "Utilize the hidden power of five different katana with \"Iaido.\"",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Activate five different Samurai @mechanic{Iaido abilities} using five named katana.",
+      "guide": {
+        "kind": "standard",
+        "context": "Iaido draws the matching katana from shared inventory and may destroy it, even though the weapon need not be equipped.",
+        "steps": [
+          {
+            "id": "use-five-iaido",
+            "text": "Keep five different katana in inventory, learn their five Iaido actions, and successfully activate each differently named action once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1036",
+      "displayName": "Throwing Weapons",
+      "description": "Inflict damage on enemies with \"Throw\" five times.",
+      "hidden": false,
+      "globalPercent": 31.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Damage enemies with Ninja @mechanic{Throw} attacks five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Thrown weapons and items are permanently consumed, and their category must first be learned in the Ninja ability list.",
+        "steps": [
+          {
+            "id": "throw-five-weapons",
+            "text": "Stock expendable items, learn the matching Throw category, and land five Throw attacks on enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1037",
+      "displayName": "A Calculated Attack",
+      "description": "Inflict damage on three or more enemies at once with Arithmeticks abilities without harming an ally.",
+      "hidden": false,
+      "globalPercent": 15.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Use @mechanic{Arithmeticks} to damage at least three enemies at once without damaging an ally.",
+      "guide": {
+        "kind": "standard",
+        "context": "Arithmeticks combines EXP, Level, CT, or Height with a divisor and targets every matching unit; the confirmation preview shows the full affected set.",
+        "steps": [
+          {
+            "id": "find-undead-group",
+            "text": "Enter an undead-heavy encounter at @loc{The Yuguewood} or the Chapter 4 battlefield before Limberry Castle with an Arithmetician who knows Cura and several target formulas."
+          },
+          {
+            "id": "select-safe-formula",
+            "text": "Inspect enemy values, choose EXP, Level, CT, or Height plus a divisor shared by at least three undead enemies, and confirm that the targeting preview contains the required enemies."
+          },
+          {
+            "id": "cast-cura",
+            "text": "Cast @mechanic{Cura} through Arithmeticks; it must damage at least three undead enemies while no ally takes damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1038",
+      "displayName": "Allow Me a Song",
+      "description": "Utilize the power of five different Bardsong abilities.",
+      "hidden": true,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Apply buffs with five different Bard @mechanic{Bardsong abilities}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bardsong continues charging until its effect resolves for the whole allied party; issuing another action interrupts the song.",
+        "steps": [
+          {
+            "id": "complete-five-songs",
+            "text": "Place a Bard away from danger, start one Bardsong, wait for its party-wide effect, and repeat with four other differently named songs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1039",
+      "displayName": "When Demons Dance",
+      "description": "Inflict a status ailment on three or more enemies at once with Forbidden Dance five times.",
+      "hidden": true,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Use @mechanic{Forbidden Dance} to ail at least three enemies, five separate times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Forbidden Dance is a continuous Dancer action with a separate 50% ailment chance per enemy, so larger enemy groups improve each attempt.",
+        "steps": [
+          {
+            "id": "five-forbidden-dances",
+            "text": "Deploy a Dancer against a large group, keep the Dancer uninterrupted until Forbidden Dance resolves, and repeat until five performances each afflict at least three enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1040",
+      "displayName": "Direct Imitation",
+      "description": "Use Mimic five times.",
+      "hidden": true,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "abilities",
+      "summary": "Have a deployed Mime automatically copy party actions with @mechanic{Mimic} five times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mime copies standard job actions in the direction it faces; the copied action can count even when it misses.",
+        "steps": [
+          {
+            "id": "trigger-five-mimics",
+            "text": "Deploy a Mime, face it safely, and have other party members use copyable actions such as Focus until five automatic Mimic activations occur."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1041",
+      "displayName": "Finders Keepers",
+      "description": "Obtain a buried item during battle.",
+      "hidden": false,
+      "globalPercent": 69.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "exploration",
+      "summary": "Use @mechanic{Treasure Hunter} to uncover one buried battlefield item.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each battle map has fixed treasure tiles; a Chemist has the search innately, while other jobs require the Chemist movement ability.",
+        "steps": [
+          {
+            "id": "find-buried-item",
+            "text": "On @loc{Midlight's Deep — YROTCIV}, deploy a Chemist or equip Treasure Hunter, then end that unit's movement on grid cell @loc{C4}, a starting-area tile marked for buried treasure."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1042",
+      "displayName": "Succession of Power",
+      "description": "Acquire an ability from a crystal.",
+      "hidden": false,
+      "globalPercent": 62.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "basics",
+      "summary": "Inherit an ability from a crystal left by a defeated human unit.",
+      "guide": {
+        "kind": "standard",
+        "context": "A dead human’s three-heart timer can end as either a chest or crystal; monsters cannot provide ability crystals.",
+        "steps": [
+          {
+            "id": "create-crystal",
+            "text": "Defeat a human enemy and keep the battle active until its three-heart countdown reaches zero and leaves a crystal."
+          },
+          {
+            "id": "inherit-ability",
+            "text": "Move a compatible party member onto the crystal and choose an offered ability to learn it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1043",
+      "displayName": "My Feathered Friend",
+      "description": "Mount a chocobo.",
+      "hidden": false,
+      "globalPercent": 35.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "monsters",
+      "summary": "Move a humanoid party member onto a deployed @npc{Chocobo} and mount it.",
+      "guide": {
+        "kind": "standard",
+        "context": "The earliest guaranteed candidate is the Chocobo saved and recruited during the Chapter 2 Araguay Woods story battle.",
+        "steps": [
+          {
+            "id": "mount-chocobo",
+            "text": "Deploy a Chocobo and a humanoid ally, select a movement destination on the Chocobo’s occupied tile, and accept the mount prompt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1044",
+      "displayName": "Pleased to Meet You",
+      "description": "Hatch a creature egg.",
+      "hidden": false,
+      "globalPercent": 52.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "monsters",
+      "summary": "Keep a recruited monster in the roster and advance world-map days until one of its eggs hatches.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Chapter 2 Araguay Woods Chocobo can join without Entice; retained monsters continue laying eggs when roster space is available.",
+        "steps": [
+          {
+            "id": "recruit-monster",
+            "text": "Save the Chocobo at @loc{Araguay Woods} and recruit it after battle, or recruit another monster with Entice or Tame."
+          },
+          {
+            "id": "hatch-egg",
+            "text": "Keep at least one roster slot free and repeatedly travel between two world-map locations until an egg appears and hatches automatically."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1045",
+      "displayName": "Amateur Historian",
+      "description": "Read about five different people in the Encyclopedia section of the Chronicle.",
+      "hidden": false,
+      "globalPercent": 44.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "chronicle",
+      "summary": "View five different people under @mechanic{Chronicle > Encyclopedia > Persons}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Chronicle unlocks once the opening Chapter 1 fight in the Magick City of Gariland is complete.",
+        "steps": [
+          {
+            "id": "read-five-people",
+            "text": "Open @mechanic{Main Menu > Chronicle > Encyclopedia > Persons} and open five differently named person entries."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1046",
+      "displayName": "The Scriptures of Germonique",
+      "description": "Read the Scriptures of Germonique to the end in the Reading Materials section of the Chronicle.",
+      "hidden": true,
+      "globalPercent": 24.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "chronicle",
+      "prerequisites": [
+        "1003"
+      ],
+      "summary": "Read all of @item{The Scriptures of Germonique} under Chronicle’s Reading Materials.",
+      "guide": {
+        "kind": "standard",
+        "context": "The document is awarded automatically after the Chapter 3 Orbonne Monastery battle sequence.",
+        "steps": [
+          {
+            "id": "read-scriptures",
+            "text": "Open @mechanic{Chronicle > Reading Materials > Scriptures of Germonique} and advance through every page until the text ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1047",
+      "displayName": "A Thickening of the Plot",
+      "description": "Watch the scene Seekers of the Stone in the Events section of the Chronicle.",
+      "hidden": true,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "chronicle",
+      "sortReason": "Mustadio must remain in the roster before this Chronicle event becomes available.",
+      "lockoutStage": 2,
+      "summary": "Keep @npc{Mustadio} and watch @mechanic{Seekers of the Stone} after Lionel Castle in Chapter 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "Declining Mustadio, dismissing him, or allowing permanent death removes this event from the current playthrough.",
+        "steps": [
+          {
+            "id": "retain-mustadio",
+            "text": "Recruit Mustadio when offered and keep him alive in the roster."
+          },
+          {
+            "id": "watch-seekers",
+            "text": "After progressing beyond @loc{Lionel Castle}, open @mechanic{Chronicle > Events > Seekers of the Stone} and play the scene to its end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1048",
+      "displayName": "Secrets Beneath Goug",
+      "description": "Watch the scene The Metallic Sphere.",
+      "hidden": true,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "chronicle",
+      "sortReason": "The Metallic Sphere scene requires Mustadio to remain in the roster.",
+      "lockoutStage": 4,
+      "summary": "Keep @npc{Mustadio} and trigger @mechanic{The Metallic Sphere} at Goug in Chapter 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "The optional Goug scene cannot occur in a playthrough where Mustadio was declined, dismissed, or permanently lost.",
+        "steps": [
+          {
+            "id": "visit-goug",
+            "text": "At the start of Chapter 4 or later, keep Mustadio in the roster and travel to @loc{Clockwork City of Goug}; let The Metallic Sphere scene finish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1049",
+      "displayName": "Ruler of the Abyss",
+      "description": "Complete all levels of Midlight's Deep.",
+      "hidden": true,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3–6 hours",
+      "estMinutes": 270,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "exploration",
+      "prerequisites": [
+        "1004"
+      ],
+      "summary": "After Mullonde, visit @loc{Port City of Warjilis} to reveal @loc{Midlight's Deep}, then clear all ten floors through @loc{END}.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each of the first nine floors is dark, and the player must test one of five possible passage tiles. Read every direction from the named starting-grid anchor while facing the same way as the party's initial formation; leave an enemy alive, test candidates with Treasure Hunter until @mechanic{Found a passage leading deeper} appears, then finish the battle.",
+        "collectibles": [
+          {
+            "id": "noissim",
+            "index": 1,
+            "name": "NOISSIM",
+            "location": "From the bottom-right starting tile",
+            "method": "Test Left 3 at height 18; Left 9 at height 2; Up 1 and Left 6 at height 7; Up 6 and Left 8 at height 1; or Up 8 and Left 8 at height 1, then defeat the remaining enemies.",
+            "missable": false
+          },
+          {
+            "id": "termination",
+            "index": 2,
+            "name": "TERMINATION",
+            "location": "From the back-middle starting tile",
+            "method": "Test Up 2 and Right 5 at height 8; Up 7 and Right 4 at height 5; Up 10 and Left 1 at height 1; Up 11 and Left 3 at height 2; or Up 11 and Right 5 at height 1.",
+            "missable": false
+          },
+          {
+            "id": "delta",
+            "index": 3,
+            "name": "DELTA",
+            "location": "From the back-middle starting tile",
+            "method": "Test Up 4 and Right 2 at height 1; Up 7 and Left 2 at height 2.5; Up 7 and Left 3 at height 6; Up 13 and Left 3 at height 0; or Up 14 and Right 4 at height 0.",
+            "missable": false
+          },
+          {
+            "id": "valkyries",
+            "index": 4,
+            "name": "VALKYRIES",
+            "location": "From the back-right starting tile",
+            "method": "Test Left 8 at height 3; Left 11 and Up 7 at height 3; Left 13 and Up 8 at height 2; Left 14 and Up 6 at height 1; or Left 15 and Up 4 at height 1.",
+            "missable": false
+          },
+          {
+            "id": "yrotciv",
+            "index": 5,
+            "name": "YROTCIV",
+            "location": "From the back-middle starting tile",
+            "method": "Test Up 4 at height 10; Up 4 and Left 3 at height 0; Up 6 and Left 1 at height 0; Up 6 and Right 2 at height 0; or Up 8 and Left 3 at height 1.",
+            "missable": false
+          },
+          {
+            "id": "tiger",
+            "index": 6,
+            "name": "TIGER",
+            "location": "From the back-left starting tile",
+            "method": "Test Right 5 and Up 2 at height 2; Right 8 and Up 8 at height 0; Right 9 and Up 3 at height 1; Right 10 at height 0; or Right 10 and Up 9 at height 0.",
+            "missable": false
+          },
+          {
+            "id": "bridge",
+            "index": 7,
+            "name": "BRIDGE",
+            "location": "From the back-left starting tile",
+            "method": "Test Right 8 at height 0; Up 1 and Right 6 at height 0; Up 6 and Right 6 at height 2; Up 8 and Right 3 at height 7; or Up 12 and Right 4 at height 5.",
+            "missable": false
+          },
+          {
+            "id": "voyage",
+            "index": 8,
+            "name": "VOYAGE",
+            "location": "From the back-right starting tile",
+            "method": "Test Right 1 at height 3; Right 2 at height 3; Up 3 and Right 1 at height 3; Up 3 and Left 8 at height 9; or Up 8 and Left 6 at height 3.",
+            "missable": false
+          },
+          {
+            "id": "horror",
+            "index": 9,
+            "name": "HORROR",
+            "location": "From the back-right starting tile",
+            "method": "Test Back 1 and Right 3 at height 1; Up 2 and Right 1 at height 2; Up 4 and Right 3 at height 2; Up 6 and Right 1 at height 4; or Left 7 at height 2.",
+            "missable": false
+          },
+          {
+            "id": "end",
+            "index": 10,
+            "name": "END",
+            "location": "Tenth floor",
+            "method": "Defeat the Reavers first, keep guest Byblos alive if recruitment is desired, then defeat Serpentarius; a Summoner with Mana Shield can survive Zodiark and accept its learn prompt here.",
+            "missable": false
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "1001",
+    "1013",
+    "1016",
+    "1017",
+    "1018",
+    "1041",
+    "1042",
+    "1045",
+    "1002",
+    "1009",
+    "1019",
+    "1043",
+    "1044",
+    "1047",
+    "1003",
+    "1006",
+    "1007",
+    "1030",
+    "1014",
+    "1021",
+    "1022",
+    "1023",
+    "1024",
+    "1025",
+    "1026",
+    "1027",
+    "1028",
+    "1029",
+    "1031",
+    "1032",
+    "1033",
+    "1034",
+    "1035",
+    "1036",
+    "1037",
+    "1038",
+    "1039",
+    "1040",
+    "1046",
+    "1004",
+    "1048",
+    "1008",
+    "1015",
+    "1012",
+    "1010",
+    "1011",
+    "1020",
+    "1049",
+    "1005",
+    "1000"
+  ]
+}

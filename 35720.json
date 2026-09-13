@@ -1,0 +1,3778 @@
+{
+  "game": {
+    "appid": 35720,
+    "slug": "trine-2-complete-story",
+    "title": "Trine 2: Complete Story",
+    "version": "1.0",
+    "lastPatchChecked": "2026-06-15",
+    "estTotalHours": 40,
+    "difficultyRating": 6,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Base story and collections",
+      "description": "Play the 13 base-game levels on Hard difficulty and gather every level-experience pickup and secret chest. Most story, collection, and combat achievements unlock here.",
+      "achievementRefs": [
+        "level1_completed",
+        "level1_exp",
+        "level2_completed",
+        "level2_exp",
+        "level2_chest",
+        "level3_completed",
+        "level3_exp",
+        "level3_chest",
+        "level4_completed",
+        "level4_exp",
+        "level4_chest",
+        "level5_completed",
+        "level5_exp",
+        "level5_chest",
+        "level6_completed",
+        "level6_exp",
+        "level6_chest",
+        "level7_completed",
+        "level7_exp",
+        "level7_chest",
+        "level8_completed",
+        "level8_exp",
+        "level8_chest",
+        "level9_completed",
+        "level9_exp",
+        "level9_chest",
+        "level10_completed",
+        "level10_exp",
+        "level10_chest",
+        "level11_completed",
+        "level11_exp",
+        "level11_chest",
+        "level12_completed",
+        "level12_exp",
+        "level12_chest",
+        "level13_completed",
+        "level13_chest",
+        "expbottle",
+        "allexp",
+        "allchest",
+        "game_completed",
+        "surf",
+        "hazard",
+        "carni",
+        "shatter",
+        "hammer",
+        "friendly_fire",
+        "bounce",
+        "arrow",
+        "tower",
+        "rope",
+        "bubble",
+        "frozen_tower",
+        "charge",
+        "pontiustower",
+        "trapstack",
+        "air_hammer",
+        "catch",
+        "raft",
+        "pontiusglide",
+        "pit"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Goblin Menace expansion",
+      "description": "Play the 6 expansion levels and the Dwarven Caverns bonus, collecting all expansion experience and chests and finishing the expansion combat achievements.",
+      "achievementRefs": [
+        "level14_completed",
+        "level14_exp",
+        "level14_chest",
+        "level15_completed",
+        "level15_exp",
+        "level15_chest",
+        "level16_completed",
+        "level16_exp",
+        "level16_chest",
+        "level17_completed",
+        "level17_exp",
+        "level17_chest",
+        "level18_completed",
+        "level18_exp",
+        "level18_chest",
+        "level19_completed",
+        "expbottle_dlc",
+        "allexp_dlc",
+        "allchest_dlc",
+        "allexp_both",
+        "grenade",
+        "sandworm",
+        "catapult"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Hardcore runs",
+      "description": "Complete levels and full campaigns with hardcore mode enabled on Hard difficulty, when death ends the attempt.",
+      "achievementRefs": [
+        "hard_hc",
+        "allhc",
+        "hard_hc_dlc",
+        "allhc_dlc"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Solo-character runs",
+      "description": "Replay levels while controlling only one hero, never switching characters mid-level.",
+      "achievementRefs": [
+        "solo",
+        "solo_amadeus",
+        "solo_zoya",
+        "solo_pontius",
+        "solo_all",
+        "solo_dlc_levels"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Completion cleanup",
+      "description": "Earn any remaining challenge achievements, then the two completion achievements that require every other unlock.",
+      "achievementRefs": [
+        "no_damage",
+        "platinum",
+        "platinum_dlc"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "surf",
+      "displayName": "Surfboard Master",
+      "description": "Stand on a plank floating on a single airflow for four seconds",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Ride a single airflow for four seconds while standing on a conjured plank.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requires Amadeus' plank skill. Pipes that push a single airflow appear at the end of @loc{Forlorn Wilderness} and in @loc{Mudwater Dale}; a smaller plank wobbles less.",
+        "steps": [
+          {
+            "id": "plank",
+            "text": "Stand on an airflow and conjure a small plank directly beneath your feet while the airflow lifts you."
+          },
+          {
+            "id": "hold",
+            "text": "Stay balanced on the plank for four seconds while it rides the airflow.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hazard",
+      "displayName": "I Didn't Do It",
+      "description": "Make goblins die of three different environmental hazards in a single level",
+      "hidden": false,
+      "globalPercent": 57.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Kill goblins with three different environmental hazards in one level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Amadeus' Monster Levitation can carry a goblin into spikes, a spitting plant, a carnivorous plant, a bottomless drop, or a flame mechanism. Any three different hazards in the same level count.",
+        "steps": [
+          {
+            "id": "hazards",
+            "text": "In one level, levitate or lure goblins into three different hazards such as spikes, a fire mechanism and a bottomless drop."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "solo",
+      "displayName": "Flying Solo",
+      "description": "Complete a whole level playing one character only",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "group": "solo",
+      "confidence": "verified",
+      "summary": "Finish an entire level while controlling only one hero.",
+      "guide": {
+        "kind": "standard",
+        "context": "Switching characters at any point, including at a checkpoint, marks the level as a multi-character run and forces a restart. Dying is allowed as long as you restore the previous checkpoint rather than swapping to a living hero.",
+        "steps": [
+          {
+            "id": "prepare",
+            "text": "Pick an early non-tutorial level such as @loc{Forlorn Wilderness} and set the difficulty to Easy."
+          },
+          {
+            "id": "finish",
+            "text": "Complete the level without ever pressing the character-switch keys, including at checkpoints."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "carni",
+      "displayName": "A Floral Feast",
+      "description": "Feed carnivorous plants with three or more different kinds of treats",
+      "hidden": false,
+      "globalPercent": 39.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Feed three or more kinds of treats to a carnivorous plant.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only @loc{Hushing Grove} has the giant carnivorous plant. Amadeus' Monster Levitation can move a goblin, a box, or a lantern into its mouth; a party member also counts as a treat if the count stalls.",
+        "steps": [
+          {
+            "id": "treats",
+            "text": "In @loc{Hushing Grove}, use Amadeus to carry three different things, such as a goblin, a box and a lantern, into the giant plant's mouth."
+          },
+          {
+            "id": "tip",
+            "text": "If no unlock appears after three different objects, feed one of the other heroes to the plant as well.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "shatter",
+      "displayName": "Icebreaker",
+      "description": "Shatter three frozen enemies within one second",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Destroy three frozen enemies all within one second.",
+      "guide": {
+        "kind": "standard",
+        "context": "Zoya's frost arrows freeze enemies in place. Cluster at least three enemies before freezing them, then hit the whole group at once.",
+        "steps": [
+          {
+            "id": "freeze",
+            "text": "Gather at least three enemies close together and freeze them with Zoya's frost arrows."
+          },
+          {
+            "id": "smash",
+            "text": "Switch to Pontius and throw a fully charged hammer into the frozen cluster so all three break in the same second."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hammer",
+      "displayName": "Hammer Havoc",
+      "description": "Kill an enemy with a thrown hammer bouncing at least once before kill",
+      "hidden": false,
+      "globalPercent": 35.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Kill an enemy with a hammer throw that bounces at least once before the kill.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bounce can be off a ceiling or wall. Holding the enemy still makes the timing far easier.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Pick a spot where a low ceiling or wall sits beside an enemy, then pin the enemy down with Amadeus' Monster Levitation."
+          },
+          {
+            "id": "throw",
+            "text": "As Pontius, throw the hammer so it bounces off the surface and strikes the held enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "friendly_fire",
+      "displayName": "Dirty Tactics",
+      "description": "Get at least 10 enemies killed by other enemies' actions in a single level",
+      "hidden": false,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Have 10 or more enemies killed by other enemies in a single level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Amadeus' Monster Levitation turns an enemy into a shield that arrows and spears hit, so each stray shot becomes a kill credited to another enemy.",
+        "steps": [
+          {
+            "id": "shield",
+            "text": "In a level with many ranged goblins, use Monster Levitation to hold one enemy in front of you as a shield."
+          },
+          {
+            "id": "count",
+            "text": "Keep the shield up while archers and spear throwers fire, letting their hits kill 10 enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "bounce",
+      "displayName": "Bouncy Bouncy",
+      "description": "Stand on a conjured box bouncing on any bouncy surface for 10 seconds",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Stay on a conjured box that is bouncing on a bouncy surface for 10 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mushroom section of @loc{Forlorn Wilderness} is the usual spot. Keep re-conjuring and re-mounting until the box and you stay on for the full count.",
+        "steps": [
+          {
+            "id": "mount",
+            "text": "Conjure a box onto a bouncy mushroom and stand on top of it."
+          },
+          {
+            "id": "hold",
+            "text": "Ride the bouncing box for 10 seconds without falling off.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "arrow",
+      "displayName": "A Hail of Arrows",
+      "description": "Shoot 3 arrows in the air and catch them all with the Knight's shield",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Shoot three arrows into the air and catch all three arrows on Pontius' shield.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shoot the arrows straight up so they fall back close to you, then hold the shield out and stand under the landing spot.",
+        "steps": [
+          {
+            "id": "shoot",
+            "text": "As Zoya, send three arrows of the frost or fire type vertically upward."
+          },
+          {
+            "id": "catch",
+            "text": "Switch to Pontius, hold out the shield, and stand beneath the falling arrows so all three land on it."
+          },
+          {
+            "id": "repeat",
+            "text": "If any arrow misses, fire another three and try again.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tower",
+      "displayName": "High Rise",
+      "description": "Construct a tower made of eight objects and stand on top of it",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Build a tower from eight objects and stand on the top.",
+      "guide": {
+        "kind": "standard",
+        "context": "In @loc{Petrified Tree} the rotating-flamethrower room holds a box dispenser. The dispenser refills one box at a time, so do not destroy its spawns.",
+        "steps": [
+          {
+            "id": "gather",
+            "text": "In the box-dispenser room of @loc{Petrified Tree}, conjure boxes and planks and stack them into a tower of at least eight objects."
+          },
+          {
+            "id": "climb",
+            "text": "Climb the stack and stand on the top piece."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "rope",
+      "displayName": "Cirque de Zoya",
+      "description": "Using grapple, swing around an object and reattach grapple again without touching any surface",
+      "hidden": false,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Swing the grapple a full circle around an object and reattach it without touching any surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "A small fixed object such as a log works best. Keep swinging until the grapple passes all the way around, then re-fire it before your feet touch anything.",
+        "steps": [
+          {
+            "id": "object",
+            "text": "Grapple a small object such as the candle log in the pipes area of @loc{Forlorn Wilderness}."
+          },
+          {
+            "id": "swing",
+            "text": "Swing a complete 360-degree circle around the object and reattach the grapple without landing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "bubble",
+      "displayName": "This Wasn't the Plan",
+      "description": "Make a bubble sink for three seconds",
+      "hidden": false,
+      "globalPercent": 8.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Force a bubble to sink and stay underwater for three seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "A freshly formed bubble rises on its own, so weight it down immediately after it appears.",
+        "steps": [
+          {
+            "id": "weight",
+            "text": "As Amadeus, conjure a box and place it on top of a newly formed bubble, then drag the box down to push the bubble underwater."
+          },
+          {
+            "id": "hold",
+            "text": "Keep the bubble sunk for three seconds before releasing it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "platinum",
+      "displayName": "Trine 2 hard",
+      "description": "Earn all (original) Achievements in Trine 2",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "group": "completion",
+      "confidence": "verified",
+      "summary": "Earn every original base-game achievement in Trine 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlocks once the last remaining base-game achievement is earned, sometimes a moment later.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Unlock every other base-game achievement; this one unlocks last."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "game_completed",
+      "displayName": "I want more!",
+      "description": "Complete the game",
+      "hidden": false,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "12 h",
+      "estMinutes": 720,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Finish all 13 base story levels and watch the ending after The Final Chapter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Play through every base story level and watch the final cutscene after completing @loc{The Final Chapter}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level1_completed",
+      "displayName": "Into the Story",
+      "description": "Complete The Story Begins",
+      "hidden": false,
+      "globalPercent": 80.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete The Story Begins.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Play through @loc{The Story Begins} and reach the end of Zoya's rooftop route."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level2_completed",
+      "displayName": "Wild in Wilderness",
+      "description": "Complete Forlorn Wilderness",
+      "hidden": false,
+      "globalPercent": 63.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Forlorn Wilderness.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Forlorn Wilderness} and defeat the giant snake boss that blocks the exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level3_completed",
+      "displayName": "Mudproof Hero",
+      "description": "Complete Mudwater Dale",
+      "hidden": false,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Mudwater Dale.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the exit of @loc{Mudwater Dale} after the bubble and airflow sections."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level4_completed",
+      "displayName": "March Through the Marsh",
+      "description": "Complete Mosslight Marsh",
+      "hidden": false,
+      "globalPercent": 51.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Mosslight Marsh.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Mosslight Marsh}, defeating the armoured boss in the arena before the final gas-filled room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level5_completed",
+      "displayName": "Treehouse Adventure",
+      "description": "Complete Petrified Tree",
+      "hidden": false,
+      "globalPercent": 45.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Petrified Tree.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the exit of @loc{Petrified Tree} past the counter-weighted platforms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level6_completed",
+      "displayName": "No More Lizard Soup",
+      "description": "Complete Shadowed Halls",
+      "hidden": false,
+      "globalPercent": 40.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Shadowed Halls.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the exit of @loc{Shadowed Halls} through the portal rooms after the dragon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level7_completed",
+      "displayName": "Hostile Gardening",
+      "description": "Complete Hushing Grove",
+      "hidden": false,
+      "globalPercent": 36.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Hushing Grove.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Hushing Grove} past the saw room and the boulder section."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level8_completed",
+      "displayName": "Funs with Fungi",
+      "description": "Complete Mushroom Caves",
+      "hidden": false,
+      "globalPercent": 33.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Mushroom Caves.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Mushroom Caves} past the poisonous-gas puzzle and the collapsible platforms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level9_completed",
+      "displayName": "Shrooms and Glooms",
+      "description": "Complete Mushroom Murk",
+      "hidden": false,
+      "globalPercent": 32.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Mushroom Murk.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the exit of @loc{Mushroom Murk} past the airflow cart and the bouncy mushrooms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level10_completed",
+      "displayName": "Pearl Diver",
+      "description": "Complete Searock Castle",
+      "hidden": false,
+      "globalPercent": 30.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Searock Castle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Searock Castle} and defeat the Goblin King."
+          },
+          {
+            "id": "tip",
+            "text": "Fight the Goblin King from the left side of the arena and grapple the overhead platform to dodge his charges.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level11_completed",
+      "displayName": "Sinister Plumbing",
+      "description": "Complete Eldritch Passages",
+      "hidden": false,
+      "globalPercent": 28.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Eldritch Passages.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the exit of @loc{Eldritch Passages} after the acid and pipe rooms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level12_completed",
+      "displayName": "Hot and Cold",
+      "description": "Complete Icewarden Keep",
+      "hidden": false,
+      "globalPercent": 25.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Icewarden Keep.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Icewarden Keep}, defeating the armoured boss that breaks through the wall."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level13_completed",
+      "displayName": "Through Dangers Untold",
+      "description": "Complete The Final Chapter",
+      "hidden": false,
+      "globalPercent": 25.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete The Final Chapter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{The Final Chapter} and defeat the dragon Rosabel summons."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level1_exp",
+      "displayName": "The Story Begins Collector",
+      "description": "Collect all experience pickups in The Story Begins",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in The Story Begins.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "amadeus",
+            "text": "As Amadeus, collect the pickups around the mushroom caps and bubbles, pull the sky platform and the mushroom caps down, then use conjured boxes at the cliff and the swinging log."
+          },
+          {
+            "id": "pontius",
+            "text": "As Pontius, slash the vines, climb the oversized pumpkin, push the straw cart onto the water wheel, then switch to the hammer to break the wall and shield against the falling rocks."
+          },
+          {
+            "id": "zoya",
+            "text": "As Zoya, climb the mushrooms and cross the rope, shoot the lamp-post board from below, grapple the rooftop platforms and the clock tower, and grab the last pickup before the tower."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level2_exp",
+      "displayName": "Forlorn Wilderness Collector",
+      "description": "Collect all experience pickups in Forlorn Wilderness",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Forlorn Wilderness.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "mushrooms",
+            "text": "Pull the first mushroom cap down, grapple the swinging log to the plant leaves, then move the static log to reach the next leaves and the sky pickup."
+          },
+          {
+            "id": "logs-water",
+            "text": "Smash the statue and use the suspended log and flowing water to grow each sparkling plant, collecting the pickups this drops."
+          },
+          {
+            "id": "spikes-seesaw",
+            "text": "Wedge a wooden crate into the spiked plant, swing Zoya onto it for a cluster of pickups, then cross the seesaw and smash the statue."
+          },
+          {
+            "id": "upper-boulder",
+            "text": "Break the wooden walls and beams with the hammer, ride the boulder across the collapsible platforms, and grapple the upper platform pickups."
+          },
+          {
+            "id": "bubbles",
+            "text": "Use the bubbles and conjured boxes over the water and leaves to gather the airborne pickups, then finish at the bridge and the small exit platform."
+          },
+          {
+            "id": "pipes",
+            "text": "After the checkpoint, use the pipes, curved pipe and an airflow to reach the sky pickups and the ledge pickups, then defeat the snake boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level3_exp",
+      "displayName": "Mudwater Dale Collector",
+      "description": "Collect all experience pickups in Mudwater Dale",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Mudwater Dale.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "entry",
+            "text": "Shoot the beehive down and grapple the hanging crate for its pickups, then break the crate open."
+          },
+          {
+            "id": "spinning",
+            "text": "Ride and grapple the spinning platforms and swinging logs around the two buttons, collecting the pickups they gate."
+          },
+          {
+            "id": "airflow",
+            "text": "Use boxes and planks on the airflows, direct the curved pipes to move flames and lift the bridge, and collect the sky pickups."
+          },
+          {
+            "id": "frog",
+            "text": "Swim below the frog and check both underwater paths for pickups and a chest."
+          },
+          {
+            "id": "bubble-rooms",
+            "text": "Use the bubbles, bouncy mushrooms and alcoves in the later rooms, then search the hidden passages behind the flames."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level4_exp",
+      "displayName": "Mosslight Marsh Collector",
+      "description": "Collect all experience pickups in Mosslight Marsh",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Mosslight Marsh.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "gas",
+            "text": "Break the beams over the poisonous-gas gap and time the jumps past the plant's fireballs to take the airborne pickups."
+          },
+          {
+            "id": "hidden",
+            "text": "Search the hidden upper area reached by grappling, then block fireballs with boxes and shields to break the planks above."
+          },
+          {
+            "id": "spikes",
+            "text": "Push a crate into the spiked plant and use it to grapple and climb for the upper pickups."
+          },
+          {
+            "id": "bubbles-log",
+            "text": "Use the bubbles, the large log and the bouncy mushrooms to reach the high pickups, then finish the boss arena."
+          },
+          {
+            "id": "exit",
+            "text": "Collect the pickups in the gas-covered final room by grappling the beam above and using boxes and plants."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level5_exp",
+      "displayName": "Petrified Tree Collector",
+      "description": "Collect all experience pickups in Petrified Tree",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Petrified Tree.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "cauldron",
+            "text": "Ride the cauldron bubbles and use the blue mirror as a portal to press the button and open the exit."
+          },
+          {
+            "id": "flames",
+            "text": "Unfold the floor panels, use the curved pipes to move the flames, and heat the cauldron for more bubbles."
+          },
+          {
+            "id": "wheels",
+            "text": "Cross the spinning-flame and spinning-wheel rooms behind Pontius' shield and use the portals to gather the airborne pickups."
+          },
+          {
+            "id": "library",
+            "text": "Search the library and the hidden room beside the bouncy object, then grapple the platforms above."
+          },
+          {
+            "id": "exit",
+            "text": "Balance the counter-weighted platforms and hold the floor button to collect the last pickups."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level6_exp",
+      "displayName": "Shadowed Halls Collector",
+      "description": "Collect all experience pickups in Shadowed Halls",
+      "hidden": false,
+      "globalPercent": 4.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Shadowed Halls.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "dragon-button",
+            "text": "Place a conjured box on the glowing floor switch at the dragon's feet, then break the beams and follow the path to the checkpoint."
+          },
+          {
+            "id": "contraption",
+            "text": "Move the contraption, cross the flames with the t-shaped pipe, and stack boxes to reach the upper level."
+          },
+          {
+            "id": "boxes-grapple",
+            "text": "Cross the collapsible platforms, grapple the metal centres, and use boxes and planks to reach the airborne pickups."
+          },
+          {
+            "id": "portals",
+            "text": "Use the portals and bubble streams to ride up, then gather the pickups above the spinning flames."
+          },
+          {
+            "id": "blue-room",
+            "text": "Finish the portal puzzle to open the exit, then take the pickups on the spinning platforms in the blue room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level7_exp",
+      "displayName": "Hushing Grove Collector",
+      "description": "Collect all experience pickups in Hushing Grove",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Hushing Grove.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "plants",
+            "text": "Grow the sparkling plants with water and boxes to take the leaf pickups, then climb the tree for another."
+          },
+          {
+            "id": "cannons",
+            "text": "Block the cannons with boxes and climb them, then jump the leaves for the upper pickups."
+          },
+          {
+            "id": "stealth",
+            "text": "Use Stealth Movement past the carnivorous plants and shoot the beams to drop the hidden pickups."
+          },
+          {
+            "id": "wheel",
+            "text": "Search the water-wheel area, the hidden floor and the beams behind the saw."
+          },
+          {
+            "id": "boulder",
+            "text": "Use the boulder and the middle platform to reach the pickups around the saw room and the water plant."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level8_exp",
+      "displayName": "Mushroom Caves Collector",
+      "description": "Collect all experience pickups in Mushroom Caves",
+      "hidden": false,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Mushroom Caves.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "beams",
+            "text": "Break the beams in front of you and grapple the left platform, then cross the leaves and destroy the wall for the hidden pickups."
+          },
+          {
+            "id": "bouncing",
+            "text": "Bounce the mushrooms, weigh the platform with a box, and use the logs and grapples to gather the airborne pickups."
+          },
+          {
+            "id": "gas",
+            "text": "Place boxes in the poisonous gas, direct the airflow to clear it, then use the lever and grapple up."
+          },
+          {
+            "id": "finale",
+            "text": "Hold the platform with a plank, bridge to the sparkling plant, and destroy the beams and wall for the last pickups."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level9_exp",
+      "displayName": "Mushroom Murk Collector",
+      "description": "Collect all experience pickups in Mushroom Murk",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Mushroom Murk.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "cart",
+            "text": "Shoot the rocks, ride the boulder, and use the cart and airflow to collect the pickups around the gas."
+          },
+          {
+            "id": "water",
+            "text": "Create boxes and planks to divert the water to the sparkling plant, then bounce up for the pickups above."
+          },
+          {
+            "id": "cliff",
+            "text": "Use the bouncy mushroom and box for the airborne pickups, then climb the cliff and swim for the last ones."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level10_exp",
+      "displayName": "Searock Castle Collector",
+      "description": "Collect all experience pickups in Searock Castle",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Searock Castle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "water",
+            "text": "Swim the seabed and air pockets for the pickups, place a box on the crab, and collect around the structure."
+          },
+          {
+            "id": "crates",
+            "text": "Stop the swinging spike and build boxes to reach the high pickups, then open the hidden walls."
+          },
+          {
+            "id": "cogs",
+            "text": "Use the cogs, airflow and barrels to reach the mid-level pickups and the hidden entrances."
+          },
+          {
+            "id": "starfish",
+            "text": "Bounce the starfish, shoot the coconuts, and use the octopus platforms for the upper pickups."
+          },
+          {
+            "id": "clam",
+            "text": "Swim the lower caverns, open the clam, and gather the pickups around the pit and the raised water."
+          },
+          {
+            "id": "finale",
+            "text": "Use the boxes, bubbles and sparkling plant to take the last pickups before the Goblin King."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level11_exp",
+      "displayName": "Eldritch Passages Collector",
+      "description": "Collect all experience pickups in Eldritch Passages",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Eldritch Passages.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "airflow",
+            "text": "Arrange the airflow with the T-pipe and the bent pipe to make a climbable path, then stack boxes to reach the sky pickups."
+          },
+          {
+            "id": "acid",
+            "text": "Cross the acid while it is stopped, using planks and the lever, and shoot the ceiling for the hidden pickups."
+          },
+          {
+            "id": "cogs",
+            "text": "Climb the cogs and the vertical shaft, stopping the cog with planks to reach the pickups above."
+          },
+          {
+            "id": "water",
+            "text": "Move the block to sink the platform, then grapple the ceiling and break the statue for the water-area pickups."
+          },
+          {
+            "id": "acid-room",
+            "text": "Shoot stone blocks into the acid, then collect the final pickups and the painting before stopping the acid."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level12_exp",
+      "displayName": "Icewarden Keep Collector",
+      "description": "Collect all experience pickups in Icewarden Keep",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Icewarden Keep.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count toward this; enemy kills are tracked separately as monster experience. The @loc{Choose Level} screen shows a per-level counter, so any pickup missed on the first pass can be recovered by replaying the level.",
+        "steps": [
+          {
+            "id": "cell",
+            "text": "Break the ice and push the box into the spike, then grapple the balcony and break the ice walls."
+          },
+          {
+            "id": "lava",
+            "text": "Use the lava pipes and planks to cross, then collect the pickups around the spinning flames and cogs."
+          },
+          {
+            "id": "blades",
+            "text": "Cross the spinning-blades room with boxes and a plank, or use Pontius' charge or Kitesail."
+          },
+          {
+            "id": "portal",
+            "text": "Use the portals and lava flow to melt the ice, then collect the sky and spinning-platform pickups."
+          },
+          {
+            "id": "finale",
+            "text": "Collect the pickups around the finale, then defeat the boss and take the last pickup above the icy slide."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level2_chest",
+      "displayName": "Secrets of Forlorn Wilderness",
+      "description": "Find all chests in Forlorn Wilderness",
+      "hidden": false,
+      "globalPercent": 42.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Forlorn Wilderness.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "Jump to the higher ledge to the right of the seesaw section and open the chest holding the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "Ride the bubbles above the log section up to the upper ledge and open the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level3_chest",
+      "displayName": "Secrets of Mudwater Dale",
+      "description": "Find all chests in Mudwater Dale",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Mudwater Dale.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "Swim into the right underwater path past the frog to open the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "Near the level end, jump off the left platform into the hidden passage to open the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level4_chest",
+      "displayName": "Secrets of Mosslight Marsh",
+      "description": "Find all chests in Mosslight Marsh",
+      "hidden": false,
+      "globalPercent": 23.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Mosslight Marsh.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "From the checkpoint, leap the collapsing platforms on the left side and open the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "Weight the right-hand bridge down with a box, cross it, and open the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level5_chest",
+      "displayName": "Secrets of Petrified Tree",
+      "description": "Find all chests in Petrified Tree",
+      "hidden": false,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Petrified Tree.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "Build planks to cross to the platform past the secret area and open the chest holding the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "In the library, grapple the platform above and swing right to the far side of the room for the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level6_chest",
+      "displayName": "Secrets of Shadowed Halls",
+      "description": "Find all chests in Shadowed Halls",
+      "hidden": false,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Shadowed Halls.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "Stack two boxes and a plank on the right side of the mid-level to reach the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "After the magical platforms, jump through the right wall into the hidden area for the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level7_chest",
+      "displayName": "Secrets of Hushing Grove",
+      "description": "Find all chests in Hushing Grove",
+      "hidden": false,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Hushing Grove.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "painting-1",
+            "text": "Destroy the rocky ground to reveal a hidden path and open the chest holding the @item{painting}."
+          },
+          {
+            "id": "painting-2",
+            "text": "Go down to ground level, pass right through the cobwebs, and open the chest holding the second @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level8_chest",
+      "displayName": "Secrets of Mushroom Caves",
+      "description": "Find all chests in Mushroom Caves",
+      "hidden": false,
+      "globalPercent": 20.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Mushroom Caves.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "Grapple up to the small platform on the left to open the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "At the poisonous-gas section, blow the gas away with the airflow and grapple up to the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level9_chest",
+      "displayName": "Secrets of Mushroom Murk",
+      "description": "Find all chests in Mushroom Murk",
+      "hidden": false,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Mushroom Murk.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "Use a stack of two boxes plus a plank to slip into the hidden room behind the wall, then open the chest holding the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "Near the end, collect the pickup cluster and open the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level10_chest",
+      "displayName": "Secrets of Searock Castle",
+      "description": "Find all chests in Searock Castle",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Searock Castle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "When the mini-boss jumps down, grapple up to the level above to open the chest holding the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "Ride the platform wrapped by the octopus up to the airborne pickup, then leap left to the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level11_chest",
+      "displayName": "Secrets of Eldritch Passages",
+      "description": "Find all chests in Eldritch Passages",
+      "hidden": false,
+      "globalPercent": 13.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Eldritch Passages.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "After the spinning-platform section, grapple up to the right platform and open the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "In the acid-filled room, drop stone blocks into the acid and open the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level12_chest",
+      "displayName": "Secrets of Icewarden Keep",
+      "description": "Find all chests in Icewarden Keep",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Icewarden Keep.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "In the lower lava-pipe area after the iced-over-cog elevator, place the t-shaped pipe flat in the lava and stack boxes to open the chest holding the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "In the upper portal area, break the ice holding the curved pipe and swing up to the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level13_chest",
+      "displayName": "Rosabel's Secrets",
+      "description": "Find all chests in The Final Chapter",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in The Final Chapter.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every level from 2 to 13 hides two secret chests, each holding one collectible poem or painting. The @loc{Choose Level} screen tracks them per level, so a missed chest is never lost permanently.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "At the start, drop left and grapple the lower platform, fire an Explosive Arrow at the wall, then re-grapple the tree and swing to the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "Return to the start, head right for the chest holding the @item{painting}, then move the painting of the sisters to reveal the hidden path."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "expbottle",
+      "displayName": "Sharp-Eyed",
+      "description": "Collect all experience pickups in any level",
+      "hidden": false,
+      "globalPercent": 28.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in at least one level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any single level qualifies, including the base story or an expansion level. The @loc{Choose Level} screen shows the per-level counter, so pick a short level and confirm it is complete.",
+        "steps": [
+          {
+            "id": "pick-level",
+            "text": "Choose the shortest available level and gather every green level-experience pickup in it."
+          },
+          {
+            "id": "confirm",
+            "text": "Check the @loc{Choose Level} experience counter for that level to confirm it is full.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allexp",
+      "displayName": "Master Collector",
+      "description": "Collect all experience pickups in the game",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "across playthrough",
+      "estMinutes": 600,
+      "stage": 1,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in all 12 base-game levels that contain them.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Final Chapter (level 13) has no level-experience pickups at all, so only levels 1 through 12 count. The @loc{Choose Level} screen shows each level's counter and lets you replay any level.",
+        "steps": [
+          {
+            "id": "levels",
+            "text": "Finish every base level from The Story Begins through Icewarden Keep while taking all level-experience pickups."
+          },
+          {
+            "id": "audit",
+            "text": "Use @loc{Choose Level} to replay any level whose experience counter is not yet full.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allchest",
+      "displayName": "Lost and Found",
+      "description": "Find all chests in the game",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 300,
+      "stage": 1,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Open every secret chest in the 12 base-game levels that have them.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Story Begins has no chests; every later base level from Forlorn Wilderness to The Final Chapter hides exactly two.",
+        "steps": [
+          {
+            "id": "levels",
+            "text": "Open both secret chests in each base level from Forlorn Wilderness through The Final Chapter."
+          },
+          {
+            "id": "audit",
+            "text": "Use @loc{Choose Level} to replay any level whose chest count is not two.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "frozen_tower",
+      "displayName": "Snowman",
+      "description": "Freeze two enemies and stack them on top of each other",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Freeze two enemies and levitate one onto the other.",
+      "guide": {
+        "kind": "standard",
+        "context": "Frozen enemies thaw after a short time, so work quickly or play in co-op so Amadeus and Zoya act at once.",
+        "steps": [
+          {
+            "id": "freeze",
+            "text": "As Zoya, freeze two enemies that are standing close together."
+          },
+          {
+            "id": "stack",
+            "text": "Switch to Amadeus and quickly levitate one frozen enemy on top of the other."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hard_hc",
+      "displayName": "Challenge is My Middle Name",
+      "description": "Complete any level with hardcore mode on and difficulty set to hard",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "hardcore",
+      "confidence": "verified",
+      "summary": "Finish one level on Hard difficulty with hardcore mode enabled.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hardcore must be enabled before the attempt; a dead hero cannot be revived and the death screen offers no checkpoint restart. The easiest combat level for this is @loc{Forlorn Wilderness}.",
+        "steps": [
+          {
+            "id": "setting",
+            "text": "Start or replay a level with difficulty set to Hard and hardcore mode turned on."
+          },
+          {
+            "id": "finish",
+            "text": "Complete @loc{Forlorn Wilderness} without letting a hero stay dead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allhc",
+      "displayName": "Walk in the Park",
+      "description": "Complete the game on hard using hardcore mode",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "8 h",
+      "estMinutes": 480,
+      "stage": 3,
+      "group": "hardcore",
+      "confidence": "verified",
+      "summary": "Finish the entire base story on Hard difficulty with hardcore mode enabled.",
+      "guide": {
+        "kind": "standard",
+        "context": "This applies to the base story only, not the Goblin Menace expansion. Keep every hero alive, because hardcore gives no revives.",
+        "steps": [
+          {
+            "id": "setting",
+            "text": "Start a new base-game campaign on Hard with hardcore mode turned on."
+          },
+          {
+            "id": "finish",
+            "text": "Complete all 13 base story levels through @loc{The Final Chapter} without losing a hero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "solo_amadeus",
+      "displayName": "O Solo Mio",
+      "description": "Complete a level with only Amadeus",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "group": "solo",
+      "confidence": "verified",
+      "summary": "Finish a level using only Amadeus.",
+      "guide": {
+        "kind": "standard",
+        "context": "Switching characters at any point, including at a checkpoint, marks the level as a multi-character run and forces a restart. Dying is allowed as long as you restore the previous checkpoint rather than swapping to a living hero. Amadeus solves most puzzles with conjured boxes and planks but is weak in combat, so cage or levitate enemies instead of fighting them.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Complete @loc{Forlorn Wilderness} on Easy without ever switching away from Amadeus; cage or levitate enemies to handle combat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "solo_zoya",
+      "displayName": "Like a Shadow",
+      "description": "Complete a level with only Zoya",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "group": "solo",
+      "confidence": "verified",
+      "summary": "Finish a level using only Zoya.",
+      "guide": {
+        "kind": "standard",
+        "context": "Switching characters at any point, including at a checkpoint, marks the level as a multi-character run and forces a restart. Dying is allowed as long as you restore the previous checkpoint rather than swapping to a living hero. Zoya's low-gravity field arrow and fire arrows are her main tools for traversal and combat.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Complete @loc{Forlorn Wilderness} on Easy without ever switching away from Zoya."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "solo_pontius",
+      "displayName": "Alone and Mighty",
+      "description": "Complete a level with only Pontius",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "group": "solo",
+      "confidence": "verified",
+      "summary": "Finish a level using only Pontius.",
+      "guide": {
+        "kind": "standard",
+        "context": "Switching characters at any point, including at a checkpoint, marks the level as a multi-character run and forces a restart. Dying is allowed as long as you restore the previous checkpoint rather than swapping to a living hero. Pontius has no conjuring, so use his charge, hammer and Kitesail to bypass puzzles; a charge followed by a jump at the end adds distance across gaps.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Complete @loc{Forlorn Wilderness} on Easy without ever switching away from Pontius."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "solo_all",
+      "displayName": "Trine Kaput?",
+      "description": "Complete a level with only Amadeus, a level with only Zoya and a level with only Pontius",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1.5 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "group": "solo",
+      "confidence": "verified",
+      "summary": "Complete one level with only Amadeus, a different level with only Zoya, and another level with only Pontius.",
+      "guide": {
+        "kind": "standard",
+        "context": "Switching characters at any point, including at a checkpoint, marks the level as a multi-character run and forces a restart. Dying is allowed as long as you restore the previous checkpoint rather than swapping to a living hero.",
+        "steps": [
+          {
+            "id": "amadeus",
+            "text": "Complete one level without switching away from Amadeus."
+          },
+          {
+            "id": "zoya",
+            "text": "Complete one level without switching away from Zoya."
+          },
+          {
+            "id": "pontius",
+            "text": "Complete one level without switching away from Pontius."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "charge",
+      "displayName": "Catch This!",
+      "description": "Kill an enemy with an airborne object tossed with the Knight's charge",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Kill an enemy with an object flung by the Knight's charge.",
+      "guide": {
+        "kind": "standard",
+        "context": "The object must be a real box, not a conjured one, which shatters on impact. Charging from a slope and having a partner hold the enemy helps.",
+        "steps": [
+          {
+            "id": "charge",
+            "text": "As Pontius, charge into a solid box next to an enemy so the box flies into it."
+          },
+          {
+            "id": "tips",
+            "text": "Charge from a slope, and have Amadeus hold the enemy in place with Monster Levitation so it cannot dodge.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "no_damage",
+      "displayName": "All Too Easy!",
+      "description": "Finish a level without taking any damage (Not the Tutorial)",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 5,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Complete any non-tutorial level without any hero taking a single hit.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tutorial The Story Begins does not count. @loc{Mushroom Murk} is short, which keeps the risk low.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Replay a short non-tutorial level such as @loc{Mushroom Murk} and complete it without letting any hero take a single hit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "pontiustower",
+      "displayName": "The Leaning Tower of Pontius",
+      "description": "Build a three-piece or three-character tower where lowest part is Pontius and his shield, tower must stand at least five seconds",
+      "hidden": false,
+      "globalPercent": 4.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Build a tower of three pieces, or of three heroes, with Pontius and his shield at the base, and keep it standing for five seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pontius should aim the shield straight up. Short planks make the stack more stable than long ones.",
+        "steps": [
+          {
+            "id": "shield",
+            "text": "Have Pontius hold his shield directly overhead."
+          },
+          {
+            "id": "stack",
+            "text": "As Amadeus, lower three planks or boxes onto the shield one at a time."
+          },
+          {
+            "id": "hold",
+            "text": "Keep the tower standing for five seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level14_completed",
+      "displayName": "No Time to Change Clothes",
+      "description": "Complete The Heroes Return",
+      "hidden": false,
+      "globalPercent": 20.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete The Heroes Return.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Play through @loc{The Heroes Return} and destroy the catapult tower the armoured boss guards."
+          },
+          {
+            "id": "tip",
+            "text": "Monster Prison lets Amadeus cage goblins, which makes the bridge and courtyard fights much easier.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level15_completed",
+      "displayName": "Sunstroke",
+      "description": "Complete Deadly Dustland",
+      "hidden": false,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Deadly Dustland.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Deadly Dustland} past the mummy graves and the mirrored sun-beam rooms."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level16_completed",
+      "displayName": "Indigestion",
+      "description": "Complete Belly of the Beast",
+      "hidden": false,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Belly of the Beast.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Belly of the Beast} using Low Gravity Fields to cross the acid and tentacles."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level17_completed",
+      "displayName": "Grand Theft Aviation",
+      "description": "Complete Brackenridge Rise",
+      "hidden": false,
+      "globalPercent": 15.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Brackenridge Rise.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the top of @loc{Brackenridge Rise} and fit the propellers to the flying machine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level18_completed",
+      "displayName": "I'm Walking in the Air",
+      "description": "Complete Cloudy Isles",
+      "hidden": false,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Cloudy Isles.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Reach the end of @loc{Cloudy Isles} past the machine and the electrified water."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level19_completed",
+      "displayName": "Happy Reunion",
+      "description": "Complete Goblin Machinations",
+      "hidden": false,
+      "globalPercent": 14.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "group": "story",
+      "confidence": "verified",
+      "summary": "Complete Goblin Machinations.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Destroy the Goblin Machine's weapons in @loc{Goblin Machinations}, then defeat Wheeze the Goblin."
+          },
+          {
+            "id": "tip",
+            "text": "Shoot Explosive Arrows into the joint where each weapon arm meets the body; block or dodge between reloads.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level14_exp",
+      "displayName": "The Heroes Return Collector",
+      "description": "Collect all level experience in The Heroes Return",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in The Heroes Return.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count; enemy kills are tracked separately. The @loc{Choose Level} screen shows a per-level counter, so a missed pickup can be recovered by replaying the expansion level.",
+        "steps": [
+          {
+            "id": "tavern",
+            "text": "Clear the tavern and shoot the barrels, then grapple out the window and use the Kitesail for the sky pickups."
+          },
+          {
+            "id": "sky",
+            "text": "Deploy Zoya's Low Gravity Field so boxes float, and build a route up to the high sky pickups."
+          },
+          {
+            "id": "catapult",
+            "text": "Use Monster Prison and the catapult area, then ride the airflow with the Kitesail for the next pickups."
+          },
+          {
+            "id": "bridge",
+            "text": "Cross the bridge, stack caged goblins, and collect the pickup clusters and moving-platform pickups."
+          },
+          {
+            "id": "water",
+            "text": "Use the gravity fields and water flow to reach the rooftop pickups, then explore the well and cogs."
+          },
+          {
+            "id": "courtyard",
+            "text": "Collect the courtyard, wall and fountain pickups, then finish around the boss tower."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level15_exp",
+      "displayName": "Deadly Dustland Collector",
+      "description": "Collect all level experience in Deadly Dustland",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "75 min",
+      "estMinutes": 75,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Deadly Dustland.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count; enemy kills are tracked separately. The @loc{Choose Level} screen shows a per-level counter, so a missed pickup can be recovered by replaying the expansion level.",
+        "steps": [
+          {
+            "id": "desert",
+            "text": "Glide from the statue and cross the sandworm areas, collecting the obvious pickups and the plank and box climbs."
+          },
+          {
+            "id": "ruins",
+            "text": "Grapple and swing through the ruins, divert the sun beam with the crystal, and clear the pillar and boulder sections."
+          },
+          {
+            "id": "mummies",
+            "text": "Work through the mummy graves, the wheel and the hidden treasure rooms, using gravity fields for the high pickups."
+          },
+          {
+            "id": "mirrors",
+            "text": "Align the mirrors and sun beams, then cross the collapsible platforms and cog sections."
+          },
+          {
+            "id": "scorpion",
+            "text": "Trap the scorpion's tail in the ground, then use the boxes and plank to reach the pickups beyond it."
+          },
+          {
+            "id": "finale",
+            "text": "Clear the mummy rooms and the spike-ball room, then finish the ceiling-button and mirror puzzle for the last pickups."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level16_exp",
+      "displayName": "Belly of the Beast Collector",
+      "description": "Collect all level experience in Belly of the Beast",
+      "hidden": false,
+      "globalPercent": 2.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "75 min",
+      "estMinutes": 75,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Belly of the Beast.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count; enemy kills are tracked separately. The @loc{Choose Level} screen shows a per-level counter, so a missed pickup can be recovered by replaying the expansion level.",
+        "steps": [
+          {
+            "id": "stomach",
+            "text": "Use Low Gravity Fields on the ceiling sacks to traverse the stomach and collect the acid-area pickups."
+          },
+          {
+            "id": "sacks",
+            "text": "Shoot the sacks quickly to make platforms appear, then use the bouncy tongue and ball launches for pickups."
+          },
+          {
+            "id": "tissue",
+            "text": "Destroy the connective tissue to open tunnels, and use fields and planks to cross the acid flows."
+          },
+          {
+            "id": "tentacles",
+            "text": "Distract the ceiling tentacles with conjured objects while collecting the pickups they guard."
+          },
+          {
+            "id": "lit-room",
+            "text": "Light the tentacles by pulling them together to reveal the lower platform and its pickups."
+          },
+          {
+            "id": "hidden",
+            "text": "Find the hidden ledge tunnel below for a poem and pickups, then cross the closing membranes and worm rooms for the rest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level17_exp",
+      "displayName": "Brackenridge Rise Collector",
+      "description": "Collect all level experience in Brackenridge Rise",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "75 min",
+      "estMinutes": 75,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Brackenridge Rise.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count; enemy kills are tracked separately. The @loc{Choose Level} screen shows a per-level counter, so a missed pickup can be recovered by replaying the expansion level.",
+        "steps": [
+          {
+            "id": "tree",
+            "text": "Grapple the tree and climb it with fields and boxes, then take the branch and sky pickups."
+          },
+          {
+            "id": "pit",
+            "text": "Use the snowy updraft and Explosive Arrows to collect the pit and far-side pickups."
+          },
+          {
+            "id": "golem",
+            "text": "Cross the water wheel and fight the stone golem, then use the tower, mushroom and airflow pickups."
+          },
+          {
+            "id": "lifts",
+            "text": "Ride the lifts and gravity fields to the spire pickups, then clear the mine cart and track sections."
+          },
+          {
+            "id": "workshop",
+            "text": "Collect the workshop, conveyor and hidden-room pickups, then fit the propellers to finish the level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level18_exp",
+      "displayName": "Cloudy Isles Collector",
+      "description": "Collect all level experience in Cloudy Isles",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "75 min",
+      "estMinutes": 75,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in Cloudy Isles.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the green level-experience pickups count; enemy kills are tracked separately. The @loc{Choose Level} screen shows a per-level counter, so a missed pickup can be recovered by replaying the expansion level.",
+        "steps": [
+          {
+            "id": "cliffs",
+            "text": "Break the rocks and vines near the river, then use fields and planks to reach the cave and sky pickups."
+          },
+          {
+            "id": "lake",
+            "text": "Use the barrel, boxes and floating platforms around the large lake, then solve the electrified-water puzzle to dive for the underwater pickups."
+          },
+          {
+            "id": "bells",
+            "text": "Use the red gate and the bell sequence, then glide from the dragon's head for the next pickups."
+          },
+          {
+            "id": "platforms",
+            "text": "Ride the moving platforms and use fields to reach the pickups around the wyverns and golem."
+          },
+          {
+            "id": "machine",
+            "text": "Use the machine arms, magnetized planks and ice arrows to cross the water and reach the peak pickups."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allchest_dlc",
+      "displayName": "The Treasurer",
+      "description": "Find all chests in the Goblin Menace expansion",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 250,
+      "stage": 2,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Open every secret chest in the Goblin Menace expansion.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five expansion levels from The Heroes Return through Cloudy Isles each hide two chests; Goblin Machinations has none. The chests carry map pieces that unlock @loc{Dwarven Caverns}.",
+        "steps": [
+          {
+            "id": "levels",
+            "text": "Open both chests in each expansion level from The Heroes Return through Cloudy Isles."
+          },
+          {
+            "id": "audit",
+            "text": "Use @loc{Choose Level} to replay any expansion level whose chest count is not two.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "expbottle_dlc",
+      "displayName": "Sharpeyed II (Goblin Menace Expansion)",
+      "description": "Find all level experience in any level in the expansion",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in at least one Goblin Menace level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any expansion level with level experience qualifies; Goblin Machinations has none. The @loc{Choose Level} screen shows the per-level counter.",
+        "steps": [
+          {
+            "id": "pick-level",
+            "text": "Choose an expansion level and gather every green level-experience pickup in it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allexp_dlc",
+      "displayName": "Goblin Menace Collector",
+      "description": "Collect all level experience in the Goblin Menace expansion",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "across playthrough",
+      "estMinutes": 400,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in the Goblin Menace expansion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the five expansion levels with pickups count; Goblin Machinations has none. Use @loc{Choose Level} to audit each counter.",
+        "steps": [
+          {
+            "id": "levels",
+            "text": "Take every level-experience pickup in the five expansion levels that contain them, from The Heroes Return through Cloudy Isles."
+          },
+          {
+            "id": "audit",
+            "text": "Replay any expansion level whose experience counter is not full.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "platinum_dlc",
+      "displayName": "Trine 2 Hard II (Goblin Menace Expansion)",
+      "description": "Earn all Achievements in Trine 2: The Goblin Menace",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "group": "completion",
+      "confidence": "verified",
+      "summary": "Earn every achievement in Trine 2: The Goblin Menace.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlocks once the last remaining Goblin Menace achievement is earned.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Unlock every other Goblin Menace achievement; this one unlocks last."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "trapstack",
+      "displayName": "Wicked Collection",
+      "description": "Capture three different types of enemies inside boxes and stack them on top of another",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Capture three different enemy types in Monster Prisons and stack the caged enemies on top of one another.",
+      "guide": {
+        "kind": "standard",
+        "context": "Goblins have the most variants and spawn in groups, so they are the easiest family to stack.",
+        "steps": [
+          {
+            "id": "cage",
+            "text": "As Amadeus, use Monster Prison to capture three different enemy types."
+          },
+          {
+            "id": "stack",
+            "text": "Levitate the caged enemies into a stack one on top of another."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allexp_both",
+      "displayName": "Grand Collector",
+      "description": "Collect all experience pickups in both the main game and the Goblin Menace expansion",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "across playthrough",
+      "estMinutes": 900,
+      "stage": 2,
+      "group": "experience",
+      "confidence": "verified",
+      "summary": "Collect every level-experience pickup in both the base game and the Goblin Menace expansion.",
+      "guide": {
+        "kind": "standard",
+        "context": "This unlocks only after the base-game and expansion experience counters are all full, so finish Master Collector and Goblin Menace Collector first.",
+        "steps": [
+          {
+            "id": "base",
+            "text": "Complete every base-game level-experience collection from The Story Begins through Icewarden Keep."
+          },
+          {
+            "id": "dlc",
+            "text": "Complete every expansion level-experience collection from The Heroes Return through Cloudy Isles."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "grenade",
+      "displayName": "Cannonball Rebound",
+      "description": "Kill a grenadier goblin with its own cannonball",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Kill a grenadier goblin using the cannonball it fired.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grenadier goblins first appear in @loc{The Heroes Return}. Shooting the cannonball back does not count; it must explode against the goblin.",
+        "steps": [
+          {
+            "id": "catch",
+            "text": "Catch a fired cannonball with Pontius' gravity shield or Amadeus' levitation."
+          },
+          {
+            "id": "push",
+            "text": "Push the cannonball into the grenadier goblin and wait for it to explode on its own."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sandworm",
+      "displayName": "Mutually Assured Destruction",
+      "description": "Make a sandworm kill another sandworm",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Make one sandworm kill a second sandworm with its acid.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sandworms only appear in @loc{Deadly Dustland}. It takes roughly six or seven acid hits to kill one.",
+        "steps": [
+          {
+            "id": "bait",
+            "text": "Stand between two sandworms and dodge so that one worm's acid spray hits the other."
+          },
+          {
+            "id": "repeat",
+            "text": "Keep baiting the worms to fire into each other until one dies to the other's acid.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "air_hammer",
+      "displayName": "Pontius Baseball",
+      "description": "Launch an object with Knight's magnetic shield and break it with hammer before the object touches the ground",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Launch an object with the Knight's magnetic shield, then smash it with the hammer before it reaches the ground.",
+      "guide": {
+        "kind": "standard",
+        "context": "A conjured box is easy to launch and break. Switch to the hammer as soon as the box leaves the shield.",
+        "steps": [
+          {
+            "id": "launch",
+            "text": "As Pontius, aim the magnetic shield upward under a conjured box and fire it into the air."
+          },
+          {
+            "id": "smash",
+            "text": "Switch to the hammer and throw it up into the falling box before the box lands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hard_hc_dlc",
+      "displayName": "Rise to the Challenge",
+      "description": "Complete any level of the Goblin Menace expansion with hardcore mode on and difficulty set to hard",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "group": "hardcore",
+      "confidence": "verified",
+      "summary": "Finish one Goblin Menace level on Hard difficulty with hardcore mode enabled.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hardcore must be enabled before the attempt, with no revives. @loc{The Heroes Return} is the easiest expansion level for this.",
+        "steps": [
+          {
+            "id": "setting",
+            "text": "Replay an expansion level with difficulty set to Hard and hardcore mode turned on."
+          },
+          {
+            "id": "finish",
+            "text": "Complete @loc{The Heroes Return} without losing a hero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "solo_dlc_levels",
+      "displayName": "Trine Kaput For Good?",
+      "description": "Complete each expansion level using only one character",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "4 h",
+      "estMinutes": 240,
+      "stage": 4,
+      "group": "solo",
+      "confidence": "verified",
+      "summary": "Finish every Goblin Menace level using only one hero per level.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hero may differ between levels; only switching mid-level invalidates the run. On @loc{Brackenridge Rise} the Zoya route is bugged, so use Amadeus, and @loc{Goblin Machinations} cannot be finished with Amadeus because he cannot damage Wheeze.",
+        "steps": [
+          {
+            "id": "plan",
+            "text": "Choose one hero for each expansion level before starting; Amadeus is recommended for Brackenridge Rise and a different hero for Goblin Machinations."
+          },
+          {
+            "id": "finish",
+            "text": "Complete all six expansion levels without switching heroes inside any level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allhc_dlc",
+      "displayName": "Easy as Pie",
+      "description": "Complete the Goblin Menace expansion on hard using hardcore mode",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "6 h",
+      "estMinutes": 360,
+      "stage": 3,
+      "group": "hardcore",
+      "confidence": "verified",
+      "summary": "Finish every Goblin Menace level on Hard difficulty with hardcore mode enabled.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hardcore gives no revives, and the expansion's bosses and fights are the hardest content for this. Playing co-op makes the combat noticeably easier.",
+        "steps": [
+          {
+            "id": "setting",
+            "text": "Start the expansion on Hard with hardcore mode turned on."
+          },
+          {
+            "id": "finish",
+            "text": "Complete all six Goblin Menace levels without losing a hero, ending with @loc{Goblin Machinations}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "catch",
+      "displayName": "Play Catch",
+      "description": "Throw a box with Pontius' magnetic shield and catch it or have another player catch it",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Launch a conjured box straight up with the magnetic shield, then catch it as it falls.",
+      "guide": {
+        "kind": "standard",
+        "context": "A solo catch works: send the box vertically, then step under its landing spot with the shield held out.",
+        "steps": [
+          {
+            "id": "throw",
+            "text": "As Pontius, aim the magnetic shield straight up under a conjured box and launch it vertically."
+          },
+          {
+            "id": "catch",
+            "text": "Move directly under the falling box and let it land on the shield."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "raft",
+      "displayName": "Rafting",
+      "description": "Create a makeshift raft of three separate parts and have a goblin sail it for five seconds",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Build a raft from three separate parts and keep a goblin riding it for five seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use two coconuts and one platform as the three parts. Zoya's invisibility stops the goblin from walking away.",
+        "steps": [
+          {
+            "id": "parts",
+            "text": "In @loc{Searock Castle}, carry two coconuts as Amadeus to the water's edge on the right before the first combat area."
+          },
+          {
+            "id": "goblin",
+            "text": "Bring one of the first goblins back to the coconuts and place a platform on top of them, then stand the goblin on the platform."
+          },
+          {
+            "id": "hold",
+            "text": "Switch to Zoya and use invisibility so the goblin stays on the raft for five seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "pontiusglide",
+      "displayName": "Pontius Transportation Company",
+      "description": "Glide for five seconds with Kitesail Shield while having an object or character on top of the shield",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Keep the Kitesail Shield gliding for five seconds while an object or another hero rides on top of it.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need height and a way to stay airborne, such as Zoya's low-gravity field or an air vent.",
+        "steps": [
+          {
+            "id": "airborne",
+            "text": "Have Pontius launch from a high point into a low-gravity field or an air vent so the Kitesail keeps gliding."
+          },
+          {
+            "id": "cargo",
+            "text": "Have Zoya jump onto the shield, or place an object or hero on it, and keep gliding for five seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "pit",
+      "displayName": "This is Trine!",
+      "description": "Kick five enemies of the same kind into a bottomless pit with the Thief's grappling hook kick or the Knight's Kitesail Shield glide kick",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Kick five enemies of one type off a ledge into a bottomless pit with Zoya's grapple kick or Pontius' Kitesail glide kick.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress is cumulative and carries across levels and sessions. @loc{Icewarden Keep} and @loc{Deadly Dustland} have suitable ledges.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "In @loc{Deadly Dustland}, cage the undead goblin mummies as Amadeus and carry them to the right edge."
+          },
+          {
+            "id": "kick",
+            "text": "Open a cage, then air-kick the mummy off the edge as Pontius with the Kitesail glide kick; repeat on five mummies.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "catapult",
+      "displayName": "Off You Go",
+      "description": "Capture a goblin in a Monster Prison and then launch it with a catapult",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "group": "challenges",
+      "confidence": "verified",
+      "summary": "Cage a goblin with the Monster Prison skill, then fire it from a catapult.",
+      "guide": {
+        "kind": "standard",
+        "context": "Catapults appear in @loc{The Heroes Return}, and Amadeus must own the Monster Prison skill to cage a goblin.",
+        "steps": [
+          {
+            "id": "cage",
+            "text": "As Amadeus with Monster Prison, draw a box around a goblin to capture it."
+          },
+          {
+            "id": "launch",
+            "text": "Levitate the caged goblin onto the catapult mechanism and fire it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level14_chest",
+      "displayName": "Secrets of the Heroes Return",
+      "description": "Find all secret chests in The Heroes Return",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in The Heroes Return.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Goblin Menace level from 1 to 5 hides two secret chests, each holding a collectible poem or painting. The chests also hold map pieces; collecting every piece unlocks the secret @loc{Dwarven Caverns} level, and the @loc{Choose Level} screen tracks chests per level.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "After the Kitesail and airflow stretch past the bridge, open the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "After the underwater spinning-cog corridor, open the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level15_chest",
+      "displayName": "Secrets of Deadly Dustland",
+      "description": "Find all secret chests in Deadly Dustland",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Deadly Dustland.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Goblin Menace level from 1 to 5 hides two secret chests, each holding a collectible poem or painting. The chests also hold map pieces; collecting every piece unlocks the secret @loc{Dwarven Caverns} level, and the @loc{Choose Level} screen tracks chests per level.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "To the left of the statue and flame-trap area, open the chest holding the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "In the spike-ball room, raise the pillars with Amadeus, pass under before they fall, and open the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level16_chest",
+      "displayName": "Secrets of Belly of the Beast",
+      "description": "Find all secret chests in Belly of the Beast",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Belly of the Beast.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Goblin Menace level from 1 to 5 hides two secret chests, each holding a collectible poem or painting. The chests also hold map pieces; collecting every piece unlocks the secret @loc{Dwarven Caverns} level, and the @loc{Choose Level} screen tracks chests per level.",
+        "steps": [
+          {
+            "id": "poem",
+            "text": "Drop down the hidden fleshy tunnel below the decorative ledge and open the chest holding the @item{poem}."
+          },
+          {
+            "id": "painting",
+            "text": "Set up a Low Gravity Field plus a plank over the floor ball, then release the ball to fling yourself up to the chest holding the @item{painting}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level17_chest",
+      "displayName": "Secrets of Brackenridge Rise",
+      "description": "Find all secret chests in Brackenridge Rise",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Brackenridge Rise.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Goblin Menace level from 1 to 5 hides two secret chests, each holding a collectible poem or painting. The chests also hold map pieces; collecting every piece unlocks the secret @loc{Dwarven Caverns} level, and the @loc{Choose Level} screen tracks chests per level.",
+        "steps": [
+          {
+            "id": "painting",
+            "text": "In the hidden tunnel reached after dropping below the wooden ramps, open the chest at the bottom left for the @item{painting}."
+          },
+          {
+            "id": "poem",
+            "text": "In the hidden room reached from the broken-bridge area, use the flame, water and a plank to open the chest holding the @item{poem}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level18_chest",
+      "displayName": "Secrets of Cloudy Isles",
+      "description": "Find all secret chests in Cloudy Isles",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "group": "secrets",
+      "confidence": "verified",
+      "summary": "Find both secret chests in Cloudy Isles.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Goblin Menace level from 1 to 5 hides two secret chests, each holding a collectible poem or painting. The chests also hold map pieces; collecting every piece unlocks the secret @loc{Dwarven Caverns} level, and the @loc{Choose Level} screen tracks chests per level.",
+        "steps": [
+          {
+            "id": "cart",
+            "text": "Shoot an Explosive Arrow through the rocks below the cart, glide down, and open the first secret chest."
+          },
+          {
+            "id": "peak",
+            "text": "At the machine and platform peak, swing across to the second secret chest."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "carni",
+    "rope",
+    "bubble",
+    "catch",
+    "arrow",
+    "surf",
+    "bounce",
+    "hazard",
+    "hammer",
+    "frozen_tower",
+    "pontiusglide",
+    "charge",
+    "friendly_fire",
+    "air_hammer",
+    "pontiustower",
+    "shatter",
+    "trapstack",
+    "raft",
+    "tower",
+    "pit",
+    "level1_exp",
+    "expbottle",
+    "level9_exp",
+    "level8_exp",
+    "level2_exp",
+    "level3_exp",
+    "level6_exp",
+    "level7_exp",
+    "level4_exp",
+    "level11_exp",
+    "level5_exp",
+    "level12_exp",
+    "level10_exp",
+    "allexp",
+    "level2_chest",
+    "level6_chest",
+    "level4_chest",
+    "level8_chest",
+    "level5_chest",
+    "level7_chest",
+    "level11_chest",
+    "level3_chest",
+    "level9_chest",
+    "level10_chest",
+    "level12_chest",
+    "level13_chest",
+    "allchest",
+    "level1_completed",
+    "level2_completed",
+    "level3_completed",
+    "level9_completed",
+    "level8_completed",
+    "level4_completed",
+    "level5_completed",
+    "level6_completed",
+    "level7_completed",
+    "level11_completed",
+    "level10_completed",
+    "level12_completed",
+    "level13_completed",
+    "game_completed",
+    "grenade",
+    "catapult",
+    "sandworm",
+    "expbottle_dlc",
+    "level14_exp",
+    "level16_exp",
+    "level15_exp",
+    "level18_exp",
+    "level17_exp",
+    "allexp_dlc",
+    "allexp_both",
+    "level14_chest",
+    "level16_chest",
+    "level15_chest",
+    "level17_chest",
+    "level18_chest",
+    "allchest_dlc",
+    "level14_completed",
+    "level15_completed",
+    "level16_completed",
+    "level17_completed",
+    "level18_completed",
+    "level19_completed",
+    "hard_hc",
+    "hard_hc_dlc",
+    "allhc_dlc",
+    "allhc",
+    "solo",
+    "solo_zoya",
+    "solo_amadeus",
+    "solo_pontius",
+    "solo_all",
+    "solo_dlc_levels",
+    "no_damage",
+    "platinum",
+    "platinum_dlc"
+  ]
+}

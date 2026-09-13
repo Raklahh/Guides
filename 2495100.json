@@ -1,0 +1,2273 @@
+{
+  "game": {
+    "appid": 2495100,
+    "slug": "hello-kitty-island-adventure",
+    "title": "Hello Kitty Island Adventure",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-27",
+    "estTotalHours": 150,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Early game and basics",
+      "description": "Complete the opening story beats, unlock the visitor-cabin system, recruit a companion, and start the fishing and critter tools.",
+      "achievementRefs": [
+        "ACH_HappyLanding",
+        "ACH_TravelingParty",
+        "ACH_OpenForVisits"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Main story (The Island Mystery)",
+      "description": "Restore each region by raising the required friendship levels and completing the Island Mystery quest chain through Cloud Island and the finale.",
+      "achievementRefs": [
+        "ACH_DinosaursNotIncluded",
+        "ACH_NaturePreserve",
+        "ACH_MansionCleared",
+        "ACH_BogChamp",
+        "ACH_Haunted",
+        "ACH_BandRestored",
+        "ACH_Mermaidifier",
+        "ACH_EnragingRuins",
+        "ACH_VolcanoFiredUp",
+        "ACH_ReviveReef",
+        "ACH_OasisRestored",
+        "ACH_BehindTheWaterfall",
+        "ACH_FreeBC",
+        "ACH_NewHeights",
+        "ACH_FriendshipRestored",
+        "ACH_RegionalExplorer"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Cooking",
+      "description": "Cook recipes at every station to unlock the per-station recipe targets and the 100-recipe total.",
+      "achievementRefs": [
+        "ACH_BakingBliss",
+        "ACH_PizzaPerfection",
+        "ACH_SodaSatisfaction",
+        "ACH_DeliciousDesserts",
+        "ACH_ExcellentEspresso",
+        "ACH_CandyConnoisseur",
+        "ACH_EggcellentChef",
+        "ACH_ForTheLoveOfBaking"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Collecting and activities",
+      "description": "Photograph gudetama, clear puzzle rooms, play every mini game, catch fish and critters, grow flowers, and complete gift and cabin goals.",
+      "achievementRefs": [
+        "ACH_BakersDozen",
+        "ACH_DozensSurely",
+        "ACH_StickNation",
+        "ACH_MasterOfTheRuins",
+        "ACH_TrueGamer",
+        "ACH_MasterAngler",
+        "ACH_CritterMaster",
+        "ACH_HappyHattery",
+        "ACH_NapTime",
+        "ACH_RareFlower",
+        "ACH_FlowerCollector",
+        "ACH_AdornedInFlowers",
+        "ACH_SuperbGiftGiver",
+        "ACH_HelloBestie",
+        "ACH_EveryonesBestie",
+        "ACH_ThroughThickAndThin",
+        "ACH_VacationHotSpot"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Challenge courses and gold trophies",
+      "description": "Gold-rank every course in each region and craft the seven gold trophies.",
+      "achievementRefs": [
+        "ACH_TropicalChallenge",
+        "ACH_SwampyChallenge",
+        "ACH_RockyChallenge",
+        "ACH_VolcanicChallenge",
+        "ACH_AquaticChallenge",
+        "ACH_FloatingChallenge",
+        "ACH_FloralChallenge"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Visitors and the long grind",
+      "description": "Raise 20 visitors to five stars and complete the multi-stage visitor chain that unlocks Milk.",
+      "achievementRefs": [
+        "ACH_EveryoneIsWelcome",
+        "ACH_TimeForMilk"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_HappyLanding",
+      "displayName": "Happy Landing!",
+      "description": "Another Happy Landing!",
+      "hidden": false,
+      "globalPercent": 97.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Complete the opening sequence by landing on Friendship Island.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "happy-landing-jump",
+            "text": "Play through the opening and jump from the plane when the game prompts you to land on the island."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DinosaursNotIncluded",
+      "displayName": "Dinosaurs Not Included",
+      "description": "Open the Resort Gate with Chococat",
+      "hidden": false,
+      "globalPercent": 77.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Open the Resort Gate with @npc{Chococat} by finishing the 'Power Up the Gate' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching friendship level 1 with Chococat is what makes the quest appear on the quest board.",
+        "steps": [
+          {
+            "id": "dinosaurs-friendship",
+            "text": "Raise @npc{Chococat}'s friendship to level 1 by talking with him, giving gifts, and completing his early requests."
+          },
+          {
+            "id": "dinosaurs-gate",
+            "text": "Accept and complete the Island Mystery quest @mechanic{'Power Up the Gate'} to open the Resort Gate."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BogChamp",
+      "displayName": "Bog Champ",
+      "description": "Restore the Spooky Swamp",
+      "hidden": false,
+      "globalPercent": 51.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-5 hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_MansionCleared"
+      ],
+      "summary": "Restore the @loc{Spooky Swamp} by completing the Island Mystery quest 'Re-Haunt the Spooky Swamp'.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "bog-friendship",
+            "text": "Raise @npc{Kuromi}'s friendship to level 5, then start the quest @mechanic{'Re-Haunt the Spooky Swamp'}."
+          },
+          {
+            "id": "bog-finish",
+            "text": "Finish the quest to restore the @loc{Spooky Swamp}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MansionCleared",
+      "displayName": "Definitely Haunted",
+      "description": "Restore the Haunted Mansion",
+      "hidden": false,
+      "globalPercent": 52.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DinosaursNotIncluded"
+      ],
+      "summary": "Restore the Haunted Mansion by clearing all 10 puzzle rooms in the 'Re-Haunt the Spooky Swamp' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest becomes available after 'Power Up the Gate' is completed.",
+        "steps": [
+          {
+            "id": "mansion-friendship",
+            "text": "Raise @npc{Kuromi}'s friendship to level 5 to unlock the Island Mystery quest @mechanic{'Re-Haunt the Spooky Swamp'}."
+          },
+          {
+            "id": "mansion-rooms",
+            "text": "Follow the quest into the @loc{Haunted Mansion} and clear all 10 puzzle rooms inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NaturePreserve",
+      "displayName": "A New Home",
+      "description": "Open the Nature Preserve",
+      "hidden": false,
+      "globalPercent": 60.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-5 hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DinosaursNotIncluded"
+      ],
+      "summary": "Open the Nature Preserve by finishing the 'Open the Nature Preserve' quest with @npc{Keroppi}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest appears only after 'Power Up the Gate' has been completed.",
+        "steps": [
+          {
+            "id": "preserve-friendship",
+            "text": "Raise @npc{Keroppi}'s friendship to level 2 through gifts and his friendship quests."
+          },
+          {
+            "id": "preserve-quest",
+            "text": "Complete the Island Mystery quest @mechanic{'Open the Nature Preserve'}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ReviveReef",
+      "displayName": "Reef Revival",
+      "description": "Fully restore Rainbow Reef",
+      "hidden": false,
+      "globalPercent": 29.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4-8 hours",
+      "estMinutes": 360,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_NaturePreserve",
+        "ACH_Mermaidifier"
+      ],
+      "summary": "Fully restore @loc{Rainbow Reef} by completing the 'Reef Revival' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reef-prereq",
+            "text": "Complete the quests @mechanic{'Open the Nature Preserve'} and @mechanic{'Comic Relief'}."
+          },
+          {
+            "id": "reef-friendship",
+            "text": "Raise @npc{Hello Kitty}'s friendship to level 11 to unlock the Island Mystery quest @mechanic{'Reef Revival'}."
+          },
+          {
+            "id": "reef-finish",
+            "text": "Complete the quest to fully restore @loc{Rainbow Reef}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Mermaidifier",
+      "displayName": "Mermaids are Real",
+      "description": "Activate the Mermaidifier",
+      "hidden": false,
+      "globalPercent": 34.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Activate the @item{Mermaidifier} by completing the 'Comic Relief' quest for @npc{Hangyodon}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "mermaid-friendship",
+            "text": "Raise @npc{Hangyodon}'s friendship to level 6 to unlock the Island Mystery quest @mechanic{'Comic Relief'}."
+          },
+          {
+            "id": "mermaid-finish",
+            "text": "Complete the quest to activate the @item{Mermaidifier}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BandRestored",
+      "displayName": "Swing Partners",
+      "description": "Reboot the Dance Hall band",
+      "hidden": false,
+      "globalPercent": 35.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DinosaursNotIncluded"
+      ],
+      "summary": "Reboot the Dance Hall band by completing the 'Bring Back the Swing' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "This quest opens after 'Power Up the Gate' is completed.",
+        "steps": [
+          {
+            "id": "band-friendship",
+            "text": "Raise @npc{Pekkle}'s friendship to level 5 to unlock the Island Mystery quest @mechanic{'Bring Back the Swing'}."
+          },
+          {
+            "id": "band-finish",
+            "text": "Complete the quest to restart the @loc{Dance Hall} band."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OasisRestored",
+      "displayName": "Paradise in the Desert",
+      "description": "Restore the Oasis",
+      "hidden": false,
+      "globalPercent": 27.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-6 hours",
+      "estMinutes": 270,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Restore @loc{The Oasis} by completing the 'Revive the Oasis' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "oasis-prereq",
+            "text": "Complete the Right Tools quest @mechanic{'Dessert-ed Boat'} and the Island Mystery quest @mechanic{'Parched'}."
+          },
+          {
+            "id": "oasis-friendship",
+            "text": "Raise @npc{My Melody}'s friendship to level 11 to unlock @mechanic{'Revive the Oasis'}."
+          },
+          {
+            "id": "oasis-finish",
+            "text": "Complete the quest to restore @loc{The Oasis}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VolcanoFiredUp",
+      "displayName": "Rage Mode",
+      "description": "Ignited the Volcano with Retsuko's Rage",
+      "hidden": false,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_EnragingRuins"
+      ],
+      "summary": "Ignite the volcano with @npc{Retsuko}'s Rage by completing the 'Fire Up the Volcano' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "rage-prereq",
+            "text": "Complete @mechanic{'Enraging Ruins'}, then raise @npc{Retsuko}'s friendship to level 11."
+          },
+          {
+            "id": "rage-finish",
+            "text": "Complete the Island Mystery quest @mechanic{'Fire Up the Volcano'} to ignite the volcano."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FreeBC",
+      "displayName": "Friendship Forever",
+      "description": "Rescue Big Challenges from his frozen state and bring him back together with TOPHAT.",
+      "hidden": true,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BehindTheWaterfall"
+      ],
+      "summary": "Rescue @npc{Big Challenges} from the ice and reunite him with @npc{TOPHAT} during 'A Challenging Rescue'.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement is granted when you reach the summit, not when the quest dialogue closes.",
+        "steps": [
+          {
+            "id": "freebc-prereq",
+            "text": "Hold at least 3 @item{Stamina Apples} and finish the earlier Island Mystery quests to unlock @mechanic{'A Challenging Rescue'}."
+          },
+          {
+            "id": "freebc-summit",
+            "text": "Complete the quest, then climb to the top of @loc{Icy Peak} to free @npc{Big Challenges}.",
+            "note": "Stop climbing whenever the strong @warn{Icy Peak wind} starts; it drains stamina and can drop you, and a fall may force a fresh climb.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Haunted",
+      "displayName": "Haunted",
+      "description": "Fall through a hidden floor trap inside the Haunted Mansion.",
+      "hidden": true,
+      "globalPercent": 51.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_MansionCleared"
+      ],
+      "summary": "Fall through a trapdoor in the @loc{Haunted Mansion} floor.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Mansion remains open after the quest, so a trapdoor can be walked over on purpose at any time.",
+        "steps": [
+          {
+            "id": "haunted-enter",
+            "text": "Enter the @loc{Haunted Mansion} during or after @mechanic{'Re-Haunt the Spooky Swamp'}."
+          },
+          {
+            "id": "haunted-fall",
+            "text": "Step onto a floor trapdoor; a wrong move in rooms 2, 3, or 8 drops you through on its own.",
+            "note": "If you already cleared the quest cleanly, return to the Mansion and step on a trapdoor deliberately.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NapTime",
+      "displayName": "Nap Time",
+      "description": "Change the time of day by sleeping in a bed.",
+      "hidden": true,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OpenForVisits"
+      ],
+      "summary": "Advance the time of day by sleeping in a bed.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "nap-sleep",
+            "text": "Put a bed in a @loc{visitor cabin}, interact with the bed, and choose any sleep duration to advance the clock."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_StickNation",
+      "displayName": "Stick Nation",
+      "description": "Craft the Golden Stick.",
+      "hidden": true,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8-15 hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BakersDozen"
+      ],
+      "summary": "Craft the @item{Golden Stick} from the plans unlocked by photographing 96 gudetama.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gudetama photo prizes on Friendship Island arrive every 12 photos, and the Golden Stick plans are the 96-photo reward.",
+        "steps": [
+          {
+            "id": "stick-photos",
+            "text": "Photograph 96 regular gudetama with the camera; @npc{Tophat Gudetama} do not count."
+          },
+          {
+            "id": "stick-sign",
+            "text": "Interact with the @loc{Gudetama Sign} in @loc{Seaside Resort} to collect the @item{Golden Stick} plans from @npc{Pochacco}."
+          },
+          {
+            "id": "stick-craft",
+            "text": "Craft the @item{Golden Stick} at a crafting table using 99 sticks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HappyHattery",
+      "displayName": "Happy Hattery",
+      "description": "Place a hat on a Nul.",
+      "hidden": true,
+      "globalPercent": 62.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Put a hat on a @npc{Nul}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hattery-give",
+            "text": "Walk up to any @npc{Nul} and press the interact button, then choose a hat from your inventory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HelloBestie",
+      "displayName": "Hello Bestie!",
+      "description": "Become Best Friends with Hello Kitty",
+      "hidden": false,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "a few weeks",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Reach the maximum friendship level with @npc{Hello Kitty}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hello Kitty has the highest friendship cap of any resident, so she takes longer than most to max out.",
+        "steps": [
+          {
+            "id": "bestie-kitty",
+            "text": "Give @npc{Hello Kitty} gifts that match her liked tags and complete her friendship quests until she reaches best-friend status."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EveryonesBestie",
+      "displayName": "Everyone's Bestie",
+      "description": "Become Best Friends with 15 Characters",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "months of daily gifts",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Reach the maximum friendship level with 15 different residents.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "bestie-gift",
+            "text": "Raise residents' friendship with tagged gifts and by completing their friendship quests."
+          },
+          {
+            "id": "bestie-fifteen",
+            "text": "Continue until 15 residents have reached best-friend status."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BakingBliss",
+      "displayName": "Baking Bliss",
+      "description": "Unlock 20 recipes at the Oven",
+      "hidden": false,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 20 recipes at the @loc{Oven}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Oven holds 56 recipes in total, so only a portion of them are needed.",
+        "steps": [
+          {
+            "id": "baking-cook",
+            "text": "Cook at the @loc{Oven} inside @npc{Hello Kitty}'s Seaside Resort cafe; a recipe is permanently recorded the first time you make it."
+          },
+          {
+            "id": "baking-discover",
+            "text": "Combine different ingredients at the @loc{Oven} to discover recipes until 20 are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PizzaPerfection",
+      "displayName": "Pizza Perfection",
+      "description": "Unlock 11 recipes at the Pizza Oven",
+      "hidden": false,
+      "globalPercent": 22.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 11 @loc{Pizza Oven} recipes on @loc{Mount Hothead}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Pizza Oven holds 22 recipes in total.",
+        "steps": [
+          {
+            "id": "pizza-cook",
+            "text": "Cook at the @loc{Pizza Oven} and record each new recipe the first time you make it."
+          },
+          {
+            "id": "pizza-discover",
+            "text": "Experiment with different ingredient combinations until 11 pizza recipes are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SodaSatisfaction",
+      "displayName": "Soda Satisfaction",
+      "description": "Unlock 14 recipes at the Soda Fountain",
+      "hidden": false,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 14 drink recipes at the @loc{Soda Station} in @loc{Gemstone Town}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Soda Station holds 21 recipes in total.",
+        "steps": [
+          {
+            "id": "soda-unlock",
+            "text": "Complete the Island Mystery quest @mechanic{'Parched'} to unlock the @loc{Soda Station}."
+          },
+          {
+            "id": "soda-cook",
+            "text": "Cook at the @loc{Soda Station} and keep discovering drinks until 14 recipes are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DeliciousDesserts",
+      "displayName": "Delicious Desserts",
+      "description": "Unlock 16 recipes at the Dessert Boat",
+      "hidden": false,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 16 recipes at the @loc{Dessert Machine} in the @loc{Dessert Boat}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Dessert Machine holds 35 recipes in total.",
+        "steps": [
+          {
+            "id": "dessert-unlock",
+            "text": "Complete the Right Tools quest @mechanic{'Dessert-ed Boat'} to open the @loc{Dessert Boat} in @loc{The Oasis}."
+          },
+          {
+            "id": "dessert-cook",
+            "text": "Cook at the @loc{Dessert Machine} and keep discovering desserts until 16 recipes are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ExcellentEspresso",
+      "displayName": "Excellent Espresso",
+      "description": "Unlock 13 recipes at the Espresso Machine",
+      "hidden": false,
+      "globalPercent": 16.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 13 recipes at an @loc{Espresso Machine}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Espresso Machine holds 24 recipes in total.",
+        "steps": [
+          {
+            "id": "espresso-cook",
+            "text": "Cook at the @loc{Espresso Machine} in the @loc{Comedy Club} at @loc{Rainbow Reef}; a second machine sits in the Seaside Resort plaza."
+          },
+          {
+            "id": "espresso-discover",
+            "text": "Keep discovering coffee and latte recipes until 13 are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CandyConnoisseur",
+      "displayName": "Candy Connoisseur",
+      "description": "Unlock 10 recipes at the Candy Cloud Station",
+      "hidden": false,
+      "globalPercent": 11.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 10 treat recipes at the @loc{Candy Cloud Machine} on @loc{Cloud Island}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Candy Cloud Machine holds 14 recipes in total, so most of them are required.",
+        "steps": [
+          {
+            "id": "candy-unlock",
+            "text": "Raise @npc{Lala}'s friendship to level 2 and complete the friendship quest @mechanic{'Sweets in the Stars'} to unlock the @loc{Candy Cloud Machine}."
+          },
+          {
+            "id": "candy-cook",
+            "text": "Cook at the @loc{Candy Cloud Machine} and keep discovering treats until 10 recipes are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EggcellentChef",
+      "displayName": "Egg-cellent Chef",
+      "description": "Unlock 14 recipes at the Egg Pan Station",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock 14 @loc{Egg Pan Station} recipes near the @loc{Gemstone Corral}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Egg Pan Station holds 24 recipes in total.",
+        "steps": [
+          {
+            "id": "egg-unlock",
+            "text": "Complete the Right Tools quest @mechanic{'An Egg-cellent Pan'} to unlock the @loc{Egg Pan Station}."
+          },
+          {
+            "id": "egg-cook",
+            "text": "Cook at the @loc{Egg Pan Station} and keep discovering crepes and omelets until 14 recipes are unlocked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ForTheLoveOfBaking",
+      "displayName": "For the Love of Baking",
+      "description": "Cook 100 recipes",
+      "hidden": false,
+      "globalPercent": 29.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-6 hours",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Cook 100 recipes in total at any cooking stations.",
+      "guide": {
+        "kind": "standard",
+        "context": "The count accumulates across every station, so making your favourite recipe many times still counts.",
+        "steps": [
+          {
+            "id": "lovebaking-cook",
+            "text": "Cook recipes repeatedly at any cooking station until the running total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SuperbGiftGiver",
+      "displayName": "Superb Gift Giver",
+      "description": "Give 50 3-star gifts",
+      "hidden": false,
+      "globalPercent": 22.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "a few weeks",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Give residents 50 gifts that match all three of their liked tags.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "gift-three",
+            "text": "Open the gift menu for a resident and choose an item that matches all three of their liked tags so three hearts appear."
+          },
+          {
+            "id": "gift-fifty",
+            "text": "Keep giving three-heart gifts to any residents until the total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MasterOfTheRuins",
+      "displayName": "Master of the Ruins",
+      "description": "Complete 20 puzzle rooms",
+      "hidden": false,
+      "globalPercent": 13.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-6 hours",
+      "estMinutes": 270,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Complete 20 puzzle rooms across Friendship Island.",
+      "guide": {
+        "kind": "standard",
+        "context": "The in-game Puzzle Goals track the same counter, so you can check progress there.",
+        "steps": [
+          {
+            "id": "ruins-open",
+            "text": "Open puzzle rooms by interacting with their ruin doors; some need story progress or a companion's help to open."
+          },
+          {
+            "id": "ruins-clear",
+            "text": "Solve each room's puzzle and keep going until 20 rooms are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TrueGamer",
+      "displayName": "True Gamer",
+      "description": "Play All the Mini Games Around Friendship Island",
+      "hidden": false,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Play all 6 mini games around Friendship Island.",
+      "guide": {
+        "kind": "standard",
+        "context": "This matches the in-game Theme Park Goals set, which records each of the six games.",
+        "steps": [
+          {
+            "id": "gamer-apples",
+            "text": "In the @loc{Spooky Swamp} hedge maze, play @item{Bogging for Apples}."
+          },
+          {
+            "id": "gamer-seapony",
+            "text": "Play @item{Seapony Racing} in @loc{Rainbow Reef}."
+          },
+          {
+            "id": "gamer-match",
+            "text": "Play @item{Gem Match} in @loc{Gemstone Mountain}."
+          },
+          {
+            "id": "gamer-roundup",
+            "text": "Play @item{Rockadoodler Roundup} in @loc{Gemstone Mountain}."
+          },
+          {
+            "id": "gamer-rampage",
+            "text": "Play @item{Red Hot Rampage} on @loc{Mount Hothead}."
+          },
+          {
+            "id": "gamer-crane",
+            "text": "Play @item{Crane Craze} in @loc{Merry Meadow}."
+          },
+          {
+            "id": "gamer-unlock",
+            "text": "Unlock @item{Rockadoodler Roundup} by raising @npc{Pekkle}'s friendship to level 8, opening the Nature Preserve, and completing the @mechanic{'Rockadoodler Roundup'} quest."
+          },
+          {
+            "id": "gamer-crane-unlock",
+            "text": "Unlock @item{Crane Craze} by growing the third beanstalk in @loc{Merry Meadow} and completing the @mechanic{'Petal Puzzle'} quest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EveryoneIsWelcome",
+      "displayName": "Everyone is Welcome",
+      "description": "Have 20 Visitors at 5 Stars",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "months of visits",
+      "estMinutes": 1800,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OpenForVisits"
+      ],
+      "summary": "Raise 20 island visitors to five stars.",
+      "guide": {
+        "kind": "standard",
+        "context": "Placing five items that carry a visitor's liked tag in their cabin lengthens the visit, which gives more daily quests and speeds up each visitor's stars.",
+        "steps": [
+          {
+            "id": "welcome-unlock",
+            "text": "Unlock visitors by meeting their requirements, then decorate a cabin with the items each visitor asks for."
+          },
+          {
+            "id": "welcome-stars",
+            "text": "While a visitor is on the island, complete that visitor's daily quests; each finished quest adds one star."
+          },
+          {
+            "id": "welcome-twenty",
+            "text": "Repeat the visits and daily quests until 20 visitors have reached five stars."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TimeForMilk",
+      "displayName": "Time for Milk",
+      "description": "Help Milk reach five stars as an island visitor.",
+      "hidden": true,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "months of real-time",
+      "estMinutes": 2400,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OpenForVisits"
+      ],
+      "summary": "Raise @npc{Milk} to five stars as an island visitor.",
+      "guide": {
+        "kind": "standard",
+        "context": "Milk's cabin needs five Kawaii-furniture items, one @item{Coral Milk}, and one @item{Dreamy Lamb Plush}. He visits during Spring and Fall, and every visitor in the chain arrives on a fixed real-world cycle, so this achievement takes months even with efficient play.",
+        "steps": [
+          {
+            "id": "milk-cafe1",
+            "text": "Reach five stars with @npc{Mocha}, @npc{Chiffon}, @npc{Espresso}, @npc{Cappuccino}, and @npc{Azuki}, and invite each to live on the island permanently."
+          },
+          {
+            "id": "milk-coco",
+            "text": "Complete @mechanic{'Friends from Cafe Cinnamon'}, @mechanic{'Friends from Cafe Cinnamon II'}, @mechanic{'Island Showstoppers'}, @mechanic{'A Day Out for Cinnamoroll: Part 1'}, @mechanic{'A Day Out for Cinnamoroll: Part 2'}, and @mechanic{'Little Friendship from Cafe Cinnamon'} so @npc{Coco} and @npc{Nuts} can visit the island."
+          },
+          {
+            "id": "milk-nuts",
+            "text": "Raise @npc{Coco} and @npc{Nuts} to five stars and make them permanent residents."
+          },
+          {
+            "id": "milk-cafe2",
+            "text": "Complete @mechanic{'Cinna-Run-Around'}, @mechanic{'Friendship Never Fades: Part 1'}, @mechanic{'Friendship Never Fades: Part 2'}, @mechanic{'Friendship Never Fades: Part 3'}, @mechanic{'Cafe Cinnamon Unite'}, and @mechanic{'A Place to Art'}."
+          },
+          {
+            "id": "milk-poron",
+            "text": "Complete @mechanic{'A Gift for Cinnamoroll'} to unlock @npc{Poron}, then raise her to five stars and make her a permanent resident."
+          },
+          {
+            "id": "milk-corune",
+            "text": "Complete @mechanic{'Dig it Up'}, @mechanic{'Hither and Yon'}, and @mechanic{'Hither and Yon: Part 2'} to unlock @npc{Corune}, then raise him to five stars and make him a permanent resident."
+          },
+          {
+            "id": "milk-milk",
+            "text": "Complete @mechanic{'Time for Milk: The Final Beginning'}, @mechanic{'Time for Milk: Electric Baboo'}, and @mechanic{'Time for Milk: Return of the Baby'} to unlock @npc{Milk} as a visitor, then raise him to five stars."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TravelingParty",
+      "displayName": "Traveling Party",
+      "description": "Companion with one of your friends",
+      "hidden": false,
+      "globalPercent": 52.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Ask a resident to companion with you after reaching friendship level 2 with @npc{Hello Kitty}.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can have only one companion following you at once, and each companion grants a bonus ability while they travel with you.",
+        "steps": [
+          {
+            "id": "travel-recruit",
+            "text": "Reach friendship level 2 with @npc{Hello Kitty}, then interact with her or call her and choose to have her follow you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ThroughThickAndThin",
+      "displayName": "Through Thick and Thin",
+      "description": "Have a character follow you to the lowest trench and the tallest peak",
+      "hidden": false,
+      "globalPercent": 12.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-45 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_TravelingParty"
+      ],
+      "summary": "Take one companion to both the lowest trench and the top of @loc{Icy Peak}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The same resident must be with you at both places for the achievement to count.",
+        "steps": [
+          {
+            "id": "thick-trench",
+            "text": "With a resident following you, visit the lowest trench: the hole in the water south of the dock that links @loc{Gemstone Mountain} and @loc{Rainbow Reef}."
+          },
+          {
+            "id": "thick-peak",
+            "text": "Keep the same companion following you and climb to the very top of @loc{Icy Peak}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BakersDozen",
+      "displayName": "A Bakers Dozen!",
+      "description": "Take Photos of 13 gudetama",
+      "hidden": false,
+      "globalPercent": 61.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15-30 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Photograph 13 gudetama with the camera.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Gudetama section of the collections menu tracks how many you have photographed in each region.",
+        "steps": [
+          {
+            "id": "baker-camera",
+            "text": "Raise @npc{Pochacco}'s friendship to level 1 and complete the quest @mechanic{'Gudetama Snap'} to unlock the camera."
+          },
+          {
+            "id": "baker-photos",
+            "text": "Photograph 13 gudetama; each one must vanish when photographed for the shot to count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DozensSurely",
+      "displayName": "Dozens Surely!",
+      "description": "Take Photos of 120 gudetama",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8-15 hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BakersDozen"
+      ],
+      "summary": "Photograph 120 gudetama with the camera.",
+      "guide": {
+        "kind": "standard",
+        "context": "Friendship Island holds 180 gudetama, so the target is reachable without the City Town expansion.",
+        "steps": [
+          {
+            "id": "dozens-camera",
+            "text": "Unlock the camera by completing the quest @mechanic{'Gudetama Snap'} for @npc{Pochacco}."
+          },
+          {
+            "id": "dozens-photos",
+            "text": "Photograph gudetama across Friendship Island until the total reaches 120; each one must vanish for the shot to count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OpenForVisits",
+      "displayName": "Open for Visits",
+      "description": "Unlock a Visitor Cabin",
+      "hidden": false,
+      "globalPercent": 62.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Unlock your first visitor cabin by completing the 'Friends and Family' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "visits-prereq",
+            "text": "Complete the Right Tools quests @mechanic{'Make Yourself at Home'} and @mechanic{'Building Bridges'}, then wait for the daily reset."
+          },
+          {
+            "id": "visits-cabin",
+            "text": "Talk to @npc{My Melody} to start @mechanic{'Friends and Family'} and follow it to set up a visitor cabin."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VacationHotSpot",
+      "displayName": "Cabin Crazy",
+      "description": "Repair twenty five visitor cabins",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8-15 hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Repair 25 separate visitor cabins using strawberry crates.",
+      "guide": {
+        "kind": "standard",
+        "context": "Adding apartments to a cabin you already repaired does not count toward the 25. A cheap route is the 8 Seaside Resort cabins (3 crates each), 4 Spooky Swamp cabins (5 each), 4 Rainbow Reef cabins (5 each), 5 Gemstone Mountain cabins (7 each), and 4 Mount Hothead cabins (10 each), for 139 crates total.",
+        "steps": [
+          {
+            "id": "hotspot-crates",
+            "text": "Collect strawberry crates by exploring the island and opening chests."
+          },
+          {
+            "id": "hotspot-repair",
+            "text": "Open 25 different visitor cabins and repair each one with strawberry crates."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TropicalChallenge",
+      "displayName": "Tropical Challenge",
+      "description": "Craft the Gold Seaside Trophy.",
+      "hidden": true,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-3 hours",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Craft the @item{Gold Seaside Trophy} by gold-ranking every @loc{Seaside Resort} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "tropical-1",
+            "text": "Earn a gold-rank finish on @loc{Visitor Island Chase}."
+          },
+          {
+            "id": "tropical-2",
+            "text": "Earn a gold-rank finish on @loc{Resort Roundabout}."
+          },
+          {
+            "id": "tropical-3",
+            "text": "Earn a gold-rank finish on @loc{Grassy Hill Hustle}."
+          },
+          {
+            "id": "tropical-4",
+            "text": "Earn a gold-rank finish on @loc{Sandbar Dart}."
+          },
+          {
+            "id": "tropical-5",
+            "text": "Earn a gold-rank finish on @loc{Seashore Sprint}."
+          },
+          {
+            "id": "tropical-6",
+            "text": "Earn a gold-rank finish on @loc{Small Island Shuffle}."
+          },
+          {
+            "id": "tropical-7",
+            "text": "Earn a gold-rank finish on @loc{Moon Island Marathon}."
+          },
+          {
+            "id": "tropical-craft",
+            "text": "Craft the @item{Gold Seaside Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SwampyChallenge",
+      "displayName": "Swampy Challenge",
+      "description": "Craft the Gold Swamp Trophy.",
+      "hidden": true,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-3 hours",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Craft the @item{Gold Swamp Trophy} by gold-ranking every @loc{Spooky Swamp} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "swampy-1",
+            "text": "Earn a gold-rank finish on @loc{Lily Pad Leap}."
+          },
+          {
+            "id": "swampy-2",
+            "text": "Earn a gold-rank finish on @loc{Swamp Plaza Scamper}."
+          },
+          {
+            "id": "swampy-3",
+            "text": "Earn a gold-rank finish on @loc{Preserve Path}."
+          },
+          {
+            "id": "swampy-4",
+            "text": "Earn a gold-rank finish on @loc{Hedge Maze Havoc}."
+          },
+          {
+            "id": "swampy-5",
+            "text": "Earn a gold-rank finish on @loc{Spooky Swamp Hop}."
+          },
+          {
+            "id": "swampy-6",
+            "text": "Earn a gold-rank finish on @loc{Waterfall Falls}."
+          },
+          {
+            "id": "swampy-7",
+            "text": "Earn a gold-rank finish on @loc{Ghost Tour Gallop}."
+          },
+          {
+            "id": "swampy-craft",
+            "text": "Craft the @item{Gold Swamp Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RockyChallenge",
+      "displayName": "Rocky Challenge",
+      "description": "Craft the Gold Gemstone Trophy.",
+      "hidden": true,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2-4 hours",
+      "estMinutes": 210,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Craft the @item{Gold Gemstone Trophy} by gold-ranking every @loc{Gemstone Mountain} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "rocky-1",
+            "text": "Earn a gold-rank finish on @loc{Oasis Race}."
+          },
+          {
+            "id": "rocky-2",
+            "text": "Earn a gold-rank finish on @loc{Cactus Garden Chase}."
+          },
+          {
+            "id": "rocky-3",
+            "text": "Earn a gold-rank finish on @loc{Gemstone Bridge Bolt}."
+          },
+          {
+            "id": "rocky-4",
+            "text": "Earn a gold-rank finish on @loc{Mountainside Rise}."
+          },
+          {
+            "id": "rocky-5",
+            "text": "Earn a gold-rank finish on @loc{Corral Stampede}."
+          },
+          {
+            "id": "rocky-6",
+            "text": "Earn a gold-rank finish on @loc{Small Hill Scramble}."
+          },
+          {
+            "id": "rocky-7",
+            "text": "Earn a gold-rank finish on @loc{Down Mountain Descent}."
+          },
+          {
+            "id": "rocky-8",
+            "text": "Earn a gold-rank finish on @loc{Island Cliff Shimmy}."
+          },
+          {
+            "id": "rocky-9",
+            "text": "Earn a gold-rank finish on @loc{Donut Pond Splashdown}."
+          },
+          {
+            "id": "rocky-10",
+            "text": "Earn a gold-rank finish on @loc{Tidepool Traverse}."
+          },
+          {
+            "id": "rocky-craft",
+            "text": "Craft the @item{Gold Gemstone Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VolcanicChallenge",
+      "displayName": "Volcanic Challenge",
+      "description": "Craft the Gold Hothead Trophy.",
+      "hidden": true,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-3 hours",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_EnragingRuins"
+      ],
+      "summary": "Craft the @item{Gold Hothead Trophy} by gold-ranking every @loc{Mount Hothead} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "volcanic-1",
+            "text": "Earn a gold-rank finish on @loc{Caldera Plunge}."
+          },
+          {
+            "id": "volcanic-2",
+            "text": "Earn a gold-rank finish on @loc{Lava Rock Drop}."
+          },
+          {
+            "id": "volcanic-3",
+            "text": "Earn a gold-rank finish on @loc{Hot Spring Hustle}."
+          },
+          {
+            "id": "volcanic-4",
+            "text": "Earn a gold-rank finish on @loc{Hothead Hot Foot}."
+          },
+          {
+            "id": "volcanic-5",
+            "text": "Earn a gold-rank finish on @loc{Mountainside Slide}."
+          },
+          {
+            "id": "volcanic-6",
+            "text": "Earn a gold-rank finish on @loc{Ruins Reach}."
+          },
+          {
+            "id": "volcanic-craft",
+            "text": "Craft the @item{Gold Hothead Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_AquaticChallenge",
+      "displayName": "Aquatic Challenge",
+      "description": "Craft the Gold Reef Trophy.",
+      "hidden": true,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-3 hours",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ReviveReef"
+      ],
+      "summary": "Craft the @item{Gold Reef Trophy} by gold-ranking every @loc{Rainbow Reef} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "aquatic-1",
+            "text": "Earn a gold-rank finish on @loc{Underpass Paddle}."
+          },
+          {
+            "id": "aquatic-2",
+            "text": "Earn a gold-rank finish on @loc{Comedy Club Circuit}."
+          },
+          {
+            "id": "aquatic-3",
+            "text": "Earn a gold-rank finish on @loc{Coastal Trench Traverse}."
+          },
+          {
+            "id": "aquatic-4",
+            "text": "Earn a gold-rank finish on @loc{Kelp Maze Crawl}."
+          },
+          {
+            "id": "aquatic-5",
+            "text": "Earn a gold-rank finish on @loc{Reef Arch Ridge}."
+          },
+          {
+            "id": "aquatic-6",
+            "text": "Earn a gold-rank finish on @loc{Sunken Ship Swim}."
+          },
+          {
+            "id": "aquatic-craft",
+            "text": "Craft the @item{Gold Reef Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FloatingChallenge",
+      "displayName": "Floating Challenge",
+      "description": "Craft the Gold Cloud Trophy.",
+      "hidden": true,
+      "globalPercent": 2.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-3 hours",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_NewHeights"
+      ],
+      "summary": "Craft the @item{Gold Cloud Trophy} by gold-ranking every @loc{Cloud Island} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "floating-1",
+            "text": "Earn a gold-rank finish on @loc{Moonlight Slide}."
+          },
+          {
+            "id": "floating-2",
+            "text": "Earn a gold-rank finish on @loc{Water Wings Fly}."
+          },
+          {
+            "id": "floating-3",
+            "text": "Earn a gold-rank finish on @loc{Small Cloud Bop}."
+          },
+          {
+            "id": "floating-4",
+            "text": "Earn a gold-rank finish on @loc{Cloud Cabin Cruise}."
+          },
+          {
+            "id": "floating-5",
+            "text": "Earn a gold-rank finish on @loc{Jet Stream Glide}."
+          },
+          {
+            "id": "floating-6",
+            "text": "Earn a gold-rank finish on @loc{Circle Pond Soar}."
+          },
+          {
+            "id": "floating-craft",
+            "text": "Craft the @item{Gold Cloud Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FloralChallenge",
+      "displayName": "Floral Challenge",
+      "description": "Craft the Gold Meadow Trophy.",
+      "hidden": true,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-3 hours",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BehindTheWaterfall"
+      ],
+      "summary": "Craft the @item{Gold Meadow Trophy} by gold-ranking every @loc{Merry Meadow} challenge course.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each course awards a different trophy piece based on your finishing rank, and only gold-rank finishes supply the pieces needed for the gold trophy. Reaching friendship level 12 with @npc{Pompompurin} unlocks his Slow & Steady ability, which adds time to every course; timed potions help further.",
+        "steps": [
+          {
+            "id": "floral-1",
+            "text": "Earn a gold-rank finish on @loc{Beanstalk Blastoff}."
+          },
+          {
+            "id": "floral-2",
+            "text": "Earn a gold-rank finish on @loc{Meadows Marathon}."
+          },
+          {
+            "id": "floral-3",
+            "text": "Earn a gold-rank finish on @loc{Garden Go Round}."
+          },
+          {
+            "id": "floral-4",
+            "text": "Earn a gold-rank finish on @loc{Ridge Rumble}."
+          },
+          {
+            "id": "floral-5",
+            "text": "Earn a gold-rank finish on @loc{Cascade Caper}."
+          },
+          {
+            "id": "floral-6",
+            "text": "Earn a gold-rank finish on @loc{Lumber Leaping}."
+          },
+          {
+            "id": "floral-craft",
+            "text": "Craft the @item{Gold Meadow Trophy} at a crafting table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RareFlower",
+      "displayName": "Floral Pattern",
+      "description": "Obtain a patterned flower",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Obtain a patterned flower.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ombre is the only flower pattern that appears outside limited-time events, and fertilising is what gives a bloom a chance to take on the pattern.",
+        "steps": [
+          {
+            "id": "rareflower-grow",
+            "text": "Fertilise solid-colour flowers in a @loc{Merry Meadow} flower plot and harvest the blooms until one grows an ombre pattern."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FlowerCollector",
+      "displayName": "Flower Collector",
+      "description": "Obtain 10 unique Flower Types",
+      "hidden": false,
+      "globalPercent": 20.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-6 hours",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Obtain 10 unique flower types.",
+      "guide": {
+        "kind": "standard",
+        "context": "The regional types include Bellbutton, Dandelily, Penstemum, Tulias, Hibiscus, Ghostgleam, Thistle, and Heavy Nettle, so ten types can be grown without event flowers.",
+        "steps": [
+          {
+            "id": "collector-plant",
+            "text": "Plant seeds found around @loc{Merry Meadow} in flower plots to grow the regional flower types."
+          },
+          {
+            "id": "collector-breed",
+            "text": "Leave open space beside flowers and use fertiliser to breed new colours, patterns, and types until 10 unique types have been grown."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_AdornedInFlowers",
+      "displayName": "Adorned in Flowers",
+      "description": "Create a Flower Crown",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-6 hours",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Create a @item{Flower Crown} at the Creation Station.",
+      "guide": {
+        "kind": "standard",
+        "context": "The 15 flowers must share the type required by the crown plan you choose, so grow a matching batch before crafting.",
+        "steps": [
+          {
+            "id": "adorned-unlock",
+            "text": "Complete the quest @mechanic{'A Place to Art'} to make the @loc{Creation Station} available in @loc{Merry Meadow}."
+          },
+          {
+            "id": "adorned-plans",
+            "text": "Raise @npc{Wish me mell}'s friendship to level 16 to unlock the @item{Flower Crown} plans."
+          },
+          {
+            "id": "adorned-craft",
+            "text": "Craft the crown at the @loc{Creation Station} from 5 thread and 15 flowers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BehindTheWaterfall",
+      "displayName": "Behind the Waterfall",
+      "description": "Discover the hidden meadow reached through the caverns behind the waterfall.",
+      "hidden": true,
+      "globalPercent": 26.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OasisRestored"
+      ],
+      "summary": "Reach @loc{The Hidden Meadow} by completing the 'Curious Caverns' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "waterfall-prereq",
+            "text": "Complete @mechanic{'Revive the Oasis'} and wait for the daily reset."
+          },
+          {
+            "id": "waterfall-finish",
+            "text": "Complete the Island Mystery quest @mechanic{'Curious Caverns'}, then travel to @loc{Merry Meadow}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RegionalExplorer",
+      "displayName": "Regional Explorer",
+      "description": "Reach every Region on Friendship Island",
+      "hidden": false,
+      "globalPercent": 22.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "follows main story",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_NewHeights"
+      ],
+      "summary": "Reach all eight regions of Friendship Island.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "region-visit",
+            "text": "Follow the Island Mystery quests to visit @loc{Spooky Swamp}, @loc{Seaside Resort}, and @loc{Rainbow Reef}, then @loc{Gemstone Mountain}, @loc{Mount Hothead}, and @loc{Icy Peak}, and finally @loc{Merry Meadow} and @loc{Cloud Island}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MasterAngler",
+      "displayName": "Master Angler",
+      "description": "Catch 100 Fish",
+      "hidden": false,
+      "globalPercent": 11.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Catch 100 fish.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "angler-rod",
+            "text": "Complete the quest @mechanic{'Keep It Reel'} to unlock the fishing rod plan, then craft the rod from 3 threads, 1 gizmo, and 10 sticks."
+          },
+          {
+            "id": "angler-catch",
+            "text": "Equip the fishing rod and catch fish in any body of water until the total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CritterMaster",
+      "displayName": "Critter Master",
+      "description": "Catch 100 Critters",
+      "hidden": false,
+      "globalPercent": 26.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Catch 100 critters.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "critter-net",
+            "text": "Complete the quest @mechanic{'Open the Nature Preserve'} to unlock the net, then craft it from 3 threads, 1 light stone, and 10 sticks."
+          },
+          {
+            "id": "critter-catch",
+            "text": "Equip the net and catch critters around the island, or use the bubble wand in @loc{Rainbow Reef}, until the total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NewHeights",
+      "displayName": "New Heights",
+      "description": "Reach the paradise that floats above the clouds.",
+      "hidden": true,
+      "globalPercent": 16.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FreeBC"
+      ],
+      "summary": "Reach @loc{Cloud Island} by completing the 'Stargazing' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "newheights-prereq",
+            "text": "Complete @mechanic{'A Challenging Rescue'} and the friendship quest @mechanic{\"Baker's Assistant\"}."
+          },
+          {
+            "id": "newheights-finish",
+            "text": "Complete the Island Mystery quest @mechanic{'Stargazing'}, then travel up to @loc{Cloud Island}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FriendshipRestored",
+      "displayName": "Friendships Restored",
+      "description": "Bring the Island Spirit back together with her best friends.",
+      "hidden": true,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "many hours + daily visits",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_NewHeights"
+      ],
+      "summary": "Finish the 'Return to the Heart' quest series to bring the @npc{Island Spirit} back together with her best friends.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "restored-hearts",
+            "text": "After @mechanic{'Absence Makes the Heart'}, take a different best friend to see the @npc{Island Spirit} each day until 15 Spirit Hearts are unlocked."
+          },
+          {
+            "id": "restored-levels",
+            "text": "Raise @npc{TOPHAT}'s friendship to level 10 and @npc{Big Challenges}'s friendship to level 20."
+          },
+          {
+            "id": "restored-series",
+            "text": "Complete @mechanic{'Up in the Clouds: Part 1'} and @mechanic{'Up in the Clouds: Part 2'}, wait for the daily reset, then finish both quests in the @mechanic{'Return to the Heart'} series."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EnragingRuins",
+      "displayName": "Ruining Rampage",
+      "description": "Explore the Red Hot Ruins",
+      "hidden": false,
+      "globalPercent": 31.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DinosaursNotIncluded"
+      ],
+      "summary": "Explore the @loc{Red Hot Ruins} by completing the 'Enraging Ruins' quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "This quest becomes available after 'Power Up the Gate' is completed.",
+        "steps": [
+          {
+            "id": "ruins-friendship",
+            "text": "Raise @npc{Retsuko}'s friendship to level 7 to unlock the Island Mystery quest @mechanic{'Enraging Ruins'}."
+          },
+          {
+            "id": "ruins-finish",
+            "text": "Complete the quest, which leads through the @loc{Red Hot Ruins}."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_HappyLanding",
+    "ACH_TravelingParty",
+    "ACH_OpenForVisits",
+    "ACH_DinosaursNotIncluded",
+    "ACH_BandRestored",
+    "ACH_NaturePreserve",
+    "ACH_MansionCleared",
+    "ACH_Haunted",
+    "ACH_Mermaidifier",
+    "ACH_EnragingRuins",
+    "ACH_VolcanoFiredUp",
+    "ACH_BogChamp",
+    "ACH_OasisRestored",
+    "ACH_BehindTheWaterfall",
+    "ACH_FreeBC",
+    "ACH_NewHeights",
+    "ACH_RegionalExplorer",
+    "ACH_ReviveReef",
+    "ACH_FriendshipRestored",
+    "ACH_PizzaPerfection",
+    "ACH_DeliciousDesserts",
+    "ACH_ExcellentEspresso",
+    "ACH_SodaSatisfaction",
+    "ACH_BakingBliss",
+    "ACH_CandyConnoisseur",
+    "ACH_EggcellentChef",
+    "ACH_ForTheLoveOfBaking",
+    "ACH_HappyHattery",
+    "ACH_BakersDozen",
+    "ACH_NapTime",
+    "ACH_TrueGamer",
+    "ACH_ThroughThickAndThin",
+    "ACH_RareFlower",
+    "ACH_CritterMaster",
+    "ACH_FlowerCollector",
+    "ACH_MasterAngler",
+    "ACH_AdornedInFlowers",
+    "ACH_MasterOfTheRuins",
+    "ACH_VacationHotSpot",
+    "ACH_DozensSurely",
+    "ACH_StickNation",
+    "ACH_SuperbGiftGiver",
+    "ACH_HelloBestie",
+    "ACH_EveryonesBestie",
+    "ACH_TropicalChallenge",
+    "ACH_SwampyChallenge",
+    "ACH_VolcanicChallenge",
+    "ACH_AquaticChallenge",
+    "ACH_FloralChallenge",
+    "ACH_FloatingChallenge",
+    "ACH_RockyChallenge",
+    "ACH_EveryoneIsWelcome",
+    "ACH_TimeForMilk"
+  ]
+}

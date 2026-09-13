@@ -1,0 +1,3625 @@
+{
+  "game": {
+    "appid": 1088790,
+    "slug": "rebel-inc-escalation",
+    "title": "Rebel Inc: Escalation",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-22",
+    "estTotalHours": 60,
+    "difficultyRating": 7,
+    "minPlaythroughs": 5,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Base achievements & decision events",
+      "description": "Knock out the single-player milestones and the random decision events that award abilities, then pick up the basic win and loss cards.",
+      "achievementRefs": [
+        "pistachio_factory",
+        "ancient_temple",
+        "sports_league",
+        "juice_factory",
+        "desert_storm",
+        "arrest_chief",
+        "basic_right",
+        "welcome_home",
+        "reject_peace",
+        "hold_elections",
+        "accusation",
+        "military_surge",
+        "inflation_high",
+        "corruption_high",
+        "no_peace_win",
+        "reputation_high",
+        "first_win",
+        "first_lose"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Standard-map wins & governor runs",
+      "description": "Win the five standard maps and finish the per-governor runs behind the advisor and governor achievements.",
+      "achievementRefs": [
+        "all_maps",
+        "no_national_soldiers",
+        "full_house",
+        "all_governors",
+        "tanks",
+        "uncivil",
+        "foreign_power",
+        "plague_victory"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Difficulty completion runs",
+      "description": "Repeat wins on higher difficulties, including the per-governor and per-map Mega-Brutal challenges.",
+      "achievementRefs": [
+        "casual_win",
+        "normal_win",
+        "brutal_win",
+        "tanks_brutal",
+        "hell_is_for_heroes",
+        "seventh_heaven",
+        "much_harder_than_it_looks"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Black Caves & Azure Dam",
+      "description": "Clear both special maps and their unique achievements, including dam restoration and convoy feats.",
+      "achievementRefs": [
+        "caves",
+        "caves_brutal",
+        "azure_were",
+        "azure_like_it",
+        "master_builder",
+        "dam_nation",
+        "dont_give_a_dam",
+        "sole_survivor",
+        "born_lucky",
+        "flying_fish",
+        "perfect_haul"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Campaign mode",
+      "description": "Play Campaign mode across its five regions for its completion and difficulty cards, plus the no-advisor, exhausted-governor, deadline, low-reputation, no-treaty, airstrike-honesty, and Dangerous Driving achievements.",
+      "achievementRefs": [
+        "you_are_not_prepared",
+        "bremer_wall",
+        "mission_accomplished",
+        "mission_improbable",
+        "mission_impossible",
+        "only_wilson",
+        "insomniac",
+        "arbitrary_deadline",
+        "strong_and_stable",
+        "the_art_of_war",
+        "honesty_is_the_best_policy",
+        "the_subtle_approach"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Weekly Challenges",
+      "description": "Complete Standard and Brutal weekly challenges for the challenge achievements.",
+      "achievementRefs": [
+        "challenge_normal_win",
+        "challenge_brutal_win",
+        "challenge_ten_wins"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Opium Trail",
+      "description": "Play Opium Trail and clear the poppy-field and opium-trade achievements.",
+      "achievementRefs": [
+        "drug_control",
+        "drug_enforcement",
+        "roll_initiative",
+        "burn_the_dragon",
+        "its_medicinal",
+        "modern_farming",
+        "tragic_accident"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Golden Sands (Sand & Secrets)",
+      "description": "Play the Sand & Secrets map and clear its oil-derrick and wildlife achievements.",
+      "achievementRefs": [
+        "slick_win",
+        "black_gold",
+        "shai_hulud",
+        "the_oil_must_flow",
+        "ulterior_motive"
+      ]
+    },
+    {
+      "step": 9,
+      "title": "Devil's Peak & the Billionaire (Dollars & Disasters)",
+      "description": "Survive the volcanic map and finish the Billionaire governor's money-based achievements.",
+      "achievementRefs": [
+        "no_sweat",
+        "core_meltdown",
+        "roll_the_dice",
+        "hot_feet",
+        "just_a_peak",
+        "come_with_me_if_you_want_to_live",
+        "pay_to_win",
+        "hoard_mode",
+        "sole_trader",
+        "paid_off",
+        "brewsters_millions"
+      ]
+    },
+    {
+      "step": 10,
+      "title": "Multiplayer (Co-op & Versus)",
+      "description": "Win Co-op and Versus matches and clear the mode-specific multiplayer achievements.",
+      "achievementRefs": [
+        "casual_acquaintance",
+        "best_friends",
+        "marriage_material",
+        "the_long_war",
+        "the_longest_war",
+        "shared_custody",
+        "what_reputation",
+        "ndemic_infection_coop",
+        "red_tide",
+        "crossed_swords",
+        "round_2",
+        "just_like_the_simulations",
+        "escape_hatch",
+        "we_were_friends",
+        "core_failure",
+        "clear_conscience",
+        "ndemic_infection_versus"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "pistachio_factory",
+      "displayName": "Super squirrel",
+      "description": "Build a pistachio factory",
+      "hidden": false,
+      "globalPercent": 20.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build a pistachio-processing factory when the random factory-proposal decision appears.",
+      "guide": {
+        "kind": "standard",
+        "context": "The proposal names Pistachio Factory, Pomegranate Factory, and Pistachio Cultivation Centre as separate choices; only the pistachio factory counts. Keep funds available, because the decision only appears at random.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play any region and wait for the factory-proposal decision."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @item{Pistachio Factory} and pay the project cost."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ancient_temple",
+      "displayName": "Let the dead sleep",
+      "description": "Don't disturb the ancient temple",
+      "hidden": false,
+      "globalPercent": 25.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Keep the ancient temple undisturbed by refusing excavation when the archaeological discovery event appears.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Archeological finds discovered event offers Fund excavation, Privatise, and Do nothing; only the neutral answer preserves the temple.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the archaeological discovery event."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Do nothing}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sports_league",
+      "displayName": "The glorious game",
+      "description": "Set up a new sports league",
+      "hidden": false,
+      "globalPercent": 38.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Fund the creation of a new sports league at the sports-league decision.",
+      "guide": {
+        "kind": "standard",
+        "context": "The proposal offers Significant Funding, Limited Funding, and Reject Project; either funding choice counts, and both cost money.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the sports-league proposal."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Significant Funding} or @mechanic{Limited Funding} and pay the cost."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "juice_factory",
+      "displayName": "Juice for everyone",
+      "description": "Build a pomegranate juice factory",
+      "hidden": false,
+      "globalPercent": 34.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build a pomegranate juice factory when the random factory-proposal decision appears.",
+      "guide": {
+        "kind": "standard",
+        "context": "The same proposal as the pistachio factory; only the Pomegranate Factory choice counts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play any region and wait for the factory-proposal decision."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @item{Pomegranate Factory} and pay the project cost."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "desert_storm",
+      "displayName": "Desert Storm",
+      "description": "Allow soldiers to be redeployed to another warzone",
+      "hidden": false,
+      "globalPercent": 28.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Let a Coalition unit be redeployed to another warzone when the withdrawal request is approved.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Coalition to withdraw soldiers event only appears while at least three Coalition units are deployed. Approving is the choice that awards the achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Deploy at least @mechanic{3 Coalition units}."
+          },
+          {
+            "id": "s2",
+            "text": "When the popup about another war appears, open the blue event at your @loc{HQ}."
+          },
+          {
+            "id": "s3",
+            "text": "Choose @mechanic{Allow} so a Coalition unit leaves for the other warzone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "arrest_chief",
+      "displayName": "I Am The Law",
+      "description": "Successfully arrest the corrupt police chief",
+      "hidden": false,
+      "globalPercent": 27.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Arrest the corrupt police chief at the police-abuse decision.",
+      "guide": {
+        "kind": "standard",
+        "context": "The decision only starts appearing after Local Police Recruitment has been bought, and it is announced in advance by a popup about the chief's methods. Ignore, Arrest, and Reward are the options; only Arrest counts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fund @mechanic{Local Police Recruitment} in the Government tab."
+          },
+          {
+            "id": "s2",
+            "text": "Wait for the police-abuse decision."
+          },
+          {
+            "id": "s3",
+            "text": "Choose @mechanic{Arrest}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "basic_right",
+      "displayName": "Basic Right",
+      "description": "Champion women's rights",
+      "hidden": false,
+      "globalPercent": 34.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Support full women's-rights reform at the women's-rights decision.",
+      "guide": {
+        "kind": "standard",
+        "context": "The decision offers No reform, Gradual reform, and Full reform; only Full reform unlocks the achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the women's-rights proposal."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Full reform}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "welcome_home",
+      "displayName": "Welcome home",
+      "description": "Welcome refugees back home",
+      "hidden": false,
+      "globalPercent": 27.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Welcome refugees home by preparing land and later granting it.",
+      "guide": {
+        "kind": "standard",
+        "context": "This needs two linked decisions. The prediction decision must be answered with Prepare land, and the later breaking-point decision with Give land. Keep funds ready for both.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the refugee-crisis prediction."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Prepare land}."
+          },
+          {
+            "id": "s3",
+            "text": "Wait for the refugee crisis to reach breaking point."
+          },
+          {
+            "id": "s4",
+            "text": "Choose @mechanic{Give land}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "reject_peace",
+      "displayName": "Nope",
+      "description": "Reject peace deal with the Insurgents",
+      "hidden": false,
+      "globalPercent": 50.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Turn down the final peace deal with the Insurgents.",
+      "guide": {
+        "kind": "standard",
+        "context": "Once peace progress reaches 100%, the closing decision offers the treaty, concessions, or rejection. Only the outright rejection awards the achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Progress the peace process until the final decision appears."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Reject Deal}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hold_elections",
+      "displayName": "Have your say",
+      "description": "Successfully hold democratic elections",
+      "hidden": false,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hold full democratic elections after funding the Democratic Transition initiative.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both election stages cost funds; if the second stage cannot be paid the election fails, and insurgent activity can disrupt it as well.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fund @mechanic{Democratic Transition} in the Government tab."
+          },
+          {
+            "id": "s2",
+            "text": "At the election-planning prompt choose @mechanic{Prioritize elections}."
+          },
+          {
+            "id": "s3",
+            "text": "At the voting prompt choose @mechanic{Full elections} and pay the cost."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "accusation",
+      "displayName": "Out of the Shadows",
+      "description": "Successfully accuse rival country of supporting Insurgents",
+      "hidden": false,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Publicly accuse a rival country of backing the Insurgents and make the accusation stick.",
+      "guide": {
+        "kind": "standard",
+        "context": "The foreign-rival decision offers Counter-strike, Subtle pressure, and Publicly Accuse; only Publicly Accuse counts. The accusation can fail when reputation or stability is low, so raise both before answering.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the foreign-rival decision."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Publicly Accuse}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "military_surge",
+      "displayName": "Surge",
+      "description": "Accept a large military Surge",
+      "hidden": false,
+      "globalPercent": 23.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Accept a large military Surge by taking the Coalition Surge option.",
+      "guide": {
+        "kind": "standard",
+        "context": "The surge decision offers Coalition Surge, National Surge, and Civilian Surge. The Coalition Surge choice is the one that awards this achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the military-surge decision."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Coalition Surge}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "inflation_high",
+      "displayName": "Western Conspiracy!!",
+      "description": "Inflation levels dangerously high",
+      "hidden": false,
+      "globalPercent": 31.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Drive inflation risk past its danger threshold of about 100%.",
+      "guide": {
+        "kind": "standard",
+        "context": "Inflation climbs as initiatives are bought quickly. Holding funds and spending them in one burst is the fastest way to cross the threshold.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Hold a large @item{funds} reserve."
+          },
+          {
+            "id": "s2",
+            "text": "Buy several inflation-raising initiatives in the same turn."
+          },
+          {
+            "id": "s3",
+            "text": "Let turns pass until the inflation warning fires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "corruption_high",
+      "displayName": "Money makes the world go round",
+      "description": "Make the region completely corrupt",
+      "hidden": false,
+      "globalPercent": 41.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Raise corruption risk to about 70% so the region is completely corrupt.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skip anti-corruption initiatives and corruption-reduction advisors so the risk keeps climbing.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy corruption-raising upgrades and avoid anti-corruption initiatives."
+          },
+          {
+            "id": "s2",
+            "text": "Let the risk climb until the corruption warning fires."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "no_peace_win",
+      "displayName": "Peace is for wimps",
+      "description": "Win a game without finishing the peace process",
+      "hidden": false,
+      "globalPercent": 41.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win by stabilising every zone without ever completing the peace process.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reject each peace decision so no treaty is signed; the victory must come from fully stabilising the region instead.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Stabilise every zone on the map."
+          },
+          {
+            "id": "s2",
+            "text": "Reject every peace-deal offer."
+          },
+          {
+            "id": "s3",
+            "text": "Reach victory with the treaty unsigned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "reputation_high",
+      "displayName": "How dare you question ME",
+      "description": "Win with over 100 Reputation",
+      "hidden": false,
+      "globalPercent": 47.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win with more than 100 reputation remaining.",
+      "guide": {
+        "kind": "standard",
+        "context": "Containing the Insurgents instead of wiping them out lets reputation keep climbing as zones stabilise. Saffron Fields on Casual is the easiest setting.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Saffron Fields} on Casual."
+          },
+          {
+            "id": "s2",
+            "text": "Contain the Insurgents without wiping them out."
+          },
+          {
+            "id": "s3",
+            "text": "Stabilise the region and finish above 100 reputation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "all_maps",
+      "displayName": "Well travelled",
+      "description": "Win on the first five maps",
+      "hidden": false,
+      "globalPercent": 32.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~12 h",
+      "estMinutes": 720,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win on all five standard maps: Saffron Fields, Mountain Pass, Southern Desert, Pistachio Forest, and Distant Steppe.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any victory condition counts, so a completed peace deal is enough. You can also play one map per governor rather than replaying the easiest map.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win each of the five standard maps once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "casual_win",
+      "displayName": "Persistent Person",
+      "description": "Beat the first five maps with every governor on Casual difficulty",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~30 h",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win the five standard maps with all five standard governors on Casual.",
+      "guide": {
+        "kind": "standard",
+        "context": "The requirement is the five standard governors — Civil Servant, Economist, General, Banker, and Smuggler — across 25 map wins.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On Casual, win every standard map once with each of the five standard governors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "normal_win",
+      "displayName": "Successful Strategist",
+      "description": "Beat the first five maps with every governor on Normal difficulty",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~30 h",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win the five standard maps with all five standard governors on Normal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Same 25-win set as the Casual version, but on Normal difficulty.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On Normal, win every standard map once with each of the five standard governors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "brutal_win",
+      "displayName": "Glorious Genius",
+      "description": "Beat the first five maps with every governor on Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "~45 h",
+      "estMinutes": 2700,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win the five standard maps with all five standard governors on Brutal.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hardest of the three governor sets; Saffron Fields on Brutal is the quickest map for most governors.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On Brutal, win every standard map once with each of the five standard governors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_win",
+      "displayName": "COIN King",
+      "description": "Win a game",
+      "hidden": false,
+      "globalPercent": 77.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win any game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Stabilise a region or complete a peace deal on any map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_lose",
+      "displayName": "Harder than it looks",
+      "description": "Lose a game",
+      "hidden": false,
+      "globalPercent": 61.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Lose any game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start any map, preferably on Mega-Brutal, and let reputation fall to zero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "no_national_soldiers",
+      "displayName": "Pacifist",
+      "description": "Win a game without any National soldiers",
+      "hidden": false,
+      "globalPercent": 15.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win using only Coalition troops, with no National soldiers on the map.",
+      "guide": {
+        "kind": "standard",
+        "context": "Coalition units are temporary, so keep enough of them deployed to hold the zones you stabilise.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win any map without training a single National soldier."
+          },
+          {
+            "id": "s2",
+            "text": "Hold zones with Coalition units and civilian support."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "full_house",
+      "displayName": "Full House",
+      "description": "Unlock all of the Advisors",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~18 h",
+      "estMinutes": 1080,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Unlock every Advisor in the roster.",
+      "guide": {
+        "kind": "standard",
+        "context": "One random Advisor unlocks for every won game, and wins inside a campaign count too. Repeating wins is the only requirement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win games repeatedly, including campaign regions, until no Advisors remain locked."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "all_governors",
+      "displayName": "Everything is Awesome",
+      "description": "Win with the first five governors",
+      "hidden": false,
+      "globalPercent": 25.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~7 h",
+      "estMinutes": 420,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win with each of the first five governors: Civil Servant, Economist, General, Banker, and Smuggler.",
+      "guide": {
+        "kind": "standard",
+        "context": "A different governor must win a map; the map itself can stay the same.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win any map with Civil Servant, Economist, General, Banker, and Smuggler."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tanks",
+      "displayName": "Tanks!",
+      "description": "Win a game with the Tank Commander",
+      "hidden": false,
+      "globalPercent": 17.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win a game as the Tank Commander.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tanks cannot gather intel or enter Remote zones, so pair them with regular units to cover the gaps.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Select the Tank Commander and win any map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tanks_brutal",
+      "displayName": "Tanks very much!",
+      "description": "Win a game with the Tank Commander on Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win as the Tank Commander on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Select the Tank Commander and win any map on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "uncivil",
+      "displayName": "Uncivil",
+      "description": "Win a game without funding any Civilian Initiatives",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win without spending on Civilian Initiatives.",
+      "guide": {
+        "kind": "standard",
+        "context": "International Assistance automatic upgrades do not count as funding Civilian Initiatives and remain allowed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fund only Government and Military initiatives."
+          },
+          {
+            "id": "s2",
+            "text": "Let International Assistance cover civilian needs automatically."
+          },
+          {
+            "id": "s3",
+            "text": "Win the map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "foreign_power",
+      "displayName": "Foreign Power",
+      "description": "Win a game without National Soldiers or Garrisons",
+      "hidden": false,
+      "globalPercent": 23.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win without National Soldiers or Garrisons.",
+      "guide": {
+        "kind": "standard",
+        "context": "Coalition units are the only ground force available on this run.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win any map using only Coalition units, with no Garrisons built."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "plague_victory",
+      "displayName": "Infectious",
+      "description": "Win a game on Plague Inc.'s original release date",
+      "hidden": false,
+      "globalPercent": 6.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win while the in-game calendar reads May 2012, Plague Inc.'s original release month.",
+      "guide": {
+        "kind": "standard",
+        "context": "The calendar advances with each set of turns. Contain the Insurgents and stall until May 2012 rather than finishing early; saving near the target month lets you retry.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start an easy map."
+          },
+          {
+            "id": "s2",
+            "text": "Contain the Insurgents without wiping them out."
+          },
+          {
+            "id": "s3",
+            "text": "Keep the region stable until the date reads May 2012, then win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "caves",
+      "displayName": "Dark holes",
+      "description": "Beat Black Caves on any difficulty",
+      "hidden": false,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win the Black Caves map on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Black Caves has unusually aggressive Insurgents and cave systems that hide them. Buy roads early and use tanks against the spread-out zones.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Black Caves} on any difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "caves_brutal",
+      "displayName": "Demon's holes",
+      "description": "Beat Black Caves on Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win Black Caves on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Black Caves starts with very high Insurgent capability on Brutal. Roads, Strategic Communication, and tank support are recommended.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Black Caves} on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "azure_were",
+      "displayName": "Azure were",
+      "description": "Beat Azure Dam on any difficulty",
+      "hidden": false,
+      "globalPercent": 22.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win the Azure Dam map on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Insurgents on this map prefer raiding convoys and the dam instead of holding zones, so roads and convoy defence matter more than map control.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Azure Dam} on any difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "azure_like_it",
+      "displayName": "Azure like it",
+      "description": "Beat Azure Dam on Brutal",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win Azure Dam on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Azure Dam} on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "master_builder",
+      "displayName": "Master builder",
+      "description": "Restore the dam in Azure Dam",
+      "hidden": false,
+      "globalPercent": 21.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Restore the Azure Dam to full integrity.",
+      "guide": {
+        "kind": "standard",
+        "context": "Fund dam construction, then keep the yellow convoy trucks alive so their supplies repair it. A full repair also grants 10 reputation and a large support boost in the dam's zone.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy the @mechanic{dam construction} project from the Government tab."
+          },
+          {
+            "id": "s2",
+            "text": "Escort the yellow convoy trucks to the dam."
+          },
+          {
+            "id": "s3",
+            "text": "Keep repairing until the dam reaches full integrity."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "dam_nation",
+      "displayName": "Dam-nation",
+      "description": "Fail to prevent the region being flooded",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Let the dam collapse so the region floods.",
+      "guide": {
+        "kind": "standard",
+        "context": "When dam durability reaches zero the dam breaks, floods the downstream zone, and instantly ends the game.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Azure Dam} and ignore dam repairs and convoy losses."
+          },
+          {
+            "id": "s2",
+            "text": "Let durability fall to zero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "dont_give_a_dam",
+      "displayName": "Don't give a Dam",
+      "description": "Win before the dam is built in Azure Dam",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win Azure Dam before the dam reaches full integrity.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Azure Dam} without completing the dam."
+          },
+          {
+            "id": "s2",
+            "text": "Stabilise and win before the dam is fully restored."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sole_survivor",
+      "displayName": "Sole Survivor",
+      "description": "Have a Convoy arrive with only one truck left",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Have a convoy reach the dam with only one truck left.",
+      "guide": {
+        "kind": "standard",
+        "context": "A convoy spawns with four to six trucks and loses them to Insurgent attacks, so letting one be whittled down is the natural route.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Azure Dam} and allow Insurgents to destroy all but one truck of a convoy."
+          },
+          {
+            "id": "s2",
+            "text": "Let the surviving truck arrive at the dam."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "born_lucky",
+      "displayName": "Born Lucky",
+      "description": "Save an Expert at the last minute",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Save an Expert at the last moment from attacking Insurgents.",
+      "guide": {
+        "kind": "standard",
+        "context": "This uses the Development Director, whose Experts can be sent into danger like units.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the @mechanic{Development Director}."
+          },
+          {
+            "id": "s2",
+            "text": "Send an @npc{Expert} into a zone next to Insurgents."
+          },
+          {
+            "id": "s3",
+            "text": "Wait until the Expert is nearly dead, then move a military unit in to destroy the attackers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "flying_fish",
+      "displayName": "Flying Fish",
+      "description": "Build a cannon to save the fish",
+      "hidden": false,
+      "globalPercent": 8.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Build the cannon that protects the fish at the Azure Dam wildlife decision.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Marine Conservationists decision only becomes available after the dam has been fully repaired. It offers Build Cannon, Harvest Fish, and Do Nothing; only the cannon counts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Azure Dam} and fully repair the dam."
+          },
+          {
+            "id": "s2",
+            "text": "Wait for the marine-conservationists decision."
+          },
+          {
+            "id": "s3",
+            "text": "Choose @mechanic{Build Cannon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "perfect_haul",
+      "displayName": "Perfect Haul",
+      "description": "Win a game on Azure Dam without losing a single Convoy truck",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win Azure Dam with every convoy truck intact.",
+      "guide": {
+        "kind": "standard",
+        "context": "Escorts, roads, and vehicle upgrades keep trucks alive. Stalling the dam's decay with Development Experts can prevent convoys from spawning at all, which also satisfies the condition.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fund roads and convoy-speed upgrades."
+          },
+          {
+            "id": "s2",
+            "text": "Escort every convoy to the dam."
+          },
+          {
+            "id": "s3",
+            "text": "Win the map with no trucks destroyed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hell_is_for_heroes",
+      "displayName": "Hell is for heroes",
+      "description": "Win with seven different Governors on Mega-Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "~10 h",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win maps on Mega-Brutal with seven different Governors.",
+      "guide": {
+        "kind": "standard",
+        "context": "Replaying one easy map with each governor is enough; the maps themselves can repeat.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win any map on Mega-Brutal with seven different governors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "seventh_heaven",
+      "displayName": "Seventh heaven",
+      "description": "Beat seven different maps on Mega-Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "~10 h",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win on seven different maps on Mega-Brutal.",
+      "guide": {
+        "kind": "standard",
+        "context": "The seven maps are the five standard maps plus Black Caves and Azure Dam.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win seven different maps on Mega-Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "much_harder_than_it_looks",
+      "displayName": "Much harder than it looks",
+      "description": "Win a game in Mega-Brutal",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win any game on Mega-Brutal.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win any map on Mega-Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "you_are_not_prepared",
+      "displayName": "You are not prepared!",
+      "description": "Lose any campaign",
+      "hidden": false,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Lose any campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "A single lost region fails the whole campaign, so this often unlocks by accident on a hard attempt.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a campaign and lose one region."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "bremer_wall",
+      "displayName": "Bremer Wall",
+      "description": "Save the Embassy from the insurgents at the last minute",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defend the Embassy and keep it alive when insurgents attack in a campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is a campaign event where the Embassy must survive an assault; easy difficulty deploys defenders instantly.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play Campaign mode and wait for the Embassy attack event."
+          },
+          {
+            "id": "s2",
+            "text": "Move units to defend the Embassy."
+          },
+          {
+            "id": "s3",
+            "text": "Reinforce while its integrity is nearly gone so it survives."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mission_accomplished",
+      "displayName": "Mission Accomplished",
+      "description": "Complete the campaign on any difficulty",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~8 h",
+      "estMinutes": 480,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete a campaign on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "A campaign is five regions in sequence, and one loss ends the whole run.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win all five regions of a campaign on any difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mission_improbable",
+      "displayName": "Mission Improbable",
+      "description": "Complete the campaign on Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "~12 h",
+      "estMinutes": 720,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete a campaign on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Brutal and Mega-Brutal completions are separate runs and do not stack.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win all five campaign regions on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mission_impossible",
+      "displayName": "Mission Impossible",
+      "description": "Complete the campaign on Mega Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "~15 h",
+      "estMinutes": 900,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete a campaign on Mega-Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Separate from the Brutal completion. Strong early tactics such as sniping or inflation control make it much easier.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win all five campaign regions on Mega-Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "only_wilson",
+      "displayName": "Only Wilson",
+      "description": "Complete the campaign without using advisors",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete a campaign with no Advisors equipped.",
+      "guide": {
+        "kind": "standard",
+        "context": "Leave every Advisor slot empty for the whole campaign; Casual difficulty keeps the missing bonuses manageable.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a campaign and leave all Advisor slots empty."
+          },
+          {
+            "id": "s2",
+            "text": "Win all five regions without equipping an Advisor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "insomniac",
+      "displayName": "Insomniac",
+      "description": "Win a map in a campaign region with a fully exhausted governor",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Win a region using a governor that is fully exhausted.",
+      "guide": {
+        "kind": "standard",
+        "context": "Governors lose stamina every time a campaign region is completed. After three uses the governor is fully exhausted, so the winning run has to be the fourth deployment.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the same governor in a campaign."
+          },
+          {
+            "id": "s2",
+            "text": "Complete three regions so the governor is fully exhausted."
+          },
+          {
+            "id": "s3",
+            "text": "Win a fourth region with that governor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "arbitrary_deadline",
+      "displayName": "Arbitrary Deadline",
+      "description": "Beat every map in a campaign before 2014",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Win every campaign region before the in-game year 2014.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campaign calendar advances as you play. Winning each region quickly keeps the year below 2014; Casual difficulty is easiest.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a campaign on Casual."
+          },
+          {
+            "id": "s2",
+            "text": "Win all five regions before the calendar reaches 2014."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "strong_and_stable",
+      "displayName": "Strong and Stable",
+      "description": "Win a game in campaign with less than 20 reputation",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Win a campaign region with fewer than 20 reputation remaining.",
+      "guide": {
+        "kind": "standard",
+        "context": "There is no minimum reputation at victory, so finish a region with under 20 left.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play a campaign region and let reputation fall."
+          },
+          {
+            "id": "s2",
+            "text": "Win the region with fewer than 20 reputation remaining."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "the_art_of_war",
+      "displayName": "The Art of War",
+      "description": "Win a game in campaign without signing any peace deals",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete a campaign without signing a single peace deal.",
+      "guide": {
+        "kind": "standard",
+        "context": "This must hold for the whole campaign, not just one region.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In every campaign region, refuse all peace deals."
+          },
+          {
+            "id": "s2",
+            "text": "Win the campaign with no treaty signed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "honesty_is_the_best_policy",
+      "displayName": "Honesty is the best policy",
+      "description": "Complete the campaign without covering up civilians being killed by an airstrike",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete a campaign without covering up civilian airstrike deaths.",
+      "guide": {
+        "kind": "standard",
+        "context": "Answer every airstrike-casualty decision with Apologize. Never funding airstrikes also avoids the decision entirely.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Avoid funding airstrikes, or answer every airstrike-casualty decision with @mechanic{Apologize}."
+          },
+          {
+            "id": "s2",
+            "text": "Complete all five campaign regions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "the_subtle_approach",
+      "displayName": "The Subtle approach",
+      "description": "Use the Dangerous Driving tactic to destroy the last insurgent in a zone",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Destroy a zone's last Insurgent with the Dangerous Driving tank tactic.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dangerous Driving is a player tactic that upgrades tanks. The Tank Commander is the natural pick because his starting units are already tanks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the @mechanic{Dangerous Driving} player tactic."
+          },
+          {
+            "id": "s2",
+            "text": "Play the Tank Commander."
+          },
+          {
+            "id": "s3",
+            "text": "Leave one Insurgent alive in a zone and have a tank destroy it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "challenge_normal_win",
+      "displayName": "I'm a big deal",
+      "description": "Complete a Standard Challenge",
+      "hidden": false,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete a Standard weekly Challenge.",
+      "guide": {
+        "kind": "standard",
+        "context": "Weekly Challenges come in Standard and Brutal versions, and on PC both can be reattempted as often as you like.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open Weekly Challenge and complete the Standard variant."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "challenge_brutal_win",
+      "displayName": "Want an autograph?",
+      "description": "Complete a Brutal Challenge",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete a Brutal weekly Challenge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open Weekly Challenge and complete the Brutal variant."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "challenge_ten_wins",
+      "displayName": "10 down, infinity to go",
+      "description": "Complete 10 Challenges",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~12 h",
+      "estMinutes": 720,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete 10 weekly Challenges in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "Standard and Brutal completions both count toward the ten.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete weekly challenges across different weeks until the total reaches ten."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "drug_control",
+      "displayName": "Drug Control",
+      "description": "Win a game on any difficulty on Opium Trail",
+      "hidden": false,
+      "globalPercent": 17.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Win any game on Opium Trail.",
+      "guide": {
+        "kind": "standard",
+        "context": "Poppy fields spread during the map and damage reputation and strengthen the Insurgents until they are cleared.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Opium Trail} on any difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "drug_enforcement",
+      "displayName": "Drug Enforcement",
+      "description": "Win a game on brutal difficulty on Opium Trail",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Win Opium Trail on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Opium Trail} on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "roll_initiative",
+      "displayName": "Roll Initiative",
+      "description": "Use a governor's expertise to improve an outcome",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Pick a governor's unique bonus option at a decision to improve its outcome.",
+      "guide": {
+        "kind": "standard",
+        "context": "Certain decisions carry a governor-specific bonus option, marked with that governor's icon; the Tank Commander's Show Trial option on the drug-kingpin decision is one example.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Watch for a decision that carries a governor-bonus option."
+          },
+          {
+            "id": "s2",
+            "text": "Choose the option tagged with your governor's unique bonus."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "burn_the_dragon",
+      "displayName": "Burn the Dragon",
+      "description": "Destroy 25 Poppy Fields",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Destroy 25 Poppy Fields in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter carries across games. Counter-Narcotics lets units clear poppy fields and stops new fields appearing in stable zones.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On @loc{Opium Trail}, fund @mechanic{Counter-Narcotics}."
+          },
+          {
+            "id": "s2",
+            "text": "Send units through zones to destroy poppy fields."
+          },
+          {
+            "id": "s3",
+            "text": "Repeat across games until the counter passes 25."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "its_medicinal",
+      "displayName": "It's Medicinal",
+      "description": "Seize over 300 kg of Opium",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~5 h",
+      "estMinutes": 300,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Seize more than 300 kg of Opium.",
+      "guide": {
+        "kind": "standard",
+        "context": "The trafficking decision appears with a growing amount of opium. Observing keeps the operation alive and makes the next seizure larger, so the 300 kg total is reached on a later raid.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for the large-scale opium-trafficking decision."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Observe} the first two times it appears."
+          },
+          {
+            "id": "s3",
+            "text": "Choose @mechanic{Raid} when the seizure is 300 kg or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "modern_farming",
+      "displayName": "Modern Farming",
+      "description": "Use tanks to destroy 5 Poppy Fields",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Destroy five Poppy Fields with tanks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tanks clear poppy fields much faster than infantry, so play the Tank Commander after funding Counter-Narcotics.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the Tank Commander on @loc{Opium Trail}."
+          },
+          {
+            "id": "s2",
+            "text": "Fund @mechanic{Counter-Narcotics}."
+          },
+          {
+            "id": "s3",
+            "text": "Drive tanks through poppy fields until five are destroyed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tragic_accident",
+      "displayName": "Tragic Accident",
+      "description": "Run over a drug kingpin with a tank",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Use a tank to run over a captured drug kingpin.",
+      "guide": {
+        "kind": "standard",
+        "context": "The drug-kingpin decision appears on Opium Trail. The Tank Commander has a unique Show Trial bonus that has the kingpin accidentally run over by a tank.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the Tank Commander on @loc{Opium Trail}."
+          },
+          {
+            "id": "s2",
+            "text": "When the drug kingpin is captured, choose @mechanic{Show Trial}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "casual_acquaintance",
+      "displayName": "Casual Acquaintance",
+      "description": "Win a Quick Match Co-Op multiplayer match",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Win a Co-Op Quick Match.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both players share one reputation pool, and the game only pauses when both agree.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a Co-Op Quick Match."
+          },
+          {
+            "id": "s2",
+            "text": "Win the match with your partner."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "best_friends",
+      "displayName": "Best Friends",
+      "description": "Win a Co-Op multiplayer match on Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Win a Co-Op match on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each player's difficulty is counted separately, so your partner can pick a lower difficulty.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a Co-Op Quick Match and set your own difficulty to Brutal."
+          },
+          {
+            "id": "s2",
+            "text": "Win the match."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "marriage_material",
+      "displayName": "Marriage Material",
+      "description": "Win a Co-op multiplayer match on Mega-Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~2 h",
+      "estMinutes": 120,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Win a Co-Op match on Mega-Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a Co-Op match with your difficulty set to Mega-Brutal."
+          },
+          {
+            "id": "s2",
+            "text": "Win the match."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "the_long_war",
+      "displayName": "The Long War",
+      "description": "Complete level 4 in a Co-Op Campaign",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Complete level 4 of a Co-Op Campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Co-Op Campaign continues a co-op match into a shared campaign and needs a partner who keeps playing.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win a co-op match, then continue into a Co-Op Campaign."
+          },
+          {
+            "id": "s2",
+            "text": "Complete level 4."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "the_longest_war",
+      "displayName": "The Longest War",
+      "description": "Complete level 9 in a Co-Op Campaign",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "~8 h",
+      "estMinutes": 480,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Complete level 9 of a Co-Op Campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Continue a co-op match into a Co-Op Campaign and complete level 9 with your partner."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "shared_custody",
+      "displayName": "Shared Custody",
+      "description": "Transfer at least 6 soldiers in a match",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Transfer at least 6 soldiers to your partner in a match.",
+      "guide": {
+        "kind": "standard",
+        "context": "In co-op you can hand control of your own units to your teammate.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a co-op match."
+          },
+          {
+            "id": "s2",
+            "text": "Transfer six of your soldiers to your partner."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "what_reputation",
+      "displayName": "What Reputation?",
+      "description": "Buy every Player Tactic initiative in a Co-Op multiplayer match",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Buy every Player Tactic in a Co-Op match.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Multiplayer tab offers six minor and one major player tactic, all paid for with reputation. Buying one resets the cost of the rest, so the purchases have to be spread over the match.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a co-op match."
+          },
+          {
+            "id": "s2",
+            "text": "Buy every tactic in the Multiplayer tab over the course of the match."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ndemic_infection_coop",
+      "displayName": "Ndemic Infection (Co-Op)",
+      "description": "Play a Co-Op multiplayer match with someone who already has the Ndemic Infection",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Play a Co-Op match with a player who already has the Ndemic Infection.",
+      "guide": {
+        "kind": "standard",
+        "context": "The match must include a player who already has the Ndemic Infection; public matchmaking is the usual way to meet one.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play Co-Op matches until you are paired with a player who already has the Ndemic Infection."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "red_tide",
+      "displayName": "Red Tide",
+      "description": "Control 8 connected Insurgent zones in the other player's Region in a Versus Quick match",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "In a Versus Quick match, hold eight linked Insurgent zones inside your opponent's Region.",
+      "guide": {
+        "kind": "standard",
+        "context": "You control the Insurgents in Versus and buy their upgrades from the Insurgents tab. Camps can be placed before releasing fighters, and releasing several groups at once can take a connected chain of zones.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a Versus Quick match."
+          },
+          {
+            "id": "s2",
+            "text": "Buy Insurgent upgrades and place camps without releasing fighters."
+          },
+          {
+            "id": "s3",
+            "text": "Release several groups at once to take 8 connected zones in the opponent's region."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "crossed_swords",
+      "displayName": "Crossed Swords",
+      "description": "Win a Versus Quick match",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Win a Versus Quick match.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win a Versus Quick match."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "round_2",
+      "displayName": "Round 2",
+      "description": "Start a Versus rematch",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Start a Versus rematch.",
+      "guide": {
+        "kind": "standard",
+        "context": "After a Versus match ends, choose the rematch option; the achievement triggers as the rematch begins.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish a Versus match."
+          },
+          {
+            "id": "s2",
+            "text": "Choose the rematch option."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "just_like_the_simulations",
+      "displayName": "Just like the simulations",
+      "description": "Surround and wipe out all the Insurgents in a zone in a Versus Quick match",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Encircle and wipe out every Insurgent in one zone during a Versus Quick match.",
+      "guide": {
+        "kind": "standard",
+        "context": "The target is the opponent's spawn: find the camp location, then commit a large force to surround the zone.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find the opponent's Insurgent camp."
+          },
+          {
+            "id": "s2",
+            "text": "Surround the zone and destroy every Insurgent inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "escape_hatch",
+      "displayName": "Escape Hatch",
+      "description": "Witness Insurgents fleeing through a tunnel to a new zone in a Versus Quick match",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Watch Insurgents flee through a tunnel into another zone in a Versus Quick match.",
+      "guide": {
+        "kind": "standard",
+        "context": "The opponent's Insurgents retreat through tunnels when they are losing but not yet wiped out, so weak attacking units let them escape instead of dying.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a Versus Quick match."
+          },
+          {
+            "id": "s2",
+            "text": "Attack a group of Insurgents without killing them outright."
+          },
+          {
+            "id": "s3",
+            "text": "Let the survivors retreat through a tunnel into another zone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "we_were_friends",
+      "displayName": "I Thought We Were Friends",
+      "description": "Win a Versus Private match",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Win a Versus Private match.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Set up a private Versus match with another player and win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "core_failure",
+      "displayName": "Core Failure",
+      "description": "Destroy another player's HQ in a Versus Quick match",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~1 h",
+      "estMinutes": 90,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Wreck the enemy HQ during a Versus Quick match.",
+      "guide": {
+        "kind": "standard",
+        "context": "Camps can be hidden from the opponent, and fighters massed before a single push on the HQ.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build up Insurgent fighters away from the opponent."
+          },
+          {
+            "id": "s2",
+            "text": "Send them all against the enemy HQ and destroy it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "clear_conscience",
+      "displayName": "Clear Conscience",
+      "description": "Win a Versus Quick match without buying an Insurgent initiative",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Win a Versus Quick match while spending nothing on Insurgent initiatives.",
+      "guide": {
+        "kind": "standard",
+        "context": "A defensive build is easiest, because your Insurgents must act without any upgrades.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a Versus Quick match."
+          },
+          {
+            "id": "s2",
+            "text": "Buy nothing from the Insurgents tab."
+          },
+          {
+            "id": "s3",
+            "text": "Win the match."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ndemic_infection_versus",
+      "displayName": "Ndemic Infection (Versus)",
+      "description": "Play a Versus multiplayer match with someone who already has the Ndemic Infection",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "~1 h",
+      "estMinutes": 60,
+      "stage": 10,
+      "confidence": "verified",
+      "summary": "Play a Versus match against a player who already has the Ndemic Infection.",
+      "guide": {
+        "kind": "standard",
+        "context": "The match must include a player who already has the Ndemic Infection; public matchmaking is the usual way to meet one.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play Versus matches until you are paired with a player who already has the Ndemic Infection."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "slick_win",
+      "displayName": "Slick Win",
+      "description": "Beat Golden Sands on any difficulty",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Win Golden Sands on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requires the Sand & Secrets DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Golden Sands} on any difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "black_gold",
+      "displayName": "Black Gold",
+      "description": "Beat Golden Sands on Brutal",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Win Golden Sands on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requires the Sand & Secrets DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Golden Sands} on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "shai_hulud",
+      "displayName": "Shai-Hulud",
+      "description": "Save the Sand Worms",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Save the Sand Worms at the Golden Sands wildlife decision.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wildlife decision offers Rescue, Relocate, and Continue; only Rescue awards the achievement.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Golden Sands} until the wildlife decision appears."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Rescue}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "the_oil_must_flow",
+      "displayName": "The Oil Must Flow",
+      "description": "Stabilise all 4 Oil Derrick zones within 5 years",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Stabilise all four Oil Derrick zones within 5 years.",
+      "guide": {
+        "kind": "standard",
+        "context": "Four derricks spawn in preset zones. Intel is needed to collect their income, and Insurgent control of a derrick boosts their capability, so hold each zone with units or garrisons.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reveal the four @item{oil derricks} with intel."
+          },
+          {
+            "id": "s2",
+            "text": "Place units or garrisons to hold each derrick zone."
+          },
+          {
+            "id": "s3",
+            "text": "Stabilise all four within the 5-year limit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ulterior_motive",
+      "displayName": "Ulterior Motive",
+      "description": "Don't send any Coalition Soldiers home in Golden Sands",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Keep every Coalition Soldier in Golden Sands; send none home.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Coalition withdrawal event only appears while at least three Coalition units are deployed, and every request has to be refused.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Golden Sands} keeping Coalition units deployed."
+          },
+          {
+            "id": "s2",
+            "text": "Refuse every request to withdraw a Coalition unit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "no_sweat",
+      "displayName": "No Sweat",
+      "description": "Beat Devil's Peak on any difficulty",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Win Devil's Peak on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requires the Dollars & Disasters DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Devil's Peak} on any difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "core_meltdown",
+      "displayName": "Core Meltdown",
+      "description": "Beat Devil's Peak on Brutal difficulty",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Win Devil's Peak on Brutal difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requires the Dollars & Disasters DLC. The Billionaire is recommended for this map.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win @loc{Devil's Peak} on Brutal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "roll_the_dice",
+      "displayName": "Roll the dice",
+      "description": "Lose your HQ to an Eruption",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Lose your HQ to a volcanic eruption.",
+      "guide": {
+        "kind": "standard",
+        "context": "An eruption that hits the HQ zone destroys it unless it is evacuated. With Fire Proximity Suits the HQ survives half the time, and without them it always dies, so saving before the blast lets you retry.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Devil's Peak} without Fire Proximity Suits."
+          },
+          {
+            "id": "s2",
+            "text": "When an eruption targets the HQ zone, choose @mechanic{Ignore} and let the blast hit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hot_feet",
+      "displayName": "Hot Feet",
+      "description": "Kill an Insurgent with an Eruption",
+      "hidden": false,
+      "globalPercent": 4.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Kill an Insurgent with an eruption.",
+      "guide": {
+        "kind": "standard",
+        "context": "Insurgents caught in an eruption zone are destroyed by the blast, so leave or lure them into a warned zone.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Devil's Peak}."
+          },
+          {
+            "id": "s2",
+            "text": "Let Insurgents move into a zone under an eruption warning."
+          },
+          {
+            "id": "s3",
+            "text": "Let the eruption destroy them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "just_a_peak",
+      "displayName": "Just a peak",
+      "description": "Sucessfully complete the volcanic study",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Finish the volcanic study successfully.",
+      "guide": {
+        "kind": "standard",
+        "context": "The volcanic-study decision offers Allow and Guide, Allow, and Reject. Allow and Guide always brings the volcanologists at the cost of one National Soldier, while Allow succeeds with a chance.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Devil's Peak} until the volcanic-study decision appears."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Allow and Guide} or @mechanic{Allow} and bring the volcanologists to the volcano."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "come_with_me_if_you_want_to_live",
+      "displayName": "Come with me if you want to live",
+      "description": "Save a City in Devil's Peak",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Save a city during an eruption on Devil's Peak.",
+      "guide": {
+        "kind": "standard",
+        "context": "When an eruption threatens a city zone, the evacuation must succeed before the blast. Controlled Evacuation needs a free military unit nearby, while Emergency Evacuation costs funds and cannot be used on an insurgent-held zone.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for an eruption warning on a @loc{city} zone."
+          },
+          {
+            "id": "s2",
+            "text": "Have a free military unit nearby or funds ready."
+          },
+          {
+            "id": "s3",
+            "text": "Choose @mechanic{Controlled Evacuation} or @mechanic{Emergency Evacuation} and complete it before the blast."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "pay_to_win",
+      "displayName": "Pay to Win",
+      "description": "Win a game with the Billionaire Governor",
+      "hidden": false,
+      "globalPercent": 8.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "~2 h",
+      "estMinutes": 150,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Win a game as the Billionaire Governor.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requires the Dollars & Disasters DLC. The Billionaire has no National Soldiers or Garrisons and relies on bribe-capable Coalition Facilitators instead.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Select the @npc{Billionaire} and win any map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hoard_mode",
+      "displayName": "Hoard Mode",
+      "description": "As the Billionaire, have $200",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Build the Billionaire's funds up to $200.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Billionaire profits from Investment Portfolio and Return Investment, so returns and passive income let the balance grow.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the Billionaire."
+          },
+          {
+            "id": "s2",
+            "text": "Buy Investment Portfolio and let it build returns."
+          },
+          {
+            "id": "s3",
+            "text": "Bank $200 without spending it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sole_trader",
+      "displayName": "Sole Trader",
+      "description": "With the Billionaire governor, win a game with only 1 Coalition Facilitator",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Win as the Billionaire with just one Coalition Facilitator deployed.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Billionaire can deploy up to three Coalition Facilitators, so deploy one and win without calling in more.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the Billionaire."
+          },
+          {
+            "id": "s2",
+            "text": "Deploy a single Coalition Facilitator."
+          },
+          {
+            "id": "s3",
+            "text": "Win without deploying any more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "paid_off",
+      "displayName": "Paid Off",
+      "description": "As the Billionaire, Bribe 100 Insurgents",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Bribe 100 Insurgents as the Billionaire.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bribing destroys individual fighters at a cost in funds and adds corruption; the count carries across games.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the Billionaire."
+          },
+          {
+            "id": "s2",
+            "text": "Use Coalition Facilitators to bribe Insurgents."
+          },
+          {
+            "id": "s3",
+            "text": "Repeat across games until 100 have been bribed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "brewsters_millions",
+      "displayName": "Brewster's Millions",
+      "description": "As the Billionaire, win a game with less than $10",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Win as the Billionaire with under $10 left.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the Billionaire and reach a winning position."
+          },
+          {
+            "id": "s2",
+            "text": "Spend funds on initiatives until the balance is under $10."
+          },
+          {
+            "id": "s3",
+            "text": "Win with less than $10 remaining."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "first_lose",
+    "first_win",
+    "sports_league",
+    "juice_factory",
+    "ancient_temple",
+    "reject_peace",
+    "pistachio_factory",
+    "basic_right",
+    "hold_elections",
+    "corruption_high",
+    "inflation_high",
+    "desert_storm",
+    "arrest_chief",
+    "military_surge",
+    "no_peace_win",
+    "welcome_home",
+    "reputation_high",
+    "accusation",
+    "foreign_power",
+    "tanks",
+    "uncivil",
+    "no_national_soldiers",
+    "plague_victory",
+    "all_governors",
+    "all_maps",
+    "full_house",
+    "much_harder_than_it_looks",
+    "tanks_brutal",
+    "seventh_heaven",
+    "hell_is_for_heroes",
+    "casual_win",
+    "normal_win",
+    "brutal_win",
+    "flying_fish",
+    "sole_survivor",
+    "dam_nation",
+    "master_builder",
+    "caves",
+    "azure_were",
+    "born_lucky",
+    "dont_give_a_dam",
+    "perfect_haul",
+    "caves_brutal",
+    "azure_like_it",
+    "you_are_not_prepared",
+    "bremer_wall",
+    "the_subtle_approach",
+    "strong_and_stable",
+    "insomniac",
+    "mission_accomplished",
+    "arbitrary_deadline",
+    "honesty_is_the_best_policy",
+    "the_art_of_war",
+    "only_wilson",
+    "mission_improbable",
+    "mission_impossible",
+    "challenge_normal_win",
+    "challenge_brutal_win",
+    "challenge_ten_wins",
+    "roll_initiative",
+    "drug_control",
+    "modern_farming",
+    "tragic_accident",
+    "burn_the_dragon",
+    "its_medicinal",
+    "drug_enforcement",
+    "shai_hulud",
+    "slick_win",
+    "ulterior_motive",
+    "black_gold",
+    "the_oil_must_flow",
+    "just_a_peak",
+    "pay_to_win",
+    "roll_the_dice",
+    "hot_feet",
+    "hoard_mode",
+    "no_sweat",
+    "come_with_me_if_you_want_to_live",
+    "brewsters_millions",
+    "sole_trader",
+    "paid_off",
+    "core_meltdown",
+    "round_2",
+    "shared_custody",
+    "we_were_friends",
+    "casual_acquaintance",
+    "crossed_swords",
+    "just_like_the_simulations",
+    "what_reputation",
+    "clear_conscience",
+    "red_tide",
+    "core_failure",
+    "ndemic_infection_coop",
+    "ndemic_infection_versus",
+    "best_friends",
+    "escape_hatch",
+    "marriage_material",
+    "the_long_war",
+    "the_longest_war"
+  ]
+}

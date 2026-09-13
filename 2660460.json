@@ -1,0 +1,493 @@
+{
+  "game": {
+    "appid": 2660460,
+    "slug": "aviassembly",
+    "title": "Aviassembly",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-12",
+    "estTotalHours": 10,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Campaign in Relaxed Mode (wood engines only)",
+      "description": "Play the campaign on Relaxed Mode and finish it with Wood Engines only, never researching another engine. During the delivery contracts, complete the ground/low-speed and hybrid-plane unlocks before the last contracts close: a combined two-mission flight, a Titanium run driven entirely on the ground, a wingless delivery, and a delivery kept under a speed of 50. Finish by delivering the Radioactive Waste from the Explosion Site to the Waste Storage for the Campaign and Wood Engine achievements.",
+      "achievementRefs": [
+        "ACH_ONE_FLIGHT",
+        "ACH_CARGO_TRUCK",
+        "ACH_WINGLESS",
+        "ACH_AIRSHIP",
+        "ACH_CAMPAIGN",
+        "ACH_WOOD_ENGINE"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish every remaining contract (Completionist)",
+      "description": "After the campaign, complete all contracts from every airport. Land at the airports that no required route visits, including the wrecked ship, the SOS camp, the Hermit, and the prison island, and finish the four ship helipad deliveries by landing and collecting the reward.",
+      "achievementRefs": [
+        "ACH_COMPLETIONIST"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Build the speed aircraft",
+      "description": "With the campaign over, build a cockpit with stacked rocket engines, fuel tanks, and one retractable landing gear, then climb, retract the gear, and go full throttle to pass 500, 1000, and 3000 speed in one flight.",
+      "achievementRefs": [
+        "ACH_SPEED_1",
+        "ACH_SPEED_2",
+        "ACH_SPEED_3"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Build the balloon craft",
+      "description": "Build a single fuselage covered in balloons, take off, and wait about two minutes to reach a height of 10 000 for Edge of space.",
+      "achievementRefs": [
+        "ACH_HEIGHT"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_CARGO_TRUCK",
+      "displayName": "Cargo truck",
+      "description": "Make a delivery without leaving the ground",
+      "hidden": false,
+      "globalPercent": 14.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15-30 min during the campaign",
+      "estMinutes": 20,
+      "stage": 1,
+      "lockoutStage": 1,
+      "group": "low-speed-delivery",
+      "confidence": "verified",
+      "summary": "Complete a delivery contract without the aircraft leaving the ground.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do this during the campaign while a contract is still open, rather than saving it until every contract is complete. The @loc{Desert Island} has the flattest ground and is the easiest place to drive a full delivery. Small hops do not count as flying.",
+        "steps": [
+          {
+            "id": "cargo_truck-1",
+            "text": "On the @loc{Desert Island}, use a ground vehicle instead of a plane to load @item{Titanium} at the @loc{Mine}."
+          },
+          {
+            "id": "cargo_truck-2",
+            "text": "Drive on the ground from the @loc{Mine} toward the @loc{Waste Storage}, passing the small lake and continuing between the two lakes.",
+            "note": "Small hills and dips are passable, but large hills stall a @item{Wood Engine} vehicle.",
+            "kind": "warning"
+          },
+          {
+            "id": "cargo_truck-3",
+            "text": "Deliver the @item{Titanium} at the @loc{Waste Storage}; the achievement unlocks when the contract registers without a takeoff."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CAMPAIGN",
+      "displayName": "Campaign",
+      "description": "Finish the campaign",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 8 h",
+      "estMinutes": 480,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the campaign by carrying the @item{radioactive waste} out of the @loc{Explosion Site} and into the @loc{Waste Storage}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The required campaign missions are the Weather Station on the @loc{Starter Island}, the Research Facility on the @loc{Snow Island}, and the final delivery on the @loc{Desert Island}. Extra contracts are needed along the way for money and scraps. A cutscene and the title screen confirm completion.",
+        "steps": [
+          {
+            "id": "campaign-1",
+            "text": "Complete the Weather Station mission on the @loc{Starter Island} and the Research Facility mission on the @loc{Snow Island}, taking other contracts as needed for money."
+          },
+          {
+            "id": "campaign-2",
+            "text": "On the @loc{Desert Island}, pick up the @item{radioactive waste} at the @loc{Explosion Site} and deliver it to the @loc{Waste Storage}."
+          },
+          {
+            "id": "campaign-3",
+            "text": "Wait through the ending cutscene and title screen; the achievement unlocks automatically."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WOOD_ENGINE",
+      "displayName": "Wood engine",
+      "description": "Finish the campaign with wood engines only",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "alongside the campaign",
+      "estMinutes": 5,
+      "stage": 1,
+      "lockoutStage": 1,
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "confidence": "verified",
+      "summary": "Finish the campaign using only the @item{Wood Engine}, without researching or fitting another engine type.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is missable and is checked across the entire campaign, so researching even one non-wood engine voids it. Cockpits, fuel tanks, wings, landing gear, and other non-engine parts may be researched freely. Optional contracts can be skipped; only the main campaign must be finished.",
+        "steps": [
+          {
+            "id": "wood_engine-1",
+            "text": "Start a @mechanic{Relaxed Mode} campaign and keep every engine fitted to the aircraft a @item{Wood Engine} for the whole run."
+          },
+          {
+            "id": "wood_engine-2",
+            "text": "At the research screen, do not unlock any other engine type; research only cockpits, fuel tanks, wings, landing gear, and other non-engine parts.",
+            "kind": "warning"
+          },
+          {
+            "id": "wood_engine-3",
+            "text": "Finish the campaign by handing the @item{radioactive waste} over at the @loc{Waste Storage}; the achievement unlocks together with @mechanic{Campaign}.",
+            "note": "Stack Wood Engines inside one another and line them up behind one another to cut drag, and place balloons inside the fuselage to lift heavy cargo at low speed.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WINGLESS",
+      "displayName": "Wingless",
+      "description": "Complete a mission with a plane that has no wings",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20-40 min during the campaign",
+      "estMinutes": 30,
+      "stage": 1,
+      "lockoutStage": 1,
+      "group": "low-speed-delivery",
+      "confidence": "verified",
+      "summary": "Complete a delivery contract with an aircraft that has no wings.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do this during the campaign while a contract is still open, rather than saving it until every contract is complete. The aircraft must have no tailwings either, and the flight can be combined with @mechanic{Airship}.",
+        "steps": [
+          {
+            "id": "wingless-1",
+            "text": "Build an aircraft with no wings and no tailwings; fit balloons and engines pointing upward to keep it airborne."
+          },
+          {
+            "id": "wingless-2",
+            "text": "Load cargo for an open contract and complete the delivery with the wingless aircraft.",
+            "note": "A practical build removes the wings, adds balloons along the sides, and points two engines upward to offset the weight lost as fuel burns. Fuel tanks inside the body extend the slow flight.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ONE_FLIGHT",
+      "displayName": "Two Birds, One Flight",
+      "description": "Complete 2 missions using only a single takeoff and landing.",
+      "hidden": false,
+      "globalPercent": 11.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "one combined delivery",
+      "estMinutes": 10,
+      "stage": 1,
+      "lockoutStage": 1,
+      "confidence": "verified",
+      "summary": "Complete two separate delivery missions with a single takeoff and landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "Steam counts each requested cargo as its own mission, so an airport asking for two different goods offers two missions. Partial deliveries across earlier trips are fine; the final required item of both missions must be handed over in the same flight. Do this during the campaign while a contract is still open.",
+        "steps": [
+          {
+            "id": "one_flight-1",
+            "text": "Choose a destination that requests two cargo types, such as the @loc{Hermit}, which asks for @item{Fish} and @item{Crabs}."
+          },
+          {
+            "id": "one_flight-2",
+            "text": "Carry both cargo types on the same trip and deliver the last required amount of each after one takeoff."
+          },
+          {
+            "id": "one_flight-3",
+            "text": "Finish both deliveries before landing; the achievement unlocks when the second mission completes.",
+            "note": "The @loc{SOS camp} fish delivery and the @loc{Water Station} chemicals delivery also request two goods that can be finished together.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMPLETIONIST",
+      "displayName": "Completionist",
+      "description": "Complete every mission in the campaign",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-4 h after the campaign",
+      "estMinutes": 150,
+      "stage": 2,
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "confidence": "verified",
+      "summary": "Complete every delivery contract offered by every airport and ship.",
+      "guide": {
+        "kind": "standard",
+        "context": "Contracts are received only by landing at an airport, so an airport that no required route visits can be missed even when its marker shows on the map. Ship helipad contracts count toward this achievement and register only after the reward is collected.",
+        "steps": [
+          {
+            "id": "completionist-1",
+            "text": "Complete every contract at every airport, including optional ones that no route leads to: the two @loc{Starter Island} airports, the wrecked ship in the south, the @loc{SOS camp}, the @loc{Hermit}, and the @loc{prison} island off the @loc{Starter Island}."
+          },
+          {
+            "id": "completionist-2",
+            "text": "Finish the four ship helipad contracts around the @loc{Snow Island} (@loc{WaveRider}, @loc{IronSail}, and @loc{DawnBreaker}) and west of the @loc{Desert Island} (@loc{OilTanker})."
+          },
+          {
+            "id": "completionist-3",
+            "text": "For each helipad delivery, hover near the ship until the radio confirms the drop, then land on the ship to collect the reward so the contract registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_AIRSHIP",
+      "displayName": "Airship",
+      "description": "Complete a mission without exceeding a speed of 50 between takeoff and landing",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15-30 min during the campaign",
+      "estMinutes": 20,
+      "stage": 1,
+      "lockoutStage": 1,
+      "group": "low-speed-delivery",
+      "confidence": "verified",
+      "summary": "Complete a delivery contract while keeping the speed at or below 50 from takeoff until landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do this during the campaign while a contract is still open, rather than saving it until every contract is complete. An airship is not required; a ground vehicle that stays well below the speed cap is enough, and the same delivery can unlock @mechanic{Cargo truck} and @mechanic{Wingless}.",
+        "steps": [
+          {
+            "id": "airship-1",
+            "text": "Drive a ground vehicle at low speed through a full contract and deliver the cargo without ever exceeding a speed of 50; the achievement unlocks when the delivery registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEED_1",
+      "displayName": "Speed 1",
+      "description": "Reach a speed of 500",
+      "hidden": false,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10-15 min after the campaign",
+      "estMinutes": 15,
+      "stage": 3,
+      "group": "speed",
+      "confidence": "verified",
+      "summary": "Reach a speed of 500.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recommended after the campaign, when @item{Rocket Engines} and large fuel tanks are available. A single build that reaches over 3000 also unlocks Speed 2 and Speed 3.",
+        "steps": [
+          {
+            "id": "speed_1-1",
+            "text": "Build an aircraft with an elongated cockpit, a single retractable landing gear below the fuselage, six or seven @item{Rocket Engines} at the back, and @item{large external fuel tanks} filling the cockpit interior."
+          },
+          {
+            "id": "speed_1-2",
+            "text": "Take off, climb a little, raise the landing gear, then hold full throttle and let the aircraft accelerate past a speed of 500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEED_2",
+      "displayName": "Speed 2",
+      "description": "Reach a speed of 1000",
+      "hidden": false,
+      "globalPercent": 14.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "same flight as Speed 1",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "speed",
+      "prerequisites": [
+        "ACH_SPEED_1"
+      ],
+      "confidence": "verified",
+      "summary": "Reach a speed of 1000.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recommended after the campaign. The same rocket build used for Speed 1 passes 1000 on its climb toward 3000.",
+        "steps": [
+          {
+            "id": "speed_2-1",
+            "text": "Build an aircraft with an elongated cockpit, a single retractable landing gear below the fuselage, six or seven @item{Rocket Engines} at the back, and @item{large external fuel tanks} filling the cockpit interior."
+          },
+          {
+            "id": "speed_2-2",
+            "text": "Take off, climb a little, raise the landing gear, then hold full throttle and let the aircraft accelerate past a speed of 1000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEED_3",
+      "displayName": "Speed 3",
+      "description": "Reach a speed of 3000",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "same flight as Speed 1",
+      "estMinutes": 5,
+      "stage": 3,
+      "group": "speed",
+      "prerequisites": [
+        "ACH_SPEED_2"
+      ],
+      "confidence": "verified",
+      "summary": "Reach a speed of 3000.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recommended after the campaign. A build that reaches about 4000 unlocks all three speed achievements in one flight.",
+        "steps": [
+          {
+            "id": "speed_3-1",
+            "text": "Build an aircraft with an elongated cockpit, a single retractable landing gear below the fuselage, six or seven @item{Rocket Engines} at the back, and @item{large external fuel tanks} filling the cockpit interior."
+          },
+          {
+            "id": "speed_3-2",
+            "text": "Take off, climb a little, raise the landing gear, then hold full throttle and let the aircraft accelerate past a speed of 3000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HEIGHT",
+      "displayName": "Edge of space",
+      "description": "Reach 10 000 height",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 min after the campaign",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Reach a height of 10 000.",
+      "guide": {
+        "kind": "standard",
+        "context": "Recommended after the campaign, when enough coins are available; the balloon build costs roughly 40 000 coins. The climb takes about two minutes and needs no piloting after takeoff.",
+        "steps": [
+          {
+            "id": "height-1",
+            "text": "Build a single fuselage and attach as many @item{balloons} as you can afford."
+          },
+          {
+            "id": "height-2",
+            "text": "Take off and wait for the aircraft to climb to a height of 10 000; the achievement unlocks automatically.",
+            "note": "Right-click to angle the camera down; the region name and the altitude readout appear below the aircraft.",
+            "kind": "tip"
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_ONE_FLIGHT",
+    "ACH_CARGO_TRUCK",
+    "ACH_AIRSHIP",
+    "ACH_WINGLESS",
+    "ACH_CAMPAIGN",
+    "ACH_WOOD_ENGINE",
+    "ACH_COMPLETIONIST",
+    "ACH_SPEED_1",
+    "ACH_SPEED_2",
+    "ACH_SPEED_3",
+    "ACH_HEIGHT"
+  ]
+}

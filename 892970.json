@@ -1,9 +1,140 @@
 {
+  "game": {
+    "appid": 892970,
+    "slug": "valheim",
+    "title": "Valheim",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-11",
+    "estTotalHours": 250,
+    "difficultyRating": 8,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Meadows: arrival and first base",
+      "description": "Arrive in the tenth world, raise your first house and village, start the long gathering and building grinds, and defeat Eikthyr.",
+      "achievementRefs": [
+        "Arrived",
+        "FirstDeath",
+        "BuildHouse",
+        "BuildVillage",
+        "GrindBuild",
+        "GrindTrees",
+        "GrindCook",
+        "GrindHarvest",
+        "GrindForager",
+        "GrindHoney",
+        "GrindEat",
+        "GrindComfort",
+        "BuildHigh",
+        "Boss1Eikthyr"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Black Forest and The Elder",
+      "description": "Gather bronze and Ancient Seeds, then summon and defeat The Elder.",
+      "achievementRefs": [
+        "Boss2Elder"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Swamp, ocean and Bonemass",
+      "description": "Enter the Swamp for iron and the Wishbone, sail the world oceans, and defeat Bonemass.",
+      "achievementRefs": [
+        "Boss3Bonemass",
+        "GrindTreasure",
+        "GrindLeviathan",
+        "GrindSail",
+        "GrindSailHelm",
+        "ExploreNSEW",
+        "ExploreNSEWNoMap",
+        "SailEdge",
+        "GrindFish",
+        "BigFish"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Mountains and Plains",
+      "description": "Mine silver for Moder, then farm the Plains for Yagluth.",
+      "achievementRefs": [
+        "Boss4Moder",
+        "Boss5Yagluth"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Mistlands and Ashlands",
+      "description": "Build the Sealbreaker and defeat The Queen, then enter the Ashlands for Fader and Dyrnwyn.",
+      "achievementRefs": [
+        "Boss6Queen",
+        "Boss7Fader",
+        "BuildDyrnwyn"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Deep North finale",
+      "description": "Clear the Hidden Tunnels and Morkhalla, defeat Kall Fimbulbringer, and build at the top of the world.",
+      "achievementRefs": [
+        "Boss8FrozenKing",
+        "BuildHighWorld"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Deaths and survival",
+      "description": "Record every tracked death, then keep a survivor alive for 30 days.",
+      "achievementRefs": [
+        "DeathByTree",
+        "DeathByTreeAll",
+        "DeathByAllTypes",
+        "DeathByObliterator",
+        "GrindDays"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Hard difficulty and mastery",
+      "description": "Defeat every boss and miniboss on Hard, complete the solo and co-op boss kills, and unlock the two mastery achievements.",
+      "achievementRefs": [
+        "AllBosses",
+        "AllBossesNormal",
+        "AllBossesHard",
+        "SoloBoss",
+        "MultiplayerBoss",
+        "AllMiniBosses",
+        "KingsQueens",
+        "ChildOfOdin"
+      ]
+    },
+    {
+      "step": 9,
+      "title": "Completionist crafting and collecting",
+      "description": "Finish the large checklists for weapons, food, items, trophies, build pieces, and creatures.",
+      "achievementRefs": [
+        "AllWeaponCraft",
+        "AllFoodCooked",
+        "AllFoodEaten",
+        "AllItemCraft",
+        "FindAllTrophies",
+        "AllBuildPieces",
+        "KillAllCreatures",
+        "KillAllCreaturesHard"
+      ]
+    }
+  ],
   "achievements": [
     {
       "apiName": "BuildHigh",
-      "description": "Raise a very tall structure.",
       "displayName": "Mighty Halls",
+      "description": "Raise a very tall structure.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11,22 +142,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Place a build piece more than 49 metres above the ground.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "buildhigh-1",
-            "text": "Anchor a tower to terrain with the strongest supports available, then place a piece at least 49 metres above that terrain."
+            "text": "Build a supported tower and place a piece more than 49 metres above the terrain below it."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Raise a very tall structure."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "BuildHighWorld",
-      "description": "Build something very high up.",
       "displayName": "Top of the World",
+      "description": "Build something very high up.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -34,22 +172,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Place a build piece above 432 metres world altitude.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "buildhighworld-1",
-            "text": "Climb a high Deep North or Mountain peak and place a piece when the world-altitude tracker is at least 432 metres; extend upward with properly supported pieces if needed."
+            "text": "Climb a high Deep North or Mountain peak and place a piece once the altitude readout is above 432 metres."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Place a build piece at or above 432 metres world altitude."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "DeathByAllTypes",
-      "description": "Die in every way possible.",
       "displayName": "Are You Alright?",
+      "description": "Die in every way possible.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -57,26 +202,57 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 6,
+      "estTime": "3-5 h",
+      "estMinutes": 240,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Die once from each of the 16 tracked causes of death.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "deathbyalltypes-1",
-            "text": "Before starting the 30-day Survivor streak, record enemy, fall, drowning, burning, freezing, poison, smoke, world-edge, tree/log, ballista, stalactite, catapult, Ashlands-ocean, Obliterator, drawbridge, and Ashlands-lava deaths; verify each row in the tracker after respawning."
+            "text": "Die once from each tracked cause: fall, drowning, burning, freezing, poison, smoke, and an enemy hit; then a world-edge fall, a falling tree or log, a ballista bolt, a Frost Cave stalactite, a catapult shot, boiling Ashlands water, an Obliterator blast, a closing drawbridge, and lava."
           },
           {
             "id": "deathbyalltypes-2",
-            "text": "For the unusual entries, first bank gear and lower health. Load a Ballista and leave it in Everything mode so it targets players, then stand in its firing arc. In a Frost Cave, stand directly under a hanging stalactite and trigger its fall. For Catapult credit, have a helper fire a loaded Catapult at your marked position (or use a close obstacle and move into the impact point solo). Swim in the hot Ashlands ocean for ocean credit, stand in Ashlands lava for lava credit, pull an Obliterator lever and remain beside it through the delayed lightning area, and operate a Timberwood Drawbridge before moving into its closing path. A helper is optional for timing; the condition itself has no multiplayer requirement."
+            "text": "Bank your gear and lower your health before setting up the unusual deaths."
+          },
+          {
+            "id": "deathbyalltypes-3",
+            "text": "Load a Ballista, leave it in Everything mode so it targets players, and stand in its firing arc."
+          },
+          {
+            "id": "deathbyalltypes-4",
+            "text": "In a Frost Cave, stand under a hanging stalactite and make it fall on you."
+          },
+          {
+            "id": "deathbyalltypes-5",
+            "text": "Have another player fire a loaded Catapult at your position, or stand in the impact point of a shot aimed at a nearby obstacle."
+          },
+          {
+            "id": "deathbyalltypes-6",
+            "text": "Swim in the boiling Ashlands ocean and stand in Ashlands lava."
+          },
+          {
+            "id": "deathbyalltypes-7",
+            "text": "Pull an Obliterator lever and stay beside it through the delayed lightning, and operate a Timberwood Drawbridge before stepping into its closing path."
+          },
+          {
+            "id": "deathbyalltypes-8",
+            "text": "After each death, respawn and confirm the matching row before moving to the next cause."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Die in every way possible."
+        ],
+        "context": "Progress is tracked on your character, so check the death list to see which causes are still missing. Finish these before starting the 30-day Survivor streak, because that streak resets on any death."
+      }
     },
     {
       "apiName": "AllBosses",
-      "description": "Defeat all bosses on any difficulty.",
       "displayName": "The Viking",
+      "description": "Defeat all bosses on any difficulty.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -84,22 +260,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 7,
+      "estTime": "10-20 h",
+      "estMinutes": 900,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Defeat all eight bosses on any difficulty.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "allbosses-1",
-            "text": "On one character, defeat Eikthyr, The Elder, Bonemass, Moder, Yagluth, The Queen, Fader, and Kall Fimbulbringer on any allowed difficulty."
+            "text": "On one character, defeat Eikthyr, Bonemass, The Elder, Moder, Yagluth, The Queen, Fader, and Kall Fimbulbringer."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Defeat all bosses on any difficulty."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "AllMiniBosses",
-      "description": "Defeat all minibosses.",
       "displayName": "Odin is Pleased",
+      "description": "Defeat all minibosses.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -107,22 +290,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 6,
+      "estTime": "2-4 h",
+      "estMinutes": 180,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Defeat all five minibosses.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "allminibosses-1",
-            "text": "Defeat Brenna in a Black Forest Smouldering Tomb, Geirrhafa in a Mountain Howling Cavern, Zil and Thungr in the Plains Sealed Tower, and Lord Reto in his Ashlands tomb; the paired Zil and Thungr encounter supplies two distinct kill conditions."
+            "text": "Defeat Brenna in a Black Forest Smouldering Tomb, Geirrhafa in a Mountain Howling Cavern, Zil and Thungr in the Plains Sealed Tower, and Lord Reto in his Ashlands tomb."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Defeat all minibosses."
+        ],
+        "context": "The paired Zil and Thungr encounter counts as two of the five."
+      }
     },
     {
       "apiName": "Arrived",
-      "description": "",
       "displayName": "I Have Arrived!",
+      "description": "Enter the tenth world.",
+      "hidden": true,
+      "globalPercent": 8.3,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -130,22 +320,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Spawn into a world after installing version 1.0.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "arrived-1",
-            "text": "Start or load any world and let the character finish spawning once after version 1.0 is installed."
+            "text": "Start or load any world and let your character finish spawning."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Spawn into a world for the first time after installing version 1.0."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "FirstDeath",
-      "description": "",
       "displayName": "The First of Many",
+      "description": "Meet your end, then prepare to do it all again.",
+      "hidden": true,
+      "globalPercent": 5.9,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -153,22 +350,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Die once from any cause.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "firstdeath-1",
-            "text": "Let the character die once from any cause, preferably before starting the 30-day no-death streak."
+            "text": "Let your character die once; do it before starting the 30-day Survivor streak."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Die once from any cause."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss1Eikthyr",
-      "description": "",
       "displayName": "Eikthyr",
+      "description": "Defeat the Lightning Stag.",
+      "hidden": true,
+      "globalPercent": 4.1,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -176,22 +380,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "20-30 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Offer 2 Deer Trophies at Eikthyr's Meadows altar and defeat Eikthyr.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss1eikthyr-1",
-            "text": "At Eikthyr's Meadows altar, offer 2 Deer Trophies and defeat Eikthyr."
+            "text": "Place 2 Deer Trophies in Eikthyr's altar in the Meadows and defeat Eikthyr."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Offer 2 Deer Trophies at Eikthyr's Meadows altar and defeat Eikthyr."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss2Elder",
-      "description": "",
       "displayName": "The Elder",
+      "description": "Defeat the Living Forest.",
+      "hidden": true,
+      "globalPercent": 1.4,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -199,22 +410,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Burn 3 Ancient Seeds at The Elder's Black Forest altar and defeat The Elder.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss2elder-1",
-            "text": "At The Elder's Black Forest altar, burn 3 Ancient Seeds and defeat The Elder."
+            "text": "Place 3 Ancient Seeds in The Elder's altar in the Black Forest and defeat The Elder."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Burn 3 Ancient Seeds at The Elder's Black Forest altar and defeat The Elder."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss3Bonemass",
-      "description": "",
       "displayName": "Bonemass",
+      "description": "Defeat the Writhing Dead.",
+      "hidden": true,
+      "globalPercent": 0.3,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -222,22 +440,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 4,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Offer 10 Withered Bones at Bonemass's Swamp altar and defeat Bonemass.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss3bonemass-1",
-            "text": "At Bonemass's Swamp altar, offer 10 Withered Bones and defeat Bonemass."
+            "text": "Place 10 Withered Bones in Bonemass's altar in the Swamp and defeat Bonemass."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Offer 10 Withered Bones at Bonemass's Swamp altar and defeat Bonemass."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss4Moder",
-      "description": "",
       "displayName": "Moder",
+      "description": "Defeat the Dragon Mother.",
+      "hidden": true,
+      "globalPercent": 0.1,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -245,22 +470,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Offer 3 Dragon Eggs at Moder's Mountain altar and defeat Moder.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss4moder-1",
-            "text": "Carry 3 Dragon Eggs to Moder's Mountain altar, offer them, and defeat Moder."
+            "text": "Carry 3 Dragon Eggs to Moder's altar in the Mountains, place them, and defeat Moder."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Offer 3 Dragon Eggs at Moder's Mountain altar and defeat Moder."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss5Yagluth",
-      "description": "",
       "displayName": "Yagluth",
+      "description": "Defeat the Twisted Soul.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -268,22 +500,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 6,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Offer 5 Fuling Totems at Yagluth's Plains altar and defeat Yagluth.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss5yagluth-1",
-            "text": "Bring 5 Fuling Totems to Yagluth's Plains altar, offer them, and defeat Yagluth."
+            "text": "Bring 5 Fuling Totems to Yagluth's altar in the Plains, place them, and defeat Yagluth."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Offer 5 Fuling Totems at Yagluth's Plains altar and defeat Yagluth."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss6Queen",
-      "description": "",
       "displayName": "The Seeker Queen",
+      "description": "Defeat the Crawling Matriarch.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -291,22 +530,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 7,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Assemble a Sealbreaker, open an Infested Citadel in the Mistlands, and defeat The Queen.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss6queen-1",
-            "text": "Assemble a Sealbreaker, open an Infested Citadel in the Mistlands, and defeat The Queen; the first fight requires no sacrifice."
+            "text": "Assemble a Sealbreaker, open an Infested Citadel in the Mistlands, and defeat The Queen."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Assemble a Sealbreaker, open an Infested Citadel in the Mistlands, and defeat The Queen."
+        ],
+        "context": "The Sealbreaker is required to open the Infested Citadel; no offering is needed for the first fight."
+      }
     },
     {
       "apiName": "Boss7Fader",
-      "description": "",
       "displayName": "Fader",
+      "description": "Defeat the Emerald Flame.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -314,22 +560,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 7,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Loot 9 Bell Fragments, craft 3 Bells, offer them at Fader's Ashlands altar, and defeat Fader.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss7fader-1",
-            "text": "Loot 9 Bell Fragments from Charred Fortresses, craft 3 Bells, offer them at Fader's Ashlands altar, and defeat Fader."
+            "text": "Loot 9 Bell Fragments from Charred Fortresses, craft 3 Bells, place them at Fader's altar in the Ashlands, and defeat Fader."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Loot 9 Bell Fragments, craft 3 Bells, offer them at Fader's Ashlands altar, and defeat Fader."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "Boss8FrozenKing",
-      "description": "",
       "displayName": "Kall Fimbulbringer",
+      "description": "Defeat the Shackled One.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -337,26 +590,41 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 8,
+      "estTime": "2-4 h",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Complete the Hidden Tunnel and Morkhalla cycle three times, offer 3 Malicious Blood at the Strange Bowl, and defeat Kall Fimbulbringer.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "boss8frozenking-1",
-            "text": "Search large two-storey Deep North village ruins for pits into Hidden Tunnels, recover a mould, make an Intricate Key, and use it to unlock Morkhalla."
+            "text": "Search large two-storey Deep North village ruins for the pits that lead into the Hidden Tunnels."
           },
           {
             "id": "boss8frozenking-2",
-            "text": "Complete the resulting Jotun invasion for Malicious Blood. Repeat the Hidden Tunnel–key–Morkhalla cycle three times, then offer 3 Malicious Blood at the Strange Bowl and defeat Kall Fimbulbringer."
+            "text": "Recover an Intricate Key mould from a Hidden Tunnel, craft the Intricate Key, and use it to unlock Morkhalla."
+          },
+          {
+            "id": "boss8frozenking-3",
+            "text": "Complete the Jotun invasion inside Morkhalla for one Malicious Blood, then repeat the cave, key, and Morkhalla cycle three times."
+          },
+          {
+            "id": "boss8frozenking-4",
+            "text": "Offer 3 Malicious Blood at the Strange Bowl and defeat Kall Fimbulbringer through all three phases."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Complete the Hidden Tunnel and Morkhalla cycle three times, offer 3 Malicious Blood at the Strange Bowl, and defeat Kall Fimbulbringer."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "DeathByObliterator",
-      "description": "",
       "displayName": "Obliterated",
+      "description": "You stood a bit too close.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -364,22 +632,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Get killed by an Obliterator's lightning blast.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "deathbyobliterator-1",
-            "text": "Place an Obliterator in a safe area, reduce health, activate it, and remain close enough for the lightning blast to kill you."
+            "text": "Place an Obliterator in a safe area, lower your health, activate it, and stay close until the lightning kills you."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Place an Obliterator, activate it, and stand in its lightning blast until it kills you."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "DeathByTree",
-      "description": "",
       "displayName": "Accidents Happen",
+      "description": "Get killed by a tree.",
+      "hidden": true,
+      "globalPercent": 1.3,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -387,22 +662,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Get killed by a falling tree trunk or rolling log.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "deathbytree-1",
-            "text": "Lower health, fell a tree, and stand in the falling trunk or rolling log's path until the impact is fatal."
+            "text": "Lower your health, fell a tree, and stand where the trunk falls or the log rolls."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Let a falling tree trunk or rolling log kill you."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "DeathByTreeAll",
-      "description": "",
       "displayName": "That Can't Be an Accident",
+      "description": "Get killed by every kind of tree.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -410,26 +692,41 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "3-5 h",
+      "estMinutes": 240,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Get a fatal falling-tree or rolling-log hit from every tree type.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "deathbytreeall-1",
-            "text": "Let a fatal trunk or rolling-log hit from each of the ten named tree types kill you: Fir, Oak, Pine, Scorched Tree, Yggdrasil Shoot, Ancient Tree, Beech, Birch, Snow Fir, and Snow Pine."
+            "text": "Die from a falling trunk or rolling log from each of these ten trees: Beech, Birch, Fir, Oak, Pine, Ancient Tree, Scorched Tree, Yggdrasil Shoot, Snow Fir, and Snow Pine."
           },
           {
             "id": "deathbytreeall-2",
-            "text": "For each named variant, chop it until the next hit will fell it, clear the downhill path, bank gear, lower health, finish the cut from the uphill side, and step into the falling trunk or roll the log onto yourself. Respawn and confirm that exact tree row before moving to the next biome."
+            "text": "For each tree, chop it until the next hit will fell it, clear the downhill path, bank your gear, and lower your health."
+          },
+          {
+            "id": "deathbytreeall-3",
+            "text": "Finish the cut from the uphill side and step into the falling trunk, or roll the log onto yourself."
+          },
+          {
+            "id": "deathbytreeall-4",
+            "text": "After respawning, confirm that tree's row before moving to the next biome."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Let all ten named tree types each deliver a fatal trunk or rolling-log hit."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindTrees",
-      "description": "Cut down 500 trees.",
       "displayName": "The Lumberjack",
+      "description": "Cut down 500 trees.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -437,22 +734,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Cut down 500 trees.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindtrees-1",
-            "text": "Cut down 500 trees; begin immediately and upgrade axes naturally with biome progression."
+            "text": "Fell 500 trees, upgrading your axe as stronger metals become available."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Cut down 500 trees."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindCook",
-      "description": "Cook 100 dishes.",
       "displayName": "The Cook",
+      "description": "Cook 100 dishes.",
+      "hidden": false,
+      "globalPercent": 0.2,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -460,22 +764,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Cook 100 dishes.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindcook-1",
-            "text": "Cook 100 dishes; parallel cooking stations over one fire speed up bulk processing."
+            "text": "Cook 100 dishes. Build several cooking stations over one fire to process food faster."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Cook 100 dishes."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindHarvest",
-      "description": "Harvest 500 crops.",
       "displayName": "The Farmer",
+      "description": "Harvest 500 crops.",
+      "hidden": false,
+      "globalPercent": 0.1,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -483,22 +794,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Harvest 500 crops.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindharvest-1",
-            "text": "Plant, replant, and harvest crops until 500 harvests register; obtain the Cultivator after bronze becomes available."
+            "text": "Plant and harvest crops until 500 harvests are counted. Unlock the Cultivator once bronze is available."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Harvest 500 crops."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindForager",
-      "description": "Pick 250 berries and 250 mushrooms.",
       "displayName": "The Forager",
+      "description": "Pick 250 berries and 250 mushrooms.",
+      "hidden": false,
+      "globalPercent": 0.1,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -506,22 +824,31 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick 250 berries and 250 mushrooms.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindforager-1",
-            "text": "Pick 250 berries and 250 mushrooms; Plains Cloudberries and farmable Mistlands mushrooms are efficient late sources."
+            "text": "Pick berries and mushrooms until 250 of each are counted.",
+            "note": "Cloudberries in the Plains and farmed Mistlands mushrooms are efficient late sources.",
+            "kind": "tip"
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Pick 250 berries and 250 mushrooms."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "KillAllCreatures",
-      "description": "Kill every kind of creature.",
       "displayName": "The Hunter",
+      "description": "Kill every kind of creature.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -529,6 +856,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 7,
+      "estTime": "10-15 h",
+      "estMinutes": 750,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Kill one of every creature.",
       "guide": {
         "collectibles": [
           {
@@ -1283,21 +1616,21 @@
           {
             "id": "killallcreatures-108",
             "index": 108,
-            "location": "the Swamp 5000-8000 m from the world centre",
-            "method": "Find and kill the rare Writhan in the Swamp between 5000 m and 8000 m from the world centre.",
+            "location": "the Deep North",
+            "method": "Find and kill the rare Writhan in the Deep North.",
             "name": "Writhan"
           }
         ],
-        "context": "Use one character and the in-game tracker. Build 25253764 generates 108 unique keys, including separate base and phase-three Kall keys; complete Kall through all phases and verify both same-name rows. Hard kills also satisfy the any-difficulty list. The four Spiritcaller animals and the Skelett are your own summons: enable the PvP toggle to damage them, because player attacks otherwise skip non-enemy targets.",
+        "context": "The checklist lists Kall Fimbulbringer twice because the tracker keeps a separate key for its final phase; defeat it through all three phases so both rows register. Enable the PvP toggle to damage your own Spiritcaller animals and Skelett summons, since player attacks otherwise skip non-enemy targets. Kills made on Hard also count here.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Kill every creature condition in the current build-generated checklist on any difficulty."
+      }
     },
     {
       "apiName": "KillAllCreaturesHard",
-      "description": "Kill every kind of creature on hard difficulty.",
       "displayName": "The Master Hunter",
+      "description": "Kill every kind of creature on hard difficulty.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -1305,6 +1638,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 9,
+      "estTime": "20-30 h",
+      "estMinutes": 1500,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Kill one of every creature with Combat Difficulty set to Hard.",
       "guide": {
         "collectibles": [
           {
@@ -2059,21 +2398,21 @@
           {
             "id": "killallcreatureshard-108",
             "index": 108,
-            "location": "the Swamp 5000-8000 m from the world centre",
-            "method": "Set Combat Difficulty to Hard before the kill. Find and kill the rare Writhan in the Swamp between 5000 m and 8000 m from the world centre.",
+            "location": "the Deep North",
+            "method": "Set Combat Difficulty to Hard before the kill. Find and kill the rare Writhan in the Deep North.",
             "name": "Writhan"
           }
         ],
-        "context": "Use one character and the in-game tracker. Build 25253764 generates 108 unique keys, including separate base and phase-three Kall keys; complete Kall through all phases and verify both same-name rows. Hard kills also satisfy the any-difficulty list. The four Spiritcaller animals and the Skelett are your own summons: enable the PvP toggle to damage them, because player attacks otherwise skip non-enemy targets.",
+        "context": "Set Combat Difficulty to Hard before each kill. The checklist lists Kall Fimbulbringer twice because the tracker keeps a separate key for its final phase; defeat it through all three phases so both rows register. Enable the PvP toggle to damage your own Spiritcaller animals and Skelett summons.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Kill every creature condition with combat difficulty set to Hard."
+      }
     },
     {
       "apiName": "FindAllTrophies",
-      "description": "Collect all trophies.",
       "displayName": "The Trophy Collector",
+      "description": "Collect all trophies.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2081,6 +2420,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 7,
+      "estTime": "8-12 h",
+      "estMinutes": 600,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Collect one of every creature trophy.",
       "guide": {
         "collectibles": [
           {
@@ -2555,21 +2900,21 @@
           {
             "id": "trophy-068",
             "index": 68,
-            "location": "the Swamp 5000-8000 m from the world centre",
-            "method": "Defeat Writhan in the Swamp 5000-8000 m from the world centre until the trophy drops, then pick it up.",
+            "location": "the Deep North",
+            "method": "Defeat Writhan in the Deep North until the trophy drops, then pick it up.",
             "name": "Writhan Trophy"
           }
         ],
-        "context": "The live build produces 68 unique trophy conditions; the Steam guide list carries a duplicate Draugr display name, and the live tracker de-duplicates by internal token. Use the 68-row checklist.",
+        "context": "Trophies drop randomly from the creature that carries them and must be picked up to count. The set includes ordinary, boss, and miniboss trophies.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Pick up every unique trophy in the current build-generated checklist."
+      }
     },
     {
       "apiName": "BuildHouse",
-      "description": "Build a house.",
       "displayName": "The Homesteader",
+      "description": "Build a house.",
+      "hidden": false,
+      "globalPercent": 4.2,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2577,22 +2922,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build a house with 6 floors, 8 walls, 4 roofs, and at least 1 furniture item, 1 light, and 1 storage piece in one loaded zone.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "buildhouse-1",
-            "text": "Within loaded zones, place at least 6 floors, 8 walls, 4 roofs, 1 furniture item, 1 light, and 1 storage piece."
+            "text": "Place all the required pieces close together so they stay inside one loaded zone."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Build a house."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "BuildVillage",
-      "description": "Build a village.",
       "displayName": "The Architect",
+      "description": "Build a village.",
+      "hidden": false,
+      "globalPercent": 2.3,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2600,22 +2952,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build a village with 10 buildings, 20 roofs, 40 floors, 40 walls, 10 architecture pieces, 10 furniture pieces, 5 lights, and 5 decor pieces inside one loaded zone.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "buildvillage-1",
-            "text": "Within loaded zones, place 10 Buildings, 40 Floors, 40 Walls, 20 Roofs, 10 Architecture pieces, 10 Furniture pieces, 5 Lights, and 5 Decor pieces."
+            "text": "Keep every counted piece in the same loaded zone so the village registers."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Build a village."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindHoney",
-      "description": "Harvest 500 honey.",
       "displayName": "The Beekeeper",
+      "description": "Harvest 500 honey.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2623,22 +2982,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Harvest 500 honey.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindhoney-1",
-            "text": "Build several Beehives early and harvest them whenever full until 500 honey registers."
+            "text": "Build several Beehives early and harvest them whenever they are full until 500 honey is counted."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Harvest 500 honey."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindEat",
-      "description": "Eat 500 items of food.",
       "displayName": "No Adventuring On an Empty Stomach",
+      "description": "Eat 500 items of food.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2646,22 +3012,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Eat 500 food items.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindeat-1",
-            "text": "Keep food buffs active during normal play and consume 500 edible items in total."
+            "text": "Eat 500 items of food. Keeping your food buffs topped up counts toward it."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Eat 500 items of food."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "AllBossesNormal",
-      "description": "Defeat all bosses on normal difficulty or higher.",
       "displayName": "The Tough Viking",
+      "description": "Defeat all bosses on normal difficulty or higher.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2669,22 +3042,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 6,
+      "estTime": "10-20 h",
+      "estMinutes": 900,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Defeat all eight bosses on Normal difficulty or higher.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "allbossesnormal-1",
-            "text": "Before every boss kill, set Combat Difficulty to Normal or Hard and preserve that setting through all eight fights on the same character."
+            "text": "Set Combat Difficulty to Normal or Hard before each boss fight and keep it there for all eight kills."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Defeat all bosses on normal difficulty or higher."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "AllBossesHard",
-      "description": "Defeat all bosses on hard difficulty.",
       "displayName": "The Toughest Viking",
+      "description": "Defeat all bosses on hard difficulty.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2692,22 +3072,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 8,
+      "estTime": "15-25 h",
+      "estMinutes": 1200,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Defeat all eight bosses on Hard difficulty.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "allbosseshard-1",
-            "text": "Set Combat Difficulty to Hard before the first checklist kill and defeat all eight bosses while it remains Hard; these kills also advance Master Hunter."
+            "text": "Set Combat Difficulty to Hard before the first boss and defeat all eight while it stays Hard."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Defeat all bosses on hard difficulty."
+        ],
+        "context": "Hard kills also count for The Master Hunter, so a single Hard playthrough advances both."
+      }
     },
     {
       "apiName": "GrindDays",
-      "description": "Survive for 30 consecutive days.",
       "displayName": "The Survivor",
+      "description": "Survive for 30 consecutive days.",
+      "hidden": false,
+      "globalPercent": 0.2,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2715,22 +3102,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "30 in-game days",
+      "estMinutes": 600,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Survive 30 consecutive in-game days without dying.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grinddays-1",
-            "text": "After deliberate death achievements, survive 30 consecutive in-game days; any death resets the streak."
+            "text": "Survive 30 in-game days in a row without dying."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Survive for 30 consecutive days."
+        ],
+        "context": "Any death resets the streak, so finish your deliberate death achievements first."
+      }
     },
     {
       "apiName": "GrindComfort",
-      "description": "Reach a comfort level of 20.",
       "displayName": "Comfort is King",
+      "description": "Reach a comfort level of 20.",
+      "hidden": false,
+      "globalPercent": 0.2,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2738,22 +3132,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach a comfort level of 20.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindcomfort-1",
-            "text": "In late game, build one sheltered room and combine unique comfort categories until the HUD shows 20; use a hearth, best bed, rug, banner, throne, table, item stand, lit hot tub, seasonal light, Lava Lantern, and Asksvin Skeleton as available."
+            "text": "Build a sheltered room and add unique comfort furniture until the HUD shows 20, using a hearth, the best available bed, a rug, a banner, a throne, a table, an item stand, a lit hot tub, a seasonal light, a Lava Lantern, and an Asksvin Skeleton as available."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Reach a comfort level of 20."
+        ],
+        "context": "Comfort comes from unique comfort items in a sheltered base; each distinct item adds its value once."
+      }
     },
     {
       "apiName": "SailEdge",
-      "description": "",
       "displayName": "The Legends Are True",
+      "description": "Sail over the edge of the world.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2761,22 +3162,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Sail a boat over the edge of the world and fall to your death.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "sailedge-1",
-            "text": "Use a disposable boat and gear, sail roughly 10,350 metres from the centre, and continue over the world edge until the condition registers."
+            "text": "Take a disposable boat and gear, sail about 10,350 metres from the world centre, and continue past the world edge until the achievement registers."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Sail a boat over the edge of the world and fall until you die."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindTreasure",
-      "description": "",
       "displayName": "The Treasure Hunter",
+      "description": "Discover 10 buried treasure chests.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2784,22 +3192,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Dig up and open 10 buried treasure chests found with the Wishbone.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindtreasure-1",
-            "text": "Equip the Wishbone from Bonemass, follow pulses to buried treasure, dig up and open 10 treasure chests."
+            "text": "Equip the Wishbone from Bonemass and follow its pulses to buried treasure; dig up and open 10 chests."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Dig up and open 10 buried treasure chests located with the Wishbone."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindLeviathan",
-      "description": "",
       "displayName": "No Time For Snoozing",
+      "description": "Awaken a sea creature.",
+      "hidden": true,
+      "globalPercent": 0.1,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2807,22 +3222,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Mine an Abyssal Barnacle on a Leviathan until it wakes and starts to sink.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindleviathan-1",
-            "text": "Find a Leviathan in the Ocean and mine Abyssal Barnacles until it wakes and begins to sink."
+            "text": "Find a Leviathan in the Ocean and mine its Abyssal Barnacles until it wakes and begins to sink."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Mine an Abyssal Barnacle on a Leviathan until it wakes and starts to sink."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindFish",
-      "description": "Catch every kind of fish.",
       "displayName": "The Fisherman",
+      "description": "Catch every kind of fish.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2830,6 +3252,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 4,
+      "estTime": "3-5 h",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Catch one of every fish species.",
       "guide": {
         "collectibles": [
           {
@@ -2917,16 +3345,16 @@
             "name": "Northern Salmon"
           }
         ],
-        "context": "Catch or pick up one of each species. Match the bait and habitat exactly; Ocean species require deep or very deep water rather than a shore cast.",
+        "context": "Match the bait and habitat each species needs; Ocean species require deep water rather than a cast from shore.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Catch every kind of fish."
+      }
     },
     {
       "apiName": "ExploreNSEW",
-      "description": "Travel far in all four directions.",
       "displayName": "The Explorer",
+      "description": "Travel far in all four directions.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2934,22 +3362,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "2-4 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach 10,350 metres from the world centre in each of the north, south, east, and west directions.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "explorensew-1",
-            "text": "Travel about 10,350 metres from the world centre in each cardinal direction and allow north, south, east, and west to register."
+            "text": "Travel outward from the centre until north, south, east, and west each register."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Travel far in all four directions."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "ExploreNSEWNoMap",
-      "description": "Travel far in all four directions, without using a map.",
       "displayName": "The Pathfinder",
+      "description": "Travel far in all four directions, without using a map.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2957,22 +3392,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "4-8 h",
+      "estMinutes": 360,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach 10,350 metres from the world centre in all four cardinal directions without using a map.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "explorensewnomap-1",
-            "text": "Enable the No Map world modifier before travelling, then reach about 10,350 metres north, south, east, and west of the centre without a map."
+            "text": "Enable the No Map world modifier before setting out, then travel roughly 10,350 metres from the centre in each cardinal direction."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Travel far in all four directions, without using a map."
+        ],
+        "context": "The No Map world modifier must be enabled for the run, so plan routes by landmarks and the sun instead of the map."
+      }
     },
     {
       "apiName": "BuildDyrnwyn",
-      "description": "",
       "displayName": "The Chosen One",
+      "description": "Assemble Dyrnwyn.",
+      "hidden": true,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -2980,30 +3422,41 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Recover the three Dyrnwyn fragments and craft Dyrnwyn.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "builddyrnwyn-1",
-            "text": "In Ashlands Putrid Holes, find a Vegvisir that marks the first Mysterious Location; break into its Grausten ruin and take the Dyrnwyn Tip Fragment."
+            "text": "In Ashlands Putrid Holes, find a Vegvisir marking the first Mysterious Location, break into its Grausten ruin, and take the Dyrnwyn Tip Fragment."
           },
           {
             "id": "builddyrnwyn-2",
-            "text": "Use its Vegvisir to reach the second Mysterious Location and take the Dyrnwyn Blade Fragment, then use that site's Vegvisir to reach the third location, enter the Tomb of Lord Reto, defeat him, and loot the Dyrnwyn Hilt Fragment."
+            "text": "Follow that site's Vegvisir to the second Mysterious Location and take the Dyrnwyn Blade Fragment."
           },
           {
             "id": "builddyrnwyn-3",
+            "text": "Follow the second site's Vegvisir to the Tomb of Lord Reto, defeat him, and loot the Dyrnwyn Hilt Fragment."
+          },
+          {
+            "id": "builddyrnwyn-4",
             "text": "Upgrade the Black Forge to level 4 and craft Dyrnwyn with all three fragments."
           }
-        ]
-      },
-      "hidden": true,
-      "summary": "Recover the Dyrnwyn tip, blade, and hilt fragments, then craft Dyrnwyn at a level-4 Black Forge."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "AllWeaponCraft",
-      "description": "Craft every kind of weapon.",
       "displayName": "The Blacksmith",
+      "description": "Craft every kind of weapon.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -3011,6 +3464,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 6,
+      "estTime": "5-8 h",
+      "estMinutes": 420,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Craft one of every weapon.",
       "guide": {
         "collectibles": [
           {
@@ -3885,7 +4344,7 @@
             "id": "weapons-125",
             "index": 125,
             "location": "Black Forge",
-            "method": "Make Dyrnwyn using Black Forge level 4: 1 Dyrnwyn Hilt Fragment, 1 Dyrnwyn Blade Fragment, 1 Dyrnwyn Tip Fragment, 20 Flametal, 1 Bloodstone.",
+            "method": "Craft Dyrnwyn at Black Forge level 4 from one each of the Dyrnwyn Tip, Blade, and Hilt Fragments, 20 Flametal, and 1 Bloodstone.",
             "name": "Dyrnwyn"
           },
           {
@@ -4029,16 +4488,16 @@
             "name": "Torch"
           }
         ],
-        "context": "This exact checklist comes from the current game's GetAllCraftableWeapons result after its exclusions. Unlock stations and recipes through Deep North, then craft each row once.",
+        "context": "Each weapon recipe must be crafted once. Unlock and upgrade the Forge and Black Forge as you progress so every tier, including the Deep North weapons, becomes craftable.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Craft every weapon in the current build-generated checklist."
+      }
     },
     {
       "apiName": "AllFoodCooked",
-      "description": "Cook every kind of dish.",
       "displayName": "The Master Chef",
+      "description": "Cook every kind of dish.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -4046,6 +4505,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "3-5 h",
+      "estMinutes": 240,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Cook one of every dish.",
       "guide": {
         "collectibles": [
           {
@@ -4623,16 +5088,16 @@
             "name": "Baked Poteitr"
           }
         ],
-        "context": "This exact checklist mirrors the current game's creatable-food result, including recipes and cooking conversions. Ingredient possession unlocks most recipes; upgrade the named station to the shown level.",
+        "context": "Cook each recipe once at the station it requires, upgrading the Cauldron and other cooking stations as new ingredients become available.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Create every cooked food in the current build-generated checklist."
+      }
     },
     {
       "apiName": "AllItemCraft",
-      "description": "Craft every kind of item.",
       "displayName": "The Artisan",
+      "description": "Craft every kind of item.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -4640,6 +5105,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 8,
+      "estTime": "10-15 h",
+      "estMinutes": 750,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Craft one of every station-made item.",
       "guide": {
         "collectibles": [
           {
@@ -7222,7 +7693,7 @@
             "id": "craftableitems-369",
             "index": 369,
             "location": "Black Forge",
-            "method": "Make Dyrnwyn using Black Forge level 4: 1 Dyrnwyn Hilt Fragment, 1 Dyrnwyn Blade Fragment, 1 Dyrnwyn Tip Fragment, 20 Flametal, 1 Bloodstone.",
+            "method": "Craft Dyrnwyn at Black Forge level 4 from one each of the Dyrnwyn Tip, Blade, and Hilt Fragments, 20 Flametal, and 1 Bloodstone.",
             "name": "Dyrnwyn"
           },
           {
@@ -7541,16 +8012,16 @@
             "name": "Yggdrasil Porridge"
           }
         ],
-        "context": "This exact checklist mirrors station-bound recipes after the current game's exclusions. Use the in-game tracker to confirm anything a hotfix adds.",
+        "context": "Craft each recipe once at the station that makes it, upgrading the Workbench, Forge, and later stations as you progress.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Craft every station-made item in the current build-generated checklist."
+      }
     },
     {
       "apiName": "AllFoodEaten",
-      "description": "Eat every kind of edible item.",
       "displayName": "The Gourmet",
+      "description": "Eat every kind of edible item.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -7558,6 +8029,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 5,
+      "estTime": "3-5 h",
+      "estMinutes": 240,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Eat one of every edible item.",
       "guide": {
         "collectibles": [
           {
@@ -8233,16 +8710,16 @@
             "name": "Yggdrasil Porridge"
           }
         ],
-        "context": "Consume one of every obtainable edible item. Prepared foods show their recipe when available; raw, dropped, farmed, and purchased foods are explicitly retained. Build 25253764's live tracker also lists the cut Blue Mushroom ($item_mushroomblue), which no spawner, location, drop, container or trader places; it is excluded from this 96-row checklist, so The Gourmet may need Iron Gate's patch (or the devcommand opt-in) to resolve.",
+        "context": "Each food must be eaten once. Raw ingredients, harvested crops, and trader goods count alongside cooked meals, so keep one of every edible item you find.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Consume every edible item in the current build-generated checklist."
+      }
     },
     {
       "apiName": "AllBuildPieces",
-      "description": "Build everything.",
       "displayName": "The Carpenter",
+      "description": "Build everything.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -8250,6 +8727,12 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 8,
+      "estTime": "10-15 h",
+      "estMinutes": 750,
+      "stage": 9,
+      "confidence": "verified",
+      "summary": "Place one of every build piece.",
       "guide": {
         "collectibles": [
           {
@@ -9390,14 +9873,14 @@
             "id": "buildpieces-163",
             "index": 163,
             "location": "Stonecutter",
-            "method": "Place the first Grausten Roof Corner entry in the Stonecutter's Grausten roof section. The two corner entries share one mesh but sit on different snap origins, so their menu icons differ; place both entries to register both tracked keys.",
+            "method": "Place the first Grausten Roof Corner entry in the Stonecutter's Grausten roof section. The two corner entries share a mesh but sit on different snap origins, so their menu icons differ; place both entries so both count.",
             "name": "Grausten Roof Corner"
           },
           {
             "id": "buildpieces-164",
             "index": 164,
             "location": "Stonecutter",
-            "method": "Place the second Grausten Roof Corner entry in the Stonecutter's Grausten roof section. It is the same shape as the first entry but on the opposite snap origin; place the other corner entry as well so both tracked keys register.",
+            "method": "Place the second Grausten Roof Corner entry in the Stonecutter's Grausten roof section. It is the same shape as the first entry but on the opposite snap origin; place the other corner entry as well so both count.",
             "name": "Grausten Roof Corner"
           },
           {
@@ -9411,14 +9894,14 @@
             "id": "buildpieces-166",
             "index": 166,
             "location": "Stonecutter",
-            "method": "Place the first Grausten Arched Roof Corner entry in the Stonecutter's Grausten roof section. The two arched-corner entries share one mesh but sit on different snap origins, so their menu icons differ; place both entries to register both tracked keys.",
+            "method": "Place the first Grausten Arched Roof Corner entry in the Stonecutter's Grausten roof section. The two arched-corner entries share a mesh but sit on different snap origins, so their menu icons differ; place both entries so both count.",
             "name": "Grausten Arched Roof Corner"
           },
           {
             "id": "buildpieces-167",
             "index": 167,
             "location": "Stonecutter",
-            "method": "Place the second Grausten Arched Roof Corner entry in the Stonecutter's Grausten roof section. It is the same shape as the first arched-corner entry but on the opposite snap origin; place the other arched-corner entry as well so both tracked keys register.",
+            "method": "Place the second Grausten Arched Roof Corner entry in the Stonecutter's Grausten roof section. It is the same shape as the first arched-corner entry but on the opposite snap origin; place the other arched-corner entry as well so both count.",
             "name": "Grausten Arched Roof Corner"
           },
           {
@@ -10321,7 +10804,7 @@
             "id": "buildpieces-296",
             "index": 296,
             "location": "Workbench",
-            "method": "Place Yuleklapp from its build menu using one of the shared-key variants: Workbench: 2 Finewood, 1 Bone Fragments; or Workbench: 3 Finewood, 1 Dandelion; or Workbench: 4 Finewood, 1 Raspberries.",
+            "method": "Place Yuleklapp from its build menu using either Workbench recipe: 2 Finewood and 1 Bone Fragments, 3 Finewood and 1 Dandelion, or 4 Finewood and 1 Raspberries.",
             "name": "Yuleklapp"
           },
           {
@@ -10342,7 +10825,7 @@
             "id": "buildpieces-299",
             "index": 299,
             "location": "Workbench",
-            "method": "Place Item Stand from its build menu using one of the shared-key variants: Workbench: 4 Finewood, 1 Bronze Nails; or Workbench: 4 Finewood, 1 Bronze Nails.",
+            "method": "Place Item Stand from its build menu using Workbench: 4 Finewood, 1 Bronze Nails.",
             "name": "Item Stand"
           },
           {
@@ -11011,16 +11494,16 @@
             "name": "Catapult"
           }
         ],
-        "context": "Place each exact runtime build-piece row once. Carry its unlock material, equip the appropriate build tool, and stand inside any named station radius. Calendar-gated pieces require Midsummer (June 1–July 6), Halloween (October 1–November 6), and Yule (December 1–January 6). Normal completion therefore spans those three windows; previously learned pieces may remain known, but do not rely on that for a fresh character.",
+        "context": "Some build pieces only appear during seasonal events: Midsummer (June 1-July 6), Halloween (October 1-November 6), and Yule (December 1-January 6). Place each piece once, including those windows.",
         "kind": "collectible"
-      },
-      "hidden": false,
-      "summary": "Place every build piece in the current build-generated checklist."
+      }
     },
     {
       "apiName": "KingsQueens",
-      "description": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer.",
       "displayName": "Kings and Queens of Valheim",
+      "description": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11028,22 +11511,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 7,
+      "estTime": "80-120 h",
+      "estMinutes": 6000,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Earn The Viking, The Hunter, The Artisan, The Master Chef, The Carpenter, and The Explorer on one character.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "kingsqueens-1",
-            "text": "On one character, finish The Viking, The Hunter, The Artisan, The Master Chef, The Carpenter, and The Explorer; this mastery condition then resolves automatically."
+            "text": "Complete all six named mastery achievements on the same character; this one then unlocks automatically."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "ChildOfOdin",
-      "description": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder.",
       "displayName": "Child of Odin",
+      "description": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11051,22 +11541,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 9,
+      "estTime": "150-250 h",
+      "estMinutes": 12000,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Earn The Toughest Viking, The Master Hunter, The Survivor, and The Pathfinder on one character.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "childofodin-1",
-            "text": "On one character, finish The Toughest Viking, The Master Hunter, The Survivor, and The Pathfinder; this mastery condition then resolves automatically."
+            "text": "Complete all four named mastery achievements on the same character; this one then unlocks automatically."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "MultiplayerBoss",
-      "description": "Kill a boss together with a friend.",
       "displayName": "Stronger Together",
+      "description": "Kill a boss together with a friend.",
+      "hidden": false,
+      "globalPercent": 3.3,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11074,22 +11571,29 @@
         "missable": false,
         "online": true
       },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Kill a boss together with another player, with both of you damaging it.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "multiplayerboss-1",
-            "text": "Invite a named second player, make sure both players damage the same boss, and defeat it together."
+            "text": "Have a second player join, damage the same boss, and defeat it together."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Kill a boss together with a friend."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "SoloBoss",
-      "description": "Kill a boss all by yourself.",
       "displayName": "Lone Wolf",
+      "description": "Kill a boss all by yourself.",
+      "hidden": false,
+      "globalPercent": 1.4,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11097,22 +11601,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Kill a boss without another player damaging it.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "soloboss-1",
-            "text": "Defeat a boss without any other player damaging it; a repeat Eikthyr kill is the quickest controlled attempt."
+            "text": "Defeat a boss with no other player dealing damage; a repeat Eikthyr kill is the fastest attempt."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Kill a boss all by yourself."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "BigFish",
-      "description": "Catch a four star fish.",
       "displayName": "A Catch Worthy of Njord",
+      "description": "Catch a four star fish.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11120,22 +11631,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Catch a four-star fish.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "bigfish-1",
-            "text": "Use short casts to conserve stamina and land any quality-4 fish; early-biome water is safer while learning the stamina rhythm."
+            "text": "Land any quality-4 fish; early-biome water is safer while you learn the reel rhythm."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Catch a four star fish."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindBuild",
-      "description": "Build 500 pieces.",
       "displayName": "The Builder",
+      "description": "Build 500 pieces.",
+      "hidden": false,
+      "globalPercent": 1.3,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11143,22 +11661,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 2,
+      "estTime": "across the run",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build 500 pieces.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindbuild-1",
-            "text": "Place 500 valid build pieces; ordinary bases and outposts count, so start with the first house and finish late."
+            "text": "Place 500 valid build pieces. Ordinary bases and outposts all count."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Build 500 pieces."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindSail",
-      "description": "Sail far enough to circle the world twice.",
       "displayName": "The Sailor",
+      "description": "Sail far enough to circle the world twice.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11166,22 +11691,29 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "5-10 h",
+      "estMinutes": 420,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Sail at least 131,946 metres in total.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindsail-1",
-            "text": "Accumulate at least 131,946 metres of sailing as helmsman or passenger across normal voyages."
+            "text": "Accumulate about 131,946 metres of sailing as helmsman or passenger during normal voyages."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Sail far enough to circle the world twice."
+        ],
+        "context": ""
+      }
     },
     {
       "apiName": "GrindSailHelm",
-      "description": "Sail far enough to circle the world, while manning the helm.",
       "displayName": "The Captain",
+      "description": "Sail far enough to circle the world, while manning the helm.",
+      "hidden": false,
+      "globalPercent": 0.0,
       "flags": {
         "dlc": false,
         "glitched": false,
@@ -11189,17 +11721,22 @@
         "missable": false,
         "online": false
       },
+      "difficulty": 3,
+      "estTime": "3-6 h",
+      "estMinutes": 270,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Man the helm for at least 65,973 metres of sailing.",
       "guide": {
         "kind": "standard",
         "steps": [
           {
             "id": "grindsailhelm-1",
-            "text": "Personally remain at the helm for at least 65,973 metres; this distance also contributes to The Sailor."
+            "text": "Stay at the helm while your boat covers about 65,973 metres; the same distance also counts toward The Sailor."
           }
-        ]
-      },
-      "hidden": false,
-      "summary": "Sail far enough to circle the world, while manning the helm."
+        ],
+        "context": ""
+      }
     }
   ],
   "completionOrder": [
@@ -11256,12 +11793,5 @@
     "AllBossesHard",
     "KingsQueens",
     "ChildOfOdin"
-  ],
-  "game": {
-    "appid": 892970,
-    "createdAt": "2026-09-12",
-    "slug": "valheim",
-    "title": "Valheim",
-    "version": "1.0"
-  }
+  ]
 }

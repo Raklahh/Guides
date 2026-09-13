@@ -1,0 +1,1367 @@
+{
+  "game": {
+    "appid": 588430,
+    "slug": "fallout-shelter",
+    "title": "Fallout Shelter",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-02",
+    "estTotalHours": 80,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Set up the vault",
+      "description": "Complete the tutorial rooms, then merge three power, food, and water rooms early so a failed merge does not lock the achievement. Pick up the early milestones: 1,000 Caps, a dweller at Level 10, and 25 rooms built.",
+      "achievementRefs": [
+        "MergedPowerRooms3",
+        "MergedFoodRooms3",
+        "MergedWaterRoom3",
+        "CapsCollected1000",
+        "DwellerLevel10",
+        "RoomBuild25"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Grow the vault and population",
+      "description": "Raise the dweller count to 100, produce 25 babies, upgrade and expand rooms, reach 50 rooms and one of every room type, build the Barbershop, level a dweller to 50, and bank 10,000 Caps.",
+      "achievementRefs": [
+        "RoomRush50",
+        "CapsCollected10000",
+        "RoomBuild50",
+        "Level3Rooms20",
+        "DwellerLevel25",
+        "DwellerLevel50",
+        "BabiesBorn25",
+        "UniqueRoomBuild",
+        "BarbershopCustomizations10"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Run wasteland quests",
+      "description": "Build the Overseer's office and keep quest teams cycling to complete 100 quests, kill bosses and 500 enemies, make dialogue choices, and gather Stimpaks and RadAway.",
+      "achievementRefs": [
+        "QuestsComplete10",
+        "BossesKilled10",
+        "DialogChoices25",
+        "QuestsComplete30",
+        "QuestStimpaks100Radaways100",
+        "QuestEnemiesKilled500",
+        "QuestsComplete60",
+        "QuestsComplete100"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Craft, scrap, and decorate",
+      "description": "Build the weapon, outfit, and theme workshops; craft 10 weapons and 10 outfits; scrap 500 items; finish More Than Handy in one session before crafting the last theme; then complete every theme.",
+      "achievementRefs": [
+        "CraftWeapons10",
+        "CraftOutfits10",
+        "ScrapItems500",
+        "ThemesCollected1",
+        "CraftOutfitWeaponTheme",
+        "ThemesCollected4",
+        "ThemesCrafted8"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Finish the legendary and passive grinds",
+      "description": "Mop up the long counters: 20 Legendary weapons, 20 Legendary outfits, 20 Legendary dwellers, 50 stopped raider attacks, and 100 objectives.",
+      "achievementRefs": [
+        "LegendaryWeapons20",
+        "LegendaryOutfits20",
+        "LegendaryDwellers20",
+        "RaiderAttacksStopped50",
+        "ObjectivesCompleted100"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "RoomRush50",
+      "displayName": "Hard Work is Happy Work",
+      "description": "Successfully complete 50 Room Rushes",
+      "hidden": false,
+      "globalPercent": 18.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 h of rushing",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete 50 successful @mechanic{Rush} attempts in production rooms; failed rushes do not count.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only successful attempts count, and a failed rush starts an incident such as a fire or radroach attack that damages dwellers. A room's success chance falls after each rush and recovers over time, so avoid rushing when the odds are low.",
+        "steps": [
+          {
+            "id": "roomrush50-1",
+            "text": "Assign at least one dweller to a production room such as a @loc{Power Generator}, @loc{Diner}, or @loc{Water Treatment}."
+          },
+          {
+            "id": "roomrush50-2",
+            "text": "Select the room and use the @mechanic{Rush} button at the bottom of the screen, then confirm the attempt."
+          },
+          {
+            "id": "roomrush50-3",
+            "text": "Repeat across production rooms, letting each room's odds recover between attempts, until 50 rushes have succeeded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RoomBuild25",
+      "displayName": "Vault-Tec Architect",
+      "description": "Build 25 rooms",
+      "hidden": false,
+      "globalPercent": 36.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2-4 h",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build 25 rooms in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter tracks rooms built over time in one vault, so destroying and rebuilding a cheap room still advances it. A merged multi-wide room counts as one room.",
+        "steps": [
+          {
+            "id": "roombuild25-1",
+            "text": "Open the construction menu and build rooms with Caps; any room type counts toward the total."
+          },
+          {
+            "id": "roombuild25-2",
+            "text": "Keep building, or raze and rebuild a cheap room, until 25 rooms have been constructed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RoomBuild50",
+      "displayName": "Vault-Tec Engineer",
+      "description": "Build 50 rooms",
+      "hidden": false,
+      "globalPercent": 22.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-8 h",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Build 50 rooms in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rooms that were later destroyed still count, and merged rooms count once, so a cheap room can be built and razed repeatedly to finish the total.",
+        "steps": [
+          {
+            "id": "roombuild50-1",
+            "text": "Expand the vault by constructing additional rooms of any type with Caps."
+          },
+          {
+            "id": "roombuild50-2",
+            "text": "Continue building until the vault has constructed 50 rooms; raze and rebuild a cheap room if normal building falls short."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CapsCollected1000",
+      "displayName": "Mattress Stuffer",
+      "description": "Collect 1000 Caps",
+      "hidden": false,
+      "globalPercent": 69.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 1 h",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect 1,000 @item{Caps} in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress tracks every Cap earned in the vault, not the current balance, so spending Caps never reduces the total.",
+        "steps": [
+          {
+            "id": "capscollected1000-1",
+            "text": "Earn Caps by collecting production-room output, completing quests, exploring the wasteland, and opening lunchboxes."
+          },
+          {
+            "id": "capscollected1000-2",
+            "text": "Keep earning until the lifetime total reaches 1,000 Caps."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CapsCollected10000",
+      "displayName": "A Vault For My Vault",
+      "description": "Collect 10,000 Caps",
+      "hidden": false,
+      "globalPercent": 41.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 h",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect 10,000 @item{Caps} in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "As with the smaller Caps milestone, only the lifetime amount earned matters, so purchases do not undo progress.",
+        "steps": [
+          {
+            "id": "capscollected10000-1",
+            "text": "Earn Caps from room production, quests, wasteland runs, lunchboxes, and objectives."
+          },
+          {
+            "id": "capscollected10000-2",
+            "text": "Send trained dwellers on long wasteland expeditions for large Caps hauls, continuing until the lifetime total reaches 10,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DwellerLevel10",
+      "displayName": "Better Settler",
+      "description": "Level up a Dweller from 1 to Level 10",
+      "hidden": false,
+      "globalPercent": 40.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30-60 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Level a dweller from Level 1 to Level 10.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress follows one dweller's climb from Level 1, so a character that starts above Level 1 does not advance it.",
+        "steps": [
+          {
+            "id": "dwellerlevel10-1",
+            "text": "Send a Level 1 dweller on quests or into the wasteland so combat and exploration grant experience."
+          },
+          {
+            "id": "dwellerlevel10-2",
+            "text": "Recall the dweller once the character sheet shows Level 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DwellerLevel25",
+      "displayName": "Higher and Higher",
+      "description": "Level up a Dweller to level 25",
+      "hidden": false,
+      "globalPercent": 24.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 h",
+      "estMinutes": 150,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Level a dweller to Level 25.",
+      "guide": {
+        "kind": "standard",
+        "context": "Endurance determines how much damage a dweller can survive, so training it first keeps the dweller alive through long expeditions.",
+        "steps": [
+          {
+            "id": "dwellerlevel25-1",
+            "text": "Train one dweller's @mechanic{Endurance} to 10 and equip the best @item{Endurance outfit} available."
+          },
+          {
+            "id": "dwellerlevel25-2",
+            "text": "Send the dweller into the wasteland loaded with @item{Stimpaks} and @item{RadAway} until they reach Level 25, repeating runs if needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DwellerLevel50",
+      "displayName": "Overseer",
+      "description": "Level up a Dweller to level 50",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "6-12 h",
+      "estMinutes": 360,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Level a dweller to Level 50.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching Level 50 takes several days of wasteland combat, so a dweller with maximum Endurance and healing supplies is the fastest reliable route.",
+        "steps": [
+          {
+            "id": "dwellerlevel50-1",
+            "text": "Train one dweller's @mechanic{Endurance} to 10 and equip a strong @item{Endurance outfit}."
+          },
+          {
+            "id": "dwellerlevel50-2",
+            "text": "Send the dweller into the wasteland with a large supply of @item{Stimpaks} and @item{RadAway}, then let them fight and explore for several days."
+          },
+          {
+            "id": "dwellerlevel50-3",
+            "text": "Recall the dweller once the character sheet shows Level 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UniqueRoomBuild",
+      "displayName": "Home Sweet Home",
+      "description": "Build 1 of every room type",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10-20 h to reach 100 dwellers",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Construct one of each room type in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every type must exist together in the same vault. Most types unlock with population: Storage 12, Medbay 14, Science lab 16, Overseer's office 18, Radio studio 20, Weapon workshop 22, Weight room 24, Athletics room 26, Armory 28, Classroom 30, Outfit workshop 32, Fitness room 35, Lounge 40, Theme workshop 42, Game room 45, Barbershop 50, Nuclear reactor 60, Garden 70, Water purification 80, and Nuka-Cola Bottler 100. Newer types, including the Ultracite rooms, also count.",
+        "steps": [
+          {
+            "id": "uniqueroombuild-1",
+            "text": "Build the tutorial rooms and every additional room type as it unlocks; merged rooms do not need to be merged."
+          },
+          {
+            "id": "uniqueroombuild-2",
+            "text": "Reach 100 dwellers, build the @loc{Nuka-Cola Bottler}, and add any newer room types the build menu offers until every type is present."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LegendaryWeapons20",
+      "displayName": "Armed and Dangerous",
+      "description": "Collect 20 Legendary weapons",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-20 h of questing and lunchboxes",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Collect 20 Legendary weapons in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only Legendary-rarity weapons count. Fully upgrading the @loc{Weapon workshop} unlocks Legendary blueprints and costs 68,000 Caps beyond the base room.",
+        "steps": [
+          {
+            "id": "legendaryweapons20-1",
+            "text": "Collect @item{Legendary weapons} from high-level quest rewards, lunchbox cards, wasteland exploration, and recruited Legendary dwellers."
+          },
+          {
+            "id": "legendaryweapons20-2",
+            "text": "Find Legendary weapon recipes and craft them in a fully upgraded @loc{Weapon workshop}."
+          },
+          {
+            "id": "legendaryweapons20-3",
+            "text": "Keep gathering sources until 20 Legendary weapons are owned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LegendaryOutfits20",
+      "displayName": "Fashion Statement",
+      "description": "Collect 20 Legendary outfits",
+      "hidden": false,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-20 h of questing and lunchboxes",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Collect 20 Legendary outfits in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only Legendary-rarity outfits count, and a newly recruited Legendary dweller already wears one.",
+        "steps": [
+          {
+            "id": "legendaryoutfits20-1",
+            "text": "Collect @item{Legendary outfits} from quest rewards, lunchbox cards, wasteland exploration, and recruited Legendary dwellers."
+          },
+          {
+            "id": "legendaryoutfits20-2",
+            "text": "Find Legendary outfit recipes and craft them in a fully upgraded @loc{Outfit workshop}."
+          },
+          {
+            "id": "legendaryoutfits20-3",
+            "text": "Keep gathering sources until 20 Legendary outfits are owned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LegendaryDwellers20",
+      "displayName": "Blast From The Past",
+      "description": "Collect 20 Legendary Dwellers",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "many weeks of lunchboxes",
+      "estMinutes": 1200,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Recruit 20 Legendary dwellers in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Legendary babies do not count, only recruited Legendary dwellers. Most arrive as rare lunchbox cards, making this the game's longest grind.",
+        "steps": [
+          {
+            "id": "legendarydwellers20-1",
+            "text": "Complete the @loc{Climbing the Ranks} quest chain for @npc{Sarah Lyons}, @loc{A Settler Needs Your Help} for @npc{Preston Garvey}, and @loc{Searching in the Dark} for @npc{Ed the Ghoul}."
+          },
+          {
+            "id": "legendarydwellers20-2",
+            "text": "Open @item{lunchboxes} earned from the weekly report, objectives, and quests until 17 more Legendary dwellers appear."
+          },
+          {
+            "id": "legendarydwellers20-3",
+            "text": "Recruit each new arrival at the vault door and continue until 20 Legendary dwellers have joined."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RaiderAttacksStopped50",
+      "displayName": "Get Off My Lawn",
+      "description": "Successfully stop 50 Raider Attacks",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "passive, over many hours",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Successfully stop 50 @enemy{Raider} attacks on the vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "A raid counts only when every raider is killed; if they escape past the last defended room it does not count. Ghoul and Deathclaw attacks are not raiders and do not advance the counter.",
+        "steps": [
+          {
+            "id": "raiderattacksstopped50-1",
+            "text": "Arm dwellers and station them in the vault entrance and the first rooms of each floor."
+          },
+          {
+            "id": "raiderattacksstopped50-2",
+            "text": "Kill each raider group before it can flee; raids arrive at random while the vault runs."
+          },
+          {
+            "id": "raiderattacksstopped50-3",
+            "text": "For faster progress, reduce the vault to about 29 dwellers so raids stay limited to raiders, then let the game idle until 50 attacks are stopped.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ObjectivesCompleted100",
+      "displayName": "Overachieve Much?",
+      "description": "Complete 100 objectives",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "passive, over many days",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Finish 100 @mechanic{objectives} within one vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Objectives are the rotating tasks listed in the Pip-Boy tab. One can be skipped free each day and further skips cost Nuka-Cola Quantum, but skipped tasks do not count as completed.",
+        "steps": [
+          {
+            "id": "objectivescompleted100-1",
+            "text": "Open the objectives list and complete the quick tasks, such as producing resources or leveling dwellers."
+          },
+          {
+            "id": "objectivescompleted100-2",
+            "text": "Use the free daily skip on long or difficult objectives."
+          },
+          {
+            "id": "objectivescompleted100-3",
+            "text": "Repeat as fresh objectives appear until 100 have been completed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MergedPowerRooms3",
+      "displayName": "Atom Splitter",
+      "description": "Merged 3 Power Rooms",
+      "hidden": false,
+      "globalPercent": 50.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Merge three @item{Power Generator} rooms into one in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Three identical generators placed side by side at the same tier join automatically. This unlock can fail permanently on a vault if it does not fire, so build the trio early and start a fresh vault if it never triggers.",
+        "steps": [
+          {
+            "id": "mergedpowerrooms3-1",
+            "text": "Build a @item{Power Generator}, then place two more of the same tier directly beside it in a row."
+          },
+          {
+            "id": "mergedpowerrooms3-2",
+            "text": "Let the three rooms merge into one; the achievement fires as the third room joins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MergedFoodRooms3",
+      "displayName": "Dine and Dash",
+      "description": "Merged 3 Food Rooms",
+      "hidden": false,
+      "globalPercent": 47.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Merge three @item{Diner} rooms into one in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Place three Diners of the same tier side by side and they merge automatically. This unlock can fail permanently on a vault, so build the trio early and start a new vault if it never fires.",
+        "steps": [
+          {
+            "id": "mergedfoodrooms3-1",
+            "text": "Build a @item{Diner}, then place two more of the same tier directly beside it in a row."
+          },
+          {
+            "id": "mergedfoodrooms3-2",
+            "text": "Let the three rooms merge into one; the achievement fires as the third room joins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MergedWaterRoom3",
+      "displayName": "Project Purity",
+      "description": "Merged 3 Water Rooms",
+      "hidden": false,
+      "globalPercent": 46.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Merge three @item{Water Treatment} rooms into one in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "Three Water Treatment rooms of the same tier placed in a row merge into one. This unlock can fail permanently on a vault, so do it early and start a fresh vault if it does not trigger.",
+        "steps": [
+          {
+            "id": "mergedwaterroom3-1",
+            "text": "Build a @item{Water Treatment} room, then place two more of the same tier directly beside it in a row."
+          },
+          {
+            "id": "mergedwaterroom3-2",
+            "text": "Let the three rooms merge into one; the achievement fires as the third room joins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BabiesBorn25",
+      "displayName": "Prepared For The Future",
+      "description": "Make 25 babies",
+      "hidden": false,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 h",
+      "estMinutes": 150,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Make 25 babies in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "An unrelated adult male and female assigned to a @loc{Living Quarters} can conceive; higher Charisma speeds it up, and the pregnancy lasts 3 hours before the birth.",
+        "steps": [
+          {
+            "id": "babiesborn25-1",
+            "text": "Assign an unrelated male and female dweller to a @loc{Living Quarters} until the female becomes pregnant."
+          },
+          {
+            "id": "babiesborn25-2",
+            "text": "Wait out the 3-hour pregnancy and let the baby be born."
+          },
+          {
+            "id": "babiesborn25-3",
+            "text": "Repeat with new pairings until 25 babies have been born."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Level3Rooms20",
+      "displayName": "A Better Future, Underground",
+      "description": "Upgrade 20 Rooms to Level 3",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2-3 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Upgrade 20 rooms to Level 3 in a single vault.",
+      "guide": {
+        "kind": "standard",
+        "context": "A merged room upgrades as one unit and counts once. Building, upgrading, destroying, and rebuilding a cheap room advances the counter.",
+        "steps": [
+          {
+            "id": "level3rooms20-1",
+            "text": "Select a room and choose @mechanic{Upgrade} twice to raise it to Level 3."
+          },
+          {
+            "id": "level3rooms20-2",
+            "text": "Repeat on 20 rooms; single @loc{Living Quarters} are the cheapest to upgrade and rebuild."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DialogChoices25",
+      "displayName": "Smooth Talker",
+      "description": "Make 25 Dialogue Choices in Quests",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Make 25 dialogue choices during quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dialogue choices appear while exploring quest locations, and most quests offer only one. The repeatable weekly quest @loc{Game Show Gauntlet} offers four choices per run.",
+        "steps": [
+          {
+            "id": "dialogchoices25-1",
+            "text": "While on quests, pick a response whenever a dialogue prompt appears."
+          },
+          {
+            "id": "dialogchoices25-2",
+            "text": "Repeat @loc{Game Show Gauntlet} as often as needed until 25 choices have been made."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BossesKilled10",
+      "displayName": "You're Fired!",
+      "description": "Kill 10 Quest Bosses",
+      "hidden": false,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill 10 quest boss enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bosses carry a red skull beside their health bar and have more health and damage than ordinary enemies.",
+        "steps": [
+          {
+            "id": "bosseskilled10-1",
+            "text": "On quests, search every room and defeat any enemy marked with a red skull beside its health bar."
+          },
+          {
+            "id": "bosseskilled10-2",
+            "text": "Keep clearing quests until 10 bosses have been killed; this arrives naturally within roughly the first 15 quests."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuestsComplete10",
+      "displayName": "Wasteland Wanderer",
+      "description": "Complete 10 Quests",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete 10 quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @loc{Overseer's office} unlocks at 18 dwellers and allows sending up to three dwellers on a quest. A quest completes when the team returns and its loot is collected.",
+        "steps": [
+          {
+            "id": "questscomplete10-1",
+            "text": "Build an @loc{Overseer's office}, then send a dweller team on a quest."
+          },
+          {
+            "id": "questscomplete10-2",
+            "text": "Clear the quest location, return the team to the vault, and collect the loot."
+          },
+          {
+            "id": "questscomplete10-3",
+            "text": "Repeat until 10 quests are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuestsComplete30",
+      "displayName": "Urban Ranger",
+      "description": "Complete 30 Quests",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4-8 h",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete 30 quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "A quest counts once its loot has been collected back at the vault. Pets that shorten travel time and Nuka-Cola Quantum speed up the cycle.",
+        "steps": [
+          {
+            "id": "questscomplete30-1",
+            "text": "Continue sending teams on quests, clearing each location and collecting the loot."
+          },
+          {
+            "id": "questscomplete30-2",
+            "text": "Run as many quests at once as the @loc{Overseer's office} allows until 30 are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuestsComplete60",
+      "displayName": "Survivalist",
+      "description": "Complete 60 Quests",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-15 h",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete 60 quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "A fully upgraded @loc{Overseer's office} lets three quests run at once, with up to three dwellers per team, so trained dwellers keep quests flowing.",
+        "steps": [
+          {
+            "id": "questscomplete60-1",
+            "text": "Upgrade the @loc{Overseer's office} and run three quest teams at the same time."
+          },
+          {
+            "id": "questscomplete60-2",
+            "text": "Equip the teams with strong weapons and ample supplies, then keep completing quests until the count reaches 60."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuestsComplete100",
+      "displayName": "Legend of the Wastes",
+      "description": "Complete 100 Quests",
+      "hidden": false,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15-25 h",
+      "estMinutes": 900,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete 100 quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Daily quests alone would take about 100 days, so repeatable and sequence quests plus travel-time pets are the practical route.",
+        "steps": [
+          {
+            "id": "questscomplete100-1",
+            "text": "Keep three well-armed quest teams cycling, clearing every room and collecting loot."
+          },
+          {
+            "id": "questscomplete100-2",
+            "text": "Use travel-time pets and Nuka-Cola Quantum to shorten waits, continuing until 100 quests are complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ThemesCollected1",
+      "displayName": "Paint ‘n Elbow Grease",
+      "description": "Collect all Pieces of 1 Theme",
+      "hidden": false,
+      "globalPercent": 15.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "several quests",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Collect all 9 fragments of one room theme.",
+      "guide": {
+        "kind": "standard",
+        "context": "Theme fragments drop as quest loot, even from quests that do not list one as a reward, and occasionally turn up during wasteland exploration.",
+        "steps": [
+          {
+            "id": "themescollected1-1",
+            "text": "Complete quests and loot containers until all 9 fragments of one theme are found."
+          },
+          {
+            "id": "themescollected1-2",
+            "text": "Buy any missing fragments in the @loc{Theme workshop} for 3 @item{Nuka-Cola Quantum} each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ThemesCollected4",
+      "displayName": "Decorator",
+      "description": "Collect all Pieces of 4 Themes",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "many quests",
+      "estMinutes": 480,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Collect all fragments of 4 complete room themes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each theme needs its full recipe of 9 fragments; missing pieces can be bought in the @loc{Theme workshop} for 3 @item{Nuka-Cola Quantum} each.",
+        "steps": [
+          {
+            "id": "themescollected4-1",
+            "text": "Gather fragments from quest loot, wasteland exploration, and Quantum purchases."
+          },
+          {
+            "id": "themescollected4-2",
+            "text": "Complete four full theme recipes; the achievement unlocks with the last missing fragment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ThemesCrafted8",
+      "displayName": "Interior Designer",
+      "description": "Craft 1 of every room theme",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "many quests or Quantum purchases",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Craft one of every room theme in the @loc{Theme workshop}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @loc{Theme workshop} unlocks at 42 dwellers and costs 3,200 Caps. Each theme needs its complete recipe and can be crafted only once, so the workshop's list shows which themes remain.",
+        "steps": [
+          {
+            "id": "themescrafted8-1",
+            "text": "Build the @loc{Theme workshop} once the vault reaches 42 dwellers."
+          },
+          {
+            "id": "themescrafted8-2",
+            "text": "Collect each theme's recipe, then craft the theme; repeat for every theme shown in the workshop list."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuestEnemiesKilled500",
+      "displayName": "Enemy of the Wastes",
+      "description": "Kill 500 enemies on Quests",
+      "hidden": false,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "accumulates during questing",
+      "estMinutes": 360,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill 500 enemies while on quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only enemies defeated inside quest locations advance the counter; vault incidents and wasteland exploration do not.",
+        "steps": [
+          {
+            "id": "questenemieskilled500-1",
+            "text": "Search every room of each quest and defeat all enemies before leaving."
+          },
+          {
+            "id": "questenemieskilled500-2",
+            "text": "Continue across quests until 500 enemies have been killed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "QuestStimpaks100Radaways100",
+      "displayName": "Big Pharma",
+      "description": "Collect 100 Stimpacks and 100 Radaway on Quests",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "accumulates during questing",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect 100 @item{Stimpaks} and 100 @item{RadAway} from quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "The two counters are separate, so 100 of each is required. RadAway is the slower one to reach because quests drop it less often.",
+        "steps": [
+          {
+            "id": "queststimpaks100radaways100-1",
+            "text": "Loot every container and enemy body on quests to pick up @item{Stimpaks} and @item{RadAway}."
+          },
+          {
+            "id": "queststimpaks100radaways100-2",
+            "text": "Leave the vault with a full stock of Stimpaks and no RadAway, which increases RadAway drops."
+          },
+          {
+            "id": "queststimpaks100radaways100-3",
+            "text": "Continue until both counters reach 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ScrapItems500",
+      "displayName": "Scraptastic",
+      "description": "Scrap 500 items",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Scrap 500 weapons or outfits.",
+      "guide": {
+        "kind": "standard",
+        "context": "Scrapping happens in Storage and needs free space; junk and pets cannot be scrapped. Progress sits under the Stats page's cumulative counters.",
+        "steps": [
+          {
+            "id": "scrapitems500-1",
+            "text": "Open Storage, select an unwanted weapon or outfit, and use the scrap option."
+          },
+          {
+            "id": "scrapitems500-2",
+            "text": "Sell or equip items whenever storage fills up so scrapping can continue."
+          },
+          {
+            "id": "scrapitems500-3",
+            "text": "Repeat until 500 items have been scrapped."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CraftWeapons10",
+      "displayName": "Weaponsmith",
+      "description": "Craft 10 Weapons",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Craft 10 weapons in the @loc{Weapon workshop}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @loc{Weapon workshop} unlocks at 22 dwellers. Weapons found on quests or in the wasteland do not count, only crafted ones.",
+        "steps": [
+          {
+            "id": "craftweapons10-1",
+            "text": "Build a @loc{Weapon workshop} and gather junk from quests, exploration, and scrapping."
+          },
+          {
+            "id": "craftweapons10-2",
+            "text": "Assign dwellers whose SPECIAL matches the room and craft any 10 weapons; common blueprints are fastest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CraftOutfits10",
+      "displayName": "Fashionista",
+      "description": "Craft 10 Outfits",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Craft 10 outfits in the @loc{Outfit workshop}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @loc{Outfit workshop} unlocks at 32 dwellers. Found outfits do not count, only crafted ones.",
+        "steps": [
+          {
+            "id": "craftoutfits10-1",
+            "text": "Build an @loc{Outfit workshop} and gather the junk each blueprint requires."
+          },
+          {
+            "id": "craftoutfits10-2",
+            "text": "Craft easy blueprints such as the @item{Armored Vault Suit}, @item{Junior Officer Uniform}, or @item{Handyman Jumpsuit} until 10 outfits are made."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CraftOutfitWeaponTheme",
+      "displayName": "More than Handy",
+      "description": "Craft an Outfit, a Weapon and a Theme",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15-30 min in one session",
+      "estMinutes": 20,
+      "stage": 4,
+      "lockoutStage": 4,
+      "prerequisites": [
+        "ThemesCollected1"
+      ],
+      "confidence": "verified",
+      "summary": "Craft one outfit, one weapon, and one room theme.",
+      "guide": {
+        "kind": "standard",
+        "context": "All three crafts must register in the same session, and the unlock can become impossible once every theme has been crafted. Do it before making the final theme and avoid closing the game or leaving on a quest while the crafts finish.",
+        "steps": [
+          {
+            "id": "craftoutfitweapontheme-1",
+            "text": "Build the @loc{Weapon workshop}, @loc{Outfit workshop}, and @loc{Theme workshop}, and unlock at least one recipe for each."
+          },
+          {
+            "id": "craftoutfitweapontheme-2",
+            "text": "Craft one weapon, one outfit, and one theme in a single sitting so all three registers together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BarbershopCustomizations10",
+      "displayName": "A Little off the Top",
+      "description": "Change the appearance of 10 NPCs in the Barbershop",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Give 10 dwellers a new look in the @loc{Barbershop}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @loc{Barbershop} unlocks at 50 dwellers and costs 10,000 Caps. Higher Charisma shortens each makeover.",
+        "steps": [
+          {
+            "id": "barbershopcustomizations10-1",
+            "text": "Build the @loc{Barbershop} and select a dweller."
+          },
+          {
+            "id": "barbershopcustomizations10-2",
+            "text": "Change their hairstyle, hair colour, or facial features and confirm the new look."
+          },
+          {
+            "id": "barbershopcustomizations10-3",
+            "text": "Repeat on 10 different dwellers."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "MergedPowerRooms3",
+    "MergedFoodRooms3",
+    "MergedWaterRoom3",
+    "CapsCollected1000",
+    "DwellerLevel10",
+    "RoomBuild25",
+    "BarbershopCustomizations10",
+    "Level3Rooms20",
+    "DwellerLevel25",
+    "BabiesBorn25",
+    "RoomRush50",
+    "CapsCollected10000",
+    "RoomBuild50",
+    "DwellerLevel50",
+    "UniqueRoomBuild",
+    "BossesKilled10",
+    "QuestsComplete10",
+    "DialogChoices25",
+    "QuestsComplete30",
+    "QuestStimpaks100Radaways100",
+    "QuestEnemiesKilled500",
+    "QuestsComplete60",
+    "QuestsComplete100",
+    "CraftWeapons10",
+    "CraftOutfits10",
+    "ThemesCollected1",
+    "CraftOutfitWeaponTheme",
+    "ScrapItems500",
+    "ThemesCollected4",
+    "ThemesCrafted8",
+    "RaiderAttacksStopped50",
+    "ObjectivesCompleted100",
+    "LegendaryOutfits20",
+    "LegendaryWeapons20",
+    "LegendaryDwellers20"
+  ]
+}

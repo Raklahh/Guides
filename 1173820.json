@@ -1,0 +1,1601 @@
+{
+  "game": {
+    "appid": 1173820,
+    "slug": "final-fantasy-vi",
+    "title": "FINAL FANTASY VI",
+    "version": "1.0",
+    "lastPatchChecked": "2026-03-17",
+    "estTotalHours": 70,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-13"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "World of Balance: Narshe to the Returners",
+      "description": "Play the opening Narshe sequence as Terra, meet Banon and the Returners, and let the early story battles, chests, and gil carry the first thresholds.",
+      "achievementRefs": [
+        "scenario_1",
+        "scenario_2",
+        "monster_hunt_100",
+        "total_gil_10000",
+        "treasure_box_22"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "World of Balance: to the Floating Continent",
+      "description": "Finish the World of Balance story, build up the Tools, and collect every missable chest, hidden item, bestiary entry, and map location before boarding the Blackjack for the Floating Continent.",
+      "achievementRefs": [
+        "scenario_3",
+        "scenario_4",
+        "scenario_5",
+        "scenario_6",
+        "scenario_7",
+        "magicite_collect_15",
+        "auction_battle",
+        "picture_book_34",
+        "picture_book_173",
+        "picture_book_346",
+        "treasure_box_107",
+        "treasure_box_214",
+        "get_hidden_item",
+        "area_visit"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "World of Ruin: recruit and master",
+      "description": "Recruit the scattered party members, including Shadow at the Coliseum, then complete every character command set, all magicite, the Coliseum wins, and the remaining collectibles and counters.",
+      "achievementRefs": [
+        "scenario_8",
+        "scenario_9",
+        "scenario_10",
+        "magicite_collect_25",
+        "machinery_master",
+        "monk_master",
+        "samurai_master",
+        "blue_magic_master_20",
+        "wild_master_50",
+        "gambler_master",
+        "coliseum_champion",
+        "monster_hunt_1000",
+        "total_gil_100000"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Kefka's Tower and 100% cleanup",
+      "description": "Power-level the party, finish the kill and gil counters, clear Kefka's Tower, and claim Master of VI once every other achievement is earned.",
+      "achievementRefs": [
+        "level_all_50",
+        "monster_hunt_2000",
+        "total_gil_500000",
+        "scenario_11",
+        "all_achievement"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "all_achievement",
+      "displayName": "Master of VI",
+      "description": "Earned all achievements.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "after all other achievements",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "completion",
+      "prerequisites": [
+        "scenario_1",
+        "scenario_2",
+        "scenario_3",
+        "scenario_4",
+        "scenario_5",
+        "scenario_6",
+        "scenario_7",
+        "scenario_8",
+        "scenario_9",
+        "scenario_10",
+        "scenario_11",
+        "magicite_collect_15",
+        "magicite_collect_25",
+        "machinery_master",
+        "monk_master",
+        "samurai_master",
+        "gambler_master",
+        "blue_magic_master_20",
+        "wild_master_50",
+        "auction_battle",
+        "coliseum_champion",
+        "level_all_50",
+        "monster_hunt_100",
+        "monster_hunt_1000",
+        "monster_hunt_2000",
+        "picture_book_34",
+        "picture_book_173",
+        "picture_book_346",
+        "total_gil_10000",
+        "total_gil_100000",
+        "total_gil_500000",
+        "treasure_box_22",
+        "treasure_box_107",
+        "treasure_box_214",
+        "get_hidden_item",
+        "area_visit"
+      ],
+      "sortReason": "Unlocks only after every other achievement is earned.",
+      "summary": "Earn every other achievement in FINAL FANTASY VI.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete",
+            "text": "Unlock the other 36 achievements; Master of VI registers automatically once the last one is earned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_1",
+      "displayName": "Mystifying Woman",
+      "description": "Encountered the frozen esper and awakened elsewhere.",
+      "hidden": true,
+      "globalPercent": 83.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "opening sequence",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "summary": "Reach the frozen esper at the end of the opening @loc{Narshe Mines} sequence and defeat its @enemy{Ymir} guardian.",
+      "guide": {
+        "kind": "standard",
+        "context": "The opening is a scripted sequence in which Terra fights alongside Wedge and Biggs in Magitek armor; the only real fight is Ymir.",
+        "steps": [
+          {
+            "id": "reach-esper",
+            "text": "Play north through the linear @loc{Narshe Mines}, using the save point, until you reach the metal door and watch the scene.",
+            "kind": "normal"
+          },
+          {
+            "id": "defeat-ymir",
+            "text": "Defeat @enemy{Ymir} by attacking only while its head is out of the shell.",
+            "note": "Attacking the shell triggers @mechanic{Megavolt}, which can deal heavy damage to the party."
+          },
+          {
+            "id": "watch-scene",
+            "text": "Continue north past the arch, climb the stairs, and view the following scene to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_2",
+      "displayName": "Prevailing Hope",
+      "description": "Met with Banon and decided to oppose the Empire.",
+      "hidden": true,
+      "globalPercent": 62.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_1"
+      ],
+      "summary": "Meet @npc{Banon} outside the @loc{Returners' Hideout} and agree to oppose the Empire.",
+      "guide": {
+        "kind": "standard",
+        "context": "Your reply changes only the reward: answering Yes at least once gives a @item{Gauntlet}, while refusing three times in a row gives a @item{Genji Glove}. Both can be obtained again later, so the choice does not affect completion.",
+        "steps": [
+          {
+            "id": "meet-banon",
+            "text": "After the Lethe River sequence, walk to the @loc{Returners' Hideout} entrance and speak to @npc{Banon}."
+          },
+          {
+            "id": "watch-scenes",
+            "text": "Watch the scenes that follow the meeting as Banon joins the party; the achievement unlocks during them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_3",
+      "displayName": "Defend the Esper",
+      "description": "Protected the frozen esper and ousted the Imperial troops.",
+      "hidden": true,
+      "globalPercent": 50.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_2"
+      ],
+      "summary": "Repel @enemy{Kefka} and the Imperial troops in the three-party @loc{Narshe} battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Celes' @mechanic{Runic} absorbs the next spell cast against the party, so using it every turn keeps Kefka limited to physical attacks.",
+        "steps": [
+          {
+            "id": "start-battle",
+            "text": "At @loc{Narshe Revisited}, heal at the recovery bucket, quick-save, and interact with @enemy{Kefka} to start the three-party battle."
+          },
+          {
+            "id": "use-runic",
+            "text": "Have Celes use @mechanic{Runic} on every turn.",
+            "note": "This blocks Kefka's magic and leaves only weak physical attacks."
+          },
+          {
+            "id": "finish",
+            "text": "Keep attacking until Kefka flees, then watch the scene to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_4",
+      "displayName": "Imparted Power",
+      "description": "Encountered Ramuh and obtained his magicite.",
+      "hidden": true,
+      "globalPercent": 47.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_3"
+      ],
+      "summary": "Pick up all four pieces of magicite in the @loc{Zozo} room where @npc{Terra} awakens.",
+      "guide": {
+        "kind": "standard",
+        "context": "All four pieces sit on the floor of the same room after the scene.",
+        "steps": [
+          {
+            "id": "reach-room",
+            "text": "Progress through @loc{Zozo} and interact with @npc{Terra} in bed to trigger the scenes."
+          },
+          {
+            "id": "collect",
+            "text": "After the scenes, pick up the four magicite on the floor: @item{Ramuh}, @item{Kirin}, @item{Siren}, and @item{Cait Sith}.",
+            "note": "The achievement registers once the magicite are collected."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_5",
+      "displayName": "Taking Off",
+      "description": "Performed in the opera and obtained the airship.",
+      "hidden": true,
+      "globalPercent": 45.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_4"
+      ],
+      "summary": "Complete the @loc{Opera House} performance and obtain @npc{Setzer}'s airship.",
+      "guide": {
+        "kind": "standard",
+        "context": "The performance is interrupted by @enemy{Ultros}; once it flees, the story hands over the @item{Blackjack} airship.",
+        "steps": [
+          {
+            "id": "opera",
+            "text": "Follow the @loc{Opera House} section and let the performance play out, then defeat @enemy{Ultros} when it attacks."
+          },
+          {
+            "id": "airship",
+            "text": "After the scenes, talk to @npc{Setzer} aboard the @item{Blackjack} to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_6",
+      "displayName": "Steps Toward Peace",
+      "description": "Attended Emperor Gestahl's banquet and brokered peace.",
+      "hidden": true,
+      "globalPercent": 38.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_5"
+      ],
+      "summary": "Attend Emperor @npc{Gestahl}'s banquet at the @loc{Imperial Palace} and broker peace.",
+      "guide": {
+        "kind": "standard",
+        "context": "The banquet scores your replies. The best replies each add +5, and asking Gestahl questions adds +2 each, but repeating a question wastes the chance.",
+        "steps": [
+          {
+            "id": "answers",
+            "text": "During the banquet, reply \"To our homelands.\", \"Leave him in jail.\", \"That was inexcusable.\", and \"Celes is one of us!\" to score maximum points."
+          },
+          {
+            "id": "questions",
+            "text": "Ask Emperor @npc{Gestahl} his questions in order, and never ask the same question twice."
+          },
+          {
+            "id": "board",
+            "text": "When asked whether to go aboard, answer Yes, then watch the scenes to unlock the achievement.",
+            "note": "Answering No forfeits the airship.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_7",
+      "displayName": "End of the World",
+      "description": "Witnessed the Warring Triad revive and destroy the world.",
+      "hidden": true,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_6"
+      ],
+      "summary": "Wait for @npc{Shadow} on the @loc{Floating Continent}, then watch the Warring Triad destroy the world.",
+      "guide": {
+        "kind": "standard",
+        "context": "After the @enemy{Nelapa} battle you are offered the airship and must choose whether to leave or wait. Waiting until roughly five seconds remain lets Shadow escape with the party; leaving early loses him permanently.",
+        "steps": [
+          {
+            "id": "nelapa",
+            "text": "Defeat @enemy{Nelapa} on the @loc{Floating Continent}."
+          },
+          {
+            "id": "wait",
+            "text": "At the right ledge, choose to wait and do not leave until roughly five seconds remain, when @npc{Shadow} appears.",
+            "note": "Leaving early permanently loses @npc{Shadow} and locks out 100% completion.",
+            "kind": "warning"
+          },
+          {
+            "id": "scene",
+            "text": "Watch the scene of the Warring Triad reviving to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_8",
+      "displayName": "Looking for Friends- Part 1",
+      "description": "Reunited with 1 ally.",
+      "hidden": true,
+      "globalPercent": 33.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_7"
+      ],
+      "summary": "Rescue the child from the burning house in @loc{Tzen} so @npc{Sabin} rejoins the party.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "house",
+            "text": "Enter the burning house in @loc{Tzen}, open all 8 chests, and pick up the child from the fireplace."
+          },
+          {
+            "id": "escape",
+            "text": "Escape the building; @npc{Sabin} rejoins the party after the house collapses and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_9",
+      "displayName": "Looking for Friends- Part 2",
+      "description": "Reunited with 5 allies.",
+      "hidden": true,
+      "globalPercent": 30.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_8"
+      ],
+      "summary": "Defeat @enemy{Humbaba} at @loc{Mobliz} so @npc{Terra} rejoins the party.",
+      "guide": {
+        "kind": "standard",
+        "context": "This counts your fifth World of Ruin reunion, so recruit four allies before coming to Mobliz. You may enter @loc{Kefka's Tower} before this reunion, which would leave the achievement unearned.",
+        "steps": [
+          {
+            "id": "recruit",
+            "text": "Recruit four World of Ruin allies before @loc{Mobliz}.",
+            "note": "Only a few allies are required to enter the final dungeon, so this reunion is easy to skip."
+          },
+          {
+            "id": "humbaba",
+            "text": "Defeat @enemy{Humbaba} at @loc{Mobliz}."
+          },
+          {
+            "id": "reunion",
+            "text": "Watch the post-battle scenes as @npc{Terra} rejoins the party."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_10",
+      "displayName": "Looking for Friends- Part 3",
+      "description": "Reunited with 10 allies.",
+      "hidden": true,
+      "globalPercent": 27.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_9"
+      ],
+      "summary": "Win the @loc{Coliseum} wager against @npc{Shadow} so he rejoins the party.",
+      "guide": {
+        "kind": "standard",
+        "context": "This counts your tenth World of Ruin reunion, so recruit nine other allies before the Coliseum. You may enter @loc{Kefka's Tower} before this reunion, which would leave the achievement unearned.",
+        "steps": [
+          {
+            "id": "recruit",
+            "text": "Recruit nine World of Ruin allies before the @loc{Coliseum} wager."
+          },
+          {
+            "id": "coliseum",
+            "text": "At the @loc{Coliseum}, talk to the guard and choose \"With pleasure!\"."
+          },
+          {
+            "id": "bet-win",
+            "text": "Bet the @item{Ichigeki} to challenge @npc{Shadow}, pick your strongest character, and win the battle.",
+            "note": "The @item{Ichigeki} is in a chest in the @loc{Cave on the Veldt}; do not sell it. Shadow rejoins the party and the achievement unlocks after the win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scenario_11",
+      "displayName": "Breath of New Life",
+      "description": "Defeated Kefka and restored peace to the world.",
+      "hidden": true,
+      "globalPercent": 21.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "story",
+      "prerequisites": [
+        "scenario_10"
+      ],
+      "summary": "Defeat @enemy{Kefka} in @loc{Kefka's Tower} and reach the ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final sequence runs through the Statue of the Gods phases before Kefka himself.",
+        "steps": [
+          {
+            "id": "tower",
+            "text": "Clear @loc{Kefka's Tower} with three parties and reach the final battle."
+          },
+          {
+            "id": "kefka",
+            "text": "Defeat the @enemy{Statue of the Gods} phases and then @enemy{Kefka}, and watch the ending to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "magicite_collect_15",
+      "displayName": "Magicite Collector",
+      "description": "Obtained 15 pieces of magicite.",
+      "hidden": false,
+      "globalPercent": 34.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "mid-game collection",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "magicite",
+      "summary": "Obtain 15 pieces of magicite.",
+      "guide": {
+        "kind": "standard",
+        "context": "Magicite comes from story events, the @loc{Magitek Factory}, and the @loc{Jidoor} Auction House; the auction's @item{Zona Seeker} and @item{Golem} lots are common 15th pieces.",
+        "steps": [
+          {
+            "id": "story",
+            "text": "Collect the story magicite from @loc{Zozo} (@item{Ramuh}, @item{Kirin}, @item{Siren}, and @item{Cait Sith}) and from the @loc{Magitek Factory}."
+          },
+          {
+            "id": "auction",
+            "text": "If you still need more, win @item{Zona Seeker} (10,000 gil) and @item{Golem} (20,000 gil) at the @loc{Jidoor} Auction House.",
+            "note": "The achievement registers when the fifteenth piece is added."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "magicite_collect_25",
+      "displayName": "Magicite Completionist",
+      "description": "Obtained all magicite.",
+      "hidden": false,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across the World of Ruin",
+      "estMinutes": 180,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "group": "magicite",
+      "prerequisites": [
+        "magicite_collect_15"
+      ],
+      "summary": "Obtain all 27 pieces of magicite.",
+      "guide": {
+        "kind": "standard",
+        "context": "Three magicite are missable. Pick up @item{Ifrit} and @item{Shiva} from the floor after the @loc{Magitek Factory} fights, and choose the @item{Ragnarok} magicite rather than the sword at @loc{Narshe} in the World of Ruin.",
+        "steps": [
+          {
+            "id": "story",
+            "text": "Collect every story magicite and the optional ones across both worlds."
+          },
+          {
+            "id": "magitek",
+            "text": "When the @loc{Magitek Factory} fights end, grab @item{Ifrit} and @item{Shiva} from the ground before you leave.",
+            "kind": "warning"
+          },
+          {
+            "id": "ragnarok",
+            "text": "At @loc{Narshe} in the World of Ruin, choose the @item{Ragnarok} magicite, not the sword.",
+            "note": "The sword can be bet for the Lightbringer, but it forfeits the esper and the achievement.",
+            "kind": "warning"
+          },
+          {
+            "id": "crusader",
+            "text": "Defeat the eight dragons and claim @item{Crusader} to reach 27 magicite and unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "machinery_master",
+      "displayName": "Master Mechanist",
+      "description": "Obtained all \"Tools\" commands.",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "command",
+      "summary": "Obtain all 8 of @npc{Edgar}'s @mechanic{Tools} commands.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tools come from Figaro Castle shops, two chests, and the story; @item{Air Anchor} in the @loc{Cultists' Tower} is the last one.",
+        "steps": [
+          {
+            "id": "figaro",
+            "text": "Collect @item{Auto Crossbow} on the @loc{Figaro Castle} throne visit, then buy @item{Noiseblaster} and @item{Bioblaster} from the castle item shop."
+          },
+          {
+            "id": "later",
+            "text": "Buy @item{Flash} and @item{Drill} from the Figaro Castle shop when they appear, and open the @item{Chainsaw} chest in @loc{Zozo}."
+          },
+          {
+            "id": "wor",
+            "text": "In the World of Ruin, buy @item{Debilitator} from the Figaro Castle shop and open the @item{Air Anchor} chest in the @loc{Cultists' Tower}.",
+            "note": "Win a battle or leave the room after @item{Air Anchor} to register the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "monk_master",
+      "displayName": "Master Monk",
+      "description": "Acquired all \"Blitz\" commands.",
+      "hidden": false,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "command",
+      "summary": "Obtain all 8 of @npc{Sabin}'s @mechanic{Blitz} commands.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final Blitz, @mechanic{Phantom Rush}, is granted at @loc{Duncan's Cabin} only once Sabin is level 42 or higher. Reaching level 70 also teaches it, so the side quest removes the grind.",
+        "steps": [
+          {
+            "id": "level",
+            "text": "Raise @npc{Sabin} to level 42 or higher and keep him in the party."
+          },
+          {
+            "id": "travel",
+            "text": "Take the @item{Falcon} to the @loc{Narshe} region and set down beside the cluster of trees that forms a \"+\" pattern."
+          },
+          {
+            "id": "cabin",
+            "text": "Walk over the middle tree and enter @loc{Duncan's Cabin} to receive @mechanic{Phantom Rush}.",
+            "note": "The achievement registers only if every other Blitz is already learned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "samurai_master",
+      "displayName": "Master Samurai",
+      "description": "Acquired all \"Bushido\" commands.",
+      "hidden": false,
+      "globalPercent": 25.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "command",
+      "summary": "Obtain all 8 of @npc{Cyan}'s @mechanic{Bushido} commands.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bushido normally unlock by leveling Cyan to 70, but the Dream Sequence side quest in @loc{Doma Castle} grants all eight at once.",
+        "steps": [
+          {
+            "id": "recruit",
+            "text": "Recruit @npc{Cyan} and put him in the party."
+          },
+          {
+            "id": "travel",
+            "text": "Pilot the @item{Falcon} to the island that lies between @loc{Nikeah} and the @loc{Veldt}."
+          },
+          {
+            "id": "dream",
+            "text": "Enter @loc{Doma Castle}, go north, choose \"Rest for a bit\", and complete the dream."
+          },
+          {
+            "id": "wrexsoul",
+            "text": "Defeat @enemy{Wrexsoul}; the achievement unlocks after the Doma scenes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "gambler_master",
+      "displayName": "Master Gambler",
+      "description": "Got \"Joker's Death\" with the \"Slot\" command.",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30 min to several hours",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "command",
+      "summary": "Roll 7-7-7, the \"Joker's Death\" result, on @npc{Setzer}'s @mechanic{Slot} command.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only 7-7-7 counts; the 7-7-BAR result kills the whole party and unlocks nothing. Slots also work in Auto-Battle, and the Guardian boss in @loc{Kefka's Tower} Party 2 is a repeatable fight to fish on.",
+        "steps": [
+          {
+            "id": "setzer",
+            "text": "Put @npc{Setzer} in the party and use @mechanic{Slot} in battles."
+          },
+          {
+            "id": "save",
+            "text": "Quick-save after each battle because a 7-7-BAR result is a party wipe.",
+            "note": "Reloading after the wipe keeps you from losing progress."
+          },
+          {
+            "id": "farm",
+            "text": "Repeat battles until the reels land on 7-7-7 and the achievement unlocks.",
+            "note": "Auto-Battle can roll the slots; the Guardian fight in @loc{Kefka's Tower} is a repeatable place to farm it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "blue_magic_master_20",
+      "displayName": "Master Blue Mage",
+      "description": "Learned 20 enemy techniques.",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "lockoutStage": 3,
+      "confidence": "verified",
+      "group": "command",
+      "summary": "Learn 20 of @npc{Strago}'s @mechanic{Lore} spells.",
+      "guide": {
+        "kind": "standard",
+        "context": "24 Lores exist and the first three count, so only 17 must actually be learned. Strago must be in the party and survive the battle in which the enemy casts the Lore; forcing it with @npc{Relm}'s @mechanic{Control} or @mechanic{Sketch} is reliable.",
+        "steps": [
+          {
+            "id": "core",
+            "text": "Learn the starting Lores and the easy ones from enemies across both worlds."
+          },
+          {
+            "id": "control",
+            "text": "Equip @npc{Relm} with the @item{Fake Mustache} and use @mechanic{Control} or @mechanic{Sketch} to force an enemy to cast its Lore, then win the battle."
+          },
+          {
+            "id": "farm",
+            "text": "Farm the @enemy{Dark Force} on @loc{Kefka's Tower} 2F, which teaches most remaining Lores.",
+            "note": "The achievement registers when the twentieth Lore is learned."
+          },
+          {
+            "id": "forcefield",
+            "text": "Before finishing @loc{Kefka's Tower}, keep @npc{Strago} in Party 3 for the mandatory @enemy{Fiend} fight so he witnesses @item{Force Field}.",
+            "note": "Force Field cannot be obtained again once the one-time Fiend fight is passed.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wild_master_50",
+      "displayName": "Master of the Wild",
+      "description": "Used the \"Leap\" command to learn 50 enemy techniques.",
+      "hidden": false,
+      "globalPercent": 13.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "command",
+      "summary": "Learn 50 of @npc{Gau}'s @mechanic{Rage} techniques with @mechanic{Leap} on the @loc{Veldt}.",
+      "guide": {
+        "kind": "standard",
+        "context": "254 Rages exist and only 50 are needed, so missing some rarely matters. Gau learns Rages only for battles he is present for and rejoins.",
+        "steps": [
+          {
+            "id": "veldt",
+            "text": "Go to the @loc{Veldt} with @npc{Gau} in the party and fight battles."
+          },
+          {
+            "id": "leap",
+            "text": "Use @mechanic{Leap} in a battle so Gau learns the Rages of that formation, then finishes the battle by leaving."
+          },
+          {
+            "id": "rejoin",
+            "text": "Keep fighting until Gau reappears at the end of a later battle. Halt your attacks and give him a few seconds to rejoin, so he also learns that formation's Rages.",
+            "note": "Gau does not learn Rages from battles between his departure and his return."
+          },
+          {
+            "id": "check",
+            "text": "Open the @mechanic{Rage} menu before leaping so you do not waste a formation you already know.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "auction_battle",
+      "displayName": "Bidding Battle",
+      "description": "Won an item at auction.",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "sidequest",
+      "summary": "Win any lot at the @loc{Jidoor} Auction House.",
+      "guide": {
+        "kind": "standard",
+        "context": "The auction opens in the World of Balance after the Tzen revisit, and you must outbid the NPC buyers with your own gil.",
+        "steps": [
+          {
+            "id": "enter",
+            "text": "In @loc{Jidoor}, enter the Auction House at the top-right of town, talk to the man, and choose to join the bidding."
+          },
+          {
+            "id": "win",
+            "text": "Bid on a lot and win it.",
+            "note": "The magicite lots are @item{Zona Seeker} (10,000 gil) and @item{Golem} (20,000 gil); if an unwanted item appears, leave and re-enter to reroll the auction."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "coliseum_champion",
+      "displayName": "Coliseum Champion",
+      "description": "Won 10 battles in the coliseum.",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "sidequest",
+      "summary": "Win 10 wagers at the @loc{Coliseum}.",
+      "guide": {
+        "kind": "standard",
+        "context": "At the Coliseum you bet one item, then one AI-controlled character fights a preset enemy. Winning upgrades the item, dying loses it, and being Snorted out keeps the bet so you can try again.",
+        "steps": [
+          {
+            "id": "enter",
+            "text": "In the World of Ruin, enter the @loc{Coliseum} (the top-left dot on the map), talk to the guard, and agree to fight."
+          },
+          {
+            "id": "bet",
+            "text": "Bet an item and choose a character, then win the battle."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat with different items until you have 10 wins.",
+            "note": "Most other bets lead to an Elixir and a @enemy{Typhoon} fight that often Snorts your character out, which keeps the bet, so try different items."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "level_all_50",
+      "displayName": "Seasoned Hero",
+      "description": "Reached level 50 for all party members.",
+      "hidden": false,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2-3 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "grind",
+      "summary": "Raise every party member to level 50.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every playable character must reach level 50, including late recruits and optional members such as @npc{Umaro} and @npc{Gogo}.",
+        "steps": [
+          {
+            "id": "recruit",
+            "text": "Recruit every playable character before grinding."
+          },
+          {
+            "id": "dino",
+            "text": "Take one character at a time, with only two members in the party so EXP is not split, and fight in the @loc{Dinosaur Forest}.",
+            "note": "Cast @mechanic{Ultima} through the @item{Ragnarok} esper with @item{Soul of Thamasa}, two @item{Gold Hairpins}, the @item{Growth Egg}, two @item{Alarm Earrings}, and @item{Sleeping Bags} to restore MP."
+          },
+          {
+            "id": "swap",
+            "text": "Once a character hits level 50, strip their equipment and move on to the next character inside the @item{Falcon} until all are done.",
+            "note": "Expect roughly 2.5 hours for the whole roster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "monster_hunt_100",
+      "displayName": "Apprentice Warrior",
+      "description": "Defeated 100 monsters.",
+      "hidden": false,
+      "globalPercent": 66.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "early game",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Defeat 100 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is cumulative and rises automatically as you fight through the story.",
+        "steps": [
+          {
+            "id": "play",
+            "text": "Defeat enemies in normal battles; the counter crosses 100 during the early game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "monster_hunt_1000",
+      "displayName": "Experienced Warrior",
+      "description": "Defeated 1,000 monsters.",
+      "hidden": false,
+      "globalPercent": 37.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "natural progression",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Defeat 1,000 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is cumulative and counts every enemy you defeat, wherever you fight.",
+        "steps": [
+          {
+            "id": "play",
+            "text": "Keep defeating enemies through the story and side content; 1,000 is reached during a full playthrough."
+          },
+          {
+            "id": "extra",
+            "text": "If you are short, fight repeatable encounters in the @loc{Veldt}.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "monster_hunt_2000",
+      "displayName": "Legendary Warrior",
+      "description": "Defeated 2,000 monsters.",
+      "hidden": false,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-3 hours of extra battles",
+      "estMinutes": 150,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Defeat 2,000 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is cumulative and counts every enemy you defeat, so a full playthrough plus the achievement-hunting fights makes up most of it.",
+        "steps": [
+          {
+            "id": "play",
+            "text": "Keep defeating enemies through a full playthrough and the World of Ruin content."
+          },
+          {
+            "id": "farm",
+            "text": "If you are short, fight repeatable encounters in the @loc{Veldt} or the @loc{Dinosaur Forest} until the counter reaches 2,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "picture_book_34",
+      "displayName": "Field Research- Basic",
+      "description": "Completed 10% of the Bestiary entries.",
+      "hidden": false,
+      "globalPercent": 58.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "early-mid game",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Register 34 bestiary entries, 10% of the total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bestiary holds 346 entries and is checked from the main menu under Extras, then Bestiary. An entry registers when you defeat that enemy.",
+        "steps": [
+          {
+            "id": "kill",
+            "text": "Defeat a variety of enemies as you play; 34 entries is reached early, and progress is visible under Extras, then Bestiary."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "picture_book_173",
+      "displayName": "Field Research- Advanced",
+      "description": "Completed 50% of the Bestiary entries.",
+      "hidden": false,
+      "globalPercent": 30.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the game",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Register 173 bestiary entries, 50% of the total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bestiary holds 346 entries. Many enemies are missable after the World of Balance ends, so kill each new enemy type in every area you pass through.",
+        "steps": [
+          {
+            "id": "kill",
+            "text": "Kill every new enemy type you meet, including one-time dungeons, until the bestiary shows 173 entries."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "picture_book_346",
+      "displayName": "Field Research- Professional",
+      "description": "Completed 100% of the Bestiary entries.",
+      "hidden": false,
+      "globalPercent": 4.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "across the game",
+      "estMinutes": 900,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Register all 346 bestiary entries.",
+      "guide": {
+        "kind": "standard",
+        "context": "103 entries are missable. The biggest single cutoff comes when you board the @item{Blackjack} toward the @loc{Floating Continent}, but many one-time areas such as the @loc{South Figaro Cave}, @loc{Phantom Train}, and @loc{Opera House} close earlier. The @loc{Veldt} only replays enemies you already fought, so skipped enemies cannot be recovered, and @enemy{Apparition}, @enemy{Siegfried}, @enemy{Mega Armor}, and @enemy{Naude} never appear there at all.",
+        "steps": [
+          {
+            "id": "everywhere",
+            "text": "Kill every new enemy in every location, including one-time dungeons, as you progress.",
+            "kind": "warning"
+          },
+          {
+            "id": "checkpoint",
+            "text": "Before leaving @loc{Doma} for the @loc{Floating Continent}, check that every World of Balance enemy is registered.",
+            "note": "Use the main menu Extras, then Bestiary list.",
+            "kind": "warning"
+          },
+          {
+            "id": "wor",
+            "text": "Finish the remaining entries in the World of Ruin, including the @loc{Crumbling House} in @loc{Tzen}, the @loc{Owzer's Mansion} paintings, and the @loc{Cyan's Dreamscape} enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "total_gil_10000",
+      "displayName": "Thrifty Spender",
+      "description": "Obtained 10,000 gil.",
+      "hidden": false,
+      "globalPercent": 67.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "early game",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "gil",
+      "summary": "Obtain 10,000 gil in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The gil stat is cumulative; it counts everything you earn rather than your current balance.",
+        "steps": [
+          {
+            "id": "earn",
+            "text": "Earn gil from battles, chests, and selling spare gear; 10,000 is reached early in the World of Balance."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "total_gil_100000",
+      "displayName": "Smart Saver",
+      "description": "Obtained 100,000 gil.",
+      "hidden": false,
+      "globalPercent": 46.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "natural progression",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "gil",
+      "summary": "Obtain 100,000 gil in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The gil stat is cumulative and rises as you fight, open chests, and sell equipment.",
+        "steps": [
+          {
+            "id": "earn",
+            "text": "Continue playing and selling spare equipment; the total crosses 100,000 during the World of Balance."
+          },
+          {
+            "id": "auction",
+            "text": "Saving gil for the @loc{Jidoor} auction magicite also builds the total.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "total_gil_500000",
+      "displayName": "Moneybags",
+      "description": "Obtained 500,000 gil.",
+      "hidden": false,
+      "globalPercent": 32.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "late game",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "gil",
+      "summary": "Obtain 500,000 gil in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The gil stat is cumulative, counting every gil earned rather than your balance, so a full playthrough plus some grinding reaches it.",
+        "steps": [
+          {
+            "id": "earn",
+            "text": "Earn and sell through a full playthrough."
+          },
+          {
+            "id": "grind",
+            "text": "If you are short, fight repeatable battles and sell the drops, or enable the gil booster if your version has one, until the total reaches 500,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "treasure_box_22",
+      "displayName": "Rookie Treasure Hunter",
+      "description": "Collected treasure from 10% of the chests.",
+      "hidden": false,
+      "globalPercent": 60.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "early game",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Open 22 counting treasure chests, 10% of the total.",
+      "guide": {
+        "kind": "standard",
+        "context": "The world holds 217 chests but only 214 count toward the achievement.",
+        "steps": [
+          {
+            "id": "open",
+            "text": "Open chests as you explore; the early-game chests carry you past 22.",
+            "note": "Check chest progress on the in-game map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "treasure_box_107",
+      "displayName": "Veteran Treasure Hunter",
+      "description": "Collected treasure from 50% of the chests.",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across the game",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Open 107 counting treasure chests, 50% of the total.",
+      "guide": {
+        "kind": "standard",
+        "context": "88 of the 214 counting chests are missable and close behind story scenes, mostly as the World of Balance ends, so loot each area before leaving it.",
+        "steps": [
+          {
+            "id": "open",
+            "text": "Open every chest in each area before moving on, until the map shows 107 counted chests."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "treasure_box_214",
+      "displayName": "Legendary Treasure Hunter",
+      "description": "Collected treasure from 100% of the chests.",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across the game",
+      "estMinutes": 600,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Open all 214 counting treasure chests.",
+      "guide": {
+        "kind": "standard",
+        "context": "The world holds 217 chests but only 214 count, and 88 of those are missable. Chest progress is tracked per save file and shown on the in-game map.",
+        "steps": [
+          {
+            "id": "checkpoint",
+            "text": "Strip each area of its chests before you take the @item{Blackjack} to the @loc{Floating Continent}, since most missable chests vanish at that point.",
+            "kind": "warning"
+          },
+          {
+            "id": "wor",
+            "text": "Collect the World of Ruin chests, including the @loc{Crumbling House} in @loc{Tzen}."
+          },
+          {
+            "id": "last",
+            "text": "Open the final counting chest, the @item{Ribbon} in @loc{Kefka's Tower}, then win a battle or change location to register the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "get_hidden_item",
+      "displayName": "Item Detector",
+      "description": "Obtained all hidden items.",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across the game",
+      "estMinutes": 300,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Obtain all 50 hidden items.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hidden items are found by inspecting scenery in towns and dungeons. 16 of the 50 are missable, mostly once the World of Balance ends.",
+        "steps": [
+          {
+            "id": "sweep",
+            "text": "Inspect pots, clocks, barrels, and other scenery for hidden items as you pass through each area, because some close with their own chapter, such as the @loc{Phantom Train}.",
+            "kind": "warning"
+          },
+          {
+            "id": "checkpoint",
+            "text": "Finish each area's missable hidden items before it closes: clear the @loc{Cave to the Sealed Gate} before sailing from @loc{Albrook}, and clear the @loc{Returners' Hideout}, @loc{Thamasa}, @loc{Dragon's Neck Cabin}, and @loc{Imperial Observation Post} before the World of Balance ends.",
+            "kind": "warning"
+          },
+          {
+            "id": "finish",
+            "text": "Collect the last World of Ruin hidden item in the @loc{Ancient Castle}, then interact with another item, leave the room, or win a battle to register the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "area_visit",
+      "displayName": "Adventurous Wayfarer",
+      "description": "Traveled to all the map locations.",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across the game",
+      "estMinutes": 120,
+      "stage": 2,
+      "lockoutStage": 2,
+      "confidence": "verified",
+      "group": "collectible",
+      "summary": "Visit every location on the world map.",
+      "guide": {
+        "kind": "standard",
+        "context": "Several locations are hidden or easy to skip but still count, including the forest one tile south of the @loc{South Figaro Cave} entrance and the secret Chocobo Stables. The World of Ruin is a changed world, so every location must be visited again.",
+        "steps": [
+          {
+            "id": "wob",
+            "text": "Enter every town, dungeon, and optional location in the World of Balance, including the hidden forest and all four Chocobo Stables."
+          },
+          {
+            "id": "check",
+            "text": "Before you take the @item{Blackjack} to the @loc{Floating Continent}, inspect the map for greyed-out locations and visit any that remain.",
+            "kind": "warning"
+          },
+          {
+            "id": "wor",
+            "text": "Visit every location in the World of Ruin."
+          },
+          {
+            "id": "tower",
+            "text": "Enter @loc{Kefka's Tower} to register the achievement once every location has been visited."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "treasure_box_22",
+    "monster_hunt_100",
+    "total_gil_10000",
+    "scenario_1",
+    "scenario_2",
+    "area_visit",
+    "get_hidden_item",
+    "treasure_box_214",
+    "picture_book_346",
+    "picture_book_34",
+    "treasure_box_107",
+    "picture_book_173",
+    "magicite_collect_15",
+    "auction_battle",
+    "scenario_3",
+    "scenario_4",
+    "scenario_5",
+    "scenario_6",
+    "scenario_7",
+    "blue_magic_master_20",
+    "magicite_collect_25",
+    "monster_hunt_1000",
+    "monk_master",
+    "machinery_master",
+    "samurai_master",
+    "wild_master_50",
+    "gambler_master",
+    "total_gil_100000",
+    "coliseum_champion",
+    "scenario_8",
+    "scenario_9",
+    "scenario_10",
+    "monster_hunt_2000",
+    "total_gil_500000",
+    "level_all_50",
+    "scenario_11",
+    "all_achievement"
+  ]
+}

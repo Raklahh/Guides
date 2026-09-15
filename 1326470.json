@@ -1,0 +1,1861 @@
+{
+  "game": {
+    "appid": 1326470,
+    "slug": "sons-of-the-forest",
+    "title": "Sons Of The Forest",
+    "version": "1.0",
+    "lastPatchChecked": "2025-10-03",
+    "estTotalHours": 55,
+    "difficultyRating": 4,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-09-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Arrival and survival milestones",
+      "description": "Survive the first fifty days on Site 2 while you craft the basic weapons, place your first logs, eat fish and pick up the cheap early unlocks.",
+      "achievementRefs": [
+        "ACH_SURVIVE_DAY_1",
+        "ACH_SURVIVE_DAY_10",
+        "ACH_SURVIVE_DAY_25",
+        "ACH_SURVIVE_DAY_50",
+        "ACH_CRAFT_ALL_WEAPONS",
+        "ACH_STRUCTURE_50_LOGS",
+        "ACH_EAT_RAW_FISH",
+        "ACH_KICKED_BY_HEAVY",
+        "ACH_KILLED_BY_SHARK"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Caves, tools and dig sites",
+      "description": "Recover the Rebreather, Rope Gun and Shovel, dig out the dig sites and graves, and clear the Sluggies blocking the cave routes.",
+      "achievementRefs": [
+        "ACH_DIG_HOLES_100",
+        "ACH_KILL_SLUGGIE",
+        "ACH_DIG_HOLES_1000"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Bunkers, keycards and collections",
+      "description": "Work through the bunkers and caves for keycards and printer resin, then finish the watch, money, print, camera, note and blueprint checklists.",
+      "achievementRefs": [
+        "ACH_COLLECT_WATCHES",
+        "ACH_COLLECT_MONEY",
+        "ACH_PRINT_ALL_ITEMS",
+        "ACH_THIS_CANT_BE_HEALTHY",
+        "ACH_FOUND_FOOTAGE",
+        "ACH_NOTE_PAGES",
+        "ACH_DISCOVERED_BLUEPRINTS",
+        "ACH_OWN_ALL_CLOTHING"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Companions and multiplayer",
+      "description": "Earn Virginia's trust, hand her a GPS locator, and get admin rights in a multiplayer session hosted by someone else.",
+      "achievementRefs": [
+        "ACH_VIRGINIA_GPS",
+        "ACH_VIRGINIA_MAX_SENTIMENT",
+        "ACH_TRUSTED"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Late-game crafting and long grinds",
+      "description": "Build out the big log counts, craft the full Tech Armor set, plate every compatible weapon with Solafite, and eat every edible type.",
+      "achievementRefs": [
+        "ACH_WEAR_TECH_ARMOR",
+        "ACH_STRUCTURE_100_LOGS",
+        "ACH_STRUCTURE_500_LOGS",
+        "ACH_STRUCTURE_1000_LOGS",
+        "ACH_PLATED_WEAPONS",
+        "ACH_EAT_ALL_EDIBLES"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Story finale and endings",
+      "description": "Reach the magma chamber with Kelvin and Virginia alive, then save before the final choice and play out both endings.",
+      "achievementRefs": [
+        "ACH_FINISH_STORY_WITH_ALL_NPCS",
+        "ACH_LEAVE_THE_ISLAND",
+        "ACH_STAY_BEHIND"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_THIS_CANT_BE_HEALTHY",
+      "displayName": "THIS CAN’T BE HEALTHY",
+      "description": "Drink 50 cans of Fi-Z.",
+      "hidden": true,
+      "globalPercent": 16.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Drink 50 cans of Fi-Z energy drink.",
+      "guide": {
+        "kind": "standard",
+        "context": "Fi-Z cans are common in crates and at abandoned camps, and the keycard-locked section of the printer cave holds a large supply that refills after a save and reload.",
+        "steps": [
+          {
+            "id": "fiz-1",
+            "text": "Loot @item{Fi-Z} cans from crates, abandoned camps and bunkers."
+          },
+          {
+            "id": "fiz-2",
+            "text": "Drink 50 cans.",
+            "note": "Save and reload at the printer cave to make its Fi-Z supply respawn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WEAR_TECH_ARMOR",
+      "displayName": "DYNAMO",
+      "description": "Craft and wear a full set of Tech Armor.",
+      "hidden": true,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Craft and equip a full set of Tech Armor.",
+      "guide": {
+        "kind": "standard",
+        "context": "A full set is 10 pieces, and each piece needs one Tech Mesh plus four other components.",
+        "steps": [
+          {
+            "id": "dynamo-1",
+            "text": "Print @item{Tech Mesh} at a 3D printer for 250 mL of resin each."
+          },
+          {
+            "id": "dynamo-2",
+            "text": "Craft one @item{Tech Armor} piece from 1 circuit board, 1 battery, 1 wire, 1 tape and 1 Tech Mesh."
+          },
+          {
+            "id": "dynamo-3",
+            "text": "Repeat until you have 10 pieces, then equip the whole set.",
+            "note": "Save and reload to make the printer's resin respawn if you run short."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_WATCHES",
+      "displayName": "COLLECTOR",
+      "description": "Pick up 50 Drogue watches.",
+      "hidden": true,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Pick up 50 Drogue watches.",
+      "guide": {
+        "kind": "standard",
+        "context": "Watches stack to 10, so store or spend them to keep room for more.",
+        "steps": [
+          {
+            "id": "watches-1",
+            "text": "Loot @item{Drogue watches} from grey crates, facilities and skin pouches."
+          },
+          {
+            "id": "watches-2",
+            "text": "Save and reload at the golf course plane crash site, where suitcases often hold watches, until you have picked up 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_MONEY",
+      "displayName": "1%",
+      "description": "Collect $1000.",
+      "hidden": true,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect a total of $1000.",
+      "guide": {
+        "kind": "standard",
+        "context": "Money spawns as coin piles and dollar bills, and many of these piles reappear when you revisit a site.",
+        "steps": [
+          {
+            "id": "money-1",
+            "text": "Loot coins and dollar bills from abandoned camps, bodies on spikes and bunkers."
+          },
+          {
+            "id": "money-2",
+            "text": "Empty the guest keycard bunker, where a briefcase and loose cash hold around $200."
+          },
+          {
+            "id": "money-3",
+            "text": "Unlock the printer cave's keycard door to reach the club behind it, then save and reload there to farm cash until the running total reaches $1000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EAT_ALL_EDIBLES",
+      "displayName": "FOODIE",
+      "description": "Eat one of every edible type.",
+      "hidden": true,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Eat one of every edible food type in the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress needs all 37 edible types on one save. If the achievement does not pop, eat @item{Aloe Vera} a second time.",
+        "steps": [
+          {
+            "id": "foodie-1",
+            "text": "Eat every berry: @item{Blueberry}, @item{Blackberry}, @item{Salmonberry}, @item{Guarana Berry}, @item{Twinberry} and @item{Snowberry}."
+          },
+          {
+            "id": "foodie-2",
+            "text": "Eat every herb: @item{Yarrow}, @item{Horsetail}, @item{Fireweed}, @item{Devil's Club}, @item{Chicory}, @item{Arrowleaf} and @item{Aloe Vera}."
+          },
+          {
+            "id": "foodie-3",
+            "text": "Eat every mushroom: @item{Shiitake}, @item{Fly Amanita}, @item{Hydnum Repandum} and @item{King Oyster}."
+          },
+          {
+            "id": "foodie-4",
+            "text": "Craft and eat the four herbal mixes: @item{Energy Mix}, @item{Energy Mix+}, @item{Health Mix} and @item{Health Mix+}.",
+            "note": "Health Mix is aloe vera plus yarrow; Health Mix+ adds horsetail and fireweed; Energy Mix is arrowleaf plus chicory; Energy Mix+ is chicory, devil's club and fireweed."
+          },
+          {
+            "id": "foodie-5",
+            "text": "Eat the animal foods: @item{Fish}, @item{Meat}, @item{Oyster}, @item{Turtle Egg}, @item{Human Arm} and @item{Human Leg}.",
+            "note": "Human arms and legs come from dismembering cannibals with a sharp weapon. Turtle eggs only appear in summer: stand near a sea turtle on a sandy beach and wait for it to lay, then pick the eggs up."
+          },
+          {
+            "id": "foodie-6",
+            "text": "Eat the packaged foods: @item{Bacon Bite}, @item{Brain Bite}, @item{Canned Food}, @item{Crunchie Wunchies}, @item{Energy Bar}, @item{Energy Drink}, @item{Meds}, @item{MRE Pack}, @item{Ramen Noodles} and @item{Steak Bite}.",
+            "note": "Canned food needs the @item{Can Opener} first, and the Food and Dining Bunker dining room holds bacon, brain and steak bites."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVE_DAY_1",
+      "displayName": "SURVIVOR",
+      "description": "Survive one day on Site 2.",
+      "hidden": true,
+      "globalPercent": 89.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive one full in-game day on the island.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survivor-1",
+            "text": "Stay alive until the second in-game day begins.",
+            "note": "It unlocks as the night of day 1 ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVE_DAY_10",
+      "displayName": "WHAT COULD GO WRONG",
+      "description": "Survive ten days on the island.",
+      "hidden": true,
+      "globalPercent": 58.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-4 h",
+      "estMinutes": 200,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive 10 full in-game days on the island.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "day10-1",
+            "text": "Stay alive until day 11 begins.",
+            "note": "Sleeping through each night is the quickest way to pass the time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVE_DAY_25",
+      "displayName": "THIS PLACE ISN’T SO BAD",
+      "description": "Survive 25 days on the island.",
+      "hidden": true,
+      "globalPercent": 30.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive 25 full in-game days on the island.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "day25-1",
+            "text": "Stay alive until day 26 begins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVE_DAY_50",
+      "displayName": "NEVER GOING HOME",
+      "description": "Survive 50 days on the island.",
+      "hidden": true,
+      "globalPercent": 10.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 h",
+      "estMinutes": 1200,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive 50 full in-game days on the island.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter only advances while you play, so the day achievements arrive on their own during a long run.",
+        "steps": [
+          {
+            "id": "day50-1",
+            "text": "Stay alive until day 51 begins.",
+            "note": "Sleep through every night to move the counter faster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRUSTED",
+      "displayName": "TRUSTED",
+      "description": "Become an admin in a multiplayer game.",
+      "hidden": true,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Be made an admin in a multiplayer game hosted by another player.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the host can grant the rank, and the older trusted rank no longer unlocks the achievement.",
+        "steps": [
+          {
+            "id": "trusted-1",
+            "text": "Join a multiplayer session hosted by another player."
+          },
+          {
+            "id": "trusted-2",
+            "text": "Have the host open the pause menu, go to @mechanic{Players} and switch your rank from Guest to Admin."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OWN_ALL_CLOTHING",
+      "displayName": "FASHIONISTA",
+      "description": "Own every piece of clothing.",
+      "hidden": true,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Own every collectible outfit in the game.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Clothing lies in bunkers, caves, camps and vehicles across the island; the swim suit is Virginia's starting outfit and the tactical jacket is your own. The 3D-printed Red Mask and the Gold Mask from the second-to-last bunker are wearable too, so collect them as well if the achievement stays locked.",
+        "collectibles": [
+          {
+            "id": "cloth-tactical",
+            "index": 1,
+            "name": "Tactical Jacket",
+            "location": "Your starting outfit.",
+            "method": "You and Kelvin begin the game already wearing it."
+          },
+          {
+            "id": "cloth-blazer",
+            "index": 2,
+            "name": "Blazer",
+            "location": "In a boat on the island's southern coast.",
+            "method": "Board the boat and pick up the blazer."
+          },
+          {
+            "id": "cloth-hoodie",
+            "index": 3,
+            "name": "Hoodie",
+            "location": "In a tent at an abandoned camp.",
+            "method": "Search the camp tents and pick up the hoodie."
+          },
+          {
+            "id": "cloth-leather-jacket",
+            "index": 4,
+            "name": "Leather Jacket",
+            "location": "In the crashed plane.",
+            "method": "Search the wreck for the leather jacket."
+          },
+          {
+            "id": "cloth-pajamas",
+            "index": 5,
+            "name": "Pajamas",
+            "location": "In the printer bunker's spa area; also found on the Good Times yacht and in the final bunker.",
+            "method": "Search the wardrobe or cabin and pick up the pajamas."
+          },
+          {
+            "id": "cloth-space",
+            "index": 6,
+            "name": "Space Suit",
+            "location": "Residential Bunker level 2, in the room just before the Luxury Bunker.",
+            "method": "Pick up the space suit."
+          },
+          {
+            "id": "cloth-tuxedo",
+            "index": 7,
+            "name": "Tuxedo",
+            "location": "Buried Maintenance A bunker, in the bathroom.",
+            "method": "Dig down to the hatch, follow the corridor to the bathroom and pick up the tuxedo."
+          },
+          {
+            "id": "cloth-camo",
+            "index": 8,
+            "name": "Camouflage Suit",
+            "location": "On the seat of the abandoned helicopter outside the Residential Bunker.",
+            "method": "Pick up the camouflage suit."
+          },
+          {
+            "id": "cloth-dress",
+            "index": 9,
+            "name": "Dress",
+            "location": "In the Luxury Bunker.",
+            "method": "Pick up the dress."
+          },
+          {
+            "id": "cloth-leather-suit",
+            "index": 10,
+            "name": "Leather Suit",
+            "location": "Residential Bunker level 2, in a wardrobe.",
+            "method": "Search the wardrobe and pick up the leather suit."
+          },
+          {
+            "id": "cloth-swim",
+            "index": 11,
+            "name": "Swim Suit",
+            "location": "Virginia's starting outfit.",
+            "method": "Virginia wears it from the start, so no pickup is needed."
+          },
+          {
+            "id": "cloth-track",
+            "index": 12,
+            "name": "Track Suit",
+            "location": "Entertainment Bunker pool area.",
+            "method": "Reach the pool with the maintenance keycard and pick up the tracksuit."
+          },
+          {
+            "id": "cloth-priest",
+            "index": 13,
+            "name": "Priest Outfit",
+            "location": "Old cabin by the frozen lake on the north mountain.",
+            "method": "Pick up the priest outfit from the cabin."
+          },
+          {
+            "id": "cloth-winter",
+            "index": 14,
+            "name": "Winter Jacket",
+            "location": "In a large tent at an abandoned camp on the north-east side of the island.",
+            "method": "Search the tent and pick up the winter jacket."
+          },
+          {
+            "id": "cloth-wetsuit",
+            "index": 15,
+            "name": "Wetsuit",
+            "location": "Shovel cave, past the flooded section.",
+            "method": "Swim through the flooded tunnel with the rebreather and pick up the wetsuit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STRUCTURE_50_LOGS",
+      "displayName": "TRADESMAN",
+      "description": "Place 50 logs.",
+      "hidden": true,
+      "globalPercent": 53.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Place 50 logs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Logs placed by hand on the ground count, and the running total is reported to carry across your saves.",
+        "steps": [
+          {
+            "id": "logs50-1",
+            "text": "Chop a tree with an @item{axe} and collect the logs it drops."
+          },
+          {
+            "id": "logs50-2",
+            "text": "Place 50 logs on the ground by hand."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STRUCTURE_100_LOGS",
+      "displayName": "CONTRACTOR",
+      "description": "Place 100 logs.",
+      "hidden": true,
+      "globalPercent": 46.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Place 100 logs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Logs placed by hand on the ground count, and the running total is reported to carry across your saves.",
+        "steps": [
+          {
+            "id": "logs100-1",
+            "text": "Fill up on @item{logs} by chopping trees with an axe."
+          },
+          {
+            "id": "logs100-2",
+            "text": "Place 100 logs on the ground by hand."
+          },
+          {
+            "id": "logs100-3",
+            "text": "To speed the count up, place two logs, pick them back up with @mechanic{C} and place them again.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STRUCTURE_500_LOGS",
+      "displayName": "ARCHITECT",
+      "description": "Place 500 logs.",
+      "hidden": true,
+      "globalPercent": 24.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Place 500 logs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Logs placed by hand on the ground count, and the running total is reported to carry across your saves.",
+        "steps": [
+          {
+            "id": "logs500-1",
+            "text": "Stock up on @item{logs} by chopping trees with an axe."
+          },
+          {
+            "id": "logs500-2",
+            "text": "Place two logs, pick them back up with @mechanic{C} and place them again, repeating until 500 logs have been placed.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STRUCTURE_1000_LOGS",
+      "displayName": "CITY PLANNER",
+      "description": "Place 1000 logs.",
+      "hidden": true,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 h",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Place 1000 logs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Logs placed by hand count even if you pick the same logs up again, and the total is reported to carry across your saves.",
+        "steps": [
+          {
+            "id": "logs1000-1",
+            "text": "Keep yourself supplied with @item{logs} from chopped trees."
+          },
+          {
+            "id": "logs1000-2",
+            "text": "Place two logs on the ground, pick them back up with @mechanic{C} and place them again, repeating until the count reaches 1000.",
+            "note": "If the count appears stuck, keep placing newly chopped logs and it will catch up."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_SLUGGIE",
+      "displayName": "PINATA",
+      "description": "Blow up a Sluggy.",
+      "hidden": true,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Destroy a Sluggy with an explosive.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sluggies are masses of flesh and limbs that seal cave passages, and time bombs usually lie next to them.",
+        "steps": [
+          {
+            "id": "pinata-1",
+            "text": "Find a @enemy{Sluggy} in the Shovel Cave or Rope Gun Cave; one blocks the cave beside the forest helicopter with two time bombs nearby."
+          },
+          {
+            "id": "pinata-2",
+            "text": "Throw a time bomb or grenade at it and stay clear of the blast.",
+            "note": "A grenade is more reliable than the time bombs for clearing a Sluggy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KICKED_BY_HEAVY",
+      "displayName": "SUCKER FOR PUNISHMENT",
+      "description": "Survive five kicks from a heavy cannibal.",
+      "hidden": true,
+      "globalPercent": 12.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Take five kicks from a heavy cannibal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Heavy cannibals are the large club-wielding ones that patrol camps and caves.",
+        "steps": [
+          {
+            "id": "kick-1",
+            "text": "Find a @enemy{heavy cannibal} and stop a short distance in front of it so it charges."
+          },
+          {
+            "id": "kick-2",
+            "text": "Walk towards it as it charges so it lands the kick instead of a club swing."
+          },
+          {
+            "id": "kick-3",
+            "text": "Take five kicks, healing between them if needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VIRGINIA_GPS",
+      "displayName": "EVERY MOVE YOU MAKE",
+      "description": "Give a GPS locator to Virginia.",
+      "hidden": true,
+      "globalPercent": 27.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Give Virginia a GPS locator.",
+      "guide": {
+        "kind": "standard",
+        "context": "She only accepts gifts once her sentiment is high enough that she approaches you.",
+        "steps": [
+          {
+            "id": "gps-1",
+            "text": "Pick up a @item{GPS Locator} from a purple map marker, or print a GPS locator case for 50 mL of resin and craft it with 1 wire, 1 battery and 1 circuit board."
+          },
+          {
+            "id": "gps-2",
+            "text": "Spend time with @npc{Virginia} until she walks up to you and accepts gifts."
+          },
+          {
+            "id": "gps-3",
+            "text": "Offer her the GPS locator from your inventory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CRAFT_ALL_WEAPONS",
+      "displayName": "MC CRAFTY",
+      "description": "Craft every craftable weapon.",
+      "hidden": true,
+      "globalPercent": 20.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft every weapon and tool that can be made in the crafting menu.",
+      "guide": {
+        "kind": "standard",
+        "context": "Weapon attachments do not count. The utility knife used to make the Crafted Spear is returned, not consumed.",
+        "steps": [
+          {
+            "id": "craft-1",
+            "text": "Craft a @item{Torch} from 1 stick and 1 cloth."
+          },
+          {
+            "id": "craft-2",
+            "text": "Craft a @item{Crafted Bow} from 2 sticks, 1 tape and 1 rope."
+          },
+          {
+            "id": "craft-3",
+            "text": "Craft a @item{Crafted Club} from 1 skull, 1 rope and 1 stick."
+          },
+          {
+            "id": "craft-4",
+            "text": "Craft a @item{Crafted Spear} from 2 sticks, 1 tape and 1 utility knife."
+          },
+          {
+            "id": "craft-5",
+            "text": "Craft a @item{Repair Tool} from 1 stick, 1 rock and 1 rope."
+          },
+          {
+            "id": "craft-6",
+            "text": "Craft a @item{Molotov} from 1 vodka bottle and 1 cloth.",
+            "note": "Make both the Repair Tool and the Molotov so nothing is left out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EAT_RAW_FISH",
+      "displayName": "I DREAM OF SUSHI",
+      "description": "Eat 20 raw fish.",
+      "hidden": true,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Eat 20 raw fish.",
+      "guide": {
+        "kind": "standard",
+        "context": "The fish must be swallowed raw, so do not cook them first.",
+        "steps": [
+          {
+            "id": "sushi-1",
+            "text": "Spear @item{fish} in shallow ponds and streams, or order @npc{Kelvin} to catch fish for you."
+          },
+          {
+            "id": "sushi-2",
+            "text": "Eat 20 raw fish from your inventory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DIG_HOLES_100",
+      "displayName": "BADGER",
+      "description": "Dig 100 holes with the shovel.",
+      "hidden": true,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Dig 100 holes with the shovel.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dig spots show on the GPS as a dot inside a ring, and every successful shovel stroke counts as one hole.",
+        "steps": [
+          {
+            "id": "dig100-1",
+            "text": "Recover the @item{Rebreather} and the @item{Rope Gun} from their caves."
+          },
+          {
+            "id": "dig100-2",
+            "text": "Use them to reach the @item{Shovel} in the cave on the west side of the island near the mountain."
+          },
+          {
+            "id": "dig100-3",
+            "text": "Dig 100 holes at GPS dig sites, gravestones or open ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DIG_HOLES_1000",
+      "displayName": "I LIKE BLISTERS",
+      "description": "Dig 1000 holes with the shovel.",
+      "hidden": true,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Dig 1000 holes with the shovel.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement counts shovel strokes, so 1000 holes is far less work than it sounds.",
+        "steps": [
+          {
+            "id": "dig1000-1",
+            "text": "Take the @item{Shovel} to any dig site, grave or patch of ground."
+          },
+          {
+            "id": "dig1000-2",
+            "text": "Dig along the edge of a hole or hatch so you never have to walk between spots.",
+            "kind": "tip"
+          },
+          {
+            "id": "dig1000-3",
+            "text": "Keep digging until 1000 strokes are counted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILLED_BY_SHARK",
+      "displayName": "NEED A BIGGER BOAT",
+      "description": "Be killed by a shark.",
+      "hidden": true,
+      "globalPercent": 18.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Be killed by a shark.",
+      "guide": {
+        "kind": "standard",
+        "context": "At full health you drown before a shark can finish you, so weaken yourself before you swim out.",
+        "steps": [
+          {
+            "id": "shark-1",
+            "text": "Swim into deep water near the ocean @loc{life raft} and wait for a @enemy{shark} to attack.",
+            "note": "There is also a shark where the rebreather cave exits into the water."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PRINT_ALL_ITEMS",
+      "displayName": "MAKER",
+      "description": "Print one of every 3D printer item.",
+      "hidden": true,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Print one of every item a 3D printer can make.",
+      "guide": {
+        "kind": "standard",
+        "context": "The printed GPS locator case does not count, and your character can only carry 1000 mL of printer resin at a time.",
+        "steps": [
+          {
+            "id": "maker-1",
+            "text": "Gather printer resin at the @loc{3D Printer} cave and other printer sites; the full list costs about 1700 mL."
+          },
+          {
+            "id": "maker-2",
+            "text": "Print @item{Arrows} (50 mL), @item{Grappling Hook} (100 mL), @item{Flask} (100 mL), @item{Red Mask} (150 mL), @item{Tech Mesh} (250 mL) and @item{Sled} (1000 mL).",
+            "note": "Printer resin respawns when you save and reload, so the printer cave can supply the whole list."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VIRGINIA_MAX_SENTIMENT",
+      "displayName": "CHIVALRY IS NOT DEAD",
+      "description": "Reach maximum sentiment with Virginia.",
+      "hidden": true,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5-10 h",
+      "estMinutes": 400,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Reach maximum sentiment with Virginia.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sentiment is a hidden value, and she flees if you crowd her or keep weapons drawn early on.",
+        "steps": [
+          {
+            "id": "virginia-1",
+            "text": "Meet @npc{Virginia} with your weapons holstered and stay about 10 metres away until she stops fleeing."
+          },
+          {
+            "id": "virginia-2",
+            "text": "Spend time near her, watch her dances from start to finish and give her each outfit you find."
+          },
+          {
+            "id": "virginia-3",
+            "text": "Fight enemies close to her; this raises sentiment faster.",
+            "note": "Accept her beckons and gifts, and never hit her during fights."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LEAVE_THE_ISLAND",
+      "displayName": "FOUGHT DEMONS",
+      "description": "Leave the island on the helicopter.",
+      "hidden": true,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h (endgame)",
+      "estMinutes": 60,
+      "stage": 6,
+      "lockoutStage": 6,
+      "confidence": "verified",
+      "summary": "Leave the island on the helicopter at the end of the story.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final choice sits at the end of the magma chamber, so save there to reload for the other ending.",
+        "steps": [
+          {
+            "id": "leave-1",
+            "text": "Follow the story to the @loc{magma chamber} and squeeze through the final crevice."
+          },
+          {
+            "id": "leave-2",
+            "text": "When the cutscene ends, board the @item{helicopter} with Eric and Timmy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STAY_BEHIND",
+      "displayName": "FIGHT DEMONS",
+      "description": "Stay on the island.",
+      "hidden": true,
+      "globalPercent": 23.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h (endgame)",
+      "estMinutes": 60,
+      "stage": 6,
+      "lockoutStage": 6,
+      "confidence": "verified",
+      "summary": "Stay on the island when the story ends.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the other half of the final choice, so a save in the magma chamber lets you see both endings.",
+        "steps": [
+          {
+            "id": "stay-1",
+            "text": "Follow the story to the @loc{magma chamber} and squeeze through the final crevice."
+          },
+          {
+            "id": "stay-2",
+            "text": "When the cutscene ends, turn around and pick up your pack instead of boarding the helicopter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FINISH_STORY_WITH_ALL_NPCS",
+      "displayName": "KEEP YOUR FRIENDS CLOSE",
+      "description": "Complete the story with all friendly NPCs alive.",
+      "hidden": true,
+      "globalPercent": 11.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across the story",
+      "estMinutes": 120,
+      "stage": 6,
+      "lockoutStage": 6,
+      "prerequisites": [
+        "ACH_VIRGINIA_MAX_SENTIMENT"
+      ],
+      "confidence": "verified",
+      "summary": "Finish the story with Kelvin and Virginia both alive and on good terms.",
+      "guide": {
+        "kind": "standard",
+        "context": "Virginia must be at maximum sentiment before the finale, and a companion who dies permanently locks this out for that save.",
+        "steps": [
+          {
+            "id": "friends-1",
+            "text": "Keep @npc{Kelvin} alive; revive him when enemies down him and do not leave him behind."
+          },
+          {
+            "id": "friends-2",
+            "text": "Raise @npc{Virginia} to maximum sentiment before you enter the finale."
+          },
+          {
+            "id": "friends-3",
+            "text": "Reach the cutscene where the group enters the cube with both companions still alive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PLATED_WEAPONS",
+      "displayName": "OOOH SHINY",
+      "description": "Plate all valid weapons with Solafite.",
+      "hidden": true,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3-4 h",
+      "estMinutes": 210,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Plate all 14 compatible weapons with Solafite.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each plating cycle consumes 6 Solafite, so all 14 weapons need 84 ore. An interrupted cycle returns the weapon unplated and wastes the ore. Plating the Ancient Armor is not needed here.",
+        "steps": [
+          {
+            "id": "shiny-1",
+            "text": "Find the @item{Item Plating} blueprint in @loc{Cave F} and build a @item{Weapon Plater} from 11 sticks, 4 golf cart batteries, 7 stones, 3 wires and 3 turtle shells."
+          },
+          {
+            "id": "shiny-2",
+            "text": "Mine @item{Solafite} with the @item{Pickaxe} from cave deposits and snowy mountain veins, or loot loose ore from the fishing huts along the shore."
+          },
+          {
+            "id": "shiny-3",
+            "text": "Place 6 Solafite and one weapon in the plater, then survive the lightning and mutant waves until the cycle finishes.",
+            "note": "A cycle takes about two and a half minutes."
+          },
+          {
+            "id": "shiny-4",
+            "text": "Plate the melee weapons: @item{Crafted Club}, @item{Katana}, @item{Machete}, @item{Putter}, @item{Pickaxe}, @item{Firefighter Axe}, @item{Modern Axe}, @item{Tactical Axe}, @item{Guitar} and @item{Cross}."
+          },
+          {
+            "id": "shiny-5",
+            "text": "Plate the firearms: @item{Pistol}, @item{Revolver}, @item{Shotgun} and @item{Rifle}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DISCOVERED_BLUEPRINTS",
+      "displayName": "INTERIOR DESIGNER",
+      "description": "Find all the discoverable blueprints",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Find all 16 discoverable blueprints.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Blueprints add build options to your survival notebook. If the achievement stays locked at 16/16, save and quit, verify the game files, relaunch and pick up a stick.",
+        "collectibles": [
+          {
+            "id": "bp-powered-cross",
+            "index": 1,
+            "name": "Powered Cross",
+            "location": "Rebreather Cave depths.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-glider-launcher",
+            "index": 2,
+            "name": "Glider Launcher",
+            "location": "Glider Cave.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-teleporter",
+            "index": 3,
+            "name": "Teleporter",
+            "location": "Research Camp supply cave.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-spear-trap",
+            "index": 4,
+            "name": "Spear Trap",
+            "location": "Ice Cave.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-attract-shrine",
+            "index": 5,
+            "name": "Attract Shrine",
+            "location": "Beach Cave.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-meat-grinder",
+            "index": 6,
+            "name": "Meat Grinder",
+            "location": "Cave G.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-spin-trap",
+            "index": 7,
+            "name": "Spin Trap",
+            "location": "Abandoned house, at the Cave G exit.",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-item-plating",
+            "index": 8,
+            "name": "Item Plating",
+            "location": "Cave F.",
+            "method": "Pick up the blueprint.",
+            "note": "This one unlocks the Weapon Plater needed for OOOH SHINY."
+          },
+          {
+            "id": "bp-gore-couch",
+            "index": 9,
+            "name": "Gore Couch",
+            "location": "Abandoned Priest House (G73).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-clock",
+            "index": 10,
+            "name": "Clock",
+            "location": "Ice Cave depths (H75).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-leg-lamp",
+            "index": 11,
+            "name": "Leg Lamp",
+            "location": "Village basement (K66).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-gore-chair",
+            "index": 12,
+            "name": "Gore Chair",
+            "location": "Village (L86).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-repel-shrine",
+            "index": 13,
+            "name": "Repel Shrine",
+            "location": "Cave (K89).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-spot-light",
+            "index": 14,
+            "name": "Spot Light",
+            "location": "Cave (K83).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-multi-trap",
+            "index": 15,
+            "name": "Multi Trap",
+            "location": "Cellar (D114).",
+            "method": "Pick up the blueprint."
+          },
+          {
+            "id": "bp-armor-plating",
+            "index": 16,
+            "name": "Armor Plating",
+            "location": "Luxury Bunker, behind the golden door.",
+            "method": "Pick up the blueprint."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FOUND_FOOTAGE",
+      "displayName": "BLOCKBUSTER",
+      "description": "Watch all the found footage recordings",
+      "hidden": false,
+      "globalPercent": 32.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Watch every found footage recording from the four action cameras.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The achievement can unlock after watching a single recording, so watch every action camera you find until it pops.",
+        "collectibles": [
+          {
+            "id": "camera-cultists-arrival",
+            "index": 1,
+            "name": "Cultists Arrival",
+            "location": "On the table aboard the Evening Star sailboat.",
+            "method": "Take the action camera and watch its recording."
+          },
+          {
+            "id": "camera-sahara",
+            "index": 2,
+            "name": "Sahara Confidential",
+            "location": "Inside the military camp tent.",
+            "method": "Take the action camera and watch its recording."
+          },
+          {
+            "id": "camera-cultists-1",
+            "index": 3,
+            "name": "Cultists 1",
+            "location": "In the Residential Bunker morgue.",
+            "method": "Take the action camera and watch its recording."
+          },
+          {
+            "id": "camera-estate-agent",
+            "index": 4,
+            "name": "Estate Agent",
+            "location": "In the Luxury Bunker living room.",
+            "method": "Take the action camera and watch its recording."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NOTE_PAGES",
+      "displayName": "GUMSHOE",
+      "description": "Collect all the note pages",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3-4 h",
+      "estMinutes": 200,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect all 50 note pages.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Your survival notebook shows how many notes you have. If the achievement stays locked at 50/50, save and quit, verify the game files, relaunch and pick up a stick.",
+        "collectibles": [
+          {
+            "id": "note-01",
+            "index": 1,
+            "name": "PUFFCORP OUTBIDS SAHARA",
+            "location": "Rebreather Cave entrance.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-02",
+            "index": 2,
+            "name": "Clean Up Request",
+            "location": "Food and Dining Bunker security room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-03",
+            "index": 3,
+            "name": "IMPORTANT - Countdown Calculations",
+            "location": "Food and Dining Bunker security room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-04",
+            "index": 4,
+            "name": "New Arrivals",
+            "location": "Human camp (D56).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-05",
+            "index": 5,
+            "name": "Hank: ATTENTION ALL",
+            "location": "Maintenance A.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-06",
+            "index": 6,
+            "name": "Hi Doris, family have arrived",
+            "location": "Entertainment Bunker pool area.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-07",
+            "index": 7,
+            "name": "Barbara Puffton: ATTENTION ALL",
+            "location": "Entertainment Bunker bar dance floor.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-08",
+            "index": 8,
+            "name": "Welcome to HoloSprings Map",
+            "location": "Entertainment Bunker bar private table.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-09",
+            "index": 9,
+            "name": "RE:RE:IMPORTANT - Countdown Calculations",
+            "location": "Entertainment Bunker VIP room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-10",
+            "index": 10,
+            "name": "Hi Doris, quick drink",
+            "location": "Entertainment Bunker hallway.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-11",
+            "index": 11,
+            "name": "Calculation results",
+            "location": "Entertainment Bunker room before the theatre.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-12",
+            "index": 12,
+            "name": "AGAIN VOICING MY CONCERNS",
+            "location": "Outside the Glider Cave.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-13",
+            "index": 13,
+            "name": "SOLAFITE PHOTO REFERENCE",
+            "location": "Ropegun Cave.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-14",
+            "index": 14,
+            "name": "MORE LIGHTING",
+            "location": "Ropegun Cave, past the Sluggy.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-15",
+            "index": 15,
+            "name": "Dig Site B",
+            "location": "Ropegun Cave, past the Sluggy.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-16",
+            "index": 16,
+            "name": "We are in bussiness!",
+            "location": "Research Camp (C112).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-17",
+            "index": 17,
+            "name": "Dimensional Disturbance",
+            "location": "Recon Camp (B106).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-18",
+            "index": 18,
+            "name": "Silas, Blow it up!!",
+            "location": "Good Times sailboat.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-19",
+            "index": 19,
+            "name": "MISSING CEO",
+            "location": "Good Times sailboat.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-20",
+            "index": 20,
+            "name": "Silas, entrance will be in Pufftons home!!!!!",
+            "location": "Evening Star sailboat.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-21",
+            "index": 21,
+            "name": "Gold City Sketch",
+            "location": "Evening Star sailboat.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-22",
+            "index": 22,
+            "name": "FYI",
+            "location": "Military camp site.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-23",
+            "index": 23,
+            "name": "Notice of Employment Termination",
+            "location": "Military camp site.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-24",
+            "index": 24,
+            "name": "MORE BODIES",
+            "location": "Maintenance C.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-25",
+            "index": 25,
+            "name": "I haven't slept in 3 months.",
+            "location": "Abandoned house.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-26",
+            "index": 26,
+            "name": "We Found It And Broke It Into 6 Parts",
+            "location": "Caves under the abandoned house (Cave G).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-27",
+            "index": 27,
+            "name": "Large Book Order",
+            "location": "Residential Bunker level 1, first room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-28",
+            "index": 28,
+            "name": "RE:RE:RE:RE: Golf Balls",
+            "location": "Residential Bunker level 1, second room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-29",
+            "index": 29,
+            "name": "Please meet me at the bar at 2pm",
+            "location": "Residential Bunker level 2, first room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-30",
+            "index": 30,
+            "name": "Doris, Ed's very worried about the soft opening.",
+            "location": "Residential Bunker level 2, first room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-31",
+            "index": 31,
+            "name": "RE:IMPORTANT - Countdown Calculations",
+            "location": "Residential Bunker level 2, second room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-32",
+            "index": 32,
+            "name": "FISHING VILLAGES",
+            "location": "Residential Bunker level 2, third room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-33",
+            "index": 33,
+            "name": "Please Read",
+            "location": "Residential Bunker level 2 security room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-34",
+            "index": 34,
+            "name": "SITE B INVERSION Drawing",
+            "location": "Ice Cave (F78).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-35",
+            "index": 35,
+            "name": "Gold City Sketch Manilla Paper",
+            "location": "Abandoned Priest House (G73).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-36",
+            "index": 36,
+            "name": "The piece isn't here",
+            "location": "Ice Cave (H75).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-37",
+            "index": 37,
+            "name": "NEVER LEAVE THE ISLAND",
+            "location": "Village basement (K66).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-38",
+            "index": 38,
+            "name": "Today is October 18th 1979",
+            "location": "Village (L86).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-39",
+            "index": 39,
+            "name": "Gold City Sketch",
+            "location": "Village (L86).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-40",
+            "index": 40,
+            "name": "RE: Golf Balls",
+            "location": "Golf course (I15).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-41",
+            "index": 41,
+            "name": "RE:RE: Golf Balls",
+            "location": "Golf course (I15).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-42",
+            "index": 42,
+            "name": "RE:RE:RE: Golf Balls",
+            "location": "Golf course (I15).",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-43",
+            "index": 43,
+            "name": "WHERE ARE OUR HUSBANDS?",
+            "location": "Helipad.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-44",
+            "index": 44,
+            "name": "Silas, They are building the bunkers...",
+            "location": "Unnamed sailboat.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-45",
+            "index": 45,
+            "name": "Blow Yourself Up In The Daughter Room!!!",
+            "location": "Luxury Bunker, Virginia's room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-46",
+            "index": 46,
+            "name": "Last Will and Testament of Edward Puffton",
+            "location": "Luxury Bunker, Virginia's room.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-47",
+            "index": 47,
+            "name": "Through Here To The Gold City!!!!!!!!",
+            "location": "Luxury Bunker museum front desk.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-48",
+            "index": 48,
+            "name": "Hi Barbara, It was great to see you last night!",
+            "location": "Luxury Bunker couch.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-49",
+            "index": 49,
+            "name": "Barbara, While I appreciate you confiding in me...",
+            "location": "Luxury Bunker dining table.",
+            "method": "Pick up the note page."
+          },
+          {
+            "id": "note-50",
+            "index": 50,
+            "name": "The more wicked his heart, the more grotesque the creature that dwells within.",
+            "location": "Luxury Bunker depths (Hell Cave).",
+            "method": "Pick up the note page."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_SURVIVE_DAY_1",
+    "ACH_KILLED_BY_SHARK",
+    "ACH_STRUCTURE_50_LOGS",
+    "ACH_CRAFT_ALL_WEAPONS",
+    "ACH_EAT_RAW_FISH",
+    "ACH_SURVIVE_DAY_10",
+    "ACH_KICKED_BY_HEAVY",
+    "ACH_SURVIVE_DAY_25",
+    "ACH_SURVIVE_DAY_50",
+    "ACH_KILL_SLUGGIE",
+    "ACH_DIG_HOLES_100",
+    "ACH_DIG_HOLES_1000",
+    "ACH_FOUND_FOOTAGE",
+    "ACH_COLLECT_MONEY",
+    "ACH_THIS_CANT_BE_HEALTHY",
+    "ACH_COLLECT_WATCHES",
+    "ACH_OWN_ALL_CLOTHING",
+    "ACH_PRINT_ALL_ITEMS",
+    "ACH_DISCOVERED_BLUEPRINTS",
+    "ACH_NOTE_PAGES",
+    "ACH_TRUSTED",
+    "ACH_VIRGINIA_GPS",
+    "ACH_VIRGINIA_MAX_SENTIMENT",
+    "ACH_STRUCTURE_100_LOGS",
+    "ACH_WEAR_TECH_ARMOR",
+    "ACH_STRUCTURE_500_LOGS",
+    "ACH_EAT_ALL_EDIBLES",
+    "ACH_STRUCTURE_1000_LOGS",
+    "ACH_PLATED_WEAPONS",
+    "ACH_STAY_BEHIND",
+    "ACH_LEAVE_THE_ISLAND",
+    "ACH_FINISH_STORY_WITH_ALL_NPCS"
+  ]
+}

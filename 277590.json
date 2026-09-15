@@ -1,0 +1,541 @@
+{
+  "game": {
+    "appid": 277590,
+    "slug": "assassin-s-creed-freedom-cry",
+    "title": "Assassin's Creed Freedom Cry",
+    "version": "1.0",
+    "lastPatchChecked": "2025-03-06",
+    "estTotalHours": 7,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Story with full synchronization",
+      "description": "Play Memories 1-9 and clear every optional objective as you go so His Full Attention finishes with the story. Free slaves during the missions, let a plantation bell ring for Silence, Fool!, and earn Firepower and His Own Medicine during the final memory.",
+      "achievementRefs": [
+        "ACFreedomCry_Ach_1",
+        "ACFreedomCry_Ach_3",
+        "ACFreedomCry_Ach_4",
+        "ACFreedomCry_Ach_5",
+        "ACFreedomCry_Ach_6",
+        "ACFreedomCry_Ach_7"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Naval side content",
+      "description": "With the Experto Crede unlocked, plunder ships for Thug Life, use the swing ropes for Roped In, finish a clean boarding for All Aboard!, harpoon the killer whale after liberating Tortuga, and swim for Mer-man.",
+      "achievementRefs": [
+        "ACFreedomCry_Ach_8",
+        "ACFreedomCry_Ach_9",
+        "ACFreedomCry_Ach_10",
+        "ACFreedomCry_Ach_11",
+        "ACFreedomCry_Ach_12"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Cleanup",
+      "description": "Finish the remaining liberated slaves for Seeds of independence using plantations and slave ships.",
+      "achievementRefs": [
+        "ACFreedomCry_Ach_2"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACFreedomCry_Ach_1",
+      "displayName": "Liberation Day",
+      "description": "Free your first slave.",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "liberation",
+      "sortReason": "First liberation of the campaign.",
+      "summary": "Free a single slave.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first-liberation",
+            "text": "Free a slave during the campaign's opening sequence; any later liberation from a @loc{plantation}, @loc{slave ship}, or street event counts as well."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_2",
+      "displayName": "Seeds of independence",
+      "description": "Liberate 500 slaves.",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "liberation",
+      "sortReason": "Cumulative counter; finish the remainder in free roam after the story.",
+      "summary": "Reach a running total of 500 freed slaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter tracks freed slaves only; maroons are a separate resource and do not count.",
+        "steps": [
+          {
+            "id": "story-liberations",
+            "text": "Free slaves as you play the story; the campaign itself requires 150 liberated slaves before Memory 5."
+          },
+          {
+            "id": "plantations",
+            "text": "Clear @loc{plantations} for about 30 slaves each; they gain new owners over time, so the same plantation can be liberated again."
+          },
+          {
+            "id": "slave-ships",
+            "text": "Sink a @loc{slave ship's} escort convoy without firing on the slave ship, then board it for about 90 slaves."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_3",
+      "displayName": "Firepower",
+      "description": "Kill 5 guards at once with a blunderbuss.",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Repeatable in Memory 4 or during Memory 9; also a Memory 9 optional objective.",
+      "summary": "Kill five guards with a single blunderbuss blast.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @item{blunderbuss} is a single-shot, short-range weapon that can kill several enemies at once; you receive it after Memory 3.",
+        "steps": [
+          {
+            "id": "replay-memory-4",
+            "text": "Replay the fourth memory, @loc{A Ship Of His Own}, through its opening @item{firecrackers} tutorial."
+          },
+          {
+            "id": "reach-keg",
+            "text": "Stay on the rooftops, take out the guard on the left, and move to the position above the @item{powder keg}."
+          },
+          {
+            "id": "gather-guards",
+            "text": "Throw firecrackers down so all five guards gather around the powder keg."
+          },
+          {
+            "id": "shoot-keg",
+            "text": "Fire the blunderbuss into the powder keg while the guards are grouped; if the group scatters, reload the checkpoint and try again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_4",
+      "displayName": "His Own Medicine",
+      "description": "Disarm the Gouverneur and kill him with the branding iron.",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Fixed part of the final memory; also a Memory 9 optional objective.",
+      "summary": "Disarm the Gouverneur during the final mission and kill him with his branding iron.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do not tackle or kill the Gouverneur while he flees, and avoid hitting him with the blunderbuss, or the disarm becomes impossible. The branding-iron kill also satisfies a Memory 9 optional objective.",
+        "steps": [
+          {
+            "id": "reach-final-memory",
+            "text": "Play Memory 9, @loc{de Fayet's Last Stand}, and chase the Gouverneur out of the mansion grounds."
+          },
+          {
+            "id": "clear-guards",
+            "text": "At his destination, thin the guards with @item{smoke bombs} and other weapons, keeping the Gouverneur unharmed."
+          },
+          {
+            "id": "disarm",
+            "text": "Equip the @item{fists} before fighting him, counter his attack, then press the disarm input to take his branding iron."
+          },
+          {
+            "id": "finish-him",
+            "text": "Attack him with the branding iron until he dies; the achievement unlocks with the kill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_5",
+      "displayName": "His Word Was “Perhaps”",
+      "description": "Freedom Cry - Complete all missions",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Unlocks automatically at the end of the final memory.",
+      "summary": "Complete all nine story memories of Freedom Cry.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish-story",
+            "text": "Play all nine memories through to the end; the final memory's conclusion awards the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_6",
+      "displayName": "His Full Attention",
+      "description": "Freedom Cry - Achieve 100% synchronization",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Track every memory objective while playing the story; replay memories for anything missed.",
+      "summary": "Complete every optional objective in all nine story memories for 100% synchronization.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the optional objectives inside the nine story memories count; collectibles and side missions are not required. Memory 2 has none. If an objective fails, replay that memory later from the progress tracker; the achievement unlocks when the final memory ends with everything complete.",
+        "steps": [
+          {
+            "id": "memory-1",
+            "text": "Memory 1, @loc{The Calm Before The Storm}: locate the Templar Admiral's ship with the @item{spyglass}, then surprise the Templar fleet with a @item{mortar} shot."
+          },
+          {
+            "id": "memory-3",
+            "text": "Memory 3, @loc{Laying The First Brick}: push an overseer into the water and air-assassinate a guard from a height of at least 10 meters."
+          },
+          {
+            "id": "memory-4",
+            "text": "In the fourth memory, @loc{A Ship Of His Own}, call on @npc{Bastienne's girls} to distract the guards, then draw four guards together with @item{firecrackers}."
+          },
+          {
+            "id": "memory-5",
+            "text": "Memory 5, @loc{Lifting The Veil}: kill the overseer in charge of the slaves and free the slaves from the barracks."
+          },
+          {
+            "id": "memory-6",
+            "text": "Memory 6, @loc{A Scientific Inquiry}: complete all five investigations without killing anyone."
+          },
+          {
+            "id": "memory-7",
+            "text": "Memory 7, @loc{Plant The Seeds}: sink the pirate schooners before the brig and destroy the whole flotilla within six minutes."
+          },
+          {
+            "id": "memory-8",
+            "text": "Memory 8, @loc{Down With The Ship}: take less than 50% damage in the naval fight and rescue 15 slaves below deck without failing a quick-time event."
+          },
+          {
+            "id": "memory-9",
+            "text": "Memory 9, @loc{de Fayet's Last Stand}: take out five guards with the blunderbuss and finish de Fayet with the branding iron."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_7",
+      "displayName": "Silence, Fool!",
+      "description": "Kill a guard ringing a bell.",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "liberation",
+      "sortReason": "Do it at any plantation during the story.",
+      "summary": "Kill a guard while he is ringing an alarm bell.",
+      "guide": {
+        "kind": "standard",
+        "context": "A guard only runs to the bell once he is alerted, and the kill still counts after the bell has started ringing.",
+        "steps": [
+          {
+            "id": "alert-plantation",
+            "text": "Travel to a @loc{plantation} and let the overseers spot you near the @item{alarm bell}."
+          },
+          {
+            "id": "kill-ringer",
+            "text": "Wait for a guard to reach the bell, let it ring at least once, then kill him before he leaves."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_8",
+      "displayName": "Killer Killer",
+      "description": "Harpoon a killer whale.",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "naval",
+      "sortReason": "Requires the Tortuga plantation to be liberated first, then a short sail west.",
+      "summary": "Harpoon and kill a killer whale.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "liberate-tortuga",
+            "text": "Liberate the plantation at @loc{Tortuga} to make the killer whale icon appear west of the island."
+          },
+          {
+            "id": "sail-to-whale",
+            "text": "Sail to the coordinates (336, 372) and watch for a light blue patch of water that marks the whale."
+          },
+          {
+            "id": "harpoon",
+            "text": "Approach the patch and hold the harpoon input to start the kill.",
+            "note": "Harpoons are limited, so aim each throw carefully."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_9",
+      "displayName": "Mer-man",
+      "description": "Swim a total of 1 nmi.",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10–15 min",
+      "estMinutes": 12,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "explore",
+      "sortReason": "Cumulative; swim during free roam after the story.",
+      "summary": "Swim a cumulative total of one nautical mile.",
+      "guide": {
+        "kind": "standard",
+        "context": "One nautical mile is about 1.85 km, and the distance accumulates across the whole save.",
+        "steps": [
+          {
+            "id": "swim",
+            "text": "Swim in open water; for example, jump from any dock or from the deck of the @item{Experto Crede} and keep swimming. The achievement unlocks once the running total reaches one nautical mile."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_10",
+      "displayName": "Thug Life",
+      "description": "Plunder 30 ships.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1–2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "naval",
+      "sortReason": "Repeat boardings during free roam; target small ships.",
+      "summary": "Plunder a total of 30 enemy ships.",
+      "guide": {
+        "kind": "standard",
+        "context": "A ship counts as plundered once its boarding objective is finished, such as killing the crew, detonating the powder stores, or pulling down the flag.",
+        "steps": [
+          {
+            "id": "pick-targets",
+            "text": "Attack small enemy ships and thin the deck with @item{swivel guns} before boarding to speed each capture."
+          },
+          {
+            "id": "board-and-repeat",
+            "text": "Board and complete the listed objective to register the plunder, then repair the ship or bribe the enemy before finding the next target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_11",
+      "displayName": "Roped In",
+      "description": "Perform 5 air assassinations from a swinging rope.",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20–30 min",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "naval",
+      "sortReason": "Spread across five boardings with the swing ropes.",
+      "summary": "Kill five enemies with air assassinations launched from a swinging rope.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five kills can be spread across several boardings.",
+        "steps": [
+          {
+            "id": "reach-rope",
+            "text": "During a boarding, walk to a @item{swinging rope} along the port or starboard edge of the @item{Experto Crede}; one hangs near the wheel at the stern."
+          },
+          {
+            "id": "prepare",
+            "text": "Climb onto the ledge, crouch, and equip the @item{hidden blades}."
+          },
+          {
+            "id": "assassinate",
+            "text": "When the enemy ship is close, jump toward it and press attack on an enemy below to land the air assassination; repeat until five are done."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACFreedomCry_Ach_12",
+      "displayName": "All Aboard!",
+      "description": "Board a ship without losing any crew members.",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "naval",
+      "sortReason": "Attempt during the same free-roam boardings as Roped In.",
+      "summary": "Finish a ship boarding without losing any crew members.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "prepare-crew",
+            "text": "Free slaves beforehand to grow and equip your crew, then attack a small enemy ship and weaken its deck with @item{swivel guns}."
+          },
+          {
+            "id": "clear-deck",
+            "text": "Board and eliminate the enemy crew with the @item{machete} before they can kill any of your crew."
+          },
+          {
+            "id": "finish",
+            "text": "Complete the boarding objectives; the achievement unlocks at the repair-or-bribe prompt if no crew member died."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACFreedomCry_Ach_1",
+    "ACFreedomCry_Ach_7",
+    "ACFreedomCry_Ach_3",
+    "ACFreedomCry_Ach_5",
+    "ACFreedomCry_Ach_6",
+    "ACFreedomCry_Ach_4",
+    "ACFreedomCry_Ach_12",
+    "ACFreedomCry_Ach_11",
+    "ACFreedomCry_Ach_10",
+    "ACFreedomCry_Ach_8",
+    "ACFreedomCry_Ach_9",
+    "ACFreedomCry_Ach_2"
+  ]
+}

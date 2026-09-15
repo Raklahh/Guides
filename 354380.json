@@ -1,0 +1,695 @@
+{
+  "game": {
+    "appid": 354380,
+    "slug": "assassin-s-creed-chronicles-china",
+    "title": "Assassin’s Creed® Chronicles: China",
+    "version": "1.0",
+    "lastPatchChecked": "2025-03-06",
+    "estTotalHours": 15,
+    "difficultyRating": 4,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-09-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Normal playthrough",
+      "description": "Play through all 12 memories on Normal (the only selectable difficulty), staying stealthy and picking up every Animus Shard and Scroll Chest. Completing each memory unseen with no unnecessary kills banks Shadow Gold ratings, completes the story, and takes care of the stealth, collectible, and memory-specific achievements along the way.",
+      "achievementRefs": [
+        "ACCChina_Ach_1",
+        "ACCChina_Ach_2",
+        "ACCChina_Ach_6",
+        "ACCChina_Ach_7",
+        "ACCChina_Ach_9",
+        "ACCChina_Ach_10",
+        "ACCChina_Ach_11",
+        "ACCChina_Ach_12",
+        "ACCChina_Ach_14",
+        "ACCChina_Ach_15",
+        "ACCChina_Ach_16"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Plus playthrough",
+      "description": "Finishing Normal unlocks Plus and Plus Hard. Complete all 12 memories again in either mode, using the run to finish the action counters: Helix kills, combat kills, hidden bodies, and escaped alerts. Collectible and objective progress is no longer needed on this pass.",
+      "achievementRefs": [
+        "ACCChina_Ach_3",
+        "ACCChina_Ach_5",
+        "ACCChina_Ach_8",
+        "ACCChina_Ach_13",
+        "ACCChina_Ach_17"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Max-score and grind cleanup",
+      "description": "Replay memories in Plus with Shadow Gold sections and every secondary objective to hit each memory's maximum score, and beat the gold times in the three timed memories. Farm the remaining friendly-fire hits in Memory 4 and finish any leftover counters, since memories can be replayed freely.",
+      "achievementRefs": [
+        "ACCChina_Ach_4",
+        "ACCChina_Ach_18"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACCChina_Ach_1",
+      "displayName": "Vengeance Begins",
+      "description": "Assassinate Gao Feng",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Memory 1",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Assassinate @npc{Gao Feng} at the end of @loc{Memory Sequence 1}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "story-kill",
+            "text": "Play through @loc{Memory Sequence 1} to the final section and assassinate @npc{Gao Feng}; the achievement is part of the story and cannot be missed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_2",
+      "displayName": "The Assassin's Return",
+      "description": "Complete Assassin's Creed® Chronicles: China",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "one full playthrough",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the story by finishing all 12 memories.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish-story",
+            "text": "Play from @loc{Memory Sequence 1} to the end of @loc{Memory Sequence 12}; the achievement unlocks when the last memory is completed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_3",
+      "displayName": "The Way It's Meant To Be",
+      "description": "Complete every memory in the Plus or Plus Hard Game Modes",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "one Plus playthrough",
+      "estMinutes": 240,
+      "stage": 2,
+      "prerequisites": [
+        "ACCChina_Ach_2"
+      ],
+      "confidence": "verified",
+      "summary": "Complete every memory in @mechanic{Plus} or @mechanic{Plus Hard} mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "How you play does not matter for this achievement - only finishing each of the 12 memories in either mode.",
+        "steps": [
+          {
+            "id": "unlock-plus",
+            "text": "Finish the story once on Normal to unlock the @mechanic{Plus} and @mechanic{Plus Hard} modes."
+          },
+          {
+            "id": "finish-plus",
+            "text": "Start a @mechanic{Plus} game and play all 12 memories to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_4",
+      "displayName": "The Completionist",
+      "description": "Achieve the highest score and fastest time in each memory",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "replay every memory at max score",
+      "estMinutes": 180,
+      "stage": 3,
+      "prerequisites": [
+        "ACCChina_Ach_2"
+      ],
+      "confidence": "verified",
+      "summary": "Reach the maximum score in every scored memory and beat the gold time in @loc{Memory Sequence 5}, @loc{Memory Sequence 10} and @loc{Memory Sequence 12}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Top scores are only reachable in Plus mode: clear every section unseen with no kills (Shadow Gold) and complete the memory's secondary objective. Per-memory maximums: Memory Sequence 1: 2300, Memory Sequence 2: 2740, Memory Sequence 3: 2940, Memory Sequence 4: 2600, Memory Sequence 6: 1660, Memory Sequence 7: 2000, Memory Sequence 8: 1780, Memory Sequence 9: 3300, Memory Sequence 11: 3140.",
+        "steps": [
+          {
+            "id": "max-score-method",
+            "text": "In @mechanic{Plus} mode, clear every section of each scored memory with the @mechanic{Shadow Gold} rating: stay unseen, make no kills, and finish the memory's secondary objective."
+          },
+          {
+            "id": "gold-times",
+            "text": "In the timed memories, beat the gold time: under 4:20 in @loc{Memory Sequence 5}, under 4:15 in @loc{Memory Sequence 10}, and under 6:10 in @loc{Memory Sequence 12}."
+          },
+          {
+            "id": "replay-shortfall",
+            "text": "Compare your score on the results screen after each memory and replay any memory that fell short; every memory can be replayed freely."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_5",
+      "displayName": "I Fear No One",
+      "description": "Kill 100 enemies using the Helix Kill",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 30 min of Helix farms",
+      "estMinutes": 30,
+      "stage": 2,
+      "prerequisites": [
+        "ACCChina_Ach_2"
+      ],
+      "confidence": "verified",
+      "summary": "Kill 100 enemies with @mechanic{Helix Kills}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Helix kills only exist in Plus mode, which unlocks after the story, and the Helix bar does not need to be full - any charge lets you trigger one.",
+        "steps": [
+          {
+            "id": "unlock-helix",
+            "text": "Finish the story to unlock @mechanic{Plus} mode, then pick up @item{Helix energy} while replaying memories."
+          },
+          {
+            "id": "trigger-helix",
+            "text": "In a fight, block an attack and press @mechanic{LT+RT} to activate the Helix kill, then attack the enemies around you."
+          },
+          {
+            "id": "helix-farm",
+            "text": "To farm, replay @loc{Memory Sequence 4} up to the checkpoint where two guards come out of a door, kill them and the three enemies below through the window, then restart the checkpoint; about 20 repeats reach 100 kills."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_6",
+      "displayName": "Low Blow",
+      "description": "Slide assassinate 25 enemies",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthroughs",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Slide assassinate 25 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The escape and timed memories hand out forced slide kills, so the counter usually fills during normal play; replaying @loc{Memory Sequence 5} speeds up whatever is left.",
+        "steps": [
+          {
+            "id": "slide-kill",
+            "text": "Run at a guard, press @mechanic{LT} while moving to slide, then press the assassinate button as Shao Jun slides into the enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_7",
+      "displayName": "The Invisible Woman",
+      "description": "Shadow Gold past 30 patrols",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "during the stealth playthroughs",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Earn the @mechanic{Shadow Gold} rating on 30 sections.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shadow Gold is awarded at checkpoints when a section is passed unseen with no kills and no body left in view. Ghost-style play across the two playthroughs supplies more than enough rated sections.",
+        "steps": [
+          {
+            "id": "shadow-gold",
+            "text": "Clear checkpoint sections without entering any guard's vision cone and without killing anyone; the rating is shown when the section ends.",
+            "note": "A guard turning toward a thrown distraction is not seeing you - only your own body entering the vision cone counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_8",
+      "displayName": "Now You See Me…",
+      "description": "Escape alerts 30 times",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 min of alert farming",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Escape enemy alerts 30 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "An escape counts when an alert ends after you break line of sight, and the counter carries across memories and playthroughs.",
+        "steps": [
+          {
+            "id": "escape-alert",
+            "text": "Let a guard spot you, break line of sight and stay hidden until the red alert expires."
+          },
+          {
+            "id": "alert-farm",
+            "text": "Speed it up on a lone guard who stands on a platform above or below you: guards cannot climb up or drop down, so you can raise and shake the alert over and over."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_9",
+      "displayName": "Faster Than The Flame",
+      "description": "Escape the burning port in under 5 minutes",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Memory 5",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Escape the burning port in @loc{Memory Sequence 5} in under 5 minutes.",
+      "guide": {
+        "kind": "standard",
+        "context": "The timer ignores the opening assassination tutorial and all cutscenes, and restarting a checkpoint adds no time. The gold time for this memory is under 4:20, which the top-score achievement also requires.",
+        "steps": [
+          {
+            "id": "keep-sprinting",
+            "text": "Sprint through @loc{Memory Sequence 5} without stopping and kill the guards in your path with slide or air assassinations."
+          },
+          {
+            "id": "climb-fast",
+            "text": "In climbing sections, hold the climb/jump button - @mechanic{A} (Xbox) or @mechanic{X} (PlayStation) - with the movement direction to climb faster."
+          },
+          {
+            "id": "restart-early",
+            "text": "If a section goes badly, restart the checkpoint instead of playing on."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_10",
+      "displayName": "Not A Scratch",
+      "description": "Assassinate all enemies in the ambush in Memory Sequence 8 without taking a single hit",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "end of Memory 8",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill every soldier in the @loc{Memory Sequence 8} ambush without taking a hit.",
+      "guide": {
+        "kind": "standard",
+        "context": "The ambush at the end of the memory spawns 7 soldiers, and taking a single hit ruins the attempt until you restart the checkpoint.",
+        "steps": [
+          {
+            "id": "stealth-order",
+            "text": "At the end of @loc{Memory Sequence 8}, assassinate the 7 soldiers from stealth: clear the upper floor first, then work your way down."
+          },
+          {
+            "id": "use-tools",
+            "text": "Stun or turn guards with @item{Firecrackers} and @item{Noise Darts} before each kill so nobody lands a hit on you."
+          },
+          {
+            "id": "restart-hit",
+            "text": "If you take a hit, restart the checkpoint before the area ends and try again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_11",
+      "displayName": "Concubine Savior",
+      "description": "Save all the Concubines in Memory Sequence 9",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Memory 9",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Save all 3 concubines in @loc{Memory Sequence 9}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Saving the concubines is the memory's optional objective and they are marked on the map. Alerted guards execute a concubine, and near the second one the checkpoint can land after her death - if that happens, the memory has to be replayed.",
+        "steps": [
+          {
+            "id": "free-concubines",
+            "text": "Free each of the 3 concubines by pushing the left stick up once the soldiers around her are unaware; stay unseen near the second concubine in particular."
+          },
+          {
+            "id": "restart-on-alert",
+            "text": "Restart the checkpoint immediately if a guard notices you near a concubine, so her execution never lands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_12",
+      "displayName": "Master Of Stealth",
+      "description": "Complete Memory Sequence 11 without being seen",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Memory 11",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish @loc{Memory Sequence 11} with no guard ever seeing Shao Jun.",
+      "guide": {
+        "kind": "standard",
+        "context": "A vision cone turning yellow counts as being seen even before a red alert, and kills do not void this achievement - only detection does. Firecrackers and noise darts are safe distractions; thrown daggers give you away.",
+        "steps": [
+          {
+            "id": "avoid-cones",
+            "text": "Move through @loc{Memory Sequence 11} keeping out of every guard's vision cone; the moment a cone turns yellow, restart the checkpoint."
+          },
+          {
+            "id": "distract",
+            "text": "Distract guards with @item{Firecrackers} or @item{Noise Darts} instead of throwing daggers at them."
+          },
+          {
+            "id": "check-times-seen",
+            "text": "After each enemy section, check its summary; it must read Times Seen: 0. If a detection slipped past a checkpoint, replay the memory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_13",
+      "displayName": "Clean Mind",
+      "description": "Hide 50 bodies",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across the combat playthrough",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Hide 50 bodies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter is cumulative across playthroughs and checkpoint restarts, so it fills while you work on the other combat and stealth counters.",
+        "steps": [
+          {
+            "id": "hide-body",
+            "text": "After each kill, pick up the body and drop it in a hiding spot such as a green box, curtains or hay."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_14",
+      "displayName": "Shiny",
+      "description": "Collect all the Animus Shards",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "all 12 memories",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect all 113 @item{Animus Shards}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Shards save permanently once picked up, even after a checkpoint restart or after quitting the memory, and synchronizing a viewpoint marks them on the map.",
+        "steps": [
+          {
+            "id": "collect-shards",
+            "text": "Synchronize viewpoints in each memory and pick up every white glowing @item{Animus Shard} you pass."
+          },
+          {
+            "id": "shard-cleanup",
+            "text": "After a memory ends, open its statistics from the memory-select screen and replay the memory to collect any shards still missing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_15",
+      "displayName": "Tell Me A Story",
+      "description": "Open all Scroll Chests",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "all 12 memories",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open all 18 @item{Scroll Chests}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chests show on the map after synchronizing a viewpoint. A chest opened after the last checkpoint must be opened again if you restart before reaching the next one.",
+        "steps": [
+          {
+            "id": "open-chests",
+            "text": "Open every @item{Scroll Chest} you reach, following the markers revealed by synchronizing viewpoints."
+          },
+          {
+            "id": "chest-cleanup",
+            "text": "After a memory ends, check its statistics from the memory-select screen and replay it to open any chests still missing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_16",
+      "displayName": "No Witnesses",
+      "description": "Assassinate 100 enemies",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthroughs",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill 100 enemies with stealth assassinations.",
+      "guide": {
+        "kind": "standard",
+        "context": "Assassinations from behind, from above or out of hiding count; combat kills do not. The counter is cumulative across both playthroughs and retries.",
+        "steps": [
+          {
+            "id": "stealth-kills",
+            "text": "Take down unaware enemies with the assassination prompt from behind, from above or from a hiding spot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_17",
+      "displayName": "Smash And Stab",
+      "description": "Kill 100 enemies in combat",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 30 min of combat farming",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill 100 enemies in open combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only kills made after enemies are alerted into a fight count, and assassinations do not; small groups of one or two guards are easiest to handle.",
+        "steps": [
+          {
+            "id": "combat-kills",
+            "text": "Pick fights with small groups of guards and beat them with normal attacks until the counter fills."
+          },
+          {
+            "id": "combat-farm",
+            "text": "To farm, replay the opening room of @loc{Memory Sequence 4}: fight the 5 soldiers there, then restart the checkpoint and repeat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCChina_Ach_18",
+      "displayName": "Enemy Of My Enemy",
+      "description": "Inflict friendly fire from projectiles on 50 enemies",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 min of friendly-fire farming",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Cause enemy projectiles to hit other enemies 50 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crossbowmen fire at you from range in combat, and a dodge at the right moment sends the bolt into whoever stands behind you.",
+        "steps": [
+          {
+            "id": "friendly-fire",
+            "text": "Start a fight with a group that includes a @enemy{crossbowman}, keep your distance from him and keep dodging so his bolts strike the other soldiers."
+          },
+          {
+            "id": "friendly-fire-farm",
+            "text": "To farm, replay the start of @loc{Memory Sequence 4}: roll past the 4 melee soldiers, dodge in front of the @enemy{crossbowman} until he has shot all four of them, then restart the checkpoint and repeat.",
+            "note": "The reinforcement fight in @loc{Memory Sequence 8} also works if you prefer a busier area."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACCChina_Ach_1",
+    "ACCChina_Ach_9",
+    "ACCChina_Ach_10",
+    "ACCChina_Ach_6",
+    "ACCChina_Ach_11",
+    "ACCChina_Ach_16",
+    "ACCChina_Ach_7",
+    "ACCChina_Ach_15",
+    "ACCChina_Ach_2",
+    "ACCChina_Ach_12",
+    "ACCChina_Ach_14",
+    "ACCChina_Ach_13",
+    "ACCChina_Ach_8",
+    "ACCChina_Ach_17",
+    "ACCChina_Ach_5",
+    "ACCChina_Ach_3",
+    "ACCChina_Ach_18",
+    "ACCChina_Ach_4"
+  ]
+}

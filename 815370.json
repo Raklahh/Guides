@@ -1,0 +1,2631 @@
+{
+  "game": {
+    "appid": 815370,
+    "slug": "green-hell",
+    "title": "Green Hell",
+    "version": "1.0",
+    "lastPatchChecked": "2026-02-04",
+    "estTotalHours": 90,
+    "difficultyRating": 7,
+    "minPlaythroughs": 4,
+    "createdAt": "2026-09-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Story mode on Welcome to the Jungle",
+      "description": "Play the base campaign on the lowest story difficulty and clear the story achievements as they come: tutorial, first tool, first fire, first shelter and save, safe water, human meat and a tribesman kill, the snowman packages and Wilson, the green mushroom, the ayahuasca brew and the cure. Keep a manual save at the research lab camp before the final ritual so both endings and the gold sack can be finished from one run.",
+      "achievementRefs": [
+        "ACH_TUTORIAL",
+        "ACH_1ST_TOOL",
+        "ACH_START_FIRE",
+        "ACH_HOME",
+        "ACH_SAVEGAME",
+        "ACH_SAFE_WATER",
+        "ACH_WELCOME",
+        "ACH_AYAHUASKA",
+        "ACH_TURTLE",
+        "ACH_ALL_FIRE_TOOLS",
+        "ACH_SNOWMAN",
+        "ACH_WILLSON",
+        "ACH_FIND_STORYCAVE",
+        "ACH_CURE",
+        "ACH_GOOD_ENDING",
+        "ACH_BAD_ENDING",
+        "ACH_GREEDY",
+        "ACH_JUST_DIE",
+        "ACH_KILL_TRIBE",
+        "ACH_CANIBAL"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Free-play, collectibles and grinds",
+      "description": "Once the story save is free, finish every cumulative or exploration goal: reading 50 collectibles, unlocking 60 map places, travelling 64 km, cultivating 12 plants, capping one skill, the full metal armor set, the four aquatic and predator hunting counters, the ailment and leech counters, and all 7 challenges.",
+      "achievementRefs": [
+        "ACH_TRAVEL",
+        "ACH_MAX_SKILL",
+        "ACH_IRONMAN",
+        "ACH_FARMER",
+        "ACH_FULL_MAP",
+        "ACH_ALL_READABLE",
+        "ACH_FISHING",
+        "ACH_KING_OF_THE_JUNGLE",
+        "ACH_LEECHES",
+        "ACH_MAGGOT_WOUND",
+        "ACH_INSOMIA",
+        "ACH_SANITY_TRIBE",
+        "ACH_ALL_SICKNESS",
+        "ACH_CATCH_AT_ONCE",
+        "ACH_ALL_CHALLENGES"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Endurance and difficulty runs",
+      "description": "Start fresh runs for the difficulty and survival achievements. Stack Keeper of the flame, I made it, Pacifist and Vegan! on one King of the Jungle save, then complete a separate deathless story run on Green Hell difficulty.",
+      "achievementRefs": [
+        "ACH_FIREPLACE_GOING",
+        "ACH_SURVIVE_10",
+        "ACH_VEGAN",
+        "ACH_PACIFIST",
+        "ACH_ENDING_GREENHELL"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Animal husbandry",
+      "description": "Build an animal pen, capture and tame a capybara, peccary or tapir with the blowpipe, raise its trust to pet it, and keep a male and female of one species until they breed.",
+      "achievementRefs": [
+        "ACH_NEW_FRIEND",
+        "ACH_EMOTIONAL_SUPPORT",
+        "ACH_CIRCLE_OF_LIFE"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Spirits of Amazonia",
+      "description": "Play the Spirits of Amazonia campaign end to end. Discover each village, build 800 trust with all three tribes, complete every area legend, run the three trials plus the final Yabahuaca trial, finish the side counters and maps, report back to base, and finish the story for the meta achievement.",
+      "achievementRefs": [
+        "DISCOVER_VILLAGE_MUAGI",
+        "DISCOVER_VILLAGE_UNGARACA",
+        "DISCOVER_VILLAGE_HABBAKU",
+        "ACH_GAIN_REPUTATION_800_PLANTING",
+        "ACH_GAIN_REPUTATION_800_HUNTING",
+        "ACH_GAIN_REPUTATION_800_FISHING",
+        "ACH_BRING_9_KIDS_BACK",
+        "ACH_HEAL_10_TRIBES",
+        "ACH_BURN_10_CORPSES",
+        "ACH_BURN_10_TRASHES",
+        "ACH_HELP_5_FISHERMEN",
+        "ACH_REBUILD_10_TOTEMS",
+        "ACH_FREE_9_WOMEN",
+        "ACH_FIND_5_MAPS",
+        "RAPORT_BACK_TO_THE_BASE",
+        "COMPLETE_MUAGI_TRIAL",
+        "COMPLETE_HABBAKU_TRIAL",
+        "COMPLETE_UNGARACA_TRIAL",
+        "COMPLETE_ALL_MUAGI_LEGENDS",
+        "COMPLETE_ALL_UNGARACA_LEGENDS",
+        "COMPLETE_ALL_HABBAKU_LEGENDS",
+        "REACH_YABAHUACA_VILLAGE",
+        "PASS_YABAHUACA_TRIAL",
+        "ACH_COMPLETE_SOA3_STORY",
+        "COMPLETE_ALL_SOA_ACHIEVEMENTS"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_TUTORIAL",
+      "displayName": "You are not prepared",
+      "description": "Finish the tutorial",
+      "hidden": false,
+      "globalPercent": 41.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the opening tutorial on any difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish-tutorial",
+            "text": "Complete the guided opening objectives until the tutorial hands control of the jungle to Jake."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_AYAHUASKA",
+      "displayName": "Soul Vine",
+      "description": "Drink an ayahuasca brew.",
+      "hidden": true,
+      "globalPercent": 29.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Drink an ayahuasca brew.",
+      "guide": {
+        "kind": "standard",
+        "context": "The scripted story rituals count for this achievement.",
+        "steps": [
+          {
+            "id": "gather",
+            "text": "Collect @item{banisteriopsis vine} from a @loc{Brazil-nut tree} and @item{psychotria} from the small red-berried plant."
+          },
+          {
+            "id": "brew",
+            "text": "Build a small fire under a @item{ceremonial pot} and drink the brew it produces."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BAD_ENDING",
+      "displayName": "It's all over, again",
+      "description": "Finish the story without the cure.",
+      "hidden": true,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across story",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach the story's ending without having crafted the cure.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "final-ritual",
+            "text": "Play the story to the final ayahuasca ritual at the @loc{large native settlement} without crafting the cure."
+          },
+          {
+            "id": "answer",
+            "text": "Answer @npc{Mia} that the cure was not obtained and watch the ending.",
+            "note": "A manual save at the research lab camp before the ritual lets the other ending be reloaded from the same run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GOOD_ENDING",
+      "displayName": "Just, wait for me…",
+      "description": "Finish the story with the cure.",
+      "hidden": true,
+      "globalPercent": 6.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across story",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CURE"
+      ],
+      "summary": "Reach the story's ending while carrying the cure.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "craft-cure",
+            "text": "Craft the @item{cure} and keep it in the backpack."
+          },
+          {
+            "id": "final-ritual",
+            "text": "Perform the final ayahuasca ritual at the @loc{large native settlement}."
+          },
+          {
+            "id": "answer",
+            "text": "Tell @npc{Mia} the cure was obtained and finish the ending.",
+            "note": "A manual save at the research lab camp beforehand lets you reload for the no-cure ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GREEDY",
+      "displayName": "Greedy",
+      "description": "Complete Story mode on any difficulty with gold sack in backpack",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish Story mode carrying the @item{gold sack} in the backpack.",
+      "guide": {
+        "kind": "standard",
+        "context": "The sack weighs 1 kg and the story can be completed without ever picking it up.",
+        "steps": [
+          {
+            "id": "find-sack",
+            "text": "Take the @item{gold sack} from the table in the calendar building of the @loc{illegal gold mine} on the west side of the map (reported near 40W 15S)."
+          },
+          {
+            "id": "finish",
+            "text": "Keep the sack in the backpack until the story ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ENDING_GREENHELL",
+      "displayName": "Green Hell",
+      "description": "Finish the game on Green Hell difficulty level",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "6 hours",
+      "estMinutes": 360,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish the story on the Green Hell difficulty preset.",
+      "guide": {
+        "kind": "standard",
+        "context": "Green Hell is permanent death, so the whole story must be completed without dying; nutrients and ailments also drain faster at this preset.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a story run with the @mechanic{Green Hell} difficulty preset selected."
+          },
+          {
+            "id": "finish",
+            "text": "Complete the campaign and finish the final ritual without dying.",
+            "note": "The ayahuasca rituals reset Jake's status and act as recovery points. Keep extra saves at a shelter, because dying discards the run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRAVEL",
+      "displayName": "Globetrotter",
+      "description": "Travel 64 km",
+      "hidden": false,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Travel a cumulative 64 km.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "travel",
+            "text": "Walk, run and explore until the travel counter reaches 64 km; every mode and playthrough adds to the total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_START_FIRE",
+      "displayName": "I made fire!",
+      "description": "Start a fire",
+      "hidden": false,
+      "globalPercent": 69.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Light a fire.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "light",
+            "text": "Craft a @item{small fire} or @item{campfire} and light it with a fire-starting tool."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WELCOME",
+      "displayName": "Welcome to the jungle",
+      "description": "Survive 1 night in the jungle",
+      "hidden": false,
+      "globalPercent": 67.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive one full night in the jungle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survive-night",
+            "text": "Stay alive from the opening of any mode until the first sunrise."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVE_10",
+      "displayName": "I made it",
+      "description": "Survive 10 days on King of the Jungle difficulty or higher",
+      "hidden": false,
+      "globalPercent": 2.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "10 in-game days",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Survive 10 in-game days at @mechanic{King of the Jungle} difficulty or above.",
+      "guide": {
+        "kind": "standard",
+        "context": "The difficulty preset must stay at King of the Jungle or Green Hell for the whole run.",
+        "steps": [
+          {
+            "id": "endure",
+            "text": "Keep Jake alive on that save for 10 in-game days."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_JUST_DIE",
+      "displayName": "The first step to greatness",
+      "description": "Die",
+      "hidden": false,
+      "globalPercent": 72.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Die once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "die",
+            "text": "Let Jake die to any cause in any mode."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CANIBAL",
+      "displayName": "Tastes like chicken...",
+      "description": "Eat human meat",
+      "hidden": false,
+      "globalPercent": 23.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Eat human meat.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "eat",
+            "text": "Kill a tribesman, harvest @item{human meat} from the body, and eat it.",
+            "note": "Eating it costs a large amount of sanity."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_TRIBE",
+      "displayName": "Self-defense",
+      "description": "Kill a tribesman",
+      "hidden": false,
+      "globalPercent": 45.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill a tribesman.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "kill",
+            "text": "Attack any tribal warrior with a weapon until he dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_1ST_TOOL",
+      "displayName": "Caveman",
+      "description": "Craft your first tool",
+      "hidden": false,
+      "globalPercent": 82.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft a first tool.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "craft",
+            "text": "Craft any tool, such as a @item{stone axe}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VEGAN",
+      "displayName": "Vegan!",
+      "description": "Survive 25 days solely on mushroom and plant-based food on Welcome to the Jungle difficulty or higher",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "25 in-game days",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Survive 25 in-game days eating only mushroom and plant-based food at @mechanic{Welcome to the Jungle} difficulty or above.",
+      "guide": {
+        "kind": "standard",
+        "context": "No meat of any kind during the run, and protein and fat are the hardest nutrients to keep supplied.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a run at Welcome to the Jungle difficulty or above and eat only plants and mushrooms."
+          },
+          {
+            "id": "endure",
+            "text": "Keep protein, fat and carbohydrates supplied for 25 in-game days.",
+            "note": "Brazil nuts are a reliable fat source and @item{Monstera Deliciosa fruit} a reliable protein source.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PACIFIST",
+      "displayName": "Pacifist",
+      "description": "Survive 10 days on King of the Jungle difficulty or higher without killing animals, humans, destroying bee nests and interacting with traps",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "10 in-game days",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Survive 10 in-game days at @mechanic{King of the Jungle} difficulty or above without killing animals or humans, destroying bee nests, or touching traps.",
+      "guide": {
+        "kind": "standard",
+        "context": "Already-dead animals may still be eaten or harvested; only killing and the three listed interactions are restricted.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a run at King of the Jungle difficulty or above."
+          },
+          {
+            "id": "avoid",
+            "text": "For 10 in-game days, do not kill any creature or tribesman, break a bee nest, or interact with a trap."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WILLSON",
+      "displayName": "Casted Far Away",
+      "description": "Find an unexpected friend.",
+      "hidden": true,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick up the ball Wilson.",
+      "guide": {
+        "kind": "standard",
+        "context": "Wilson sits on the far west coast where the shoreline appears to end.",
+        "steps": [
+          {
+            "id": "find-wilson",
+            "text": "Walk the far west coast south past the large rock (reported near 54W 26S) and pick up the @item{Wilson} ball on the shore."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MAX_SKILL",
+      "displayName": "Making progress",
+      "description": "Reach Max at any skill",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "several hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Reach the maximum level of any skill.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "cap-skill",
+            "text": "Keep gathering, chopping and fighting with one weapon type; the @mechanic{axe} skill fills fastest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_IRONMAN",
+      "displayName": "Iron Man",
+      "description": "Create and wear a full metal armor set",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Craft and wear a full set of metal armor.",
+      "guide": {
+        "kind": "standard",
+        "context": "A full set covers every limb and takes 6 melted iron for the molds. Worn metal armor adds no carry weight.",
+        "steps": [
+          {
+            "id": "iron",
+            "text": "Mine @item{iron ore} from cave veins with a @item{stone pickaxe} or @item{metal pickaxe}, or melt empty cans."
+          },
+          {
+            "id": "forge",
+            "text": "Unlock the @item{mud forge} blueprint, then smelt the iron into melted iron."
+          },
+          {
+            "id": "molds",
+            "text": "Craft 6 @item{armor molds} from an empty mold, 1 melted iron and 1 stick, then bake and harvest each one for 2 armor casts."
+          },
+          {
+            "id": "wear",
+            "text": "Combine 3 armor casts with 2 rope and 1 banana leaf for each limb and wear all four pieces."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SAVEGAME",
+      "displayName": "I'm saved",
+      "description": "Save your game in a shelter",
+      "hidden": false,
+      "globalPercent": 49.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Save the game inside a shelter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "save",
+            "text": "Build any shelter and sleep in it to save."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIND_STORYCAVE",
+      "displayName": "It's all their fault",
+      "description": "Find the mushroom that started it all.",
+      "hidden": true,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick up the green mushroom in the flooded cave.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "cave",
+            "text": "Use the @item{grappling hook} near the main village (reported near 34W 34S) and follow the path into the cave."
+          },
+          {
+            "id": "mushroom",
+            "text": "Keep to the right wall going deeper, swim through the flooded tunnel and take the @item{green mushroom} at the water's edge.",
+            "note": "The mushroom is poisonous and cannot be eaten safely."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SANITY_TRIBE",
+      "displayName": "Am I losing it?",
+      "description": "Kill a sanity tribesman.",
+      "hidden": true,
+      "globalPercent": 31.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill a hallucinated tribesman.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hallucinations appear once sanity drops below 20. They are hostile and vanish from any damage.",
+        "steps": [
+          {
+            "id": "low-sanity",
+            "text": "Let sanity fall below 20 by eating human meat, skipping sleep, or letting ailments run."
+          },
+          {
+            "id": "kill",
+            "text": "Attack a hallucinated tribesman until it bursts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LEECHES",
+      "displayName": "Leeches, leeches everywhere",
+      "description": "Remove 50 leeches from your body",
+      "hidden": false,
+      "globalPercent": 28.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Remove 50 leeches from the body.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "remove",
+            "text": "Wade through water or vegetation to pick up leeches, then open the inspection menu and drag each leech off a body part."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MAGGOT_WOUND",
+      "displayName": "Improvise, adapt, survive",
+      "description": "Let maggots eat your infected wound",
+      "hidden": false,
+      "globalPercent": 25.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Let maggots feed on an infected wound.",
+      "guide": {
+        "kind": "standard",
+        "context": "An infection is a wound left unbandaged until yellow pus appears; staying dirty speeds this up.",
+        "steps": [
+          {
+            "id": "infect",
+            "text": "Leave a wound unbandaged until it becomes infected."
+          },
+          {
+            "id": "maggots",
+            "text": "Drag @item{maggots} from a rotting carcass or rotting meat onto the infected wound."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HOME",
+      "displayName": "Home Sweet Home",
+      "description": "Build your first shelter",
+      "hidden": false,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build a first shelter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "build",
+            "text": "Build any shelter; a modular frame needs a @item{palm roof} or @item{banana roof} before it counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CURE",
+      "displayName": "I have it!",
+      "description": "Find the cure.",
+      "hidden": true,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft the cure at the research lab.",
+      "guide": {
+        "kind": "standard",
+        "context": "Picking up the poison dart frog applies heavy poison and a fever; bring dressings and use the camp tents to sleep it off.",
+        "steps": [
+          {
+            "id": "sample",
+            "text": "At the @loc{research lab} (reported near 25W 33S), take the @item{infected blood sample} from the refrigerator."
+          },
+          {
+            "id": "load",
+            "text": "Put the blood sample into the machine."
+          },
+          {
+            "id": "frog",
+            "text": "Catch a @item{poison dart frog} and add it to the machine."
+          },
+          {
+            "id": "collect",
+            "text": "Collect the finished @item{cure}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SAFE_WATER",
+      "displayName": "Fresh Water",
+      "description": "Drink safe water",
+      "hidden": false,
+      "globalPercent": 68.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Drink water that has been made safe.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "drink",
+            "text": "Fill a @item{coconut shell}, @item{turtle shell} or @item{metal pot} with rainwater, or boil water in it over a fire, then drink."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_INSOMIA",
+      "displayName": "I don't need to sleep",
+      "description": "Get 5 stacks of insomnia",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Reach 5 stacks of insomnia.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sleeping, or passing out from exhaustion, clears the stacks.",
+        "steps": [
+          {
+            "id": "stay-awake",
+            "text": "Do not sleep, and keep energy high enough that Jake does not pass out."
+          },
+          {
+            "id": "energy",
+            "text": "Eat high-energy food while waiting: @item{coffee} gives 15, while @item{blue mushroom} and @item{Monstera Deliciosa fruit} give 10 each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIREPLACE_GOING",
+      "displayName": "Keeper of the flame",
+      "description": "Keep a single fire burning for over 5 days on Welcome to the jungle difficulty or higher",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5 in-game days",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Keep one fire burning for more than 5 in-game days at @mechanic{Welcome to the Jungle} difficulty or above.",
+      "guide": {
+        "kind": "standard",
+        "context": "A campfire burns about 20 in-game hours per fill; a small fire burns about 12, or about 15 with a stone ring. Only the one fire has to stay lit.",
+        "steps": [
+          {
+            "id": "build",
+            "text": "Build a @item{campfire} or @item{small fire} under a roof or inside a cave so rain cannot put it out."
+          },
+          {
+            "id": "feed",
+            "text": "Refuel it with @item{sticks}, @item{planks}, @item{dry leaves} and similar burnables until it has burned for more than 5 in-game days."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TURTLE",
+      "displayName": "Going back home",
+      "description": "Make tortoise soup in it's shell",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Cook tortoise soup inside its shell.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tortoise",
+            "text": "Find a @enemy{red-footed tortoise} in a riverbed and harvest it with a blade for the @item{turtle shell} and @item{turtle meat}."
+          },
+          {
+            "id": "cook",
+            "text": "Put the shell on a fire, fill it with safe water using a @item{bidon}, then add the turtle meat once the water is warm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FISHING",
+      "displayName": "Gotcha!",
+      "description": "Catch 9 aquatic animals",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Catch 9 different aquatic animals.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Bait, traps and spears are interchangeable; the nine listed creatures are a complete set.",
+        "collectibles": [
+          {
+            "id": "angelfish",
+            "index": 1,
+            "name": "Angelfish",
+            "location": "Rivers and lakes",
+            "method": "Bait a fishing line with a maggot."
+          },
+          {
+            "id": "arowana",
+            "index": 2,
+            "name": "Arowana",
+            "location": "Rivers",
+            "method": "Kill it with a spear."
+          },
+          {
+            "id": "discus-fish",
+            "index": 3,
+            "name": "Discus fish",
+            "location": "Rivers and lakes",
+            "method": "Bait a fishing line with a Brazil nut."
+          },
+          {
+            "id": "peacock-bass",
+            "index": 4,
+            "name": "Peacock bass",
+            "location": "Rivers",
+            "method": "Bait a fishing line trap with a larva."
+          },
+          {
+            "id": "piranha",
+            "index": 5,
+            "name": "Red-bellied piranha",
+            "location": "Rivers",
+            "method": "Bait a fishing rod trap with a larva."
+          },
+          {
+            "id": "stingray",
+            "index": 6,
+            "name": "River stingray",
+            "location": "Rivers",
+            "method": "Kill it with a spear."
+          },
+          {
+            "id": "prawn",
+            "index": 7,
+            "name": "Prawn",
+            "location": "Anaconda Island trap",
+            "method": "Use a prawn trap."
+          },
+          {
+            "id": "red-crab",
+            "index": 8,
+            "name": "Red crab",
+            "location": "River edges",
+            "method": "Kill it with a spear."
+          },
+          {
+            "id": "mystery-snail",
+            "index": 9,
+            "name": "Mystery snail",
+            "location": "Large rocks near water",
+            "method": "Pick it up by hand."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KING_OF_THE_JUNGLE",
+      "displayName": "King of the jungle",
+      "description": "Hunt a Rattlesnake, Jaguar, Puma, Caiman and 3 types of arachnids",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Hunt a rattlesnake, jaguar, puma, black caiman and three kinds of arachnid.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Kill one of each listed creature; the three arachnids are the Brazilian wandering spider, the goliath birdeater and the scorpion.",
+        "collectibles": [
+          {
+            "id": "rattlesnake",
+            "index": 1,
+            "name": "South American rattlesnake",
+            "location": "Jungle ground",
+            "method": "Kill it with a spear or arrows."
+          },
+          {
+            "id": "jaguar",
+            "index": 2,
+            "name": "Jaguar",
+            "location": "Jungle",
+            "method": "Kill it with a bow or spear."
+          },
+          {
+            "id": "puma",
+            "index": 3,
+            "name": "Puma",
+            "location": "Jungle",
+            "method": "Kill it with a bow or spear."
+          },
+          {
+            "id": "caiman",
+            "index": 4,
+            "name": "Black caiman",
+            "location": "Rivers and swamps",
+            "method": "Kill it with a spear."
+          },
+          {
+            "id": "wandering-spider",
+            "index": 5,
+            "name": "Brazilian wandering spider",
+            "location": "Jungle ground and caves",
+            "method": "Kill it with any weapon."
+          },
+          {
+            "id": "goliath-birdeater",
+            "index": 6,
+            "name": "Goliath birdeater spider",
+            "location": "Rotten tree branches",
+            "method": "Kill it with any weapon."
+          },
+          {
+            "id": "scorpion",
+            "index": 7,
+            "name": "Scorpion",
+            "location": "Caves",
+            "method": "Kill it with any weapon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SNOWMAN",
+      "displayName": "Do you want to play with a snowman?",
+      "description": "Find a snowman package in 3 different locations",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect a snowman package at 3 separate locations.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Three fixed packages exist; each one is simply approached and picked up.",
+        "collectibles": [
+          {
+            "id": "snowman-drug-facility",
+            "index": 1,
+            "name": "Drug Facility package",
+            "location": "Drug Facility, reported near 50W 27S",
+            "method": "Climb the front planks, turn right past the microwave, and take the package from the table."
+          },
+          {
+            "id": "snowman-cave",
+            "index": 2,
+            "name": "Cave package",
+            "location": "Cave south-west of the Drug Facility, reported near 52W 29S",
+            "method": "Enter the cave, follow the path to the junction and take the left tunnel to the camp."
+          },
+          {
+            "id": "snowman-airport",
+            "index": 3,
+            "name": "Airport package",
+            "location": "Airport, reported near 29W 23S",
+            "method": "Check the small shed beside the main radio building."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_FIRE_TOOLS",
+      "displayName": "Pyromaniac",
+      "description": "Unlock 4 fire starting tools",
+      "hidden": false,
+      "globalPercent": 12.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock all 4 fire-starting tools.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tribal firestarter must be found in the world before it can be crafted.",
+        "steps": [
+          {
+            "id": "hand-drill",
+            "text": "Craft the @item{hand drill} from 1 stick and 1 small stick."
+          },
+          {
+            "id": "plank",
+            "text": "Craft the @item{hand drill plank} from 1 stick and 1 plank."
+          },
+          {
+            "id": "fire-bow",
+            "text": "Craft the @item{fire bow} from a bow, a stone, a small stick and a plank."
+          },
+          {
+            "id": "tribal",
+            "text": "Pick up a @item{tribal firestarter} at the western native village (reported near 47W 17S), then craft one from 2 sticks and 2 rope."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CATCH_AT_ONCE",
+      "displayName": "Mr... I don't feel so good",
+      "description": "At the same time get leeches, worm, rash, fever, poison, food poisoning, parasites, insomnia, dirt and any wound",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Have leeches, a worm, a rash, a fever, poison, food poisoning, insomnia, parasites, dirt and a wound all active at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only one ailment fits per limb, so each new condition needs a free body part; save-reload loops control which limb receives each one.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Prepare at an @loc{ant hill} with a shelter, medicine and manual saves between each step."
+          },
+          {
+            "id": "insomnia",
+            "text": "Skip sleep until insomnia stacks, eating energy food so Jake does not pass out."
+          },
+          {
+            "id": "leeches",
+            "text": "Wade through water or vegetation until a leech attaches."
+          },
+          {
+            "id": "worm",
+            "text": "Sleep briefly on the ground to pick up a worm on a free limb."
+          },
+          {
+            "id": "rash",
+            "text": "Touch the ant hill to take a rash on another limb."
+          },
+          {
+            "id": "dirt",
+            "text": "Get dirty by harvesting an animal or taking mud."
+          },
+          {
+            "id": "poison",
+            "text": "Take a snake bite for poison, which usually adds a fever as well."
+          },
+          {
+            "id": "food",
+            "text": "Eat raw or rotten meat to add food poisoning and parasites."
+          },
+          {
+            "id": "wound",
+            "text": "Take one more wound while all ten conditions are still active.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_SICKNESS",
+      "displayName": "Got to catch them all",
+      "description": "Experience 12 unique diseases and wounds",
+      "hidden": false,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Experience all 12 unique diseases and wounds.",
+      "guide": {
+        "kind": "standard",
+        "context": "The twelve are an infection, food poisoning, fever, worms, a venom wound, a laceration, a scratch or abrasion, a rash, parasites, leeches, insomnia and low sanity.",
+        "steps": [
+          {
+            "id": "collect",
+            "text": "Catch each of the twelve at least once; most arrive during normal survival, and low sanity counts as one of them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_CHALLENGES",
+      "displayName": "I'm not afraid of any work",
+      "description": "Complete 7 Challenges",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "8 hours",
+      "estMinutes": 480,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete all 7 challenge scenarios.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenges are short standalone scenarios started from the main menu, so supplies do not carry between attempts.",
+        "steps": [
+          {
+            "id": "campfire",
+            "text": "Finish the @mechanic{Campfire Challenge}, stocking many stone axes."
+          },
+          {
+            "id": "raft",
+            "text": "Finish the @mechanic{Raft Challenge} by building the raft and loading 24 coconuts."
+          },
+          {
+            "id": "mighty-camp",
+            "text": "Finish the @mechanic{Mighty Camp Challenge}; build two fires for charcoal and collect the bamboo logs from the crashed plane site near 40W 23S."
+          },
+          {
+            "id": "hunter",
+            "text": "Finish the @mechanic{Hunter Challenge} with a spear and bow, hunting the required animals wherever they spawn."
+          },
+          {
+            "id": "fisherman",
+            "text": "Finish the @mechanic{Fisherman Challenge} by catching the snail and stingray in the spawn river and the prawn and lake fish around Anaconda Island."
+          },
+          {
+            "id": "radio",
+            "text": "Finish the @mechanic{Radio Challenge}; craft bandages, weapons and armor before the fights."
+          },
+          {
+            "id": "blacksmith",
+            "text": "Finish the @mechanic{Blacksmith Challenge}; base near wood, build charcoal furnaces and smelters, and smelt iron from ore or cans."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FARMER",
+      "displayName": "Gardener",
+      "description": "Cultivate 12 different plants",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Cultivate 12 different plants.",
+      "guide": {
+        "kind": "standard",
+        "context": "About 15 plants can be cultivated, the same planter can be reused, and a crop only has to reach full growth.",
+        "steps": [
+          {
+            "id": "cultivate",
+            "text": "Plant 12 distinct cultivatable crops one after another and wait for each to stop growing; sleeping speeds growth."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FULL_MAP",
+      "displayName": "Cartographer",
+      "description": "Unlock 60 places on the map",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Unlock 60 places on the map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "explore",
+            "text": "Sweep the map edges and revisit every named hub until 60 map markers are discovered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_READABLE",
+      "displayName": "Librarian",
+      "description": "Read 50 collectibles",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Read 50 collectible documents.",
+      "guide": {
+        "kind": "standard",
+        "context": "Collectibles are the readable notes found around the map in Story mode.",
+        "steps": [
+          {
+            "id": "read",
+            "text": "Pick up and read notes in camps, labs and side shacks while working through the story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GAIN_REPUTATION_800_PLANTING",
+      "displayName": "Mu'agi Friend",
+      "description": "Gain 800 trust of the Mu'agi tribe",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "4 hours",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "DISCOVER_VILLAGE_MUAGI"
+      ],
+      "summary": "Gain 800 Mu'agi trust.",
+      "guide": {
+        "kind": "standard",
+        "context": "Trust comes from returning children and kidnapped women (30 each), healing injured hunters (30), burning corpses (20), destroying camps (5 small, 40 large) and finishing area legends (100 each).",
+        "steps": [
+          {
+            "id": "trust",
+            "text": "Work the Mu'agi area tasks around the village (reported near 41W 35S) until the tribe trust counter reaches 800."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GAIN_REPUTATION_800_HUNTING",
+      "displayName": "Un'garaca Friend",
+      "description": "Gain 800 trust of the Un'garaca tribe",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "4 hours",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "DISCOVER_VILLAGE_UNGARACA"
+      ],
+      "summary": "Gain 800 Un'garaca trust.",
+      "guide": {
+        "kind": "standard",
+        "context": "Trust comes from returning children and kidnapped women (30 each), healing injured hunters (30), destroying camps (5 small, 40 large), finishing area legends (100 each) and clearing polluted water sources (25).",
+        "steps": [
+          {
+            "id": "trust",
+            "text": "Work the Un'garaca area tasks around the village (reported near 46W 26S) until the tribe trust counter reaches 800."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GAIN_REPUTATION_800_FISHING",
+      "displayName": "Habbacu Friend",
+      "description": "Gain 800 trust of the Habbacu tribe",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "4 hours",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "DISCOVER_VILLAGE_HABBAKU"
+      ],
+      "summary": "Gain 800 Habbacu trust.",
+      "guide": {
+        "kind": "standard",
+        "context": "Trust comes from helping tribal fishermen (25), rebuilding totems (25), destroying camps (5 small, 40 large) and finishing area legends (100 each), plus the shared tribe tasks as they appear.",
+        "steps": [
+          {
+            "id": "trust",
+            "text": "Work the Habbacu area tasks around the village (reported near 25W 21S) until the tribe trust counter reaches 800."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BRING_9_KIDS_BACK",
+      "displayName": "Babysitter",
+      "description": "Return 9 kids to safety",
+      "hidden": false,
+      "globalPercent": 10.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Return 9 lost children to a tribal village.",
+      "guide": {
+        "kind": "standard",
+        "context": "Children flee when approached, so each one must be caught and carried back to a village.",
+        "steps": [
+          {
+            "id": "return",
+            "text": "Find the fleeing children across the SoA map and carry each one to a tribal village until 9 have been returned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HEAL_10_TRIBES",
+      "displayName": "Molineria-man",
+      "description": "Heal a Tribe Member",
+      "hidden": false,
+      "globalPercent": 15.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Heal an injured tribe member.",
+      "guide": {
+        "kind": "standard",
+        "context": "The item needed depends on the injury, and it is handed over by dragging it from the inventory onto the tribesman.",
+        "steps": [
+          {
+            "id": "heal",
+            "text": "Find an injured tribesman, read his injury, and apply the matching dressing, clean water or mushroom."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BURN_10_CORPSES",
+      "displayName": "Rest in peace",
+      "description": "Burn 10 Tribe Members' corpses",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Burn 10 tribal corpses.",
+      "guide": {
+        "kind": "standard",
+        "context": "Corpses hang from trees in the first SoA area and must be cut down before they can be burned.",
+        "steps": [
+          {
+            "id": "burn",
+            "text": "Cut a hanging body down with a blade, gather the materials the game asks for, prepare it and burn it; repeat 10 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BURN_10_TRASHES",
+      "displayName": "Cleaning volunteer",
+      "description": "Burn 10 Toxic Waste Piles",
+      "hidden": false,
+      "globalPercent": 11.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Burn 10 toxic waste piles.",
+      "guide": {
+        "kind": "standard",
+        "context": "The poisoned water in the second SoA area is bright green, and the bottles are taken from the water itself.",
+        "steps": [
+          {
+            "id": "burn",
+            "text": "Collect the toxin bottles from the green water, build a fire and burn them; repeat 10 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HELP_5_FISHERMEN",
+      "displayName": "Fishing in troubled waters",
+      "description": "Help 5 Tribe Fishermen",
+      "hidden": false,
+      "globalPercent": 10.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Help 5 tribal fishermen.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each fisherman asks by dialogue for one specific item.",
+        "steps": [
+          {
+            "id": "help",
+            "text": "Bring fishermen the requested items, such as a bamboo bow, arrows, a four-pronged spear, larva or clean water, until 5 have been helped."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_REBUILD_10_TOTEMS",
+      "displayName": "Handyman",
+      "description": "Rebuild 10 Tribe Totems",
+      "hidden": false,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Rebuild 10 tribal totems.",
+      "guide": {
+        "kind": "standard",
+        "context": "A totem needs bones, rope, small sticks, long sticks, feathers and a tapir skull.",
+        "steps": [
+          {
+            "id": "rebuild",
+            "text": "Find broken totems in the third SoA area, supply the materials and rebuild each one until 10 are done."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FREE_9_WOMEN",
+      "displayName": "Cage opener",
+      "description": "Free 9 Tribe Women",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Free 9 kidnapped tribal women.",
+      "guide": {
+        "kind": "standard",
+        "context": "Caged women are held at enemy camps, and the guards have to be cleared before the cage can be opened.",
+        "steps": [
+          {
+            "id": "free",
+            "text": "Clear an enemy camp, open the cage door, and repeat until 9 women are released."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIND_5_MAPS",
+      "displayName": "Map Collector",
+      "description": "Find 5 maps",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Find 5 maps.",
+      "guide": {
+        "kind": "collectible",
+        "context": "",
+        "collectibles": [
+          {
+            "id": "map-steamboat",
+            "index": 1,
+            "name": "Map 1",
+            "location": "Steamboat, reported near 36W 42S",
+            "method": "Search the boat's interior and take the map."
+          },
+          {
+            "id": "map-drug-facility",
+            "index": 2,
+            "name": "Map 2",
+            "location": "Drug Facility, reported near 51W 27S",
+            "method": "Search the facility buildings for the map."
+          },
+          {
+            "id": "map-airport-upper",
+            "index": 3,
+            "name": "Map 3",
+            "location": "Airport, reported near 29W 22S",
+            "method": "Take the map from the basket or box in the airport."
+          },
+          {
+            "id": "map-airport-lower",
+            "index": 4,
+            "name": "Map 4",
+            "location": "Airport, reported near 29W 22S",
+            "method": "Search the lower part of the airport for the second map."
+          },
+          {
+            "id": "map-jakes-tent",
+            "index": 5,
+            "name": "Map 5",
+            "location": "Jake's tent, reported near 28W 34S",
+            "method": "Search the tent for the map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMPLETE_SOA3_STORY",
+      "displayName": "This is how it began",
+      "description": "Complete the Spirits of Amazonia story",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10 hours",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "COMPLETE_MUAGI_TRIAL",
+        "COMPLETE_HABBAKU_TRIAL",
+        "COMPLETE_UNGARACA_TRIAL",
+        "REACH_YABAHUACA_VILLAGE",
+        "PASS_YABAHUACA_TRIAL"
+      ],
+      "summary": "Complete the Spirits of Amazonia story.",
+      "guide": {
+        "kind": "standard",
+        "context": "The campaign spans the three tribe areas and the fifth-map Yabahuaca sequence before returning to the boat.",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Play the Spirits of Amazonia campaign to its ending and return to the boat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RAPORT_BACK_TO_THE_BASE",
+      "displayName": "This is Jake Higgins...",
+      "description": "Report back to base",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Report back to base from the boat radio.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "burn",
+            "text": "At the boat (reported near 40W 40S) on the first SoA map, burn the dead captain's body."
+          },
+          {
+            "id": "antenna",
+            "text": "Take the @item{antenna} from the back of the jeep at the drug facility (reported near 51W 27S)."
+          },
+          {
+            "id": "install",
+            "text": "Fit the antenna to the boat radio and make the report."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_MUAGI_TRIAL",
+      "displayName": "The Ritual of Mu'agi",
+      "description": "Complete the Mu'agi Trial",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_GAIN_REPUTATION_800_PLANTING"
+      ],
+      "summary": "Complete the Mu'agi trial.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reach 800 Mu'agi trust, take the ritual herbs from the elder, and start the ritual at the village bowl with a fire beneath it.",
+        "steps": [
+          {
+            "id": "trial",
+            "text": "Protect the injured hunters from predators while growing the correct curing plant and depositing the giant water droplets."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_HABBAKU_TRIAL",
+      "displayName": "The Ritual of Habbacu",
+      "description": "Complete the Habbacu Trial",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_GAIN_REPUTATION_800_FISHING"
+      ],
+      "summary": "Complete the Habbacu trial.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reach 800 Habbacu trust, take the ritual herbs from the elder, and start the ritual at the village bowl with a fire beneath it.",
+        "steps": [
+          {
+            "id": "trial",
+            "text": "Collect the green, blue and yellow mystical fish from inside the red piranha swarms without being caught, using air bubbles to avoid drowning."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_UNGARACA_TRIAL",
+      "displayName": "The Ritual of Un'garaca",
+      "description": "Complete the Un'garaca Trial",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_GAIN_REPUTATION_800_HUNTING"
+      ],
+      "summary": "Complete the Un'garaca trial.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reach 800 Un'garaca trust, take the ritual herbs from the elder, and start the ritual at the village bowl with a fire beneath it.",
+        "steps": [
+          {
+            "id": "trial",
+            "text": "Hunt the animals shown on the trial rock using the weapon type given for each one."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "REACH_YABAHUACA_VILLAGE",
+      "displayName": "Are we there yet?",
+      "description": "Reach the Yabahuaca village",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Reach the Yabahuaca village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach",
+            "text": "Reach the Yabahuaca village on the fifth SoA map (reported near 31W 36S)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PASS_YABAHUACA_TRIAL",
+      "displayName": "Work hard, play hard",
+      "description": "Complete the Yabahuaca Trial",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "REACH_YABAHUACA_VILLAGE",
+        "COMPLETE_MUAGI_TRIAL",
+        "COMPLETE_HABBAKU_TRIAL",
+        "COMPLETE_UNGARACA_TRIAL"
+      ],
+      "summary": "Complete the Yabahuaca trial.",
+      "guide": {
+        "kind": "standard",
+        "context": "The route opens after the three tribe ritual tokens have been earned.",
+        "steps": [
+          {
+            "id": "tokens",
+            "text": "Build the improved trust tokens in the three @loc{Moon Cave} furnaces, lighting a small fire under each furnace."
+          },
+          {
+            "id": "boat",
+            "text": "Repair the boat with @item{tree resin} and return to the warrior."
+          },
+          {
+            "id": "totem",
+            "text": "Place the finished tokens in the totem to start the final ritual."
+          },
+          {
+            "id": "survive",
+            "text": "Survive the ritual enemies as the fog closes in and reach the passage.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISCOVER_VILLAGE_MUAGI",
+      "displayName": "Oyohua Mu'agi",
+      "description": "Discover the Mu'agi Village",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Discover the Mu'agi village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach",
+            "text": "Reach the Mu'agi village in the first SoA area (reported near 41W 35S)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISCOVER_VILLAGE_HABBAKU",
+      "displayName": "Oyohua Habbacu",
+      "description": "Discover the Habbacu Village",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Discover the Habbacu village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach",
+            "text": "Reach the Habbacu village in the third SoA area (reported near 25W 21S)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISCOVER_VILLAGE_UNGARACA",
+      "displayName": "Oyohua Un'garaca",
+      "description": "Discover the Un'garaca Village",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Discover the Un'garaca village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach",
+            "text": "Reach the Un'garaca village in the second SoA area (reported near 46W 26S)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_ALL_MUAGI_LEGENDS",
+      "displayName": "The Legends of Mu'agi",
+      "description": "Complete all Mu'agi Legends",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all four Mu'agi legends.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every legend needs all of its inscribed stones read before its objective can be solved, and each finished legend grants 100 trust.",
+        "steps": [
+          {
+            "id": "legends",
+            "text": "Finish the Cursed Water, Howling Spirit, White Demon and Craftsman legends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_ALL_UNGARACA_LEGENDS",
+      "displayName": "The Legends of Un'garaca",
+      "description": "Complete all Un'garaca Legends",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all three Un'garaca legends.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Dance of Death ends in a cave fight after turtle meat is offered on the altar across three days.",
+        "steps": [
+          {
+            "id": "legends",
+            "text": "Finish the Blood Tears, Gifts of the Jungle and Dance of Death legends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_ALL_HABBAKU_LEGENDS",
+      "displayName": "The Legends of Habbacu",
+      "description": "Complete all Habbacu Legends",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all four Habbacu legends.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Guardians ends with three clay monkey figurines placed at their marked spots, and the Fish of Fortune ends by baiting a marked trap.",
+        "steps": [
+          {
+            "id": "legends",
+            "text": "Finish the Fish of Fortune, Guardians, Death Bringer and Spirit Eater legends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_ALL_SOA_ACHIEVEMENTS",
+      "displayName": "Thats the spirit!",
+      "description": "Complete all Spirits of Amazonia achievements",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "across SoA",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "DISCOVER_VILLAGE_MUAGI",
+        "DISCOVER_VILLAGE_UNGARACA",
+        "DISCOVER_VILLAGE_HABBAKU",
+        "ACH_GAIN_REPUTATION_800_PLANTING",
+        "ACH_GAIN_REPUTATION_800_HUNTING",
+        "ACH_GAIN_REPUTATION_800_FISHING",
+        "ACH_BRING_9_KIDS_BACK",
+        "ACH_HEAL_10_TRIBES",
+        "ACH_BURN_10_CORPSES",
+        "ACH_BURN_10_TRASHES",
+        "ACH_HELP_5_FISHERMEN",
+        "ACH_REBUILD_10_TOTEMS",
+        "ACH_FREE_9_WOMEN",
+        "ACH_FIND_5_MAPS",
+        "RAPORT_BACK_TO_THE_BASE",
+        "COMPLETE_MUAGI_TRIAL",
+        "COMPLETE_HABBAKU_TRIAL",
+        "COMPLETE_UNGARACA_TRIAL",
+        "REACH_YABAHUACA_VILLAGE",
+        "PASS_YABAHUACA_TRIAL",
+        "COMPLETE_ALL_MUAGI_LEGENDS",
+        "COMPLETE_ALL_UNGARACA_LEGENDS",
+        "COMPLETE_ALL_HABBAKU_LEGENDS",
+        "ACH_COMPLETE_SOA3_STORY"
+      ],
+      "summary": "Earn every other Spirits of Amazonia achievement.",
+      "guide": {
+        "kind": "standard",
+        "context": "This meta entry needs all three tribes' trust, trials and legends plus every SoA side counter, so it always unlocks last.",
+        "steps": [
+          {
+            "id": "finish-soa",
+            "text": "Complete every remaining Spirits of Amazonia achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NEW_FRIEND",
+      "displayName": "A new friend",
+      "description": "Put an animal into Animal Pen",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Put a live animal into an Animal Pen.",
+      "guide": {
+        "kind": "standard",
+        "context": "The pen blueprint unlocks by crafting a bamboo blowpipe or catching a small animal in a snare trap.",
+        "steps": [
+          {
+            "id": "pen",
+            "text": "Build an @item{Animal Pen} and add a feeding trough and a water trough."
+          },
+          {
+            "id": "capture",
+            "text": "Craft a @item{blowpipe} from 1 long bamboo stick and 2 rope, poison darts with a @item{poison dart frog}, and knock out a @enemy{capybara}, @enemy{peccary} or @enemy{tapir}."
+          },
+          {
+            "id": "place",
+            "text": "Tie the sleeping animal with @item{rope}, carry it inside the pen, drop it and untie it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EMOTIONAL_SUPPORT",
+      "displayName": "Emotional support",
+      "description": "Pet an animal",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Pet a tamed animal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Petting raises the animal's trust and gives a +10 sanity boost.",
+        "steps": [
+          {
+            "id": "pet",
+            "text": "Feed and water a penned animal until the pet option appears, then look at the animal head-on and press E."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CIRCLE_OF_LIFE",
+      "displayName": "Circle of Life",
+      "description": "Breed an animal",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "few in-game days",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Breed an animal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Breeding needs a male and a female of the same species kept together with high trust.",
+        "steps": [
+          {
+            "id": "pair",
+            "text": "Keep one male and one female of the same species in a clean, fed and watered pen."
+          },
+          {
+            "id": "trust",
+            "text": "Raise their trust to breeding level and wait several in-game days for the offspring."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_1ST_TOOL",
+    "ACH_JUST_DIE",
+    "ACH_START_FIRE",
+    "ACH_SAFE_WATER",
+    "ACH_WELCOME",
+    "ACH_SAVEGAME",
+    "ACH_TUTORIAL",
+    "ACH_HOME",
+    "ACH_AYAHUASKA",
+    "ACH_CANIBAL",
+    "ACH_WILLSON",
+    "ACH_KILL_TRIBE",
+    "ACH_ALL_FIRE_TOOLS",
+    "ACH_CURE",
+    "ACH_TURTLE",
+    "ACH_GREEDY",
+    "ACH_FIND_STORYCAVE",
+    "ACH_SNOWMAN",
+    "ACH_BAD_ENDING",
+    "ACH_GOOD_ENDING",
+    "ACH_SANITY_TRIBE",
+    "ACH_MAGGOT_WOUND",
+    "ACH_FISHING",
+    "ACH_LEECHES",
+    "ACH_ALL_SICKNESS",
+    "ACH_INSOMIA",
+    "ACH_KING_OF_THE_JUNGLE",
+    "ACH_IRONMAN",
+    "ACH_TRAVEL",
+    "ACH_CATCH_AT_ONCE",
+    "ACH_FARMER",
+    "ACH_ALL_READABLE",
+    "ACH_FULL_MAP",
+    "ACH_MAX_SKILL",
+    "ACH_ALL_CHALLENGES",
+    "ACH_FIREPLACE_GOING",
+    "ACH_SURVIVE_10",
+    "ACH_PACIFIST",
+    "ACH_VEGAN",
+    "ACH_ENDING_GREENHELL",
+    "ACH_NEW_FRIEND",
+    "ACH_EMOTIONAL_SUPPORT",
+    "ACH_CIRCLE_OF_LIFE",
+    "DISCOVER_VILLAGE_MUAGI",
+    "DISCOVER_VILLAGE_UNGARACA",
+    "DISCOVER_VILLAGE_HABBAKU",
+    "REACH_YABAHUACA_VILLAGE",
+    "ACH_HEAL_10_TRIBES",
+    "RAPORT_BACK_TO_THE_BASE",
+    "ACH_FIND_5_MAPS",
+    "ACH_BURN_10_TRASHES",
+    "ACH_BURN_10_CORPSES",
+    "ACH_HELP_5_FISHERMEN",
+    "ACH_FREE_9_WOMEN",
+    "ACH_BRING_9_KIDS_BACK",
+    "ACH_REBUILD_10_TOTEMS",
+    "COMPLETE_ALL_MUAGI_LEGENDS",
+    "COMPLETE_ALL_UNGARACA_LEGENDS",
+    "COMPLETE_ALL_HABBAKU_LEGENDS",
+    "ACH_GAIN_REPUTATION_800_PLANTING",
+    "COMPLETE_MUAGI_TRIAL",
+    "ACH_GAIN_REPUTATION_800_HUNTING",
+    "COMPLETE_UNGARACA_TRIAL",
+    "ACH_GAIN_REPUTATION_800_FISHING",
+    "COMPLETE_HABBAKU_TRIAL",
+    "PASS_YABAHUACA_TRIAL",
+    "ACH_COMPLETE_SOA3_STORY",
+    "COMPLETE_ALL_SOA_ACHIEVEMENTS"
+  ]
+}

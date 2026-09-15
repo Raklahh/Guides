@@ -1,0 +1,1811 @@
+{
+  "game": {
+    "appid": 242760,
+    "slug": "the-forest",
+    "title": "The Forest",
+    "version": "1.0",
+    "lastPatchChecked": "2025-10-03",
+    "estTotalHours": 40,
+    "difficultyRating": 4,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-09-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Survive the first nights and build a homestead",
+      "description": "Spend the opening days on the peninsula: survive nights, recover the map and compass from Cave 2, and unlock the simple crafting and building achievements around a starter camp.",
+      "achievementRefs": [
+        "ACH_DAYS_SURVIVED_1",
+        "ACH_DAYS_SURVIVED_5",
+        "ACH_BOY_SCOOT",
+        "ACH_REPAIR_SHELTER",
+        "ACH_LONG_WALL",
+        "ACH_KILL_BUNNY",
+        "ACH_STEALTH_ARMOR",
+        "ACH_SHOOT_BIRDS",
+        "ACH_CHOP_TREES_100",
+        "ACH_NATUROPATH",
+        "ACH_BUILD_GAZEBO"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Hunt, craft, and fight across the peninsula",
+      "description": "Work through the combat and crafting checklist: cook cannibal limbs, chop bodies, blow up trees and bombs, hunt every animal trophy, eat every mushroom, and craft every counted recipe.",
+      "achievementRefs": [
+        "ACH_MINOR_CANNIBALISM",
+        "ACH_KILL_DOWNED_ENEMY",
+        "ACH_TREES_DYNAMITED",
+        "ACH_KILL_SHARK",
+        "ACH_FISH_DYNAMITED",
+        "ACH_TRAP_FISH",
+        "ACH_USED_BOMBS",
+        "ACH_CHOP_BODIES",
+        "ACH_MAJOR_CANNIBALISM",
+        "ACH_MARATHON_STEPS",
+        "ACH_GARDENER",
+        "ACH_EAT_ALL_MUSHROOMS",
+        "ACH_KILL_CANNIBALS",
+        "ACH_CRAFTY",
+        "ACH_TROPHY_HUNTER"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Explore every cave and collect the story items",
+      "description": "Clear all ten caves in one world for Spelunker while picking up the five cassette tapes, the six toy robot parts, and the 43 missing passengers; visit the yacht for the 5 Star Hotel sleep.",
+      "achievementRefs": [
+        "ACH_5_STAR_HOTEL",
+        "ACH_COLLECT_CASSETTES",
+        "ACH_COLLECT_ROBOT",
+        "ACH_SPELUNKER",
+        "ACH_FIND_PASSENGERS"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Complete the long survival goals before the finale",
+      "description": "Before you find Timmy and finish the story, bank the long counters: more than 10 days with no cannibal kills for Pacifist, and 100 in-game days without reaching the ending for Bad father.",
+      "achievementRefs": [
+        "ACH_BAD_FATHER",
+        "ACH_DAYS_WITHOUT_KILLS"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Finish the Sahara Laboratory and the story",
+      "description": "Ride the facility to the end: use the vending machine and coffee machine in the cafe, drink from the head cooler, set off the sprinklers, then complete the game by saving Timmy.",
+      "achievementRefs": [
+        "ACH_DRINK_COFFEE",
+        "ACH_VENDING_MACHINES",
+        "ACH_GROSS_DRINK",
+        "ACH_SPRINKLERS",
+        "ACH_SURVIVE_THE_FOREST"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Multiplayer and second-playthrough cleanup",
+      "description": "With the story done, finish the co-op sharing and revive achievements in a multiplayer world, grind the 1000-tree counter, and run a Creative-mode playthrough that saves Timmy without harming any animal for Vegan.",
+      "achievementRefs": [
+        "ACH_BE_NICE",
+        "ACH_BE_EXTREMELY_NICE",
+        "ACH_GROUP_SLEEP",
+        "ACH_FIRST_RESPONDER",
+        "ACH_MEDIC",
+        "ACH_CHOP_TREES_1000",
+        "ACH_VEGAN"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_MINOR_CANNIBALISM",
+      "displayName": "Minor Cannibalism",
+      "description": "Eat an enemy",
+      "hidden": false,
+      "globalPercent": 39.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Eat a cooked cannibal limb.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dried limbs may not register for the cannibalism achievements; cooking arms and legs over a fire is the reliable method.",
+        "steps": [
+          {
+            "id": "minor-cannibalism-1",
+            "text": "Kill a cannibal and cut an arm or leg off the body with a sharp weapon."
+          },
+          {
+            "id": "minor-cannibalism-2",
+            "text": "Cook the limb on a fire, then eat it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MAJOR_CANNIBALISM",
+      "displayName": "Major Cannibalism",
+      "description": "Eat an entire family",
+      "hidden": false,
+      "globalPercent": 12.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Eat 12 cooked cannibal arms or legs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dried limbs may not register; cook each limb over a fire before eating it.",
+        "steps": [
+          {
+            "id": "major-cannibalism-1",
+            "text": "Kill cannibals and dismember the bodies until you have 12 arms or legs in total."
+          },
+          {
+            "id": "major-cannibalism-2",
+            "text": "Cook each limb on a fire and eat it until 12 are counted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BE_NICE",
+      "displayName": "Be Nice",
+      "description": "Share a food or drink item in MP",
+      "hidden": false,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 6,
+      "group": "co-op",
+      "confidence": "verified",
+      "summary": "Give another player a food or drink item in multiplayer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every player in a multiplayer world carries a Metal Tin Tray, which is the tool used to hand items over.",
+        "steps": [
+          {
+            "id": "be-nice-1",
+            "text": "Combine the @item{Metal Tin Tray} with a food or drink item in your inventory."
+          },
+          {
+            "id": "be-nice-2",
+            "text": "Hold the tin out toward another player so they can take the item from your hands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BE_EXTREMELY_NICE",
+      "displayName": "Be Extremely Nice",
+      "description": "Share a weapon in MP",
+      "hidden": false,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 6,
+      "group": "co-op",
+      "confidence": "verified",
+      "summary": "Give another player a weapon in multiplayer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the Metal Tin Tray each player receives in a multiplayer world; combine the tin with the weapon before offering it.",
+        "steps": [
+          {
+            "id": "be-extremely-nice-1",
+            "text": "Combine the @item{Metal Tin Tray} with a weapon in your inventory."
+          },
+          {
+            "id": "be-extremely-nice-2",
+            "text": "Hold the tin out toward another player so they can take the weapon from your hands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CRAFTY",
+      "displayName": "Crafty",
+      "description": "Craft all items",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Craft all 26 inventory recipes that count toward the achievement.",
+      "guide": {
+        "kind": "standard",
+        "context": "This tracks inventory recipes, not Survival Guide building blueprints. The list below is the full set known to count, so crafting every entry is enough even if a patch requires only part of it.",
+        "steps": [
+          {
+            "id": "crafty-weapons",
+            "text": "Craft the weapons and arrows: Crafted Axe (one Stick, one Rock, one Rope), Crafted Bow (one Stick, one Cloth, one Rope), Crafted Club (one Stick, one Skull), Upgraded Stick (one Stick, one Cloth), Upgraded Rock (one Rock, one Cloth), Weak Spear (two Sticks), Upgraded Spear (one Weak Spear, two Cloth, three Bone), Incendiary Spear (one Upgraded Spear, one Cloth, one Booze)."
+          },
+          {
+            "id": "crafty-arrows",
+            "text": "Craft the arrow types: Arrow (one Stick, five Feathers), Fire Arrows (five Arrows, one Cloth, one Booze), Poison Arrows (arrows plus Twin Berries, Snow Berries, Amanita Mushroom, or Jack Mushroom)."
+          },
+          {
+            "id": "crafty-explosives",
+            "text": "Craft the explosives: Bomb (Circuit Board, Wrist Watch, Electrical Tape, Coins, and Booze), Head Bomb (one Bomb, one Head), Sticky Bomb (one Bomb, one Sap), Molotov (one Cloth, one Booze)."
+          },
+          {
+            "id": "crafty-armour",
+            "text": "Craft the armour and clothing: Bone Armor (six Bone, three Cloth), Stealth Armor (one Lizard Skin, fifteen Leaves), Snowshoes (five Sticks, two Rope), Rabbit Fur Boots (three Rabbit Fur, two Rope)."
+          },
+          {
+            "id": "crafty-storage",
+            "text": "Craft the storage items: Pouch (two Rabbit Fur), Quiver (three Rabbit Fur, one Rope), Small Rock Bag (one Rabbit Fur, one Rope), Rock Bag (one Boar Skin, one Cloth, three Rope), Stick Bag (one Rabbit Fur, three Cloth, two Rope), Waterskin (two Deer Skin, one Rope), Spear Bag (two Boar Skin, two Deer Skin, two Cloth, three Rope)."
+          },
+          {
+            "id": "crafty-other",
+            "text": "Craft the remaining recipes: Rope (seven Cloth), Repair Tool (two Sticks, one Rock, two Cloth, ten Sap), Herbal Medicine (one Aloe, one Marigold), Herbal Medicine+ (one Aloe, one Marigold, one Coneflower), Energy Mix (one Chicory, one Coneflower), Energy Mix+ (one Chicory, one Coneflower, one Aloe)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BAD_FATHER",
+      "displayName": "Bad father",
+      "description": "Survive 100 days without finding your son.",
+      "hidden": true,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "100 in-game days",
+      "estMinutes": 600,
+      "stage": 4,
+      "lockoutStage": 4,
+      "confidence": "verified",
+      "summary": "Survive 100 in-game days without finding Timmy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching the story ending means you found Timmy, so bank the 100 days before the finale.",
+        "steps": [
+          {
+            "id": "bad-father-1",
+            "text": "Play 100 in-game days without finishing the story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TROPHY_HUNTER",
+      "displayName": "Trophy Hunter",
+      "description": "Kill all animal types and display heads",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Mount the heads of 11 animal types as trophies.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each head mounts on an animal head trophy crafted from the decoration page of the Survival Guide (one Stick each). Mount a freshly harvested head soon after taking it, because heads despawn quickly, and note that a live shark yields no head.",
+        "collectibles": [
+          {
+            "id": "trophy-deer",
+            "index": 1,
+            "name": "Deer Trophy",
+            "location": "Woodlands with dense trees; reliably around Goose Lake.",
+            "method": "Kill a deer, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-rabbit",
+            "index": 2,
+            "name": "Rabbit Trophy",
+            "location": "Woodlands; a rabbit trap also catches them.",
+            "method": "Slow-walk close and shoot a rabbit with a bow or slingshot, then harvest the head."
+          },
+          {
+            "id": "trophy-lizard",
+            "index": 3,
+            "name": "Lizard Trophy",
+            "location": "Shorelines and riverbanks.",
+            "method": "Kill a lizard, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-crocodile",
+            "index": 4,
+            "name": "Crocodile Trophy",
+            "location": "Rare, around lakes.",
+            "method": "Kill a crocodile, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-raccoon",
+            "index": 5,
+            "name": "Raccoon Trophy",
+            "location": "Uncommon in woodlands; its call is distinctive.",
+            "method": "Kill a raccoon, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-boar",
+            "index": 6,
+            "name": "Boar Trophy",
+            "location": "Northern snowy region only.",
+            "method": "Kill a boar, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-seagull",
+            "index": 7,
+            "name": "Seagull Trophy",
+            "location": "Beaches and shorelines.",
+            "method": "Kill a seagull, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-shark",
+            "index": 8,
+            "name": "Shark Trophy",
+            "location": "A dead shark carcass on the shoreline.",
+            "method": "Harvest the head from the carcass; a shark killed in the water cannot be looted."
+          },
+          {
+            "id": "trophy-tortoise",
+            "index": 9,
+            "name": "Tortoise Trophy",
+            "location": "Beaches; beach tortoises give the same head.",
+            "method": "Kill a tortoise or beach tortoise, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-squirrel",
+            "index": 10,
+            "name": "Squirrel Trophy",
+            "location": "Woodlands anywhere, including the snowy region.",
+            "method": "Kill a squirrel, harvest the head, and mount it on a trophy."
+          },
+          {
+            "id": "trophy-goose",
+            "index": 11,
+            "name": "Goose Trophy",
+            "location": "Goose Lake, floating on the water.",
+            "method": "Build foundations across the lake so the body is reachable, or spear a goose close to shore, then harvest the head."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GARDENER",
+      "displayName": "Green Thumb",
+      "description": "Grow all plant types",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Grow Aloe Vera, Coneflower, and Blueberry in a garden plot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Blueberry seeds need the Pouch (two Rabbit Fur) before they can be found and planted.",
+        "steps": [
+          {
+            "id": "gardener-1",
+            "text": "Build a garden plot from the Survival Guide."
+          },
+          {
+            "id": "gardener-2",
+            "text": "Plant Aloe Vera, Coneflower, and Blueberry seeds and let each plant reach maturity."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VEGAN",
+      "displayName": "Vegan",
+      "description": "Play through entire game without killing or eating animals. Alone in Single Player or together in Multiplayer.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "second playthrough, 30-90 min",
+      "estMinutes": 90,
+      "stage": 6,
+      "lockoutStage": 6,
+      "confidence": "verified",
+      "summary": "Complete the game without killing or eating any animal.",
+      "guide": {
+        "kind": "standard",
+        "context": "The ending that saves Timmy is required; the other ending does not grant this. Accidental deaths count as kills, including animals crushed by a falling tree, burned in a campfire, or caught in a fight.",
+        "steps": [
+          {
+            "id": "vegan-1",
+            "text": "After unlocking it, start a new game in @mechanic{Creative Mode} so you cannot die."
+          },
+          {
+            "id": "vegan-2",
+            "text": "Take the axe from the plane and collect the Keycard from Cave 6 (Lawyer's Cave)."
+          },
+          {
+            "id": "vegan-3",
+            "text": "Drop to the bottom of the Sinkhole and enter the cave in the small lake to reach the Sahara Laboratory."
+          },
+          {
+            "id": "vegan-4",
+            "text": "Beat the boss and finish the story by choosing to save Timmy.",
+            "note": "Eat only snacks, berries, mushrooms, and soda, and avoid felling trees so none falls on an animal.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NATUROPATH",
+      "displayName": "Naturopath",
+      "description": "Craft 10 medicine items",
+      "hidden": false,
+      "globalPercent": 9.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft 10 medicine items.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "naturopath-1",
+            "text": "Craft Herbal Medicine (one Aloe, one Marigold) ten times, or mix in Herbal Medicine+ (one Aloe, one Marigold, one Coneflower)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_5_STAR_HOTEL",
+      "displayName": "5 Star Hotel",
+      "description": "Sleep on yacht",
+      "hidden": false,
+      "globalPercent": 27.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Sleep in the bed on the yacht.",
+      "guide": {
+        "kind": "standard",
+        "context": "The yacht is moored in a bay on the south-western coast, and a shark patrols the surrounding water.",
+        "steps": [
+          {
+            "id": "5-star-hotel-1",
+            "text": "Swim or sail out to the yacht in the south-western bay."
+          },
+          {
+            "id": "5-star-hotel-2",
+            "text": "Use the bed on the yacht and sleep."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPELUNKER",
+      "displayName": "Spelunker",
+      "description": "Explore all caves",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-3 h",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Explore all 10 caves in one world.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress does not carry between saves, so every cave must be cleared in the same world. The Survival Guide to-do list tracks which caves are still outstanding.",
+        "steps": [
+          {
+            "id": "spelunker-1",
+            "text": "Explore every cave in one world: Dead Cave (1), Hanging Cave (2), Wet Cave (3), Baby Cave (4), Submerged Cave (5), Lawyer's Cave (6), Chasm Cave (7), Sinkhole Cave (8), Ledge Cave (9), and Waterfall Cave (10)."
+          },
+          {
+            "id": "spelunker-2",
+            "text": "Check the Survival Guide to-do list for any cave that is not crossed off, and finish exploring it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIRST_RESPONDER",
+      "displayName": "First Responder",
+      "description": "Revive one co-op player",
+      "hidden": false,
+      "globalPercent": 57.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 6,
+      "group": "co-op",
+      "confidence": "verified",
+      "summary": "Revive one downed player in multiplayer.",
+      "guide": {
+        "kind": "standard",
+        "context": "A skull icon appears next to a player's name when they are down but not dead.",
+        "steps": [
+          {
+            "id": "first-responder-1",
+            "text": "Stand next to the downed player and hold the revive control (E) until they get up."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MEDIC",
+      "displayName": "Medic",
+      "description": "Revive 10 co-op players",
+      "hidden": false,
+      "globalPercent": 20.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 6,
+      "group": "co-op",
+      "confidence": "verified",
+      "summary": "Revive 10 downed players in multiplayer.",
+      "guide": {
+        "kind": "standard",
+        "context": "A skull icon appears next to a player's name when they are down but not dead.",
+        "steps": [
+          {
+            "id": "medic-1",
+            "text": "Stand next to a downed player and hold the revive control (E) until they get up."
+          },
+          {
+            "id": "medic-2",
+            "text": "Repeat across co-op sessions until 10 revives are counted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BUILD_GAZEBO",
+      "displayName": "You should be looking for Timmy",
+      "description": "Build a gazebo.",
+      "hidden": true,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build the gazebo blueprint from the Survival Guide.",
+      "guide": {
+        "kind": "standard",
+        "context": "It needs about 60 Sticks and 30 Logs. In co-op the gazebo was reported to unlock only for the host, so build it in a single-player world if you can.",
+        "steps": [
+          {
+            "id": "build-gazebo-1",
+            "text": "Open the Survival Guide, go to the decorations tab, and place the gazebo blueprint."
+          },
+          {
+            "id": "build-gazebo-2",
+            "text": "Gather about 60 Sticks and 30 Logs and build the gazebo."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOY_SCOOT",
+      "displayName": "Boy Scout",
+      "description": "Use the compass",
+      "hidden": false,
+      "globalPercent": 33.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick up the compass in Cave 2 and equip it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cave 2 is the Hanging Cave, and its eastern entrance sits inside the large cannibal village. The same body also holds the Map.",
+        "steps": [
+          {
+            "id": "boy-scout-1",
+            "text": "Enter Cave 2 from the eastern entrance inside the cannibal village and climb down the rope.",
+            "note": "If you have not found the cave yet, dying once without drowning drops you into it.",
+            "kind": "tip"
+          },
+          {
+            "id": "boy-scout-2",
+            "text": "Take the left passage past coins near a wooden cage and follow the sound of running water to a body lying in a lit patch."
+          },
+          {
+            "id": "boy-scout-3",
+            "text": "Pick up the Compass beside the Map, then equip the Compass from your inventory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GROUP_SLEEP",
+      "displayName": "Camp Out",
+      "description": "Sleep with another player (group sleep)",
+      "hidden": false,
+      "globalPercent": 72.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 6,
+      "group": "co-op",
+      "confidence": "verified",
+      "summary": "Sleep at night with another player in a group sleep.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every player must vote to sleep, and group sleep is only available at night, so a fresh daytime world will not work.",
+        "steps": [
+          {
+            "id": "group-sleep-1",
+            "text": "Build shelters in a multiplayer world and wait until night."
+          },
+          {
+            "id": "group-sleep-2",
+            "text": "Have every player sleep at the same time and vote to sleep."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_DOWNED_ENEMY",
+      "displayName": "Splatter",
+      "description": "Killed downed enemy with rock",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish a downed cannibal with a plain rock.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the plain @item{Rock}, never the Upgraded Rock, and strike a cannibal that is on the ground and still alive. Cannibals fall faster on normal difficulty. The unlock is reported to fail in co-op for some players, so single player is safer.",
+        "steps": [
+          {
+            "id": "splatter-1",
+            "text": "Damage a cannibal until it collapses but is still alive."
+          },
+          {
+            "id": "splatter-2",
+            "text": "Equip a plain Rock and hit the downed cannibal with a downward strike."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LONG_WALL",
+      "displayName": "Longest Wall",
+      "description": "Build a super long wall",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Place a very long custom wall blueprint.",
+      "guide": {
+        "kind": "standard",
+        "context": "Defensive walls do not count, so use the Custom Wall in the building tab. The wall only needs to be placed, not built.",
+        "steps": [
+          {
+            "id": "long-wall-1",
+            "text": "Open the building tab, choose @mechanic{Custom Wall}, and place one section."
+          },
+          {
+            "id": "long-wall-2",
+            "text": "Drag the blueprint out as far as it will stretch before confirming placement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHOP_BODIES",
+      "displayName": "Choppy Chop",
+      "description": "Chop up 50 bodies",
+      "hidden": false,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Cut 50 body parts from cannibal corpses.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "chop-bodies-1",
+            "text": "Kill cannibals and use a sharp weapon to cut arms, legs, and heads off the bodies until 50 parts are counted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STEALTH_ARMOR",
+      "displayName": "Unseen",
+      "description": "Make and wear stealth armour",
+      "hidden": false,
+      "globalPercent": 36.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft Stealth Armor and equip it.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unseen-1",
+            "text": "Kill a large lizard and skin it for one Lizard Skin."
+          },
+          {
+            "id": "unseen-2",
+            "text": "Craft Stealth Armor from one Lizard Skin and fifteen Leaves in your inventory."
+          },
+          {
+            "id": "unseen-3",
+            "text": "Equip the Stealth Armor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FISH_DYNAMITED",
+      "displayName": "Commercial Fisherman",
+      "description": "Kill 6 or more fish with a stick of dynamite. Alone in Single Player or together in Multiplayer.",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill at least 6 fish with one stick of dynamite.",
+      "guide": {
+        "kind": "standard",
+        "context": "Goose Lake holds enough fish, and the blast must catch six or more at once.",
+        "steps": [
+          {
+            "id": "commercial-fisherman-1",
+            "text": "Craft a stick of dynamite and go to a lake with visible fish such as Goose Lake."
+          },
+          {
+            "id": "commercial-fisherman-2",
+            "text": "Throw the dynamite into the water where at least six fish are swimming."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVE_THE_FOREST",
+      "displayName": "Survive The Forest",
+      "description": "Finish Game",
+      "hidden": false,
+      "globalPercent": 17.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 5,
+      "lockoutStage": 5,
+      "confidence": "verified",
+      "summary": "Finish the game by choosing the ending that saves Timmy.",
+      "guide": {
+        "kind": "standard",
+        "context": "The alternative ending does not finish the story and does not grant this achievement.",
+        "steps": [
+          {
+            "id": "survive-the-forest-1",
+            "text": "Progress the story through the Sahara Laboratory and defeat the final boss."
+          },
+          {
+            "id": "survive-the-forest-2",
+            "text": "At the ending, choose to save Timmy to finish the game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DRINK_COFFEE",
+      "displayName": "Daily Grind",
+      "description": "Drink from a coffee machine in the endgame facility.",
+      "hidden": true,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Drink a cup of coffee from a machine in the Sahara Laboratory.",
+      "guide": {
+        "kind": "standard",
+        "context": "The coffee machines sit in the cafe room reached after the vent sequence in the endgame facility.",
+        "steps": [
+          {
+            "id": "daily-grind-1",
+            "text": "Reach the cafe room in the Sahara Laboratory and use a coffee machine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GROSS_DRINK",
+      "displayName": "Gross!",
+      "description": "Drink from the water cooler that holds the lawyer's head.",
+      "hidden": true,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Drink from the water cooler containing a human head in the facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "In the facility, pass the pile of bodies and look for a blue screen projection marked 'hdmi' in the corner; the cooler sits on its left.",
+        "steps": [
+          {
+            "id": "gross-1",
+            "text": "Go past the pile of bodies to the blue projection marked 'hdmi'."
+          },
+          {
+            "id": "gross-2",
+            "text": "Drink from the water cooler to the left of the projection."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_CANNIBALS",
+      "displayName": "Serial Killer",
+      "description": "In Single Player, kill 100 cannibals",
+      "hidden": false,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill 100 cannibals in a single-player world.",
+      "guide": {
+        "kind": "standard",
+        "context": "In multiplayer only the host's kills count. Caves hold the most cannibals, so clearing them is the fastest route.",
+        "steps": [
+          {
+            "id": "serial-killer-1",
+            "text": "Kill cannibals until 100 are counted; clearing caves speeds this up."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPRINKLERS",
+      "displayName": "Make It Rain",
+      "description": "Set off the sprinklers in the endgame facility.",
+      "hidden": true,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Set off the sprinklers in the Sahara Laboratory.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only a few facility rooms have sprinklers. The reliable spots are the corridor where the Armsy appears and the sliding-door offices with the first cannibals.",
+        "steps": [
+          {
+            "id": "make-it-rain-1",
+            "text": "In the Sahara Laboratory, set an enemy or a hallway on fire with a Fire Arrow, a Flare Gun flare, a Molotov, or a cloth-lit weapon."
+          },
+          {
+            "id": "make-it-rain-2",
+            "text": "Trigger the fire in the Armsy corridor or the sliding-door offices to switch on the ceiling sprinklers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIND_PASSENGERS",
+      "displayName": "Get Closure",
+      "description": "Find all missing passengers",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Find all 43 missing passengers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Seats 6A and 6B are you and Timmy and do not count. The passenger manifest at the starting plane crosses off each passenger you find.",
+        "steps": [
+          {
+            "id": "get-closure-1",
+            "text": "Take the passenger manifest from the starting plane and use it as your checklist."
+          },
+          {
+            "id": "get-closure-2",
+            "text": "Search the island, the caves, and the crash site for all 43 missing passengers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VENDING_MACHINES",
+      "displayName": "Big Spender",
+      "description": "Buy a soda and a candy bar from a vending machine.",
+      "hidden": true,
+      "globalPercent": 19.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Buy a soda and a candy bar from a vending machine in the facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cash is found across the island and the facility. The vending machines are in the cafe room reached after the vent.",
+        "steps": [
+          {
+            "id": "big-spender-1",
+            "text": "Collect cash from the island and the facility."
+          },
+          {
+            "id": "big-spender-2",
+            "text": "At the cafe-room vending machines in the Sahara Laboratory, buy one soda and one candy bar."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_SHARK",
+      "displayName": "Bite me!",
+      "description": "Kill shark. Alone in Single Player or together in Multiplayer.",
+      "hidden": false,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill a live shark.",
+      "guide": {
+        "kind": "standard",
+        "context": "A shark circles the yacht off the south-western coast; dynamite or a spear both work.",
+        "steps": [
+          {
+            "id": "bite-me-1",
+            "text": "Swim or sail to the yacht in the south-western bay and find the circling shark."
+          },
+          {
+            "id": "bite-me-2",
+            "text": "Kill the shark with dynamite or a spear."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_BUNNY",
+      "displayName": "Monster",
+      "description": "Kill a bunny. Alone in Single Player or together in Multiplayer.",
+      "hidden": false,
+      "globalPercent": 41.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill a rabbit.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rabbits are fast, so a rabbit trap or a close-range bow shot is easier than chasing one.",
+        "steps": [
+          {
+            "id": "monster-1",
+            "text": "Kill a rabbit with any weapon or a rabbit trap."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_CASSETTES",
+      "displayName": "Gabe Fan",
+      "description": "Collect all cassette tapes!",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect all 5 cassette tapes.",
+      "guide": {
+        "kind": "collectible",
+        "context": "In the inventory the tapes are labelled Cassette 1 to Cassette 5; the named camcorder tapes are separate collectibles.",
+        "collectibles": [
+          {
+            "id": "cassette-1",
+            "index": 1,
+            "name": "Cassette 1",
+            "location": "On the yacht, beside the cassette player.",
+            "method": "Pick up the cassette tape and keep it in your inventory."
+          },
+          {
+            "id": "cassette-2",
+            "index": 2,
+            "name": "Cassette 2",
+            "location": "At the end of Cave 4.",
+            "method": "Pick up the cassette tape and keep it in your inventory."
+          },
+          {
+            "id": "cassette-3",
+            "index": 3,
+            "name": "Cassette 3",
+            "location": "In Cave 10 (Waterfall Cave), near the cowman and a boat.",
+            "method": "Pick up the cassette tape and keep it in your inventory."
+          },
+          {
+            "id": "cassette-4",
+            "index": 4,
+            "name": "Cassette 4",
+            "location": "In Cave 2 (Hanging Cave), in a large open room beside skull lanterns near mining hats.",
+            "method": "Pick up the cassette tape and keep it in your inventory."
+          },
+          {
+            "id": "cassette-5",
+            "index": 5,
+            "name": "Cassette 5",
+            "location": "On the Beachside Grave; it also appears in Cave 1 (Dead Cave) inside a severed head near the Latin Paper.",
+            "method": "Pick up the cassette tape and keep it in your inventory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DAYS_SURVIVED_1",
+      "displayName": "First Night",
+      "description": "Survive 1 night",
+      "hidden": false,
+      "globalPercent": 83.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive your first night.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first-night-1",
+            "text": "Survive until morning without dying."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EAT_ALL_MUSHROOMS",
+      "displayName": "You are a fun guy",
+      "description": "Eat all mushroom types",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Eat one of each of the six mushroom types.",
+      "guide": {
+        "kind": "standard",
+        "context": "Four are edible (Puff, Chanterelle, Deer, Liberty Cap) and two are poisonous (Jack, Amanita). If progress does not track, gather all six and eat them in one sitting.",
+        "steps": [
+          {
+            "id": "fun-guy-1",
+            "text": "Find and eat each mushroom type: Puff, Chanterelle, Deer, Liberty Cap, Jack, and Amanita.",
+            "note": "Chanterelles have a dip on top of the cap while jack mushrooms are smooth on top, so check the cap before eating.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DAYS_SURVIVED_5",
+      "displayName": "Survivalist",
+      "description": "Survive 5 nights",
+      "hidden": false,
+      "globalPercent": 55.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Survive 5 nights.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survivalist-1",
+            "text": "Survive five nights without dying."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SHOOT_BIRDS",
+      "displayName": "Birdseye",
+      "description": "Kill bird with arrow",
+      "hidden": false,
+      "globalPercent": 37.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill a bird with an arrow.",
+      "guide": {
+        "kind": "standard",
+        "context": "Build a bird house so birds land predictably, or leave cannibal corpses out to draw them in.",
+        "steps": [
+          {
+            "id": "birdseye-1",
+            "text": "Craft a Bow (one Stick, one Cloth, one Rope) and Arrows (one Stick, five Feathers)."
+          },
+          {
+            "id": "birdseye-2",
+            "text": "Shoot a bird with an arrow."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MARATHON_STEPS",
+      "displayName": "Step Master",
+      "description": "Pass 50,000 steps",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Carry the pedometer and pass 50,000 steps.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Pedometer is found in Cave 7 and counts steps even when it is not held in your hand.",
+        "steps": [
+          {
+            "id": "step-master-1",
+            "text": "Pick up the Pedometer in Cave 7."
+          },
+          {
+            "id": "step-master-2",
+            "text": "Keep it in your inventory and walk until 50,000 steps are counted; building projects add steps quickly."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_USED_BOMBS",
+      "displayName": "Demolition Man ",
+      "description": "Set off 20 bombs",
+      "hidden": false,
+      "globalPercent": 21.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Set off 20 bombs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most Bomb ingredients are found in and around the crashed plane.",
+        "steps": [
+          {
+            "id": "demolition-man-1",
+            "text": "Craft Bombs from Booze, a Circuit Board, a Wrist Watch, Coins, and Electrical Tape (one of each per Bomb)."
+          },
+          {
+            "id": "demolition-man-2",
+            "text": "Set off 20 bombs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_REPAIR_SHELTER",
+      "displayName": "Handyman",
+      "description": "Repair a shelter",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Repair a shelter with the Repair Tool.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only Temporary and Hunting Shelters count, and building destruction must be enabled in the gameplay settings so the shelter can be damaged.",
+        "steps": [
+          {
+            "id": "handyman-1",
+            "text": "Craft the Repair Tool from two Sticks, one Rock, two Cloth, and ten Sap."
+          },
+          {
+            "id": "handyman-2",
+            "text": "Damage a Temporary Shelter or Hunting Shelter."
+          },
+          {
+            "id": "handyman-3",
+            "text": "Use the Repair Tool on the damaged shelter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_ROBOT",
+      "displayName": "Good Father",
+      "description": "Collect all robot pieces",
+      "hidden": false,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect and assemble all 6 pieces of Timmy's robot toy.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The six pieces are spread across the caves. Once you have them all, combine the pieces in your inventory to build the robot.",
+        "collectibles": [
+          {
+            "id": "robot-head",
+            "index": 1,
+            "name": "Toy Head",
+            "location": "Cave 2 (Hanging Cave), on the bloodstained table in the room with hanging bodies.",
+            "method": "Pick up the Toy Head."
+          },
+          {
+            "id": "robot-torso",
+            "index": 2,
+            "name": "Toy Torso",
+            "location": "Cave 1 (Dead Cave), near the drop-down entrance beside Timmy's drawings.",
+            "method": "Pick up the Toy Torso."
+          },
+          {
+            "id": "robot-left-arm",
+            "index": 3,
+            "name": "Toy Left Arm",
+            "location": "Cave 3 (Wet Cave), under two hanging passengers near the river entrance.",
+            "method": "Pick up the Toy Left Arm."
+          },
+          {
+            "id": "robot-right-arm",
+            "index": 4,
+            "name": "Toy Right Arm",
+            "location": "Cave 7 (Chasm Cave), on the lit top rock shelf past the wooden planks.",
+            "method": "Pick up the Toy Right Arm."
+          },
+          {
+            "id": "robot-left-leg",
+            "index": 5,
+            "name": "Toy Left Leg",
+            "location": "Cave 5 (Submerged Cave), near the entrances, guarded by two pale cannibals.",
+            "method": "Pick up the Toy Left Leg."
+          },
+          {
+            "id": "robot-right-leg",
+            "index": 6,
+            "name": "Toy Right Leg",
+            "location": "Cave 7 (Sinkhole Cave), on the rock bridge near the sinkhole exit.",
+            "method": "Pick up the Toy Right Leg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHOP_TREES_100",
+      "displayName": "Climate Change",
+      "description": "Cut down 100 trees",
+      "hidden": false,
+      "globalPercent": 43.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Cut down 100 trees.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress carries across saves, and the developer console command does not count.",
+        "steps": [
+          {
+            "id": "climate-change-1",
+            "text": "Fell trees with an axe until 100 are counted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHOP_TREES_1000",
+      "displayName": "Don't Save The Forest",
+      "description": "Cut down 1000 trees",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "4-6 h",
+      "estMinutes": 300,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Cut down 1000 trees.",
+      "guide": {
+        "kind": "standard",
+        "context": "Progress carries across saves. The fastest loop is dynamite on the dense cluster near the Sinkhole, then reloading without saving: the counted total is kept.",
+        "steps": [
+          {
+            "id": "dont-save-the-forest-1",
+            "text": "Stock dynamite and place a bed near the dense trees by the Sinkhole."
+          },
+          {
+            "id": "dont-save-the-forest-2",
+            "text": "Blow down the cluster, then reload without saving and repeat until 1000 trees are counted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DAYS_WITHOUT_KILLS",
+      "displayName": "Pacifist",
+      "description": "In Single Player, don't kill any cannibals for more than 10 days in a row",
+      "hidden": false,
+      "globalPercent": 21.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 in-game days",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "In single player, pass over 10 consecutive days without killing a cannibal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spending the window building at your base is the easiest way to wait it out. Co-op players also report unlocking it.",
+        "steps": [
+          {
+            "id": "pacifist-1",
+            "text": "Avoid killing any cannibal and pass more than 10 consecutive in-game days."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TREES_DYNAMITED",
+      "displayName": "Demolition Expert",
+      "description": "Knock down 6 or more trees with 1 explosive. Alone in Single Player or together in Multiplayer.",
+      "hidden": false,
+      "globalPercent": 14.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Fell at least 6 trees with a single explosive.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dense clusters near Goose Lake or the Sinkhole give the best chance with a stick of dynamite.",
+        "steps": [
+          {
+            "id": "demolition-expert-1",
+            "text": "Find tightly packed trees and throw a stick of dynamite to fell at least six at once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRAP_FISH",
+      "displayName": "Fisherman",
+      "description": "Catch fish with a trap. Alone in Single Player or together in Multiplayer.",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Catch a fish with a trap.",
+      "guide": {
+        "kind": "standard",
+        "context": "A rabbit trap placed in water becomes a fish trap; Goose Lake is a reliable spot.",
+        "steps": [
+          {
+            "id": "fisherman-1",
+            "text": "Build a rabbit trap and place it in a lake that holds fish."
+          },
+          {
+            "id": "fisherman-2",
+            "text": "Leave the trap in the water and return later to collect the catch.",
+            "note": "A reported shortcut: fill your inventory with three fish, then keep collecting a fourth fish and move it into the trap.",
+            "kind": "tip"
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_DAYS_SURVIVED_1",
+    "ACH_DAYS_SURVIVED_5",
+    "ACH_KILL_BUNNY",
+    "ACH_BOY_SCOOT",
+    "ACH_LONG_WALL",
+    "ACH_NATUROPATH",
+    "ACH_SHOOT_BIRDS",
+    "ACH_STEALTH_ARMOR",
+    "ACH_REPAIR_SHELTER",
+    "ACH_CHOP_TREES_100",
+    "ACH_BUILD_GAZEBO",
+    "ACH_MINOR_CANNIBALISM",
+    "ACH_FISH_DYNAMITED",
+    "ACH_TRAP_FISH",
+    "ACH_GARDENER",
+    "ACH_TREES_DYNAMITED",
+    "ACH_KILL_DOWNED_ENEMY",
+    "ACH_KILL_SHARK",
+    "ACH_EAT_ALL_MUSHROOMS",
+    "ACH_CHOP_BODIES",
+    "ACH_USED_BOMBS",
+    "ACH_MAJOR_CANNIBALISM",
+    "ACH_KILL_CANNIBALS",
+    "ACH_MARATHON_STEPS",
+    "ACH_CRAFTY",
+    "ACH_TROPHY_HUNTER",
+    "ACH_5_STAR_HOTEL",
+    "ACH_COLLECT_CASSETTES",
+    "ACH_COLLECT_ROBOT",
+    "ACH_FIND_PASSENGERS",
+    "ACH_SPELUNKER",
+    "ACH_BAD_FATHER",
+    "ACH_DAYS_WITHOUT_KILLS",
+    "ACH_DRINK_COFFEE",
+    "ACH_VENDING_MACHINES",
+    "ACH_GROSS_DRINK",
+    "ACH_SPRINKLERS",
+    "ACH_SURVIVE_THE_FOREST",
+    "ACH_VEGAN",
+    "ACH_CHOP_TREES_1000",
+    "ACH_GROUP_SLEEP",
+    "ACH_BE_NICE",
+    "ACH_BE_EXTREMELY_NICE",
+    "ACH_FIRST_RESPONDER",
+    "ACH_MEDIC"
+  ]
+}

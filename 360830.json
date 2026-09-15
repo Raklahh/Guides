@@ -1,0 +1,1314 @@
+{
+  "game": {
+    "appid": 360830,
+    "slug": "yooka-laylee",
+    "title": "Yooka-Laylee",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-22",
+    "estTotalHours": 20,
+    "difficultyRating": 5,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Opening and Hivory Towers",
+      "description": "Play the Shipwreck Creek opening, learn the basics in Hivory Towers, earn your first Pagie, buy a move from Trowzer, unlock a Tonic at Vendi, expand the first world, and break the Capital B statue.",
+      "achievementRefs": [
+        "COLLECT_FIRST_PAGIE",
+        "UNLOCK_FIRST_TOME",
+        "BUY_FIRST_MOVE",
+        "EQUIP_TONIC",
+        "BASH_STATUE",
+        "EXPAND_A_TOME"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Tribalstack Tropics",
+      "description": "Clear the first Grand Tome world: the minecart ride, Rextro's arcade, a Ghost Writer, a Pirate Treasure, your first transformation, and the world boss.",
+      "achievementRefs": [
+        "FIRST_TRANSFORM",
+        "COMPLETE_A_MINECART",
+        "COMPLETE_ARCADE_GAME",
+        "HIGHSCORE_ARCADE",
+        "FIRST_GHOSTWRITER",
+        "HIDDEN_TREASURE1",
+        "BOSS_WORLD1"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Glitterglaze Glacier",
+      "description": "Pass Dr. Quack's first quiz, keep collecting Quills and Pagies, and defeat the second world boss.",
+      "achievementRefs": [
+        "FINISH_A_QUIZ",
+        "COLLECT_200QUILLS",
+        "COLLECT_30PAGIES",
+        "BOSS_WORLD2"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Moodymaze Marsh",
+      "description": "Expand a third Grand Tome world and defeat the third world boss.",
+      "achievementRefs": [
+        "HIDDEN_TREASURE4",
+        "BOSS_WORLD3"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Capital Cashino",
+      "description": "Push your Quill and Pagie totals past 500 and 75, and defeat the fourth world boss.",
+      "achievementRefs": [
+        "COLLECT_500QUILLS",
+        "COLLECT_75PAGIES",
+        "BOSS_WORLD4"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Galleon Galaxy",
+      "description": "Unlock and expand all five Grand Tome worlds, buy every Trowzer move, and defeat the fifth world boss.",
+      "achievementRefs": [
+        "UNLOCK_ALL_TOMES",
+        "HIDDEN_TREASURE5",
+        "BUY_ALL_MOVES",
+        "BOSS_WORLD5"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Capital B",
+      "description": "Clear the final Quackfire Quiz and defeat Capital B to finish the story.",
+      "achievementRefs": [
+        "BEAT_CAPITAL_B"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "100% cleanup",
+      "description": "Revisit Hivory Towers and every world to finish the remaining Pagies, Quills, Ghost Writers, Tonics, extenders, and Pirate Treasures.",
+      "achievementRefs": [
+        "COLLECT_ALL_PAGIES",
+        "UNLOCK_15TONICS",
+        "ALL_GHOSTWRITERS",
+        "COLLECT_ALL_QUILLS",
+        "COLLECT_HEALTH_EXPANDERS",
+        "COLLECT_POWER_EXPANDERS",
+        "HIDDEN_TREASURE2",
+        "HIDDEN_TREASURE3"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "COLLECT_FIRST_PAGIE",
+      "displayName": "TURNING A PAGIE",
+      "description": "Collect your first Pagie",
+      "hidden": false,
+      "globalPercent": 71.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect your first @item{Pagie}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first-pagie",
+            "text": "Play the opening until the game awards you a @item{Pagie}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_30PAGIES",
+      "displayName": "PAGIE RAMPAGIE",
+      "description": "Collect 30 Pagies",
+      "hidden": false,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "several hours",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "COLLECT_FIRST_PAGIE"
+      ],
+      "summary": "Collect 30 Pagies.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pagies30",
+            "text": "Keep completing Pagie challenges in @loc{Tribalstack Tropics} and @loc{Glitterglaze Glacier} until your total reaches 30."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_75PAGIES",
+      "displayName": "THE AGIE OF PAGIE",
+      "description": "Collect 75 Pagies",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "several hours",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "COLLECT_30PAGIES"
+      ],
+      "summary": "Collect 75 Pagies.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pagies75",
+            "text": "Keep completing Pagie challenges and expanding worlds until your total reaches 75."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_ALL_PAGIES",
+      "displayName": "FROM SOMEONE ELSE'S BOOK",
+      "description": "Collect all 145 Pagies",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "10-15 hours",
+      "estMinutes": 600,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "COLLECT_75PAGIES"
+      ],
+      "summary": "Collect all 145 Pagies.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five Grand Tome worlds hold 25 Pagies each and Hivory Towers holds 20. A world cannot be completed on a first visit: expanding it and buying later Trowzer moves unlock the rest.",
+        "steps": [
+          {
+            "id": "pagies-all",
+            "text": "Finish every Pagie challenge in the five worlds and Hivory Towers, expanding each world and returning once you have the needed moves."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUY_FIRST_MOVE",
+      "displayName": "SSSSERPENT SSSSENPAI",
+      "description": "Purchase a move from Trowzer",
+      "hidden": false,
+      "globalPercent": 55.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Buy a move from Trowzer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Trowzer is the snake merchant, and his moves are paid for with @item{Quills}, the currency scattered across every area.",
+        "steps": [
+          {
+            "id": "buy-move",
+            "text": "Find @npc{Trowzer} and buy any move from him with collected @item{Quills}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUY_ALL_MOVES",
+      "displayName": "SSSMASHING",
+      "description": "Purchase all of Trowzer’s moves",
+      "hidden": false,
+      "globalPercent": 15.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "several hours",
+      "estMinutes": 0,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "BUY_FIRST_MOVE"
+      ],
+      "summary": "Buy every move Trowzer sells.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most of Trowzer's moves are needed for progress, and the final move costs 100 Quills. Some players report this achievement failing to unlock when the last move is bought while Steam is offline, so stay online for the final purchase.",
+        "steps": [
+          {
+            "id": "buy-all",
+            "text": "Buy each move from @npc{Trowzer} as you gather @item{Quills}, and purchase the last move in @loc{Galleon Galaxy} while online."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EQUIP_TONIC",
+      "displayName": "BOTTOM'S UP",
+      "description": "Unlock and equip a Tonic",
+      "hidden": false,
+      "globalPercent": 47.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock a Tonic at Vendi and equip it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Vendi is the vending machine in every world and in Hivory Towers, and only one Tonic can be active at a time.",
+        "steps": [
+          {
+            "id": "unlock-tonic",
+            "text": "Collect 5 @item{Pagies} to unlock the @item{Wellard} Tonic."
+          },
+          {
+            "id": "equip-tonic",
+            "text": "Talk to @npc{Vendi} and equip @item{Wellard} from her Tonic list."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNLOCK_15TONICS",
+      "displayName": "POTION COMMOTION",
+      "description": "Unlock 15 Tonics",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "several hours",
+      "estMinutes": 0,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "EQUIP_TONIC"
+      ],
+      "summary": "Unlock 15 of the 16 Tonics.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tonics are optional perks unlocked at Vendi, and only 15 of the 16 are needed.",
+        "steps": [
+          {
+            "id": "tonics-view",
+            "text": "Talk to @npc{Vendi} to see every @item{Tonic} and its unlock requirement."
+          },
+          {
+            "id": "tonics-unlock",
+            "text": "Unlock 15 by collecting @item{Pagies}, @item{Quills}, and @item{Ghost Writers}, beating Rextro high scores, defeating enemies, and finishing the story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_HEALTH_EXPANDERS",
+      "displayName": "RAISING THE BAR",
+      "description": "Collect all 6 health extender items",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Collect all six Health Extenders.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Health Extender is a floating metallic butterfly that permanently adds one butterfly of health.",
+        "steps": [
+          {
+            "id": "health-all",
+            "text": "Find the six metallic butterflies hidden one per area in Hivory Towers and each of the five Grand Tome worlds, then collect all six."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_POWER_EXPANDERS",
+      "displayName": "BAR STAR",
+      "description": "Collect all 6 power extender items",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 8,
+      "confidence": "verified",
+      "summary": "Collect all six Power Extenders.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Power Extender is a floating lightning bolt that permanently lengthens the power meter.",
+        "steps": [
+          {
+            "id": "power-all",
+            "text": "Find the six lightning bolts hidden one per area in Hivory Towers and each of the five Grand Tome worlds, collecting all six.",
+            "note": "The Hivory Towers extender sits inside the nose of the golden Capital B statue.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_TRANSFORM",
+      "displayName": "SQUID'S IN",
+      "description": "Get transformed by Dr. Puzz for the first time",
+      "hidden": false,
+      "globalPercent": 44.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Get your first transformation from Dr. Puzz.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each world hides one @item{Mollycool}, which @npc{Dr. Puzz} turns into that world's transformation.",
+        "steps": [
+          {
+            "id": "find-mollycool",
+            "text": "Find the @item{Mollycool} hidden in @loc{Tribalstack Tropics}."
+          },
+          {
+            "id": "use-ray",
+            "text": "Take the @item{Mollycool} to @npc{Dr. Puzz} and step into her ray to transform."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_A_MINECART",
+      "displayName": "KARTOS RETURNS",
+      "description": "Complete one of Kartos’s minecart challenges",
+      "hidden": false,
+      "globalPercent": 35.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete one of Kartos's minecart challenges.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kartos's minecart ride demands a set number of gems, and jumping, boosting, and shooting clear the track.",
+        "steps": [
+          {
+            "id": "ride",
+            "text": "Find @npc{Kartos} in @loc{Tribalstack Tropics}, start his minecart ride, and collect the gems he asks for."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETE_ARCADE_GAME",
+      "displayName": "WHEN I'M 64",
+      "description": "Successfully complete one of Rextro’s arcade games",
+      "hidden": false,
+      "globalPercent": 44.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete one of Rextro's arcade games.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each world hides an arcade token that unlocks Rextro's games for that world.",
+        "steps": [
+          {
+            "id": "find-token",
+            "text": "Find the arcade token hidden in @loc{Tribalstack Tropics} and give it to @npc{Rextro} at his arcade machine."
+          },
+          {
+            "id": "finish-game",
+            "text": "Play the arcade game he opens and reach the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIGHSCORE_ARCADE",
+      "displayName": "WHAT'S A LEADERBOARD?",
+      "description": "Get the high score in one of Rextro's Arcade Games",
+      "hidden": false,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "COMPLETE_ARCADE_GAME"
+      ],
+      "summary": "Beat the high score on one of Rextro's arcade games.",
+      "guide": {
+        "kind": "standard",
+        "context": "The recorded high score is low, so a second clear of the same game is normally enough.",
+        "steps": [
+          {
+            "id": "beat-score",
+            "text": "Replay the arcade game you finished and pass its high score."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_GHOSTWRITER",
+      "displayName": "BOOK SPOOK",
+      "description": "Collect your first Ghost Writer",
+      "hidden": false,
+      "globalPercent": 58.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect your first Ghost Writer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Grand Tome world hides five @item{Ghost Writers}, and each one is caught with a different ability or tactic.",
+        "steps": [
+          {
+            "id": "catch-ghost",
+            "text": "Catch any one of the @item{Ghost Writers} hidden in @loc{Tribalstack Tropics}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_GHOSTWRITERS",
+      "displayName": "GRABBED THE GHOULS",
+      "description": "Collect every Ghost Writer in the Grand Tome worlds",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2-3 hours",
+      "estMinutes": 150,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_GHOSTWRITER"
+      ],
+      "summary": "Collect all 25 Ghost Writers in the five Grand Tome worlds.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each world hides five @item{Ghost Writers}, and each one is caught with a different ability or tactic.",
+        "steps": [
+          {
+            "id": "ghosts-all",
+            "text": "Collect all five @item{Ghost Writers} in @loc{Tribalstack Tropics}, @loc{Glitterglaze Glacier}, @loc{Moodymaze Marsh}, @loc{Capital Cashino}, and @loc{Galleon Galaxy}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_200QUILLS",
+      "displayName": "LICENSE TO QUILL",
+      "description": "Collect your first 200 Quills",
+      "hidden": false,
+      "globalPercent": 31.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Collect 200 Quills.",
+      "guide": {
+        "kind": "standard",
+        "context": "Quills are the currency spent on Trowzer's moves, and certain moves are needed to finish the game.",
+        "steps": [
+          {
+            "id": "quills200",
+            "text": "Pick up @item{Quills} across the hub and worlds until your total reaches 200."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_500QUILLS",
+      "displayName": "FITS THE QUILL",
+      "description": "Collect 500 Quills",
+      "hidden": false,
+      "globalPercent": 18.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "COLLECT_200QUILLS"
+      ],
+      "summary": "Collect 500 Quills.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "quills500",
+            "text": "Keep collecting @item{Quills} across the worlds until your total reaches 500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLLECT_ALL_QUILLS",
+      "displayName": "HAD ONE'S QUILL",
+      "description": "Collect all 1,010 Quills",
+      "hidden": false,
+      "globalPercent": 6.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3-5 hours",
+      "estMinutes": 240,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "COLLECT_500QUILLS"
+      ],
+      "summary": "Collect all 1,010 Quills.",
+      "guide": {
+        "kind": "standard",
+        "context": "The five Grand Tome worlds hold 200 Quills each, and Hivory Towers holds 10 in Shipwreck Creek.",
+        "steps": [
+          {
+            "id": "quills-all",
+            "text": "Collect every @item{Quill} in the five worlds and the 10 in @loc{Shipwreck Creek}, using the @item{Hunter} Tonic to whistle for any you miss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNLOCK_FIRST_TOME",
+      "displayName": "THE ADVENTURE BEGINS",
+      "description": "Unlock the first Grand Tome world",
+      "hidden": false,
+      "globalPercent": 68.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock the first Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-first-book",
+            "text": "In the first room of Hivory Towers, roll up the ramp and open the @loc{Tribalstack Tropics} book."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNLOCK_ALL_TOMES",
+      "displayName": "OPEN BOOKS",
+      "description": "Unlock every Grand Tome world",
+      "hidden": false,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "UNLOCK_FIRST_TOME"
+      ],
+      "summary": "Unlock all five Grand Tome worlds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock-all",
+            "text": "Collect enough @item{Pagies} to open every Grand Tome book in Hivory Towers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXPAND_A_TOME",
+      "displayName": "SIZE MATTERS",
+      "description": "Expand a Grand Tome world",
+      "hidden": false,
+      "globalPercent": 43.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Expand a Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "Expanding a world costs Pagies and adds new areas, Pagie challenges, and Quills to it.",
+        "steps": [
+          {
+            "id": "expand-world",
+            "text": "Collect enough @item{Pagies}, then spend them to expand a Grand Tome world."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FINISH_A_QUIZ",
+      "displayName": "QUACKERS",
+      "description": "Complete one of Dr. Quack’s Quackfire Quizzes",
+      "hidden": false,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish one of Dr. Quack's Quackfire Quizzes.",
+      "guide": {
+        "kind": "standard",
+        "context": "@npc{Dr. Quack} runs three Quackfire Quizzes across the game; three wrong answers restart a quiz, and a quick correct answer advances two spaces.",
+        "steps": [
+          {
+            "id": "quiz",
+            "text": "Reach the first quiz on the route to @loc{Glitterglaze Glacier} and answer @npc{Dr. Quack}'s questions until the board is finished."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BEAT_CAPITAL_B",
+      "displayName": "OUT OF BUSINESS",
+      "description": "Defeat Capital B at the end of the game",
+      "hidden": false,
+      "globalPercent": 9.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "BOSS_WORLD5"
+      ],
+      "summary": "Defeat Capital B in the final boss fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final door needs 100 Pagies. The fight runs seven phases with no health butterflies, so collect the six Health and Power Extenders first.",
+        "steps": [
+          {
+            "id": "boss-final-1",
+            "text": "Open the final door with 100 @item{Pagies} and clear the last Quackfire Quiz."
+          },
+          {
+            "id": "boss-final-2",
+            "text": "Stun the bees with @mechanic{Super Echo}, spin @enemy{Capital B} to knock him down, then @mechanic{Buddy Slam} him."
+          },
+          {
+            "id": "boss-final-3",
+            "text": "Clear the enemy wave and hit @enemy{Capital B} with iceballs, then repeat the spin-and-slam pattern through the hive bomb phase."
+          },
+          {
+            "id": "boss-final-4",
+            "text": "In the last phase, fly high and bait his rockets back into him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BOSS_WORLD1",
+      "displayName": "SLIPPERY SLOPE",
+      "description": "Defeat the World 1 boss",
+      "hidden": false,
+      "globalPercent": 32.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "EXPAND_A_TOME"
+      ],
+      "summary": "Defeat the boss of Tribalstack Tropics, the first Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "The route to the boss, a slope above a temple left of the spawn point, only appears after you expand Tribalstack Tropics.",
+        "steps": [
+          {
+            "id": "boss1",
+            "text": "Expand the world, roll up the slope, and tail-whip the boss's teeth while dodging his fire."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BOSS_WORLD2",
+      "displayName": "KNOCKING DOWN WALLS",
+      "description": "Defeat the World 2 boss",
+      "hidden": false,
+      "globalPercent": 21.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat the boss of Glitterglaze Glacier, the second Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Icymetric Palace only opens after you expand Glitterglaze Glacier.",
+        "steps": [
+          {
+            "id": "boss2",
+            "text": "Go through the Icymetric Palace, light the torches behind the boss so the fire burns him, and dodge his snowballs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BOSS_WORLD3",
+      "displayName": "CREEP FROM THE DEEP",
+      "description": "Defeat the World 3 boss",
+      "hidden": false,
+      "globalPercent": 18.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Defeat the boss of Moodymaze Marsh, the third Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss3",
+            "text": "Dodge the boss's swinging tentacle until he is stunned, then spin each eye on his body three times; his large eye appears on the left or right of the arena."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BOSS_WORLD4",
+      "displayName": "OBSOLETE",
+      "description": "Defeat the World 4 boss",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defeat the boss of Capital Cashino, the fourth Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "This boss has three phases and no healing between them.",
+        "steps": [
+          {
+            "id": "boss4-phase1",
+            "text": "In phase one, dodge or shoot the objects and damage the boss while his face is red."
+          },
+          {
+            "id": "boss4-phase2",
+            "text": "In phase two, shoot the boss, then jump over him while boosting as he backs towards you; he also fakes out."
+          },
+          {
+            "id": "boss4-phase3",
+            "text": "In phase three, jump the rockets in front of you so they hit the boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BOSS_WORLD5",
+      "displayName": "PLANETARY ANNIHILATION",
+      "description": "Defeat the World 5 boss",
+      "hidden": false,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Defeat the boss of Galleon Galaxy, the fifth Grand Tome world.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use this world's transformation to damage the boss.",
+        "steps": [
+          {
+            "id": "boss5",
+            "text": "Transform into the pirate ship at @npc{Dr. Puzz}, then shoot the craters on the boss while dodging meteors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BASH_STATUE",
+      "displayName": "PETTY VANDALISM",
+      "description": "Disrespect the Idol",
+      "hidden": false,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Buddy-slam the nose of the golden Capital B statue in Hivory Towers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "slam-statue",
+            "text": "In the first Hivory Towers room, fly up to the nose of the giant golden @npc{Capital B} statue and @mechanic{Buddy Slam} it.",
+            "note": "Breaking the nose also reveals a Power Extender.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIDDEN_TREASURE1",
+      "displayName": "PRIVATE PILLAGE",
+      "description": "Find any one of the pirate treasure items",
+      "hidden": false,
+      "globalPercent": 19.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Find one Pirate Treasure.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Grand Tome world hides one Pirate Treasure.",
+        "steps": [
+          {
+            "id": "easy-treasure",
+            "text": "Collect the Pirate Treasure sitting at the spawn point inside a lamp in @loc{Capital Cashino}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIDDEN_TREASURE2",
+      "displayName": "SECRET SALVAGE",
+      "description": "Find any three of the pirate treasure items",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "HIDDEN_TREASURE1"
+      ],
+      "summary": "Find three Pirate Treasures.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Grand Tome world hides one Pirate Treasure.",
+        "steps": [
+          {
+            "id": "treasure3",
+            "text": "Collect any three of the five Pirate Treasures hidden in the Grand Tome worlds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIDDEN_TREASURE3",
+      "displayName": "CAPTAIN'S CACHE",
+      "description": "Find all five of the pirate treasure items",
+      "hidden": false,
+      "globalPercent": 6.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "HIDDEN_TREASURE2"
+      ],
+      "summary": "Find all five Pirate Treasures.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each Grand Tome world hides one Pirate Treasure.",
+        "collectibles": [
+          {
+            "id": "treasure-tribalstack",
+            "index": 1,
+            "name": "Tribalstack Tropics treasure",
+            "location": "Below the Tribalstack Tropics boss arena, beside the Nimbus road.",
+            "method": "Reach the space under the airborne boss arena and collect the treasure."
+          },
+          {
+            "id": "treasure-glitterglaze",
+            "index": 2,
+            "name": "Glitterglaze Glacier treasure",
+            "location": "Inside the underwater cave.",
+            "method": "Enter the underwater cave and collect the treasure."
+          },
+          {
+            "id": "treasure-moodymaze",
+            "index": 3,
+            "name": "Moodymaze Marsh treasure",
+            "location": "On top of the factory.",
+            "method": "Climb onto the factory roof and collect the treasure."
+          },
+          {
+            "id": "treasure-cashino",
+            "index": 4,
+            "name": "Capital Cashino treasure",
+            "location": "At the world spawn, inside a lamp.",
+            "method": "Check the lamp at the spawn point and collect the treasure."
+          },
+          {
+            "id": "treasure-galleon",
+            "index": 5,
+            "name": "Galleon Galaxy treasure",
+            "location": "Atop a building within the Velocity Terminal, the giant meatball.",
+            "method": "Reach the building top inside the Velocity Terminal and collect the treasure."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIDDEN_TREASURE4",
+      "displayName": "THINKING BIG",
+      "description": "Expand three Grand Tome worlds",
+      "hidden": false,
+      "globalPercent": 20.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "EXPAND_A_TOME"
+      ],
+      "summary": "Expand three Grand Tome worlds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "expand3",
+            "text": "Collect enough @item{Pagies} and spend them to expand a third Grand Tome world."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIDDEN_TREASURE5",
+      "displayName": "SUPER SIZED",
+      "description": "Expand all five Grand Tome worlds",
+      "hidden": false,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "follows story",
+      "estMinutes": 0,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "HIDDEN_TREASURE4"
+      ],
+      "summary": "Expand all five Grand Tome worlds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "expand5",
+            "text": "Collect enough @item{Pagies} and spend them to expand each of the five Grand Tome worlds."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "COLLECT_FIRST_PAGIE",
+    "UNLOCK_FIRST_TOME",
+    "BUY_FIRST_MOVE",
+    "EQUIP_TONIC",
+    "EXPAND_A_TOME",
+    "BASH_STATUE",
+    "FIRST_GHOSTWRITER",
+    "FIRST_TRANSFORM",
+    "HIDDEN_TREASURE1",
+    "COMPLETE_ARCADE_GAME",
+    "COMPLETE_A_MINECART",
+    "BOSS_WORLD1",
+    "HIGHSCORE_ARCADE",
+    "COLLECT_200QUILLS",
+    "FINISH_A_QUIZ",
+    "COLLECT_30PAGIES",
+    "BOSS_WORLD2",
+    "HIDDEN_TREASURE4",
+    "BOSS_WORLD3",
+    "COLLECT_500QUILLS",
+    "COLLECT_75PAGIES",
+    "BOSS_WORLD4",
+    "UNLOCK_ALL_TOMES",
+    "HIDDEN_TREASURE5",
+    "BUY_ALL_MOVES",
+    "BOSS_WORLD5",
+    "BEAT_CAPITAL_B",
+    "UNLOCK_15TONICS",
+    "HIDDEN_TREASURE2",
+    "HIDDEN_TREASURE3",
+    "COLLECT_HEALTH_EXPANDERS",
+    "COLLECT_POWER_EXPANDERS",
+    "ALL_GHOSTWRITERS",
+    "COLLECT_ALL_QUILLS",
+    "COLLECT_ALL_PAGIES"
+  ]
+}

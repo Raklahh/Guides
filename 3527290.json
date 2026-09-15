@@ -4,7 +4,7 @@
     "slug": "peak",
     "title": "PEAK",
     "version": "1.0",
-    "lastPatchChecked": "2026-07-07",
+    "lastPatchChecked": "2026-09-14",
     "estTotalHours": 30,
     "difficultyRating": 7,
     "minPlaythroughs": 4,
@@ -14,7 +14,7 @@
     {
       "step": 1,
       "title": "Learn the route and build cumulative progress",
-      "description": "Complete standard expeditions across the rotating biome routes. Light every campfire, open luggage, cook items, place Pitons, collect Scrolls, and reach The Peak.",
+      "description": "Complete standard expeditions across the rotating biome routes. Light every campfire, open luggage, cook items, place Pitons, collect Scrolls, search the Gloom and Citadel, and reach The Peak.",
       "achievementRefs": [
         "BeachcomberBadge",
         "TrailblazerBadge",
@@ -30,7 +30,15 @@
         "PlundererBadge",
         "EsotericaBadge",
         "BookwormBadge",
-        "ArboristBadge"
+        "ArboristBadge",
+        "WandererBadge",
+        "BellringerBadge",
+        "WellRestedBadge",
+        "JesterBadge",
+        "HangGlidingBadge",
+        "MedievalHistoryBadge",
+        "ExorcistBadge",
+        "ArcheryBadge"
       ]
     },
     {
@@ -70,7 +78,7 @@
     {
       "step": 4,
       "title": "Co-op, rare items, and special encounters",
-      "description": "Coordinate revivals and healing, carry crash-site items, use rare mystical equipment, and finish Mesa, Scoutmaster, rope, flight, and mushroom-height challenges.",
+      "description": "Coordinate revivals and healing, carry crash-site items, use rare mystical equipment including the Ritual Dagger, and finish Mesa, Scoutmaster, rope, flight, mushroom-height, and secret Nadir challenges.",
       "achievementRefs": [
         "AnimalSerenadingBadge",
         "BingBongBadge",
@@ -90,7 +98,9 @@
         "MentorshipBadge",
         "AppliedEsotericaBadge",
         "DisasterResponseBadge",
-        "MycoacrobaticsBadge"
+        "MycoacrobaticsBadge",
+        "LastResortBadge",
+        "RuleZeroBadge"
       ]
     }
   ],
@@ -100,7 +110,7 @@
       "displayName": "Peak Badge",
       "description": "Reach the PEAK.",
       "hidden": false,
-      "globalPercent": 32.1,
+      "globalPercent": 33.0,
       "flags": {
         "missable": true,
         "online": false,
@@ -138,7 +148,7 @@
       "displayName": "Cooking Badge",
       "description": "Cook 20 meals at campfires.",
       "hidden": false,
-      "globalPercent": 35.4,
+      "globalPercent": 36.3,
       "flags": {
         "missable": false,
         "online": false,
@@ -175,7 +185,7 @@
       "displayName": "Knot Tying Badge",
       "description": "Place 100m of rope in a single expedition.",
       "hidden": false,
-      "globalPercent": 3.7,
+      "globalPercent": 4.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -213,7 +223,7 @@
       "displayName": "Beachcomber Badge",
       "description": "Climb past the SHORE.",
       "hidden": false,
-      "globalPercent": 89.2,
+      "globalPercent": 89.1,
       "flags": {
         "missable": false,
         "online": false,
@@ -250,7 +260,7 @@
       "displayName": "Participation Badge",
       "description": "Have a friend escape the island without you.",
       "hidden": false,
-      "globalPercent": 26.2,
+      "globalPercent": 27.0,
       "flags": {
         "missable": true,
         "online": true,
@@ -288,7 +298,7 @@
       "displayName": "Trailblazer Badge",
       "description": "Climb past the TROPICS.",
       "hidden": false,
-      "globalPercent": 63.2,
+      "globalPercent": 62.9,
       "flags": {
         "missable": false,
         "online": false,
@@ -325,7 +335,7 @@
       "displayName": "Happy Camper Badge",
       "description": "Receive 5 Morale Boosts from campfires.",
       "hidden": false,
-      "globalPercent": 58.7,
+      "globalPercent": 59.5,
       "flags": {
         "missable": false,
         "online": false,
@@ -362,7 +372,7 @@
       "displayName": "Alpinist Badge",
       "description": "Climb past the ALPINE.",
       "hidden": false,
-      "globalPercent": 43.5,
+      "globalPercent": 44.1,
       "flags": {
         "missable": false,
         "online": false,
@@ -399,7 +409,7 @@
       "displayName": "Volcanology Badge",
       "description": "Climb past the CALDERA.",
       "hidden": false,
-      "globalPercent": 48.7,
+      "globalPercent": 46.4,
       "flags": {
         "missable": false,
         "online": false,
@@ -436,7 +446,7 @@
       "displayName": "Bouldering Badge",
       "description": "Place 10 pitons.",
       "hidden": false,
-      "globalPercent": 11.6,
+      "globalPercent": 12.1,
       "flags": {
         "missable": false,
         "online": false,
@@ -473,7 +483,7 @@
       "displayName": "Toxicology Badge",
       "description": "Restore 200 total poison by using items.",
       "hidden": false,
-      "globalPercent": 13.7,
+      "globalPercent": 13.9,
       "flags": {
         "missable": false,
         "online": false,
@@ -510,7 +520,7 @@
       "displayName": "Foraging Badge",
       "description": "Eat 5 different berries in a single expedition.",
       "hidden": false,
-      "globalPercent": 35.1,
+      "globalPercent": 36.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -527,10 +537,10 @@
       "sortReason": "Roadmap stage 3; pursue with the other tasks in this route.",
       "prerequisites": [],
       "lockoutStage": 3,
-      "summary": "Eat or feed all five Shroomberry colors during one Roots expedition.",
+      "summary": "Eat five different berries in a single expedition.",
       "guide": {
         "kind": "standard",
-        "context": "Five unique berry items must be consumed in one expedition; a Roots route supplies the complete set through Shroomberries.",
+        "context": "",
         "steps": [
           {
             "id": "foragingbadge-1",
@@ -548,7 +558,7 @@
       "displayName": "Esoterica Badge",
       "description": "Obtain a mystical item.",
       "hidden": false,
-      "globalPercent": 72.2,
+      "globalPercent": 73.8,
       "flags": {
         "missable": false,
         "online": false,
@@ -567,7 +577,7 @@
       "summary": "Collect a mystical item from Ancient Luggage or an Ancient Statue activated while every Scout is alive.",
       "guide": {
         "kind": "standard",
-        "context": "Mystical items come from Ancient Luggage or an Ancient Statue used while every Scout is alive.",
+        "context": "",
         "steps": [
           {
             "id": "esotericabadge-1",
@@ -585,7 +595,7 @@
       "displayName": "Lone Wolf Badge",
       "description": "Escape the island in a solo expedition.",
       "hidden": false,
-      "globalPercent": 10.0,
+      "globalPercent": 10.5,
       "flags": {
         "missable": true,
         "online": false,
@@ -605,7 +615,7 @@
       "summary": "Start and complete a standard expedition solo, then escape the island alive.",
       "guide": {
         "kind": "standard",
-        "context": "The entire successful expedition must be started and completed solo.",
+        "context": "",
         "steps": [
           {
             "id": "lonewolfbadge-1",
@@ -623,7 +633,7 @@
       "displayName": "Clutch Badge",
       "description": "Resurrect 3 scouts in a single expedition.",
       "hidden": false,
-      "globalPercent": 20.1,
+      "globalPercent": 21.9,
       "flags": {
         "missable": true,
         "online": true,
@@ -661,7 +671,7 @@
       "displayName": "Balloon Badge",
       "description": "Escape the island without taking fall damage.",
       "hidden": false,
-      "globalPercent": 7.4,
+      "globalPercent": 8.2,
       "flags": {
         "missable": true,
         "online": false,
@@ -678,18 +688,18 @@
       "sortReason": "Roadmap stage 2; pursue with the other tasks in this route.",
       "prerequisites": [],
       "lockoutStage": 2,
-      "summary": "Escape the island alive with zero Injury received during the run.",
+      "summary": "Complete a standard expedition with no fall damage taken and escape the island alive.",
       "guide": {
         "kind": "standard",
-        "context": "Despite the Steam wording, the current badge rejects any Injury—not only fall damage—during the full expedition.",
+        "context": "Injury from other sources is allowed; only fall damage disqualifies, and resurrected players can still earn the badge.",
         "steps": [
           {
             "id": "balloonbadge-1",
-            "text": "Start a standard run and avoid all sources of Injury, including falls, hostile attacks, trapped Ancient Luggage, Antlions, and Zombie bites."
+            "text": "Play a standard expedition and avoid every damaging fall from the first biome to the escape."
           },
           {
             "id": "balloonbadge-2",
-            "text": "Escape the island alive with zero Injury received during the run; resurrection does not repair an invalidated attempt."
+            "text": "Escape the island alive to receive the badge if no fall damage was taken."
           }
         ]
       }
@@ -699,7 +709,7 @@
       "displayName": "Leave No Trace Badge",
       "description": "Escape the island without placing anything on the mountain.",
       "hidden": false,
-      "globalPercent": 5.4,
+      "globalPercent": 6.3,
       "flags": {
         "missable": true,
         "online": false,
@@ -734,10 +744,10 @@
     },
     {
       "apiName": "SpeedClimberBadge",
-      "displayName": "Speed Climber Badge",
+      "displayName": "Hasty Badge",
       "description": "Escape the island in under an hour.",
       "hidden": false,
-      "globalPercent": 8.7,
+      "globalPercent": 8.9,
       "flags": {
         "missable": true,
         "online": false,
@@ -775,7 +785,7 @@
       "displayName": "Bing Bong Badge",
       "description": "Help Bing Bong escape the island.",
       "hidden": false,
-      "globalPercent": 15.6,
+      "globalPercent": 16.0,
       "flags": {
         "missable": true,
         "online": false,
@@ -813,7 +823,7 @@
       "displayName": "Naturalist Badge",
       "description": "Escape the island without eating any packaged food.",
       "hidden": false,
-      "globalPercent": 7.8,
+      "globalPercent": 8.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -851,7 +861,7 @@
       "displayName": "Gourmand Badge",
       "description": "Escape the island after cooking and eating a coconut half, a honeycomb, a yellow winterberry, and an egg.",
       "hidden": false,
-      "globalPercent": 4.6,
+      "globalPercent": 4.8,
       "flags": {
         "missable": true,
         "online": false,
@@ -893,7 +903,7 @@
       "displayName": "Mycology Badge",
       "description": "Eat four different non-toxic mushrooms in a single expedition.",
       "hidden": false,
-      "globalPercent": 8.8,
+      "globalPercent": 9.4,
       "flags": {
         "missable": true,
         "online": false,
@@ -931,7 +941,7 @@
       "displayName": "First Aid Badge",
       "description": "Heal your friends for 100 points of injury in a single expedition.",
       "hidden": false,
-      "globalPercent": 41.9,
+      "globalPercent": 42.0,
       "flags": {
         "missable": true,
         "online": true,
@@ -969,7 +979,7 @@
       "displayName": "Survivalist Badge",
       "description": "Escape the island without ever losing consciousness.",
       "hidden": false,
-      "globalPercent": 17.8,
+      "globalPercent": 18.6,
       "flags": {
         "missable": true,
         "online": false,
@@ -1007,7 +1017,7 @@
       "displayName": "Animal Serenading Badge",
       "description": "Play the bugle for a capybara.",
       "hidden": false,
-      "globalPercent": 15.0,
+      "globalPercent": 15.2,
       "flags": {
         "missable": true,
         "online": false,
@@ -1027,7 +1037,7 @@
       "summary": "Play a standard, Friendship, or Scoutmaster Bugle beside a Capybara at the Alpine Hot Spring or Mesa Oasis.",
       "guide": {
         "kind": "standard",
-        "context": "Capybaras appear at the Alpine Hot Spring and Mesa Oasis; standard, Friendship, and Scoutmaster Bugles qualify.",
+        "context": "",
         "steps": [
           {
             "id": "animalserenadingbadge-1",
@@ -1065,7 +1075,7 @@
       "summary": "Climb to the largest bough of the oversized tree in Tropics.",
       "guide": {
         "kind": "standard",
-        "context": "The required oversized tree appears in the Tropics.",
+        "context": "",
         "steps": [
           {
             "id": "arboristbadge-1",
@@ -1083,7 +1093,7 @@
       "displayName": "Mentorship Badge",
       "description": "Have a 1-on-1 with the Scoutmaster.",
       "hidden": false,
-      "globalPercent": 20.9,
+      "globalPercent": 21.8,
       "flags": {
         "missable": true,
         "online": false,
@@ -1103,7 +1113,7 @@
       "summary": "Get within 40 meters of an aggroed Scoutmaster while you are his target.",
       "guide": {
         "kind": "standard",
-        "context": "The target player must approach within 40 meters of an aggroed Scoutmaster.",
+        "context": "",
         "steps": [
           {
             "id": "mentorshipbadge-1",
@@ -1125,7 +1135,7 @@
       "displayName": "Emergency Preparedness Badge",
       "description": "Heal an unconscious friend with an item to save them from death.",
       "hidden": false,
-      "globalPercent": 29.4,
+      "globalPercent": 29.0,
       "flags": {
         "missable": true,
         "online": true,
@@ -1163,7 +1173,7 @@
       "displayName": "High Altitude Badge",
       "description": "Climb 5000m total.",
       "hidden": false,
-      "globalPercent": 47.7,
+      "globalPercent": 48.0,
       "flags": {
         "missable": false,
         "online": false,
@@ -1200,7 +1210,7 @@
       "displayName": "Plunderer Badge",
       "description": "Open 15 luggages in a single expedition.",
       "hidden": false,
-      "globalPercent": 38.1,
+      "globalPercent": 40.6,
       "flags": {
         "missable": true,
         "online": false,
@@ -1220,7 +1230,7 @@
       "summary": "Open all 15 luggage containers yourself during one expedition.",
       "guide": {
         "kind": "standard",
-        "context": "All 15 luggage openings must occur in one expedition and be performed by the same player.",
+        "context": "",
         "steps": [
           {
             "id": "plundererbadge-1",
@@ -1238,7 +1248,7 @@
       "displayName": "Bookworm Badge",
       "description": "Read the Scoutmaster’s final journal entry.",
       "hidden": false,
-      "globalPercent": 9.0,
+      "globalPercent": 8.8,
       "flags": {
         "missable": false,
         "online": false,
@@ -1254,18 +1264,18 @@
       "group": "general",
       "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
       "prerequisites": [],
-      "summary": "Open campfire Scrolls until you read Scoutmaster Myres's fourth journal entry.",
+      "summary": "Read the Scoutmaster's final journal entry, Torn Page 12.",
       "guide": {
         "kind": "standard",
-        "context": "Scrolls spawn randomly near campfires and always reveal the next missing journal entry for the opener.",
+        "context": "Each Scroll reveals the highest-numbered unread page you qualify for; later pages require earlier reads and specific upcoming biomes. Scrolls do not appear in the Caldera or Gloom.",
         "steps": [
           {
             "id": "bookwormbadge-1",
-            "text": "At every biome campfire, search the surrounding ground and props for a Scroll, then open it to read the page."
+            "text": "At each biome's campfire except the Caldera and Gloom, find the Scroll and open it to read the revealed Torn Page."
           },
           {
             "id": "bookwormbadge-2",
-            "text": "Open entries in sequence through journal 4; opening the final missing Scroll awards the badge."
+            "text": "Keep reading Scrolls across expeditions until you reveal Torn Page 12; reading it unlocks the badge."
           }
         ]
       }
@@ -1275,7 +1285,7 @@
       "displayName": "Endurance Badge",
       "description": "Climb 50m upwards without touching the ground.",
       "hidden": false,
-      "globalPercent": 26.3,
+      "globalPercent": 27.5,
       "flags": {
         "missable": true,
         "online": false,
@@ -1313,7 +1323,7 @@
       "displayName": "Nomad Badge",
       "description": "Climb past the MESA.",
       "hidden": false,
-      "globalPercent": 34.3,
+      "globalPercent": 35.9,
       "flags": {
         "missable": false,
         "online": false,
@@ -1350,7 +1360,7 @@
       "displayName": "Ultimate Badge",
       "description": "Catch a Flying Disc from 100m away.",
       "hidden": false,
-      "globalPercent": 6.5,
+      "globalPercent": 6.8,
       "flags": {
         "missable": true,
         "online": true,
@@ -1388,7 +1398,7 @@
       "displayName": "Cool Cucumber Badge",
       "description": "Climb past the MESA without ever having more than 10% Heat.",
       "hidden": false,
-      "globalPercent": 12.2,
+      "globalPercent": 12.3,
       "flags": {
         "missable": true,
         "online": false,
@@ -1426,7 +1436,7 @@
       "displayName": "Needlepoint Badge",
       "description": "Have a lot of cactuses stuck to you.",
       "hidden": false,
-      "globalPercent": 4.7,
+      "globalPercent": 5.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -1464,7 +1474,7 @@
       "displayName": "Aeronautics Badge",
       "description": "Achieve flight.",
       "hidden": false,
-      "globalPercent": 9.0,
+      "globalPercent": 10.3,
       "flags": {
         "missable": true,
         "online": false,
@@ -1481,18 +1491,18 @@
       "sortReason": "Roadmap stage 4; pursue with the other tasks in this route.",
       "prerequisites": [],
       "lockoutStage": 4,
-      "summary": "Attach six Balloons to one Scout and make them float off the ground.",
+      "summary": "Equip six Balloons at once and float off the ground.",
       "guide": {
         "kind": "standard",
-        "context": "Six attached Balloons are required; individual Balloons and Balloon Bunch contents can be combined.",
+        "context": "Individual Balloons and the contents of a Balloon Bunch both count toward the six.",
         "steps": [
           {
             "id": "aeronauticsbadge-1",
-            "text": "Collect Balloon items from luggage and attach all six to one Scout in a safe open area."
+            "text": "Collect six Balloon items from luggage; a Balloon Bunch can supply several at once."
           },
           {
             "id": "aeronauticsbadge-2",
-            "text": "Once that Scout leaves the ground and floats, every living player receives the badge."
+            "text": "Attach all six to your Scout, then step off the ground and float to receive the badge."
           }
         ]
       }
@@ -1502,7 +1512,7 @@
       "displayName": "24 Karat Badge",
       "description": "Offer The Kiln a worthy sacrifice.",
       "hidden": false,
-      "globalPercent": 4.7,
+      "globalPercent": 5.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -1519,10 +1529,10 @@
       "sortReason": "Roadmap stage 4; pursue with the other tasks in this route.",
       "prerequisites": [],
       "lockoutStage": 4,
-      "summary": "Retrieve the Ancient Idol from the Mesa Tomb, carry it into the Kiln, and release it above the lava.",
+      "summary": "Retrieve the Ancient Idol from the Mesa Tomb, then release it into the lava at The Kiln or The Citadel.",
       "guide": {
         "kind": "standard",
-        "context": "The worthy sacrifice is the Ancient Idol hidden in the Mesa Tomb.",
+        "context": "",
         "steps": [
           {
             "id": "twentyfourkaratbadge-1",
@@ -1530,7 +1540,7 @@
           },
           {
             "id": "twentyfourkaratbadge-2",
-            "text": "Transport the Ancient Idol onward, then sacrifice it by releasing it over the Kiln's lava. Its destruction grants the badge to every living player."
+            "text": "Bring the idol to either The Kiln's lava or The Citadel's crucible and drop it in; every living player receives the badge when the idol is destroyed."
           }
         ]
       }
@@ -1540,7 +1550,7 @@
       "displayName": "Resourcefulness Badge",
       "description": "Give in to your hunger.",
       "hidden": false,
-      "globalPercent": 6.1,
+      "globalPercent": 6.5,
       "flags": {
         "missable": true,
         "online": false,
@@ -1560,7 +1570,7 @@
       "summary": "With Cannibalism disabled, eat the rare Cooked Bird found inside a Caldera Big Egg.",
       "guide": {
         "kind": "standard",
-        "context": "A solo-friendly route uses a Cooked Bird while the Cannibalism option is disabled.",
+        "context": "",
         "steps": [
           {
             "id": "resourcefulnessbadge-1",
@@ -1578,7 +1588,7 @@
       "displayName": "Daredevil Badge",
       "description": "Shoot across the MESA canyon in a Scout Cannon.",
       "hidden": false,
-      "globalPercent": 10.0,
+      "globalPercent": 10.2,
       "flags": {
         "missable": true,
         "online": false,
@@ -1616,7 +1626,7 @@
       "displayName": "Megaentomology Badge",
       "description": "Survive an Antlion attack.",
       "hidden": false,
-      "globalPercent": 6.2,
+      "globalPercent": 6.8,
       "flags": {
         "missable": true,
         "online": false,
@@ -1654,7 +1664,7 @@
       "displayName": "Astronomy Badge",
       "description": "Look a little too closely at the blazing sun.",
       "hidden": false,
-      "globalPercent": 7.1,
+      "globalPercent": 7.5,
       "flags": {
         "missable": true,
         "online": false,
@@ -1674,7 +1684,7 @@
       "summary": "Use the Shore Binoculars to look directly at the sun in Mesa.",
       "guide": {
         "kind": "standard",
-        "context": "This interaction requires the Binoculars found at the Shore crash site and a visible sun in Mesa.",
+        "context": "",
         "steps": [
           {
             "id": "astronomybadge-1",
@@ -1692,7 +1702,7 @@
       "displayName": "Bundled Up Badge",
       "description": "Climb past the ALPINE without ever having more than 20% Cold.",
       "hidden": false,
-      "globalPercent": 6.1,
+      "globalPercent": 6.8,
       "flags": {
         "missable": true,
         "online": false,
@@ -1730,7 +1740,7 @@
       "displayName": "Forestry Badge",
       "description": "Climb past the ROOTS.",
       "hidden": false,
-      "globalPercent": 26.6,
+      "globalPercent": 31.2,
       "flags": {
         "missable": false,
         "online": false,
@@ -1767,7 +1777,7 @@
       "displayName": "Tread Lightly Badge",
       "description": "Climb past the ROOTS without ever having more than 25% spores.",
       "hidden": false,
-      "globalPercent": 14.7,
+      "globalPercent": 17.3,
       "flags": {
         "missable": true,
         "online": false,
@@ -1805,7 +1815,7 @@
       "displayName": "Web Security Badge",
       "description": "Escape a spider's web and survive.",
       "hidden": false,
-      "globalPercent": 22.2,
+      "globalPercent": 25.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -1822,7 +1832,7 @@
       "sortReason": "Roadmap stage 3; pursue with the other tasks in this route.",
       "prerequisites": [],
       "lockoutStage": 3,
-      "summary": "Escape a Roots Spider's web by pressing Jump until Web reaches zero.",
+      "summary": "Escape a Roots Spider's web and survive.",
       "guide": {
         "kind": "standard",
         "context": "Spiders hang above routes in Roots and inflict Web when they grab a Scout.",
@@ -1843,7 +1853,7 @@
       "displayName": "Undead Encounter Badge",
       "description": "Cure yourself from a zombie bite.",
       "hidden": false,
-      "globalPercent": 11.7,
+      "globalPercent": 13.7,
       "flags": {
         "missable": true,
         "online": false,
@@ -1863,7 +1873,7 @@
       "summary": "On Peak difficulty or higher, let a Roots Zombie bite you at zero Spores, then remove all Spores.",
       "guide": {
         "kind": "standard",
-        "context": "Zombies spawn in Roots only above Tenderfoot; the bite must occur while the player has zero Spores.",
+        "context": "",
         "steps": [
           {
             "id": "undeadencounterbadge-1",
@@ -1881,7 +1891,7 @@
       "displayName": "Advanced Mycology Badge",
       "description": "Try all 5 types of Shroomberry in a single expedition.",
       "hidden": false,
-      "globalPercent": 4.4,
+      "globalPercent": 5.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -1919,7 +1929,7 @@
       "displayName": "Disaster Response Badge",
       "description": "Pull an unconscious friend 30m with the Rescue Claw.",
       "hidden": false,
-      "globalPercent": 2.9,
+      "globalPercent": 3.4,
       "flags": {
         "missable": true,
         "online": true,
@@ -1936,10 +1946,10 @@
       "sortReason": "Roadmap stage 4; pursue with the other tasks in this route.",
       "prerequisites": [],
       "lockoutStage": 4,
-      "summary": "Use a Rescue Claw to pull an unconscious Scout at least 30 meters.",
+      "summary": "Pull an unconscious Scout at least 30 meters with a Rescue Claw.",
       "guide": {
         "kind": "standard",
-        "context": "The Rescue Claw is an Epic item from regular, big, or Explorer's luggage and can reach 48–64 meters.",
+        "context": "The Rescue Claw is a Legendary item from regular, big, or Explorer's luggage and can reach 48–64 meters.",
         "steps": [
           {
             "id": "disasterresponsebadge-1",
@@ -1957,7 +1967,7 @@
       "displayName": "Calcium Intake Badge",
       "description": "Block 100 total damage with the Fortified Milk.",
       "hidden": false,
-      "globalPercent": 9.4,
+      "globalPercent": 10.5,
       "flags": {
         "missable": false,
         "online": false,
@@ -1994,7 +2004,7 @@
       "displayName": "Competitive Eating Badge",
       "description": "Eat 3 Hot Dogs in 5 seconds or less.",
       "hidden": false,
-      "globalPercent": 3.5,
+      "globalPercent": 4.6,
       "flags": {
         "missable": true,
         "online": false,
@@ -2032,7 +2042,7 @@
       "displayName": "Applied Esoterica Badge",
       "description": "Resurrect a friend using unholy means.",
       "hidden": false,
-      "globalPercent": 2.3,
+      "globalPercent": 3.0,
       "flags": {
         "missable": true,
         "online": true,
@@ -2070,7 +2080,7 @@
       "displayName": "Mycoacrobatics Badge",
       "description": "Bounce up 40m off a mushroom.",
       "hidden": false,
-      "globalPercent": 8.0,
+      "globalPercent": 8.7,
       "flags": {
         "missable": true,
         "online": false,
@@ -2090,7 +2100,7 @@
       "summary": "Bounce from a mushroom, then immediately gain 40 meters of height.",
       "guide": {
         "kind": "standard",
-        "context": "After bouncing from any mushroom, the Scout must gain 40 meters of height.",
+        "context": "",
         "steps": [
           {
             "id": "mycoacrobaticsbadge-1",
@@ -2108,7 +2118,7 @@
       "displayName": "Cryptogastronomy Badge",
       "description": "Cook and eat a Mandrake.",
       "hidden": false,
-      "globalPercent": 2.5,
+      "globalPercent": 3.1,
       "flags": {
         "missable": true,
         "online": false,
@@ -2128,7 +2138,7 @@
       "summary": "Cook a Roots Mandrake until it stops screaming, then eat it or have another Scout feed it to you.",
       "guide": {
         "kind": "standard",
-        "context": "In Roots, an uprooted Medicinal Root has a 50% chance to be a Mandrake.",
+        "context": "In Roots, an uprooted Medicinal Root has a 28.57% chance to be a Mandrake.",
         "steps": [
           {
             "id": "cryptogastronomybadge-1",
@@ -2140,19 +2150,410 @@
           }
         ]
       }
+    },
+    {
+      "apiName": "WandererBadge",
+      "displayName": "Wanderer Badge",
+      "description": "Climb past the GLOOM.",
+      "hidden": false,
+      "globalPercent": 12.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Reach the end of the Gloom alive and light its campfire.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Gloom replaces the Caldera as the fourth biome on some routes.",
+        "steps": [
+          {
+            "id": "wandererbadge-1",
+            "text": "Climb through the Gloom to the Citadel's entrance hall while alive."
+          },
+          {
+            "id": "wandererbadge-2",
+            "text": "Light the campfire in the entrance hall; every living Scout receives the badge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BellringerBadge",
+      "displayName": "Bellringer Badge",
+      "description": "Ring 5 Belltowers in the GLOOM in a single expedition.",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Light five Belltowers during one trip through the Gloom.",
+      "guide": {
+        "kind": "standard",
+        "context": "Belltowers stand throughout the Gloom, and the five rings can come from different players in the group.",
+        "steps": [
+          {
+            "id": "bellringerbadge-1",
+            "text": "Find Belltowers as you cross the Gloom; ringing one lights it and clears the fog around it."
+          },
+          {
+            "id": "bellringerbadge-2",
+            "text": "Ring five in the same expedition; all players receive the badge when the fifth is rung."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WellRestedBadge",
+      "displayName": "Well Rested Badge",
+      "description": "Consume The Early Worm.",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–45 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Consume The Early Worm in the Gloom.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Early Worm crawls in circles on the Gloom's ground and gives a distinct moving sound cue when you are near it.",
+        "steps": [
+          {
+            "id": "wellrestedbadge-1",
+            "text": "Search the Gloom's ground for The Early Worm and listen for its moving sound cue."
+          },
+          {
+            "id": "wellrestedbadge-2",
+            "text": "Eat it, or have a teammate feed it to you, to receive the badge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JesterBadge",
+      "displayName": "Jester Badge",
+      "description": "Open 2 Clown Luggage in a single expedition.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–90 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Open two Clown Luggages during the same expedition.",
+      "guide": {
+        "kind": "standard",
+        "context": "Clown Luggage is a rare, oversized luggage box covered in colorful clown decorations; it always holds six items.",
+        "steps": [
+          {
+            "id": "jesterbadge-1",
+            "text": "Open luggage as you climb until you find a Clown Luggage; the huge clown-faced design makes it hard to miss."
+          },
+          {
+            "id": "jesterbadge-2",
+            "text": "Open a second Clown Luggage in the same expedition to receive the badge.",
+            "note": "Opening the box ejects everything except Balloons and Balloon Bunches, and lit Dynamite can be among the contents."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HangGlidingBadge",
+      "displayName": "Hang Gliding Badge",
+      "description": "Fly 100m with the Glider without touching the ground.",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10–30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Glide 100 meters on the Glider without landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Glider is a luggage item; gliding drains 20 stamina per second and stops when stamina runs out.",
+        "steps": [
+          {
+            "id": "hangglidingbadge-1",
+            "text": "Find a Glider in luggage and keep it in hand."
+          },
+          {
+            "id": "hangglidingbadge-2",
+            "text": "Jump from a high point, hold the Glider to glide, and stay airborne for 100 meters without touching the ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MedievalHistoryBadge",
+      "displayName": "Medieval History Badge",
+      "description": "Climb past THE CITADEL without being hit by any traps.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30–90 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Reach the top of The Citadel without any trap hitting you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Trap hits disqualify the run even without damage: holding an item when you set off an Arrow Trap counts, as does the Drowsy gas from a luggage trap, while touching Petrifying rocks does not.",
+        "steps": [
+          {
+            "id": "medievalhistorybadge-1",
+            "text": "Climb the Citadel while avoiding its Arrow Traps, Spike Traps, Swinging Maces, spike rollers, and luggage traps."
+          },
+          {
+            "id": "medievalhistorybadge-2",
+            "text": "Reach the top of the tower; the badge grants immediately if no trap has hit you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LastResortBadge",
+      "displayName": "Last Resort Badge",
+      "description": "Heal over 75% damage at once by using the Ritual Dagger.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": true,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30–60 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "co-op",
+      "sortReason": "Roadmap stage 4; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "lockoutStage": 4,
+      "summary": "Use the Ritual Dagger to remove over 75% of your negative status effects in one use.",
+      "guide": {
+        "kind": "standard",
+        "context": "The dagger is a co-op mystical item from Ancient Luggage or an Ancient Statue, and every player healed over 75% by the use receives the badge, not just the user.",
+        "steps": [
+          {
+            "id": "lastresortbadge-1",
+            "text": "Stack more than 75% of negative status effects such as Drowsy, Cold, Spores, Poison, or Injury; Weight does not count, and a Blowgun can supply enough Drowsy."
+          },
+          {
+            "id": "lastresortbadge-2",
+            "text": "Take the Ritual Dagger from Ancient Luggage or an Ancient Statue, stand behind a teammate, and use it; the sacrifice dies and every player the heal restores over 75%, including you, receives the badge.",
+            "note": "The victim must face away and must be a Scout; Zombies cannot be sacrificed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ExorcistBadge",
+      "displayName": "Exorcist Badge",
+      "description": "Burn up the Ghost.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20–60 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Burn up the Big Ghost in the Gloom.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Big Ghost appears after Scouts linger in the Gloom's fog, and burning it awards the badge to every player within 32 meters, living or dead.",
+        "steps": [
+          {
+            "id": "exorcistbadge-1",
+            "text": "Linger in the Gloom's purple fog until the Big Ghost spawns; an audio cue plays when it appears."
+          },
+          {
+            "id": "exorcistbadge-2",
+            "text": "Burn it with a rung Belltower or a lit Candlestick, lit Faerie Lantern, or Portable Stove.",
+            "note": "Due to a bug, a Portable Stove works only while unlit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ArcheryBadge",
+      "displayName": "Archery Badge",
+      "description": "Remove 10 arrows from yourself in a single expedition.",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30–90 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 1; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Pull 10 Arrows out of your body during one expedition.",
+      "guide": {
+        "kind": "standard",
+        "context": "Arrows come from The Citadel's Arrow Traps; removing one inflicts Injury, and arrows removed by a teammate still count for you.",
+        "steps": [
+          {
+            "id": "archerybadge-1",
+            "text": "In The Citadel, touch Arrow Trap beams and let arrows hit you; each trap fires up to three arrows."
+          },
+          {
+            "id": "archerybadge-2",
+            "text": "Remove Arrows from your body until 10 have been pulled; a teammate can remove them for you.",
+            "note": "Invincibility from Fortified Milk or Scout's Tenacity prevents the Injury from each removal; Bandages and First Aid Kits heal it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RuleZeroBadge",
+      "displayName": "Rule Zero Badge",
+      "description": "Follow the Scoutmaster's trail beyond The Peak.",
+      "hidden": true,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "60–120 min",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "general",
+      "sortReason": "Roadmap stage 4; pursue with the other tasks in this route.",
+      "prerequisites": [],
+      "summary": "Free the Scoutmaster's soul and escape Nadir.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nadir is a secret biome reached only by bestowing the four Scout's Amulets on the Stone Scout behind The Peak and activating the Scout's Honor.",
+        "steps": [
+          {
+            "id": "rulezerobadge-1",
+            "text": "Collect one Amulet from an Amulet Statue in each of the first four biomes; the statues glow with blue light and do not appear in The Kiln or The Citadel."
+          },
+          {
+            "id": "rulezerobadge-2",
+            "text": "Carry the four Amulets to the Stone Scout behind The Peak and bestow them to transform the Strange Gem into the Scout's Honor."
+          },
+          {
+            "id": "rulezerobadge-3",
+            "text": "Hold Left Mouse on the Scout's Honor to teleport everyone to Nadir."
+          },
+          {
+            "id": "rulezerobadge-4",
+            "text": "In Nadir, commune with the Scoutmaster's soul to reveal the False Climb, climb ahead of the rising Lost Souls, and enter the Gate at the top; the badge grants when the ending cutscene begins."
+          }
+        ]
+      }
     }
   ],
   "completionOrder": [
     "BeachcomberBadge",
+    "WandererBadge",
     "TrailblazerBadge",
     "ForestryBadge",
+    "HangGlidingBadge",
+    "WellRestedBadge",
     "AlpinistBadge",
     "NomadBadge",
+    "ExorcistBadge",
+    "BellringerBadge",
+    "JesterBadge",
     "VolcanologyBadge",
     "PeakBadge",
     "HappyCamperBadge",
     "CookingBadge",
     "BoulderingBadge",
+    "ArcheryBadge",
+    "MedievalHistoryBadge",
     "AscenderBadge",
     "PlundererBadge",
     "EsotericaBadge",
@@ -2178,6 +2579,7 @@
     "CalciumIntakeBadge",
     "WebSecurityBadge",
     "UndeadEncounterBadge",
+    "LastResortBadge",
     "AnimalSerenadingBadge",
     "BingBongBadge",
     "TriedYourBestBadge",
@@ -2196,6 +2598,7 @@
     "MentorshipBadge",
     "AppliedEsotericaBadge",
     "DisasterResponseBadge",
-    "MycoacrobaticsBadge"
+    "MycoacrobaticsBadge",
+    "RuleZeroBadge"
   ]
 }

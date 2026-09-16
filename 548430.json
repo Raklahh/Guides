@@ -1,0 +1,2496 @@
+{
+  "game": {
+    "appid": 548430,
+    "slug": "deep-rock-galactic",
+    "title": "Deep Rock Galactic",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-06",
+    "estTotalHours": 300,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-16"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Space Rig routine",
+      "description": "Clear the Space Rig's side content between missions: the Barrel Hoop minigame, the Abyss Bar, the jukebox, barrel physics, and the cosmetics shop. None of it needs mission progress.",
+      "achievementRefs": [
+        "GETPAIDFORTHIS",
+        "BARRELKICKER",
+        "NOTHOWYOUPLAY",
+        "DARWINAWARD",
+        "BARRELRIDER",
+        "THEATEAM",
+        "TIMEWELLSPENT",
+        "FOREIGNOBJECT",
+        "SELFCONTROL",
+        "BIGSPENDER",
+        "PARTYTIME",
+        "DISCJOCKEY",
+        "HAPPYFEET",
+        "MUSTACHO",
+        "TOTALMAKEOVER"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build the career",
+      "description": "Play missions to advance: finish the first assignment, climb Hazard Levels 3-5 including no-down and no-resupply runs, bank Milestones and Perks, promote dwarves, unlock weapons and mods, and build up solo, hosted-team, and mentored mission counts.",
+      "achievementRefs": [
+        "MINER",
+        "APPROVED_GREENBEARD",
+        "EXPERTMINER",
+        "LEGENDARYMINER",
+        "STEPPINGITUP",
+        "CONSISTENTPERFORMANCE",
+        "THICKSKINNED",
+        "EMPLOYEEOFTHEMONTH",
+        "GOINGLETHAL",
+        "ROCKSOLID",
+        "AGAME",
+        "OILEDMACHINE",
+        "KARLISPROUD",
+        "MUTATEDSCAVENGER",
+        "PERFORMANCEMATTERS",
+        "MANAGEMENTAPPROVES",
+        "FEELINGPERKY",
+        "MOVINGONUP",
+        "CORPORATECLIMBER",
+        "HATTRICK",
+        "FULLTEAMAHEAD",
+        "SILVEREMPLOYEE",
+        "GOLDEMPLOYEE",
+        "PROTEAM",
+        "LEGENDARYTEAM",
+        "EXPLORINGMYOPTIONS",
+        "STATEOFTHEART",
+        "ADVANCEDROBOTICS",
+        "LONEWOLF",
+        "BESTBOSCO",
+        "ITSMYPARTY",
+        "GOODSHEPHERD"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "In-mission work",
+      "description": "Complete mission-specific counters and encounters: weakspot hits, Dreadnoughts, Bulk Detonators, BET-C, Mini M.U.L.E.s, gems and Error Cubes, creature rides, the Drilldozer, and pipeline grinding.",
+      "achievementRefs": [
+        "HITWHEREITHURTS",
+        "BIGGAMEHUNTER",
+        "CYADETONATOR",
+        "PESTCONTROL",
+        "BUGHUNT",
+        "DESIGNATEDDECOY",
+        "WITHOUTAPADDLE",
+        "BETCTIME",
+        "MINIFIXER",
+        "JEWELER",
+        "PROSPECTOR",
+        "WHATISTHIS",
+        "MOLLYRIDER",
+        "FARMER",
+        "CARPOOL",
+        "DRILLBYSHOOTING",
+        "LONGPIPE",
+        "ILIKEITDOWNHERE"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Deep Dives",
+      "description": "Finish the weekly Deep Dive chain: one normal Deep Dive, one Elite Deep Dive, five total, and a run under 45 minutes.",
+      "achievementRefs": [
+        "BABYDIVER",
+        "OUTATIME",
+        "VETERANDIVER",
+        "EXPERTDIVER"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "APPROVED_GREENBEARD",
+      "displayName": "Approved Greenbeard",
+      "description": "Complete your first assignment.",
+      "hidden": false,
+      "globalPercent": 45.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish every mission in the first assignment you accept on the Space Rig.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "accept-first-assignment",
+            "text": "Open the @loc{Assignment Terminal} on the @loc{Space Rig} and accept the assignment offered to a new miner."
+          },
+          {
+            "id": "finish-assignment",
+            "text": "Complete each mission the assignment lists; the active mission is marked on the mission map by a diagonal square."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GETPAIDFORTHIS",
+      "displayName": "If Only I Got Paid For This...",
+      "description": "In the Barrel Hoop game, achieve a score of 3000 or more in less than 100 kicks.",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30-90 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Reach 3000 points in the Space Rig @mechanic{Barrel Hoop} minigame in fewer than 100 kicks.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hoop resets its speed only at the left end of its travel, so kicks timed while it moves right to left stay predictable.",
+        "steps": [
+          {
+            "id": "start-at-slow-speed",
+            "text": "Wait until the @mechanic{Barrel Hoop} has slowed to its minimum speed before starting."
+          },
+          {
+            "id": "build-score-chain",
+            "text": "Kick each @item{barrel} through the hoop while it travels right to left; consecutive hits raise the score multiplier."
+          },
+          {
+            "id": "reach-3000",
+            "text": "Hold one chain long enough to pass 3000 points within 100 kicks.",
+            "note": "When the hoop becomes too fast to time, stop kicking and wait for it to slow again; the old chain is gone either way, and a fresh run of hits still reaches the target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BARRELKICKER",
+      "displayName": "Barrel Kicker",
+      "description": "Kick ten barrels into the Space Rig barrel hoop without missing.",
+      "hidden": true,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5-20 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Kick ten barrels into the Space Rig @mechanic{Barrel Hoop} without a miss.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ten-in-a-row",
+            "text": "Kick @item{barrels} through the @mechanic{Barrel Hoop} ten times in a row.",
+            "note": "One miss resets the streak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NOTHOWYOUPLAY",
+      "displayName": "That's Not How You Play This Game",
+      "description": "Throw a beer mug into the Space Rig barrel hoop.",
+      "hidden": true,
+      "globalPercent": 18.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2-5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Throw a beer mug into the Space Rig @mechanic{Barrel Hoop}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "mug-into-hoop",
+            "text": "Buy a @item{beer} at the @loc{Abyss Bar} and throw the mug through the @mechanic{Barrel Hoop}; standing directly below the hoop makes the throw easiest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DARWINAWARD",
+      "displayName": "Darwin Award",
+      "description": "Jump through the Space Rig barrel hoop while intoxicated.",
+      "hidden": true,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 8,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Jump through the Space Rig @mechanic{Barrel Hoop} while drunk.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "drunk-hoop-jump",
+            "text": "Drink @item{beer} at the @loc{Abyss Bar} until you are intoxicated, then jump through the @mechanic{Barrel Hoop}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAPPYFEET",
+      "displayName": "Happy Feet",
+      "description": "Spend an hour dancing on the Space Rig.",
+      "hidden": true,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-bar",
+      "summary": "Dance on the @loc{Space Rig} for one hour in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "dance-an-hour",
+            "text": "Dance on the @loc{Space Rig} until the total dancing time passes one hour.",
+            "note": "The target is 3600 seconds on the Dancing Time stat; progress shows in your Steam profile under this game's stats and leaderboards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIGSPENDER",
+      "displayName": "Big Spender",
+      "description": "Pay for 25 rounds at the Abyss Bar.",
+      "hidden": true,
+      "globalPercent": 17.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-bar",
+      "summary": "Pay for 25 rounds of drinks at the @loc{Abyss Bar}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Three brews cost credits only and need no license: Leaf Lover's Special, Glyphid Slammer, and Oily Oaf Brew.",
+        "steps": [
+          {
+            "id": "twenty-five-rounds",
+            "text": "Order drinks at the @loc{Abyss Bar} until you have paid for 25 rounds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PARTYTIME",
+      "displayName": "Party Time!",
+      "description": "Toast with a full team while jukebox music plays.",
+      "hidden": true,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5-15 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-bar",
+      "summary": "In a full team of four, salute while dancing to @loc{jukebox} music with everyone holding a beer.",
+      "guide": {
+        "kind": "standard",
+        "context": "The salute must land at the same moment from all four dwarves; if anyone drinks their beer first, the attempt fails.",
+        "steps": [
+          {
+            "id": "gather-team-and-beer",
+            "text": "Gather four dwarves on the @loc{Space Rig} and have everyone buy a @item{beer} at the @loc{Abyss Bar}."
+          },
+          {
+            "id": "music-and-dancing",
+            "text": "Start music at the @loc{jukebox} and have all four dwarves dance."
+          },
+          {
+            "id": "simultaneous-salute",
+            "text": "Salute together so all four dwarves Rock and Stone at the same moment while still holding their beer.",
+            "note": "The timing window is tight, so retry until one attempt lands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISCJOCKEY",
+      "displayName": "Disc Jockey",
+      "description": "Play 25 jukebox songs to the end.",
+      "hidden": true,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hr",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-bar",
+      "summary": "Play 25 songs on the @loc{Space Rig} jukebox to the end.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "let-songs-finish",
+            "text": "Queue songs at the @loc{jukebox} opposite the @loc{Abyss Bar} and let each one finish playing; interrupted songs do not count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BARRELRIDER",
+      "displayName": "Barrel Rider",
+      "description": "Ride a barrel in the spacerig for three seconds.",
+      "hidden": false,
+      "globalPercent": 31.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2-10 min",
+      "estMinutes": 8,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Ride a Space Rig barrel for three seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wedge-barrel",
+            "text": "Kick a @item{barrel} into a corner or another tight spot so it stays put."
+          },
+          {
+            "id": "ride-three-seconds",
+            "text": "Jump on and stay on the barrel for three seconds.",
+            "note": "Barrels are steadier when you host than in someone else's lobby."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEATEAM",
+      "displayName": "The A-Team",
+      "description": "Place a barrel in every seat of the Drop Pod.",
+      "hidden": true,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10-30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Put a @item{barrel} in every seat of the @loc{Drop Pod}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "kick-barrels-inside",
+            "text": "Kick barrels up the ladder into the @loc{Drop Pod}."
+          },
+          {
+            "id": "seat-every-barrel",
+            "text": "Press one barrel deep into each seat so it cannot roll back out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TIMEWELLSPENT",
+      "displayName": "Time Well Spent",
+      "description": "Load every Space Rig barrel into the Drop Pod.",
+      "hidden": true,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20-60 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Stuff every Space Rig barrel into the @loc{Drop Pod}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Loose barrels sometimes vanish while you work, so a disappeared barrel can force a fresh start.",
+        "steps": [
+          {
+            "id": "kick-every-barrel",
+            "text": "Kick every barrel you find on the @loc{Space Rig} up into the @loc{Drop Pod}."
+          },
+          {
+            "id": "recover-bay-barrels",
+            "text": "If a barrel drops into the Launch Bay, bring it back up with the ladder or through the wall opening."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FOREIGNOBJECT",
+      "displayName": "Foreign Objects In The Launch Bay",
+      "description": "Kick every Space Rig barrel into the Launch Bay.",
+      "hidden": true,
+      "globalPercent": 8.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15-45 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Kick every Space Rig barrel into the Launch Bay under the @loc{Drop Pod}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This cannot be combined with the Drop Pod barrel run; barrels inside the pod do not count as being in the Launch Bay.",
+        "steps": [
+          {
+            "id": "kick-into-launch-bay",
+            "text": "Kick every barrel on the @loc{Space Rig} down into the Launch Bay so each one lands on the force field under the @loc{Drop Pod}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SELFCONTROL",
+      "displayName": "Self Control",
+      "description": "Play ten missions in a row without kicking a barrel on the Space Rig.",
+      "hidden": true,
+      "globalPercent": 37.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hr",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-barrel",
+      "summary": "Play ten missions in a row without kicking a barrel on the @loc{Space Rig}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "leave-barrels-alone",
+            "text": "Complete ten missions back to back and leave every Space Rig barrel untouched between them.",
+            "note": "One kick resets the streak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MINIFIXER",
+      "displayName": "Mini Fixer",
+      "description": "Fix 50 Mini M.U.L.E.s.",
+      "hidden": false,
+      "globalPercent": 15.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-5 hr",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Repair 50 broken Mini M.U.L.E.s during Salvage Operation missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every dwarf who is repairing a Mini M.U.L.E. when it comes back online earns credit, so the whole team can work on one unit.",
+        "steps": [
+          {
+            "id": "find-mini-mules",
+            "text": "Select Salvage Operation missions, where broken Mini M.U.L.E.s lie in the caves."
+          },
+          {
+            "id": "repair-fifty",
+            "text": "Repair each Mini M.U.L.E. you find and keep running the mission type until 50 are fixed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BETCTIME",
+      "displayName": "Now We Have  A BET-C",
+      "description": "Defeat and fix a BET-C.",
+      "hidden": false,
+      "globalPercent": 39.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10-30 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Defeat a BET-C, then re-enable it.",
+      "guide": {
+        "kind": "standard",
+        "context": "A BET-C reveals itself with a loud pulsing signal, and its Xynarch Charge-Suckers are the only weak points.",
+        "steps": [
+          {
+            "id": "find-betc",
+            "text": "Follow the pulsing sound through the cave to find the @enemy{BET-C}."
+          },
+          {
+            "id": "disable-betc",
+            "text": "Destroy the @item{Xynarch Charge-Suckers} on its flanks to disable it."
+          },
+          {
+            "id": "repair-betc",
+            "text": "Interact with the disabled machine to repair it; it then fights for your team."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HITWHEREITHURTS",
+      "displayName": "Hit 'em Where It Hurts",
+      "description": "Land 1000 weakspot hits.",
+      "hidden": true,
+      "globalPercent": 51.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-8 hr",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Land 1000 weakspot hits.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "weakspot-hits",
+            "text": "Shoot glowing or exposed body parts such as mouths and abdomens across your missions until the counter reaches 1000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIGGAMEHUNTER",
+      "displayName": "Big Game Hunter",
+      "description": "Participate in killing 40 Dreadnoughts.",
+      "hidden": false,
+      "globalPercent": 12.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "5-10 hr",
+      "estMinutes": 420,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Take part in killing 40 Dreadnoughts.",
+      "guide": {
+        "kind": "standard",
+        "context": "Elimination missions are the main source, and a Dreadnought can also replace a normal swarm in other mission types.",
+        "steps": [
+          {
+            "id": "hunt-dreadnoughts",
+            "text": "Run Elimination missions and break every Dreadnought cocoon you find.",
+            "note": "The counter covers the standard Glyphid Dreadnought, the Arbalest and Lacerator Twins, and the Hiveguard."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CYADETONATOR",
+      "displayName": "See You Later, Detonator!",
+      "description": "Participate in killing 20 Bulk Detonators.",
+      "hidden": false,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4-8 hr",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Take part in killing 20 Bulk Detonators.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "kill-bulk-detonators",
+            "text": "Shoot the glowing sacs on a @enemy{Bulk Detonator}'s back for critical damage and take part in 20 kills."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PESTCONTROL",
+      "displayName": "Pest Control",
+      "description": "Participate in killing two Dreadnoughts within five minutes on Hazard Level 3 or higher.",
+      "hidden": false,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Take part in killing two Dreadnoughts less than five minutes apart on Hazard Level 3 or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both kills must happen inside the same Elimination mission, and knowing the route between the two cocoons ahead of time saves minutes.",
+        "steps": [
+          {
+            "id": "start-elimination",
+            "text": "Start an Elimination mission on @mechanic{Hazard Level 3} or higher."
+          },
+          {
+            "id": "two-kills-five-minutes",
+            "text": "Break the first cocoon, kill its @enemy{Dreadnought}, then reach and kill the second before five minutes pass."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUGHUNT",
+      "displayName": "Just Another Bug Hunt",
+      "description": "Participate in killing two Dreadnoughts within 30 seconds on Hazard Level 3 or higher.",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-3 hr",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Take part in killing two Dreadnoughts less than 30 seconds apart on Hazard Level 3 or higher.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both kills must land in the same mission, and each dwarf needs damage on both targets for their participation to count.",
+        "steps": [
+          {
+            "id": "open-two-cocoons",
+            "text": "Start an Elimination mission on @mechanic{Hazard Level 3} or higher and open two Dreadnought cocoons before the fights begin."
+          },
+          {
+            "id": "weaken-both",
+            "text": "Damage both Dreadnoughts down to low health without killing either, making sure every dwarf has hit both."
+          },
+          {
+            "id": "finish-in-window",
+            "text": "Finish both Dreadnoughts inside one 30-second window.",
+            "note": "Two or more players make this far easier."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JEWELER",
+      "displayName": "Jeweler",
+      "description": "Collect 10 Bittergems.",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-8 hr",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "collect",
+      "summary": "Collect 10 Bittergems.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "collect-bittergems",
+            "text": "Mine the small purple shards that glow on cave floors and deposit 10 @item{Bittergems}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROSPECTOR",
+      "displayName": "Prospector",
+      "description": "Collect 20 Compressed Gold Chunks.",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-6 hr",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "collect",
+      "summary": "Collect 20 Compressed Gold chunks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "collect-gold-chunks",
+            "text": "Mine the small gold chunks poking out of the ground with a yellow glow and deposit 20 of them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WHATISTHIS",
+      "displayName": "What Are These Things?",
+      "description": "Deposit five Error Cubes.",
+      "hidden": true,
+      "globalPercent": 12.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3-8 hr",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "collect",
+      "summary": "Deposit five Error Cubes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Error Cubes are extremely rare, so treat every one you spot as worth mining.",
+        "steps": [
+          {
+            "id": "find-error-cube",
+            "text": "Look for a cube sitting among grey pulsating spikes with a purple glow."
+          },
+          {
+            "id": "deposit-five",
+            "text": "Mine the @item{Error Cube} and deposit five of them across your missions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MOLLYRIDER",
+      "displayName": "Hi Ho, Silver - Away!",
+      "description": "Ride Molly for 15 seconds.",
+      "hidden": false,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-15 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "ride",
+      "summary": "Ride Molly the M.U.L.E. for 15 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ride-molly",
+            "text": "After the primary objective is done, climb on Molly as she walks to the @loc{Drop Pod} and stay on for 15 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FARMER",
+      "displayName": "Farmer",
+      "description": "Ride the Silicate Harvester for 30 seconds.",
+      "hidden": false,
+      "globalPercent": 8.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-15 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "ride",
+      "summary": "Ride a Silicate Harvester for 30 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "The passive Silicate Harvester appears in the Radioactive Exclusion Zone, Fungus Bogs, and Dense Biozone.",
+        "steps": [
+          {
+            "id": "ride-harvester",
+            "text": "Find a @enemy{Silicate Harvester} and stay on its back for 30 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CARPOOL",
+      "displayName": "Car Pool",
+      "description": "Ride the Silicate Harvester with three other dwarves and kill five enemies each without leaving.",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15-45 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "ride",
+      "summary": "Ride a Silicate Harvester with a full team and have each dwarf kill five enemies without leaving.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each dwarf needs five kills of their own, and explosives can kill the harvester and end the attempt for everyone.",
+        "steps": [
+          {
+            "id": "team-rides-harvester",
+            "text": "Gather four dwarves and have everyone ride the same @enemy{Silicate Harvester}."
+          },
+          {
+            "id": "provoke-swarmers",
+            "text": "Stir up a @enemy{Glyphid Swarmer} nest so enemies come near the harvester."
+          },
+          {
+            "id": "five-kills-each",
+            "text": "Kill five enemies on each dwarf without anyone stepping off."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DESIGNATEDDECOY",
+      "displayName": "Designated Decoy",
+      "description": "Take the most Dreadnought damage in your team.",
+      "hidden": true,
+      "globalPercent": 40.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Take the most Dreadnought damage in your team during one fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "absorb-most-damage",
+            "text": "Absorb more damage from an @enemy{Dreadnought} than any teammate across a single fight.",
+            "note": "Getting downed before the Dreadnought dies voids the credit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WITHOUTAPADDLE",
+      "displayName": "Without A Paddle",
+      "description": "Be the last dwarf standing with empty weapons when a Dreadnought spawns.",
+      "hidden": true,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-30 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "combat",
+      "summary": "Stand as the last dwarf with both weapons empty when a Dreadnought spawns.",
+      "guide": {
+        "kind": "standard",
+        "context": "A solo Elimination mission makes you the last dwarf standing automatically.",
+        "steps": [
+          {
+            "id": "empty-weapons",
+            "text": "Start a solo Elimination mission and empty the ammo of your primary and secondary weapons."
+          },
+          {
+            "id": "break-cocoon-with-pickaxe",
+            "text": "Break a Dreadnought cocoon using only your pickaxe.",
+            "note": "If nothing unlocks, empty your support, utility, and grenade ammo as well, and disable @npc{Bosco} from its terminal before starting a fresh attempt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ILIKEITDOWNHERE",
+      "displayName": "I Like It Down Here",
+      "description": "Stay in one mission for an hour or longer.",
+      "hidden": true,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr+",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "mission",
+      "summary": "Stay in one mission for one hour or longer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "stay-one-hour",
+            "text": "Start any mission and remain in it for a full hour without extracting.",
+            "note": "The unlock fires as soon as the hour passes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MINER",
+      "displayName": "Miner",
+      "description": "Complete your first mission.",
+      "hidden": false,
+      "globalPercent": 92.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish any mission for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "launch-mission",
+            "text": "Pick a mission at the @loc{Mission Select terminal} and launch it."
+          },
+          {
+            "id": "extract",
+            "text": "Complete at least the primary objective and ride the @loc{Drop Pod} home."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXPERTMINER",
+      "displayName": "Expert Miner",
+      "description": "Complete 100 missions.",
+      "hidden": false,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20-40 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "progress",
+      "summary": "Complete 100 missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hundred-missions",
+            "text": "Play missions of any type to completion until the career counter reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LEGENDARYMINER",
+      "displayName": "Legendary Miner",
+      "description": "Complete 500 missions.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "100-150 hr",
+      "estMinutes": 7500,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "progress",
+      "summary": "Complete 500 missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "five-hundred-missions",
+            "text": "Keep completing missions of any type until the career counter reaches 500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STEPPINGITUP",
+      "displayName": "Stepping It Up",
+      "description": "Survive a Hazard Level 3 mission from start to finish.",
+      "hidden": false,
+      "globalPercent": 57.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Clear a Hazard Level 3 mission start to finish.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "clear-hazard-3",
+            "text": "Set the hazard level to 3 when confirming any mission and finish it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CONSISTENTPERFORMANCE",
+      "displayName": "Consistent Performance",
+      "description": "Successfully complete three Hazard Level 3 missions from start to finish in a row.",
+      "hidden": false,
+      "globalPercent": 43.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Complete three Hazard Level 3 missions in a row.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "three-hazard-3",
+            "text": "Finish three @mechanic{Hazard Level 3} missions back to back.",
+            "note": "Do not drop to a lower hazard between them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THICKSKINNED",
+      "displayName": "Thick-Skinned",
+      "description": "Survive a Hazard Level 4 mission from start to finish.",
+      "hidden": false,
+      "globalPercent": 34.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15-30 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Clear a Hazard Level 4 mission start to finish.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two or three players make the run noticeably easier than a full squad.",
+        "steps": [
+          {
+            "id": "clear-hazard-4",
+            "text": "Set the hazard level to 4 when confirming a mission and finish it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EMPLOYEEOFTHEMONTH",
+      "displayName": "Employee Of The Month",
+      "description": "Successfully complete four Hazard Level 4 missions from start to finish in a row.",
+      "hidden": false,
+      "globalPercent": 19.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Complete four Hazard Level 4 missions in a row.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "four-hazard-4",
+            "text": "Finish four @mechanic{Hazard Level 4} missions back to back.",
+            "note": "Do not drop to a lower hazard between them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GOINGLETHAL",
+      "displayName": "Going Lethal",
+      "description": "Successfully complete a Hazard Level 5 mission from start to finish.",
+      "hidden": false,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Clear a Hazard Level 5 mission start to finish.",
+      "guide": {
+        "kind": "standard",
+        "context": "Promoted dwarves and a two-player team are the recommended setup.",
+        "steps": [
+          {
+            "id": "clear-hazard-5",
+            "text": "Set the hazard level to 5 when confirming a mission and finish it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ROCKSOLID",
+      "displayName": "Rock Solid",
+      "description": "Successfully complete five Hazard Level 5 missions from start to finish in a row.",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1.5-3 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Complete five Hazard Level 5 missions in a row.",
+      "guide": {
+        "kind": "standard",
+        "context": "Play the five runs back to back without dropping to a lower hazard level in between.",
+        "steps": [
+          {
+            "id": "five-hazard-5",
+            "text": "Finish five @mechanic{Hazard Level 5} missions in a row."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AGAME",
+      "displayName": "Bring Your A-Game",
+      "description": "Successfully complete a Hazard Level 3 mission from start to finish where no dwarf goes down and without ordering a resupply.",
+      "hidden": false,
+      "globalPercent": 18.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20-40 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Finish a Hazard Level 3 mission with no dwarf downed and no resupply ordered.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "rush-objective",
+            "text": "Start a @mechanic{Hazard Level 3} mission and rush the primary objective to keep the run short."
+          },
+          {
+            "id": "no-downs-no-resupply",
+            "text": "Reach extraction without any dwarf going down and without ordering a @item{Resupply Pod}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OILEDMACHINE",
+      "displayName": "Like A Well-Oiled Machine",
+      "description": "Successfully complete a Hazard Level 4 mission from start to finish where no dwarf goes down and without ordering a resupply.",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Finish a Hazard Level 4 mission with no dwarf downed and no resupply ordered.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "skip-secondaries",
+            "text": "Start a @mechanic{Hazard Level 4} mission and skip the secondary objectives."
+          },
+          {
+            "id": "clean-run",
+            "text": "Complete the run without any dwarf going down and without ordering a @item{Resupply Pod}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KARLISPROUD",
+      "displayName": "Karl Would Be Proud",
+      "description": "Successfully complete a Hazard Level 5 mission from start to finish where no dwarf goes down and without ordering a resupply.",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1-3 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Finish a Hazard Level 5 mission with no dwarf downed and no resupply ordered.",
+      "guide": {
+        "kind": "standard",
+        "context": "The most reliable setup is two promoted Gunners with shield generators on the shortest Mining Expedition at low cave complexity and length; @item{Dark Morkite} from the @loc{Abyss Bar} helps when it is available.",
+        "steps": [
+          {
+            "id": "pick-morkite-run",
+            "text": "Take a Mining Expedition at Hazard 5 with the shortest length and lowest cave complexity, and mine Morkite only.",
+            "note": "Expect to restart several times while fishing for a clean cave."
+          },
+          {
+            "id": "no-downs-no-supply",
+            "text": "Ignore secondary objectives and Nitra, and keep the run free of downs and resupply orders."
+          },
+          {
+            "id": "beat-first-swarm",
+            "text": "Fill the Morkite quota and press the return button on the @loc{M.U.L.E.} before the first swarm lands, roughly five to six minutes in."
+          },
+          {
+            "id": "escape-cover",
+            "text": "Run to the @loc{Drop Pod}; when a swarm chases you, drop a shield generator in a narrow passage so the bugs stay behind."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MUTATEDSCAVENGER",
+      "displayName": "Mutated Scavenger",
+      "description": "Successfully complete 20 missions tagged with Warnings from start to finish.",
+      "hidden": false,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-6 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "hazard",
+      "summary": "Complete 20 missions that carry a Warning mutator.",
+      "guide": {
+        "kind": "standard",
+        "context": "Warnings are the red markers on mission select; every Warning counts, and each one adds a hazard bonus.",
+        "steps": [
+          {
+            "id": "warning-runs",
+            "text": "Pick missions tagged with a red @mechanic{Warning} and finish 20 of them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ITSMYPARTY",
+      "displayName": "It's My Party",
+      "description": "Host and complete 50 team missions.",
+      "hidden": true,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15-30 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "team",
+      "summary": "Host and finish 50 team missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the host receives credit; joining someone else's team mission does not count.",
+        "steps": [
+          {
+            "id": "host-fifty",
+            "text": "Open your own lobby and complete 50 missions with a team."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GOODSHEPHERD",
+      "displayName": "Good Shepherd",
+      "description": "Successfully complete 25 missions where at least 1 player is 10 player ranks lower than you.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8-15 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "team",
+      "summary": "Complete 25 missions with a player at least 10 player ranks below you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Player rank is the account-wide level, so a brand-new save in the squad satisfies the rank gap, and public lobbies count.",
+        "steps": [
+          {
+            "id": "mentor-runs",
+            "text": "Squad up with a player at least 10 player ranks below you and complete 25 missions together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LONEWOLF",
+      "displayName": "Lone Wolf",
+      "description": "Complete 10 solo missions.",
+      "hidden": true,
+      "globalPercent": 14.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "solo",
+      "summary": "Complete 10 missions launched with the Solo option.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the @mechanic{Solo} option counts; hosting a private lobby alone and solo Deep Dives do not.",
+        "steps": [
+          {
+            "id": "solo-ten",
+            "text": "Choose the @mechanic{Solo} option at mission select ten times and finish each run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BESTBOSCO",
+      "displayName": "Bosco, You're The Best",
+      "description": "Complete 100 solo missions.",
+      "hidden": true,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20-40 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "solo",
+      "prerequisites": [
+        "LONEWOLF"
+      ],
+      "summary": "Complete 100 missions launched with the Solo option.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only missions started with the @mechanic{Solo} option count; hosting a private lobby alone and solo Deep Dives do not.",
+        "steps": [
+          {
+            "id": "solo-hundred",
+            "text": "Keep choosing the @mechanic{Solo} option and finish 100 runs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PERFORMANCEMATTERS",
+      "displayName": "Performance Matters",
+      "description": "Complete 10 Milestones.",
+      "hidden": false,
+      "globalPercent": 51.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "progress",
+      "summary": "Complete 10 Milestones.",
+      "guide": {
+        "kind": "standard",
+        "context": "Milestones are listed at the terminal in your sleeping quarters and award perk points when completed.",
+        "steps": [
+          {
+            "id": "ten-milestones",
+            "text": "Complete 10 @mechanic{Milestones} and collect the perk points at the sleeping-quarters terminal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MANAGEMENTAPPROVES",
+      "displayName": "Management Approves",
+      "description": "Complete 25 Milestones.",
+      "hidden": false,
+      "globalPercent": 40.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2-4 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "progress",
+      "summary": "Complete 25 Milestones.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "twenty-five-milestones",
+            "text": "Keep completing @mechanic{Milestones} from the sleeping-quarters terminal until 25 are done."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FEELINGPERKY",
+      "displayName": "Feelin' Perky",
+      "description": "Unlock 10 Perk Nodes.",
+      "hidden": false,
+      "globalPercent": 45.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "progress",
+      "summary": "Unlock 10 Perk Nodes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Perk Nodes are purchased with perk points earned from Milestones.",
+        "steps": [
+          {
+            "id": "ten-perk-nodes",
+            "text": "Spend perk points on 10 nodes in the perk tree at the sleeping-quarters terminal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MOVINGONUP",
+      "displayName": "Movin' On Up",
+      "description": "Promote any Dwarf at least once.",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10-15 hr",
+      "estMinutes": 720,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "summary": "Promote one dwarf.",
+      "guide": {
+        "kind": "standard",
+        "context": "Promotion opens at class level 25 and needs that dwarf's promotion assignment; the assignment missions can be played on any class.",
+        "steps": [
+          {
+            "id": "level-to-25",
+            "text": "Level one class to 25.",
+            "note": "Double XP, higher hazards, Warnings, and longer missions speed up class XP."
+          },
+          {
+            "id": "promotion-assignment",
+            "text": "Complete the promotion assignment offered at the @loc{Assignment Terminal}."
+          },
+          {
+            "id": "buy-promotion",
+            "text": "Promote the dwarf at the character selection terminal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CORPORATECLIMBER",
+      "displayName": "Corporate Climber",
+      "description": "Promote any two Dwarves at least once.",
+      "hidden": false,
+      "globalPercent": 13.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15-25 hr",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "MOVINGONUP"
+      ],
+      "summary": "Promote two different dwarves at least once each.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "two-promotions",
+            "text": "Repeat the level-25 promotion routine until two classes have been promoted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HATTRICK",
+      "displayName": "Hat Trick",
+      "description": "Promote any three Dwarves at least once.",
+      "hidden": false,
+      "globalPercent": 9.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25-35 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "MOVINGONUP"
+      ],
+      "summary": "Promote three different dwarves at least once each.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "three-promotions",
+            "text": "Repeat the level-25 promotion routine until three classes have been promoted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FULLTEAMAHEAD",
+      "displayName": "Full Team Ahead",
+      "description": "Promote all four Dwarves at least once.",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "35-50 hr",
+      "estMinutes": 2400,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "MOVINGONUP"
+      ],
+      "summary": "Promote each of the four classes once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "four-promotions",
+            "text": "Repeat the level-25 promotion routine until every class has been promoted."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SILVEREMPLOYEE",
+      "displayName": "Silver-Tier Employee",
+      "description": "Earn a Silver promotion.",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20-40 hr",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "MOVINGONUP"
+      ],
+      "summary": "Earn a Silver promotion on any dwarf.",
+      "guide": {
+        "kind": "standard",
+        "context": "Silver is the fourth promotion on a single class, so the dwarf must finish four level-25 promotion cycles.",
+        "steps": [
+          {
+            "id": "silver-promotion",
+            "text": "Promote one dwarf four times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GOLDEMPLOYEE",
+      "displayName": "Gold-Tier Employee",
+      "description": "Earn a Gold promotion.",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "50-80 hr",
+      "estMinutes": 3600,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "MOVINGONUP"
+      ],
+      "summary": "Earn a Gold promotion on any dwarf.",
+      "guide": {
+        "kind": "standard",
+        "context": "Gold is the seventh promotion on a single class.",
+        "steps": [
+          {
+            "id": "gold-promotion",
+            "text": "Promote one dwarf seven times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROTEAM",
+      "displayName": "Pro-Team",
+      "description": "Earn Silver Promotions for all four dwarves.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "80-120 hr",
+      "estMinutes": 6000,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "SILVEREMPLOYEE"
+      ],
+      "summary": "Earn a Silver promotion on every one of the four classes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "silver-all-classes",
+            "text": "Promote every class four times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LEGENDARYTEAM",
+      "displayName": "Legendary-Team",
+      "description": "Earn Gold Promotions for all four dwarves.",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "120-180 hr",
+      "estMinutes": 9000,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "promotion",
+      "prerequisites": [
+        "GOLDEMPLOYEE"
+      ],
+      "summary": "Earn a Gold promotion on every one of the four classes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "gold-all-classes",
+            "text": "Promote every class seven times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXPLORINGMYOPTIONS",
+      "displayName": "Exploring My Options",
+      "description": "Unlock a new primary and secondary weapon for one character.",
+      "hidden": true,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-6 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "gear",
+      "summary": "Unlock one new primary and one new secondary weapon on the same character.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "primary-license",
+            "text": "Reach class level 10 and complete the primary weapon license assignment at the @loc{Assignment Terminal}."
+          },
+          {
+            "id": "secondary-license",
+            "text": "Reach class level 15 and complete the secondary weapon license assignment for the same class."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STATEOFTHEART",
+      "displayName": "State Of The Art",
+      "description": "Fill every mod tier of one of each upgradable item on a single character.",
+      "hidden": true,
+      "globalPercent": 32.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-6 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "gear",
+      "summary": "Fill every mod tier of one item from each upgradable category on a single character.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "full-mod-tiers",
+            "text": "At the @loc{Equipment Terminal}, purchase all mod tiers for one primary, one secondary, the pickaxe, one support tool, one utility item, and the armor rig of the same character."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ADVANCEDROBOTICS",
+      "displayName": "Advanced Robotics",
+      "description": "Fill every mod tier for Bosco.",
+      "hidden": true,
+      "globalPercent": 28.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "gear",
+      "summary": "Fill every mod tier for @npc{Bosco}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "bosco-mods",
+            "text": "Open the @loc{Drone Modification terminal} and buy every mod tier for @npc{Bosco}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MUSTACHO",
+      "displayName": "Mustacho",
+      "description": "Purchase five moustaches for one character.",
+      "hidden": false,
+      "globalPercent": 19.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-shop",
+      "summary": "Buy five moustaches for one character.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "five-moustaches",
+            "text": "Purchase five @item{moustaches} for the same character from the @loc{Shop}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TOTALMAKEOVER",
+      "displayName": "Total Makeover",
+      "description": "Customize each accessory slot of a character.",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15-30 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "rig-shop",
+      "summary": "Equip an item in every accessory slot of one character.",
+      "guide": {
+        "kind": "standard",
+        "context": "The ten slots are eyebrows, sideburns, moustache, beard, hair color, headwear, armor, paintjob, skin color, and victory move.",
+        "steps": [
+          {
+            "id": "buy-each-slot",
+            "text": "Buy an item for each slot from the @loc{Shop}."
+          },
+          {
+            "id": "equip-from-wardrobe",
+            "text": "Equip each purchase from the @loc{Wardrobe}; items bought in the shop are not equipped automatically."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BABYDIVER",
+      "displayName": "Going Deeper",
+      "description": "Complete A Deep Dive",
+      "hidden": false,
+      "globalPercent": 18.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40-80 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "deep-dive",
+      "summary": "Complete a Deep Dive.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Deep Dive chains three missions back to back at Hazard 3, 3.5, and 3.5, with ammo and mined Nitra carrying over between stages.",
+        "steps": [
+          {
+            "id": "start-deep-dive",
+            "text": "Launch the weekly Deep Dive from the @loc{Deep Dive terminal} on the @loc{Space Rig}."
+          },
+          {
+            "id": "clear-three-stages",
+            "text": "Finish all three stages, carrying enough ammo into each one because supplies persist."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXPERTDIVER",
+      "displayName": "Elite Diver",
+      "description": "Complete An Elite Deep Dive",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-3 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "deep-dive",
+      "summary": "Complete an Elite Deep Dive.",
+      "guide": {
+        "kind": "standard",
+        "context": "An Elite Deep Dive runs three stages that climb from Hazard 4.5 to 5.5, and only one is available each week.",
+        "steps": [
+          {
+            "id": "start-elite-dive",
+            "text": "Launch the weekly @mechanic{Elite Deep Dive} from the Deep Dive terminal."
+          },
+          {
+            "id": "clear-elite-stages",
+            "text": "Mine all the Nitra you can and finish all three stages; active perks and @npc{Bosco} revives reset between stages, so use them freely."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OUTATIME",
+      "displayName": "Deep For Speed",
+      "description": "Complete Any Deep Dive Under 45 Minutes",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45-90 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "deep-dive",
+      "summary": "Finish a Deep Dive in under 45 minutes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Solo dives are usually faster because fewer enemies spawn and resupplies are not shared.",
+        "steps": [
+          {
+            "id": "objectives-only",
+            "text": "Start any @mechanic{Deep Dive} and work only on objectives, mining easy Nitra along the way."
+          },
+          {
+            "id": "under-45",
+            "text": "Clear all three stages within 45 minutes total.",
+            "note": "If this week's dive is too slow, the next weekly seed offers a fresh attempt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "VETERANDIVER",
+      "displayName": "Veteran Diver",
+      "description": "Complete Any 5 Deep Dives",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "4-6 hr",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "deep-dive",
+      "summary": "Complete five Deep Dives.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each week offers one normal Dive and one Elite Dive; both types count toward the five.",
+        "steps": [
+          {
+            "id": "five-dives",
+            "text": "Finish five complete @mechanic{Deep Dives} across as many weeks as needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DRILLBYSHOOTING",
+      "displayName": "Drill-by Shooting",
+      "description": "Ride the Drilldozer with three other dwarves and kill 15 enemies each without leaving.",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20-50 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "ride",
+      "summary": "With three other dwarves aboard, ride the Drilldozer and have each dwarf kill 15 enemies without leaving.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each dwarf's 15 kills are counted separately, and only dwarves who reach the number receive the achievement.",
+        "steps": [
+          {
+            "id": "full-team-ride",
+            "text": "Start an @mechanic{Escort Duty} mission with a full team of four and have everyone ride the @loc{Drilldozer}."
+          },
+          {
+            "id": "fifteen-kills-each",
+            "text": "Kill 15 enemies on each dwarf without anyone leaving the Drilldozer.",
+            "note": "The swarms that trigger every time the Drilldozer starts moving are the best opportunity."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LONGPIPE",
+      "displayName": "Roller Coaster",
+      "description": "Grind on a pipe for 120 seconds without stopping.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20-60 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "ride",
+      "summary": "Grind along a pipeline for 120 seconds without stopping.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pipes are built in On-Site Refining missions and have no known length limit, but a pipe that has been connected to a Morkite well can no longer be extended.",
+        "steps": [
+          {
+            "id": "build-long-pipeline",
+            "text": "In an @mechanic{On-Site Refining} mission, build the full pipeline as a long spiral through a wide-open cave such as @loc{Sandblasted Corridors}, using Engineer platforms along the walls to stretch it out."
+          },
+          {
+            "id": "grind-two-minutes",
+            "text": "Ride the pipe for two minutes straight without jumping off.",
+            "note": "Speed builds on downhill slopes, so aim for a long descending stretch."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "BIGSPENDER",
+    "DISCJOCKEY",
+    "PARTYTIME",
+    "HAPPYFEET",
+    "BARRELRIDER",
+    "NOTHOWYOUPLAY",
+    "DARWINAWARD",
+    "BARRELKICKER",
+    "THEATEAM",
+    "SELFCONTROL",
+    "FOREIGNOBJECT",
+    "TIMEWELLSPENT",
+    "GETPAIDFORTHIS",
+    "MUSTACHO",
+    "TOTALMAKEOVER",
+    "MINER",
+    "APPROVED_GREENBEARD",
+    "ADVANCEDROBOTICS",
+    "EXPLORINGMYOPTIONS",
+    "STATEOFTHEART",
+    "STEPPINGITUP",
+    "CONSISTENTPERFORMANCE",
+    "THICKSKINNED",
+    "EMPLOYEEOFTHEMONTH",
+    "AGAME",
+    "GOINGLETHAL",
+    "OILEDMACHINE",
+    "ROCKSOLID",
+    "MUTATEDSCAVENGER",
+    "KARLISPROUD",
+    "PERFORMANCEMATTERS",
+    "FEELINGPERKY",
+    "MANAGEMENTAPPROVES",
+    "EXPERTMINER",
+    "LEGENDARYMINER",
+    "MOVINGONUP",
+    "CORPORATECLIMBER",
+    "HATTRICK",
+    "SILVEREMPLOYEE",
+    "FULLTEAMAHEAD",
+    "GOLDEMPLOYEE",
+    "PROTEAM",
+    "LEGENDARYTEAM",
+    "LONEWOLF",
+    "BESTBOSCO",
+    "GOODSHEPHERD",
+    "ITSMYPARTY",
+    "PROSPECTOR",
+    "JEWELER",
+    "WHATISTHIS",
+    "BETCTIME",
+    "DESIGNATEDDECOY",
+    "PESTCONTROL",
+    "WITHOUTAPADDLE",
+    "BUGHUNT",
+    "MINIFIXER",
+    "HITWHEREITHURTS",
+    "CYADETONATOR",
+    "BIGGAMEHUNTER",
+    "ILIKEITDOWNHERE",
+    "MOLLYRIDER",
+    "FARMER",
+    "DRILLBYSHOOTING",
+    "LONGPIPE",
+    "CARPOOL",
+    "BABYDIVER",
+    "OUTATIME",
+    "EXPERTDIVER",
+    "VETERANDIVER"
+  ]
+}

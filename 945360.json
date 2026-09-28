@@ -1,0 +1,1204 @@
+{
+  "game": {
+    "appid": 945360,
+    "slug": "among-us",
+    "title": "Among Us",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-09",
+    "estTotalHours": 15,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Classic mode role achievements",
+      "description": "Play Classic mode games in a private lobby with helper players so you can pick or force the role you need. Get the single-event Impostor and Crewmate achievements, then the four map wins.",
+      "achievementRefs": [
+        "kills_first",
+        "kills_easy",
+        "task_complete_easy",
+        "wins_skeld",
+        "wins_mira",
+        "wins_polus",
+        "wins_airship",
+        "win_all_tasks",
+        "win_sabotage",
+        "win_kills",
+        "survive_crewmate",
+        "win_impostor_vote",
+        "card_first_try",
+        "kill_during_lights",
+        "fix_own_sabotage",
+        "win_always_correct_votes",
+        "no_vents_impostor_win"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Lobby-settings achievements",
+      "description": "Change the lobby settings for the setup-heavy unlocks: two Impostors, Shapeshifter, Guardian Angel, a short kill cooldown, and Submit Scan. Use helper players.",
+      "achievementRefs": [
+        "kills_medium",
+        "task_complete_medium",
+        "survive_two_impostors",
+        "die_during_medscan",
+        "three_kills_before_meeting",
+        "kill_while_shifted",
+        "block_kill_as_guardian"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Counter grinds and Hide n Seek",
+      "description": "Finish the long counters last: 150 Classic kills, 500 tasks, and the Hide n Seek wins and seeker kills. Use a private lobby where you choose the seeker.",
+      "achievementRefs": [
+        "kills_hard",
+        "task_complete_hard",
+        "hns_survive_crewmate",
+        "hns_impostor_kill_all",
+        "hns_complete_all_tasks",
+        "hns_crewmate_wins_easy",
+        "hns_crewmate_wins_hard",
+        "hns_impostor_kills_easy",
+        "hns_impostor_kills_hard"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "kills_first",
+      "displayName": "A TASTE FOR IT",
+      "description": "Get your first kill",
+      "hidden": false,
+      "globalPercent": 46.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 game",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Get your first kill as the Impostor in a Classic mode game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first-kill",
+            "text": "Play a Classic game as the Impostor and kill one Crewmate."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "kills_easy",
+      "displayName": "KILLER",
+      "description": "Get 5 total kills",
+      "hidden": false,
+      "globalPercent": 32.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-3 games",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Get 5 total kills as the Impostor in Classic mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "five-kills",
+            "text": "Kill Crewmates as the Impostor in Classic games until your total reaches 5."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "kills_medium",
+      "displayName": "ASSASSIN",
+      "description": "Get 50 total kills",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Get 50 total kills as the Impostor in Classic mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private Classic lobby with helper players and lower the @mechanic{Impostor kill cooldown} in the lobby settings."
+          },
+          {
+            "id": "kill-fast",
+            "text": "When you are the Impostor, kill everyone as fast as you can. If you are not, vote out the Impostor and start a new game."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat until your total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "kills_hard",
+      "displayName": "SCOURGE",
+      "description": "Get 150 total kills as the Impostor in Classic mode.",
+      "hidden": true,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-4 hours",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Get 150 total kills as the Impostor in Classic mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam. Only Classic mode kills are listed as counting.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private Classic lobby with helper players and lower the @mechanic{Impostor kill cooldown} in the lobby settings."
+          },
+          {
+            "id": "kill-fast",
+            "text": "When you are the Impostor, kill everyone as fast as you can. If you are not, vote out the Impostor and start a new game."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat until your total reaches 150."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "task_complete_easy",
+      "displayName": "INTERN",
+      "description": "Complete 10 total tasks",
+      "hidden": false,
+      "globalPercent": 44.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 games",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete 10 tasks in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ten-tasks",
+            "text": "Finish tasks as a Crewmate until your total reaches 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "task_complete_medium",
+      "displayName": "MANAGER",
+      "description": "Complete 100 total tasks",
+      "hidden": false,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete 100 tasks in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private lobby with helper players and set the number of tasks to the maximum in the lobby settings."
+          },
+          {
+            "id": "do-tasks",
+            "text": "Play as a Crewmate and finish tasks. Ask helpers to leave the tasks to you."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat until your total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "task_complete_hard",
+      "displayName": "TASKMASTER",
+      "description": "Complete 500 tasks in total.",
+      "hidden": true,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-5 hours",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete 500 tasks in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam. One player reported 566 tasks without the unlock, so keep playing if it does not appear right away.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private lobby with helper players and set the number of tasks to the maximum in the lobby settings."
+          },
+          {
+            "id": "do-tasks",
+            "text": "Play as a Crewmate and finish tasks. Ask helpers to leave the tasks to you."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat until your total reaches 500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wins_skeld",
+      "displayName": "A SHIP ADRIFT",
+      "description": "Win 3 games on Skeld",
+      "hidden": false,
+      "globalPercent": 41.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win 3 games on the Skeld map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Set the map to Skeld in a private lobby. Win 3 games there as either role."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wins_mira",
+      "displayName": "CORPORATE LOCKDOWN",
+      "description": "Win 3 games on MIRA",
+      "hidden": false,
+      "globalPercent": 9.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win three games played on the MIRA HQ map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Set the map to MIRA HQ in a private lobby. Win 3 games there as either role."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wins_polus",
+      "displayName": "UNEARTHED",
+      "description": "Win 3 games on Polus",
+      "hidden": false,
+      "globalPercent": 15.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win three games played on the Polus map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Set the map to Polus in a private lobby. Win 3 games there as either role."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wins_airship",
+      "displayName": "TOPPAT CREWMATES",
+      "description": "Win 3 games on The Airship",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win three games played on The Airship map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Set the map to The Airship in a private lobby. Win 3 games there as either role."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "survive_two_impostors",
+      "displayName": "NEVER SUSPECT A THING",
+      "description": "Win a game with 2 Impostors while both Impostors are still alive at the end.",
+      "hidden": true,
+      "globalPercent": 25.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win a game with 2 Impostors while both Impostors are still alive at the end.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam. You can also filter public matchmaking for 2-Impostor games and repeat until you are Impostor and win with both alive.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private lobby with 5 players and set the number of Impostors to 2 in the lobby computer."
+          },
+          {
+            "id": "kill-one",
+            "text": "As one Impostor, kill one Crewmate so the Impostors win with both alive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "win_all_tasks",
+      "displayName": "A WELL-OILED MACHINE",
+      "description": "Win a game by completing all tasks as a crewmate",
+      "hidden": false,
+      "globalPercent": 28.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a game as a Crewmate by completing all tasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "In a private lobby, set common, long and short tasks to 0 and Task Bar Updates to Always."
+          },
+          {
+            "id": "finish",
+            "text": "Have every Crewmate finish their tasks until the task bar fills."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "win_sabotage",
+      "displayName": "SABOTEUR",
+      "description": "Win a game by sabotaging a critical system as Impostor.",
+      "hidden": false,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a game as the Impostor by letting a critical sabotage run out.",
+      "guide": {
+        "kind": "standard",
+        "context": "Playing alone, kill Crewmates until only 2 or 3 remain before you start the critical sabotage.",
+        "steps": [
+          {
+            "id": "sabotage",
+            "text": "As the Impostor, press Tab and start the O2 sabotage."
+          },
+          {
+            "id": "wait",
+            "text": "Wait for the timer to run out without any Crewmate fixing it. Helpers can simply not fix it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "win_kills",
+      "displayName": "SLASHER",
+      "description": "Win a game by killing all crewmates as Impostor.",
+      "hidden": false,
+      "globalPercent": 33.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a game as the Impostor by killing all Crewmates.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "kill-all",
+            "text": "Play as the Impostor and kill Crewmates until none are left."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "survive_crewmate",
+      "displayName": "SURVIVOR",
+      "description": "Survive and win a game as a crewmate",
+      "hidden": false,
+      "globalPercent": 48.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-3 games",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a game as a Crewmate while you are still alive at the end.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survive",
+            "text": "Play as a Crewmate, stay alive, and win by finishing tasks or voting out the Impostors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "win_impostor_vote",
+      "displayName": "SMOOTH TALKER",
+      "description": "Win a game by vote as Impostor",
+      "hidden": false,
+      "globalPercent": 24.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a game as the Impostor when the winning ejection is a vote, not a kill.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "kill",
+            "text": "Kill one Crewmate, then report the body."
+          },
+          {
+            "id": "vote",
+            "text": "In the meeting, have everyone vote out another Crewmate so the Impostors reach the winning number."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "card_first_try",
+      "displayName": "IMPOSSIBLE TASK",
+      "description": "Complete the Swipe Card task in Admin on your first try in a game.",
+      "hidden": true,
+      "globalPercent": 40.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the Swipe Card task in Admin on your first try in a game.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam. Practice mode lets you learn the speed first.",
+        "steps": [
+          {
+            "id": "admin",
+            "text": "As a Crewmate, get the Swipe Card task and go to the Admin room."
+          },
+          {
+            "id": "swipe",
+            "text": "Swipe the card once at a steady speed. A swipe that is too slow or too fast counts as a failed try."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "kill_during_lights",
+      "displayName": "LIGHTS OUT",
+      "description": "Get a kill during a lights sabotage",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-3 games",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Get a kill as the Impostor while the Lights sabotage is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lights",
+            "text": "As the Impostor, press Tab and start the Lights sabotage."
+          },
+          {
+            "id": "kill",
+            "text": "Get near a Crewmate and press Kill before anyone fixes the lights."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "die_during_medscan",
+      "displayName": "WATCH ME SCAN",
+      "description": "Be killed while doing the Submit Scan task in MedBay.",
+      "hidden": true,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Be killed while doing the Submit Scan task in MedBay.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam. Playing alone, keep starting and cancelling the scan until the Impostor finds you.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "In a private lobby, use these settings: Visual Tasks on, Task Bar Updates Always, 2 common, 3 long and 5 short tasks."
+          },
+          {
+            "id": "task",
+            "text": "Start the game as a Crewmate. If you do not get Submit Scan, leave and start a new game."
+          },
+          {
+            "id": "scan",
+            "text": "Go to MedBay and start the scan, then have the Impostor kill you before it ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "fix_own_sabotage",
+      "displayName": "CREWPOSTOR",
+      "description": "Fix a sabotage that you started as the Impostor.",
+      "hidden": true,
+      "globalPercent": 27.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 games",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Fix a sabotage that you started as the Impostor.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam.",
+        "steps": [
+          {
+            "id": "sabotage",
+            "text": "As the Impostor, start the Lights sabotage."
+          },
+          {
+            "id": "fix",
+            "text": "Go to the power supply and complete the Lights fix yourself."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "three_kills_before_meeting",
+      "displayName": "H U N G E R",
+      "description": "Get 3 kills as the Impostor before any meeting is called.",
+      "hidden": true,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 games",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Get 3 kills as the Impostor before any meeting is called.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a game with at least 5 players and lower the @mechanic{Impostor kill cooldown} to about 10 seconds."
+          },
+          {
+            "id": "kills",
+            "text": "As the Impostor, kill 3 Crewmates who are alone before anyone reports a body."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "win_always_correct_votes",
+      "displayName": "SHERLOCK",
+      "description": "Win a game as crew with your only votes being for the Impostor",
+      "hidden": false,
+      "globalPercent": 43.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win as a Crewmate after casting votes only for the Impostor.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "meeting",
+            "text": "Call an emergency meeting once you know who the Impostor is."
+          },
+          {
+            "id": "vote",
+            "text": "Vote for the Impostor and never vote for anyone else or skip. In a private lobby, all helpers can vote the same way."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "no_vents_impostor_win",
+      "displayName": "CIRCUMVENTER",
+      "description": "Win a game as the Impostor without using a vent.",
+      "hidden": true,
+      "globalPercent": 29.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a game as the Impostor without using a vent.",
+      "guide": {
+        "kind": "standard",
+        "context": "This achievement is hidden on Steam.",
+        "steps": [
+          {
+            "id": "no-vent",
+            "text": "Play as the Impostor and win by kills or votes without entering any vent."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_survive_crewmate",
+      "displayName": "HIDDEN TALENT",
+      "description": "Survive a Game as Crew in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 9.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Survive until the end of a Hide n Seek game as a Crewmate.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hide",
+            "text": "Play Hide n Seek as a hider and stay alive until the game ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_impostor_kill_all",
+      "displayName": "NO ESCAPE",
+      "description": "Kill all hiders as impostor in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill all hiders as the Impostor in Hide n Seek mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "seek",
+            "text": "Play Hide n Seek as the Impostor and kill every hider. Press Q to kill, which works better than clicking."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_complete_all_tasks",
+      "displayName": "PERFORM UNDER PRESSURE",
+      "description": "Do all your tasks in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete all your tasks as a Crewmate in Hide n Seek mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tasks",
+            "text": "Play Hide n Seek as a Crewmate and finish every task you are given. You do not have to win or survive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "kill_while_shifted",
+      "displayName": "TRUST NO ONE",
+      "description": "Kill Someone while disguised as them",
+      "hidden": false,
+      "globalPercent": 8.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 games",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "As a Shapeshifter Impostor, kill a Crewmate while disguised as another Crewmate.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "In the lobby settings, turn on Shapeshifter and make sure you are the Shapeshifter."
+          },
+          {
+            "id": "shift",
+            "text": "Press the Shift button in the bottom right and pick a Crewmate."
+          },
+          {
+            "id": "kill",
+            "text": "While still disguised, get near a Crewmate and kill them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "block_kill_as_guardian",
+      "displayName": "I CAN BE YOUR ANGLE",
+      "description": "Block a kill as a guardian angel",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-3 games",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "As a Guardian Angel, shield a Crewmate from an Impostor's kill.",
+      "guide": {
+        "kind": "standard",
+        "context": "In a private lobby, a helper Impostor can kill you first and then try to kill your protected target.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "In the lobby settings, turn on Guardian Angel."
+          },
+          {
+            "id": "die",
+            "text": "Die in a game. You become a Guardian Angel."
+          },
+          {
+            "id": "protect",
+            "text": "Use Protect on a living Crewmate, then wait for the Impostor to try to kill them. The shield blocks the kill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_crewmate_wins_easy",
+      "displayName": "YOU CAN'T RUN",
+      "description": "10 wins as a hider in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win ten Hide n Seek games while playing a Crewmate hider.",
+      "guide": {
+        "kind": "standard",
+        "context": "In a private lobby, a fast win is to have the seeker's helper leave the game.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private Hide n Seek lobby with helper players."
+          },
+          {
+            "id": "win",
+            "text": "Win as a hider 10 times. You do not need to be alive at the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_crewmate_wins_hard",
+      "displayName": "BUT YOU CAN HIDE",
+      "description": "50 wins as a hider in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4-6 hours",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win fifty Hide n Seek games while playing a Crewmate hider.",
+      "guide": {
+        "kind": "standard",
+        "context": "In a private lobby, a fast win is to have the seeker's helper leave the game.",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private Hide n Seek lobby with helper players."
+          },
+          {
+            "id": "win",
+            "text": "Win as a hider 50 times. You do not need to be alive at the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_impostor_kills_easy",
+      "displayName": "YOU CAN RUN",
+      "description": "100 kills as a seeker in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill 100 hiders in total while playing the seeker in Hide n Seek.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private Hide n Seek lobby and choose yourself as the Impostor in the lobby computer settings."
+          },
+          {
+            "id": "kill",
+            "text": "Kill hiders every match until your total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hns_impostor_kills_hard",
+      "displayName": "BUT YOU CAN'T HIDE",
+      "description": "200 kills as a seeker in Hide n Seek Mode",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-3 hours",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill 200 hiders in total while playing the seeker in Hide n Seek.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lobby",
+            "text": "Host a private Hide n Seek lobby and choose yourself as the Impostor in the lobby computer settings."
+          },
+          {
+            "id": "kill",
+            "text": "Kill hiders every match until your total reaches 200."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "kills_first",
+    "kills_easy",
+    "kills_medium",
+    "kills_hard",
+    "task_complete_easy",
+    "task_complete_medium",
+    "task_complete_hard",
+    "wins_skeld",
+    "wins_mira",
+    "wins_polus",
+    "wins_airship",
+    "survive_two_impostors",
+    "win_all_tasks",
+    "win_sabotage",
+    "win_kills",
+    "survive_crewmate",
+    "win_impostor_vote",
+    "card_first_try",
+    "kill_during_lights",
+    "die_during_medscan",
+    "fix_own_sabotage",
+    "three_kills_before_meeting",
+    "win_always_correct_votes",
+    "no_vents_impostor_win",
+    "hns_survive_crewmate",
+    "hns_impostor_kill_all",
+    "hns_complete_all_tasks",
+    "kill_while_shifted",
+    "block_kill_as_guardian",
+    "hns_crewmate_wins_easy",
+    "hns_crewmate_wins_hard",
+    "hns_impostor_kills_easy",
+    "hns_impostor_kills_hard"
+  ]
+}

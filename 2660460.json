@@ -1,0 +1,497 @@
+﻿{
+  "game": {
+    "appid": 2660460,
+    "slug": "aviassembly",
+    "title": "Aviassembly",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-12",
+    "estTotalHours": 10,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-09-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Plan the campaign run around the missable restrictions",
+      "description": "Play in Relaxed Mode and research only Wood Engines until the final Radioactive Waste delivery. During normal missions, use a wingless ground vehicle for Cargo truck, Wingless and Airship, and a two-goods request for Two Birds, One Flight.",
+      "achievementRefs": [
+        "ACH_WOOD_ENGINE",
+        "ACH_CAMPAIGN",
+        "ACH_CARGO_TRUCK",
+        "ACH_WINGLESS",
+        "ACH_AIRSHIP",
+        "ACH_ONE_FLIGHT"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish the remaining missions and free-flight goals",
+      "description": "After the campaign, research other engines for the Speed and Edge of space achievements, then finish every remaining airport mission, including the prison island, SOS camp and helipad ships.",
+      "achievementRefs": [
+        "ACH_SPEED_1",
+        "ACH_SPEED_2",
+        "ACH_SPEED_3",
+        "ACH_HEIGHT",
+        "ACH_COMPLETIONIST"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_CARGO_TRUCK",
+      "displayName": "Cargo truck",
+      "description": "Make a delivery without leaving the ground",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "campaign",
+      "sortReason": "Missable once every mission is done; combine with Wingless and Airship.",
+      "prerequisites": [],
+      "lockoutStage": 1,
+      "summary": "Complete a delivery without ever leaving the ground.",
+      "guide": {
+        "kind": "standard",
+        "context": "This only works during an active delivery, so it cannot be earned after every mission is finished. The flat Desert Island is the easiest place.",
+        "steps": [
+          {
+            "id": "ach-cargo-truck-1",
+            "text": "Build a ground vehicle with @item{Wood Engines}, large @item{Retractable Gears} for ground clearance, and plenty of fuel tanks."
+          },
+          {
+            "id": "ach-cargo-truck-2",
+            "text": "Load cargo, for example @item{Titanium} at the @loc{Mine}, and drive the whole way to the delivery point. Avoid large hills, which Wood Engines cannot climb."
+          },
+          {
+            "id": "ach-cargo-truck-3",
+            "text": "Deliver the cargo. Small hops do not count as flying."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CAMPAIGN",
+      "displayName": "Campaign",
+      "description": "Finish the campaign",
+      "hidden": false,
+      "globalPercent": 13.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Whole campaign",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "campaign",
+      "sortReason": "Final delivery of the campaign.",
+      "prerequisites": [],
+      "summary": "Finish the campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Side missions are optional, but they earn money and scrap.",
+        "steps": [
+          {
+            "id": "ach-campaign-1",
+            "text": "Complete the main missions on the starting island, the snow island and the desert island."
+          },
+          {
+            "id": "ach-campaign-2",
+            "text": "On the desert island, pick up the @item{Radioactive Waste} at the @loc{Nuclear Power Plant} and take it to the @loc{Waste Storage}. The ending cutscene unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WOOD_ENGINE",
+      "displayName": "Wood engine",
+      "description": "Finish the campaign with wood engines only",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Whole campaign",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "campaign",
+      "sortReason": "Set up at the start of the run; unlocks with Campaign.",
+      "prerequisites": [],
+      "lockoutStage": 1,
+      "summary": "Finish the campaign using only wood engines.",
+      "guide": {
+        "kind": "standard",
+        "context": "Researching any other engine type ruins the run, so do not unlock one until the final waste delivery is done. Other parts such as cockpits, tanks, wings and landing gear are fine. @warn{Do not research other engines.}",
+        "steps": [
+          {
+            "id": "ach-wood-engine-1",
+            "text": "Play the whole campaign in Relaxed Mode and research only non-engine parts."
+          },
+          {
+            "id": "ach-wood-engine-2",
+            "text": "Stack @item{Wood Engines} inside each other to cut drag, and add balloons or extra engines to lift heavy cargo."
+          },
+          {
+            "id": "ach-wood-engine-3",
+            "text": "Finish the campaign's last delivery: drop off the @item{Radioactive Waste} at @loc{Waste Storage}. This unlocks the achievement together with Campaign."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WINGLESS",
+      "displayName": "Wingless",
+      "description": "Complete a mission with a plane that has no wings",
+      "hidden": false,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Same run as Cargo truck",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "campaign",
+      "sortReason": "Combine with Cargo truck and Airship.",
+      "prerequisites": [],
+      "lockoutStage": 1,
+      "summary": "Finish a mission using a plane with no wings.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tail wings count as wings, so do not use them either. This needs an active delivery and cannot be earned after every mission is finished.",
+        "steps": [
+          {
+            "id": "ach-wingless-1",
+            "text": "Build a vehicle with no wings or tail wings. A ground vehicle is the easiest choice."
+          },
+          {
+            "id": "ach-wingless-2",
+            "text": "Deliver the cargo for any mission with it. You can combine this with Cargo truck and Airship."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ONE_FLIGHT",
+      "displayName": "Two Birds, One Flight",
+      "description": "Complete 2 missions using only a single takeoff and landing.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "During campaign",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "campaign",
+      "sortReason": "Earned naturally on the Hermit fish and crab request.",
+      "prerequisites": [],
+      "lockoutStage": 1,
+      "summary": "Complete two missions with one takeoff and landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each request that asks for two goods counts as two missions. You can split earlier deliveries over several flights, but the last delivery must finish both missions on one flight.",
+        "steps": [
+          {
+            "id": "ach-one-flight-1",
+            "text": "Take a request that asks for two goods at one airport, such as @item{fish} and @item{crabs} for @loc{Hermit}."
+          },
+          {
+            "id": "ach-one-flight-2",
+            "text": "Deliver part of both goods on earlier flights, and keep some of both for the last flight."
+          },
+          {
+            "id": "ach-one-flight-3",
+            "text": "On that last flight, carry the remaining amounts of both goods together and deliver both in a single takeoff and landing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMPLETIONIST",
+      "displayName": "Completionist",
+      "description": "Complete every mission in the campaign",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "cleanup",
+      "sortReason": "Needs every airport, including prison and helipad ships.",
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "summary": "Complete every mission in the campaign.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each airport gives its missions only after you land there, so you must visit every airport.",
+        "steps": [
+          {
+            "id": "ach-completionist-1",
+            "text": "Land at every airport and finish all of its missions. Hover over airports on the map to see which still have missions."
+          },
+          {
+            "id": "ach-completionist-2",
+            "text": "Do not skip the two airports on the starting island (west and center), the two by the wrecked ship in the south, and the @loc{SOS camp} on the snow island's northwest edge."
+          },
+          {
+            "id": "ach-completionist-3",
+            "text": "Finish the missions at @loc{Hermit} and on the prison island, east or northeast of the starting island. Players report the achievement stays locked until the prison island is done."
+          },
+          {
+            "id": "ach-completionist-4",
+            "text": "Use a helicopter for the four ship helipad missions: @loc{WaveRider} on the snow island's west side, @loc{IronSail} on its north side by the Factory, @loc{DawnBreaker} on its east side, and @loc{OilTanker} off the desert island's west coast. Hover near the ship and wait for the radio message. Then set down on the ship and pick up the reward."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_AIRSHIP",
+      "displayName": "Airship",
+      "description": "Complete a mission without exceeding a speed of 50 between takeoff and landing",
+      "hidden": false,
+      "globalPercent": 6.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Same run as Cargo truck",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "campaign",
+      "sortReason": "Combine with Cargo truck and Wingless.",
+      "prerequisites": [],
+      "lockoutStage": 1,
+      "summary": "Complete a mission without going faster than 50 between takeoff and landing.",
+      "guide": {
+        "kind": "standard",
+        "context": "You do not need an actual airship. This needs an active delivery and cannot be earned after every mission is finished.",
+        "steps": [
+          {
+            "id": "ach-airship-1",
+            "text": "Build a slow ground vehicle, or any craft that stays under 50 speed."
+          },
+          {
+            "id": "ach-airship-2",
+            "text": "Deliver a mission's cargo without going over 50. You can combine this with Cargo truck and Wingless."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEED_1",
+      "displayName": "Speed 1",
+      "description": "Reach a speed of 500",
+      "hidden": false,
+      "globalPercent": 19.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "free flight",
+      "sortReason": "Same rocket flight as Speed 2 and 3.",
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "summary": "Reach a speed of 500.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-speed-1-1",
+            "text": "Build a plane with an elongated cockpit, one @item{Retractable Gear}, 6 to 7 rocket engines at the rear, and big external fuel tanks. Rocket engines are not Wood Engines, so build it after the campaign."
+          },
+          {
+            "id": "ach-speed-1-2",
+            "text": "Take off, pull up slightly and retract the gear, then hold full throttle until the speed passes 500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEED_2",
+      "displayName": "Speed 2",
+      "description": "Reach a speed of 1000",
+      "hidden": false,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Same flight as Speed 1",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "free flight",
+      "sortReason": "Same rocket flight as Speed 1 and 3.",
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "summary": "Reach a speed of 1000.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-speed-2-1",
+            "text": "Build a plane with an elongated cockpit, one @item{Retractable Gear}, 6 to 7 rocket engines at the rear, and big external fuel tanks. Build it after the campaign, because rocket engines are not Wood Engines."
+          },
+          {
+            "id": "ach-speed-2-2",
+            "text": "Take off, pull up slightly, retract the gear, then hold full throttle until the speed passes 1000. The same flight also unlocks Speed 1 and Speed 3."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEED_3",
+      "displayName": "Speed 3",
+      "description": "Reach a speed of 3000",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Same flight as Speed 1",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "free flight",
+      "sortReason": "Same rocket flight as Speed 1 and 2.",
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "summary": "Reach a speed of 3000.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-speed-3-1",
+            "text": "Build a plane with an elongated cockpit, one @item{Retractable Gear}, 6 to 7 rocket engines at the rear, and big external fuel tanks. Build it after the campaign, because rocket engines are not Wood Engines."
+          },
+          {
+            "id": "ach-speed-3-2",
+            "text": "Take off, pull up slightly, retract the gear, then hold full throttle until the speed passes 3000. The same flight also unlocks Speed 1 and Speed 2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HEIGHT",
+      "displayName": "Edge of space",
+      "description": "Reach 10 000 height",
+      "hidden": false,
+      "globalPercent": 10.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5-10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "free flight",
+      "sortReason": "Balloon plane, about 2 minutes of climbing.",
+      "prerequisites": [
+        "ACH_CAMPAIGN"
+      ],
+      "summary": "Reach a height of 10 000.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-height-1",
+            "text": "Build a single fuselage with as many balloons as you can afford and take off."
+          },
+          {
+            "id": "ach-height-2",
+            "text": "Wait until you reach a height of 10 000, about 2 minutes. To check your height, rotate the camera down with right-click and read the distance under the region name."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_ONE_FLIGHT",
+    "ACH_AIRSHIP",
+    "ACH_WINGLESS",
+    "ACH_CARGO_TRUCK",
+    "ACH_WOOD_ENGINE",
+    "ACH_CAMPAIGN",
+    "ACH_COMPLETIONIST",
+    "ACH_HEIGHT",
+    "ACH_SPEED_1",
+    "ACH_SPEED_2",
+    "ACH_SPEED_3"
+  ]
+}

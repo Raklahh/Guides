@@ -14,9 +14,8 @@
     {
       "step": 1,
       "title": "Climb in Normal Mode",
-      "description": "Start a Normal Mode climb, collecting the Wings of Freedom on the way while the area achievements unlock as you reach each place.",
+      "description": "Climb in Normal Mode, collecting the Wings of Freedom as you pass them while the area achievements unlock.",
       "achievementRefs": [
-        "WINGS_ACHIEVEMENT",
         "UNDERWORLD_ACHIEVEMENT",
         "HELLCLIFFS_ACHIEVEMENT",
         "THECARRACE_ACHIEVEMENT",
@@ -29,7 +28,8 @@
         "THETEMPLE_ACHIEVEMENT",
         "THEASIANSHRINE_ACHIEVEMENT",
         "THEDEITIES_ACHIEVEMENT",
-        "THEGARDEN_ACHIEVEMENT"
+        "THEGARDEN_ACHIEVEMENT",
+        "WINGS_ACHIEVEMENT"
       ]
     },
     {
@@ -75,82 +75,82 @@
         "ordered": true,
         "collectibles": [
           {
-            "id": "wing-start",
+            "id": "wing-1",
             "index": 1,
             "name": "Wing 1",
-            "group": "Start of the game",
-            "method": "At the start of the game, look to the right before you climb the stairs.",
+            "location": "@loc{The start}",
+            "method": "Look to the right before you climb the stairs.",
             "missable": false
           },
           {
-            "id": "wing-vault",
+            "id": "wing-2",
             "index": 2,
             "name": "Wing 2",
-            "group": "The Whispering Vault",
-            "method": "Walk up to the button riddle, then turn around to see the wings.",
+            "location": "@loc{The Whispering Vault}",
+            "method": "Walk up to the button riddle, then turn around.",
             "missable": false
           },
           {
-            "id": "wing-subway",
+            "id": "wing-3",
             "index": 3,
             "name": "Wing 3",
-            "group": "The Subway Station",
-            "method": "Go near the end of the area to the pipe maze.",
+            "location": "@loc{The Subway Station}",
+            "method": "Go to the pipe maze near the end of the area.",
             "missable": false
           },
           {
-            "id": "wing-city",
+            "id": "wing-4",
             "index": 4,
             "name": "Wing 4",
-            "group": "The City",
-            "method": "Enter the building under construction that has a small maze.",
+            "location": "@loc{The City}",
+            "method": "Go inside the building under construction that has a small maze.",
             "missable": false
           },
           {
-            "id": "wing-buildings",
+            "id": "wing-5",
             "index": 5,
             "name": "Wing 5",
-            "group": "Over The Buildings",
-            "method": "Do the 2 jumps with the fans, then climb the building to the right.",
+            "location": "@loc{Over The Buildings}",
+            "method": "Do the 2 fan jumps, then climb the building on the right.",
             "missable": false
           },
           {
-            "id": "wing-harbor",
+            "id": "wing-6",
             "index": 6,
             "name": "Wing 6",
-            "group": "The Harbor",
-            "method": "Go close to the end of the area.",
+            "location": "@loc{The Harbor}",
+            "method": "Look near the end of the area.",
             "missable": false
           },
           {
-            "id": "wing-temple",
+            "id": "wing-7",
             "index": 7,
             "name": "Wing 7",
-            "group": "The Temple",
-            "method": "Look close to the beginning of the area.",
+            "location": "@loc{The Temple}",
+            "method": "Look near the beginning of the area.",
             "missable": false
           },
           {
-            "id": "wing-shrine",
+            "id": "wing-8",
             "index": 8,
             "name": "Wing 8",
-            "group": "The Asian Shrine",
+            "location": "@loc{The Asian Shrine}",
             "method": "Look behind the house.",
             "missable": false
           },
           {
-            "id": "wing-deities",
+            "id": "wing-9",
             "index": 9,
             "name": "Wing 9",
-            "group": "The Deities",
+            "location": "@loc{The Deities}",
             "method": "Go to the drums.",
             "missable": false
           },
           {
-            "id": "wing-garden",
+            "id": "wing-10",
             "index": 10,
             "name": "Wing 10",
-            "group": "The Garden",
+            "location": "@loc{The Garden}",
             "method": "Go to the big aqueduct.",
             "missable": false
           }
@@ -181,12 +181,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "climb",
-            "text": "Climb to the summit in under 1 hour 50 minutes."
+            "text": "Climb to the summit in Normal Mode or Lava Mode in under 1 hour 50 minutes."
           }
         ]
       }
@@ -215,12 +211,8 @@
         "context": "",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Lava Mode."
-          },
-          {
             "id": "climb",
-            "text": "Climb to the summit."
+            "text": "Start Lava Mode and climb to the summit."
           }
         ]
       }
@@ -249,12 +241,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Underworld."
+            "text": "Climb to the @loc{The Underworld} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -283,12 +271,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Hell Cliffs."
+            "text": "Climb to the @loc{The Hell Cliffs} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -317,12 +301,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Car Race."
+            "text": "Climb to the @loc{The Car Race} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -351,12 +331,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Mysterious Cave."
+            "text": "Climb to the @loc{The Mysterious Cave} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -385,12 +361,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Subway Station."
+            "text": "Climb to the @loc{The Subway Station} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -419,12 +391,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The City."
+            "text": "Climb to the @loc{The City} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -447,18 +415,14 @@
       "estMinutes": 58,
       "stage": 1,
       "confidence": "verified",
-      "summary": "Reach the Over The Buildings area.",
+      "summary": "Reach The Rooftops.",
       "guide": {
         "kind": "standard",
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach the Over The Buildings area."
+            "text": "Climb to the @loc{Over The Buildings} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -487,12 +451,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Warehouse."
+            "text": "Climb to the @loc{The Warehouse} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -521,12 +481,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Harbor."
+            "text": "Climb to the @loc{The Harbor} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -555,12 +511,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Temple."
+            "text": "Climb to the @loc{The Temple} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -589,12 +541,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Asian Shrine."
+            "text": "Climb to the @loc{The Asian Shrine} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -623,12 +571,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Deities."
+            "text": "Climb to the @loc{The Deities} area in Normal Mode or Lava Mode."
           }
         ]
       }
@@ -657,12 +601,8 @@
         "context": "Beginner Mode does not count toward achievements.",
         "steps": [
           {
-            "id": "start",
-            "text": "Start a climb in Normal Mode or Lava Mode."
-          },
-          {
             "id": "reach",
-            "text": "Climb until you reach The Garden."
+            "text": "Climb to the @loc{The Garden} area in Normal Mode or Lava Mode."
           }
         ]
       }

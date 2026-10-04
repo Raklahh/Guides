@@ -1,0 +1,689 @@
+{
+  "game": {
+    "appid": 2567870,
+    "slug": "chained-together",
+    "title": "Chained Together",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-01",
+    "estTotalHours": 5,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-04"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Climb in Normal Mode",
+      "description": "Start a Normal Mode climb, collecting the Wings of Freedom on the way while the area achievements unlock as you reach each place.",
+      "achievementRefs": [
+        "WINGS_ACHIEVEMENT",
+        "UNDERWORLD_ACHIEVEMENT",
+        "HELLCLIFFS_ACHIEVEMENT",
+        "THECARRACE_ACHIEVEMENT",
+        "THEMYSTERIOUSCAVE_ACHIEVEMENT",
+        "THESUBWAYSTATION_ACHIEVEMENT",
+        "THECITY_ACHIEVEMENT",
+        "OVERTHEBUILDINGS_ACHIEVEMENT",
+        "THEWAREHOUSE_ACHIEVEMENT",
+        "THEHARBOR_ACHIEVEMENT",
+        "THETEMPLE_ACHIEVEMENT",
+        "THEASIANSHRINE_ACHIEVEMENT",
+        "THEDEITIES_ACHIEVEMENT",
+        "THEGARDEN_ACHIEVEMENT"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish under 1 hour 50 minutes",
+      "description": "Reach the summit in Normal or Lava Mode inside the time limit.",
+      "achievementRefs": [
+        "TIME_ACHIEVEMENT"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish Lava Mode",
+      "description": "Climb to the summit while the flames rise.",
+      "achievementRefs": [
+        "LAVA_ACHIEVEMENT"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "WINGS_ACHIEVEMENT",
+      "displayName": "10 Wings",
+      "description": "Collect 10 Wings of Freedom scattered throughout the level",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Collect all 10 Wings of Freedom.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Beginner Mode does not count toward achievements.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "wing-start",
+            "index": 1,
+            "name": "Wing 1",
+            "group": "Start of the game",
+            "method": "At the start of the game, look to the right before you climb the stairs.",
+            "missable": false
+          },
+          {
+            "id": "wing-vault",
+            "index": 2,
+            "name": "Wing 2",
+            "group": "The Whispering Vault",
+            "method": "Walk up to the button riddle, then turn around to see the wings.",
+            "missable": false
+          },
+          {
+            "id": "wing-subway",
+            "index": 3,
+            "name": "Wing 3",
+            "group": "The Subway Station",
+            "method": "Go near the end of the area to the pipe maze.",
+            "missable": false
+          },
+          {
+            "id": "wing-city",
+            "index": 4,
+            "name": "Wing 4",
+            "group": "The City",
+            "method": "Enter the building under construction that has a small maze.",
+            "missable": false
+          },
+          {
+            "id": "wing-buildings",
+            "index": 5,
+            "name": "Wing 5",
+            "group": "Over The Buildings",
+            "method": "Do the 2 jumps with the fans, then climb the building to the right.",
+            "missable": false
+          },
+          {
+            "id": "wing-harbor",
+            "index": 6,
+            "name": "Wing 6",
+            "group": "The Harbor",
+            "method": "Go close to the end of the area.",
+            "missable": false
+          },
+          {
+            "id": "wing-temple",
+            "index": 7,
+            "name": "Wing 7",
+            "group": "The Temple",
+            "method": "Look close to the beginning of the area.",
+            "missable": false
+          },
+          {
+            "id": "wing-shrine",
+            "index": 8,
+            "name": "Wing 8",
+            "group": "The Asian Shrine",
+            "method": "Look behind the house.",
+            "missable": false
+          },
+          {
+            "id": "wing-deities",
+            "index": 9,
+            "name": "Wing 9",
+            "group": "The Deities",
+            "method": "Go to the drums.",
+            "missable": false
+          },
+          {
+            "id": "wing-garden",
+            "index": 10,
+            "name": "Wing 10",
+            "group": "The Garden",
+            "method": "Go to the big aqueduct.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TIME_ACHIEVEMENT",
+      "displayName": "Climb faster",
+      "description": "Reach the summit of the game in less than 1 hour and 50 minutes.",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Reach the summit in under 1 hour 50 minutes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "climb",
+            "text": "Climb to the summit in under 1 hour 50 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LAVA_ACHIEVEMENT",
+      "displayName": "Lava mode",
+      "description": "Finish the lava mode",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish Lava Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Lava Mode."
+          },
+          {
+            "id": "climb",
+            "text": "Climb to the summit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNDERWORLD_ACHIEVEMENT",
+      "displayName": "Underworld",
+      "description": "Reach The Underworld",
+      "hidden": false,
+      "globalPercent": 94.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Underworld.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Underworld."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HELLCLIFFS_ACHIEVEMENT",
+      "displayName": "Hell Cliffs",
+      "description": "Reach The Hell Cliffs",
+      "hidden": false,
+      "globalPercent": 86.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "18 min",
+      "estMinutes": 18,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Hell Cliffs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Hell Cliffs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THECARRACE_ACHIEVEMENT",
+      "displayName": "The Car Race",
+      "description": "Reach The Car Race",
+      "hidden": false,
+      "globalPercent": 77.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "26 min",
+      "estMinutes": 26,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Car Race.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Car Race."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEMYSTERIOUSCAVE_ACHIEVEMENT",
+      "displayName": "The Mysterious Cave",
+      "description": "Reach The Mysterious Cave",
+      "hidden": false,
+      "globalPercent": 73.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "34 min",
+      "estMinutes": 34,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Mysterious Cave.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Mysterious Cave."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THESUBWAYSTATION_ACHIEVEMENT",
+      "displayName": "The Subway Station",
+      "description": "Reach The Subway Station",
+      "hidden": false,
+      "globalPercent": 62.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "42 min",
+      "estMinutes": 42,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Subway Station.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Subway Station."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THECITY_ACHIEVEMENT",
+      "displayName": "The City",
+      "description": "Reach The City",
+      "hidden": false,
+      "globalPercent": 53.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50 min",
+      "estMinutes": 50,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The City.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The City."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OVERTHEBUILDINGS_ACHIEVEMENT",
+      "displayName": "Over The Buildings",
+      "description": "Reach The Rooftops",
+      "hidden": false,
+      "globalPercent": 45.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "58 min",
+      "estMinutes": 58,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach the Over The Buildings area.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach the Over The Buildings area."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEWAREHOUSE_ACHIEVEMENT",
+      "displayName": "The Warehouse",
+      "description": "Reach The Warehouse",
+      "hidden": false,
+      "globalPercent": 42.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "66 min",
+      "estMinutes": 66,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Warehouse.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Warehouse."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEHARBOR_ACHIEVEMENT",
+      "displayName": "The Harbor",
+      "description": "Reach The Harbor",
+      "hidden": false,
+      "globalPercent": 40.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "74 min",
+      "estMinutes": 74,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Harbor.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Harbor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THETEMPLE_ACHIEVEMENT",
+      "displayName": "The Temple",
+      "description": "Reach The Temple",
+      "hidden": false,
+      "globalPercent": 34.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "82 min",
+      "estMinutes": 82,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Temple.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Temple."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEASIANSHRINE_ACHIEVEMENT",
+      "displayName": "The Asian Shrine",
+      "description": "Reach The Asian Shrine",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Asian Shrine.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Asian Shrine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEDEITIES_ACHIEVEMENT",
+      "displayName": "The Deities",
+      "description": "Reach The Deities",
+      "hidden": false,
+      "globalPercent": 30.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "98 min",
+      "estMinutes": 98,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Deities.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Deities."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEGARDEN_ACHIEVEMENT",
+      "displayName": "The Garden",
+      "description": "Reach The Garden",
+      "hidden": false,
+      "globalPercent": 28.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "106 min",
+      "estMinutes": 106,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach The Garden.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beginner Mode does not count toward achievements.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start a climb in Normal Mode or Lava Mode."
+          },
+          {
+            "id": "reach",
+            "text": "Climb until you reach The Garden."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "UNDERWORLD_ACHIEVEMENT",
+    "HELLCLIFFS_ACHIEVEMENT",
+    "THECARRACE_ACHIEVEMENT",
+    "THEMYSTERIOUSCAVE_ACHIEVEMENT",
+    "THESUBWAYSTATION_ACHIEVEMENT",
+    "THECITY_ACHIEVEMENT",
+    "OVERTHEBUILDINGS_ACHIEVEMENT",
+    "THEWAREHOUSE_ACHIEVEMENT",
+    "THEHARBOR_ACHIEVEMENT",
+    "THETEMPLE_ACHIEVEMENT",
+    "THEASIANSHRINE_ACHIEVEMENT",
+    "WINGS_ACHIEVEMENT",
+    "THEDEITIES_ACHIEVEMENT",
+    "THEGARDEN_ACHIEVEMENT",
+    "TIME_ACHIEVEMENT",
+    "LAVA_ACHIEVEMENT"
+  ]
+}

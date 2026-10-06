@@ -1,0 +1,996 @@
+{
+  "game": {
+    "appid": 5010480,
+    "slug": "glyphy-achievement-guides-and-tracker",
+    "title": "Glyphy - Achievement Guides and Tracker",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-04",
+    "estTotalHours": 10,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-06"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Getting started",
+      "description": "Take the tour, try both themes, change a shortcut, and let the overlay open over a game. Everything in this guide counts only for the Steam account you are signed in to, with Steam running.",
+      "achievementRefs": [
+        "ACH_HELLO_WORLD",
+        "ACH_NIGHT_AND_DAY",
+        "ACH_MUSCLE_MEMORY",
+        "ACH_SECOND_SCREEN",
+        "ACH_OUT_OF_SIGHT"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Guides",
+      "description": "Open a guide and check off its steps. The step counts build up as you use guides for the games you play.",
+      "achievementRefs": [
+        "ACH_READ_THE_MANUAL",
+        "ACH_STEP_BY_STEP",
+        "ACH_HOT_OFF_THE_PRESS",
+        "ACH_COVER_TO_COVER",
+        "ACH_CHECKLIST_BRAIN"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Guide requests",
+      "description": "Spend your five votes on the games you want guides for, then leave them in place until one comes true.",
+      "achievementRefs": [
+        "ACH_DEMOCRACY",
+        "ACH_FULL_BALLOT",
+        "ACH_WISH_GRANTED"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Library",
+      "description": "Quick actions around the Library, Charts and the account menu, plus two that look at how far your games are. Games you finished before installing Glyphy count.",
+      "achievementRefs": [
+        "ACH_OUROBOROS",
+        "ACH_SHOW_OFF",
+        "ACH_SPRING_CLEANING",
+        "ACH_MANY_HATS",
+        "ACH_SO_CLOSE",
+        "ACH_TROPHY_SHELF"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Hunting",
+      "description": "Glyphy watches the achievements you earn while it runs. Start it before your games, and these come as you play.",
+      "achievementRefs": [
+        "ACH_WITNESSED",
+        "ACH_HAT_TRICK",
+        "ACH_THE_LAST_ONE",
+        "ACH_RARE_AIR",
+        "ACH_NIGHT_SHIFT",
+        "ACH_NECROMANCER"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_HELLO_WORLD",
+      "displayName": "Hello, World",
+      "description": "Finish the onboarding tour.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish Glyphy's onboarding tour with the @item{Finish} button on its last step.",
+      "guide": {
+        "kind": "standard",
+        "context": "The tour takes about a minute and can be replayed at any time.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Open @loc{Settings > General} and press @item{Replay} next to Tutorial.",
+            "note": "On a first launch the tour offers itself, so this step is not needed."
+          },
+          {
+            "id": "begin",
+            "text": "Press @item{Start tour} on the welcome card."
+          },
+          {
+            "id": "finish",
+            "text": "Press @item{Next} on every step, then @item{Finish} on the last one."
+          },
+          {
+            "id": "no-skip",
+            "text": "Do not press @item{Skip tour}. A skipped tour does not unlock the achievement.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECOND_SCREEN",
+      "displayName": "Second Screen",
+      "description": "Open the overlay over a running game.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have Glyphy open its overlay because a Steam game started.",
+      "guide": {
+        "kind": "standard",
+        "context": "@item{Preview overlay} does not count. The overlay has to open by itself for a game Glyphy detects.",
+        "steps": [
+          {
+            "id": "run-glyphy",
+            "text": "Start Glyphy and leave it running."
+          },
+          {
+            "id": "launch-game",
+            "text": "Launch any Steam game. The overlay opens on top of the game."
+          },
+          {
+            "id": "allow-overlay",
+            "text": "If no overlay opens, look at Automatic overlay in @loc{Settings > Overlay}. Press @item{Allow again} if the game is listed there.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OUT_OF_SIGHT",
+      "displayName": "Out of Sight",
+      "description": "Hide the overlay.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hide Glyphy's overlay with the Show / hide overlay shortcut or the overlay's X button.",
+      "guide": {
+        "kind": "standard",
+        "context": "An overlay opened with @item{Preview overlay} counts too, so no game has to be running.",
+        "steps": [
+          {
+            "id": "open-overlay",
+            "text": "Open the overlay: launch a Steam game, or press @item{Preview overlay} on a game's page."
+          },
+          {
+            "id": "hide-overlay",
+            "text": "Press @item{Ctrl+Alt+X}, or click the X on the overlay.",
+            "note": "Ctrl+Alt+X is the default Show / hide overlay shortcut. Use your own keys if you changed them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MUSCLE_MEMORY",
+      "displayName": "Muscle Memory",
+      "description": "Change one of the hotkeys.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Save a different key combination for one of Glyphy's shortcuts.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-shortcuts",
+            "text": "Open @loc{Settings > Shortcuts}."
+          },
+          {
+            "id": "rebind",
+            "text": "Click a shortcut, then press a new key combination.",
+            "note": "The change saves by itself. Keys already used by another shortcut are not saved."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NIGHT_AND_DAY",
+      "displayName": "Night and Day",
+      "description": "Use both the light and dark themes.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Show Glyphy in its Light theme and in its Dark theme.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "switch-theme",
+            "text": "Open @loc{Settings > General} and pick the other option under Theme: @item{Light} or @item{Dark}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_READ_THE_MANUAL",
+      "displayName": "Read the Manual",
+      "description": "Open a guide.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Open the guide of any achievement on the Guides page or in the overlay's Guide view.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-guide",
+            "text": "Open @loc{Guides}, pick a game, and select one of its achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_STEP_BY_STEP",
+      "displayName": "Step by Step",
+      "description": "Check off 10 guide steps.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_READ_THE_MANUAL"
+      ],
+      "summary": "Have 10 guide steps checked off at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Glyphy counts the most steps you have had checked at once, across all guides. Checklist items count as steps. Steps of an achievement you already earned cannot be checked.",
+        "steps": [
+          {
+            "id": "open-unearned",
+            "text": "In @loc{Guides}, open an achievement you have not earned yet."
+          },
+          {
+            "id": "check-ten",
+            "text": "Check off steps until 10 are checked in total.",
+            "note": "Unchecking a step and checking it again adds nothing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHECKLIST_BRAIN",
+      "displayName": "Checklist Brain",
+      "description": "Check off 250 guide steps.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across many guides",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_STEP_BY_STEP"
+      ],
+      "summary": "Have 250 guide steps checked off at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "This uses the same count as Step by Step: the most steps checked at once across all guides, checklist items included.",
+        "steps": [
+          {
+            "id": "keep-checking",
+            "text": "Check off guide steps as you play, and leave them checked."
+          },
+          {
+            "id": "use-checklists",
+            "text": "Collectible checklists add up fastest. Every item you tick counts as one step.",
+            "kind": "tip"
+          },
+          {
+            "id": "no-reset",
+            "text": "Do not uncheck finished guides before the unlock. Only steps that are checked right now add to the count.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COVER_TO_COVER",
+      "displayName": "Cover to Cover",
+      "description": "Check off every step in one game's guide.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Check off every step and checklist item of one game's guide.",
+      "guide": {
+        "kind": "standard",
+        "context": "Achievements you already earned count as done. You must check at least one step yourself, so a game you have finished cannot unlock this.",
+        "steps": [
+          {
+            "id": "pick-game",
+            "text": "In @loc{Guides}, pick a game where you have only a few achievements left to earn."
+          },
+          {
+            "id": "check-all",
+            "text": "Check off every step of each achievement you have not earned yet.",
+            "note": "The unlock comes with the last check."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HOT_OFF_THE_PRESS",
+      "displayName": "Hot off the Press",
+      "description": "Open a guide within 3 days of it being published.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "when a new guide lands",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Open a guide no more than 3 days after its first publication.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only a new guide counts: an update to an older guide does not restart the 3 days. The game has to be in your library, because guides for other games cannot be opened.",
+        "steps": [
+          {
+            "id": "watch-dot",
+            "text": "Watch for the dot on @loc{Guides} in the sidebar. It marks new or updated guides."
+          },
+          {
+            "id": "open-new",
+            "text": "Open @loc{Guides > What's new} and look under For your games for a guide marked @item{New guide} from the last 3 days."
+          },
+          {
+            "id": "read-it",
+            "text": "Open that guide and select one of its achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DEMOCRACY",
+      "displayName": "Democracy",
+      "description": "Vote for a game to get a guide.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Cast a guide request vote for any game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Voting needs an internet connection.",
+        "steps": [
+          {
+            "id": "open-requests",
+            "text": "Open @loc{Guides > Requests}."
+          },
+          {
+            "id": "vote",
+            "text": "Press @item{Vote} on a game in the list.",
+            "note": "The Request any Steam game box finds games that are not listed yet."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FULL_BALLOT",
+      "displayName": "Full Ballot",
+      "description": "Have all five votes in use at once.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DEMOCRACY"
+      ],
+      "summary": "Hold five guide request votes at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each account has five votes, one per game. A vote can be taken back one hour after it is cast.",
+        "steps": [
+          {
+            "id": "vote-five",
+            "text": "In @loc{Guides > Requests}, press @item{Vote} on five different games.",
+            "note": "Your votes shows how many of the five are in use."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WISH_GRANTED",
+      "displayName": "Wish Granted",
+      "description": "A game you voted for gets a guide.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "weeks or months of waiting",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DEMOCRACY"
+      ],
+      "summary": "A game gets a guide while your guide request vote for that game is still in place.",
+      "guide": {
+        "kind": "standard",
+        "context": "This cannot be rushed. Guides go to the most voted games first, and one can take months to arrive.",
+        "steps": [
+          {
+            "id": "vote-top",
+            "text": "In @loc{Guides > Requests}, vote for games near the top of Most requested."
+          },
+          {
+            "id": "keep-votes",
+            "text": "Leave those votes in place. A vote you take back no longer counts.",
+            "kind": "warning"
+          },
+          {
+            "id": "wait",
+            "text": "Wait for one of those games to get its guide. Glyphy then unlocks the achievement and gives the vote back."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WITNESSED",
+      "displayName": "Witnessed",
+      "description": "Earn an achievement while the overlay is open.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "while playing",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECOND_SCREEN"
+      ],
+      "summary": "Unlock an achievement in a game while Glyphy's overlay is showing for that game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-overlay",
+            "text": "Start Glyphy, then launch a Steam game so the overlay opens."
+          },
+          {
+            "id": "earn",
+            "text": "Earn any achievement in that game with the overlay still on screen."
+          },
+          {
+            "id": "not-hidden",
+            "text": "A hidden or closed overlay does not count. If you hid it, press @item{Ctrl+Alt+X} to bring it back first.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HAT_TRICK",
+      "displayName": "Hat Trick",
+      "description": "Earn 3 achievements within 10 minutes.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "while playing",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Unlock 3 achievements within 10 minutes while Glyphy is running.",
+      "guide": {
+        "kind": "standard",
+        "context": "The 3 achievements can come from different games. Glyphy compares the unlock times Steam records, and the overlay does not have to be open.",
+        "steps": [
+          {
+            "id": "earn-three",
+            "text": "With Glyphy running, earn 3 achievements with no more than 10 minutes between the first and the third."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NIGHT_SHIFT",
+      "displayName": "Night Shift",
+      "description": "Earn an achievement between 2 and 5 AM.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "one late night",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Unlock an achievement between 02:00 and 04:59 local time while Glyphy is running.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "earn-at-night",
+            "text": "With Glyphy running, earn any achievement from 2:00 to 4:59 at night by your PC's clock."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RARE_AIR",
+      "displayName": "Rare Air",
+      "description": "Earn an achievement that fewer than 5% of players have.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "depends on the game",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Unlock an achievement that under 5% of players have while Glyphy is running.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find-rare",
+            "text": "Open a game from the @loc{Library} and look in the Rarity column for an achievement under 5%."
+          },
+          {
+            "id": "earn-rare",
+            "text": "Earn that achievement with Glyphy running."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_THE_LAST_ONE",
+      "displayName": "The Last One",
+      "description": "Reach 100% on a game while Glyphy is running.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "depends on your library",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Unlock the last achievement of a game while Glyphy is running.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find-closest",
+            "text": "In the @loc{Library}, sort by @item{Closest to 100%} to find the game you are nearest to finishing."
+          },
+          {
+            "id": "finish-game",
+            "text": "With Glyphy running, earn every achievement that game has left."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NECROMANCER",
+      "displayName": "Necromancer",
+      "description": "Earn an achievement in a game you hadn't played for a year.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "one session",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Unlock an achievement in a game last played at least 365 days earlier.",
+      "guide": {
+        "kind": "standard",
+        "context": "Glyphy measures from the last time you played the game before this session, and it has to be running to see the unlock.",
+        "steps": [
+          {
+            "id": "find-old-game",
+            "text": "In the @loc{Library} filters, tick @item{Longer ago} under Last played.",
+            "note": "The games left were last played over a year ago."
+          },
+          {
+            "id": "launch",
+            "text": "Start Glyphy, then launch one of those games."
+          },
+          {
+            "id": "earn",
+            "text": "Earn an achievement before you close the game."
+          },
+          {
+            "id": "first-session",
+            "text": "Get the achievement in your first session back. Playing without an unlock resets the year.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TROPHY_SHELF",
+      "displayName": "Trophy Shelf",
+      "description": "Have 10 games at 100%.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "depends on your library",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Have 10 library games at 100% achievements.",
+      "guide": {
+        "kind": "standard",
+        "context": "Games you finished before installing Glyphy count, and so do hidden games. Glyphy counts again each time the library loads.",
+        "steps": [
+          {
+            "id": "sort-closest",
+            "text": "In the @loc{Library}, sort by @item{Closest to 100%}."
+          },
+          {
+            "id": "finish-ten",
+            "text": "Finish games from the top of that list until 10 games are at 100%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SO_CLOSE",
+      "displayName": "So Close",
+      "description": "Have a game with exactly one achievement left.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "depends on your library",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Have a library game with exactly one locked achievement.",
+      "guide": {
+        "kind": "standard",
+        "context": "A game already in that state counts, so this can unlock as soon as your library loads.",
+        "steps": [
+          {
+            "id": "one-left",
+            "text": "Earn achievements in any game until exactly one is left to earn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPRING_CLEANING",
+      "displayName": "Spring Cleaning",
+      "description": "Hide a game.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Hide a game from the Library.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hide-game",
+            "text": "In the @loc{Library}, open a game's … menu and choose @item{Hide from library}.",
+            "note": "To bring the game back, tick the Hidden filter and choose Show in library in the same menu."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SHOW_OFF",
+      "displayName": "Show-off",
+      "description": "Export a share image.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Copy or save the share image from Charts.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-share",
+            "text": "Open @loc{Charts} and press @item{Share}."
+          },
+          {
+            "id": "export",
+            "text": "Press @item{Copy image} or @item{Save PNG}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MANY_HATS",
+      "displayName": "Many Hats",
+      "description": "View another Steam account's library in Glyphy.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Switch Glyphy to another Steam account from the account menu.",
+      "guide": {
+        "kind": "standard",
+        "context": "The menu lists every account that has signed in to Steam on this PC. The other account does not need to own Glyphy.",
+        "steps": [
+          {
+            "id": "open-menu",
+            "text": "Click your account at the bottom of the sidebar."
+          },
+          {
+            "id": "pick-account",
+            "text": "Pick another account under Switch account.",
+            "note": "If none is listed, sign in to Steam on this PC once with a second account, then sign back in with your own."
+          },
+          {
+            "id": "switch-back",
+            "text": "Switch back to your own account afterwards. While another account is shown, nothing you do in Glyphy earns achievements.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OUROBOROS",
+      "displayName": "Ouroboros",
+      "description": "Look at Glyphy's own achievements in Glyphy.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Open Glyphy's own game page inside Glyphy.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-glyphy",
+            "text": "In the @loc{Library}, search for Glyphy and open it.",
+            "note": "Glyphy does not appear among your recently played games."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_HELLO_WORLD",
+    "ACH_NIGHT_AND_DAY",
+    "ACH_MUSCLE_MEMORY",
+    "ACH_SECOND_SCREEN",
+    "ACH_OUT_OF_SIGHT",
+    "ACH_READ_THE_MANUAL",
+    "ACH_STEP_BY_STEP",
+    "ACH_HOT_OFF_THE_PRESS",
+    "ACH_COVER_TO_COVER",
+    "ACH_CHECKLIST_BRAIN",
+    "ACH_DEMOCRACY",
+    "ACH_FULL_BALLOT",
+    "ACH_WISH_GRANTED",
+    "ACH_OUROBOROS",
+    "ACH_SHOW_OFF",
+    "ACH_SPRING_CLEANING",
+    "ACH_MANY_HATS",
+    "ACH_SO_CLOSE",
+    "ACH_TROPHY_SHELF",
+    "ACH_WITNESSED",
+    "ACH_HAT_TRICK",
+    "ACH_THE_LAST_ONE",
+    "ACH_RARE_AIR",
+    "ACH_NIGHT_SHIFT",
+    "ACH_NECROMANCER"
+  ]
+}

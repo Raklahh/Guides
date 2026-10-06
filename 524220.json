@@ -1,0 +1,2936 @@
+{
+  "game": {
+    "appid": 524220,
+    "slug": "nier-automata",
+    "title": "NieR:Automata™",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-27",
+    "estTotalHours": 70,
+    "difficultyRating": 5,
+    "minPlaythroughs": 3,
+    "createdAt": "2026-10-06"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Route A as 2B",
+      "description": "Play the first route to Ending A. Along the way pick up the quick side unlocks, find Pod C and Pod B, finish the Half-Wit Inventor's investment quest, kill the three golden Machines in the City Ruins, and finish side quests before accepting the Missile Supply Mission, which cancels several of them.",
+      "achievementRefs": [
+        "ACH_VISITED_BUNKER",
+        "ACH_VISITED_RUINS_CITY",
+        "ACH_SKIRT_ESCAPE",
+        "ACH_RECOVERY_SELF_CORPSE",
+        "ACH_CLEAR_QUEST_FIRST_TIME",
+        "ACH_ANIMAL_RUN",
+        "ACH_CLEAR_DESERT_AREA",
+        "ACH_NPC_KILL",
+        "ACH_CLEAR_AMUSEMENT_PARK",
+        "ACH_RICH_MAN",
+        "ACH_GET_ALL_POD",
+        "ACH_FISHING",
+        "ACH_CLEAR_ALIEN_SHIP",
+        "ACH_CLEAR_CASTLE_FOREST",
+        "ACH_EMILE_SHOP",
+        "ACH_COLLECT_CHIP",
+        "ACH_SHOOTING",
+        "ACH_CLEAR_SUBMERGE_CITY",
+        "ACH_EXTRACTION",
+        "ACH_CLEAR_COPY_CITY",
+        "ACH_CLEAR_ROBOT_MT",
+        "ACH_CLEAR_A"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Route B as 9S",
+      "description": "Choose Continue to replay the story as 9S. Use hacking for the two hacking counters, open Hackable Chests for Archives and weapons, find the blacksmith Masamune, and finish Emil's Memories and any side quests left from Route A.",
+      "achievementRefs": [
+        "ACH_CLEAR_HACKING_9S",
+        "ACH_HACKING_KILL",
+        "ACH_REMOTO_KILL",
+        "ACH_WEAPON_LV_MAX",
+        "ACH_PANTS",
+        "ACH_RECOVERY_CORPSE",
+        "ACH_CALL_AT_KAINES_ROOM",
+        "ACH_CLEAR_MANY_QUEST",
+        "ACH_CLEAR_B"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Route C to the true ending",
+      "description": "Play as A2 and 9S. Earn the Berserk Mode kills, wipe Pascal's memory so he sells the Machine Heads weapon, collect the last Pod Programs, then finish the final boss as A2 and again as 9S and clear the credits mini-game. Refuse to delete the save data at the end.",
+      "achievementRefs": [
+        "ACH_SEE_2B_DIE",
+        "ACH_PLAY_A2_FIRST_TIME",
+        "ACH_BERSERKER_KILL",
+        "ACH_LAST_REQUEST_PASCAL",
+        "ACH_HAS_ALL_ACTIVE_SKILL",
+        "ACH_COLLECT_EM_LIST",
+        "ACH_COLLECT_ARCHIVE",
+        "ACH_KILL_ROBOT_BROTHER",
+        "ACH_DEVOLA_NOVEL_END",
+        "ACH_CLEAR_A2",
+        "ACH_CLEAR_9S",
+        "ACH_TRUE_END"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Chapter Select cleanup",
+      "description": "Use Chapter Select to finish the long collections: upgrade all three Pods, raise the other 38 weapons to Level 4, defeat Emil for the last weapon, and then collect the remaining joke endings, finishing with Ending Y.",
+      "achievementRefs": [
+        "ACH_POD_LV_MAX_ALL",
+        "ACH_KILL_EM1010",
+        "ACH_WEAPON_LV_MAX_ALL",
+        "ACH_BAD_END"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_VISITED_BUNKER",
+      "displayName": "Resuscitated Body",
+      "description": "Stare into space from the Bunker.",
+      "hidden": true,
+      "globalPercent": 80.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Prologue, about 40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the Prologue, which ends once the Goliath-class boss falls for the last time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play through the Prologue in the @loc{Abandoned Factory}. The achievement unlocks after you beat the Goliath-class boss for the last time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VISITED_RUINS_CITY",
+      "displayName": "Vestiges of Prosperity",
+      "description": "Arrive at the city ruins.",
+      "hidden": true,
+      "globalPercent": 71.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story, Route A",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_VISITED_BUNKER"
+      ],
+      "summary": "Arrive at the @loc{City Ruins} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After you leave the Flight Unit, climb onto the next building. The achievement unlocks when the cutscene of the @loc{City Ruins} ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_DESERT_AREA",
+      "displayName": "It's a Healthy Baby Boy!",
+      "description": "Complete the desert area.",
+      "hidden": true,
+      "globalPercent": 61.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story, Route A",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_VISITED_RUINS_CITY"
+      ],
+      "summary": "Defeat the boss that ends the main quest \"The Machine Surge\" inside the @loc{Desert Housing Complex}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow \"The Machine Surge\" into the @loc{Desert Housing Complex} and defeat the boss there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_AMUSEMENT_PARK",
+      "displayName": "We Await Your Next Visit",
+      "description": "Complete the amusement park ruins.",
+      "hidden": true,
+      "globalPercent": 56.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story, Route A",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_DESERT_AREA"
+      ],
+      "summary": "Defeat the @loc{Amusement Park} boss @enemy{Simone} and follow the friendly Machine to its village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Simone}, the opera singer who is the @loc{Amusement Park} boss, and leave the arena."
+          },
+          {
+            "id": "s2",
+            "text": "Follow the friendly Machine that offers to guide you. The achievement unlocks just outside its village when the area cutscene starts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_ALIEN_SHIP",
+      "displayName": "Creation and Insurrection",
+      "description": "Complete the alien ship.",
+      "hidden": true,
+      "globalPercent": 48.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story, Route A",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_AMUSEMENT_PARK"
+      ],
+      "summary": "Win the fight against @enemy{Adam} and @enemy{Eve} in the alien ship.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the Route A main story into the alien ship and win the fight against @enemy{Adam} and @enemy{Eve}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_CASTLE_FOREST",
+      "displayName": "The Mechanical Kingdom",
+      "description": "Complete the forest castle.",
+      "hidden": true,
+      "globalPercent": 42.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story, Route A",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_ALIEN_SHIP"
+      ],
+      "summary": "Reach the Machine King in the @loc{Forest Castle} to finish the main quest \"The Forest Kingdom\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play \"The Forest Kingdom\" through the @loc{Forest Castle} until you meet the Machine King."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_SUBMERGE_CITY",
+      "displayName": "Ruler of the Deep",
+      "description": "Complete the flooded city.",
+      "hidden": true,
+      "globalPercent": 40.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story, Route A",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_CASTLE_FOREST"
+      ],
+      "summary": "Defeat the colossal sea Machine in the @loc{Flooded City} to finish the main quest \"Missile Supply Mission\".",
+      "guide": {
+        "kind": "standard",
+        "context": "Boarding the Flight Unit to start this mission cancels several open side quests for the current route, including \"Anemone's Past\", the Robo Dojo quests, and \"Emil's Memories\".",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Route A, finish the side quest \"Find a Present\" before you go down into the @loc{Flooded City} for this mission. Also lend 50,000 G to the couple from \"The Wandering Couple\" at the Flooded City entrance before you receive the mission.",
+            "kind": "warning"
+          },
+          {
+            "id": "s2",
+            "text": "Board the Flight Unit to start the mission and defeat the colossal sea Machine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_COPY_CITY",
+      "displayName": "Those Who Love Humans",
+      "description": "Complete the copied city.",
+      "hidden": true,
+      "globalPercent": 38.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story, Route A",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_SUBMERGE_CITY"
+      ],
+      "summary": "Defeat @enemy{Adam} in the @loc{Copied City}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Save at the @loc{City Ruins: Cave} Access Point, which is the last save point before the fight."
+          },
+          {
+            "id": "s2",
+            "text": "Enter the @loc{Copied City} and defeat @enemy{Adam}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_ROBOT_MT",
+      "displayName": "Iron Soul",
+      "description": "Complete the abandoned factory.",
+      "hidden": true,
+      "globalPercent": 37.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story, Route A",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_COPY_CITY"
+      ],
+      "summary": "Escape from the @loc{Abandoned Factory} after meeting @npc{Pascal} there in Route A.",
+      "guide": {
+        "kind": "standard",
+        "context": "Accepting the Commander's email that sends you to meet @npc{Pascal} locks you into the end of Route A, so finish side quests first.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Accept the Commander's email and meet @npc{Pascal} at the @loc{Abandoned Factory}."
+          },
+          {
+            "id": "s2",
+            "text": "Fight your way out of the factory. The achievement unlocks when you escape."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_A",
+      "displayName": "One Battle Ends",
+      "description": "Achieve ending A.",
+      "hidden": true,
+      "globalPercent": 36.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10-15 hours for Route A",
+      "estMinutes": 780,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_ROBOT_MT"
+      ],
+      "summary": "Reach Ending A by defeating the final boss of Route A.",
+      "guide": {
+        "kind": "standard",
+        "context": "During Route B, 2B carries whichever weapons you had equipped at the moment the final boss fell.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete the last Route A main quest, \"Threat Disposal\", and defeat the final boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_B",
+      "displayName": "A New Battle Begins",
+      "description": "Achieve ending B.",
+      "hidden": true,
+      "globalPercent": 25.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "6-8 hours for Route B",
+      "estMinutes": 420,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Reach Ending B by finishing Route B as 9S.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Ending A, save over your file and choose Continue on the Main Menu to start Route B.",
+            "note": "Choosing New Game does not continue your save."
+          },
+          {
+            "id": "s2",
+            "text": "Play Route B to the end and defeat @enemy{Eve}."
+          },
+          {
+            "id": "s3",
+            "text": "During the credits you control 2B in the @loc{Bunker}. Visit 9S, then return to her room to unlock the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SEE_2B_DIE",
+      "displayName": "Final Wish",
+      "description": "Watch 2B die.",
+      "hidden": true,
+      "globalPercent": 24.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story, Route C",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_B"
+      ],
+      "summary": "In Chapter 11 of Route C, cross the bridge as 9S and reach 2B at the @loc{Commercial Facility}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Chapter 11, cross the bridge to the @loc{Commercial Facility} as 9S. The story scene there unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PLAY_A2_FIRST_TIME",
+      "displayName": "Treacherous Blade",
+      "description": "Control A2 for the first time.",
+      "hidden": true,
+      "globalPercent": 24.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story, Route C",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SEE_2B_DIE"
+      ],
+      "summary": "Choose A2 when Route C first lets you pick between A2 and 9S.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Early in Route C the game asks whether to play as A2 or 9S. Pick A2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LAST_REQUEST_PASCAL",
+      "displayName": "Farewell, Pascal",
+      "description": "Grant Pascal's final request.",
+      "hidden": true,
+      "globalPercent": 23.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story, Route C",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_PLAY_A2_FIRST_TIME"
+      ],
+      "summary": "Grant @npc{Pascal}'s final request at the end of the Route C main quest \"Pascal's Despair\".",
+      "guide": {
+        "kind": "standard",
+        "context": "If you wipe his memory, @npc{Pascal} later sells 9S the @item{Machine Heads} weapon for 10,500 G in his village. He does not sell it if you destroy him.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "As A2, finish \"Pascal's Despair\". When you decide what happens to @npc{Pascal}, choose to wipe his memory."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_ROBOT_BROTHER",
+      "displayName": "Justice",
+      "description": "Stop all resource recovery units.",
+      "hidden": true,
+      "globalPercent": 22.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story, Route C",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_LAST_REQUEST_PASCAL"
+      ],
+      "summary": "Complete the Route C main quest \"Obtain Keys\", which stops every Resource Recovery Unit.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play \"Obtain Keys\" to its end in Route C."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DEVOLA_NOVEL_END",
+      "displayName": "Crime and Punishment",
+      "description": "Watch the final moments of Devola and Popola.",
+      "hidden": true,
+      "globalPercent": 22.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story, Route C",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_KILL_ROBOT_BROTHER"
+      ],
+      "summary": "Enter the @loc{Tower} as 9S after @npc{Devola} and @npc{Popola} defend him in the main quest \"Tower Infiltration\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In \"Tower Infiltration\", keep hacking the @loc{Tower} while @npc{Devola} and @npc{Popola} fight the Machines. The achievement unlocks when you control 9S again inside the Tower.",
+            "note": "It unlocks whether or not you read the text scene about the twins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_9S",
+      "displayName": "Leaving for the New World",
+      "description": "Achieve 9S's ending.",
+      "hidden": true,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min replay",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_A2"
+      ],
+      "summary": "Reach Ending D by defeating the final boss of Route C as 9S.",
+      "guide": {
+        "kind": "standard",
+        "context": "The final fight lets you pick A2 or 9S. You need both endings, in either order.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "If you already have Ending C, open Chapter Select and load Chapter 17-09."
+          },
+          {
+            "id": "s2",
+            "text": "Pick 9S for the final boss fight and win."
+          },
+          {
+            "id": "s3",
+            "text": "Choose either Go or Stay. The achievement unlocks after the credits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_A2",
+      "displayName": "Beautiful World",
+      "description": "Achieve A2's ending.",
+      "hidden": true,
+      "globalPercent": 22.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story, Route C",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DEVOLA_NOVEL_END"
+      ],
+      "summary": "Reach Ending C by defeating the final boss of Route C as A2.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick A2 when the final boss fight asks you to choose a character, then win. The achievement unlocks after the credits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TRUE_END",
+      "displayName": "The Minds That Emerged",
+      "description": "View the final credits.",
+      "hidden": true,
+      "globalPercent": 17.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_9S"
+      ],
+      "summary": "Finish the credits mini-game that plays once you have both Ending C and Ending D.",
+      "guide": {
+        "kind": "standard",
+        "context": "After this ending the game offers to delete your save data to help other players. Accepting erases the save.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Earn both Ending C and Ending D. The credits after the second one cannot be skipped."
+          },
+          {
+            "id": "s2",
+            "text": "Answer Yes when Pod 153 asks if you accept the Pod's request. Answer Yes again when asked if you still wish for them to survive."
+          },
+          {
+            "id": "s3",
+            "text": "Shoot your way through the credits. Each time you die, answer No to the question that follows so you keep playing."
+          },
+          {
+            "id": "s4",
+            "text": "At the final bosses, answer Yes when the game offers help after a death. The achievement unlocks when the mini-game ends."
+          },
+          {
+            "id": "s5",
+            "text": "Afterwards a Pod asks you to help the weak and then warns that helping costs your save data. Answer No to the save-data question.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RECOVERY_SELF_CORPSE",
+      "displayName": "The Circle of Death",
+      "description": "Have your body collected.",
+      "hidden": false,
+      "globalPercent": 51.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_VISITED_RUINS_CITY"
+      ],
+      "summary": "Retrieve your own body after you die.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Die once, return to the spot where you died, and retrieve your body.",
+            "note": "The body holds the Plug-In Chips you had equipped."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RECOVERY_CORPSE",
+      "displayName": "Cherish Our Resources",
+      "description": "Have 100 bodies collected.",
+      "hidden": false,
+      "globalPercent": 18.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across Routes A-B",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_RECOVERY_SELF_CORPSE"
+      ],
+      "summary": "Retrieve 100 android bodies.",
+      "guide": {
+        "kind": "standard",
+        "context": "With network features on, other players' bodies appear across the world. Offline, each area has only 2 or 3 preset bodies. They respawn, but the count rises far more slowly.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play with network features on and retrieve every body you pass until you reach 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_QUEST_FIRST_TIME",
+      "displayName": "First Errand",
+      "description": "Complete your first quest.",
+      "hidden": false,
+      "globalPercent": 66.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_VISITED_RUINS_CITY"
+      ],
+      "summary": "Complete any one side quest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the @loc{Resistance Camp}, accept \"The Supply Trader's Request\" or \"The Weapon Dealer's Request\" and turn it in."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_MANY_QUEST",
+      "displayName": "The Mercenary",
+      "description": "80% of all quests completed.",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across Routes A-B",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_QUEST_FIRST_TIME",
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Complete 48 of the 60 side quests, which is 80% of them.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most Route A and B side quests are unavailable in Route C. Boarding the Flight Unit to start \"Missile Supply Mission\" also cancels several open quests for the current route.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear the side quests on your map during Routes A and B before you board the Flight Unit for \"Missile Supply Mission\"."
+          },
+          {
+            "id": "s2",
+            "text": "Pick up the new side quests that appear in Route C."
+          },
+          {
+            "id": "s3",
+            "text": "If you are still short after Route C, use Chapter Select to replay earlier chapters and finish quests you missed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_ARCHIVE",
+      "displayName": "Information Master",
+      "description": "80% of all archives found.",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across all routes",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_LAST_REQUEST_PASCAL"
+      ],
+      "summary": "Find 80% of all Archives.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Many Archives sit in Hackable Chests that only 9S can open, so most become available from Route B. The source guide counts the requirement as 45 of 54 Archives, and this list reaches 45. At least 5 more Archives arrive through the late Route C story, so you can skip a few.",
+        "collectibles": [
+          {
+            "id": "a1",
+            "index": 1,
+            "group": "Route A",
+            "name": "11B's Escape Plan",
+            "location": "@loc{Abandoned Factory}, first room",
+            "method": "Take the side quest \"11B's Memento\" in the @loc{Bunker}. The Archive comes with 11B's Black Box."
+          },
+          {
+            "id": "a2",
+            "index": 2,
+            "group": "Route A",
+            "name": "Engels 110-B Record 0005",
+            "location": "@loc{City Ruins}, wrecked Goliath opposite the Near Factory Access Point",
+            "method": "Start \"Machine Examination 1\" at the Goliath's head. Defeat the Goliath Biped in @loc{Desert Zone: Border Area} and bring back the @item{Pristine Screw}."
+          },
+          {
+            "id": "a3",
+            "index": 3,
+            "group": "Route A",
+            "name": "Engels 110-B Record 0010",
+            "location": "@loc{City Ruins}, same wrecked Goliath",
+            "method": "Complete the follow-up quest \"Machine Examination 2\"."
+          },
+          {
+            "id": "a4",
+            "index": 4,
+            "group": "Route A",
+            "name": "Records of a Bestial Machine",
+            "location": "@loc{Forest Zone}, Animal-Loving Machine",
+            "method": "Fight off the Animal-Loving Machine and spare the Boar so that he becomes a quest giver. Then complete his second quest, \"Turf War\".",
+            "note": "The quest's enemies are Level 40."
+          },
+          {
+            "id": "a5",
+            "index": 5,
+            "group": "Route A",
+            "name": "Letter to the Forest King",
+            "location": "@loc{Forest Castle}, Machine King's grave",
+            "method": "Complete \"Treasure Hunt at the Castle\" for the Weird-Talking Machine who stands where the @loc{Pascal's Village} shortcut ends."
+          },
+          {
+            "id": "a6",
+            "index": 6,
+            "group": "Route A",
+            "name": "Engels 110-B Record 0020",
+            "location": "@loc{City Ruins}, same wrecked Goliath",
+            "method": "After \"Machine Examination 2\", talk to Engels on three separate visits when his quest marker returns."
+          },
+          {
+            "id": "a7",
+            "index": 7,
+            "group": "Route A",
+            "name": "Mysterious Lithograph 2",
+            "location": "@loc{Desert Zone}",
+            "method": "Find this relic with the Scanner during the side quest \"Heritage of the Past\"."
+          },
+          {
+            "id": "a8",
+            "index": 8,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Paper Attached to Vehicle",
+            "location": "@loc{City Ruins}, right of the rusted truck below the broken bridge",
+            "method": "Hack the chest on the ground."
+          },
+          {
+            "id": "a9",
+            "index": 9,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Ragged DVD",
+            "location": "@loc{City Ruins} rooftop across from the building with stacked shipping containers",
+            "method": "Make a long running jump from the container building, then hack the chest."
+          },
+          {
+            "id": "a10",
+            "index": 10,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Department Store Flyer",
+            "location": "Outside the @loc{Commercial Facility} entrance, right wall",
+            "method": "Hack the chest behind the bushes."
+          },
+          {
+            "id": "a11",
+            "index": 11,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Weapon Shop Flyer",
+            "location": "@loc{City Ruins} canyon, opposite the Phoenix Dagger chest",
+            "method": "Hack the chest."
+          },
+          {
+            "id": "a12",
+            "index": 12,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Project Gestalt Report 6",
+            "location": "Caverns under @loc{Desert Zone: Border Area}",
+            "method": "From the Hackable Door, go left and down until the path leads outside. Hack the chest beside a regular chest."
+          },
+          {
+            "id": "a13",
+            "index": 13,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Mysterious Lithograph 3",
+            "location": "Oasis at the far back of the @loc{Desert Zone}",
+            "method": "Hack the chest that sits right of the YoRHa soldier."
+          },
+          {
+            "id": "a14",
+            "index": 14,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Project Gestalt Report 8",
+            "location": "Hill right of the tunnel into @loc{Desert: Housing Complex}",
+            "method": "Follow the rock wall up the hill. Hack the chest beside the large rock with two Medium Flyers."
+          },
+          {
+            "id": "a15",
+            "index": 15,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Bulletin Record",
+            "location": "@loc{Desert: Housing Complex}, dead end up the hill left of the Access Point",
+            "method": "Hack the chest in the corner."
+          },
+          {
+            "id": "a16",
+            "index": 16,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Mysterious Lithograph 1",
+            "location": "@loc{Desert: Housing Complex}, ruined building at the third entrance",
+            "method": "Hack the chest on the right inside the building."
+          },
+          {
+            "id": "a17",
+            "index": 17,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Tattered Pamphlet",
+            "location": "@loc{Amusement Park}, Attraction Square",
+            "method": "Hack the chest at the back of the fenced spinning ride."
+          },
+          {
+            "id": "a18",
+            "index": 18,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Filthy Lottery Ticket",
+            "location": "@loc{Amusement Park}, by the Roller Coaster stairs",
+            "method": "After the Goliath Tank fight, hop the low fence. Hack the chest behind a tree in the right corner."
+          },
+          {
+            "id": "a19",
+            "index": 19,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Nuclear Arms Manual",
+            "location": "@loc{City Ruins}, three-storey building overgrown with tree roots",
+            "method": "Accept @npc{Pascal}'s side quest \"Data on the Old World\" but do not turn it in yet. Hack the chest on the ground floor.",
+            "note": "The chest only exists while the quest is active.",
+            "missable": true
+          },
+          {
+            "id": "a20",
+            "index": 20,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Strange Doll",
+            "location": "@loc{Forest Zone}, past the small stone bridge over the second river",
+            "method": "Go right and down the first stone stairs. Hack the chest among the roots of the big tree on your right."
+          },
+          {
+            "id": "a21",
+            "index": 21,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Rotten Info Sheet",
+            "location": "@loc{Forest Castle: Front} Access Point",
+            "method": "Hack the chest against the wall directly left of the castle entrance."
+          },
+          {
+            "id": "a22",
+            "index": 22,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Mysterious Lithograph 4",
+            "location": "Caverns under the @loc{Desert Zone}",
+            "method": "From the cavern entry, take the path left and then down, and hop across the sandstone to the Lunar Tear. Hack the chest that faces the Lunar Tear."
+          },
+          {
+            "id": "a23",
+            "index": 23,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Newspaper Scrap",
+            "location": "@loc{Flooded City}, isolated building that held the Type-3 Lance",
+            "method": "Hack the chest inside the little rooftop room."
+          },
+          {
+            "id": "a24",
+            "index": 24,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Project Gestalt Report 10",
+            "location": "Lunar Tear area under the @loc{Commercial Facility}",
+            "method": "Hack the chest behind Emil's home.",
+            "note": "The elevator down to this area needs the Elevator Key from the side quest \"Emil's Memories\"."
+          },
+          {
+            "id": "a25",
+            "index": 25,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Project Gestalt Report 7",
+            "location": "Secret cave under the @loc{City Ruins}",
+            "method": "Glide into the large pipe from the square roof above the Cave Access Point and take the elevator down. Hack the chest at the dead end on the middle ledge of the gorge."
+          },
+          {
+            "id": "a26",
+            "index": 26,
+            "group": "Route B: before Missile Supply Mission",
+            "name": "Project Gestalt Report 4",
+            "location": "Same cave, bottom lake",
+            "method": "Drop to the lake. Hack the chest on the far side near the water."
+          },
+          {
+            "id": "a27",
+            "index": 27,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "YoRHa Body Storage Records",
+            "location": "@loc{Bunker}, 9S's self-hack after \"Missile Supply Mission\"",
+            "method": "Hack the server nodes during the self-hack. This Archive cannot be missed."
+          },
+          {
+            "id": "a28",
+            "index": 28,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "Shipping Records",
+            "location": "@loc{Bunker}, same self-hack",
+            "method": "Hack the server nodes during the self-hack. This Archive cannot be missed."
+          },
+          {
+            "id": "a29",
+            "index": 29,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "Council/YoRHa Records",
+            "location": "@loc{Bunker}, same self-hack",
+            "method": "Hack the server nodes during the self-hack. This Archive cannot be missed."
+          },
+          {
+            "id": "a30",
+            "index": 30,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "Project Gestalt Report 1",
+            "location": "@loc{Abandoned Factory} mainframe hack",
+            "method": "Open Gate 12 and take the right path to a node."
+          },
+          {
+            "id": "a31",
+            "index": 31,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "Project Gestalt Report 2",
+            "location": "Same mainframe hack",
+            "method": "Open Gate 17. Go left, then left again."
+          },
+          {
+            "id": "a32",
+            "index": 32,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "Project Gestalt Report 3",
+            "location": "Same mainframe hack",
+            "method": "From the same side area, take the right path to the dead end."
+          },
+          {
+            "id": "a33",
+            "index": 33,
+            "group": "Route B: after Missile Supply Mission",
+            "name": "[Top Secret] Project YoRHa",
+            "location": "@loc{Bunker}",
+            "method": "The Commander gives you this Archive in the story after the Abandoned Factory."
+          },
+          {
+            "id": "a34",
+            "index": 34,
+            "group": "Route C",
+            "name": "Infant Machine's Memories",
+            "location": "Main quest \"Destroy Machines\"",
+            "method": "Destroy the Goliath @enemy{Hegel} in the story."
+          },
+          {
+            "id": "a35",
+            "index": 35,
+            "group": "Route C",
+            "name": "Resistance: Rose",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "As A2, talk to @npc{Anemone} a second time before you leave for @loc{Pascal's Village}. Read all three parts of \"YoRHa Pearl Harbor Descent Personal Record\" at the terminal she offers."
+          },
+          {
+            "id": "a36",
+            "index": 36,
+            "group": "Route C",
+            "name": "Resistance: Anemone",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "Read all three parts of the same record at @npc{Anemone}'s terminal."
+          },
+          {
+            "id": "a37",
+            "index": 37,
+            "group": "Route C",
+            "name": "YoRHa: Attacker 4",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "Read all three parts of the same record at @npc{Anemone}'s terminal."
+          },
+          {
+            "id": "a38",
+            "index": 38,
+            "group": "Route C",
+            "name": "YoRHa: Scanner 21",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "Read all three parts of the same record at @npc{Anemone}'s terminal."
+          },
+          {
+            "id": "a39",
+            "index": 39,
+            "group": "Route C",
+            "name": "YoRHa: Gunner 16",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "Read all three parts of the same record at @npc{Anemone}'s terminal."
+          },
+          {
+            "id": "a40",
+            "index": 40,
+            "group": "Route C",
+            "name": "Pearl Harbor Descent Summary",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "Read all three parts of the same record at @npc{Anemone}'s terminal."
+          },
+          {
+            "id": "a41",
+            "index": 41,
+            "group": "Route C",
+            "name": "YoRHa: Attacker 2",
+            "location": "@loc{Resistance Camp} terminal",
+            "method": "Read all three parts of the same record at @npc{Anemone}'s terminal."
+          },
+          {
+            "id": "a42",
+            "index": 42,
+            "group": "Route C",
+            "name": "...'s Bomb Recipe",
+            "location": "Side quest \"Sorting Trouble 3\"",
+            "method": "Complete \"Sorting Trouble 2\", then \"Sorting Trouble 3\". The Archive is the reward.",
+            "note": "The source guide's copy of this title has the owner's name censored, so the full title is not confirmed."
+          },
+          {
+            "id": "a43",
+            "index": 43,
+            "group": "Route C",
+            "name": "A Pious Robot's Will",
+            "location": "@loc{Abandoned Factory}, room after the one where Pascal sheltered",
+            "method": "Return as 9S and hack the chest."
+          },
+          {
+            "id": "a44",
+            "index": 44,
+            "group": "Route C",
+            "name": "Abandoned Factory Memo",
+            "location": "@loc{Abandoned Factory} tower, left of the Engine Blade chest",
+            "method": "As 9S, hack the chest."
+          },
+          {
+            "id": "a45",
+            "index": 45,
+            "group": "Route C",
+            "name": "Tower System Outline",
+            "location": "@loc{Flooded City} Soul Box, floor above the ring room",
+            "method": "During \"Obtain Keys\", hack the second chest on that floor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_EM_LIST",
+      "displayName": "Destruction is My Job",
+      "description": "80% of all unit data unlocked.",
+      "hidden": false,
+      "globalPercent": 13.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across all routes",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_PLAY_A2_FIRST_TIME"
+      ],
+      "summary": "Unlock 138 of the 172 Unit Data entries, which is 80% of them.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unit Data covers enemies and NPCs, and one enemy type can have several variants. Route C adds the unit types missing from Routes A and B.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete side quests and explore every area in all three routes. The achievement normally unlocks during Route C."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COLLECT_CHIP",
+      "displayName": "Chip Collector",
+      "description": "80% of all plug-in chips collected.",
+      "hidden": false,
+      "globalPercent": 22.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across Routes A-B",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_CASTLE_FOREST"
+      ],
+      "summary": "Collect 44 of the 55 different Plug-In Chips, which is 80% of them.",
+      "guide": {
+        "kind": "standard",
+        "context": "One PC player reported that the achievement only unlocked with 44 different chips in the inventory at the same time. Keep one of each chip until it unlocks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy the chips you do not own from shops, including @npc{Emil}'s shop."
+          },
+          {
+            "id": "s2",
+            "text": "Complete the side quest \"Lord of the Valley\" to open the item shop in the @loc{Forest Zone}, and buy its chips."
+          },
+          {
+            "id": "s3",
+            "text": "Retrieve the bodies of other players for more chips."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HAS_ALL_ACTIVE_SKILL",
+      "displayName": "Weapons Maniac",
+      "description": "All Pod programs obtained.",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across all routes",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_PLAY_A2_FIRST_TIME"
+      ],
+      "summary": "Obtain all 17 Pod Programs.",
+      "guide": {
+        "kind": "collectible",
+        "context": "@item{A130: Bomb} comes from a side quest that exists only in Route A. If you miss it, replay that chapter with Chapter Select after Route C.",
+        "collectibles": [
+          {
+            "id": "p1",
+            "index": 1,
+            "group": "Route A",
+            "name": "R010: Laser",
+            "location": "Start of the game",
+            "method": "You own this program from the Prologue."
+          },
+          {
+            "id": "p2",
+            "index": 2,
+            "group": "Route A",
+            "name": "R020: Mirage",
+            "location": "@loc{Resistance Camp} shop",
+            "method": "Buy it for 10,000 G."
+          },
+          {
+            "id": "p3",
+            "index": 3,
+            "group": "Route A",
+            "name": "R030: Hammer",
+            "location": "@loc{Resistance Camp} shop",
+            "method": "Buy it for 10,000 G."
+          },
+          {
+            "id": "p4",
+            "index": 4,
+            "group": "Route A",
+            "name": "R040: Blade",
+            "location": "@loc{Resistance Camp} shop",
+            "method": "Buy it for 10,000 G."
+          },
+          {
+            "id": "p5",
+            "index": 5,
+            "group": "Route A",
+            "name": "R050: Spear",
+            "location": "@loc{Resistance Camp} shop",
+            "method": "Buy it for 10,000 G."
+          },
+          {
+            "id": "p6",
+            "index": 6,
+            "group": "Route A",
+            "name": "A060: P Shield",
+            "location": "@loc{Resistance Camp} shop",
+            "method": "Buy it for 10,000 G."
+          },
+          {
+            "id": "p7",
+            "index": 7,
+            "group": "Route A",
+            "name": "R070: M Shield",
+            "location": "@loc{Resistance Camp} shop",
+            "method": "Buy it for 10,000 G."
+          },
+          {
+            "id": "p8",
+            "index": 8,
+            "group": "Route A",
+            "name": "A140: Gravity",
+            "location": "@loc{City Ruins}, near the Near Factory Access Point",
+            "method": "Accept the side quest \"Retrieve the Confidential Intel\", collect the 3 lost chips, and return them."
+          },
+          {
+            "id": "p9",
+            "index": 9,
+            "group": "Route A",
+            "name": "A080: Wave",
+            "location": "Side quest \"The Wandering Couple\"",
+            "method": "Start the quest in @loc{Pascal's Village}. Lend the couple 50,000 G at the @loc{Flooded City} entrance. Finish the quest in the @loc{Amusement Park}.",
+            "note": "Make the loan before you receive \"Missile Supply Mission\" or the quest fails.",
+            "missable": true
+          },
+          {
+            "id": "p10",
+            "index": 10,
+            "group": "Route A",
+            "name": "A130: Bomb",
+            "location": "Side quest \"Find a Present\"",
+            "method": "Complete \"Terminal Repairs\" first. Then finish \"Find a Present\" before you go down into the @loc{Flooded City} for \"Missile Supply Mission\".",
+            "note": "Route A only. The Type-4O Sword arrives with this program.",
+            "missable": true
+          },
+          {
+            "id": "p11",
+            "index": 11,
+            "group": "Route A",
+            "name": "A170: Scanner",
+            "location": "Route A story",
+            "method": "@npc{Devola} and @npc{Popola} give you this program after the @loc{Flooded City}."
+          },
+          {
+            "id": "p12",
+            "index": 12,
+            "group": "Route B",
+            "name": "A110: Slow",
+            "location": "Side quest \"Data Analysis Freak 2\"",
+            "method": "Complete \"Data Analysis Freak\" for Operator 21O in the @loc{Bunker} Command Room, then its sequel. Collect the reward from your inbox at an Access Point."
+          },
+          {
+            "id": "p13",
+            "index": 13,
+            "group": "Route B",
+            "name": "A090: Wire",
+            "location": "@loc{City Ruins}, multi-storey building that leads up to the Flight Units",
+            "method": "After the main quest \"Assault\", accept \"Amnesia\" from the Resistance member inside and complete the quest."
+          },
+          {
+            "id": "p14",
+            "index": 14,
+            "group": "Route C",
+            "name": "A120: Repair",
+            "location": "Side quest \"Sorting Trouble 3\"",
+            "method": "Complete \"Sorting Trouble 2\", then \"Sorting Trouble 3\"."
+          },
+          {
+            "id": "p15",
+            "index": 15,
+            "group": "Route C",
+            "name": "A100: Decoy",
+            "location": "@loc{City Ruins}, roof of the tall building on the south side of the Near Factory Access Point",
+            "method": "Cross the rubble bridge and loot the Pod beside the dead YoRHa soldier."
+          },
+          {
+            "id": "p16",
+            "index": 16,
+            "group": "Route C",
+            "name": "A150: Volt",
+            "location": "@loc{Amusement Park}, near the Attraction Square Access Point",
+            "method": "Destroy the Goliath Tank. Loot the Pod beside the dead YoRHa soldier in the middle of the arena."
+          },
+          {
+            "id": "p17",
+            "index": 17,
+            "group": "Route C",
+            "name": "A160: Missile",
+            "location": "@loc{Abandoned Factory}, near the round Prologue boss room",
+            "method": "Cross the metal bridge to the far end. Keep straight and climb the rusted containers at the dead end. Loot the Pod beside the dead YoRHa soldier."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WEAPON_LV_MAX",
+      "displayName": "Tools of the Trade",
+      "description": "Any weapon upgraded to the highest level.",
+      "hidden": false,
+      "globalPercent": 20.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours of materials",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Upgrade any one weapon to Level 4, the highest level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the blacksmith @npc{Masamune} can upgrade a weapon to Level 4. That upgrade costs 10,000 G plus materials that differ for each weapon.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the @loc{Forest Castle}, go from the Royal Chamber Access Point back outside to the broken bridge."
+          },
+          {
+            "id": "s2",
+            "text": "Drop to the ledge below on the same side of the bridge. Walk to the dead end under the bridge and pull the stone block out to reach @npc{Masamune}.",
+            "note": "You must pull the block again on every visit."
+          },
+          {
+            "id": "s3",
+            "text": "Have him raise one weapon to Level 4."
+          },
+          {
+            "id": "s4",
+            "text": "Afterwards, leave the conversation, talk to @npc{Masamune} again, and leave once more. He then gives you the @item{Cruel Lament} weapon.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_WEAPON_LV_MAX_ALL",
+      "displayName": "Inorganic Blade",
+      "description": "All weapons upgraded to the highest level.",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "15-25 hours of materials",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_WEAPON_LV_MAX",
+        "ACH_KILL_EM1010"
+      ],
+      "summary": "Upgrade all 39 upgradeable weapons to Level 4.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Bare Fists cannot be upgraded and do not count. Each weapon costs 17,500 G across its three upgrades, plus materials. Only @npc{Masamune} in the @loc{Forest Castle} does the Level 4 upgrade. You need 6 @item{Meteorite Shards}, which the Half-Wit Inventor in @loc{Pascal's Village} sells after you invest 180,000 G with him. The source guide warns he is gone in Route C, so finish that in Route A or B. After Route C, the Strange Resistance Woman in the @loc{Resistance Camp} also sells this achievement for G.",
+        "collectibles": [
+          {
+            "id": "w1",
+            "index": 1,
+            "group": "Route A",
+            "name": "Virtuous Contract",
+            "location": "Start of Route A",
+            "method": "2B starts with this sword."
+          },
+          {
+            "id": "w2",
+            "index": 2,
+            "group": "Route A",
+            "name": "Ancient Overlord",
+            "location": "@loc{Resistance Camp} weapon shop",
+            "method": "Complete \"The Weapon Dealer's Request\", then buy the sword for 15,000 G."
+          },
+          {
+            "id": "w3",
+            "index": 3,
+            "group": "Route A",
+            "name": "Beastbane",
+            "location": "@loc{Resistance Camp} weapon shop",
+            "method": "Buy the sword for 10,000 G after \"The Weapon Dealer's Request\"."
+          },
+          {
+            "id": "w4",
+            "index": 4,
+            "group": "Route A",
+            "name": "Beastlord",
+            "location": "@loc{Resistance Camp} weapon shop",
+            "method": "Buy the large sword for 10,000 G after \"The Weapon Dealer's Request\"."
+          },
+          {
+            "id": "w5",
+            "index": 5,
+            "group": "Route A",
+            "name": "Phoenix Dagger",
+            "location": "@loc{City Ruins} canyon, below the wooden bridge by the Near the Tower Access Point",
+            "method": "Jump into the canyon and head toward the flooded part. Go right up the sandy bank with Machine corpses and open the unlocked chest by the rock wall.",
+            "note": "Enemies here are Level 25 or higher. Leave by the elevator on the right wall of the passage opposite the flooded part."
+          },
+          {
+            "id": "w6",
+            "index": 6,
+            "group": "Route A",
+            "name": "Virtuous Treaty",
+            "location": "@loc{Abandoned Factory}, start of the long causeway from the Prologue boss fight",
+            "method": "After the Commander's \"Lost Equipment\" email, take the sword stuck in the concrete.",
+            "note": "The source checklist lists this as a Route A pickup."
+          },
+          {
+            "id": "w7",
+            "index": 7,
+            "group": "Route A",
+            "name": "Fang of the Twins",
+            "location": "@loc{Desert Housing Complex}",
+            "method": "During \"The Machine Surge\", climb the fire escape and open the chest at the top."
+          },
+          {
+            "id": "w8",
+            "index": 8,
+            "group": "Route A",
+            "name": "YoRHa-Issue Blade",
+            "location": "Side quest \"11B's Memento\"",
+            "method": "Take the quest from 16D in the @loc{Bunker}. Bring her 11B's Black Box from the first room of the @loc{Abandoned Factory}.",
+            "note": "The quest is offered in Route A."
+          },
+          {
+            "id": "w9",
+            "index": 9,
+            "group": "Route A",
+            "name": "Iron Pipe",
+            "location": "@loc{Sewers}",
+            "method": "Fish in the sewer water until you catch the Iron Pipe. The catch is random."
+          },
+          {
+            "id": "w10",
+            "index": 10,
+            "group": "Route A",
+            "name": "Virtuous Dignity",
+            "location": "Grove above the end of the @loc{Sewers}",
+            "method": "Walk past the exit ladder and through the gap in the dead end. Climb the second ladder and take the spear from the large chained tree."
+          },
+          {
+            "id": "w11",
+            "index": 11,
+            "group": "Route A",
+            "name": "Machine Sword",
+            "location": "@loc{Pascal's Village}, Weapon Trader",
+            "method": "Buy the sword for 15,000 G.",
+            "note": "Masamune sells the three Machine weapons too."
+          },
+          {
+            "id": "w12",
+            "index": 12,
+            "group": "Route A",
+            "name": "Machine Axe",
+            "location": "@loc{Pascal's Village}, Weapon Trader",
+            "method": "Buy the axe for 15,000 G."
+          },
+          {
+            "id": "w13",
+            "index": 13,
+            "group": "Route A",
+            "name": "Machine Spear",
+            "location": "@loc{Pascal's Village}, Weapon Trader",
+            "method": "Buy the spear for 15,000 G."
+          },
+          {
+            "id": "w14",
+            "index": 14,
+            "group": "Route A",
+            "name": "Type-4O Lance",
+            "location": "Side quest \"YoRHa Betrayers\"",
+            "method": "Accept the quest from the Commander's mail and defeat the squad captain.",
+            "note": "The quest is offered in Route A."
+          },
+          {
+            "id": "w15",
+            "index": 15,
+            "group": "Route A",
+            "name": "Type-3 Lance",
+            "location": "@loc{Flooded City}, roof of the isolated building between two waterfalls",
+            "method": "Leap from the upper end of the slanted sunken building and open the chest."
+          },
+          {
+            "id": "w16",
+            "index": 16,
+            "group": "Route A",
+            "name": "Dragoon Lance",
+            "location": "@loc{Forest Zone}, cave below the first river",
+            "method": "Start at the Center Access Point and trace the first river downhill to the cliff. Cross the flat rocks on the right and open the chest in the cave under the lone tree."
+          },
+          {
+            "id": "w17",
+            "index": 17,
+            "group": "Route A",
+            "name": "Virtuous Grief",
+            "location": "@loc{Forest Zone}, ledge above the Dragoon Lance cave",
+            "method": "Climb over the rocks right of the next waterfall. Take the weapon from the large chained tree."
+          },
+          {
+            "id": "w18",
+            "index": 18,
+            "group": "Route A",
+            "name": "Cypress Stick",
+            "location": "@loc{Forest Zone}, pillar area past the stone bridge",
+            "method": "Climb the tipped pillar by the closed gate. Jump across the stone arches to the chest on the farthest one."
+          },
+          {
+            "id": "w19",
+            "index": 19,
+            "group": "Route A",
+            "name": "Type-4O Sword",
+            "location": "Side quest \"Find a Present\"",
+            "method": "Complete \"Terminal Repairs\" first. Then finish \"Find a Present\" before you go down into the @loc{Flooded City} for \"Missile Supply Mission\".",
+            "note": "Route A only.",
+            "missable": true
+          },
+          {
+            "id": "w20",
+            "index": 20,
+            "group": "Route A",
+            "name": "Iron Will",
+            "location": "@loc{Flooded City}, right of the end of the bridge",
+            "method": "Use the Scanner near the YoRHa soldier. The weapon is hidden to her left."
+          },
+          {
+            "id": "w21",
+            "index": 21,
+            "group": "Route A",
+            "name": "Type-3 Sword",
+            "location": "@loc{Resistance Camp}, Devola and Popola's shop",
+            "method": "Buy the sword for 20,000 G once the shop opens after the @loc{Copied City}."
+          },
+          {
+            "id": "w22",
+            "index": 22,
+            "group": "Route A",
+            "name": "Type-3 Blade",
+            "location": "@loc{Resistance Camp}, Devola and Popola's shop",
+            "method": "Buy the large sword for 20,000 G once the shop opens after the @loc{Copied City}."
+          },
+          {
+            "id": "w23",
+            "index": 23,
+            "group": "Route A",
+            "name": "Phoenix Lance",
+            "location": "@loc{Desert Zone}, a little right of the broken oil pipe",
+            "method": "Use the Scanner to uncover the spear."
+          },
+          {
+            "id": "w24",
+            "index": 24,
+            "group": "Route A",
+            "name": "Spear of the Usurper",
+            "location": "Side quest \"Heritage of the Past\"",
+            "method": "Take the quest in the @loc{Desert Zone} and find its four relics with the Scanner.",
+            "note": "The quest is offered in Route A or B."
+          },
+          {
+            "id": "w25",
+            "index": 25,
+            "group": "Route A",
+            "name": "Engine Blade",
+            "location": "@loc{Abandoned Factory}, tower beside the press conveyors",
+            "method": "During the escape, stop on the stair landing after the second press conveyor. Jump through the gap in the railing onto the hydraulic presses. Cross them into the upper floor of the previous tower and open the large chest."
+          },
+          {
+            "id": "w26",
+            "index": 26,
+            "group": "Route B",
+            "name": "Cruel Oath",
+            "location": "Start of Route B",
+            "method": "9S starts with this sword."
+          },
+          {
+            "id": "w27",
+            "index": 27,
+            "group": "Route B",
+            "name": "Phoenix Sword",
+            "location": "@loc{City Ruins}, rooftop where the Flight Units land",
+            "method": "Hack the chest in the far-right corner."
+          },
+          {
+            "id": "w28",
+            "index": 28,
+            "group": "Route B",
+            "name": "Type-4O Fists",
+            "location": "@loc{Resistance Camp}, left of the Access Point",
+            "method": "Jump over the metal crates and hack the chest."
+          },
+          {
+            "id": "w29",
+            "index": 29,
+            "group": "Route B",
+            "name": "Cruel Blood Oath",
+            "location": "Caverns under @loc{Desert Zone: Border Area}",
+            "method": "Hack the door and take the weapon stuck in the sand."
+          },
+          {
+            "id": "w30",
+            "index": 30,
+            "group": "Route B",
+            "name": "Demon's Cry",
+            "location": "@loc{Amusement Park} castle basement",
+            "method": "After @enemy{Simone}, take the elevator in the left corner down. Hack the chest behind the stack of TVs."
+          },
+          {
+            "id": "w31",
+            "index": 31,
+            "group": "Route B",
+            "name": "Type-4O Blade",
+            "location": "Side quest \"Data Analysis Freak 2\"",
+            "method": "Complete \"Data Analysis Freak\" for Operator 21O in the @loc{Bunker}, then its sequel.",
+            "note": "The quest is offered in Route B."
+          },
+          {
+            "id": "w32",
+            "index": 32,
+            "group": "Route B",
+            "name": "Beastcurse",
+            "location": "@loc{Forest Castle} library, top floor",
+            "method": "Hack the chest on the top floor."
+          },
+          {
+            "id": "w33",
+            "index": 33,
+            "group": "Route B",
+            "name": "Cruel Lament",
+            "location": "@npc{Masamune}, @loc{Forest Castle}",
+            "method": "Upgrade any weapon to Level 4. Then leave the conversation, talk to him again, and leave once more."
+          },
+          {
+            "id": "w34",
+            "index": 34,
+            "group": "Route B",
+            "name": "Angel's Folly",
+            "location": "@npc{Emil}'s shop on his Resistance Camp route",
+            "method": "Buy the weapon for 25,000 G when he carries his rare stock.",
+            "note": "To roll the rare stock, buy something from Emil once. Cross the bridge to the Commercial Facility entrance, run back to the old radio tower, and check the map for his icon by the Resistance Camp. Check his stock and try again until it is the rare one."
+          },
+          {
+            "id": "w35",
+            "index": 35,
+            "group": "Route B",
+            "name": "Type-3 Fists",
+            "location": "@npc{Emil}'s shop on his Resistance Camp route",
+            "method": "Buy the weapon from the same rare stock.",
+            "note": "Sources list its price as 20,000 G or 25,000 G."
+          },
+          {
+            "id": "w36",
+            "index": 36,
+            "group": "Route C",
+            "name": "Machine Heads",
+            "location": "@loc{Pascal's Village}",
+            "method": "As 9S, buy the weapon from @npc{Pascal} for 10,500 G.",
+            "note": "He sells it only if you wiped his memory.",
+            "missable": true
+          },
+          {
+            "id": "w37",
+            "index": 37,
+            "group": "Route C",
+            "name": "Cruel Arrogance",
+            "location": "Lower @loc{Abandoned Factory}",
+            "method": "As 9S, run back along the roof of the small conveyor tunnel and hack the door at its end."
+          },
+          {
+            "id": "w38",
+            "index": 38,
+            "group": "Route C",
+            "name": "Faith",
+            "location": "@loc{Flooded City} Soul Box, ring room of chests",
+            "method": "During \"Obtain Keys\", open the second chest on the right."
+          },
+          {
+            "id": "w39",
+            "index": 39,
+            "group": "Route C",
+            "name": "Emil Heads",
+            "location": "Cave outside @npc{Emil}'s house",
+            "method": "Raise the other 38 weapons to Level 4 first. Then take @item{Emil's Head} from the chest at his house as 9S and defeat @npc{Emil}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_POD_LV_MAX_ALL",
+      "displayName": "Supreme Support Weapons",
+      "description": "All Pods upgraded to the highest level.",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-10 hours of materials",
+      "estMinutes": 450,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_GET_ALL_POD",
+        "ACH_CLEAR_A2"
+      ],
+      "summary": "Upgrade Pod A, Pod B, and Pod C to Level 4, the highest level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each Pod needs one @item{Powerup Part S}, one @item{Powerup Part M}, and one @item{Powerup Part L} for its three upgrades. Only three Powerup Part S exist, so you cannot skip a source. The golden Machines in the @loc{City Ruins} do not return through Chapter Select. \"Anemone's Past\" and the Robo Dojo quests are offered only in Routes A and B.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find Pod B and Pod C."
+          },
+          {
+            "id": "s2",
+            "text": "In Route A, kill more than 1,000 enemies. After the main quest \"Assault\", look for three golden Machines in the @loc{City Ruins}: @enemy{Courageous Brother} and two gold Goliath Bipeds. Defeat them for the first @item{Powerup Part S}.",
+            "note": "If they are absent, check again after the main quest \"The Forest Kingdom\". One player report dates their appearance to that point.",
+            "kind": "warning"
+          },
+          {
+            "id": "s3",
+            "text": "Accept \"Anemone's Past\" from @npc{Anemone} once she has given you \"Missile Supply Mission\". Complete the side quest before you board the Flight Unit for that mission. The reward is the second Powerup Part S."
+          },
+          {
+            "id": "s4",
+            "text": "Complete all five of Father Servo's Robo Dojo side quests. The last one, \"Robo Dojo: Red Belt\", rewards the third Powerup Part S. Finish them before you board the Flight Unit for \"Missile Supply Mission\" in that route.",
+            "note": "As 9S, two hacks defeat Father Servo quickly."
+          },
+          {
+            "id": "s5",
+            "text": "Collect the three @item{Powerup Part M} from one chest and two Hackable Chests.",
+            "note": "Route B or C: the chest is halfway down the ledges right of the waterfall below the Forest Zone Center Access Point. Route C: one Hackable Chest is before the fourth elevator in the Flooded City Soul Box. Route C: return to the Copied City for the other, at the end of the straight path back from the Adam arena."
+          },
+          {
+            "id": "s6",
+            "text": "In Route C, go to the @loc{Amusement Park} square and attack its Golden Rabbit statue until it wakes. Then destroy the statue for a @item{Powerup Part L}. Use that part on a Pod before you fight the statue again, because it drops none while you hold one."
+          },
+          {
+            "id": "s7",
+            "text": "Gather the other materials. You need 6 @item{Complex Gadgets}: 2 from the Route C side quest \"Gathering Keepsakes\", 3 from \"Sorting Trouble 3\", and 1 hidden in the @loc{City Ruins} stream that the Scanner finds."
+          },
+          {
+            "id": "s8",
+            "text": "Upgrade each Pod to Level 4 at the Maintenance Shop. The three levels cost 2,500 G, 5,000 G, and 10,000 G."
+          },
+          {
+            "id": "s9",
+            "text": "After Route C, the Strange Resistance Woman in the @loc{Resistance Camp} also sells this achievement for G.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLEAR_HACKING_9S",
+      "displayName": "Fighting's Not My Thing",
+      "description": "Play your first hacking game.",
+      "hidden": true,
+      "globalPercent": 34.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "start of Route B",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_A"
+      ],
+      "summary": "Complete your first hacking mini-game as 9S.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the start of Route B, fly the Flight Unit as 9S until the game prompts you to hack an enemy. Finish that hacking mini-game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HACKING_KILL",
+      "displayName": "A Scanner's Power",
+      "description": "100 machine lifeforms destroyed by hacking.",
+      "hidden": true,
+      "globalPercent": 16.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during Route B",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Destroy 100 Machines by hacking them as 9S.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Throughout Route B, hack one or two enemies in every group you fight until the count reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_REMOTO_KILL",
+      "displayName": "Machines vs. Machines",
+      "description": "50 machine lifeforms destroyed by remote control.",
+      "hidden": true,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Destroy 50 Machines with a Machine that 9S controls through Remote Control.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hack menu with @mechanic{Remote Control} only appears when you hack a Machine that has not noticed you.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Talk to 2B and set her Combat Style to Passive so she does not take your kills."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the @loc{Amusement Park} and hack a parading Medium Biped before it notices you. Choose Remote Control."
+          },
+          {
+            "id": "s3",
+            "text": "Kill every Machine in the park with the controlled Machine."
+          },
+          {
+            "id": "s4",
+            "text": "Self Destruct the controlled Machine, transport away and back, and start again. Expect 1 to 3 runs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BERSERKER_KILL",
+      "displayName": "The Power of Hate",
+      "description": "50 machine lifeforms destroyed with berserk mode.",
+      "hidden": true,
+      "globalPercent": 6.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_PLAY_A2_FIRST_TIME"
+      ],
+      "summary": "Destroy 50 Machines as A2 while Berserk Mode is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "@mechanic{Berserk Mode} raises A2's damage and drains her health. It switches off at 1 HP.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Route C, activate Berserk Mode as A2 with the Self Destruct input, which is both sticks pressed in on a controller."
+          },
+          {
+            "id": "s2",
+            "text": "Kill Machines while Berserk Mode is active until the count reaches 50.",
+            "note": "The Deadly Heal chip offsets the health drain."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SHOOTING",
+      "displayName": "Ruler of the Skies",
+      "description": "255 enemies destroyed using a flight unit.",
+      "hidden": false,
+      "globalPercent": 41.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "during Route A",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_CASTLE_FOREST"
+      ],
+      "summary": "Destroy 255 enemies while piloting a Flight Unit.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Shoot down as many enemies as you can in every Flight Unit section of Route A. The count usually reaches 255 during \"Missile Supply Mission\"."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EXTRACTION",
+      "displayName": "Harvest King",
+      "description": "Materials gathered at a hidden harvest point 10 times.",
+      "hidden": false,
+      "globalPercent": 14.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_SUBMERGE_CITY"
+      ],
+      "summary": "Pick up 10 hidden items uncovered with the @item{A170: Scanner} Pod Program.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get the @item{A170: Scanner} program from @npc{Devola} and @npc{Popola} in the Route A story after the @loc{Flooded City}."
+          },
+          {
+            "id": "s2",
+            "text": "Use the Scanner as you travel. Its signal speeds up as you near a buried item. Pick up 10 of these items."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GET_ALL_POD",
+      "displayName": "Pod Hunter",
+      "description": "All Pods found.",
+      "hidden": false,
+      "globalPercent": 15.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_AMUSEMENT_PARK"
+      ],
+      "summary": "Find Pod B and Pod C so that you own all 3 Pods.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pod A is the Pod you start with.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pod C: In the @loc{Desert Zone}, keep the rock wall on your left until you pass the way in to the Oil Field Access Point. Climb the tallest dune after it. The Pod lies a little below the top, on the side facing back toward the @loc{City Ruins}."
+          },
+          {
+            "id": "s2",
+            "text": "Pod B: In the @loc{Flooded City}, go straight past the Coast Access Point to the open ocean. Fish there until you catch the Pod.",
+            "note": "Fish in the ocean, not the enclosed pools by the buildings. The source guide needed about 6 casts and fished with the HUD: Fishing Spots chip installed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RICH_MAN",
+      "displayName": "Desire Without Emotion",
+      "description": "At least 100,000 G in possession.",
+      "hidden": false,
+      "globalPercent": 34.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during Route A",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_AMUSEMENT_PARK"
+      ],
+      "summary": "Hold at least 100,000 G at one time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "During Route A, complete side quests and sell fish and any item whose description says it can be exchanged for money."
+          },
+          {
+            "id": "s2",
+            "text": "Sell the 4 @item{Machine Cores} from the main quest, which bring 40,000 G together."
+          },
+          {
+            "id": "s3",
+            "text": "Wait to invest money with the Half-Wit Inventor until the achievement unlocks.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ANIMAL_RUN",
+      "displayName": "Animal Rider",
+      "description": "Any animal ridden for 5 kilometers.",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_VISITED_RUINS_CITY"
+      ],
+      "summary": "Ride animals for a total of 5 kilometers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @item{Animal Bait} for 100 G at the @loc{Resistance Camp}."
+          },
+          {
+            "id": "s2",
+            "text": "Place the bait near a Boar or a Moose and mount the animal."
+          },
+          {
+            "id": "s3",
+            "text": "Ride from the Resistance Camp to the waterfall into the valley and back three times. Each round trip is about 1.6 km."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FISHING",
+      "displayName": "A Round by the Pond",
+      "description": "20 different kinds of fish caught.",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_AMUSEMENT_PARK"
+      ],
+      "summary": "Catch 20 different kinds of fish.",
+      "guide": {
+        "kind": "standard",
+        "context": "There are 41 kinds of fish. The @loc{Flooded City} holds most of them.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fish in the @loc{Flooded City}, the @loc{Sewers}, the Desert oil field, and the @loc{City Ruins} stream outside the @loc{Resistance Camp} until you have 20 kinds.",
+            "note": "The source guide fishes with the HUD: Fishing Spots chip installed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_NPC_KILL",
+      "displayName": "Wait! Don't Kill Me!",
+      "description": "10 friendly machine lifeforms destroyed.",
+      "hidden": true,
+      "globalPercent": 22.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_DESERT_AREA"
+      ],
+      "summary": "Destroy 10 friendly Machines.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Destroy 10 of the friendly Machines in the @loc{Amusement Park}.",
+            "note": "They are not quest characters, and they respawn when you leave and return."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SKIRT_ESCAPE",
+      "displayName": "What Are You Doing?",
+      "description": "2B's secret discovered 10 times.",
+      "hidden": true,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_VISITED_RUINS_CITY"
+      ],
+      "summary": "Look up 2B's skirt with the camera 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "As 2B, stand still and tilt the camera to look up under her skirt from the front. Hold the view until she swipes at the camera and resets it. Do this 10 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PANTS",
+      "displayName": "Not That I Mind...",
+      "description": "1 hour played with 9S in a certain state.",
+      "hidden": true,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Play as 9S without his shorts for a total of 1 hour.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy the @item{Dress Module} for 10,000 G from @npc{Emil}'s rare stock on his Resistance Camp route. Choose Use on it, not Equip."
+          },
+          {
+            "id": "s2",
+            "text": "Play as 9S for one hour in total. The time does not have to be one sitting.",
+            "note": "Without the Dress Module, Self Destruct as 9S instead. This also removes his shorts but leaves him almost dead, so wait somewhere safe such as the Resistance Camp."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EMILE_SHOP",
+      "displayName": "Come Take a Look!",
+      "description": "Emil's shop used for the first time.",
+      "hidden": true,
+      "globalPercent": 34.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CLEAR_CASTLE_FOREST"
+      ],
+      "summary": "Open @npc{Emil}'s shop inventory for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After the forest part of the Route A story, find the mask icon on the @loc{City Ruins} map. If it is missing, transport to another City Ruins Access Point."
+          },
+          {
+            "id": "s2",
+            "text": "Shoot @npc{Emil}'s moving cart with Pod fire to stop it. Talk to him, open his inventory, and close it. You do not need to buy anything."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_KILL_EM1010",
+      "displayName": "Naughty Children",
+      "description": "Emil destroyed.",
+      "hidden": true,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CALL_AT_KAINES_ROOM",
+        "ACH_CLEAR_A2"
+      ],
+      "summary": "Defeat @npc{Emil} in the cave fight that follows taking @item{Emil's Head} from his house.",
+      "guide": {
+        "kind": "standard",
+        "context": "@npc{Emil} attacks at Level 99. The source guide reports wins between Level 65 and 78. Make the second visit to his house only after your other 38 weapons are at Level 4, because doing it earlier can lock you out of Ending Y.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete the side quest \"Emil's Memories\"."
+          },
+          {
+            "id": "s2",
+            "text": "In the @loc{City Ruins}, stand on the roof of the small square building above the Cave Access Point. Glide left into the large pipe that pours water and ride the elevator down."
+          },
+          {
+            "id": "s3",
+            "text": "Drop to the lake at the bottom of the gorge. Go past it to the end of the lower cavern and through the doors to Emil's house."
+          },
+          {
+            "id": "s4",
+            "text": "Pick up the @item{Emil Mask} on the ground in front of the mask rack. Then talk to @npc{Emil}, who says he has tightened security."
+          },
+          {
+            "id": "s5",
+            "text": "Return to the house as 9S and hack the chest now in front of it to take @item{Emil's Head}.",
+            "note": "If the chest is missing, pick up the mask and talk to Emil again."
+          },
+          {
+            "id": "s6",
+            "text": "Defeat @npc{Emil} when he attacks on your way out. Stay close so he uses his melee attack, which is easier to evade than his ranged attacks.",
+            "note": "He also drops the Emil Heads weapon."
+          },
+          {
+            "id": "s7",
+            "text": "After Route C, the Strange Resistance Woman in the @loc{Resistance Camp} also sells this achievement for G.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BAD_END",
+      "displayName": "Transcendent Being",
+      "description": "All endings achieved.",
+      "hidden": true,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "across all routes plus cleanup",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_WEAPON_LV_MAX_ALL",
+        "ACH_TRUE_END"
+      ],
+      "summary": "Earn all 26 endings, A through Z.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Most lettered endings are instant game-over scenes that send you back to the title screen or your last save, so save first. Chapter Select opens after Route C and reaches any ending you missed. After Route C, the Strange Resistance Woman in the @loc{Resistance Camp} also sells this achievement for G.",
+        "collectibles": [
+          {
+            "id": "e1",
+            "index": 1,
+            "group": "Route A",
+            "name": "Ending W",
+            "location": "Prologue",
+            "method": "Die during the Prologue."
+          },
+          {
+            "id": "e2",
+            "index": 2,
+            "group": "Route A",
+            "name": "Ending T",
+            "location": "Plug-In Chips menu",
+            "method": "In the Skills menu, open Plug-In Chips, pick Set Type A, then Customize, then Equipped Chips. Remove the @item{OS Chip}."
+          },
+          {
+            "id": "e3",
+            "index": 3,
+            "group": "Route A",
+            "name": "Ending H",
+            "location": "@loc{Pascal's Village}, main quest \"Assault\"",
+            "method": "When you are ordered to intercept the Goliath in the @loc{City Ruins}, walk toward the @loc{Amusement Park} instead. Ignore the Pod's warnings."
+          },
+          {
+            "id": "e4",
+            "index": 4,
+            "group": "Route A",
+            "name": "Ending U",
+            "location": "@loc{Bunker}",
+            "method": "Self Destruct while you are inside the Bunker."
+          },
+          {
+            "id": "e5",
+            "index": 5,
+            "group": "Route A",
+            "name": "Ending K",
+            "location": "@loc{Desert: Camp} Access Point",
+            "method": "After the alien ship, a Resistance member here gives you a @item{Mackerel}. Eat the Mackerel.",
+            "note": "A Mackerel you fish up works too."
+          },
+          {
+            "id": "e6",
+            "index": 6,
+            "group": "Route A",
+            "name": "Ending N",
+            "location": "@loc{Pascal's Village}",
+            "method": "Destroy all 32 Machines in the village, including @npc{Pascal}.",
+            "note": "There are 11 on the lower level, 6 on the middle level, 13 on the top level, 1 guard at the back exit, and 1 down a small ladder off the top level. The Half-Wit Inventor does not count."
+          },
+          {
+            "id": "e7",
+            "index": 7,
+            "group": "Route A",
+            "name": "Ending I",
+            "location": "@loc{Copied City}",
+            "method": "After you defeat the boss, walk away from 9S and leave the Copied City."
+          },
+          {
+            "id": "e8",
+            "index": 8,
+            "group": "Route A",
+            "name": "Ending J",
+            "location": "@loc{Abandoned Factory}, with @npc{Pascal}",
+            "method": "Kill the Machine priest who greets you. Do not hurt any other Machine."
+          },
+          {
+            "id": "e9",
+            "index": 9,
+            "group": "Route A",
+            "name": "Ending L",
+            "location": "@loc{Resistance Camp}, after the factory escape",
+            "method": "When you find the camp under attack, turn around and leave the camp."
+          },
+          {
+            "id": "e10",
+            "index": 10,
+            "group": "Route A",
+            "name": "Ending A",
+            "location": "End of Route A",
+            "method": "Defeat the final boss of Route A."
+          },
+          {
+            "id": "e11",
+            "index": 11,
+            "group": "Route B",
+            "name": "Ending G",
+            "location": "Start of Route B",
+            "method": "As 9S, skip the Flight Unit. Use the console on the left of the upper platform to lower a crane, then walk out to the crane's tip."
+          },
+          {
+            "id": "e12",
+            "index": 12,
+            "group": "Route B",
+            "name": "Ending F",
+            "location": "Prologue Goliath fight",
+            "method": "After 9S is shot down, do not repair him. Wait until the 3-minute timer expires."
+          },
+          {
+            "id": "e13",
+            "index": 13,
+            "group": "Route B",
+            "name": "Ending B",
+            "location": "End of Route B",
+            "method": "Finish Route B."
+          },
+          {
+            "id": "e14",
+            "index": 14,
+            "group": "Route C",
+            "name": "Ending O",
+            "location": "Bridge to the @loc{Abandoned Factory}",
+            "method": "When 2B and 9S regroup on the bridge, turn around as 2B and follow the bridge to the factory."
+          },
+          {
+            "id": "e15",
+            "index": 15,
+            "group": "Route C",
+            "name": "Ending P",
+            "location": "After 2B is infected",
+            "method": "Let System Corruption reach 100%.",
+            "note": "Stepping a few paces onto the bridge toward the Commercial Facility jumps it to 90%."
+          },
+          {
+            "id": "e16",
+            "index": 16,
+            "group": "Route C",
+            "name": "Ending X",
+            "location": "@loc{Commercial Facility}",
+            "method": "When you first control A2, turn back and cross the bridge into the @loc{City Ruins}."
+          },
+          {
+            "id": "e17",
+            "index": 17,
+            "group": "Route C",
+            "name": "Ending Q",
+            "location": "@loc{City Ruins}, as 9S",
+            "method": "Stay away from 2B at the Commercial Facility. Head for the desert or the @loc{Resistance Camp} instead."
+          },
+          {
+            "id": "e18",
+            "index": 18,
+            "group": "Route C",
+            "name": "Ending Z",
+            "location": "Outside the @loc{Resistance Camp}",
+            "method": "As A2, destroy the Goliath @enemy{Hegel}, then clear the Machines attacking @npc{Pascal}. Talk to him and choose Destroy Pascal."
+          },
+          {
+            "id": "e19",
+            "index": 19,
+            "group": "Route C",
+            "name": "Ending M",
+            "location": "@loc{Resistance Camp}, main quest \"A Villager's Request\"",
+            "method": "When A2 is sent to rescue Pascal's Village, run to the far back of the Resistance Camp instead."
+          },
+          {
+            "id": "e20",
+            "index": 20,
+            "group": "Route C",
+            "name": "Ending R",
+            "location": "@loc{Abandoned Factory}, main quest \"Village Turmoil\"",
+            "method": "In the first room, do not talk to @npc{Pascal} a second time. Destroy the friendly Machines in the room."
+          },
+          {
+            "id": "e21",
+            "index": 21,
+            "group": "Route C",
+            "name": "Ending S",
+            "location": "@loc{Tower} hack, as 9S",
+            "method": "When @npc{Devola} and @npc{Popola} arrive, run away and leave the City Ruins."
+          },
+          {
+            "id": "e22",
+            "index": 22,
+            "group": "Route C",
+            "name": "Ending V",
+            "location": "@loc{Tower} hack, as 9S",
+            "method": "Stay in the pit by the Tower without hacking until the twins are overwhelmed. This takes a few minutes."
+          },
+          {
+            "id": "e23",
+            "index": 23,
+            "group": "Route C",
+            "name": "Ending C",
+            "location": "Final boss",
+            "method": "Defeat the final boss as A2."
+          },
+          {
+            "id": "e24",
+            "index": 24,
+            "group": "Route C",
+            "name": "Ending D",
+            "location": "Final boss",
+            "method": "Defeat the final boss as 9S."
+          },
+          {
+            "id": "e25",
+            "index": 25,
+            "group": "Route C",
+            "name": "Ending E",
+            "location": "Credits after Endings C and D",
+            "method": "Clear the credits mini-game and refuse to delete your save data. Then accept the prompt to save Ending E."
+          },
+          {
+            "id": "e26",
+            "index": 26,
+            "group": "Route C",
+            "name": "Ending Y",
+            "location": "@loc{Desert Zone}, side quest \"Emil's Determination\"",
+            "method": "With all 39 weapons at Level 4, talk to @npc{Emil} at the Commercial Facility. Defeat him in the Desert Zone, then let his Self Destruct countdown run out without attacking.",
+            "note": "Attacking during the countdown ends the quest without the ending. Save before the fight.",
+            "missable": true
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CALL_AT_KAINES_ROOM",
+      "displayName": "Lunar Tear",
+      "description": "The place of memories has been visited.",
+      "hidden": true,
+      "globalPercent": 11.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_EMILE_SHOP",
+        "ACH_CLEAR_HACKING_9S"
+      ],
+      "summary": "Complete the side quest \"Emil's Memories\".",
+      "guide": {
+        "kind": "standard",
+        "context": "The quest closes for the current route when you board the Flight Unit for \"Missile Supply Mission\".",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the quest marker inside the @loc{Commercial Facility}, which is part of the @loc{City Ruins}, and find the @item{Lunar Tear} there. @npc{Emil} asks you to find four more."
+          },
+          {
+            "id": "s2",
+            "text": "Find the other four Lunar Tears. They are in the @loc{Forest Zone}, @loc{Flooded City}, @loc{Amusement Park}, and @loc{Desert Zone}.",
+            "note": "Desert: in the caverns, take the path left then down from the entry and hop across the sandstone. Forest: in the small cave with the Dragoon Lance chest. Amusement Park: next to the Shopkeeper Machine."
+          },
+          {
+            "id": "s3",
+            "text": "Return to the Commercial Facility. Ride the elevator under the roots of the large tree in the middle, using the @item{Elevator Key} from Emil."
+          },
+          {
+            "id": "s4",
+            "text": "Talk to @npc{Emil} below to finish the quest."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_VISITED_BUNKER",
+    "ACH_VISITED_RUINS_CITY",
+    "ACH_CLEAR_QUEST_FIRST_TIME",
+    "ACH_RECOVERY_SELF_CORPSE",
+    "ACH_SKIRT_ESCAPE",
+    "ACH_ANIMAL_RUN",
+    "ACH_CLEAR_DESERT_AREA",
+    "ACH_NPC_KILL",
+    "ACH_CLEAR_AMUSEMENT_PARK",
+    "ACH_GET_ALL_POD",
+    "ACH_CLEAR_ALIEN_SHIP",
+    "ACH_CLEAR_CASTLE_FOREST",
+    "ACH_EMILE_SHOP",
+    "ACH_SHOOTING",
+    "ACH_RICH_MAN",
+    "ACH_FISHING",
+    "ACH_CLEAR_SUBMERGE_CITY",
+    "ACH_EXTRACTION",
+    "ACH_CLEAR_COPY_CITY",
+    "ACH_CLEAR_ROBOT_MT",
+    "ACH_COLLECT_CHIP",
+    "ACH_CLEAR_A",
+    "ACH_CLEAR_HACKING_9S",
+    "ACH_RECOVERY_CORPSE",
+    "ACH_PANTS",
+    "ACH_HACKING_KILL",
+    "ACH_CALL_AT_KAINES_ROOM",
+    "ACH_REMOTO_KILL",
+    "ACH_WEAPON_LV_MAX",
+    "ACH_CLEAR_B",
+    "ACH_CLEAR_MANY_QUEST",
+    "ACH_SEE_2B_DIE",
+    "ACH_PLAY_A2_FIRST_TIME",
+    "ACH_BERSERKER_KILL",
+    "ACH_LAST_REQUEST_PASCAL",
+    "ACH_KILL_ROBOT_BROTHER",
+    "ACH_DEVOLA_NOVEL_END",
+    "ACH_CLEAR_A2",
+    "ACH_CLEAR_9S",
+    "ACH_TRUE_END",
+    "ACH_HAS_ALL_ACTIVE_SKILL",
+    "ACH_COLLECT_EM_LIST",
+    "ACH_COLLECT_ARCHIVE",
+    "ACH_KILL_EM1010",
+    "ACH_POD_LV_MAX_ALL",
+    "ACH_WEAPON_LV_MAX_ALL",
+    "ACH_BAD_END"
+  ]
+}

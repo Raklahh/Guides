@@ -1,0 +1,2222 @@
+{
+  "game": {
+    "appid": 2183900,
+    "slug": "warhammer-40-000-space-marine-2",
+    "title": "Warhammer 40,000: Space Marine 2",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-06",
+    "estTotalHours": 60,
+    "difficultyRating": 5,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-07"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Campaign",
+      "description": "Play the story from the Prologue to Mission 7. Do the mission-specific unlocks (Lictor, Ravener, Lesser Sorcerer, Scarab Occult Terminator, the Mission 6 drop) as you reach them, use Righteous Fury and finishers freely, and replay a mission for anything missed.",
+      "achievementRefs": [
+        "STORY_INTRO",
+        "STORY_CANNON",
+        "STORY_ASSASSINATION",
+        "STORY_SKYLAB",
+        "STORY_RESCUE",
+        "STORY_TOWER",
+        "CHAPLAIN_INSTRUCTIONS",
+        "STORY_ORBITAL_DROP",
+        "STORY_BLACKSTONE",
+        "STORY_LAST_STAND",
+        "STORY_FINALE",
+        "KILLS_IN_FURY",
+        "FINISHERS",
+        "RAVENER_CANCEL_GRAB",
+        "ATTACK_LICTOR",
+        "KILL_LESSER_SOURCERER",
+        "PERFECT_PARRY"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Operations missions and collectibles",
+      "description": "Complete Operations 01-06 for the six auto-unlocks. While doing them, mark every enemy type, pick up the remaining Dataslates, and collect the barrel and reinforcement-call kills.",
+      "achievementRefs": [
+        "PVE_ACID_BOMB",
+        "PVE_TYRANT",
+        "PVE_DAEMONHOST",
+        "PVE_FIRESTORM",
+        "PVE_ANCIENT_WEAPON",
+        "PVE_TRAIN",
+        "KILLS_BY_TRAPS",
+        "KILLS_ALERT",
+        "MARKING_TOOL",
+        "DATASLATES"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Operations grinds",
+      "description": "Replay Operations to level classes and weapons, finish one Ruthless mission, and complete the per-class kill counters and the Tyranid and Chaos kill counters.",
+      "achievementRefs": [
+        "PVE_PICKUPS",
+        "PVE_RUTHLESS",
+        "PVE_MAX_LEVEL",
+        "PVE_MAX_MELEE",
+        "PVE_MAX_FIREARM",
+        "PVE_FULL_ARMOR",
+        "SOLDIER_KILLS",
+        "SNIPER_HEADSHOTS",
+        "SUPPORT_KILLS",
+        "RAIDER_GROUNDPOUND",
+        "TANK_KILLS",
+        "BERSERK_GUNSTRIKES",
+        "PVE_TYRANID_KILLS",
+        "PVE_CHAOS_KILLS"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Eternal War",
+      "description": "Play the PvP matches: win with each class, play 10 matches in each of the three modes, and get a 5-kill streak.",
+      "achievementRefs": [
+        "PVP_WIN",
+        "PVP_WIN_CLASSES",
+        "PVP_DEATHMATCH",
+        "PVP_KOH",
+        "PVP_DOMINATION",
+        "PVP_KILLS"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Kill totals and finish",
+      "description": "Reach 20,000 and 41,000 total kills across all modes. Defender of Humanity unlocks after the other 49.",
+      "achievementRefs": [
+        "TOTAL_KILLS_SILVER",
+        "TOTAL_KILLS",
+        "ALL_ACHIEVEMENTS"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "STORY_INTRO",
+      "displayName": "The Die Is Cast",
+      "description": "Become a Primaris Space Marine.",
+      "hidden": true,
+      "globalPercent": 93.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Prologue",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Watch the cutscene in the opening mission where Titus rises as a Primaris Space Marine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the opening mission to the end. The achievement unlocks after the cutscene where Titus becomes a Primaris Space Marine."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_CANNON",
+      "displayName": "Unleash the Cannon",
+      "description": "Use the anti-aircraft batteries to destroy the hive ship.",
+      "hidden": true,
+      "globalPercent": 81.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_INTRO"
+      ],
+      "summary": "Destroy the hive ship by retaking the anti-aircraft batteries in the story.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story until you retake the anti-aircraft batteries and destroy the hive ship."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_ACID_BOMB",
+      "displayName": "Crude but Effective",
+      "description": "Destroy the Tyranid swarm with a bomb in the promethium well.",
+      "hidden": true,
+      "globalPercent": 54.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 mission",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Operation 01: Inferno by deploying the bomb in the promethium well.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Operation 01: Inferno}."
+          },
+          {
+            "id": "s2",
+            "text": "Deploy the bomb in the promethium well to finish the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_ASSASSINATION",
+      "displayName": "Chaos All Along",
+      "description": "Find out that Chaos forces are on Kadaku.",
+      "hidden": true,
+      "globalPercent": 70.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_CANNON"
+      ],
+      "summary": "Reach the crashed dropship in the story and find the Chaos forces on Kadaku.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story to the crashed dropship. The achievement unlocks when you reach the ship."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_SKYLAB",
+      "displayName": "Target Acquired",
+      "description": "Find where Morias Leuze is.",
+      "hidden": true,
+      "globalPercent": 64.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_ASSASSINATION"
+      ],
+      "summary": "Reach the facility in the story and protect its core from destruction to locate Morias Leuze.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story to the facility and defend the core until the attack ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_RESCUE",
+      "displayName": "Vital Asset",
+      "description": "Save Morias Leuze from the Chaos attack.",
+      "hidden": true,
+      "globalPercent": 60.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_SKYLAB"
+      ],
+      "summary": "Fight through the Chaos heretics in the story and rescue Morias Leuze.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story and fight through the heretics until you reach and rescue Morias Leuze."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_TYRANT",
+      "displayName": "Sic Semper Tyrannis",
+      "description": "Kill the Hive Tyrant.",
+      "hidden": true,
+      "globalPercent": 45.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 mission",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Operation 02: Decapitation by killing the Hive Tyrant.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Operation 02: Decapitation} and kill the @enemy{Hive Tyrant}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_DAEMONHOST",
+      "displayName": "Voice in the Dark",
+      "description": "Kill the Daemonhost and restore vox communication.",
+      "hidden": true,
+      "globalPercent": 40.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 mission",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Operation 03: Vox Liberatis by killing the Daemonhost and restoring vox communication.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Operation 03: Vox Liberatis}, kill the @enemy{Daemonhost}, and restore vox communication."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_TOWER",
+      "displayName": "Enemy Revealed",
+      "description": "Defeat the Chaos sorcerer.",
+      "hidden": true,
+      "globalPercent": 57.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_RESCUE"
+      ],
+      "summary": "Expose the traitors and kill the Chaos sorcerer in the story.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story, expose the traitors, and kill the Chaos sorcerer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_FIRESTORM",
+      "displayName": "Douse the Flames",
+      "description": "Destroy the Chaos warp beacon.",
+      "hidden": true,
+      "globalPercent": 36.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 mission",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Operation 04: Reliquary by destroying the Chaos warp beacon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Operation 04: Reliquary} and destroy the Chaos warp beacon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_ANCIENT_WEAPON",
+      "displayName": "Resurrection",
+      "description": "Bring the Sword of Atreus back to life.",
+      "hidden": true,
+      "globalPercent": 34.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 mission",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Operation 05: Fall of Atreus by reanimating the Sword of Atreus.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Operation 05: Fall of Atreus} and reanimate the @item{Sword of Atreus}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_ORBITAL_DROP",
+      "displayName": "My Face Is My Shield",
+      "description": "Hit 10 objects while dropping from orbit.",
+      "hidden": true,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 tries",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "CHAPLAIN_INSTRUCTIONS"
+      ],
+      "summary": "Collide with 10 objects while dropping from orbit at the start of Mission 6: Dawn's Descent.",
+      "guide": {
+        "kind": "standard",
+        "context": "Missions can be replayed, so you can retry the drop.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start @loc{Mission 6: Dawn's Descent}."
+          },
+          {
+            "id": "s2",
+            "text": "During the drop, steer into the space debris. Do not dodge it.",
+            "kind": "warning"
+          },
+          {
+            "id": "s3",
+            "text": "Hit 10 objects before the drop ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_BLACKSTONE",
+      "displayName": "Break of Dawn",
+      "description": "Learn what the Aurora device really is.",
+      "hidden": true,
+      "globalPercent": 52.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_ORBITAL_DROP"
+      ],
+      "summary": "Find out what the Aurora device really is in Mission 6: Dawn's Descent.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Mission 6: Dawn's Descent}, descend through the tomb to its lowest level and find Aurora."
+          },
+          {
+            "id": "s2",
+            "text": "Watch every cutscene in the mission. Skipping one stops the unlock.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_LAST_STAND",
+      "displayName": "Into the Abyss",
+      "description": "Survive and defeat the Chaos invasion.",
+      "hidden": true,
+      "globalPercent": 52.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_BLACKSTONE"
+      ],
+      "summary": "Join up with the main army in the story and close the Chaos warp gates.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story, meet the main army, and close the Chaos warp gates."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_FINALE",
+      "displayName": "I'll Be Watching You",
+      "description": "Defeat the Lord of Change and see a figure from the past.",
+      "hidden": true,
+      "globalPercent": 51.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 mission",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_LAST_STAND"
+      ],
+      "summary": "Beat the Lord of Change and confront a figure from the past at the end of the story.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the story to the end and beat the @enemy{Lord of Change}. The achievement unlocks once you confront a figure from the past."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MARKING_TOOL",
+      "displayName": "Purge Them All",
+      "description": "Mark every enemy type",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Campaign + Operations",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Mark every enemy type at least once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Marks sometimes fail to register. Imurah, the Hive Tyrant, the Helldrake and the Carnifex are the usual last ones missing, so mark these again on a later run if the achievement does not unlock. Buying an enemy's entry in the Research Center shows a small icon that says whether you marked that enemy.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the campaign, mark each Tyranid type: @enemy{Hormagaunt}, @enemy{Termagant}, @enemy{Ravener}, @enemy{Lictor}, @enemy{Zoanthrope}, @enemy{Neurothrope}, @enemy{Carnifex}, and the Warriors with Lash Whip, Bone Sword, Venom Cannon, Barbed Strangler and Devourer."
+          },
+          {
+            "id": "s2",
+            "text": "In the campaign, mark each Chaos type: @enemy{Cultist}, Cultist with Las Cannon, @enemy{Tzaangor}, Rubric Marine with Inferno Bolter, Rubric Marine with Warp Flamer, @enemy{Lesser Sorcerer}, Scarab Occult Terminator with Soul Reaper, Scarab Occult Terminator with Sword, and @enemy{Helbrute}."
+          },
+          {
+            "id": "s3",
+            "text": "Mark @enemy{Imurah} in his Mission 5 fight and again in his Mission 7 fight."
+          },
+          {
+            "id": "s4",
+            "text": "In Operations, mark the @enemy{Hive Tyrant} in Operation 02: Decapitation and the @enemy{Helldrake} in Operation 04: Reliquary."
+          },
+          {
+            "id": "s5",
+            "text": "Spore Mines, Gargoyles, Ripper Swarms, Daemonhosts and Daemons cannot be marked. Skip them.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FINISHERS",
+      "displayName": "The Art of Dismemberment",
+      "description": "Perform 50 unique Finishers",
+      "hidden": false,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "During the campaign",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Perform 50 unique Finishers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Execute enemies whenever the game lets you, and finish enemies after a @mechanic{Perfect Parry}."
+          },
+          {
+            "id": "s2",
+            "text": "Swap melee weapons and fight many enemy types. Each enemy type and each melee weapon has its own finisher animations."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DATASLATES",
+      "displayName": "Data Mining",
+      "description": "Collect all Dataslates",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Campaign + Operations",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect all 35 Dataslates in the campaign and Operations missions.",
+      "guide": {
+        "kind": "collectible",
+        "context": "In the hub, press Tab and open the Dataslate repository to see which Dataslates you have collected. Missions can be replayed for any you miss.",
+        "collectibles": [
+          {
+            "id": "slate-01",
+            "index": 1,
+            "group": "Skyfire (Campaign)",
+            "name": "Plant-blocked swamp path",
+            "location": "Swamp near the start, a little past the weapon capsule",
+            "method": "Shoot the red cocoon on the left path that plants block, then follow the path.",
+            "missable": false
+          },
+          {
+            "id": "slate-02",
+            "index": 2,
+            "group": "Skyfire (Campaign)",
+            "name": "Broken bridge",
+            "location": "Before you meet the soldiers, at the destroyed bridge",
+            "method": "Cross the bridge and look on the far side.",
+            "missable": false
+          },
+          {
+            "id": "slate-03",
+            "index": 3,
+            "group": "Skyfire (Campaign)",
+            "name": "Crossroads stairs",
+            "location": "At the crossroads",
+            "method": "Climb the stairs to the upper level.",
+            "missable": false
+          },
+          {
+            "id": "slate-04",
+            "index": 4,
+            "group": "Skyfire (Campaign)",
+            "name": "Landing pad elevator",
+            "location": "Foot of the elevator that leads to the landing pad",
+            "method": "Check the bottom of the elevator.",
+            "missable": false
+          },
+          {
+            "id": "slate-05",
+            "index": 5,
+            "group": "Inferno (Operation)",
+            "name": "Ruined bunker",
+            "location": "Near the start of the level",
+            "method": "Search the ruined bunker.",
+            "missable": false
+          },
+          {
+            "id": "slate-06",
+            "index": 6,
+            "group": "Inferno (Operation)",
+            "name": "Roofless factory",
+            "location": "Factory with a destroyed roof",
+            "method": "Go up the ramp and turn left.",
+            "missable": false
+          },
+          {
+            "id": "slate-07",
+            "index": 7,
+            "group": "Severance (Campaign)",
+            "name": "Abandoned camp",
+            "location": "Abandoned camp found during the story",
+            "method": "Look on the mountain by the abandoned camp.",
+            "missable": false
+          },
+          {
+            "id": "slate-08",
+            "index": 8,
+            "group": "Severance (Campaign)",
+            "name": "Citadel elevator",
+            "location": "After the boss, in the citadel",
+            "method": "Before you ride the elevator down, check near the elevator.",
+            "missable": false
+          },
+          {
+            "id": "slate-09",
+            "index": 9,
+            "group": "Severance (Campaign)",
+            "name": "Ventilation shaft",
+            "location": "Big staircase room after the room with rats",
+            "method": "Use the terminal to open the vent door, then follow the shaft to its end.",
+            "missable": false
+          },
+          {
+            "id": "slate-10",
+            "index": 10,
+            "group": "Severance (Campaign)",
+            "name": "Canyon ledge",
+            "location": "Swamp canyon before the last arena of the jungle's second part",
+            "method": "Look on a ledge in the rock.",
+            "missable": false
+          },
+          {
+            "id": "slate-11",
+            "index": 11,
+            "group": "Machinus Divinitus (Campaign)",
+            "name": "Bridge defence roof",
+            "location": "Across the way, during the bridge-opening defence",
+            "method": "Check the roof.",
+            "missable": false
+          },
+          {
+            "id": "slate-12",
+            "index": 12,
+            "group": "Machinus Divinitus (Campaign)",
+            "name": "Factory approach vent",
+            "location": "Corridors toward the factory, in an alley near the ruined bridge",
+            "method": "Look in the ventilation shaft.",
+            "missable": false
+          },
+          {
+            "id": "slate-13",
+            "index": 13,
+            "group": "Machinus Divinitus (Campaign)",
+            "name": "End-room corridor",
+            "location": "Entrance of the room with the mission-end elevator",
+            "method": "Go straight down the corridor from the front door.",
+            "missable": false
+          },
+          {
+            "id": "slate-14",
+            "index": 14,
+            "group": "Ballistic Engine (Operation)",
+            "name": "Right-hand fork",
+            "location": "First building you enter",
+            "method": "Take the right corridor and check the fork on the right.",
+            "missable": false
+          },
+          {
+            "id": "slate-15",
+            "index": 15,
+            "group": "Ballistic Engine (Operation)",
+            "name": "Wagon arena tank",
+            "location": "Wagon arena",
+            "method": "Look near the destroyed tank.",
+            "missable": false
+          },
+          {
+            "id": "slate-16",
+            "index": 16,
+            "group": "Servant of the Machine (Campaign)",
+            "name": "Elevator rear",
+            "location": "Near the elevator that takes you upstairs",
+            "method": "Check behind the elevator.",
+            "missable": false
+          },
+          {
+            "id": "slate-17",
+            "index": 17,
+            "group": "Servant of the Machine (Campaign)",
+            "name": "Thassean temple tower",
+            "location": "Thassean temple area",
+            "method": "Go straight instead of down the stairs and look behind the tower.",
+            "missable": false
+          },
+          {
+            "id": "slate-18",
+            "index": 18,
+            "group": "Decapitation (Operation)",
+            "name": "Chapel balcony",
+            "location": "Chapel",
+            "method": "Check the balcony.",
+            "missable": false
+          },
+          {
+            "id": "slate-19",
+            "index": 19,
+            "group": "Decapitation (Operation)",
+            "name": "Side vent shaft",
+            "location": "Entry tunnel area",
+            "method": "From the entry tunnel, go a little further, turn right, and follow the vent shaft.",
+            "missable": false
+          },
+          {
+            "id": "slate-20",
+            "index": 20,
+            "group": "Vox Liberatis (Operation)",
+            "name": "Upstairs left room",
+            "location": "At a fork where you would go down",
+            "method": "Take the stairs up instead, then step into the left-hand room.",
+            "missable": false
+          },
+          {
+            "id": "slate-21",
+            "index": 21,
+            "group": "Vox Liberatis (Operation)",
+            "name": "Circular arena floor",
+            "location": "Circular arena",
+            "method": "Check the lower floor.",
+            "missable": false
+          },
+          {
+            "id": "slate-22",
+            "index": 22,
+            "group": "Voidsong (Campaign)",
+            "name": "Weapon pod room",
+            "location": "After powering up and opening the door",
+            "method": "Look in the room behind the weapon pod.",
+            "missable": false
+          },
+          {
+            "id": "slate-23",
+            "index": 23,
+            "group": "Voidsong (Campaign)",
+            "name": "Airlock floor",
+            "location": "Airlock between sectors 3 and 4",
+            "method": "Check the ruined floor above the second door.",
+            "missable": false,
+            "note": "Check under the camera as well as above the door."
+          },
+          {
+            "id": "slate-24",
+            "index": 24,
+            "group": "Voidsong (Campaign)",
+            "name": "Sector 5 exit",
+            "location": "After the elevator in sector 5",
+            "method": "Look to the right of the stairs at the section exit.",
+            "missable": false
+          },
+          {
+            "id": "slate-25",
+            "index": 25,
+            "group": "Reliquary (Operation)",
+            "name": "Bookshelf",
+            "location": "Large arena",
+            "method": "Look near the bookshelf.",
+            "missable": false
+          },
+          {
+            "id": "slate-26",
+            "index": 26,
+            "group": "Reliquary (Operation)",
+            "name": "Twin tower balcony",
+            "location": "Bridge with two towers after the arena",
+            "method": "Look on the first tower's right-hand balcony.",
+            "missable": false
+          },
+          {
+            "id": "slate-27",
+            "index": 27,
+            "group": "Fall of Atreus (Operation)",
+            "name": "Freight elevator arena",
+            "location": "Arena below a floor hole",
+            "method": "Drop through the hole onto the freight elevator and search the arena.",
+            "missable": false
+          },
+          {
+            "id": "slate-28",
+            "index": 28,
+            "group": "Fall of Atreus (Operation)",
+            "name": "Spiral staircase top",
+            "location": "Spiral staircase",
+            "method": "Climb to the top.",
+            "missable": false
+          },
+          {
+            "id": "slate-29",
+            "index": 29,
+            "group": "Dawn's Descent (Campaign)",
+            "name": "Chapel corner",
+            "location": "Chapel you go down through",
+            "method": "Check around the corner of the chapel.",
+            "missable": false
+          },
+          {
+            "id": "slate-30",
+            "index": 30,
+            "group": "Dawn's Descent (Campaign)",
+            "name": "Graveyard crypt",
+            "location": "Wastelands graveyard",
+            "method": "Go down into the crypt.",
+            "missable": false
+          },
+          {
+            "id": "slate-31",
+            "index": 31,
+            "group": "Dawn's Descent (Campaign)",
+            "name": "Bridge far side",
+            "location": "Before the elevator room",
+            "method": "Cross the bridge and look on the far side.",
+            "missable": false
+          },
+          {
+            "id": "slate-32",
+            "index": 32,
+            "group": "Dawn's Descent (Campaign)",
+            "name": "Second map section",
+            "location": "Second part of the map",
+            "method": "Follow the story route; you will walk past it.",
+            "missable": false
+          },
+          {
+            "id": "slate-33",
+            "index": 33,
+            "group": "Bellum Sempiternus (Campaign)",
+            "name": "Catacombs",
+            "location": "Catacombs you jump into",
+            "method": "Search the catacombs.",
+            "missable": false
+          },
+          {
+            "id": "slate-34",
+            "index": 34,
+            "group": "Bellum Sempiternus (Campaign)",
+            "name": "Shrine corner",
+            "location": "Shrine area, en route to the second Force",
+            "method": "Check the far left corner.",
+            "missable": false
+          },
+          {
+            "id": "slate-35",
+            "index": 35,
+            "group": "Bellum Sempiternus (Campaign)",
+            "name": "Citadel columns",
+            "location": "Citadel, after the cutscene with Calgar",
+            "method": "Turn right at the first circular corridor and look behind the ruined columns.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KILLS_IN_FURY",
+      "displayName": "Furious Retribution",
+      "description": "Kill 100 enemies using Righteous Fury",
+      "hidden": false,
+      "globalPercent": 31.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill 100 enemies while using Righteous Fury.",
+      "guide": {
+        "kind": "standard",
+        "context": "Righteous Fury is Titus's ability and works only in the campaign.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the campaign, press Q to use @mechanic{Righteous Fury} when swarms are close."
+          },
+          {
+            "id": "s2",
+            "text": "Keep killing during the ability until the total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_TRAIN",
+      "displayName": "Outbound Payload",
+      "description": "Deliver a nova cannon warhead to the Tyranid position",
+      "hidden": false,
+      "globalPercent": 35.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 mission",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Operation 06: Ballistic Engine by getting the nova cannon warhead to the Tyranid-held position.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play @loc{Operation 06: Ballistic Engine} and carry the nova cannon warhead to the Tyranids' position."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_RUTHLESS",
+      "displayName": "Valour Crest",
+      "description": "Complete any Mission in Operations mode on Ruthless Threat Level",
+      "hidden": false,
+      "globalPercent": 22.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 mission",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Complete any Operations mission on the Ruthless Threat Level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ruthless is the hardest Threat Level. Level 20 is the recommended class level, but a strong squad can clear it much earlier.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick any Operations mission and play it on the Ruthless Threat Level."
+          },
+          {
+            "id": "s2",
+            "text": "Finish the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_MAX_LEVEL",
+      "displayName": "Strategic Specialty",
+      "description": "Reach the maximum Level for one Class",
+      "hidden": false,
+      "globalPercent": 20.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "15+ missions",
+      "estMinutes": 900,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach the maximum level, 25, for one class.",
+      "guide": {
+        "kind": "standard",
+        "context": "A class earns XP when an Operation ends. Kills, finishers, items found and Threat Level all raise the amount.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick one class and keep playing it in Operations until it reaches level 25."
+          },
+          {
+            "id": "s2",
+            "text": "Play on Ruthless when you can, since higher Threat Levels give more XP."
+          },
+          {
+            "id": "s3",
+            "text": "Pick up the @item{Gene-Seed} on the map and finish the mission with it. Falling even once loses it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_MAX_MELEE",
+      "displayName": "Sharpest Edge",
+      "description": "Reach the maximum Level for one Melee Weapon",
+      "hidden": false,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "About 15 missions",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Level one melee weapon to its maximum.",
+      "guide": {
+        "kind": "standard",
+        "context": "A weapon earns XP when an Operation ends.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose one melee weapon and keep using it in Operations until it reaches its maximum level."
+          },
+          {
+            "id": "s2",
+            "text": "Finish each mission so the weapon receives its XP."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_MAX_FIREARM",
+      "displayName": "Strongest Shot",
+      "description": "Reach the maximum Level for one Ranged Weapon",
+      "hidden": false,
+      "globalPercent": 18.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "About 15 missions",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Level one ranged weapon to its maximum.",
+      "guide": {
+        "kind": "standard",
+        "context": "A weapon earns XP when an Operation ends.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose one ranged weapon and keep using it in Operations until it reaches its maximum level."
+          },
+          {
+            "id": "s2",
+            "text": "Finish each mission so the weapon receives its XP."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_FULL_ARMOR",
+      "displayName": "Bespoke",
+      "description": "Customise a full Armour set for one Class",
+      "hidden": false,
+      "globalPercent": 25.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Over several missions",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "unverified",
+      "summary": "Customise every piece of one class's armour set.",
+      "guide": {
+        "kind": "standard",
+        "context": "The exact trigger is unclear. Changing each armour piece and owning every purple-tier piece for one class may both count, so do both.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick one class and win Operations or Eternal War matches with that class to unlock its armour."
+          },
+          {
+            "id": "s2",
+            "text": "In the Battle Barge armoury, change every armour piece of that class."
+          },
+          {
+            "id": "s3",
+            "text": "Also collect every purple-tier armour piece for that class."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_PICKUPS",
+      "displayName": "Principia Imperialis",
+      "description": "Find 200 pickups in Operations mode",
+      "hidden": false,
+      "globalPercent": 25.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Over several missions",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Find 200 pickups in Operations mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Operations, collect ammo crates, medicae packs, grenade refills and armour boosts."
+          },
+          {
+            "id": "s2",
+            "text": "Smash the green crates in the levels. They can drop more pickups."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TOTAL_KILLS_SILVER",
+      "displayName": "A Blight to Be Purged",
+      "description": "Kill 20,000 enemies (all game modes combined)",
+      "hidden": false,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Grind",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Kill 20,000 enemies across all game modes combined.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep playing the campaign and Operations. Kills from every mode add up."
+          },
+          {
+            "id": "s2",
+            "text": "Tyranid missions with a high-ammo class such as Heavy give kills fastest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CHAPLAIN_INSTRUCTIONS",
+      "displayName": "Why Is It Always You Three?",
+      "description": "Listen to every line of the Chaplain's dialogue.",
+      "hidden": true,
+      "globalPercent": 55.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_TOWER"
+      ],
+      "summary": "Listen to all of the Chaplain's dialogue after the mission where you kill the Chaos sorcerer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After the Chaos sorcerer mission, meet the Chaplain and let all of his dialogue play."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SOLDIER_KILLS",
+      "displayName": "Master of Arsenal",
+      "description": "As a Tactical, kill 25 enemies with every available Primary Weapon",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Several missions",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Playing Tactical, get 25 kills with every available primary weapon.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Tactical has 7 primary weapons. If the game offers more, use every one.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play Operations as the @mechanic{Tactical} class."
+          },
+          {
+            "id": "s2",
+            "text": "Use one primary weapon until it has 25 kills, then switch: Bolt Rifle, Heavy Bolt Rifle, Auto Bolt Rifle, Stalker Bolt Rifle, Bolt Carbine, Plasma Incinerator, Melta Rifle."
+          },
+          {
+            "id": "s3",
+            "text": "Swap weapons at the arsenals you find in missions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SNIPER_HEADSHOTS",
+      "displayName": "Dead Center",
+      "description": "As a Sniper, make 250 Headshots",
+      "hidden": false,
+      "globalPercent": 13.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Several missions",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "As a Sniper, make 250 headshots.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play as the Sniper class and aim for the head with the @item{Bolt Sniper Rifle}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SUPPORT_KILLS",
+      "displayName": "Immovable Object",
+      "description": "As a Heavy, kill 500 enemies while in Heavy Stance",
+      "hidden": false,
+      "globalPercent": 15.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Several missions",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Playing Heavy, get 500 kills while standing in Heavy Stance.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play as the Heavy and press the middle mouse button to enter @mechanic{Heavy Stance}."
+          },
+          {
+            "id": "s2",
+            "text": "Get your kills while you stay in that stance until the total reaches 500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RAIDER_GROUNDPOUND",
+      "displayName": "Thunderous Impact",
+      "description": "As an Assault, hit 500 total enemies with Ground Pound",
+      "hidden": false,
+      "globalPercent": 13.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Several missions",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "As an Assault, hit 500 enemies in total with Ground Pound.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play as the Assault class and hold Q to rise with the @item{Jump Pack}."
+          },
+          {
+            "id": "s2",
+            "text": "Aim at the middle of a crowd and slam down to hit them with @mechanic{Ground Pound}."
+          },
+          {
+            "id": "s3",
+            "text": "A Thunder Hammer against Tyranid swarms works best.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TANK_KILLS",
+      "displayName": "Guardian's Might",
+      "description": "As a Bulwark, kill 100 enemies with every available Melee Weapon",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Several missions",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Playing Bulwark, get 100 kills with every available melee weapon.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Bulwark has 3 melee weapons. If the game offers more, use every one.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play as the Bulwark class."
+          },
+          {
+            "id": "s2",
+            "text": "Use one melee weapon until it has 100 kills, then switch: Power Sword, Power Fist, Chainsword."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BERSERK_GUNSTRIKES",
+      "displayName": "Lightning Strike",
+      "description": "As a Vanguard, perform 100 Gun Strikes",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Several missions",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Playing Vanguard, do 100 Gun Strikes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play as the Vanguard class. Press Esc to open the combo list and find the combos with a broken-shield icon."
+          },
+          {
+            "id": "s2",
+            "text": "Use one of those combos in a fight to stun an enemy. A held heavy attack on the right mouse button is the easiest."
+          },
+          {
+            "id": "s3",
+            "text": "When a red crosshair shows on a nearby enemy, press the left mouse button to Gun Strike."
+          },
+          {
+            "id": "s4",
+            "text": "A low-level melee weapon on high difficulty also works. Small Tyranids can be Gun Struck after 2 or 3 hits.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RAVENER_CANCEL_GRAB",
+      "displayName": "Unhand My Brother!",
+      "description": "Force a Ravener to release a grabbed Squad Member",
+      "hidden": false,
+      "globalPercent": 43.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Luck-based",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Make a Ravener let go of a squad member it has grabbed.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight @enemy{Raveners}. One can burrow, resurface, and grab a squad member."
+          },
+          {
+            "id": "s2",
+            "text": "While your squad member is held, empty your weapon into the Ravener until it lets go."
+          },
+          {
+            "id": "s3",
+            "text": "This takes luck, or a teammate who does not dodge the grab.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ATTACK_LICTOR",
+      "displayName": "One Ugly Xenos",
+      "description": "Bring down a Lictor before it attacks from an ambush",
+      "hidden": false,
+      "globalPercent": 26.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "A few tries",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Take down a Lictor before the Lictor can strike from ambush.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Lictor is invisible and stays out of melee range until it attacks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight a @enemy{Lictor}. The first one is in @loc{Mission 2: Severance}."
+          },
+          {
+            "id": "s2",
+            "text": "Shoot the Lictor as soon as it shows up, before it hits anyone, until it falls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KILL_LESSER_SOURCERER",
+      "displayName": "An End to Heresy",
+      "description": "Kill a Lesser Sorcerer while he's reviving a Rubric Marine",
+      "hidden": false,
+      "globalPercent": 25.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "A few tries",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill a Lesser Sorcerer while he is reviving a Rubric Marine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find a @enemy{Lesser Sorcerer} in the campaign, from Mission 4 or 5 onward."
+          },
+          {
+            "id": "s2",
+            "text": "When he turns into a bright blue ball to revive a Rubric Marine, kill him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PERFECT_PARRY",
+      "displayName": "Know No Fear",
+      "description": "Break a Scarab Occult Terminator's Melee Combo Attack with 2 Perfect Parries in a row",
+      "hidden": false,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "A few tries",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Interrupt a Scarab Occult Terminator's melee combo by landing 2 Perfect Parries back to back.",
+      "guide": {
+        "kind": "standard",
+        "context": "This enemy appears in Mission 6: Dawn's Descent and in Mission 7.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find the Scarab Occult Terminator that fights with two curved swords."
+          },
+          {
+            "id": "s2",
+            "text": "Time your block to its attack pattern and @mechanic{Perfect Parry} two of its swings in a row."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KILLS_BY_TRAPS",
+      "displayName": "Field of Battle",
+      "description": "Kill 100 enemies using environmental hazards",
+      "hidden": false,
+      "globalPercent": 63.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Over several missions",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill 100 enemies with environmental hazards.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Shoot red and blue explosive barrels when enemies stand near them."
+          },
+          {
+            "id": "s2",
+            "text": "Repeat across missions until the total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KILLS_ALERT",
+      "displayName": "Silence",
+      "description": "Kill 5 enemies while they are conducting a Call for Reinforcements",
+      "hidden": false,
+      "globalPercent": 40.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Over several missions",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill 5 enemies while they are calling for reinforcements.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Watch for a skull icon by an enemy's name. The icon fills with red as the call builds."
+          },
+          {
+            "id": "s2",
+            "text": "Kill that enemy before the icon fills."
+          },
+          {
+            "id": "s3",
+            "text": "Larger Tyranids and Chaos enemies make this call.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_TYRANID_KILLS",
+      "displayName": "Xenos Exterminator",
+      "description": "Kill 1000 Tyranids in Operations mode",
+      "hidden": false,
+      "globalPercent": 39.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3-5 missions",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill 1000 Tyranids in Operations mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play Tyranid Operations such as @loc{Operation 01: Inferno}, @loc{Operation 02: Decapitation} and @loc{Operation 06: Ballistic Engine}."
+          },
+          {
+            "id": "s2",
+            "text": "Operation: Burnout is a good pick, with about 400 kills in one run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVE_CHAOS_KILLS",
+      "displayName": "The Thousand Dead Sons",
+      "description": "Kill 1000 Chaos servants in Operations mode",
+      "hidden": false,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3-5 missions",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat 1000 Chaos servants while playing Operations.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Chaos Operations work best. @loc{Operation 03: Vox Liberatis} has the largest Chaos crowds, around 300 kills in one run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TOTAL_KILLS",
+      "displayName": "Still a True Son of the Emperor",
+      "description": "Kill 41,000 Enemies (all game modes combined)",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Long grind",
+      "estMinutes": 900,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Kill 41,000 enemies across all game modes combined.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start @loc{Mission 1: Skyfire} in the campaign and advance to the group of soldiers who need reinforcements."
+          },
+          {
+            "id": "s2",
+            "text": "When the soldiers say to fall back, reload the last checkpoint."
+          },
+          {
+            "id": "s3",
+            "text": "Repeat. This gives 150 to 250 kills per minute."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVP_WIN",
+      "displayName": "Glorious Victory",
+      "description": "Win any match in Eternal War mode",
+      "hidden": false,
+      "globalPercent": 20.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 match",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win one Eternal War match.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Join any Eternal War match, in Annihilation, Capture and Control, or Seize Ground, and win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVP_WIN_CLASSES",
+      "displayName": "Tactical Genius",
+      "description": "Win a match in Eternal War mode with every Class",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Several matches",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win an Eternal War match with each of the 6 classes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any Eternal War mode counts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win a match as each class: Tactical, Assault, Vanguard, Bulwark, Sniper and Heavy."
+          },
+          {
+            "id": "s2",
+            "text": "After a win, switch to a class you have not won with."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVP_DEATHMATCH",
+      "displayName": "War Machine",
+      "description": "Play 10 Annihilation matches in Eternal War mode",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 matches",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Join 10 Annihilation games in the Eternal War mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Winning is not needed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose Annihilation from the Battle Barge and play 10 matches."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVP_KOH",
+      "displayName": "Unwavering Faith",
+      "description": "Play 10 Capture and Control matches in Eternal War mode",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 matches",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Join 10 Capture and Control games in the Eternal War mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Winning is not needed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose Capture and Control from the Battle Barge and play 10 matches."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVP_DOMINATION",
+      "displayName": "Dominator",
+      "description": "Play 10 Seize Ground matches in Eternal War mode",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 matches",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Join 10 Seize Ground games in the Eternal War mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Winning is not needed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose Seize Ground from the Battle Barge and play 10 matches."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PVP_KILLS",
+      "displayName": "Merciless",
+      "description": "Achieve a streak of 5 kills without dying in Eternal War mode",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "A few matches",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Kill 5 enemies in a row without dying in Eternal War mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick a class you play well. Sniper is the easiest because of its high damage and cloak."
+          },
+          {
+            "id": "s2",
+            "text": "Stay with your group, retreat after each kill, and let armour and health recover."
+          },
+          {
+            "id": "s3",
+            "text": "Target wounded enemies and lightly armoured classes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_ACHIEVEMENTS",
+      "displayName": "Defender of Humanity",
+      "description": "Overcome every challenge and achieve ultimate victory",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Automatic",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "STORY_INTRO",
+        "STORY_CANNON",
+        "STORY_ASSASSINATION",
+        "STORY_SKYLAB",
+        "STORY_RESCUE",
+        "STORY_TOWER",
+        "CHAPLAIN_INSTRUCTIONS",
+        "STORY_ORBITAL_DROP",
+        "STORY_BLACKSTONE",
+        "STORY_LAST_STAND",
+        "STORY_FINALE",
+        "KILLS_IN_FURY",
+        "FINISHERS",
+        "RAVENER_CANCEL_GRAB",
+        "ATTACK_LICTOR",
+        "KILL_LESSER_SOURCERER",
+        "PERFECT_PARRY",
+        "PVE_ACID_BOMB",
+        "PVE_TYRANT",
+        "PVE_DAEMONHOST",
+        "PVE_FIRESTORM",
+        "PVE_ANCIENT_WEAPON",
+        "PVE_TRAIN",
+        "KILLS_BY_TRAPS",
+        "KILLS_ALERT",
+        "MARKING_TOOL",
+        "DATASLATES",
+        "PVE_PICKUPS",
+        "PVE_RUTHLESS",
+        "PVE_MAX_LEVEL",
+        "PVE_MAX_MELEE",
+        "PVE_MAX_FIREARM",
+        "PVE_FULL_ARMOR",
+        "SOLDIER_KILLS",
+        "SNIPER_HEADSHOTS",
+        "SUPPORT_KILLS",
+        "RAIDER_GROUNDPOUND",
+        "TANK_KILLS",
+        "BERSERK_GUNSTRIKES",
+        "PVE_TYRANID_KILLS",
+        "PVE_CHAOS_KILLS",
+        "PVP_WIN",
+        "PVP_WIN_CLASSES",
+        "PVP_DEATHMATCH",
+        "PVP_KOH",
+        "PVP_DOMINATION",
+        "PVP_KILLS",
+        "TOTAL_KILLS_SILVER",
+        "TOTAL_KILLS"
+      ],
+      "summary": "Unlock the other 49 achievements.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement can appear late after you unlock the last other one.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the other 49 achievements. This one then unlocks on its own."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "STORY_INTRO",
+    "STORY_CANNON",
+    "STORY_ASSASSINATION",
+    "STORY_SKYLAB",
+    "STORY_RESCUE",
+    "STORY_TOWER",
+    "CHAPLAIN_INSTRUCTIONS",
+    "KILL_LESSER_SOURCERER",
+    "STORY_ORBITAL_DROP",
+    "STORY_BLACKSTONE",
+    "STORY_LAST_STAND",
+    "STORY_FINALE",
+    "ATTACK_LICTOR",
+    "FINISHERS",
+    "RAVENER_CANCEL_GRAB",
+    "KILLS_IN_FURY",
+    "PERFECT_PARRY",
+    "PVE_ACID_BOMB",
+    "PVE_TYRANT",
+    "PVE_DAEMONHOST",
+    "PVE_FIRESTORM",
+    "PVE_TRAIN",
+    "PVE_ANCIENT_WEAPON",
+    "KILLS_ALERT",
+    "KILLS_BY_TRAPS",
+    "MARKING_TOOL",
+    "DATASLATES",
+    "PVE_RUTHLESS",
+    "PVE_PICKUPS",
+    "PVE_FULL_ARMOR",
+    "SOLDIER_KILLS",
+    "PVE_TYRANID_KILLS",
+    "PVE_CHAOS_KILLS",
+    "SUPPORT_KILLS",
+    "RAIDER_GROUNDPOUND",
+    "SNIPER_HEADSHOTS",
+    "BERSERK_GUNSTRIKES",
+    "TANK_KILLS",
+    "PVE_MAX_FIREARM",
+    "PVE_MAX_MELEE",
+    "PVE_MAX_LEVEL",
+    "PVP_WIN",
+    "PVP_KILLS",
+    "PVP_DEATHMATCH",
+    "PVP_KOH",
+    "PVP_DOMINATION",
+    "PVP_WIN_CLASSES",
+    "TOTAL_KILLS_SILVER",
+    "TOTAL_KILLS",
+    "ALL_ACHIEVEMENTS"
+  ]
+}

@@ -1,0 +1,1904 @@
+{
+  "game": {
+    "appid": 3070070,
+    "slug": "tcg-card-shop-simulator",
+    "title": "TCG Card Shop Simulator",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-14",
+    "estTotalHours": 300,
+    "difficultyRating": 6,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-07"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Open the shop and learn the basics",
+      "description": "Buy the first licenses, a play table, the first worker, and the first expansion. Open packs, sell singles, and spray smelly customers while the shop reaches level 12.",
+      "achievementRefs": [
+        "ACH_UnlockBasicCardBox",
+        "ACH_ShopLevel1",
+        "ACH_UnlockRareCardPack",
+        "ACH_CustomerPlay1",
+        "ACH_OpenPack1",
+        "ACH_CardCollector1",
+        "ACH_Worker1",
+        "ACH_ShopExpansion1",
+        "ACH_SellCard1",
+        "ACH_Profit1",
+        "ACH_SmellyClean1",
+        "ACH_UnlockEpicCardPack"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Grow the shop and staff",
+      "description": "Reach shop level 20, unlock Lot B and the Legendary and first two Destiny licenses, hire four workers, and start the manual checkout and customer play counters.",
+      "achievementRefs": [
+        "ACH_ShopLevel2",
+        "ACH_UnlockShopLotB",
+        "ACH_UnlockLegendCardPack",
+        "ACH_UnlockDestinyBasicPack",
+        "ACH_UnlockDestinyRarePack",
+        "ACH_Worker2",
+        "ACH_ShopExpansion2",
+        "ACH_SmellyClean2",
+        "ACH_CustomerPlay2",
+        "ACH_Checkout",
+        "ACH_FullArtFoil",
+        "ACH_OpenPack2",
+        "ACH_CardCollector2"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Late-game levels, licenses, and big sales",
+      "description": "Hire all eight workers, reach shop level 50, unlock the last Destiny license and the Ascension license, and sell the expensive cards that drive the big profit days.",
+      "achievementRefs": [
+        "ACH_UnlockDestinyEpicPack",
+        "ACH_Worker3",
+        "ACH_ShopLevel3",
+        "ACH_UnlockDestinyLegendPack",
+        "ACH_ShopExpansion3",
+        "ACH_Profit2",
+        "ACH_SellCard2",
+        "ACH_SellCard3",
+        "ACH_Profit3",
+        "ACH_CardCollector3",
+        "ACH_OpenPack3",
+        "ACH_GhostFoil",
+        "ACH_CustomerPlay3",
+        "ACH_UnlockAscensionPack"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Duels and grading",
+      "description": "Build a deck at the Workbench and win 50 duels against customers while sending cards through grading for Gem Mint results and the full 1-10 grade set.",
+      "achievementRefs": [
+        "ACH_TCGDuel",
+        "ACH_GradingGem1",
+        "ACH_GradingGem2",
+        "ACH_GradingGem3",
+        "ACH_GradingCollector",
+        "ACH_GradingGold"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Endgame grinds",
+      "description": "Finish the long counters for shop level 100, 25,000 packs, and 4,000 collected cards, and chase the Ascension borderless full art foil pull.",
+      "achievementRefs": [
+        "ACH_ShopLevel4",
+        "ACH_OpenPack4",
+        "ACH_CardCollector4",
+        "ACH_CardCollector5",
+        "ACH_BorderlessFullArtFoil"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_UnlockBasicCardBox",
+      "displayName": "Basic Card Box",
+      "description": "Unlocked Basic Card Box license",
+      "hidden": false,
+      "globalPercent": 92.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock the @item{Basic Card Box} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 3, then buy the @item{Basic Card Box (4)} license for $150 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockRareCardPack",
+      "displayName": "Rare Card Pack",
+      "description": "Unlocked Rare Card Pack license",
+      "hidden": false,
+      "globalPercent": 87.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock the @item{Rare Card Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 5, then buy the @item{Rare Card Pack (32)} license for $300 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockEpicCardPack",
+      "displayName": "Epic Card Pack",
+      "description": "Unlocked Epic Card Pack license",
+      "hidden": false,
+      "globalPercent": 70.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-4 hours",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockRareCardPack"
+      ],
+      "summary": "Unlock the @item{Epic Card Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 12, then buy the @item{Epic Card Pack (32)} license for $800 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockLegendCardPack",
+      "displayName": "Legendary Card Pack",
+      "description": "Unlocked Legendary Card Pack license",
+      "hidden": false,
+      "globalPercent": 50.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-5 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockEpicCardPack"
+      ],
+      "summary": "Unlock the @item{Legendary Card Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 20, then buy the @item{Legendary Card Pack (32)} license for $2,000 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockDestinyBasicPack",
+      "displayName": "Destiny Basic Pack",
+      "description": "Unlocked Destiny Basic Pack license",
+      "hidden": false,
+      "globalPercent": 38.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-5 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockLegendCardPack"
+      ],
+      "summary": "Unlock the @item{Basic Destiny Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 25, then buy the @item{Basic Destiny Pack (32)} license for $3,000 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockDestinyRarePack",
+      "displayName": "Destiny Rare Pack",
+      "description": "Unlocked Destiny Rare Pack license",
+      "hidden": false,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-5 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockDestinyBasicPack"
+      ],
+      "summary": "Unlock the @item{Rare Destiny Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 30, then buy the @item{Rare Destiny Pack (32)} license for $4,500 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockDestinyEpicPack",
+      "displayName": "Destiny Epic Pack",
+      "description": "Unlocked Destiny Epic Pack license",
+      "hidden": false,
+      "globalPercent": 21.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4-6 hours",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockDestinyRarePack"
+      ],
+      "summary": "Unlock the @item{Epic Destiny Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 40, then buy the @item{Epic Destiny Pack (32)} license for $5,500 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockDestinyLegendPack",
+      "displayName": "Destiny Legendary Pack",
+      "description": "Unlocked Destiny Legendary Pack license",
+      "hidden": false,
+      "globalPercent": 16.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4-6 hours",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockDestinyEpicPack"
+      ],
+      "summary": "Unlock the @item{Legendary Destiny Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 50, then buy the @item{Legendary Destiny Pack (32)} license for $7,500 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopLevel1",
+      "displayName": "Established Shop",
+      "description": "Reached shop level 5",
+      "hidden": false,
+      "globalPercent": 92.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Reach shop level 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "earn-xp",
+            "text": "Open card packs, sell items and cards, and let customers use play tables to earn XP until your shop reaches level 5."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopLevel2",
+      "displayName": "Respected Shop",
+      "description": "Reached shop level 20",
+      "hidden": false,
+      "globalPercent": 55.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-5 hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ShopLevel1"
+      ],
+      "summary": "Reach shop level 20.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "earn-xp",
+            "text": "Keep earning XP from opening packs, selling, and play tables until your shop reaches level 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopLevel3",
+      "displayName": "Influential Shop",
+      "description": "Reached shop level 50",
+      "hidden": false,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15-25 hours",
+      "estMinutes": 1200,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ShopLevel2"
+      ],
+      "summary": "Reach shop level 50.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hire-help",
+            "text": "Hire workers to restock shelves and run the registers."
+          },
+          {
+            "id": "open-packs",
+            "text": "Open card packs yourself between tasks to earn XP until your shop reaches level 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopLevel4",
+      "displayName": "Legendary Shop",
+      "description": "Reached shop level 100",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "60-100 hours",
+      "estMinutes": 4800,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ShopLevel3"
+      ],
+      "summary": "Reach shop level 100.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hire-help",
+            "text": "Hire workers to restock shelves and run the registers."
+          },
+          {
+            "id": "open-packs",
+            "text": "Open card packs yourself all day to earn XP until your shop reaches level 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Worker1",
+      "displayName": "Helping Hand",
+      "description": "Hired 1 worker",
+      "hidden": false,
+      "globalPercent": 66.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hire 1 worker.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hire-first",
+            "text": "Reach shop level 10, open the @mechanic{GO Recruit} app, and hire @npc{Zackery Cole} for $500. He is paid $50 every day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Worker2",
+      "displayName": "Tight-Knit Team",
+      "description": "Hired 4 workers",
+      "hidden": false,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3-5 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_Worker1"
+      ],
+      "summary": "Hire 4 workers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-level",
+            "text": "Reach shop level 25 to unlock the fourth worker."
+          },
+          {
+            "id": "hire-four",
+            "text": "In @mechanic{GO Recruit}, hire @npc{Zackery Cole} ($500), @npc{Terence Fay} ($1,000), @npc{Dennis Brandon} ($2,000), and @npc{Clark Cash} ($2,400)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Worker3",
+      "displayName": "Top Recruiter",
+      "description": "Hired 8 workers",
+      "hidden": false,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-15 hours",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_Worker2"
+      ],
+      "summary": "Hire 8 workers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Keep all eight employed until the achievement unlocks. The eight daily salaries add up to about $2,800, so save money before the last hires.",
+        "steps": [
+          {
+            "id": "reach-level",
+            "text": "Reach shop level 40 to unlock the eighth worker."
+          },
+          {
+            "id": "hire-eight",
+            "text": "In @mechanic{GO Recruit}, hire @npc{Angus Mick} ($3,000), @npc{Benji Otto} ($5,000), @npc{Alexander Cole} ($8,000), and @npc{Lauren Posie} ($7,500) on top of your first four workers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OpenPack1",
+      "displayName": "Packaholic",
+      "description": "Opened 100 card packs",
+      "hidden": false,
+      "globalPercent": 76.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open 100 card packs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-packs",
+            "text": "Buy an extra box of packs for yourself and open them by hand when no customer is waiting at the register."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OpenPack2",
+      "displayName": "I Can't Stop",
+      "description": "Opened 1000 card packs",
+      "hidden": false,
+      "globalPercent": 41.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5-8 hours",
+      "estMinutes": 360,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OpenPack1"
+      ],
+      "summary": "Open 1,000 card packs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "spare-boxes",
+            "text": "Always keep a few spare boxes of packs for yourself and re-order them when they run out."
+          },
+          {
+            "id": "worker-register",
+            "text": "Put a worker on the register so you can keep opening packs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OpenPack3",
+      "displayName": "JUST ONE MORE!",
+      "description": "Opened 10000 card packs",
+      "hidden": false,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30-60 hours",
+      "estMinutes": 2400,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OpenPack2"
+      ],
+      "summary": "Open 10,000 card packs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hire-help",
+            "text": "Hire workers to restock shelves and run the registers."
+          },
+          {
+            "id": "open-nonstop",
+            "text": "Open packs by hand all day. The pack-opening options in the @mechanic{Setting} app make each pack faster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CustomerPlay1",
+      "displayName": "Cozy Card Shop",
+      "description": "100 customers played in shop",
+      "hidden": false,
+      "globalPercent": 81.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have 100 customers play at your play tables.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-tables",
+            "text": "Reach shop level 2 and buy two @item{Play Table} furniture pieces ($200 each) in the @mechanic{MY DIY} app."
+          },
+          {
+            "id": "place-tables",
+            "text": "Place both tables in a corner of your shop and let customers use them as days pass."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CustomerPlay2",
+      "displayName": "Popular Card Shop",
+      "description": "1500 customers played in shop",
+      "hidden": false,
+      "globalPercent": 34.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8-15 hours",
+      "estMinutes": 720,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CustomerPlay1"
+      ],
+      "summary": "Have 1,500 customers play at your play tables.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "more-tables",
+            "text": "Buy more @item{Play Table} furniture ($200 each in @mechanic{MY DIY}) and fill your floor space with tables."
+          },
+          {
+            "id": "use-lot-b",
+            "text": "For more room, reach shop level 15, buy @loc{Lot B} for $5,000 in @mechanic{RENO BIGG}, and fill it with tables too."
+          },
+          {
+            "id": "wait",
+            "text": "Keep the shop open day after day while workers handle restocking and checkout."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CustomerPlay3",
+      "displayName": "THE Card Shop",
+      "description": "5000 customers played in shop",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20-40 hours",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CustomerPlay2"
+      ],
+      "summary": "Have 5,000 customers play at your play tables.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "add-tables",
+            "text": "Fill @loc{Lot B} and any spare floor space with play tables."
+          },
+          {
+            "id": "wait",
+            "text": "Keep the shop open day after day while workers handle restocking and checkout."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SellCard1",
+      "displayName": "Novice Seller",
+      "description": "Sold $200 card",
+      "hidden": false,
+      "globalPercent": 70.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Sell a single card for $200.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "shelf-card",
+            "text": "Put your best single card on a @item{Card Table} (level 3, $400 in @mechanic{MY DIY})."
+          },
+          {
+            "id": "set-price",
+            "text": "Set the price to $200. A card worth about $167 needs a 20% markup. A customer may buy it, so wait or try again if it does not sell."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SellCard2",
+      "displayName": "Pro Seller",
+      "description": "Sold $5,000 card",
+      "hidden": false,
+      "globalPercent": 22.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3-8 hours",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SellCard1"
+      ],
+      "summary": "Sell a single card for $5,000.",
+      "guide": {
+        "kind": "standard",
+        "context": "A customer can only buy a card they can afford. Rich customers carry up to twice the normal cash limit and very rich customers up to four times, and the limit grows with shop level and expansions.",
+        "steps": [
+          {
+            "id": "keep-best",
+            "text": "Keep your most valuable single cards instead of selling them cheaply."
+          },
+          {
+            "id": "set-price",
+            "text": "Put one on a card table and set its price to $5,000. Raise the markup if its market price is a little lower."
+          },
+          {
+            "id": "wait-buyer",
+            "text": "Keep the shop open until a customer with enough cash buys the card."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SellCard3",
+      "displayName": "Ultimate Seller",
+      "description": "Sold $10,000 card",
+      "hidden": false,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5-15 hours",
+      "estMinutes": 480,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SellCard2"
+      ],
+      "summary": "Sell a single card for $10,000.",
+      "guide": {
+        "kind": "standard",
+        "context": "A customer can only buy a card they can afford. Rich customers carry up to twice the normal cash limit and very rich customers up to four times, and the limit grows with shop level and expansions.",
+        "steps": [
+          {
+            "id": "keep-best",
+            "text": "Keep your most valuable single cards. A full art Ghost foil may reach about $10,000, but card values differ from one save to another."
+          },
+          {
+            "id": "set-price",
+            "text": "Put one on a card table and set its price to $10,000. Raise the markup if its market price is a little lower."
+          },
+          {
+            "id": "wait-buyer",
+            "text": "Keep the shop open until a customer with enough cash buys the card."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Profit1",
+      "displayName": "Petty Cash",
+      "description": "Made $1,000 profit in a day",
+      "hidden": false,
+      "globalPercent": 65.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Make $1,000 in profit in a single day.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "time-costs",
+            "text": "Sell steadily, and hold supply orders and bill payments until late in the day (a community tip) so those costs do not cut into the day's profit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Profit2",
+      "displayName": "I'm Rich!",
+      "description": "Made $10,000 profit in a day",
+      "hidden": false,
+      "globalPercent": 22.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2-5 hours",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_Profit1"
+      ],
+      "summary": "Make $10,000 in profit in a single day.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "big-sale",
+            "text": "Plan the day around selling an expensive card, such as one worth $10,000."
+          },
+          {
+            "id": "time-costs",
+            "text": "Pay bills and order supplies as late as about 9 pm (a community tip), so those costs do not cut your profit before you reach the target."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Profit3",
+      "displayName": "Capitalism HO!",
+      "description": "Made $30,000 profit in a day",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5-15 hours",
+      "estMinutes": 480,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_Profit2"
+      ],
+      "summary": "Make $30,000 in profit in a single day.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "big-sales",
+            "text": "Sell several expensive cards on the same day, such as two or three cards worth about $10,000 each. Card values differ from one save to another."
+          },
+          {
+            "id": "time-costs",
+            "text": "Pay bills and order supplies late in the day (a community tip), so you can see the profit first."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Checkout",
+      "displayName": "I LOVE Working In Retail",
+      "description": "Manually checkout for 1000 customers",
+      "hidden": false,
+      "globalPercent": 32.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8-15 hours",
+      "estMinutes": 720,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Check out 1,000 customers yourself at a register.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "man-register",
+            "text": "Stand at a @item{Checkout Counter} and click its screen until the exit-counter option appears. Customers go to a register you man first only when its line is empty."
+          },
+          {
+            "id": "workers-restock",
+            "text": "Put your workers on restocking and keep them off the registers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FullArtFoil",
+      "displayName": "Sick Pull",
+      "description": "Obtained a full art foil card from pack opening",
+      "hidden": false,
+      "globalPercent": 52.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5-20 hours",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Open a pack that contains a full art foil card.",
+      "guide": {
+        "kind": "standard",
+        "context": "Every Ghost card is full art, and Ascension packs hold Silver Full Art and EX cards, which are full art too.",
+        "steps": [
+          {
+            "id": "open-packs",
+            "text": "Open card packs yourself while workers handle the shelves and registers, until a foil card with a full art design appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CardCollector1",
+      "displayName": "Novice Collector",
+      "description": "Collected 100 cards",
+      "hidden": false,
+      "globalPercent": 83.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Collect 100 cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wiki does not say whether duplicates count toward the total, so aim for cards you do not own yet.",
+        "steps": [
+          {
+            "id": "open-boxes",
+            "text": "Buy a box of 32 or 64 packs for yourself and open them all."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CardCollector2",
+      "displayName": "Serious Collector",
+      "description": "Collected 500 cards",
+      "hidden": false,
+      "globalPercent": 42.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5-8 hours",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_CardCollector1"
+      ],
+      "summary": "Collect 500 cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wiki does not say whether duplicates count toward the total, so aim for cards you do not own yet.",
+        "steps": [
+          {
+            "id": "open-newest",
+            "text": "Open packs of the newest rarity you have unlocked, since they are likelier to give cards you do not own yet."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CardCollector3",
+      "displayName": "Pro Collector",
+      "description": "Collected 1500 cards",
+      "hidden": false,
+      "globalPercent": 13.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "15-25 hours",
+      "estMinutes": 1200,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_CardCollector2"
+      ],
+      "summary": "Collect 1,500 cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wiki does not say whether duplicates count toward the total, so aim for cards you do not own yet.",
+        "steps": [
+          {
+            "id": "open-newest",
+            "text": "Open packs of each rarity you have unlocked, starting with the newest, since they are likelier to give cards you do not own yet."
+          },
+          {
+            "id": "keep-cards",
+            "text": "Keep new cards instead of selling them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CardCollector4",
+      "displayName": "Card Connossieur",
+      "description": "Collected 2500 cards",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "25-45 hours",
+      "estMinutes": 2000,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_CardCollector3"
+      ],
+      "summary": "Collect 2,500 cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wiki does not say whether duplicates count toward the total, so aim for cards you do not own yet.",
+        "steps": [
+          {
+            "id": "buy-licenses",
+            "text": "In the @mechanic{Stock Order} app, buy the pack licenses for every Tetramon Base and Destiny rarity. The last is the Legendary Destiny Pack (32) at shop level 50."
+          },
+          {
+            "id": "open-batches",
+            "text": "Buy several boxes of each pack type, open them all, and repeat."
+          },
+          {
+            "id": "keep-cards",
+            "text": "Keep new cards instead of selling them, and do not send them for grading, because a player reports graded cards stop counting."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SmellyClean1",
+      "displayName": "Who you gonna call?",
+      "description": "Cleaned 100 smelly customers",
+      "hidden": false,
+      "globalPercent": 73.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Clean 100 smelly customers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-cleanser",
+            "text": "Buy @item{Cleanser} in the @mechanic{Stock Order} app (license at level 2, $150)."
+          },
+          {
+            "id": "spray",
+            "text": "Spray each customer who has a green cloud around them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SmellyClean2",
+      "displayName": "BO Buster!",
+      "description": "Cleaned 500 smelly customers",
+      "hidden": false,
+      "globalPercent": 44.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-5 hours",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_SmellyClean1"
+      ],
+      "summary": "Clean 500 smelly customers.",
+      "guide": {
+        "kind": "standard",
+        "context": "The cheapest sprayer needs two sprays per customer, and each sprayer waits 3 seconds between sprays, so use more than one. The wiki does not confirm that automatic sprays count toward this achievement, so spraying by hand is the sure route.",
+        "steps": [
+          {
+            "id": "buy-sprayers",
+            "text": "Buy two @item{Auto Scent} sprayers (level 5, $500 each) in the @mechanic{MY DIY} app."
+          },
+          {
+            "id": "place-sprayers",
+            "text": "Place them near the shop entrance, turn them on, and fill them with @item{Cleanser}."
+          },
+          {
+            "id": "spray-misses",
+            "text": "Spray any smelly customer who gets past the sprayers yourself."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockShopLotB",
+      "displayName": "All Your Base",
+      "description": "Unlocked shop lot B",
+      "hidden": false,
+      "globalPercent": 42.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Unlock shop lot B.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-lot-b",
+            "text": "Reach shop level 15, then buy @loc{Lot B} for $5,000 in the @mechanic{RENO BIGG} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopExpansion1",
+      "displayName": "Minor Shop Expansion",
+      "description": "Unlocked 4 shop expansions",
+      "hidden": false,
+      "globalPercent": 65.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 hours",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock 4 shop expansions.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-first-four",
+            "text": "In the @mechanic{RENO BIGG} app, buy Shop Expansions 1 to 4 as they unlock at shop levels 2, 3, 5, and 7 ($300, $400, $500, and $600)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopExpansion2",
+      "displayName": "Major shop Expansion",
+      "description": "Unlocked 10 shop expansions",
+      "hidden": false,
+      "globalPercent": 34.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-5 hours",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ShopExpansion1"
+      ],
+      "summary": "Unlock 10 shop expansions.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-five-to-ten",
+            "text": "In @mechanic{RENO BIGG}, buy Shop Expansions 5 to 10 as they unlock at shop levels 11, 13, 15, 17, 21, and 23 ($900 up to $2,100)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ShopExpansion3",
+      "displayName": "Full Shop Expansion",
+      "description": "Unlocked 20 shop expansions",
+      "hidden": false,
+      "globalPercent": 16.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8-12 hours",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ShopExpansion2"
+      ],
+      "summary": "Unlock 20 shop expansions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Lot B has its own expansions, but the wiki does not say they count here, so buy the regular Shop Expansions.",
+        "steps": [
+          {
+            "id": "buy-eleven-to-twenty",
+            "text": "In @mechanic{RENO BIGG}, buy Shop Expansions 11 to 20 as they unlock at shop levels 25 to 47 ($2,300 up to $6,000 each)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GhostFoil",
+      "displayName": "Lucky Bastard",
+      "description": "Obtained a full art foil Ghost card from pack opening",
+      "hidden": false,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "10-60 hours",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Open a pack that contains a full art foil Ghost card.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ghost cards are full art and come as White or Black versions. Both versions can appear as foil.",
+        "steps": [
+          {
+            "id": "pick-packs",
+            "text": "Open Destiny or Ascension packs when you can. Each has a 1 in 500 chance of a Ghost card, twice the chance of a Tetramon Base pack."
+          },
+          {
+            "id": "keep-opening",
+            "text": "Keep opening packs while workers handle the shelves and registers, until a Ghost card appears as a foil."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GradingGem1",
+      "displayName": "Grading Apprentice",
+      "description": "Obtained 10 Gem Mint graded cards",
+      "hidden": false,
+      "globalPercent": 12.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5-10 hours",
+      "estMinutes": 400,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Obtain 10 Gem Mint (grade 10) graded cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "A card graded for the first time comes back as Grade 10 38.4% of the time. Each submission also adds a $10 shipping fee.",
+        "steps": [
+          {
+            "id": "submit-cards",
+            "text": "Open the Grading app on your phone, pick a service, and send up to 8 cards in a submission. The Standard service returns cards after 7 days at $40 each."
+          },
+          {
+            "id": "keep-slots-full",
+            "text": "Keep all 4 submission slots busy until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GradingGem2",
+      "displayName": "Grading Prodigy",
+      "description": "Obtained 100 Gem Mint graded cards",
+      "hidden": false,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20-40 hours",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_GradingGem1"
+      ],
+      "summary": "Obtain 100 Gem Mint (grade 10) graded cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "submit-cards",
+            "text": "Open the Grading app on your phone, pick a service, and send up to 8 cards in a submission. The Standard service returns cards after 7 days at $40 each."
+          },
+          {
+            "id": "keep-slots-full",
+            "text": "Keep all 4 submission slots busy until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GradingGem3",
+      "displayName": "Grading Master",
+      "description": "Obtained 500 Gem Mint graded cards",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "80-150 hours",
+      "estMinutes": 6000,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_GradingGem2"
+      ],
+      "summary": "Obtain 500 Gem Mint (grade 10) graded cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "A card graded for the first time comes back as Grade 10 38.4% of the time, so 500 Gem Mint results take roughly 1,300 graded cards.",
+        "steps": [
+          {
+            "id": "fast-service",
+            "text": "Send cards on the fastest service you can afford. Express takes 4 days and costs $200 per card, and Premium takes 2 days and costs $1,500."
+          },
+          {
+            "id": "keep-slots-full",
+            "text": "Keep all 4 submission slots full with 8 cards each while you work on other achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GradingCollector",
+      "displayName": "Obsessed With Grades",
+      "description": "Collected a set of cards from grade 1 to 10",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "10-30 hours",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Collect one graded card at each grade from 1 to 10.",
+      "guide": {
+        "kind": "standard",
+        "context": "One player guide says all ten cards must be copies of the exact same card, so use one card to be safe. First-time grading rarely gives grades 1 to 4.",
+        "steps": [
+          {
+            "id": "pick-card",
+            "text": "Pick a cheap card that you own many copies of."
+          },
+          {
+            "id": "grade-copies",
+            "text": "Send copies for grading and keep one card of each grade that comes back."
+          },
+          {
+            "id": "regrade",
+            "text": "Send graded copies through the Grading app again to fill the missing grades. Each regrade gives one grade higher (30%), the same grade (40%), or one grade lower (30%), so low grades come from regrading."
+          },
+          {
+            "id": "keep-set",
+            "text": "Keep the full set in your collection until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GradingGold",
+      "displayName": "Graded Gold",
+      "description": "Sold graded card worth more than $100,000",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "10-40 hours",
+      "estMinutes": 1500,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Sell one graded card valued above $100,000.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reports differ on whether the sale price or the market value must pass $100,000. A customer needs enough cash to pay. The wiki's cash formula suggests only a very rich customer could, but this is an inference, not confirmed.",
+        "steps": [
+          {
+            "id": "grade-best",
+            "text": "Send your most valuable cards for grading instead of selling them."
+          },
+          {
+            "id": "check-value",
+            "text": "Check each graded card's value in the @mechanic{TCG Price} app. When one is above $100,000, put it up for sale at a price above $100,000 and wait for a buyer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UnlockAscensionPack",
+      "displayName": "Ascension Card Pack",
+      "description": "Unlocked Ascension Pack license",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4-8 hours",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_UnlockDestinyLegendPack"
+      ],
+      "summary": "Unlock the @item{Ascension Card Pack} license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy-license",
+            "text": "Reach shop level 70, then buy the @item{Ascension Card Pack (32)} license for $10,000 in the @mechanic{Stock Order} app on your phone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BorderlessFullArtFoil",
+      "displayName": "Limitless Pull",
+      "description": "Obtained a borderless full art foil Ascension card from pack opening",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "20-100 hours",
+      "estMinutes": 3000,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_UnlockAscensionPack"
+      ],
+      "summary": "Open an Ascension pack that contains a borderless full art foil card.",
+      "guide": {
+        "kind": "standard",
+        "context": "The wiki does not say which Ascension card version counts as borderless. Ascension cards come in 12 versions per monster, including Silver Full Art and EX full art cards.",
+        "steps": [
+          {
+            "id": "unlock-license",
+            "text": "Reach shop level 70 and buy the @item{Ascension Card Pack (32)} license for $10,000 in the @mechanic{Stock Order} app."
+          },
+          {
+            "id": "open-ascension",
+            "text": "Open Ascension packs until a borderless full art foil card appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CardCollector5",
+      "displayName": "Card Master",
+      "description": "Collected 4000 cards",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "50-100 hours",
+      "estMinutes": 4000,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_CardCollector4",
+        "ACH_UnlockAscensionPack"
+      ],
+      "summary": "Collect 4,000 cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "The game has 4,436 cards in total after update 1.0, so this needs most of them. The wiki does not say whether duplicates count toward the total.",
+        "steps": [
+          {
+            "id": "unlock-ascension",
+            "text": "Reach shop level 70 and buy the @item{Ascension Card Pack (32)} license for $10,000 in the @mechanic{Stock Order} app so every set can be opened."
+          },
+          {
+            "id": "open-all-sets",
+            "text": "Open Tetramon Base, Destiny, and Ascension packs and keep each new card."
+          },
+          {
+            "id": "keep-cards",
+            "text": "Do not send your cards for grading, because a player reports graded cards stop counting."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TCGDuel",
+      "displayName": "TCG Arcade",
+      "description": "Win 50 Tetramon TCG duels against customer",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5-8 hours",
+      "estMinutes": 360,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Beat customers in 50 Tetramon TCG duels.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each match takes about 3 to 5 minutes while the shop keeps running. Update 1.02 fixed the win counter for this achievement, so play on the current version.",
+        "steps": [
+          {
+            "id": "buy-workbench",
+            "text": "Reach shop level 7 and buy a @item{Workbench} ($1,000) in the @mechanic{MY DIY} app. Keep at least one play table in the shop."
+          },
+          {
+            "id": "build-deck",
+            "text": "Build a 50-card deck at the Workbench."
+          },
+          {
+            "id": "start-duel",
+            "text": "Walk up to a play table where a single customer is waiting, then press the right mouse button (gamepad: right face button) to start a match."
+          },
+          {
+            "id": "win-fifty",
+            "text": "Win the match, then repeat with other waiting customers until you have 50 wins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_OpenPack4",
+      "displayName": "Certified Card Goblin",
+      "description": "Opened 25000 card packs",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "80-150 hours",
+      "estMinutes": 6000,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_OpenPack3"
+      ],
+      "summary": "Open 25,000 card packs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hire-help",
+            "text": "Hire workers to restock shelves and run the registers."
+          },
+          {
+            "id": "open-nonstop",
+            "text": "Open packs by hand all day. The pack-opening options in the @mechanic{Setting} app make each pack faster."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_UnlockBasicCardBox",
+    "ACH_UnlockRareCardPack",
+    "ACH_UnlockEpicCardPack",
+    "ACH_UnlockLegendCardPack",
+    "ACH_UnlockDestinyBasicPack",
+    "ACH_UnlockDestinyRarePack",
+    "ACH_UnlockDestinyEpicPack",
+    "ACH_UnlockDestinyLegendPack",
+    "ACH_ShopLevel1",
+    "ACH_ShopLevel2",
+    "ACH_ShopLevel3",
+    "ACH_ShopLevel4",
+    "ACH_Worker1",
+    "ACH_Worker2",
+    "ACH_Worker3",
+    "ACH_OpenPack1",
+    "ACH_OpenPack2",
+    "ACH_OpenPack3",
+    "ACH_CustomerPlay1",
+    "ACH_CustomerPlay2",
+    "ACH_CustomerPlay3",
+    "ACH_SellCard1",
+    "ACH_SellCard2",
+    "ACH_SellCard3",
+    "ACH_Profit1",
+    "ACH_Profit2",
+    "ACH_Profit3",
+    "ACH_Checkout",
+    "ACH_FullArtFoil",
+    "ACH_CardCollector1",
+    "ACH_CardCollector2",
+    "ACH_CardCollector3",
+    "ACH_CardCollector4",
+    "ACH_SmellyClean1",
+    "ACH_SmellyClean2",
+    "ACH_UnlockShopLotB",
+    "ACH_ShopExpansion1",
+    "ACH_ShopExpansion2",
+    "ACH_ShopExpansion3",
+    "ACH_GhostFoil",
+    "ACH_GradingGem1",
+    "ACH_GradingGem2",
+    "ACH_GradingGem3",
+    "ACH_GradingCollector",
+    "ACH_GradingGold",
+    "ACH_UnlockAscensionPack",
+    "ACH_BorderlessFullArtFoil",
+    "ACH_CardCollector5",
+    "ACH_TCGDuel",
+    "ACH_OpenPack4"
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "game": {
+    "appid": 3065800,
+    "slug": "marathon",
+    "title": "Marathon",
+    "version": "1.1.5.1",
+    "lastPatchChecked": "2026-07-28",
+    "estTotalHours": 75,
+    "difficultyRating": 4,
+    "minPlaythroughs": 21,
+    "createdAt": "2026-08-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Finish onboarding and learn the extraction loop",
+      "description": "Complete the initial run, finish CyberAcme's Welcome to Tau Ceti Priority Contract, accept the first shell death, and practice safe exfils while every run advances the long counters.",
+      "achievementRefs": [
+        "ACH1",
+        "ACH2",
+        "ACH5",
+        "ACH4",
+        "ACH3"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Stack combat, container, and contract progress",
+      "description": "Keep an active faction contract on every run, search nonempty containers, clear UESC groups and Commanders, and finish rival Runners rather than leaving them downed.",
+      "achievementRefs": [
+        "ACH6",
+        "ACH7",
+        "ACH8",
+        "ACH9",
+        "ACH10"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Concentrate seasonal faction progression",
+      "description": "Push one faction to level 30 before the season reset, buy ordinary upgrades with Credits and tracked materials, and claim seven unlocked capstones across the available faction trees.",
+      "achievementRefs": [
+        "ACH11",
+        "ACH12"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Reach Season Level 100 before the reset",
+      "description": "Use the weekly XP benefits, keep runs productive, and reach Season Level 100 before Season 2 ends on September 22, 2026; completing the other 13 achievements then triggers the final unlock.",
+      "achievementRefs": [
+        "ACH13",
+        "ACH14"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH1",
+      "displayName": "Welcome to Tau Ceti",
+      "description": "Complete or skip your initial run.",
+      "hidden": false,
+      "globalPercent": 71.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "onboarding",
+      "prerequisites": [],
+      "summary": "Complete the opening tutorial run, or choose @mechanic{Leave Game} from its pause menu to skip it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Completing the tutorial awards its normal inventory items; skipping reaches the lobby faster but forfeits those items.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Start the initial run and follow its movement, looting, combat, and extraction prompts through completion."
+          },
+          {
+            "id": "step-2",
+            "text": "If you prefer to skip the tutorial, open the pause menu during the initial run and select @mechanic{Leave Game}; either route unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH2",
+      "displayName": "Everything Runs on CyberAcme",
+      "description": "Re-establish communication with the Sol system.",
+      "hidden": false,
+      "globalPercent": 59.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "onboarding",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Complete both parts of CyberAcme's @item{Welcome to Tau Ceti} Priority Contract to restore communication with Sol.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both objectives take place in Perimeter. The first part must be completed within one run, while the second allows either of Perimeter's two Relay locations.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Accept CyberAcme's @item{Welcome to Tau Ceti} Priority Contract after the initial run."
+          },
+          {
+            "id": "step-2",
+            "text": "For Welcome to Tau Ceti 1/2, enter @loc{Perimeter}, eliminate three UESC units, then find any UESC radio tower and use its FTL-array scan interaction during that same run."
+          },
+          {
+            "id": "step-3",
+            "text": "For Welcome to Tau Ceti 2/2, return to @loc{Perimeter} and sabotage the UESC comms antenna at either @loc{North Relay} or @loc{South Relay} to restore the Sol link."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH3",
+      "displayName": "Run Executable",
+      "description": "Complete 21 runs.",
+      "hidden": false,
+      "globalPercent": 43.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 7 hr",
+      "estMinutes": 420,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "cumulative",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Finish @mechanic{21 runs}; both successful exfiltration and shell death count as completed runs.",
+      "guide": {
+        "kind": "standard",
+        "context": "The seven successful exfils required by Run, Repeat can be part of the same 21-run total because those extractions satisfy both counters.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Start a run and continue until it ends in either successful exfiltration or shell death."
+          },
+          {
+            "id": "step-2",
+            "text": "Start another run and end it by successful exfiltration or shell death. Repeat until you have finished 21 runs in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH4",
+      "displayName": "Run, Repeat",
+      "description": "Exfil successfully 7 times.",
+      "hidden": false,
+      "globalPercent": 45.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 4 hr",
+      "estMinutes": 240,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "cumulative",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Successfully leave @mechanic{seven runs} through active exfil points.",
+      "guide": {
+        "kind": "standard",
+        "context": "Standard exfils begin appearing about five minutes into a match. Guarded exfils use the same extraction process but summon roughly four or five UESC units, commonly including a Commander.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter a normal zone and wait for an exfil icon to become available on the map; choose a normal point for safety or a guarded point if you also want Commander progress."
+          },
+          {
+            "id": "step-2",
+            "text": "Activate the exfil and survive for approximately 45 seconds while it powers up."
+          },
+          {
+            "id": "step-3",
+            "text": "When the extraction circle appears, remain inside it for the full 10-second countdown; being downed does not prevent a successful extraction if you stay in the circle."
+          },
+          {
+            "id": "step-4",
+            "text": "Repeat the complete extraction process until seven successful exfils have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH5",
+      "displayName": "This is Marathon",
+      "description": "Experience shell death for the first time.",
+      "hidden": false,
+      "globalPercent": 68.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "onboarding",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Let your Runner reach @mechanic{shell death} during any run for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "This first shell death also contributes one completed run toward Run Executable's 21-run total.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Enter any run and allow your Runner's shell to die once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH6",
+      "displayName": "Jackpot",
+      "description": "Loot 777 containers.",
+      "hidden": false,
+      "globalPercent": 22.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "within the 50-100 hr route",
+      "estMinutes": 2400,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "cumulative",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Search @mechanic{777 nonempty loot containers} across runs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Containers opened by another Runner can still count while an item remains inside, but completely empty containers cannot be searched. Different container types also provide reputation for different factions.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Search nonempty loot containers whenever you encounter them during a run."
+          },
+          {
+            "id": "step-2",
+            "text": "Search each nonempty container, including containers another Runner opened but did not empty."
+          },
+          {
+            "id": "step-3",
+            "text": "Continue searching containers across runs until the cumulative counter reaches 777."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH7",
+      "displayName": "Antiestablishment",
+      "description": "Eliminate 147 UESC units.",
+      "hidden": false,
+      "globalPercent": 38.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 8 hr",
+      "estMinutes": 480,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Fully eliminate @mechanic{147 UESC units}, the AI combatants guarding buildings and major map locations.",
+      "guide": {
+        "kind": "standard",
+        "context": "UESC Commanders are tracked by a separate 28-kill achievement, so watch for their purple overshields while working through the larger UESC total.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Visit major points of interest and guarded buildings during normal runs to find UESC patrols."
+          },
+          {
+            "id": "step-2",
+            "text": "Fully eliminate the UESC units you encounter at those locations."
+          },
+          {
+            "id": "step-3",
+            "text": "Keep clearing UESC groups across runs until 147 eliminations have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH8",
+      "displayName": "RIP UESC",
+      "description": "Eliminate 28 UESC commanders.",
+      "hidden": false,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "within the 50-100 hr route",
+      "estMinutes": 1200,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "prerequisites": [
+        "ACH7"
+      ],
+      "summary": "Eliminate @mechanic{28 UESC Commanders}, identified by purple overshields and square green-yellow armor behind their shoulders.",
+      "guide": {
+        "kind": "standard",
+        "context": "Commanders are heavy variants of Assault, Grenadier, Ghost, and Scout units. They use grenades and status effects and may appear in large UESC groups, around specific objectives, or with the enemies at a guarded exfil.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Search large UESC groups and guarded exfils for a heavy unit with a purple overshield and green-yellow shoulder armor."
+          },
+          {
+            "id": "step-2",
+            "text": "Fully eliminate the identified Commander and repeat these encounters until 28 Commander kills have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH9",
+      "displayName": "End Run",
+      "description": "Eliminate 14 rival Runners.",
+      "hidden": false,
+      "globalPercent": 37.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "skill-dependent",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "combat",
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Fully eliminate @mechanic{14 rival Runners}; merely downing an opposing player does not count.",
+      "guide": {
+        "kind": "standard",
+        "context": "An elimination registers only when the rival dies completely, either because you finish the downed Runner or because their revive timer expires.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Down a rival Runner, then finish the downed Runner or wait for their revive timer to expire."
+          },
+          {
+            "id": "step-2",
+            "text": "Repeat until 14 full rival eliminations have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH10",
+      "displayName": "Sign Here",
+      "description": "Complete 35 contracts.",
+      "hidden": false,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "within the 50-100 hr route",
+      "estMinutes": 1800,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "factions",
+      "prerequisites": [
+        "ACH2"
+      ],
+      "summary": "Finish @mechanic{35 active faction contracts}, using Priority Contracts first and Repeatable Contracts between them.",
+      "guide": {
+        "kind": "standard",
+        "context": "Priority Contracts are one-time faction-story objectives with larger rewards and unlocks. Repeatable Contracts provide randomized objectives, can be rerolled with Credits, and keep the counter moving when no Priority objective suits the selected zone; the total persists between seasons.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Activate an available Priority Contract; only the active contract receives progress during the run."
+          },
+          {
+            "id": "step-2",
+            "text": "Enter the contract's required zone and complete every listed objective."
+          },
+          {
+            "id": "step-3",
+            "text": "When no suitable Priority Contract is available, activate a Repeatable Contract and reroll it with Credits if its objective does not fit your planned zone."
+          },
+          {
+            "id": "step-4",
+            "text": "Complete and claim 35 contracts in total; finish at least five each week while working toward VIP to use the weekly bonus faction reputation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH11",
+      "displayName": "Reliable Asset",
+      "description": "Reach VIP status with a faction.",
+      "hidden": false,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": true,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "within one season",
+      "estMinutes": 3000,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "factions",
+      "lockoutStage": 4,
+      "prerequisites": [
+        "ACH2"
+      ],
+      "summary": "Raise one faction to @mechanic{level 30 (VIP)} before the current season resets on @mechanic{September 22, 2026}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Faction levels reset each season. Contracts and faction-specific actions both award reputation; the selected faction's AGENT panel lists its REPUTATION GAIN sources, so concentrating on one faction is safer than spreading progress evenly.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Choose one faction to push to VIP and open its AGENT panel to review the activities listed under @mechanic{REPUTATION GAIN}."
+          },
+          {
+            "id": "step-2",
+            "text": "Keep that faction's Priority or Repeatable Contract active and favor its listed reputation actions during every run."
+          },
+          {
+            "id": "step-3",
+            "text": "Complete at least the first five contracts available each week for the weekly bonus faction reputation, then continue earning reputation until the chosen faction reaches level 30."
+          },
+          {
+            "id": "step-4",
+            "text": "Reach level 30 and confirm @mechanic{VIP} status before Season 3 begins on September 22, 2026."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH12",
+      "displayName": "Cutting Edge",
+      "description": "Unlock 7 capstone upgrades.",
+      "hidden": false,
+      "globalPercent": 19.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "within the 50-100 hr route",
+      "estMinutes": 1800,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "factions",
+      "prerequisites": [
+        "ACH2"
+      ],
+      "summary": "Claim @mechanic{seven capstone upgrades} after unlocking the required ordinary nodes in faction upgrade trees.",
+      "guide": {
+        "kind": "standard",
+        "context": "Capstones sit at the bottom of faction trees and cost nothing when their node requirement is met. Ordinary nodes require faction rank, Credits, and listed materials; deeper capstones demand more nodes, with a faction's sixth capstone requiring every other upgrade in that tree.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Open each available faction upgrade tree and compare the ordinary-node requirements for its earliest unclaimed capstones."
+          },
+          {
+            "id": "step-2",
+            "text": "Buy the required ordinary upgrades using the faction rank, Credits, and exact materials shown on their nodes."
+          },
+          {
+            "id": "step-3",
+            "text": "Track any missing material from its upgrade node so likely loot locations are marked and the material is highlighted during searches."
+          },
+          {
+            "id": "step-4",
+            "text": "Claim each newly available capstone at no additional cost and continue through the faction trees until seven capstones have registered."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH13",
+      "displayName": "Seasoned Veteran",
+      "description": "Earn 100 Season Levels in a single season.",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": true,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "50-100 hr within one season",
+      "estMinutes": 4500,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "seasonal",
+      "lockoutStage": 4,
+      "prerequisites": [
+        "ACH1"
+      ],
+      "summary": "Reach @mechanic{Season Level 100} before Season 2 resets on @mechanic{September 22, 2026}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Season Level resets to zero with the next season. Finishing runs, eliminating enemies, collecting loot, and time spent in a run all provide progress, while the first 10 runs each week receive an additional weekly XP benefit.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Complete the first 10 runs available each weekly cycle to use the recurring XP benefit instead of postponing them until the end of the season."
+          },
+          {
+            "id": "step-2",
+            "text": "Make each run productive by combining contract objectives, UESC and Runner eliminations, container searches, and a successful exfil whenever practical."
+          },
+          {
+            "id": "step-3",
+            "text": "Check the Season Level after each session and continue until it reaches 100 before Season 3 begins on September 22, 2026."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH14",
+      "displayName": "Escape Will Make Me...",
+      "description": "Complete all other achievements for Marathon.",
+      "hidden": false,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "after the other 13 achievements",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "meta",
+      "prerequisites": [
+        "ACH1",
+        "ACH2",
+        "ACH3",
+        "ACH4",
+        "ACH5",
+        "ACH6",
+        "ACH7",
+        "ACH8",
+        "ACH9",
+        "ACH10",
+        "ACH11",
+        "ACH12",
+        "ACH13"
+      ],
+      "summary": "Unlock the other @mechanic{13 Marathon achievements}; this final achievement then triggers automatically.",
+      "guide": {
+        "kind": "standard",
+        "context": "There is no separate gameplay action for this meta achievement. The two season-reset objectives—one faction at VIP and Season Level 100—are the priorities that can force a new seasonal grind if left unfinished.",
+        "steps": [
+          {
+            "id": "step-1",
+            "text": "Complete Reliable Asset by reaching faction level 30 and Seasoned Veteran by reaching Season Level 100 before the current season resets on September 22, 2026; complete the other 11 non-meta achievements at any time."
+          },
+          {
+            "id": "step-2",
+            "text": "After the thirteenth non-meta achievement unlocks, allow this final achievement to register automatically."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH1",
+    "ACH2",
+    "ACH3",
+    "ACH4",
+    "ACH5",
+    "ACH6",
+    "ACH7",
+    "ACH8",
+    "ACH9",
+    "ACH10",
+    "ACH11",
+    "ACH12",
+    "ACH13",
+    "ACH14"
+  ]
+}

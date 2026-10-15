@@ -1,0 +1,1583 @@
+{
+  "game": {
+    "appid": 1954200,
+    "slug": "kena-bridge-of-spirits",
+    "title": "Kena: Bridge of Spirits",
+    "version": "1.0",
+    "lastPatchChecked": "2026-03-26",
+    "estTotalHours": 22,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-15"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Taro's story",
+      "description": "Start a new game on Master. Finish the prologue, learn the bow, take Taro's relics and defeat Corrupted Taro.",
+      "achievementRefs": [
+        "ACH_PHOTO_MODE",
+        "ACH_HERO_ROT",
+        "ACH_CHALLENGE_COMBAT_ACTIONS",
+        "ACH_LOCATION_VILLAGE",
+        "ACH_CHALLENGE_SHIELD_STICKS",
+        "ACH_LOCATION_FOREST",
+        "ACH_JIZO_FIRST",
+        "ACH_ABILITY_BOW",
+        "ACH_RELIC_KNIFE",
+        "ACH_CHALLENGE_ARROW",
+        "ACH_CHALLENGE_MULTISHOT",
+        "ACH_RELIC_FOOD_OFFERING",
+        "ACH_CHALLENGE_PARRY_KILL",
+        "ACH_RELIC_LANTERN",
+        "ACH_BOSS_TARO"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Adira's story",
+      "description": "Learn the bomb, free the ox, take Adira's relics and defeat the Corrupted Woodsmith.",
+      "achievementRefs": [
+        "ACH_ABILITY_BOMB",
+        "ACH_CHALLENGE_MOTH",
+        "ACH_LOCATION_FARM",
+        "ACH_CHALLENGE_CRIT",
+        "ACH_CHALLENGE_BOMB",
+        "ACH_RELIC_OX",
+        "ACH_RELIC_HAMMER",
+        "ACH_CHALLENGE_MAGE_BOMB",
+        "ACH_RELIC_VILLAGE_HEART",
+        "ACH_BOSS_WOODSMITH"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Toshi's story and the ending",
+      "description": "Learn the dash, take Toshi's relics, then defeat Corrupted Toshi and the Corrupted Rot God.",
+      "achievementRefs": [
+        "ACH_ABILITY_DASH",
+        "ACH_CHALLENGE_DASH_KILL",
+        "ACH_RELIC_INCENSE",
+        "ACH_RELIC_VILLAGE_CREST",
+        "ACH_RELIC_HARPOON",
+        "ACH_BOSS_TOSHI",
+        "ACH_LOCATION_MOUNTAIN",
+        "ACH_BOSS_ROT_GOD",
+        "ACH_DIFFICULTY_MASTER"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Collectible sweep",
+      "description": "After the ending, clear the map of shrines, mail, spots, chests, Rot and hats, then finish skill upgrades.",
+      "achievementRefs": [
+        "ACH_ABILITY_ALL",
+        "ACH_MAIL_ALL",
+        "ACH_MEDITATION_ALL",
+        "ACH_JIZO_ALL",
+        "ACH_CHESTS_ALL",
+        "ACH_HATS_ALL",
+        "ACH_ROT_ALL"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_ABILITY_BOW",
+      "displayName": "Hunter in the Forest",
+      "description": "Learn the Bow ability.",
+      "hidden": true,
+      "globalPercent": 56.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~3 h",
+      "estMinutes": 200,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Learn the Bow ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ability-bow-1",
+            "text": "Meet @npc{Rusu} at his high mountain lookout. He teaches the bow during the story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ABILITY_BOMB",
+      "displayName": "Harness Your Power",
+      "description": "Learn the Bomb ability.",
+      "hidden": true,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~8.5 h",
+      "estMinutes": 500,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Learn the Bomb ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ability-bomb-1",
+            "text": "Visit the @loc{Storehouse} and try to open its large mechanized door. Another Spirit Guide then teaches the bomb."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ABILITY_DASH",
+      "displayName": "Crossing Over",
+      "description": "Learn the Dash ability.",
+      "hidden": true,
+      "globalPercent": 27.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~13 h",
+      "estMinutes": 780,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_WOODSMITH"
+      ],
+      "summary": "Learn the Dash ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ability-dash-1",
+            "text": "Defeat the Corrupted Woodsmith, then return to the @loc{Village}. @npc{Zaju} teaches the dash there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HERO_ROT",
+      "displayName": "Found a Friend",
+      "description": "Find the first Rot.",
+      "hidden": false,
+      "globalPercent": 93.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Find the first Rot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hero-rot-1",
+            "text": "Play through the prologue until the first @npc{Rot} joins Kena."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LOCATION_VILLAGE",
+      "displayName": "Haikyo",
+      "description": "Discover the Village.",
+      "hidden": false,
+      "globalPercent": 76.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Discover the Village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "location-village-1",
+            "text": "After defeating the Sprout at the end of the prologue, walk into the @loc{Village}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LOCATION_FOREST",
+      "displayName": "Into the Woods",
+      "description": "Discover the Forest.",
+      "hidden": false,
+      "globalPercent": 65.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~2.5 h",
+      "estMinutes": 150,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Discover the Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "location-forest-1",
+            "text": "Leave the @loc{Village} to look for Taro. The achievement unlocks after the cutscene where Kena sees his memory through his mask."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LOCATION_FARM",
+      "displayName": "The Open Range",
+      "description": "Discover the Farm.",
+      "hidden": false,
+      "globalPercent": 35.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~9 h",
+      "estMinutes": 520,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Discover the Farm.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "location-farm-1",
+            "text": "Go through the @loc{Storehouse} while helping the Woodsmith. The @loc{Farm} area unlocks when you reach it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LOCATION_MOUNTAIN",
+      "displayName": "The Lonely Path",
+      "description": "Reach the Mountain Shrine.",
+      "hidden": false,
+      "globalPercent": 24.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~17 h",
+      "estMinutes": 1020,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_TOSHI"
+      ],
+      "summary": "Reach the Mountain Shrine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "location-mountain-1",
+            "text": "Defeat Corrupted Toshi. The path to the @loc{Mountain Shrine} then opens at the end of the story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_KNIFE",
+      "displayName": "Taro's Fear",
+      "description": "Find Taro's Knife relic.",
+      "hidden": true,
+      "globalPercent": 51.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~4 h",
+      "estMinutes": 240,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Find Taro's Knife relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-knife-1",
+            "text": "After getting the bow, defeat the @enemy{Wood Knight} that holds @npc{Rusu}'s home."
+          },
+          {
+            "id": "relic-knife-2",
+            "text": "Take Taro's knife as part of the story."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_LANTERN",
+      "displayName": "Taro's Regret",
+      "description": "Find Taro's Lantern relic.",
+      "hidden": true,
+      "globalPercent": 41.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~6.5 h",
+      "estMinutes": 380,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Find Taro's Lantern relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-lantern-1",
+            "text": "Enter the @loc{Lantern Cave} and defeat the Relic Guardian."
+          },
+          {
+            "id": "relic-lantern-2",
+            "text": "Take Taro's lantern."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_FOOD_OFFERING",
+      "displayName": "Taro's Love",
+      "description": "Find Taro's Food Offering relic.",
+      "hidden": true,
+      "globalPercent": 42.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~5.5 h",
+      "estMinutes": 330,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Find Taro's Food Offering relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-food-offering-1",
+            "text": "Cleanse the Fishing, Water, Wood and Flower shrines."
+          },
+          {
+            "id": "relic-food-offering-2",
+            "text": "Open the door @npc{Rusu} told you about and defeat the @enemy{Sprout Captain}."
+          },
+          {
+            "id": "relic-food-offering-3",
+            "text": "Take Taro's food offering from the room inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_OX",
+      "displayName": "Adira's Love",
+      "description": "Find Adira's Ox relic.",
+      "hidden": true,
+      "globalPercent": 32.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~9.5 h",
+      "estMinutes": 560,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Find Adira's Ox relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-ox-1",
+            "text": "In the @loc{Fields}, follow Adira's spirit missions until you free the ox from the corruption at the base of the tower."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_HAMMER",
+      "displayName": "Adira's Fear",
+      "description": "Find Adira's Hammer relic.",
+      "hidden": true,
+      "globalPercent": 31.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~10.5 h",
+      "estMinutes": 620,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_RELIC_OX"
+      ],
+      "summary": "Find Adira's Hammer relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-hammer-1",
+            "text": "After freeing the ox, let Rufus break the boulder that blocks the forge, northeast and high above the @loc{Fields}."
+          },
+          {
+            "id": "relic-hammer-2",
+            "text": "Defeat the guardian inside to take the hammer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_VILLAGE_HEART",
+      "displayName": "Adira's Regret",
+      "description": "Find Adira's Village Heart relic.",
+      "hidden": true,
+      "globalPercent": 29.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~11.5 h",
+      "estMinutes": 680,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Find Adira's Village Heart relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-village-heart-1",
+            "text": "Travel through the @loc{Village Heart} and the @loc{Village Heart Caves} below it."
+          },
+          {
+            "id": "relic-village-heart-2",
+            "text": "Take the relic at the end of the caves. No guardian protects it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_VILLAGE_CREST",
+      "displayName": "Toshi's Love",
+      "description": "Find Toshi's Village Crest relic.",
+      "hidden": true,
+      "globalPercent": 25.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~14.7 h",
+      "estMinutes": 880,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_DASH"
+      ],
+      "summary": "Find Toshi's Village Crest relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-village-crest-1",
+            "text": "Take the gateway to the Warrior's Path."
+          },
+          {
+            "id": "relic-village-crest-2",
+            "text": "Defeat the Warrior, the guardian of the relic."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_INCENSE",
+      "displayName": "Toshi's Fear",
+      "description": "Find Toshi's Incense relic.",
+      "hidden": true,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~14 h",
+      "estMinutes": 840,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_DASH"
+      ],
+      "summary": "Find Toshi's Incense relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-incense-1",
+            "text": "After learning the dash, enter @loc{Toshi's Fear} and reach the end of it."
+          },
+          {
+            "id": "relic-incense-2",
+            "text": "Defeat the Mask Maker. Shoot all four of his split forms before his beam lands."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RELIC_HARPOON",
+      "displayName": "Toshi's Regret",
+      "description": "Find Toshi's Harpoon relic.",
+      "hidden": true,
+      "globalPercent": 25.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~15.7 h",
+      "estMinutes": 940,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_DASH"
+      ],
+      "summary": "Find Toshi's Harpoon relic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "relic-harpoon-1",
+            "text": "Defeat the Hunter, a flying boss who teleports."
+          },
+          {
+            "id": "relic-harpoon-2",
+            "text": "Shoot her head to knock her down, then attack her on the ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOSS_TARO",
+      "displayName": "Spirit Guide",
+      "description": "Defeat Corrupted Taro.",
+      "hidden": true,
+      "globalPercent": 39.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~7.5 h",
+      "estMinutes": 440,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Defeat Corrupted Taro.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss-taro-1",
+            "text": "Parry his attacks to stun him, then hit his weak spot on the right shoulder."
+          },
+          {
+            "id": "boss-taro-2",
+            "text": "After he loses his sword, dodge his grab. Press the lock-on button to keep him in front of you."
+          },
+          {
+            "id": "boss-taro-3",
+            "text": "Use @mechanic{Rot Hammer} when you have the energy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOSS_WOODSMITH",
+      "displayName": "A Heavy Hammer",
+      "description": "Defeat the Corrupted Woodsmith.",
+      "hidden": true,
+      "globalPercent": 28.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~12.5 h",
+      "estMinutes": 740,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Defeat the Corrupted Woodsmith.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss-woodsmith-1",
+            "text": "Throw a bomb at the central crystal to open her shell. Shoot the core with 3 arrows fast."
+          },
+          {
+            "id": "boss-woodsmith-2",
+            "text": "Do this again. On the third round, do not attack after the shell opens."
+          },
+          {
+            "id": "boss-woodsmith-3",
+            "text": "Throw a bomb at her when she jumps to the center. Then shoot the gold part of her chest with 3 arrows."
+          },
+          {
+            "id": "boss-woodsmith-4",
+            "text": "In the last phase, when she summons two minions, throw a bomb at her. Block, roll sideways, then double jump her three attacks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOSS_TOSHI",
+      "displayName": "A Leader Walks Alone",
+      "description": "Defeat Corrupted Toshi.",
+      "hidden": true,
+      "globalPercent": 24.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~16.7 h",
+      "estMinutes": 1000,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_DASH"
+      ],
+      "summary": "Defeat Corrupted Toshi.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss-toshi-1",
+            "text": "Use the dash attack to interrupt his sword and staff attacks."
+          },
+          {
+            "id": "boss-toshi-2",
+            "text": "Shoot him in the head only when he glows gold at the edge of the arena."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOSS_ROT_GOD",
+      "displayName": "Restore Balance",
+      "description": "Defeat the Corrupted Rot God.",
+      "hidden": true,
+      "globalPercent": 23.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~18 h",
+      "estMinutes": 1080,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_LOCATION_MOUNTAIN"
+      ],
+      "summary": "Defeat the Corrupted Rot God.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss-rot-god-1",
+            "text": "Destroy half of the red glowing spots on him, then beat the three waves of small enemies."
+          },
+          {
+            "id": "boss-rot-god-2",
+            "text": "Do the same again for the second half. Dash through his beam attack."
+          },
+          {
+            "id": "boss-rot-god-3",
+            "text": "In the last stage, pull out all three gold rods on his back with Rot actions."
+          },
+          {
+            "id": "boss-rot-god-4",
+            "text": "Use Rot on the flower to end the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_ARROW",
+      "displayName": "Piercing Blow",
+      "description": "Hit 3 Enemies with a single Rot Infused Arrow.",
+      "hidden": false,
+      "globalPercent": 13.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~4 h",
+      "estMinutes": 250,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Strike three enemies with one arrow charged with Rot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-arrow-1",
+            "text": "Buy the Rot Arrow upgrade in the Upgrades menu."
+          },
+          {
+            "id": "challenge-arrow-2",
+            "text": "Line up 3 enemies, aim, and press the Rot button to add Rot to the arrow."
+          },
+          {
+            "id": "challenge-arrow-3",
+            "text": "Shoot. The arrow must hit all 3, but they do not have to die."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MOTH",
+      "displayName": "Weigh Them Down",
+      "description": "Destroy a Moth enemy with a Bomb.",
+      "hidden": false,
+      "globalPercent": 31.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~8.7 h",
+      "estMinutes": 510,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOMB"
+      ],
+      "summary": "Kill a flying Moth with a thrown bomb.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-moth-1",
+            "text": "Throw a bomb at a flying @enemy{Moth}. It explodes on its own, or you can shoot it to set it off."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_CRIT",
+      "displayName": "Quick Draw",
+      "description": "Hit 3 critical hit spots in 3 seconds.",
+      "hidden": false,
+      "globalPercent": 28.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~9 h",
+      "estMinutes": 540,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Hit 3 critical spots within 3 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-crit-1",
+            "text": "Fight enemies that show gold or bright red weak spots. Red bomb enemies in the @loc{Fields} are easy targets."
+          },
+          {
+            "id": "challenge-crit-2",
+            "text": "Shoot 3 weak spots in a row within 3 seconds. They can be on one enemy or on different ones."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MULTISHOT",
+      "displayName": "Bow Master",
+      "description": "Hit 3 enemies with a single Multi-shot.",
+      "hidden": false,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~5 h",
+      "estMinutes": 300,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Land one split Multi-shot arrow on three different enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-multishot-1",
+            "text": "Buy the Bind Multishot upgrade for 200 upgrade points."
+          },
+          {
+            "id": "challenge-multishot-2",
+            "text": "Find a group of enemies with at least 3 more near one target. Throw a Rot at one to bind it."
+          },
+          {
+            "id": "challenge-multishot-3",
+            "text": "Shoot the bound enemy. The arrow splits and hits the others nearby. No kills are needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_BOMB",
+      "displayName": "Sharpshooter",
+      "description": "Destroy an enemy by shooting a Bomb out of the air.",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~9 h",
+      "estMinutes": 545,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_BOMB",
+        "ACH_ABILITY_BOW"
+      ],
+      "summary": "Kill an enemy with a bomb you shot while it was still flying.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-bomb-1",
+            "text": "Weaken an enemy until one hit would kill it."
+          },
+          {
+            "id": "challenge-bomb-2",
+            "text": "Back away and throw a bomb above it. Aim the bow to slow time."
+          },
+          {
+            "id": "challenge-bomb-3",
+            "text": "Shoot the bomb while it is still in the air so it explodes on the enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_SHIELD_STICKS",
+      "displayName": "Between the Eyes",
+      "description": "Destroy a Shield Sticks without breaking its shield.",
+      "hidden": false,
+      "globalPercent": 46.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~2 h",
+      "estMinutes": 130,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill a Shield Sticks while its shield is still intact.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-shield-sticks-1",
+            "text": "Circle behind the @enemy{Shield Sticks} during its attack and use light attacks on its back."
+          },
+          {
+            "id": "challenge-shield-sticks-2",
+            "text": "Or aim your bow and shoot its head through the slot. Do not use heavy attacks, which break the shield."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_MAGE_BOMB",
+      "displayName": "Return to Sender",
+      "description": "Destroy a Mage with its own bomb.",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~11 h",
+      "estMinutes": 650,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill a Mage by parrying its red orb back into it.",
+      "guide": {
+        "kind": "standard",
+        "context": "A good place for this is the cavern in the @loc{Village Heart} that has two Mages. Defeat the first wave, shoot one Mage, then fight the last Mage up close.",
+        "steps": [
+          {
+            "id": "challenge-mage-bomb-1",
+            "text": "Fight a @enemy{Mage}. Use Rot on it when it glows green, which stops its heal."
+          },
+          {
+            "id": "challenge-mage-bomb-2",
+            "text": "When it throws the red orb, parry just before the orb hits you."
+          },
+          {
+            "id": "challenge-mage-bomb-3",
+            "text": "The orb flies back. The Mage must die from this hit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_PARRY_KILL",
+      "displayName": "Triple Threat",
+      "description": "Destroy 3 enemies with a single Parry.",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~6 h",
+      "estMinutes": 360,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Kill three enemies at once with one parry.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-parry-kill-1",
+            "text": "Use bow arrows to leave 3 small enemies with almost no health."
+          },
+          {
+            "id": "challenge-parry-kill-2",
+            "text": "Lure them close together, then parry one of their attacks. The parry wave kills all three."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_COMBAT_ACTIONS",
+      "displayName": "Rot Commander",
+      "description": "Use 5 Rot Actions in a single combat.",
+      "hidden": false,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "~30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Perform five Rot actions during one fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can get this in the prologue against the first spawner or against Sprout.",
+        "steps": [
+          {
+            "id": "challenge-combat-actions-1",
+            "text": "In one fight, use a Rot action 5 times without leaving the fight. A boss or the red-flower fights are good for this."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHALLENGE_DASH_KILL",
+      "displayName": "Triple Tap",
+      "description": "Destroy 3 enemies with a single dash attack.",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~14 h",
+      "estMinutes": 830,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ABILITY_DASH"
+      ],
+      "summary": "Kill three enemies at once with one dash attack.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "challenge-dash-kill-1",
+            "text": "After learning the dash, go to the @loc{Forest Courtyard I} trial."
+          },
+          {
+            "id": "challenge-dash-kill-2",
+            "text": "Wound three enemies until each is near death. Step back, then dash attack through all three."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ROT_ALL",
+      "displayName": "No Stone Unturned",
+      "description": "Find all of the Rot.",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~4 h",
+      "estMinutes": 1380,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Find all 100 Rot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nothing is missable.",
+        "steps": [
+          {
+            "id": "rot-all-1",
+            "text": "Finish the story first so the whole map and fast travel are open."
+          },
+          {
+            "id": "rot-all-2",
+            "text": "Search under rocks, in leaf piles, on branches and in chests. Defeating each boss also gives a group of 3 Rot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HATS_ALL",
+      "displayName": "Hat Collector",
+      "description": "Collect 50 Rot Hats.",
+      "hidden": false,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~3 h",
+      "estMinutes": 1320,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Collect 50 Rot Hats.",
+      "guide": {
+        "kind": "standard",
+        "context": "More than 50 hats exist, and some are only in New Game+. You need just 50.",
+        "steps": [
+          {
+            "id": "hats-all-1",
+            "text": "Pick up Rot Hats around the world. You do not have to equip them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CHESTS_ALL",
+      "displayName": "Curse Collector",
+      "description": "Open all Cursed Chests.",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~3 h",
+      "estMinutes": 1300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Open all 13 Cursed Chests.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "chests-all-1",
+            "text": "Find each chest with a red glow. Beat its challenge, such as killing set enemies, a time limit or no hits."
+          },
+          {
+            "id": "chests-all-2",
+            "text": "Do the 3 side-by-side Cursed Chests in the @loc{Village} in order. You can do them at different times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ABILITY_ALL",
+      "displayName": "Skillful Spirit Guide",
+      "description": "Unlock all ability upgrades.",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 1100,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Unlock every ability upgrade.",
+      "guide": {
+        "kind": "standard",
+        "context": "Charms have no achievement. Spending karma on them first can leave you short.",
+        "steps": [
+          {
+            "id": "ability-all-1",
+            "text": "Spend karma on ability upgrades before charms."
+          },
+          {
+            "id": "ability-all-2",
+            "text": "If you run short, farm karma in the @loc{Fields}. A rock there holds one enemy worth 10 karma if you kill it before it explodes. New Game+ also works."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_JIZO_FIRST",
+      "displayName": "Good as New",
+      "description": "Restore a Flower Shrine.",
+      "hidden": false,
+      "globalPercent": 68.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~3 h",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Restore a Flower Shrine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "jizo-first-1",
+            "text": "Follow the main story. The first @loc{Flower Shrine} is restored along the way."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_JIZO_ALL",
+      "displayName": "Restoration Master",
+      "description": "Restore all of the Flower Shrines.",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "~3 h",
+      "estMinutes": 1240,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Restore all 24 Flower Shrines.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nothing is missable. Do the sweep after the ending.",
+        "steps": [
+          {
+            "id": "jizo-all-1",
+            "text": "Find each shrine covered in Rot. Clear it by defeating its enemies or by using Rot to break the Rot and grow plants."
+          },
+          {
+            "id": "jizo-all-2",
+            "text": "Collect the blue crystals from the shrine before you restore it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MEDITATION_ALL",
+      "displayName": "Zen Master",
+      "description": "Meditate at all Meditation Spots.",
+      "hidden": false,
+      "globalPercent": 10.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~2 h",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Meditate at all 12 Meditation Spots.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "meditation-all-1",
+            "text": "Visit each Meditation Spot and meditate. Each one adds health."
+          },
+          {
+            "id": "meditation-all-2",
+            "text": "If a spot is out of reach, finish more of the story and return."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MAIL_ALL",
+      "displayName": "The Last Stop",
+      "description": "Deliver all Spirit Mail.",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "~1.5 h",
+      "estMinutes": 1180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Deliver all 10 Spirit Mail.",
+      "guide": {
+        "kind": "standard",
+        "context": "Delivering a letter clears the poison from the house. Search inside each house for more collectibles.",
+        "steps": [
+          {
+            "id": "mail-all-1",
+            "text": "Collect each yellow glowing cloth bag."
+          },
+          {
+            "id": "mail-all-2",
+            "text": "Bring each bag to its house in the @loc{Village}. The map marks the house. Picking up a bag alone does not count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PHOTO_MODE",
+      "displayName": "Say Cheese",
+      "description": "Capture a picture in Photo Mode.",
+      "hidden": false,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "~2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Capture a picture in Photo Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "photo-mode-1",
+            "text": "Press up on the d-pad, choose Photo Mode, and take a picture."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DIFFICULTY_MASTER",
+      "displayName": "Master Spirit Guide",
+      "description": "Beat the game on Master difficulty.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "~18 h",
+      "estMinutes": 1085,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BOSS_ROT_GOD"
+      ],
+      "summary": "Beat the game on Master difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "The jump from Expert to Master is large. Meditation Spots add health, so use them before the later bosses.",
+        "steps": [
+          {
+            "id": "difficulty-master-1",
+            "text": "Start a new game and choose Master difficulty. It is available from the first playthrough."
+          },
+          {
+            "id": "difficulty-master-2",
+            "text": "Defeat the Corrupted Rot God to finish the story."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_ABILITY_BOW",
+    "ACH_BOSS_TARO",
+    "ACH_CHALLENGE_ARROW",
+    "ACH_CHALLENGE_COMBAT_ACTIONS",
+    "ACH_CHALLENGE_MULTISHOT",
+    "ACH_CHALLENGE_PARRY_KILL",
+    "ACH_CHALLENGE_SHIELD_STICKS",
+    "ACH_HERO_ROT",
+    "ACH_JIZO_FIRST",
+    "ACH_LOCATION_FOREST",
+    "ACH_LOCATION_VILLAGE",
+    "ACH_PHOTO_MODE",
+    "ACH_RELIC_FOOD_OFFERING",
+    "ACH_RELIC_KNIFE",
+    "ACH_RELIC_LANTERN",
+    "ACH_ABILITY_BOMB",
+    "ACH_BOSS_WOODSMITH",
+    "ACH_CHALLENGE_BOMB",
+    "ACH_CHALLENGE_CRIT",
+    "ACH_CHALLENGE_MAGE_BOMB",
+    "ACH_CHALLENGE_MOTH",
+    "ACH_LOCATION_FARM",
+    "ACH_RELIC_OX",
+    "ACH_RELIC_HAMMER",
+    "ACH_RELIC_VILLAGE_HEART",
+    "ACH_ABILITY_DASH",
+    "ACH_BOSS_TOSHI",
+    "ACH_CHALLENGE_DASH_KILL",
+    "ACH_LOCATION_MOUNTAIN",
+    "ACH_BOSS_ROT_GOD",
+    "ACH_DIFFICULTY_MASTER",
+    "ACH_RELIC_HARPOON",
+    "ACH_RELIC_INCENSE",
+    "ACH_RELIC_VILLAGE_CREST",
+    "ACH_ABILITY_ALL",
+    "ACH_CHESTS_ALL",
+    "ACH_HATS_ALL",
+    "ACH_JIZO_ALL",
+    "ACH_MAIL_ALL",
+    "ACH_MEDITATION_ALL",
+    "ACH_ROT_ALL"
+  ]
+}

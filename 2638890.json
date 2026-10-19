@@ -1,0 +1,2037 @@
+{
+  "game": {
+    "appid": 2638890,
+    "slug": "onimusha-way-of-the-sword",
+    "title": "Onimusha: Way of the Sword",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-03",
+    "estTotalHours": 65,
+    "difficultyRating": 6.5,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-10-19"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Story and side content",
+      "description": "Play the story on Action difficulty up to the point-of-no-return prompt before the last mission. Rescue citizens, finish Chance Encounters and Mysteries, and let the combat counters build up naturally.",
+      "achievementRefs": [
+        "ACHIEVEMENT_002",
+        "ACHIEVEMENT_003",
+        "ACHIEVEMENT_004",
+        "ACHIEVEMENT_005",
+        "ACHIEVEMENT_006",
+        "ACHIEVEMENT_007",
+        "ACHIEVEMENT_008",
+        "ACHIEVEMENT_009",
+        "ACHIEVEMENT_010",
+        "ACHIEVEMENT_011",
+        "ACHIEVEMENT_012",
+        "ACHIEVEMENT_015",
+        "ACHIEVEMENT_017",
+        "ACHIEVEMENT_019",
+        "ACHIEVEMENT_020",
+        "ACHIEVEMENT_021",
+        "ACHIEVEMENT_022",
+        "ACHIEVEMENT_030",
+        "ACHIEVEMENT_037",
+        "ACHIEVEMENT_038",
+        "ACHIEVEMENT_039",
+        "ACHIEVEMENT_040",
+        "ACHIEVEMENT_041",
+        "ACHIEVEMENT_042",
+        "ACHIEVEMENT_043",
+        "ACHIEVEMENT_044",
+        "ACHIEVEMENT_045",
+        "ACHIEVEMENT_046",
+        "ACHIEVEMENT_047",
+        "ACHIEVEMENT_048",
+        "ACHIEVEMENT_049",
+        "ACHIEVEMENT_050",
+        "ACHIEVEMENT_051",
+        "ACHIEVEMENT_052"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Cleanup before the final mission",
+      "description": "Free roam stays open until \"The Clash At Rendaino\". Finish every collectible, upgrade, and leftover combat counter, then make a manual save.",
+      "achievementRefs": [
+        "ACHIEVEMENT_016",
+        "ACHIEVEMENT_018",
+        "ACHIEVEMENT_023",
+        "ACHIEVEMENT_026",
+        "ACHIEVEMENT_029",
+        "ACHIEVEMENT_031",
+        "ACHIEVEMENT_032",
+        "ACHIEVEMENT_033",
+        "ACHIEVEMENT_034",
+        "ACHIEVEMENT_035",
+        "ACHIEVEMENT_036"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish the first playthrough",
+      "description": "Start the final mission, beat both final bosses, and clear the achievements that pop at the end of the run. This unlocks Carnage difficulty.",
+      "achievementRefs": [
+        "ACHIEVEMENT_013",
+        "ACHIEVEMENT_014",
+        "ACHIEVEMENT_024",
+        "ACHIEVEMENT_028"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Carnage New Game+",
+      "description": "Replay the story on Carnage difficulty in New Game+. Skills, pouches, charms, items, Genma notes and Lion Dogs carry over.",
+      "achievementRefs": [
+        "ACHIEVEMENT_025"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Boss Rematch",
+      "description": "Beat every Boss Rematch fight in the Practice Grounds, using Carnage clears to cover the lower difficulties, to finish the list.",
+      "achievementRefs": [
+        "ACHIEVEMENT_001",
+        "ACHIEVEMENT_027"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACHIEVEMENT_001",
+      "displayName": "Peerless",
+      "description": "Unlock all achievements.",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "after all others",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "finale",
+      "sortReason": "Final-mission or last-step unlock.",
+      "summary": "Earn every other achievement in the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock all 51 other achievements; this one pops last."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_002",
+      "displayName": "Onimusha Showdown",
+      "description": "Drive off Sasaki Ganryu.",
+      "hidden": true,
+      "globalPercent": 90.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "summary": "Defeat Sasaki Ganryu at Kiyomizu-dera Temple at the end of the tutorial.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear the 2 Thread Genma, then enter @loc{Kiyomizu-dera Temple} and fight @enemy{Sasaki Ganryu}."
+          },
+          {
+            "id": "s2",
+            "text": "Parry his attacks and punish with up to 3 Light Attacks to build an Issen Attack, then use the prompted Issen on the red target.",
+            "note": "If he stops attacking, his stamina bar refills, so keep up pressure."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_003",
+      "displayName": "Get Stuffed",
+      "description": "Defeat Daidara.",
+      "hidden": true,
+      "globalPercent": 88.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_002"
+      ],
+      "summary": "Defeat Daidara in the Oni Refuge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Activate the @loc{Shrine Grounds} Spirit Mirror in the @loc{Oni Refuge}, then enter the room with the mission marker."
+          },
+          {
+            "id": "s2",
+            "text": "Parry the cleaver sweeps and the ramming charge. Dodge the kick and the overhead smash. Hit his legs to crack their armor."
+          },
+          {
+            "id": "s3",
+            "text": "Pick up the floating orbs quickly.",
+            "note": "Orbs he absorbs make him enraged, faster and stronger."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_004",
+      "displayName": "Twisted Fates",
+      "description": "Defeat Rasho-gan.",
+      "hidden": true,
+      "globalPercent": 83.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_003"
+      ],
+      "summary": "Defeat Rasho-gan after you recover the 3 statues during \"Be Careful What You Wish For\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Bring the 3 statues back, then fight @enemy{Rasho-gan} in the cutscene that follows."
+          },
+          {
+            "id": "s2",
+            "text": "Stay aggressive in phase 2. His stamina refills fast, and he is already in Blazing State."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_005",
+      "displayName": "Howling Wind",
+      "description": "Defeat Ifuu.",
+      "hidden": true,
+      "globalPercent": 77.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_004"
+      ],
+      "summary": "Defeat Ifuu as the final fight of the mission \"Windswept Kennin-ji\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight @enemy{Ifuu} at the end of @loc{Windswept Kennin-ji}."
+          },
+          {
+            "id": "s2",
+            "text": "Deflect his breath attacks back at him to drain his stamina."
+          },
+          {
+            "id": "s3",
+            "text": "In phase 2, shoot the air sack behind his head with an arrow when it swells or when he jumps, to stun him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_006",
+      "displayName": "Dokyo's Fixation",
+      "description": "Defeat the Greater Nue.",
+      "hidden": true,
+      "globalPercent": 73.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_005"
+      ],
+      "summary": "Defeat the Greater Nue inside the Kyoto Imperial Palace, in the Oikeniwa Pond Garden.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement pops after the cutscene that sends you after Hinagiku.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the @loc{Oikeniwa Pond Garden} and fight the @enemy{Greater Nue}."
+          },
+          {
+            "id": "s2",
+            "text": "When its stamina breaks, pick the tail as the Issen target. Without its tail it cannot guard or use its unavoidable sweep for a short time."
+          },
+          {
+            "id": "s3",
+            "text": "Use Oni Power to break its tail guard, and parry or dodge the lightning attacks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_007",
+      "displayName": "Benkei: Out, but Not Down",
+      "description": "Defeat Benkei.",
+      "hidden": true,
+      "globalPercent": 69.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_006"
+      ],
+      "summary": "Defeat Benkei in the mission \"Bloodbath on the Bridge\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the bridge and fight @enemy{Benkei}. This is the only objective of the mission."
+          },
+          {
+            "id": "s2",
+            "text": "Damage him only with Issen, Break Issen, and the attacks shown after a timed Reflex Dodge."
+          },
+          {
+            "id": "s3",
+            "text": "Parry his glaive swings and bait attacks with light attacks.",
+            "note": "His stamina refills fast if you let him idle. Blocking and dodging do not damage it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_008",
+      "displayName": "Crashing Lightning",
+      "description": "Defeat Burai.",
+      "hidden": true,
+      "globalPercent": 66.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_007"
+      ],
+      "summary": "Defeat Burai during \"A Tempest at the Temple\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight @enemy{Burai} in the temple where you fought Ifuu."
+          },
+          {
+            "id": "s2",
+            "text": "Move out of the purple beams, and use Focus Evade against the X-pattern orbs and his enraged lightning drop."
+          },
+          {
+            "id": "s3",
+            "text": "Do not hit him while he holds his pose, or he teleports behind you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_009",
+      "displayName": "Wide Awake",
+      "description": "Defeat Shuten Doji.",
+      "hidden": true,
+      "globalPercent": 60.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_008"
+      ],
+      "summary": "Defeat Shuten Doji to finish \"The Demon on the Mount\".",
+      "guide": {
+        "kind": "standard",
+        "context": "Use as few healing items as you can in phase 1. A cutscene starts phase 2, and if you die after it you restart at phase 2 with the healing items you had left.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight @enemy{Shuten Doji} to finish @loc{The Demon on the Mount}. When he breathes in, shoot him with an arrow to cancel the attack you cannot avoid."
+          },
+          {
+            "id": "s2",
+            "text": "Phase 2 starts after a cutscene in Oni form, with a separate head and body. Use Issen and your Oni Armament to keep the Oni Gauge up."
+          },
+          {
+            "id": "s3",
+            "text": "Shoot the head with an arrow when it swells to stop its fire breath."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_010",
+      "displayName": "The Perfect Storm",
+      "description": "Defeat Ifuu and Burai.",
+      "hidden": true,
+      "globalPercent": 58.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_009"
+      ],
+      "summary": "Defeat Ifuu and Burai together in the mission \"Storm Chaser\".",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight both bosses in @loc{Storm Chaser}. Each has 2 health bars to drain, in any order."
+          },
+          {
+            "id": "s2",
+            "text": "Stay defensive and punish only after their combos. Deflect their joint attacks for large stamina damage."
+          },
+          {
+            "id": "s3",
+            "text": "Shoot Ifuu out of the air when Burai circles himself with orbs, but not while you stand in the orb path."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_011",
+      "displayName": "We Done Here?",
+      "description": "Defeat Sasaki Ganryu at Arashiyama.",
+      "hidden": true,
+      "globalPercent": 55.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_010"
+      ],
+      "summary": "Defeat the second Sasaki Ganryu fight, in the Arashiyama field beside the Togetsu-kyo Bridge Spirit Mirror.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find @enemy{Sasaki Ganryu} in the field beside the @loc{Togetsu-kyo Bridge} Spirit Mirror."
+          },
+          {
+            "id": "s2",
+            "text": "Play defensively. His swords can be parried, blocked, or countered with Issen."
+          },
+          {
+            "id": "s3",
+            "text": "Use Oni Power early so you can use it a second time later in the fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_012",
+      "displayName": "End This Madness",
+      "description": "Defeat Dokyo.",
+      "hidden": true,
+      "globalPercent": 54.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Story boss in campaign order.",
+      "prerequisites": [
+        "ACHIEVEMENT_011"
+      ],
+      "summary": "Defeat Dokyo at the end of Arashiyama.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight @enemy{Dokyo} at the end of @loc{Arashiyama}. Dodge the orbs, laser bars, and spikes, then attack in the gaps."
+          },
+          {
+            "id": "s2",
+            "text": "Shoot the growing mask with an arrow while it circles Dokyo."
+          },
+          {
+            "id": "s3",
+            "text": "When Dokyo splits in two, use Oni Vision and shoot the clone with the gold aura."
+          },
+          {
+            "id": "s4",
+            "text": "In phase 2, stand behind the rock when the giant sphere charges."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_013",
+      "displayName": "Baited by Benkei",
+      "description": "Defeat Benkei at Rendaino.",
+      "hidden": true,
+      "globalPercent": 52.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "finale",
+      "sortReason": "Final-mission or last-step unlock.",
+      "prerequisites": [
+        "ACHIEVEMENT_012"
+      ],
+      "summary": "Defeat Benkei in the mission \"The Clash at Rendaino\".",
+      "guide": {
+        "kind": "standard",
+        "context": "Free roam ends when this mission starts, so finish side content first.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Accept @loc{The Clash at Rendaino}. The fight starts at once."
+          },
+          {
+            "id": "s2",
+            "text": "In phase 2, land the odd arrow headshot so his stamina stays down. Spend your Oni gauge early so it refills for a second use."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_014",
+      "displayName": "Truly, Thank You",
+      "description": "Defeat Minamoto no Yoshitsune.",
+      "hidden": true,
+      "globalPercent": 50.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "finale",
+      "sortReason": "Final-mission or last-step unlock.",
+      "prerequisites": [
+        "ACHIEVEMENT_013"
+      ],
+      "summary": "Defeat Minamoto no Yoshitsune in the last boss fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "Save your consumables for the second half of phase 2 and for phase 3.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Before the fight, carry up to 2 each of Amulet of Introspection, Stimulant, Greater Defense Talisman, Greater Might Talisman and Heavy Restoratives, plus 1 Sun-Dried Hozuki."
+          },
+          {
+            "id": "s2",
+            "text": "Phase 1: deflect or parry his katana attacks. Parry the dash-slash right after his shoulder tap."
+          },
+          {
+            "id": "s3",
+            "text": "Phase 2: run away from the slam and ground crack, and lean on deflects. Choose purple souls when his stamina breaks."
+          },
+          {
+            "id": "s4",
+            "text": "Phase 3: he is only damaged while you are in Oni Awakening. Fill the gauge with Issen counters or parries, transform, and counter."
+          },
+          {
+            "id": "s5",
+            "text": "Use your finisher when the Awakening gauge is almost empty.",
+            "note": "Dodge or Issen the arena-wide slash after he absorbs all souls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_015",
+      "displayName": "Mystery Solved",
+      "description": "Complete your first Mystery of Kyoto.",
+      "hidden": false,
+      "globalPercent": 71.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "side",
+      "sortReason": "Side activity found during the campaign.",
+      "summary": "Complete your first Mystery of Kyoto.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish any one of the 8 @mechanic{Mysteries of Kyoto}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_016",
+      "displayName": "Demystified",
+      "description": "Complete all Mysteries of Kyoto.",
+      "hidden": false,
+      "globalPercent": 46.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "prerequisites": [
+        "ACHIEVEMENT_015"
+      ],
+      "summary": "Complete all 8 Mysteries of Kyoto.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mysteries do not carry into New Game+, so finish them in one playthrough.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish all 8 @mechanic{Mysteries of Kyoto} before the final mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_017",
+      "displayName": "Life-Saver",
+      "description": "Complete your first Chance Encounter.",
+      "hidden": false,
+      "globalPercent": 73.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "side",
+      "sortReason": "Side activity found during the campaign.",
+      "summary": "Complete your first Chance Encounter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish any one of the 18 @mechanic{Chance Encounters}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_018",
+      "displayName": "No Job Too Small",
+      "description": "Complete all Chance Encounters.",
+      "hidden": false,
+      "globalPercent": 37.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "prerequisites": [
+        "ACHIEVEMENT_017"
+      ],
+      "summary": "Complete all 18 Chance Encounters.",
+      "guide": {
+        "kind": "standard",
+        "context": "Chance Encounters do not carry into New Game+, so finish them in one playthrough.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish all 18 @mechanic{Chance Encounters} before the final mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_019",
+      "displayName": "Serves You Right",
+      "description": "Defeat the Byakue at Kiyomizu-dera Temple.",
+      "hidden": false,
+      "globalPercent": 63.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "side",
+      "sortReason": "Side activity found during the campaign.",
+      "prerequisites": [
+        "ACHIEVEMENT_017"
+      ],
+      "summary": "Kill the Byakue guarding the Kiyomizu-dera Temple area.",
+      "guide": {
+        "kind": "standard",
+        "context": "This Byakue stands by a Kubi Akari target used in the \"Ace Archer\" Chance Encounter at that temple.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Kiyomizu-dera Temple}, head north from the @loc{Nio-mon Gate} Spirit Mirror to the Oni Wall and go through."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat the @enemy{Byakue}. It has one health bar and falls to 2 Issen Breaks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_020",
+      "displayName": "Citizen Savior",
+      "description": "Rescue 30 townspeople from marauding Genma.",
+      "hidden": false,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "side",
+      "sortReason": "Side activity found during the campaign.",
+      "summary": "Rescue 30 townspeople from attacking Genma.",
+      "guide": {
+        "kind": "standard",
+        "context": "A rescue only counts after you speak to the citizen.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Beat the Genma attacking any citizen you find in Kyoto, then speak to the citizen. Repeat until you have rescued 30."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_021",
+      "displayName": "Selfish Selflessness",
+      "description": "Rescue a merchant that's being attacked by Genma.",
+      "hidden": false,
+      "globalPercent": 57.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "side",
+      "sortReason": "Side activity found during the campaign.",
+      "summary": "Rescue a merchant who is being attacked by Genma.",
+      "guide": {
+        "kind": "standard",
+        "context": "Merchant attacks are random, but one usually appears before the 30th rescue.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep rescuing citizens until a merchant is attacked, beat the Genma, and speak to the merchant."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_022",
+      "displayName": "No Dog Left Behind",
+      "description": "Rescue your first Lion Dog.",
+      "hidden": false,
+      "globalPercent": 71.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "side",
+      "sortReason": "Side activity found during the campaign.",
+      "summary": "Rescue your first Lion Dog.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find and rescue any one of the 36 @mechanic{Lion Dogs}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_023",
+      "displayName": "For the Love of Dog",
+      "description": "Rescue all the Lion Dogs.",
+      "hidden": false,
+      "globalPercent": 36.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "prerequisites": [
+        "ACHIEVEMENT_022"
+      ],
+      "summary": "Rescue all 36 Lion Dogs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rescued Lion Dogs carry into New Game+.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Rescue all 36 @mechanic{Lion Dogs}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_024",
+      "displayName": "Genma-ologist",
+      "description": "Collect all the Genma notes.",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "summary": "Collect all 23 Genma Notes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Genma Notes carry into New Game+. The achievement may pop only when you finish the final mission.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect all 23 Genma Notes. Re-read the collected ones in the menu to see which you still need."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_025",
+      "displayName": "True Onimusha",
+      "description": "Complete the game on difficulty level Carnage.",
+      "hidden": true,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "8-15 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "carnage",
+      "sortReason": "Needs the Carnage New Game+ run.",
+      "prerequisites": [
+        "ACHIEVEMENT_014"
+      ],
+      "summary": "Complete the game on Carnage difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the story once on any difficulty to unlock Carnage."
+          },
+          {
+            "id": "s2",
+            "text": "Begin New Game+ on Carnage and play through to the end."
+          },
+          {
+            "id": "s3",
+            "text": "Save Revival Mirrors and healing items in your first run.",
+            "note": "Items carry into New Game+. Carnage has no action prompts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_026",
+      "displayName": "Second Helping",
+      "description": "Beat an opponent in a Boss Rematch.",
+      "hidden": true,
+      "globalPercent": 67.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "rematch",
+      "sortReason": "Boss Rematch mode.",
+      "summary": "Beat any opponent in Boss Rematch.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Practice Grounds unlock during the mission \"The Oni's Apprentice\".",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Emma's Hall}, ring the bell in the corner to enter the Practice Grounds."
+          },
+          {
+            "id": "s2",
+            "text": "Speak to Takamura, choose @mechanic{Boss Rematch}, and win against any boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_027",
+      "displayName": "Glutton for Punishment",
+      "description": "Beat all Boss Rematch opponents on all difficulty levels.",
+      "hidden": true,
+      "globalPercent": 10.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "10-20 hr",
+      "estMinutes": 900,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "rematch",
+      "sortReason": "Boss Rematch mode.",
+      "prerequisites": [
+        "ACHIEVEMENT_025"
+      ],
+      "summary": "Beat every Boss Rematch opponent on every difficulty level.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can use almost no items in the rematches except your pouch.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use @loc{Emma's Hall} and Takamura to start each @mechanic{Boss Rematch} fight."
+          },
+          {
+            "id": "s2",
+            "text": "Beat every available boss on Carnage. A Carnage win also counts for the lower difficulties."
+          },
+          {
+            "id": "s3",
+            "text": "Clear Carnage in the story first.",
+            "note": "It grants a weapon that makes the rematches much easier."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_028",
+      "displayName": "The Winding Way of the Sword",
+      "description": "Learn and upgrade all basic or special skills.",
+      "hidden": false,
+      "globalPercent": 29.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "upgrades",
+      "sortReason": "Upgrade milestone.",
+      "summary": "Learn and upgrade all basic skills or all special skills.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skills cost Power Stones, Oni Stones, and Red Souls. The achievement may pop only when you finish the final mission.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open a Spirit Mirror, choose Enhance Equipment/Abilities, and buy and upgrade every skill in either the basic tab or the special tab."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_029",
+      "displayName": "Well-Rounded",
+      "description": "Learn and upgrade all basic and special skills.",
+      "hidden": false,
+      "globalPercent": 20.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "sortReason": "Upgrade milestone.",
+      "summary": "Learn and upgrade all basic skills and all special skills.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unlock the three Oni Vision skills (Treasures, Treasures 2, Search Range) early to spot stones faster.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At a Spirit Mirror, choose Enhance Equipment/Abilities and buy every skill in both tabs."
+          },
+          {
+            "id": "s2",
+            "text": "Collect all 54 Power Stones and 55 Oni Stones for the upgrades, and buy the rest from Yorimasa's Monument."
+          },
+          {
+            "id": "s3",
+            "text": "Get the Flashing Void spear on Mount Oe beyond the castle elevator, and the Still Water sword after the Swamp 1 checkpoint in Arima.",
+            "note": "Their skills only unlock once you own the weapon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_030",
+      "displayName": "Looking Sharp",
+      "description": "Enhance a piece of equipment for the first time.",
+      "hidden": false,
+      "globalPercent": 86.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "upgrades",
+      "sortReason": "Upgrade milestone.",
+      "summary": "Upgrade any one piece of gear for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Spirit Mirror enhancement menu unlocks in the mission \"The Oni's Apprentice\".",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At a Spirit Mirror, open the Equipment Enhancement tab and upgrade any item once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_031",
+      "displayName": "Dressed to Kill",
+      "description": "Enhance all equipment to the maximum level.",
+      "hidden": false,
+      "globalPercent": 22.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "upgrades",
+      "sortReason": "Upgrade milestone.",
+      "summary": "Enhance all equipment to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sword and gauntlet upgrades do not carry into New Game+, so max them in one run. The last gauntlet levels need Byakue's Talisman and Dohatsu-ten's Horn, which the final-mission bosses and respawning spots in eastern Kyoto can give.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At a Spirit Mirror, use the Equipment Enhancement tab to raise your clothing, sword and gauntlet to their maximum levels."
+          },
+          {
+            "id": "s2",
+            "text": "Gather 25 Fine Silk Cloths and 25 Tamahagane, plus the common materials. Buy extra at Yorimasa's Monument."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_032",
+      "displayName": "Oni Armory",
+      "description": "Acquire all Oni Armaments.",
+      "hidden": false,
+      "globalPercent": 43.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "summary": "Acquire all 7 Oni Armaments.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find and collect all 7 Oni Armaments."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_033",
+      "displayName": "Health Is Wealth",
+      "description": "Enhance a Hozuki Pouch to the maximum level.",
+      "hidden": false,
+      "globalPercent": 52.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "summary": "Enhance a Hozuki Pouch to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fully upgrade any one Hozuki Pouch."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_034",
+      "displayName": "Medical Marvel",
+      "description": "Enhance all Hozuki Pouches to the maximum level.",
+      "hidden": false,
+      "globalPercent": 16.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "prerequisites": [
+        "ACHIEVEMENT_033"
+      ],
+      "summary": "Enhance all 9 Hozuki Pouches to their maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pouches and their upgrades carry into New Game+.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find all 9 Hozuki Pouches and fully upgrade each one."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_035",
+      "displayName": "A Real Charmer",
+      "description": "Enhance a charm to the maximum level.",
+      "hidden": false,
+      "globalPercent": 68.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "summary": "Enhance a charm to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fully upgrade any one charm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_036",
+      "displayName": "Charmed Life",
+      "description": "Enhance all charms to the maximum level.",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "collect",
+      "sortReason": "Collection cleanup before the final mission.",
+      "prerequisites": [
+        "ACHIEVEMENT_035"
+      ],
+      "summary": "Enhance all 15 base-game charms to their maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "All charms need about 150,000 Favor and 135,000 Red Souls in total. Charms from the deluxe edition are not required.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find all 15 charms and fully upgrade each one."
+          },
+          {
+            "id": "s2",
+            "text": "Trade items for Favor at Yorimasa's Monument, and keep Red Souls for the upgrades."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_037",
+      "displayName": "Burning Blade",
+      "description": "Defeat 50 foes while in the Blazing State.",
+      "hidden": false,
+      "globalPercent": 64.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Defeat 50 enemies while in Blazing State.",
+      "guide": {
+        "kind": "standard",
+        "context": "Learn Blazing State first. The Blazing State Drill in the Practice Grounds gives one enemy per run.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Parry attacks to fill the Blazing gauge until you enter Blazing State, then defeat enemies while it lasts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_038",
+      "displayName": "Stop Motion",
+      "description": "Perform 50 Reflex Combos.",
+      "hidden": false,
+      "globalPercent": 48.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Perform 50 Reflex Combos.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Reflex Combo counts even if it does not kill. The Reflex Combos Drill in the Practice Grounds lets you farm it.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Evade attacks to fill the Reflex Gauge. When it is full, Reflex Dodge an attack and choose the Reflex Combo."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_039",
+      "displayName": "Wielder of Oni Armaments",
+      "description": "Defeat 100 enemies with Oni Armaments.",
+      "hidden": false,
+      "globalPercent": 27.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Defeat 100 enemies with Oni Armaments.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Wind-Whipper hits many enemies per use. Armament drills in the Practice Grounds also work.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fill the Oni Armament gauge and unleash any Oni Armament on groups of enemies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_040",
+      "displayName": "Oni's Oni",
+      "description": "Defeat 50 enemies in the Oni Awakened state.",
+      "hidden": false,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Defeat 50 enemies while in Oni Awakened state.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Oni Awakening Drill in the Practice Grounds lets you farm it.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Activate Oni Awakening with L3 + R3 and defeat enemies, which are easy to counter with Issen in this state."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_041",
+      "displayName": "Brutalist",
+      "description": "Land 50 Issen attacks.",
+      "hidden": false,
+      "globalPercent": 53.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Land 50 Issen attacks.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Issen Drill in the Practice Grounds lets you practice.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Attack at the exact moment an enemy attack would hit you. You sidestep and strike."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_042",
+      "displayName": "Flow State",
+      "description": "Defeat 50 enemies with Chain Issen attacks.",
+      "hidden": false,
+      "globalPercent": 16.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Kill 50 enemies using Chain Issen.",
+      "guide": {
+        "kind": "standard",
+        "context": "A chain of 2 or more counts once. Pressing attack too early cancels the chain. The Chain Issen Drill in the Practice Grounds lets you farm it.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Land an Issen, then press attack again while the bright light is on screen to target the next enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_043",
+      "displayName": "Silent Violence",
+      "description": "Assassinate 20 enemies.",
+      "hidden": false,
+      "globalPercent": 44.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Assassinate 20 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "Running alerts enemies unless you learn Stealth While Running.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Walk up behind an unaware enemy and press the prompt for a stealth kill."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_044",
+      "displayName": "Pinch Hitter",
+      "description": "Deflect 50 projectiles.",
+      "hidden": false,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Deflect 50 projectiles back at enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the same timing as a parry.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Learn the Deflect skill, then hold forward and press Guard when an arrow or magic shot reaches you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_045",
+      "displayName": "Deadeye",
+      "description": "Score 100 headshots with your bow.",
+      "hidden": false,
+      "globalPercent": 49.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Score 100 headshots with your bow.",
+      "guide": {
+        "kind": "standard",
+        "context": "Deflecting an arrow back at an archer drains its stamina and leaves it alive for a headshot.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Aim slightly above an enemy's head and shoot. Archers and floating heads are easy targets."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_046",
+      "displayName": "Winning Is What Matters",
+      "description": "Carry out 50 attacks with environmental objects.",
+      "hidden": false,
+      "globalPercent": 70.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Hit enemies 50 times using objects from the environment.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each hit on an enemy counts. The enemy does not need to die.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Throw kegs, flip or kick floor planks, drive carts into enemies, or shoot explosive barrels with your bow."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_047",
+      "displayName": "Untouchable",
+      "description": "Perform 50 Grab Reversals.",
+      "hidden": false,
+      "globalPercent": 63.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Perform 50 Grab Reversals.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When lightning surrounds an enemy's limb, evade toward the enemy to reverse its grab."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_048",
+      "displayName": "Coming Through!",
+      "description": "Break an enemy's guard 50 times.",
+      "hidden": false,
+      "globalPercent": 63.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Break an enemy's guard 50 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Empty an enemy's stamina gauge before you kill the enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_049",
+      "displayName": "Helm Splitter",
+      "description": "Break 100 shields or pieces of enemy armor.",
+      "hidden": false,
+      "globalPercent": 66.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Destroy 100 enemy shields or armor pieces.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Oni Strength Drill in the Practice Grounds lets you farm it.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use Oni Strength on shielded or armored enemies, such as Genma with block shields, Kogashira, and Hitotsume Sho."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_050",
+      "displayName": "Get This Thing Off Me",
+      "description": "Absorb 30 or more souls at once.",
+      "hidden": false,
+      "globalPercent": 90.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "natural play",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Absorb at least 30 souls in a single absorb.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each orb counts, whatever its value, and orbs fade after a short time.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat about 6 enemies quickly so their orbs float together, then absorb them when the floating counter at the top reaches 30."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_051",
+      "displayName": "Berserker",
+      "description": "Defeat 3 enemies with continuous Break Issen attacks.",
+      "hidden": false,
+      "globalPercent": 79.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "natural play",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Kill 3 enemies in one back-to-back Break Issen sequence.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can earn this in the tutorial, when a group of enemies ambushes you outside.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Weaken 3 nearby enemies until each shows a red dot."
+          },
+          {
+            "id": "s2",
+            "text": "Issen the first, then press Light Attack to dash to the next, and again to the third."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_052",
+      "displayName": "Genma Griller",
+      "description": "Set three enemies ablaze at once.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "combat",
+      "sortReason": "Combat counter earned during normal play.",
+      "summary": "Set three enemies ablaze at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Learn Firebird Flute: Charged Shot, charge the flute, and fire at the middle of 3 or more bunched enemies."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACHIEVEMENT_001",
+    "ACHIEVEMENT_002",
+    "ACHIEVEMENT_003",
+    "ACHIEVEMENT_004",
+    "ACHIEVEMENT_005",
+    "ACHIEVEMENT_006",
+    "ACHIEVEMENT_007",
+    "ACHIEVEMENT_008",
+    "ACHIEVEMENT_009",
+    "ACHIEVEMENT_010",
+    "ACHIEVEMENT_011",
+    "ACHIEVEMENT_012",
+    "ACHIEVEMENT_013",
+    "ACHIEVEMENT_014",
+    "ACHIEVEMENT_015",
+    "ACHIEVEMENT_016",
+    "ACHIEVEMENT_017",
+    "ACHIEVEMENT_018",
+    "ACHIEVEMENT_019",
+    "ACHIEVEMENT_020",
+    "ACHIEVEMENT_021",
+    "ACHIEVEMENT_022",
+    "ACHIEVEMENT_023",
+    "ACHIEVEMENT_024",
+    "ACHIEVEMENT_025",
+    "ACHIEVEMENT_026",
+    "ACHIEVEMENT_027",
+    "ACHIEVEMENT_028",
+    "ACHIEVEMENT_029",
+    "ACHIEVEMENT_030",
+    "ACHIEVEMENT_031",
+    "ACHIEVEMENT_032",
+    "ACHIEVEMENT_033",
+    "ACHIEVEMENT_034",
+    "ACHIEVEMENT_035",
+    "ACHIEVEMENT_036",
+    "ACHIEVEMENT_037",
+    "ACHIEVEMENT_038",
+    "ACHIEVEMENT_039",
+    "ACHIEVEMENT_040",
+    "ACHIEVEMENT_041",
+    "ACHIEVEMENT_042",
+    "ACHIEVEMENT_043",
+    "ACHIEVEMENT_044",
+    "ACHIEVEMENT_045",
+    "ACHIEVEMENT_046",
+    "ACHIEVEMENT_047",
+    "ACHIEVEMENT_048",
+    "ACHIEVEMENT_049",
+    "ACHIEVEMENT_050",
+    "ACHIEVEMENT_051",
+    "ACHIEVEMENT_052"
+  ]
+}

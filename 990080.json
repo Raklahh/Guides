@@ -811,25 +811,499 @@
       "confidence": "verified",
       "summary": "Complete every collection in the progress menu.",
       "guide": {
-        "kind": "standard",
-        "context": "The menu has ten collections: Tools (10), Enemies (69), Appearances (89), Revelio Pages (150), Beasts (13), Traits (75), Wand Handles (42), Conjurations (140), Ingredients (16), and Brooms (13).",
-        "steps": [
+        "kind": "collectible",
+        "context": "The menu holds 603 items. Traits (75), Wand Handles (42), and Conjurations (140) come only from the 168 collection chests. Each chest always holds the same kind of item, but which item it gives is random. A bandit-camp chest can fail to give a Trait, so reload your last autosave if one does. Do not leave the side quest Follow the Butterflies half done before opening another butterfly chest, because that can lock you out of one Conjuration.",
+        "collectibles": [
           {
-            "id": "step-1",
-            "text": "Open the Collection section of the progress menu to see what is missing."
+            "id": "item-1",
+            "index": 1,
+            "name": "Focus Potion",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the recipe from J. Pippin's Potions in Hogsmeade for 1,200 gold.",
+            "group": "Tools"
           },
           {
-            "id": "step-2",
-            "text": "Finish every challenge tier and every map. Their rewards fill most collections."
+            "id": "item-2",
+            "index": 2,
+            "name": "Thunderbrew",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the recipe from J. Pippin's Potions in Hogsmeade for 1,200 gold.",
+            "group": "Tools"
           },
           {
-            "id": "step-3",
-            "text": "Fill the rest directly: potions, plants, beasts, enemies killed, battle arenas, and brooms."
+            "id": "item-3",
+            "index": 3,
+            "name": "Invisibility Potion",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the recipe from J. Pippin's Potions in Hogsmeade for 800 gold.",
+            "group": "Tools"
           },
           {
-            "id": "step-4",
-            "text": "Keep a list of the 15 butterfly chests and 12 vivarium chests. The map does not track them.",
-            "kind": "warning"
+            "id": "item-4",
+            "index": 4,
+            "name": "Maxima Potion",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the recipe from J. Pippin's Potions in Hogsmeade for 500 gold.",
+            "group": "Tools"
+          },
+          {
+            "id": "item-5",
+            "index": 5,
+            "name": "Chinese Chomping Cabbage",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the seed from Dogweed and Deathcap in Hogsmeade for 600 gold.",
+            "group": "Tools"
+          },
+          {
+            "id": "item-6",
+            "index": 6,
+            "name": "Mandrake",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the seed from Dogweed and Deathcap in Hogsmeade for 800 gold.",
+            "group": "Tools"
+          },
+          {
+            "id": "item-7",
+            "index": 7,
+            "name": "Venomous Tentacula",
+            "location": "Hogsmeade shop or story",
+            "method": "Buy the seed from Dogweed and Deathcap in Hogsmeade for 1,050 gold.",
+            "group": "Tools"
+          },
+          {
+            "id": "item-8",
+            "index": 8,
+            "name": "Edurus Potion",
+            "location": "Story or bonus item",
+            "method": "Unlocks by itself in the main quest Potions Class.",
+            "group": "Tools"
+          },
+          {
+            "id": "item-9",
+            "index": 9,
+            "name": "Wiggenweld Potion",
+            "location": "Story or bonus item",
+            "method": "Unlocks by itself in the main quest Potions Class.",
+            "group": "Tools"
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Felix Felicis",
+            "location": "Story or bonus item",
+            "method": "Cannot be earned in the game.",
+            "group": "Tools",
+            "note": "It came with a Deluxe Edition pre-order and is not needed for the achievement."
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Ashwinder Eggs",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 150 gold at J. Pippin's Potions in Hogsmeade, or pick up the orange eggs in the open world.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Dittany",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 100 gold at The Magic Neep in Hogsmeade.",
+            "group": "Ingredients",
+            "note": "The grow recipe unlocks in the main quest Herbology Class."
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Dugbog Tongue",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 100 gold at J. Pippin's Potions in Hogsmeade, or take it from dugbogs.",
+            "group": "Ingredients",
+            "note": "Dugbogs are common in South Sea Bog."
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Fluxweed",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 150 gold at The Magic Neep in Hogsmeade.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Horklump Juice",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 50 gold at J. Pippin's Potions in Hogsmeade, or gather it from blue mushrooms at cave mouths.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Knotgrass",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 150 gold at The Magic Neep in Hogsmeade.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Lacewing Flies",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 100 gold at J. Pippin's Potions in Hogsmeade, or gather them from glowing bushes with fireflies.",
+            "group": "Ingredients",
+            "note": "They also grow in the Vivarium."
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Leaping Toadstool Caps",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 150 gold at J. Pippin's Potions in Hogsmeade, or pick the red mushrooms beside roads.",
+            "group": "Ingredients",
+            "note": "They also grow in the Vivarium."
+          },
+          {
+            "id": "item-19",
+            "index": 19,
+            "name": "Leech Juice",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 150 gold at J. Pippin's Potions in Hogsmeade, or gather it from leeches near water.",
+            "group": "Ingredients",
+            "note": "It also grows in the Vivarium."
+          },
+          {
+            "id": "item-20",
+            "index": 20,
+            "name": "Mallowsweet",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 100 gold at The Magic Neep in Hogsmeade.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-21",
+            "index": 21,
+            "name": "Moonstone",
+            "location": "Open world or Room of Requirement",
+            "method": "Smash the blue ore in the open world, or vanish objects with Evanesco in the Room of Requirement.",
+            "group": "Ingredients",
+            "note": "It cannot be bought. It also grows in the Vivarium."
+          },
+          {
+            "id": "item-22",
+            "index": 22,
+            "name": "Shrivelfig",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 150 gold at The Magic Neep in Hogsmeade.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-23",
+            "index": 23,
+            "name": "Spider Fang",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 50 gold at J. Pippin's Potions in Hogsmeade, or take it from spiders.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-24",
+            "index": 24,
+            "name": "Stench of the Dead",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 100 gold at J. Pippin's Potions in Hogsmeade, or take it from the undead that only fire hurts.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-25",
+            "index": 25,
+            "name": "Troll Bogeys",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 100 gold at J. Pippin's Potions in Hogsmeade, or take it from trolls.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-26",
+            "index": 26,
+            "name": "Mongrel Fur",
+            "location": "Hogsmeade shop or open world",
+            "method": "Buy for 50 gold at J. Pippin's Potions in Hogsmeade, or take it from mongrels.",
+            "group": "Ingredients"
+          },
+          {
+            "id": "item-27",
+            "index": 27,
+            "name": "Ember Dash Broom",
+            "location": "Spintwitches Sporting Needs, Hogsmeade",
+            "method": "Buy it for 600 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-28",
+            "index": 28,
+            "name": "Hogwarts House Broom",
+            "location": "Spintwitches Sporting Needs, Hogsmeade",
+            "method": "Buy it for 600 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-29",
+            "index": 29,
+            "name": "Moon Trimmer Broom",
+            "location": "Spintwitches Sporting Needs, Hogsmeade",
+            "method": "Buy it for 600 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-30",
+            "index": 30,
+            "name": "Wind Wisp Broom",
+            "location": "Spintwitches Sporting Needs, Hogsmeade",
+            "method": "Buy it for 600 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-31",
+            "index": 31,
+            "name": "Yew Weaver Broom",
+            "location": "Spintwitches Sporting Needs, Hogsmeade",
+            "method": "Buy it for 600 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-32",
+            "index": 32,
+            "name": "Family Antique Broom",
+            "location": "Priya Treadwell, south-west of the Feldcroft arena (she also has shops north of Feldcroft and in South Sea Bog)",
+            "method": "Buy it for 2,500 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-33",
+            "index": 33,
+            "name": "Aeromancer Broom",
+            "location": "Rohan Prakash, on Poidsear Coast just south-west of Marunweem Bridge",
+            "method": "Buy it for 3,000 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-34",
+            "index": 34,
+            "name": "Silver Arrow Broom",
+            "location": "Arn, Hogwarts Valley",
+            "method": "Buy it for 5,000 gold.",
+            "group": "Brooms",
+            "note": "Arn only appears after you finish the side quest Carted Away."
+          },
+          {
+            "id": "item-35",
+            "index": 35,
+            "name": "Sky Scythe Broom",
+            "location": "Leopold Babcocke, Hogsmeade Valley",
+            "method": "Buy it for 5,000 gold.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-36",
+            "index": 36,
+            "name": "Night Dancer Broom",
+            "location": "Balloon challenge",
+            "method": "Pop 2 balloon sets, then claim the reward in the Challenges menu.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-37",
+            "index": 37,
+            "name": "Lickety Swift Broom",
+            "location": "Balloon challenge",
+            "method": "Pop 7 balloon sets in total, then claim the reward.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-38",
+            "index": 38,
+            "name": "Wild Fire Broom",
+            "location": "Balloon challenge",
+            "method": "Pop 17 balloon sets in total, then claim the reward.",
+            "group": "Brooms"
+          },
+          {
+            "id": "item-39",
+            "index": 39,
+            "name": "Bright Spark Broom",
+            "location": "Balloon challenge",
+            "method": "Pop 32 balloon sets in total, then claim the reward.",
+            "group": "Brooms",
+            "note": "A set is 5 balloons floating close together in the open world."
+          },
+          {
+            "id": "item-40",
+            "index": 40,
+            "name": "North Ford Bog",
+            "location": "Open world region",
+            "method": "Open all 7 collection chests here.",
+            "group": "Collection chests",
+            "note": "The zoomed-out map shows a counter for each region."
+          },
+          {
+            "id": "item-41",
+            "index": 41,
+            "name": "Forbidden Forest",
+            "location": "Open world region",
+            "method": "Open all 6 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-42",
+            "index": 42,
+            "name": "Hogsmeade Valley",
+            "location": "Open world region",
+            "method": "Open all 8 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-43",
+            "index": 43,
+            "name": "Hogsmeade",
+            "location": "Open world region",
+            "method": "Open all 5 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-44",
+            "index": 44,
+            "name": "North Hogwarts Region",
+            "location": "Open world region",
+            "method": "Open all 7 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-45",
+            "index": 45,
+            "name": "Hogwarts Castle",
+            "location": "Hogwarts Castle sections",
+            "method": "Open all 35 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-46",
+            "index": 46,
+            "name": "South Hogwarts Region",
+            "location": "Open world region",
+            "method": "Open all 9 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-47",
+            "index": 47,
+            "name": "Hogwarts Valley",
+            "location": "Open world region",
+            "method": "Open all 15 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-48",
+            "index": 48,
+            "name": "Feldcroft Region",
+            "location": "Open world region",
+            "method": "Open all 22 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-49",
+            "index": 49,
+            "name": "South Sea Bog",
+            "location": "Open world region",
+            "method": "Open the collection chest here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-50",
+            "index": 50,
+            "name": "Coastal Cavern",
+            "location": "Open world region",
+            "method": "Open the collection chest here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-51",
+            "index": 51,
+            "name": "Poidsear Coast",
+            "location": "Open world region",
+            "method": "Open all 8 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-52",
+            "index": 52,
+            "name": "Marunweem Lake",
+            "location": "Open world region",
+            "method": "Open all 15 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-53",
+            "index": 53,
+            "name": "Manor Cape",
+            "location": "Open world region",
+            "method": "Open all 7 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-54",
+            "index": 54,
+            "name": "Cragcroftshire",
+            "location": "Open world region",
+            "method": "Open all 5 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-55",
+            "index": 55,
+            "name": "Clagmar Coast",
+            "location": "Open world region",
+            "method": "Open all 5 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-56",
+            "index": 56,
+            "name": "Vivarium",
+            "location": "Room of Requirement",
+            "method": "Open all 12 collection chests here.",
+            "group": "Collection chests"
+          },
+          {
+            "id": "item-57",
+            "index": 57,
+            "name": "Enemies (69)",
+            "location": "Whole game",
+            "method": "Defeat or meet every enemy type, including unique and story enemies. Beat the Infamous Foes to fill their entries.",
+            "group": "Other collections",
+            "note": "Some enemies only appear during side quests."
+          },
+          {
+            "id": "item-58",
+            "index": 58,
+            "name": "Appearances (89)",
+            "location": "Challenges menu",
+            "method": "Finish challenge tiers and claim each reward, especially the Field Guide Page tiers.",
+            "group": "Other collections"
+          },
+          {
+            "id": "item-59",
+            "index": 59,
+            "name": "Revelio Pages (150)",
+            "location": "Open world and castle",
+            "method": "Find every Field Guide page that needs Revelio. Fewer pages are needed for the challenge tiers, but this collection needs all of them.",
+            "group": "Other collections"
+          },
+          {
+            "id": "item-60",
+            "index": 60,
+            "name": "Beasts (13)",
+            "location": "Room of Requirement",
+            "method": "Rescue one of each of the 13 beast types, including the Phoenix from the side quest Phoenix Rising.",
+            "group": "Other collections"
           }
         ]
       }
@@ -1072,7 +1546,7 @@
         "steps": [
           {
             "id": "step-1",
-            "text": "Unlock each recipe, then brew one of each at a potion station: Focus, Thunderbrew, Invisibility, Maxima, Endurus, and Wiggenweld."
+            "text": "Unlock each recipe, then brew one of each at a potion station: Focus, Thunderbrew, Invisibility, Maxima, Edurus, and Wiggenweld."
           },
           {
             "id": "step-2",
@@ -2251,7 +2725,7 @@
             "index": 1,
             "name": "Collector's Cave",
             "location": "West of @loc{Hogsmeade}",
-            "method": "Enter it during the main quest The Helm of Urtkot."
+            "method": "Enter it while playing the main quest named The Helm of Urtkot."
           },
           {
             "id": "item-2",

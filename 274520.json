@@ -1,0 +1,693 @@
+{
+  "game": {
+    "appid": 274520,
+    "slug": "darkwood",
+    "title": "Darkwood",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-08",
+    "estTotalHours": 32,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-23"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Prologue and early Chapter 1",
+      "description": "Finish the Prologue, kill the pig, and take the grave dream when the oven offers it; keep a save before choosing each negative perk.",
+      "achievementRefs": [
+        "finished_prologue",
+        "mutatedPig_killed",
+        "graveDream_enteredGrave",
+        "graveDream_chomperKilled"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Key choice and end of Chapter 1",
+      "description": "Save before handing over the key covered in chicken feces. Give it to Wolf, reload, then give it to the Musician and follow his path through the doctor's trap and into Chapter 2.",
+      "achievementRefs": [
+        "wolf_givenKey",
+        "musician_givenKey",
+        "doctor_dream_won",
+        "enter_ch2"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Chapter 2: the swamp",
+      "description": "Fight Wolf at the sawmill, eat the Mushroom Granny, and trap the quarry villagers.",
+      "achievementRefs": [
+        "wolf_survivedAmbush",
+        "mushroomGranny_eaten",
+        "villagers_trapInQuarry"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "The Talking Tree",
+      "description": "Save before the tree choice: burn the tree, reload, then spare it and survive the radio tower dream.",
+      "achievementRefs": [
+        "tree_burned",
+        "tree_spared"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Epilogue",
+      "description": "Save at the start of the Epilogue. Do the extra apartment steps for the burning ending, then reload and go to bed for the other ending.",
+      "achievementRefs": [
+        "epilogue_burn",
+        "epilogue_sleep"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "wolf_givenKey",
+      "displayName": "Wolf's path",
+      "description": "Pick a side with the key.",
+      "hidden": true,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "dependencies": [],
+      "summary": "Give the key covered in chicken feces to @npc{Wolf}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This choice excludes the Musician's path.",
+        "steps": [
+          {
+            "id": "save",
+            "text": "Make a manual save before you hand over the key."
+          },
+          {
+            "id": "give",
+            "text": "Find @npc{Wolf} and give him the key to the chicken lady's locked room, the one covered in chicken feces. The achievement unlocks right away."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "musician_givenKey",
+      "displayName": "Musician's path",
+      "description": "Pick the other side with the key.",
+      "hidden": true,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "dependencies": [],
+      "summary": "Give the key covered in chicken feces to the @npc{Musician}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This choice excludes Wolf's path. The Willpower and Entertainer achievements only exist on this path.",
+        "steps": [
+          {
+            "id": "give",
+            "text": "Give the key to the chicken lady's locked room, the one covered in chicken feces, to the @npc{Musician} at the silo in the @loc{Silent Woods}. The achievement unlocks right away."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mutatedPig_killed",
+      "displayName": "Kill the pig...",
+      "description": "Deal with the pig in the sheds.",
+      "hidden": true,
+      "globalPercent": 12.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Kill the mutated sow in the pig sheds in the @loc{Silent Woods}.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is a story choice with lasting consequences, and killing the sow also matters for the quarry achievement later.",
+        "steps": [
+          {
+            "id": "buy-cable",
+            "text": "Kill the dog in @npc{Piotrek}'s garage so you can talk to him, then buy the cable for 80 reputation."
+          },
+          {
+            "id": "fix-cable",
+            "text": "At the pig sheds, use the cable to repair the broken power line near the top of the pig shed grounds. Follow the wires into the open shed and turn the generator on."
+          },
+          {
+            "id": "lever",
+            "text": "At the lever, choose @mechanic{Remove lock}, then @mechanic{Set lever to the bottom}, then @mechanic{Push button}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "graveDream_chomperKilled",
+      "displayName": "No sleep for the wicked",
+      "description": "Win a fight in a dream.",
+      "hidden": true,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "dependencies": [
+        "finished_prologue"
+      ],
+      "summary": "Kill the Black Chomper during the grave dream.",
+      "guide": {
+        "kind": "standard",
+        "context": "The dream is random: it plays after you choose a negative perk when you pass a level bracket, and one of four possible dreams has this fight. The Black Chomper dies on your sixth quick hit and kills you on its fourth. You can hit across the grave but it cannot.",
+        "steps": [
+          {
+            "id": "circle",
+            "text": "Circle the grave and keep moving. Hit it when it lines up across the grave."
+          },
+          {
+            "id": "reset",
+            "text": "After you take three hits, pause, quit to the main menu, and reload the save to restart the dream."
+          },
+          {
+            "id": "finish",
+            "text": "Land the sixth quick hit to kill it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "graveDream_enteredGrave",
+      "displayName": "Sleep in the grave",
+      "description": "Rest in a dream.",
+      "hidden": true,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "dependencies": [
+        "finished_prologue"
+      ],
+      "summary": "Lie down in the grave during the grave dream.",
+      "guide": {
+        "kind": "standard",
+        "context": "The dream is random. It plays after you choose a negative perk at the oven when you pass a level bracket, and one of four possible dreams is this one. Save before each perk choice.",
+        "steps": [
+          {
+            "id": "reach-grave",
+            "text": "In the grave dream, follow the path to the talking corpse and the freshly dug grave."
+          },
+          {
+            "id": "lie-down",
+            "text": "Choose to lie in the grave. The dream ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mushroomGranny_eaten",
+      "displayName": "Insatiable hunger",
+      "description": "Satisfy your hunger.",
+      "hidden": true,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "dependencies": [
+        "enter_ch2"
+      ],
+      "summary": "Eat the Mushroom Granny found in the Chapter 2 mushroom glade.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "glade",
+            "text": "After the woman in the swamp cottage mentions her son gathering mushrooms, go to the marked mushroom glade."
+          },
+          {
+            "id": "granny",
+            "text": "Follow the @mechanic{Footprint} points to the granny's house. Keep picking mushrooms from her until the eat option appears, then choose it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "epilogue_sleep",
+      "displayName": "Bliss",
+      "description": "A peaceful ending.",
+      "hidden": true,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "dependencies": [
+        "enter_ch2"
+      ],
+      "summary": "Go to sleep in your bedroom in the Epilogue.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ends the game, so choose it on its own save, separate from the burning ending.",
+        "steps": [
+          {
+            "id": "apartment",
+            "text": "Skip the basement and go upstairs. Hang your coat in the wardrobe."
+          },
+          {
+            "id": "bed",
+            "text": "Find the bedroom key in the dresser of the northernmost room and unlock the bedroom. Examine the bed and pick the sleep option."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "epilogue_burn",
+      "displayName": "Burn them all",
+      "description": "An ending with fire.",
+      "hidden": true,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "lockoutStage": 5,
+      "dependencies": [
+        "enter_ch2"
+      ],
+      "summary": "Burn the Being in the Epilogue.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need roots visible under the living-room furniture. If none appear after you move it, restart the Epilogue. Do not choose to sleep at any point.",
+        "steps": [
+          {
+            "id": "radio",
+            "text": "In the basement, tune the radio until the Being says @mechanic{Sleep}, then leave."
+          },
+          {
+            "id": "roots",
+            "text": "Go upstairs and north along the hallway until roots show on the floor, then enter your apartment. Hang up your coat, then move all the furniture and fold the rug. Examine every root."
+          },
+          {
+            "id": "floor",
+            "text": "The kitchen cupboard now holds a screwdriver; grab it. Take the bedroom key from the living-room wardrobe. Pull up the floorboards in the living room, the hallway, and the bedroom."
+          },
+          {
+            "id": "bed",
+            "text": "Inspect the bed and look under it, but never pick the sleep option. Push the bed aside, lift the final boards, and climb into the hole."
+          },
+          {
+            "id": "burn",
+            "text": "At the Being, withdraw your hand as soon as you are asked. Wrest the flamethrower from the man on your left, set everything alight, and walk back to the log you crossed to enter this area."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "villagers_trapInQuarry",
+      "displayName": "Trapped villagers",
+      "description": "Seal in the villagers.",
+      "hidden": true,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "dependencies": [
+        "enter_ch2",
+        "mutatedPig_killed"
+      ],
+      "summary": "Drop the boulder at the swamp quarry entrance with the villagers still inside.",
+      "guide": {
+        "kind": "standard",
+        "context": "This only works in Chapter 2 and is easy to miss. The villagers only appear in the quarry if the sow has been killed.",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Look along the borders of the swamp map for the quarry. Walk inside until the hero remarks that this is the single route in and out."
+          },
+          {
+            "id": "drop",
+            "text": "Destroy the logs holding the boulder with an axe, one or two swings each."
+          },
+          {
+            "id": "leave",
+            "text": "Hurry back to the entrance before the boulder falls so you are not trapped yourself."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wolf_survivedAmbush",
+      "displayName": "Entertainer",
+      "description": "Survive Wolf's trap.",
+      "hidden": true,
+      "globalPercent": 2.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "dependencies": [
+        "musician_givenKey"
+      ],
+      "summary": "Defeat @npc{Wolf} at the sawmill in Chapter 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "You get only one attempt, so save first. This needs the Musician's path, and Wolf must still be alive from Chapter 1. Do not kill the pretty woman in the chicken lady's house.",
+        "steps": [
+          {
+            "id": "wait",
+            "text": "In the swamp, wait until day five, then step out of your hideout and return. Wolf has lifted items from your workbench and left a note ordering you to the sawmill."
+          },
+          {
+            "id": "prepare",
+            "text": "Bring a shotgun if you can. At the sawmill entrance the speaker tells you to give your things to the corpse assistant. To keep your gear, leave your weapons in the little side room just inside, past the assistant, give it a spare item, and search the backpack on the floor of the main room. Pick your gear back up when Wolf speaks again; if the timing is off the enemies do not spawn, so reload and retry."
+          },
+          {
+            "id": "dogs",
+            "text": "Two large dogs attack first; kill them."
+          },
+          {
+            "id": "wolf",
+            "text": "Hide behind a column while @npc{Wolf} empties his assault rifle. When he rushes you, shoot him once, then hit him again to finish him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tree_burned",
+      "displayName": "Only ashes remain",
+      "description": "Destroy the Talking Tree.",
+      "hidden": true,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "unverified",
+      "lockoutStage": 4,
+      "dependencies": [
+        "enter_ch2"
+      ],
+      "summary": "Burn the Talking Tree in Chapter 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "This choice excludes Merciful in the same save, so save before committing.",
+        "steps": [
+          {
+            "id": "tank",
+            "text": "Complete the request involving the boy from the mushroom granny to get an oxygen tank."
+          },
+          {
+            "id": "compressor",
+            "text": "Collect the compressor parts from the junkyard (bring a shovel) and refill the tank. The swamp village has two basements; one is blocked, so use the other."
+          },
+          {
+            "id": "burn",
+            "text": "With the tank refilled, burn the Talking Tree."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tree_spared",
+      "displayName": "Merciful",
+      "description": "Show mercy.",
+      "hidden": true,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "dependencies": [
+        "enter_ch2"
+      ],
+      "summary": "Complete Chapter 2 while leaving the Talking Tree unburned.",
+      "guide": {
+        "kind": "standard",
+        "context": "You get one attempt: the metal door closes for good, so keep a save before you enter.",
+        "steps": [
+          {
+            "id": "tunnel",
+            "text": "Find the radio tower in the swamp and the tunnel below it. Slip past the Banshees, then kill or dodge the Savage so the locked door opens. Drop through the hatch and strike the lever covered in mould to begin the dream."
+          },
+          {
+            "id": "maze",
+            "text": "Take the torch from the bag and follow routes marked with shiny stones. If no stone shows within 2 to 3 seconds, turn back. Cross the water to the door."
+          },
+          {
+            "id": "chase",
+            "text": "Loot the body, craft bandages and a lockpick, open the hatch for the shovel, and break the door. Shove the wardrobe aside, start the generator, and take the @item{Table Leg} and pills from the box. Apply the bandages. The Chompers crash in through the upper-left door: tempt a lunge, dodge it, run through, vault the window, and keep running down into a room. Equip the @item{Table Leg}, then sprint through the door and straight down. Hit the jammed door to open it, go through, and turn right to the backpack, where the Chompers vanish."
+          },
+          {
+            "id": "dark-maze",
+            "text": "Leave the torch unlit. Head to the top right and trail the shiny stones for 20 to 30 seconds, until a praying woman comes into view."
+          },
+          {
+            "id": "mouth",
+            "text": "Touch the shining stone, step back toward the woman, and dash through the moment the text shows, before the mouth snaps closed."
+          },
+          {
+            "id": "exit",
+            "text": "Take the shovel, clear the debris, and open the door. The achievement unlocks when you return to normal ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "enter_ch2",
+      "displayName": "Chapter 2",
+      "description": "Reach the next chapter.",
+      "hidden": true,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Reach Chapter 2 by using the doctor's key on the big metal door underground.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "underground",
+            "text": "Use the doctor's key on the big metal door in the underground passage to finish Chapter 1 and reach the swamp."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "finished_prologue",
+      "displayName": "Finished prologue",
+      "description": "Get through the opening Prologue.",
+      "hidden": true,
+      "globalPercent": 73.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "dependencies": [],
+      "summary": "Finish the Prologue by defeating the doctor in the locked room.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "escape-room",
+            "text": "Grab the key from the wardrobe, exit the house, and head east. Pick up the @item{Axe}, cut through the fallen tree, and craft a @item{Torch} once the game warns that the woods are dark. Continue east until you find a wounded man lying down, and take the key he carries."
+          },
+          {
+            "id": "power-up",
+            "text": "When the cutscene ends, make bandages and a lockpick from the rags and wire. Lockpick the container to get a shovel and flashlight, and smash the east door. Then slide the wardrobe away from the west door, search the crate to find a @item{Gasoline Can} plus a @item{Table Leg}, then pour fuel into the generator and switch it on."
+          },
+          {
+            "id": "doctor",
+            "text": "Listen to the radio corpse, then type @mechanic{4892} into the lock beside the cages. Knock the jammed door open with the @item{Table Leg}, then beat the doctor down with it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "doctor_dream_won",
+      "displayName": "Willpower",
+      "description": "Resist the doctor's trap.",
+      "hidden": true,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "dependencies": [
+        "musician_givenKey"
+      ],
+      "summary": "Escape the dream the doctor traps you in on the Musician's path.",
+      "guide": {
+        "kind": "standard",
+        "context": "This only happens on the Musician's path. You take damage while running, but not enough to kill you if you keep moving.",
+        "steps": [
+          {
+            "id": "violin",
+            "text": "Fetch the violin from the Musician's family home in the @loc{Old Woods}; first put the letter meant for his mother into her inventory, or both parents become Chompers. Then show him the violin at the church ruins."
+          },
+          {
+            "id": "train",
+            "text": "Find @loc{Train Wreck} on an edge of the @loc{Old Woods}. Walk in far enough for the door to close and the gas to knock you out."
+          },
+          {
+            "id": "wake",
+            "text": "In the dream, interact with @mechanic{Me} on the floor to become yourself again. Run back: hop the fence, go through two wooden doors, squeeze past the furniture and through the narrow gap. Waking up unlocks the achievement."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "finished_prologue",
+    "mutatedPig_killed",
+    "graveDream_enteredGrave",
+    "graveDream_chomperKilled",
+    "wolf_givenKey",
+    "musician_givenKey",
+    "doctor_dream_won",
+    "enter_ch2",
+    "villagers_trapInQuarry",
+    "wolf_survivedAmbush",
+    "mushroomGranny_eaten",
+    "tree_burned",
+    "tree_spared",
+    "epilogue_burn",
+    "epilogue_sleep"
+  ]
+}

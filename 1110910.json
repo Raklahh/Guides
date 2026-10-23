@@ -1,0 +1,2297 @@
+{
+  "game": {
+    "appid": 1110910,
+    "slug": "mortal-shell",
+    "title": "Mortal Shell",
+    "version": "1.0",
+    "lastPatchChecked": "2026-08-17",
+    "estTotalHours": 60,
+    "difficultyRating": 7,
+    "minPlaythroughs": 3,
+    "dlc": [
+      {
+        "appid": 1672210,
+        "title": "The Virtuous Cycle"
+      }
+    ],
+    "createdAt": "2026-10-23"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Start a new save",
+      "description": "Begin a fresh save, beat the tutorial boss Hadern, then pick up the four shells in the first Fallgrim area.",
+      "achievementRefs": [
+        "FaceOff",
+        "FleshAndInstinct",
+        "YouSeemDifferent"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish the Fallgrim side tasks",
+      "description": "Clear the small jobs around Fallgrim and the first regions while you learn the combat.",
+      "achievementRefs": [
+        "Purrfect",
+        "StepGoal",
+        "TheGoodTimesareKillingMe",
+        "BrigandLife",
+        "ItsAMe",
+        "IsThisASparta",
+        "Untarnished",
+        "FunGuy",
+        "NailedIt"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Story playthrough with collecting",
+      "description": "Beat the three area bosses and the final boss. Take every lore piece and item in Seat of Infinity before Crucix.",
+      "achievementRefs": [
+        "DifferentKindsOfGrisha",
+        "FadedTheFire",
+        "MatryrdTheMartyr",
+        "TragicLoss",
+        "BringTheGlandsBacktoMe",
+        "FelledTheGlandfather",
+        "CrossedTheThreshold",
+        "SeekerOfFalseTruths",
+        "BarsTended"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Clean up in New Game+",
+      "description": "Spend 50,000 tar at the merchant and pick up anything missed.",
+      "achievementRefs": [
+        "SugarBaby"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Hadern and the Axatana",
+      "description": "Beat Hadern for his shell and the Axatana, upgrade his skill tree, buy the Clockwork Lute, and switch the Axatana forms.",
+      "achievementRefs": [
+        "TheAnswer",
+        "LuteHero",
+        "SomeAssemblyRequired"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Virtuous Cycle runs",
+      "description": "Play the add-on mode to return seven seeds and collect its shades, seeds and instincts.",
+      "achievementRefs": [
+        "GatewayDrug",
+        "Seedbearer",
+        "TrueNektar",
+        "FashionShells",
+        "OPAF",
+        "ChangeOfHeart",
+        "MasterOfNone",
+        "NoLifer",
+        "ThereCanOnlyBeOne"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Shell-less Obsidian run",
+      "description": "On a separate save, renounce humankind and beat the game with no shell.",
+      "achievementRefs": [
+        "TheNihilist",
+        "ForeverAlone",
+        "LifeIsSuffering"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ForeverAlone",
+      "displayName": "Forever Alone",
+      "description": "Beat the game without ever bonding with a shell",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Complete the game while never bonding with any shell.",
+      "guide": {
+        "kind": "standard",
+        "context": "Without a shell you die in one hit, but you have far more stamina. Use the Hallowed Sword throughout.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start the run and never interact with any of the 4 shells. You die in one hit."
+          },
+          {
+            "id": "s2",
+            "text": "Sprint and roll everywhere. You have far more stamina than a shell user, so run past enemies and some bosses."
+          },
+          {
+            "id": "s3",
+            "text": "Beat only the 5 fights that block the story: @enemy{Imrod}, @enemy{Crucix}, @enemy{Enslaved Grisha}, @enemy{Tarsus} and the final boss."
+          },
+          {
+            "id": "s4",
+            "text": "Do this run together with Life is Suffering. Use the shrine from The Nihilist first to get Obsidian Dark Form.",
+            "kind": "tip"
+          },
+          {
+            "id": "s5",
+            "text": "Do not fall to skip ground in @loc{Crypt of Martyrs}. The fall kills you. Take the real path down.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FaceOff",
+      "displayName": "Face Off",
+      "description": "Defeat Hadern in the tutorial",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Defeat Hadern in the tutorial fight at the start of a new game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hadern copies your own moves: a light swing up close, a thrust from far, and a harden to bait you. This fight is only offered at the start of a new save, not in New Game+.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Walk @npc{Hadern} in circles and wait for him to start an attack. Do not swing first, because he can harden and punish you."
+          },
+          {
+            "id": "s2",
+            "text": "When he begins an attack, harden. Then back up and let the attack finish."
+          },
+          {
+            "id": "s3",
+            "text": "Right after his attack ends, run in and hit him. Harden again at once, because he swings back."
+          },
+          {
+            "id": "s4",
+            "text": "Back off and repeat until he falls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SeekerOfFalseTruths",
+      "displayName": "Seeker of False Truths",
+      "description": "Unlock all secret lore",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2.5 hours",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Fill in every entry in the lore Compendium by finding all inscriptions and etchings.",
+      "guide": {
+        "kind": "collectible",
+        "context": "There are 19 inscriptions and 17 etchings. Etchings are hidden in walls: hit the wall with your weapon to reveal one, and each gives a Glimpse of Wisdom. Lore you have already seen stays in New Game+.",
+        "collectibles": [
+          {
+            "id": "lore-01",
+            "index": 1,
+            "name": "Inscription: The hungriest of the unborn",
+            "group": "Fallgrim",
+            "location": "White statue in a split of the left forest path",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-02",
+            "index": 2,
+            "name": "Inscription: Those within the obsidian walls",
+            "group": "Fallgrim",
+            "location": "Left side of the path up in the stone pillar area on the right",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-03",
+            "index": 3,
+            "name": "Inscription: She rests within a tomb",
+            "group": "Fallgrim",
+            "location": "Graveyard, left of the large tree",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-04",
+            "index": 4,
+            "name": "Etching: What is the difference",
+            "group": "Fallgrim",
+            "location": "Wall right of the crawl hole to the Tiel shell",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-05",
+            "index": 5,
+            "name": "Etching: The only message",
+            "group": "Fallgrim",
+            "location": "Main area, rock wall behind a log toward the Grisha cave",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-06",
+            "index": 6,
+            "name": "Etching: And what of my kin",
+            "group": "Fallgrim",
+            "location": "Solomon shell cave, rock behind the torch on the ground",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-07",
+            "index": 7,
+            "name": "Etching: Gritza is the BESTIST",
+            "group": "Fallgrim",
+            "location": "Wall right of the brigand camp on the way to Baghead",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-08",
+            "index": 8,
+            "name": "Etching: If you are a fine",
+            "group": "Fallgrim",
+            "location": "Central path of three left of the tower, right side midway",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-09",
+            "index": 9,
+            "name": "Etching: These creatures, twisted",
+            "group": "Fallgrim",
+            "location": "Right wall just after the first drop-off at the start",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-10",
+            "index": 10,
+            "name": "Etching: They seek to fill",
+            "group": "Fallgrim",
+            "location": "Stone pillar right of the stairs on the route to Seat of Infinity",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-11",
+            "index": 11,
+            "name": "Etching: We have followed",
+            "group": "Fallgrim",
+            "location": "Inner side of the pillar beside Vlas's bell",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-12",
+            "index": 12,
+            "name": "Inscription: The old prisoner sits",
+            "group": "Fallgrim Tower",
+            "location": "Right door from Sester Genessa, then left and straight on",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-13",
+            "index": 13,
+            "name": "Etching: You'll have to raise",
+            "group": "Fallgrim Tower",
+            "location": "Left hallway from Sester Genessa, left side midway",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-14",
+            "index": 14,
+            "name": "Etching: My lute is life",
+            "group": "Fallgrim Tower",
+            "location": "Brigand camp dead end, wall right of the tent",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-15",
+            "index": 15,
+            "name": "Inscription: The First Martyr gave",
+            "group": "Crypt of Martyrs",
+            "location": "Abandonded Chamber, through the crawl hole on the right of the exit room",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-16",
+            "index": 16,
+            "name": "Inscription: The first vision",
+            "group": "Crypt of Martyrs",
+            "location": "Enshrined Sanctum, down the left stairs to a dead end with a chest",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-17",
+            "index": 17,
+            "name": "Inscription: Kneel before the Immaculate",
+            "group": "Crypt of Martyrs",
+            "location": "Martyr's Altar, crawl hole at the back left",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-18",
+            "index": 18,
+            "name": "Etching: Their madness",
+            "group": "Crypt of Martyrs",
+            "location": "Abandonded Chamber, alcove in the Enslaved Grisha room, wall under the torch",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-19",
+            "index": 19,
+            "name": "Etching: They grow opaque",
+            "group": "Crypt of Martyrs",
+            "location": "Martyr's Altar, opposite side from Sester Genessa",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-20",
+            "index": 20,
+            "name": "Inscription: The reward for loyalty",
+            "group": "Seat of Infinity",
+            "location": "Eternal Narthyx, far suspended platform near the large trees",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-21",
+            "index": 21,
+            "name": "Inscription: We no longer remember",
+            "group": "Seat of Infinity",
+            "location": "Dim Gate, far left dead end alcove before a statue",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-22",
+            "index": 22,
+            "name": "Inscription: With each sacrament",
+            "group": "Seat of Infinity",
+            "location": "Middle of the path just before Shifting Archives",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-23",
+            "index": 23,
+            "name": "Inscription: A spider climbs",
+            "group": "Seat of Infinity",
+            "location": "Shifting Archives, in the corner stacks left of the entry",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-24",
+            "index": 24,
+            "name": "Inscription: The stone breathes",
+            "group": "Seat of Infinity",
+            "location": "Shifting Archives, left of tall stacks in the final left section",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-25",
+            "index": 25,
+            "name": "Inscription: a;laknm",
+            "group": "Seat of Infinity",
+            "location": "Shifting Archives, on a slab behind short stacks",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-26",
+            "index": 26,
+            "name": "Inscription: MCV MCV MCV",
+            "group": "Seat of Infinity",
+            "location": "Shifting Archives, last slab on the left toward the large face",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-27",
+            "index": 27,
+            "name": "Inscription: Tvrhvre",
+            "group": "Seat of Infinity",
+            "location": "Shifting Archives, group of slabs across the area from Sester Genessa",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-28",
+            "index": 28,
+            "name": "Inscription: Birds nesting",
+            "group": "Seat of Infinity",
+            "location": "Shifting Archives, in the stacks off the left hallway",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-29",
+            "index": 29,
+            "name": "Etching: A mirror of obsidian",
+            "group": "Seat of Infinity",
+            "location": "Eternal Narthyx, third pillar structure on the right of the first big room",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": true,
+            "note": "Take this before you defeat Crucix."
+          },
+          {
+            "id": "lore-30",
+            "index": 30,
+            "name": "Etching: I tasted the promise",
+            "group": "Seat of Infinity",
+            "location": "Dim Gate, middle of the statue's pedestal",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": true,
+            "note": "Take this before you defeat Crucix."
+          },
+          {
+            "id": "lore-31",
+            "index": 31,
+            "name": "Etching: They call themselves brethers",
+            "group": "Seat of Infinity",
+            "location": "Dim Gate tower top, wall left of the platform teleporter before the hole",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": true,
+            "note": "Take this before you defeat Crucix."
+          },
+          {
+            "id": "lore-32",
+            "index": 32,
+            "name": "Inscription: Stricken with all the ills",
+            "group": "Shrine of Ash",
+            "location": "Temple Grounds, left by the two red pots",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-33",
+            "index": 33,
+            "name": "Inscription: Why must great",
+            "group": "Shrine of Ash",
+            "location": "Monument of Ash, left by the pillars near the red banners",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-34",
+            "index": 34,
+            "name": "Inscription: You are damned at birth",
+            "group": "Shrine of Ash",
+            "location": "Sanctum of Ash, lower area on the right",
+            "method": "Walk up to it and read it.",
+            "missable": false
+          },
+          {
+            "id": "lore-35",
+            "index": 35,
+            "name": "Etching: Their messiah planted",
+            "group": "Shrine of Ash",
+            "location": "Temple Grounds crypt room, wall left of the door",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          },
+          {
+            "id": "lore-36",
+            "index": 36,
+            "name": "Etching: They sully their lips",
+            "group": "Shrine of Ash",
+            "location": "Sanctum of Ash lower area, wall above the hinge",
+            "method": "Hit the wall with your weapon to reveal it.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FunGuy",
+      "displayName": "Fun Guy",
+      "description": "Pick 50 mushrooms",
+      "hidden": false,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pick 50 mushrooms in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick every Weltcap and Tarspore you pass in @loc{Fallgrim}. They grow again after a short wait, so you can pick the same spots again until the count reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "StepGoal",
+      "displayName": "Step Goal",
+      "description": "Kill an enemy with bear trap",
+      "hidden": false,
+      "globalPercent": 26.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill an enemy using damage from a bear trap.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the first open forest, go to the tents where several enemies sit. Kill all but one."
+          },
+          {
+            "id": "s2",
+            "text": "Lead the last enemy back and forth over a bear trap until the trap's damage kills it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LifeIsSuffering",
+      "displayName": "Life is Suffering",
+      "description": "Beat the game as an unshelled husk.",
+      "hidden": true,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "TheNihilist"
+      ],
+      "summary": "Finish the game in Obsidian Dark Form.",
+      "guide": {
+        "kind": "standard",
+        "context": "Obsidian Dark Form plays like having no shell, with one extra ability that lets you harden in the air for a plunge. It can be earned in the same run as Forever Alone.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use the shrine from The Nihilist to enter Obsidian Dark Form."
+          },
+          {
+            "id": "s2",
+            "text": "Play the whole game in that form and reach the ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BrigandLife",
+      "displayName": "Brigand Life",
+      "description": "Waste your life away with Baghead",
+      "hidden": false,
+      "globalPercent": 10.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Agree to hang out with Baghead forever, which plays the credits.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Fallgrim}, go right from the entrance into the swamp, past the tunnel where Gorf the frog sits, and take the first path on the left to its end. @npc{Baghead} sits there."
+          },
+          {
+            "id": "s2",
+            "text": "Talk to him and give him a Roasted Rat and a Superior Moonshine when he asks."
+          },
+          {
+            "id": "s3",
+            "text": "Talk to him again and agree to hang out forever. The credits play and the achievement unlocks."
+          },
+          {
+            "id": "s4",
+            "text": "Your save is not affected. When you reload, the game goes back to before you agreed.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BarsTended",
+      "displayName": "Bars Tended",
+      "description": "Become familiar with all items",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4 hours",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Reach maximum familiarity with every item that has a familiarity level.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Use each item the number of times shown to raise its familiarity to maximum. Weapons, equipment, key items and the Glimpse items that already show full familiarity are not needed. The Baguette exists only once per save, so a second copy needs New Game+.",
+        "collectibles": [
+          {
+            "id": "item-01",
+            "index": 1,
+            "name": "Baguette",
+            "group": "Food and drink",
+            "location": "Chest by the Impervious Lute camp, right of the tree behind breakable wood",
+            "method": "Use it 2 times.",
+            "missable": true,
+            "note": "Only one per save. Get a second copy in New Game+."
+          },
+          {
+            "id": "item-02",
+            "index": 2,
+            "name": "Roasted Rat",
+            "group": "Food and drink",
+            "location": "Dropped by enemies",
+            "method": "Use it 8 times.",
+            "missable": false
+          },
+          {
+            "id": "item-03",
+            "index": 3,
+            "name": "Boiled Frog",
+            "group": "Food and drink",
+            "location": "Brigand camp pots; enemy drops",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-04",
+            "index": 4,
+            "name": "Mango",
+            "group": "Food and drink",
+            "location": "Seat of Infinity, Dim Gate: chest on a small platform below the left upper path",
+            "method": "Use it 1 time.",
+            "missable": true,
+            "note": "Drop onto the platform as Eredrim or harden on the drop. Leave by dying or using a mask. Gone after Crucix."
+          },
+          {
+            "id": "item-05",
+            "index": 5,
+            "name": "Rotten Food",
+            "group": "Food and drink",
+            "location": "Dropped by enemies",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-06",
+            "index": 6,
+            "name": "Weltcap",
+            "group": "Food and drink",
+            "location": "On the ground around Fallgrim",
+            "method": "Use it 10 times.",
+            "missable": false
+          },
+          {
+            "id": "item-07",
+            "index": 7,
+            "name": "Tarspore",
+            "group": "Food and drink",
+            "location": "On the ground around Fallgrim",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-08",
+            "index": 8,
+            "name": "Inferior Moonshine",
+            "group": "Food and drink",
+            "location": "Brigand camps or dropped by enemies",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-09",
+            "index": 9,
+            "name": "Superior Moonshine",
+            "group": "Food and drink",
+            "location": "Brigand camp chests; enemy drops",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-10",
+            "index": 10,
+            "name": "Bronze Bell",
+            "group": "Food and drink",
+            "location": "In the world or bought from Vlas",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-11",
+            "index": 11,
+            "name": "Golden Bell",
+            "group": "Food and drink",
+            "location": "Locked chest outside the upper level of the Fallgrim shrine",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-12",
+            "index": 12,
+            "name": "Scripture of Euphoria",
+            "group": "Scriptures and tokens",
+            "location": "Dropped by enemies or bought from Vlas",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-13",
+            "index": 13,
+            "name": "Scripture of Repent",
+            "group": "Scriptures and tokens",
+            "location": "In the world or dropped by enemies",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-14",
+            "index": 14,
+            "name": "Scripture of Despair",
+            "group": "Scriptures and tokens",
+            "location": "In the world or dropped by enemies",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-15",
+            "index": 15,
+            "name": "Scripture of Ardor",
+            "group": "Scriptures and tokens",
+            "location": "In the world; one is on the stairs back up from the Crypt of Martyrs boss",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-16",
+            "index": 16,
+            "name": "Scripture of Defiance",
+            "group": "Scriptures and tokens",
+            "location": "In the world or dropped by enemies",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-17",
+            "index": 17,
+            "name": "Mortal Token",
+            "group": "Scriptures and tokens",
+            "location": "In the world, enemy drops, or Sester Genessa's shop once one shell is maxed",
+            "method": "Use it 10 times.",
+            "missable": false
+          },
+          {
+            "id": "item-18",
+            "index": 18,
+            "name": "Spectral Token",
+            "group": "Scriptures and tokens",
+            "location": "In the world, enemy drops, or Sester Genessa's shop once one shell is maxed",
+            "method": "Use it 10 times.",
+            "missable": false
+          },
+          {
+            "id": "item-19",
+            "index": 19,
+            "name": "Ornate Token",
+            "group": "Scriptures and tokens",
+            "location": "In the world, enemy drops, or Sester Genessa's shop once one shell is maxed",
+            "method": "Use it 10 times.",
+            "missable": false
+          },
+          {
+            "id": "item-20",
+            "index": 20,
+            "name": "Tainted Nektar",
+            "group": "Other consumables",
+            "location": "In the world; enemy drop while the fog is on",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-21",
+            "index": 21,
+            "name": "Untarnished Mask",
+            "group": "Other consumables",
+            "location": "In the world or bought from Sester Genessa",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-22",
+            "index": 22,
+            "name": "Etherial Diapason",
+            "group": "Other consumables",
+            "location": "In the world or bought from Sester Genessa",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-23",
+            "index": 23,
+            "name": "Effigy of Harros",
+            "group": "Other consumables",
+            "location": "Given by Sester Genessa when you wake that shell; also sold by the Corrupted Sester",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-24",
+            "index": 24,
+            "name": "Effigy of Solomon",
+            "group": "Other consumables",
+            "location": "Given by Sester Genessa when you wake that shell; also sold by the Corrupted Sester",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-25",
+            "index": 25,
+            "name": "Effigy of Tiel",
+            "group": "Other consumables",
+            "location": "Given by Sester Genessa when you wake that shell; also sold by the Corrupted Sester",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-26",
+            "index": 26,
+            "name": "Effigy of Eredrim",
+            "group": "Other consumables",
+            "location": "Given by Sester Genessa when you wake that shell; also sold by the Corrupted Sester",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-27",
+            "index": 27,
+            "name": "Simple Lute",
+            "group": "Lutes, masks and gear",
+            "location": "Camp chest behind tents after the Harros shell, or buy from Vlas",
+            "method": "Use it 10 times.",
+            "missable": false,
+            "note": "You can use it 10 times right away."
+          },
+          {
+            "id": "item-28",
+            "index": 28,
+            "name": "Impervious Lute",
+            "group": "Lutes, masks and gear",
+            "location": "Dropped by the lute-playing brigand in the large circular camp",
+            "method": "Use it 10 times.",
+            "missable": false
+          },
+          {
+            "id": "item-29",
+            "index": 29,
+            "name": "Tarnished Mask",
+            "group": "Lutes, masks and gear",
+            "location": "Given by Sester Genessa after you die the first time after meeting her",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-30",
+            "index": 30,
+            "name": "Ornate Mask",
+            "group": "Lutes, masks and gear",
+            "location": "Bought from Sester Genessa after fully unlocking a shell",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-31",
+            "index": 31,
+            "name": "Tattered Vestment",
+            "group": "Lutes, masks and gear",
+            "location": "On the floor by the ghostly weapons, before the stairs to the Old Prisoner",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-32",
+            "index": 32,
+            "name": "Disciple's Rag",
+            "group": "Lutes, masks and gear",
+            "location": "Chest left of the stairs entering Fallgrim after the Shrine of Ash boss",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-33",
+            "index": 33,
+            "name": "Martyr's Shawl",
+            "group": "Lutes, masks and gear",
+            "location": "Locked chest opposite the door into the Crypt of Martyrs",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-34",
+            "index": 34,
+            "name": "Sester's Binding",
+            "group": "Lutes, masks and gear",
+            "location": "Locked chest at the foot of the cliff toward Seat of Infinity",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-35",
+            "index": 35,
+            "name": "Remnant of Tar",
+            "group": "Tar",
+            "location": "Found in the world or dropped by enemies",
+            "method": "Use it 6 times.",
+            "missable": false
+          },
+          {
+            "id": "item-36",
+            "index": 36,
+            "name": "Congealed Tar",
+            "group": "Tar",
+            "location": "Found in the world or dropped by enemies",
+            "method": "Use it 5 times.",
+            "missable": false
+          },
+          {
+            "id": "item-37",
+            "index": 37,
+            "name": "Bag of Tar",
+            "group": "Tar",
+            "location": "Found in the world or dropped by enemies",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-38",
+            "index": 38,
+            "name": "Slurry of Tar",
+            "group": "Tar",
+            "location": "Found in the world or dropped by enemies",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-39",
+            "index": 39,
+            "name": "Unguent Tar",
+            "group": "Tar",
+            "location": "Found in the world or dropped by enemies",
+            "method": "Use it 3 times.",
+            "missable": false
+          },
+          {
+            "id": "item-40",
+            "index": 40,
+            "name": "Extracted Tar",
+            "group": "Tar",
+            "location": "Found in the world or dropped by enemies",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-41",
+            "index": 41,
+            "name": "Nascent Tar",
+            "group": "Tar",
+            "location": "Awarded after the main story bosses",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-42",
+            "index": 42,
+            "name": "Glimpse of Futility",
+            "group": "Glimpses",
+            "location": "Picked up as you play; check the Compendium",
+            "method": "Use it 10 times.",
+            "missable": false
+          },
+          {
+            "id": "item-43",
+            "index": 43,
+            "name": "Glimpse of Wisdom",
+            "group": "Glimpses",
+            "location": "Picked up as you play; check the Compendium",
+            "method": "Use it 8 times.",
+            "missable": false
+          },
+          {
+            "id": "item-44",
+            "index": 44,
+            "name": "Glimpse of Affection",
+            "group": "Glimpses",
+            "location": "Picked up as you play; check the Compendium",
+            "method": "Use it 4 times.",
+            "missable": false
+          },
+          {
+            "id": "item-45",
+            "index": 45,
+            "name": "Glimpse of Hope",
+            "group": "Glimpses",
+            "location": "Picked up as you play; check the Compendium",
+            "method": "Use it 2 times.",
+            "missable": false
+          },
+          {
+            "id": "item-46",
+            "index": 46,
+            "name": "Glimpse of Courage",
+            "group": "Glimpses",
+            "location": "Picked up as you play; check the Compendium",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-47",
+            "index": 47,
+            "name": "Glimpse of Truth",
+            "group": "Glimpses",
+            "location": "Picked up as you play; check the Compendium",
+            "method": "Use it 1 time.",
+            "missable": false
+          },
+          {
+            "id": "item-48",
+            "index": 48,
+            "name": "Glimpse of Disdain",
+            "group": "Glimpses",
+            "location": "Seat of Infinity, second section upper level: gold bowl on the pillar across from the big round area",
+            "method": "Use it 1 time.",
+            "missable": true,
+            "note": "Gone after Crucix."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FleshAndInstinct",
+      "displayName": "Flesh And Instinct",
+      "description": "Find your first Shell",
+      "hidden": false,
+      "globalPercent": 84.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Find your first Shell.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Leave the tutorial area, pass through the tunnel, then take the left branch to its dead end. The Harros shell lies there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsThisASparta",
+      "displayName": "Is This a Sparta?",
+      "description": "Kill an enemy by kicking them off a platform",
+      "hidden": false,
+      "globalPercent": 8.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill an enemy by kicking it off a platform.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the Recollection of Strength ability on a shell."
+          },
+          {
+            "id": "s2",
+            "text": "Kick a normal-size enemy off a ledge so it falls to its death. The kick costs 1 resolve charge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BringTheGlandsBacktoMe",
+      "displayName": "Bring the Glands Back to Me",
+      "description": "Deliver a gland to the Old Prisoner.",
+      "hidden": true,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Give a gland to the Old Prisoner in Fallgrim Tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{Imrod}, @enemy{Tarsus} or @enemy{Crucix}. Each drops a gland."
+          },
+          {
+            "id": "s2",
+            "text": "Take the gland to the @npc{Old Prisoner} in @loc{Fallgrim Tower} and hand it over."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TheGoodTimesareKillingMe",
+      "displayName": "The Good Time are Killing Me",
+      "description": "Join a brigand in a lute session.",
+      "hidden": true,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Play a lute next to a brigand who is playing his own lute.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get a lute. You can find one in a chest, take it from an enemy, or buy a Simple Lute from @npc{Vlas} for 600 tar."
+          },
+          {
+            "id": "s2",
+            "text": "Walk slowly up to a brigand in @loc{Fallgrim} who sits on the ground playing a lute."
+          },
+          {
+            "id": "s3",
+            "text": "Use your lute from the inventory so you sit and play at the same time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SugarBaby",
+      "displayName": "Sugar Baby",
+      "description": "Spend over 50, 000 Tar in Vlad's Shop",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Spend more than 50,000 tar in total at Vlas's shop.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spend it all on one save. Wait until you have fully upgraded one shell, so you can also buy from Sester Genessa. In the shell-less run tar has no other use.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Earn tar from enemies and tar items. Selling to Vlas is not possible, so you cannot get tar back."
+          },
+          {
+            "id": "s2",
+            "text": "Buy things from @npc{Vlas} until your total spending passes 50,000 tar."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Untarnished",
+      "displayName": "Untarnished",
+      "description": "Parry over 100 attacks",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Parry more than 100 enemy attacks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Speak to the @npc{Old Prisoner} at @loc{Fallgrim Tower} and take the Tarnished Seal. With it you can parry."
+          },
+          {
+            "id": "s2",
+            "text": "Parry enemy attacks until you reach 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "YouSeemDifferent",
+      "displayName": "You Seem Different...",
+      "description": "Unlock all of the shells in the game",
+      "hidden": false,
+      "globalPercent": 24.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Find all 4 Shells in one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "All four shells are in the first Fallgrim area and can be taken right after the tutorial.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find Harros, the Vassal: go left at the first split after the tutorial."
+          },
+          {
+            "id": "s2",
+            "text": "Find Solomon, the Scholar: from @loc{Fallgrim Tower}, take the right door and go into the cave. Beat @enemy{Grisha}, descend the slope behind it, crawl through the hole, beat the next enemy, and take the shell by the torch."
+          },
+          {
+            "id": "s3",
+            "text": "Find Tiel, the Acolyte: from the tower, go left and crawl out of the hole, cross the graveyard, and break the wood over a hole at the cooking pot. Beat @enemy{Ven Noctivagu} and take the shell on the left."
+          },
+          {
+            "id": "s4",
+            "text": "Find Eredrim, the Venerable: from the Solomon room, head right and squeeze through the hole. Keep to the left wall to the stone area leading to a tower, then take the stone path down. The shell leans on a block on the left before the stairs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DifferentKindsOfGrisha",
+      "displayName": "Different Kinds of Grisha",
+      "description": "Beat every kind of Grisha.",
+      "hidden": true,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat the three kinds of Grisha: the normal one, the weak ones, and the Enslaved one.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Normal Grisha: beat the miniboss in the Fallgrim cave on the way to the Solomon shell."
+          },
+          {
+            "id": "s2",
+            "text": "Weak Grisha: turn in one gland, ask @npc{Thetus} in @loc{Fallgrim Tower} to switch the fog on, and defeat the two weak Grisha that appear."
+          },
+          {
+            "id": "s3",
+            "text": "Enslaved Grisha: defeat the one that blocks the way out of the Abandonded Chamber in @loc{Crypt of Martyrs}."
+          },
+          {
+            "id": "s4",
+            "text": "Do not harden against a stab. When the Tarnished Seal flashes for an unparryable attack, dodge instead.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CrossedTheThreshold",
+      "displayName": "Crossed the Threshold",
+      "description": "Complete the story.",
+      "hidden": true,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish the game by choosing to ascend after the final boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the final boss, then choose to ascend."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FadedTheFire",
+      "displayName": "Faded the Fire",
+      "description": "Defeat the boss of Shrine of Ash.",
+      "hidden": true,
+      "globalPercent": 19.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat the boss Imrod, the Unrepentant.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the end of @loc{Shrine of Ash} and fight @enemy{Imrod}."
+          },
+          {
+            "id": "s2",
+            "text": "Back away to bait his charge and double club swing. After the second swing he is open, so hit him with a jump attack."
+          },
+          {
+            "id": "s3",
+            "text": "Dodge away from his slams and fire breath."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MatryrdTheMartyr",
+      "displayName": "Martyr'd the Matyr",
+      "description": "Defeat the boss of Crypt of Martyrs.",
+      "hidden": true,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat the boss Tarsus, the First Martyr.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the end of @loc{Crypt of Martyrs} and fight @enemy{Tarsus}."
+          },
+          {
+            "id": "s2",
+            "text": "Stay near the middle of the arena. The outer edge hurts you."
+          },
+          {
+            "id": "s3",
+            "text": "Dodge his three hidden slides at the start instead of hardening."
+          },
+          {
+            "id": "s4",
+            "text": "In phase two, back away from ice spikes when he plants his sword."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TragicLoss",
+      "displayName": "Tragic Loss",
+      "description": "Defeat the boss of Seat of Infinity.",
+      "hidden": true,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat the boss Crucix, the Twiceborn.",
+      "guide": {
+        "kind": "standard",
+        "context": "Beating Crucix changes Seat of Infinity. Finish collecting its lore and items first.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the end of @loc{Seat of Infinity} and choose the chalice to start the fight."
+          },
+          {
+            "id": "s2",
+            "text": "Harden before you land. The chalice drops you through the floor into the arena.",
+            "kind": "warning"
+          },
+          {
+            "id": "s3",
+            "text": "Stay back from his three-swing combos. Wait for a delayed hammer slam before you jump in with a hit."
+          },
+          {
+            "id": "s4",
+            "text": "In phase one his twin shoots at range."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FelledTheGlandfather",
+      "displayName": "Felled the Glandfather",
+      "description": "Defeat the final boss.",
+      "hidden": true,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat The Unchained, the final boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Stay close and fight fast. Dodge toward The Unchained when it slides in to swing."
+          },
+          {
+            "id": "s2",
+            "text": "At about half health it calls shell-less copies. They die in one hit, so dodge through the waves."
+          },
+          {
+            "id": "s3",
+            "text": "At about one third health it dives and makes a whirlpool that heals it. Kill some copies or wait it out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NailedIt",
+      "displayName": "Nailed It",
+      "description": "Hit several enemies with one shot.",
+      "hidden": true,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Hit and kill at least two enemies with one Ballistazooka bolt.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy Tools from @npc{Vlas} for 8,000 tar. Use them at the weapon upgrade bench in @loc{Fallgrim Tower} to get the Ballistazooka."
+          },
+          {
+            "id": "s2",
+            "text": "Buy Large Bolts from Vlas for 800 tar each."
+          },
+          {
+            "id": "s3",
+            "text": "Lead two human enemies so one stands behind the other, then fire one shot through both."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ItsAMe",
+      "displayName": "It's a me",
+      "description": "Crush an enemy with a plunge.",
+      "hidden": true,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Kill an enemy by landing on it with a hardened plunge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Make sure your shell has the plunge ability. Obsidian Dark Form has it already."
+          },
+          {
+            "id": "s2",
+            "text": "Jump off a ledge above an enemy, such as the log over a group of humans in @loc{Fallgrim}, and harden while falling. Land on the enemy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TheNihilist",
+      "displayName": "The Nihilist",
+      "description": "Renounce your humanity.",
+      "hidden": true,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 7,
+      "confidence": "verified",
+      "summary": "Renounce humankind at the shrine in Fallgrim.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Fallgrim}, go through the swamp past Gorf the frog, and crawl through the hole in the far wall to the shrine."
+          },
+          {
+            "id": "s2",
+            "text": "Interact with the shrine to renounce humankind."
+          },
+          {
+            "id": "s3",
+            "text": "This removes all your shells and their upgrades. Do it on a save you do not need, or after everything else.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Purrfect",
+      "displayName": "Purrfect",
+      "description": "Pet the merchant's cat.",
+      "hidden": true,
+      "globalPercent": 36.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pet the cat that sits next to the merchant Vlas.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb the stairs outside @loc{Fallgrim Tower} to @npc{Vlas} and pet the cat next to him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GatewayDrug",
+      "displayName": "Gateway Drug",
+      "description": "Spend 100,000 tar in The Virtuous Cycle",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "5 hours",
+      "estMinutes": 300,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Spend 100,000 tar in The Virtuous Cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play cycles and spend your tar after each area at the Runic Gate. You can also spend it on lutes, pillars and temple entrances."
+          },
+          {
+            "id": "s2",
+            "text": "Spend glimpses at the Runic Gate too. Retain Tar is a good first pick."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Seedbearer",
+      "displayName": "Seedbearer",
+      "description": "Hand over your first seed.",
+      "hidden": true,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1.5 hours",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Give your first seed to Twin Sister in The Virtuous Cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a cycle. In each area, find a yellow key at a pylon to open the area boss."
+          },
+          {
+            "id": "s2",
+            "text": "Defeat the area boss to get a teleport to the next area. After the last area, fight the final boss."
+          },
+          {
+            "id": "s3",
+            "text": "Complete the cycle to earn a seed, then give it to @npc{Twin Sister}."
+          },
+          {
+            "id": "s4",
+            "text": "Do not spend 5,000 tar to enter a temple. Take a yellow key instead.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TrueNektar",
+      "displayName": "True Nektar",
+      "description": "Break the cycle.",
+      "hidden": true,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "7 hours",
+      "estMinutes": 420,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Give all seven seeds to Twin Sister to break the Virtuous Cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "A fast shade, such as Eredrim's with an attack boost, can finish a cycle in about 30 minutes.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete 7 cycles with any shell and give each seed to @npc{Twin Sister}."
+          },
+          {
+            "id": "s2",
+            "text": "Save a seed to use for Change of Heart. The last handover removes her.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FashionShells",
+      "displayName": "Fashion Shells",
+      "description": "Unlock all Shell Shades for The Virtuous Cycle",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "10 hours",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Unlock all three Shell Shades for each of the six characters in The Virtuous Cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "The minibosses are @enemy{Vim}, @enemy{Grisha}, @enemy{Enslaved Grisha}, @enemy{Ven Noctivagu} and @enemy{Evil Baghead}. Seeds that start near them: 888238 or 767553 for Vim, 195573 for Grisha, and 664561 for Ven and Enslaved Grisha.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Harros: kill 60 Brigands, kill @enemy{Vim} 5 times, and complete a cycle."
+          },
+          {
+            "id": "s2",
+            "text": "Solomon: kill 40 Nocteserpers, kill @enemy{Ven Noctivagu} 5 times, and complete a cycle."
+          },
+          {
+            "id": "s3",
+            "text": "Eredrim: kill 20 Faceless Clerics, kill @enemy{Grisha} 5 times, and complete a cycle."
+          },
+          {
+            "id": "s4",
+            "text": "Tiel: kill 40 Slavers of Scorn, kill @enemy{Enslaved Grisha} 3 times, and complete a cycle."
+          },
+          {
+            "id": "s5",
+            "text": "Hadern: kill 100 enemies, kill 10 minibosses, and complete a cycle."
+          },
+          {
+            "id": "s6",
+            "text": "Foundling: reach the first temple, reach the second temple, and complete a cycle."
+          },
+          {
+            "id": "s7",
+            "text": "Do each kill while wearing that shell. To get Hadern, collect an instinct with each base shell and weapon.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LuteHero",
+      "displayName": "Lute Hero",
+      "description": "Max familiarity with all of the game's lutes",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Reach maximum familiarity with every lute in the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do this in the normal world, not inside the cycle. The cycle's lute prices are much higher.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Simple Lute: take it from the camp tents after getting the Harros shell, or buy it from @npc{Vlas} for 600 tar."
+          },
+          {
+            "id": "s2",
+            "text": "Impervious Lute: kill the brigand who plays it at the large circular camp and take it."
+          },
+          {
+            "id": "s3",
+            "text": "Clockwork Lute: defeat @npc{Hadern} in the base game, then buy it from him in @loc{Fallgrim Tower} for 5,000 tar."
+          },
+          {
+            "id": "s4",
+            "text": "Play each lute until its familiarity is full."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OPAF",
+      "displayName": "OP AF",
+      "description": "Acquire 100 instincts in one cycle",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1.5 hours",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "unverified",
+      "dlcAppid": 1672210,
+      "summary": "Collect 100 instincts in a single cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect instincts throughout one cycle until you reach 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ChangeOfHeart",
+      "displayName": "Change of Heart",
+      "description": "Return a seed with Hadern in The Virtuous Cycle",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Give a seed to Twin Sister while wearing Hadern's shell.",
+      "guide": {
+        "kind": "standard",
+        "context": "A cycle won as Hadern is not enough. After each cycle you go back to your default armor, so change into Hadern before the handover. Keep a seed unspent, because she leaves after the seventh.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @npc{Hadern} and take his shell from the crypt in the @loc{Fallgrim Tower} hub."
+          },
+          {
+            "id": "s2",
+            "text": "Wear his shell before you speak to @npc{Twin Sister}."
+          },
+          {
+            "id": "s3",
+            "text": "Give her a seed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MasterOfNone",
+      "displayName": "Master of None",
+      "description": "Acquire all 4 weapon Instincts for the Axatana in one cycle",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1.5 hours",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "unverified",
+      "dlcAppid": 1672210,
+      "summary": "Collect all four weapon instincts for the Axatana in a single cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use the Axatana in a cycle and collect each of its four weapon instincts before the cycle ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NoLifer",
+      "displayName": "No Lifer",
+      "description": "Complete a run in The Virtuous Cycle with the Dark Form Obsidian Shell Shade",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Complete a cycle using the Obsidian Dark Form Shell Shade.",
+      "guide": {
+        "kind": "standard",
+        "context": "Expect a speed run of about 30 to 40 minutes. Quit to the menu to save, so a failed run can be reloaded.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick the Obsidian Dark Form shade and start a cycle."
+          },
+          {
+            "id": "s2",
+            "text": "Move fast. You have endless sprint, each instinct gives 100 HP, but life drains all the time and your HP falls to 1 at each teleport."
+          },
+          {
+            "id": "s3",
+            "text": "Use Moonshine, mortal tokens and Weltcaps to survive. A Weltcap respawns each time you leave and re-enter the reverie."
+          },
+          {
+            "id": "s4",
+            "text": "Do not kill a final shade with the axe special. It can stop the next shade from appearing.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ThereCanOnlyBeOne",
+      "displayName": "There Can Only Be One",
+      "description": "Beat all variations of the Dark Shells in The Virtuous Cycle",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "6 hours",
+      "estMinutes": 360,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Defeat every variation of the Dark Shell final fight in The Virtuous Cycle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each seed gives a different final fight. Finish all four, because the achievement may not unlock before then.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish cycles on seed 185744. Harros comes first, then Eredrim and Solomon, then Tiel."
+          },
+          {
+            "id": "s2",
+            "text": "Finish seed 832720. Harros, then Eredrim and Tiel, then Solomon."
+          },
+          {
+            "id": "s3",
+            "text": "Finish seed 767553. Solomon, then Eredrim and Tiel, then Harros."
+          },
+          {
+            "id": "s4",
+            "text": "Finish seed 720864. Solomon, then Harros and Tiel, then Eredrim."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TheAnswer",
+      "displayName": "The Answer",
+      "description": "Fully Upgrade Hadern's skill tree",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Buy every ability in Hadern's skill tree, including one inner ability for each.",
+      "guide": {
+        "kind": "standard",
+        "context": "You get Hadern's shell by beating him. He challenges you beside the mounted weapons after you hold every weapon and shell. The cost in glimpses is large: Sester sells limited Glimpse of Affection and Nascent Tar to cover shortages. The achievement only unlocks once every main ability has an inner ability.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wear Hadern's shell and speak to @npc{Sester Genessa}. Pay 500 tar to learn his name."
+          },
+          {
+            "id": "s2",
+            "text": "Buy all 10 abilities: Accretion of Resolve, Endurance, Ascent, Inheritance, Yearning, Foresight and Dominance, and Recollection of Knowledge, Strength and Death."
+          },
+          {
+            "id": "s3",
+            "text": "Under each ability, also buy one inner ability. Inner abilities cost 250 to 400 tar and 1 to 2 glimpses each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SomeAssemblyRequired",
+      "displayName": "Some Assembly Required",
+      "description": "Transform the Axatana between different modes",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 1672210,
+      "summary": "Switch the Axatana between its katana and axe forms.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In The Virtuous Cycle, get an instinct with each base weapon so the Axatana is unlocked."
+          },
+          {
+            "id": "s2",
+            "text": "Equip the Axatana and press the two bumper buttons together."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "FaceOff",
+    "FleshAndInstinct",
+    "YouSeemDifferent",
+    "BrigandLife",
+    "FunGuy",
+    "IsThisASparta",
+    "ItsAMe",
+    "NailedIt",
+    "Purrfect",
+    "StepGoal",
+    "TheGoodTimesareKillingMe",
+    "Untarnished",
+    "BarsTended",
+    "BringTheGlandsBacktoMe",
+    "CrossedTheThreshold",
+    "DifferentKindsOfGrisha",
+    "FadedTheFire",
+    "FelledTheGlandfather",
+    "MatryrdTheMartyr",
+    "SeekerOfFalseTruths",
+    "TragicLoss",
+    "SugarBaby",
+    "LuteHero",
+    "SomeAssemblyRequired",
+    "TheAnswer",
+    "ChangeOfHeart",
+    "FashionShells",
+    "GatewayDrug",
+    "MasterOfNone",
+    "NoLifer",
+    "OPAF",
+    "Seedbearer",
+    "ThereCanOnlyBeOne",
+    "TrueNektar",
+    "ForeverAlone",
+    "TheNihilist",
+    "LifeIsSuffering"
+  ]
+}

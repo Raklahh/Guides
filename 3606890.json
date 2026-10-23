@@ -1,0 +1,1645 @@
+{
+  "game": {
+    "appid": 3606890,
+    "slug": "upload-labs",
+    "title": "Upload Labs",
+    "version": "3.0.12",
+    "lastPatchChecked": "2026-10-20",
+    "estTotalHours": 60,
+    "difficultyRating": 8,
+    "minPlaythroughs": 3,
+    "createdAt": "2026-10-23"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Basic file handling",
+      "description": "Upload, scan, repair and organise files; collect tokens and boosts.",
+      "achievementRefs": [
+        "first_upload",
+        "variety_downloader",
+        "infected",
+        "quarantined",
+        "redownloaded",
+        "stylist",
+        "system_planner",
+        "token_clicker",
+        "fully_boosted"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Side systems",
+      "description": "Unlock Hacking, Coding, crypto selling, overclocking and the Imprinter.",
+      "achievementRefs": [
+        "hacking",
+        "trojan",
+        "coding",
+        "its_a_feature",
+        "market_crash",
+        "overheat",
+        "copy_paste"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Heavy upgrades",
+      "description": "Breach targets, max out components and fill the node limit.",
+      "achievementRefs": [
+        "serial_breacher",
+        "grand_heist",
+        "out_of_memory",
+        "network_bottleneck",
+        "cpu_bottleneck",
+        "gpu_bottleneck",
+        "high_voltage"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Portal and research",
+      "description": "Enter the Portal and finish research, build and importer goals.",
+      "achievementRefs": [
+        "reborn",
+        "fully_optimized",
+        "aspirant_dev",
+        "agi",
+        "eureka",
+        "commit_star",
+        "ai_bubble"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Requests and modifiers",
+      "description": "Fill every request and earn the new 3.0 file modifier achievements.",
+      "achievementRefs": [
+        "text_completionist",
+        "image_completionist",
+        "sound_completionist",
+        "video_completionist",
+        "program_completionist",
+        "game_completionist",
+        "completionist",
+        "slop_research",
+        "fully_compressed",
+        "perfection",
+        "hidden_gem"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Endgame",
+      "description": "Complete Advanced Research and reach 50 entropy.",
+      "achievementRefs": [
+        "breakthrough",
+        "entropy_undoing"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "first_upload",
+      "displayName": "Commencement",
+      "description": "Upload your first file",
+      "hidden": false,
+      "globalPercent": 82.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Upload your first file with an @mechanic{Uploader}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "connect-a-downloader-to-an-uploader-thro-1",
+            "text": "Connect a Downloader to an Uploader through your Network and let a file reach the Uploader."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "variety_downloader",
+      "displayName": "Variety Downloader",
+      "description": "Download all file types simultaneously",
+      "hidden": false,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have all six file @mechanic{Downloader} nodes (Text, Image, Sound, Video, Program, Game) on the desktop at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Download Manager node does not count. The files do not need to be downloaded.",
+        "steps": [
+          {
+            "id": "unlock-every-file-type-downloader-in-res-1",
+            "text": "Unlock every file-type Downloader in research."
+          },
+          {
+            "id": "put-one-downloader-of-each-type-on-the-d-2",
+            "text": "Put one Downloader of each type on the desktop: Game, Program, Video, Sound, Image and Text."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "infected",
+      "displayName": "What Could Go Wrong?",
+      "description": "Upload an infected file",
+      "hidden": false,
+      "globalPercent": 63.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Upload a file that carries the @mechanic{Infected} tag.",
+      "guide": {
+        "kind": "standard",
+        "context": "Infected uploads cut your income for a short time, so remove the link afterward.",
+        "steps": [
+          {
+            "id": "send-files-through-a-item-virus-scanner-1",
+            "text": "Send files through a @item{Virus Scanner}. Each file has a 50% chance to come out Infected."
+          },
+          {
+            "id": "send-an-infected-file-to-an-uploader-2",
+            "text": "Send an Infected file to an Uploader."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "quarantined",
+      "displayName": "Containment Protocol",
+      "description": "Remove viruses from an infected file",
+      "hidden": false,
+      "globalPercent": 52.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Remove the @mechanic{Infected} tag from a file with a @item{Quarantine} node.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock-the-quarantine-node-in-research-a-1",
+            "text": "Unlock the Quarantine node in research and place it after a Virus Scanner."
+          },
+          {
+            "id": "send-an-infected-file-through-the-quaran-2",
+            "text": "Send an Infected file through the Quarantine node. It comes out tagged Scanned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "redownloaded",
+      "displayName": "Data Healer",
+      "description": "Fix a corrupted file",
+      "hidden": false,
+      "globalPercent": 33.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Fix a @mechanic{Corrupted} file with a @item{Re-Downloader}.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Checksum Verifier tags only some files Corrupted (20% in the current version), so send several.",
+        "steps": [
+          {
+            "id": "research-checksum-validation-and-re-down-1",
+            "text": "Research Checksum Validation and Re-Download."
+          },
+          {
+            "id": "send-files-through-a-item-checksum-verif-2",
+            "text": "Send files through a @item{Checksum Verifier} until one comes out Corrupted."
+          },
+          {
+            "id": "send-the-corrupted-file-through-the-re-d-3",
+            "text": "Send the Corrupted file through the Re-Downloader."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "reborn",
+      "displayName": "Universal Traveler",
+      "description": "Enter the Portal",
+      "hidden": false,
+      "globalPercent": 21.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Enter the @mechanic{Portal}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Entering the Portal resets your desktop, upgrades and research progress, and applies a universe modifier. Do it only when you are ready.",
+        "steps": [
+          {
+            "id": "finish-the-portal-research-1",
+            "text": "Finish the Portal research."
+          },
+          {
+            "id": "click-the-portal-icon-in-the-top-bar-the-2",
+            "text": "Click the Portal icon in the top bar, then choose Enter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hacking",
+      "displayName": "Hack Ascension",
+      "description": "Unlock Hacking",
+      "hidden": false,
+      "globalPercent": 37.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Unlock the @mechanic{Hacking} research.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "spend-research-points-on-the-hacking-res-1",
+            "text": "Spend research points on the Hacking research."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "serial_breacher",
+      "displayName": "Serial Breacher",
+      "description": "Breach Anonymous, Corporations and the Government in under 1 second",
+      "hidden": false,
+      "globalPercent": 22.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Breach Anonymous, Corporations and the Government within one second of each other.",
+      "guide": {
+        "kind": "standard",
+        "context": "A low Hack Level makes breaches too slow. If the three do not land inside a second, raise the Hack Level and try again.",
+        "steps": [
+          {
+            "id": "finish-the-corporation-breaching-and-gov-1",
+            "text": "Finish the Corporation Breaching and Government Breaching researches so all three breach nodes exist."
+          },
+          {
+            "id": "connect-anonymous-corporation-and-govern-2",
+            "text": "Connect Anonymous, Corporation and Government breach nodes to the @item{Hack Interface}."
+          },
+          {
+            "id": "lower-each-of-the-three-threat-levels-to-3",
+            "text": "Lower each of the three threat levels to 1."
+          },
+          {
+            "id": "start-the-three-attacks-together-and-wai-4",
+            "text": "Start the three attacks together and wait for all of them to breach."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "grand_heist",
+      "displayName": "Grand Heist",
+      "description": "Successfully breach banks 10 times",
+      "hidden": false,
+      "globalPercent": 15.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30-90 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Successfully breach banks 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "The count carries across Portal runs, because the banks' threat level does not reset.",
+        "steps": [
+          {
+            "id": "finish-the-bank-breaching-research-1",
+            "text": "Finish the Bank Breaching research."
+          },
+          {
+            "id": "attack-with-the-item-breach-bank-node-on-2",
+            "text": "Attack with the @item{Breach Bank} node on the Hack Interface until you have breached 10 banks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "trojan",
+      "displayName": "Uninvited Guest",
+      "description": "Upload a file with a trojan",
+      "hidden": false,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Upload a file that carries a @mechanic{Trojan}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish-the-trojans-research-1",
+            "text": "Finish the Trojans research."
+          },
+          {
+            "id": "extract-a-virus-from-an-infected-file-wi-2",
+            "text": "Extract a virus from an Infected file with a @item{Virus Extractor}."
+          },
+          {
+            "id": "combine-a-normal-file-with-that-virus-in-3",
+            "text": "Combine a normal file with that virus in a @item{Trojan Injector}."
+          },
+          {
+            "id": "upload-the-resulting-file-4",
+            "text": "Upload the resulting file."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "coding",
+      "displayName": "Hello World",
+      "description": "Make your first commit",
+      "hidden": false,
+      "globalPercent": 25.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Commit code for the first time with a @item{Commit} node.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish-the-coding-research-1",
+            "text": "Finish the Coding research."
+          },
+          {
+            "id": "connect-a-code-interface-to-a-commit-nod-2",
+            "text": "Connect a Code Interface to a Commit node and let code reach it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "its_a_feature",
+      "displayName": "It's a Feature",
+      "description": "Commit a code with 2 bugs",
+      "hidden": false,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Commit code that carries two bugs.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only the bugged output of the Debug node counts.",
+        "steps": [
+          {
+            "id": "finish-the-debugging-research-1",
+            "text": "Finish the Debugging research."
+          },
+          {
+            "id": "send-code-through-a-item-debug-node-abou-2",
+            "text": "Send code through a @item{Debug} node. About half of it comes out bugged."
+          },
+          {
+            "id": "send-a-bugged-code-output-to-a-commit-no-3",
+            "text": "Send a bugged code output to a Commit node."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "fully_optimized",
+      "displayName": "Back-end Dev",
+      "description": "Unlock all optimizations",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3-6 h",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Unlock every upgrade in the Optimizations tab.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Optimizations tab is the 4th tab of the upgrades window.",
+        "steps": [
+          {
+            "id": "finish-the-build-tools-research-1",
+            "text": "Finish the Build Tools research."
+          },
+          {
+            "id": "feed-optimization-code-into-a-item-build-2",
+            "text": "Feed Optimization Code into a @item{Build} node to earn points."
+          },
+          {
+            "id": "spend-the-points-until-every-option-in-t-3",
+            "text": "Spend the points until every option in the Optimizations tab is bought."
+          },
+          {
+            "id": "pick-up-the-extra-points-from-the-pre-op-4",
+            "text": "Pick up the extra points from the Pre-Optimized nodes in the Portal tree."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "aspirant_dev",
+      "displayName": "Front-end Dev",
+      "description": "Unlock all applications",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2-5 h",
+      "estMinutes": 240,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Unlock every upgrade in the Applications tab.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Applications tab is the 5th tab of the upgrades window.",
+        "steps": [
+          {
+            "id": "finish-the-applications-research-1",
+            "text": "Finish the Applications research."
+          },
+          {
+            "id": "feed-application-code-into-a-item-build-2",
+            "text": "Feed Application Code into a @item{Build} node to earn points."
+          },
+          {
+            "id": "spend-the-points-until-every-application-3",
+            "text": "Spend the points until every Application is bought."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "agi",
+      "displayName": "Artificial General Intelligence",
+      "description": "Achieve AGI",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3-8 h",
+      "estMinutes": 360,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Finish the Artificial General Intelligence research.",
+      "guide": {
+        "kind": "standard",
+        "context": "It is the last research in the AI branch.",
+        "steps": [
+          {
+            "id": "work-through-the-ai-research-branch-1",
+            "text": "Work through the AI research branch."
+          },
+          {
+            "id": "buy-the-artificial-general-intelligence-2",
+            "text": "Buy the Artificial General Intelligence research."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "text_completionist",
+      "displayName": "Text Completionist",
+      "description": "Complete all Text requests",
+      "hidden": false,
+      "globalPercent": 8.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-6 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all 8 Text requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests are filled by sending files to a Request Uploader node. Every file type uses the same eight tags.",
+        "steps": [
+          {
+            "id": "place-a-item-request-uploader-and-open-t-1",
+            "text": "Place a @item{Request Uploader} and open the Text requests."
+          },
+          {
+            "id": "fill-the-requests-for-normal-scanned-ver-2",
+            "text": "Fill the requests for Normal, Scanned, Verified, Corrupted, Enhanced, Compressed, AI and Decrypted Text files."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "image_completionist",
+      "displayName": "Image Completionist",
+      "description": "Complete all Image requests",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-6 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all 8 Image requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests are filled by sending files to a Request Uploader node. Every file type uses the same eight tags.",
+        "steps": [
+          {
+            "id": "place-a-item-request-uploader-and-open-t-1",
+            "text": "Place a @item{Request Uploader} and open the Image requests."
+          },
+          {
+            "id": "fill-the-requests-for-normal-scanned-ver-2",
+            "text": "Fill the requests for Normal, Scanned, Verified, Corrupted, Enhanced, Compressed, AI and Decrypted Image files."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sound_completionist",
+      "displayName": "Sound Completionist",
+      "description": "Complete all Sound requests",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-6 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all 8 Sound requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests are filled by sending files to a Request Uploader node. Every file type uses the same eight tags.",
+        "steps": [
+          {
+            "id": "place-a-item-request-uploader-and-open-t-1",
+            "text": "Place a @item{Request Uploader} and open the Sound requests."
+          },
+          {
+            "id": "fill-the-requests-for-normal-scanned-ver-2",
+            "text": "Fill the requests for Normal, Scanned, Verified, Corrupted, Enhanced, Compressed, AI and Decrypted Sound files."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "video_completionist",
+      "displayName": "Video Completionist",
+      "description": "Complete all Video requests",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-6 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all 8 Video requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests are filled by sending files to a Request Uploader node. Every file type uses the same eight tags.",
+        "steps": [
+          {
+            "id": "place-a-item-request-uploader-and-open-t-1",
+            "text": "Place a @item{Request Uploader} and open the Video requests."
+          },
+          {
+            "id": "fill-the-requests-for-normal-scanned-ver-2",
+            "text": "Fill the requests for Normal, Scanned, Verified, Corrupted, Enhanced, Compressed, AI and Decrypted Video files."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "program_completionist",
+      "displayName": "Program Completionist",
+      "description": "Complete all Program requests",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-6 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all 8 Program requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests are filled by sending files to a Request Uploader node. Every file type uses the same eight tags.",
+        "steps": [
+          {
+            "id": "place-a-item-request-uploader-and-open-t-1",
+            "text": "Place a @item{Request Uploader} and open the Program requests."
+          },
+          {
+            "id": "fill-the-requests-for-normal-scanned-ver-2",
+            "text": "Fill the requests for Normal, Scanned, Verified, Corrupted, Enhanced, Compressed, AI and Decrypted Program files."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "game_completionist",
+      "displayName": "Game Completionist",
+      "description": "Complete all Game requests",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-6 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all 8 Game requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Requests are filled by sending files to a Request Uploader node. Every file type uses the same eight tags.",
+        "steps": [
+          {
+            "id": "place-a-item-request-uploader-and-open-t-1",
+            "text": "Place a @item{Request Uploader} and open the Game requests."
+          },
+          {
+            "id": "fill-the-requests-for-normal-scanned-ver-2",
+            "text": "Fill the requests for Normal, Scanned, Verified, Corrupted, Enhanced, Compressed, AI and Decrypted Game files."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "completionist",
+      "displayName": "Completionist",
+      "description": "Complete all requests",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "after the six types",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Complete all requests for every file type.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "earn-all-six-file-type-completionist-ach-1",
+            "text": "Earn all six file-type Completionist achievements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "out_of_memory",
+      "displayName": "Out of Memory",
+      "description": "Reach maximum node capacity",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Place nodes until you reach the maximum node capacity.",
+      "guide": {
+        "kind": "standard",
+        "context": "The limit is 400 nodes. The node counter in the schematic list turns red past the limit.",
+        "steps": [
+          {
+            "id": "save-a-schematic-of-about-20-nodes-1",
+            "text": "Save a schematic of about 20 nodes."
+          },
+          {
+            "id": "place-that-schematic-again-and-again-unt-2",
+            "text": "Place that schematic again and again until you cannot add more."
+          },
+          {
+            "id": "place-single-nodes-one-at-a-time-until-t-3",
+            "text": "Place single nodes one at a time until the limit stops you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "stylist",
+      "displayName": "Stylist",
+      "description": "Use all Node Groups colours simultaneously",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Show all seven @mechanic{Node Group} colours on the desktop at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "place-seven-node-groups-1",
+            "text": "Place seven Node Groups."
+          },
+          {
+            "id": "open-the-palette-icon-on-each-group-s-to-2",
+            "text": "Open the palette icon on each group's top-right corner and give each a different colour."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "system_planner",
+      "displayName": "System Planner",
+      "description": "Create a schematic",
+      "hidden": false,
+      "globalPercent": 26.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Save a schematic.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "use-the-selection-tool-dotted-square-bot-1",
+            "text": "Use the selection tool (dotted square, bottom left) to select some nodes."
+          },
+          {
+            "id": "click-the-save-icon-in-the-hotbar-2",
+            "text": "Click the save icon in the hotbar."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "market_crash",
+      "displayName": "Market Crash",
+      "description": "Sell all your coins at high",
+      "hidden": false,
+      "globalPercent": 43.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30-60 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Sell all of your coins when the price is at its high.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock-the-gpu-mine-litecoin-node-and-cr-1",
+            "text": "Unlock the GPU, Mine LiteCoin node and Crypto Seller."
+          },
+          {
+            "id": "mine-coins-and-send-them-to-the-crypto-s-2",
+            "text": "Mine coins and send them to the Crypto Seller."
+          },
+          {
+            "id": "wait-until-the-price-graph-reaches-the-t-3",
+            "text": "Wait until the price graph reaches the top, then sell. With an Auto Crypto Seller, set the Sell at bar to max."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "overheat",
+      "displayName": "Overheated",
+      "description": "Overheat any component using overclocking",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Overheat a component by overclocking it.",
+      "guide": {
+        "kind": "standard",
+        "context": "A full heat bar cancels the overclock, so keep heat sinks off this component.",
+        "steps": [
+          {
+            "id": "finish-the-overclocking-research-1",
+            "text": "Finish the Overclocking research."
+          },
+          {
+            "id": "connect-an-item-overclocker-to-a-network-2",
+            "text": "Connect an @item{Overclocker} to a Network, Processor or GPU Cluster node."
+          },
+          {
+            "id": "drag-the-overclocker-slider-to-its-maxim-3",
+            "text": "Drag the Overclocker slider to its maximum with no heat sink attached."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "network_bottleneck",
+      "displayName": "Network Bottleneck",
+      "description": "Maximize a Network node",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2-5 h",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upgrade a @item{Network} node to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "The maximum was Mk 112 before the 3.0 update.",
+        "steps": [
+          {
+            "id": "keep-upgrading-a-network-node-until-it-r-1",
+            "text": "Keep upgrading a Network node until it reaches its maximum level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "cpu_bottleneck",
+      "displayName": "Processor Bottleneck",
+      "description": "Maximize a Processor node",
+      "hidden": false,
+      "globalPercent": 9.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2-5 h",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upgrade a @item{Processor} node to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "The maximum was Mk 53 before the 3.0 update.",
+        "steps": [
+          {
+            "id": "keep-upgrading-a-processor-node-until-it-1",
+            "text": "Keep upgrading a Processor node until it reaches its maximum level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "gpu_bottleneck",
+      "displayName": "GPU Bottleneck",
+      "description": "Maximize a GPU Cluster node",
+      "hidden": false,
+      "globalPercent": 9.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2-5 h",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upgrade a @item{GPU Cluster} node to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "The maximum was Mk 48 before the 3.0 update.",
+        "steps": [
+          {
+            "id": "keep-upgrading-a-gpu-cluster-node-until-1",
+            "text": "Keep upgrading a GPU Cluster node until it reaches its maximum level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "token_clicker",
+      "displayName": "Token Clicker",
+      "description": "Collect 101 wandering Tokens",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect 101 wandering Tokens.",
+      "guide": {
+        "kind": "standard",
+        "context": "A floating Token appears now and then. Each click gives 5 Tokens, or up to 10 with upgrades.",
+        "steps": [
+          {
+            "id": "click-each-floating-token-that-appears-o-1",
+            "text": "Click each floating Token that appears on the screen until you have collected 101."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "fully_boosted",
+      "displayName": "P2W Much?",
+      "description": "Have all boosts active at once",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have all seven token-shop boosts active at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can pause a boost to keep its timer, then resume it when you need all seven.",
+        "steps": [
+          {
+            "id": "open-the-4th-screen-of-the-token-shop-1",
+            "text": "Open the 4th screen of the token shop."
+          },
+          {
+            "id": "buy-all-seven-boosts-and-make-sure-none-2",
+            "text": "Buy all seven boosts and make sure none is paused."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "eureka",
+      "displayName": "Eureka!",
+      "description": "Complete the research tree",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "3-6 h",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Unlock every node of the standard research tree.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "spend-research-until-every-node-of-the-s-1",
+            "text": "Spend research until every node of the standard research tree is bought."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "copy_paste",
+      "displayName": "Copy & Paste",
+      "description": "Imprint 10 or more modifiers",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Imprint 10 or more modifiers onto one file with the @item{Imprinter}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Infected and Corrupted count as modifiers, so use them if you are one or two short.",
+        "steps": [
+          {
+            "id": "unlock-the-item-imprinter-with-applicati-1",
+            "text": "Unlock the @item{Imprinter} with Application points from Coding."
+          },
+          {
+            "id": "put-a-regular-file-in-the-imprinter-s-fi-2",
+            "text": "Put a regular file in the Imprinter's first input."
+          },
+          {
+            "id": "put-a-text-file-that-carries-10-or-more-3",
+            "text": "Put a text file that carries 10 or more modifiers in the second input."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "slop_research",
+      "displayName": "Slop Labs",
+      "description": "Research a file with the AI modifier",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "Research a file that has the AI modifier in a @item{Data Lab}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "make-a-file-with-an-ai-generation-node-1",
+            "text": "Make a file with an AI generation node."
+          },
+          {
+            "id": "send-the-ai-file-into-a-data-lab-2",
+            "text": "Send the AI file into a Data Lab."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "fully_compressed",
+      "displayName": "Fully Compressed",
+      "description": "Compress a file that has triple enhancement and lossy compression",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "Compress a file that has triple enhancement and lossy compression.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "research-triple-enhancement-and-the-loss-1",
+            "text": "Research triple Enhancement and the Lossy Compressor."
+          },
+          {
+            "id": "enhance-a-file-three-times-2",
+            "text": "Enhance a file three times."
+          },
+          {
+            "id": "pass-the-file-through-a-item-lossy-compr-3",
+            "text": "Pass the file through a @item{Lossy Compressor}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "perfection",
+      "displayName": "Perfection",
+      "description": "Upload a file with the perfected modifier",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "Upload a file with the @mechanic{Perfected} modifier.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock-the-item-perfecter-node-1",
+            "text": "Unlock the @item{Perfecter} node."
+          },
+          {
+            "id": "send-a-file-through-the-perfecter-2",
+            "text": "Send a file through the Perfecter."
+          },
+          {
+            "id": "upload-the-perfected-file-3",
+            "text": "Upload the perfected file."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hidden_gem",
+      "displayName": "Hidden Gem",
+      "description": "Upload a relic file",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "Upload a @mechanic{Relic} file.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock-the-item-relic-finder-node-1",
+            "text": "Unlock the @item{Relic Finder} node."
+          },
+          {
+            "id": "use-it-to-turn-a-file-into-a-relic-file-2",
+            "text": "Use it to turn a file into a Relic file."
+          },
+          {
+            "id": "upload-the-relic-file-3",
+            "text": "Upload the Relic file."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "commit_star",
+      "displayName": "Commit Star",
+      "description": "Commit a fully-optimized-debugged-commented-free-of-bugs code",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Commit code that is debugged, fully optimised and commented, with no bugs.",
+      "guide": {
+        "kind": "standard",
+        "context": "The code must not carry the bugged tag.",
+        "steps": [
+          {
+            "id": "send-code-through-the-debug-node-and-kee-1",
+            "text": "Send code through the Debug node and keep only the output without bugs."
+          },
+          {
+            "id": "optimise-it-three-times-and-add-comments-2",
+            "text": "Optimise it three times and add comments."
+          },
+          {
+            "id": "send-it-to-a-item-commit-node-3",
+            "text": "Send it to a @item{Commit} node."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "high_voltage",
+      "displayName": "High Voltage",
+      "description": "Overclock a component to 1000% without overheating",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "unverified",
+      "summary": "Overclock a component to 1000% without overheating it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Heat sinks give more room before the heat bar fills. A full bar cancels the overclock.",
+        "steps": [
+          {
+            "id": "build-and-upgrade-several-item-heat-sink-1",
+            "text": "Build and upgrade several @item{Heat Sink} nodes and connect the component to them."
+          },
+          {
+            "id": "raise-the-overclocker-until-the-componen-2",
+            "text": "Raise the Overclocker until the component reaches 1000% while its heat bar stays below full."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ai_bubble",
+      "displayName": "AI Bubble",
+      "description": "Deplete CPU Core, GPU and Router import stocks at the same time",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "2-4 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Empty the CPU Core, GPU and Router importer stocks at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each importer has a limited stock that refills slowly, so spend enough money to empty all three together.",
+        "steps": [
+          {
+            "id": "unlock-the-cpu-core-gpu-and-router-impor-1",
+            "text": "Unlock the CPU Core, GPU and Router importers."
+          },
+          {
+            "id": "send-a-large-amount-of-money-into-all-th-2",
+            "text": "Send a large amount of money into all three importers at once so every stock runs out together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "breakthrough",
+      "displayName": "Breakthrough",
+      "description": "Complete the advanced research tree",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "10+ h",
+      "estMinutes": 700,
+      "stage": 6,
+      "confidence": "unverified",
+      "summary": "Complete the Advanced Research tree.",
+      "guide": {
+        "kind": "standard",
+        "context": "Advanced Research is a separate tree that runs on Tech, Hacking and Coding points.",
+        "steps": [
+          {
+            "id": "build-the-research-nodes-that-generate-t-1",
+            "text": "Build the research nodes that generate Tech, Hacking and Coding points."
+          },
+          {
+            "id": "spend-those-points-until-the-tree-is-com-2",
+            "text": "Spend those points until the tree is complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "entropy_undoing",
+      "displayName": "Entropy Undoing",
+      "description": "Reverse entropy",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "15+ h",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Reverse entropy by reaching 50 entropy.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reaching 50 entropy counts as beating the game. A single universe may not be enough, so plan to use Portal runs.",
+        "steps": [
+          {
+            "id": "collect-alien-research-to-unlock-the-ite-1",
+            "text": "Collect alien research to unlock the @item{Entropy Manipulator}."
+          },
+          {
+            "id": "use-it-to-gain-entropy-until-the-counter-2",
+            "text": "Use it to gain entropy until the counter reaches 50 out of 50."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "first_upload",
+    "variety_downloader",
+    "infected",
+    "quarantined",
+    "redownloaded",
+    "reborn",
+    "hacking",
+    "serial_breacher",
+    "grand_heist",
+    "trojan",
+    "coding",
+    "its_a_feature",
+    "fully_optimized",
+    "aspirant_dev",
+    "agi",
+    "text_completionist",
+    "image_completionist",
+    "sound_completionist",
+    "video_completionist",
+    "program_completionist",
+    "game_completionist",
+    "completionist",
+    "out_of_memory",
+    "stylist",
+    "system_planner",
+    "market_crash",
+    "overheat",
+    "network_bottleneck",
+    "cpu_bottleneck",
+    "gpu_bottleneck",
+    "token_clicker",
+    "fully_boosted",
+    "eureka",
+    "copy_paste",
+    "slop_research",
+    "fully_compressed",
+    "perfection",
+    "hidden_gem",
+    "commit_star",
+    "high_voltage",
+    "ai_bubble",
+    "breakthrough",
+    "entropy_undoing"
+  ]
+}

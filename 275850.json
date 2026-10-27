@@ -1,0 +1,1035 @@
+{
+  "game": {
+    "appid": 275850,
+    "slug": "no-man-s-sky",
+    "title": "No Man's Sky",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-05",
+    "estTotalHours": 50,
+    "difficultyRating": 5,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-27"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Establish a base and explore",
+      "description": "Start on Normal for a safer introduction, or Permadeath if you want to use one save. Claim a base, unlock the Space Anomaly and collect early milestones. Talk to new inhabitants and learn words as you travel.",
+      "achievementRefs": [
+        "CRADLE",
+        "CONFUSED",
+        "TAXONOMIST",
+        "LIMITEDFUNDS",
+        "TRAILBLAZER",
+        "NAVIGATORS",
+        "REUNION"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish the exploration milestones",
+      "description": "On the same save, finish the wallet, conversation, language, walking, space-combat and warp totals. Complete animal surveys on ten planets and claim each fauna bonus.",
+      "achievementRefs": [
+        "SPACETRUCKER",
+        "SHIPPINGMAGNATE",
+        "ARCHIVIST",
+        "ATTENBORG",
+        "ALMOSTTHERE",
+        "BABELFISH",
+        "THUG",
+        "WARCRIME",
+        "GENOCIDAL",
+        "PIONEER",
+        "DISCOVERER",
+        "PIONEER2",
+        "THEEVERLASTING",
+        "NATURALIST",
+        "CLASSIFIER",
+        "ENCYCLOPAEDIA"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Accumulate extreme-weather time",
+      "description": "Spend time outdoors on extreme-weather planets while keeping your suit supplied. Check the Extreme Survival counter to confirm the weather is giving credit.",
+      "achievementRefs": [
+        "GETTINGON",
+        "METHUSELAH"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Complete a Permadeath galaxy transition",
+      "description": "If your exploration save uses Normal, start a separate Permadeath save. Keep the Permadeath preset and complete the Artemis reset ending to earn both mode-specific achievements. A separate Survival completion is optional.",
+      "achievementRefs": [
+        "TAKEADEEPBREATH",
+        "TOLIVEFOREVER"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "NATURALIST",
+      "displayName": "A Scanner Darkly",
+      "description": "Attain ‘Naturalist’ status in Planet Zoology Scanned",
+      "hidden": false,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "fauna-surveys",
+      "summary": "Complete the animal-species survey of one planet.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "scan-fauna",
+            "text": "Choose a planet with a small fauna roster; exotic worlds can have only one species. Use your @item{Analysis Visor} to scan every animal species listed for that planet."
+          },
+          {
+            "id": "claim-survey",
+            "text": "Open @mechanic{Discoveries}, select the planet and open @mechanic{Fauna}. Claim the all-fauna completion bonus."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TRAILBLAZER",
+      "displayName": "The Stars, Like Dust",
+      "description": "Attain 'Trailblazer' status in Space Exploration",
+      "hidden": false,
+      "globalPercent": 44.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "warps",
+      "summary": "Make 5 hyperdrive jumps between star systems.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can revisit the same systems. Teleporters and planetary portals do not advance this counter.",
+        "steps": [
+          {
+            "id": "unlock-hyperdrive",
+            "text": "Follow @mechanic{Awakenings} until your starship has a working Hyperdrive and the Warp Cell blueprint."
+          },
+          {
+            "id": "warp-systems",
+            "text": "Refuel the @item{Hyperdrive} with Warp Cells. Use the @mechanic{Galaxy Map} to warp between star systems until you have made 5 jumps."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LIMITEDFUNDS",
+      "displayName": "Foundation",
+      "description": "Attain ‘Entrepreneur’ status in Most Units Accrued",
+      "hidden": false,
+      "globalPercent": 60.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "unverified",
+      "group": "money",
+      "summary": "Reach the Entrepreneur milestone for the highest number of Units held at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "save-units",
+            "text": "Sell spare exploration valuables at a space-station trade terminal. Keep saving until you hold @item{250,000 Units}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CONFUSED",
+      "displayName": "Babel-17",
+      "description": "Attain ‘Confused’ status in Words Collected",
+      "hidden": false,
+      "globalPercent": 54.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "language",
+      "summary": "Learn 10 alien words.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "learn-words",
+            "text": "Ask Gek, Korvax and Vy'keen inhabitants to teach you words, or activate @mechanic{Knowledge Stones} on planets, until your total reaches 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TAXONOMIST",
+      "displayName": "Contact",
+      "description": "Attain ‘Known’ status in Alien Colonist Encounters",
+      "hidden": false,
+      "globalPercent": 53.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "encounters",
+      "summary": "Start conversations with 10 different alien inhabitants.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each alien counts only on the first meeting. Shopkeepers, Nada and Polo do not count.",
+        "steps": [
+          {
+            "id": "meet-aliens",
+            "text": "Talk to ordinary @npc{Gek}, @npc{Korvax} and @npc{Vy'keen} inhabitants at space stations until you have met 10 different aliens."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THUG",
+      "displayName": "Use of Weapons",
+      "description": "Attain ‘Novice’ status in Ships Destroyed",
+      "hidden": false,
+      "globalPercent": 50.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "space-combat",
+      "summary": "Destroy 5 starships.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ground Sentinel kills advance a different statistic.",
+        "steps": [
+          {
+            "id": "defeat-pirates",
+            "text": "Defeat pirate ships in space encounters until you have destroyed 5 starships."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CLASSIFIER",
+      "displayName": "The Star Beast",
+      "description": "Attain ‘Archivist’ status in Planet Zoology Scanned",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "NATURALIST"
+      ],
+      "group": "fauna-surveys",
+      "summary": "Complete the animal-species surveys of 7 different planets on one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "scan-fauna",
+            "text": "Choose a planet with a small fauna roster; exotic worlds can have only one species. Use your @item{Analysis Visor} to scan every animal species listed for that planet."
+          },
+          {
+            "id": "claim-survey",
+            "text": "Open @mechanic{Discoveries}, select the planet and open @mechanic{Fauna}. Claim the all-fauna completion bonus. Finish and claim surveys on 7 different planets in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PIONEER",
+      "displayName": "The Longest Voyage",
+      "description": "Attain 'Pioneer' status in Space Exploration",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "TRAILBLAZER"
+      ],
+      "group": "warps",
+      "summary": "Make 40 hyperdrive jumps between star systems.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can revisit the same systems. Teleporters and planetary portals do not advance this counter.",
+        "steps": [
+          {
+            "id": "warp-systems",
+            "text": "Refuel the @item{Hyperdrive} with Warp Cells. Use the @mechanic{Galaxy Map} to warp between star systems until you have made 40 jumps."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPACETRUCKER",
+      "displayName": "The Space Merchants",
+      "description": "Attain ‘Trader’ status in Most Units Accrued",
+      "hidden": false,
+      "globalPercent": 50.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "LIMITEDFUNDS"
+      ],
+      "group": "money",
+      "summary": "Hold 1,000,000 Units at one time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "save-units",
+            "text": "Sell spare exploration valuables at space-station trade terminals. Save the proceeds until your wallet reaches @item{1,000,000 Units}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALMOSTTHERE",
+      "displayName": "The Languages of Pao",
+      "description": "Attain ‘Interpreter’ status in Words Collected",
+      "hidden": false,
+      "globalPercent": 35.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "CONFUSED"
+      ],
+      "group": "language",
+      "summary": "Learn 50 alien words.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "learn-words",
+            "text": "Ask Gek, Korvax and Vy'keen inhabitants to teach you words, or activate @mechanic{Knowledge Stones} on planets, until your total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARCHIVIST",
+      "displayName": "Who Goes There?",
+      "description": "Attain ‘Diplomat’ status in Alien Colonist Encounters",
+      "hidden": false,
+      "globalPercent": 30.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "TAXONOMIST"
+      ],
+      "group": "encounters",
+      "summary": "Start conversations with 50 different alien inhabitants.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each alien counts only on the first meeting. Shopkeepers, Nada and Polo do not count.",
+        "steps": [
+          {
+            "id": "meet-aliens",
+            "text": "Talk to ordinary @npc{Gek}, @npc{Korvax} and @npc{Vy'keen} inhabitants at space stations until you have met 50 different aliens."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WARCRIME",
+      "displayName": "Pattern for Conquest",
+      "description": "Attain ‘Notorious’ status in Ships Destroyed",
+      "hidden": false,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "THUG"
+      ],
+      "group": "space-combat",
+      "summary": "Destroy 50 starships.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ground Sentinel kills advance a different statistic.",
+        "steps": [
+          {
+            "id": "defeat-pirates",
+            "text": "Upgrade your ship's weapons and shields, then fight pirate encounters until your destroyed-starship total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GETTINGON",
+      "displayName": "Stranger in a Strange Land",
+      "description": "Attain ‘Robust’ status in Extreme Survival",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "450 min",
+      "estMinutes": 450,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "extreme-survival",
+      "summary": "Accumulate 30 sols of Extreme Survival time on one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "The timer is cumulative. Credit pauses in your starship, while the game is paused, or when the weather is safe. High Sentinel activity alone does not qualify.",
+        "steps": [
+          {
+            "id": "find-extreme-weather",
+            "text": "Land on an extreme-weather planet. Check for @warn{Extreme} above the Hazard Protection bar and confirm that the weather drains your protection."
+          },
+          {
+            "id": "accumulate-time",
+            "text": "Stay outdoors in qualifying weather and recharge Hazard Protection and Life Support as needed. Accumulate 27,000 displayed in-game minutes in the @mechanic{Extreme Survival} milestone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PIONEER2",
+      "displayName": "Symphony For A Lost Traveler",
+      "description": "Attain ‘Nomad’ status in On-foot Exploration",
+      "hidden": false,
+      "globalPercent": 48.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "walking",
+      "summary": "Travel 40,000u on foot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jetpack travel and vehicle travel do not add to this distance.",
+        "steps": [
+          {
+            "id": "travel-on-foot",
+            "text": "Walk or run while exploring until your @mechanic{On-foot Exploration} distance reaches 40,000u."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ENCYCLOPAEDIA",
+      "displayName": "Galapagos",
+      "description": "Attain ‘Encyclopedia’ status in Planet Zoology Scanned",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "CLASSIFIER"
+      ],
+      "group": "fauna-surveys",
+      "summary": "Complete the animal-species surveys of 10 different planets on one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "scan-fauna",
+            "text": "Choose a planet with a small fauna roster; exotic worlds can have only one species. Use your @item{Analysis Visor} to scan every animal species listed for that planet."
+          },
+          {
+            "id": "claim-survey",
+            "text": "Open @mechanic{Discoveries}, select the planet and open @mechanic{Fauna}. Claim the all-fauna completion bonus. Finish and claim surveys on 10 different planets in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISCOVERER",
+      "displayName": "A Space Odyssey",
+      "description": "Attain ‘Discoverer’ status in Space Exploration",
+      "hidden": false,
+      "globalPercent": 13.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "7 hr",
+      "estMinutes": 420,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "PIONEER"
+      ],
+      "group": "warps",
+      "summary": "Make 75 hyperdrive jumps between star systems.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can revisit the same systems. Teleporters and planetary portals do not advance this counter.",
+        "steps": [
+          {
+            "id": "warp-systems",
+            "text": "Refuel the @item{Hyperdrive} with Warp Cells. Use the @mechanic{Galaxy Map} to warp between star systems until you have made 75 jumps."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SHIPPINGMAGNATE",
+      "displayName": "The Diamond Age",
+      "description": "Attain ‘Magnate’ status in Most Units Accrued",
+      "hidden": false,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "SPACETRUCKER"
+      ],
+      "group": "money",
+      "summary": "Hold 2,000,000 Units at one time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "save-units",
+            "text": "Sell spare exploration valuables at space-station trade terminals. Save the proceeds until your wallet reaches @item{2,000,000 Units}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BABELFISH",
+      "displayName": "Citizen of the Galaxy",
+      "description": "Attain ‘Babelfish’ status in Words Collected",
+      "hidden": false,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ALMOSTTHERE"
+      ],
+      "group": "language",
+      "summary": "Learn 150 alien words.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "learn-words",
+            "text": "Ask Gek, Korvax and Vy'keen inhabitants to teach you words, or activate @mechanic{Knowledge Stones} on planets, until your total reaches 150."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ATTENBORG",
+      "displayName": "What Mad Universe",
+      "description": "Attain ‘Ambassador’ status in Alien Colonist Encounters",
+      "hidden": false,
+      "globalPercent": 22.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ARCHIVIST"
+      ],
+      "group": "encounters",
+      "summary": "Start conversations with 80 different alien inhabitants.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each alien counts only on the first meeting. Shopkeepers, Nada and Polo do not count.",
+        "steps": [
+          {
+            "id": "meet-aliens",
+            "text": "Talk to ordinary @npc{Gek}, @npc{Korvax} and @npc{Vy'keen} inhabitants at space stations until you have met 80 different aliens."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GENOCIDAL",
+      "displayName": "The Forever War",
+      "description": "Attain ‘Legend’ status in Ships Destroyed",
+      "hidden": false,
+      "globalPercent": 21.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "WARCRIME"
+      ],
+      "group": "space-combat",
+      "summary": "Destroy 80 starships.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ground Sentinel kills advance a different statistic.",
+        "steps": [
+          {
+            "id": "defeat-pirates",
+            "text": "Upgrade your ship's weapons and shields, then fight pirate encounters until your destroyed-starship total reaches 80."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "METHUSELAH",
+      "displayName": "The Sentinel",
+      "description": "Attain ‘Everlasting’ status in Extreme Survival",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "12 hr",
+      "estMinutes": 720,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "GETTINGON"
+      ],
+      "group": "extreme-survival",
+      "summary": "Accumulate 48 sols of Extreme Survival time on one save.",
+      "guide": {
+        "kind": "standard",
+        "context": "The timer is cumulative. Credit pauses in your starship, while the game is paused, or when the weather is safe. High Sentinel activity alone does not qualify.",
+        "steps": [
+          {
+            "id": "find-extreme-weather",
+            "text": "Land on an extreme-weather planet. Check for @warn{Extreme} above the Hazard Protection bar and confirm that the weather drains your protection."
+          },
+          {
+            "id": "accumulate-time",
+            "text": "Stay outdoors in qualifying weather and recharge Hazard Protection and Life Support as needed. Accumulate 43,200 displayed in-game minutes in the @mechanic{Extreme Survival} milestone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THEEVERLASTING",
+      "displayName": "Have Spacesuit - Will Travel",
+      "description": "Attain ‘Adventurer’ status in On-foot Exploration",
+      "hidden": false,
+      "globalPercent": 31.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "PIONEER2"
+      ],
+      "group": "walking",
+      "summary": "Travel 100,000u on foot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Jetpack travel and vehicle travel do not add to this distance.",
+        "steps": [
+          {
+            "id": "travel-on-foot",
+            "text": "Walk or run while exploring until your @mechanic{On-foot Exploration} distance reaches 100,000u."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CRADLE",
+      "displayName": "Cradle",
+      "description": "Claim a Base or Buy a Freighter",
+      "hidden": false,
+      "globalPercent": 73.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Claim a planetary base or purchase a freighter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "claim-base",
+            "text": "Follow the early base-building tutorial. Place a @item{Base Computer}, access the computer and claim the site."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NAVIGATORS",
+      "displayName": "Navigators",
+      "description": "Build an Exocraft",
+      "hidden": false,
+      "globalPercent": 31.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build an Exocraft.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock-geobay",
+            "text": "In the research room aboard the @loc{Space Anomaly}, spend @item{Salvaged Data} to unlock the @item{Roamer Geobay} blueprint."
+          },
+          {
+            "id": "build-geobay",
+            "text": "Build a @item{Roamer Geobay} on a planet to create your Roamer Exocraft."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "REUNION",
+      "displayName": "Reunion",
+      "description": "Visit another Player's Base",
+      "hidden": false,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Visit another player's base and access its Base Computer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "visit-base",
+            "text": "While connected online, use the large teleporter aboard the @loc{Space Anomaly}. Select a base belonging to another player and travel there."
+          },
+          {
+            "id": "access-computer",
+            "text": "Find that base's @item{Base Computer} and open it as a guest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TAKEADEEPBREATH",
+      "displayName": "Take a Deep Breath",
+      "description": "Reach the Centre of the Galaxy in Survival Mode",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "galaxy-transition",
+      "lockoutStage": 4,
+      "summary": "Reach the galactic centre or complete the Artemis galaxy reset in Survival or Permadeath mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Permadeath completion also awards this Survival achievement, so a separate Survival run is optional.",
+        "steps": [
+          {
+            "id": "start-mode",
+            "text": "Start a new save with the @mechanic{Survival} preset. Keep that preset's difficulty settings throughout the run."
+          },
+          {
+            "id": "follow-artemis",
+            "text": "Follow the @mechanic{Artemis} storyline through to @mechanic{The Purge}. Complete the 16 required warps, then charge and enter the marked portal."
+          },
+          {
+            "id": "cry-out",
+            "text": "At the final @mechanic{Atlas Interface}, select @mechanic{Cry out} six times to reach the final choice."
+          },
+          {
+            "id": "reset-galaxy",
+            "text": "Choose @mechanic{Reset Simulation}, then select a galaxy type. Let the transition to the new galaxy finish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TOLIVEFOREVER",
+      "displayName": "To Live Forever",
+      "description": "Reach the Centre of the Galaxy in Permadeath Mode",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "galaxy-transition",
+      "lockoutStage": 4,
+      "summary": "Reach the galactic centre or complete the Artemis galaxy reset in Permadeath mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Death deletes a Permadeath save. This completion also awards Take a Deep Breath. Carry Hazard Protection and Life Support supplies before exploring.",
+        "steps": [
+          {
+            "id": "start-mode",
+            "text": "Start a new save with the @mechanic{Permadeath} preset. Keep that preset's difficulty settings throughout the run."
+          },
+          {
+            "id": "follow-artemis",
+            "text": "Follow the @mechanic{Artemis} storyline through to @mechanic{The Purge}. Complete the 16 required warps, then charge and enter the marked portal."
+          },
+          {
+            "id": "cry-out",
+            "text": "At the final @mechanic{Atlas Interface}, select @mechanic{Cry out} six times to reach the final choice."
+          },
+          {
+            "id": "reset-galaxy",
+            "text": "Choose @mechanic{Reset Simulation}, then select a galaxy type. Let the transition to the new galaxy finish."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "CRADLE",
+    "CONFUSED",
+    "TAXONOMIST",
+    "LIMITEDFUNDS",
+    "TRAILBLAZER",
+    "NAVIGATORS",
+    "REUNION",
+    "SPACETRUCKER",
+    "SHIPPINGMAGNATE",
+    "ARCHIVIST",
+    "ATTENBORG",
+    "ALMOSTTHERE",
+    "BABELFISH",
+    "THUG",
+    "WARCRIME",
+    "GENOCIDAL",
+    "PIONEER",
+    "DISCOVERER",
+    "PIONEER2",
+    "THEEVERLASTING",
+    "NATURALIST",
+    "CLASSIFIER",
+    "ENCYCLOPAEDIA",
+    "GETTINGON",
+    "METHUSELAH",
+    "TAKEADEEPBREATH",
+    "TOLIVEFOREVER"
+  ]
+}

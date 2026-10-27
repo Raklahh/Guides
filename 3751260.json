@@ -1,0 +1,1835 @@
+{
+  "game": {
+    "appid": 3751260,
+    "slug": "the-blood-of-dawnwalker",
+    "title": "The Blood of Dawnwalker",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-22",
+    "estTotalHours": 50,
+    "difficultyRating": 5,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-27"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Begin on Duelist and protect your early options",
+      "description": "Start on Duelist and keep the preset unchanged. Give Esme hot water with three spoonfuls of herbs before Withering Away expires. Keep a new manual save each day and before major choices. Make the fishmonger sale before Infamy 9, and earn Feral Hunger on a saved branch before learning Closing Wounds.",
+      "achievementRefs": [
+        "ACH_Antiquarian",
+        "ACH_Dead_Echoes",
+        "ACH_A_Dawnwalker_is_Born",
+        "ACH_Master_of_Defence",
+        "ACH_Balanced_Diet",
+        "ACH_Primal_Instinct",
+        "ACH_Metropolitan",
+        "ACH_Selfish",
+        "ACH_Miser",
+        "ACH_Like_Shadow",
+        "ACH_All_for_Me"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Secure the timed Duelist ending",
+      "description": "Sell silver at Infamy 4–8. Clear Court Activities to confront the boyars, aiming to reach the final quest around day 22. Keep a manual save before A Deal with the Devil, then use The Turncoat route within 30 days. Keep that save for the other endings.",
+      "achievementRefs": [
+        "ACH_Smuggler",
+        "ACH_Delivery_Delay",
+        "ACH_The_Right_Fist_of_the_Knyaz",
+        "ACH_The_Mad_Khan",
+        "ACH_The_Dark_Mistress",
+        "ACH_Where_am_I",
+        "ACH_Infamous",
+        "ACH_The_Turncoat",
+        "ACH_In_the_Nick_of_Time",
+        "ACH_Easier_than_Ever",
+        "ACH_The_Blood_of_Dawnwalker"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Reload for companion quests and alternate endings",
+      "description": "After the Duelist achievement unlocks, reload the pre-ending save and lower the difficulty if desired. Finish Lacra’s and Crake’s quests and save before each ending route. Do the two early endings on separate branches. Keep a save before Home Sweet Home so you can both stay in the dream and escape for the armour material.",
+      "achievementRefs": [
+        "ACH_The_Coward",
+        "ACH_Nightbloom",
+        "ACH_Always_Hiding",
+        "ACH_Sins_of_the_Past",
+        "ACH_The_Unquenchable_Thirst",
+        "ACH_The_Outcast",
+        "ACH_Valley_Trotter",
+        "ACH_Tsarinas_Pet",
+        "ACH_Eternal_Bliss",
+        "ACH_Arbiters_Blade",
+        "ACH_Arbiters_Regalia",
+        "ACH_Golden",
+        "ACH_The_Omen_Bringer",
+        "ACH_The_Knyazmaker",
+        "ACH_The_Folk_Hero"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Finish exploration and character growth",
+      "description": "Reload a pre-ending save for remaining activities. Finish the tower and banner circuits, ability unlocks, and level 50. Save before spending a stockpile of points so you can buy one tree’s Ultimate Perk, reload, and buy the other tree’s Ultimate Perk.",
+      "achievementRefs": [
+        "ACH_Overkill",
+        "ACH_Burst_like_a_Bubble",
+        "ACH_Capture_the_Flag",
+        "ACH_Stunning_Views",
+        "ACH_Practice_Makes_Perfect",
+        "ACH_Creature_of_the_Night",
+        "ACH_Master_of_Arms",
+        "ACH_Arch_Warlock",
+        "ACH_A_Quick_Learner"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_Selfish",
+      "displayName": "Selfish",
+      "description": "Sell a fish to the fishmonger.",
+      "hidden": true,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Sell a fish to the fishmonger.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Before Infamy reaches 9, visit the @loc{Svartrau City market} during the day. Find the Food Vendor whose interaction label says Fishmonger, buy a @item{Dried Fish}, and sell the fish back."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Infamous",
+      "displayName": "Throne of Thorns",
+      "description": "Reach peak Infamy in Vale Sangora.",
+      "hidden": false,
+      "globalPercent": 34.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Raise Infamy to level 9.",
+      "guide": {
+        "kind": "standard",
+        "context": "Finish the fishmonger sale and silver trading before this point: Svartrau’s gates close and its guards become hostile at Infamy 9.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Complete Court Activities and Soldier Camps, then defeat the three boyars. Check the Infamy meter in the @mechanic{Court} menu."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Easier_than_Ever",
+      "displayName": "Uphill Battle",
+      "description": "Complete the entire game by saving people of Laslea on Duelist Difficulty preset.",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "main Duelist playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Save the people of Laslea through a full ending on an uninterrupted Duelist preset playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "The escape ending and the Home Sweet Home dream ending do not count as full endings for this achievement.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Start a new game on @mechanic{Duelist}. Keep that preset throughout the run; changing a difficulty modifier to Custom also invalidates the achievement."
+          },
+          {
+            "id": "action-2",
+            "text": "In @loc{Withering Away}, prepare Esme’s medicine with three spoonfuls of herbs mixed into hot water. Deliver the medicine before the quest timer expires."
+          },
+          {
+            "id": "action-3",
+            "text": "Follow The Turncoat route to recover your family without fighting Brencis. Finish that ending before changing the difficulty."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_A_Dawnwalker_is_Born",
+      "displayName": "A Dawnwalker is Born",
+      "description": "Finish the prologue and gain access to the open world.",
+      "hidden": true,
+      "globalPercent": 83.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Finish the prologue and gain access to the open world.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Reach the open-world portion of @loc{Smoke and Ashes}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Coward",
+      "displayName": "A Hero They Deserve",
+      "description": "Leave Vale Sangora permanently through the escape ending.",
+      "hidden": true,
+      "globalPercent": 11.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Leave Vale Sangora permanently through the escape ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep a manual save. At night, go west from @loc{Coward’s Path Shrine} in Briar Sloughs to the broken bridge."
+          },
+          {
+            "id": "action-2",
+            "text": "Reach the gate above the canyon wall with @mechanic{Planeshift} and @mechanic{Shadowstep}. Select “[leave the valley forever]”, then reload your save to continue playing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Right_Fist_of_the_Knyaz",
+      "displayName": "The Right Fist of the Knyaz",
+      "description": "Kill Ambrus in his duel.",
+      "hidden": true,
+      "globalPercent": 56.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Kill Ambrus in his duel.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Complete Ambrus’s Court Activities until his anger meter is full. Win his duel in @loc{The Gilded Gauntlet}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Mad_Khan",
+      "displayName": "The Mad Khan",
+      "description": "Kill Bakir during his games.",
+      "hidden": true,
+      "globalPercent": 40.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Kill Bakir during his games.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Fill Bakir’s anger meter through his Court Activities, then defeat him in @loc{The Lunar Game}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Dark_Mistress",
+      "displayName": "The Dark Mistress",
+      "description": "End Xanthe’s threat by killing her or securing her cooperation.",
+      "hidden": true,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "End Xanthe’s threat by killing her or securing her cooperation.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Fill Xanthe’s anger meter through her Court Activities. Finish @loc{The Cycle of Love} by killing her or making a deal with her."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Sins_of_the_Past",
+      "displayName": "Sins of the Past",
+      "description": "Complete Anca’s adventure to the Font of Life.",
+      "hidden": true,
+      "globalPercent": 51.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Complete Anca’s adventure to the Font of Life.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "After the prologue, meet @npc{Anca} at the eastern @loc{Crossroads Inn} for Echoes of Silenced Bells."
+          },
+          {
+            "id": "action-2",
+            "text": "Keep Anca alive. Complete Echoes of Silenced Bells, followed by Between the Words."
+          },
+          {
+            "id": "action-2-part-2",
+            "text": "Continue with Where Old Devils Lie. Finish Stronger Than Achilles to earn the achievement; Most Precious Thing is optional."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Nightbloom",
+      "displayName": "Misery Loves Company",
+      "description": "Complete Lacra’s mandrake search in The Night of Horrors.",
+      "hidden": true,
+      "globalPercent": 34.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Complete Lacra’s mandrake search in The Night of Horrors.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Start A Friend Like This in the alley below Svartrau’s northeast wall. Use @mechanic{Focus Mode} to follow the yellow clues across the rooftops to the vampire encounter."
+          },
+          {
+            "id": "action-2",
+            "text": "Complete Song of the Mountain. Continue into Hive and Seek, then finish Our Rotten Roots."
+          },
+          {
+            "id": "action-2-part-2",
+            "text": "Finish the optional @loc{The Night of Horrors} before committing to Midnight Reckoning."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Always_Hiding",
+      "displayName": "The Manumit",
+      "description": "Uncover Crake’s secrets by completing Distant Shadows and A Closer Look.",
+      "hidden": true,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Uncover Crake’s secrets by completing Distant Shadows and A Closer Look.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Begin @loc{The Firebrand} at the Military Camp in Briar Sloughs. Complete Shadows in the Woods."
+          },
+          {
+            "id": "action-1-part-2",
+            "text": "Continue into Where Loyalty Lies. Complete What Hunts the Night, followed by What Moves the Dead, then Who Pulls the Strings."
+          },
+          {
+            "id": "action-2",
+            "text": "Keep @npc{Marat} alive. Finish his optional Distant Shadows and A Closer Look quests before starting Rise at Dawn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Turncoat",
+      "displayName": "The Turncoat",
+      "description": "Betray your allies to Brencis in exchange for your family.",
+      "hidden": true,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Betray your allies to Brencis in exchange for your family.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ending avoids the final boss. Completing the route within 30 days also earns In the Nick of Time.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Defeat the three boyars and reach Infamy 9. Advance to the next day for Brencis’s invitation, then keep a manual save before @loc{A Deal with the Devil}."
+          },
+          {
+            "id": "action-2",
+            "text": "Tell Brencis “I just want my family back.” and later “I’ll do it”. Avoid dialogue choices marked with a sword."
+          },
+          {
+            "id": "action-3",
+            "text": "Gain access to the Manumit hideout through The Firebrand at the Military Camp, Shadows in the Woods, and Where Loyalty Lies. At night, use the hideout door to mark it for Brencis."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Omen_Bringer",
+      "displayName": "The Patricide",
+      "description": "Defeat Brencis with Lacra as your ally.",
+      "hidden": true,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Defeat Brencis with Lacra as your ally.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Below Svartrau’s northeast wall, follow Focus Mode clues across the rooftops to begin A Friend Like This."
+          },
+          {
+            "id": "action-1-part-2",
+            "text": "Complete Song of the Mountain. Continue into Hive and Seek, then finish Our Rotten Roots."
+          },
+          {
+            "id": "action-2",
+            "text": "Keep a manual save before committing to the ending. Speak to @npc{Lacra} at the @loc{Midnight Reckoning} objective to begin her route."
+          },
+          {
+            "id": "action-3",
+            "text": "Reject Brencis’s offer to betray Lacra and defeat him with her help."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Knyazmaker",
+      "displayName": "The Knyazmaker",
+      "description": "Defeat Brencis with Crake as your ally.",
+      "hidden": true,
+      "globalPercent": 9.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Defeat Brencis with Crake as your ally.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "At the Briar Sloughs Military Camp, start The Firebrand and finish Shadows in the Woods."
+          },
+          {
+            "id": "action-1-part-2",
+            "text": "Continue into Where Loyalty Lies. Complete What Hunts the Night, followed by What Moves the Dead, then Who Pulls the Strings."
+          },
+          {
+            "id": "action-2",
+            "text": "Save before the ending. Speak to @npc{Crake} at his @loc{Rise at Dawn} objective, then continue into Fall Before Dusk."
+          },
+          {
+            "id": "action-3",
+            "text": "Refuse Brencis’s deal and defeat him on Crake’s route."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Folk_Hero",
+      "displayName": "The Folk Hero",
+      "description": "Defeat Brencis without Lacra or Crake as an ally.",
+      "hidden": true,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Defeat Brencis without Lacra or Crake as an ally.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "On the main route, defeat the three boyars and reach Infamy 9. Advance to the next day to receive Brencis’s invitation, then save before A Deal with the Devil."
+          },
+          {
+            "id": "action-2",
+            "text": "Select “Enough. Time to End this.” to attack Brencis alone, then defeat him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_In_the_Nick_of_Time",
+      "displayName": "In the Nick of Time",
+      "description": "Rescue your family within the 30-day deadline.",
+      "hidden": true,
+      "globalPercent": 37.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Rescue your family within the 30-day deadline.",
+      "guide": {
+        "kind": "standard",
+        "context": "Quests, upgrades, and some choices spend time segments. Exploring by itself does not run down the clock. The two early escape and dream endings do not rescue your family.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "During Withering Away, give Esme medicine made with three spoonfuls of herbs mixed into hot water before time expires."
+          },
+          {
+            "id": "action-2",
+            "text": "Reach a main ending before the 30-day deadline. The Turncoat route rescues your family without a final boss fight; aim to reach the final quest around day 22 to leave time for preparations."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Blood_of_Dawnwalker",
+      "displayName": "The Blood of Dawnwalker",
+      "description": "Finish the story.",
+      "hidden": false,
+      "globalPercent": 39.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Reach an ending to Coen’s story.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Finish a main ending or either early ending. Keep a save from before the ending if you want to return to unfinished quests."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Master_of_Defence",
+      "displayName": "Untouchable",
+      "description": "Perform 5 Perfect Blocks in a row.",
+      "hidden": false,
+      "globalPercent": 79.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Make five consecutive Perfect Blocks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Hold guard and match each incoming attack’s direction at the moment of impact. Make five successful Perfect Blocks consecutively; below Duelist, the shield indicator turns orange at the right moment."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Delivery_Delay",
+      "displayName": "Delivery Delay",
+      "description": "Destroy 8 vrakhiri transports.",
+      "hidden": false,
+      "globalPercent": 19.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Destroy eight vrakhiri transports.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each convoy costs three time segments. Use the [transport location map](https://www.powerpyx.com/the-blood-of-dawnwalker-all-vrakhiri-transport-locations/) to find the road sections. Reach roughly level 25 before tackling the convoys associated with Bakir and Xanthe.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Scout towers to reveal nearby question marks. Search the roads around those marks for transport Court Activities; a yellow quest marker appears when you get close."
+          },
+          {
+            "id": "action-2",
+            "text": "Defeat and loot eight convoys. Ambrus has four, Bakir has two, and Xanthe has four. Patrols move along the road, so search in both directions if a convoy is missing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Overkill",
+      "displayName": "Better Safe than Sorry",
+      "description": "Decapitate an enemy with Artery Strike while Burning Blood affects that enemy.",
+      "hidden": true,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Decapitate an enemy with Artery Strike while Burning Blood affects that enemy.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Unlock @mechanic{Artery Strike} with the manual in the Soldier Camp east of @loc{Woodland Outpost shrine}. Burning Blood is available when Witchcraft unlocks."
+          },
+          {
+            "id": "action-2",
+            "text": "During the day, save before fighting human enemies and build three ability charges. Cast @mechanic{Burning Blood}, then use Artery Strike before the hex ends."
+          },
+          {
+            "id": "action-3",
+            "text": "If the strike fails to decapitate the enemy, reload and try again. The starting decapitation chance is 10%; upgrading Artery Strike improves the chance."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Burst_like_a_Bubble",
+      "displayName": "Make It Rain",
+      "description": "Cause an enemy to explode using an Active Ability.",
+      "hidden": false,
+      "globalPercent": 23.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Make an enemy explode with Blood Surge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Drink Xanthe’s blood after her boss encounter to unlock Blood Surge for purchase. If you passed up her blood, use the phial route below."
+          },
+          {
+            "id": "action-2",
+            "text": "For the phial, examine the back of the book in @loc{Svartrau Cathedral}’s north ground-floor storage room to obtain the Treasury Key. Open the treasury north of the courtyard; its upstairs side-room golden chest contains the @item{Phial of Xanthe’s Blood}. Drink the phial."
+          },
+          {
+            "id": "action-3",
+            "text": "Buy and equip @mechanic{Blood Surge}. At night, use Blood Surge on an enemy without a skull icon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_All_for_Me",
+      "displayName": "Absolutely Insatiable",
+      "description": "Have 3 Passive Abilities equipped at the same time.",
+      "hidden": false,
+      "globalPercent": 64.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Equip three passive abilities simultaneously.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Open the Abilities menu and equip three passive abilities, identified by icons without a white fill. @mechanic{Mercurial Fervour} and @mechanic{Shapeshift} count in their own slots, so you can add one other passive."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Arbiters_Blade",
+      "displayName": "Arbiter's Blade",
+      "description": "Restore St Mihai's sword to its former glory.",
+      "hidden": false,
+      "globalPercent": 44.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Create the Legendary Imbued Sword of St. Mihai.",
+      "guide": {
+        "kind": "standard",
+        "context": "If a letter already started A Monk and a Saint for you, follow its A Dubious Gift branch to obtain the Broken Sword. The Night Terrors steps below provide the alternative route.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "In northeast Maragir Wealds, follow the campsite’s Focus Mode clues into the kobold cave for @loc{Forge It Anew: Do Not Disturb}. Take the Sword Shard from the broken altar and inspect the cave drawing to mark the other shard quests."
+          },
+          {
+            "id": "action-2",
+            "text": "For Hostile Takeover, enter the marked cave beneath the white X, defeat its boss, and loot the nest. For Executive Order, inspect the bodies and painting in the cave east of St. Tyna’s Grove, then take the shard from the tent at the updated soldier-camp marker."
+          },
+          {
+            "id": "action-3",
+            "text": "At night, inspect the well north of Svartrau Cathedral to start Night Terrors. Descend and inspect the corpse’s pouch in Focus Mode to start A Monk and a Saint. Defeat the kobolds, then find the yellow-highlighted movable stone with Focus Mode and push it aside to exit."
+          },
+          {
+            "id": "action-4",
+            "text": "Enter the cathedral through its open rooftop tower using Shadowstep. Inspect the book beside the fresco on the furthest left scaffold to learn Mihai’s symbol. Return to the north courtyard and inspect the second grave from the right."
+          },
+          {
+            "id": "action-5",
+            "text": "Take the first left doorway in the crypt. Use the noises to locate the left wall in Focus Mode and defeat @enemy{Mihai, Patron of the Cathedral} to receive the Broken Sword of St. Mihai."
+          },
+          {
+            "id": "action-6",
+            "text": "Bring the three shards and Broken Sword to the blacksmith at @loc{Uriashi Hermitage shrine}. Enter the cave northwest of the blacksmith, clear its enemies, and climb to the ritual room. Activate the red orb and defeat the waves to finish the sword."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Arbiters_Regalia",
+      "displayName": "Arbiter's Regalia",
+      "description": "Gather all the parts of the Arbiter's set of armour and unlock their full potential.",
+      "hidden": false,
+      "globalPercent": 26.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Forge the fully enhanced Arbiter armour set.",
+      "guide": {
+        "kind": "standard",
+        "context": "Keep a separate save before Home Sweet Home if you still need Together Forever. Escaping the dream resolves that quest on the current branch.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "After Infamy 4, read the letter that starts @loc{A Bulwark Against Darkness}, then read the List of Armour Components in Books & Notes."
+          },
+          {
+            "id": "action-2",
+            "text": "Collect the @item{Large Lizard Moult} from the cave south of the Witchcraft Vendor on the Briar Sloughs–Maragir Wealds boundary."
+          },
+          {
+            "id": "action-3",
+            "text": "Keep the Relic of St. Tyna from St. Tyna’s Convent during Echoes of Silenced Bells. If you gave that relic away, take the @item{Relic of St. Dasius} from the lantern-locked room at the top right of Howling Keep’s courtyard during The Cycle of Love."
+          },
+          {
+            "id": "action-4",
+            "text": "Complete Good Home to unlock Pearly and Precious; The Tsarina’s Favourite Human guide gives the starting locations. Finish Pearly and Precious, then pay the Sanzhani Merchant 6,500 denarii for @item{Silk Threads}. After the quest, find the merchant at Yawning Burrow."
+          },
+          {
+            "id": "action-5",
+            "text": "Open the top-floor door inside Silts Tower to enter Home Sweet Home. Clear the first dream cycle, then inspect the well near the second enemy group in Focus Mode. Take the cave portal to the church."
+          },
+          {
+            "id": "action-6",
+            "text": "Use Focus Mode on Alin, Esme, then Coen. Enter the opened portal, inspect the red tree stump, and clawride to the river. Finish the conversation, then return to Silts Tower’s upper room for the @item{Flask of Quicksilver} on the table."
+          },
+          {
+            "id": "action-7",
+            "text": "Deliver the four materials to the blacksmith at @loc{Uriash Hermitage Shrine}. Begin the forging ritual and defeat the enemies to receive the enhanced set."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Golden",
+      "displayName": "Gear of the Gods",
+      "description": "Equip a complete eight-slot loadout of Legendary gear.",
+      "hidden": true,
+      "globalPercent": 18.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "prerequisites": [
+        "ACH_Arbiters_Blade",
+        "ACH_Arbiters_Regalia"
+      ],
+      "summary": "Equip a complete eight-slot loadout of Legendary gear.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep the four enhanced Arbiter armour pieces and Imbued Sword of St. Mihai from the two Arbiter quests."
+          },
+          {
+            "id": "action-2",
+            "text": "Collect a Mindbrace Amulet from Xanthe’s Excavations: Malevolent Presence, a Ring of Focus from the chest in southeast Parlita, and a Ring of the Night from Xanthe’s Transports: Past Glory."
+          },
+          {
+            "id": "action-3",
+            "text": "Equip the armour, sword, amulet, and two rings together in either the Day or Night loadout. Store Legendary gear at shrines if you are saving pieces for later."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Capture_the_Flag",
+      "displayName": "Capture the Flag",
+      "description": "Tear down all of Brencis's flags.",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Remove all five of Brencis’s gate banners in Svartrau.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Scouting Svartrau’s towers reveals the flag icons. Each gatehouse banner costs one time segment.",
+        "collectibles": [
+          {
+            "id": "northeast",
+            "index": 1,
+            "name": "North East Gate",
+            "location": "@loc{Svartrau City} — North East Gate.",
+            "method": "At night, Shadowstep up the wall into the gatehouse. Defeat the guards and use the banner interaction inside."
+          },
+          {
+            "id": "northwest",
+            "index": 2,
+            "name": "North West Gate",
+            "location": "@loc{Svartrau City} — North West Gate.",
+            "method": "At night, Shadowstep up the wall into the gatehouse. Defeat the guards and use the banner interaction inside."
+          },
+          {
+            "id": "west",
+            "index": 3,
+            "name": "West Gate",
+            "location": "@loc{Svartrau City} — West Gate.",
+            "method": "At night, Shadowstep up the wall into the gatehouse. Defeat the guards and use the banner interaction inside."
+          },
+          {
+            "id": "dragosti",
+            "index": 4,
+            "name": "Dragosti Gate",
+            "location": "@loc{Svartrau City} — Dragosti Gate.",
+            "method": "At night, Shadowstep up the wall into the gatehouse. Defeat the guards and use the banner interaction inside."
+          },
+          {
+            "id": "south",
+            "index": 5,
+            "name": "South Gate",
+            "location": "@loc{Svartrau City} — South Gate.",
+            "method": "At night, Shadowstep up the wall into the gatehouse. Defeat the guards and use the banner interaction inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Stunning_Views",
+      "displayName": "Bird's-Eye View",
+      "description": "Climb all the towers and scout the surrounding areas.",
+      "hidden": false,
+      "globalPercent": 17.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Scout the surrounding area from all eleven towers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Look for white tower icons. The [tower location map](https://www.powerpyx.com/blood-of-dawnwalker-all-tower-locations/) shows all eleven; you can visit the towers in any order.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "At night, use @mechanic{Shadowstep} and @mechanic{Planeshift} to reach the tower tops. Select every highlighted distant point at each summit to finish scouting."
+          },
+          {
+            "id": "action-2",
+            "text": "Scout Church Tower in Laslea Glen. Visit the towers named for Briar Sloughs, Maragir Wealds, and St. Tyna’s Grove."
+          },
+          {
+            "id": "action-3",
+            "text": "Scout Market Tower, Cathedral Tower, and Neustadt Tower in Svartrau City."
+          },
+          {
+            "id": "action-4",
+            "text": "Visit Boar’s Back Tower. Scout the Rockfalls, Silts, and Tantari towers as well."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Primal_Instinct",
+      "displayName": "Feral Hunger",
+      "description": "Lose control and drain a person during a conversation outside combat.",
+      "hidden": true,
+      "globalPercent": 45.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Lose control and drain a person during a conversation outside combat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Closing Wounds can hinder this method by healing you to a full segment. Keep an early save without that perk until you earn the achievement.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Save first. At night, let enemies reduce your vampire health below one segment, then leave combat."
+          },
+          {
+            "id": "action-2",
+            "text": "Talk to a nonessential innkeeper in @loc{Parlita} or @loc{The Pewter Tankard}, northeast of Svartrau. Exit and restart dialogue until Coen drains the innkeeper automatically. Reload afterward to restore the victim."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Like_Shadow",
+      "displayName": "Shadow Roamer",
+      "description": "Travel 1000 metres using Vampiric Abilities.",
+      "hidden": false,
+      "globalPercent": 73.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Cover a total of 1,000 metres with Vampiric traversal abilities.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Unlock @mechanic{Shapeshift} in Character Abilities and sprint as a wolf at night. Distance from Shadowstep and Planeshift also contributes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Dead_Echoes",
+      "displayName": "Dead Man Talkin'",
+      "description": "Speak with a dead person using the Compel Soul Witchcraft Ability.",
+      "hidden": false,
+      "globalPercent": 84.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Use Compel Soul to speak to a dead person.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "In @loc{Smoke and Ashes}, speak to the soldier’s corpse through @mechanic{Compel Soul}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Master_of_Arms",
+      "displayName": "Master of Arms",
+      "description": "Unlock an Ultimate Perk in the Swordmastery tree.",
+      "hidden": false,
+      "globalPercent": 25.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Purchase one of Swordmastery’s Ultimate Perks.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can purchase only one of the three Ultimate Perks in a tree on the same skill allocation.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep a manual save before allocating points. Spend 35 skill points on Swordmastery Perks, then spend four more on an Ultimate Perk. Only Perk spending contributes to this threshold; Ability spending is excluded."
+          },
+          {
+            "id": "action-2",
+            "text": "For upgrades that need manuals, collect the corresponding books from activities or buy them from Swordmastery Teachers and Witchcraft Vendors. Use the [manual locations](https://www.powerpyx.com/blood-of-dawnwalker-all-skill-manual-locations/) to find a missing book."
+          },
+          {
+            "id": "action-3",
+            "text": "Reload the saved allocation if you want to spend those points toward the other tree’s Ultimate Perk."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Arch_Warlock",
+      "displayName": "Arch Warlock",
+      "description": "Unlock an Ultimate Perk in the Witchcraft tree.",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Purchase one of Witchcraft’s Ultimate Perks.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can purchase only one of the three Ultimate Perks in a tree on the same skill allocation.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep a manual save before allocating points. Spend 35 skill points on Witchcraft Perks, then spend four more on an Ultimate Perk. Only Perk spending contributes to this threshold; Ability spending is excluded."
+          },
+          {
+            "id": "action-2",
+            "text": "For upgrades that need manuals, collect the corresponding books from activities or buy them from Swordmastery Teachers and Witchcraft Vendors. Use the [manual locations](https://www.powerpyx.com/blood-of-dawnwalker-all-skill-manual-locations/) to find a missing book."
+          },
+          {
+            "id": "action-3",
+            "text": "Reload the saved allocation if you want to spend those points toward the other tree’s Ultimate Perk."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Creature_of_the_Night",
+      "displayName": "Creature of the Night",
+      "description": "Unlock an Ultimate Perk in the Vampirism tree.",
+      "hidden": false,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Purchase one of Vampirism’s Ultimate Perks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Raise @mechanic{Corruption} to 15 by drinking blood, including with Voracious Bite. Feeding at full health still raises Corruption."
+          },
+          {
+            "id": "action-2",
+            "text": "Purchase an Ultimate Perk in Vampirism. This tree does not require the 35-point Perk investment used by Swordmastery and Witchcraft."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_A_Quick_Learner",
+      "displayName": "Glass Ceiling",
+      "description": "Reach Level 50.",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "40–60 h total playtime",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Raise Coen to character level 50.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cleanup can take you past the 30-day deadline, so preserve a separate save for the family-rescue endings.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "After securing the timed family-rescue ending, reload your pre-ending save. Clear remaining quests and Court Activities for experience until level 50; enemies can provide extra experience if needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Miser",
+      "displayName": "Miser",
+      "description": "Accumulate 5000 denarii. What are you planning to buy, mate?",
+      "hidden": false,
+      "globalPercent": 55.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Hold at least 5,000 denarii at one time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Sell unwanted equipment and junk, then postpone large purchases until your current balance reaches 5,000 denarii."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Balanced_Diet",
+      "displayName": "Balanced Diet",
+      "description": "Quench your thirst by drinking 10 animals, humans, or monsters.",
+      "hidden": false,
+      "globalPercent": 84.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Restore health by feeding on animals, humans, or monsters ten times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "At night, feed on wildlife or use @mechanic{Voracious Bite} on enemies while Coen is injured. Accumulate ten feeding uses that restore health; feeding at full health gives no progress."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Practice_Makes_Perfect",
+      "displayName": "Mastery",
+      "description": "Level up one Swordmastery, Witchcraft, or Vampiric Ability to its full potential.",
+      "hidden": false,
+      "globalPercent": 38.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Fully upgrade one Swordmastery, Witchcraft, or Vampirism Ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Choose a colored Ability on the right side of a skill tree and buy every rank. Upgrade an Ability rather than a Perk; Swordmastery and Witchcraft may need manuals, while Vampirism upgrades depend on Corruption."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Unquenchable_Thirst",
+      "displayName": "The Unquenchable Thirst",
+      "description": "Discover the note revealing Vicho’s secret during The Good Samaritan.",
+      "hidden": true,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Discover the note revealing Vicho’s secret during The Good Samaritan.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "At night, visit @npc{Vicho} at his Svartrau house and complete the initial @loc{A Study in Crimson} quest. In the next daytime period, accept The Good Samaritan from the Medic in central Svartrau."
+          },
+          {
+            "id": "action-2",
+            "text": "Accept the delivery to the farm south of Svartrau. Clear the two wolves by the corpse in the field south of the farm, then inspect that corpse in Focus Mode and take the note."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_The_Outcast",
+      "displayName": "The Outcast",
+      "description": "Complete The Heart Wants What It Wants for Ocha.",
+      "hidden": true,
+      "globalPercent": 42.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Complete The Heart Wants What It Wants for Ocha.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Speak to @npc{Ocha} at the corner table in the central Svartrau tavern. Finish @loc{The Heart Wants What It Wants}; any quest outcome counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Eternal_Bliss",
+      "displayName": "Together Forever",
+      "description": "Remain with your family in the Home Sweet Home dream ending.",
+      "hidden": true,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Remain with your family in the Home Sweet Home dream ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep a manual save before opening the top-floor door inside @loc{Silts Tower}. Select “[open the door]” to enter Home Sweet Home."
+          },
+          {
+            "id": "action-2",
+            "text": "Clear four complete dream cycles, defeating both enemy groups and the boss each time. Ignore the well that offers a way out."
+          },
+          {
+            "id": "action-3",
+            "text": "At the fifth cycle’s beginning, speak with your family to remain in the dream. Reload the earlier save when you want to escape and collect the tower’s Flask of Quicksilver."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Tsarinas_Pet",
+      "displayName": "The Tsarina's Favourite Human",
+      "description": "Complete all five sanzhani tasks.",
+      "hidden": true,
+      "globalPercent": 13.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Complete all five sanzhani tasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Good Home unlocks the other four tasks. Letters to Lunka is not required, and the family’s 30-day deadline does not limit this achievement.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Start @loc{Good Home} by following the mushroom lights north of Sandy Gorge Shrine to Heile’s burrow. Find Tonis northeast of the burner camp west of Wooden Palace and bring him back. Persuade him to leave Heile there, or give the Tsarina three shiny teeth to let Heile leave."
+          },
+          {
+            "id": "action-2",
+            "text": "For @loc{Come Hither}, meet the sanzhana north of Verda Marsh Guardpost Shrine. Follow the sanzhana to the burrow, defeat the Murohn, then return."
+          },
+          {
+            "id": "action-3",
+            "text": "For @loc{Burrow Sorrows}, find the sanzhana north of Boarback Trail Shrine. Defeat the kobolds in the burrow, take the charm from the wooden pillar, and return the charm."
+          },
+          {
+            "id": "action-4",
+            "text": "For @loc{Pearly and Precious}, inspect the abandoned camp south of Small Bridge Shrine. Follow the drag marks and footprints with Focus Mode, defeat the bandits, then return to the sanzhana."
+          },
+          {
+            "id": "action-5",
+            "text": "For @loc{Tiny Dancer}, investigate the shop in central Svartrau. Read the Storekeep’s Letter, examine the lute for the Merchant’s Key, and go upstairs. Examine the cage first. Once the objective changes, take the key from the table and release the sanzhana, then loot the floorboards in the other upstairs room to finish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Where_am_I",
+      "displayName": "Realmwalker",
+      "description": "Enter Anachora for the first time.",
+      "hidden": true,
+      "globalPercent": 59.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Enter Anachora for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Drink a defeated boyar’s blood to enter @loc{Anachora}. The realm also appears during Lacra’s route and the second phase of the Brencis fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Antiquarian",
+      "displayName": "Antique Aficionado",
+      "description": "Enter an Ancient Ruins location.",
+      "hidden": true,
+      "globalPercent": 71.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Enter an Ancient Ruins location.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Enter the ruins during @loc{Deep Down} in Laslea, available in the prologue. A later option is the opening in the hill during Xanthe’s Excavations: Unsealed Secrets."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Metropolitan",
+      "displayName": "Big-City Living",
+      "description": "Visit the City of Svartrau.",
+      "hidden": false,
+      "globalPercent": 66.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Enter the city of Svartrau.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Travel into @loc{Svartrau City}, in the centre of the map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Valley_Trotter",
+      "displayName": "Tour Guide Training",
+      "description": "Visit all of Vale Sangora's villages.",
+      "hidden": false,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Visit all eight settlements in Vale Sangora.",
+      "guide": {
+        "kind": "standard",
+        "context": "Uriash Village is blocked until its side quest. The [settlement map](https://www.powerpyx.com/blood-of-dawnwalker-all-village-locations/) shows the eight destinations.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Visit Laslea, the Military Camp, Maragir, Parlita, Svartrau, Tantari, and Oghasti. Look for the three-house settlement icons after the prologue."
+          },
+          {
+            "id": "action-2",
+            "text": "To reach Uriash Village, start A Friend Like This in the alley below Svartrau’s northeast wall. Follow the Focus Mode clues across the rooftops and finish the encounter, then follow Song of the Mountain into the hidden village."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_Smuggler",
+      "displayName": "Smuggler",
+      "description": "Earn 1000 denarii selling silver.",
+      "hidden": false,
+      "globalPercent": 29.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min once available",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "lockoutStage": 2,
+      "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
+      "summary": "Earn a total of 1,000 denarii by selling silver to the silver trader.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep silver loot until Infamy reaches @mechanic{Notorious}, level 4. Sell the silver to the trader in @loc{Svartrau City} until the sales total reaches 1,000 denarii."
+          },
+          {
+            "id": "action-2",
+            "text": "Finish trading while Infamy is below 9, before the gates shut. Keep the silver trader alive; he is the only merchant who handles these sales."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_Antiquarian",
+    "ACH_Dead_Echoes",
+    "ACH_A_Dawnwalker_is_Born",
+    "ACH_Master_of_Defence",
+    "ACH_Balanced_Diet",
+    "ACH_Primal_Instinct",
+    "ACH_Metropolitan",
+    "ACH_Selfish",
+    "ACH_Miser",
+    "ACH_Like_Shadow",
+    "ACH_All_for_Me",
+    "ACH_Smuggler",
+    "ACH_Delivery_Delay",
+    "ACH_The_Right_Fist_of_the_Knyaz",
+    "ACH_The_Mad_Khan",
+    "ACH_The_Dark_Mistress",
+    "ACH_Where_am_I",
+    "ACH_Infamous",
+    "ACH_The_Turncoat",
+    "ACH_In_the_Nick_of_Time",
+    "ACH_Easier_than_Ever",
+    "ACH_The_Blood_of_Dawnwalker",
+    "ACH_The_Coward",
+    "ACH_Nightbloom",
+    "ACH_Always_Hiding",
+    "ACH_Sins_of_the_Past",
+    "ACH_The_Unquenchable_Thirst",
+    "ACH_The_Outcast",
+    "ACH_Valley_Trotter",
+    "ACH_Tsarinas_Pet",
+    "ACH_Eternal_Bliss",
+    "ACH_Arbiters_Blade",
+    "ACH_Arbiters_Regalia",
+    "ACH_Golden",
+    "ACH_The_Omen_Bringer",
+    "ACH_The_Knyazmaker",
+    "ACH_The_Folk_Hero",
+    "ACH_Overkill",
+    "ACH_Burst_like_a_Bubble",
+    "ACH_Capture_the_Flag",
+    "ACH_Stunning_Views",
+    "ACH_Practice_Makes_Perfect",
+    "ACH_Creature_of_the_Night",
+    "ACH_Master_of_Arms",
+    "ACH_Arch_Warlock",
+    "ACH_A_Quick_Learner"
+  ]
+}

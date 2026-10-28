@@ -1,0 +1,1664 @@
+{
+  "game": {
+    "appid": 1092790,
+    "slug": "inscryption",
+    "title": "Inscryption",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-08",
+    "estTotalHours": 35,
+    "difficultyRating": 6,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-10-28"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Act 1 cabin puzzles",
+      "description": "Die once, then open the safe, free the wolf, take the magical eye and find the film roll.",
+      "achievementRefs": [
+        "STORY_PROGRESS_1",
+        "STORY_PROGRESS_2",
+        "STORY_PROGRESS_3",
+        "STORY_PROGRESS_4",
+        "STORY_PROGRESS_5"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Act 1 bosses and optional goals",
+      "description": "Beat the four bosses and earn the optional Act 1 goals. Beat the Angler before Role Reversal, then die once to get the hook.",
+      "achievementRefs": [
+        "PART1_PROSPECTOR",
+        "PART1_ANGLER",
+        "PART1_TRAPPERTRADER",
+        "PART1_LESHY",
+        "PART1_SPECIAL1",
+        "PART1_SPECIAL2",
+        "PART1_SPECIAL3"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Act 2 temples and collection goals",
+      "description": "Start Act 2, clear the four temples, then finish the Dark Offering, card collection and 666 damage goals before Act 3.",
+      "achievementRefs": [
+        "STORY_PROGRESS_6",
+        "PART2_GRIMORA",
+        "PART2_LESHY",
+        "PART2_P03",
+        "PART2_MAGNIFICUS",
+        "PART2_SPECIAL3",
+        "PART2_SPECIAL1",
+        "PART2_SPECIAL2"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Act 3 and the finale",
+      "description": "Clear the Act 3 bosses, handle Agonizing Remorse during the Archivist fight, then finish the story.",
+      "achievementRefs": [
+        "STORY_PROGRESS_7",
+        "PART3_ARCHIVIST",
+        "PART3_PHOTOGRAPHER",
+        "PART3_CANVAS",
+        "PART3_TELEGRAPHER",
+        "STORY_PROGRESS_8",
+        "STORY_PROGRESS_9",
+        "PART3_SPECIAL1",
+        "PART3_SPECIAL2",
+        "PART3_SPECIAL3"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Kaycee's Mod",
+      "description": "Play Kaycee's Mod runs for the challenge levels and the secret goals.",
+      "achievementRefs": [
+        "KMOD_CHALLENGELEVEL1",
+        "KMOD_CHALLENGELEVEL2",
+        "KMOD_CHALLENGELEVEL3",
+        "KMOD_CHALLENGELEVEL4",
+        "KMOD_ALLCHALLENGES",
+        "KMOD_ALLITEMSUNLOCKED",
+        "KMOD_ALLSTARTERSCONQUERED",
+        "KMOD_SPECIAL1",
+        "KMOD_SPECIAL2",
+        "KMOD_SPECIAL3"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "STORY_PROGRESS_1",
+      "displayName": "Blood Artist",
+      "description": "Die for the first time to complete your first death card.",
+      "hidden": true,
+      "globalPercent": 93.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "First run",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "Act 1",
+      "summary": "Die for the first time to complete your first death card.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Lose a run. Your first death completes the death card."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_2",
+      "displayName": "Innocuous Insect",
+      "description": "Free a Stinkbug from the safe in the cabin.",
+      "hidden": true,
+      "globalPercent": 88.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "After first death",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "STORY_PROGRESS_1"
+      ],
+      "summary": "Free a Stinkbug from the safe in the cabin.",
+      "guide": {
+        "kind": "standard",
+        "context": "The rulebook is not available until after your first death. Entering the code before then gives only a hunk of meat.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "After your first death, open the rulebook and find the Mighty Leap sigil page."
+          },
+          {
+            "id": "action-2",
+            "text": "Enter the code from that page on the safe to free the Stinkbug."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_3",
+      "displayName": "Uncage the Menagerie",
+      "description": "Release the wolf statue trapped in the cabin's cage.",
+      "hidden": true,
+      "globalPercent": 79.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Cabin puzzles and a battle",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "STORY_PROGRESS_2"
+      ],
+      "summary": "Release the wolf statue trapped in the cabin's cage.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Open the safe and use the key inside on the cabinet. Solve the drawer puzzle to get the Caged Wolf card."
+          },
+          {
+            "id": "action-2",
+            "text": "Play Caged Wolf in a battle."
+          },
+          {
+            "id": "action-3",
+            "text": "Let it take all 6 points of its health in damage. A sound means the Wolf Statue is free."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_4",
+      "displayName": "Ancestral Vision",
+      "description": "Replace your empty eye socket with a magical eye.",
+      "hidden": true,
+      "globalPercent": 72.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Short",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "STORY_PROGRESS_3"
+      ],
+      "summary": "Replace your empty eye socket with a magical eye.",
+      "guide": {
+        "kind": "standard",
+        "context": "The magical eye choice appears only after you have died at least once.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Place the freed Wolf Statue next to the squirrel statue to get the Special Dagger."
+          },
+          {
+            "id": "action-2",
+            "text": "Use the dagger as an item in a battle."
+          },
+          {
+            "id": "action-3",
+            "text": "Remove your eye and choose the replacement eye with the colored lines."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_5",
+      "displayName": "Reborn Hope",
+      "description": "Find a spare film roll in the cabin.",
+      "hidden": true,
+      "globalPercent": 70.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Short puzzle",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "STORY_PROGRESS_4"
+      ],
+      "summary": "Find a spare film roll in the cabin.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Wearing the magical eye, work out the cuckoo clock puzzle to unlock the clock's lower door."
+          },
+          {
+            "id": "action-2",
+            "text": "Take the Film Roll from inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_LESHY",
+      "displayName": "Enduring Victory",
+      "description": "Defeat Leshy in the final boss battle of Act 1.",
+      "hidden": true,
+      "globalPercent": 70.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "One boss fight",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "PART1_TRAPPERTRADER"
+      ],
+      "summary": "Defeat Leshy in the final boss battle of Act 1.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the fourth boss battle of Act 1 against Leshy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_6",
+      "displayName": "Renewal",
+      "description": "Begin Act 2.",
+      "hidden": true,
+      "globalPercent": 64.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Story",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "PART1_LESHY"
+      ],
+      "summary": "Begin Act 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Defeat Leshy to finish Act 1, then continue the story until Act 2 starts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_GRIMORA",
+      "displayName": "Doomed Necromancer",
+      "description": "Complete the Temple of the Dead.",
+      "hidden": true,
+      "globalPercent": 54.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Temple",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "STORY_PROGRESS_6"
+      ],
+      "summary": "Complete the Temple of the Dead.",
+      "guide": {
+        "kind": "standard",
+        "context": "Grimora's Crypt makes you beat three enemies before Grimora. Each one needs the pieces of their headstone placed correctly, so remember what they tell you.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Place each enemy's headstone pieces as their clues describe, then defeat the three enemies."
+          },
+          {
+            "id": "action-2",
+            "text": "Defeat Grimora."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_LESHY",
+      "displayName": "Avenging Druid",
+      "description": "Complete the Temple of Beasts.",
+      "hidden": true,
+      "globalPercent": 55.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Temple",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "STORY_PROGRESS_6"
+      ],
+      "summary": "Complete the Temple of Beasts.",
+      "guide": {
+        "kind": "standard",
+        "context": "You must defeat The Prospector, then The Angler, then The Trapper before you can fight Leshy.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Speak to Leshy to get a replica of his camera."
+          },
+          {
+            "id": "action-2",
+            "text": "For The Prospector, enter code 273 (the bloody numbers by the pet bowl outside the cabin) on the safe, put the meat in the bowl, and photograph the Bloodhound. Show him the photo and defeat him."
+          },
+          {
+            "id": "action-3",
+            "text": "For The Angler, take a picture of the bait, hang it on the fishing line, then take a picture of the big fish. Show him that photo and beat him."
+          },
+          {
+            "id": "action-4",
+            "text": "For The Trapper, photograph a pelt found past The Angler. Show the photo to The Trader in the cabin's right-side room, then defeat him as The Trapper."
+          },
+          {
+            "id": "action-5",
+            "text": "Challenge and defeat Leshy."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_P03",
+      "displayName": "Accomplished Automaton",
+      "description": "Complete the Temple of Technology.",
+      "hidden": true,
+      "globalPercent": 52.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "Temple",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "STORY_PROGRESS_6"
+      ],
+      "summary": "Complete the Temple of Technology.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Solve the conduit puzzles and beat each of P03's three employees in turn: Inspector, Melter, Dredger."
+          },
+          {
+            "id": "action-2",
+            "text": "Defeat P03."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_MAGNIFICUS",
+      "displayName": "Wizard Mentor",
+      "description": "Complete the Temple of Magicks.",
+      "hidden": true,
+      "globalPercent": 51.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Temple puzzles",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "STORY_PROGRESS_6"
+      ],
+      "summary": "Complete the Temple of Magicks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Floor 1: put on the monocle from the table, read the note, and set the totem sigils to Ruby Heart, Airborne, Ruby Heart."
+          },
+          {
+            "id": "action-2",
+            "text": "Floor 2: fight the Training Dummy and damage the practice mages one at a time. Set the totem to Ruby Heart, Hefty, Airborne."
+          },
+          {
+            "id": "action-3",
+            "text": "Floor 3: find three hints. Inspect the chest a second time for the top one, check the secret space at the room's top left for the middle one, and look at the sound options in the settings menu for the bottom one. Set the totem to Airborne, Ruby Heart, Bone Digger."
+          },
+          {
+            "id": "action-4",
+            "text": "Defeat the wizard."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_PROSPECTOR",
+      "displayName": "Miner's Bane",
+      "description": "Defeat The Prospector.",
+      "hidden": false,
+      "globalPercent": 90.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "One boss fight",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "Act 1",
+      "summary": "Defeat The Prospector.",
+      "guide": {
+        "kind": "standard",
+        "context": "In phase 2 your cards turn into gold nuggets, which cannot be sacrificed. Avoid ending phase 1 with many cards on the board.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win both phases of the first boss battle of Act 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_ANGLER",
+      "displayName": "Grizzled Angler",
+      "description": "Defeat The Angler.",
+      "hidden": false,
+      "globalPercent": 81.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "One boss fight",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "PART1_PROSPECTOR"
+      ],
+      "summary": "Defeat The Angler.",
+      "guide": {
+        "kind": "standard",
+        "context": "His cards submerge on your turn and cannot be attacked. In phase 2, each of your cards gets a bait bucket that becomes a Great White (2 health, 4 damage) when struck. Airborne cards deal with them quickly.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the second boss battle of Act 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_TRAPPERTRADER",
+      "displayName": "Face to Face",
+      "description": "Defeat The Trapper and The Trader.",
+      "hidden": true,
+      "globalPercent": 72.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "One boss fight",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "PART1_ANGLER"
+      ],
+      "summary": "Defeat The Trapper and The Trader.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pelts you hold can buy cards off The Trader when he steps in, which limits the cards used against you.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the battle that starts against The Trapper and continues against The Trader."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_SPECIAL1",
+      "displayName": "Squirrel Wrangler",
+      "description": "Win a battle with damage from Squirrels.",
+      "hidden": false,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "During a normal run",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "Act 1",
+      "summary": "Win a battle with damage dealt by Squirrels.",
+      "guide": {
+        "kind": "standard",
+        "context": "An Amalgam counts as a Squirrel because it belongs to every creature type.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Get an Amalgam card as a boss reward or by trading golden pelts, then win a battle using its damage."
+          },
+          {
+            "id": "action-2",
+            "text": "Or build a totem that gives your Squirrels a sigil that grows their power, and win with their damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_SPECIAL2",
+      "displayName": "Gruesome Encore",
+      "description": "Allow The Mycologists to experiment on a creature that is already itself an experiment.",
+      "hidden": false,
+      "globalPercent": 25.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "May take several runs",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "unverified",
+      "group": "Act 1",
+      "summary": "Have The Mycologists experiment again on a creature they already experimented on.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Mycologists can show up after you defeat The Prospector, and more often after The Angler.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Hold three copies of the same card if you can. Pick cards you already own, and take the Pack Rat card from the backpack event on the map."
+          },
+          {
+            "id": "action-2",
+            "text": "At a Mycologists event, let them experiment on your copies of that card."
+          },
+          {
+            "id": "action-3",
+            "text": "At a later Mycologists event, let them experiment on that experimented creature a second time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART1_SPECIAL3",
+      "displayName": "Role Reversal",
+      "description": "Steal back one of your creatures from The Angler.",
+      "hidden": false,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Needs two runs",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "Act 1",
+      "prerequisites": [
+        "PART1_ANGLER"
+      ],
+      "summary": "Take back a creature that The Angler stole from you.",
+      "guide": {
+        "kind": "standard",
+        "context": "You get the Hook at the start of a run after you beat The Angler once and then lose a run.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Defeat The Angler once, then lose a run."
+          },
+          {
+            "id": "action-2",
+            "text": "In the next Angler fight, wait until he steals one of your creatures."
+          },
+          {
+            "id": "action-3",
+            "text": "On your turn in the battle's first stage, use the Hook on the stolen creature."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_7",
+      "displayName": "Balance of Power",
+      "description": "Let P03 take control of Inscryption.",
+      "hidden": true,
+      "globalPercent": 51.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Story",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "PART2_P03"
+      ],
+      "summary": "Let P03 take control of Inscryption.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Continue the story at the start of Act 3 until P03 takes control."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_ARCHIVIST",
+      "displayName": "Rank and File",
+      "description": "Defeat The Archivist.",
+      "hidden": true,
+      "globalPercent": 44.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Boss fight",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "summary": "Defeat The Archivist.",
+      "guide": {
+        "kind": "standard",
+        "context": "Prepare for Agonizing Remorse before this fight if you want both achievements in one go.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the battle against The Archivist in Botopia."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_PHOTOGRAPHER",
+      "displayName": "Essence Capture",
+      "description": "Defeat The Photographer.",
+      "hidden": true,
+      "globalPercent": 43.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Boss fight",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "summary": "Defeat The Photographer.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Shutterbug resource photographs the cards on the board. Your latest photo can replace a later board that is going badly.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the battle against The Photographer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_CANVAS",
+      "displayName": "Painter's Servant",
+      "description": "Defeat The Unfinished Boss.",
+      "hidden": true,
+      "globalPercent": 42.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Boss fight",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "summary": "Defeat The Unfinished Boss.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the battle against The Unfinished Boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_TELEGRAPHER",
+      "displayName": "Natural Connection",
+      "description": "Defeat G0lly.",
+      "hidden": true,
+      "globalPercent": 41.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Boss fight",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "summary": "Defeat G0lly.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win the battle against G0lly."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_8",
+      "displayName": "Murder",
+      "description": "Witness the death of P03.",
+      "hidden": true,
+      "globalPercent": 41.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Story",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "PART3_TELEGRAPHER"
+      ],
+      "summary": "Witness the death of P03.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Continue the Act 3 story until P03 dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STORY_PROGRESS_9",
+      "displayName": "Dramatic Finale",
+      "description": "Complete the finale of Inscryption.",
+      "hidden": true,
+      "globalPercent": 41.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Story",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_8"
+      ],
+      "summary": "Complete the finale of Inscryption.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Play through the ending until the story is complete."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_SPECIAL1",
+      "displayName": "Collective Effort",
+      "description": "Own every card in the original game of Inscryption.",
+      "hidden": true,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Card collecting",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "PART2_SPECIAL3"
+      ],
+      "summary": "Own every card in the original game of Inscryption.",
+      "guide": {
+        "kind": "standard",
+        "context": "The card catalog in the Magicks tower shows which cards you are missing.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Open every card pack you find, and buy more with money from hitting the Training Dummy to fill gaps in the catalog."
+          },
+          {
+            "id": "action-2",
+            "text": "Drowned Soul: interact with the well in the Temple of the Dead a second time."
+          },
+          {
+            "id": "action-3",
+            "text": "Great Kraken: click the tentacle in the bathtub on the tower's third floor (seen in the mirror) and the tentacle on the docks to the left just before Leshy's Temple."
+          },
+          {
+            "id": "action-4",
+            "text": "Bone Lord's Horn: finish the Dark Offering goal."
+          },
+          {
+            "id": "action-5",
+            "text": "Mycologists cards: The Mycologists combine 4 pairs of cards into new cards. Those pair cards are sold in each faction's shop, in the bottom-left option. Scroll through its choices to find them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_SPECIAL2",
+      "displayName": "Devil's Play",
+      "description": "Deal more than 666 damage in the original Inscryption.",
+      "hidden": true,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "Hundreds of clicks",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "PART2_SPECIAL3"
+      ],
+      "summary": "Deal more than 666 damage in the original Inscryption.",
+      "guide": {
+        "kind": "standard",
+        "context": "This takes about 1,100 clicks in total, so do it in a Training Dummy fight where nothing can stop you.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Get the Bone Lord's Horn card by finishing the Dark Offering goal. Add it, Bone Heap, Null Conduit and Energy Conduit to your deck."
+          },
+          {
+            "id": "action-2",
+            "text": "In a Training Dummy fight, arrange the board as: Null Conduit, then Bone Lord's Horn, then Energy Conduit, then Bone Heap."
+          },
+          {
+            "id": "action-3",
+            "text": "Click the horn about 445 times, then click the Bone Heap about 667 times, until its power is over 666."
+          },
+          {
+            "id": "action-4",
+            "text": "Attack with the Bone Heap."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART2_SPECIAL3",
+      "displayName": "Dark Offering",
+      "description": "Offer an Ancient Obol to The Bonelord.",
+      "hidden": true,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Needs luck with cards",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "Act 2",
+      "prerequisites": [
+        "PART2_GRIMORA"
+      ],
+      "summary": "Offer an Ancient Obol to The Bonelord.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Get a left Broken Obol card and a right Broken Obol card from the Temple of the Dead and add both to your deck."
+          },
+          {
+            "id": "action-2",
+            "text": "In a battle, play the two halves next to each other so they join into the Ancient Obol. The Training Dummy fight on the second floor of the Temple of Magicks is an easy place for this."
+          },
+          {
+            "id": "action-3",
+            "text": "Take the Ancient Obol to the tomb downstairs in the Temple of the Dead and offer it to The Bonelord. Talk to him twice."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_SPECIAL1",
+      "displayName": "Forgotten Lore",
+      "description": "Trade your five Holo Pelts to The Trader in P03's factory and take every card.",
+      "hidden": true,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Exploration",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "unverified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "summary": "Trade your five Holo Pelts to The Trader in P03's factory and take every card.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hidden arrows appear when you move the cursor along the edges of the screen in an area.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Hit the lock to the left of G0lly's table, then step back. The door on your left now leads to The Trader."
+          },
+          {
+            "id": "action-2",
+            "text": "Pelt 1: buy a Holo Pelt for 22 Robobucks at the Botopia store, which sits south of Central Botopia."
+          },
+          {
+            "id": "action-3",
+            "text": "Pelt 2: leave the store and head left. Move your cursor along the bottom of the screen to find the hidden down arrow."
+          },
+          {
+            "id": "action-4",
+            "text": "Pelt 3: in Foul Backwater, go up from The Prospector until you cannot go further north, then take the hidden right arrow."
+          },
+          {
+            "id": "action-5",
+            "text": "Pelt 4: at the Western Botopia waypoint, go down until P03 upgrades your Empty Vessels, then go as far right as you can and down."
+          },
+          {
+            "id": "action-6",
+            "text": "Pelt 5: in Filthy Corpse World, find the room you can reach only by trading with P03. It is two rooms left of the area's entrance."
+          },
+          {
+            "id": "action-7",
+            "text": "Trade all 5 Holo Pelts to The Trader for the 5 cards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_SPECIAL2",
+      "displayName": "Grim Bounty",
+      "description": "Destroy the card of a Level 3 Bounty Hunter in battle.",
+      "hidden": true,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Fights and farming",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "summary": "Destroy the card of a Level 3 Bounty Hunter in battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Winning the fight is not enough; the Bounty Hunter's own card must be destroyed.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Win fights without dying until your bounty reaches 3 stars. To find more fights, leave an area and return so enemies respawn."
+          },
+          {
+            "id": "action-2",
+            "text": "When a Bounty Hunter appears, destroy their card. The bomb remote's board wipe, explosive bots, or an Ouroboros with the Sniper upgrade can help."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PART3_SPECIAL3",
+      "displayName": "Agonizing Remorse",
+      "description": "Delete the file The Archivist holds captive after it dies in the fight.",
+      "hidden": true,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "During the Archivist fight",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "group": "Act 3",
+      "prerequisites": [
+        "STORY_PROGRESS_7"
+      ],
+      "lockoutStage": 4,
+      "summary": "Delete the file The Archivist holds captive after it dies in the fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement name is misleading. You delete a real file on your computer. Pick a throwaway file, never an important one. If you miss it, fight The Archivist again.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Before the fight, create a .txt file with an easy-to-spot name and note which folder it is in."
+          },
+          {
+            "id": "action-2",
+            "text": "In The Archivist's second phase, choose that file when asked for the captive file."
+          },
+          {
+            "id": "action-3",
+            "text": "Let the card made from your file die."
+          },
+          {
+            "id": "action-4",
+            "text": "Delete the file yourself outside the game, and delete the copy ending in DELETED that the game leaves."
+          },
+          {
+            "id": "action-5",
+            "text": "Do this before you pick up the Empty Vessel upgrade after the fight. P03 comments and the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_CHALLENGELEVEL1",
+      "displayName": "Dubious Challenge",
+      "description": "Clear Challenge Level 1 in Kaycee's Mod.",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "One run",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "summary": "Finish a Kaycee's Mod run at challenge level 1.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Start a run with at least one challenge turned on and finish it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_CHALLENGELEVEL2",
+      "displayName": "Taunting Challenge",
+      "description": "Clear Challenge Level 4 in Kaycee's Mod.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "Several runs",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "prerequisites": [
+        "KMOD_CHALLENGELEVEL1"
+      ],
+      "summary": "Finish Kaycee's Mod runs up to challenge level 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each completed run with the Challenge Point bar full raises your challenge level.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Before each run, turn on enough challenges to fill the Challenge Point bar."
+          },
+          {
+            "id": "action-2",
+            "text": "Complete runs this way until you have cleared level 4."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_CHALLENGELEVEL3",
+      "displayName": "Roar of Challenge",
+      "description": "Clear Challenge Level 8 in Kaycee's Mod.",
+      "hidden": false,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "Many runs",
+      "estMinutes": 480,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "prerequisites": [
+        "KMOD_CHALLENGELEVEL2"
+      ],
+      "summary": "Finish Kaycee's Mod runs up to challenge level 8.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each completed run with the Challenge Point bar full raises your challenge level.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Before each run, turn on enough challenges to fill the Challenge Point bar."
+          },
+          {
+            "id": "action-2",
+            "text": "Complete runs this way until you have cleared level 8."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_CHALLENGELEVEL4",
+      "displayName": "Rise to the Challenge",
+      "description": "Clear Challenge Level 12 in Kaycee's Mod.",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "Many runs",
+      "estMinutes": 720,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "prerequisites": [
+        "KMOD_CHALLENGELEVEL3"
+      ],
+      "summary": "Finish Kaycee's Mod runs up to challenge level 12.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each completed run with the Challenge Point bar full raises your challenge level.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Before each run, turn on enough challenges to fill the Challenge Point bar."
+          },
+          {
+            "id": "action-2",
+            "text": "Complete runs this way until you have cleared level 12."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_ALLCHALLENGES",
+      "displayName": "Skull Storm",
+      "description": "Complete a run in Kaycee's Mod with every challenge turned on.",
+      "hidden": true,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "Very hard run",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "prerequisites": [
+        "KMOD_CHALLENGELEVEL4"
+      ],
+      "summary": "Complete a run in Kaycee's Mod with every challenge turned on.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Turn on every challenge before the run starts."
+          },
+          {
+            "id": "action-2",
+            "text": "Finish the run. Use a starter deck you know well."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_ALLITEMSUNLOCKED",
+      "displayName": "Master Trinketeer",
+      "description": "Collect all three items from the painting in Kaycee's Mod.",
+      "hidden": true,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "Three runs",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "summary": "Collect all three items from the painting in Kaycee's Mod.",
+      "guide": {
+        "kind": "standard",
+        "context": "The items are Magickal Bleach, Wiseclock and Magpie's Glass. You can claim one per run.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Look at the oil painting by the safe. It shows two cards."
+          },
+          {
+            "id": "action-2",
+            "text": "In a battle, put both of those cards on your side of the board in the same left-to-right arrangement. A sound confirms it."
+          },
+          {
+            "id": "action-3",
+            "text": "After the battle, sit back down and take the item that now appears in the painting."
+          },
+          {
+            "id": "action-4",
+            "text": "Repeat in two more runs until you have all three items."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_ALLSTARTERSCONQUERED",
+      "displayName": "Start // Finish",
+      "description": "Complete a run in Kaycee's Mod with every starter deck.",
+      "hidden": true,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "One run per starter deck",
+      "estMinutes": 360,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "summary": "Complete a run in Kaycee's Mod with every starter deck.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Finish one run with each starter deck, one deck at a time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_SPECIAL1",
+      "displayName": "Rookie Mistake",
+      "description": "Misplay 10 times during one Kaycee's Mod run.",
+      "hidden": true,
+      "globalPercent": 22.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "One run",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "summary": "Misplay 10 times during one Kaycee's Mod run.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Keep making misplays in one run. The stats menu shows your misplay count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_SPECIAL2",
+      "displayName": "Pulling Teeth",
+      "description": "Extract 32 teeth while playing Kaycee's Mod.",
+      "hidden": true,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "Across runs",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "summary": "Extract 32 teeth while playing Kaycee's Mod.",
+      "guide": {
+        "kind": "standard",
+        "context": "Teeth pulled in different runs add up.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Use the Pliers pack item to pull teeth until you reach 32."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KMOD_SPECIAL3",
+      "displayName": "Bad Moon",
+      "description": "Beat Leshy in Kaycee's Mod while leaving The Moon intact.",
+      "hidden": true,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "One run",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "group": "Kaycee's Mod",
+      "prerequisites": [
+        "KMOD_ALLITEMSUNLOCKED"
+      ],
+      "summary": "Beat Leshy in Kaycee's Mod while leaving The Moon intact.",
+      "guide": {
+        "kind": "standard",
+        "context": "The fan item helps your cards deal enough damage in a single turn.",
+        "steps": [
+          {
+            "id": "action-1",
+            "text": "Get Magickal Bleach from the oil painting (see Master Trinketeer)."
+          },
+          {
+            "id": "action-2",
+            "text": "Use it on The Moon in the Leshy fight to remove its sigils."
+          },
+          {
+            "id": "action-3",
+            "text": "Attack Leshy directly with Airborne cards until he is defeated."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "STORY_PROGRESS_1",
+    "STORY_PROGRESS_2",
+    "STORY_PROGRESS_3",
+    "STORY_PROGRESS_4",
+    "STORY_PROGRESS_5",
+    "PART1_PROSPECTOR",
+    "PART1_ANGLER",
+    "PART1_TRAPPERTRADER",
+    "PART1_SPECIAL1",
+    "PART1_LESHY",
+    "PART1_SPECIAL2",
+    "PART1_SPECIAL3",
+    "STORY_PROGRESS_6",
+    "PART2_LESHY",
+    "PART2_P03",
+    "PART2_GRIMORA",
+    "PART2_MAGNIFICUS",
+    "PART2_SPECIAL3",
+    "PART2_SPECIAL1",
+    "PART2_SPECIAL2",
+    "STORY_PROGRESS_7",
+    "PART3_SPECIAL3",
+    "PART3_ARCHIVIST",
+    "PART3_PHOTOGRAPHER",
+    "PART3_CANVAS",
+    "PART3_TELEGRAPHER",
+    "STORY_PROGRESS_8",
+    "STORY_PROGRESS_9",
+    "PART3_SPECIAL1",
+    "PART3_SPECIAL2",
+    "KMOD_SPECIAL1",
+    "KMOD_CHALLENGELEVEL1",
+    "KMOD_SPECIAL2",
+    "KMOD_ALLITEMSUNLOCKED",
+    "KMOD_SPECIAL3",
+    "KMOD_CHALLENGELEVEL2",
+    "KMOD_ALLSTARTERSCONQUERED",
+    "KMOD_CHALLENGELEVEL3",
+    "KMOD_CHALLENGELEVEL4",
+    "KMOD_ALLCHALLENGES"
+  ]
+}

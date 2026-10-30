@@ -1,0 +1,622 @@
+{
+  "game": {
+    "appid": 1373960,
+    "slug": "indika",
+    "title": "INDIKA",
+    "version": "1.0",
+    "lastPatchChecked": "2025-09-29",
+    "estTotalHours": 4,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-30"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Monastery and Tihon",
+      "description": "Knock down the ladder, drown five times in the river, take the icon, and finish the cave on one prayer.",
+      "achievementRefs": [
+        "Monastery_DropLadder",
+        "Village_Sinking",
+        "Cave_TakeItem",
+        "Cave_OnePray"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Train Wreck and Mill",
+      "description": "Pray for the dying man, shake the safe five times, and pray in the mill during the dog chase.",
+      "achievementRefs": [
+        "Pray_forDying",
+        "Village_ShakePiano",
+        "Dog_Pray"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Station and Fish Factory",
+      "description": "Smash every crate with the crane, then fall in the fish dryer five times, restart, and cross it without falling.",
+      "achievementRefs": [
+        "Station_DestoyAllBox",
+        "BeforeVat_FishDeath",
+        "BeforeVat_OneTry",
+        "GettingDry_Shameless"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Story, Pond and Spasov",
+      "description": "Finish the Stroboscopic Effect chapter, drown ten times in the frog pond, and find both bast shoes.",
+      "achievementRefs": [
+        "Game_CutHand",
+        "LakePuzzle_FrogDeath",
+        "Lapti"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Cathedral and Pawnshop",
+      "description": "Find the book on the scaffolds, then finish the game and watch the credits.",
+      "achievementRefs": [
+        "Item_beforeBatz",
+        "Game_FullWalktrought"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "Monastery_DropLadder",
+      "displayName": "Sisterly love",
+      "description": "Knock the ladder down in the Monastery.",
+      "hidden": true,
+      "globalPercent": 31.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2-5 min",
+      "estMinutes": 4,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Make the wooden ladder on the piano fall in the @loc{Monastery} by climbing the stack of chairs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "climb-chairs",
+            "text": "In the @loc{Monastery} room where a wooden ladder sits on a piano, climb the piano, then climb the stack of chairs next to it until the ladder falls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Cave_TakeItem",
+      "displayName": "Portaitissa",
+      "description": "Find the icon above the cave entrance.",
+      "hidden": true,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-5 min",
+      "estMinutes": 4,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Take the icon from the ledge above the cave entrance in @loc{Tihon}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "take-ladder",
+            "text": "After crossing the river, enter the cave and take the ladder that leans on the wall to the right of the bars."
+          },
+          {
+            "id": "lean-ladder",
+            "text": "Carry the ladder out and lean it on the wall beside the cave entrance."
+          },
+          {
+            "id": "take-icon",
+            "text": "Climb up and interact with the icon on the ledge above the entrance."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Cave_OnePray",
+      "displayName": "True virtue",
+      "description": "Get through the cave while praying only once.",
+      "hidden": true,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10-20 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Get through the cave in @loc{Tihon} by praying only once.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement means praying only once, not finishing within a time limit. Do not pray when the game first asks you to inside the @mechanic{Demonic Realm}.",
+        "steps": [
+          {
+            "id": "ladder-bars",
+            "text": "Use the ladder to climb over the bars, then go through the mine to the elevator."
+          },
+          {
+            "id": "skip-prompt",
+            "text": "When the world turns red, ignore the prompt to pray. Go back the way you came and climb the stack of crates."
+          },
+          {
+            "id": "cross-gap",
+            "text": "Turn around, hold pray once, and cross the gap while still holding it. Then let go and do not pray again."
+          },
+          {
+            "id": "finish-cave",
+            "text": "Climb up, then back down on the far side. The achievement unlocks after you climb down."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Village_ShakePiano",
+      "displayName": "Rachmaninoff",
+      "description": "Hit the piano against the wall 5 times.",
+      "hidden": true,
+      "globalPercent": 51.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-5 min",
+      "estMinutes": 4,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Make the piano in the @loc{Train Wreck} house hit the wall 5 times by moving the safe upstairs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find-safe",
+            "text": "Follow the main path to the house and go to the top floor, where the safe is."
+          },
+          {
+            "id": "move-safe",
+            "text": "Push the safe from one corner to another. Each move makes the piano below hit a wall. Repeat until the piano has hit 5 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Station_DestoyAllBox",
+      "displayName": "Meticulousness",
+      "description": "Destroy every box at the station.",
+      "hidden": true,
+      "globalPercent": 14.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 min",
+      "estMinutes": 7,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Destroy every crate around the crane route at the @loc{Station}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement unlocks while you use the crane. If it has not unlocked by the end of the crane section, you missed a crate. Replay the chapter from chapter select.",
+        "steps": [
+          {
+            "id": "lower-container",
+            "text": "While riding the crane through the @loc{Station}, lower the container onto every wooden crate below, including crates hidden under train carriages."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LakePuzzle_FrogDeath",
+      "displayName": "Desire for a kiss",
+      "description": "Drown in the frog pond 10 times.",
+      "hidden": true,
+      "globalPercent": 50.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-5 min",
+      "estMinutes": 4,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Drown 10 times in the frog water of the @loc{Pond} chapter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "drown-ten",
+            "text": "In the @loc{Pond}, jump into the frog pond water 10 times to drown."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Village_Sinking",
+      "displayName": "Unholy water",
+      "description": "Drown in the river in Tihon.",
+      "hidden": true,
+      "globalPercent": 11.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-5 min",
+      "estMinutes": 4,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Drown in the river 5 times in @loc{Tihon}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find-river",
+            "text": "After leaving the @loc{Monastery}, go left and down the stairs to the cabin. The river is next to it."
+          },
+          {
+            "id": "drown-five",
+            "text": "Jump into the river 5 times to drown. Do this before you cross with the ferry."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BeforeVat_FishDeath",
+      "displayName": "Bream",
+      "description": "Fall into the fish dryer 5 times.",
+      "hidden": true,
+      "globalPercent": 19.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3-5 min",
+      "estMinutes": 4,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Fall off the platforms into the fish dryer 5 times in the @loc{Fish Factory}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do this before the no-fall achievement. You cannot earn both in one run.",
+        "steps": [
+          {
+            "id": "fall-five",
+            "text": "At the first fish dryer room near the start of the @loc{Fish Factory}, let yourself fall off the platforms 5 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BeforeVat_OneTry",
+      "displayName": "Like shooting fish in a barrel",
+      "description": "Cross the fish dryer without falling.",
+      "hidden": true,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10-25 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Cross the whole fish dryer section of the @loc{Fish Factory} without falling once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Earn the 5-fall achievement first, then restart the chapter from chapter select. The achievement unlocks when you drop into the water at the end of the section.",
+        "steps": [
+          {
+            "id": "restart-chapter",
+            "text": "Restart the @loc{Fish Factory} chapter."
+          },
+          {
+            "id": "follow-ilya",
+            "text": "Follow @npc{Ilya} closely and jump off each platform when he does. Slip between the hanging fish where they leave openings."
+          },
+          {
+            "id": "giant-fish",
+            "text": "In the second dryer room, walk to the tail gap of the giant fish. Indika crouches on her own."
+          },
+          {
+            "id": "finish-dryer",
+            "text": "Continue until the story drops you into the water. Do not fall before that."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GettingDry_Shameless",
+      "displayName": "Abstinence",
+      "description": "Finish the Fish Factory story scene.",
+      "hidden": true,
+      "globalPercent": 62.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach the drying-clothes scene that ends the @loc{Fish Factory} chapter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "story-end",
+            "text": "Play through the @loc{Fish Factory} to the end. The achievement unlocks during the story scene and cannot be missed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Game_CutHand",
+      "displayName": "John of Damascus",
+      "description": "Reach the scene where Ilya's hand is cut off.",
+      "hidden": true,
+      "globalPercent": 59.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 0,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Watch the scene in the @loc{Stroboscopic Effect} chapter where @npc{Ilya}'s hand is cut off.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "story-end",
+            "text": "Play through the @loc{Stroboscopic Effect} chapter. The achievement unlocks in the story scene and cannot be missed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Lapti",
+      "displayName": "A matching pair",
+      "description": "Find both bast shoes.",
+      "hidden": true,
+      "globalPercent": 11.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 min",
+      "estMinutes": 7,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Find both bast shoes in the @loc{Spasov} chapter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first-shoe",
+            "text": "Climb the elevator shaft. Before going outside, pull the lever to raise the elevator all the way, then climb to the very top and take the first @item{bast shoe}."
+          },
+          {
+            "id": "second-shoe",
+            "text": "Go outside and cross the wooden beam to the balcony. Drop down onto it and take the second @item{bast shoe}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Game_FullWalktrought",
+      "displayName": "Kudets",
+      "description": "Finish the game.",
+      "hidden": true,
+      "globalPercent": 35.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 0,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Finish the game by completing the @loc{Pawnshop} chapter and watching the credits.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do not skip the credits. Skipping them can stop the achievement from unlocking.",
+        "steps": [
+          {
+            "id": "finish-pawnshop",
+            "text": "Play through the @loc{Pawnshop} chapter to the end."
+          },
+          {
+            "id": "watch-credits",
+            "text": "Let the full credits play, including the short scene after them, without skipping."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Item_beforeBatz",
+      "displayName": "Anecdote",
+      "description": "Find the indecent book.",
+      "hidden": true,
+      "globalPercent": 15.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 min",
+      "estMinutes": 7,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Find the indecent book next to the chair on the upper scaffolds in the @loc{Cathedral of John of Damascus}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "follow-scaffolds",
+            "text": "Early in the chapter, follow @npc{Ilya} up the scaffolds to the upper levels."
+          },
+          {
+            "id": "take-book",
+            "text": "Find the chair on an upper level of the scaffolds and take the book beside it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Pray_forDying",
+      "displayName": "Tribute to the deceased",
+      "description": "Pray for the dying man at the wrecked train.",
+      "hidden": true,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1-2 min",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pray beside the man impaled on the wrecked train in @loc{Train Wreck}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pray-man",
+            "text": "After the opening cutscene, walk to the impaled man and hold the pray button (right mouse button on PC) while facing him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Dog_Pray",
+      "displayName": "Piety",
+      "description": "Pray while the dog chases you.",
+      "hidden": true,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5-10 min",
+      "estMinutes": 7,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pray at the icon in the corner of the safe room during the dog chase in the @loc{Mill}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The room is the one the dog tries to break into during the chase.",
+        "steps": [
+          {
+            "id": "push-table",
+            "text": "In the safe room, push the table into a corner and climb onto it."
+          },
+          {
+            "id": "pray-icon",
+            "text": "Face the icon high in the corner and hold the pray button (right mouse button on PC)."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Monastery_DropLadder",
+    "Village_Sinking",
+    "Cave_TakeItem",
+    "Cave_OnePray",
+    "Pray_forDying",
+    "Village_ShakePiano",
+    "Dog_Pray",
+    "Station_DestoyAllBox",
+    "BeforeVat_FishDeath",
+    "BeforeVat_OneTry",
+    "GettingDry_Shameless",
+    "Game_CutHand",
+    "LakePuzzle_FrogDeath",
+    "Lapti",
+    "Item_beforeBatz",
+    "Game_FullWalktrought"
+  ]
+}

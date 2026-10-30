@@ -1,0 +1,630 @@
+{
+  "game": {
+    "appid": 431960,
+    "slug": "wallpaper-engine",
+    "title": "Wallpaper Engine",
+    "version": "1.0",
+    "lastPatchChecked": "2026-06-29",
+    "estTotalHours": 1,
+    "difficultyRating": 1,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-10-30"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Browse Workshop wallpapers",
+      "description": "Subscribe to 100 different wallpapers and favorite 50. Apply a Workshop wallpaper and use the tray menu to take a screenshot.",
+      "achievementRefs": [
+        "SUBSCRIBE_10_WALLPAPERS",
+        "SUBSCRIBE_25_WALLPAPERS",
+        "SUBSCRIBE_50_WALLPAPERS",
+        "SUBSCRIBE_100_WALLPAPERS",
+        "FAVORITE_10_WALLPAPERS",
+        "FAVORITE_25_WALLPAPERS",
+        "FAVORITE_50_WALLPAPERS",
+        "FAVORITE_100_WALLPAPERS",
+        "SCREENSHOT_WITH_WORKSHOP_WALLPAPER"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Finish the local unlocks",
+      "description": "Enter the About-tab code, create projects from both scene templates, import a local application, and trigger the editor warnings.",
+      "achievementRefs": [
+        "KON_CODE",
+        "USE_TEMPLATE_2D",
+        "USE_TEMPLATE_3D",
+        "POST_APP_WALLPAPER",
+        "PEST"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Publish three wallpaper types",
+      "description": "Upload one scene wallpaper, one video wallpaper, and one HTML wallpaper to the Workshop.",
+      "achievementRefs": [
+        "POST_SCENE_WALLPAPER",
+        "POST_VIDEO_WALLPAPER",
+        "POST_WEB_WALLPAPER"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "POST_SCENE_WALLPAPER",
+      "displayName": "High aspirations",
+      "description": "Post a scene wallpaper to the Workshop.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upload a scene wallpaper to the Steam Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "create-scene",
+            "text": "Open @mechanic{Wallpaper Editor} > @mechanic{Use a Template}. Choose @mechanic{3D Scene}, name the project, and confirm."
+          },
+          {
+            "id": "publish-wallpaper",
+            "text": "Choose @mechanic{Workshop} > @mechanic{Share Wallpaper on Workshop} (also called @mechanic{Prepare for publishing}). Fill in the title and description, choose a genre and age rating, and add a preview image. Click @mechanic{Publish}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "POST_VIDEO_WALLPAPER",
+      "displayName": "Video makers",
+      "description": "Post a video wallpaper to the Workshop.",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "4 min",
+      "estMinutes": 4,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upload a video wallpaper to the Steam Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "import-video",
+            "text": "Open @mechanic{Wallpaper Editor} and drag an @item{.mp4} video onto @mechanic{Create Wallpaper}. Confirm the import."
+          },
+          {
+            "id": "publish-wallpaper",
+            "text": "Choose @mechanic{Workshop} > @mechanic{Share Wallpaper on Workshop} (also called @mechanic{Prepare for publishing}). Fill in the title and description, choose a genre and age rating, and add a preview image. Click @mechanic{Publish}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "POST_WEB_WALLPAPER",
+      "displayName": "The internet on a disk",
+      "description": "Post a web wallpaper to the Workshop.",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upload a web wallpaper to the Steam Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "make-html-project",
+            "text": "In Notepad, type a short message and save it as @item{index.html}. Choose @mechanic{All Files} as the file type and save the file in its own folder."
+          },
+          {
+            "id": "import-html",
+            "text": "Open @mechanic{Wallpaper Editor} and drag @item{index.html} onto @mechanic{Create Wallpaper}. Confirm the import."
+          },
+          {
+            "id": "publish-wallpaper",
+            "text": "Choose @mechanic{Workshop} > @mechanic{Share Wallpaper on Workshop} (also called @mechanic{Prepare for publishing}). Fill in the title and description, choose a genre and age rating, and add a preview image. Click @mechanic{Publish}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "POST_APP_WALLPAPER",
+      "displayName": "Press any key",
+      "description": "Create a local application-type wallpaper.",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Create an application wallpaper as a local project.",
+      "guide": {
+        "kind": "standard",
+        "context": "Application wallpapers stay local; they cannot be uploaded to the Workshop.",
+        "steps": [
+          {
+            "id": "import-application",
+            "text": "Open @mechanic{Wallpaper Editor} > @mechanic{Create Wallpaper}. Select a local application, such as Microsoft Edge, and confirm the import."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "USE_TEMPLATE_2D",
+      "displayName": "Creativity according to instructions",
+      "description": "Use a 2D scene template.",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Create a wallpaper project with a 2D scene template.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "create-template-project",
+            "text": "Open @mechanic{Wallpaper Editor} and choose @mechanic{Use a Template}. Select @mechanic{2D Scene}, name the project, and confirm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "USE_TEMPLATE_3D",
+      "displayName": "Working with 3D models",
+      "description": "Use a 3D scene template.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Create a wallpaper project with a 3D scene template.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "create-template-project",
+            "text": "Open @mechanic{Wallpaper Editor} and choose @mechanic{Use a Template}. Select @mechanic{3D Scene}, name the project, and confirm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SCREENSHOT_WITH_WORKSHOP_WALLPAPER",
+      "displayName": "Sharing is caring",
+      "description": "Post a Steam screenshot with a Workshop wallpaper open.",
+      "hidden": false,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Take a screenshot through Wallpaper Engine while a Workshop wallpaper is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "apply-workshop-wallpaper",
+            "text": "Apply a wallpaper downloaded from the @mechanic{Workshop}."
+          },
+          {
+            "id": "take-tray-screenshot",
+            "text": "Right-click the Wallpaper Engine icon beside the Windows clock and choose @mechanic{Take Screenshot}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SUBSCRIBE_10_WALLPAPERS",
+      "displayName": "Trying something new",
+      "description": "Use 10 different wallpapers from the Workshop.",
+      "hidden": false,
+      "globalPercent": 83.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Subscribe to 10 distinct Workshop wallpapers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "subscribe-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, subscribe to 10 different wallpapers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FAVORITE_10_WALLPAPERS",
+      "displayName": "Keeping an eye on this one",
+      "description": "Favorite 10 different wallpapers from the Workshop.",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Mark 10 distinct Workshop wallpapers as favorites.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "favorite-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, select 10 different wallpapers and click the heart on each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PEST",
+      "displayName": "Pest",
+      "description": "Cause 1 fatal error or trigger 128 warnings in the editor.",
+      "hidden": false,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Trigger 128 editor warnings or one fatal editor error.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "make-invalid-image",
+            "text": "In Notepad, type a short message and save it as @item{warning.jpg}. Choose @mechanic{All Files} so the filename ends in .jpg."
+          },
+          {
+            "id": "import-invalid-image",
+            "text": "Open @mechanic{Wallpaper Editor} > @mechanic{Create Wallpaper} and select @item{warning.jpg}. Confirm the import."
+          },
+          {
+            "id": "trigger-warnings",
+            "text": "Keep clicking @mechanic{OK} on the resulting warning until you have triggered 128 warnings."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KON_CODE",
+      "displayName": "k0n4m1",
+      "description": "30 lives",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Enter the Konami code in Wallpaper Engine’s About tab.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "enter-about-code",
+            "text": "Open @mechanic{Settings} > @mechanic{About}. Press @mechanic{Up twice, Down twice, Left, Right, Left, Right, B, A}. Finish with Enter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SUBSCRIBE_25_WALLPAPERS",
+      "displayName": "Getting the hang of it",
+      "description": "Use 25 different wallpapers from the Workshop.",
+      "hidden": false,
+      "globalPercent": 68.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "4 min",
+      "estMinutes": 4,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SUBSCRIBE_10_WALLPAPERS"
+      ],
+      "summary": "Subscribe to 25 distinct Workshop wallpapers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "subscribe-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, subscribe to 25 different wallpapers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SUBSCRIBE_50_WALLPAPERS",
+      "displayName": "Hard to pick just one",
+      "description": "Use 50 different wallpapers from the Workshop.",
+      "hidden": false,
+      "globalPercent": 54.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "7 min",
+      "estMinutes": 7,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SUBSCRIBE_25_WALLPAPERS"
+      ],
+      "summary": "Subscribe to 50 distinct Workshop wallpapers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "subscribe-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, subscribe to 50 different wallpapers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SUBSCRIBE_100_WALLPAPERS",
+      "displayName": "Out of disk space",
+      "description": "Use 100 different wallpapers from the Workshop.",
+      "hidden": false,
+      "globalPercent": 40.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "12 min",
+      "estMinutes": 12,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SUBSCRIBE_50_WALLPAPERS"
+      ],
+      "summary": "Subscribe to 100 distinct Workshop wallpapers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "subscribe-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, subscribe to 100 different wallpapers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FAVORITE_25_WALLPAPERS",
+      "displayName": "Found some good ones",
+      "description": "Favorite 20 different Workshop wallpapers.",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FAVORITE_10_WALLPAPERS"
+      ],
+      "summary": "Mark 20 distinct Workshop wallpapers as favorites.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "favorite-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, select 20 different wallpapers and click the heart on each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FAVORITE_50_WALLPAPERS",
+      "displayName": "Fair collection",
+      "description": "Favorite 30 different Workshop wallpapers.",
+      "hidden": false,
+      "globalPercent": 5.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "4 min",
+      "estMinutes": 4,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FAVORITE_25_WALLPAPERS"
+      ],
+      "summary": "Mark 30 distinct Workshop wallpapers as favorites.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "favorite-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, select 30 different wallpapers and click the heart on each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FAVORITE_100_WALLPAPERS",
+      "displayName": "Wallpaper Connoisseur",
+      "description": "Favorite 50 different Workshop wallpapers.",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "6 min",
+      "estMinutes": 6,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FAVORITE_50_WALLPAPERS"
+      ],
+      "summary": "Mark 50 distinct Workshop wallpapers as favorites.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "favorite-wallpapers",
+            "text": "In the @mechanic{Workshop} tab, select 50 different wallpapers and click the heart on each."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "SUBSCRIBE_10_WALLPAPERS",
+    "SUBSCRIBE_25_WALLPAPERS",
+    "SUBSCRIBE_50_WALLPAPERS",
+    "SUBSCRIBE_100_WALLPAPERS",
+    "FAVORITE_10_WALLPAPERS",
+    "FAVORITE_25_WALLPAPERS",
+    "FAVORITE_50_WALLPAPERS",
+    "FAVORITE_100_WALLPAPERS",
+    "SCREENSHOT_WITH_WORKSHOP_WALLPAPER",
+    "KON_CODE",
+    "USE_TEMPLATE_2D",
+    "USE_TEMPLATE_3D",
+    "POST_APP_WALLPAPER",
+    "PEST",
+    "POST_SCENE_WALLPAPER",
+    "POST_VIDEO_WALLPAPER",
+    "POST_WEB_WALLPAPER"
+  ]
+}

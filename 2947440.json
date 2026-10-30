@@ -16,73 +16,73 @@
       "title": "New Game on Story difficulties",
       "description": "Play the first run on Story action and Story puzzle difficulty, collect everything available, and finish the Normal ending. Win the Shiromuku fight without dying and clear the fog-monster, boss and puzzle challenges as they come.",
       "achievementRefs": [
+        "0025",
         "0001",
+        "0026",
         "0002",
+        "0028",
+        "0027",
         "0003",
+        "0029",
         "0004",
+        "0030",
         "0005",
         "0006",
+        "0031",
         "0007",
+        "0032",
+        "0034",
         "0008",
+        "0033",
         "0009",
+        "0035",
         "0010",
+        "0036",
         "0011",
+        "0037",
         "0012",
         "0013",
-        "0014",
         "0038",
         "0022",
-        "0025",
-        "0026",
-        "0027",
-        "0028",
-        "0029",
-        "0030",
-        "0031",
-        "0032",
-        "0033",
-        "0034",
-        "0035",
-        "0036",
-        "0037"
+        "0014"
       ]
     },
     {
       "step": 2,
       "title": "New Game+ with Hard puzzles",
-      "description": "Start New Game+ on Hard puzzles. Without taking Red Capsules, build the Sacred Sword, open every Inari-sama seal, take the UFO ending, then finish the Fox Wets Its Tail ending.",
+      "description": "Start New Game+ on Hard puzzles. Take the UFO ending early from a manual save, then load back. Without taking Red Capsules, build the Sacred Sword, open every Inari-sama seal, and finish the Fox Wets Its Tail ending.",
       "achievementRefs": [
-        "0016",
-        "0039",
         "0018",
-        "0023",
         "0042",
         "0043",
-        "0048",
-        "0050",
         "0051",
+        "0048",
         "0052",
-        "0053"
+        "0053",
+        "0050",
+        "0039",
+        "0016",
+        "0023"
       ]
     },
     {
       "step": 3,
       "title": "New Game++ with Lost in the Fog puzzles",
-      "description": "Start New Game++ on Lost in the Fog puzzles. Buy all upgrades and hokora omamori, clear the remaining documents, then finish Fox's Wedding and Ebisugaoka in Silence with the purified sword and Brooch.",
+      "description": "Start New Game++ on Lost in the Fog puzzles. Buy all upgrades and hokora omamori, clear the remaining documents, and purify the sword. Save before offering the Brooch and finish Fox's Wedding. Then load back, offer the Brooch, and finish Ebisugaoka in Silence.",
       "achievementRefs": [
-        "0015",
-        "0040",
-        "0017",
-        "0041",
-        "0024",
         "0044",
         "0045",
-        "0046",
-        "0047",
-        "0049",
-        "0054",
+        "0056",
         "0055",
-        "0056"
+        "0054",
+        "0049",
+        "0047",
+        "0040",
+        "0015",
+        "0024",
+        "0046",
+        "0041",
+        "0017"
       ]
     },
     {
@@ -536,6 +536,9 @@
       "stage": 3,
       "confidence": "verified",
       "lockoutStage": 3,
+      "prerequisites": [
+        "0044"
+      ],
       "summary": "See the Fox's Wedding ending after getting the Agura no Hotei-sama.",
       "guide": {
         "kind": "standard",
@@ -552,6 +555,11 @@
           {
             "id": "sword",
             "text": "Purify the @item{Sacred Sword}, or never pick it up."
+          },
+          {
+            "id": "brooch",
+            "text": "While heading for the @loc{Shimizu Residence}, make a manual save ahead of the ancient Jizo statue. Keep the @item{Brooch} in this ending.",
+            "kind": "warning"
           },
           {
             "id": "finish",
@@ -579,6 +587,9 @@
       "stage": 2,
       "confidence": "verified",
       "lockoutStage": 2,
+      "prerequisites": [
+        "0043"
+      ],
       "summary": "Reach the Fox Wets Its Tail ending while carrying an unpurified Sacred Sword.",
       "guide": {
         "kind": "standard",
@@ -618,6 +629,10 @@
       "stage": 3,
       "confidence": "verified",
       "lockoutStage": 3,
+      "prerequisites": [
+        "0045",
+        "0046"
+      ],
       "summary": "See the Ebisugaoka in Silence ending after earning two other full endings.",
       "guide": {
         "kind": "standard",
@@ -672,7 +687,7 @@
       "summary": "See the UFO ending in New Game+.",
       "guide": {
         "kind": "standard",
-        "context": "Do not enter the house straight after Rinko opens a hole in the wall. That locks you out of the third poster and the store. Save after the ending to keep the PP-8001 weapon for later runs.",
+        "context": "Do not enter the house straight after Rinko opens a hole in the wall. That locks you out of the third poster and the store. After the cutscene by the Chizuruya General Store, make a manual save. After the ending, load it and continue your run. Loading back can lose the PP-8001 weapon. To keep it, save after the ending and restart the run instead.",
         "steps": [
           {
             "id": "save",
@@ -1432,6 +1447,9 @@
       "stage": 2,
       "confidence": "verified",
       "lockoutStage": 2,
+      "prerequisites": [
+        "0043"
+      ],
       "summary": "Defeat every monster the Shichibi summons before finishing it off.",
       "guide": {
         "kind": "standard",
@@ -1472,6 +1490,9 @@
       "stage": 3,
       "confidence": "verified",
       "lockoutStage": 3,
+      "prerequisites": [
+        "0044"
+      ],
       "summary": "Defeat the Tsukumogami in the Fox's Wedding ending without being hit by a single arrow.",
       "guide": {
         "kind": "standard",
@@ -1513,6 +1534,9 @@
       "stage": 3,
       "confidence": "verified",
       "lockoutStage": 3,
+      "prerequisites": [
+        "0046"
+      ],
       "summary": "Beat the Tsukumogami and the Kyubi inside 10 minutes of the battle beginning.",
       "guide": {
         "kind": "standard",
@@ -1684,6 +1708,9 @@
       "stage": 3,
       "confidence": "verified",
       "lockoutStage": 3,
+      "prerequisites": [
+        "0043"
+      ],
       "summary": "Purify the Sacred Sword in New Game+.",
       "guide": {
         "kind": "standard",
@@ -1731,6 +1758,9 @@
       "stage": 3,
       "confidence": "verified",
       "lockoutStage": 3,
+      "prerequisites": [
+        "0051"
+      ],
       "summary": "Hand the Brooch over at the ancient Jizo statue during a New Game++ run.",
       "guide": {
         "kind": "standard",
@@ -1739,6 +1769,11 @@
           {
             "id": "open",
             "text": "First unlock every sealed room and box with Inari-sama's mark. See the Inari-sama's Secrets guide.",
+            "kind": "warning"
+          },
+          {
+            "id": "save",
+            "text": "Make a manual save before you offer the @item{Brooch}. Finish Fox's Wedding from that save first, then load it and make the offer.",
             "kind": "warning"
           },
           {
@@ -2720,59 +2755,59 @@
     }
   ],
   "completionOrder": [
-    "0034",
-    "0028",
-    "0037",
-    "0035",
-    "0026",
-    "0027",
     "0025",
-    "0031",
-    "0032",
-    "0030",
-    "0036",
-    "0029",
-    "0033",
-    "0038",
     "0001",
+    "0026",
     "0002",
+    "0028",
+    "0027",
     "0003",
+    "0029",
     "0004",
+    "0030",
     "0005",
     "0006",
+    "0031",
     "0007",
+    "0032",
+    "0034",
     "0008",
+    "0033",
     "0009",
+    "0035",
     "0010",
+    "0036",
     "0011",
+    "0037",
     "0012",
     "0013",
+    "0038",
     "0022",
     "0014",
-    "0042",
     "0018",
-    "0039",
-    "0016",
+    "0042",
     "0043",
     "0051",
-    "0023",
     "0048",
     "0052",
     "0053",
     "0050",
-    "0046",
+    "0039",
+    "0016",
+    "0023",
     "0044",
     "0045",
-    "0015",
-    "0040",
-    "0017",
-    "0041",
     "0056",
     "0055",
-    "0024",
     "0054",
     "0049",
     "0047",
+    "0040",
+    "0015",
+    "0024",
+    "0046",
+    "0041",
+    "0017",
     "0019",
     "0020",
     "0021"

@@ -125,7 +125,7 @@
     {
       "step": 6,
       "title": "Institute branch",
-      "description": "From the save after The Molecular Level, enter the Institute and complete its questline through Nuclear Family for the Institute ending.",
+      "description": "From the save made right after The Molecular Level, enter the Institute and complete its questline through Nuclear Family for the Institute ending.",
       "achievementRefs": [
         "NEW_ACHIEVEMENT_9_0",
         "NEW_ACHIEVEMENT_10_0",
@@ -535,7 +535,7 @@
       "hidden": true,
       "globalPercent": 25.8,
       "flags": {
-        "missable": false,
+        "missable": true,
         "online": false,
         "grind": false,
         "glitched": false,
@@ -548,10 +548,11 @@
       "confidence": "verified",
       "group": "base-game",
       "sortReason": "Roadmap stage 6; complete when its requirements are available.",
+      "lockoutStage": 6,
       "summary": "Complete the Institute Quest Institutionalized.",
       "guide": {
         "kind": "standard",
-        "context": "This starts the Institute line, which is mutually exclusive with the Brotherhood and Railroad lines and ends with Nuclear Family. When you first meet @npc{Father}, accept his offer; attacking him ends the Institute line and its achievements.",
+        "context": "Make a save right after The Molecular Level, before any conflict quest, because it sets your faction alignment. When you first meet @npc{Father}, accept his offer and do not attack him.",
         "steps": [
           {
             "id": "institutionalized-1",
@@ -598,7 +599,7 @@
       "summary": "Complete the Institute Quest Mankind-Redefined.",
       "guide": {
         "kind": "standard",
-        "context": "Part of the Institute line, which ends with Nuclear Family. The Institute, Brotherhood, and Railroad endings are mutually exclusive, so reload an earlier save to play the others.",
+        "context": "Reload a save from before Mass Fusion if you want to play the Brotherhood or Railroad endings instead.",
         "steps": [
           {
             "id": "mankind-redefined-1",
@@ -645,7 +646,7 @@
       "summary": "Complete the Institute Quest Powering Up.",
       "guide": {
         "kind": "standard",
-        "context": "Part of the Institute line. Make a Quick Save before delivering Father's speech, since how you deliver it is up to you.",
+        "context": "Make a Quick Save before delivering Father's speech, because the speech can be delivered in more than one way.",
         "steps": [
           {
             "id": "powering-up-1",
@@ -661,7 +662,7 @@
           },
           {
             "id": "powering-up-4",
-            "text": "Sit through the Institute Directors meeting and answer the council's questions, including whether to destroy the Brotherhood of Steel; the quest completes and the achievement unlocks when the meeting ends."
+            "text": "Sit through the Institute Directors meeting and answer the council's questions, including whether the Brotherhood of Steel should be wiped out; the achievement unlocks when the meeting ends."
           }
         ]
       }
@@ -696,11 +697,7 @@
         "steps": [
           {
             "id": "nuclear-family-1",
-            "text": "From the save made before @loc{Mass Fusion}, complete @loc{Mass Fusion} and the remaining Institute quests through @loc{Powering Up}."
-          },
-          {
-            "id": "nuclear-family-2",
-            "text": "Complete the Main Quest @loc{Nuclear Family} to become the new Director of the Institute and finish the main questline."
+            "text": "Finish Mass Fusion and the other Institute quests up to Powering Up, then complete the Main Quest Nuclear Family to become the new Director of the Institute."
           }
         ]
       }
@@ -1902,11 +1899,11 @@
       "summary": "Touch all four baseball bases around Diamond City's old-world stadium and return to Home Plate in one quick loop.",
       "guide": {
         "kind": "standard",
-        "context": "The bases must be touched in a single quick loop, or the homerun will not register.",
+        "context": "",
         "steps": [
           {
             "id": "homerun-1",
-            "text": "Start at @loc{Home Plate}, just outside the @loc{Publick Occurrences} office on the wooden walkway."
+            "text": "Start at @loc{Home Plate}, just outside the @loc{Publick Occurrences} office on the wooden walkway, and keep moving without stopping."
           },
           {
             "id": "homerun-2",
@@ -1986,7 +1983,7 @@
       "summary": "Collect 10 Vault-Tec Bobbleheads.",
       "guide": {
         "kind": "standard",
-        "context": "There are 20 Vault-Tec Bobbleheads in total.",
+        "context": "",
         "steps": [
           {
             "id": "theyre-not-dolls-1",
@@ -2012,17 +2009,21 @@
       "estTime": "1–2 hours",
       "estMinutes": 120,
       "stage": 5,
-      "confidence": "verified",
+      "confidence": "unverified",
       "group": "base-game",
       "sortReason": "Roadmap stage 5; complete when its requirements are available.",
       "summary": "Collect 20 Vault-Tec Bobbleheads.",
       "guide": {
         "kind": "standard",
-        "context": "Twenty Vault-Tec Bobbleheads are scattered across the Commonwealth; the Big Guns Bobblehead inside Vault 95 is the last one in the set.",
+        "context": "",
         "steps": [
           {
+            "id": "action-figures-0",
+            "text": "Collect Vault-Tec Bobbleheads around the Commonwealth, in any order, until you have 20; the achievement unlocks on the 20th."
+          },
+          {
             "id": "action-figures-1",
-            "text": "Travel to @loc{Vault 95}, south of the Edge of the Glowing Sea, and ride the elevator down."
+            "text": "One of them, the @item{Big Guns Bobblehead}, is in @loc{Vault 95}, south of the Edge of the Glowing Sea. Ride the elevator down."
           },
           {
             "id": "action-figures-2",
@@ -3515,11 +3516,11 @@
       "summary": "Defeat 40 creatures in Nuka-World while any Nuka-Mix flavor is in effect.",
       "guide": {
         "kind": "standard",
-        "context": "Only flavors crafted at a Nuka-Mixer Station count; Nuka-Mix bottles found as loot do not. Counting creatures include ants, bloodworms, brahmiluffs, cave crickets, and gatorclaws, plus rad-rats, while base-game enemies such as Raiders, Mirelurks, and Molerats do not count.",
+        "context": "Only flavors crafted at a Nuka-Mixer Station count; Nuka-Mix bottles found as loot do not. Rad-rats, gatorclaws, cave crickets, brahmiluffs, bloodworms, and ants all count. Base-game enemies such as Raiders, Mirelurks, and Molerats do not.",
         "steps": [
           {
             "id": "all-sugared-up-1",
-            "text": "Craft a Nuka-Mix flavor at a Nuka-Mixer Station."
+            "text": "Build a Nuka-Mixer Station at a settlement, or use one in Nuka-World, and craft a Nuka-Mix flavor."
           },
           {
             "id": "all-sugared-up-2",

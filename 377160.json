@@ -124,14 +124,11 @@
     },
     {
       "step": 6,
-      "title": "Institute branch",
-      "description": "From the save made right after The Molecular Level, enter the Institute and complete its questline through Nuclear Family for the Institute ending.",
+      "title": "Join the Institute and stop before Mass Fusion",
+      "description": "From the save made right after The Molecular Level, finish Institutionalized and Mankind-Redefined, then stop. Mass Fusion is the point of no return for the endings, so do not start it yet.",
       "achievementRefs": [
         "NEW_ACHIEVEMENT_9_0",
         "NEW_ACHIEVEMENT_10_0",
-        "NEW_ACHIEVEMENT_11_0",
-        "NEW_ACHIEVEMENT_12_0",
-        "NEW_ACHIEVEMENT_50_0",
         "NEW_ACHIEVEMENT_49_0"
       ]
     },
@@ -147,21 +144,24 @@
     },
     {
       "step": 8,
-      "title": "Brotherhood of Steel branch",
-      "description": "Reload the pre-conflict save and run the Brotherhood questline through Blind Betrayal and Ad Victoriam.",
+      "title": "Brotherhood and Railroad groundwork",
+      "description": "Run the Brotherhood questline through Blind Betrayal and the Railroad questline through Underground Undercover, without starting Mass Fusion. Do not attack either faction.",
       "achievementRefs": [
         "NEW_ACHIEVEMENT_17_0",
-        "NEW_ACHIEVEMENT_18_0"
+        "NEW_ACHIEVEMENT_20_0"
       ]
     },
     {
       "step": 9,
-      "title": "Railroad branch and shared ending",
-      "description": "Reload the Brotherhood save and complete the Railroad questline, then drive a non-Institute ending for The Nuclear Option.",
+      "title": "Endings from the pre-Mass Fusion save",
+      "description": "Make a hard save before Mass Fusion. Finish one ending, then reload that save for each other ending: Brotherhood (Ad Victoriam), Railroad (Rockets' Red Glare), and Institute (Powering Up, Nuclear Family). Any of the three non-Institute endings gives The Nuclear Option.",
       "achievementRefs": [
-        "NEW_ACHIEVEMENT_20_0",
+        "NEW_ACHIEVEMENT_18_0",
         "NEW_ACHIEVEMENT_21_0",
-        "NEW_ACHIEVEMENT_8_0"
+        "NEW_ACHIEVEMENT_8_0",
+        "NEW_ACHIEVEMENT_11_0",
+        "NEW_ACHIEVEMENT_12_0",
+        "NEW_ACHIEVEMENT_50_0"
       ]
     },
     {
@@ -599,7 +599,7 @@
       "summary": "Complete the Institute Quest Mankind-Redefined.",
       "guide": {
         "kind": "standard",
-        "context": "Reload a save from before Mass Fusion if you want to play the Brotherhood or Railroad endings instead.",
+        "context": "Stop here and make a hard save before starting Mass Fusion, the point of no return that sends you down one of the endings.",
         "steps": [
           {
             "id": "mankind-redefined-1",
@@ -636,10 +636,10 @@
       "difficulty": 3,
       "estTime": "30–60 min",
       "estMinutes": 60,
-      "stage": 6,
+      "stage": 9,
       "confidence": "verified",
       "group": "base-game",
-      "sortReason": "Roadmap stage 6; complete when its requirements are available.",
+      "sortReason": "Roadmap stage 9; complete when its requirements are available.",
       "prerequisites": [
         "NEW_ACHIEVEMENT_10_0"
       ],
@@ -683,10 +683,10 @@
       "difficulty": 4,
       "estTime": "1–2 hours",
       "estMinutes": 90,
-      "stage": 6,
+      "stage": 9,
       "confidence": "verified",
       "group": "base-game",
-      "sortReason": "Roadmap stage 6; complete when its requirements are available.",
+      "sortReason": "Roadmap stage 9; complete when its requirements are available.",
       "prerequisites": [
         "NEW_ACHIEVEMENT_11_0"
       ],
@@ -943,14 +943,14 @@
       "difficulty": 4,
       "estTime": "1–2 hours",
       "estMinutes": 90,
-      "stage": 8,
+      "stage": 9,
       "confidence": "verified",
       "group": "base-game",
-      "sortReason": "Roadmap stage 8; complete when its requirements are available.",
+      "sortReason": "Roadmap stage 9; complete when its requirements are available.",
       "prerequisites": [
         "NEW_ACHIEVEMENT_17_0"
       ],
-      "lockoutStage": 8,
+      "lockoutStage": 9,
       "summary": "Complete the Brotherhood of Steel Quest Ad Victoriam.",
       "guide": {
         "kind": "standard",
@@ -1031,10 +1031,10 @@
       "difficulty": 4,
       "estTime": "1–2 hours",
       "estMinutes": 90,
-      "stage": 9,
+      "stage": 8,
       "confidence": "verified",
       "group": "base-game",
-      "sortReason": "Roadmap stage 9; complete when its requirements are available.",
+      "sortReason": "Roadmap stage 8; complete when its requirements are available.",
       "lockoutStage": 9,
       "summary": "Complete the Railroad Quest Underground Undercover.",
       "guide": {
@@ -1986,8 +1986,8 @@
         "context": "",
         "steps": [
           {
-            "id": "theyre-not-dolls-1",
-            "text": "Collect Vault-Tec Bobbleheads throughout the Commonwealth until you have collected 10."
+            "id": "not-dolls-1",
+            "text": "Collect any 10 of the 20 Vault-Tec Bobbleheads. The location checklist is in the guide for They're Action Figures."
           }
         ]
       }
@@ -2009,33 +2009,195 @@
       "estTime": "1–2 hours",
       "estMinutes": 120,
       "stage": 5,
-      "confidence": "unverified",
+      "confidence": "verified",
       "group": "base-game",
       "sortReason": "Roadmap stage 5; complete when its requirements are available.",
       "summary": "Collect 20 Vault-Tec Bobbleheads.",
       "guide": {
-        "kind": "standard",
-        "context": "",
-        "steps": [
+        "kind": "collectible",
+        "context": "All 20 can be taken in any order, and each one permanently boosts a stat or perk.",
+        "collectibles": [
           {
-            "id": "action-figures-0",
-            "text": "Collect Vault-Tec Bobbleheads around the Commonwealth, in any order, until you have 20; the achievement unlocks on the 20th."
+            "id": "bobblehead-strength",
+            "index": 1,
+            "group": "Core stats",
+            "name": "Strength Bobblehead",
+            "location": "@loc{Mass Fusion} building",
+            "method": "Climb to the metal wall statue five floors above the lobby desk and take it from the statue's head.",
+            "missable": false
           },
           {
-            "id": "action-figures-1",
-            "text": "One of them, the @item{Big Guns Bobblehead}, is in @loc{Vault 95}, south of the Edge of the Glowing Sea. Ride the elevator down."
+            "id": "bobblehead-perception",
+            "index": 2,
+            "group": "Core stats",
+            "name": "Perception Bobblehead",
+            "location": "@loc{Museum of Freedom}",
+            "method": "In the back room where you first meet @npc{Preston Garvey}, take it from the desk next to the broken terminal.",
+            "missable": false
           },
           {
-            "id": "action-figures-2",
-            "text": "Fight through the Gunner blockade in the central lobby and enter the Residential wing."
+            "id": "bobblehead-endurance",
+            "index": 3,
+            "group": "Core stats",
+            "name": "Endurance Bobblehead",
+            "location": "@loc{Poseidon Energy}",
+            "method": "Take it from the metal desk with a magazine, beside a steamer trunk on the central catwalk.",
+            "missable": false
           },
           {
-            "id": "action-figures-3",
-            "text": "Descend the stairs, pass through the wrecked wall, and turn right past a Machine Gun Turret."
+            "id": "bobblehead-charisma",
+            "index": 4,
+            "group": "Core stats",
+            "name": "Charisma Bobblehead",
+            "location": "@loc{Parsons State Insane Asylum}",
+            "method": "Take it from @npc{Jack Cabot}'s office desk near the elevator in the administration area.",
+            "missable": false,
+            "note": "The quest Emogene Takes a Lover can glitch when Emogene vanishes, which blocks access to this one; keep an earlier save."
           },
           {
-            "id": "action-figures-4",
-            "text": "Take the @item{Big Guns Bobblehead} from the center of the Gunner Lieutenant's suite, on top of the playing radio."
+            "id": "bobblehead-intelligence",
+            "index": 5,
+            "group": "Core stats",
+            "name": "Intelligence Bobblehead",
+            "location": "@loc{Boston Public Library}",
+            "method": "Take it from the computer bank in the mechanical room at the northwest corner.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-agility",
+            "index": 6,
+            "group": "Core stats",
+            "name": "Agility Bobblehead",
+            "location": "@loc{Wreck of the FMS Northern Star}",
+            "method": "Take it from the wooden platform at the edge of the bow.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-luck",
+            "index": 7,
+            "group": "Core stats",
+            "name": "Luck Bobblehead",
+            "location": "@loc{Spectacle Island}",
+            "method": "Enter the green tugboat at the island's southern end, go to the second-deck pilot house, and take it from the locker shelf by the steamer trunk.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-barter",
+            "index": 8,
+            "group": "Utility",
+            "name": "Barter Bobblehead",
+            "location": "@loc{Longneck Lukowski's Cannery}",
+            "method": "In the main cannery room, go to the metal catwalk hut in the northwest upper area and take it.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-lock-picking",
+            "index": 9,
+            "group": "Utility",
+            "name": "Lock Picking Bobblehead",
+            "location": "@loc{Pickman Gallery}",
+            "method": "In the last tunnel chamber, where you confront @npc{Pickman}, take it from the ground between the brick pillars and a bin fireplace.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-medicine",
+            "index": 10,
+            "group": "Utility",
+            "name": "Medicine Bobblehead",
+            "location": "@loc{Vault 81}",
+            "method": "Take it from @npc{Curie}'s office in the southeast corner.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-repair",
+            "index": 11,
+            "group": "Utility",
+            "name": "Repair Bobblehead",
+            "location": "@loc{Corvega assembly plant}",
+            "method": "Go to the far end of the top exterior gantry on the southwest roof and take it from the wooden box by the blue balloon.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-science",
+            "index": 12,
+            "group": "Utility",
+            "name": "Science Bobblehead",
+            "location": "@loc{Malden Middle School}",
+            "method": "In the science labs, take it from the desk overlooking the underground training area.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-sneak",
+            "index": 13,
+            "group": "Utility",
+            "name": "Sneak Bobblehead",
+            "location": "@loc{Dunwich Borers}",
+            "method": "Take it from the small metal table beside a lantern, next to metal post terminal area 4.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-speech",
+            "index": 14,
+            "group": "Utility",
+            "name": "Speech Bobblehead",
+            "location": "@loc{Park Street station}",
+            "method": "Take it from the desk in the overseer's office.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-big-guns",
+            "index": 15,
+            "group": "Weapons",
+            "name": "Big Guns Bobblehead",
+            "location": "@loc{Vault 95}",
+            "method": "In the living quarters, go to the northmost room and take it from the radio.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-energy-weapons",
+            "index": 16,
+            "group": "Weapons",
+            "name": "Energy Weapons Bobblehead",
+            "location": "@loc{Fort Hagen Command Center}",
+            "method": "Take it from the small table between two fridges in the southwest kitchens.",
+            "missable": false,
+            "note": "Only reachable during or after the main quest Reunions."
+          },
+          {
+            "id": "bobblehead-explosive",
+            "index": 17,
+            "group": "Weapons",
+            "name": "Explosive Bobblehead",
+            "location": "@loc{Saugus Ironworks}",
+            "method": "In the blast furnace, go to the second-level catwalk behind @npc{Slag} and take it from the wall control panel left of a steamer trunk.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-melee",
+            "index": 18,
+            "group": "Weapons",
+            "name": "Melee Bobblehead",
+            "location": "@loc{Trinity Tower}",
+            "method": "Take it from the table in the cage that holds @npc{Rex Goodman} and @npc{Strong}.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-small-guns",
+            "index": 19,
+            "group": "Weapons",
+            "name": "Small Guns Bobblehead",
+            "location": "@loc{Gunners plaza}",
+            "method": "Go to the first-floor, west-side on-air room and pick it up from the broadcast desk.",
+            "missable": false
+          },
+          {
+            "id": "bobblehead-unarmed",
+            "index": 20,
+            "group": "Weapons",
+            "name": "Unarmed Bobblehead",
+            "location": "@loc{Atom Cats garage}",
+            "method": "In the main warehouse, find the rusty car and take it from its hood.",
+            "missable": false
           }
         ]
       }
@@ -2184,10 +2346,10 @@
       "difficulty": 3,
       "estTime": "30–60 min",
       "estMinutes": 60,
-      "stage": 6,
+      "stage": 9,
       "confidence": "verified",
       "group": "base-game",
-      "sortReason": "Roadmap stage 6; complete when its requirements are available.",
+      "sortReason": "Roadmap stage 9; complete when its requirements are available.",
       "prerequisites": [
         "NEW_ACHIEVEMENT_12_0"
       ],
@@ -3817,18 +3979,18 @@
     "NEW_ACHIEVEMENT_45_0",
     "NEW_ACHIEVEMENT_9_0",
     "NEW_ACHIEVEMENT_10_0",
-    "NEW_ACHIEVEMENT_11_0",
-    "NEW_ACHIEVEMENT_12_0",
-    "NEW_ACHIEVEMENT_50_0",
     "NEW_ACHIEVEMENT_49_0",
     "NEW_ACHIEVEMENT_57_0",
     "NEW_ACHIEVEMENT_58_0",
     "NEW_ACHIEVEMENT_56_0",
     "NEW_ACHIEVEMENT_17_0",
-    "NEW_ACHIEVEMENT_18_0",
     "NEW_ACHIEVEMENT_20_0",
     "NEW_ACHIEVEMENT_21_0",
+    "NEW_ACHIEVEMENT_18_0",
+    "NEW_ACHIEVEMENT_11_0",
     "NEW_ACHIEVEMENT_8_0",
+    "NEW_ACHIEVEMENT_12_0",
+    "NEW_ACHIEVEMENT_50_0",
     "NEW_ACHIEVEMENT_81_0",
     "NEW_ACHIEVEMENT_75_0",
     "NEW_ACHIEVEMENT_76_0",

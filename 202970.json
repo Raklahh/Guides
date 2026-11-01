@@ -1,0 +1,1773 @@
+{
+  "game": {
+    "appid": 202970,
+    "slug": "call-of-duty-black-ops-ii",
+    "title": "Call of Duty®: Black Ops II",
+    "version": "1.0",
+    "lastPatchChecked": "2026-03-24",
+    "estTotalHours": 40,
+    "difficultyRating": 7,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-11-01"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Veteran story run",
+      "description": "Play all 11 story missions on Veteran with the Showdown choices: resist the Kravchenko prompt, collect all intel, let DeFalco escape, kill Harper, and skip every Strike Force mission.",
+      "achievementRefs": [
+        "SP_COMPLETE_ANGOLA",
+        "SP_COMPLETE_MONSOON",
+        "SP_COMPLETE_AFGHANISTAN",
+        "SP_COMPLETE_NICARAGUA",
+        "SP_COMPLETE_PAKISTAN",
+        "SP_COMPLETE_KARMA",
+        "SP_COMPLETE_PANAMA",
+        "SP_COMPLETE_YEMEN",
+        "SP_COMPLETE_BLACKOUT",
+        "SP_COMPLETE_LA",
+        "SP_COMPLETE_HAITI",
+        "SP_VETERAN_PAST",
+        "SP_VETERAN_FUTURE",
+        "SP_RTS_CARRIER",
+        "SP_ONE_CHALLENGE",
+        "SP_MISC_WEAPONS",
+        "SP_MISC_ALL_INTEL",
+        "SP_STORY_99PERCENT",
+        "SP_STORY_HARPER_FACE",
+        "SP_STORY_LINK_CIA",
+        "SP_STORY_MASON_LIVES",
+        "SP_STORY_FARID_DUEL",
+        "SP_STORY_MENENDEZ_CAPTURED"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Achilles' Veil replay",
+      "description": "Replay Achilles' Veil and shoot Menendez for the Harper-lives ending.",
+      "achievementRefs": [
+        "SP_STORY_HARPER_LIVES"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Rewind run with Strike Force missions",
+      "description": "Rewind the story to Suffer With Me, finish the Strike Force missions, then redo Suffer With Me, Achilles' Veil, and Odysseus with the Good Karma choices.",
+      "achievementRefs": [
+        "SP_RTS_SOCOTRA",
+        "SP_RTS_DRONE",
+        "SP_RTS_DOCKSIDE",
+        "SP_RTS_AFGHANISTAN",
+        "SP_RTS_PAKISTAN",
+        "SP_BACK_TO_FUTURE",
+        "SP_MISC_10K_SCORE_ALL",
+        "SP_STORY_CHLOE_LIVES",
+        "SP_STORY_OBAMA_SURVIVES"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Challenge cleanup",
+      "description": "Finish the 10 challenges of one mission, then every remaining challenge in all 16 missions.",
+      "achievementRefs": [
+        "SP_ALL_CHALLENGES_IN_LEVEL",
+        "SP_ALL_CHALLENGES_IN_GAME"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "SP_COMPLETE_ANGOLA",
+      "displayName": "No Man Left Behind",
+      "description": "Rescue Woods.",
+      "hidden": false,
+      "globalPercent": 52.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the first campaign mission, Pyrrhic Victory.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-angola-1",
+            "text": "Start a new campaign on Veteran difficulty."
+          },
+          {
+            "id": "complete-angola-2",
+            "text": "Play @loc{Pyrrhic Victory} to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_MONSOON",
+      "displayName": "Gathering Storm",
+      "description": "Investigate the jungle facility.",
+      "hidden": false,
+      "globalPercent": 46.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_ANGOLA"
+      ],
+      "summary": "Finish the second campaign mission, Celerium.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-monsoon-1",
+            "text": "Play @loc{Celerium} to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_AFGHANISTAN",
+      "displayName": "Shifting Sands",
+      "description": "Gather intel on Raul Menendez from Mullah Rahmaan.",
+      "hidden": false,
+      "globalPercent": 41.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_MONSOON"
+      ],
+      "summary": "Finish the third campaign mission, Old Wounds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-afghanistan-1",
+            "text": "Play @loc{Old Wounds} to the end."
+          },
+          {
+            "id": "complete-afghanistan-2",
+            "text": "At the end, when @npc{Kravchenko} is interrogated and the game prompts you to kill him, resist the prompt. This keeps Dirty Business possible.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_NICARAGUA",
+      "displayName": "Driven by Rage",
+      "description": "Take down Menendez and his operation.",
+      "hidden": false,
+      "globalPercent": 35.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_AFGHANISTAN"
+      ],
+      "summary": "Finish the fourth campaign mission, Time and Fate.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-nicaragua-1",
+            "text": "Play @loc{Time and Fate} to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_PAKISTAN",
+      "displayName": "Waterlogged",
+      "description": "Gather information on Raul Menendez' suspected terrorist plot.",
+      "hidden": false,
+      "globalPercent": 32.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_NICARAGUA"
+      ],
+      "summary": "Finish the fifth campaign mission, Fallen Angel.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-pakistan-1",
+            "text": "Play @loc{Fallen Angel} to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_KARMA",
+      "displayName": "What Happens in Colossus...",
+      "description": "Find the Karma weapon.",
+      "hidden": false,
+      "globalPercent": 31.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_PAKISTAN"
+      ],
+      "summary": "Finish the sixth campaign mission, Karma.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-karma-1",
+            "text": "Play @loc{Karma} to the end."
+          },
+          {
+            "id": "complete-karma-2",
+            "text": "At the end, do not chase @npc{DeFalco}. Wait while he escapes in the aircraft with Karma. Do not play any Strike Force mission yet. This is the choice that Showdown needs.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_PANAMA",
+      "displayName": "False Profit",
+      "description": "Capture Manuel Noriega and bring him to justice.",
+      "hidden": false,
+      "globalPercent": 30.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_KARMA"
+      ],
+      "summary": "Finish the seventh campaign mission, Suffer With Me.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-panama-1",
+            "text": "Play @loc{Suffer With Me} to the end."
+          },
+          {
+            "id": "complete-panama-2",
+            "text": "At the end, shoot the target in the legs instead of the head, as Family Reunion explains.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_YEMEN",
+      "displayName": "Deep Cover",
+      "description": "Capture Menendez.",
+      "hidden": false,
+      "globalPercent": 29.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_PANAMA"
+      ],
+      "summary": "Finish the eighth campaign mission, Achilles' Veil.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-yemen-1",
+            "text": "Play @loc{Achilles' Veil} to the end."
+          },
+          {
+            "id": "complete-yemen-2",
+            "text": "Soon after the start, in the cutscene with @npc{Menendez} and @npc{Harper}, shoot Harper. This is the choice that Showdown and Good Karma need.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_BLACKOUT",
+      "displayName": "Sinking Star",
+      "description": "Interrogate Menendez.",
+      "hidden": false,
+      "globalPercent": 28.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_YEMEN"
+      ],
+      "summary": "Finish the ninth campaign mission, Odysseus.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-blackout-1",
+            "text": "Play @loc{Odysseus} to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_LA",
+      "displayName": "Late for the Prom",
+      "description": "Escort the president to the secure location in downtown LA.",
+      "hidden": false,
+      "globalPercent": 27.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_BLACKOUT"
+      ],
+      "summary": "Finish the tenth campaign mission, Cordis Die.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-la-1",
+            "text": "Play @loc{Cordis Die} to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_COMPLETE_HAITI",
+      "displayName": "Death from Above",
+      "description": "Stop Menendez once and for all.",
+      "hidden": false,
+      "globalPercent": 26.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_LA"
+      ],
+      "summary": "Finish the eleventh and last campaign mission, Judgment Day.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "complete-haiti-1",
+            "text": "Play @loc{Judgment Day} to the end."
+          },
+          {
+            "id": "complete-haiti-2",
+            "text": "At the end, choose to shoot or capture @npc{Menendez} yourself. Do not wait for the game to decide, or Dead or Alive is lost.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_VETERAN_PAST",
+      "displayName": "Old Fashioned",
+      "description": "Complete \"Pyrrhic Victory\", \"Old Wounds\", \"Time And Fate\", and \"Suffer With Me\" in Veteran.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "during the Veteran run",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_KARMA"
+      ],
+      "summary": "Finish the four past-era missions (Suffer With Me, Time and Fate, Old Wounds, and Pyrrhic Victory) on Veteran difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "veteran-past-1",
+            "text": "Choose Veteran before the first mission and keep it through all four past-era missions: @loc{Pyrrhic Victory}, @loc{Time and Fate}, @loc{Old Wounds}, and @loc{Suffer With Me}."
+          },
+          {
+            "id": "veteran-past-2",
+            "text": "The achievement unlocks when @loc{Suffer With Me} is finished."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_VETERAN_FUTURE",
+      "displayName": "Futurist",
+      "description": "Complete all future levels in veteran.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "during the Veteran run",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_LA"
+      ],
+      "summary": "Finish every future-era story mission on Veteran difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "veteran-future-1",
+            "text": "Keep Veteran difficulty for @loc{Celerium}, @loc{Fallen Angel}, @loc{Karma}, @loc{Achilles' Veil}, @loc{Odysseus}, @loc{Cordis Die}, and @loc{Judgment Day}."
+          },
+          {
+            "id": "veteran-future-2",
+            "text": "The achievement unlocks when @loc{Judgment Day} is finished."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_ALL_CHALLENGES_IN_GAME",
+      "displayName": "Giant Accomplishment",
+      "description": "Complete all challenges in Black Ops II.",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "20+ hours",
+      "estMinutes": 1500,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_ALL_CHALLENGES_IN_LEVEL"
+      ],
+      "summary": "Complete all 160 challenges, 10 in each of the 16 missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do not restart the story, because that wipes challenge progress. Use Rewind Story or mission replay instead. Some challenges are bugged and may not register. A mission has no checkpoint reload.",
+        "steps": [
+          {
+            "id": "all-challenges-in-game-1",
+            "text": "Open Career Record on any mission briefing screen to see that mission's 10 challenges and your count."
+          },
+          {
+            "id": "all-challenges-in-game-2",
+            "text": "Equip the @item{Access Kit} perk for most challenges, since many need it."
+          },
+          {
+            "id": "all-challenges-in-game-3",
+            "text": "Do the challenges of all 11 story missions and all 5 Strike Force missions: Shipwreck, I.E.D., FOB Spectre, Second Chance, and Dispatch."
+          },
+          {
+            "id": "all-challenges-in-game-4",
+            "text": "Replay missions as needed. Several challenges cannot fit in one run, and a few give only one chance per run."
+          },
+          {
+            "id": "all-challenges-in-game-5",
+            "text": "Keep going until Career Record shows 160 of 160."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_ALL_CHALLENGES_IN_LEVEL",
+      "displayName": "Mission Complete",
+      "description": "Complete all challenges in a level.",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_HAITI"
+      ],
+      "summary": "Complete all 10 challenges in any single mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "Karma's challenges fit into about two runs. Headshots, knuckles and survivability are easier below Veteran.",
+        "steps": [
+          {
+            "id": "all-challenges-in-level-1",
+            "text": "Replay @loc{Karma} with the @item{Access Kit} perk. Open Career Record on its briefing screen to see its 10 challenges."
+          },
+          {
+            "id": "all-challenges-in-level-2",
+            "text": "As Ziggy, rush through the air ducts to get the retina scan in under 60 seconds. Jump only while you are upright."
+          },
+          {
+            "id": "all-challenges-in-level-3",
+            "text": "After clearing the CRC server room, pick up Ziggy from the floor next to @npc{Salazar}."
+          },
+          {
+            "id": "all-challenges-in-level-4",
+            "text": "In Club Solar, get 5 headshot kills. After Club Solar, open the locked cabinet in the security armory to take the Combatant Suppression Knuckles, then incapacitate 20 enemies with them."
+          },
+          {
+            "id": "all-challenges-in-level-5",
+            "text": "In the mall, free the friendly ASD next to the ammo crate and the big door, open the door, and keep the ASD alive."
+          },
+          {
+            "id": "all-challenges-in-level-6",
+            "text": "Kill 5 rappelling enemies, deep in the mall or out in the open area. In the outdoor area, kill 25 enemies and let @npc{DeFalco} escape."
+          },
+          {
+            "id": "all-challenges-in-level-7",
+            "text": "Collect the three intel pieces: the server-room table, the d'HO store counter, and the kiosk before the stairs in the DeFalco chase."
+          },
+          {
+            "id": "all-challenges-in-level-8",
+            "text": "Do not injure civilians, who appear after Club Solar, and finish without dying for a 100% survivability rating. Recruit makes this easier.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_ONE_CHALLENGE",
+      "displayName": "Just Gettin' Started",
+      "description": "Complete 1 challenge in any level.",
+      "hidden": false,
+      "globalPercent": 53.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "during the first mission",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete any one challenge in any mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "Career Record on the mission briefing screen lists each mission's challenges.",
+        "steps": [
+          {
+            "id": "one-challenge-1",
+            "text": "Collect all three intel pieces in @loc{Pyrrhic Victory} and finish the mission. This completes its \"Collect intel (x3)\" challenge."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_RTS_DOCKSIDE",
+      "displayName": "Singapore Sling",
+      "description": "Successfully neutralize the SDC freighter at Keppel Terminal.",
+      "hidden": false,
+      "globalPercent": 12.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_AFGHANISTAN"
+      ],
+      "summary": "Finish the Strike Force mission Shipwreck successfully by disabling the SDC freighter docked at Keppel Terminal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Finish it before starting Suffer With Me, or use Rewind Story on Suffer With Me first.",
+        "steps": [
+          {
+            "id": "rts-dockside-1",
+            "text": "Play the Strike Force mission @loc{Shipwreck}, which unlocks after @loc{Old Wounds}."
+          },
+          {
+            "id": "rts-dockside-2",
+            "text": "Disable the SDC freighter docked at Keppel Terminal. Any difficulty works."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_RTS_AFGHANISTAN",
+      "displayName": "Desert Storm",
+      "description": "Successfully escort the VIPs to safety.",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_NICARAGUA"
+      ],
+      "summary": "Finish the Strike Force mission I.E.D. successfully by escorting the VIPs to safety.",
+      "guide": {
+        "kind": "standard",
+        "context": "Finish it before starting Suffer With Me, or use Rewind Story on Suffer With Me first.",
+        "steps": [
+          {
+            "id": "rts-afghanistan-1",
+            "text": "Play the Strike Force mission @loc{I.E.D.}, which unlocks after @loc{Time and Fate}."
+          },
+          {
+            "id": "rts-afghanistan-2",
+            "text": "Escort the VIPs to safety. Any difficulty works."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_RTS_DRONE",
+      "displayName": "Defender",
+      "description": "Successfully defend FOB Spectre from incursion.",
+      "hidden": false,
+      "globalPercent": 29.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_AFGHANISTAN"
+      ],
+      "summary": "Finish the Strike Force mission FOB Spectre successfully by defending the base from the incursion.",
+      "guide": {
+        "kind": "standard",
+        "context": "Finish it before starting Suffer With Me, or use Rewind Story on Suffer With Me first.",
+        "steps": [
+          {
+            "id": "rts-drone-1",
+            "text": "Play the Strike Force mission @loc{FOB Spectre}, which unlocks after @loc{Old Wounds}."
+          },
+          {
+            "id": "rts-drone-2",
+            "text": "Defend FOB Spectre from the incursion. Any difficulty works."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_RTS_CARRIER",
+      "displayName": "Black Ops II Master",
+      "description": "Complete the campaign on Hardened or Veteran difficulty.",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "during the Veteran run",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_LA"
+      ],
+      "summary": "Beat the whole campaign on either Veteran or Hardened.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "rts-carrier-1",
+            "text": "Play the story missions on Veteran, or on Hardened, up to the end of @loc{Judgment Day}."
+          },
+          {
+            "id": "rts-carrier-2",
+            "text": "Strike Force missions are not needed for this."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_RTS_PAKISTAN",
+      "displayName": "Art of War",
+      "description": "Successfully assassinate SDC Chairman Tian Zhao.",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_PANAMA",
+        "SP_RTS_DRONE",
+        "SP_RTS_DOCKSIDE",
+        "SP_RTS_AFGHANISTAN"
+      ],
+      "summary": "Finish the Strike Force mission Dispatch successfully by assassinating SDC Chairman Tian Zhao.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dispatch also needs every intel piece collected in Fallen Angel. If you play it during the story, finish it before Achilles' Veil.",
+        "steps": [
+          {
+            "id": "rts-pakistan-1",
+            "text": "Finish @loc{Suffer With Me} and the Strike Force missions @loc{Shipwreck}, @loc{I.E.D.}, and @loc{FOB Spectre}."
+          },
+          {
+            "id": "rts-pakistan-2",
+            "text": "Play the Strike Force mission @loc{Dispatch} and assassinate SDC Chairman Tian Zhao."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_RTS_SOCOTRA",
+      "displayName": "Blind Date",
+      "description": "Successfully rescue HVI.",
+      "hidden": false,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "about 30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_KARMA"
+      ],
+      "summary": "Finish the Strike Force mission Second Chance successfully by rescuing the HVI.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rescuing Karma makes Showdown impossible in that story run, so get Showdown first. Finish this before starting Suffer With Me.",
+        "steps": [
+          {
+            "id": "rts-socotra-1",
+            "text": "Make sure Karma was not rescued in the @loc{Karma} mission. If she was, rewind the story to @loc{Karma} and let @npc{DeFalco} escape with her."
+          },
+          {
+            "id": "rts-socotra-2",
+            "text": "Play the Strike Force mission @loc{Second Chance} and rescue Chloe \"Karma\" Lynch. Any difficulty works."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_MASON_LIVES",
+      "displayName": "Family Reunion",
+      "description": "There are two futures.",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min in Suffer With Me",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_KARMA"
+      ],
+      "summary": "In Suffer With Me, shoot the final target in the legs twice instead of taking the headshot.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you take the headshot, use Rewind Story on Suffer With Me.",
+        "steps": [
+          {
+            "id": "story-mason-lives-1",
+            "text": "Near the end of @loc{Suffer With Me}, you get a sniper rifle and an order to shoot the target in the head. Do not shoot the head."
+          },
+          {
+            "id": "story-mason-lives-2",
+            "text": "Shoot the target in the legs. When the body is on the ground, shoot the legs again."
+          },
+          {
+            "id": "story-mason-lives-3",
+            "text": "The achievement unlocks in the cutscene that follows."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_HARPER_FACE",
+      "displayName": "Hey Good Looking",
+      "description": "Plastic surgery avoided.",
+      "hidden": false,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min in Fallen Angel",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_NICARAGUA"
+      ],
+      "summary": "In Fallen Angel, avoid driving through the flames from the broken pipe in the final vehicle section.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you drive through the flames, rewind the story to Fallen Angel.",
+        "steps": [
+          {
+            "id": "story-harper-face-1",
+            "text": "In the final driving section of @loc{Fallen Angel}, a helicopter crashes and a pipe starts spewing flames ahead."
+          },
+          {
+            "id": "story-harper-face-2",
+            "text": "Stay far to the right, or slow down, so you do not drive through the fire."
+          },
+          {
+            "id": "story-harper-face-3",
+            "text": "Leave the vehicle. The achievement unlocks then."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_FARID_DUEL",
+      "displayName": "Showdown",
+      "description": "A duel between rivals.",
+      "hidden": false,
+      "globalPercent": 5.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "during Karma, Achilles Veil, Odysseus",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_YEMEN"
+      ],
+      "summary": "In Odysseus, watch Farid and DeFalco shoot each other, after letting Karma be captured in Karma and killing Harper in Achilles' Veil.",
+      "guide": {
+        "kind": "standard",
+        "context": "A wrong choice loses it for that run. Rewind the story to the first mistake and replay the later missions with Continue Story.",
+        "steps": [
+          {
+            "id": "story-farid-duel-1",
+            "text": "In @loc{Karma}, do not chase @npc{DeFalco}. Let him escape in the aircraft with Karma."
+          },
+          {
+            "id": "story-farid-duel-2",
+            "text": "Skip every Strike Force mission, including @loc{Second Chance}, until you finish this."
+          },
+          {
+            "id": "story-farid-duel-3",
+            "text": "In @loc{Achilles' Veil}, in the cutscene with @npc{Menendez} and @npc{Harper}, shoot Harper."
+          },
+          {
+            "id": "story-farid-duel-4",
+            "text": "In @loc{Odysseus}, continue to the server-room cutscene. The achievement unlocks as @npc{Farid} and @npc{DeFalco} kill each other."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_LINK_CIA",
+      "displayName": "Dirty Business",
+      "description": "Listen and think before you shoot.",
+      "hidden": false,
+      "globalPercent": 22.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "during Old Wounds and Suffer With Me",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_KARMA"
+      ],
+      "summary": "Resist the prompt to kill Kravchenko in Old Wounds, then meet Noriega in Suffer With Me.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you killed Kravchenko, rewind the story to Old Wounds and replay the later missions with Continue Story.",
+        "steps": [
+          {
+            "id": "story-link-cia-1",
+            "text": "At the end of @loc{Old Wounds}, @npc{Kravchenko} is interrogated and the game prompts you to kill him. Resist it three times in a row."
+          },
+          {
+            "id": "story-link-cia-2",
+            "text": "Finish @loc{Old Wounds}. Someone else kills him."
+          },
+          {
+            "id": "story-link-cia-3",
+            "text": "In @loc{Suffer With Me}, continue until you meet @npc{Noriega}. The achievement unlocks then."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_OBAMA_SURVIVES",
+      "displayName": "Ship Shape",
+      "description": "Reinforcements on the way.",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "with Good Karma",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_RTS_PAKISTAN",
+        "SP_RTS_DRONE",
+        "SP_RTS_DOCKSIDE",
+        "SP_RTS_AFGHANISTAN"
+      ],
+      "summary": "Wound Admiral Briggs in the leg during Odysseus, after finishing every Strike Force mission except Second Chance.",
+      "guide": {
+        "kind": "standard",
+        "context": "This cannot be earned from mission select after Odysseus. Rewind the story to before the missed Strike Force mission, or to Odysseus if you only killed Briggs. It pairs naturally with Good Karma.",
+        "steps": [
+          {
+            "id": "story-obama-survives-1",
+            "text": "Before starting @loc{Odysseus}, finish the Strike Force missions @loc{FOB Spectre}, @loc{Shipwreck}, @loc{I.E.D.}, and @loc{Dispatch}."
+          },
+          {
+            "id": "story-obama-survives-2",
+            "text": "In the @loc{Odysseus} server-room scene, wound Admiral @npc{Briggs} in the leg instead of killing him."
+          },
+          {
+            "id": "story-obama-survives-3",
+            "text": "Finish the mission. The achievement unlocks when the USS Barack Obama is saved by reinforcements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_MENENDEZ_CAPTURED",
+      "displayName": "Dead or Alive",
+      "description": "Jailor or executioner.",
+      "hidden": false,
+      "globalPercent": 25.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "end of Judgment Day",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_LA"
+      ],
+      "summary": "Choose to either shoot or capture Raul Menendez at the end of Judgment Day.",
+      "guide": {
+        "kind": "standard",
+        "context": "If the game chose for you, rewind the story to Judgment Day.",
+        "steps": [
+          {
+            "id": "story-menendez-captured-1",
+            "text": "Near the end of @loc{Judgment Day}, you must pick whether to shoot or capture @npc{Menendez}. Pick one quickly; either choice works."
+          },
+          {
+            "id": "story-menendez-captured-2",
+            "text": "Do not wait for the game to choose for you, or the achievement is lost.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_HARPER_LIVES",
+      "displayName": "Ultimate Sacrifice",
+      "description": "Only one can survive.",
+      "hidden": false,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min replay",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_PANAMA"
+      ],
+      "summary": "In Achilles' Veil, shoot Menendez instead of Harper.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the opposite of the choice in Showdown and Good Karma, so replay this mission separately from those.",
+        "steps": [
+          {
+            "id": "story-harper-lives-1",
+            "text": "Play or replay @loc{Achilles' Veil} from the start. Replaying it from mission select is enough."
+          },
+          {
+            "id": "story-harper-lives-2",
+            "text": "Soon after the start, in the cutscene with @npc{Menendez} and @npc{Harper}, shoot Menendez. You can also wait a few seconds without pressing anything."
+          },
+          {
+            "id": "story-harper-lives-3",
+            "text": "The achievement unlocks shortly after the cutscene ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_CHLOE_LIVES",
+      "displayName": "Good Karma",
+      "description": "Crack the celerium worm.",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_RTS_SOCOTRA",
+        "SP_RTS_PAKISTAN",
+        "SP_COMPLETE_PANAMA",
+        "SP_RTS_DRONE",
+        "SP_RTS_DOCKSIDE",
+        "SP_RTS_AFGHANISTAN"
+      ],
+      "summary": "Rescue Karma, kill Harper in Achilles' Veil, and shoot Admiral Briggs in the leg in Odysseus.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any wrong choice loses it. Rewind the story to the first mistake and replay the later missions with Continue Story, not mission select. Showdown needs the opposite Karma choice, so get Showdown first.",
+        "steps": [
+          {
+            "id": "story-chloe-lives-1",
+            "text": "Make sure Karma is rescued: kill @npc{DeFalco} before his aircraft leaves in @loc{Karma}, or play the Strike Force mission @loc{Second Chance} after he escapes."
+          },
+          {
+            "id": "story-chloe-lives-2",
+            "text": "Before @loc{Suffer With Me}, finish the Strike Force missions @loc{I.E.D.}, @loc{Shipwreck}, and @loc{FOB Spectre}."
+          },
+          {
+            "id": "story-chloe-lives-3",
+            "text": "After @loc{Suffer With Me}, finish the Strike Force mission @loc{Dispatch} before starting @loc{Achilles' Veil}."
+          },
+          {
+            "id": "story-chloe-lives-4",
+            "text": "In @loc{Achilles' Veil}, in the cutscene with @npc{Menendez} and @npc{Harper}, shoot Harper so @npc{Farid} survives."
+          },
+          {
+            "id": "story-chloe-lives-5",
+            "text": "In @loc{Odysseus}, wound Admiral @npc{Briggs} in the leg, then complete the mission. The achievement unlocks when the USS Barack Obama is saved by reinforcements."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_MISC_ALL_INTEL",
+      "displayName": "High IQ",
+      "description": "Collect all intel.",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "throughout the Veteran run",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_LA"
+      ],
+      "summary": "Collect all 33 intel pieces, three in each of the 11 story missions.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "Intel is saved when you pick it up, but its mission must still be finished before it counts. The last pickup unlocks the achievement at the end of that mission. Career Record shows which missions are complete. Past missions use reel-to-reel recorders; future missions use orange tablets.",
+        "collectibles": [
+          {
+            "id": "intel-01",
+            "index": 1,
+            "group": "Pyrrhic Victory",
+            "name": "Intel 1",
+            "location": "@loc{Battlefield crater}",
+            "method": "Right side of the battlefield, in a crater next to the overturned Buffel.",
+            "missable": false
+          },
+          {
+            "id": "intel-02",
+            "index": 2,
+            "group": "Pyrrhic Victory",
+            "name": "Intel 2",
+            "location": "@loc{Congo River barge}",
+            "method": "Behind a corner on the barge's upper deck, beside the port-side MG.",
+            "missable": false
+          },
+          {
+            "id": "intel-03",
+            "index": 3,
+            "group": "Pyrrhic Victory",
+            "name": "Intel 3",
+            "location": "@loc{Poacher platform}",
+            "method": "After the radio operator encounter, hug the left jungle wall. Climb the left-most poacher platform during the second retreating bound.",
+            "missable": false
+          },
+          {
+            "id": "intel-04",
+            "index": 4,
+            "group": "Celerium",
+            "name": "Intel 4",
+            "location": "@loc{Helipad room}",
+            "method": "After the first fight, go up to the helipad. In the small room behind the tarp-covered drone, take it from the table.",
+            "missable": false
+          },
+          {
+            "id": "intel-05",
+            "index": 5,
+            "group": "Celerium",
+            "name": "Intel 5",
+            "location": "@loc{Stairwell office}",
+            "method": "Right after the ASD ambush, go back to the foot of the stairwell, face the entrance, and enter the office on your right. It is on the desk.",
+            "missable": false,
+            "note": "You can still take it later, as long as you stay away from Admiral Briggs."
+          },
+          {
+            "id": "intel-06",
+            "index": 6,
+            "group": "Celerium",
+            "name": "Intel 6",
+            "location": "@loc{Superweapon room}",
+            "method": "After the Karma superweapon introduction, go into the room that was blocked and on to the table against the wall.",
+            "missable": false
+          },
+          {
+            "id": "intel-07",
+            "index": 7,
+            "group": "Old Wounds",
+            "name": "Intel 7",
+            "location": "@loc{War-room crate}",
+            "method": "Right after the debrief with Hudson, turn right. It is on a wooden crate.",
+            "missable": false
+          },
+          {
+            "id": "intel-08",
+            "index": 8,
+            "group": "Old Wounds",
+            "name": "Intel 8",
+            "location": "@loc{Red flag}",
+            "method": "After detonating the cratering charge, return to the main valley. It is lying on the sand beside the red flag under a rock spire.",
+            "missable": false
+          },
+          {
+            "id": "intel-09",
+            "index": 9,
+            "group": "Old Wounds",
+            "name": "Intel 9",
+            "location": "@loc{Eastern cave}",
+            "method": "While securing the weapons cache to the east, look in the shallow cave on the eastern rock wall. It is on the right side.",
+            "missable": false
+          },
+          {
+            "id": "intel-10",
+            "index": 10,
+            "group": "Time and Fate",
+            "name": "Intel 10",
+            "location": "@loc{Hay wagon}",
+            "method": "As Menendez, open the barn doors, sidestep the horses, and go to the back of the hay wagon at the stable's far end.",
+            "missable": false
+          },
+          {
+            "id": "intel-11",
+            "index": 11,
+            "group": "Time and Fate",
+            "name": "Intel 11",
+            "location": "@loc{Bell tower}",
+            "method": "As Mason, after spotting Menendez, enter the estate courtyard and climb the bell tower to the third floor. It is on wooden crates.",
+            "missable": false
+          },
+          {
+            "id": "intel-12",
+            "index": 12,
+            "group": "Time and Fate",
+            "name": "Intel 12",
+            "location": "@loc{Cocaine lab side room}",
+            "method": "With Woods, after clearing the cocaine lab, use the side room on your left, just before the corridor turns right toward the burning room. It is on a bench by a bucket.",
+            "missable": false
+          },
+          {
+            "id": "intel-13",
+            "index": 13,
+            "group": "Fallen Angel",
+            "name": "Intel 13",
+            "location": "@loc{Starting room shelf}",
+            "method": "Right after freeing the Maximus CLAW's GCM module, face the west wall of the room. It is on a shelf just under eye level.",
+            "missable": false
+          },
+          {
+            "id": "intel-14",
+            "index": 14,
+            "group": "Fallen Angel",
+            "name": "Intel 14",
+            "location": "@loc{Alley archway}",
+            "method": "After evading the bus and opening the gate with Harper, take the alley on the right. It is at the base of the archway.",
+            "missable": false
+          },
+          {
+            "id": "intel-15",
+            "index": 15,
+            "group": "Fallen Angel",
+            "name": "Intel 15",
+            "location": "@loc{Ruined building}",
+            "method": "While sneaking past the HK MQ drones, enter the building ruins. It lies next to the roof rubble lit by a drone's spotlight.",
+            "missable": false
+          },
+          {
+            "id": "intel-16",
+            "index": 16,
+            "group": "Karma",
+            "name": "Intel 16",
+            "location": "@loc{CRC server room}",
+            "method": "After clearing the CRC server room and before the uplink chamber, take it from the table at the east wall.",
+            "missable": false
+          },
+          {
+            "id": "intel-17",
+            "index": 17,
+            "group": "Karma",
+            "name": "Intel 17",
+            "location": "@loc{d'HO store}",
+            "method": "In the mall past the CAFI sign, go down to the lower level and into the d'HO store. It is on the rear sales counter.",
+            "missable": false
+          },
+          {
+            "id": "intel-18",
+            "index": 18,
+            "group": "Karma",
+            "name": "Intel 18",
+            "location": "@loc{Chase kiosk}",
+            "method": "During the chase for DeFalco, stay on the right. Before the stairs, find the kiosk between two signs. The intel is on its far side.",
+            "missable": false
+          },
+          {
+            "id": "intel-19",
+            "index": 19,
+            "group": "Suffer With Me",
+            "name": "Intel 19",
+            "location": "@loc{Hangar shelf}",
+            "method": "Drop into the hangar through the skylight and kill everyone on the top level. Before heading downstairs, look to your left.",
+            "missable": false
+          },
+          {
+            "id": "intel-20",
+            "index": 20,
+            "group": "Suffer With Me",
+            "name": "Intel 20",
+            "location": "@loc{Church plaza building}",
+            "method": "In the slums go west to the church plaza. With the church entrance in front of you, go left into the building that has a hole in its wall. It is on the counter at the back.",
+            "missable": false
+          },
+          {
+            "id": "intel-21",
+            "index": 21,
+            "group": "Suffer With Me",
+            "name": "Intel 21",
+            "location": "@loc{Clinic sink}",
+            "method": "Inside the clinic, walk to the far end of the building. It is next to a sink.",
+            "missable": false
+          },
+          {
+            "id": "intel-22",
+            "index": 22,
+            "group": "Achilles' Veil",
+            "name": "Intel 22",
+            "location": "@loc{Circular tower}",
+            "method": "As Farid, come into the courtyard from the stage and follow the west wall with the central minaret on your left. Go through the door to the round tower at the end of the arcade. It is on the ground level.",
+            "missable": false
+          },
+          {
+            "id": "intel-23",
+            "index": 23,
+            "group": "Achilles' Veil",
+            "name": "Intel 23",
+            "location": "@loc{Quad killzone}",
+            "method": "As Section on the quads, take the north (left) side of the killzone. In the entry room of the first building, check behind the crates in the northeast corner.",
+            "missable": false
+          },
+          {
+            "id": "intel-24",
+            "index": 24,
+            "group": "Achilles' Veil",
+            "name": "Intel 24",
+            "location": "@loc{Satellite dish}",
+            "method": "Leaving town, hug the right cliff on the dirt path. After control of the quads ends, climb the ladder to the building. It is beside the roof satellite dish.",
+            "missable": false
+          },
+          {
+            "id": "intel-25",
+            "index": 25,
+            "group": "Odysseus",
+            "name": "Intel 25",
+            "location": "@loc{Bridge}",
+            "method": "On the right-hand (starboard) side of the bridge. You also pass it on the way to the Bridge Control Terminal once you control Section again.",
+            "missable": false
+          },
+          {
+            "id": "intel-26",
+            "index": 26,
+            "group": "Odysseus",
+            "name": "Intel 26",
+            "location": "@loc{Observation area}",
+            "method": "As Section, after assessing the server room, go down one flight, then take the right stairs up to an observation area. It is on a table.",
+            "missable": false,
+            "note": "Take it before approaching Salazar."
+          },
+          {
+            "id": "intel-27",
+            "index": 27,
+            "group": "Odysseus",
+            "name": "Intel 27",
+            "location": "@loc{Flight deck VTOL}",
+            "method": "On the Obama's flight deck, it is on the floor of the farthest of the two intact VTOLs.",
+            "missable": false
+          },
+          {
+            "id": "intel-28",
+            "index": 28,
+            "group": "Cordis Die",
+            "name": "Intel 28",
+            "location": "@loc{Burning SUV}",
+            "method": "Rappel from the freeway to the expressway and go left to the burning SUV with the dead motor officer. It is on the floor beside the body.",
+            "missable": false
+          },
+          {
+            "id": "intel-29",
+            "index": 29,
+            "group": "Cordis Die",
+            "name": "Intel 29",
+            "location": "@loc{Hotel Kaylor}",
+            "method": "After leaving the MRAP and destroying the enemy CLAW, enter Hotel Kaylor on the left. It is on the concierge's desk.",
+            "missable": false
+          },
+          {
+            "id": "intel-30",
+            "index": 30,
+            "group": "Cordis Die",
+            "name": "Intel 30",
+            "location": "@loc{Plaza kiosk}",
+            "method": "In the downtown shopping plaza, go indoors on the left, up the escalators, and right. It sits under a souvenir T-shirt stand.",
+            "missable": false
+          },
+          {
+            "id": "intel-31",
+            "index": 31,
+            "group": "Judgment Day",
+            "name": "Intel 31",
+            "location": "@loc{Building 27}",
+            "method": "Climb the stairs and fight to the entrance. Outside, enter the building marked \"27\" beside the MRAP with the SAM platform. It is on the second floor near a window.",
+            "missable": false
+          },
+          {
+            "id": "intel-32",
+            "index": 32,
+            "group": "Judgment Day",
+            "name": "Intel 32",
+            "location": "@loc{Control room monitors}",
+            "method": "In the control room, find the upper booth, climb to the second monitor row, and check the column on the left.",
+            "missable": false
+          },
+          {
+            "id": "intel-33",
+            "index": 33,
+            "group": "Judgment Day",
+            "name": "Intel 33",
+            "location": "@loc{Celerium device chamber}",
+            "method": "Down in the Celerium device chamber, the Myanmar facility from Celerium. Take any stairs down; objects that seem to block you can be walked through. It is on a crate.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_BACK_TO_FUTURE",
+      "displayName": "Back in Time",
+      "description": "Use a future weapon in the past.",
+      "hidden": false,
+      "globalPercent": 5.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 80 min",
+      "estMinutes": 80,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_HAITI",
+        "SP_RTS_SOCOTRA",
+        "SP_RTS_DRONE",
+        "SP_RTS_DOCKSIDE",
+        "SP_RTS_AFGHANISTAN"
+      ],
+      "summary": "Get a kill with a future weapon in a past mission and finish that mission.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "back-to-future-1",
+            "text": "Finish the campaign so the future weapons unlock for past missions."
+          },
+          {
+            "id": "back-to-future-2",
+            "text": "Pick any past-era mission (Suffer With Me, Time and Fate, Old Wounds, or Pyrrhic Victory) and put a future weapon such as the @item{KAP-40} in your loadout first."
+          },
+          {
+            "id": "back-to-future-3",
+            "text": "Kill an enemy with it and finish the mission. You may drop the weapon afterwards. The achievement unlocks at the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_STORY_99PERCENT",
+      "displayName": "Man of the People",
+      "description": "Stop the brutality inflicted by the PDF.",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min in Time and Fate",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_COMPLETE_AFGHANISTAN"
+      ],
+      "summary": "In Time and Fate, rescue the civilians the PDF is attacking, finishing with the last one in the burning barn.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you miss one, replay Time and Fate.",
+        "steps": [
+          {
+            "id": "story-99percent-1",
+            "text": "During @loc{Time and Fate}, in the section where you control @npc{Menendez}, look for the five civilians under attack from @enemy{PDF} soldiers. Check the buildings and surrounding areas."
+          },
+          {
+            "id": "story-99percent-2",
+            "text": "Kill the attackers. The achievement unlocks when you save the last civilian, in the burning barn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_MISC_WEAPONS",
+      "displayName": "Gun Nut",
+      "description": "Complete a level with customized loadout.",
+      "hidden": false,
+      "globalPercent": 43.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish a mission with a changed loadout.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "misc-weapons-1",
+            "text": "Before a mission, change something in the loadout, for example by adding the Select Fire attachment to the FAL."
+          },
+          {
+            "id": "misc-weapons-2",
+            "text": "Finish the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SP_MISC_10K_SCORE_ALL",
+      "displayName": "Ten K",
+      "description": "Minimum score of 10k in every mission.",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "during the Strike Force run",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "SP_RTS_PAKISTAN"
+      ],
+      "summary": "Get a score of at least 10,000 in each of the 16 missions.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement unlocks when the last mission is finished, usually Dispatch.",
+        "steps": [
+          {
+            "id": "misc-10k-score-all-1",
+            "text": "Finish all 11 story missions and all 5 Strike Force missions."
+          },
+          {
+            "id": "misc-10k-score-all-2",
+            "text": "Check the score on each results screen and replay any mission below 10,000. A replay keeps the higher score."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "SP_ONE_CHALLENGE",
+    "SP_MISC_WEAPONS",
+    "SP_COMPLETE_ANGOLA",
+    "SP_COMPLETE_MONSOON",
+    "SP_COMPLETE_AFGHANISTAN",
+    "SP_STORY_99PERCENT",
+    "SP_COMPLETE_NICARAGUA",
+    "SP_STORY_HARPER_FACE",
+    "SP_COMPLETE_PAKISTAN",
+    "SP_COMPLETE_KARMA",
+    "SP_STORY_LINK_CIA",
+    "SP_STORY_MASON_LIVES",
+    "SP_VETERAN_PAST",
+    "SP_COMPLETE_PANAMA",
+    "SP_COMPLETE_YEMEN",
+    "SP_STORY_FARID_DUEL",
+    "SP_COMPLETE_BLACKOUT",
+    "SP_COMPLETE_LA",
+    "SP_STORY_MENENDEZ_CAPTURED",
+    "SP_RTS_CARRIER",
+    "SP_VETERAN_FUTURE",
+    "SP_MISC_ALL_INTEL",
+    "SP_COMPLETE_HAITI",
+    "SP_STORY_HARPER_LIVES",
+    "SP_RTS_DOCKSIDE",
+    "SP_RTS_AFGHANISTAN",
+    "SP_RTS_SOCOTRA",
+    "SP_RTS_DRONE",
+    "SP_BACK_TO_FUTURE",
+    "SP_RTS_PAKISTAN",
+    "SP_STORY_OBAMA_SURVIVES",
+    "SP_MISC_10K_SCORE_ALL",
+    "SP_STORY_CHLOE_LIVES",
+    "SP_ALL_CHALLENGES_IN_LEVEL",
+    "SP_ALL_CHALLENGES_IN_GAME"
+  ]
+}

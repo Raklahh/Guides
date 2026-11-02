@@ -1,0 +1,1580 @@
+{
+  "game": {
+    "appid": 4358690,
+    "slug": "graveyard-keeper-2",
+    "title": "Graveyard Keeper 2",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-30",
+    "estTotalHours": 60,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-02"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Prologue and the first village quests",
+      "description": "Play the opening story through the village: meet Januarius, help Jack finish his boat, hold your first sermon at the Church and win the first Town battle. Start holding a sermon every Wrath as soon as you can, because 50 are needed later.",
+      "achievementRefs": [
+        "ach_new_beginning",
+        "ach_two_faces",
+        "ach_jack_in_town",
+        "ach_sermon",
+        "ach_win_battle"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Opening the Town and starting production",
+      "description": "Meet the Astrologer, clear the south of Town, summon the Fairy, restore one house and finish the first Town order. Run cooking, farming, fishing, tree cutting and smelting alongside the story so those counters fill early.",
+      "achievementRefs": [
+        "ach_gunter",
+        "ach_clear_town_a",
+        "ach_call_fairy",
+        "ach_recover_house",
+        "ach_first_town_order",
+        "ach_cut_trees",
+        "ach_bronze_ingots_100",
+        "ach_iron_ingots_100",
+        "ach_cook_100",
+        "ach_harvest_100",
+        "ach_catch_fish_50"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Forest, concert and production milestones",
+      "description": "Reach the Forest bandits, get the Necronomicon and attend Linda's concert on a Lust day. Build the Laboratory, supply, brewing and weapon production, and raise graveyard quality to 200.",
+      "achievementRefs": [
+        "ach_met_bandits",
+        "ach_necronomicon",
+        "ach_linda_concert",
+        "ach_supplies_50",
+        "ach_alchemist_25",
+        "ach_alcohol_100",
+        "ach_war_equipment_50",
+        "ach_graveyard_quality_200"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Election and character quests",
+      "description": "Win the election, find the Old God, then finish the Agatha and Herbert, Linda and Albert, and Jack and Gunter character quests.",
+      "achievementRefs": [
+        "ach_election",
+        "ach_old_god",
+        "ach_agatha_herbert",
+        "ach_linda_albert",
+        "ach_jack_gunter"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Final battle and ending",
+      "description": "Finish the portal requests, win the Final Battle and restore the portal. Choose Stay at the portal so the long milestones can continue without reloading.",
+      "achievementRefs": [
+        "ach_alt_keeper",
+        "ach_the_end"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Long milestones",
+      "description": "Finish the slow counters: all Town shops and houses, 25 Town orders, 50 zombies, 50 burials, 150 inspiration levels and 50 sermons. Keep holding a sermon every Wrath throughout.",
+      "achievementRefs": [
+        "ach_build_market_stalls",
+        "ach_biuld_houses",
+        "ach_orders_25",
+        "ach_resurrect_50",
+        "ach_bury_bodies",
+        "ach_inspirations_150",
+        "ach_sermon_50"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ach_new_beginning",
+      "displayName": "A New Beginning",
+      "description": "The journey has begun. The world is waiting.",
+      "hidden": false,
+      "globalPercent": 95.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Sleep for the first time at the Inquisition Base.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play through the opening and go to bed at the @loc{Inquisition Base}. The achievement unlocks after that first sleep."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_two_faces",
+      "displayName": "Two faces",
+      "description": "You met Januarius and Jully. However, it seems like they're the same person.",
+      "hidden": false,
+      "globalPercent": 93.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_new_beginning"
+      ],
+      "summary": "Talk to Januarius at the Village Tavern and learn he is also Jully, the head of the village.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Bring a Burial Certificate I to @npc{Herbert} at the Crossroads to finish Certificate, Please."
+          },
+          {
+            "id": "s2",
+            "text": "In What the Fairy?, find @npc{Januarius} in the Village Tavern. Ask him about fairies and take the money owed for the Burial Certificate."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_jack_in_town",
+      "displayName": "A Man of Many Talents",
+      "description": "Jack has found his way to the town.",
+      "hidden": false,
+      "globalPercent": 83.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_two_faces"
+      ],
+      "summary": "Finish the quest Jack in a Boat by helping Jack set sail with the twin brothers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish What the Fairy?. Next, go to Herm's store, the opening task of Supply and Demand. After one sleep, Jack in a Boat begins."
+          },
+          {
+            "id": "s2",
+            "text": "In Twin's Land, give @npc{Jack} 5 Wooden Plank. Then give him 1 Bronze Axe and 1 Bronze Hammer."
+          },
+          {
+            "id": "s3",
+            "text": "With village reputation 10 or more, talk the twin brothers into sailing Jack to the port. Then ask Jack whether he is ready to leave."
+          },
+          {
+            "id": "s4",
+            "text": "Rest and wait for news from Jack. The achievement unlocks after the brothers return."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_call_fairy",
+      "displayName": "A Little Magic",
+      "description": "The fairy has answered the call.",
+      "hidden": false,
+      "globalPercent": 66.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_gunter"
+      ],
+      "summary": "Summon the Fairy at the Kitchen Table in your home.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Brew Dream Dust at the Laboratory using ingredient runes that total one green and one blue, such as Peat or Ash by itself."
+          },
+          {
+            "id": "s2",
+            "text": "Finish Sweet Dreams by bringing your Dream Dust to the Plague Doctor. He is in the Abandoned Tower."
+          },
+          {
+            "id": "s3",
+            "text": "Buy a Comet's Tail from @npc{Gunter} in Town. His shop opens after Friendship Written in the Stars."
+          },
+          {
+            "id": "s4",
+            "text": "Make a Tooth from 1 Skull at the Formulation Bench. This needs the Skull and Teeth technology."
+          },
+          {
+            "id": "s5",
+            "text": "In your home, make Summon Fairy at the Kitchen Table with 1 Dream Dust, 1 Comet's Tail and 1 Tooth. Brew more Dream Dust first if you have none left."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_win_battle",
+      "displayName": "First Blood",
+      "description": "You won your first battle.",
+      "hidden": false,
+      "globalPercent": 72.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_two_faces"
+      ],
+      "summary": "Win the first Town battle, Break Through to the Port.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most battles are won by taking every enemy flag and keeping hold of them to the end.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Hooligans for Hire, make a deal with the mercenary leader in the Barracks."
+          },
+          {
+            "id": "s2",
+            "text": "In Swords and Bell, build barricades and hire mercenaries until Barracks quality is high enough. Then speak to @npc{Herbert} in the Barracks."
+          },
+          {
+            "id": "s3",
+            "text": "In First... Sludge?, speak to Herbert in front of the Barracks and win Break Through to the Port. The achievement unlocks after the battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_sermon",
+      "displayName": "Words of Faith",
+      "description": "You delivered your first sermon.",
+      "hidden": false,
+      "globalPercent": 81.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_jack_in_town"
+      ],
+      "summary": "Hold your first sermon in the Church.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish Jack in a Boat. In Holy Moly!, the Nun waits for you at the @loc{Village Tavern}."
+          },
+          {
+            "id": "s2",
+            "text": "Clean and build up the Church until it reaches Church quality 10."
+          },
+          {
+            "id": "s3",
+            "text": "Give the first ceremony yourself in the Church. It can be held on any day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_gunter",
+      "displayName": "The Man Behind the Curtain",
+      "description": "Gunter has entered the story.",
+      "hidden": false,
+      "globalPercent": 72.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_jack_in_town",
+        "ach_win_battle"
+      ],
+      "summary": "Complete Friendship Written in the Stars, the Astrologer Gunter's quest, by collecting his zombies.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After First... Sludge? and Docked and Found, find @npc{Gunter} in his tower at the port."
+          },
+          {
+            "id": "s2",
+            "text": "Get the Deck of Cards from @npc{Linda} at the Dockside Club and bring it to Gunter."
+          },
+          {
+            "id": "s3",
+            "text": "Take the zombies Gunter offers (reputation 10 with Gunter is needed), then go home to meet them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_recover_house",
+      "displayName": "Back to Life",
+      "description": "The town has taken its first steps toward recovery.",
+      "hidden": false,
+      "globalPercent": 51.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_win_battle"
+      ],
+      "summary": "Restore one house in the Town.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After the first battle, repair any house in Town. The two cheapest are Repair Small House (4 Building, 3 Wooden and 1 Iron Kit I) and Repair House (6 Building, 4 Wooden and 2 Iron Kit I). Market stalls do not count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_first_town_order",
+      "displayName": "Open for Business",
+      "description": "You completed your first town order.",
+      "hidden": false,
+      "globalPercent": 58.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_win_battle"
+      ],
+      "summary": "Complete your first Town order.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On a Pride day, open the order board in Town and accept @npc{Jack}'s order for 1 Supply: Iron. Your first visit to the board lets you take orders until the following Pride ends."
+          },
+          {
+            "id": "s2",
+            "text": "Smelt 1 iron ingot, craft 1 Supply: Iron and put it in a crate of the Town Warehouse."
+          },
+          {
+            "id": "s3",
+            "text": "Collect the finished order at the order board."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_clear_town_a",
+      "displayName": "A New Dawn",
+      "description": "The South part of Town has been cleared of zombies.",
+      "hidden": false,
+      "globalPercent": 34.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_win_battle"
+      ],
+      "summary": "Clear the south part of Town of zombies by winning three battles: Sewer Brawl II, Eastern Districts Purge and Central Districts Purge: Part II.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most battles start only on Sloth. Sewer Brawl II can start on any day.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish First... Sludge?. Then, for the quest Safe zone., win Sewer Brawl II, Eastern Districts Purge and Central Districts Purge: Part II."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_met_bandits",
+      "displayName": "Friends in Low Places",
+      "description": "You met the bandits.",
+      "hidden": false,
+      "globalPercent": 67.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_gunter"
+      ],
+      "summary": "Enter the Forest with the Forest Pass and meet the bandits there.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play through Docked and Found, then Into the Forest (Eventually), then Into the Forest, which hands you the Forest Pass."
+          },
+          {
+            "id": "s2",
+            "text": "Hand the pass over at the Forest Outpost guard post. Then walk into the Forest, follow the path down and speak to the people you find."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_linda_concert",
+      "displayName": "A Night to Remember",
+      "description": "You attended Linda's concert.",
+      "hidden": false,
+      "globalPercent": 53.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_gunter",
+        "ach_recover_house"
+      ],
+      "summary": "Attend Linda's concert at the Dockside Club, which is held on a Lust day.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "While in Gunter's tower during his first quest, pick the dialogue answers \"Zombies\" and then \"A small favor\". This starts Safe Harbor."
+          },
+          {
+            "id": "s2",
+            "text": "Restore the old shop next to the Dockside Club and tell @npc{Linda}. Then bring her Paint."
+          },
+          {
+            "id": "s3",
+            "text": "After Varnish Before You Fiddle, give Linda a Violin and then Simple Incense (Strings and Sinners)."
+          },
+          {
+            "id": "s4",
+            "text": "On Lust, speak to Linda at the Dockside Club to start the concert."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_necronomicon",
+      "displayName": "Forbidden Knowledge",
+      "description": "You found the Necronomicon. Some books should stay buried.",
+      "hidden": false,
+      "globalPercent": 47.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_call_fairy",
+        "ach_sermon"
+      ],
+      "summary": "Receive the Necronomicon from Gunter the Astrologer to finish The Ingenious Gentleman Don Keyote.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Holy Moly! and Chasing Fairy Lights, ask @npc{Agatha} at the Crossroads about her problem with the Donkey (The Nun with the Hairy Ass)."
+          },
+          {
+            "id": "s2",
+            "text": "Raise graveyard quality to 20. Then fix the Manhole at the Crossroads with 2 Polished Bronze and 4 Polished Stone and report to Agatha."
+          },
+          {
+            "id": "s3",
+            "text": "Speak to Agatha again to restore corpse delivery. Then tell @npc{Donkey} by the Morgue that he can keep bringing corpses."
+          },
+          {
+            "id": "s4",
+            "text": "Ask the Astrologer about the Necronomicon in his tower. He needs reputation 20 with Gunter, and 30 on your second visit. Printing the Poetry Book for him in Rhyme and Printed gives 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_election",
+      "displayName": "The People Have Spoken",
+      "description": "The elections are over. The future has been decided.",
+      "hidden": false,
+      "globalPercent": 33.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_call_fairy",
+        "ach_linda_concert"
+      ],
+      "summary": "Take part in the Village election at the Village Tavern in the quest Campaign of Thrones.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Heart of the Swamp, speak to Jully and then Januarius about the candidates (Election Fever)."
+          },
+          {
+            "id": "s2",
+            "text": "Talk @npc{Herbert} in the Barracks into guarding the vote. He wants reputation 55 first, then 60."
+          },
+          {
+            "id": "s3",
+            "text": "Ask @npc{Linda} to let the Dockside Club serve as a polling place. She wants reputation 55 first, then 60."
+          },
+          {
+            "id": "s4",
+            "text": "Ask @npc{Gunter} in his tower to promote the vote with a PR push. He wants reputation 45 first, then 50."
+          },
+          {
+            "id": "s5",
+            "text": "Be at the Village Tavern when the election happens. The achievement comes after the conversations there with Jack, the Nun and Linda."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_agatha_herbert",
+      "displayName": "An Unlikely Pair",
+      "description": "Agatha and Herbert settle into a calm life together.",
+      "hidden": true,
+      "globalPercent": 15.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_election"
+      ],
+      "summary": "Hold a sermon in the Church for Agatha and Herbert after the Organ is built.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Organic Music, fix Harold's wood-catching machine in the Stilt Houses. Then build the Organ in the Church with 4 Special Wood and 6 Steel Detail."
+          },
+          {
+            "id": "s2",
+            "text": "Tell @npc{Agatha} at the Crossroads about the Organ, then tell @npc{Herbert} in the Barracks that it is finished."
+          },
+          {
+            "id": "s3",
+            "text": "In The House at the Crossroads, give the Nun 2 Wooden Kit II and 2 Furniture Kit II for her residence."
+          },
+          {
+            "id": "s4",
+            "text": "Put a zombie at the Organ, then preach a sermon that Agatha and Herbert attend."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_jack_gunter",
+      "displayName": "Two Broken Souls",
+      "description": "Jack and Gunter become friends and work well together.",
+      "hidden": true,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_old_god"
+      ],
+      "summary": "Give Jack a Prosthetic Hand and Gunter a Small Printing Press in the quest I Love You, Man.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish More Portal Parts and Why don't you like me?, which asks for 100 Likes for Gunter in his tower."
+          },
+          {
+            "id": "s2",
+            "text": "Sleep once. Then go to the Port, beside the Main Pier, where @npc{Jack} and @npc{Gunter} wait."
+          },
+          {
+            "id": "s3",
+            "text": "Bring Jack a Prosthetic Hand and Gunter a Small Printing Press. Both are made at the Steel Anvil, and the quest teaches the recipes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_linda_albert",
+      "displayName": "A Dangerous Romance",
+      "description": "Linda and Albert get together.",
+      "hidden": true,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_election"
+      ],
+      "summary": "Bring Albert Alchemy Flasks II and Linda Chocolate in the quest Love Story.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Town quality 100 and do the orders for @npc{Linda} (Wealthy Clients)."
+          },
+          {
+            "id": "s2",
+            "text": "Finish Coughing it Up! and Hot Potato Delivery, then speak to @npc{Albert} in his Lab (Heal the Healer)."
+          },
+          {
+            "id": "s3",
+            "text": "Sleep once and go to the Dockside Club, where Linda and Albert wait. Hand 10 Alchemy Flasks II to Albert and 1 Chocolate to Linda. The quest teaches you the Chocolate recipe."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_old_god",
+      "displayName": "The Ancient One",
+      "description": "You find the Old God.",
+      "hidden": true,
+      "globalPercent": 18.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_election"
+      ],
+      "summary": "Find the Old God in Mauritzio's cheese cellar in the Sewers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish Goddess in the Swamp. Question the Goddess statue on the topic \"The Man with the Red Eye\" to start Finding Old God."
+          },
+          {
+            "id": "s2",
+            "text": "Speak to @npc{Davy the Dagger} at the Sewers entrance by the west gate. Then speak to the looters in the Sewers to find the cheese cellar."
+          },
+          {
+            "id": "s3",
+            "text": "In High Price, pay the Trademaster at the Main Pier 1 gold for Portal fragment Lust. His ship docks only on Lust. Carry the fragment to the Astrologer's Tower."
+          },
+          {
+            "id": "s4",
+            "text": "In Friend or Foe, carry the Red Eye through the wall into the cheese cellar. Choose \"Give the eye\" or \"Keep the red eye\". Either choice works."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_alt_keeper",
+      "displayName": "The Other Keeper",
+      "description": "You meet your other self.",
+      "hidden": true,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_agatha_herbert",
+        "ach_linda_albert",
+        "ach_jack_gunter"
+      ],
+      "summary": "Win the Final Battle in the quest The Last Battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "Returning the Red Eye means a special sermon with Prayer for Old God, which needs at least 180 parishioners, and one sleep after the third portal request. Keeping it means building an attic (16 Wooden Plank, 8 Iron Detail, 6 Carved Stone), and each of the six then wants reputation 100, plus three extra requests (Luxury Drapes, a Comfortable Chair and an Elegant Prosthetic Hand).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pay @npc{Davy the Dagger} 50 silver in Palace Politics. Also complete the portal quest Eye, Red Eye, and three more: Gluttony and Pride, plus Wrath and Sloth, plus Lust and Envy."
+          },
+          {
+            "id": "s2",
+            "text": "Get reputation 90 with each of six people: Jack, Gunter, Herbert, Albert, Linda and the Nun. Doing all of their character quests gets you there."
+          },
+          {
+            "id": "s3",
+            "text": "Talk to the guards at the post to begin the Final Battle. Defend your base until the enemy waves stop."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_the_end",
+      "displayName": "The End of the Journey",
+      "description": "You completed the game.",
+      "hidden": false,
+      "globalPercent": 11.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_alt_keeper"
+      ],
+      "summary": "Fix the portal in the Astrologer's Tower using the final portal fragment.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Once the Final Battle is won, go to the Astrologer's Tower and put in Portal fragment Greed to repair the portal."
+          },
+          {
+            "id": "s2",
+            "text": "At the portal choose Stay to keep playing for the remaining milestones. Go ends the credits at the main menu, and your save is then the one from your last sleep."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_cut_trees",
+      "displayName": "Tree Bane",
+      "description": "You've felled 100 trees! The whole forest fears you now.",
+      "hidden": false,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Fell 100 trees.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Cut trees around the @loc{Inquisition Base} and on the four graveyard squares. Trees near the base regrow, so you can cut them again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_bury_bodies",
+      "displayName": "True Graveyard Keeper",
+      "description": "You've buried 50 corpses! Now you are The True Graveyard Keeper!",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Bury 50 corpses in the graveyard.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Bury corpses from the Morgue in graves. Corpses burned in the Crematorium are not buried, so they do not count."
+          },
+          {
+            "id": "s2",
+            "text": "Once graveyard quality is high, bury every corpse without embalming to finish faster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_build_market_stalls",
+      "displayName": "Patron of merchants",
+      "description": "You built all the market stalls in the Town.",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Build 11 first-level shops in the Town, using both the Merchant Stalls plots and the Workshop Courtyards.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the shop technologies: Market Stalls I (from the quest Safe Harbor), Artisans I, Artisans II, Market Stalls II and Market Stalls III."
+          },
+          {
+            "id": "s2",
+            "text": "Put a first-level shop on each of the 7 Merchant Stalls plots and each of the 4 Workshop Courtyards. Each shop takes 4 to 8 Building Kit I, along with some Wooden and Iron Kit I. You do not need to upgrade them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_biuld_houses",
+      "displayName": "Urban Planner",
+      "description": "You've restored all the houses in the Town. It's never looked so good!",
+      "hidden": false,
+      "globalPercent": 14.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_recover_house"
+      ],
+      "summary": "Restore 15 houses in the Town.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Repair Town houses until 15 of the 16 are restored. Later repairs, such as Repair Block, need Kit II items, so set up kit production in the factory first."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_graveyard_quality_200",
+      "displayName": "Home Sweet Tomb",
+      "description": "The quality of your cemetery has reached 200. Rest in style.",
+      "hidden": false,
+      "globalPercent": 18.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Raise the graveyard quality to 200.",
+      "guide": {
+        "kind": "standard",
+        "context": "A grave scores the lower of its wreaths and the corpse's white skulls. Wreaths are the headstone's plus the fence's, minus one for each red skull on the corpse.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Bury corpses with many white skulls and put a headstone and a fence on every grave."
+          },
+          {
+            "id": "s2",
+            "text": "Add decorations, such as benches, monuments, lanterns and columbaria, plus fence and path upgrades."
+          },
+          {
+            "id": "s3",
+            "text": "Remove trees, stumps, stones and bushes from the graveyard, because each one lowers quality."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_bronze_ingots_100",
+      "displayName": "Bronze Age",
+      "description": "You've smelted 100 bronze ingots.",
+      "hidden": false,
+      "globalPercent": 54.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Smelt 100 bronze ingots.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use a Furnace I or II. A batch of 3 Copper Nugget plus 1 Tin and 20 Fuel yields 4 Bronze Ingot. A batch of 3 Bronze Scrap with 20 Fuel yields 2. Each ingot counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_iron_ingots_100",
+      "displayName": "Iron Age",
+      "description": "You've smelted 100 iron ingots. Why so much?",
+      "hidden": false,
+      "globalPercent": 54.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Smelt 100 iron ingots.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Smithing Mastery 5, then smelt iron. At a Furnace II, 3 Iron Ore and 30 Fuel make 3 Iron Ingot. At a Smithy, 1 Iron Ore and 1 Coal make 1. Each ingot counts."
+          },
+          {
+            "id": "s2",
+            "text": "Get Iron Ore from the Forest, or set up a Zombie Miner, which makes Iron Ore and Coal without ingredients."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_supplies_50",
+      "displayName": "Supplier",
+      "description": "You've created 50 supplies. The town is depending on you.",
+      "hidden": false,
+      "globalPercent": 26.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Craft 50 Supply items.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Craft Supply boxes, such as Supply: Iron from 1 iron ingot or Supply: Fabric from 5 fabric, until you have made 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_orders_25",
+      "displayName": "Merchants' Best Friend",
+      "description": "You've completed 25 merchant orders.",
+      "hidden": false,
+      "globalPercent": 11.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_first_town_order"
+      ],
+      "summary": "Complete 25 Town orders.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Accept orders at the order board, which only works on Pride days. You can hold 2 at a time, with more slots as Town quality rises. A repeatable order can be taken again on the next Pride."
+          },
+          {
+            "id": "s2",
+            "text": "Place matching Supply boxes into the Town Warehouse or Warehouse Cellar crates. Boxes go to your accepted orders as they arrive."
+          },
+          {
+            "id": "s3",
+            "text": "Collect each finished order at the order board so it counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_war_equipment_50",
+      "displayName": "Warmaker",
+      "description": "You've crafted 50 battle items. What a time to live!",
+      "hidden": false,
+      "globalPercent": 20.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Craft 50 weapons and pieces of battle equipment.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Craft weapons and armor, such as spears, bows and armor pieces, until you have made 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_cook_100",
+      "displayName": "Master Cook",
+      "description": "You've cooked 100 dishes! You won't be starving.",
+      "hidden": false,
+      "globalPercent": 67.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Cook 100 dishes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Grow carrots, which are cheap, and cook them. Take the dishes from the kitchen furnace. Each cooking gives several dishes, and every dish counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_resurrect_50",
+      "displayName": "Necromancer",
+      "description": "You've resurrected 50 zombies. A whole army!",
+      "hidden": false,
+      "globalPercent": 11.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_necronomicon"
+      ],
+      "summary": "Resurrect 50 corpses as zombies.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Lay corpses that still have all 6 vital organs on Resurrection Tables. Give each one 1 Reanimation Liquid and a collar rated for its red skulls."
+          },
+          {
+            "id": "s2",
+            "text": "On Envy, use the Resurrection device. It raises a zombie on every prepared table at once."
+          },
+          {
+            "id": "s3",
+            "text": "To resurrect on other days, preach a Prayer for Storms sermon. It needs 20 parishioners and is certain with 40. On success you get the God of the storms blessing, lasting 1 h 30 min."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_harvest_100",
+      "displayName": "Master Farmer",
+      "description": "You've harvested 100 crops. Enough for the whole Town!",
+      "hidden": false,
+      "globalPercent": 67.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Harvest 100 crops from Garden Beds and Vine Trellises.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Research Gardening, reach Farming Mastery 2, dig Garden Beds and plant Wheat or another crop."
+          },
+          {
+            "id": "s2",
+            "text": "Pick the ripe crops by hand, and keep harvesting until the achievement unlocks. One harvest gives several crops."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_alcohol_100",
+      "displayName": "Alcohol Baron",
+      "description": "You have produced 100 bottles of alcohol... Handle with care.",
+      "hidden": false,
+      "globalPercent": 17.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Brew 100 bottles of beer, Soldier's ale, mead, cider or wine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Make juice from berries or apples, then turn it into wine. A batch gives 4 bottles, and each bottle counts. Beer, Soldier's ale, mead and cider count too."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_sermon_50",
+      "displayName": "Shepherd of Souls",
+      "description": "You've preached 50 sermons! A true shepherd of wayward souls.",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8 hr",
+      "estMinutes": 480,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_sermon"
+      ],
+      "summary": "Hold 50 sermons in the Church.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Hold one sermon every Wrath, the sixth day of the week. Only one can be held per Wrath, so 50 sermons take 50 weeks."
+          },
+          {
+            "id": "s2",
+            "text": "Make sure enough parishioners come. The number is the lower of your Likes and Church quality, and each sermon spends Likes."
+          },
+          {
+            "id": "s3",
+            "text": "After the story, craft until you are tired and then sleep, so the weeks pass quickly."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_inspirations_150",
+      "displayName": "Stroke of Genius",
+      "description": "You've had 150 Inspirations. Your mind is sparkling.",
+      "hidden": false,
+      "globalPercent": 33.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "6 hr",
+      "estMinutes": 360,
+      "stage": 6,
+      "confidence": "unverified",
+      "summary": "Complete 150 inspirations in the Inspirations tab.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Do the actions the inspirations track, such as cutting trees, crafting, cooking and burying bodies, until a goal is reached."
+          },
+          {
+            "id": "s2",
+            "text": "Open the Inspirations tab and claim each reached goal. Level I is free for 52 of the 71 inspirations. Later levels cost Faith, and progress is kept until you can pay."
+          },
+          {
+            "id": "s3",
+            "text": "There are only 71 inspirations, so keep claiming their later levels too."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_alchemist_25",
+      "displayName": "Novice Alchemist",
+      "description": "You've brewed 25 potions. The eyebrows will grow back.",
+      "hidden": false,
+      "globalPercent": 45.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Brew 25 alchemy formulas at the Laboratory.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build Laboratory I, stock the Flask shelf with Alchemy Flasks and add fuel."
+          },
+          {
+            "id": "s2",
+            "text": "Brew formulas whose ingredient runes match exactly. For example, 1 Stone alone makes a Healing Potion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_catch_fish_50",
+      "displayName": "Fish Magnet",
+      "description": "You caught 50 fish, so now they've put a bounty on your head.",
+      "hidden": false,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Catch 50 fish at any fishing spot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take a fishing rod from the two brothers who live in Twins' Land."
+          },
+          {
+            "id": "s2",
+            "text": "Fish at the @loc{Inquisition Base} spot. Roach bites with no bait, and Pike needs breadcrumb bait."
+          },
+          {
+            "id": "s3",
+            "text": "A spot refills its fish slowly, one by one, so also try the Village, Port Area, Forest, Swamp and Sewers spots."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ach_new_beginning",
+    "ach_two_faces",
+    "ach_jack_in_town",
+    "ach_sermon",
+    "ach_win_battle",
+    "ach_cook_100",
+    "ach_cut_trees",
+    "ach_clear_town_a",
+    "ach_harvest_100",
+    "ach_iron_ingots_100",
+    "ach_bronze_ingots_100",
+    "ach_catch_fish_50",
+    "ach_gunter",
+    "ach_call_fairy",
+    "ach_recover_house",
+    "ach_first_town_order",
+    "ach_met_bandits",
+    "ach_alchemist_25",
+    "ach_supplies_50",
+    "ach_war_equipment_50",
+    "ach_alcohol_100",
+    "ach_graveyard_quality_200",
+    "ach_linda_concert",
+    "ach_necronomicon",
+    "ach_election",
+    "ach_old_god",
+    "ach_linda_albert",
+    "ach_agatha_herbert",
+    "ach_jack_gunter",
+    "ach_alt_keeper",
+    "ach_the_end",
+    "ach_build_market_stalls",
+    "ach_orders_25",
+    "ach_bury_bodies",
+    "ach_resurrect_50",
+    "ach_biuld_houses",
+    "ach_inspirations_150",
+    "ach_sermon_50"
+  ]
+}

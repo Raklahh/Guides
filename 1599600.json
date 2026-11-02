@@ -1,0 +1,1007 @@
+{
+  "game": {
+    "appid": 1599600,
+    "slug": "plateup",
+    "title": "PlateUp!",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-19",
+    "estTotalHours": 100,
+    "difficultyRating": 6,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-02"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Tutorial and early service tasks",
+      "description": "Discard a cooked fish in the Tutorial, then start a restaurant and enter Practice Mode. Use quiet early days for the one-tile, patience and mess challenges.",
+      "achievementRefs": [
+        "LEARNING_BY_DOING",
+        "CHEF_SCHOOL",
+        "WHAT_A_STATE",
+        "WORK_SMART",
+        "PLEASE_WAIT",
+        "FLAWLESS_TIMING",
+        "DISH_STEAK"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Unlock and serve every required recipe",
+      "description": "Gain experience from completed restaurant runs and work toward level 15. Start each required recipe and serve a customer. Play solo or host these restaurants. If an unlocked recipe is absent in Headquarters, enter and leave the Tutorial to refresh the selection.",
+      "achievementRefs": [
+        "DISH_SALAD",
+        "DISH_PIZZA",
+        "DISH_BURGER",
+        "DISH_PIE",
+        "DISH_FISH",
+        "DISH_HOTDOG",
+        "DISH_BREAKFAST",
+        "DISH_STIR_FRY"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Collect equipment for the special tasks",
+      "description": "Buy the shoes, knife, conveyors and remote-service equipment as their blueprints appear. Use the Research Desk and Blueprint Cabinet to obtain a Grabber. Equipment goals can overlap with recipe runs.",
+      "achievementRefs": [
+        "SAFETY_LAST",
+        "CIRCLE_LINE",
+        "ANTISOCIAL"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Set up the fire challenges",
+      "description": "Research a Danger Hob and obtain a Gas Safety Override. Keep fire experiments away from the equipment you need for service, and use spare appliances for the ten-appliance fire.",
+      "achievementRefs": [
+        "CHARCOAL_FACTORY",
+        "FIRE_RECOVERY",
+        "FIRE_BRIGADE",
+        "OH_NO"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Reach overtime milestones, then franchise",
+      "description": "Take a strong restaurant past the original Day 15 and keep the same run going to Overtime Day 15. If a service is about to fail, exit before game over and reload the day. After the overtime milestones, let the restaurant close and create a franchise.",
+      "achievementRefs": [
+        "DAY_20",
+        "DAY_25",
+        "DAY_30",
+        "NEW_CHEF_PLUS"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "DISH_STEAK",
+      "displayName": "Steaks Were Made",
+      "description": "Serve a steak to a customer",
+      "hidden": false,
+      "globalPercent": 69.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Deliver a steak order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Steak} and start a restaurant. The recipe unlocks at @mechanic{level 1}."
+          },
+          {
+            "id": "cook",
+            "text": "Cook meat on the hob until it matches the customer’s requested doneness. Put the steak on a plate and deliver the order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_STIR_FRY",
+      "displayName": "Stirring Things Up",
+      "description": "Serve a stir fry to a customer",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a stir fry order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Stir Fry} and start a restaurant. The recipe unlocks at @mechanic{level 15}."
+          },
+          {
+            "id": "rice",
+            "text": "Put raw rice in a @item{Wok} and cook the rice first."
+          },
+          {
+            "id": "vegetables",
+            "text": "Chop the carrot and/or broccoli shown in the order. Add one requested vegetable to the Wok and cook again. If both vegetables are requested, add the second and cook once more."
+          },
+          {
+            "id": "serve",
+            "text": "Transfer the finished stir fry to a plate and deliver the order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_PIZZA",
+      "displayName": "Piece of the Action",
+      "description": "Serve a pizza to a customer",
+      "hidden": false,
+      "globalPercent": 49.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a pizza portion order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Pizza} and start a restaurant. The recipe unlocks at @mechanic{level 3}."
+          },
+          {
+            "id": "base",
+            "text": "Work flour into dough on a counter, then add oil to make a pizza base."
+          },
+          {
+            "id": "toppings",
+            "text": "Process a tomato twice to make sauce, and chop cheese. Add the sauce and cheese to the base."
+          },
+          {
+            "id": "serve",
+            "text": "Cook the pizza, take a portion onto a plate, then deliver the customer’s order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_SALAD",
+      "displayName": "A New Leaf",
+      "description": "Serve a salad to a customer",
+      "hidden": false,
+      "globalPercent": 52.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a salad order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Salad} and start a restaurant. The recipe unlocks at @mechanic{level 2}."
+          },
+          {
+            "id": "prepare",
+            "text": "Chop lettuce and any tomato shown in the order. Put the requested ingredients on a plate and deliver the salad."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_PIE",
+      "displayName": "Soggy Bottom",
+      "description": "Serve a pie to a customer",
+      "hidden": false,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a pie order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Pies} and start a restaurant. The recipe unlocks at @mechanic{level 7}."
+          },
+          {
+            "id": "prepare",
+            "text": "Work flour into dough, then work the dough into a @item{Pie Crust}. Add meat, cook the filled pie, then plate and deliver the order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_FISH",
+      "displayName": "Something Fishy",
+      "description": "Serve a fish to a customer",
+      "hidden": false,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a fish order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Fish} and start a restaurant. The recipe unlocks at @mechanic{level 9}."
+          },
+          {
+            "id": "prepare",
+            "text": "Cook the blue or pink fish shown in the order. Put the cooked fish on a plate and deliver the order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_HOTDOG",
+      "displayName": "Man's Best Friend?",
+      "description": "Serve a hotdog to a customer",
+      "hidden": false,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a hot dog order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Hot Dogs} and start a restaurant. The recipe unlocks at @mechanic{level 11}."
+          },
+          {
+            "id": "prepare",
+            "text": "Cook a hot dog, add a @item{Hot Dog Bun}, then plate and deliver the order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_BREAKFAST",
+      "displayName": "Least Important Meal",
+      "description": "Serve a breakfast to a customer",
+      "hidden": false,
+      "globalPercent": 12.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a breakfast order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Breakfast} and start a restaurant. The recipe unlocks at @mechanic{level 13}."
+          },
+          {
+            "id": "bread",
+            "text": "Work flour into dough, then bake the dough into bread."
+          },
+          {
+            "id": "toast",
+            "text": "Take a slice from the loaf and cook the slice into toast. Plate the toast and deliver the breakfast order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DISH_BURGER",
+      "displayName": "Burger Prince",
+      "description": "Serve a burger to a customer",
+      "hidden": false,
+      "globalPercent": 37.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deliver a burger order to a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "start",
+            "text": "In Headquarters, select @mechanic{Burgers} and start a restaurant. The recipe unlocks at @mechanic{level 5}."
+          },
+          {
+            "id": "prepare",
+            "text": "Cook a raw patty, add a @item{Burger Bun}, then plate the burger and deliver the order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRE_RECOVERY",
+      "displayName": "This Is Fine",
+      "description": "Complete a day when the restaurant has been on fire for more than 15 seconds",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Finish restaurant service after a fire has lasted longer than @mechanic{15 seconds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ignite",
+            "text": "Put a @item{Danger Hob} in a spare area away from your working kitchen. During service, leave food on the hob until the food burns and starts a fire."
+          },
+          {
+            "id": "finish",
+            "text": "Keep the fire burning for more than @mechanic{15 seconds} and finish serving the day’s customers.",
+            "note": "If the day ends without enough fire time, try again on a later day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRE_BRIGADE",
+      "displayName": "Fireman",
+      "description": "Complete a day with 10 appliances on fire at once",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "End a service day with at least @mechanic{10 appliances} burning simultaneously.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "cluster",
+            "text": "Away from your working kitchen, make a connected block of at least @mechanic{10 appliances}, including a @item{Danger Hob}. Spare counters can fill the block."
+          },
+          {
+            "id": "spread",
+            "text": "During service, burn food on that hob and let the fire spread through the block. Finish the day while at least ten appliances are burning.",
+            "note": "Burning appliances cannot be used. Keep your service equipment separate; retry on a later day if you finish before ten appliances catch fire."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FLAWLESS_TIMING",
+      "displayName": "Flawless Timing",
+      "description": "Serve a customer with less than a second to spare",
+      "hidden": false,
+      "globalPercent": 50.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Deliver a customer’s meal with less than @mechanic{one second} of food-waiting patience remaining.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "last-second",
+            "text": "Prepare the requested meal and wait beside the customer’s table. Place the meal on the table when the food-waiting patience bar is almost empty.",
+            "note": "Serving too soon means trying another customer. If patience is about to expire, exit before game over and reload the day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WHAT_A_STATE",
+      "displayName": "Health Inspector?",
+      "description": "Complete a day with a mess on at least 10 tiles",
+      "hidden": false,
+      "globalPercent": 81.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish a service day with at least @mechanic{10 floor tiles} covered in mess.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "mess",
+            "text": "Let cooking and dining dirty at least @mechanic{10 floor tiles}. Leave those tiles dirty and finish serving the day’s customers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OH_NO",
+      "displayName": "Oh No",
+      "description": "Set a customer on fire",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Ignite the chair occupied by a restaurant customer.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "chair",
+            "text": "Place a @item{Danger Hob} directly beside a customer chair, rather than beside the dining table."
+          },
+          {
+            "id": "ignite",
+            "text": "During service, burn food on the hob. Leave the customer seated without serving their meal until the fire reaches the occupied chair.",
+            "note": "If the customer’s patience is about to run out before the chair catches fire, exit before game over and reload the day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CHARCOAL_FACTORY",
+      "displayName": "Charcoal Factory",
+      "description": "Cook something on a Danger Hob with an activated Gas Safety Override",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Cook food on a @item{Danger Hob} while a @item{Gas Safety Override} is active.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hob",
+            "text": "Store a Hob blueprint in a Blueprint Cabinet beside a Research Desk. Research the blueprint during service; if the result is a Safety Hob, research that blueprint again on a later day to obtain a @item{Danger Hob}."
+          },
+          {
+            "id": "gas",
+            "text": "Purchase the researched hob and a @item{Gas Safety Override}. Set the Override beside the Danger Hob, with the outlet aimed at the hob."
+          },
+          {
+            "id": "cook",
+            "text": "Put food on the Danger Hob and hold Interact on the Override while the food cooks. Remove the cooked food before it burns."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SAFETY_LAST",
+      "displayName": "Safety Last",
+      "description": "Wear Trainers while holding a Sharp Knife",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Have @item{Trainers} equipped while carrying a @item{Sharp Knife}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "shop",
+            "text": "Use a chopping recipe such as Salad, then buy @item{Trainers} and a @item{Sharp Knife} when their blueprints appear."
+          },
+          {
+            "id": "equip",
+            "text": "During service or Practice Mode, equip the Trainers and pick up the Sharp Knife so you have both at once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CIRCLE_LINE",
+      "displayName": "Circle Line",
+      "description": "Convey an item back to where it started",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Move an item by conveyor back onto the conveyor where the item began.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "loop",
+            "text": "Buy four @item{Conveyors}. Arrange them in a 2×2 square and rotate the arrows to form a continuous loop."
+          },
+          {
+            "id": "plate",
+            "text": "During service or Practice Mode, place an empty plate on a Conveyor and let the plate make a full circuit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CHEF_SCHOOL",
+      "displayName": "Chef School",
+      "description": "Activate Practice Mode during preparation time",
+      "hidden": false,
+      "globalPercent": 68.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Start a restaurant practice session before opening for service.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "practice",
+            "text": "During restaurant preparation, activate the outdoor @mechanic{Practice Mode} spot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_CHEF_PLUS",
+      "displayName": "New Chef Plus",
+      "description": "Create a franchise",
+      "hidden": false,
+      "globalPercent": 37.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "180 min",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Turn a restaurant into a franchise.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "qualify",
+            "text": "Complete the original @mechanic{Day 15} and enter overtime. Keep this restaurant running until you have the overtime achievements you want.",
+            "note": "Before an early service reaches game over, exit the game and reload the restaurant to retry the day."
+          },
+          {
+            "id": "franchise",
+            "text": "After the restaurant closes during overtime, choose to create a @mechanic{franchise} and keep three cards. Do not scrap the entire restaurant for experience."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DAY_20",
+      "displayName": "Overtime 5",
+      "description": "Reach Overtime Day 5",
+      "hidden": false,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "180 min",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Advance a restaurant to @mechanic{Overtime Day 5}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "overtime",
+            "text": "Complete the original @mechanic{15 days} to enter overtime. Keep the same restaurant running until Overtime Day 5 begins.",
+            "note": "Before a failed service reaches game over, exit the game and reload the restaurant to retry from the beginning of that day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DAY_25",
+      "displayName": "Overtime 10",
+      "description": "Reach Overtime Day 10",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "240 min",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "DAY_20"
+      ],
+      "summary": "Advance a restaurant to @mechanic{Overtime Day 10}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "overtime",
+            "text": "Continue the same restaurant through the days after Overtime Day 5 until Overtime Day 10 begins.",
+            "note": "Before a failed service reaches game over, exit the game and reload the restaurant to retry from the beginning of that day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DAY_30",
+      "displayName": "Overtime 15",
+      "description": "Reach Overtime Day 15",
+      "hidden": false,
+      "globalPercent": 5.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "300 min",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "DAY_25"
+      ],
+      "summary": "Advance a restaurant to @mechanic{Overtime Day 15}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Batch meals such as Turkey and automated portioning can reduce the work during busy services. Choose added recipes only when their extra preparation is manageable.",
+        "steps": [
+          {
+            "id": "overtime",
+            "text": "Continue the same restaurant after Overtime Day 10 until Overtime Day 15 begins.",
+            "note": "Before a failed service reaches game over, exit the game and reload the restaurant to retry from the beginning of that day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LEARNING_BY_DOING",
+      "displayName": "Learning By Doing",
+      "description": "Throw away a cooked fish in the tutorial",
+      "hidden": false,
+      "globalPercent": 8.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Discard a cooked fish inside the Tutorial.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tutorial",
+            "text": "Enter the @mechanic{Tutorial} beside the kitchen in Headquarters. Cook the fish, then drop the cooked fish into the bin."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ANTISOCIAL",
+      "displayName": "Anti-social",
+      "description": "Complete a day without anyone serving a customer directly",
+      "hidden": false,
+      "globalPercent": 25.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish an entire service day with no player serving customers directly.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "equipment",
+            "text": "Buy an @item{Ordering Terminal} and a @item{Grabber}. To obtain a Grabber, store a Conveyor blueprint in a Blueprint Cabinet beside a Research Desk and research the blueprint during service."
+          },
+          {
+            "id": "layout",
+            "text": "Use one active dining table with two chairs. Point the Grabber from a food counter toward the table so meals can travel from the counter to the customers."
+          },
+          {
+            "id": "remote",
+            "text": "Take orders through the Ordering Terminal. Put finished meals on the counter and let the Grabber deliver every meal until the day ends.",
+            "note": "No player should place meals on the serving Grabber or table. After a manual delivery, retry on a later day or exit before game over and reload the current day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WORK_SMART",
+      "displayName": "Work Smart",
+      "description": "Complete a day without any player leaving the tile they started on",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish a service day with every player staying on their original starting tile.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "layout",
+            "text": "On the first day of a solo Steak restaurant, arrange the fridge, hob, plates, sink, counter and a dining table around one empty tile. Keep the customer chairs accessible from outside this workspace."
+          },
+          {
+            "id": "stay",
+            "text": "Stand on that empty tile before starting service. Turn to cook, serve and wash dishes without stepping away until service ends.",
+            "note": "If you step off the tile, exit before game over and reload the restaurant to retry the day."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PLEASE_WAIT",
+      "displayName": "Please Wait",
+      "description": "Have the first group to arrive still be waiting to order when the day ends",
+      "hidden": false,
+      "globalPercent": 47.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Keep the day’s first arriving group waiting to order until the day timer reaches closing.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wait",
+            "text": "Leave the first group’s order untaken until the day timer reaches closing. Serve other tables while keeping an eye on that first group’s patience.",
+            "note": "Taking their order early loses the attempt. Exit before game over and reload the day, or try again on a later day."
+          },
+          {
+            "id": "finish",
+            "text": "After the timer reaches closing, take the first group’s order and serve them. Finish any remaining service."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "LEARNING_BY_DOING",
+    "CHEF_SCHOOL",
+    "DISH_STEAK",
+    "WHAT_A_STATE",
+    "WORK_SMART",
+    "PLEASE_WAIT",
+    "FLAWLESS_TIMING",
+    "DISH_SALAD",
+    "DISH_PIZZA",
+    "DISH_BURGER",
+    "DISH_PIE",
+    "DISH_FISH",
+    "DISH_HOTDOG",
+    "DISH_BREAKFAST",
+    "DISH_STIR_FRY",
+    "SAFETY_LAST",
+    "CIRCLE_LINE",
+    "ANTISOCIAL",
+    "CHARCOAL_FACTORY",
+    "FIRE_RECOVERY",
+    "FIRE_BRIGADE",
+    "OH_NO",
+    "DAY_20",
+    "DAY_25",
+    "DAY_30",
+    "NEW_CHEF_PLUS"
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "game": {
+    "appid": 2835570,
+    "slug": "buckshot-roulette",
+    "title": "Buckshot Roulette",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-20",
+    "estTotalHours": 12,
+    "difficultyRating": 6,
+    "minPlaythroughs": 12,
+    "createdAt": "2026-11-02"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Normal mode and both endings",
+      "description": "Pause in the nightclub for the music achievement, then enter GOD on the waiver. Use one normal attempt for the third-round death, then replay normal mode and win to unlock Double or Nothing. Try the optional self-shot feats before starting a valuable money streak.",
+      "achievementRefs": [
+        "ach11",
+        "ach14",
+        "ach8",
+        "ach13",
+        "ach15",
+        "ach2",
+        "ach1"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Short Double or Nothing runs and item combinations",
+      "description": "Open the bathroom leaderboard, then take the pills. Cash out after the first three-round set on one run. On another, accept one double, win the next set and cash out. Build the item combinations on low-stakes attempts and start the mode ten times in total.",
+      "achievementRefs": [
+        "ach16",
+        "ach3",
+        "ach5",
+        "ach6",
+        "ach9",
+        "ach12",
+        "ach4"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Two million-dollar streaks",
+      "description": "Track every live shell and blank while doubling the displayed balance. First cash out above $1,000,000. On a separate streak, reach that amount again, continue and die to lose the money. Expect retries when shell order or item draws go against you.",
+      "achievementRefs": [
+        "ach7",
+        "ach10"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ach1",
+      "displayName": "70K",
+      "description": "Beat the game.",
+      "hidden": false,
+      "globalPercent": 62.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Win the final round against the Dealer in normal mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "normal-entry",
+            "text": "Leave the bathroom without taking the pills to play normal mode. Reach round three and defeat the @enemy{Dealer}."
+          },
+          {
+            "id": "shell-count",
+            "text": "Keep a running count of live shells and blanks, including shells removed by Beer. When a @item{Magnifying Glass} reveals a live shell, use a @item{Hand Saw} before firing at the Dealer for double damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach2",
+      "displayName": "Bronze Gates",
+      "description": "It rains metal here.",
+      "hidden": false,
+      "globalPercent": 26.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10–20 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Die during the third round of normal mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "third-round-death",
+            "text": "In normal mode, reach round three and let the @enemy{Dealer} kill you, or fire live shells at yourself. If you already won normal mode, replay it without taking the bathroom pills."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach3",
+      "displayName": "Chasing Losses",
+      "description": "Consume the 'Double or Nothing' pills.",
+      "hidden": false,
+      "globalPercent": 38.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach1"
+      ],
+      "summary": "Take the bathroom pills that activate Double or Nothing.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "take-pills",
+            "text": "After winning normal mode, return to the bathroom and use the @item{pills} beside the TV."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach4",
+      "displayName": "Overdose",
+      "description": "Start the 'Double or Nothing' mode 10 times.",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min across starts",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Begin 10 separate Double or Nothing runs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ten-starts",
+            "text": "Use the bathroom pills to start @mechanic{Double or Nothing} ten times in total. To make another start quickly, press R during an attempt to return to the bathroom, then take the pills again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach5",
+      "displayName": "Nope!",
+      "description": "Cash out immediately in 'Double or Nothing'.",
+      "hidden": false,
+      "globalPercent": 12.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15–25 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Take the first cash-out offer in a Double or Nothing run.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first-cashout",
+            "text": "Win the opening three-round set in @mechanic{Double or Nothing}. Choose @mechanic{X} at the first offer to take the money. If you accept a double instead, try again on a new run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach6",
+      "displayName": "140K",
+      "description": "Double your earnings in 'Double or Nothing' and win.",
+      "hidden": false,
+      "globalPercent": 12.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–50 min per attempt",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Cash out in Double or Nothing after successfully doubling the winnings at least once.",
+      "guide": {
+        "kind": "standard",
+        "context": "The title does not require a $140,000 balance; a successful double followed by cash-out is enough.",
+        "steps": [
+          {
+            "id": "first-double",
+            "text": "Win the opening three-round set in @mechanic{Double or Nothing}, then accept the offer to double your winnings."
+          },
+          {
+            "id": "bank-double",
+            "text": "Win the next three-round set and choose @mechanic{X} to cash out. If you die before banking the money, start another run and try again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach7",
+      "displayName": "1000K",
+      "description": "Cash out over 1,000,000 in 'Double or Nothing'.",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2–6 hours with retries",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Bank more than $1,000,000 from one Double or Nothing run.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first set sets your starting payout; later sets double that amount. A starting payout above $31,250 reaches the target after five doubles, but check the actual balance.",
+        "steps": [
+          {
+            "id": "build-stake",
+            "text": "Win three-round sets in @mechanic{Double or Nothing} and accept each double until the displayed balance exceeds @mechanic{$1,000,000}."
+          },
+          {
+            "id": "protect-streak",
+            "text": "Write down the live-shell and blank counts. Update the counts after shots and Beer ejections. Avoid self-shots with unknown shells; use @item{Adrenaline} to take dangerous Dealer items such as Handcuffs or Hand Saw."
+          },
+          {
+            "id": "million-cashout",
+            "text": "Choose @mechanic{X} at the next offer to bank the money. Dying or cashing out below the target means building a fresh streak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach8",
+      "displayName": "Coin Flip",
+      "description": "Successfully shoot yourself with a blank, facing 50/50 odds.",
+      "hidden": false,
+      "globalPercent": 48.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "In single-player, fire a blank at yourself when live shells and blanks have equal odds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "one-each",
+            "text": "Play normal mode or @mechanic{Double or Nothing}. When the shotgun has one live shell and one blank remaining, aim at yourself and fire. A blank earns the achievement; if you draw the live shell, try again on another suitable load."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach9",
+      "displayName": "Digita, Orava and Koni",
+      "description": "Breakfast of champions.",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–30 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Use Beer, a Cigarette Pack and Expired Medicine during one turn in Double or Nothing.",
+      "guide": {
+        "kind": "standard",
+        "context": "Expired Medicine can cost one charge, so leave that item until last.",
+        "steps": [
+          {
+            "id": "collect-three",
+            "text": "In @mechanic{Double or Nothing}, save @item{Beer}, a @item{Cigarette Pack} and @item{Expired Medicine} until you can use the combination before firing."
+          },
+          {
+            "id": "consume-three",
+            "text": "Use the Cigarette Pack, drink the Beer, then take the Expired Medicine. If you fire before finishing the combination, gather the items and try again on another turn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach10",
+      "displayName": "Know When To Quit",
+      "description": "Lose more than 1000K in 'Double or Nothing'",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2–6 hours with retries",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Die with more than $1,000,000 at stake in a Double or Nothing run.",
+      "guide": {
+        "kind": "standard",
+        "context": "Money you cash out is already banked. After banking a million-dollar win, build a separate streak for this loss.",
+        "steps": [
+          {
+            "id": "build-million",
+            "text": "Build a @mechanic{Double or Nothing} balance above @mechanic{$1,000,000}. Count the remaining live shells and blanks, and use Adrenaline to remove dangerous Dealer items while building the streak."
+          },
+          {
+            "id": "risk-million",
+            "text": "Accept another double, then fire live shells at yourself or let the @enemy{Dealer} kill you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach11",
+      "displayName": "Name Taken",
+      "description": "Try a forbidden name on the waiver.",
+      "hidden": true,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Submit GOD as your name on the liability waiver.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "god-waiver",
+            "text": "When the @enemy{Dealer} presents the waiver, type @mechanic{GOD} and submit the name."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach12",
+      "displayName": "Full House",
+      "description": "Use every single-player item type in one turn.",
+      "hidden": true,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1–4+ hours with item draws",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach3"
+      ],
+      "summary": "Activate all nine distinct item types before firing during one turn in Double or Nothing.",
+      "guide": {
+        "kind": "standard",
+        "context": "Nine types are required, but your table holds eight items. Adrenaline counts as one type and immediately uses a selected Dealer item as another. Item draws can make the setup take many attempts.",
+        "steps": [
+          {
+            "id": "build-inventory",
+            "text": "In @mechanic{Double or Nothing}, save eight different item types, including @item{Adrenaline}. Wait for the Dealer to hold the ninth type. Use spare copies and empty shotgun loads to draw more items while building the setup."
+          },
+          {
+            "id": "phone-first",
+            "text": "Once the setup is ready, use the @item{Burner Phone} while at least two shells remain, before drinking Beer. If the phone is the missing type, use Adrenaline to take it from the Dealer first."
+          },
+          {
+            "id": "all-nine",
+            "text": "Before firing, use @item{Beer}, @item{Cigarette Pack}, @item{Hand Saw}, @item{Handcuffs}, @item{Inverter} and @item{Magnifying Glass}. Use Adrenaline for the missing type if needed; if that type is Expired Medicine, leave Adrenaline until the final step."
+          },
+          {
+            "id": "medicine-last",
+            "text": "Finish with @item{Expired Medicine}, using Adrenaline if the medicine is on the Dealer’s side. Keep more than one charge before taking the medicine so a bad result cannot kill you before the combination finishes."
+          },
+          {
+            "id": "no-shots",
+            "text": "@warn{Do not fire until every item type has been used.} Even a blank aimed at yourself breaks the combination. If you fire early or lack a required type, build another setup and try again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach13",
+      "displayName": "Why?",
+      "description": "Fire a live shell at yourself after inspecting the chamber.",
+      "hidden": true,
+      "globalPercent": 7.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "In single-player, fire a live shell at yourself after inspecting that shell with a Magnifying Glass.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reveal-selfshot",
+            "text": "In normal mode or @mechanic{Double or Nothing}, check the current shell with a @item{Magnifying Glass}. If the shell is live, shoot yourself without ejecting or inverting it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach14",
+      "displayName": "Soak It In",
+      "description": "Stay in the nightclub and listen to the music.",
+      "hidden": true,
+      "globalPercent": 9.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "Over 1 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Spend more than one minute listening to the music in the nightclub.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wait-nightclub",
+            "text": "Leave the bathroom and wait for over one minute in the @loc{nightclub corridor} with music and flashing lights, before entering the Dealer’s room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach15",
+      "displayName": "Going Out With Style!",
+      "description": "Shoot yourself with the shortened shotgun.",
+      "hidden": true,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5–15 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "In single-player, hit yourself with a live shell after using a Hand Saw on the shotgun.",
+      "guide": {
+        "kind": "standard",
+        "context": "The self-shot can be nonfatal.",
+        "steps": [
+          {
+            "id": "sawed-selfshot",
+            "text": "In normal mode or @mechanic{Double or Nothing}, use a @item{Hand Saw}, then fire a live shell at yourself. To earn Why? with the same shot, first confirm the live shell with a @item{Magnifying Glass}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach16",
+      "displayName": "High Rollers",
+      "description": "Open the high-score leaderboard.",
+      "hidden": true,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach1"
+      ],
+      "summary": "View the leaderboard on the bathroom TV.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "bathroom-leaderboard",
+            "text": "After winning normal mode, select the @loc{bathroom TV}, then choose the @mechanic{trophy icon} to open the leaderboard."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ach14",
+    "ach11",
+    "ach8",
+    "ach13",
+    "ach15",
+    "ach2",
+    "ach1",
+    "ach16",
+    "ach3",
+    "ach5",
+    "ach6",
+    "ach9",
+    "ach12",
+    "ach4",
+    "ach7",
+    "ach10"
+  ]
+}

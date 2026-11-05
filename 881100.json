@@ -1,0 +1,671 @@
+{
+  "game": {
+    "appid": 881100,
+    "slug": "noita",
+    "title": "Noita",
+    "version": "1.0",
+    "lastPatchChecked": "2025-01-25",
+    "estTotalHours": 300,
+    "difficultyRating": 9,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-05"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Descend and finish a run",
+      "description": "Start a standard New Game with every mod disabled. Daily modes, Nightmare and Twitch Integration disable Steam achievements. Follow the main path to the final boss and complete The Work.",
+      "achievementRefs": [
+        "BIOME_EXCAVATION_SITE",
+        "BIOME_SNOWCAVE",
+        "BIOME_SNOWCASTLE",
+        "BIOME_RAINFOREST",
+        "BIOME_VAULT",
+        "BIOME_CRYPT",
+        "BEAT_THE_GAME"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Explore beyond the main path",
+      "description": "Use later attempts to collect the eleven distinct orbs and build the wands needed for the Gods challenges. Finish the guardian challenge before taking Peace with Gods.",
+      "achievementRefs": [
+        "GODS_ENRAGED",
+        "GODS_IMPRESSED",
+        "ALL_ORBS",
+        "GODS_AFRAID"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Complete the Progress panels",
+      "description": "Use the Perks, Spells and Enemies panels to track missing entries. Pick up new perks, cast new spells, and defeat creatures outside the main path until each panel reaches 100%.",
+      "achievementRefs": [
+        "PROGRESS_PERKS",
+        "PROGRESS_SPELLS",
+        "PROGRESS_ENEMIES"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "BEAT_THE_GAME",
+      "displayName": "Victory",
+      "description": "Victory",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1–3 hours in a successful run",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIOME_CRYPT"
+      ],
+      "summary": "Finish a run by completing @mechanic{The Work}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "take-sampo",
+            "text": "Descend past @loc{Temple of the Art} to @loc{The Laboratory} and pick up the @item{Sampo}.",
+            "note": "Collecting orbs before taking the Sampo makes the boss stronger."
+          },
+          {
+            "id": "defeat-kolmi",
+            "text": "Defeat @enemy{Kolmisilmä}. Stop firing when the boss fades and gathers your projectiles; the returned shots can hit you."
+          },
+          {
+            "id": "complete-work",
+            "text": "Enter the red portal left by the boss. At @loc{The Work (End)}, use the prompt to complete The Work.",
+            "note": "Killing Kolmisilmä alone does not finish the run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIOME_EXCAVATION_SITE",
+      "displayName": "Reached Coal Pits",
+      "description": "Enter Coal Pits for the first time.",
+      "hidden": true,
+      "globalPercent": 72.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10–20 min in a successful run",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Enter @loc{Coal Pits} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-biome",
+            "text": "Find a bottom portal in @loc{Mines}. Pass through the Holy Mountain and descend into @loc{Coal Pits}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIOME_SNOWCAVE",
+      "displayName": "Reached Snowy Depths",
+      "description": "Enter Snowy Depths for the first time.",
+      "hidden": true,
+      "globalPercent": 59.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20–35 min in a successful run",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIOME_EXCAVATION_SITE"
+      ],
+      "summary": "Enter @loc{Snowy Depths} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-biome",
+            "text": "Find a bottom portal in @loc{Coal Pits}. Pass through the Holy Mountain and descend into @loc{Snowy Depths}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIOME_SNOWCASTLE",
+      "displayName": "Reached Hiisi Base",
+      "description": "Enter Hiisi Base for the first time.",
+      "hidden": true,
+      "globalPercent": 37.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30–50 min in a successful run",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIOME_SNOWCAVE"
+      ],
+      "summary": "Enter @loc{Hiisi Base} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-biome",
+            "text": "Find a bottom portal in @loc{Snowy Depths}. Pass through the Holy Mountain and descend into @loc{Hiisi Base}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIOME_RAINFOREST",
+      "displayName": "Reached Underground Jungle",
+      "description": "Enter Underground Jungle for the first time.",
+      "hidden": true,
+      "globalPercent": 23.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "40–65 min in a successful run",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIOME_SNOWCASTLE"
+      ],
+      "summary": "Enter @loc{Underground Jungle} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-biome",
+            "text": "Find a bottom portal in @loc{Hiisi Base}. Pass through the Holy Mountain and descend into @loc{Underground Jungle}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIOME_VAULT",
+      "displayName": "Reached The Vault",
+      "description": "Enter The Vault for the first time.",
+      "hidden": true,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "50–80 min in a successful run",
+      "estMinutes": 50,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIOME_RAINFOREST"
+      ],
+      "summary": "Enter @loc{The Vault} for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-biome",
+            "text": "Find a bottom portal in @loc{Underground Jungle}. Pass through the Holy Mountain and descend into @loc{The Vault}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BIOME_CRYPT",
+      "displayName": "Reached Temple of the Art",
+      "description": "Enter Temple of the Art for the first time.",
+      "hidden": true,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "60–95 min in a successful run",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "BIOME_VAULT"
+      ],
+      "summary": "Visit @loc{Temple of the Art}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach-biome",
+            "text": "Find a bottom portal in @loc{The Vault}. Pass through the Holy Mountain and descend into @loc{Temple of the Art}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GODS_IMPRESSED",
+      "displayName": "The Gods Are Impressed",
+      "description": "Cast a modified projectile with an infinite lifetime.",
+      "hidden": true,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5–15 min with the spells",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Cast a modified projectile with an infinite lifetime.",
+      "guide": {
+        "kind": "standard",
+        "context": "The modified lifetime must land on exactly -1 frames. Spells that already last forever, such as Rock, do not count.",
+        "steps": [
+          {
+            "id": "build-wisp",
+            "text": "In an uncollapsed @loc{Holy Mountain}, place @item{Reduce Lifetime} immediately before @item{Teleport Bolt} on an otherwise empty non-shuffle wand."
+          },
+          {
+            "id": "cast-wisp",
+            "text": "Keep casting the wand until the achievement appears. Teleport Bolt has a random lifetime, so several casts may be needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GODS_AFRAID",
+      "displayName": "The Gods Are Afraid",
+      "description": "Deal at least 1,000,000 damage in one hit.",
+      "hidden": true,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "1–5 hours of wand preparation",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Deal at least 1,000,000 damage in one hit.",
+      "guide": {
+        "kind": "standard",
+        "context": "This build combines gold damage with stacked critical hits. The Water spell applies the wet condition as part of the shot; you do not need to soak the target first.",
+        "steps": [
+          {
+            "id": "prepare-gold",
+            "text": "Gather at least @item{504,000 gold} and a non-shuffle wand with at least 15 slots and one spell per cast.",
+            "note": "Use enough mana capacity to cast the complete spell sequence."
+          },
+          {
+            "id": "damage-wand",
+            "text": "Inside an uncollapsed @loc{Holy Mountain}, arrange the wand in this order: @item{Double Spell}, @item{Water}, two copies of @item{Gold To Power}, ten copies of @item{Critical on Wet (Water) Enemies}, then @item{Spark Bolt}."
+          },
+          {
+            "id": "land-hit",
+            "text": "Fire one full cast into an enemy that takes normal projectile and critical damage. Look for “The gods are afraid”.",
+            "note": "Both Gold To Power copies need their full damage bonus, so replenish your gold before another attempt if it falls below 504,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROGRESS_ENEMIES",
+      "displayName": "100% Enemy Progress",
+      "description": "Reach 100% in the Enemies progress panel.",
+      "hidden": true,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "50–150 hours across attempts",
+      "estMinutes": 6000,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach 100% in the @mechanic{Enemies} progress panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "The target is 185 recorded entries. A second turret entry can take the display to 100.5%; that extra half-percent is unnecessary.",
+        "steps": [
+          {
+            "id": "find-gaps",
+            "text": "Open the Enemies panel under Progress. Match any missing icons to [progress icon grid](https://ipeterov.github.io/noita-progress/); hover the matching icon for its name and open that creature’s page for its encounter location."
+          },
+          {
+            "id": "record-kills",
+            "text": "Defeat the missing creatures, including animals, bosses and enemies in side areas. Check Progress after each rare kill to confirm the icon has filled in."
+          },
+          {
+            "id": "reach-hundred",
+            "text": "Keep filling missing entries until Enemies reaches 100%. If you are one entry short, kill the opposite-facing @enemy{Torjuntalaite} turret as well.",
+            "note": "The two turret directions add separate entries even though they share one icon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROGRESS_SPELLS",
+      "displayName": "100% Spell Progress",
+      "description": "Reach 100% in the Spells progress panel by casting every required spell.",
+      "hidden": true,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "80–200 hours across attempts",
+      "estMinutes": 9000,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach 100% in the @mechanic{Spells} progress panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "identify-spells",
+            "text": "Open the Spells panel under Progress. Use the matching icon grid in [progress icon grid](https://ipeterov.github.io/noita-progress/) to identify missing spells and open their individual acquisition instructions."
+          },
+          {
+            "id": "cast-new",
+            "text": "Put each new spell on a wand and cast it. For a modifier, include a compatible projectile so the modifier is used.",
+            "note": "Buying or carrying a spell does not add the spell to Progress."
+          },
+          {
+            "id": "special-unlocks",
+            "text": "Cast each spell awarded by an ordinary orb when you first collect that orb. If you missed the first reward, look for the unlocked spell in Holy Mountain shops or on wands in later runs and cast the spell then. For other missing spells, follow the boss or quest unlock attached to that spell in the icon grid, then cast the reward.",
+            "note": "The Greek letters, orbit modifiers, experimental-wand spells and musical notes are among the entries found outside ordinary shops."
+          },
+          {
+            "id": "finish-spells",
+            "text": "After each new cast, check the Spells panel. Continue acquiring and casting missing entries until the panel reaches 100%.",
+            "note": "Test dangerous spells away from your character; some projectiles and modifiers allow friendly fire."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROGRESS_PERKS",
+      "displayName": "100% Perk Progress",
+      "description": "Reach 100% in the Perks progress panel by picking up every required perk.",
+      "hidden": true,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "30–80 hours across attempts",
+      "estMinutes": 3000,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Reach 100% in the @mechanic{Perks} progress panel.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "new-perks",
+            "text": "Check the Perks panel under Progress. At each Holy Mountain, take a perk whose icon is still missing. Reroll unwanted choices before taking a perk.",
+            "note": "Rerolls start at 200 gold and become more expensive with use."
+          },
+          {
+            "id": "leggy",
+            "text": "Open chests until a @enemy{Leggy Mimic} wakes, then kill the mimic and pick up @mechanic{Leggy Mutation}.",
+            "note": "The legged variant replaces 5% of ordinary Mimics and awakens when you use the chest’s interaction prompt."
+          },
+          {
+            "id": "moon",
+            "text": "Travel east from the @loc{Overgrown Cavern} to the @loc{??? room} and pick up @mechanic{Moon Radar}."
+          },
+          {
+            "id": "spatial",
+            "text": "In the @loc{Power Plant}, fight @enemy{Kolmisilmän silmä} with ice, slice, drill, holy or electricity damage. Attack during its firing phases when its projectile-eating shield opens, then collect @mechanic{Spatial Awareness} after the death explosion.",
+            "note": "Ordinary projectile damage does not hurt this boss."
+          },
+          {
+            "id": "finish-perks",
+            "text": "Use [progress icon grid](https://ipeterov.github.io/noita-progress/) to identify any remaining blank perk icons, then pick up those perks until the Perks panel reaches 100%.",
+            "note": "Looking at a perk without taking it does not register the perk."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GODS_ENRAGED",
+      "displayName": "The Gods Are Enraged",
+      "description": "Damage Holy Mountain brickwork after killing three Stevari in one run.",
+      "hidden": true,
+      "globalPercent": 6.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "30–60 min in one run",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Damage Holy Mountain brickwork after killing three @enemy{Stevari} in one run.",
+      "guide": {
+        "kind": "standard",
+        "context": "@mechanic{Peace with Gods} suppresses the guardian challenge. Avoid that perk until the achievement unlocks; taking it can be undone during the same run.",
+        "steps": [
+          {
+            "id": "remove-peace",
+            "text": "If you already took @mechanic{Peace with Gods}, remove the perk at the @loc{Nullifying Altar} deep in the Sandcave below the Overgrown Cavern. Fill its left, middle and right basins with Blood, Whiskey and Silver, then leave Peace with Gods behind."
+          },
+          {
+            "id": "summon",
+            "text": "Use @item{Black Hole} to break brickwork around an uncollapsed @loc{Holy Mountain} shop and summon @enemy{Stevari}."
+          },
+          {
+            "id": "three-guardians",
+            "text": "Kill Stevari in three Holy Mountains during the same run. Freeze each guardian with @item{Freeze Charge} or @item{Freezing Gaze}, then kick the frozen guardian.",
+            "note": "New Holy Mountains spawn a guardian once the gods have been angered."
+          },
+          {
+            "id": "further-damage",
+            "text": "After the third kill, break more brickwork near an uncollapsed Holy Mountain shop if the achievement has not appeared."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_ORBS",
+      "displayName": "Gathered All The Knowledge",
+      "description": "Collect each of the eleven distinct ordinary Orbs of True Knowledge at least once.",
+      "hidden": true,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "3–8 hours of exploration",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect the eleven distinct ordinary @item{Orbs of True Knowledge}.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each orb first grants a spell; later visits give maximum health instead. Track distinct locations, since collecting copies of the same orb does not replace a missing location.",
+        "collectibles": [
+          {
+            "id": "mountain",
+            "index": 1,
+            "name": "Sea of Lava orb",
+            "group": "Surface",
+            "location": "Floating island above the starting Mountain",
+            "method": "Reach the island above the mine entrance and collect the orb inside it."
+          },
+          {
+            "id": "pyramid",
+            "index": 2,
+            "name": "Earthquake orb",
+            "group": "Surface",
+            "location": "Top of the Pyramid east of the starting Mountain",
+            "method": "Climb the Pyramid and pick up the orb on top."
+          },
+          {
+            "id": "frozen",
+            "index": 3,
+            "name": "Summon Tentacle orb",
+            "group": "Upper underground",
+            "location": "Below the Frozen Vault in the Snowy Wasteland west of the Giant Tree",
+            "method": "Descend beneath the Frozen Vault to collect the orb."
+          },
+          {
+            "id": "lava",
+            "index": 4,
+            "name": "Nuke orb",
+            "group": "Upper underground",
+            "location": "Beneath the Lava Lake east of the Mines",
+            "method": "From the Chasm west wall, use Black Hole to dig down through Extremely Dense Rock below the lava."
+          },
+          {
+            "id": "bridge",
+            "index": 5,
+            "name": "Thundercloud orb",
+            "group": "Upper underground",
+            "location": "Orb Room across the abyss east of the Lava Lake",
+            "method": "Cross the rope bridge or climb the Dense Rock wall to reach the room."
+          },
+          {
+            "id": "sand",
+            "index": 6,
+            "name": "Necromancy orb",
+            "group": "Deep underground",
+            "location": "Lowest part of the Sandcave beneath the Pyramid",
+            "method": "Descend through the Sandcave and collect the orb at the bottom."
+          },
+          {
+            "id": "temple",
+            "index": 7,
+            "name": "Holy Bomb orb",
+            "group": "Deep underground",
+            "location": "Orb Room west of the Magical Temple",
+            "method": "Travel left from the Magical Temple to the orb chamber."
+          },
+          {
+            "id": "lukki",
+            "index": 8,
+            "name": "Spiral Shot orb",
+            "group": "Deep underground",
+            "location": "Bottom-left of Lukki Lair, west of Underground Jungle",
+            "method": "Explore the lower western edge of Lukki Lair for the orb."
+          },
+          {
+            "id": "snow",
+            "index": 9,
+            "name": "Summon Deercoy orb",
+            "group": "Deep underground",
+            "location": "Bottom of the Snowy Chasm beneath the Snowy Wasteland",
+            "method": "Descend to the bottom of the chasm and collect the orb."
+          },
+          {
+            "id": "wizards",
+            "index": 10,
+            "name": "Cement orb",
+            "group": "Deep underground",
+            "location": "Bottom of the Wizard's Den, east of Temple of the Art",
+            "method": "Reach the lowest part of the den to collect the orb."
+          },
+          {
+            "id": "hell",
+            "index": 11,
+            "name": "Fireworks! orb",
+            "group": "Deep underground",
+            "location": "Center of The Work (Hell)",
+            "method": "Descend into The Work (Hell) and collect the central orb."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "BIOME_EXCAVATION_SITE",
+    "BIOME_SNOWCAVE",
+    "BIOME_SNOWCASTLE",
+    "BIOME_RAINFOREST",
+    "BIOME_VAULT",
+    "BIOME_CRYPT",
+    "BEAT_THE_GAME",
+    "GODS_ENRAGED",
+    "GODS_IMPRESSED",
+    "ALL_ORBS",
+    "GODS_AFRAID",
+    "PROGRESS_PERKS",
+    "PROGRESS_ENEMIES",
+    "PROGRESS_SPELLS"
+  ]
+}

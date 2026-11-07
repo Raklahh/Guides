@@ -1,0 +1,3380 @@
+{
+  "game": {
+    "appid": 4364930,
+    "slug": "birb",
+    "title": "Birb",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-19",
+    "estTotalHours": 1000,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-07"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Build the first income loop",
+      "description": "Collect popcorn, perform Birb Rebirbs for Golden Feathers and buy Sunflower Vending. Begin Evolution and fishing.",
+      "achievementRefs": [
+        "first_popcorn",
+        "first_rebirb",
+        "first_fish",
+        "evolution_1",
+        "popcorn_10k",
+        "popcorn_10m",
+        "hat_spring",
+        "popcorn_1m",
+        "hat_deal_with_it"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build the Nest and companions",
+      "description": "Advance to Evolution III, build the Nest and develop Sparrow and Seagull Rebirbs. Keep popcorn and Seed production running.",
+      "achievementRefs": [
+        "popcorn_10b",
+        "nest_level_1",
+        "evolution_2",
+        "evolution_3",
+        "nest_level_2",
+        "first_sparrow_rebirb",
+        "first_seagull_rebirb",
+        "hat_builder",
+        "hat_bunny",
+        "hat_rasta",
+        "hat_top",
+        "hat_pilgrim",
+        "popcorn_1b",
+        "popcorn_1t"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Open Expeditions",
+      "description": "Open Expeditions, improve the Parrot and reach Evolution V to continue past Floor 3. Complete the first Parrot Rebirb and clear Floor 4.",
+      "achievementRefs": [
+        "first_expedition_kill",
+        "evolution_4",
+        "evolution_5",
+        "floor_1_boss_clear",
+        "floor_2_reached",
+        "floor_3_reached",
+        "floor_4_reached",
+        "floor_2_boss_clear",
+        "floor_3_boss_clear",
+        "first_parrot_rebirb",
+        "hat_captain",
+        "hat_pirate",
+        "popcorn_1qa"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Expand fishing and mining",
+      "description": "Reach Evolution V for the Aquarium and further Expedition floors. Work on donations, Floors 4–8, Mine challenges and companion progression.",
+      "achievementRefs": [
+        "floor_5_reached",
+        "floor_6_reached",
+        "floor_7_reached",
+        "floor_8_reached",
+        "floor_5_boss_clear",
+        "floor_6_boss_clear",
+        "floor_7_boss_clear",
+        "floor_8_boss_clear",
+        "aquarium_first_donation",
+        "aquarium_first_shiny",
+        "aquarium_deep_resonance",
+        "aquarium_harmony",
+        "fish_market_unlocked",
+        "mine_unlocked",
+        "mine_giant_1",
+        "mine_giant_7",
+        "mine_giant_10",
+        "first_dave_rebirb",
+        "first_crow_rebirb",
+        "hat_boss_1_master",
+        "hat_boss_2_master",
+        "hat_boss_3_master",
+        "hat_boss_4_master",
+        "hat_boss_5_master",
+        "hat_chef",
+        "hat_cowboy",
+        "hat_heisenberg",
+        "hat_jell_o",
+        "popcorn_1qi",
+        "popcorn_1sx",
+        "hat_bat"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Finish late-game milestones",
+      "description": "Defeat The Archivist and follow the Evolution VI story. Continue the Mine, Fishdex, shiny collection and large popcorn totals alongside companion Rebirbs.",
+      "achievementRefs": [
+        "evolution_6",
+        "hat_ash_cap",
+        "hat_devil",
+        "hat_holy",
+        "hat_lucky",
+        "hat_skull",
+        "hat_dave",
+        "hat_gull",
+        "popcorn_1sp",
+        "popcorn_1oc",
+        "popcorn_1no",
+        "popcorn_1dc",
+        "mine_giant_20",
+        "mine_giant_30",
+        "mine_giant_40",
+        "mine_giant_50",
+        "mine_giant_60",
+        "mine_giant_70",
+        "mine_giant_80",
+        "mine_giant_90",
+        "mine_giant_100",
+        "hat_geode_helmet"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "first_popcorn",
+      "displayName": "First Kernel",
+      "description": "Collect 1 popcorn.",
+      "hidden": false,
+      "globalPercent": 99.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "prerequisites": [],
+      "confidence": "verified",
+      "summary": "Pick up one kernel of popcorn.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Move Birb over a popcorn kernel in the @loc{Meadow}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_10b",
+      "displayName": "Infinite Theater",
+      "description": "Collect 10,000,000,000 popcorn.",
+      "hidden": false,
+      "globalPercent": 82.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "popcorn_1b"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 10 billion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 10 billion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_rebirb",
+      "displayName": "First Rebirb",
+      "description": "Rebirb once.",
+      "hidden": false,
+      "globalPercent": 97.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "prerequisites": [],
+      "confidence": "verified",
+      "summary": "Perform one Rebirb with Birb.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect popcorn, then use Birb’s @mechanic{Rebirb} control to exchange popcorn for Golden Feathers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_fish",
+      "displayName": "First Catch",
+      "description": "Catch 1 fish.",
+      "hidden": false,
+      "globalPercent": 89.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "prerequisites": [
+        "evolution_1"
+      ],
+      "confidence": "verified",
+      "summary": "Land one fish.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Evolution I, go to the @loc{Bridge} and fish with a rod until you land a catch."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "nest_level_1",
+      "displayName": "Nest Builder",
+      "description": "Upgrade the nest to level 1.",
+      "hidden": false,
+      "globalPercent": 67.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "evolution_3"
+      ],
+      "confidence": "verified",
+      "summary": "Upgrade the Nest to level 1.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Evolution III, enter the @loc{Birb Nest}. Chop trees and finish the 100,000-Twig goal for the first Nest upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_expedition_kill",
+      "displayName": "Field Tested",
+      "description": "Defeat 1 expedition enemy.",
+      "hidden": false,
+      "globalPercent": 65.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "prerequisites": [
+        "hat_pirate"
+      ],
+      "confidence": "verified",
+      "summary": "Kill one enemy during an Expedition.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter an Expedition with the Parrot and attack an enemy on Floor 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "evolution_1",
+      "displayName": "Evolution I",
+      "description": "Reach evolution 1.",
+      "hidden": false,
+      "globalPercent": 91.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "prerequisites": [
+        "hat_spring"
+      ],
+      "confidence": "verified",
+      "summary": "Advance Birb to Evolution 1.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @mechanic{Unlocks Evolve} after Golden Harvest in the Sunflower tree. The unlock costs 100 million popcorn."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the @loc{Castle} and click the monster to finish the introductory dialogue."
+          },
+          {
+            "id": "s3",
+            "text": "Use @mechanic{HOLD TO FEED} to supply 10 million popcorn, then select @mechanic{EVOLVE}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "evolution_2",
+      "displayName": "Evolution II",
+      "description": "Reach evolution 2.",
+      "hidden": false,
+      "globalPercent": 81.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "evolution_1"
+      ],
+      "confidence": "verified",
+      "summary": "Advance Birb to Evolution 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "Evolution clears ordinary fish, Moneta, Twig progress and temporary upgrades. Rods, Fishdex discoveries, Fishing level, Parrot progress, Nest tier and shiny fish remain.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Supply 10 billion popcorn and 1,000 Moneta in the Evolution feeding panel, then confirm Evolution 2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "evolution_3",
+      "displayName": "Evolution III",
+      "description": "Reach evolution 3.",
+      "hidden": false,
+      "globalPercent": 75.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "evolution_2"
+      ],
+      "confidence": "verified",
+      "summary": "Advance Birb to Evolution 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "Evolution clears ordinary fish, Moneta, Twig progress and temporary upgrades. Rods, Fishdex discoveries, Fishing level, Parrot progress, Nest tier and shiny fish remain.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Supply 250 billion popcorn and 30 million Seeds in the Evolution feeding panel, then confirm Evolution 3."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "evolution_4",
+      "displayName": "Evolution IV",
+      "description": "Reach evolution 4.",
+      "hidden": false,
+      "globalPercent": 66.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "evolution_3"
+      ],
+      "confidence": "verified",
+      "summary": "Advance Birb to Evolution 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "Evolution clears ordinary fish, Moneta, Twig progress and temporary upgrades. Rods, Fishdex discoveries, Fishing level, Parrot progress, Nest tier and shiny fish remain.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Supply 1Q popcorn, 100,000 Twigs and 10,000 Moneta in the Evolution feeding panel, then confirm Evolution 4."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "evolution_5",
+      "displayName": "Evolution V",
+      "description": "Reach evolution 5.",
+      "hidden": false,
+      "globalPercent": 54.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "evolution_4"
+      ],
+      "confidence": "verified",
+      "summary": "Advance Birb to Evolution 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "Evolution clears ordinary fish, Moneta, Twig progress and temporary upgrades. Rods, Fishdex discoveries, Fishing level, Parrot progress, Nest tier and shiny fish remain.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the @loc{Castle} with 1Qi popcorn and 1 million Twigs."
+          },
+          {
+            "id": "s2",
+            "text": "Feed the monster both resources, then select @mechanic{EVOLVE}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_1_boss_clear",
+      "displayName": "Forest Cleared",
+      "description": "Defeat the first Expedition floor’s boss.",
+      "hidden": true,
+      "globalPercent": 59.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "first_expedition_kill"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 1.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Spend SP on the Parrot’s Strength, Vitality and Recovery, then defeat @enemy{Cobra Boss} near the far end of Floor 1."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_2_reached",
+      "displayName": "Floor Two",
+      "description": "Reach Expedition floor 2.",
+      "hidden": false,
+      "globalPercent": 59.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "prerequisites": [
+        "floor_1_boss_clear"
+      ],
+      "confidence": "unverified",
+      "summary": "Enter Expedition Floor 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Floor 1, then advance to Expedition Floor 2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_3_reached",
+      "displayName": "Floor Three",
+      "description": "Reach Expedition floor 3.",
+      "hidden": false,
+      "globalPercent": 54.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "prerequisites": [
+        "floor_2_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Floor 2, then enter the next-floor portal that opens to reach Floor 3."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_4_reached",
+      "displayName": "Floor Four",
+      "description": "Reach Expedition floor 4.",
+      "hidden": false,
+      "globalPercent": 46.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "prerequisites": [
+        "floor_3_boss_clear",
+        "evolution_5"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution V first. Defeat the boss on Floor 3, then enter the next-floor portal that opens to reach Floor 4."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_5_reached",
+      "displayName": "Floor Five",
+      "description": "Enter the fifth Expedition floor.",
+      "hidden": true,
+      "globalPercent": 42.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 4,
+      "prerequisites": [
+        "hat_captain",
+        "evolution_5"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution V first. Defeat the boss on Floor 4, then enter the next-floor portal that opens to reach Floor 5."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_10k",
+      "displayName": "Snack Supply",
+      "description": "Collect 10,000 popcorn.",
+      "hidden": false,
+      "globalPercent": 96.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "prerequisites": [
+        "first_popcorn"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 10,000 popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 10,000. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_10m",
+      "displayName": "Popcorn Storm",
+      "description": "Collect 10,000,000 popcorn.",
+      "hidden": false,
+      "globalPercent": 93.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "prerequisites": [
+        "popcorn_1m"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 10 million popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 10 million. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "evolution_6",
+      "displayName": "Evolution VI",
+      "description": "Reach evolution 6.",
+      "hidden": false,
+      "globalPercent": 29.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "evolution_5",
+        "hat_holy"
+      ],
+      "confidence": "verified",
+      "summary": "Advance Birb to Evolution 6.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat @enemy{The Archivist} on Floor 9 and advance the post-boss dialogue."
+          },
+          {
+            "id": "s2",
+            "text": "When the chain-breaking prompt appears, press @mechanic{H} or click its button to free the Castle monster."
+          },
+          {
+            "id": "s3",
+            "text": "After the rescue returns you to the @loc{Castle}, select @mechanic{EVOLVE}. Evolution VI needs no further feeding."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "nest_level_2",
+      "displayName": "A Growing Home",
+      "description": "Upgrade the nest to level 2.",
+      "hidden": false,
+      "globalPercent": 55.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "nest_level_1"
+      ],
+      "confidence": "verified",
+      "summary": "Upgrade the Nest to level 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the @loc{Birb Nest}, harvest trees for Twigs and complete the 1 million-Twig goal for Nest Tier 2."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_6_reached",
+      "displayName": "Floor Six",
+      "description": "Reach Expedition floor 6.",
+      "hidden": false,
+      "globalPercent": 39.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 4,
+      "prerequisites": [
+        "floor_5_boss_clear",
+        "evolution_5"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 6.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution V first. Defeat the boss on Floor 5, then enter the next-floor portal that opens to reach Floor 6."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_7_reached",
+      "displayName": "Floor Seven",
+      "description": "Reach Expedition floor 7.",
+      "hidden": false,
+      "globalPercent": 37.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 4,
+      "prerequisites": [
+        "floor_6_boss_clear",
+        "evolution_5"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution V first. Defeat the boss on Floor 6, then enter the next-floor portal that opens to reach Floor 7."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_8_reached",
+      "displayName": "Floor Eight",
+      "description": "Reach Expedition floor 8.",
+      "hidden": false,
+      "globalPercent": 35.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 4,
+      "prerequisites": [
+        "floor_7_boss_clear",
+        "evolution_5"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 8.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution V first. Defeat the boss on Floor 7, then enter the next-floor portal that opens to reach Floor 8."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_2_boss_clear",
+      "displayName": "Lilith Cleared",
+      "description": "Defeat the Floor 2 boss.",
+      "hidden": false,
+      "globalPercent": 54.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "floor_2_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight enemies on Floor 2 for SP. Improve the Parrot’s Strength, Vitality and Recovery, then defeat the floor’s boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_3_boss_clear",
+      "displayName": "Dunes Cleared",
+      "description": "Defeat the Floor 3 boss.",
+      "hidden": false,
+      "globalPercent": 46.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "floor_3_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 3.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight enemies on Floor 3 for SP. Improve the Parrot’s Strength, Vitality and Recovery, then defeat the floor’s boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_5_boss_clear",
+      "displayName": "Depths Cleared",
+      "description": "Defeat the Floor 5 boss.",
+      "hidden": false,
+      "globalPercent": 39.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_5_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 5.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight enemies on Floor 5 for SP. Improve the Parrot’s Strength, Vitality and Recovery, then defeat the floor’s boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_6_boss_clear",
+      "displayName": "Frost Cleared",
+      "description": "Defeat the Floor 6 boss.",
+      "hidden": false,
+      "globalPercent": 37.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_6_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 6.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight enemies on Floor 6 for SP. Improve the Parrot’s Strength, Vitality and Recovery, then defeat the floor’s boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_7_boss_clear",
+      "displayName": "Swamp Cleared",
+      "description": "Defeat the Floor 7 boss.",
+      "hidden": false,
+      "globalPercent": 35.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_7_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 7.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight enemies on Floor 7 for SP. Improve the Parrot’s Strength, Vitality and Recovery, then defeat the floor’s boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "floor_8_boss_clear",
+      "displayName": "Graveyard Cleared",
+      "description": "Defeat the Floor 8 boss.",
+      "hidden": false,
+      "globalPercent": 33.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_8_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 8.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight enemies on Floor 8 for SP. Improve the Parrot’s Strength, Vitality and Recovery, then defeat the floor’s boss."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "aquarium_first_donation",
+      "displayName": "A Fish at Home",
+      "description": "House your first species in the Aquarium.",
+      "hidden": false,
+      "globalPercent": 53.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 4,
+      "prerequisites": [
+        "evolution_5",
+        "first_fish"
+      ],
+      "confidence": "verified",
+      "summary": "Place one fish species in the Aquarium.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Evolution V, enter the @loc{Aquarium} from the Bridge and donate one owned fish species."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "aquarium_first_shiny",
+      "displayName": "A Brighter Aquarium",
+      "description": "Give an Aquarium species its first shiny upgrade.",
+      "hidden": false,
+      "globalPercent": 47.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "prerequisites": [
+        "aquarium_first_donation"
+      ],
+      "confidence": "verified",
+      "summary": "Apply a shiny upgrade to one Aquarium species.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Catch a shiny fish, then donate the shiny version to its species in the @loc{Aquarium}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "aquarium_deep_resonance",
+      "displayName": "Deep Resonance",
+      "description": "Unlock the Deep Resonance milestone in the Aquarium.",
+      "hidden": false,
+      "globalPercent": 49.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "prerequisites": [
+        "aquarium_first_donation"
+      ],
+      "confidence": "verified",
+      "summary": "Accumulate 250 Aquarium points to unlock Deep Resonance.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Donate fish species in the Aquarium until you have 250 points to unlock @mechanic{Deep Resonance}. Donate shiny versions to increase those species’ point values."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "aquarium_harmony",
+      "displayName": "Aquarium Harmony",
+      "description": "Unlock the Aquarium Harmony milestone.",
+      "hidden": false,
+      "globalPercent": 47.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "prerequisites": [
+        "aquarium_first_donation"
+      ],
+      "confidence": "verified",
+      "summary": "Accumulate 450 Aquarium points to unlock Aquarium Harmony.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Donate fish species in the Aquarium until you have 450 points to unlock @mechanic{Aquarium Harmony}. Donate shiny versions to increase those species’ point values."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "fish_market_unlocked",
+      "displayName": "Open for Business",
+      "description": "Unlock the Fish Market.",
+      "hidden": false,
+      "globalPercent": 40.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "prerequisites": [
+        "aquarium_first_donation"
+      ],
+      "confidence": "verified",
+      "summary": "Accumulate 700 Aquarium points to unlock Fish Market.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Donate fish species in the Aquarium until you have 700 points to unlock @mechanic{Fish Market}. Donate shiny versions to increase those species’ point values."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_unlocked",
+      "displayName": "Into the Mine",
+      "description": "Open the Mine entrance on Expedition Floor 1.",
+      "hidden": false,
+      "globalPercent": 37.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "prerequisites": [
+        "hat_pirate"
+      ],
+      "confidence": "unverified",
+      "summary": "Open the Mine entrance on Expedition Floor 1.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Check the @mechanic{Mine unlock checklist} at the Floor 1 Mine entrance or in the Parrot Forge. Complete its remaining goals, then open the Mine entrance."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_1",
+      "displayName": "Giant Breaker",
+      "description": "Defeat Giant 1 in the Mine.",
+      "hidden": false,
+      "globalPercent": 36.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "mine_unlocked"
+      ],
+      "confidence": "unverified",
+      "summary": "Defeat Giant 1 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Advance through the Mine to Giant 1. Buy mining upgrades and use charged strikes to improve ore damage."
+          },
+          {
+            "id": "s2",
+            "text": "Break Giant 1 before the Giant Ore challenge timer runs out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_7",
+      "displayName": "Beyond the Seventh Giant",
+      "description": "Defeat Giant 7 in the Mine.",
+      "hidden": false,
+      "globalPercent": 31.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "mine_giant_1"
+      ],
+      "confidence": "unverified",
+      "summary": "Defeat Giant 7 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Advance through the Mine to Giant 7. Buy mining upgrades and use charged strikes to improve ore damage."
+          },
+          {
+            "id": "s2",
+            "text": "Break Giant 7 before the Giant Ore challenge timer runs out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_10",
+      "displayName": "Deep Miner",
+      "description": "Defeat Giant 10 in the Mine.",
+      "hidden": false,
+      "globalPercent": 22.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "mine_giant_7"
+      ],
+      "confidence": "unverified",
+      "summary": "Defeat Giant 10 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Advance through the Mine to Giant 10. Buy mining upgrades and use charged strikes to improve ore damage."
+          },
+          {
+            "id": "s2",
+            "text": "Break Giant 10 before the Giant Ore challenge timer runs out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_sparrow_rebirb",
+      "displayName": "Sparrow Reborn",
+      "description": "Rebirb the Sparrow once.",
+      "hidden": false,
+      "globalPercent": 60.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "prerequisites": [
+        "nest_level_1",
+        "evolution_1"
+      ],
+      "confidence": "unverified",
+      "summary": "Perform one Rebirb with the Sparrow.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Nest Tier I and use @mechanic{Mitosis} in the Sparrow menu until the flock has 16 Sparrows."
+          },
+          {
+            "id": "s2",
+            "text": "Keep gaining Sparrow XP until Rebirb is available, then select @mechanic{Rebirb} in the Sparrow menu."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_parrot_rebirb",
+      "displayName": "Parrot Reborn",
+      "description": "Rebirb the Parrot once.",
+      "hidden": false,
+      "globalPercent": 54.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "prerequisites": [
+        "evolution_4",
+        "floor_3_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Perform one Rebirb with the Parrot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution IV and Expedition Floor 3. Use the ready button for Parrot Rebirb I, then complete the Parrot’s Rebirb."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_dave_rebirb",
+      "displayName": "Dave Reborn",
+      "description": "Rebirb Dave once.",
+      "hidden": false,
+      "globalPercent": 42.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "prerequisites": [
+        "evolution_4",
+        "floor_2_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Perform one Rebirb with Dave.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution IV and defeat the Floor 2 Witch to obtain a @item{Legendary Key}."
+          },
+          {
+            "id": "s2",
+            "text": "Spend the key on @mechanic{Unlock the Desert Tree} in the Sunflower tree."
+          },
+          {
+            "id": "s3",
+            "text": "Buy @mechanic{Dave} in the Desert tree, then let Dave collect popcorn in the Desert to gain XP."
+          },
+          {
+            "id": "s4",
+            "text": "At level 100, open Dave’s Rebirb panel and choose an instinct for the Rebirb."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_seagull_rebirb",
+      "displayName": "Seagull Reborn",
+      "description": "Rebirb the Seagull once.",
+      "hidden": false,
+      "globalPercent": 69.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "evolution_3"
+      ],
+      "confidence": "verified",
+      "summary": "Perform one Rebirb with the Seagull.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Evolution III, let the Seagull fish until level 25. Open the Seagull menu and select @mechanic{Rebirb}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "first_crow_rebirb",
+      "displayName": "Crow Reborn",
+      "description": "Rebirb the Crow once.",
+      "hidden": false,
+      "globalPercent": 35.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "prerequisites": [
+        "mine_unlocked",
+        "mine_giant_1",
+        "floor_6_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Perform one Rebirb with the Crow.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete Parrot Rebirb II after reaching Floor 6. In the Parrot Forge, raise Punch, Armor and Aura to Epic Level 5."
+          },
+          {
+            "id": "s2",
+            "text": "On Expedition Floor 1, click the Mine entrance’s bars. The Parrot breaks the bars and unlocks the Mine and Crow."
+          },
+          {
+            "id": "s3",
+            "text": "Let the Crow mine ores until level 3, and defeat Giant 1. Claim the free @mechanic{Crow Rebirb} upgrade in the Mine tree."
+          },
+          {
+            "id": "s4",
+            "text": "Open the Crow menu and select @mechanic{REBIRB}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_ash_cap",
+      "displayName": "Ash Cap",
+      "description": "Complete the Fishdex.",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 120,
+      "stage": 5,
+      "prerequisites": [
+        "first_fish",
+        "hat_holy",
+        "first_parrot_rebirb"
+      ],
+      "confidence": "verified",
+      "summary": "Discover every fish species in the Fishdex.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete Parrot Rebirb I after reaching Evolution IV and Floor 3, then Rebirb II after reaching Floor 6. Defeat The Archivist and complete Parrot Rebirb III to unlock Night Mode."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Night Mode} in the Expedition Hub to enter @loc{Vigil Woods}."
+          },
+          {
+            "id": "s3",
+            "text": "In the @mechanic{Fishdex}, select a missing species. Use its Normal recommendations and fish at its listed habitat with a suitable rod, hook and lure."
+          },
+          {
+            "id": "s4",
+            "text": "Continue until every species has a discovery. Include the Bridge and Vigil Woods fish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_boss_1_master",
+      "displayName": "Cobra",
+      "description": "Defeat the Floor 1 boss 10 times.",
+      "hidden": false,
+      "globalPercent": 26.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_1_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 1 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Expedition Floor 1, then stay on that floor and wait for the boss’s respawn countdown. Kill the boss again whenever the countdown ends, until you have 10 victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_boss_2_master",
+      "displayName": "Witchy",
+      "description": "Defeat the Floor 2 boss 10 times.",
+      "hidden": false,
+      "globalPercent": 22.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_2_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 2 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Expedition Floor 2, then stay on that floor and wait for the boss’s respawn countdown. Kill the boss again whenever the countdown ends, until you have 10 victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_boss_3_master",
+      "displayName": "Anubis",
+      "description": "Defeat the Floor 3 boss 10 times.",
+      "hidden": false,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_3_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 3 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Expedition Floor 3, then stay on that floor and wait for the boss’s respawn countdown. Kill the boss again whenever the countdown ends, until you have 10 victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_boss_4_master",
+      "displayName": "Tutu",
+      "description": "Defeat the Floor 4 boss 10 times.",
+      "hidden": false,
+      "globalPercent": 21.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "hat_captain"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 4 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Expedition Floor 4, then stay on that floor and wait for the boss’s respawn countdown. Kill the boss again whenever the countdown ends, until you have 10 victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_boss_5_master",
+      "displayName": "Cthulhu",
+      "description": "Defeat the Floor 5 boss 10 times.",
+      "hidden": false,
+      "globalPercent": 18.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_5_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 5 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Expedition Floor 5, then stay on that floor and wait for the boss’s respawn countdown. Kill the boss again whenever the countdown ends, until you have 10 victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_builder",
+      "displayName": "Builder",
+      "description": "Max the Nest tier.",
+      "hidden": false,
+      "globalPercent": 55.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "prerequisites": [
+        "nest_level_2"
+      ],
+      "confidence": "verified",
+      "summary": "Upgrade the Nest to Tier III.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Evolution III, finish the 100,000-Twig Nest goal and then the 1 million-Twig goal to reach Nest Tier III."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_bunny",
+      "displayName": "Bunny",
+      "description": "Cross the bridge in under 3 seconds.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "hat_spring"
+      ],
+      "confidence": "verified",
+      "summary": "Traverse the Bridge in less than 3 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Increase @mechanic{Wing Training} and buy @mechanic{Swift Wings} in the Sunflower tree. Run across the @loc{Bridge} in under 3 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_captain",
+      "displayName": "Captain",
+      "description": "Defeat Tutu Shark on Floor 4.",
+      "hidden": false,
+      "globalPercent": 42.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "prerequisites": [
+        "floor_4_reached"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Tutu Shark on Expedition Floor 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On Expedition Floor 4, improve the Parrot with SP and defeat @enemy{Tutu Shark}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_chef",
+      "displayName": "Chef",
+      "description": "Have 3 shiny buffs active at the same time.",
+      "hidden": false,
+      "globalPercent": 10.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "prerequisites": [
+        "first_fish",
+        "aquarium_first_donation"
+      ],
+      "confidence": "verified",
+      "summary": "Keep three shiny fish buffs active simultaneously.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @mechanic{Extra Stomach} in the fishing upgrade tree. Earn 10 Aquarium points from donations to unlock @mechanic{Extra Course} and the third buff slot."
+          },
+          {
+            "id": "s2",
+            "text": "In Collection, eat shiny fish from three different species so their buffs are active together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_cowboy",
+      "displayName": "Cowboy",
+      "description": "Collect 1,000,000 Golden Popcorn.",
+      "hidden": false,
+      "globalPercent": 46.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "evolution_4",
+        "floor_2_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 million Golden Popcorn.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Evolution IV and defeat the Floor 2 Witch to obtain a @item{Legendary Key}."
+          },
+          {
+            "id": "s2",
+            "text": "Spend the key on @mechanic{Unlock the Desert Tree} in the Sunflower tree."
+          },
+          {
+            "id": "s3",
+            "text": "Buy @mechanic{Desert Core}, then gather Golden Popcorn in the Desert until the total reaches 1 million."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_devil",
+      "displayName": "Devil",
+      "description": "Reach Floor 9.",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 5,
+      "prerequisites": [
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Enter Expedition Floor 9.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At Evolution V or later, defeat the Floor 8 boss and enter the next-floor portal to Floor 9."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_holy",
+      "displayName": "Holy",
+      "description": "Defeat the Floor 9 boss.",
+      "hidden": false,
+      "globalPercent": 30.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "About 30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "prerequisites": [
+        "hat_devil"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 9.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At Evolution V and 600 Aquarium Resonance, unlock @mechanic{Lineage Lake}. Pay 1 million Twigs for Nest breeding, breed two @item{Crownfrost Serpents} together and activate the damage hybrid."
+          },
+          {
+            "id": "s2",
+            "text": "Equip two @item{Skulls}, one @item{Depth Chronicle} and two @item{Spirit Amulets}. Infuse the Skulls and Spirit Amulets as far as you can afford."
+          },
+          {
+            "id": "s3",
+            "text": "Activate @item{Throne of Winter}, @item{Crownfrost Serpent} and @item{Coldsnap Runner} fish buffs for damage and attack speed."
+          },
+          {
+            "id": "s4",
+            "text": "Put SP into Strength. About 650Sx SP and 123Oc damage after buffs are the reference setup for this burst method."
+          },
+          {
+            "id": "s5",
+            "text": "Turn off Auto attack. Hold the reroll control beside the Expedition leave button until you can approach @enemy{The Archivist} safely and its health is near 837Oc."
+          },
+          {
+            "id": "s6",
+            "text": "Click The Archivist rapidly to accelerate Parrot attacks. Retry after death if the burst fails."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_heisenberg",
+      "displayName": "Heisenbirb",
+      "description": "Eat a legendary popcorn fish.",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "prerequisites": [
+        "first_fish"
+      ],
+      "confidence": "unverified",
+      "summary": "Consume a legendary fish that provides a popcorn buff.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Select a legendary fish with a Popcorn bonus in the @mechanic{Collection} tab, then eat that fish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_lucky",
+      "displayName": "Lucky",
+      "description": "Discover all shiny fish.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 120,
+      "stage": 5,
+      "prerequisites": [
+        "first_fish",
+        "hat_holy",
+        "first_parrot_rebirb"
+      ],
+      "confidence": "verified",
+      "summary": "Discover the shiny form of every fish species.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete Parrot Rebirb I after reaching Evolution IV and Floor 3, then Rebirb II after reaching Floor 6. Defeat The Archivist and complete Parrot Rebirb III to unlock Night Mode."
+          },
+          {
+            "id": "s2",
+            "text": "Choose @mechanic{Night Mode} in the Expedition Hub to enter @loc{Vigil Woods}."
+          },
+          {
+            "id": "s3",
+            "text": "In the @mechanic{Fishdex}, select a missing shiny species. Use its Shiny recommendations and fish at its listed habitat with a suitable rod, hook and lure."
+          },
+          {
+            "id": "s4",
+            "text": "Continue until every species has a shiny discovery. Include the Bridge and Vigil Woods fish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_pirate",
+      "displayName": "Pirate",
+      "description": "Unlock Expeditions.",
+      "hidden": false,
+      "globalPercent": 65.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "prerequisites": [
+        "nest_level_2"
+      ],
+      "confidence": "verified",
+      "summary": "Unlock the Expedition system.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @mechanic{Nest Tier II}, then enter the @loc{Expedition Hub}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_rasta",
+      "displayName": "Rasta",
+      "description": "Play for 4 hours and 20 minutes.",
+      "hidden": false,
+      "globalPercent": 82.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 260 min",
+      "estMinutes": 260,
+      "stage": 2,
+      "prerequisites": [],
+      "confidence": "verified",
+      "summary": "Accumulate 4 hours and 20 minutes of playtime.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep playing until Birb’s recorded playtime reaches 4 hours and 20 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_skull",
+      "displayName": "Skull",
+      "description": "Kill 100,000 expedition monsters.",
+      "hidden": false,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 60,
+      "stage": 5,
+      "prerequisites": [
+        "first_expedition_kill"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat 100,000 Expedition monsters.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep the Parrot fighting Expedition enemies until the kill count reaches 100,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_spring",
+      "displayName": "Spring",
+      "description": "Buy Sunflower Vending.",
+      "hidden": false,
+      "globalPercent": 94.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "prerequisites": [
+        "first_rebirb"
+      ],
+      "confidence": "verified",
+      "summary": "Purchase the Sunflower Vending upgrade.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Earn 100 Golden Feathers through Birb Rebirbs, then buy @mechanic{Sunflower Vending} at the @loc{Sunflower Field}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_top",
+      "displayName": "Top Hat",
+      "description": "Own 1,000,000,000 popcorn.",
+      "hidden": false,
+      "globalPercent": 85.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "popcorn_1b"
+      ],
+      "confidence": "verified",
+      "summary": "Hold a balance of 1 billion popcorn.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Let the popcorn balance reach 1 billion before buying another upgrade or performing a Rebirb."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_pilgrim",
+      "displayName": "Pilgrim",
+      "description": "Gain 1,000,000,000 Seeds.",
+      "hidden": false,
+      "globalPercent": 70.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "prerequisites": [
+        "hat_spring"
+      ],
+      "confidence": "verified",
+      "summary": "Earn 1 billion Seeds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After buying Sunflower Vending, stand in the Sunflower Field’s flowerbed to collect Seeds. Buy Popcorn Silo for 50 Seeds and Auto Generator for 500 Seeds, then keep generating Seeds toward 1 billion."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_dave",
+      "displayName": "Dave",
+      "description": "Rebirb Dave 100 times.",
+      "hidden": false,
+      "globalPercent": 22.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 60,
+      "stage": 5,
+      "prerequisites": [
+        "first_dave_rebirb"
+      ],
+      "confidence": "verified",
+      "summary": "Raise Dave’s Rebirb counter to 100.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dave’s Rebirb counter starts at 1.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Let Dave collect Desert popcorn to gain XP. Each time Dave has 100 levels available, perform a Rebirb and assign an instinct until the Rebirb counter reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_gull",
+      "displayName": "Gull",
+      "description": "Rebirb the Seagull 100 times.",
+      "hidden": false,
+      "globalPercent": 23.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 60,
+      "stage": 5,
+      "prerequisites": [
+        "first_seagull_rebirb"
+      ],
+      "confidence": "verified",
+      "summary": "Perform 100 Rebirbs with the Seagull.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep the Seagull fishing and perform Rebirbs until the count reaches 100. Each Rebirb uses 25 levels initially and 50 levels after the tenth Rebirb."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_jell_o",
+      "displayName": "Jell-O",
+      "description": "Defeat the Floor 6 boss 10 times.",
+      "hidden": false,
+      "globalPercent": 17.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "floor_6_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat the boss of Expedition Floor 6 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the boss on Expedition Floor 6, then stay on that floor and wait for the boss’s respawn countdown. Kill the boss again whenever the countdown ends, until you have 10 victories."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1m",
+      "displayName": "1M Popcorn",
+      "description": "Collect a total of 1M popcorn.",
+      "hidden": false,
+      "globalPercent": 94.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "prerequisites": [
+        "popcorn_10k"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 million popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 million. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1b",
+      "displayName": "1B Popcorn",
+      "description": "Collect a total of 1B popcorn.",
+      "hidden": false,
+      "globalPercent": 86.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "popcorn_10m"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 billion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 billion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1t",
+      "displayName": "1T Popcorn",
+      "description": "Collect a total of 1T popcorn.",
+      "hidden": false,
+      "globalPercent": 73.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "prerequisites": [
+        "popcorn_10b"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 trillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 trillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1qa",
+      "displayName": "1Qa Popcorn",
+      "description": "Collect a total of 1Qa popcorn.",
+      "hidden": false,
+      "globalPercent": 67.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 3,
+      "prerequisites": [
+        "popcorn_1t"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 quadrillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 quadrillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1qi",
+      "displayName": "1Qi Popcorn",
+      "description": "Collect a total of 1Qi popcorn.",
+      "hidden": false,
+      "globalPercent": 55.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 4,
+      "prerequisites": [
+        "popcorn_1qa"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 quintillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 quintillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1sx",
+      "displayName": "1Sx Popcorn",
+      "description": "Collect a total of 1Sx popcorn.",
+      "hidden": false,
+      "globalPercent": 41.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 4,
+      "prerequisites": [
+        "popcorn_1qi"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 sextillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 sextillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1sp",
+      "displayName": "1Sp Popcorn",
+      "description": "Collect a total of 1Sp popcorn.",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 5,
+      "prerequisites": [
+        "popcorn_1sx"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 septillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 septillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1oc",
+      "displayName": "1Oc Popcorn",
+      "description": "Collect a total of 1Oc popcorn.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 5,
+      "prerequisites": [
+        "popcorn_1sp"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 octillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 octillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1no",
+      "displayName": "1No Popcorn",
+      "description": "Collect a total of 1No popcorn.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 5,
+      "prerequisites": [
+        "popcorn_1oc"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 nonillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 nonillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "popcorn_1dc",
+      "displayName": "1Dc Popcorn",
+      "description": "Collect a total of 1Dc popcorn.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 10,
+      "stage": 5,
+      "prerequisites": [
+        "popcorn_1no"
+      ],
+      "confidence": "verified",
+      "summary": "Collect 1 decillion popcorn in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep gathering popcorn until the lifetime total reaches 1 decillion. Increase @mechanic{Popcorn Value} and @mechanic{Faster Popcorn} to improve production."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_20",
+      "displayName": "Mine Level 20",
+      "description": "Defeat Giant 20 in the Mine.",
+      "hidden": false,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_10",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 20 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_30",
+      "displayName": "Mine Level 30",
+      "description": "Defeat Giant 30 in the Mine.",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_20",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 30 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 30."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_40",
+      "displayName": "Mine Level 40",
+      "description": "Defeat Giant 40 in the Mine.",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_30",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 40 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 40."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_50",
+      "displayName": "Mine Level 50",
+      "description": "Defeat Giant 50 in the Mine.",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_40",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 50 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_60",
+      "displayName": "Mine Level 60",
+      "description": "Defeat Giant 60 in the Mine.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_50",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 60 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 60."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_70",
+      "displayName": "Mine Level 70",
+      "description": "Defeat Giant 70 in the Mine.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_60",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 70 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 70."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_80",
+      "displayName": "Mine Level 80",
+      "description": "Defeat Giant 80 in the Mine.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_70",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 80 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 80."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_90",
+      "displayName": "Mine Level 90",
+      "description": "Defeat Giant 90 in the Mine.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_80",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 90 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 90."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mine_giant_100",
+      "displayName": "Mine Level 100",
+      "description": "Defeat Giant 100 in the Mine.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 20,
+      "stage": 5,
+      "prerequisites": [
+        "mine_giant_90",
+        "floor_8_boss_clear"
+      ],
+      "confidence": "verified",
+      "summary": "Defeat Giant 100 in the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the Floor 8 boss. In the Mine tree, claim the @mechanic{Crow Rebirb} node and then the free @mechanic{Deep Mine} node."
+          },
+          {
+            "id": "s2",
+            "text": "Use @mechanic{Royal Impact} and @mechanic{Abyssal Forge} upgrades to raise mining damage as you progress."
+          },
+          {
+            "id": "s3",
+            "text": "Use the Mine cart to enter each Giant challenge. Break the Giant before its timer ends, then take the cart onward and continue through Giant 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_deal_with_it",
+      "displayName": "Deal with It (Be a Cool Birb)",
+      "description": "Send a message in chat. Unlocks the Deal with It sunglasses.",
+      "hidden": false,
+      "globalPercent": 26.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "About 1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "prerequisites": [],
+      "confidence": "verified",
+      "summary": "Post one message in the in-game chat.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Connect to the in-game chat and send one message."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_geode_helmet",
+      "displayName": "Heart of the Geode",
+      "description": "Reach Mine area 100 and break 100 legendary ores across Evolutions. Unlocks the Geode Helmet.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "Varies with production",
+      "estMinutes": 60,
+      "stage": 5,
+      "prerequisites": [
+        "mine_unlocked"
+      ],
+      "confidence": "verified",
+      "summary": "Reach Mine area 100 and break 100 legendary ores across Evolutions.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach area 100 of the Mine."
+          },
+          {
+            "id": "s2",
+            "text": "Break legendary ores until the cumulative count reaches 100. Manual mining and the Crow both contribute."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hat_bat",
+      "displayName": "Bat Birb",
+      "description": "Click 50 bats in the Mine. Unlocks the Bat Hat.",
+      "hidden": false,
+      "globalPercent": 13.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "About 20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "prerequisites": [
+        "mine_unlocked"
+      ],
+      "confidence": "verified",
+      "summary": "Click 50 bats inside the Mine.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "While mining, click bats until the Bat Hat counter reaches 50."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "first_popcorn",
+    "first_rebirb",
+    "hat_spring",
+    "popcorn_10k",
+    "popcorn_1m",
+    "popcorn_10m",
+    "evolution_1",
+    "first_fish",
+    "hat_deal_with_it",
+    "popcorn_1b",
+    "hat_top",
+    "popcorn_10b",
+    "evolution_2",
+    "evolution_3",
+    "first_seagull_rebirb",
+    "nest_level_1",
+    "first_sparrow_rebirb",
+    "nest_level_2",
+    "hat_builder",
+    "popcorn_1t",
+    "hat_pilgrim",
+    "hat_bunny",
+    "hat_rasta",
+    "popcorn_1qa",
+    "evolution_4",
+    "hat_pirate",
+    "first_expedition_kill",
+    "floor_1_boss_clear",
+    "floor_2_reached",
+    "floor_2_boss_clear",
+    "floor_3_reached",
+    "first_parrot_rebirb",
+    "floor_3_boss_clear",
+    "popcorn_1qi",
+    "evolution_5",
+    "floor_4_reached",
+    "hat_captain",
+    "aquarium_first_donation",
+    "aquarium_first_shiny",
+    "aquarium_deep_resonance",
+    "aquarium_harmony",
+    "fish_market_unlocked",
+    "hat_chef",
+    "hat_heisenberg",
+    "hat_cowboy",
+    "first_dave_rebirb",
+    "mine_unlocked",
+    "mine_giant_1",
+    "hat_bat",
+    "mine_giant_7",
+    "mine_giant_10",
+    "hat_boss_1_master",
+    "hat_boss_2_master",
+    "hat_boss_3_master",
+    "hat_boss_4_master",
+    "floor_5_reached",
+    "floor_5_boss_clear",
+    "hat_boss_5_master",
+    "floor_6_reached",
+    "first_crow_rebirb",
+    "floor_6_boss_clear",
+    "hat_jell_o",
+    "floor_7_reached",
+    "floor_7_boss_clear",
+    "floor_8_reached",
+    "floor_8_boss_clear",
+    "popcorn_1sx",
+    "hat_devil",
+    "hat_holy",
+    "evolution_6",
+    "hat_skull",
+    "hat_dave",
+    "hat_gull",
+    "mine_giant_20",
+    "mine_giant_30",
+    "mine_giant_40",
+    "mine_giant_50",
+    "mine_giant_60",
+    "mine_giant_70",
+    "mine_giant_80",
+    "mine_giant_90",
+    "mine_giant_100",
+    "hat_geode_helmet",
+    "hat_ash_cap",
+    "hat_lucky",
+    "popcorn_1sp",
+    "popcorn_1oc",
+    "popcorn_1no",
+    "popcorn_1dc"
+  ]
+}

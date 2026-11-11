@@ -1,0 +1,1561 @@
+{
+  "game": {
+    "appid": 1425350,
+    "slug": "botany-manor",
+    "title": "Botany Manor",
+    "version": "1.0",
+    "lastPatchChecked": "2026-02-06",
+    "estTotalHours": 5,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-11"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Prologue and Chapter 1",
+      "description": "Grow the Windmill Wort, then pick up the easy extras around the Conservatory: sit on a bench, shake a locked gate, fill the Flower Room and find the first duck.",
+      "achievementRefs": [
+        "Achievement_Grow_WindmillWort",
+        "Achievement_Tipped_Out_Flower",
+        "Achievement_Sit_Down",
+        "Achievement_Bench_Sit_Long",
+        "Achievement_Door_Shake",
+        "Achievement_Flower_Room",
+        "Achievement_Multiple_Plants",
+        "Achievement_Duck"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Chapter 2: house, kitchen and camera",
+      "description": "Grow the Fulguria and the Phoenix Of The Forest. Play the harpsichord, then do the camera extras and crack the Ash Plume seed.",
+      "achievementRefs": [
+        "Achievement_Harpsichord",
+        "Achievement_Explosion_Flash",
+        "Achievement_Phoenix_Seed_Crack",
+        "Achievement_Grow_Fulguria",
+        "Achievement_Picture_Plant",
+        "Achievement_Grow_Phoenix"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Chapter 3: Orchard, Orangery and Old Tower",
+      "description": "Open the priest hole, fix the stairs, then grow the Pixie Tears and the Wolfglove. Open the Library Hall lock to end the chapter.",
+      "achievementRefs": [
+        "Achievement_Priest_Hole",
+        "Achievement_Fixed_Stairs_Orangery",
+        "Achievement_Grow_Pixie_Tears",
+        "Achievement_Grow_Wolfglove",
+        "Achievement_Top_Tower",
+        "Achievement_Opened_Lock"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Chapter 4: Library, bedroom and Attic",
+      "description": "Open the vault, then grow the Sapphire Gloom first. It opens the way to the Bathroom, Bell Tower and Attic for the other three plants.",
+      "achievementRefs": [
+        "Achievement_Vault",
+        "Achievement_Grow_Sapphire_Gloom",
+        "Achievement_Flush_Toilet",
+        "Achievement_Connect_Pipes",
+        "Achievement_Grow_Cradle_Fern",
+        "Achievement_Grow_Brook_Chalice",
+        "Achievement_Grow_Nightfall"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Chapter 5: Formal Garden and Boathouse",
+      "description": "Grow the last three plants, finish the paintings and ducks, and send the herbarium off from the Gatehouse.",
+      "achievementRefs": [
+        "Achievement_Grow_Springdance_Shrub",
+        "Achievement_Lilypads_Pond",
+        "Achievement_Grow_Fools_Emerald",
+        "Achievement_Telegraph_SOS",
+        "Achievement_Grow_Oscilette",
+        "Achievement_Art_Lover",
+        "Achievement_All_Ducks",
+        "Achievement_Complete_Herbarium"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Epilogue",
+      "description": "Return the book to the lectern in the Library classroom.",
+      "achievementRefs": [
+        "Achievement_End_Game"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "Achievement_Grow_WindmillWort",
+      "displayName": "Windmill Wort",
+      "description": "Grow the Windmill Wort",
+      "hidden": false,
+      "globalPercent": 90.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Grow the Windmill Wort to full bloom in the Conservatory.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Wildflowers poster says this is a volcanic flower. The Postcard says it comes from Sicily. The Temperature Chart gives 60 °C.",
+        "steps": [
+          {
+            "id": "prepare-pot",
+            "text": "Pick up the Windmill Wort seed bag at the @mechanic{potting station} in the @loc{Conservatory}. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "set-heat",
+            "text": "Next to the station, turn the boiler valve until its dial shows 60 °C."
+          },
+          {
+            "id": "bloom",
+            "text": "Carry the pot to the heat vent by the newspaper and postcard and stand it on the saucer there. Then push the red button so the vent opens."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Fulguria",
+      "displayName": "Fulguria",
+      "description": "Grow the Fulguria",
+      "hidden": false,
+      "globalPercent": 80.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Grow the Fulguria to full bloom using a camera flash.",
+      "guide": {
+        "kind": "standard",
+        "context": "The recipe is on the back of the empty bottle of flash powder on the desk beside the camera.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Fulguria seed bag from the chair at the foot of the Grand Staircase. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "pot",
+            "text": "In the @loc{Drawing Room}, stand the pot on the saucer set into the wall alcove by the camera."
+          },
+          {
+            "id": "mix",
+            "text": "At the mixing station in the @loc{Apothecary}, add 2 parts potassium and 1 part magnesium in the flask."
+          },
+          {
+            "id": "flash",
+            "text": "Empty the flask into the camera pan. Shut the pan door, then press the red button."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Phoenix",
+      "displayName": "Phoenix Of The Forest",
+      "description": "Grow the Phoenix Of The Forest",
+      "hidden": false,
+      "globalPercent": 74.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Phoenix_Seed_Crack"
+      ],
+      "summary": "Grow the Phoenix Of The Forest to full bloom.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Ash Plume needs oak wood smoke to bloom.",
+        "steps": [
+          {
+            "id": "crack",
+            "text": "Crack the seed in the pan above the @loc{Kitchen} fire. After that, water it so a seedling grows."
+          },
+          {
+            "id": "smoke",
+            "text": "Stand the pot on the saucer inside the @loc{smoke house}, in the Kitchen Garden."
+          },
+          {
+            "id": "oak",
+            "text": "Take an oak log from the wood pile near the door to the Servants' Hall and put it on the coals."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Pixie_Tears",
+      "displayName": "Pixie Tears",
+      "description": "Grow the Pixie Tears",
+      "hidden": false,
+      "globalPercent": 66.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Fulguria",
+        "Achievement_Grow_Phoenix"
+      ],
+      "summary": "Grow the Pixie Tears to full bloom using 97 g of sugar.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Microscope Slides and Chloroplasts Book show this plant needs sugar. The Pot Notes give 97 g for the top-right pot. Put all apples on the press before you pull the handle.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Pixie Tears seed bag from the wooden shed in the Orchard. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it. Use the top-right pot."
+          },
+          {
+            "id": "pot",
+            "text": "Stand the pot on the saucer beside the cider press in the @loc{Cider Garden}."
+          },
+          {
+            "id": "apples",
+            "text": "Put @item{Knobbly Russet}, @item{Brown Snout}, and @item{Dabinett} on the press. They add up to 97 g of sugar."
+          },
+          {
+            "id": "press",
+            "text": "Pull the press handle on its right."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Wolfglove",
+      "displayName": "Wolfglove",
+      "description": "Grow the Wolfglove",
+      "hidden": false,
+      "globalPercent": 63.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Priest_Hole"
+      ],
+      "summary": "Grow the Wolfglove to full bloom in the Old Tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Weisshorn wind speed is 40 f/s, and Wind Test 5 of 6 in the Tower Wind Research gives this window setup.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Take the Wolfglove seeds from the dry fountain in the lower @loc{Orangery}. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "pot",
+            "text": "In the @loc{Old Tower}, stand the pot on the saucer beside the window."
+          },
+          {
+            "id": "windows",
+            "text": "Crank the platform up to the first floor and open any one window. Skip the second floor. On the third and fourth floors, open both windows."
+          },
+          {
+            "id": "bloom",
+            "text": "Stop on the fourth floor. The flower blooms there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Sapphire_Gloom",
+      "displayName": "Sapphire Gloom",
+      "description": "Grow the Sapphire Gloom",
+      "hidden": false,
+      "globalPercent": 59.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Vault"
+      ],
+      "summary": "Grow the Sapphire Gloom to full bloom.",
+      "guide": {
+        "kind": "standard",
+        "context": "Open the Study with the key from the basket in the vault. The tree has a root fungus, and this mushroom removes it.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Sapphire Gloom seed bag from the table near the Bird Egg collection in the @loc{Study}. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "tree",
+            "text": "In the @loc{Main Hall}, stand the pot on the saucer by the roots of the big tree."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Nightfall",
+      "displayName": "Nightfall",
+      "description": "Grow the Nightfall",
+      "hidden": false,
+      "globalPercent": 57.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom"
+      ],
+      "summary": "Grow the Nightfall to full bloom with a September sunset.",
+      "guide": {
+        "kind": "standard",
+        "context": "Open the Attic first. The colour bands match the September sunset painting in the vault.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Nightfall seed bag from the far corner of the vault. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "pot",
+            "text": "On the upper floor of the @loc{Attic}, stand the pot on the saucer beside the Magic Lamp projector."
+          },
+          {
+            "id": "slides",
+            "text": "Put the slides in the projector from left to right: blue, yellow, orange, red."
+          },
+          {
+            "id": "show",
+            "text": "Press the button on the projector."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Brook_Chalice",
+      "displayName": "Brook Chalice",
+      "description": "Grow Brook Chalice",
+      "hidden": false,
+      "globalPercent": 57.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Connect_Pipes"
+      ],
+      "summary": "Grow the Brook Chalice to full bloom in a rusty 25 °C bath.",
+      "guide": {
+        "kind": "standard",
+        "context": "Open the Attic with the key from the basket on the lower floor of the Bell Tower. The plant needs rust and 25 °C river water.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Brook Chalice seed bag from the table near the stained glass window in the @loc{Attic}. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "pot",
+            "text": "In the @loc{Bathroom}, stand the pot on the saucer inside the bathtub."
+          },
+          {
+            "id": "heat",
+            "text": "Repair the boiler first by fitting its six pipe pieces. Then set it to 25 °C and fill the tub with the faucet."
+          },
+          {
+            "id": "rust",
+            "text": "Drop the Rusty Pig toy into the bath. Look on the table where you reach the top of the Attic stairs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Cradle_Fern",
+      "displayName": "Cradle Fern",
+      "description": "Grow the Cradle Fern",
+      "hidden": false,
+      "globalPercent": 57.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom"
+      ],
+      "summary": "Grow the Cradle Fern to full bloom with chimes.",
+      "guide": {
+        "kind": "standard",
+        "context": "Open the tree passage by growing the Sapphire Gloom first. The notes are the Crested Owl's call.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Cradle Fern seed bag from the desk near the door of the @loc{Master Bedroom}. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "pot",
+            "text": "Put the pot on the saucer under the chimes in the @loc{Bell Tower}."
+          },
+          {
+            "id": "chimes",
+            "text": "Strike the chimes in the sequence E, C, D, E, G, F."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Springdance_Shrub",
+      "displayName": "Springdance Shrub",
+      "description": "Grow the Springdance Shrub",
+      "hidden": false,
+      "globalPercent": 53.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "35 min",
+      "estMinutes": 35,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom",
+        "Achievement_Grow_Cradle_Fern",
+        "Achievement_Grow_Brook_Chalice",
+        "Achievement_Grow_Nightfall"
+      ],
+      "summary": "Grow the Springdance Shrub to full bloom by luring a robin.",
+      "guide": {
+        "kind": "standard",
+        "context": "The robin likes red flowers. Only the Sandstone pot with seaweed gives the right soil pH of 12 to 14. One feeder is at the Gardening Workspace entrance, and the other is in the alcove between the arches near the Bird Garden. There are 12 hooks. If the robin will not follow, stand farther back or lift and replace the feeder. After the first stairs, walk around the robin so you do not scare it off.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Springdance Shrub seed bag from the Folly in the Formal Garden."
+          },
+          {
+            "id": "pot",
+            "text": "Take the Sandstone pot from the top middle of the wooden shed in the Gardening Workspace. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "seaweed",
+            "text": "Add seaweed to the pot at the Gardening Workspace's fertilizer station."
+          },
+          {
+            "id": "table",
+            "text": "Set the pot on the saucer of the table beneath the skylight, which stands at the far end of the Bird Garden."
+          },
+          {
+            "id": "feeders",
+            "text": "Take both bird feeders and hang them on the hooks one at a time, moving along the path from the bird house to the skylight. Stand back so the robin follows each feeder."
+          },
+          {
+            "id": "arrive",
+            "text": "Wait until the robin reaches the table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Oscilette",
+      "displayName": "Oscilette",
+      "description": "Grow the Oscilette",
+      "hidden": false,
+      "globalPercent": 53.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom",
+        "Achievement_Grow_Cradle_Fern",
+        "Achievement_Grow_Brook_Chalice",
+        "Achievement_Grow_Nightfall"
+      ],
+      "summary": "Grow the Oscilette to full bloom with a 120 bpm record.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Red Squirrel's resting heart rate is 120 bpm, and this record plays at that speed.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Oscilette seed bag from the far side of the @loc{Boathouse}, near the phonograph. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "pot",
+            "text": "Stand the pot on the saucer beside the phonograph."
+          },
+          {
+            "id": "record",
+            "text": "Put the Meadow's Bliss cylinder in the phonograph. On the windowsill it is the second one from the left. Wind the handle to play it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Grow_Fools_Emerald",
+      "displayName": "Fool's Emerald",
+      "description": "Grow the Fool's Emerald",
+      "hidden": false,
+      "globalPercent": 53.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Lilypads_Pond"
+      ],
+      "summary": "Grow the Fool's Emerald to full bloom with a Morse signal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pick up the telegraph and put it down once to unlock its latch. The signal is the code for KA, which means attention. Open the Boathouse with the key from the skylight building that ends the Bird Garden.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Fool's Emerald seed bag from near the whiteboard on the Side Terrace. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "water",
+            "text": "Pick up the metal handle on the grass in front of the lawn mower near the pond. Fit it on the water control station by the dry pool so lily pads appear, then cross them to the @loc{Grotto} cave."
+          },
+          {
+            "id": "telegraph",
+            "text": "Fetch the telegraph from the dock at the @loc{Boathouse} and put it on the shelf beside the saucer in the @loc{Grotto} cave."
+          },
+          {
+            "id": "pot",
+            "text": "Stand the pot on the cave saucer."
+          },
+          {
+            "id": "signal",
+            "text": "Send long, short, long, short, long. The left button is long, and the right button is short."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Flush_Toilet",
+      "displayName": "Clean and Tidy",
+      "description": "Flush the toilet.",
+      "hidden": true,
+      "globalPercent": 56.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom"
+      ],
+      "summary": "Flush the toilet.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "flush",
+            "text": "Pull the handle on the toilet in the @loc{Bathroom} next to the Master Bedroom."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Connect_Pipes",
+      "displayName": "Who Needs A Plumber?",
+      "description": "Repair the Bathroom boiler pipes.",
+      "hidden": true,
+      "globalPercent": 59.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8 min",
+      "estMinutes": 8,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom"
+      ],
+      "summary": "Repair the Bathroom boiler pipes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pipes",
+            "text": "Fit all six pipe pieces in the @loc{Bathroom} to repair the boiler."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Explosion_Flash",
+      "displayName": "Boom",
+      "description": "Make the camera fizzle with the wrong flash powder.",
+      "hidden": true,
+      "globalPercent": 28.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8 min",
+      "estMinutes": 8,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Make the camera fizzle with the wrong flash powder.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "mix",
+            "text": "In the @loc{Apothecary}, mix any powder except 2 parts potassium and 1 part magnesium."
+          },
+          {
+            "id": "fire",
+            "text": "Empty it into the camera pan. Shut the pan door, then press the red button."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Priest_Hole",
+      "displayName": "History Sleuth",
+      "description": "Enter the hidden priest hole room.",
+      "hidden": true,
+      "globalPercent": 64.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Fulguria",
+        "Achievement_Grow_Phoenix"
+      ],
+      "summary": "Enter the hidden priest hole room.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Painting Room key is in a basket on the windowsill of the upper Orangery.",
+        "steps": [
+          {
+            "id": "clues",
+            "text": "Read the Religious Blessing in the @loc{Kitchen} and the Manor Plans in the @loc{Painting Room}. Together they give the year 1593."
+          },
+          {
+            "id": "scales",
+            "text": "At the scales in the @loc{Pantry}, place the 1 oz, 5 oz, 9 oz, and 3 oz weights from left to right."
+          },
+          {
+            "id": "enter",
+            "text": "Follow the passage that opens to the room with a desk and a note."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Vault",
+      "displayName": "Grandmother's Vault",
+      "description": "Open the vault in the Library and walk in.",
+      "hidden": true,
+      "globalPercent": 60.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Opened_Lock"
+      ],
+      "summary": "Open the vault in the Library and walk in.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you press them in the wrong order, press all five to reset. The order follows the times of day in the Library books: sunrise, morning fish, midday hare, evening crow, night sky.",
+        "steps": [
+          {
+            "id": "order",
+            "text": "Press the vault symbols in this order: 3rd, 2nd, 5th, 4th, 1st."
+          },
+          {
+            "id": "enter",
+            "text": "Go through the open door."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Opened_Lock",
+      "displayName": "Lockpicker",
+      "description": "Unlock the lettered lock on the Library Hall door.",
+      "hidden": true,
+      "globalPercent": 62.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Pixie_Tears",
+        "Achievement_Grow_Wolfglove"
+      ],
+      "summary": "Unlock the lettered lock on the Library Hall door.",
+      "guide": {
+        "kind": "standard",
+        "context": "The code is Sister Elizabeth's initials: Elizabeth Ann Hopgood.",
+        "steps": [
+          {
+            "id": "code",
+            "text": "Enter the code EAH on the lock on the @loc{Library Hall} door at the top of the Grand Staircase."
+          },
+          {
+            "id": "open",
+            "text": "Once it clicks open, walk through."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Fixed_Stairs_Orangery",
+      "displayName": "Fixer Upper",
+      "description": "Repair the broken stairs in the Orangery.",
+      "hidden": true,
+      "globalPercent": 62.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Priest_Hole"
+      ],
+      "summary": "Repair the broken stairs in the Orangery.",
+      "guide": {
+        "kind": "standard",
+        "context": "Reach the lower Orangery through the priest hole passage, up the stairs on your left.",
+        "steps": [
+          {
+            "id": "repair",
+            "text": "Use the boards leaning against the wall in the lower @loc{Orangery} to repair the broken stairs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Tipped_Out_Flower",
+      "displayName": "In The Bin",
+      "description": "Empty a potted plant into the Compost Bin.",
+      "hidden": true,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Empty a potted plant into the Compost Bin.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "dump",
+            "text": "Tip any pot out into the @mechanic{Compost Bin}. You find it below the drawers of seeds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Top_Tower",
+      "displayName": "Mountaineer",
+      "description": "Raise the Old Tower platform to the fifth floor.",
+      "hidden": true,
+      "globalPercent": 55.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Wolfglove"
+      ],
+      "summary": "Raise the Old Tower platform to the fifth floor.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "top",
+            "text": "Crank the @loc{Old Tower} platform all the way up to the fifth floor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Lilypads_Pond",
+      "displayName": "Frogger",
+      "description": "Cross the Grotto pool on the lily pads.",
+      "hidden": true,
+      "globalPercent": 54.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8 min",
+      "estMinutes": 8,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom",
+        "Achievement_Grow_Cradle_Fern",
+        "Achievement_Grow_Brook_Chalice",
+        "Achievement_Grow_Nightfall"
+      ],
+      "summary": "Cross the Grotto pool on the lily pads.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "handle",
+            "text": "Pick up the metal handle on the grass in front of the lawn mower, near the pond."
+          },
+          {
+            "id": "install",
+            "text": "Fit the handle on the water control station near the dry pool and picnic area in the Formal Garden."
+          },
+          {
+            "id": "cross",
+            "text": "Walk across the lily pads to the Grotto cave."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Phoenix_Seed_Crack",
+      "displayName": "Crack",
+      "description": "Crack the Ash Plume seed over the Kitchen fire.",
+      "hidden": true,
+      "globalPercent": 75.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Crack the Ash Plume seed over the Kitchen fire.",
+      "guide": {
+        "kind": "standard",
+        "context": "Open the Kitchen with the key from the basket on the Viewpoint ledge. The seed will not sprout when watered.",
+        "steps": [
+          {
+            "id": "seed",
+            "text": "Pick up the Ash Plume seed bag from the table in the Rose Garden, near the stone archway. Set up a pot at a @mechanic{potting station}: put it on the saucer, fill it with soil, plant a seed from the drawers, and water it."
+          },
+          {
+            "id": "roast",
+            "text": "In the @loc{Kitchen}, rest the pot in the pan over the cooking fire."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Duck",
+      "displayName": "Quack Quack",
+      "description": "Inspect any duck.",
+      "hidden": true,
+      "globalPercent": 86.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Inspect any duck.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "white-duck",
+            "text": "Pick up and inspect the White Duck on the windowsill across from the Vestibule potting station."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Sit_Down",
+      "displayName": "Take A Break",
+      "description": "Sit on a bench or chair.",
+      "hidden": true,
+      "globalPercent": 88.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Sit on a bench or chair.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "sit",
+            "text": "Sit on the bench by the wall of the Conservatory, just outside the double doors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Harpsichord",
+      "displayName": "Piano Woman",
+      "description": "Play the harpsichord.",
+      "hidden": true,
+      "globalPercent": 69.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Play the harpsichord found in the manor's Drawing Room.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "play",
+            "text": "Go through the Apothecary and Dining Room to the Drawing Room, then play the @item{harpsichord} there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Door_Shake",
+      "displayName": "Let Me In!",
+      "description": "Try to open a locked door or gate without holding its key.",
+      "hidden": true,
+      "globalPercent": 90.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Try to open a locked door or gate without holding its key.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "rattle",
+            "text": "Try the locked @loc{Entrance Garden} gate, on the left of the three-way path junction, before you pick up its key."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_End_Game",
+      "displayName": "The End",
+      "description": "Reach the end of the game",
+      "hidden": false,
+      "globalPercent": 50.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Complete_Herbarium"
+      ],
+      "summary": "Reach the end of the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "post",
+            "text": "After the last flower, go to the red Post Box at the Gatehouse and choose Post Herbarium."
+          },
+          {
+            "id": "epilogue",
+            "text": "In the Library classroom, pick up the book from the desk to the left of the chalkboard."
+          },
+          {
+            "id": "lectern",
+            "text": "Put the book on the lectern beside the Windmill Wort."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_All_Ducks",
+      "displayName": "Quack Quack Quack Quack!",
+      "description": "Pick up and inspect all five ducks.",
+      "hidden": true,
+      "globalPercent": 37.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom",
+        "Achievement_Grow_Cradle_Fern",
+        "Achievement_Grow_Brook_Chalice",
+        "Achievement_Grow_Nightfall"
+      ],
+      "summary": "Pick up and inspect all five ducks.",
+      "guide": {
+        "kind": "collectible",
+        "context": "If it does not unlock, inspect each duck again.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "white",
+            "index": 1,
+            "group": "Chapter 1",
+            "name": "White Duck",
+            "location": "@loc{Vestibule}, windowsill",
+            "method": "Pick it up on the windowsill across from the potting station."
+          },
+          {
+            "id": "porcelain",
+            "index": 2,
+            "group": "Chapter 2",
+            "name": "Porcelain Duck",
+            "location": "@loc{Servants' Hall}, china hutch",
+            "method": "Pick it up from the shelves at the foot of the stairs."
+          },
+          {
+            "id": "tufted",
+            "index": 3,
+            "group": "Chapter 3",
+            "name": "Tufted Duck",
+            "location": "@loc{Priest hole}, near the entrance",
+            "method": "Pick it up from the crate behind you as you enter the room."
+          },
+          {
+            "id": "mallard",
+            "index": 4,
+            "group": "Chapter 4",
+            "name": "Mallard Duck",
+            "location": "@loc{Attic}, upper floor",
+            "method": "Pick it up from the crate near the stained glass window."
+          },
+          {
+            "id": "goose",
+            "index": 5,
+            "group": "Chapter 5",
+            "name": "Egyptian Goose",
+            "location": "@loc{Boathouse} steps",
+            "method": "Pick it up from the crate at the foot of the steps to the Boathouse door."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Complete_Herbarium",
+      "displayName": "Botanical Researcher",
+      "description": "Complete every page in the Herbarium",
+      "hidden": false,
+      "globalPercent": 49.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 1,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Achievement_Grow_Springdance_Shrub",
+        "Achievement_Grow_Fools_Emerald",
+        "Achievement_Grow_Oscilette"
+      ],
+      "summary": "Complete every page in the Herbarium.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "bloom",
+            "text": "Bloom all 12 flowers."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Telegraph_SOS",
+      "displayName": "Help?",
+      "description": "Send SOS on the telegraph.",
+      "hidden": true,
+      "globalPercent": 24.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "3 min",
+      "estMinutes": 3,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Lilypads_Pond"
+      ],
+      "summary": "Send SOS on the telegraph.",
+      "guide": {
+        "kind": "standard",
+        "context": "Open the Boathouse with the key from the skylight building that ends the Bird Garden.",
+        "steps": [
+          {
+            "id": "water",
+            "text": "Cross the lily pads to the @loc{Grotto} cave. They appear once you fit the metal handle from beside the lawn mower on the water control station."
+          },
+          {
+            "id": "telegraph",
+            "text": "Fetch the telegraph from the dock at the @loc{Boathouse} and put it on the shelf in the @loc{Grotto} cave. Pick it up and put it down once to unlock its latch."
+          },
+          {
+            "id": "sos",
+            "text": "On the telegraph, send short-short-short, long-long-long, short-short-short. The left button is long, and the right button is short."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Flower_Room",
+      "displayName": "Flower Arranging",
+      "description": "Fill all 12 saucers in the Flower Room with bloomed flowers.",
+      "hidden": true,
+      "globalPercent": 25.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Fill all 12 saucers in the Flower Room with bloomed flowers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any mix of flowers works, and you can grow the same flower more than once. You can fill the room as you go.",
+        "steps": [
+          {
+            "id": "fill",
+            "text": "Place a bloomed flower on each of the 12 saucers in the @loc{Flower Room}, next to the Vestibule potting station."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Bench_Sit_Long",
+      "displayName": "Taking A Nap",
+      "description": "Stay seated on a bench or chair for at least 60 seconds.",
+      "hidden": true,
+      "globalPercent": 30.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Sit_Down"
+      ],
+      "summary": "Stay seated on a bench or chair for at least 60 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "nap",
+            "text": "Sit on the bench outside the Conservatory and stay for 60 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Picture_Plant",
+      "displayName": "Photographer",
+      "description": "Photograph a bloomed flower other than the Fulguria.",
+      "hidden": true,
+      "globalPercent": 23.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "8 min",
+      "estMinutes": 8,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Fulguria"
+      ],
+      "summary": "Photograph a bloomed flower other than the Fulguria.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "mix",
+            "text": "In the @loc{Apothecary}, mix 2 parts potassium and 1 part magnesium and pour it into the camera pan."
+          },
+          {
+            "id": "swap",
+            "text": "Replace the Fulguria on the alcove saucer with another fully bloomed flower."
+          },
+          {
+            "id": "shoot",
+            "text": "Shut the pan door, then press the red button."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Multiple_Plants",
+      "displayName": "Green Thumbs",
+      "description": "Grow the same flower three times.",
+      "hidden": true,
+      "globalPercent": 24.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Achievement_Grow_WindmillWort"
+      ],
+      "summary": "Grow the same flower three times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "regrow",
+            "text": "Plant and bloom the same kind of flower again until it has bloomed three times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Art_Lover",
+      "displayName": "Art Lover",
+      "description": "Inspect the Botanical Painting and the Unfinished Painting.",
+      "hidden": true,
+      "globalPercent": 53.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Grow_Sapphire_Gloom",
+        "Achievement_Grow_Cradle_Fern",
+        "Achievement_Grow_Brook_Chalice",
+        "Achievement_Grow_Nightfall"
+      ],
+      "summary": "Inspect the Botanical Painting and the Unfinished Painting.",
+      "guide": {
+        "kind": "standard",
+        "context": "If it does not unlock, inspect the Painting Room painting again. The Painting Room door is in the Screens Passage. Its key is in a basket on the windowsill of the upper Orangery, which you enter from the Orchard.",
+        "steps": [
+          {
+            "id": "botanical",
+            "text": "Inspect the Botanical Painting in the @loc{Painting Room}."
+          },
+          {
+            "id": "unfinished",
+            "text": "Inspect the Unfinished Painting across the pond in the Formal Garden."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Achievement_Door_Shake",
+    "Achievement_Sit_Down",
+    "Achievement_Bench_Sit_Long",
+    "Achievement_Grow_WindmillWort",
+    "Achievement_Duck",
+    "Achievement_Tipped_Out_Flower",
+    "Achievement_Multiple_Plants",
+    "Achievement_Flower_Room",
+    "Achievement_Harpsichord",
+    "Achievement_Explosion_Flash",
+    "Achievement_Grow_Fulguria",
+    "Achievement_Picture_Plant",
+    "Achievement_Phoenix_Seed_Crack",
+    "Achievement_Grow_Phoenix",
+    "Achievement_Priest_Hole",
+    "Achievement_Fixed_Stairs_Orangery",
+    "Achievement_Grow_Wolfglove",
+    "Achievement_Top_Tower",
+    "Achievement_Grow_Pixie_Tears",
+    "Achievement_Opened_Lock",
+    "Achievement_Vault",
+    "Achievement_Grow_Sapphire_Gloom",
+    "Achievement_Flush_Toilet",
+    "Achievement_Connect_Pipes",
+    "Achievement_Grow_Cradle_Fern",
+    "Achievement_Grow_Nightfall",
+    "Achievement_Grow_Brook_Chalice",
+    "Achievement_Art_Lover",
+    "Achievement_All_Ducks",
+    "Achievement_Lilypads_Pond",
+    "Achievement_Telegraph_SOS",
+    "Achievement_Grow_Oscilette",
+    "Achievement_Grow_Fools_Emerald",
+    "Achievement_Grow_Springdance_Shrub",
+    "Achievement_Complete_Herbarium",
+    "Achievement_End_Game"
+  ]
+}

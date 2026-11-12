@@ -2096,18 +2096,158 @@
       "confidence": "verified",
       "summary": "Collect one of each of the 15 seed types.",
       "guide": {
-        "kind": "standard",
-        "context": "Seeds are random drops. Plants regrow after a while, and setting your PC clock forward one hour respawns them.",
-        "steps": [
+        "kind": "collectible",
+        "context": "Seeds are random drops. Plants grow back after a while. Setting your PC clock forward one hour makes them return. Seeds you give to @npc{Chen Loong} carry over to New Game+.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Pick plants and defeat plant enemies throughout the game and collect these seeds: Jade Lotus, Nine-Capped Lingzi, Monkey-Head Fungus, Fragrant Jade Flower, Fire Bellflower, Tree Pearl, Celestial Pear, Licorice, Fire Date, Millennium Ginseng, Gentian and Golden Lotus.",
-            "kind": "normal"
+            "id": "jade-lotus",
+            "index": 1,
+            "group": "Found in the world",
+            "name": "Jade Lotus",
+            "location": "@loc{Valley of Ecstasy: Brook of Bliss}, in the shallow water",
+            "method": "Pick the Jade Lotus plants until a seed drops. Turn around at the shrine and drop off the bridge on its right to find several in the water. They also grow in shallow water in other areas.",
+            "note": "",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "Give the Nine-Capped Lingzi, Monkey-Head Fungus and Millennium Ginseng seeds to @npc{Chen Loong} to receive Purple Lingzi, Snake-Head Mushroom and Aged Ginseng.",
-            "kind": "normal"
+            "id": "fragrant-jade-flower",
+            "index": 2,
+            "group": "Found in the world",
+            "name": "Fragrant Jade Flower",
+            "location": "@loc{Village of Lanxi: Estate of the Zhu}, scattered around the area",
+            "method": "Pick the five or six plants until a seed drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "fire-bellflower",
+            "index": 3,
+            "group": "Found in the world",
+            "name": "Fire Bellflower",
+            "location": "@loc{Valley of Despair}, on the path past the shrine in Chapter 2",
+            "method": "From the shrine, enter the cave past the Rat soldier and archer. Follow the path to the bridge, drop off it, and pick the Fire Bellflower plants there until a seed drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "tree-pearl",
+            "index": 4,
+            "group": "Found in the world",
+            "name": "Tree Pearl",
+            "location": "@loc{Valley of Ecstasy: Towers of Karma}, beside the shrine",
+            "method": "Pick the plant left of the shrine. Another grows across the river.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "celestial-pear",
+            "index": 5,
+            "group": "Found in the world",
+            "name": "Celestial Pear",
+            "location": "@loc{Valley of Ecstasy: Brook of Bliss}, below the bridge",
+            "method": "Drop off the bridge on its right. One Celestial Pear tree is straight ahead and two more are on your left. Pick them until a seed drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "licorice",
+            "index": 6,
+            "group": "Found in the world",
+            "name": "Licorice",
+            "location": "@loc{Kingdom of Sahali: Sandgate Bound}",
+            "method": "Pick the four or five plants in the area until a seed drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "fire-date",
+            "index": 7,
+            "group": "Found in the world",
+            "name": "Fire Date",
+            "location": "@loc{Furnace Valley: Valley Entrance}, in the lava",
+            "method": "Pick the five or six trees growing in the lava until a seed drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "gentian",
+            "index": 8,
+            "group": "Found in the world",
+            "name": "Gentian",
+            "location": "@loc{Valley of Ecstasy: Brook of Bliss}, around the bridge",
+            "method": "Drop off the bridge on its right. Several plants grow nearby. Pick them until a seed drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-lotus",
+            "index": 9,
+            "group": "Found in the world",
+            "name": "Golden Lotus",
+            "location": "@loc{Bitter Lake: Turtle Island}",
+            "method": "Defeat the plant enemies on the island. There are three groups. The seed is a random drop, so repeat the run if it does not appear.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "nine-capped-lingzi",
+            "index": 10,
+            "group": "Found in the world",
+            "name": "Nine-Capped Lingzi",
+            "location": "@loc{Field of Fire: Ashen Pass III}, right of the shrine",
+            "method": "Pick the mushroom cluster next to the shrine. This starts the @enemy{Nine-Capped Lingzhi Guai} fight. Defeat it to get the seed.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "monkey-head-fungus",
+            "index": 11,
+            "group": "Found in the world",
+            "name": "Monkey-Head Fungus",
+            "location": "@loc{Temple of Yellow Flowers: Court of Illumination}",
+            "method": "Head right, descend the stairs and cross the building. At the fork, take the right path. One of the mushroom clusters there is the boss. Defeat it to get the seed.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "millennium-ginseng",
+            "index": 12,
+            "group": "Found in the world",
+            "name": "Millennium Ginseng",
+            "location": "@loc{Valley of Ecstasy: Towers of Karma}, in front of the stone pillar",
+            "method": "Pick the plants by the pillar until a seed drops. To reach this shrine, go through the gate in @loc{Forest of Felicity}, take the hidden path left, then go right.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "purple-lingzi",
+            "index": 13,
+            "group": "Traded to Chen Loong",
+            "name": "Purple Lingzi",
+            "location": "@npc{Chen Loong}, @loc{Zodiac Village: Village Entrance}",
+            "method": "Give him the Nine-Capped Lingzi seed. He gives you this one back.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "snake-head-mushroom",
+            "index": 14,
+            "group": "Traded to Chen Loong",
+            "name": "Snake-Head Mushroom",
+            "location": "@npc{Chen Loong}, @loc{Zodiac Village: Village Entrance}",
+            "method": "Give him the Monkey-Head Fungus seed.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "aged-ginseng",
+            "index": 15,
+            "group": "Traded to Chen Loong",
+            "name": "Aged Ginseng",
+            "location": "@npc{Chen Loong}, @loc{Zodiac Village: Village Entrance}",
+            "method": "Give him the Millennium Ginseng seed.",
+            "note": "",
+            "missable": false
           }
         ]
       }
@@ -2516,18 +2656,98 @@
       ],
       "summary": "Obtain all ten transformations.",
       "guide": {
-        "kind": "standard",
-        "context": "",
-        "steps": [
+        "kind": "collectible",
+        "context": "Two transformations can be lost: Violet Hail and Dark Thunder. Get them before the fights named in their notes.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Collect: Red Tides (@enemy{Guangzhi}), Azure Dust (@npc{Man-in-Stone}), Ebon Flow (@enemy{Yin Tiger}), Ashen Slumber (two-headed rat quest) and Hoarfrost (@enemy{Monk from the Sea}).",
-            "kind": "normal"
+            "id": "red-tides",
+            "index": 1,
+            "name": "Red Tides",
+            "location": "@loc{Forest of Wolves: Outside the Forest}, boss arena past the bridge",
+            "method": "From the shrine, go left, cross the bridge and enter the arena. Defeat @enemy{Guangzhi}.",
+            "note": "",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "Collect: Umbral Abyss (story), Violet Hail (@npc{Daoist Mi}), Golden Lining (@enemy{Yellow Loong}), Dark Thunder (Ma Tianba) and Azure Dome (Mount Mei).",
-            "kind": "normal"
+            "id": "azure-dust",
+            "index": 2,
+            "name": "Azure Dust",
+            "location": "@loc{Fright Cliff: Rockrest Flat}, ravine below Squall Hideout",
+            "method": "After the Stone Vanguard, light the shrine and defeat the @enemy{Mother of Stones} in the cave to the right. Then drop into the ravine and defeat @npc{Man-in-Stone}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "ebon-flow",
+            "index": 3,
+            "name": "Ebon Flow",
+            "location": "@loc{Zodiac Village: Village Entrance}",
+            "method": "Defeat the blacksmith, @enemy{Yin Tiger}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "ashen-slumber",
+            "index": 4,
+            "name": "Ashen Slumber",
+            "location": "@loc{Pagoda Realm: Lower Pagoda}, cell next to the start cell",
+            "method": "First talk to the two-headed rat in the shack above @loc{Sandgate Village: Village Entrance} in Chapter 2 until his lines repeat. In the Pagoda Realm, defeat the boss at @loc{Upper Pagoda} for the cell key. Open the cell next to your start cell and pull the sword from the corpse. If the corpse is missing, the last boss one floor higher drops the sword.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "hoarfrost",
+            "index": 5,
+            "name": "Hoarfrost",
+            "location": "@loc{New Thunderclap Temple: Temple Entrance}, red building",
+            "method": "Between the giant red walls, turn right and pass the turtle and snake statue, then climb the stairs. Go into the red building on your left, walk to the giant grave and defeat @enemy{Monk from the Sea}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "umbral-abyss",
+            "index": 6,
+            "name": "Umbral Abyss",
+            "location": "Story",
+            "method": "Comes automatically as you progress the story. You cannot miss it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "violet-hail",
+            "index": 7,
+            "name": "Violet Hail",
+            "location": "@loc{Purple Cloud Mountain: Petalfall Hamlet}",
+            "method": "Defeat the enemies in the area until one drops Violet Hail, then bring it to @npc{Daoist Mi}. Do this before you defeat @enemy{The Duskveil}.",
+            "note": "Lost if you beat The Duskveil first. Only a new playthrough gets it back.",
+            "missable": true
+          },
+          {
+            "id": "golden-lining",
+            "index": 8,
+            "name": "Golden Lining",
+            "location": "@loc{Webbed Hollow: Relief of the Fallen Loong}",
+            "method": "Defeat @enemy{Yellow Loong}. He appears only after you beat Red Loong, Black Loong and Cyan Loong. His shrine is reached by going up the stone steps right of the shrine that holds the Loong Scale.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "dark-thunder",
+            "index": 9,
+            "name": "Dark Thunder",
+            "location": "@npc{Ma Tianba}, @loc{Furnace Valley: Valley Entrance}",
+            "method": "Talk to Ma Tianba in each chapter until his lines repeat. In Chapter 5, walk through the lava on the right and talk to the cart NPC before the @enemy{Yin-Yang Fish} fight. After the fight, return and pull the string.",
+            "note": "Lost once you defeat the Yin-Yang Fish. Only a new playthrough gets it back.",
+            "missable": true
+          },
+          {
+            "id": "azure-dome",
+            "index": 10,
+            "name": "Azure Dome",
+            "location": "@loc{Mount Mei}",
+            "method": "Beat every boss on Mount Mei. To reach it, finish the four secret areas, then talk to the child at the Great Pagoda shrine.",
+            "note": "",
+            "missable": false
           }
         ]
       }
@@ -2552,18 +2772,89 @@
       "confidence": "verified",
       "summary": "Obtain all nine brews.",
       "guide": {
-        "kind": "standard",
+        "kind": "collectible",
         "context": "",
-        "steps": [
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Collect Coconut Wine, Loong Balm, Bluebridge Romance, Worryfree Brew, Jade Essence, Sunset of the Nine Skies and Lambbrew from the world.",
-            "kind": "normal"
+            "id": "coconut-wine",
+            "index": 1,
+            "name": "Coconut Wine",
+            "location": "Your starting gourd",
+            "method": "You have it from the start.",
+            "note": "",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "Buy A Thousand Days Inebriation and Pinebrew from @npc{Shen Monkey}.",
-            "kind": "normal"
+            "id": "loong-balm",
+            "index": 2,
+            "name": "Loong Balm",
+            "location": "@loc{Furnace Valley: The Emerald Hall}, left of the throne",
+            "method": "Walk up to the throne. The item sits to its left.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "a-thousand-days-inebriation",
+            "index": 3,
+            "name": "A Thousand Days Inebriation",
+            "location": "@loc{Zodiac Village}",
+            "method": "After the Chapter 5 final boss, travel to Zodiac Village and buy it from @npc{Shen Monkey} before you continue in Chapter 6.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bluebridge-romance",
+            "index": 4,
+            "name": "Bluebridge Romance",
+            "location": "@loc{Bitter Lake: North Shore of the Bitter Lake}, temple pond",
+            "method": "Walk along the coast to the place of your @npc{Chen Loong} fight. In the temple, check the small pond on the right.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "worryfree-brew",
+            "index": 5,
+            "name": "Worryfree Brew",
+            "location": "@loc{Webbed Hollow: The Verdure Bridge}, house at the top of the stairs",
+            "method": "Cross the bridge and keep left past the cocoons and the small village. Climb the stairs, turn left at the top and enter the house.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "jade-essence",
+            "index": 6,
+            "name": "Jade Essence",
+            "location": "@loc{Valley of Ecstasy: Towers of Karma}, table behind the stone pillar",
+            "method": "To reach this shrine, go through the gate in @loc{Forest of Felicity}, take the hidden path left, then go right.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "sunset-of-the-nine-skies",
+            "index": 7,
+            "name": "Sunset of the Nine Skies",
+            "location": "@loc{Temple of Yellow Flowers: Court of Illumination}, in front of a hut",
+            "method": "Head right, descend the stairs and cross the building. Take the right path to its far end.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "pinebrew",
+            "index": 8,
+            "name": "Pinebrew",
+            "location": "@npc{Shen Monkey}, @loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "Buy it from him.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "lambbrew",
+            "index": 9,
+            "name": "Lambbrew",
+            "location": "@loc{Sandgate Village: Village Entrance}, end of the hill path",
+            "method": "Climb the nearby steps and turn left. Pass the pit and head across to the valley's far end. Go up the hill with the rat archers, and follow the path to its end.",
+            "note": "",
+            "missable": false
           }
         ]
       }
@@ -2999,18 +3290,97 @@
       ],
       "summary": "Obtain all 11 gourds.",
       "guide": {
-        "kind": "standard",
-        "context": "The Stained Jade Gourd is missable: defeat @enemy{The Scorpionlord} before @enemy{The Duskveil}.",
-        "steps": [
+        "kind": "collectible",
+        "context": "Finish the Chapter 4 secret area before you beat that chapter's final boss, or the Stained Jade Gourd waits for New Game+. The Qing-Tian Gourd needs New Game+.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Collect the Old, Supreme, Multi-Glazed, Immortal Blessing, Xiang River Goddess, Jade Lotus, Stained Jade, Fiery, Plaguebane and Trailblazer's Scarlet gourds.",
-            "kind": "normal"
+            "id": "old-gourd",
+            "index": 1,
+            "name": "Old Gourd",
+            "location": "Your starting gear",
+            "method": "You already have it from the start of the game.",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "In New Game+, buy the Qing-Tian Gourd from @npc{Shen Monkey}.",
-            "kind": "normal"
+            "id": "supreme-gourd",
+            "index": 2,
+            "name": "Supreme Gourd",
+            "location": "@loc{Bamboo Grove: Snake Trail}, then one stop in each later chapter",
+            "method": "Raise the Old Gourd to its top level. In every chapter, speak with the old man until his lines repeat: @loc{Bamboo Grove: Snake Trail}, @loc{Crouching Tiger Temple: Cellar}, @loc{Pagoda Realm: Warding Temple} after @enemy{Macaque Chief}, @loc{Temple of Yellow Flowers: Temple Entrance} and @loc{Furnace Valley: Rakshasa Palace}. In the last room, also examine the flame in the middle to finish the upgrade.",
+            "missable": false
+          },
+          {
+            "id": "multi-glazed-gourd",
+            "index": 3,
+            "name": "Multi-Glazed Gourd",
+            "location": "@loc{Zodiac Village}",
+            "method": "In Chapter 4, buy it from @npc{Shen Monkey}.",
+            "missable": false
+          },
+          {
+            "id": "immortal-blessing-gourd",
+            "index": 4,
+            "name": "Immortal Blessing Gourd",
+            "location": "@loc{Zodiac Village}",
+            "method": "Buy it from @npc{Shen Monkey} once you have both Buddha's hands. The right hand comes with the story. For the left hand, go to @loc{Webbed Hollow: Lower Hollow}, slip through the wall crack on the left beyond the hanging cocoons, and beat the boss.",
+            "missable": false
+          },
+          {
+            "id": "xiang-river-goddess-gourd",
+            "index": 5,
+            "name": "Xiang River Goddess Gourd",
+            "location": "@loc{Webbed Hollow: The Verdure Bridge}",
+            "method": "Cross the vine bridge and go left. Open the chests in the side opening on your right until you find it.",
+            "missable": false
+          },
+          {
+            "id": "jade-lotus-gourd",
+            "index": 6,
+            "name": "Jade Lotus Gourd",
+            "location": "@loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "From Chapter 3 on, buy it from @npc{Shen Monkey}.",
+            "missable": false
+          },
+          {
+            "id": "qing-tian-gourd",
+            "index": 7,
+            "name": "Qing-Tian Gourd",
+            "location": "@loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "In New Game+, once every portrait is unlocked, buy it from @npc{Shen Monkey}.",
+            "missable": false
+          },
+          {
+            "id": "stained-jade-gourd",
+            "index": 8,
+            "name": "Stained Jade Gourd",
+            "location": "@loc{Purple Cloud Mountain}, Chapter 4 secret area",
+            "method": "Defeat @enemy{The Scorpionlord} and it drops the gourd. Do this before you fight @enemy{The Duskveil}.",
+            "missable": true,
+            "note": "Lost for this playthrough if you beat @enemy{The Duskveil} first or finish Chapter 4 without the secret area. Only a new playthrough gets it back."
+          },
+          {
+            "id": "fiery-gourd",
+            "index": 9,
+            "name": "Fiery Gourd",
+            "location": "@loc{Valley of Ecstasy: Mindfulness Cliff}",
+            "method": "Go ahead to the wooden boards, then drop down on the right. The path leads to a chest inside a cave.",
+            "missable": false
+          },
+          {
+            "id": "plaguebane-gourd",
+            "index": 10,
+            "name": "Plaguebane Gourd",
+            "location": "@loc{Sandgate Village: Village Entrance}",
+            "method": "Take the left gate and hit the drum beside the well in the back corner. Go in and beat @enemy{Mad Tiger}. The gourd is in the chest at the back.",
+            "missable": false
+          },
+          {
+            "id": "trailblazer-s-scarlet-gourd",
+            "index": 11,
+            "name": "Trailblazer's Scarlet Gourd",
+            "location": "@loc{New Thunderclap Temple: Temple Entrance}",
+            "method": "In Chapter 3, find @npc{Ma Tianba} (the horse) on the bridge and talk to him until his lines repeat. He gives you the gourd.",
+            "missable": false
           }
         ]
       }
@@ -3035,18 +3405,120 @@
       "confidence": "verified",
       "summary": "Obtain all 14 formulas.",
       "guide": {
-        "kind": "standard",
+        "kind": "collectible",
         "context": "",
-        "steps": [
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Buy the formulas @npc{Xu Dog} sells and find the chest formulas in the world.",
-            "kind": "normal"
+            "id": "soul-remigration-pill",
+            "index": 1,
+            "name": "Soul Remigration Pill",
+            "location": "@loc{Crouching Tiger Temple: Cellar}",
+            "method": "In New Game+, buy it from @npc{Xu Dog}.",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "In New Game+, buy the Soul Remigration Pill from @npc{Xu Dog}.",
-            "kind": "normal"
+            "id": "septenary-heartfire-pill",
+            "index": 2,
+            "name": "Septenary Heartfire Pill",
+            "location": "@loc{Bishui Cave: Purge Pit}",
+            "method": "Scale the cliff on the shrine's left. Open the chest that two bull demons guard.",
+            "missable": false
+          },
+          {
+            "id": "ascension-powder",
+            "index": 3,
+            "name": "Ascension Powder",
+            "location": "@loc{Verdant Path}",
+            "method": "In Chapter 6, defeat the first mandatory boss, @enemy{Supreme Celestial Inspector}. The formula comes with the story.",
+            "missable": false
+          },
+          {
+            "id": "loong-aura-amplification-pellets",
+            "index": 4,
+            "name": "Loong Aura Amplification Pellets",
+            "location": "@loc{Crouching Tiger Temple: Cellar}",
+            "method": "Buy it from @npc{Xu Dog}.",
+            "missable": false
+          },
+          {
+            "id": "enhanced-ginseng-pellets",
+            "index": 5,
+            "name": "Enhanced Ginseng Pellets",
+            "location": "@loc{Webbed Hollow: The Verdure Bridge}",
+            "method": "Cross the vine bridge and go left. It is in one of the chests in the side opening on your right.",
+            "missable": false
+          },
+          {
+            "id": "enhanced-tiger-subduing-pellets",
+            "index": 6,
+            "name": "Enhanced Tiger Subduing Pellets",
+            "location": "@loc{Bitter Lake: Precept Corridor}",
+            "method": "Go down the slope right after the shrine. Reach it by entering the cave that lies north of the shrine at @loc{Bitter Lake: North Shore of the Bitter Lake}.",
+            "missable": false
+          },
+          {
+            "id": "mirage-pill",
+            "index": 7,
+            "name": "Mirage Pill",
+            "location": "@loc{Webbed Hollow: The Verdure Bridge}",
+            "method": "Cross the vine bridge and keep left past the cocoons and the small village. Climb the stairs and look left at the top.",
+            "missable": false
+          },
+          {
+            "id": "body-fleeting-powder",
+            "index": 8,
+            "name": "Body-Fleeting Powder",
+            "location": "@loc{New Thunderclap Temple: Temple Entrance}",
+            "method": "Pass through the temple and take the left stairs, then turn right and descend the stairs on your left. Enter the next temple, go up the right stairs, exit the room and turn left. The item is at the bridge's far end.",
+            "missable": false
+          },
+          {
+            "id": "life-saving-pill",
+            "index": 9,
+            "name": "Life-Saving Pill",
+            "location": "@loc{Purple Cloud Mountain: Cloudnest Peak}",
+            "method": "Turn right and follow the path toward the mage enemy. The chest is in the house on the right.",
+            "missable": false
+          },
+          {
+            "id": "essence-decoction",
+            "index": 10,
+            "name": "Essence Decoction",
+            "location": "@loc{Zodiac Village}",
+            "method": "Buy it from @npc{Xu Dog}.",
+            "missable": false
+          },
+          {
+            "id": "tonifying-decoction",
+            "index": 11,
+            "name": "Tonifying Decoction",
+            "location": "@loc{Crouching Tiger Temple: Cellar}",
+            "method": "Buy it from @npc{Xu Dog} in his shop.",
+            "missable": false
+          },
+          {
+            "id": "longevity-decoction",
+            "index": 12,
+            "name": "Longevity Decoction",
+            "location": "@loc{Crouching Tiger Temple: Cellar}",
+            "method": "Buy it from @npc{Xu Dog} in his shop.",
+            "missable": false
+          },
+          {
+            "id": "fortifying-medicament",
+            "index": 13,
+            "name": "Fortifying Medicament",
+            "location": "@loc{Crouching Tiger Temple: Cellar}",
+            "method": "During the @npc{Chen Loong} errand at @loc{Bitter Lake: North Shore of the Bitter Lake}, fetch the item he asks for from @npc{Xu Dog}. Xu Dog gives you this formula along with it.",
+            "missable": false
+          },
+          {
+            "id": "evil-repelling-medicament",
+            "index": 14,
+            "name": "Evil Repelling Medicament",
+            "location": "@loc{Sandgate Village: Village Entrance}",
+            "method": "Beat the toad boss in the pit up the steps on the left. Then talk to @npc{Xu Dog} up the stairs and he teaches you the formula.",
+            "missable": false
           }
         ]
       }
@@ -3075,18 +3547,226 @@
       ],
       "summary": "Obtain all 27 soaks.",
       "guide": {
-        "kind": "standard",
-        "context": "",
-        "steps": [
+        "kind": "collectible",
+        "context": "Several soaks drop at random from plants or enemies, so keep picking and fighting until they appear. Two soaks need the Chapter 4 secret area and one needs New Game+.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Collect soaks from chests, shops and plant drops, from Flower Primes through Flame Mediator.",
-            "kind": "normal"
+            "id": "flower-primes",
+            "index": 1,
+            "name": "Flower Primes",
+            "location": "@loc{Zodiac Village}",
+            "method": "In Chapter 4, buy it from @npc{Shen Monkey}.",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "In New Game+, buy Guanyin's Willow Leaf from @npc{Shen Monkey}.",
-            "kind": "normal"
+            "id": "guanyin-s-willow-leaf",
+            "index": 2,
+            "name": "Guanyin's Willow Leaf",
+            "location": "@loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "In New Game+, buy it from @npc{Shen Monkey}.",
+            "missable": false
+          },
+          {
+            "id": "turtle-tear",
+            "index": 3,
+            "name": "Turtle Tear",
+            "location": "@loc{Bitter Lake: North Shore of the Bitter Lake}",
+            "method": "Follow the shore to the right to the giant snake bones and beat @enemy{Apramāṇa Bat} at the skull. Then pick up the drop near the giant turtle's drop-off point by the shrine.",
+            "missable": false
+          },
+          {
+            "id": "stranded-loong-s-whisker",
+            "index": 4,
+            "name": "Stranded Loong's Whisker",
+            "location": "@loc{Snowhill Path: Mirrormere}",
+            "method": "Once the dragon boss is down, search the frozen lake's right edge.",
+            "missable": false
+          },
+          {
+            "id": "goji-shoots",
+            "index": 5,
+            "name": "Goji Shoots",
+            "location": "@loc{Webbed Hollow: Upper Hollow}",
+            "method": "Take the left path upstairs to the last building in the corner.",
+            "missable": false
+          },
+          {
+            "id": "breath-of-fire",
+            "index": 6,
+            "name": "Breath of Fire",
+            "location": "@loc{Bitter Lake: Turtle Island}",
+            "method": "Hold the Loong Scale and approach the statue to the right of the shrine. Defeat the boss that appears.",
+            "missable": false
+          },
+          {
+            "id": "copper-pill",
+            "index": 7,
+            "name": "Copper Pill",
+            "location": "@loc{Yellow Wind Formation: Windrest Bridge}",
+            "method": "Go down the path to the right of the shrine and open the chest on your right.",
+            "missable": false
+          },
+          {
+            "id": "mount-lingtai-seedlings",
+            "index": 8,
+            "name": "Mount Lingtai Seedlings",
+            "location": "@loc{Woods of Ember: Camp of Seasons}",
+            "method": "Open the container on the right shortly before the third bridge.",
+            "missable": false
+          },
+          {
+            "id": "slumbering-beetle-husk",
+            "index": 9,
+            "name": "Slumbering Beetle Husk",
+            "location": "@loc{Furnace Valley: The Emerald Hall}",
+            "method": "Face the throne and take the item on its left.",
+            "missable": false
+          },
+          {
+            "id": "graceful-orchid",
+            "index": 10,
+            "name": "Graceful Orchid",
+            "location": "@loc{Zodiac Village: Village Entrance}",
+            "method": "Give @npc{Chen Loong} all 15 seed types and he gives you this soak.",
+            "missable": false
+          },
+          {
+            "id": "celestial-lotus-seeds",
+            "index": 11,
+            "name": "Celestial Lotus Seeds",
+            "location": "@loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "Buy it from @npc{Shen Monkey}.",
+            "missable": false
+          },
+          {
+            "id": "undying-vine",
+            "index": 12,
+            "name": "Undying Vine",
+            "location": "@loc{Purple Cloud Mountain: Valley of Blooms}",
+            "method": "In the Chapter 4 secret area, defeat the Lushleaf tree enemies. It drops from them at random, so repeat until it appears. Petalfall Hamlet is a good place to farm them.",
+            "missable": true,
+            "note": "The secret area closes for this playthrough once you beat the Chapter 4 final boss. Only a new playthrough reopens it."
+          },
+          {
+            "id": "tiger-relic",
+            "index": 13,
+            "name": "Tiger Relic",
+            "location": "@loc{Crouching Tiger Temple: Temple Entrance}",
+            "method": "After the Stone Vanguard, return to where you fought the Tiger Vanguard and use the statue. Enter the hole and slide down the sandy slope. Jump and use a heavy attack to reach the item.",
+            "missable": false
+          },
+          {
+            "id": "laurel-buds",
+            "index": 14,
+            "name": "Laurel Buds",
+            "location": "@loc{Sandgate Village: Village Entrance}",
+            "method": "Cross the bridge and turn right. Walk to a wooden platform and turn left. The item is on your right.",
+            "missable": false
+          },
+          {
+            "id": "deathstinger",
+            "index": 15,
+            "name": "Deathstinger",
+            "location": "@loc{Webbed Hollow: The Verdure Bridge}",
+            "method": "Cross the vine bridge, stay left beyond the cocoons and enter the small village. Kill the scorpion spirit enemy inside.",
+            "missable": false
+          },
+          {
+            "id": "purple-veined-peach-pit",
+            "index": 16,
+            "name": "Purple-Veined Peach Pit",
+            "location": "@loc{Webbed Hollow: The Verdure Bridge}",
+            "method": "Cross the vine bridge and go left. It is in one of the chests in the side opening on your right.",
+            "missable": false
+          },
+          {
+            "id": "bee-mountain-stone",
+            "index": 17,
+            "name": "Bee Mountain Stone",
+            "location": "@loc{Temple of Yellow Flowers: Mountain Trail}",
+            "method": "Go up the stairs and turn left, shortly before the temple that has two enemies outside.",
+            "missable": false
+          },
+          {
+            "id": "iron-pellet",
+            "index": 18,
+            "name": "Iron Pellet",
+            "location": "@loc{Fright Cliff: Rockrest Flat}",
+            "method": "Beat the Man-in-Stone in the ravine, then buy it from him.",
+            "missable": false
+          },
+          {
+            "id": "fruit-of-dao",
+            "index": 19,
+            "name": "Fruit of Dao",
+            "location": "@loc{Temple of Yellow Flowers: Court of Illumination}",
+            "method": "Take the path behind you and turn right. Two mage enemies along it can drop the item. The Daoists at @loc{Purple Cloud Mountain: Cloudnest Peak} can drop it too.",
+            "missable": false
+          },
+          {
+            "id": "double-combed-rooster-blood",
+            "index": 20,
+            "name": "Double-Combed Rooster Blood",
+            "location": "@loc{Purple Cloud Mountain: Cloudnest Peak}",
+            "method": "Defeat @enemy{The Duskveil}, the last boss of the Chapter 4 secret area. It drops the soak.",
+            "missable": true,
+            "note": "The secret area closes for this playthrough once you beat the Chapter 4 final boss. Only a new playthrough reopens it."
+          },
+          {
+            "id": "tender-jade-lotus",
+            "index": 21,
+            "name": "Tender Jade Lotus",
+            "location": "@loc{Valley of Ecstasy: Brook of Bliss}",
+            "method": "Pick Jade Lotus plants. They grow in shallow water, and this spot has many. It drops at random from Chapter 1 on.",
+            "missable": false
+          },
+          {
+            "id": "steel-ginseng",
+            "index": 22,
+            "name": "Steel Ginseng",
+            "location": "Any area with Aged Ginseng plants",
+            "method": "Pick Aged Ginseng plants. It drops at random from Chapter 1 on.",
+            "missable": false
+          },
+          {
+            "id": "goat-skull",
+            "index": 23,
+            "name": "Goat Skull",
+            "location": "@loc{Kingdom of Sahālī: Sandgate Bound}",
+            "method": "Pick Licorice plants. It drops at random.",
+            "missable": false
+          },
+          {
+            "id": "gall-gem",
+            "index": 24,
+            "name": "Gall Gem",
+            "location": "@loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "Pass the shrine and kill the lone snake. Then talk to @npc{Shen Monkey}, choose Brew and add the soak.",
+            "missable": false
+          },
+          {
+            "id": "thunderbolt-horn",
+            "index": 25,
+            "name": "Thunderbolt Horn",
+            "location": "@loc{Bamboo Grove: Marsh of White Mist}",
+            "method": "From Chapter 3 on, buy it from @npc{Shen Monkey}.",
+            "missable": false
+          },
+          {
+            "id": "sweet-ice",
+            "index": 26,
+            "name": "Sweet Ice",
+            "location": "@loc{New Thunderclap Temple: Temple Entrance}",
+            "method": "Between the giant red walls, turn right and climb the slope beside the turtle and snake statue. After the stairs, cross the building on the left, pass the giant door and hop over the railing. You will find the item on the ledge.",
+            "missable": false
+          },
+          {
+            "id": "flame-mediator",
+            "index": 27,
+            "name": "Flame Mediator",
+            "location": "@loc{Furnace Valley: Valley Entrance}",
+            "method": "In Chapter 5, defeat the Searing-Fire rock enemies along the path. It drops at random, so keep fighting them until it appears.",
+            "missable": false
           }
         ]
       }

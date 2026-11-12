@@ -752,16 +752,88 @@
       "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
       "summary": "Destroy eight vrakhiri transports.",
       "guide": {
-        "kind": "standard",
-        "context": "Each convoy costs three time segments. Use the [transport location map](https://www.powerpyx.com/the-blood-of-dawnwalker-all-vrakhiri-transport-locations/) to find the road sections. Reach roughly level 25 before tackling the convoys associated with Bakir and Xanthe.",
-        "steps": [
+        "kind": "collectible",
+        "context": "Only eight of the ten transports must be destroyed, so you can skip two. Each one costs three time segments. Finish the follow-up interaction at each one so it registers. Scout towers first so the transports show as question marks.",
+        "collectibles": [
           {
-            "id": "action-1",
-            "text": "Scout towers to reveal nearby question marks. Search the roads around those marks for transport Court Activities; a yellow quest marker appears when you get close."
+            "id": "roadside-surprise",
+            "index": 1,
+            "group": "Ambrus's transports",
+            "name": "Roadside Surprise",
+            "location": "@loc{Vale Sangora} road near @loc{Stoneward Post}",
+            "method": "Kill the guards, then use the barrels to smash them. Blood transport."
           },
           {
-            "id": "action-2",
-            "text": "Defeat and loot eight convoys. Ambrus has four, Bakir has two, and Xanthe has four. Patrols move along the road, so search in both directions if a convoy is missing."
+            "id": "bloody-business",
+            "index": 2,
+            "group": "Ambrus's transports",
+            "name": "Bloody Business",
+            "location": "@loc{Vale Sangora} road near @loc{Hedge}",
+            "method": "Defeat the escort, then loot the captain's body. Blood transport."
+          },
+          {
+            "id": "lucky-crossing",
+            "index": 3,
+            "group": "Ambrus's transports",
+            "name": "Lucky Crossing",
+            "location": "Road in @loc{Vale Sangora}, found by its marker",
+            "method": "Defeat the escort and its leader, @npc{Ursul Varna}. Prisoner transport. The transport patrols a short stretch of road, so walk it both ways until the yellow marker appears."
+          },
+          {
+            "id": "fates-mercy",
+            "index": 4,
+            "group": "Ambrus's transports",
+            "name": "Fate's Mercy",
+            "location": "Road in @loc{Vale Sangora}, found by its marker",
+            "method": "Defeat the escort and free the prisoner, the smith's apprentice @npc{Danylo}. Prisoner transport. The transport patrols a short stretch of road, so walk it both ways until the yellow marker appears."
+          },
+          {
+            "id": "curious-shipment",
+            "index": 5,
+            "group": "Bakir's transports",
+            "name": "Curious Shipment",
+            "location": "@loc{Vale Sangora} road near @loc{Rockfalls}",
+            "method": "Defeat the escort. Payoff transport. Come at about level 25."
+          },
+          {
+            "id": "fools-gold",
+            "index": 6,
+            "group": "Bakir's transports",
+            "name": "Fool's Gold",
+            "location": "@loc{Vale Sangora} road near @loc{Turtle Rock}",
+            "method": "Defeat the escort and loot the cargo. Payoff transport. Come at about level 25."
+          },
+          {
+            "id": "past-glory",
+            "index": 7,
+            "group": "Xanthe's transports",
+            "name": "Past Glory",
+            "location": "Road in @loc{Vale Sangora}, found by its marker",
+            "method": "Defeat the escort and take the artefact. Come at about level 25. The transport patrols a short stretch of road, so walk it both ways until the yellow marker appears."
+          },
+          {
+            "id": "when-two-dogs",
+            "index": 8,
+            "group": "Xanthe's transports",
+            "name": "When Two Dogs...",
+            "location": "@loc{Vale Sangora} road near @loc{Tarnovo}",
+            "method": "Defeat the escort and take the artefact. Come at about level 25."
+          },
+          {
+            "id": "fair-maiden",
+            "index": 9,
+            "group": "Xanthe's transports",
+            "name": "Fair Maiden",
+            "location": "@loc{Vale Sangora} road near @loc{Svartrau City}",
+            "method": "Defeat the escort and rescue the captive. Come at about level 25."
+          },
+          {
+            "id": "chosen-one",
+            "index": 10,
+            "group": "Xanthe's transports",
+            "name": "Chosen One",
+            "location": "Road in @loc{Vale Sangora}, found by its marker",
+            "method": "Defeat the escort and rescue the captive. Come at about level 25. The transport patrols a short stretch of road, so walk it both ways until the yellow marker appears."
           }
         ]
       }
@@ -1107,24 +1179,96 @@
       "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
       "summary": "Scout the surrounding area from all eleven towers.",
       "guide": {
-        "kind": "standard",
-        "context": "Look for white tower icons. The [tower location map](https://www.powerpyx.com/blood-of-dawnwalker-all-tower-locations/) shows all eleven; you can visit the towers in any order.",
-        "steps": [
+        "kind": "collectible",
+        "context": "Climb towers only after dark. At each top, select every highlighted distant point; climbing alone does not count. Scouting also marks other activities on the map.",
+        "collectibles": [
           {
-            "id": "action-1",
-            "text": "At night, use @mechanic{Shadowstep} and @mechanic{Planeshift} to reach the tower tops. Select every highlighted distant point at each summit to finish scouting."
+            "id": "church",
+            "index": 1,
+            "group": "Western region",
+            "name": "Church Tower",
+            "location": "The church in @loc{Laslea Glen} that you see in the prologue",
+            "method": "Climb it at night with @mechanic{Shadowstep} and @mechanic{Planeshift}."
           },
           {
-            "id": "action-2",
-            "text": "Scout Church Tower in Laslea Glen. Visit the towers named for Briar Sloughs, Maragir Wealds, and St. Tyna’s Grove."
+            "id": "briar-sloughs",
+            "index": 2,
+            "group": "Western region",
+            "name": "Briar Sloughs Tower",
+            "location": "@loc{Briar Sloughs}, south of @loc{Laslea Glen} near the river",
+            "method": "Climb it at night with @mechanic{Shadowstep} and @mechanic{Planeshift}."
           },
           {
-            "id": "action-3",
-            "text": "Scout Market Tower, Cathedral Tower, and Neustadt Tower in Svartrau City."
+            "id": "maragir-wealds",
+            "index": 3,
+            "group": "Western region",
+            "name": "Maragir Wealds Tower",
+            "location": "East edge of @loc{Maragir Wealds}",
+            "method": "Defeat the @enemy{Vidmo} inside first, then chain @mechanic{Shadowstep} across the broken floorboards to the top."
           },
           {
-            "id": "action-4",
-            "text": "Visit Boar’s Back Tower. Scout the Rockfalls, Silts, and Tantari towers as well."
+            "id": "st-tynas-grove",
+            "index": 4,
+            "group": "Western region",
+            "name": "St. Tyna's Grove Tower",
+            "location": "@loc{St. Tyna's Grove}, with an Ambrus outpost on one side and an Ancient Circle on the other",
+            "method": "Climb the nearby rocks and @mechanic{Shadowstep} over to the tower to skip the undead at its base."
+          },
+          {
+            "id": "boars-back",
+            "index": 5,
+            "group": "Western region",
+            "name": "Boar's Back Tower",
+            "location": "@loc{Boar's Back}, west of @loc{Svartrau City}",
+            "method": "Climb it at night and scout from the top."
+          },
+          {
+            "id": "neustadt",
+            "index": 6,
+            "group": "Svartrau City",
+            "name": "Neustadt Tower",
+            "location": "Southwest battlements of @loc{Svartrau City}",
+            "method": "Reach the battlements at night, then @mechanic{Shadowstep} up to the roof before the guards become hostile."
+          },
+          {
+            "id": "market",
+            "index": 7,
+            "group": "Svartrau City",
+            "name": "Market Tower",
+            "location": "North-central @loc{Svartrau City}",
+            "method": "Climb it at night. This is the simplest of the three city towers."
+          },
+          {
+            "id": "cathedral",
+            "index": 8,
+            "group": "Svartrau City",
+            "name": "Cathedral Tower",
+            "location": "Cathedral in @loc{Svartrau City}",
+            "method": "Climb the scaffolding to the roof, then use the teleport prompt up to the cross. This is the longest city climb."
+          },
+          {
+            "id": "rockfalls",
+            "index": 9,
+            "group": "Eastern region",
+            "name": "Rockfalls Tower",
+            "location": "@loc{Rockfalls}, south of @loc{Oghasti} and west of the Lunar Manor",
+            "method": "Go in through the inside and @mechanic{Shadowstep} from board to board. Do not @mechanic{Planeshift} up the outer wall, because stamina runs out."
+          },
+          {
+            "id": "silts",
+            "index": 10,
+            "group": "Eastern region",
+            "name": "Silts Tower",
+            "location": "@loc{The Silts}",
+            "method": "Walk the outer walls and ledges to the roof. A ritual is happening at the top, so take care not to interrupt it."
+          },
+          {
+            "id": "tantari",
+            "index": 11,
+            "group": "Eastern region",
+            "name": "Tantari Tower",
+            "location": "Northwest of @loc{Tantari Woods}",
+            "method": "Climb it at night and scout from the top."
           }
         ]
       }
@@ -1245,22 +1389,26 @@
       "stage": 4,
       "confidence": "verified",
       "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
-      "summary": "Purchase one of Swordmastery’s Ultimate Perks.",
+      "summary": "Purchase one of Swordmastery's Ultimate Perks.",
       "guide": {
         "kind": "standard",
         "context": "You can purchase only one of the three Ultimate Perks in a tree on the same skill allocation.",
         "steps": [
           {
             "id": "action-1",
-            "text": "Keep a manual save before allocating points. Spend 35 skill points on Swordmastery Perks, then spend four more on an Ultimate Perk. Only Perk spending contributes to this threshold; Ability spending is excluded."
+            "text": "Make a manual save before you spend points. Spend 35 skill points on Swordmastery Perks, then spend four more on an Ultimate Perk. Only Perk points count toward the 35; Ability points do not."
           },
           {
             "id": "action-2",
-            "text": "For upgrades that need manuals, collect the corresponding books from activities or buy them from Swordmastery Teachers and Witchcraft Vendors. Use the [manual locations](https://www.powerpyx.com/blood-of-dawnwalker-all-skill-manual-locations/) to find a missing book."
+            "text": "Many manuals are sold by Swordmastery Teachers. @npc{Ocha} sells most of them, and @npc{Ursul}, @npc{Constantin}, and @npc{Catalin's Tutor} sell others. Armourers in @loc{Maragir}, @loc{Svartrau City}, and @loc{Tantari} sell the @item{Second Skin} manuals. The General Store in the northwest corner of @loc{Svartrau City} sells @item{Endless Effort}, @item{Fleet of Foot}, and @item{Vigour}."
           },
           {
             "id": "action-3",
-            "text": "Reload the saved allocation if you want to spend those points toward the other tree’s Ultimate Perk."
+            "text": "Chests at Soldier Camps and Bandit Camps hold more. For example, @item{Counterattack} is in a Soldier Camp tent just south of @loc{Laslea Glen}, and @item{Omniblock} is in a Bandit Camp chest in @loc{The Silts}. A Perk with no manual needed has all its upgrades open from the start."
+          },
+          {
+            "id": "action-4",
+            "text": "Reload the saved allocation if you want to spend the same points on the other Ultimate Perk."
           }
         ]
       }
@@ -1284,22 +1432,26 @@
       "stage": 4,
       "confidence": "verified",
       "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
-      "summary": "Purchase one of Witchcraft’s Ultimate Perks.",
+      "summary": "Purchase one of Witchcraft's Ultimate Perks.",
       "guide": {
         "kind": "standard",
         "context": "You can purchase only one of the three Ultimate Perks in a tree on the same skill allocation.",
         "steps": [
           {
             "id": "action-1",
-            "text": "Keep a manual save before allocating points. Spend 35 skill points on Witchcraft Perks, then spend four more on an Ultimate Perk. Only Perk spending contributes to this threshold; Ability spending is excluded."
+            "text": "Make a manual save before you spend points. Spend 35 skill points on Witchcraft Perks, then spend four more on an Ultimate Perk. Only Perk points count toward the 35; Ability points do not."
           },
           {
             "id": "action-2",
-            "text": "For upgrades that need manuals, collect the corresponding books from activities or buy them from Swordmastery Teachers and Witchcraft Vendors. Use the [manual locations](https://www.powerpyx.com/blood-of-dawnwalker-all-skill-manual-locations/) to find a missing book."
+            "text": "Buy manuals from @npc{Vera}, a Witchcraft Vendor in @loc{Maragir Wealds}, or from the Matriarch Witchcraft Vendor. Vera sells @item{Forager}, @item{Herbal Remedies I} and @item{II}, @item{Medicus I} and @item{II}, @item{Evil Eye}, @item{Potent Blood}, @item{Soul Reaping}, @item{Soul Stigma}, and @item{Lasting Malediction}. The Matriarch sells most others."
           },
           {
             "id": "action-3",
-            "text": "Reload the saved allocation if you want to spend those points toward the other tree’s Ultimate Perk."
+            "text": "Chests at the top of some towers hold more. For example, @item{Aether Flow} is on @loc{Rockfalls Tower}, @item{Unholy Fervour} on @loc{Tantari Tower}, @item{Mercurial Fervour} on @loc{Silts Tower}, and @item{Cycle of Ruin} on @loc{Maragir Wealds Tower}. A Perk with no manual needed has all its upgrades open from the start."
+          },
+          {
+            "id": "action-4",
+            "text": "Reload the saved allocation if you want to spend the same points on the other Ultimate Perk."
           }
         ]
       }
@@ -1733,16 +1885,64 @@
       "sortReason": "Recommended phase; preserve earlier saves for alternate branches.",
       "summary": "Visit all eight settlements in Vale Sangora.",
       "guide": {
-        "kind": "standard",
-        "context": "Uriash Village is blocked until its side quest. The [settlement map](https://www.powerpyx.com/blood-of-dawnwalker-all-village-locations/) shows the eight destinations.",
-        "steps": [
+        "kind": "collectible",
+        "context": "The first seven show as three-house icons after the prologue. Uriash Village stays locked until its two side quests, and the game blocks the way west before then. A village seen on the map but not entered does not count, so walk into each one.",
+        "collectibles": [
           {
-            "id": "action-1",
-            "text": "Visit Laslea, the Military Camp, Maragir, Parlita, Svartrau, Tantari, and Oghasti. Look for the three-house settlement icons after the prologue."
+            "id": "laslea",
+            "index": 1,
+            "name": "Laslea",
+            "location": "@loc{Laslea Glen}, the starting region",
+            "method": "Walk into the village after the prologue."
           },
           {
-            "id": "action-2",
-            "text": "To reach Uriash Village, start A Friend Like This in the alley below Svartrau’s northeast wall. Follow the Focus Mode clues across the rooftops and finish the encounter, then follow Song of the Mountain into the hidden village."
+            "id": "military-camp",
+            "index": 2,
+            "name": "Military Camp",
+            "location": "@loc{Briar Sloughs}, also called @loc{Stoneward Post}",
+            "method": "Defeat the guards at the entrance, then walk in."
+          },
+          {
+            "id": "maragir",
+            "index": 3,
+            "name": "Maragir",
+            "location": "@loc{Maragir Wealds}",
+            "method": "Walk into the settlement. Dense woods can hide it."
+          },
+          {
+            "id": "parlita",
+            "index": 4,
+            "name": "Parlita",
+            "location": "Farming village in the @loc{Boar's Back} region, west of Maragir, with crop fields all around it",
+            "method": "Walk in and activate the shrine."
+          },
+          {
+            "id": "svartrau",
+            "index": 5,
+            "name": "Svartrau",
+            "location": "@loc{Svartrau City}, the capital",
+            "method": "Pass through the city entrance. The underground is not needed."
+          },
+          {
+            "id": "tantari",
+            "index": 6,
+            "name": "Tantari",
+            "location": "@loc{Tantari Woods}",
+            "method": "Walk in and activate the shrine."
+          },
+          {
+            "id": "oghasti",
+            "index": 7,
+            "name": "Oghasti",
+            "location": "Ruined village in the middle of a small forest southeast of @loc{Svartrau}",
+            "method": "Walk into the village. Monsters overrun it, so arrive ready to fight."
+          },
+          {
+            "id": "uriash",
+            "index": 8,
+            "name": "Uriash Village",
+            "location": "Far west of the map, not marked until you are sent there",
+            "method": "Start the side quest A Friend Like This in the alley below the northeast wall of @loc{Svartrau City}. Follow the @mechanic{Focus Mode} clues across the rooftops and win the fight. The quest Song of the Mountain then starts and leads you to the village. Interact with the shrine there."
           }
         ]
       }

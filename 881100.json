@@ -377,24 +377,1512 @@
       "estTime": "50–150 hours across attempts",
       "estMinutes": 6000,
       "stage": 3,
-      "confidence": "verified",
+      "confidence": "unverified",
       "summary": "Reach 100% in the @mechanic{Enemies} progress panel.",
       "guide": {
-        "kind": "standard",
-        "context": "The target is 185 recorded entries. A second turret entry can take the display to 100.5%; that extra half-percent is unnecessary.",
-        "steps": [
+        "kind": "collectible",
+        "context": "Each row fills one icon in the Enemies panel when you kill that creature. The panel reaches 100% at 185 entries. The left-facing and right-facing turrets share one icon, but each direction adds its own entry, so kill a turret facing each way. Check the panel after each rare kill to confirm the icon filled in.",
+        "collectibles": [
           {
-            "id": "find-gaps",
-            "text": "Open the Enemies panel under Progress. Match any missing icons to [progress icon grid](https://ipeterov.github.io/noita-progress/); hover the matching icon for its name and open that creature’s page for its encounter location."
+            "id": "player",
+            "index": 1,
+            "group": "Player",
+            "name": "Me (Minä)",
+            "location": "Your own character",
+            "method": "Open the Enemies panel and look at this icon. If it is empty, play on until you die in a run, then check it again."
           },
           {
-            "id": "record-kills",
-            "text": "Defeat the missing creatures, including animals, bosses and enemies in side areas. Check Progress after each rare kill to confirm the icon has filled in."
+            "id": "sheep",
+            "index": 2,
+            "group": "Helpless animals",
+            "name": "Sheep (Lammas)",
+            "location": "@loc{Lake} island",
+            "method": "Kill a sheep on the central island of the lake.",
+            "note": "Sheep also wander the island with the wolf nearby, so watch for its attacks."
           },
           {
-            "id": "reach-hundred",
-            "text": "Keep filling missing entries until Enemies reaches 100%. If you are one entry short, kill the opposite-facing @enemy{Torjuntalaite} turret as well.",
-            "note": "The two turret directions add separate entries even though they share one icon."
+            "id": "sheep-bat",
+            "index": 3,
+            "group": "Helpless animals",
+            "name": "Flying Sheep (Lentolammas)",
+            "location": "Made by polymorphing",
+            "method": "Polymorph creatures with @item{Polymorphine} or a polymorph spell until one turns into a flying sheep, then kill it.",
+            "note": "Sheep, flying sheep and buzzing sheep are all possible polymorph results."
+          },
+          {
+            "id": "sheep-fly",
+            "index": 4,
+            "group": "Helpless animals",
+            "name": "Buzzing Sheep (Suhiseva lammas)",
+            "location": "Made by polymorphing",
+            "method": "Polymorph creatures with @item{Polymorphine} or a polymorph spell until one turns into a buzzing sheep, then kill it.",
+            "note": "Sheep, flying sheep and buzzing sheep are all possible polymorph results."
+          },
+          {
+            "id": "scorpion",
+            "index": 5,
+            "group": "Helpless animals",
+            "name": "Scorpion (Skorpioni)",
+            "location": "@loc{Desert}, @loc{Pyramid}, @loc{Watchtower}, @loc{Wizards' Den}, @loc{Temple of the Art}",
+            "method": "Kill one. It has little health and no attacks."
+          },
+          {
+            "id": "fish",
+            "index": 6,
+            "group": "Helpless animals",
+            "name": "Fish (Eväkäs)",
+            "location": "@loc{Lake}, @loc{Forest}, @loc{Hiisi Base}, @loc{Holy Mountain}",
+            "method": "Kill a fish in the water of any of these areas."
+          },
+          {
+            "id": "fish-large",
+            "index": 7,
+            "group": "Helpless animals",
+            "name": "Large Fish (Suureväkäs)",
+            "location": "@loc{Lake}, @loc{Snowy Depths}",
+            "method": "Kill one. It swims deep in the lake and is passive."
+          },
+          {
+            "id": "duck",
+            "index": 8,
+            "group": "Helpless animals",
+            "name": "Duck (Ankka)",
+            "location": "@loc{Lake} island",
+            "method": "Kill a duck on the small island at the lake's center.",
+            "note": "The Flock of Ducks spell also makes ducks, but they explode after a short time."
+          },
+          {
+            "id": "deer",
+            "index": 9,
+            "group": "Helpless animals",
+            "name": "Deer (Nelikoipi)",
+            "location": "@loc{Lake}",
+            "method": "Kill one. It runs away when you attack it."
+          },
+          {
+            "id": "elk",
+            "index": 10,
+            "group": "Helpless animals",
+            "name": "Reindeer (Poro)",
+            "location": "@loc{Lake}",
+            "method": "Kill one on the lake island. It is passive."
+          },
+          {
+            "id": "wolf",
+            "index": 11,
+            "group": "Miscellaneous monsters",
+            "name": "Wolf (Susi)",
+            "location": "@loc{Lake} island",
+            "method": "Kill the wolf on the lake island. It is the only animal there that attacks you."
+          },
+          {
+            "id": "zombie-weak",
+            "index": 12,
+            "group": "Miscellaneous monsters",
+            "name": "Weak Hound (Heikkohurtta)",
+            "location": "@loc{Mines}",
+            "method": "Kill one. It is a weaker Hound."
+          },
+          {
+            "id": "zombie",
+            "index": 13,
+            "group": "Miscellaneous monsters",
+            "name": "Hound (Hurtta)",
+            "location": "@loc{Desert}, @loc{Forest}, @loc{Fungal Caverns}, @loc{Collapsed Mines}, @loc{Snowy Wasteland}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "alchemist",
+            "index": 14,
+            "group": "Miscellaneous monsters",
+            "name": "Hiisi Alchemist (Puistokemisti)",
+            "location": "@loc{Mines}, @loc{Pyramid}, @loc{Coal Pits}, @loc{Fungal Caverns}, @loc{Overgrown Cavern}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "shaman",
+            "index": 15,
+            "group": "Miscellaneous monsters",
+            "name": "Swampling (Märkiäinen)",
+            "location": "@loc{Ancient Laboratory}, @loc{Collapsed Mines}, @loc{Mines}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "bigzombie",
+            "index": 16,
+            "group": "Miscellaneous monsters",
+            "name": "Rotting Corpse (Mätänevä ruumis)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}, @loc{Fungal Caverns}",
+            "method": "Kill a Rotting Corpse. When it dies it splits into a body and a head."
+          },
+          {
+            "id": "bigzombietorso",
+            "index": 17,
+            "group": "Miscellaneous monsters",
+            "name": "Rotting Body (Mätänevä kroppa)",
+            "location": "Where a Rotting Corpse dies",
+            "method": "Kill the body left behind when a Rotting Corpse dies."
+          },
+          {
+            "id": "bigzombiehead",
+            "index": 18,
+            "group": "Miscellaneous monsters",
+            "name": "Rotting Head (Mätänevä pää)",
+            "location": "Where a Rotting Corpse dies",
+            "method": "Kill the head left behind when a Rotting Corpse dies."
+          },
+          {
+            "id": "ant",
+            "index": 19,
+            "group": "Miscellaneous monsters",
+            "name": "Ant (Murkku)",
+            "location": "@loc{Fungal Caverns}, @loc{Overgrown Cavern}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "rat",
+            "index": 20,
+            "group": "Miscellaneous monsters",
+            "name": "Rat (Rotta)",
+            "location": "@loc{Forest}, @loc{Coal Pits}, @loc{Meat Realm}, @loc{Snowy Depths}, @loc{Fungal Caverns}, @loc{Snowy Wasteland}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "bat",
+            "index": 21,
+            "group": "Miscellaneous monsters",
+            "name": "Bat (Lepakko)",
+            "location": "@loc{Coal Pits}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "bigbat",
+            "index": 22,
+            "group": "Miscellaneous monsters",
+            "name": "Large Bat (Suurlepakko)",
+            "location": "@loc{Coal Pits}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "firebug",
+            "index": 23,
+            "group": "Miscellaneous monsters",
+            "name": "Lesser firefly (Pikkutulikärpänen)",
+            "location": "@loc{Coal Pits}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "bigfirebug",
+            "index": 24,
+            "group": "Miscellaneous monsters",
+            "name": "Greater firefly (Suurtulikärpänen)",
+            "location": "@loc{Coal Pits}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "bloom",
+            "index": 25,
+            "group": "Miscellaneous monsters",
+            "name": "Bloom (Puska)",
+            "location": "@loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "shooterflower",
+            "index": 26,
+            "group": "Miscellaneous monsters",
+            "name": "Plasma Flower (Plasmakukka)",
+            "location": "@loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "fly",
+            "index": 27,
+            "group": "Miscellaneous monsters",
+            "name": "Wasp (Amppari)",
+            "location": "@loc{Fungal Caverns}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "fungus",
+            "index": 28,
+            "group": "Miscellaneous monsters",
+            "name": "Shuffling Fungus (Laahustussieni)",
+            "location": "@loc{Mines}, @loc{Lukki Lair}, @loc{Fungal Caverns}, @loc{Overgrown Cavern}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "fungus-big",
+            "index": 29,
+            "group": "Miscellaneous monsters",
+            "name": "Club-foot (Nuijamalikka)",
+            "location": "@loc{Mines}, @loc{Lukki Lair}, @loc{Fungal Caverns}, @loc{Overgrown Cavern}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "fungus-giga",
+            "index": 30,
+            "group": "Miscellaneous monsters",
+            "name": "Pollen Morel (Huhtasieni)",
+            "location": "@loc{Overgrown Cavern}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "giant",
+            "index": 31,
+            "group": "Miscellaneous monsters",
+            "name": "Rock Giant (Hiidenkivi)",
+            "location": "@loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "pebble-physics",
+            "index": 32,
+            "group": "Miscellaneous monsters",
+            "name": "Rock Spirit (Lohkare)",
+            "location": "Made by a Rock Giant or a spell",
+            "method": "Kill a rock spirit made by a @enemy{Hiidenkivi} or by the Summon Rock Spirit spell.",
+            "note": "It flies erratically and explodes into freezing vapours when it gets close."
+          },
+          {
+            "id": "statue",
+            "index": 33,
+            "group": "Miscellaneous monsters",
+            "name": "Statue (Patsas)",
+            "location": "@loc{Ancient Laboratory}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "necromancer",
+            "index": 34,
+            "group": "Miscellaneous monsters",
+            "name": "Shapechanger (Hahmonvaihtaja)",
+            "location": "@loc{Meat Realm}, @loc{Snowy Depths}, @loc{Magical Temple}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "necromancer-shop",
+            "index": 35,
+            "group": "Miscellaneous monsters",
+            "name": "Guard (Stevari)",
+            "location": "@loc{Holy Mountain}",
+            "method": "Break some of the brickwork of a @loc{Holy Mountain} to make a @enemy{Stevari} appear, then kill it.",
+            "note": "It has 600 health and hits hard."
+          },
+          {
+            "id": "necromancer-super",
+            "index": 36,
+            "group": "Miscellaneous monsters",
+            "name": "Cop (Skoude)",
+            "location": "@loc{Holy Mountain}",
+            "method": "After killing 3 separate @enemy{Stevari}, break brickwork at another @loc{Holy Mountain}. A @enemy{Skoude} appears instead of a Stevari. Kill it.",
+            "note": "Peace with Gods stops these guards from appearing."
+          },
+          {
+            "id": "skullrat",
+            "index": 37,
+            "group": "Ghosts and crystals",
+            "name": "Skull Rat (Kallorotta)",
+            "location": "@loc{Pyramid}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "skullfly",
+            "index": 38,
+            "group": "Ghosts and crystals",
+            "name": "Skull Fly (Kallokärpänen)",
+            "location": "@loc{Pyramid}, @loc{Lukki Lair}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "ghoul",
+            "index": 39,
+            "group": "Ghosts and crystals",
+            "name": "Spitter (Sylkyri)",
+            "location": "@loc{The Tower}, and @loc{Temple of the Art} in New Game+",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "worm-skull",
+            "index": 40,
+            "group": "Ghosts and crystals",
+            "name": "Death Worm (Kalmamato)",
+            "location": "@loc{The Work (Sky)}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "statue-physics",
+            "index": 41,
+            "group": "Ghosts and crystals",
+            "name": "Glowing Mask (Hohtonaamio)",
+            "location": "@loc{Magical Temple}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "snowcrystal",
+            "index": 42,
+            "group": "Ghosts and crystals",
+            "name": "Ghost Crystal (Haamukivi)",
+            "location": "@loc{Snowy Chasm}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "hpcrystal",
+            "index": 43,
+            "group": "Ghosts and crystals",
+            "name": "Recovery Crystal (Elvytyskristalli)",
+            "location": "@loc{Desert Chasm}, @loc{Meat Realm}, @loc{Snowy Chasm}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "ghost",
+            "index": 44,
+            "group": "Ghosts and crystals",
+            "name": "Delirium (Houre)",
+            "location": "@loc{Snowy Chasm}, @loc{Wizards' Den}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wand-ghost",
+            "index": 45,
+            "group": "Ghosts and crystals",
+            "name": "Magic Wand (Taikasauva)",
+            "location": "@loc{Magical Temple}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "ethereal-being",
+            "index": 46,
+            "group": "Ghosts and crystals",
+            "name": "Non-existent (Olematon)",
+            "location": "@loc{Pyramid}, @loc{Snowy Chasm}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "playerghost",
+            "index": 47,
+            "group": "Ghosts and crystals",
+            "name": "Ghost (Kummitus)",
+            "location": "@loc{Mines}, @loc{Coal Pits}, @loc{Snowy Depths}, @loc{Fungal Caverns}, @loc{Collapsed Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "phantom-a",
+            "index": 48,
+            "group": "Ghosts and crystals",
+            "name": "Spiral Phantom (Spiraalikalma)",
+            "location": "@loc{Pyramid}, @loc{Snowy Chasm}, @loc{Magical Temple}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "phantom-b",
+            "index": 49,
+            "group": "Ghosts and crystals",
+            "name": "Angry Phantom (Kiukkukalma)",
+            "location": "@loc{Pyramid}, @loc{Snowy Chasm}, @loc{Magical Temple}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "confusespirit",
+            "index": 50,
+            "group": "Ghosts and crystals",
+            "name": "Fog Spirit (Utu-Aave)",
+            "location": "@loc{Pyramid}, @loc{Fungal Caverns}, @loc{Overgrown Cavern}",
+            "method": "Kill one of the four spirits in the Pyramid."
+          },
+          {
+            "id": "berserkspirit",
+            "index": 51,
+            "group": "Ghosts and crystals",
+            "name": "Anger Spirit (Viha-Aave)",
+            "location": "@loc{Pyramid}",
+            "method": "Kill one of the four spirits in the Pyramid."
+          },
+          {
+            "id": "weakspirit",
+            "index": 52,
+            "group": "Ghosts and crystals",
+            "name": "Depression Spirit (Kaamo-Aave)",
+            "location": "@loc{Pyramid}",
+            "method": "Kill one of the four spirits in the Pyramid."
+          },
+          {
+            "id": "slimespirit",
+            "index": 53,
+            "group": "Ghosts and crystals",
+            "name": "Bog Spirit (Neva-Aave)",
+            "location": "@loc{Coal Pits}, @loc{Meat Realm}, @loc{Fungal Caverns}",
+            "method": "Kill one of the four spirits in the Pyramid."
+          },
+          {
+            "id": "crystal-physics",
+            "index": 54,
+            "group": "Ghosts and crystals",
+            "name": "Cursed Crystal (Kirottu kristalli)",
+            "location": "@loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "bloodcrystal-physics",
+            "index": 55,
+            "group": "Ghosts and crystals",
+            "name": "Blood Crystal (Verikristalli)",
+            "location": "@loc{Meat Realm}, @loc{The Work (Hell)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "skycrystal-physics",
+            "index": 56,
+            "group": "Ghosts and crystals",
+            "name": "Celestial Crystal (Taivaskristalli)",
+            "location": "@loc{Cloudscape}, @loc{The Work (Sky)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "slimeshooter-weak",
+            "index": 57,
+            "group": "Slimes and gazers",
+            "name": "Weak Toxic Slime (Heikko limanuljaska)",
+            "location": "@loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "slimeshooter",
+            "index": 58,
+            "group": "Slimes and gazers",
+            "name": "Toxic Slime (Limanuljaska)",
+            "location": "@loc{Coal Pits}, @loc{Snowy Depths}, @loc{Fungal Caverns}, @loc{Collapsed Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "acidshooter-weak",
+            "index": 59,
+            "group": "Slimes and gazers",
+            "name": "Weak Acid Slime (Heikko happonuljaska)",
+            "location": "@loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "acidshooter",
+            "index": 60,
+            "group": "Slimes and gazers",
+            "name": "Acid Slime (Happonuljaska)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}, @loc{Fungal Caverns}, @loc{Collapsed Mines}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lasershooter",
+            "index": 61,
+            "group": "Slimes and gazers",
+            "name": "Gazer (Mulkkio)",
+            "location": "@loc{Frozen Vault}, @loc{The Vault}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "giantshooter-weak",
+            "index": 62,
+            "group": "Slimes and gazers",
+            "name": "Weak Mother Slime (Heikko äitinuljaska)",
+            "location": "@loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "giantshooter",
+            "index": 63,
+            "group": "Slimes and gazers",
+            "name": "Mother Slime (Äitinuljaska)",
+            "location": "@loc{Fungal Caverns}, @loc{Collapsed Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "miniblob",
+            "index": 64,
+            "group": "Slimes and gazers",
+            "name": "Blob (Möykky)",
+            "location": "Where an Angry Blob is hurt",
+            "method": "Hit an @enemy{Kiukkumöykky} until it splits off small blobs, then kill one.",
+            "note": "A blob can split off before you arrive if something hurt it offscreen."
+          },
+          {
+            "id": "blob",
+            "index": 65,
+            "group": "Slimes and gazers",
+            "name": "Angry Blob (Kiukkumöykky)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}, @loc{Fungal Caverns}, @loc{Overgrown Cavern}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "frog",
+            "index": 66,
+            "group": "Slimes and gazers",
+            "name": "Toad (Konna)",
+            "location": "@loc{Fungal Caverns}, @loc{Collapsed Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "frog-big",
+            "index": 67,
+            "group": "Slimes and gazers",
+            "name": "Big Toad (Jättikonna)",
+            "location": "@loc{Fungal Caverns}, @loc{Collapsed Mines}, @loc{Overgrown Cavern}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lurker",
+            "index": 68,
+            "group": "Slimes and gazers",
+            "name": "Shadow Bubble (Varjokupla)",
+            "location": "@loc{Lukki Lair}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "maggot",
+            "index": 69,
+            "group": "Slimes and gazers",
+            "name": "Maggot (Toukka)",
+            "location": "@loc{The Vault}, @loc{Fungal Caverns}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "tentacler-small",
+            "index": 70,
+            "group": "Slimes and gazers",
+            "name": "Small Tentacler (Pikkuturso)",
+            "location": "@loc{The Vault}, @loc{Fungal Caverns}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "tentacler",
+            "index": 71,
+            "group": "Slimes and gazers",
+            "name": "Tentacler (Turso)",
+            "location": "@loc{The Vault}, @loc{Fungal Caverns}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "gazer",
+            "index": 72,
+            "group": "Slimes and gazers",
+            "name": "Hell Gazer (Helvetinkatse)",
+            "location": "@loc{The Work (Hell)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "skygazer",
+            "index": 73,
+            "group": "Slimes and gazers",
+            "name": "Sky Gazer (Taivaankatse)",
+            "location": "@loc{The Work (Sky)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "spitmonster",
+            "index": 74,
+            "group": "Slimes and gazers",
+            "name": "Hell Spitter (Helvetin sylkijä)",
+            "location": "@loc{The Work (Hell)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "minipit",
+            "index": 75,
+            "group": "Slimes and gazers",
+            "name": "Tiny Minion (Pienkätyri)",
+            "location": "Where a Super Necrobot revives enemies",
+            "method": "Let a @enemy{Marraskone} revive a dead enemy as a Tiny Minion, then kill the minion.",
+            "note": "Tiny Minions also come back as long as the Super Necrobot is alive."
+          },
+          {
+            "id": "longleg",
+            "index": 76,
+            "group": "Spiders",
+            "name": "Spidey (Hämis)",
+            "location": "@loc{Mines}, @loc{Pyramid}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lukki-tiny",
+            "index": 77,
+            "group": "Spiders",
+            "name": "Small Spider (Pikkuhämähäkki)",
+            "location": "@loc{Lukki Lair}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lukki",
+            "index": 78,
+            "group": "Spiders",
+            "name": "Spider (Hämähäkki)",
+            "location": "@loc{Lukki Lair}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lukki-longleg",
+            "index": 79,
+            "group": "Spiders",
+            "name": "Daddy Longlegs (Lukki)",
+            "location": "@loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lukki-creepy-long",
+            "index": 80,
+            "group": "Spiders",
+            "name": "Faceless spider (Kasvoton Lukki)",
+            "location": "@loc{Lukki Lair}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "lukki-dark",
+            "index": 81,
+            "group": "Spiders",
+            "name": "Toothy spider (Kammolukki)",
+            "location": "@loc{Lukki Lair}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "miner-weak",
+            "index": 82,
+            "group": "Hiisi and tanks",
+            "name": "Weak Hiisi Miner (Tappurahiisiläinen)",
+            "location": "@loc{Collapsed Mines}, @loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "miner",
+            "index": 83,
+            "group": "Hiisi and tanks",
+            "name": "Miner Hiisi (Tappurahiisi)",
+            "location": "@loc{Desert}, @loc{Forest}, @loc{Coal Pits}, @loc{Hiisi Base}, @loc{Collapsed Mines}, @loc{Snowy Wasteland}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "miner-fire",
+            "index": 84,
+            "group": "Hiisi and tanks",
+            "name": "Fire Hiisi (Tulihiisi)",
+            "location": "@loc{Coal Pits}, @loc{Collapsed Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "miner-santa",
+            "index": 85,
+            "group": "Hiisi and tanks",
+            "name": "Christmas Hiisi (Jouluhiisi)",
+            "location": "@loc{Coal Pits}, @loc{Collapsed Mines}, @loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "miner-chef",
+            "index": 86,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Chef (Kokkihiisi)",
+            "location": "@loc{Hiisi Base}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "goblin-bomb",
+            "index": 87,
+            "group": "Hiisi and tanks",
+            "name": "Firecracker Goblin (Sähikäismenninkäinen)",
+            "location": "@loc{Coal Pits}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "shotgunner-weak",
+            "index": 88,
+            "group": "Hiisi and tanks",
+            "name": "Weak Shotgun Hiisi (Heikko haulikkohiisi)",
+            "location": "@loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "shotgunner",
+            "index": 89,
+            "group": "Hiisi and tanks",
+            "name": "Shotgun Hiisi (Haulikkohiisi)",
+            "location": "@loc{Desert}, @loc{Coal Pits}, @loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Collapsed Mines}, @loc{Snowy Wasteland}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-smg",
+            "index": 90,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Gunner (Rynkkyhiisi)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-grenade",
+            "index": 91,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Grenadier (Kranuhiisi)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-mine",
+            "index": 92,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Mine Thrower (Miinankylväjä)",
+            "location": "@loc{Coal Pits}, @loc{The Vault}, @loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-heal",
+            "index": 93,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Healer (Parantajahiisi)",
+            "location": "@loc{Sandcave}, @loc{The Vault}, @loc{Hiisi Base}, @loc{Frozen Vault}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-glue",
+            "index": 94,
+            "group": "Hiisi and tanks",
+            "name": "Glue Hiisi (Liimahiisi)",
+            "location": "@loc{The Vault}, @loc{Power Plant}, @loc{Frozen Vault}, @loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-invis",
+            "index": 95,
+            "group": "Hiisi and tanks",
+            "name": "Stealth Hiisi (Häivehiisi)",
+            "location": "@loc{Sandcave}, @loc{Frozen Vault}, @loc{Fungal Caverns}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-shield",
+            "index": 96,
+            "group": "Hiisi and tanks",
+            "name": "Shield Hiisi (Kilpihiisi)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-poison",
+            "index": 97,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Poisoner (Myrkkyhiisi)",
+            "location": "@loc{Sandcave}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-clusterbomb",
+            "index": 98,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Bomber (Isohiisi)",
+            "location": "@loc{Sandcave}, @loc{Hiisi Base}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "scavenger-leader",
+            "index": 99,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Leader (Toimari)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "sniper",
+            "index": 100,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Sniper (Snipuhiisi)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "coward",
+            "index": 101,
+            "group": "Hiisi and tanks",
+            "name": "Coward (Raukka)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Frozen Vault}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "tank",
+            "index": 102,
+            "group": "Hiisi and tanks",
+            "name": "Tank (KK-Tankki)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Desert Chasm}, @loc{Frozen Vault}, @loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "tank-rocket",
+            "index": 103,
+            "group": "Hiisi and tanks",
+            "name": "Rocket Tank (IT-Tankki)",
+            "location": "@loc{Sandcave}, @loc{The Vault}, @loc{Hiisi Base}, @loc{Frozen Vault}, @loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "tank-super",
+            "index": 104,
+            "group": "Hiisi and tanks",
+            "name": "Laser Tank (Laser-tankki)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Power Plant}, @loc{Frozen Vault}, @loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "turret-left",
+            "index": 105,
+            "group": "Hiisi and tanks",
+            "name": "Turret (Torjuntalaite), faces left",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Power Plant}, @loc{Frozen Vault}",
+            "method": "Kill a turret that faces left.",
+            "note": "Left and right turrets share one icon, but each direction adds a separate entry."
+          },
+          {
+            "id": "turret-right",
+            "index": 106,
+            "group": "Hiisi and tanks",
+            "name": "Turret (Torjuntalaite), faces right",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Power Plant}, @loc{Frozen Vault}",
+            "method": "Kill a turret that faces right.",
+            "note": "Left and right turrets share one icon, but each direction adds a separate entry."
+          },
+          {
+            "id": "miner-hell",
+            "index": 107,
+            "group": "Hiisi and tanks",
+            "name": "Hell Miner Hiisi (Hornantappurahiisi)",
+            "location": "@loc{Meat Realm}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "shotgunner-hell",
+            "index": 108,
+            "group": "Hiisi and tanks",
+            "name": "Hell Shotgun Hiisi (Hornahiisi)",
+            "location": "@loc{Meat Realm}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "sniper-hell",
+            "index": 109,
+            "group": "Hiisi and tanks",
+            "name": "Hiisi Hell Sniper (Hornasnipuhiisi)",
+            "location": "@loc{Meat Realm}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "ultimate-killer",
+            "index": 110,
+            "group": "Hiisi and tanks",
+            "name": "Horror Monster (Kauhuhirviö)",
+            "location": "@loc{Frozen Vault}",
+            "method": "Kill the rare green flying Horror Monster. Its death causes a big explosion and an earthquake."
+          },
+          {
+            "id": "flamer",
+            "index": 111,
+            "group": "Robots",
+            "name": "Flamer (Liekkari)",
+            "location": "@loc{The Vault}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "icer",
+            "index": 112,
+            "group": "Robots",
+            "name": "Icer (Jäähdytyslaite)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "drone-physics",
+            "index": 113,
+            "group": "Robots",
+            "name": "Drone (Lennokki)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}, @loc{Fungal Caverns}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "drone-lasership",
+            "index": 114,
+            "group": "Robots",
+            "name": "Giant Laser-Drone (Jättilaser-lennokki)",
+            "location": "@loc{The Vault}, @loc{Hiisi Base}, @loc{Power Plant}, @loc{Frozen Vault}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "drone-shield",
+            "index": 115,
+            "group": "Robots",
+            "name": "Safety Drone (Turvalennokki)",
+            "location": "@loc{Frozen Vault}, @loc{Lukki Lair}, @loc{Power Plant}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "basebot-sentry",
+            "index": 116,
+            "group": "Robots",
+            "name": "Observer (Tarkkailija)",
+            "location": "@loc{Power Plant}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "basebot-hidden",
+            "index": 117,
+            "group": "Robots",
+            "name": "Spy (Vakoilija)",
+            "location": "@loc{Power Plant}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "basebot-neutralizer",
+            "index": 118,
+            "group": "Robots",
+            "name": "Stopper (Pysäyttäjä)",
+            "location": "@loc{Power Plant}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "basebot-soldier",
+            "index": 119,
+            "group": "Robots",
+            "name": "Executioner (Teloittaja)",
+            "location": "@loc{Power Plant}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "healerdrone-physics",
+            "index": 120,
+            "group": "Robots",
+            "name": "Repair Drone (Korjauslennokki)",
+            "location": "@loc{The Vault}, @loc{Power Plant}, @loc{Frozen Vault}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "roboguard",
+            "index": 121,
+            "group": "Robots",
+            "name": "Robo-Cop (Robottikyttä)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}, @loc{Fungal Caverns}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "roboguard-big",
+            "index": 122,
+            "group": "Robots",
+            "name": "Robo-Cop (tougher Vault version)",
+            "location": "@loc{The Vault}",
+            "method": "Kill the tougher Robo-Cop that guards The Vault. Use explosions or electricity."
+          },
+          {
+            "id": "assassin",
+            "index": 123,
+            "group": "Robots",
+            "name": "Assassin Robot (Salamurhaajarobotti)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}, @loc{Fungal Caverns}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "spearbot",
+            "index": 124,
+            "group": "Robots",
+            "name": "Lance Sentry (Peitsivartija)",
+            "location": "@loc{The Vault}, @loc{Cloudscape}, @loc{Frozen Vault}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "monk",
+            "index": 125,
+            "group": "Robots",
+            "name": "Monk (Munkki)",
+            "location": "@loc{The Vault}, @loc{Snowy Depths}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "missilecrab",
+            "index": 126,
+            "group": "Robots",
+            "name": "Cricket (Heinäsirkka)",
+            "location": "@loc{The Vault}, @loc{Frozen Vault}",
+            "method": "Kill one in these areas. Robots resist most damage, so use explosions, electricity or @item{Concentrated Mana}."
+          },
+          {
+            "id": "necrobot",
+            "index": 127,
+            "group": "Robots",
+            "name": "Necrobot (Tuonelankone)",
+            "location": "@loc{Frozen Vault}, @loc{Meat Realm}, @loc{Power Plant}",
+            "method": "Kill one in these areas. It revives nearby dead enemies, so kill it first."
+          },
+          {
+            "id": "necrobot-super",
+            "index": 128,
+            "group": "Robots",
+            "name": "Super Necrobot (Marraskone)",
+            "location": "@loc{Frozen Vault}, @loc{Meat Realm}, @loc{Power Plant}",
+            "method": "Kill one in these areas. It revives nearby dead enemies as Tiny Minions, so kill it first."
+          },
+          {
+            "id": "enlightened-alchemist",
+            "index": 129,
+            "group": "Alchemists",
+            "name": "Enlightened Alchemist (Valaistunut alkemisti)",
+            "location": "@loc{Desert Chasm}, @loc{Magical Temple}, @loc{Temple of the Art}, @loc{Ancient Laboratory}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "failed-alchemist",
+            "index": 130,
+            "group": "Alchemists",
+            "name": "Damned Alchemist (Kadotettu alkemisti)",
+            "location": "@loc{Meat Realm}, @loc{Wizards' Den}, @loc{Magical Temple}, @loc{Temple of the Art}, @loc{Ancient Laboratory}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "failed-alchemist-b",
+            "index": 131,
+            "group": "Alchemists",
+            "name": "Non-alchemist (Epäalkemisti)",
+            "location": "@loc{Temple of the Art}, @loc{Ancient Laboratory}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "fireskull",
+            "index": 132,
+            "group": "Elementals",
+            "name": "Fire Spirit (Liekkiö)",
+            "location": "@loc{Coal Pits}, @loc{Collapsed Mines}, @loc{Desert}, @loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "iceskull",
+            "index": 133,
+            "group": "Elementals",
+            "name": "Ice Spirit (Jäätiö)",
+            "location": "@loc{Snowy Chasm}, @loc{Snowy Depths}, @loc{Snowy Wasteland}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "thunderskull",
+            "index": 134,
+            "group": "Elementals",
+            "name": "Thunder Spirit (Sähkiö)",
+            "location": "@loc{Pyramid}, @loc{The Vault}, @loc{Snowy Chasm}, @loc{Frozen Vault}, @loc{Snowy Depths}, @loc{The Work (Sky)}, @loc{The Work (Hell)}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "firemage-weak",
+            "index": 135,
+            "group": "Elementals",
+            "name": "Fire Mage (Stendari)",
+            "location": "@loc{Collapsed Mines}, @loc{Desert}, @loc{Desert Chasm}, @loc{Mines}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "firemage",
+            "index": 136,
+            "group": "Elementals",
+            "name": "Hellfire Mage (Eldari)",
+            "location": "@loc{The Vault}, @loc{Desert Chasm}, @loc{Frozen Vault}, @loc{Wizards' Den}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "icemage",
+            "index": 137,
+            "group": "Elementals",
+            "name": "Old Man Winter (Pakkasukko)",
+            "location": "@loc{Snowy Chasm}, @loc{Frozen Vault}, @loc{Snowy Depths}, @loc{Wizards' Den}, @loc{Snowy Wasteland}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "thundermage",
+            "index": 138,
+            "group": "Elementals",
+            "name": "Thunder Mage (Ukko)",
+            "location": "@loc{Mines}, @loc{The Vault}, @loc{Frozen Vault}, @loc{Snowy Depths}, @loc{Fungal Caverns}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "thundermage-big",
+            "index": 139,
+            "group": "Elementals",
+            "name": "Great Thunder Mage (Suur-Ukko)",
+            "location": "@loc{Pyramid}, @loc{Cloudscape}, @loc{Snowy Chasm}, @loc{Frozen Vault}, @loc{The Work (Sky)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "barfer",
+            "index": 140,
+            "group": "Masters",
+            "name": "Bloated Wizard (Turvonnu velho)",
+            "location": "@loc{Wizards' Den}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-dark",
+            "index": 141,
+            "group": "Masters",
+            "name": "Master of Blinding (Sokaisunmestari)",
+            "location": "@loc{The Vault}, @loc{Snowy Depths}, @loc{Wizards' Den}, @loc{Fungal Caverns}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-tele",
+            "index": 142,
+            "group": "Masters",
+            "name": "Master of Teleportation (Siirtäjämestari)",
+            "location": "@loc{Snowy Depths}, @loc{Wizards' Den}, @loc{Fungal Caverns}, @loc{The Work (Sky)}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-poly",
+            "index": 143,
+            "group": "Masters",
+            "name": "Master of Polymorphing (Muodonmuutosmestari)",
+            "location": "@loc{Wizards' Den}, @loc{Fungal Caverns}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-swapper",
+            "index": 144,
+            "group": "Masters",
+            "name": "Master of Exchange (Vaihdosmestari)",
+            "location": "@loc{Cloudscape}, @loc{Snowy Depths}, @loc{Wizards' Den}, @loc{Fungal Caverns}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-neutral",
+            "index": 145,
+            "group": "Masters",
+            "name": "Master of Grounding (Maadoittajamestari)",
+            "location": "@loc{The Vault}, @loc{Snowy Depths}, @loc{Fungal Caverns}, @loc{Magical Temple}, @loc{Ancient Laboratory}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-returner",
+            "index": 146,
+            "group": "Masters",
+            "name": "Master of Returning (Palauttajamestari)",
+            "location": "@loc{Desert Chasm}, @loc{Wizards' Den}, @loc{Magical Temple}, @loc{Temple of the Art}, @loc{Ancient Laboratory}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-hearty",
+            "index": 147,
+            "group": "Masters",
+            "name": "Master of Wounding (Haavoittajamestari)",
+            "location": "@loc{Pyramid}, @loc{The Vault}, @loc{Lukki Lair}, @loc{Meat Realm}, @loc{Frozen Vault}, @loc{Wizards' Den}, @loc{Magical Temple}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-homing",
+            "index": 148,
+            "group": "Masters",
+            "name": "Master of Homing (Kohdennusmestari)",
+            "location": "@loc{Lukki Lair}, @loc{Wizards' Den}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-weaken",
+            "index": 149,
+            "group": "Masters",
+            "name": "Master of Vulnerability (Turvattomuusmestari)",
+            "location": "@loc{Pyramid}, @loc{Cloudscape}, @loc{Lukki Lair}, @loc{Desert Chasm}, @loc{Frozen Vault}, @loc{Wizards' Den}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wizard-twitchy",
+            "index": 150,
+            "group": "Masters",
+            "name": "Master of Twitching (Sätkymestari)",
+            "location": "@loc{Pyramid}, @loc{The Vault}, @loc{Lukki Lair}, @loc{Frozen Vault}, @loc{Wizards' Den}, @loc{Fungal Caverns}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wraith",
+            "index": 151,
+            "group": "Creeps",
+            "name": "Creep (Hyypiö)",
+            "location": "@loc{Cloudscape}, @loc{The Work (Sky)}, @loc{The Work (Hell)}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wraith-storm",
+            "index": 152,
+            "group": "Creeps",
+            "name": "Thunder Creep (Ukkoshyypiö)",
+            "location": "@loc{Cloudscape}, @loc{The Work (Sky)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "wraith-glowing",
+            "index": 153,
+            "group": "Creeps",
+            "name": "Glowing Creep (Hohtava hyypiö)",
+            "location": "@loc{Cloudscape}, @loc{Magical Temple}, @loc{The Work (Sky)}, @loc{The Work (Hell)}, @loc{Temple of the Art}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "eel",
+            "index": 154,
+            "group": "Worms",
+            "name": "Lamprey (Nahkiainen)",
+            "location": "@loc{Lake}",
+            "method": "Kill a lamprey in the lake water."
+          },
+          {
+            "id": "worm-tiny",
+            "index": 155,
+            "group": "Worms",
+            "name": "Small Worm (Pikkumato)",
+            "location": "@loc{Snowy Depths}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "worm",
+            "index": 156,
+            "group": "Worms",
+            "name": "Worm (Mato)",
+            "location": "@loc{Mines}, @loc{Snowy Depths}, @loc{Collapsed Mines}, @loc{Temple of the Art}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "worm-big",
+            "index": 157,
+            "group": "Worms",
+            "name": "Giant Worm (Jättimato)",
+            "location": "@loc{Meat Realm}, @loc{Snowy Depths}, @loc{Underground Jungle}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "worm-end",
+            "index": 158,
+            "group": "Worms",
+            "name": "Hell Worm (Helvetinmato)",
+            "location": "@loc{The Work (Hell)}",
+            "method": "Kill one in these areas."
+          },
+          {
+            "id": "meatmaggot",
+            "index": 159,
+            "group": "Worms",
+            "name": "Putrid Crawler (Mätäryömijä)",
+            "location": "@loc{Meat Realm}",
+            "method": "Kill a Putrid Crawler in the Meat Realm."
+          },
+          {
+            "id": "chest-mimic",
+            "index": 160,
+            "group": "Mimics",
+            "name": "Mimic (Matkija)",
+            "location": "Any chest",
+            "method": "Open chests until one is a @enemy{Matkija}, then kill it. It stays still until you touch it.",
+            "note": "A Mimic looks exactly like a normal chest and is rare."
+          },
+          {
+            "id": "chest-leggy",
+            "index": 161,
+            "group": "Mimics",
+            "name": "Leggy Mimic (Jalkamatkatavara)",
+            "location": "Any chest",
+            "method": "Open chests until a @enemy{Leggy Mimic} grows legs, then kill it.",
+            "note": "It replaces 5% of ordinary Mimics and drops the Leggy Mutation perk."
+          },
+          {
+            "id": "dark-alchemist",
+            "index": 162,
+            "group": "Mimics",
+            "name": "Memory of Evil (Pahan muisto)",
+            "location": "@loc{Treasure Chest}",
+            "method": "Open treasure chests until one holds a Heart Mimic that looks like an Extra Max Health pickup. Kill it.",
+            "note": "It is extremely rare. Roughly 0.1% of treasure chests hold it, and it bites for 30 to 40 damage."
+          },
+          {
+            "id": "shaman-wind",
+            "index": 163,
+            "group": "Mimics",
+            "name": "Lie (Valhe)",
+            "location": "Looks like a Spell Refresh pickup",
+            "method": "Find the extremely rare Lie that looks like a Spell Refresh pickup, and kill it.",
+            "note": "It bites for 30 to 40 damage when you walk up to it."
+          },
+          {
+            "id": "mimic-potion",
+            "index": 164,
+            "group": "Mimics",
+            "name": "Potion Mimic (Henkevä potu)",
+            "location": "@loc{Barren Temple}",
+            "method": "Walk up to the green potion in the Barren Temple. It comes to life, then kill it.",
+            "note": "It also has a 0.5% chance to replace a potion on a pedestal."
+          },
+          {
+            "id": "boss-dragon",
+            "index": 165,
+            "group": "Bosses",
+            "name": "Dragon (Suomuhauki)",
+            "location": "@loc{Dragoncave}, east of the Underground Jungle",
+            "method": "Get close to the stone egg in the cave to hatch the dragon, then kill it."
+          },
+          {
+            "id": "boss-limbs",
+            "index": 166,
+            "group": "Bosses",
+            "name": "Three-Eye's Legs (Kolmisilmän koipi)",
+            "location": "@loc{Pyramid} altar",
+            "method": "Walk up to the altar in the Pyramid to wake the boss, then kill it. It spawns guardian slimes in pairs."
+          },
+          {
+            "id": "boss-meat",
+            "index": 167,
+            "group": "Bosses",
+            "name": "Three-Eye's Heart (Kolmisilmän sydän)",
+            "location": "Western @loc{Meat Realm}",
+            "method": "Kill the spider-like flesh boss in its circular arena in the western Meat Realm."
+          },
+          {
+            "id": "boss-alchemist",
+            "index": 168,
+            "group": "Bosses",
+            "name": "High Alchemist (Ylialkemisti)",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill the High Alchemist. It reflects attacks with a field, so wait until the field drops."
+          },
+          {
+            "id": "boss-ghost",
+            "index": 169,
+            "group": "Bosses",
+            "name": "Forgotten (Unohdettu)",
+            "location": "@loc{Forgotten Cave}, west of the Snowy Chasm",
+            "method": "Kill the boss in the middle of the cave. It can only be hurt when it is close to a Paha Silmä."
+          },
+          {
+            "id": "islandspirit",
+            "index": 170,
+            "group": "Bosses",
+            "name": "Tapio's Vassal (Tapion vasalli)",
+            "location": "@loc{Lake} island, far west",
+            "method": "Kill 29 helpless animals, then go near the statue on the island. The boss steps out of a blue portal. Kill it.",
+            "note": "Animals made by polymorphing count too."
+          },
+          {
+            "id": "boss-pit",
+            "index": 171,
+            "group": "Bosses",
+            "name": "Connoisseur of Wands (Sauvojen tuntija)",
+            "location": "Chasm east of @loc{Lava Lake}",
+            "method": "Walk through the middle of the nearby Orb Room, then go back to the chasm. The boss appears under the bridge. Kill it.",
+            "note": "It does not appear if you pass through the room while invisible."
+          },
+          {
+            "id": "boss-robot",
+            "index": 172,
+            "group": "Bosses",
+            "name": "Three-Eye's Eye (Kolmisilmän silmä)",
+            "location": "@loc{Power Plant}",
+            "method": "Hit the boss with ice, slice, drill, holy or electricity damage. Ordinary projectiles do nothing to it."
+          },
+          {
+            "id": "fish-giga",
+            "index": 173,
+            "group": "Bosses",
+            "name": "Creature of the Deep (Syväolento)",
+            "location": "Bottom of the @loc{Lake}",
+            "method": "Kill the Creature of the Deep near the bottom of the lake. Hit it from close range while its eye is open."
+          },
+          {
+            "id": "maggot-tiny",
+            "index": 174,
+            "group": "Bosses",
+            "name": "Slime Maggot (Limatoukka)",
+            "location": "Buried skull in the @loc{Meat Realm}",
+            "method": "Dig to the skull set in extremely dense rock and kill the Slime Maggot.",
+            "note": "Its Ominous Liquid poisons anything it touches."
+          },
+          {
+            "id": "gate-monster-a",
+            "index": 175,
+            "group": "Bosses",
+            "name": "Goalkeeper (Veska)",
+            "location": "Between @loc{Temple of the Art} and @loc{Magical Temple}",
+            "method": "Throw 3 eggs at the triangular gate to wake it. It splits into four pieces. Kill every piece.",
+            "note": "Casting Summon Egg 3 times works instead of throwing eggs. The four pieces are Veska, Molari, Mokke and Seula."
+          },
+          {
+            "id": "gate-monster-b",
+            "index": 176,
+            "group": "Bosses",
+            "name": "Goalkeeper (Molari)",
+            "location": "Between @loc{Temple of the Art} and @loc{Magical Temple}",
+            "method": "Wake the gate as described for Veska, then kill this piece."
+          },
+          {
+            "id": "gate-monster-c",
+            "index": 177,
+            "group": "Bosses",
+            "name": "Goalkeeper (Mokke)",
+            "location": "Between @loc{Temple of the Art} and @loc{Magical Temple}",
+            "method": "Wake the gate as described for Veska, then kill this piece."
+          },
+          {
+            "id": "gate-monster-d",
+            "index": 178,
+            "group": "Bosses",
+            "name": "Sieve (Seula)",
+            "location": "Between @loc{Temple of the Art} and @loc{Magical Temple}",
+            "method": "Wake the gate as described for Veska, then kill this piece."
+          },
+          {
+            "id": "boss-wizard",
+            "index": 179,
+            "group": "Bosses",
+            "name": "Master of Masters (Mestarien mestari)",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill the Master of Masters in its throne room."
+          },
+          {
+            "id": "boss-centipede",
+            "index": 180,
+            "group": "Bosses",
+            "name": "Three-Eye (Kolmisilmä)",
+            "location": "@loc{The Laboratory}",
+            "method": "Kill Kolmisilmä, the final boss, in its arena."
+          },
+          {
+            "id": "friend",
+            "index": 181,
+            "group": "Bosses",
+            "name": "Friend (Toveri)",
+            "location": "@loc{Friend Room}",
+            "method": "Find the Friend Room, one of 6 possible spots chosen when the world is made, and kill Toveri.",
+            "note": "Toveri starts out passive. The Spatial Awareness perk marks the room with a green square."
+          },
+          {
+            "id": "boss-sky",
+            "index": 182,
+            "group": "Bosses",
+            "name": "Stone (Kivi)",
+            "location": "@loc{Kivi Temple}, east of the Ominous Temple",
+            "method": "Enter the temple and kill Kivi. It copies your health and returns the damage you deal."
+          },
+          {
+            "id": "boss-ghost-polyp",
+            "index": 183,
+            "group": "Boss minions",
+            "name": "Fade (Häive)",
+            "location": "@loc{Forgotten Cave}",
+            "method": "Kill a Fade that appears with the Forgotten."
+          },
+          {
+            "id": "parallel-alchemist",
+            "index": 184,
+            "group": "Shadow bosses",
+            "name": "Alchemist's Shadow (Alkemistin Varjo)",
+            "location": "Surface of a Parallel World",
+            "method": "Travel to a Parallel World and kill the Alchemist's Shadow on the surface. It reflects attacks with a field."
+          },
+          {
+            "id": "parallel-tentacles",
+            "index": 185,
+            "group": "Shadow bosses",
+            "name": "Three-eye's Minion (Kolmisilmän Kätyri)",
+            "location": "Surface of a Parallel World",
+            "method": "Travel to a Parallel World and kill the Three-Eye's Minion on the surface."
           }
         ]
       }
@@ -416,30 +1904,820 @@
       "estTime": "80–200 hours across attempts",
       "estMinutes": 9000,
       "stage": 3,
-      "confidence": "verified",
+      "confidence": "unverified",
       "summary": "Reach 100% in the @mechanic{Spells} progress panel.",
       "guide": {
-        "kind": "standard",
-        "context": "",
-        "steps": [
+        "kind": "collectible",
+        "context": "A spell fills its icon only after you cast it once. Buying or carrying it does not count. Most spells turn up freely in Holy Mountain shops, on wands and in chests, and you only need to cast them. The rows below are the spells that stay locked until you do something special, so unlock each one first. Then find it in a Holy Mountain spell shop or on a wand in a later run, and cast it. An orb gives its spell the first time you collect it, so cast it right away. Test dangerous spells away from yourself, because some projectiles and modifiers hurt you.",
+        "collectibles": [
           {
-            "id": "identify-spells",
-            "text": "Open the Spells panel under Progress. Use the matching icon grid in [progress icon grid](https://ipeterov.github.io/noita-progress/) to identify missing spells and open their individual acquisition instructions."
+            "id": "sea-of-lava",
+            "index": 1,
+            "group": "Orb spells",
+            "name": "Sea of lava",
+            "location": "@loc{Floating Island} above the starting Mountain",
+            "method": "Collect the Sea of Lava orb."
           },
           {
-            "id": "cast-new",
-            "text": "Put each new spell on a wand and cast it. For a modifier, include a compatible projectile so the modifier is used.",
-            "note": "Buying or carrying a spell does not add the spell to Progress."
+            "id": "earthquake",
+            "index": 2,
+            "group": "Orb spells",
+            "name": "Earthquake",
+            "location": "Top of the @loc{Pyramid}",
+            "method": "Collect the Earthquake orb."
           },
           {
-            "id": "special-unlocks",
-            "text": "Cast each spell awarded by an ordinary orb when you first collect that orb. If you missed the first reward, look for the unlocked spell in Holy Mountain shops or on wands in later runs and cast the spell then. For other missing spells, follow the boss or quest unlock attached to that spell in the icon grid, then cast the reward.",
-            "note": "The Greek letters, orbit modifiers, experimental-wand spells and musical notes are among the entries found outside ordinary shops."
+            "id": "summon-tentacle",
+            "index": 3,
+            "group": "Orb spells",
+            "name": "Summon Tentacle",
+            "location": "Below the @loc{Frozen Vault}",
+            "method": "Collect the Summon Tentacle orb."
           },
           {
-            "id": "finish-spells",
-            "text": "After each new cast, check the Spells panel. Continue acquiring and casting missing entries until the panel reaches 100%.",
-            "note": "Test dangerous spells away from your character; some projectiles and modifiers allow friendly fire."
+            "id": "summon-tentacle-with-timer",
+            "index": 4,
+            "group": "Orb spells",
+            "name": "Summon Tentacle with timer",
+            "location": "Below the @loc{Frozen Vault}",
+            "method": "Collect the Summon Tentacle orb. It unlocks both tentacle spells."
+          },
+          {
+            "id": "nuke",
+            "index": 5,
+            "group": "Orb spells",
+            "name": "Nuke",
+            "location": "Beneath the @loc{Lava Lake}",
+            "method": "Collect the Nuke orb."
+          },
+          {
+            "id": "thundercloud",
+            "index": 6,
+            "group": "Orb spells",
+            "name": "Thundercloud",
+            "location": "Orb Room east of the @loc{Lava Lake}",
+            "method": "Collect the Thundercloud orb."
+          },
+          {
+            "id": "necromancy",
+            "index": 7,
+            "group": "Orb spells",
+            "name": "Necromancy",
+            "location": "Bottom of the @loc{Sandcave}",
+            "method": "Collect the Necromancy orb."
+          },
+          {
+            "id": "holy-bomb",
+            "index": 8,
+            "group": "Orb spells",
+            "name": "Holy Bomb",
+            "location": "Orb Room west of the @loc{Magical Temple}",
+            "method": "Collect the Holy Bomb orb."
+          },
+          {
+            "id": "spiral-shot",
+            "index": 9,
+            "group": "Orb spells",
+            "name": "Spiral shot",
+            "location": "Bottom-left of @loc{Lukki Lair}",
+            "method": "Collect the Spiral Shot orb."
+          },
+          {
+            "id": "summon-deercoy",
+            "index": 10,
+            "group": "Orb spells",
+            "name": "Summon deercoy",
+            "location": "Bottom of the @loc{Snowy Chasm}",
+            "method": "Collect the Summon Deercoy orb."
+          },
+          {
+            "id": "flock-of-ducks",
+            "index": 11,
+            "group": "Orb spells",
+            "name": "Flock of Ducks",
+            "location": "Bottom of the @loc{Snowy Chasm}",
+            "method": "Collect the Summon Deercoy orb. It unlocks this spell too."
+          },
+          {
+            "id": "worm-launcher",
+            "index": 12,
+            "group": "Orb spells",
+            "name": "Worm Launcher",
+            "location": "Bottom of the @loc{Snowy Chasm}",
+            "method": "Collect the Summon Deercoy orb. It unlocks this spell too."
+          },
+          {
+            "id": "cement",
+            "index": 13,
+            "group": "Orb spells",
+            "name": "Cement",
+            "location": "Bottom of the @loc{Wizards' Den}",
+            "method": "Collect the Cement orb."
+          },
+          {
+            "id": "fireworks",
+            "index": 14,
+            "group": "Orb spells",
+            "name": "Fireworks!",
+            "location": "Center of @loc{The Work (Hell)}",
+            "method": "Collect the Fireworks! orb."
+          },
+          {
+            "id": "add-trigger",
+            "index": 15,
+            "group": "Boss rewards",
+            "name": "Add trigger",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill @enemy{Mestarien mestari}."
+          },
+          {
+            "id": "add-timer",
+            "index": 16,
+            "group": "Boss rewards",
+            "name": "Add timer",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill @enemy{Mestarien mestari}."
+          },
+          {
+            "id": "add-expiration-trigger",
+            "index": 17,
+            "group": "Boss rewards",
+            "name": "Add expiration trigger",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill @enemy{Mestarien mestari}."
+          },
+          {
+            "id": "spell-duplication",
+            "index": 18,
+            "group": "Boss rewards",
+            "name": "Spell duplication",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill @enemy{Mestarien mestari}."
+          },
+          {
+            "id": "wand-refresh",
+            "index": 19,
+            "group": "Boss rewards",
+            "name": "Wand Refresh",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill @enemy{Mestarien mestari}."
+          },
+          {
+            "id": "wand-homing",
+            "index": 20,
+            "group": "Boss rewards",
+            "name": "Wand Homing",
+            "location": "@loc{Throne Room}, east edge of the eastern @loc{Wizards' Den}",
+            "method": "Kill @enemy{Mestarien mestari} by drowning it in swamp liquid."
+          },
+          {
+            "id": "alpha",
+            "index": 21,
+            "group": "Boss rewards",
+            "name": "Alpha",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "gamma",
+            "index": 22,
+            "group": "Boss rewards",
+            "name": "Gamma",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "mu",
+            "index": 23,
+            "group": "Boss rewards",
+            "name": "Mu",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "omega",
+            "index": 24,
+            "group": "Boss rewards",
+            "name": "Omega",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "phi",
+            "index": 25,
+            "group": "Boss rewards",
+            "name": "Phi",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "sigma",
+            "index": 26,
+            "group": "Boss rewards",
+            "name": "Sigma",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "tau",
+            "index": 27,
+            "group": "Boss rewards",
+            "name": "Tau",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "zeta",
+            "index": 28,
+            "group": "Boss rewards",
+            "name": "Zeta",
+            "location": "@loc{Abandoned Alchemy Lab}",
+            "method": "Kill @enemy{Ylialkemisti}."
+          },
+          {
+            "id": "random-spell",
+            "index": 29,
+            "group": "Boss rewards",
+            "name": "Random spell",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "copy-random-spell",
+            "index": 30,
+            "group": "Boss rewards",
+            "name": "Copy random spell",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "copy-random-spell-thrice",
+            "index": 31,
+            "group": "Boss rewards",
+            "name": "Copy random spell thrice",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "copy-three-random-spells",
+            "index": 32,
+            "group": "Boss rewards",
+            "name": "Copy three random spells",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "random-projectile-spell",
+            "index": 33,
+            "group": "Boss rewards",
+            "name": "Random projectile spell",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "random-damage",
+            "index": 34,
+            "group": "Boss rewards",
+            "name": "Random damage",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "nolla",
+            "index": 35,
+            "group": "Boss rewards",
+            "name": "Nolla",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "random-modifier-spell",
+            "index": 36,
+            "group": "Boss rewards",
+            "name": "Random modifier spell",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "random-static-projectile-spell",
+            "index": 37,
+            "group": "Boss rewards",
+            "name": "Random static projectile spell",
+            "location": "@loc{Pyramid} altar",
+            "method": "Kill @enemy{Kolmisilmän koipi}, the boss that wakes when you walk up to the altar."
+          },
+          {
+            "id": "fireball-orbit",
+            "index": 38,
+            "group": "Boss rewards",
+            "name": "Fireball Orbit",
+            "location": "@loc{Dragoncave}, east of the @loc{Underground Jungle}",
+            "method": "Kill @enemy{Suomuhauki}, the dragon hatched from the stone egg."
+          },
+          {
+            "id": "nuke-orbit",
+            "index": 39,
+            "group": "Boss rewards",
+            "name": "Nuke Orbit",
+            "location": "@loc{Dragoncave}, east of the @loc{Underground Jungle}",
+            "method": "Kill @enemy{Suomuhauki}, the dragon hatched from the stone egg."
+          },
+          {
+            "id": "sawblade-orbit",
+            "index": 40,
+            "group": "Boss rewards",
+            "name": "Sawblade Orbit",
+            "location": "@loc{Dragoncave}, east of the @loc{Underground Jungle}",
+            "method": "Kill @enemy{Suomuhauki}, the dragon hatched from the stone egg."
+          },
+          {
+            "id": "orbit-larpa",
+            "index": 41,
+            "group": "Boss rewards",
+            "name": "Orbit Larpa",
+            "location": "@loc{Dragoncave}, east of the @loc{Underground Jungle}",
+            "method": "Kill @enemy{Suomuhauki}, the dragon hatched from the stone egg."
+          },
+          {
+            "id": "plasma-beam-orbit",
+            "index": 42,
+            "group": "Boss rewards",
+            "name": "Plasma Beam Orbit",
+            "location": "@loc{Dragoncave}, east of the @loc{Underground Jungle}",
+            "method": "Kill @enemy{Suomuhauki}, the dragon hatched from the stone egg."
+          },
+          {
+            "id": "matosade",
+            "index": 43,
+            "group": "Boss rewards",
+            "name": "Matosade",
+            "location": "Chasm east of @loc{Lava Lake}",
+            "method": "Kill @enemy{Sauvojen tuntija}.",
+            "note": "The boss only appears after you pass through the middle of the nearby Orb Room and come back."
+          },
+          {
+            "id": "meteorisade",
+            "index": 44,
+            "group": "Boss rewards",
+            "name": "Meteorisade",
+            "location": "Chasm east of @loc{Lava Lake}",
+            "method": "Kill @enemy{Sauvojen tuntija}.",
+            "note": "The boss only appears after you pass through the middle of the nearby Orb Room and come back."
+          },
+          {
+            "id": "muodonmuutos",
+            "index": 45,
+            "group": "Boss rewards",
+            "name": "Muodonmuutos",
+            "location": "@loc{Lake} island, far west",
+            "method": "Kill 29 helpless animals, then go near the statue on the island. Kill @enemy{Tapion vasalli} when it steps out of the portal."
+          },
+          {
+            "id": "touch-of-gold",
+            "index": 46,
+            "group": "Quest rewards",
+            "name": "Touch of Gold?",
+            "location": "Floating outhouse, northwest of the @loc{Pyramid} summit",
+            "method": "Destroy a large part of the outhouse. The spell appears."
+          },
+          {
+            "id": "sea-of-mimicium",
+            "index": 47,
+            "group": "Quest rewards",
+            "name": "Sea of Mimicium",
+            "location": "@loc{Henkevä Temple}",
+            "method": "Fill dormant Potion Mimics with Mimicium to wake them. Wake 10 of them.",
+            "note": "A woken Potion Mimic also has a 20% chance to drop this spell when it dies."
+          },
+          {
+            "id": "touch-of-grass",
+            "index": 48,
+            "group": "Quest rewards",
+            "name": "Touch of Grass",
+            "location": "@loc{Ominous Temple}",
+            "method": "Fill the pool in the Ominous Temple with Ominous Liquid. Sea of Mimicium works well for this."
+          },
+          {
+            "id": "cessation",
+            "index": 49,
+            "group": "Quest rewards",
+            "name": "Cessation",
+            "location": "@loc{Barren Temple}",
+            "method": "Use Touch of Grass on the sigil inside the Barren Temple."
+          },
+          {
+            "id": "octuple-spell",
+            "index": 50,
+            "group": "Quest rewards",
+            "name": "Octuple spell",
+            "location": "@loc{Coral Chest}, east side of the eastern @loc{Cloudscape}",
+            "method": "Take the Crystal Key from the High Alchemist. Kick all four Music Machines near it, then throw it at the chest."
+          },
+          {
+            "id": "myriad-spell",
+            "index": 51,
+            "group": "Quest rewards",
+            "name": "Myriad Spell",
+            "location": "@loc{Coral Chest}, east side of the eastern @loc{Cloudscape}",
+            "method": "Take the Crystal Key from the High Alchemist. Kick all four Music Machines near it, then throw it at the chest."
+          },
+          {
+            "id": "divide-by-2",
+            "index": 52,
+            "group": "Quest rewards",
+            "name": "Divide by 2",
+            "location": "@loc{Coral Chest}, east side of the eastern @loc{Cloudscape}",
+            "method": "Take the Crystal Key from the High Alchemist. Kick all four Music Machines near it, then throw it at the chest."
+          },
+          {
+            "id": "divide-by-3",
+            "index": 53,
+            "group": "Quest rewards",
+            "name": "Divide by 3",
+            "location": "@loc{Coral Chest}, east side of the eastern @loc{Cloudscape}",
+            "method": "Take the Crystal Key from the High Alchemist. Kick all four Music Machines near it, then throw it at the chest."
+          },
+          {
+            "id": "divide-by-4",
+            "index": 54,
+            "group": "Quest rewards",
+            "name": "Divide by 4",
+            "location": "@loc{Coral Chest}, east side of the eastern @loc{Cloudscape}",
+            "method": "Take the Crystal Key from the High Alchemist. Kick all four Music Machines near it, then throw it at the chest."
+          },
+          {
+            "id": "divide-by-10",
+            "index": 55,
+            "group": "Quest rewards",
+            "name": "Divide by 10",
+            "location": "@loc{Avarice Diamond}, top of @loc{The Tower}",
+            "method": "Walk into the Avarice Diamond while the Curse of Greed is active.",
+            "note": "The curse is not lifted by this."
+          },
+          {
+            "id": "giga-holy-bomb",
+            "index": 56,
+            "group": "Quest rewards",
+            "name": "Giga Holy Bomb",
+            "location": "@loc{Avarice Diamond}, top of @loc{The Tower}",
+            "method": "Bring a friendly Toveri into the Avarice Diamond. A live Nuke and this spell appear."
+          },
+          {
+            "id": "giga-nuke",
+            "index": 57,
+            "group": "Quest rewards",
+            "name": "Giga Nuke",
+            "location": "@loc{Avarice Diamond}, top of @loc{The Tower}",
+            "method": "Lead a Kauhuhirviö (Horror Monster) into the Avarice Diamond. A live Nuke and this spell appear."
+          },
+          {
+            "id": "spells-to-acid",
+            "index": 58,
+            "group": "Quest rewards",
+            "name": "Spells to acid",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "spells-to-black-holes",
+            "index": 59,
+            "group": "Quest rewards",
+            "name": "Spells to black holes",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "spells-to-death-crosses",
+            "index": 60,
+            "group": "Quest rewards",
+            "name": "Spells to death crosses",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "spells-to-magic-missiles",
+            "index": 61,
+            "group": "Quest rewards",
+            "name": "Spells to magic missiles",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "spells-to-nukes",
+            "index": 62,
+            "group": "Quest rewards",
+            "name": "Spells to nukes",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "spells-to-giga-sawblades",
+            "index": 63,
+            "group": "Quest rewards",
+            "name": "Spells to giga sawblades",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "summon-fish",
+            "index": 64,
+            "group": "Quest rewards",
+            "name": "Summon fish",
+            "location": "@loc{Hiisi Base}, anvil in the lower right",
+            "method": "Finish the fish rain event to earn the Hauen Leukaluu wand. Put it on the Hiisi Anvil without the Kantele nearby.",
+            "note": "The anvil erases every spell on the wand, so empty it first."
+          },
+          {
+            "id": "copy-trail",
+            "index": 65,
+            "group": "Quest rewards",
+            "name": "Copy trail",
+            "location": "@loc{Dark Chest} in @loc{The Work (Hell)}",
+            "method": "Take the Crystal Key from the High Alchemist. Play it one song of Kantele notes and one of Ocarina notes while it lies on the ground, then throw it at the chest."
+          },
+          {
+            "id": "rainbow-trail",
+            "index": 66,
+            "group": "Quest rewards",
+            "name": "Rainbow trail",
+            "location": "Floating platform in the sky above the @loc{Lake} island's wooden figure",
+            "method": "Fly up above the lake island and take the spell from the floating platform directly over the wooden figure."
+          },
+          {
+            "id": "destruction",
+            "index": 67,
+            "group": "Quest rewards",
+            "name": "Destruction",
+            "location": "Centre of the @loc{Moon}, high in @loc{The Work (Sky)}",
+            "method": "Collect all five Essences and bring them to the centre of the Moon. Fire is in a pool under the wooden figure on the lake island. Water is in the westernmost passage of The Work (Hell). Earth is in a high alcove at the east edge of the world, past the Desert. Air is in the centre of the Cloudscape above the Lake. Spirits is at the bottom of the Lake.",
+            "note": "A Sun already sitting in the Moon stops this from working. The Moon Radar perk helps you find the Moon."
+          },
+          {
+            "id": "omega-black-hole",
+            "index": 68,
+            "group": "Quest rewards",
+            "name": "Omega Black Hole",
+            "location": "Celestial Scale in the @loc{Desert}, just past the @loc{Pyramid}",
+            "method": "Finish the Sun Quest: turn the Moon in The Work (Sky) into a Sun, and the Dark Moon in The Work (Hell) into a Dark Sun. Afterwards the spell sits on top of the Celestial Scale.",
+            "note": "To make each Sun: kill Unohdettu in a Parallel World for a Sun Seed and drop it on top of the Pyramid to get a Sun Stone. Blow the stone up with six explosions at once (or one Summon Sädekivi), and let it kill 100 creatures. Then add Kiuaskivi, Ukkoskivi, Tannerkivi and Vuoksikivi. For the Dark Sun, also add a Kakkakikkare before the last of those stones. The spell shows up on the scale in a run after you finish."
+          },
+          {
+            "id": "omega-white-hole",
+            "index": 69,
+            "group": "Quest rewards",
+            "name": "Omega white hole",
+            "location": "Shops in @loc{The Work (Hell)} and @loc{The Work (Sky)}",
+            "method": "Finish the Sun Quest (steps are in the Omega Black Hole row). The spell is then unlocked and often sold in the shops of The Work (Hell) and The Work (Sky)."
+          },
+          {
+            "id": "the-end-of-everything",
+            "index": 70,
+            "group": "Quest rewards",
+            "name": "The end of everything",
+            "location": "@loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Underground Jungle}",
+            "method": "Kick the three Hand Statues in the Snowy Depths. The third one drops the Broken Spell. Throw it on the Hiisi Anvil in the lower right of Hiisi Base to turn it into Summon Portal. In the Underground Jungle, find the four Munkki statues holding staffs. Cast Summon Portal where the lines from their staffs cross, then take The End of Everything from the metal chest in the Robotic Egg beyond the portal.",
+            "note": "Summon Portal gets a single cast, and any other spot wastes it. Two statues are enough: a north or south statue gives a vertical line, an east or west statue gives a horizontal line, and the portal spot is where they cross. The chest is at the bottom left of the egg, and robots guard the way."
+          },
+          {
+            "id": "summon-omega-sawblade",
+            "index": 71,
+            "group": "Quest rewards",
+            "name": "Summon Omega Sawblade",
+            "location": "@loc{Hiisi Base}, @loc{Snowy Depths}, @loc{Underground Jungle}",
+            "method": "Do the same Broken Spell route as The End of Everything and open the metal chest in the Robotic Egg. Opening it unlocks this spell too.",
+            "note": "Steps are in The End of Everything row."
+          },
+          {
+            "id": "kantele-note-a",
+            "index": 72,
+            "group": "Music notes",
+            "name": "Kantele - note A",
+            "location": "@loc{Giant Tree}",
+            "method": "Take the note spell from the Kantele room inside the tree. Cast it to register it."
+          },
+          {
+            "id": "kantele-note-d",
+            "index": 73,
+            "group": "Music notes",
+            "name": "Kantele - note D",
+            "location": "@loc{Giant Tree}",
+            "method": "Take the note spell from the Kantele room inside the tree. Cast it to register it."
+          },
+          {
+            "id": "kantele-note-d-plus",
+            "index": 74,
+            "group": "Music notes",
+            "name": "Kantele - note D#",
+            "location": "@loc{Giant Tree}",
+            "method": "Take the note spell from the Kantele room inside the tree. Cast it to register it."
+          },
+          {
+            "id": "kantele-note-e",
+            "index": 75,
+            "group": "Music notes",
+            "name": "Kantele - note E",
+            "location": "@loc{Giant Tree}",
+            "method": "Take the note spell from the Kantele room inside the tree. Cast it to register it."
+          },
+          {
+            "id": "kantele-note-g",
+            "index": 76,
+            "group": "Music notes",
+            "name": "Kantele - note G",
+            "location": "@loc{Giant Tree}",
+            "method": "Take the note spell from the Kantele room inside the tree. Cast it to register it."
+          },
+          {
+            "id": "ocarina-note-a",
+            "index": 77,
+            "group": "Music notes",
+            "name": "Ocarina - note A",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-b",
+            "index": 78,
+            "group": "Music notes",
+            "name": "Ocarina - note B",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-c",
+            "index": 79,
+            "group": "Music notes",
+            "name": "Ocarina - note C",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-d",
+            "index": 80,
+            "group": "Music notes",
+            "name": "Ocarina - note D",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-e",
+            "index": 81,
+            "group": "Music notes",
+            "name": "Ocarina - note E",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-f",
+            "index": 82,
+            "group": "Music notes",
+            "name": "Ocarina - note F",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-g-plus",
+            "index": 83,
+            "group": "Music notes",
+            "name": "Ocarina - note G#",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "ocarina-note-a2",
+            "index": 84,
+            "group": "Music notes",
+            "name": "Ocarina - note A2",
+            "location": "@loc{Cloudscape}, platform above the bridge over the Frozen Vault chasm",
+            "method": "Take the note spell from the platform where the Huilu lies."
+          },
+          {
+            "id": "requirement-projectile-spells",
+            "index": 85,
+            "group": "Experimental wands",
+            "name": "Requirement - Projectile Spells",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "requirement-low-health",
+            "index": 86,
+            "group": "Experimental wands",
+            "name": "Requirement - Low Health",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "requirement-enemies",
+            "index": 87,
+            "group": "Experimental wands",
+            "name": "Requirement - Enemies",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "requirement-every-other",
+            "index": 88,
+            "group": "Experimental wands",
+            "name": "Requirement - Every Other",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "requirement-otherwise",
+            "index": 89,
+            "group": "Experimental wands",
+            "name": "Requirement - Otherwise",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "requirement-endpoint",
+            "index": 90,
+            "group": "Experimental wands",
+            "name": "Requirement - Endpoint",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "slow-but-steady",
+            "index": 91,
+            "group": "Experimental wands",
+            "name": "Slow But Steady",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop a Stone Tablet in the Fishing Hut to receive the Experimental Wand (Requirements). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "funky",
+            "index": 92,
+            "group": "Experimental wands",
+            "name": "???",
+            "location": "@loc{??? room}, east wall of the @loc{Power Plant}",
+            "method": "Find the Experimental Wand (???) in the ??? room on the east wall of the Power Plant."
+          },
+          {
+            "id": "red-glimmer",
+            "index": 93,
+            "group": "Experimental wands",
+            "name": "Red Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "orange-glimmer",
+            "index": 94,
+            "group": "Experimental wands",
+            "name": "Orange Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "yellow-glimmer",
+            "index": 95,
+            "group": "Experimental wands",
+            "name": "Yellow Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "green-glimmer",
+            "index": 96,
+            "group": "Experimental wands",
+            "name": "Green Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "blue-glimmer",
+            "index": 97,
+            "group": "Experimental wands",
+            "name": "Blue Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "purple-glimmer",
+            "index": 98,
+            "group": "Experimental wands",
+            "name": "Purple Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "rainbow-glimmer",
+            "index": 99,
+            "group": "Experimental wands",
+            "name": "Rainbow Glimmer",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
+          },
+          {
+            "id": "invisible-spell",
+            "index": 100,
+            "group": "Experimental wands",
+            "name": "Invisible Spell",
+            "location": "@loc{Fishing Hut} at the @loc{Lake}",
+            "method": "Drop an Emerald Tablet in the Fishing Hut to receive the Experimental Wand (Glimmer). Taking the wand unlocks this spell."
           }
         ]
       }
@@ -464,32 +2742,866 @@
       "confidence": "verified",
       "summary": "Reach 100% in the @mechanic{Perks} progress panel.",
       "guide": {
-        "kind": "standard",
-        "context": "",
-        "steps": [
+        "kind": "collectible",
+        "context": "Each Holy Mountain offers three perks on an altar, and taking one removes the other two. A reroll costs 200 gold the first time and doubles with each use. Take a perk whose icon is still empty and reroll when the choices are already filled in. Looking at a perk without taking it does not fill its icon. The last three rows never appear on an altar.",
+        "collectibles": [
           {
-            "id": "new-perks",
-            "text": "Check the Perks panel under Progress. At each Holy Mountain, take a perk whose icon is still missing. Reroll unwanted choices before taking a perk.",
-            "note": "Rerolls start at 200 gold and become more expensive with use."
+            "id": "extra-money",
+            "index": 1,
+            "group": "Gold",
+            "name": "Greed",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Each gold nugget is worth double."
           },
           {
-            "id": "leggy",
-            "text": "Open chests until a @enemy{Leggy Mimic} wakes, then kill the mimic and pick up @mechanic{Leggy Mutation}.",
-            "note": "The legged variant replaces 5% of ordinary Mimics and awakens when you use the chest’s interaction prompt."
+            "id": "extra-money-trick-kill",
+            "index": 2,
+            "group": "Gold",
+            "name": "Trick Greed",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gold from accidental kills is worth four times as much."
           },
           {
-            "id": "moon",
-            "text": "Travel east from the @loc{Overgrown Cavern} to the @loc{??? room} and pick up @mechanic{Moon Radar}."
+            "id": "gold-is-forever",
+            "index": 3,
+            "group": "Gold",
+            "name": "Gold Is Forever",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gold nuggets stay on the ground and do not fade."
           },
           {
-            "id": "spatial",
-            "text": "In the @loc{Power Plant}, fight @enemy{Kolmisilmän silmä} with ice, slice, drill, holy or electricity damage. Attack during its firing phases when its projectile-eating shield opens, then collect @mechanic{Spatial Awareness} after the death explosion.",
+            "id": "trick-blood-money",
+            "index": 4,
+            "group": "Gold",
+            "name": "Trick Blood Money",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Accidental kills drop blood money."
+          },
+          {
+            "id": "exploding-gold",
+            "index": 5,
+            "group": "Gold",
+            "name": "Exploding Gold",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gold dropped by enemies explodes when it fades, is picked up or is touched by enemies."
+          },
+          {
+            "id": "attract-items",
+            "index": 6,
+            "group": "Gold",
+            "name": "Attract Gold",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gold nuggets fly toward you."
+          },
+          {
+            "id": "hover-boost",
+            "index": 7,
+            "group": "Movement and levitation",
+            "name": "Strong Levitation",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You can levitate twice as long."
+          },
+          {
+            "id": "faster-levitation",
+            "index": 8,
+            "group": "Movement and levitation",
+            "name": "Faster Levitation",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You rise 75% faster."
+          },
+          {
+            "id": "movement-faster",
+            "index": 9,
+            "group": "Movement and levitation",
+            "name": "Faster Movement",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You walk faster."
+          },
+          {
+            "id": "strong-kick",
+            "index": 10,
+            "group": "Movement and levitation",
+            "name": "Never Skip Leg Day",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your kick hits harder and pushes enemies farther."
+          },
+          {
+            "id": "telekinesis",
+            "index": 11,
+            "group": "Movement and levitation",
+            "name": "Telekinetic Kick",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your kick gains telekinetic powers."
+          },
+          {
+            "id": "angry-levitation",
+            "index": 12,
+            "group": "Movement and levitation",
+            "name": "Rage-fueled Levitation",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Each kill refills some of your levitation."
+          },
+          {
+            "id": "levitation-trail",
+            "index": 13,
+            "group": "Movement and levitation",
+            "name": "Levitation Trail",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You leave damaging sparks behind while levitating."
+          },
+          {
+            "id": "no-more-knockback",
+            "index": 14,
+            "group": "Movement and levitation",
+            "name": "No More Knockback",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Enemies cannot push you back."
+          },
+          {
+            "id": "breath-underwater",
+            "index": 15,
+            "group": "Movement and levitation",
+            "name": "Breathless",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You cannot drown and move easily in liquids."
+          },
+          {
+            "id": "teleportitis",
+            "index": 16,
+            "group": "Movement and levitation",
+            "name": "Teleportitis",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You take 20% less damage but teleport away whenever you are hurt."
+          },
+          {
+            "id": "teleportitis-dodge",
+            "index": 17,
+            "group": "Movement and levitation",
+            "name": "Teleportitis Dodge",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You teleport a short way when an enemy projectile comes close."
+          },
+          {
+            "id": "extra-hp",
+            "index": 18,
+            "group": "Health and survival",
+            "name": "Extra Health",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Raises your maximum health by 50%.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "hearts-more-extra-hp",
+            "index": 19,
+            "group": "Health and survival",
+            "name": "Stronger Hearts",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Heart pickups give more maximum health."
+          },
+          {
+            "id": "respawn",
+            "index": 20,
+            "group": "Health and survival",
+            "name": "Extra Life",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You come back with 100 health the next time you die.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "saving-grace",
+            "index": 21,
+            "group": "Health and survival",
+            "name": "Saving Grace",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. A fatal hit leaves you on 1 health if you had more than 1."
+          },
+          {
+            "id": "vampirism",
+            "index": 22,
+            "group": "Health and survival",
+            "name": "Vampirism",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You lose 25% maximum health but can heal by drinking blood."
+          },
+          {
+            "id": "adventurer",
+            "index": 23,
+            "group": "Health and survival",
+            "name": "Healthy Exploration",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Entering a new area heals you for 60."
+          },
+          {
+            "id": "wand-experimenter",
+            "index": 24,
+            "group": "Health and survival",
+            "name": "Wand Experimenter",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Firing a new, unmodified wand heals you."
+          },
+          {
+            "id": "iron-stomach",
+            "index": 25,
+            "group": "Health and survival",
+            "name": "Iron Stomach",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Eating no longer harms you."
+          },
+          {
+            "id": "food-clock",
+            "index": 26,
+            "group": "Health and survival",
+            "name": "Eat Your Vegetables",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You deal more damage when well fed but lose health on an empty stomach."
+          },
+          {
+            "id": "glass-cannon",
+            "index": 27,
+            "group": "Health and survival",
+            "name": "Glass Cannon",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells are five times stronger, but your maximum health drops to 50."
+          },
+          {
+            "id": "low-hp-damage-boost",
+            "index": 28,
+            "group": "Health and survival",
+            "name": "Living on the Edge",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells deal triple damage when you are low on health."
+          },
+          {
+            "id": "stainless-armour",
+            "index": 29,
+            "group": "Health and survival",
+            "name": "Stainless Armour",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You take half damage while you have no stain on you."
+          },
+          {
+            "id": "protection-fire",
+            "index": 30,
+            "group": "Immunities",
+            "name": "Fire Immunity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Fire cannot hurt you."
+          },
+          {
+            "id": "protection-radioactivity",
+            "index": 31,
+            "group": "Immunities",
+            "name": "Toxic Immunity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Toxic sludge and other toxic things cannot hurt you."
+          },
+          {
+            "id": "protection-explosion",
+            "index": 32,
+            "group": "Immunities",
+            "name": "Explosion Immunity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Explosions no longer hurt you directly."
+          },
+          {
+            "id": "protection-melee",
+            "index": 33,
+            "group": "Immunities",
+            "name": "Melee Immunity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Close-range enemy attacks cannot hurt you."
+          },
+          {
+            "id": "protection-electricity",
+            "index": 34,
+            "group": "Immunities",
+            "name": "Electricity Immunity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Electric shocks cannot hurt you."
+          },
+          {
+            "id": "electricity",
+            "index": 35,
+            "group": "Immunities",
+            "name": "Electricity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You are immune to electricity, but metal and liquids near you keep electrifying."
+          },
+          {
+            "id": "remove-fog-of-war",
+            "index": 36,
+            "group": "Senses and maps",
+            "name": "All-Seeing Eye",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You can see the whole map."
+          },
+          {
+            "id": "radar-enemy",
+            "index": 37,
+            "group": "Senses and maps",
+            "name": "Enemy Radar",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You sense enemies nearby."
+          },
+          {
+            "id": "wand-radar",
+            "index": 38,
+            "group": "Senses and maps",
+            "name": "Wand Radar",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You sense wands nearby."
+          },
+          {
+            "id": "item-radar",
+            "index": 39,
+            "group": "Senses and maps",
+            "name": "Item Radar",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You sense items nearby."
+          },
+          {
+            "id": "repelling-cape",
+            "index": 40,
+            "group": "Body, blood and fluids",
+            "name": "Repelling Cape",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You shed stains quickly while moving."
+          },
+          {
+            "id": "exploding-corpses",
+            "index": 41,
+            "group": "Body, blood and fluids",
+            "name": "Exploding Corpses",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Enemies explode when they die, and explosions no longer hurt you."
+          },
+          {
+            "id": "global-gore",
+            "index": 42,
+            "group": "Body, blood and fluids",
+            "name": "More Blood",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Everything bleeds a lot more."
+          },
+          {
+            "id": "invisibility",
+            "index": 43,
+            "group": "Body, blood and fluids",
+            "name": "Invisibility",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You are invisible. Stains, casting, kicking and damage make you visible for a while."
+          },
+          {
+            "id": "bleed-slime",
+            "index": 44,
+            "group": "Body, blood and fluids",
+            "name": "Slime Blood",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You bleed slime. Slime no longer slows you and you resist projectiles better."
+          },
+          {
+            "id": "bleed-oil",
+            "index": 45,
+            "group": "Body, blood and fluids",
+            "name": "Oil Blood",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You bleed flammable oil and are immune to fire."
+          },
+          {
+            "id": "bleed-gas",
+            "index": 46,
+            "group": "Body, blood and fluids",
+            "name": "Gas Blood",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You bleed flammable gas."
+          },
+          {
+            "id": "freeze-field",
+            "index": 47,
+            "group": "Body, blood and fluids",
+            "name": "Freeze Field",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Liquids freeze near you."
+          },
+          {
+            "id": "fire-gas",
+            "index": 48,
+            "group": "Body, blood and fluids",
+            "name": "Gas Fire",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gas near you catches fire by itself."
+          },
+          {
+            "id": "dissolve-powders",
+            "index": 49,
+            "group": "Body, blood and fluids",
+            "name": "Dissolve Powders",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Sand and similar powders dissolve quickly near you."
+          },
+          {
+            "id": "worm-attractor",
+            "index": 50,
+            "group": "Body, blood and fluids",
+            "name": "Worm Attractor",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Worms are drawn to you."
+          },
+          {
+            "id": "worm-smaller-holes",
+            "index": 51,
+            "group": "Body, blood and fluids",
+            "name": "Feared by Worms",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Worms flee from you, and worms and lukki dig smaller tunnels."
+          },
+          {
+            "id": "cordyceps",
+            "index": 52,
+            "group": "Body, blood and fluids",
+            "name": "Cordyceps",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Enemies you kill grow fungal creatures."
+          },
+          {
+            "id": "mold",
+            "index": 53,
+            "group": "Body, blood and fluids",
+            "name": "Fungal Colony",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Slime near you turns into fungal creatures."
+          },
+          {
+            "id": "fungal-disease",
+            "index": 54,
+            "group": "Body, blood and fluids",
+            "name": "Fungal Disease",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Fungal growths sprout on you when danger is near."
+          },
+          {
+            "id": "revenge-explosion",
+            "index": 55,
+            "group": "Minions and revenge",
+            "name": "Revenge Explosion",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Taking damage triggers an explosion, and you resist explosions by 25%."
+          },
+          {
+            "id": "revenge-tentacle",
+            "index": 56,
+            "group": "Minions and revenge",
+            "name": "Revenge Tentacle",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Taking damage summons a tentacle, and you resist projectiles by 25%."
+          },
+          {
+            "id": "revenge-rats",
+            "index": 57,
+            "group": "Minions and revenge",
+            "name": "Revenge Rats",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Taking damage can summon a helpful rat."
+          },
+          {
+            "id": "revenge-bullet",
+            "index": 58,
+            "group": "Minions and revenge",
+            "name": "Revenge Bullets",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You fire back when hit by projectiles and resist explosions and projectiles by 20%."
+          },
+          {
+            "id": "attack-foot",
+            "index": 59,
+            "group": "Minions and revenge",
+            "name": "Lukki Mutation",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You grow extra limbs that fight for you."
+          },
+          {
+            "id": "plague-rats",
+            "index": 60,
+            "group": "Minions and revenge",
+            "name": "Plague Rats",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Dying enemies release rats that fight for you."
+          },
+          {
+            "id": "vomit-rats",
+            "index": 61,
+            "group": "Minions and revenge",
+            "name": "Spontaneous Generation",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Vomit near you turns into helpful rats."
+          },
+          {
+            "id": "angry-ghost",
+            "index": 62,
+            "group": "Minions and revenge",
+            "name": "Angry Ghost",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. A ghost helps you by copying nearby spells and projectiles."
+          },
+          {
+            "id": "hungry-ghost",
+            "index": 63,
+            "group": "Minions and revenge",
+            "name": "Hungry Ghost",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. A ghost minion now and then eats enemy projectiles."
+          },
+          {
+            "id": "death-ghost",
+            "index": 64,
+            "group": "Minions and revenge",
+            "name": "Mournful Spirit",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Dying creatures leave a spirit that damages a small area."
+          },
+          {
+            "id": "homunculus",
+            "index": 65,
+            "group": "Minions and revenge",
+            "name": "Homunculus",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. A homunculus helps you each time you leave a Holy Mountain."
+          },
+          {
+            "id": "lukki-minion",
+            "index": 66,
+            "group": "Minions and revenge",
+            "name": "Lukki Minion",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. A lukki minion joins you."
+          },
+          {
+            "id": "contact-damage",
+            "index": 67,
+            "group": "Minions and revenge",
+            "name": "Contact Damage",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Enemies close to you take damage, and more of it the lower your health is."
+          },
+          {
+            "id": "genome-more-hatred",
+            "index": 68,
+            "group": "Minions and revenge",
+            "name": "More Hatred",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Creatures become more hostile to each other."
+          },
+          {
+            "id": "genome-more-love",
+            "index": 69,
+            "group": "Minions and revenge",
+            "name": "More Love",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Creatures become friendlier to each other."
+          },
+          {
+            "id": "projectile-repulsion",
+            "index": 70,
+            "group": "Projectile defense",
+            "name": "Projectile Repulsion Field",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Most projectiles are pushed away from you, but you take a bit more projectile damage."
+          },
+          {
+            "id": "projectile-slow-field",
+            "index": 71,
+            "group": "Projectile defense",
+            "name": "Projectile Slower",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Projectiles slow down near you."
+          },
+          {
+            "id": "projectile-repulsion-sector",
+            "index": 72,
+            "group": "Projectile defense",
+            "name": "Projectile Repulsion Sector",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Projectiles entering a small area in front of you are blown away."
+          },
+          {
+            "id": "projectile-eater-sector",
+            "index": 73,
+            "group": "Projectile defense",
+            "name": "Projectile Eater",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Projectiles entering a small area behind you vanish."
+          },
+          {
+            "id": "orbit",
+            "index": 74,
+            "group": "Projectile defense",
+            "name": "Phasing",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Projectiles seem to pass through you."
+          },
+          {
+            "id": "shield",
+            "index": 75,
+            "group": "Projectile defense",
+            "name": "Permanent Shield",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You get a small permanent shield."
+          },
+          {
+            "id": "critical-hit",
+            "index": 76,
+            "group": "Spells and wands",
+            "name": "Critical Hit +",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You land more critical hits."
+          },
+          {
+            "id": "risky-critical",
+            "index": 77,
+            "group": "Spells and wands",
+            "name": "Close Call",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You get extra critical hit chance while enemies are near."
+          },
+          {
+            "id": "projectile-homing",
+            "index": 78,
+            "group": "Spells and wands",
+            "name": "Homing Shots",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells home in on enemies very slightly."
+          },
+          {
+            "id": "projectile-homing-shooter",
+            "index": 79,
+            "group": "Spells and wands",
+            "name": "Boomerang Spells",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells curve back toward you, with extra speed and damage."
+          },
+          {
+            "id": "unlimited-spells",
+            "index": 80,
+            "group": "Spells and wands",
+            "name": "Unlimited Spells",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Most spells no longer run out of uses."
+          },
+          {
+            "id": "ability-actions-materialized",
+            "index": 81,
+            "group": "Spells and wands",
+            "name": "Bombs Materialized",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Bomb spells can be carried as throwable items."
+          },
+          {
+            "id": "edit-wands-everywhere",
+            "index": 82,
+            "group": "Spells and wands",
+            "name": "Tinker With Wands Everywhere",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You can edit wands anywhere."
+          },
+          {
+            "id": "no-wand-editing",
+            "index": 83,
+            "group": "Spells and wands",
+            "name": "No Wand Tinkering",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You cannot edit wands, but enemies may drop blood money."
+          },
+          {
+            "id": "extra-knockback",
+            "index": 84,
+            "group": "Spells and wands",
+            "name": "Extra Knockback on Spells",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells push enemies harder."
+          },
+          {
+            "id": "lower-spread",
+            "index": 85,
+            "group": "Spells and wands",
+            "name": "Concentrated Spells",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells are more accurate and stronger, but cast more slowly."
+          },
+          {
+            "id": "low-recoil",
+            "index": 86,
+            "group": "Spells and wands",
+            "name": "Low Recoil",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Spell recoil is greatly reduced, but spells fly a little slower."
+          },
+          {
+            "id": "bounce",
+            "index": 87,
+            "group": "Spells and wands",
+            "name": "Bouncing Spells",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Almost all your spells bounce and last longer."
+          },
+          {
+            "id": "fast-projectiles",
+            "index": 88,
+            "group": "Spells and wands",
+            "name": "Faster Projectiles",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your projectile spells fly faster."
+          },
+          {
+            "id": "always-cast",
+            "index": 89,
+            "group": "Spells and wands",
+            "name": "Always Cast",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Adds a random always-cast spell to the wand in your hand, up to a maximum of 4.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "extra-mana",
+            "index": 90,
+            "group": "Spells and wands",
+            "name": "High Mana, Low Capacity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your held wand loses half its capacity and gains more mana.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "no-more-shuffle",
+            "index": 91,
+            "group": "Spells and wands",
+            "name": "No More Shuffle",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Most wands become non-shuffling, including the ones you carry."
+          },
+          {
+            "id": "duplicate-projectile",
+            "index": 92,
+            "group": "Spells and wands",
+            "name": "Projectile Duplication",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your projectile spells may duplicate, but you take more projectile damage."
+          },
+          {
+            "id": "faster-wands",
+            "index": 93,
+            "group": "Spells and wands",
+            "name": "Faster Wands",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. All the wands you carry get shorter cast delay and reload time.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "extra-slots",
+            "index": 94,
+            "group": "Spells and wands",
+            "name": "Extra Wand Capacity",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. The wands you carry gain 1 to 3 spell slots, up to a maximum of 25.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "mana-from-kills",
+            "index": 95,
+            "group": "Spells and wands",
+            "name": "Kills to Mana",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Enemies dying near you release mana-restoring liquid."
+          },
+          {
+            "id": "laser-aim",
+            "index": 96,
+            "group": "Spells and wands",
+            "name": "Pinpointer",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Your spells fly faster with less spread, and you get an aiming line."
+          },
+          {
+            "id": "personal-laser",
+            "index": 97,
+            "group": "Spells and wands",
+            "name": "Personal Plasma Beam",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You constantly fire a strong plasma beam but cast spells much more slowly."
+          },
+          {
+            "id": "mega-beam-stone",
+            "index": 98,
+            "group": "Spells and wands",
+            "name": "Summon Sädekivi",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gives you a stone that calls down a celestial beam.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "extra-perk",
+            "index": 99,
+            "group": "Perks and shops",
+            "name": "Extra Perk",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Every Holy Mountain from now on offers one extra perk."
+          },
+          {
+            "id": "perks-lottery",
+            "index": 100,
+            "group": "Perks and shops",
+            "name": "Perk Lottery",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Taking a perk has a 50% chance to keep the others on the altar."
+          },
+          {
+            "id": "gamble",
+            "index": 101,
+            "group": "Perks and shops",
+            "name": "Gamble",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Gives you two random perks.",
+            "note": "Its effect is applied once, when you take it."
+          },
+          {
+            "id": "extra-shop-item",
+            "index": 102,
+            "group": "Perks and shops",
+            "name": "Extra Item In Holy Mountain",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. Every Holy Mountain you have not yet visited gets one more shop item."
+          },
+          {
+            "id": "peace-with-gods",
+            "index": 103,
+            "group": "Perks and shops",
+            "name": "Peace with Gods",
+            "location": "@loc{Holy Mountain} perk altar",
+            "method": "Take it from the altar when it is offered. You make peace with the gods, so Holy Mountain guards no longer appear."
+          },
+          {
+            "id": "leggy-feet",
+            "index": 104,
+            "group": "Special perks",
+            "name": "Leggy Mutation",
+            "location": "Any chest",
+            "method": "Open chests until a @enemy{Leggy Mimic} wakes, then kill it and pick up @mechanic{Leggy Mutation}.",
+            "note": "The legged variant replaces 5% of ordinary Mimics and wakes when you use the chest's interaction prompt."
+          },
+          {
+            "id": "moon-radar",
+            "index": 105,
+            "group": "Special perks",
+            "name": "Moon Radar",
+            "location": "@loc{??? room}, east of the @loc{Overgrown Cavern}",
+            "method": "Travel east from the @loc{Overgrown Cavern} to the @loc{??? room} and pick up @mechanic{Moon Radar}."
+          },
+          {
+            "id": "map",
+            "index": 106,
+            "group": "Special perks",
+            "name": "Spatial Awareness",
+            "location": "@loc{Power Plant}",
+            "method": "Fight @enemy{Kolmisilmän silmä} with ice, slice, drill, holy or electricity damage. Hit it while its projectile-eating shield is open during its firing phases. Collect @mechanic{Spatial Awareness} after the death explosion.",
             "note": "Ordinary projectile damage does not hurt this boss."
-          },
-          {
-            "id": "finish-perks",
-            "text": "Use [progress icon grid](https://ipeterov.github.io/noita-progress/) to identify any remaining blank perk icons, then pick up those perks until the Perks panel reaches 100%.",
-            "note": "Looking at a perk without taking it does not register the perk."
           }
         ]
       }

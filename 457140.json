@@ -1,0 +1,1967 @@
+{
+  "game": {
+    "appid": 457140,
+    "slug": "oxygen-not-included",
+    "title": "Oxygen Not Included",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-28",
+    "estTotalHours": 300,
+    "difficultyRating": 8,
+    "minPlaythroughs": 4,
+    "dlc": [
+      {
+        "appid": 1452490,
+        "title": "Spaced Out!"
+      },
+      {
+        "appid": 2952300,
+        "title": "The Frosty Planet Pack"
+      },
+      {
+        "appid": 3302470,
+        "title": "The Bionic Booster Pack"
+      },
+      {
+        "appid": 3655420,
+        "title": "The Prehistoric Planet Pack"
+      },
+      {
+        "appid": 4310080,
+        "title": "The Aquatic Planet Pack"
+      }
+    ],
+    "createdAt": "2026-11-10"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Protect the early challenges",
+      "description": "Start the colony without Sandbox or Debug Commands. Work on Carnivore immediately, finish Locavore before planting, and finish Super Sustainable before using fuel-burning generators.",
+      "achievementRefs": [
+        "NO_PLANTERBOX",
+        "EAT_MEAT",
+        "CLEAN_ENERGY",
+        "BASIC_COMFORTS",
+        "BUILD_OUTSIDE_BIOME",
+        "COMPLETED_SKILL_BRANCH",
+        "COOKED_FOOD",
+        "HATCH_A_CRITTER",
+        "INSPECT_POI",
+        "SURVIVE_HUNDRED_CYCLES"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build a lasting colony",
+      "description": "Expand food, oxygen, rooms, ranches, and industry. Finish the colony survival goals while preparing space travel.",
+      "achievementRefs": [
+        "PLUMBED_WASHROOMS",
+        "BASIC_PUMPING",
+        "AUTOMATE_A_BUILDING",
+        "BUILD_NATURE_RESERVES",
+        "VARIETY_OF_ROOMS",
+        "EQUIP_EIGHT_DUPES",
+        "MASTERPIECE_PAINTING",
+        "CURED_DISEASE",
+        "EXPLORE_OIL_BIOME",
+        "HATCH_REFINEMENT",
+        "GENERATOR_TUNEUP",
+        "IDLE_DUPLICANTS",
+        "EXOSUIT_CYCLES",
+        "TUBE_TRAVEL_DISTANCE",
+        "TWENTY_DUPES",
+        "WINCONDITION_STAY",
+        "SURVIVE_ONE_YEAR",
+        "CLEAR_FOW"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Explore space and finish research",
+      "description": "Use a Spaced Out! colony for asteroid landings, radiation, mutations, artifacts, and the space mining goals. Complete the Escape Imperative after preparing the colony for the departing crew.",
+      "achievementRefs": [
+        "REACH_SPACE_ANY_DESTINATION",
+        "BUNKER_DOOR_DEFENSE",
+        "FIRST_TELEPORT",
+        "SOFT_LAUNCH",
+        "LANDED_ON_ALL_WORLDS",
+        "RADICAL_TRIP",
+        "SWEETER_THAN_HONEY",
+        "REACTOR_USAGE",
+        "SURVIVE_IN_A_ROCKET",
+        "MINE_THE_GAP",
+        "TAME_GASSYMOO",
+        "TAME_BASIC_CRITTERS",
+        "GMO_OK",
+        "WINCONDITION_ARTIFACTS",
+        "COMPLETED_RESEARCH",
+        "SIXKELVIN_BUILDING",
+        "WINCONDITION_LEAVE"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Restore Ceres and develop bionic technology",
+      "description": "Use a Ceres or Ceres Minor start for the geothermal plant. With The Bionic Booster Pack enabled, fill one Bionic Duplicant’s booster slots and build a deeply cooled Data Miner.",
+      "achievementRefs": [
+        "WINCONDITION_GEOPLANT",
+        "EFFICIENT_DATAMINING",
+        "ALL_THE_CIRCUITS"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Defend Relica",
+      "description": "Start a Relica or Relica Minor colony with Demolior enabled. Prepare the ammunition and destroy the incoming asteroid before its countdown expires.",
+      "achievementRefs": [
+        "ASTEROID_DESTROYED"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Survive the Lab impact",
+      "description": "Start RelicAAAAAAAGHH through The Lab with Spaced Out! disabled. Survive the early impact and the following 100 cycles without a Duplicant death.",
+      "achievementRefs": [
+        "ASTEROID_SURVIVED"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Recruit the aquatic survivor",
+      "description": "Use an Aquatic Planet colony with the Reef, Kelp Forest, and Abyss biomes. Complete the survivor’s Pearl, Sushi Roll, and Caviar deliveries.",
+      "achievementRefs": [
+        "MINNOW_RECRUITED"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "WINCONDITION_LEAVE",
+      "displayName": "The Great Escape",
+      "description": "Ensure your colony's legacy by fulfilling the requirements of the Escape Imperative.",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "REACH_SPACE_ANY_DESTINATION"
+      ],
+      "summary": "Send a Duplicant through the Temporal Tear after completing the Escape Imperative requirements.",
+      "guide": {
+        "kind": "standard",
+        "context": "The rocket and Duplicant sent through the Temporal Tear never return.",
+        "steps": [
+          {
+            "id": "wincondition_leave-1",
+            "text": "In the base game, send a crewed rocket to the @loc{Temporal Tear}, the farthest Starmap destination."
+          },
+          {
+            "id": "wincondition_leave-2",
+            "text": "In Spaced Out!, activate Printing Pods on five asteroids in total, including the home asteroid. Find the @item{Temporal Tear Opener} on the Tundra Asteroid or its replacement fragment."
+          },
+          {
+            "id": "wincondition_leave-3",
+            "text": "Clear the three-tile-wide path above the Opener to the sky. Supply 10,000 Radbolts, activate the Opener, then send a crewed rocket into the Tear."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WINCONDITION_STAY",
+      "displayName": "Home Sweet Home",
+      "description": "Establish your permanent home by fulfilling the requirements of the Colonize Imperative.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "120 min; colony development also required",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "SURVIVE_HUNDRED_CYCLES"
+      ],
+      "summary": "Complete the Colonize Imperative with 200 cycles, twelve Duplicants, 16 Morale, and a Great Monument.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wincondition_stay-1",
+            "text": "Reach cycle 200, print at least twelve Duplicants, and raise colony Morale to the Colonize Imperative’s 16-point target."
+          },
+          {
+            "id": "wincondition_stay-2",
+            "text": "Reserve a 5-by-15-tile space. Build a Monument Base, Monument Midsection, and Monument Top to form a @item{Great Monument}."
+          },
+          {
+            "id": "wincondition_stay-3",
+            "text": "Finish the Colonize checklist in the Colony Summary. The monument needs 17,500 kg Steel and 2,500 kg each of Glass, Ceramic, Diamond, Obsidian, and Plastic."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NO_PLANTERBOX",
+      "displayName": "Locavore",
+      "description": "Have Duplicants consume 400,000kcal of food without planting any seeds in Planter Boxes, Farm Tiles, or Hydroponic Farms.",
+      "hidden": false,
+      "globalPercent": 4.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Consume 400,000 kcal before planting any seeds in a Planter Box, Farm Tile, or Hydroponic Farm.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "no_planterbox-1",
+            "text": "Keep seeds out of @item{Planter Boxes}, @item{Farm Tiles}, and @item{Hydroponic Farms} until the achievement unlocks."
+          },
+          {
+            "id": "no_planterbox-2",
+            "text": "Feed the colony with harvested wild food and critter meat. Check the food counter under Locavore in the Colony Summary."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EAT_MEAT",
+      "displayName": "Carnivore",
+      "description": "Have Duplicants eat 400,000kcal of critter meat before the 100th cycle.",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Consume 400,000 kcal of critter meat before cycle 101.",
+      "guide": {
+        "kind": "standard",
+        "context": "Raw Egg, Omelette, and Plant Meat do not add to the meat counter.",
+        "steps": [
+          {
+            "id": "eat_meat-1",
+            "text": "Start @mechanic{Hatch ranches} early. Enclose each Grooming Station in a Stable of 12–96 tiles and keep the breeding Hatches groomed and fed."
+          },
+          {
+            "id": "eat_meat-2",
+            "text": "Move surplus eggs out of the breeding room so the Hatches keep reproducing. Let the eggs hatch, then kill surplus critters for Meat."
+          },
+          {
+            "id": "eat_meat-3",
+            "text": "Cook Meat into @item{Barbeque} at an Electric Grill and have Duplicants eat the meals. Each Hatch provides enough Meat for 4,000 kcal of Barbeque."
+          },
+          {
+            "id": "eat_meat-4",
+            "text": "Reach 400,000 kcal on the Carnivore counter before cycle 101. Printed meat or critters can supplement the ranches."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUILD_NATURE_RESERVES",
+      "displayName": "Some Reservations",
+      "description": "Improve Duplicant Morale by designating 4 areas as Nature Reserves.",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min; colony development also required",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Create four Nature Reserves in one colony.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "build_nature_reserves-1",
+            "text": "Enclose four separate areas, each 32–120 tiles with at least four wild plants and a Park Sign. Keep industrial machinery outside."
+          },
+          {
+            "id": "build_nature_reserves-2",
+            "text": "Use the @mechanic{Room Overlay} to confirm that each area is a Nature Reserve."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TWENTY_DUPES",
+      "displayName": "No Place Like Clone",
+      "description": "Have at least 20 living Duplicants living in the colony at one time.",
+      "hidden": false,
+      "globalPercent": 6.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min; colony development also required",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Keep twenty Duplicants alive in the colony simultaneously.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "twenty_dupes-1",
+            "text": "Recruit Duplicants until twenty are alive together. Expand food, oxygen, and beds before increasing the population."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SURVIVE_HUNDRED_CYCLES",
+      "displayName": "Turn of the Century",
+      "description": "Reach cycle 100 with at least one living Duplicant.",
+      "hidden": false,
+      "globalPercent": 22.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "0 min; colony development also required",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Keep at least one Duplicant alive until cycle 100.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survive_hundred_cycles-1",
+            "text": "Keep the colony supplied with food and oxygen until cycle 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TAME_GASSYMOO",
+      "displayName": "Moovin' On Up",
+      "description": "Find and tame a Gassy Moo.",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "90 min; colony development also required",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Domesticate a Gassy Moo.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tame_gassymoo-1",
+            "text": "In the base game, bring a Gassy Moo back from @loc{Organic Mass} using a Biological Cargo Bay. In Spaced Out!, find the @loc{Moo Asteroid} and bring a Moo home with an Airborne Critter Trap and Critter Cargo Bay."
+          },
+          {
+            "id": "tame_gassymoo-2",
+            "text": "Put the Moo in a Stable with a Grooming Station. Keep grooming the Moo until Wildness reaches 0%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SIXKELVIN_BUILDING",
+      "displayName": "Not 0K, But Pretty Cool",
+      "description": "Reduce the temperature of a building to 6 Kelvin.",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "120 min; colony development also required",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Cool a building to 6 Kelvin or below.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "sixkelvin_building-1",
+            "text": "Make @item{Super Coolant} at an Emulsifier. A 100 kg batch uses 49.5 kg Petroleum, 1 kg Fullerene, and 49.5 kg Gold."
+          },
+          {
+            "id": "sixkelvin_building-2",
+            "text": "Run Super Coolant through Thermo Aquatuners and Conduction Panels touching a building in an insulated chamber. Remove the Aquatuners’ heat separately so the cooling system keeps working."
+          },
+          {
+            "id": "sixkelvin_building-3",
+            "text": "Cool the target building to -267.15°C or lower. Save the colony, then reload that save to trigger the achievement check."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CLEAN_ENERGY",
+      "displayName": "Super Sustainable",
+      "description": "Generate 240,000kJ of power without using coal, methane, petrol or wood generators.",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "120 min; colony development also required",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Produce 240,000 kJ of electricity before using any coal, natural gas, petroleum, wood, or peat generator.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "clean_energy-1",
+            "text": "Supply the colony without running @warn{Coal Generators, Natural Gas Generators, Petroleum Generators, Wood Burners, or Peat Burners}."
+          },
+          {
+            "id": "clean_energy-2",
+            "text": "Use Manual Generators to build up the 240,000 kJ counter in the Colony Summary. Wait for the unlock before enabling the prohibited generators."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUILD_OUTSIDE_BIOME",
+      "displayName": "Outdoor Renovations",
+      "description": "Construct a building outside the initial starting biome.",
+      "hidden": false,
+      "globalPercent": 51.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 min; colony development also required",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish a building beyond the biome where the colony started.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "build_outside_biome-1",
+            "text": "Dig into a neighboring biome and finish a building there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TUBE_TRAVEL_DISTANCE",
+      "displayName": "Totally Tubular",
+      "description": "Have Duplicants travel 10,000m by Transit Tube.",
+      "hidden": false,
+      "globalPercent": 6.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min; colony development also required",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Accumulate 10,000 metres of Duplicant travel through Transit Tubes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tube_travel_distance-1",
+            "text": "Build a usable Transit Tube route between frequently visited areas and keep using the route until total travel reaches 10,000 metres."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "REACH_SPACE_ANY_DESTINATION",
+      "displayName": "Space Race",
+      "description": "Launch your first rocket into space.",
+      "hidden": false,
+      "globalPercent": 5.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Launch a rocket into space for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reach_space_any_destination-1",
+            "text": "Build a rocket, supply its engine, and assign a pilot. Launch the rocket into space."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EQUIP_EIGHT_DUPES",
+      "displayName": "And Nowhere to Go",
+      "description": "Have 8 Duplicants wear non-default clothing simultaneously.",
+      "hidden": false,
+      "globalPercent": 8.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min; colony development also required",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Dress eight Duplicants in non-default clothing at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "equip_eight_dupes-1",
+            "text": "Make eight outfits at a @item{Textile Loom} and assign the clothing to eight different Duplicants. Keep all eight dressed together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "VARIETY_OF_ROOMS",
+      "displayName": "Get a Room",
+      "description": "Build at least one of each of the following rooms in a single colony: A Nature Reserve, a Hospital, a Recreation Room, a Great Hall, a Bedroom, a Washroom, a Greenhouse and a Stable.",
+      "hidden": false,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Maintain a colony with a Great Hall, Hospital, Nature Reserve, Recreation Room, Luxury Barracks, Washroom, Greenhouse, and Stable.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "variety_of_rooms-1",
+            "text": "Make a @loc{Nature Reserve}: 32–120 tiles, four wild plants, a Park Sign, and no industrial machinery."
+          },
+          {
+            "id": "variety_of_rooms-2",
+            "text": "Make a @loc{Hospital}: 12–96 tiles with a Triage Cot, toilet, and Mess Table. Make a separate @loc{Recreation Room}: 12–96 tiles with a recreational building and a decor item."
+          },
+          {
+            "id": "variety_of_rooms-3",
+            "text": "Make a @loc{Great Hall}: 32–120 tiles with a Mess Table, a recreation building, and one decor item rated at least 20."
+          },
+          {
+            "id": "variety_of_rooms-4",
+            "text": "Make @loc{Luxury Barracks}, the room formerly called Bedroom: 12–64 tiles with a Comfy Bed, a decor item, no Cots, and a ceiling at least four tiles high."
+          },
+          {
+            "id": "variety_of_rooms-5",
+            "text": "Make a @loc{Washroom}: 12–64 tiles with a Lavatory and Sink, and no Outhouses. Keep industrial machinery out of the Hospital, Recreation Room, Great Hall, Luxury Barracks, and Washroom."
+          },
+          {
+            "id": "variety_of_rooms-6",
+            "text": "Add a @loc{Greenhouse} of 12–96 tiles with a Farm Station, and a @loc{Stable} of 12–96 tiles with a Grooming Station. Confirm each room type in the Room Overlay."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SURVIVE_ONE_YEAR",
+      "displayName": "One Year, to be Exact",
+      "description": "Reach cycle 365.25 with a single colony.",
+      "hidden": false,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "0 min; colony development also required",
+      "estMinutes": 0,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "SURVIVE_HUNDRED_CYCLES"
+      ],
+      "summary": "Keep one colony running until cycle 365.25.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survive_one_year-1",
+            "text": "Maintain a surviving colony through cycle 365.25."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXPLORE_OIL_BIOME",
+      "displayName": "Slick",
+      "description": "Enter an oil biome for the first time.",
+      "hidden": false,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min; colony development also required",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Send a Duplicant into an oil biome.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "explore_oil_biome-1",
+            "text": "Explore until a Duplicant enters an @loc{oil biome}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TAME_BASIC_CRITTERS",
+      "displayName": "Critter Whisperer",
+      "description": "Find and tame one of every critter species in the world. Default morphs only.",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Tame the default morph of each critter species found in the world.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tame_basic_critters-1",
+            "text": "Open Critter Whisperer in the @mechanic{Colony Summary} and use its progress list to choose the species still needed. Target each species’ default morph."
+          },
+          {
+            "id": "tame_basic_critters-2",
+            "text": "Move land and flying critters into Stables and keep them groomed until Wildness reaches 0%. Use an Aquatic Grooming Station for aquatic critters that accept grooming; use a Fish Feeder to tame Pacu."
+          },
+          {
+            "id": "tame_basic_critters-3",
+            "text": "Bring a Gassy Moo from Organic Mass in the base game, or the Moo Asteroid in Spaced Out!, and tame it too. Check the achievement list again after each new species."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETED_SKILL_BRANCH",
+      "displayName": "To Pay the Bills",
+      "description": "Use a Duplicant's Skill Points to buy out an entire branch of the Skill Tree.",
+      "hidden": false,
+      "globalPercent": 51.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min; colony development also required",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Purchase every skill in one branch for a single Duplicant.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "completed_skill_branch-1",
+            "text": "Spend one Duplicant’s Skill Points along one branch until every skill in that branch is learned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COMPLETED_RESEARCH",
+      "displayName": "Honorary Doctorate",
+      "description": "Unlock every item in the Research Tree.",
+      "hidden": false,
+      "globalPercent": 2.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Finish every technology in the Research Tree.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "completed_research-1",
+            "text": "Complete every available technology, supplying Dirt to the Research Station and Water to the Super Computer."
+          },
+          {
+            "id": "completed_research-2",
+            "text": "In the base game, obtain Data Banks from rocket Research Modules and spend them at the Virtual Planetarium. In Spaced Out!, also supply Radbolts to the Materials Study Terminal and make Data Banks for space research."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COOKED_FOOD",
+      "displayName": "It's Not Raw",
+      "description": "Have a Duplicant eat any cooked meal prepared at an Electrical Grill or Gas Range.",
+      "hidden": false,
+      "globalPercent": 44.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 min; colony development also required",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Eat a meal prepared using either a Gas Range or an Electric Grill.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "cooked_food-1",
+            "text": "Cook @item{Barbeque} at an Electric Grill and let a Duplicant eat the meal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PLUMBED_WASHROOMS",
+      "displayName": "Royal Flush",
+      "description": "Replace all the Outhouses and Wash Basins in your colony with Lavatories and Sinks.",
+      "hidden": false,
+      "globalPercent": 35.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min; colony development also required",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Remove every Outhouse and Wash Basin after installing Lavatories and Sinks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "plumbed_washrooms-1",
+            "text": "Install Lavatories and Sinks, then remove every Outhouse and Wash Basin in the colony."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BASIC_COMFORTS",
+      "displayName": "One Bed One Bath",
+      "description": "Have at least one bed and one toilet for each Duplicant in the colony.",
+      "hidden": false,
+      "globalPercent": 70.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 min; colony development also required",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Provide every living Duplicant with a bed and a toilet.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "basic_comforts-1",
+            "text": "Build a Cot and an Outhouse for each Duplicant in the colony."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BASIC_PUMPING",
+      "displayName": "Oxygen Not Occluded",
+      "description": "Distribute 1000kg of Oxygen using gas vents.",
+      "hidden": false,
+      "globalPercent": 30.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min; colony development also required",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Release 1,000 kg of oxygen through gas vents.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "basic_pumping-1",
+            "text": "Pipe oxygen to Gas Vents until the released oxygen reaches 1,000 kg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AUTOMATE_A_BUILDING",
+      "displayName": "Red Light, Green Light",
+      "description": "Automate a building using sensors or switches from the Automation tab in the Build Menu.",
+      "hidden": false,
+      "globalPercent": 27.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 min; colony development also required",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Control a building through an automation sensor or switch.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "automate_a_building-1",
+            "text": "Connect a sensor or switch to a building’s automation input. Change the signal so the automation controls the building."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MASTERPIECE_PAINTING",
+      "displayName": "Art Underground",
+      "description": "Have a Duplicant with the Masterworks skill paint a Masterpiece quality painting.",
+      "hidden": false,
+      "globalPercent": 11.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min; colony development also required",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Have a Duplicant with Masterworks create a Masterpiece painting.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "masterpiece_painting-1",
+            "text": "Teach @mechanic{Masterworks} to an artist and have that Duplicant paint a canvas to Masterpiece quality."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "INSPECT_POI",
+      "displayName": "Ghosts of Gravitas",
+      "description": "Recover a Database entry by inspecting facility ruins.",
+      "hidden": false,
+      "globalPercent": 23.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 min; colony development also required",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Unlock a Database entry by inspecting a Gravitas ruin.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "inspect_poi-1",
+            "text": "Find facility ruins while digging and inspect an object that offers a Database entry."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HATCH_A_CRITTER",
+      "displayName": "Good Egg",
+      "description": "Hatch a new critter morph from an egg.",
+      "hidden": false,
+      "globalPercent": 42.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min; colony development also required",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hatch an egg belonging to a new critter morph.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hatch_a_critter-1",
+            "text": "Feed a Hatch @item{Sedimentary Rock} until a Stone Hatchling Egg appears. Leave that egg to hatch."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CURED_DISEASE",
+      "displayName": "They Got Better",
+      "description": "Cure a sick Duplicant of disease.",
+      "hidden": false,
+      "globalPercent": 32.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min; colony development also required",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Have a sick Duplicant recover from a disease.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "treat-food-poisoning",
+            "text": "Make a Curative Tablet at an Apothecary from 1 kg Water and 1 kg Coal. Have a Duplicant with Food Poisoning take the tablet."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GENERATOR_TUNEUP",
+      "displayName": "Tune Up For What?",
+      "description": "Perform 100 Tune Ups on power generators.",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min; colony development also required",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete 100 generator tune-ups.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "generator_tuneup-1",
+            "text": "Build a Power Plant room of 12–96 tiles with a heavy-duty generator and at least two Power Buildings. Add a @item{Power Control Station}."
+          },
+          {
+            "id": "generator_tuneup-2",
+            "text": "Assign a Duplicant with @mechanic{Electrical Engineering} and supply refined metal. Each Microchip costs 5 kg."
+          },
+          {
+            "id": "generator_tuneup-3",
+            "text": "Let workers apply tune-ups as the previous buffs expire. Reach 100 completed tune-ups."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CLEAR_FOW",
+      "displayName": "Pulling Back The Veil",
+      "description": "Reveal 80% of map by exploring outside the starting biome.",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Uncover at least 80% of the map beyond the starting biome.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "clear_fow-1",
+            "text": "Extend exploration routes into unexplored areas until the Colony Summary’s map-reveal counter reaches 80%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HATCH_REFINEMENT",
+      "displayName": "Down the Hatch",
+      "description": "Produce 10 t of refined metal by ranching Smooth Hatches.",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min; colony development also required",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Have Smooth Hatches produce 10 tonnes of refined metal.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hatch_refinement-1",
+            "text": "Feed Hatches Sedimentary Rock to obtain Stone Hatchling Eggs, then hatch the eggs."
+          },
+          {
+            "id": "hatch_refinement-2",
+            "text": "Give Stone Hatches a diet of Iron Ore, Copper Ore, Wolframite, or Gold Amalgam. Hatch a Smooth Hatchling Egg when one appears."
+          },
+          {
+            "id": "hatch_refinement-3",
+            "text": "Ranch @npc{Smooth Hatches} and keep supplying metal ore until they have produced 10 tonnes of refined metal. Metal made in machines does not replace the Smooth Hatch output."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BUNKER_DOOR_DEFENSE",
+      "displayName": "Immovable Object",
+      "description": "Block a meteor from hitting your base using a Bunker Door.",
+      "hidden": false,
+      "globalPercent": 5.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min; colony development also required",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Stop a meteor with a Bunker Door.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "bunker_door_defense-1",
+            "text": "Place a @item{Bunker Door} beneath a meteor’s path and keep the door closed until a meteor hits it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IDLE_DUPLICANTS",
+      "displayName": "Easy Livin'",
+      "description": "Have Auto Sweepers complete more deliveries to machines than Duplicants over 5 cycles.",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min; colony development also required",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete more machine deliveries with Auto-Sweepers than with Duplicants across five cycles.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "idle_duplicants-1",
+            "text": "Place powered @item{Auto-Sweepers} so their reach covers both supply containers and machines, such as an Electric Grill."
+          },
+          {
+            "id": "idle_duplicants-2",
+            "text": "Set the destination priority above the supply container’s priority. Keep the machines running and supplied for five cycles so Auto-Sweepers complete more machine deliveries than Duplicants."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXOSUIT_CYCLES",
+      "displayName": "Job Suitability",
+      "description": "For 10 cycles in a row, have every Duplicant in the colony complete at least one chore while wearing an Exosuit.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min; colony development also required",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Have every Duplicant perform an errand in an Exosuit on each of ten consecutive cycles.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "exosuit_cycles-1",
+            "text": "Give every Duplicant access to an Exosuit and work that can be completed while wearing the suit."
+          },
+          {
+            "id": "exosuit_cycles-2",
+            "text": "Check the Colony Summary streak over ten cycles. Make sure every Duplicant completes a suited errand each cycle; one missed Duplicant breaks the streak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIRST_TELEPORT",
+      "displayName": "First Teleport of Call",
+      "description": "Teleport a Duplicant and defrost a Friend on another world.",
+      "hidden": false,
+      "globalPercent": 5.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "20 min; colony development also required",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "summary": "Teleport a Duplicant to another asteroid and thaw the Duplicant waiting there.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "first_teleport-1",
+            "text": "Use the starting asteroid’s @item{Teleporter Transmitter} to send a Duplicant to the paired asteroid."
+          },
+          {
+            "id": "first_teleport-2",
+            "text": "Find the @item{Cryotank} at the teleporter ruins on that asteroid and thaw its occupant."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SOFT_LAUNCH",
+      "displayName": "Soft Launch",
+      "description": "Build a launchpad on a world without a teleporter.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "prerequisites": [
+        "REACH_SPACE_ANY_DESTINATION"
+      ],
+      "summary": "Build a Rocket Platform on an asteroid without a teleporter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "soft_launch-1",
+            "text": "Send a construction crew and building supplies to an asteroid that has no teleporter. Build a @item{Rocket Platform} on that asteroid."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "LANDED_ON_ALL_WORLDS",
+      "displayName": "Cluster Conquest",
+      "description": "Land dupes or rovers on all worlds in the cluster.",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "prerequisites": [
+        "REACH_SPACE_ANY_DESTINATION"
+      ],
+      "summary": "Land a Duplicant or rover on every asteroid in the cluster.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "landed_on_all_worlds-1",
+            "text": "Explore the cluster and land a Duplicant or rover on each asteroid. Use Cluster Conquest in the Colony Summary to track the worlds still needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GMO_OK",
+      "displayName": "GMO A-OK",
+      "description": "Successfully analyze at least one seed of all mutatable plants.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "summary": "Analyze one mutated seed from every mutatable plant species.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "gmo_ok-1",
+            "text": "Check GMO A-OK in the Colony Summary for the plant species still needed. Grow an ordinary plant from each required species."
+          },
+          {
+            "id": "gmo_ok-2",
+            "text": "Expose the plants to radiation when harvesting them. Continue harvesting until each species drops a mutated seed."
+          },
+          {
+            "id": "gmo_ok-3",
+            "text": "Research @mechanic{Bioengineering}, build a @item{Botanical Analyzer}, and assign a Duplicant with Improved Farming II. Analyze a mutated seed from every required species."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MINE_THE_GAP",
+      "displayName": "Mine the Gap",
+      "description": "Mine 1,000,000kg from space POIs.",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "prerequisites": [
+        "REACH_SPACE_ANY_DESTINATION"
+      ],
+      "summary": "Extract 1,000,000 kg of resources from space points of interest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only drilling counts; collecting resources already floating in space does not. Mining the full target consumes 50 tonnes of Diamond.",
+        "steps": [
+          {
+            "id": "mine_the_gap-1",
+            "text": "Equip a rocket with a @item{Drillcone} and cargo storage, then load Diamond into the Drillcone."
+          },
+          {
+            "id": "mine_the_gap-2",
+            "text": "Fly to a resource-bearing space point of interest and mine it. Return to unload cargo and replace Diamond as needed until extraction totals 1,000,000 kg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WINCONDITION_ARTIFACTS",
+      "displayName": "Cosmic Archaeology",
+      "description": "Uncover the past to secure your future by fulfilling the requirements of the Exploration Imperative.",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "unverified",
+      "dlcAppid": 1452490,
+      "summary": "Analyze ten different terrestrial artifacts and ten different space artifacts for the Exploration Imperative.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wincondition_artifacts-1",
+            "text": "Recover terrestrial artifacts from @item{Gravitas Pedestals} while exploring the asteroids."
+          },
+          {
+            "id": "wincondition_artifacts-2",
+            "text": "Use an @item{Artifact Transport Module} to bring back artifacts from space points of interest."
+          },
+          {
+            "id": "wincondition_artifacts-3",
+            "text": "Have a Duplicant with Aesthetic Design analyze the artifacts at an @item{Artifact Analysis Station}. Complete both ten-artifact counters in the Colony Summary, using different artifacts within each category."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RADICAL_TRIP",
+      "displayName": "Radical Trip",
+      "description": "Have radbolts travel a cumulative 10 km.",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "30 min; colony development also required",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "summary": "Accumulate ten kilometres of Radbolt travel.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "radical_trip-1",
+            "text": "Set up @item{Radbolt Generators} near a radiation source. Aim the released Radbolts along a clear route, using Radbolt Reflectors to turn the route where needed."
+          },
+          {
+            "id": "radical_trip-2",
+            "text": "Keep Duplicants out of the beam path and keep firing until total Radbolt travel reaches ten kilometres."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SWEETER_THAN_HONEY",
+      "displayName": "Sweeter Than Honey",
+      "description": "Extract Uranium from a Beeta hive without getting stung.",
+      "hidden": false,
+      "globalPercent": 1.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "15 min; colony development also required",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "summary": "Harvest uranium from a Beeta Hive without a sting.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "sweeter_than_honey-1",
+            "text": "Find a @npc{Beeta Hive} in the Radioactive Biome. Fill the hive area with Carbon Dioxide and wait until the Beetas are asleep."
+          },
+          {
+            "id": "sweeter_than_honey-2",
+            "text": "Have a Duplicant harvest the hive’s uranium while the Beetas remain asleep. Use a Lead Suit to protect against their radiation."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SURVIVE_IN_A_ROCKET",
+      "displayName": "Morale High Ground",
+      "description": "Have all Duplicants in a rocket survive in space for 10 cycles in a row with a morale of 25 or higher.",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "prerequisites": [
+        "REACH_SPACE_ANY_DESTINATION"
+      ],
+      "summary": "Keep every occupant of one rocket at 25 Morale or higher for ten consecutive cycles in space.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "survive_in_a_rocket-1",
+            "text": "Prepare one rocket with oxygen, food, and morale comforts sufficient for its crew to stay at 25 Morale or higher."
+          },
+          {
+            "id": "survive_in_a_rocket-2",
+            "text": "Launch the rocket and leave the crew in space for ten consecutive cycles. Keep every occupant at or above 25 Morale throughout the streak."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "REACTOR_USAGE",
+      "displayName": "That's Rad!",
+      "description": "Run a Research Reactor at full capacity for 5 cycles.",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 1452490,
+      "summary": "Keep a Research Reactor running for five cycles at full capacity.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "reactor_usage-1",
+            "text": "Build a @item{Research Reactor} with a continuous water supply and room for hot coolant and Nuclear Waste to escape below it."
+          },
+          {
+            "id": "reactor_usage-2",
+            "text": "Supply Enriched Uranium and keep the reactor operating at full capacity for five cycles. Keep at least 10 kg of fuel available rather than running a fuel-starved reactor."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WINCONDITION_GEOPLANT",
+      "displayName": "Full Steam Ahead",
+      "description": "Secure your colony's industrial future by fulfilling the Power Imperative.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "120 min; colony development also required",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 2952300,
+      "summary": "Finish the Power Imperative by restoring the geothermal plant and unblocking its Geo Vent.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wincondition_geoplant-1",
+            "text": "Start on @loc{Ceres} or @loc{Ceres Minor} with The Frosty Planet Pack enabled. Locate the Geothermal Heat Pump and the three Geo Vents."
+          },
+          {
+            "id": "wincondition_geoplant-2",
+            "text": "Repair the Heat Pump with 1,200 kg Steel and order Duplicants to reconnect the Geo Vents."
+          },
+          {
+            "id": "wincondition_geoplant-3",
+            "text": "Pipe 12,000 kg of liquid into the Heat Pump. Keep its monitored input temperature at least 178.85°C so the heated output clears the blocked vent."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EFFICIENT_DATAMINING",
+      "displayName": "Data Driven",
+      "description": "Produce a Data Bank using a Data Miner operating at maximum efficiency.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "120 min; colony development also required",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3302470,
+      "summary": "Produce a Data Bank while a Data Miner runs at maximum efficiency.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "efficient_datamining-1",
+            "text": "Build the @item{Data Miner} from Steel and supply power in an insulated chamber. Run a Super Coolant loop through Thermo Aquatuners and aluminium Conduction Panels to cool the miner."
+          },
+          {
+            "id": "efficient_datamining-2",
+            "text": "Keep the Aquatuners cooled separately. Bring the Data Miner to -270°C so the displayed efficiency stays at its maximum, about 533%."
+          },
+          {
+            "id": "efficient_datamining-3",
+            "text": "Supply 5 kg Plastic, queue a Data Bank, and keep maximum efficiency for the entire production run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ALL_THE_CIRCUITS",
+      "displayName": "Most Valuable Bionic",
+      "description": "Install 8 boosters in a single Bionic Duplicant.",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "60 min; colony development also required",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3302470,
+      "summary": "Equip eight boosters on one Bionic Duplicant at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "all_the_circuits-1",
+            "text": "Recruit a @npc{Bionic Duplicant}. Learn Booster Processing I, Booster Processing II, Complex Processing, Improved Gears II, and Advanced Schematics, including their prerequisite skills."
+          },
+          {
+            "id": "all_the_circuits-2",
+            "text": "Make boosters at a Crafting Station or Soldering Station. Basic boosters cost two Microchips each."
+          },
+          {
+            "id": "all_the_circuits-3",
+            "text": "Equip boosters in all eight slots on that same Bionic Duplicant. Multiple copies of a booster can fill separate slots."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ASTEROID_DESTROYED",
+      "displayName": "Blast Line of Defense",
+      "description": "Escape extinction by fulfilling the requirements of the Defense Imperative.",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3655420,
+      "lockoutStage": 5,
+      "summary": "Destroy Demolior before it strikes a Relica or Relica Minor colony.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "asteroid_destroyed-1",
+            "text": "Start on @loc{Relica} or @loc{Relica Minor} with Demolior enabled. Choose a later impact date during colony setup if you need more preparation time."
+          },
+          {
+            "id": "asteroid_destroyed-2",
+            "text": "Analyze the @item{Research Portal} near the Printing Pod. Find the revealed Meteor Blaster and recover the four Intracosmic Blastshots from nearby Suit Lockers."
+          },
+          {
+            "id": "asteroid_destroyed-3",
+            "text": "Use Blastshot Makers to produce the remaining ammunition. A full batch of 100 shots costs 5 tonnes refined metal, 10 tonnes Fertilizer or Peat, and 20 tonnes Petroleum or Biodiesel."
+          },
+          {
+            "id": "asteroid_destroyed-4",
+            "text": "Supply Meteor Blasters and fire 100 @item{Intracosmic Blastshots} at Demolior before the impact countdown ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ASTEROID_SURVIVED",
+      "displayName": "The Lab: Life Found A Way",
+      "description": "Survive 100 cycles after Demolior collides with your colony.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 8,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 3655420,
+      "summary": "Survive 100 cycles after the Demolior impact on RelicAAAAAAAGHH without a Duplicant death.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "asteroid_survived-1",
+            "text": "Disable Spaced Out! for colony setup and choose @loc{RelicAAAAAAAGHH} under @mechanic{The Lab}."
+          },
+          {
+            "id": "asteroid_survived-2",
+            "text": "Analyze the Research Portal to see the impact zone. Move the Duplicants and essential supplies out of that zone before Demolior’s early collision."
+          },
+          {
+            "id": "asteroid_survived-3",
+            "text": "After the impact, keep every Duplicant alive for 100 cycles. Save before dangerous work so you can reload if a Duplicant dies."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MINNOW_RECRUITED",
+      "displayName": "Better Together",
+      "description": "Recruit the only freediver Duplicant in the universe to your colony.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "180 min; colony development also required",
+      "estMinutes": 180,
+      "stage": 7,
+      "confidence": "unverified",
+      "dlcAppid": 4310080,
+      "summary": "Recruit Minnow by completing her three delivery requests.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "minnow_recruited-1",
+            "text": "Find the survivor in the @loc{Reef Biome}. Grow Clampums with Sand to obtain Pearls, then deliver 200 kg of Pearls."
+          },
+          {
+            "id": "minnow_recruited-2",
+            "text": "Find the survivor in the @loc{Kelp Forest Biome}. Make Sushi Rolls at a Sushi Bar, using 1,700 kcal Liceloaf, 1,000 kcal Fish Fillet, and 1 kg Nori per roll. Deliver 36,000 kcal of Sushi Rolls."
+          },
+          {
+            "id": "minnow_recruited-3",
+            "text": "For the final request in the @loc{Abyss Biome}, tame and groom Seaquines with an Aquatic Grooming Station and feed them Pearls. Keep a non-elderly Seaquine happy until its reproduction reaches at least 75%."
+          },
+          {
+            "id": "minnow_recruited-4",
+            "text": "Extract Ovolene at an Aquatic Milking Station and process the Ovolene into Caviar at a Gleaner. Deliver 10 kg Caviar to the survivor in the Abyss Biome to recruit Minnow."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "NO_PLANTERBOX",
+    "CLEAN_ENERGY",
+    "EAT_MEAT",
+    "BASIC_COMFORTS",
+    "BUILD_OUTSIDE_BIOME",
+    "COMPLETED_SKILL_BRANCH",
+    "COOKED_FOOD",
+    "HATCH_A_CRITTER",
+    "INSPECT_POI",
+    "SURVIVE_HUNDRED_CYCLES",
+    "CURED_DISEASE",
+    "PLUMBED_WASHROOMS",
+    "AUTOMATE_A_BUILDING",
+    "BASIC_PUMPING",
+    "MASTERPIECE_PAINTING",
+    "EXPLORE_OIL_BIOME",
+    "EQUIP_EIGHT_DUPES",
+    "TWENTY_DUPES",
+    "IDLE_DUPLICANTS",
+    "EXOSUIT_CYCLES",
+    "BUILD_NATURE_RESERVES",
+    "CLEAR_FOW",
+    "VARIETY_OF_ROOMS",
+    "TUBE_TRAVEL_DISTANCE",
+    "GENERATOR_TUNEUP",
+    "HATCH_REFINEMENT",
+    "WINCONDITION_STAY",
+    "SURVIVE_ONE_YEAR",
+    "REACH_SPACE_ANY_DESTINATION",
+    "BUNKER_DOOR_DEFENSE",
+    "FIRST_TELEPORT",
+    "SWEETER_THAN_HONEY",
+    "RADICAL_TRIP",
+    "TAME_GASSYMOO",
+    "REACTOR_USAGE",
+    "COMPLETED_RESEARCH",
+    "SIXKELVIN_BUILDING",
+    "TAME_BASIC_CRITTERS",
+    "WINCONDITION_ARTIFACTS",
+    "GMO_OK",
+    "SOFT_LAUNCH",
+    "SURVIVE_IN_A_ROCKET",
+    "MINE_THE_GAP",
+    "LANDED_ON_ALL_WORLDS",
+    "WINCONDITION_LEAVE",
+    "ALL_THE_CIRCUITS",
+    "WINCONDITION_GEOPLANT",
+    "EFFICIENT_DATAMINING",
+    "ASTEROID_DESTROYED",
+    "ASTEROID_SURVIVED",
+    "MINNOW_RECRUITED"
+  ]
+}

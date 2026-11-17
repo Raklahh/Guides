@@ -1,0 +1,581 @@
+{
+  "game": {
+    "appid": 1867240,
+    "slug": "wardogs",
+    "title": "WARDOGS",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-17",
+    "estTotalHours": 25,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-17"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Tutorial",
+      "description": "Finish the Tutorial and punch the tutorial character in the room before you leave it.",
+      "achievementRefs": [
+        "ACH_TUTORIAL_COMPLETED",
+        "ACH_TUTORIAL_PUNCH_KRISTOPHER"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Firing Range and loadout",
+      "description": "Use the Firing Range for the horn lever and to price a loadout above $100,000 before buying it in a match.",
+      "achievementRefs": [
+        "ACH_SHOOTINGRANGE_SOUND_THE_HORN",
+        "ACH_ECONOMY_LOADOUT_SPEND"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Match kills, cash and objectives",
+      "description": "Earn the kill, profit, tower code and truck achievements while you play matches.",
+      "achievementRefs": [
+        "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
+        "ACH_COMBAT_RICOCHET_KILL",
+        "ACH_COMBAT_LONG_SHOT",
+        "ACH_COMBAT_DEFIBRILLATOR_KILL",
+        "ACH_COMBAT_HES_BEHIND_YOU",
+        "ACH_HOTZONE_SLOT_MACHINE",
+        "ACH_LOGISTICS_CAR_JACKER"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Whole-match goals",
+      "description": "Survive 60 minutes, finish as top earner and win a match without the other teams scoring.",
+      "achievementRefs": [
+        "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
+        "ACH_ECONOMY_TOP_CASH_EARNER",
+        "ACH_MATCH_CLEAN_SWEEP"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_TUTORIAL_COMPLETED",
+      "displayName": "This is WARDOGS",
+      "description": "Complete the Tutorial",
+      "hidden": false,
+      "globalPercent": 81.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish the Tutorial.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "tutorial",
+            "text": "Play the Tutorial from the start to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
+      "displayName": "That was rude",
+      "description": "Punch the tutorial character Christopher.",
+      "hidden": true,
+      "globalPercent": 17.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_TUTORIAL_COMPLETED"
+      ],
+      "summary": "Punch the tutorial character Christopher with your fists.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can only do this in the Tutorial.",
+        "steps": [
+          {
+            "id": "revive",
+            "text": "Follow the Tutorial and revive @npc{Christopher} when it tells you to."
+          },
+          {
+            "id": "stay",
+            "text": "Keep going until the game tells you to enter another room. Stay in the room you are in."
+          },
+          {
+            "id": "punch",
+            "text": "Walk up to @npc{Christopher}, equip your fists and hit him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ECONOMY_TOP_CASH_EARNER",
+      "displayName": "Top Dog",
+      "description": "Finish the match as the top cash earner across all teams",
+      "hidden": false,
+      "globalPercent": 11.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2-5 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Finish a match as the player who earned the most cash of all three teams.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hot Zone play pays double cash.",
+        "steps": [
+          {
+            "id": "hotzone",
+            "text": "Spend your time in the @mechanic{Hot Zone} and earn from tower captures, FOB hacks and pallet deliveries."
+          },
+          {
+            "id": "finish",
+            "text": "Stay in the match until it ends and check that you are first for cash earned."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
+      "displayName": "Fat Stacks",
+      "description": "Reach $100,000 net profit in a single life",
+      "hidden": false,
+      "globalPercent": 27.4,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Make a $100,000 profit (earnings minus spending) before you die.",
+      "guide": {
+        "kind": "standard",
+        "context": "Net profit is what you earn minus what you spend, so a cheap loadout helps. Dying ends the life.",
+        "steps": [
+          {
+            "id": "cheap",
+            "text": "Buy a cheap loadout with good armor."
+          },
+          {
+            "id": "earn",
+            "text": "Earn cash in the @mechanic{Hot Zone} and by delivering supply pallets to a friendly FOB. Delivering pallets in a row adds a bonus."
+          },
+          {
+            "id": "live",
+            "text": "Stay alive until your profit reaches $100,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ECONOMY_LOADOUT_SPEND",
+      "displayName": "Big Spender",
+      "description": "Spend $100,000 on a single loadout",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "10+ h",
+      "estMinutes": 900,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pay $100,000 for one loadout in a single vendor purchase.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spending $100,000 over a whole life, or buying cheaper kits several times, does not count. Prices and level requirements change each season, so check the vendor.",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Level up and unlock expensive gear, such as the AMR 50 rifle, Level 4 armor and helmet, a backpack with two slings and the 6-10x scope."
+          },
+          {
+            "id": "plan",
+            "text": "In the Firing Range vendor, build a loadout and leave the vendor. Open your inventory with Tab to read its total price. Keep adding gear until the total is above $100,000."
+          },
+          {
+            "id": "buy",
+            "text": "Save up enough cash. In a match, buy the same loadout in one purchase."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
+      "displayName": "CZ Survivor",
+      "description": "Spend 60 minutes in the CZ without dying",
+      "hidden": false,
+      "globalPercent": 10.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1-2 h",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Spend 60 minutes in the Control Zone without dying.",
+      "guide": {
+        "kind": "standard",
+        "context": "Level 4 armor and helmet block the most damage.",
+        "steps": [
+          {
+            "id": "enter",
+            "text": "Join a match and stay in the @mechanic{Control Zone}."
+          },
+          {
+            "id": "cover",
+            "text": "Stay near cover your team has built and avoid pushing fights."
+          },
+          {
+            "id": "time",
+            "text": "Keep playing until you have spent 60 minutes in the zone without dying."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMBAT_LONG_SHOT",
+      "displayName": "Long Shot",
+      "description": "Get a kill from over 950m away",
+      "hidden": false,
+      "globalPercent": 14.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2-5 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill an enemy player from more than 950 m away.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Range Finder helps you judge distance. Rain shortens how far you can spot targets.",
+        "steps": [
+          {
+            "id": "kit",
+            "text": "Take a high-power scoped sniper rifle and a Range Finder."
+          },
+          {
+            "id": "shoot",
+            "text": "Find a clear line of sight and shoot an enemy who is over 950 m away. Players who stop to bandage are easy targets."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MATCH_CLEAN_SWEEP",
+      "displayName": "Clean Sweep",
+      "description": "Win a match without another team scoring a point",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "3-10 h",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Win a match while both other teams have zero points.",
+      "guide": {
+        "kind": "standard",
+        "context": "A match ends at 100 points. Whichever team has more players in the Control Zone scores, and players inside the Hot Zone count double.",
+        "steps": [
+          {
+            "id": "early",
+            "text": "Move your team into the @mechanic{Control Zone} at the start and hold it."
+          },
+          {
+            "id": "deny",
+            "text": "Keep your team count above both other teams so they never get a point tick, until your team reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMBAT_RICOCHET_KILL",
+      "displayName": "Ricochet",
+      "description": "Kill an enemy player with a ricochet bullet",
+      "hidden": false,
+      "globalPercent": 31.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Kill an enemy player with a bullet that ricocheted.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "shoot",
+            "text": "Shoot at enemies so bullets bounce off hard surfaces first, until a bounced bullet kills a player."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMBAT_DEFIBRILLATOR_KILL",
+      "displayName": "Do Not Resuscitate",
+      "description": "Kill an enemy player using the defibrillator charge",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "3-8 h",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Use the defibrillator charge to kill an enemy player.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Defibrillator is a Medical item that needs a Battery. It has a Medic level and a cash cost to unlock, which change between seasons.",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Level up the Medic class until you can unlock the Defibrillator, and pay for it."
+          },
+          {
+            "id": "equip",
+            "text": "Buy the Defibrillator with a Battery."
+          },
+          {
+            "id": "shock",
+            "text": "Charge it and shock an enemy player until they die."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_LOGISTICS_CAR_JACKER",
+      "displayName": "Grand Theft Auto",
+      "description": "Steal an enemy Ural loaded with supply pallets, drive it to your FOB and unload all the pallets",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "2-5 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "unverified",
+      "summary": "Steal an enemy Ural loaded with supply pallets, drive it to your FOB and unload every pallet.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Ural is the truck that carries supply pallets. Hard impacts destroy pallets, so drive carefully.",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Find an enemy @item{Ural} that is carrying supply pallets."
+          },
+          {
+            "id": "take",
+            "text": "Take the driver seat and drive it to your own FOB."
+          },
+          {
+            "id": "unload",
+            "text": "At your FOB, interact with each pallet and choose UNLOAD SUPPLIES until all are unloaded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HOTZONE_SLOT_MACHINE",
+      "displayName": "Code Breaker",
+      "description": "Guess at least 3 numbers correctly on the Drill Tower",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "2-5 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "unverified",
+      "summary": "Enter the Drill Tower code keypad with at least 3 numbers guessed correctly.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each tower you capture shows one digit of the match code. A match has about 3 to 5 towers and the code changes every match. A wrong entry can lock the keypad for a short time. If a map has three or fewer towers, the console shows symbols instead of digits until your team owns every tower.",
+        "steps": [
+          {
+            "id": "capture",
+            "text": "Capture a tower in the @mechanic{Control Zone}: clear it, go to the operations floor and hold interact at the console until the capture finishes."
+          },
+          {
+            "id": "digits",
+            "text": "Note the digit it shows. Capture more towers to learn more digits."
+          },
+          {
+            "id": "guess",
+            "text": "At the keypad beside the console, enter the code and guess the digits you still do not know."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_COMBAT_HES_BEHIND_YOU",
+      "displayName": "He’s Behind You",
+      "description": "Kill an enemy with the backblast of an RPG or CGM4 while in the Control Zone",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1-3 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_COMBAT_DEFIBRILLATOR_KILL"
+      ],
+      "summary": "Kill an enemy with the backblast of an RPG or CGM4 launcher while in the Control Zone.",
+      "guide": {
+        "kind": "standard",
+        "context": "This needs a Defibrillator and a launcher. The backblast is the fire that comes out of the back of the launcher.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "In the @mechanic{Control Zone}, kill a player and remove all their gear."
+          },
+          {
+            "id": "corner",
+            "text": "Drag the body into a corner."
+          },
+          {
+            "id": "revive",
+            "text": "Use the defibrillator to revive the player."
+          },
+          {
+            "id": "fire",
+            "text": "Turn quickly so the back of your launcher faces them, and fire."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SHOOTINGRANGE_SOUND_THE_HORN",
+      "displayName": "Honk if You're Horny",
+      "description": "Pull the horn lever in the firing range",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Pull the horn lever in the firing range.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "lever",
+            "text": "Go to the firing range, look around it for the horn lever and pull it."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_TUTORIAL_COMPLETED",
+    "ACH_TUTORIAL_PUNCH_KRISTOPHER",
+    "ACH_SHOOTINGRANGE_SOUND_THE_HORN",
+    "ACH_ECONOMY_LOADOUT_SPEND",
+    "ACH_COMBAT_RICOCHET_KILL",
+    "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
+    "ACH_COMBAT_LONG_SHOT",
+    "ACH_HOTZONE_SLOT_MACHINE",
+    "ACH_LOGISTICS_CAR_JACKER",
+    "ACH_COMBAT_DEFIBRILLATOR_KILL",
+    "ACH_COMBAT_HES_BEHIND_YOU",
+    "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
+    "ACH_ECONOMY_TOP_CASH_EARNER",
+    "ACH_MATCH_CLEAN_SWEEP"
+  ]
+}

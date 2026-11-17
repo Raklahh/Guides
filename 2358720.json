@@ -3790,25 +3790,753 @@
       "stage": 7,
       "confidence": "verified",
       "lockoutStage": 7,
-      "summary": "Collect every armor piece.",
+      "prerequisites": [
+        "81072"
+      ],
+      "summary": "Collect every base-game armor piece: 18 helms, 19 chests, 20 gloves and 17 legs.",
       "guide": {
-        "kind": "standard",
-        "context": "",
-        "steps": [
+        "kind": "collectible",
+        "context": "Wukong's armor comes twice, a story copy and a hidden chest copy with the same names. Both count. Deluxe Edition and Gauntlet of Legends armor does not count. The full Bull King set needs six Bull King's Iron Horns, and one playthrough gives only four, so finish that set in New Game+.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Craft or loot all 18 helms, 19 chests, 20 gloves and 17 legs, including both the Old Monkey and Monkey King sets.",
-            "kind": "normal"
+            "id": "grey-wolf-mask",
+            "index": 1,
+            "group": "Helms",
+            "name": "Grey Wolf Mask",
+            "location": "@loc{Chapter 1}",
+            "method": "Defeat @enemy{Lingxuzi} for a guaranteed drop.",
+            "note": "",
+            "missable": false
           },
           {
-            "id": "s2",
-            "text": "Break four of the @enemy{Venom Daoist}'s six back arms for the @item{Venomous Armguard}.",
-            "kind": "normal"
+            "id": "pilgrim-s-headband",
+            "index": 2,
+            "group": "Helms",
+            "name": "Pilgrim's Headband",
+            "location": "@loc{Guanyin Temple}, Chapter 1",
+            "method": "Activate the Guanyin Temple shrine, then craft it there.",
+            "note": "",
+            "missable": false
           },
           {
-            "id": "s3",
-            "text": "Collect the @item{Bull King's Iron Horn} from the Chapter 5 secret area.",
-            "kind": "normal"
+            "id": "bronze-monkey-mask",
+            "index": 3,
+            "group": "Helms",
+            "name": "Bronze Monkey Mask",
+            "location": "@loc{Chapter 1} secret area",
+            "method": "Defeat @enemy{Elder Jinchi} in the Ancient Guanyin Temple, then craft it at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Black Bear Guai} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "snout-mask",
+            "index": 4,
+            "group": "Helms",
+            "name": "Snout Mask",
+            "location": "@loc{Chapter 2}",
+            "method": "Defeat the @enemy{Yellow-Robed Squire} in the boar questline. It drops from him.",
+            "note": "This secret area closes for the playthrough once @enemy{Yellow Wind Sage} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "galeguard-beast-mask",
+            "index": 5,
+            "group": "Helms",
+            "name": "Galeguard Beast Mask",
+            "location": "@loc{Chapter 2}",
+            "method": "Defeat the @enemy{Stone Vanguard}, then craft it at the Rock Clash Platform shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "monastic-insect-hat",
+            "index": 6,
+            "group": "Helms",
+            "name": "Monastic Insect Hat",
+            "location": "@loc{Chapter 2} secret area",
+            "method": "Defeat @enemy{Fuban}, then craft it at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Yellow Wind Sage} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "see-no-evil",
+            "index": 7,
+            "group": "Helms",
+            "name": "See No Evil",
+            "location": "@loc{New Thunderclap Temple: Temple Entrance}, Chapter 3",
+            "method": "Low-chance drop from the @enemy{Blind Monks} around the entrance. Keep fighting them until it appears.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "skull-of-turtle-treasure",
+            "index": 8,
+            "group": "Helms",
+            "name": "Skull of Turtle Treasure",
+            "location": "@loc{Longevity Road} in Chapter 3, or @loc{Woods of Ember: Height of Ember} in Chapter 5",
+            "method": "Rare drop from a @enemy{Turtle Treasure}. Keep farming one until it drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-mask-of-fury",
+            "index": 9,
+            "group": "Helms",
+            "name": "Golden Mask of Fury",
+            "location": "@loc{Chapter 4}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "non-pure-broken-mask",
+            "index": 10,
+            "group": "Helms",
+            "name": "Non-Pure Broken Mask",
+            "location": "@loc{Chapter 4}",
+            "method": "Defeat @enemy{Zhu Bajie}, then craft it at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "locust-antennae-mask",
+            "index": 11,
+            "group": "Helms",
+            "name": "Locust Antennae Mask",
+            "location": "@loc{Webbed Hollow: Verdure Bridge}, Chapter 4",
+            "method": "Rare drop from the locust in a cocoon across the vine bridge. Keep farming it until it drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "centipede-hat-of-transcendence",
+            "index": 12,
+            "group": "Helms",
+            "name": "Centipede Hat of Transcendence",
+            "location": "@loc{Chapter 5}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "earth-spirit-cap",
+            "index": 13,
+            "group": "Helms",
+            "name": "Earth Spirit Cap",
+            "location": "@loc{Field of Fire: Ashen Pass III}, Chapter 5",
+            "method": "Pick the big mushroom cluster near the shrine, then defeat the boss it summons for a guaranteed drop.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "iron-horned-helm",
+            "index": 14,
+            "group": "Helms",
+            "name": "Iron Horned Helm",
+            "location": "@loc{Zodiac Village: Village Entrance}",
+            "method": "Defeat @npc{Yin Tiger}, then craft it. You reach the village through the @npc{Chen Loong} questline. If it is not offered yet, check again after @enemy{The Duskveil}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bull-king-s-mask",
+            "index": 15,
+            "group": "Helms",
+            "name": "Bull King's Mask",
+            "location": "@loc{Chapter 5} secret area",
+            "method": "Defeat the @enemy{Bishui Golden-Eyed Beast}, then craft it at the Corridor of Fire and Ice shrine. Needs @item{Bull King's Iron Horn}. Take the one in the chest along the left wall before the boss, and the boss drops three more.",
+            "note": "This secret area closes for the playthrough once @enemy{Red Boy} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "yaksha-mask-of-outrage",
+            "index": 16,
+            "group": "Helms",
+            "name": "Yaksha Mask of Outrage",
+            "location": "@loc{Chapter 6}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-feng-tail-crown-story-copy",
+            "index": 17,
+            "group": "Helms",
+            "name": "Golden Feng-Tail Crown (story copy)",
+            "location": "@loc{Chapter 6}",
+            "method": "Find the huge grasshopper that roams the water left of the Verdant Path shrine. Land on its head from your cloud and keep holding its antennae through its stamina and health check.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-feng-tail-crown-hidden-chest-copy",
+            "index": 18,
+            "group": "Helms",
+            "name": "Golden Feng-Tail Crown (hidden chest copy)",
+            "location": "@loc{Foothills: Verdant Path}, Chapter 6",
+            "method": "After you get the Somersault Cloud, turn left from the shrine and fly onto the peak you see ahead. The small golden chest sits behind a crooked tree. Open it. It holds all four pieces of this second set.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "tiger-hide-loincloth",
+            "index": 19,
+            "group": "Chests",
+            "name": "Tiger Hide Loincloth",
+            "location": "Start of the game",
+            "method": "You start with it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "pilgrim-s-garb",
+            "index": 20,
+            "group": "Chests",
+            "name": "Pilgrim's Garb",
+            "location": "@loc{Guanyin Temple}, Chapter 1",
+            "method": "Activate the Guanyin Temple shrine, then craft it there.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "serpentscale-battlerobe",
+            "index": 21,
+            "group": "Chests",
+            "name": "Serpentscale Battlerobe",
+            "location": "@loc{Chapter 1}",
+            "method": "Defeat the @enemy{Whiteclad Noble}, then craft it at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bronze-brocade-battlerobe",
+            "index": 22,
+            "group": "Chests",
+            "name": "Bronze Brocade Battlerobe",
+            "location": "@loc{Chapter 1} secret area",
+            "method": "Defeat @enemy{Elder Jinchi} in the Ancient Guanyin Temple, then craft it at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Black Bear Guai} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "ebongold-silk-robe",
+            "index": 23,
+            "group": "Chests",
+            "name": "Ebongold Silk Robe",
+            "location": "@loc{Chapter 2}",
+            "method": "Reach the first shrine of the chapter (Village Entrance), then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "galeguard-beastmaw-armor",
+            "index": 24,
+            "group": "Chests",
+            "name": "Galeguard Beastmaw Armor",
+            "location": "@loc{Chapter 2}",
+            "method": "Defeat the @enemy{Stone Vanguard}, then craft it at the Rock Clash Platform shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "ochre-battlerobe",
+            "index": 25,
+            "group": "Chests",
+            "name": "Ochre Battlerobe",
+            "location": "@loc{Chapter 3}",
+            "method": "Finish Chapter 2, then craft it at the Frost-Clad Path shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "loongscale-battlerobe",
+            "index": 26,
+            "group": "Chests",
+            "name": "Loongscale Battlerobe",
+            "location": "@loc{Turtle Island}, Chapter 3",
+            "method": "Defeat @enemy{Kang-Jin Star} on the island, then craft it at the island shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "ginseng-cape",
+            "index": 27,
+            "group": "Chests",
+            "name": "Ginseng Cape",
+            "location": "@loc{Valley of Ecstasy: Towers of Karma}, Chapter 3",
+            "method": "Gather the ginseng plants by the stone pillar, then defeat @enemy{Old Ginseng Guai} for a guaranteed drop.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-embroidered-shirt",
+            "index": 28,
+            "group": "Chests",
+            "name": "Golden Embroidered Shirt",
+            "location": "@loc{Chapter 4}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "non-pure-armor-of-coiling-loong",
+            "index": 29,
+            "group": "Chests",
+            "name": "Non-Pure Armor of Coiling Loong",
+            "location": "@loc{Chapter 4}",
+            "method": "Defeat @enemy{Zhu Bajie}, then craft it at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "venomous-sting-insect-armor",
+            "index": 30,
+            "group": "Chests",
+            "name": "Venomous Sting Insect Armor",
+            "location": "@loc{Chapter 4} secret area",
+            "method": "Defeat the @enemy{Scorpionlord} before @enemy{The Duskveil} to get the item it needs. Then craft it at the Valley of Blooms shrine. The rest of the Insect set comes from @enemy{Fuban}.",
+            "note": "This secret area closes for the playthrough once @enemy{The Duskveil} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "centipede-qiang-jin-armor",
+            "index": 31,
+            "group": "Chests",
+            "name": "Centipede Qiang-Jin Armor",
+            "location": "@loc{Chapter 5}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "yin-yang-daoist-robe",
+            "index": 32,
+            "group": "Chests",
+            "name": "Yin-Yang Daoist Robe",
+            "location": "@loc{Chapter 5}",
+            "method": "Defeat the story boss @enemy{Keeper of the Flaming Mountains}. It is the reward.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "iron-tough-armor",
+            "index": 33,
+            "group": "Chests",
+            "name": "Iron-Tough Armor",
+            "location": "@loc{Zodiac Village: Village Entrance}",
+            "method": "Defeat @npc{Yin Tiger}, then craft it. If it is not offered yet, check again after @enemy{The Duskveil}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bull-king-s-shan-wen-armor",
+            "index": 34,
+            "group": "Chests",
+            "name": "Bull King's Shan Wen Armor",
+            "location": "@loc{Chapter 5} secret area",
+            "method": "Defeat the @enemy{Bishui Golden-Eyed Beast}, then craft it at the Corridor of Fire and Ice shrine. Needs @item{Bull King's Iron Horn}. Take the one in the chest along the left wall before the boss, and the boss drops three more.",
+            "note": "This secret area closes for the playthrough once @enemy{Red Boy} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "embroidered-shirt-of-outrage",
+            "index": 35,
+            "group": "Chests",
+            "name": "Embroidered Shirt of Outrage",
+            "location": "@loc{Chapter 6}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "gold-suozi-armor-story-copy",
+            "index": 36,
+            "group": "Chests",
+            "name": "Gold Suozi Armor (story copy)",
+            "location": "@loc{Rhino Watch Slope}, Chapter 6",
+            "method": "Defeat the @enemy{Gold Armored Rhino}. Heavy attacks or the Wandering Wight spirit break its horn.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "gold-suozi-armor-hidden-chest-copy",
+            "index": 37,
+            "group": "Chests",
+            "name": "Gold Suozi Armor (hidden chest copy)",
+            "location": "@loc{Foothills: Verdant Path}, Chapter 6",
+            "method": "Open the same small golden chest on the Foothills peak.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "cotton-wristwraps",
+            "index": 38,
+            "group": "Gloves",
+            "name": "Cotton Wristwraps",
+            "location": "Start of the game",
+            "method": "You start with them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "pilgrim-s-wristwraps",
+            "index": 39,
+            "group": "Gloves",
+            "name": "Pilgrim's Wristwraps",
+            "location": "@loc{Guanyin Temple}, Chapter 1",
+            "method": "Activate the Guanyin Temple shrine, then craft them there.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "serpentscale-bracers",
+            "index": 40,
+            "group": "Gloves",
+            "name": "Serpentscale Bracers",
+            "location": "@loc{Chapter 1}",
+            "method": "Defeat the @enemy{Whiteclad Noble}, then craft them at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bronze-armguard",
+            "index": 41,
+            "group": "Gloves",
+            "name": "Bronze Armguard",
+            "location": "@loc{Chapter 1} secret area",
+            "method": "Defeat @enemy{Elder Jinchi} in the Ancient Guanyin Temple, then craft it at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Black Bear Guai} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "guanyin-s-prayer-beads",
+            "index": 42,
+            "group": "Gloves",
+            "name": "Guanyin's Prayer Beads",
+            "location": "@loc{Ancient Guanyin Temple: Grand Chamber}",
+            "method": "Open the chest beside the shrine. It is in the Chapter 1 secret area.",
+            "note": "This secret area closes for the playthrough once @enemy{Black Bear Guai} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "ebongold-armguard",
+            "index": 43,
+            "group": "Gloves",
+            "name": "Ebongold Armguard",
+            "location": "@loc{Chapter 2}",
+            "method": "Reach the first shrine of the chapter (Village Entrance), then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "galeguard-bracers",
+            "index": 44,
+            "group": "Gloves",
+            "name": "Galeguard Bracers",
+            "location": "@loc{Chapter 2}",
+            "method": "Defeat the @enemy{Stone Vanguard}, then craft them at the Rock Clash Platform shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "insect-spike-bracers",
+            "index": 45,
+            "group": "Gloves",
+            "name": "Insect Spike Bracers",
+            "location": "@loc{Chapter 2} secret area",
+            "method": "Defeat @enemy{Fuban}, then craft them at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Yellow Wind Sage} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "ochre-armguard",
+            "index": 46,
+            "group": "Gloves",
+            "name": "Ochre Armguard",
+            "location": "@loc{Chapter 3}",
+            "method": "Finish Chapter 2, then craft it at the Frost-Clad Path shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "loongscale-armguard",
+            "index": 47,
+            "group": "Gloves",
+            "name": "Loongscale Armguard",
+            "location": "@loc{Turtle Island}, Chapter 3",
+            "method": "Defeat @enemy{Kang-Jin Star} on the island, then craft it at the island shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "vajra-armguard",
+            "index": 48,
+            "group": "Gloves",
+            "name": "Vajra Armguard",
+            "location": "@loc{New Thunderclap Temple: Temple Entrance}, Chapter 3",
+            "method": "Rare drop from the @enemy{Clay Vajra}, the four-legged enemy that shoots fire. Keep farming it until it drops.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-armguard",
+            "index": 49,
+            "group": "Gloves",
+            "name": "Golden Armguard",
+            "location": "@loc{Chapter 4}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "non-pure-gauntlets",
+            "index": 50,
+            "group": "Gloves",
+            "name": "Non-Pure Gauntlets",
+            "location": "@loc{Chapter 4}",
+            "method": "Defeat @enemy{Zhu Bajie}, then craft them at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "venomous-armguard",
+            "index": 51,
+            "group": "Gloves",
+            "name": "Venomous Armguard",
+            "location": "@loc{Webbed Hollow: Pool of Shattered Jade}, Chapter 4",
+            "method": "Fight the @enemy{Venom Daoist}, the boss just past the shrine. Attack only his back and break four of his six back arms before he dies. Immobilize or the Wind Tamer Vessel helps.",
+            "note": "Killing the Venom Daoist before four arms break closes this piece until New Game+.",
+            "missable": true
+          },
+          {
+            "id": "centipede-spiked-armguard",
+            "index": 52,
+            "group": "Gloves",
+            "name": "Centipede Spiked Armguard",
+            "location": "@loc{Chapter 5}",
+            "method": "Reach the first shrine of the chapter, then craft it.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "iron-tough-gauntlets",
+            "index": 53,
+            "group": "Gloves",
+            "name": "Iron-Tough Gauntlets",
+            "location": "@loc{Zodiac Village: Village Entrance}",
+            "method": "Defeat @npc{Yin Tiger}, then craft them. If they are not offered yet, check again after @enemy{The Duskveil}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bull-king-s-bracers",
+            "index": 54,
+            "group": "Gloves",
+            "name": "Bull King's Bracers",
+            "location": "@loc{Chapter 5} secret area",
+            "method": "Defeat the @enemy{Bishui Golden-Eyed Beast}, then craft them at the Corridor of Fire and Ice shrine. Needs @item{Bull King's Iron Horn}. Take the one in the chest along the left wall before the boss, and the boss drops three more.",
+            "note": "This secret area closes for the playthrough once @enemy{Red Boy} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "yaksha-bracers-of-outrage",
+            "index": 55,
+            "group": "Gloves",
+            "name": "Yaksha Bracers of Outrage",
+            "location": "@loc{Chapter 6}",
+            "method": "Reach the first shrine of the chapter, then craft them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "dian-cui-loong-soaring-bracers-story-copy",
+            "index": 56,
+            "group": "Gloves",
+            "name": "Dian-Cui Loong-Soaring Bracers (story copy)",
+            "location": "@loc{Mantis-Catching Swamp}, Chapter 6",
+            "method": "Defeat the @enemy{Emerald-Armed Mantis}. If you die, the nearby shrine lets you talk to @npc{Zhu Bajie} to retry.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "dian-cui-loong-soaring-bracers-hidden-chest-copy",
+            "index": 57,
+            "group": "Gloves",
+            "name": "Dian-Cui Loong-Soaring Bracers (hidden chest copy)",
+            "location": "@loc{Foothills: Verdant Path}, Chapter 6",
+            "method": "Open the same small golden chest on the Foothills peak.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "cotton-legwraps",
+            "index": 58,
+            "group": "Legs",
+            "name": "Cotton Legwraps",
+            "location": "Start of the game",
+            "method": "You start with them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "pilgrim-s-legwraps",
+            "index": 59,
+            "group": "Legs",
+            "name": "Pilgrim's Legwraps",
+            "location": "@loc{Guanyin Temple}, Chapter 1",
+            "method": "Activate the Guanyin Temple shrine, then craft them there.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "serpentscale-gaiters",
+            "index": 60,
+            "group": "Legs",
+            "name": "Serpentscale Gaiters",
+            "location": "@loc{Chapter 1}",
+            "method": "Defeat the @enemy{Whiteclad Noble}, then craft them at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bronze-buskins",
+            "index": 61,
+            "group": "Legs",
+            "name": "Bronze Buskins",
+            "location": "@loc{Chapter 1} secret area",
+            "method": "Defeat @enemy{Elder Jinchi} in the Ancient Guanyin Temple, then craft them at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Black Bear Guai} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "ebongold-gaiters",
+            "index": 62,
+            "group": "Legs",
+            "name": "Ebongold Gaiters",
+            "location": "@loc{Chapter 2}",
+            "method": "Reach the first shrine of the chapter (Village Entrance), then craft them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "galeguard-greaves",
+            "index": 63,
+            "group": "Legs",
+            "name": "Galeguard Greaves",
+            "location": "@loc{Chapter 2}",
+            "method": "Defeat the @enemy{Stone Vanguard}, then craft them at the Rock Clash Platform shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "insect-spike-gaiters",
+            "index": 64,
+            "group": "Legs",
+            "name": "Insect Spike Gaiters",
+            "location": "@loc{Chapter 2} secret area",
+            "method": "Defeat @enemy{Fuban}, then craft them at a shrine.",
+            "note": "This secret area closes for the playthrough once @enemy{Yellow Wind Sage} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "ochre-greaves",
+            "index": 65,
+            "group": "Legs",
+            "name": "Ochre Greaves",
+            "location": "@loc{Chapter 3}",
+            "method": "Finish Chapter 2, then craft them at the Frost-Clad Path shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "loongscale-greaves",
+            "index": 66,
+            "group": "Legs",
+            "name": "Loongscale Greaves",
+            "location": "@loc{Turtle Island}, Chapter 3",
+            "method": "Defeat @enemy{Kang-Jin Star} on the island, then craft them at the island shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "golden-greaves",
+            "index": 67,
+            "group": "Legs",
+            "name": "Golden Greaves",
+            "location": "@loc{Chapter 4}",
+            "method": "Reach the first shrine of the chapter, then craft them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "non-pure-greaves",
+            "index": 68,
+            "group": "Legs",
+            "name": "Non-Pure Greaves",
+            "location": "@loc{Chapter 4}",
+            "method": "Defeat @enemy{Zhu Bajie}, then craft them at a shrine.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "centipede-gaiters-of-transcendence",
+            "index": 69,
+            "group": "Legs",
+            "name": "Centipede Gaiters of Transcendence",
+            "location": "@loc{Chapter 5}",
+            "method": "Reach the first shrine of the chapter, then craft them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "iron-tough-greaves",
+            "index": 70,
+            "group": "Legs",
+            "name": "Iron-Tough Greaves",
+            "location": "@loc{Zodiac Village: Village Entrance}",
+            "method": "Defeat @npc{Yin Tiger}, then craft them. If they are not offered yet, check again after @enemy{The Duskveil}.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "bull-king-s-greaves",
+            "index": 71,
+            "group": "Legs",
+            "name": "Bull King's Greaves",
+            "location": "@loc{Chapter 5} secret area",
+            "method": "Defeat the @enemy{Bishui Golden-Eyed Beast}, then craft them at the Corridor of Fire and Ice shrine. Needs @item{Bull King's Iron Horn}. Take the one in the chest along the left wall before the boss, and the boss drops three more.",
+            "note": "This secret area closes for the playthrough once @enemy{Red Boy} falls, so do it before then or wait for New Game+.",
+            "missable": true
+          },
+          {
+            "id": "yaksha-greaves-of-outrage",
+            "index": 72,
+            "group": "Legs",
+            "name": "Yaksha Greaves of Outrage",
+            "location": "@loc{Chapter 6}",
+            "method": "Reach the first shrine of the chapter, then craft them.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "lotus-silk-cloudtreaders-story-copy",
+            "index": 73,
+            "group": "Legs",
+            "name": "Lotus Silk Cloudtreaders (story copy)",
+            "location": "@loc{Deer Sight Forest}, Chapter 6",
+            "method": "Defeat the @enemy{Cloudtreading Deer}. The Wind Tamer Vessel helps against its wind attacks.",
+            "note": "",
+            "missable": false
+          },
+          {
+            "id": "lotus-silk-cloudtreaders-hidden-chest-copy",
+            "index": 74,
+            "group": "Legs",
+            "name": "Lotus Silk Cloudtreaders (hidden chest copy)",
+            "location": "@loc{Foothills: Verdant Path}, Chapter 6",
+            "method": "Open the same small golden chest on the Foothills peak.",
+            "note": "",
+            "missable": false
           }
         ]
       }

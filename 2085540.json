@@ -1,0 +1,1567 @@
+{
+  "game": {
+    "appid": 2085540,
+    "slug": "stick-it-to-the-stickman",
+    "title": "Stick It to the Stickman",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-22",
+    "estTotalHours": 35,
+    "difficultyRating": 5,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Start of the game: first runs and building unlocks",
+      "description": "Refuse the job offers at the very start until the daughter ends the run, then play normally. Beat the Finance Tower boss twice and unlock the driving school, Fulfillment Center and Night Shift as money allows.",
+      "achievementRefs": [
+        "Achievement_Name_Unemployable",
+        "Achievement_Name_IQuit",
+        "Achievement_Name_GoingPublic",
+        "Achievement_Name_LearnToDrive",
+        "Achievement_Name_Oriented",
+        "Achievement_Name_NightShift"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "City map, Cage Fight and Founder story",
+      "description": "Play Night Shift once to start the cutout hunt. Work through the city secrets, Cage Fight, Company History Month, the soup kitchen, the statue song and the credits.",
+      "achievementRefs": [
+        "Achievement_Name_ColorProfiling",
+        "Achievement_Name_Redgicide",
+        "Achievement_Name_WebSlinger",
+        "Achievement_Name_KillYounglings",
+        "Achievement_Name_Gentrify",
+        "Achievement_Name_WinCHM",
+        "Achievement_Name_PourSoup",
+        "Achievement_Name_HeartOfBillionaire",
+        "Achievement_Name_WinCredits",
+        "Achievement_Name_WinCageFight",
+        "Achievement_Name_RankedCageFight"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Foreign Manufacturing and Neurolink",
+      "description": "Win Foreign Manufacturing, then refuse the job offer when first entering Neurolink. Finish Neurolink and hunt the briefcase man with the Student.",
+      "achievementRefs": [
+        "Achievement_Name_DefeatFM",
+        "Achievement_Name_Unemployable2",
+        "Achievement_Name_DefeatNeurolink",
+        "Achievement_Name_10MindPowers",
+        "Achievement_Name_Gman"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "The Founder's bunker",
+      "description": "Choose to take or leave the Founder's wealth, crown and bunker; keep playing after leaving it for the last story achievement.",
+      "achievementRefs": [
+        "Achievement_Name_TakeCrown",
+        "Achievement_Name_LeaveCrown",
+        "Achievement_Name_RevertCapitalism"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Counters, run challenges and long grinds",
+      "description": "Mix the run challenges and counters into normal runs, then farm expansions, money and the online Cage Fight rank.",
+      "achievementRefs": [
+        "Achievement_Name_UpTheCorporateLadder",
+        "Achievement_Name_UnFired",
+        "Achievement_Name_FistsOfRetrenchment",
+        "Achievement_Name_100Kicks",
+        "Achievement_Name_100Guns",
+        "Achievement_Name_HoldPissIn",
+        "Achievement_Name_1MillionDollars",
+        "Achievement_Name_100Moves",
+        "Achievement_Name_AllArchetypes",
+        "Achievement_Name_AllExpansions",
+        "Achievement_Name_BallKicks",
+        "Achievement_Name_Defenestrate",
+        "Achievement_Name_Dismember",
+        "Achievement_Name_GodMode",
+        "Achievement_Name_WinCageFightOnline"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "Achievement_Name_IQuit",
+      "displayName": "You can't fire me, I quit",
+      "description": "Defeat your boss to become your boss",
+      "hidden": false,
+      "globalPercent": 91.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Beat the first final boss at the top of the Finance Tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "beat-boss",
+            "text": "Play runs in the @loc{Finance Tower} until you reach the boss at the top, then defeat him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Unemployable",
+      "displayName": "Unemployable",
+      "description": "Refuse every job offer at the start of the game.",
+      "hidden": true,
+      "globalPercent": 9.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Refuse every job offer at the start of the game until your daughter ends your run.",
+      "guide": {
+        "kind": "standard",
+        "context": "This only works in the opening of a save. If you accept a job, you need a new save to try again. @warn{Do this before anything else.}",
+        "steps": [
+          {
+            "id": "refuse",
+            "text": "When the game offers you a job in the opening, choose no. Keep choosing no each time it asks, until your daughter has had enough and the run ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_UpTheCorporateLadder",
+      "displayName": "up the corporate ladder",
+      "description": "climb 100 ladders",
+      "hidden": false,
+      "globalPercent": 63.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Climb 100 ladders.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "climb",
+            "text": "Climb ladders and stairs during runs until the counter reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_UnFired",
+      "displayName": "un-fired",
+      "description": "Extinguish the fire on a burning coworker",
+      "hidden": false,
+      "globalPercent": 15.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_GoingPublic"
+      ],
+      "summary": "Put out the fire on a burning coworker with a fire extinguisher.",
+      "guide": {
+        "kind": "standard",
+        "context": "Another route is the Task Dodger: upgrade the Paper Airplane fully to unlock the extinguisher, then douse a coworker who is on fire. A friend with any fire attack helps.",
+        "steps": [
+          {
+            "id": "cage",
+            "text": "In @loc{Cage Fight}, pick the first opponent, the addict CEO. Equip @item{Cigarette toss} and then @item{Fire extinguisher}, in that order. Add @item{Fake handshake} just before the cigarette toss to make it more reliable."
+          },
+          {
+            "id": "use",
+            "text": "Set the CEO on fire with the cigarette, then use the extinguisher on him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_FistsOfRetrenchment",
+      "displayName": "Fists of retrenchment",
+      "description": "Perform 100 consecutive punches",
+      "hidden": false,
+      "globalPercent": 12.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Perform 100 punches in a row without using any other attack.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pick",
+            "text": "Pick a character that has only punch moves, such as the Weeb with Karate Punch at its maximum level. A fresh save makes this easier."
+          },
+          {
+            "id": "punch",
+            "text": "Punch 100 times in a row. Do not pick up any non-punch move, because any other attack resets the count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_LearnToDrive",
+      "displayName": "Learn to drive",
+      "description": "Get your Driver's license",
+      "hidden": false,
+      "globalPercent": 74.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_IQuit"
+      ],
+      "summary": "Get your driver's license.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "earn",
+            "text": "Keep earning money. At a set point a cutscene starts the driving test."
+          },
+          {
+            "id": "test",
+            "text": "Finish the driving test."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Oriented",
+      "displayName": "Oriented",
+      "description": "Work a day shift at the Fulfillment Center",
+      "hidden": false,
+      "globalPercent": 68.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_IQuit"
+      ],
+      "summary": "Finish a day-shift run in the Fulfillment Center.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Earn money until the @loc{Fulfillment Center} opens."
+          },
+          {
+            "id": "run",
+            "text": "Play one day-shift run there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_GoingPublic",
+      "displayName": "Going public",
+      "description": "Become listed on the Stockmarket",
+      "hidden": false,
+      "globalPercent": 85.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_IQuit"
+      ],
+      "summary": "Become listed on the stock market.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss",
+            "text": "Beat the final boss in the @loc{Finance Tower} a second time."
+          },
+          {
+            "id": "buttons",
+            "text": "In the cutscene afterward, press the button the shareholders point to each time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_RankedCageFight",
+      "displayName": "Fight with both hands behind my back",
+      "description": "Watch a ranked Cage Fight",
+      "hidden": false,
+      "globalPercent": 22.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_WinCageFight"
+      ],
+      "summary": "Watch a ranked Cage Fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "If Online is not open yet, beat all six CEOs first (see Forbes 100).",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Unlock @loc{Cage Fight} and finish its training."
+          },
+          {
+            "id": "online",
+            "text": "Choose Online and start a fight."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_NightShift",
+      "displayName": "We only come out at night",
+      "description": "Work the Night Shift",
+      "hidden": false,
+      "globalPercent": 41.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_GoingPublic"
+      ],
+      "summary": "Work the Night Shift.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Earn money until the Night Shift unlocks."
+          },
+          {
+            "id": "choose",
+            "text": "At the @loc{Finance Tower}, choose Night Shift instead of Day Shift and play it with any character."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_ColorProfiling",
+      "displayName": "Color profiling",
+      "description": "Evade the police by spraying your whole body a different color",
+      "hidden": false,
+      "globalPercent": 14.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_LearnToDrive"
+      ],
+      "summary": "Evade the police by changing your body color in the repair shop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "wanted",
+            "text": "Get a wanted level, for example by stealing the police car or killing a police officer."
+          },
+          {
+            "id": "shop",
+            "text": "Run into the building at the top-left of the city map, next to the overpass. Your color changes and the police lose you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Redgicide",
+      "displayName": "Red-gicide",
+      "description": "Destroy all the wooden CEO cutouts in the city",
+      "hidden": false,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_NightShift"
+      ],
+      "summary": "Destroy all five wooden CEO cutouts in the city.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The cutouts appear after you finish a Night Shift once.",
+        "collectibles": [
+          {
+            "id": "drive-in",
+            "index": 1,
+            "name": "Cutout 1",
+            "location": "Movie drive-in area",
+            "method": "Where the credits play."
+          },
+          {
+            "id": "lighthouse",
+            "index": 2,
+            "name": "Cutout 2",
+            "location": "Docks area",
+            "method": "Left of the lighthouse."
+          },
+          {
+            "id": "overpass",
+            "index": 3,
+            "name": "Cutout 3",
+            "location": "Top-left corner of the map",
+            "method": "Up on the overpass."
+          },
+          {
+            "id": "hospital",
+            "index": 4,
+            "name": "Cutout 4",
+            "location": "Next to the hospital",
+            "method": "Left of the hospital. A car may be needed to break the fence."
+          },
+          {
+            "id": "police",
+            "index": 5,
+            "name": "Cutout 5",
+            "location": "Behind the police station",
+            "method": "The station grows taller later and can hide this one, so break it early."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_1MillionDollars",
+      "displayName": "Bustin' your M-nut",
+      "description": "Make 1 million dollars",
+      "hidden": false,
+      "globalPercent": 21.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Make 1 million dollars.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "farm",
+            "text": "Earn cash in runs. @loc{Neurolink} pays best; the @loc{Finance Tower} and @loc{Foreign Manufacturing} also work."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_10MindPowers",
+      "displayName": "Off the spectrum",
+      "description": "Have 10 Mindpowers at once",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Hold 10 mindpowers at the same time in one run.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pick",
+            "text": "In @loc{Neurolink}, pick a new mindpower each time you are offered one until you hold 10 different ones."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_100Guns",
+      "displayName": "Guns don't kill people",
+      "description": "Fire 100 guns in one run",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Fire 100 guns in one run.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pick",
+            "text": "Play the Conservative archetype."
+          },
+          {
+            "id": "fire",
+            "text": "Take ammo upgrades so you do not run dry, then fire 100 guns before the run ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_100Kicks",
+      "displayName": "Feet of Retrenchment",
+      "description": "Perform 100 consecutive kicks",
+      "hidden": false,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Perform 100 kicks in a row without using any other attack.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pick",
+            "text": "Pick a character that only kicks, such as the Jogger."
+          },
+          {
+            "id": "kick",
+            "text": "Kick 100 times in a row. Any other attack resets the count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_100Moves",
+      "displayName": "Wow, so much content",
+      "description": "Use 100 different moves",
+      "hidden": false,
+      "globalPercent": 9.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "Use 100 different moves.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "use",
+            "text": "Use as many different moves as you can across your runs. The game gives no clear count, so try new moves often."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_AllArchetypes",
+      "displayName": "Diversity, Equity and Inclusion",
+      "description": "Unlock all archetypes",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_Redgicide",
+        "Achievement_Name_WebSlinger",
+        "Achievement_Name_Gman",
+        "Achievement_Name_KillYounglings"
+      ],
+      "summary": "Unlock every archetype.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ten reps in one run give one body upgrade, so the counters fill over many runs. Saitama is needed for this achievement.",
+        "steps": [
+          {
+            "id": "play",
+            "text": "Unlock archetypes through runs, expansions and the secret tasks: break the red cutouts and kill three marked CEOs, lasso three criminals and take them to the police, fire the G-Man, and kill the younglings."
+          },
+          {
+            "id": "saitama",
+            "text": "Buy the gym in the @loc{Finance Tower}. On the gym mats in day-shift runs, do 100 push-ups, 100 sit-ups and 100 squats in total to unlock Saitama."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_AllExpansions",
+      "displayName": "Ultimate Expansionist",
+      "description": "Purchase all expansions for all Game Modes",
+      "hidden": false,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "unverified",
+      "summary": "Buy all expansions for every game mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ghosts give only about 2 to 10 per night run, so they take the most runs.",
+        "steps": [
+          {
+            "id": "cash",
+            "text": "Cash: farm the @loc{Neurolink}, @loc{Finance Tower} or @loc{Foreign Manufacturing}."
+          },
+          {
+            "id": "sweat",
+            "text": "Sweat: beat sweating coworkers, mostly in the @loc{Fulfillment Center}. Take the extra-sweat upgrade when offered."
+          },
+          {
+            "id": "clips",
+            "text": "Paperclips: open crates in the @loc{Finance Tower} (more at night) and the @loc{Fulfillment Center} once its expansion is bought."
+          },
+          {
+            "id": "blood",
+            "text": "Blood: donate at the nurse rooms in the @loc{Fulfillment Center} after buying that expansion. Expect about three rooms a run."
+          },
+          {
+            "id": "ghosts",
+            "text": "Ghosts: fire angel coworkers and the ghost that appears after each one. They only show up on the @loc{Finance Tower} night shift, mostly in the first floors."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_BallKicks",
+      "displayName": "Generational Pain",
+      "description": "Kick 1000 coworkers in the balls",
+      "hidden": false,
+      "globalPercent": 15.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4 h",
+      "estMinutes": 240,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Kick 1000 coworkers in the balls.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "kick",
+            "text": "Kick coworkers in the groin during runs until the counter reaches 1000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_DefeatFM",
+      "displayName": "I hate Tuesdays",
+      "description": "Defeat the final boss of Foreign Manufacturing",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_GoingPublic"
+      ],
+      "summary": "Beat the last boss in Foreign Manufacturing.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Win three runs in @loc{Foreign Manufacturing}."
+          },
+          {
+            "id": "boss",
+            "text": "On the fourth run, beat the boss who waits at the very top."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_DefeatNeurolink",
+      "displayName": "You are better than Elon Musk",
+      "description": "Defeat the final boss of Neurolink",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_DefeatFM"
+      ],
+      "summary": "Defeat the final boss of Neurolink.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Win two runs in @loc{Neurolink}."
+          },
+          {
+            "id": "boss",
+            "text": "On the third run, beat the final boss. He flies with a jetpack and fires missiles and lasers, so take the Broaden your mind range upgrades."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Defenestrate",
+      "displayName": "Windows Update",
+      "description": "Defenestrate 100 coworkers",
+      "hidden": false,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Defenestrate 100 coworkers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "throw",
+            "text": "Throw coworkers out of windows during runs until the counter reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Dismember",
+      "displayName": "An arm and a leg",
+      "description": "Dismember 1000 coworkers",
+      "hidden": false,
+      "globalPercent": 3.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Dismember 1000 coworkers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "cut",
+            "text": "Dismember coworkers in normal runs; custom levels do not count."
+          },
+          {
+            "id": "fm",
+            "text": "For the fastest count, spam slashing attacks in @loc{Foreign Manufacturing} with the Edgelord."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Gentrify",
+      "displayName": "What a beautiful neighbourhood",
+      "description": "Gentrify 10 times in the City Map",
+      "hidden": false,
+      "globalPercent": 16.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Gentrify the City Map 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "gentrify",
+            "text": "Gentrify on the @loc{City Map} until the counter reaches 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Gman",
+      "displayName": "Stick it to the G-Man",
+      "description": "Fire the mysterious observer in Neurolink.",
+      "hidden": true,
+      "globalPercent": 1.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Fire the mysterious observer in Neurolink.",
+      "guide": {
+        "kind": "standard",
+        "context": "He does not appear every run, so repeat runs until he does.",
+        "steps": [
+          {
+            "id": "student",
+            "text": "Start a @loc{Neurolink} run as the Student."
+          },
+          {
+            "id": "windows",
+            "text": "Check the glass scientist rooms. Look for a third man holding a briefcase and with no lab coat."
+          },
+          {
+            "id": "fire",
+            "text": "Use the Student's teleport to enter that room and fire him quickly, because he walks away soon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_GodMode",
+      "displayName": "Who left that in?",
+      "description": "Turn on God mode.",
+      "hidden": true,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Turn on God mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "If it does nothing, restart the game and try again.",
+        "steps": [
+          {
+            "id": "cheats",
+            "text": "Press Ctrl+Shift+C to enable cheats."
+          },
+          {
+            "id": "god",
+            "text": "Press Ctrl+Shift+G."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_HeartOfBillionaire",
+      "displayName": "Heart Of The Billionaire",
+      "description": "Listen to the whole song at the founder statue",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_WinCHM"
+      ],
+      "summary": "Let the founder statue's entire song play.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "story",
+            "text": "Finish the Founder story inside the statue."
+          },
+          {
+            "id": "song",
+            "text": "Stand by the statue and let the whole song play."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_HoldPissIn",
+      "displayName": "Hold it in!",
+      "description": "Win a run with a full bladder",
+      "hidden": false,
+      "globalPercent": 15.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Win a run without using the bathroom.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "drink",
+            "text": "Drink from every water dispenser and coffee machine you pass."
+          },
+          {
+            "id": "hold",
+            "text": "Never use a bathroom stall, then win the run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_LeaveCrown",
+      "displayName": "It's finally over",
+      "description": "Beat the Founder and leave his crown.",
+      "hidden": true,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Achievement_Name_DefeatNeurolink"
+      ],
+      "lockoutStage": 4,
+      "summary": "Beat the Founder, then walk away from his money, crown and bunker.",
+      "guide": {
+        "kind": "standard",
+        "context": "@warn{This is the opposite of Look at this Big man.}",
+        "steps": [
+          {
+            "id": "boss",
+            "text": "Beat the Founder in his bunker."
+          },
+          {
+            "id": "leave",
+            "text": "When asked, leave his wealth, crown and bunker alone."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_PourSoup",
+      "displayName": "Warm delicious soup",
+      "description": "Pour soup on everyone in the soup kitchen",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_WinCHM"
+      ],
+      "summary": "Pour soup on every person in the soup kitchen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "story",
+            "text": "Play the Founder story in the statue until you reach the soup kitchen."
+          },
+          {
+            "id": "pour",
+            "text": "Pour the soup on every person's head."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_RevertCapitalism",
+      "displayName": "Dude come on",
+      "description": "Return the game to capitalism after dissolving it.",
+      "hidden": true,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_LeaveCrown"
+      ],
+      "summary": "Keep playing after dissolving capitalism until the game returns to capitalism.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "play",
+            "text": "After It's finally over, keep playing until the game turns back into a capitalist world."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_TakeCrown",
+      "displayName": "Look at this Big man",
+      "description": "Beat the Founder and take his crown.",
+      "hidden": true,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "Achievement_Name_DefeatNeurolink"
+      ],
+      "lockoutStage": 4,
+      "summary": "Beat the Founder, then claim his money, crown and bunker.",
+      "guide": {
+        "kind": "standard",
+        "context": "@warn{This is the opposite of It's finally over.}",
+        "steps": [
+          {
+            "id": "boss",
+            "text": "Beat the Founder in his bunker."
+          },
+          {
+            "id": "take",
+            "text": "When asked, take his wealth, crown and bunker."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_Unemployable2",
+      "displayName": "Unemployable II",
+      "description": "Refuse the job offer when first entering Neurolink.",
+      "hidden": true,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 3,
+      "summary": "Die to your daughter's mind powers on your first visit to Neurolink.",
+      "guide": {
+        "kind": "standard",
+        "context": "@warn{Easy to miss.} If you accept the job, you may need a new save to see the scene again.",
+        "steps": [
+          {
+            "id": "refuse",
+            "text": "The first time you enter @loc{Neurolink}, choose no to the job offer."
+          },
+          {
+            "id": "repeat",
+            "text": "Keep refusing each time it asks, until your daughter kills you."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_WebSlinger",
+      "displayName": "Your friendly neighbourhood webslinger",
+      "description": "Photograph all the webs in the city.",
+      "hidden": true,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_Oriented"
+      ],
+      "summary": "Photograph all three webs in the city.",
+      "guide": {
+        "kind": "collectible",
+        "context": "A present near the entrance to the overpass holds the camera; unlock the Fulfillment Center first.",
+        "collectibles": [
+          {
+            "id": "below-editor",
+            "index": 1,
+            "name": "Web 1",
+            "location": "Under the level editor building",
+            "method": "Photograph the web on the wall."
+          },
+          {
+            "id": "overpass",
+            "index": 2,
+            "name": "Web 2",
+            "location": "Between the gas station and the Fulfillment Center",
+            "method": "Under the overpass."
+          },
+          {
+            "id": "mailbox",
+            "index": 3,
+            "name": "Web 3",
+            "location": "Corner left of the docks",
+            "method": "On the mailbox."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_WinCageFight",
+      "displayName": "Forbes 100",
+      "description": "Defeat all the CEOs in Cage Fight",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Defeat all six CEOs in Cage Fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Beat each of the six opponents in @loc{Cage Fight}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_WinCageFightOnline",
+      "displayName": "Finally, some respect",
+      "description": "Reach Billionaire Rank in Cage Fight",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "Achievement_Name_WinCageFight"
+      ],
+      "summary": "Reach Billionaire rank in online Cage Fight.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "climb",
+            "text": "Fight online matches and keep winning until you reach Billionaire rank. A win streak saves a lot of time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_WinCHM",
+      "displayName": "The smartest orphan",
+      "description": "Complete Company History Month",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Complete Company History Month.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "unlock",
+            "text": "Unlock Company History Month at the market."
+          },
+          {
+            "id": "play",
+            "text": "Enter the statue and play the Founder story to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_WinCredits",
+      "displayName": "Where it is due",
+      "description": "Beat the Credits",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Beat up everyone in the credits.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "theater",
+            "text": "Go to the movie drive-in."
+          },
+          {
+            "id": "kick",
+            "text": "Beat up all the people who appear in the credits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Achievement_Name_KillYounglings",
+      "displayName": "The point of no return",
+      "description": "Kill all the younglings in the city.",
+      "hidden": true,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Kill all the younglings in the city.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hurting NPCs puts a bounty on you and the police will come.",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Look for small NPCs with large heads on the @loc{City Map}, mostly in the south and east. Kill every one of them."
+          },
+          {
+            "id": "tank",
+            "text": "To go faster, raise your wanted level to five stars. A tank appears; steal it and use it on the younglings."
+          },
+          {
+            "id": "jedi",
+            "text": "Once the Jedi role unlocks, start a run as the Jedi if the achievement has not already popped."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Achievement_Name_Unemployable",
+    "Achievement_Name_IQuit",
+    "Achievement_Name_LearnToDrive",
+    "Achievement_Name_GoingPublic",
+    "Achievement_Name_Oriented",
+    "Achievement_Name_NightShift",
+    "Achievement_Name_WinCredits",
+    "Achievement_Name_ColorProfiling",
+    "Achievement_Name_Gentrify",
+    "Achievement_Name_Redgicide",
+    "Achievement_Name_WinCHM",
+    "Achievement_Name_HeartOfBillionaire",
+    "Achievement_Name_PourSoup",
+    "Achievement_Name_WebSlinger",
+    "Achievement_Name_KillYounglings",
+    "Achievement_Name_WinCageFight",
+    "Achievement_Name_RankedCageFight",
+    "Achievement_Name_Unemployable2",
+    "Achievement_Name_DefeatFM",
+    "Achievement_Name_DefeatNeurolink",
+    "Achievement_Name_10MindPowers",
+    "Achievement_Name_Gman",
+    "Achievement_Name_LeaveCrown",
+    "Achievement_Name_TakeCrown",
+    "Achievement_Name_RevertCapitalism",
+    "Achievement_Name_GodMode",
+    "Achievement_Name_UpTheCorporateLadder",
+    "Achievement_Name_100Guns",
+    "Achievement_Name_HoldPissIn",
+    "Achievement_Name_UnFired",
+    "Achievement_Name_FistsOfRetrenchment",
+    "Achievement_Name_100Kicks",
+    "Achievement_Name_AllArchetypes",
+    "Achievement_Name_1MillionDollars",
+    "Achievement_Name_Defenestrate",
+    "Achievement_Name_100Moves",
+    "Achievement_Name_BallKicks",
+    "Achievement_Name_Dismember",
+    "Achievement_Name_AllExpansions",
+    "Achievement_Name_WinCageFightOnline"
+  ]
+}

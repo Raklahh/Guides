@@ -1,0 +1,2453 @@
+{
+  "game": {
+    "appid": 666150,
+    "slug": "prehistoric-kingdom",
+    "title": "Prehistoric Kingdom",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-17",
+    "estTotalHours": 40,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Start a Challenge Mode park",
+      "description": "Place a nursery near the entrance, hatch a starter animal and release it into a fenced exhibit. Grab the Workshop download while the game is new.",
+      "achievementRefs": [
+        "HATCHLING",
+        "SHARING_IS_CARING"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build exhibits",
+      "description": "Draw many small closed fences while the park is cheap to run until the exhibit counters unlock.",
+      "achievementRefs": [
+        "EXHIBIT_A",
+        "EXHIBIT_B"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Grow the park and the animals",
+      "description": "Raise the park rating, open dig sites for the named species, improve welfare, then start breeding and social goals.",
+      "achievementRefs": [
+        "CROWDS_O_PLENTY",
+        "TYRANT_LIZARD_KING",
+        "THREE_HORNED_FACE",
+        "SABRE_TOOTHED_CAT",
+        "PRIMIGENIUS",
+        "TITAN",
+        "SPINE_LIZARD",
+        "TYCOON",
+        "NEWBORN",
+        "UNREQUITED_LOVER",
+        "GUARDIAN",
+        "ANCESTOR",
+        "MISFIT",
+        "ECOSYSTEM",
+        "MENAGERIE_MANAGER",
+        "NEW_HIGH_SCORE",
+        "KEEPING_SCORE",
+        "PERFECT_SCORE"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Long tasks and cleanup",
+      "description": "Leave the game running for five hours, upload a build, finish every species, and do the save-wrecking tasks in a throwaway save.",
+      "achievementRefs": [
+        "IMAGINARIUM",
+        "PUBLIC_DOMAIN",
+        "ONE_BIG_PILE_OF",
+        "SPARED_EVERY_EXPENSE",
+        "FOSSIL_RECORD",
+        "NOAHS_PARK"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "SPARED_EVERY_EXPENSE",
+      "displayName": "Spared Every Expense",
+      "description": "Become bankrupt",
+      "hidden": false,
+      "globalPercent": 18.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "unverified",
+      "summary": "Go bankrupt.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ruins the save. Loans must be repaid with interest.",
+        "steps": [
+          {
+            "id": "save",
+            "text": "Start a throwaway save."
+          },
+          {
+            "id": "spend",
+            "text": "Spend all your money on buildings and animals."
+          },
+          {
+            "id": "loan",
+            "text": "Take out loans from the park finances if you can, and keep spending until you go bankrupt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CROWDS_O_PLENTY",
+      "displayName": "Crowds o' Plenty",
+      "description": "Have 3,000 visitors in the park",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Have 3,000 visitors in the park.",
+      "guide": {
+        "kind": "standard",
+        "context": "Guest arrivals depend on park rating and park appeal.",
+        "steps": [
+          {
+            "id": "rating",
+            "text": "Raise the park rating by finishing the star goals shown in the rating panel."
+          },
+          {
+            "id": "appeal",
+            "text": "Keep prices fair and the park pretty to raise park appeal."
+          },
+          {
+            "id": "animals",
+            "text": "Add animals with many Animal Points. Guests visit them more."
+          },
+          {
+            "id": "check",
+            "text": "Point at the visitor counter on the bottom bar to see how fast guests arrive, and keep going until 3,000 are in the park."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TYCOON",
+      "displayName": "Tycoon",
+      "description": "Achieve a 5 Star park in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Reach a 5 star park in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Park rating is the average of the Animal Rating and the Guest Rating.",
+        "steps": [
+          {
+            "id": "goals",
+            "text": "Open the park rating panel. It lists the goals for the next star."
+          },
+          {
+            "id": "animals",
+            "text": "Meet the Animal Rating goals with healthy animals that have many Animal Points."
+          },
+          {
+            "id": "guests",
+            "text": "Meet the Guest Rating goals, including enough Attraction Points from kiosks, restaurants, binoculars and statues."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat each star until the park reaches 5 stars."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FOSSIL_RECORD",
+      "displayName": "Fossil Record",
+      "description": "Unlock every animal in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "TYRANT_LIZARD_KING",
+        "THREE_HORNED_FACE",
+        "SABRE_TOOTHED_CAT",
+        "PRIMIGENIUS",
+        "TITAN",
+        "SPINE_LIZARD"
+      ],
+      "summary": "Unlock every animal in Challenge Mode.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Open each dig site once, then buy its animals. Every dig site needs money and a minimum park star rating. The list follows the dig sites in the game and may miss species added in the newest updates.",
+        "collectibles": [
+          {
+            "id": "sp01",
+            "index": 1,
+            "group": "North America",
+            "name": "Diplocaulus magnicornis",
+            "location": "@loc{Arroyo Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp02",
+            "index": 2,
+            "group": "North America",
+            "name": "Coelophysis bauri",
+            "location": "@loc{Chinle Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp03",
+            "index": 3,
+            "group": "North America",
+            "name": "Acrocanthosaurus atokensis",
+            "location": "@loc{Cloverly Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp04",
+            "index": 4,
+            "group": "North America",
+            "name": "Lambeosaurus lambei",
+            "location": "@loc{Dinosaur Park Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp05",
+            "index": 5,
+            "group": "North America",
+            "name": "Parasaurolophus walkeri",
+            "location": "@loc{Dinosaur Park Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp06",
+            "index": 6,
+            "group": "North America",
+            "name": "Styracosaurus albertensis",
+            "location": "@loc{Dinosaur Park Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp07",
+            "index": 7,
+            "group": "North America",
+            "name": "Tiktaalik rosae",
+            "location": "@loc{Fram Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp08",
+            "index": 8,
+            "group": "North America",
+            "name": "Ankylosaurus magniventris",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp09",
+            "index": 9,
+            "group": "North America",
+            "name": "Edmontosaurus annectens",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp10",
+            "index": 10,
+            "group": "North America",
+            "name": "Pachycephalosaurus spinifer/wyomingensis",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp11",
+            "index": 11,
+            "group": "North America",
+            "name": "Triceratops horridus/prorsus",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp12",
+            "index": 12,
+            "group": "North America",
+            "name": "Tyrannosaurus rex",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp13",
+            "index": 13,
+            "group": "North America",
+            "name": "Edmontosaurus regalis",
+            "location": "@loc{Horseshoe Canyon Formation} (also Prince Creek Formation)",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp14",
+            "index": 14,
+            "group": "North America",
+            "name": "Pachyrhinosaurus canadensis",
+            "location": "@loc{Horseshoe Canyon Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp15",
+            "index": 15,
+            "group": "North America",
+            "name": "Nasutoceratops titusi",
+            "location": "@loc{Kaiparowits Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp16",
+            "index": 16,
+            "group": "North America",
+            "name": "Parasaurolophus cyrtocristatus",
+            "location": "@loc{Kaiparowits Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp17",
+            "index": 17,
+            "group": "North America",
+            "name": "Dilophosaurus wetherilli",
+            "location": "@loc{Kayenta Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp18",
+            "index": 18,
+            "group": "North America",
+            "name": "Bison latifrons",
+            "location": "@loc{La Brea Tar Pits}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp19",
+            "index": 19,
+            "group": "North America",
+            "name": "Panthera atrox",
+            "location": "@loc{La Brea Tar Pits}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp20",
+            "index": 20,
+            "group": "North America",
+            "name": "Smilodon fatalis",
+            "location": "@loc{La Brea Tar Pits}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp21",
+            "index": 21,
+            "group": "North America",
+            "name": "Allosaurus anax/fragilis/jimmadseni",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp22",
+            "index": 22,
+            "group": "North America",
+            "name": "Apatosaurus ajax",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp23",
+            "index": 23,
+            "group": "North America",
+            "name": "Brachiosaurus altithorax",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp24",
+            "index": 24,
+            "group": "North America",
+            "name": "Brontosaurus excelsus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp25",
+            "index": 25,
+            "group": "North America",
+            "name": "Camarasaurus grandis/lentus/supremus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp26",
+            "index": 26,
+            "group": "North America",
+            "name": "Dryosaurus altus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp27",
+            "index": 27,
+            "group": "North America",
+            "name": "Stegosaurus stenops/ungulatus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp28",
+            "index": 28,
+            "group": "North America",
+            "name": "Torvosaurus tanneri",
+            "location": "@loc{Morrison Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp29",
+            "index": 29,
+            "group": "North America",
+            "name": "Pachyrhinosaurus perotorum",
+            "location": "@loc{Prince Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp30",
+            "index": 30,
+            "group": "North America",
+            "name": "Ugrunaaluk kuukpikensis",
+            "location": "@loc{Prince Creek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp31",
+            "index": 31,
+            "group": "North America",
+            "name": "Pachyrhinosaurus lakustai",
+            "location": "@loc{Wapiti Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp32",
+            "index": 32,
+            "group": "South America",
+            "name": "Titanoboa cerrejonensis",
+            "location": "@loc{Cerrejón Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp33",
+            "index": 33,
+            "group": "South America",
+            "name": "Kelenken guillermoi",
+            "location": "@loc{Collón Curá Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp34",
+            "index": 34,
+            "group": "South America",
+            "name": "Astrapotherium guillei",
+            "location": "@loc{Collón Curá Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp35",
+            "index": 35,
+            "group": "South America",
+            "name": "Peltephilus ferox",
+            "location": "@loc{Collón Curá Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp36",
+            "index": 36,
+            "group": "South America",
+            "name": "Argentinosaurus huinculensis",
+            "location": "@loc{Huincul Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp37",
+            "index": 37,
+            "group": "South America",
+            "name": "Megatherium americanum",
+            "location": "@loc{Luján Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp38",
+            "index": 38,
+            "group": "South America",
+            "name": "Smilodon populator",
+            "location": "@loc{Luján Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp39",
+            "index": 39,
+            "group": "Europe",
+            "name": "Archaeopteryx lithographica",
+            "location": "@loc{Altmühltal Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp40",
+            "index": 40,
+            "group": "Europe",
+            "name": "Compsognathus longipes",
+            "location": "@loc{Altmühltal Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp41",
+            "index": 41,
+            "group": "Europe",
+            "name": "Scelidosaurus harrisonii",
+            "location": "@loc{Charmouth Mudstone Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp42",
+            "index": 42,
+            "group": "Europe",
+            "name": "Allosaurus europaeus",
+            "location": "@loc{Lourinhã Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp43",
+            "index": 43,
+            "group": "Europe",
+            "name": "Stegosaurus ungulatus",
+            "location": "@loc{Lourinhã Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp44",
+            "index": 44,
+            "group": "Europe",
+            "name": "Torvosaurus gurneyi",
+            "location": "@loc{Lourinhã Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp45",
+            "index": 45,
+            "group": "Europe",
+            "name": "Plateosaurus gracilis",
+            "location": "@loc{Löwenstein Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp46",
+            "index": 46,
+            "group": "Europe",
+            "name": "Bison priscus",
+            "location": "@loc{Tokod Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp47",
+            "index": 47,
+            "group": "Europe",
+            "name": "Coelodonta antiquitatis",
+            "location": "@loc{Tokod Formation} (also Vilyuy River)",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp48",
+            "index": 48,
+            "group": "Europe",
+            "name": "Mammuthus primigenius",
+            "location": "@loc{Tokod Formation} (also Kozhamzhar Formation, Yamal Peninsula)",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp49",
+            "index": 49,
+            "group": "Europe",
+            "name": "Megaloceros giganteus",
+            "location": "@loc{Tokod Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp50",
+            "index": 50,
+            "group": "Europe",
+            "name": "Panthera spelaea",
+            "location": "@loc{Tokod Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp51",
+            "index": 51,
+            "group": "Europe",
+            "name": "Ursus spelaeus",
+            "location": "@loc{Tokod Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp52",
+            "index": 52,
+            "group": "Europe",
+            "name": "Plateosaurus trossingensis",
+            "location": "@loc{Trossingen Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp53",
+            "index": 53,
+            "group": "Europe",
+            "name": "Iguanodon bernissartensis",
+            "location": "@loc{Wessex Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp54",
+            "index": 54,
+            "group": "Europe",
+            "name": "Baryonyx walkeri",
+            "location": "@loc{Wessex Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp55",
+            "index": 55,
+            "group": "Africa",
+            "name": "Diictodon feliceps",
+            "location": "@loc{Abrahamskraal Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp56",
+            "index": 56,
+            "group": "Africa",
+            "name": "Ouranosaurus nigeriensis",
+            "location": "@loc{Elrhaz Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp57",
+            "index": 57,
+            "group": "Africa",
+            "name": "Carcharodontosaurus saharicus",
+            "location": "@loc{Kem Kem Group}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp58",
+            "index": 58,
+            "group": "Africa",
+            "name": "Spinosaurus aegyptiacus",
+            "location": "@loc{Kem Kem Group}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp59",
+            "index": 59,
+            "group": "Africa",
+            "name": "Sahonachelys mailakavava",
+            "location": "@loc{Maevarano Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp60",
+            "index": 60,
+            "group": "Africa",
+            "name": "Simosuchus clarki",
+            "location": "@loc{Maevarano Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp61",
+            "index": 61,
+            "group": "Asia",
+            "name": "Paraceratherium bugtiense",
+            "location": "@loc{Chitarwata Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp62",
+            "index": 62,
+            "group": "Asia",
+            "name": "Oviraptor philoceratops",
+            "location": "@loc{Djadochta Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp63",
+            "index": 63,
+            "group": "Asia",
+            "name": "Protoceratops andrewsi",
+            "location": "@loc{Djadochta Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp64",
+            "index": 64,
+            "group": "Asia",
+            "name": "Velociraptor mongoliensis",
+            "location": "@loc{Djadochta Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp65",
+            "index": 65,
+            "group": "Asia",
+            "name": "Psittacosaurus mongoliensis",
+            "location": "@loc{Dushihin Formation} (also Jiufotang Formation)",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp66",
+            "index": 66,
+            "group": "Asia",
+            "name": "Paraceratherium transouralicum",
+            "location": "@loc{Hsanda Gol Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp67",
+            "index": 67,
+            "group": "Asia",
+            "name": "Psittacosaurus sibiricus",
+            "location": "@loc{Ilek Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp68",
+            "index": 68,
+            "group": "Asia",
+            "name": "Microraptor gui",
+            "location": "@loc{Jiufotang Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp69",
+            "index": 69,
+            "group": "Asia",
+            "name": "Elasmotherium sibiricum",
+            "location": "@loc{Kozhamzhar Formation} (also Yamal Peninsula)",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp70",
+            "index": 70,
+            "group": "Asia",
+            "name": "Sinotherium lagrelii",
+            "location": "@loc{Liushu Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp71",
+            "index": 71,
+            "group": "Asia",
+            "name": "Deinocheirus mirificus",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp72",
+            "index": 72,
+            "group": "Asia",
+            "name": "Gallimimus bullatus",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp73",
+            "index": 73,
+            "group": "Asia",
+            "name": "Mononykus olecranus",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp74",
+            "index": 74,
+            "group": "Asia",
+            "name": "Tarbosaurus bataar",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp75",
+            "index": 75,
+            "group": "Asia",
+            "name": "Juxia sharamurenensis",
+            "location": "@loc{Shara Murun Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp76",
+            "index": 76,
+            "group": "Asia",
+            "name": "Yi qi",
+            "location": "@loc{Tiaojishan Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp77",
+            "index": 77,
+            "group": "Asia",
+            "name": "Charonosaurus jiayinensis",
+            "location": "@loc{Yuliangze Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp78",
+            "index": 78,
+            "group": "Australia",
+            "name": "Leallynasaura amigraphica",
+            "location": "@loc{Eumeralla Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          },
+          {
+            "id": "sp79",
+            "index": 79,
+            "group": "Australia",
+            "name": "Muttaburrasaurus langdoni",
+            "location": "@loc{Mackunda Formation}",
+            "method": "Open this dig site in the Excavations menu, then buy this species."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HATCHLING",
+      "displayName": "Hatchling",
+      "description": "Release an animal into the park",
+      "hidden": false,
+      "globalPercent": 42.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Release an animal into the park.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "nursery",
+            "text": "Build a small @mechanic{Animal Nursery} near the park entrance."
+          },
+          {
+            "id": "exhibit",
+            "text": "Fence off an exhibit that fits your starter species, with food and water."
+          },
+          {
+            "id": "release",
+            "text": "Open the nursery menu from Park Services, hatch a starter animal and release it into the exhibit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NOAHS_PARK",
+      "displayName": "Noah's Park",
+      "description": "Release a male and female of every animal in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "25 hr",
+      "estMinutes": 1500,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "FOSSIL_RECORD",
+        "NEWBORN"
+      ],
+      "summary": "Release a male and a female of every animal in Challenge Mode.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Male animals need the Induced Androgenesis research node in Biology. Research it before you start. Use the same species as Fossil Record.",
+        "collectibles": [
+          {
+            "id": "sp01",
+            "index": 1,
+            "group": "North America",
+            "name": "Diplocaulus magnicornis",
+            "location": "@loc{Arroyo Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp02",
+            "index": 2,
+            "group": "North America",
+            "name": "Coelophysis bauri",
+            "location": "@loc{Chinle Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp03",
+            "index": 3,
+            "group": "North America",
+            "name": "Acrocanthosaurus atokensis",
+            "location": "@loc{Cloverly Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp04",
+            "index": 4,
+            "group": "North America",
+            "name": "Lambeosaurus lambei",
+            "location": "@loc{Dinosaur Park Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp05",
+            "index": 5,
+            "group": "North America",
+            "name": "Parasaurolophus walkeri",
+            "location": "@loc{Dinosaur Park Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp06",
+            "index": 6,
+            "group": "North America",
+            "name": "Styracosaurus albertensis",
+            "location": "@loc{Dinosaur Park Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp07",
+            "index": 7,
+            "group": "North America",
+            "name": "Tiktaalik rosae",
+            "location": "@loc{Fram Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp08",
+            "index": 8,
+            "group": "North America",
+            "name": "Ankylosaurus magniventris",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp09",
+            "index": 9,
+            "group": "North America",
+            "name": "Edmontosaurus annectens",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp10",
+            "index": 10,
+            "group": "North America",
+            "name": "Pachycephalosaurus spinifer/wyomingensis",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp11",
+            "index": 11,
+            "group": "North America",
+            "name": "Triceratops horridus/prorsus",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp12",
+            "index": 12,
+            "group": "North America",
+            "name": "Tyrannosaurus rex",
+            "location": "@loc{Hell Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp13",
+            "index": 13,
+            "group": "North America",
+            "name": "Edmontosaurus regalis",
+            "location": "@loc{Horseshoe Canyon Formation} (also Prince Creek Formation)",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp14",
+            "index": 14,
+            "group": "North America",
+            "name": "Pachyrhinosaurus canadensis",
+            "location": "@loc{Horseshoe Canyon Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp15",
+            "index": 15,
+            "group": "North America",
+            "name": "Nasutoceratops titusi",
+            "location": "@loc{Kaiparowits Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp16",
+            "index": 16,
+            "group": "North America",
+            "name": "Parasaurolophus cyrtocristatus",
+            "location": "@loc{Kaiparowits Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp17",
+            "index": 17,
+            "group": "North America",
+            "name": "Dilophosaurus wetherilli",
+            "location": "@loc{Kayenta Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp18",
+            "index": 18,
+            "group": "North America",
+            "name": "Bison latifrons",
+            "location": "@loc{La Brea Tar Pits}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp19",
+            "index": 19,
+            "group": "North America",
+            "name": "Panthera atrox",
+            "location": "@loc{La Brea Tar Pits}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp20",
+            "index": 20,
+            "group": "North America",
+            "name": "Smilodon fatalis",
+            "location": "@loc{La Brea Tar Pits}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp21",
+            "index": 21,
+            "group": "North America",
+            "name": "Allosaurus anax/fragilis/jimmadseni",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp22",
+            "index": 22,
+            "group": "North America",
+            "name": "Apatosaurus ajax",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp23",
+            "index": 23,
+            "group": "North America",
+            "name": "Brachiosaurus altithorax",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp24",
+            "index": 24,
+            "group": "North America",
+            "name": "Brontosaurus excelsus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp25",
+            "index": 25,
+            "group": "North America",
+            "name": "Camarasaurus grandis/lentus/supremus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp26",
+            "index": 26,
+            "group": "North America",
+            "name": "Dryosaurus altus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp27",
+            "index": 27,
+            "group": "North America",
+            "name": "Stegosaurus stenops/ungulatus",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp28",
+            "index": 28,
+            "group": "North America",
+            "name": "Torvosaurus tanneri",
+            "location": "@loc{Morrison Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp29",
+            "index": 29,
+            "group": "North America",
+            "name": "Pachyrhinosaurus perotorum",
+            "location": "@loc{Prince Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp30",
+            "index": 30,
+            "group": "North America",
+            "name": "Ugrunaaluk kuukpikensis",
+            "location": "@loc{Prince Creek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp31",
+            "index": 31,
+            "group": "North America",
+            "name": "Pachyrhinosaurus lakustai",
+            "location": "@loc{Wapiti Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp32",
+            "index": 32,
+            "group": "South America",
+            "name": "Titanoboa cerrejonensis",
+            "location": "@loc{Cerrejón Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp33",
+            "index": 33,
+            "group": "South America",
+            "name": "Kelenken guillermoi",
+            "location": "@loc{Collón Curá Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp34",
+            "index": 34,
+            "group": "South America",
+            "name": "Astrapotherium guillei",
+            "location": "@loc{Collón Curá Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp35",
+            "index": 35,
+            "group": "South America",
+            "name": "Peltephilus ferox",
+            "location": "@loc{Collón Curá Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp36",
+            "index": 36,
+            "group": "South America",
+            "name": "Argentinosaurus huinculensis",
+            "location": "@loc{Huincul Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp37",
+            "index": 37,
+            "group": "South America",
+            "name": "Megatherium americanum",
+            "location": "@loc{Luján Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp38",
+            "index": 38,
+            "group": "South America",
+            "name": "Smilodon populator",
+            "location": "@loc{Luján Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp39",
+            "index": 39,
+            "group": "Europe",
+            "name": "Archaeopteryx lithographica",
+            "location": "@loc{Altmühltal Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp40",
+            "index": 40,
+            "group": "Europe",
+            "name": "Compsognathus longipes",
+            "location": "@loc{Altmühltal Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp41",
+            "index": 41,
+            "group": "Europe",
+            "name": "Scelidosaurus harrisonii",
+            "location": "@loc{Charmouth Mudstone Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp42",
+            "index": 42,
+            "group": "Europe",
+            "name": "Allosaurus europaeus",
+            "location": "@loc{Lourinhã Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp43",
+            "index": 43,
+            "group": "Europe",
+            "name": "Stegosaurus ungulatus",
+            "location": "@loc{Lourinhã Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp44",
+            "index": 44,
+            "group": "Europe",
+            "name": "Torvosaurus gurneyi",
+            "location": "@loc{Lourinhã Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp45",
+            "index": 45,
+            "group": "Europe",
+            "name": "Plateosaurus gracilis",
+            "location": "@loc{Löwenstein Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp46",
+            "index": 46,
+            "group": "Europe",
+            "name": "Bison priscus",
+            "location": "@loc{Tokod Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp47",
+            "index": 47,
+            "group": "Europe",
+            "name": "Coelodonta antiquitatis",
+            "location": "@loc{Tokod Formation} (also Vilyuy River)",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp48",
+            "index": 48,
+            "group": "Europe",
+            "name": "Mammuthus primigenius",
+            "location": "@loc{Tokod Formation} (also Kozhamzhar Formation, Yamal Peninsula)",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp49",
+            "index": 49,
+            "group": "Europe",
+            "name": "Megaloceros giganteus",
+            "location": "@loc{Tokod Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp50",
+            "index": 50,
+            "group": "Europe",
+            "name": "Panthera spelaea",
+            "location": "@loc{Tokod Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp51",
+            "index": 51,
+            "group": "Europe",
+            "name": "Ursus spelaeus",
+            "location": "@loc{Tokod Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp52",
+            "index": 52,
+            "group": "Europe",
+            "name": "Plateosaurus trossingensis",
+            "location": "@loc{Trossingen Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp53",
+            "index": 53,
+            "group": "Europe",
+            "name": "Iguanodon bernissartensis",
+            "location": "@loc{Wessex Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp54",
+            "index": 54,
+            "group": "Europe",
+            "name": "Baryonyx walkeri",
+            "location": "@loc{Wessex Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp55",
+            "index": 55,
+            "group": "Africa",
+            "name": "Diictodon feliceps",
+            "location": "@loc{Abrahamskraal Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp56",
+            "index": 56,
+            "group": "Africa",
+            "name": "Ouranosaurus nigeriensis",
+            "location": "@loc{Elrhaz Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp57",
+            "index": 57,
+            "group": "Africa",
+            "name": "Carcharodontosaurus saharicus",
+            "location": "@loc{Kem Kem Group}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp58",
+            "index": 58,
+            "group": "Africa",
+            "name": "Spinosaurus aegyptiacus",
+            "location": "@loc{Kem Kem Group}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp59",
+            "index": 59,
+            "group": "Africa",
+            "name": "Sahonachelys mailakavava",
+            "location": "@loc{Maevarano Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp60",
+            "index": 60,
+            "group": "Africa",
+            "name": "Simosuchus clarki",
+            "location": "@loc{Maevarano Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp61",
+            "index": 61,
+            "group": "Asia",
+            "name": "Paraceratherium bugtiense",
+            "location": "@loc{Chitarwata Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp62",
+            "index": 62,
+            "group": "Asia",
+            "name": "Oviraptor philoceratops",
+            "location": "@loc{Djadochta Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp63",
+            "index": 63,
+            "group": "Asia",
+            "name": "Protoceratops andrewsi",
+            "location": "@loc{Djadochta Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp64",
+            "index": 64,
+            "group": "Asia",
+            "name": "Velociraptor mongoliensis",
+            "location": "@loc{Djadochta Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp65",
+            "index": 65,
+            "group": "Asia",
+            "name": "Psittacosaurus mongoliensis",
+            "location": "@loc{Dushihin Formation} (also Jiufotang Formation)",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp66",
+            "index": 66,
+            "group": "Asia",
+            "name": "Paraceratherium transouralicum",
+            "location": "@loc{Hsanda Gol Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp67",
+            "index": 67,
+            "group": "Asia",
+            "name": "Psittacosaurus sibiricus",
+            "location": "@loc{Ilek Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp68",
+            "index": 68,
+            "group": "Asia",
+            "name": "Microraptor gui",
+            "location": "@loc{Jiufotang Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp69",
+            "index": 69,
+            "group": "Asia",
+            "name": "Elasmotherium sibiricum",
+            "location": "@loc{Kozhamzhar Formation} (also Yamal Peninsula)",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp70",
+            "index": 70,
+            "group": "Asia",
+            "name": "Sinotherium lagrelii",
+            "location": "@loc{Liushu Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp71",
+            "index": 71,
+            "group": "Asia",
+            "name": "Deinocheirus mirificus",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp72",
+            "index": 72,
+            "group": "Asia",
+            "name": "Gallimimus bullatus",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp73",
+            "index": 73,
+            "group": "Asia",
+            "name": "Mononykus olecranus",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp74",
+            "index": 74,
+            "group": "Asia",
+            "name": "Tarbosaurus bataar",
+            "location": "@loc{Nemegt Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp75",
+            "index": 75,
+            "group": "Asia",
+            "name": "Juxia sharamurenensis",
+            "location": "@loc{Shara Murun Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp76",
+            "index": 76,
+            "group": "Asia",
+            "name": "Yi qi",
+            "location": "@loc{Tiaojishan Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp77",
+            "index": 77,
+            "group": "Asia",
+            "name": "Charonosaurus jiayinensis",
+            "location": "@loc{Yuliangze Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp78",
+            "index": 78,
+            "group": "Australia",
+            "name": "Leallynasaura amigraphica",
+            "location": "@loc{Eumeralla Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          },
+          {
+            "id": "sp79",
+            "index": 79,
+            "group": "Australia",
+            "name": "Muttaburrasaurus langdoni",
+            "location": "@loc{Mackunda Formation}",
+            "method": "Buy this species, then hatch and release one male and one female."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SABRE_TOOTHED_CAT",
+      "displayName": "Sabre-Toothed Cat",
+      "description": "Release a Smilodon in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 8.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Release a Smilodon in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Smilodon populator from the @loc{Luján Formation} should also work. The achievement did not trigger before Update 13, so make sure the game is up to date.",
+        "steps": [
+          {
+            "id": "site",
+            "text": "Unlock the @loc{La Brea Tar Pits} dig site in the Excavations menu and buy Smilodon fatalis."
+          },
+          {
+            "id": "exhibit",
+            "text": "Build an exhibit with 40–60% forest and up to 30% water."
+          },
+          {
+            "id": "release",
+            "text": "Hatch the animal in the nursery and release it into the exhibit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "THREE_HORNED_FACE",
+      "displayName": "Three Horned Face",
+      "description": "Release a Triceratops in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 5.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Release a Triceratops in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "The achievement did not trigger before Update 13, so make sure the game is up to date.",
+        "steps": [
+          {
+            "id": "site",
+            "text": "Unlock the @loc{Hell Creek Formation} dig site and buy a Triceratops."
+          },
+          {
+            "id": "release",
+            "text": "Hatch it in the nursery and release it into a suitable exhibit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TYRANT_LIZARD_KING",
+      "displayName": "Tyrant Lizard King",
+      "description": "Release a Tyrannosaurus in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Release a Tyrannosaurus in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "site",
+            "text": "Unlock the @loc{Hell Creek Formation} dig site and buy Tyrannosaurus rex."
+          },
+          {
+            "id": "release",
+            "text": "Hatch it in the nursery and release it into a suitable exhibit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PRIMIGENIUS",
+      "displayName": "Primigenius",
+      "description": "Release a Woolly Mammoth in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Release a Woolly Mammoth in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mammoth needs a High strength fence, over 2.5 m tall.",
+        "steps": [
+          {
+            "id": "site",
+            "text": "Unlock the @loc{Tokod Formation}, @loc{Kozhamzhar Formation} or @loc{Yamal Peninsula} dig site and buy Mammuthus primigenius."
+          },
+          {
+            "id": "exhibit",
+            "text": "Build an exhibit with 5–25% forest, up to 15% water and a strong fence."
+          },
+          {
+            "id": "release",
+            "text": "Hatch it in the nursery and release it into the exhibit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXHIBIT_A",
+      "displayName": "Exhibit A...",
+      "description": "Build 50 Exhibits",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Build 50 exhibits.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "fence",
+            "text": "Draw a closed fence shape. Each closed shape becomes one exhibit."
+          },
+          {
+            "id": "repeat",
+            "text": "Keep drawing closed fences until you have 50 exhibits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EXHIBIT_B",
+      "displayName": "...Exhibit B",
+      "description": "Build 100 Exhibits",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "EXHIBIT_A"
+      ],
+      "summary": "Build 100 exhibits.",
+      "guide": {
+        "kind": "standard",
+        "context": "This continues from Exhibit A. Keep the old exhibits standing.",
+        "steps": [
+          {
+            "id": "fence",
+            "text": "Keep drawing small closed fences until you have 100 exhibits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ONE_BIG_PILE_OF",
+      "displayName": "That's One Big Pile Of...",
+      "description": "Hidden achievement. Let waste build up until a paddock reaches 0% cleanliness.",
+      "hidden": true,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Have a paddock reach 0% cleanliness.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "animals",
+            "text": "Put several animals that leave visible waste piles, such as two bears, in one paddock."
+          },
+          {
+            "id": "waste",
+            "text": "Leave the waste uncleaned."
+          },
+          {
+            "id": "wait",
+            "text": "Check the paddock cleanliness until it reaches 0%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IMAGINARIUM",
+      "displayName": "Imaginarium",
+      "description": "Spend 5 hours in a single save",
+      "hidden": false,
+      "globalPercent": 30.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Play for 5 hours in a single save.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "play",
+            "text": "Keep playing or idle in one save until its playtime reaches 5 hours. Do not start a new save."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PUBLIC_DOMAIN",
+      "displayName": "Public Domain",
+      "description": "Upload an item to the Steam Workshop",
+      "hidden": false,
+      "globalPercent": 3.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "EXHIBIT_A"
+      ],
+      "summary": "Upload an item to the Steam Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "prefab",
+            "text": "Build something small, select its group and save it as a prefab."
+          },
+          {
+            "id": "upload",
+            "text": "Upload that item to the Steam Workshop from the game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SHARING_IS_CARING",
+      "displayName": "Sharing is Caring",
+      "description": "Download an item from the Steam Workshop",
+      "hidden": false,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Download an item from the Steam Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "subscribe",
+            "text": "Open the game's Steam Workshop page and subscribe to one item."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEW_HIGH_SCORE",
+      "displayName": "New High Score",
+      "description": "Reach the max exhibit score for 1 habitat in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 29.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Reach the maximum exhibit score in 1 habitat in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Update 13 removed Exhibit Score. The game now rates animals by Animal Points and welfare.",
+        "steps": [
+          {
+            "id": "welfare",
+            "text": "Give every animal what it needs: matching plants, water, a stocked feeder and a clean exhibit."
+          },
+          {
+            "id": "points",
+            "text": "Pick species with high Animal Points and keep them together with species from the same dig site."
+          },
+          {
+            "id": "keep",
+            "text": "Keep improving the habitat until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "KEEPING_SCORE",
+      "displayName": "Keeping Score",
+      "description": "Reach the max exhibit score for 5 habitats in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "NEW_HIGH_SCORE"
+      ],
+      "summary": "Reach the maximum exhibit score in 5 habitats in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "welfare",
+            "text": "Give every animal what it needs: matching plants, water, a stocked feeder and a clean exhibit."
+          },
+          {
+            "id": "points",
+            "text": "Pick species with high Animal Points and keep them together with species from the same dig site."
+          },
+          {
+            "id": "keep",
+            "text": "Keep improving the habitat until the achievement unlocks."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat in 5 separate habitats."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PERFECT_SCORE",
+      "displayName": "Perfect Score",
+      "description": "Reach the max exhibit score for 10 habitats in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 2.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "7 hr",
+      "estMinutes": 420,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "KEEPING_SCORE"
+      ],
+      "summary": "Reach the maximum exhibit score in 10 habitats in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "welfare",
+            "text": "Give every animal what it needs: matching plants, water, a stocked feeder and a clean exhibit."
+          },
+          {
+            "id": "points",
+            "text": "Pick species with high Animal Points and keep them together with species from the same dig site."
+          },
+          {
+            "id": "keep",
+            "text": "Keep improving the habitat until the achievement unlocks."
+          },
+          {
+            "id": "repeat",
+            "text": "Repeat in 10 separate habitats."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ECOSYSTEM",
+      "displayName": "Ecosystem",
+      "description": "Have over 70% Animal Welfare in a habitat with 5 species in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 3.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Have over 70% Animal Welfare in a habitat with 5 species in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mixed species from one dig site get a bonus.",
+        "steps": [
+          {
+            "id": "pick",
+            "text": "Choose 5 species that share the same dig site, region and time period."
+          },
+          {
+            "id": "build",
+            "text": "Build one habitat with plants and water that suit all five species."
+          },
+          {
+            "id": "care",
+            "text": "Stock the feeders and keep a keeper on waste until welfare is over 70%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MENAGERIE_MANAGER",
+      "displayName": "Menagerie Manager",
+      "description": "Have over 90% Animal Welfare in a habitat with 25 animals in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ECOSYSTEM"
+      ],
+      "summary": "Have over 90% Animal Welfare in a habitat with 25 animals in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Habitats stop breeding when they get too crowded. Keep waste cleaned up.",
+        "steps": [
+          {
+            "id": "species",
+            "text": "Pick a herd species, such as Dryosaurus."
+          },
+          {
+            "id": "build",
+            "text": "Build a large habitat with the right plants, water and feeders."
+          },
+          {
+            "id": "fill",
+            "text": "Add animals up to 25 and keep welfare over 90%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TITAN",
+      "displayName": "Titan",
+      "description": "Release a Brachiosaurus in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Release a Brachiosaurus in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "A fully grown Brachiosaurus costs about $38,000 to incubate. Large animals may need larger nursery research.",
+        "steps": [
+          {
+            "id": "site",
+            "text": "Unlock the @loc{Morrison Formation} dig site and buy Brachiosaurus altithorax."
+          },
+          {
+            "id": "exhibit",
+            "text": "Build a large exhibit with 20–55% forest and up to 30% water, fenced with Extreme strength fence over 6 m tall."
+          },
+          {
+            "id": "release",
+            "text": "Hatch it in the nursery and release it into the exhibit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ANCESTOR",
+      "displayName": "Ancestor",
+      "description": "Have an animal become an ancestor to over 3 generations of offspring",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "NEWBORN"
+      ],
+      "summary": "Have an animal become an ancestor of more than 3 generations of offspring.",
+      "guide": {
+        "kind": "standard",
+        "context": "Raising animals slowly in the nursery gives them higher fertility, and children inherit it.",
+        "steps": [
+          {
+            "id": "breed",
+            "text": "Breed one animal and keep its descendants alive."
+          },
+          {
+            "id": "repeat",
+            "text": "Breed each new generation until the first animal has descendants more than 3 generations deep."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NEWBORN",
+      "displayName": "Newborn",
+      "description": "Have an animal be naturally born in the park",
+      "hidden": false,
+      "globalPercent": 19.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Have an animal born naturally in the park.",
+      "guide": {
+        "kind": "standard",
+        "context": "Animals do not breed with close relatives.",
+        "steps": [
+          {
+            "id": "research",
+            "text": "Research Induced Androgenesis in Biology so you can hatch male animals."
+          },
+          {
+            "id": "pair",
+            "text": "Put at least one male and one unrelated female of the same species in one habitat."
+          },
+          {
+            "id": "nest",
+            "text": "Place a nesting module for that species in the habitat."
+          },
+          {
+            "id": "wait",
+            "text": "Wait for the breeding season, a successful courtship and the eggs to hatch."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GUARDIAN",
+      "displayName": "Guardian",
+      "description": "Have an animal adopt an unrelated baby",
+      "hidden": false,
+      "globalPercent": 20.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "NEWBORN"
+      ],
+      "summary": "Have an animal adopt a baby it is not related to.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "babies",
+            "text": "Put a baby animal in a habitat with adult animals."
+          },
+          {
+            "id": "wait",
+            "text": "Wait until an adult adopts the baby."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNREQUITED_LOVER",
+      "displayName": "Unrequited Lover",
+      "description": "Have an animal attempt courtship 3 or more times without success",
+      "hidden": false,
+      "globalPercent": 21.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Have an animal try courtship 3 or more times without success.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "pair",
+            "text": "Put an adult male and female of the same species together before their breeding season."
+          },
+          {
+            "id": "watch",
+            "text": "Watch during the breeding season. Females can reject courtship."
+          },
+          {
+            "id": "repeat",
+            "text": "Keep watching until one animal has been rejected 3 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MISFIT",
+      "displayName": "Misfit",
+      "description": "Have an animal reach old age without having socialized with any animal",
+      "hidden": false,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Have an animal reach old age without ever socializing with another animal.",
+      "guide": {
+        "kind": "standard",
+        "context": "Animals socialize when they can see or hear each other, so keep it out of sight and earshot.",
+        "steps": [
+          {
+            "id": "species",
+            "text": "Pick a solitary species such as Acrocanthosaurus and keep it alone."
+          },
+          {
+            "id": "wait",
+            "text": "Keep it alive until it reaches old age."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SPINE_LIZARD",
+      "displayName": "Spine Lizard",
+      "description": "Release a Spinosaurus in Challenge Mode",
+      "hidden": false,
+      "globalPercent": 4.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HATCHLING"
+      ],
+      "summary": "Release a Spinosaurus in Challenge Mode.",
+      "guide": {
+        "kind": "standard",
+        "context": "A fully grown Spinosaurus costs about $31,800 to incubate.",
+        "steps": [
+          {
+            "id": "site",
+            "text": "Unlock the @loc{Kem Kem Group} dig site and buy Spinosaurus aegyptiacus."
+          },
+          {
+            "id": "exhibit",
+            "text": "Build an exhibit with 10–60% forest and 40–90% water, fenced with High strength fence over 4 m tall."
+          },
+          {
+            "id": "release",
+            "text": "Hatch it in the nursery and release it into the exhibit."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "SHARING_IS_CARING",
+    "HATCHLING",
+    "EXHIBIT_A",
+    "EXHIBIT_B",
+    "UNREQUITED_LOVER",
+    "CROWDS_O_PLENTY",
+    "MISFIT",
+    "TYCOON",
+    "SABRE_TOOTHED_CAT",
+    "PRIMIGENIUS",
+    "THREE_HORNED_FACE",
+    "TYRANT_LIZARD_KING",
+    "TITAN",
+    "SPINE_LIZARD",
+    "NEW_HIGH_SCORE",
+    "ECOSYSTEM",
+    "MENAGERIE_MANAGER",
+    "NEWBORN",
+    "GUARDIAN",
+    "ANCESTOR",
+    "KEEPING_SCORE",
+    "PERFECT_SCORE",
+    "PUBLIC_DOMAIN",
+    "SPARED_EVERY_EXPENSE",
+    "ONE_BIG_PILE_OF",
+    "IMAGINARIUM",
+    "FOSSIL_RECORD",
+    "NOAHS_PARK"
+  ]
+}

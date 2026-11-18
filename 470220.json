@@ -1,0 +1,470 @@
+{
+  "game": {
+    "appid": 470220,
+    "slug": "uno",
+    "title": "UNO",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-29",
+    "estTotalHours": 12,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First matches and house rules",
+      "description": "Play your first matches in local Classic UNO against 3 AI with 3 house rules on. Press the UNO button each time you hold 2 cards.",
+      "achievementRefs": [
+        "UNO_Ach_1",
+        "UNO_Ach_2",
+        "UNO_Ach_3",
+        "UNO_Ach_6",
+        "UNO_Ach_8"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Counters during normal play",
+      "description": "Keep playing and use Wild and +4 cards freely. Turn No Bluffing on while you build Joker, then off for Nerves of Steel. Watch for missed UNO calls.",
+      "achievementRefs": [
+        "UNO_Ach_4",
+        "UNO_Ach_5",
+        "UNO_Ach_7",
+        "UNO_Ach_9",
+        "UNO_Ach_10"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Online wins and the 700-point game",
+      "description": "Win 10 full online matches, then win one long game with a high score limit.",
+      "achievementRefs": [
+        "UNO_Ach_11",
+        "UNO_Ach_12"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "UNO_Ach_1",
+      "displayName": "Welcome",
+      "description": "Complete the First UNO round.",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish your first round of UNO, win or lose.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish-round",
+            "text": "Start any match and play one round to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_2",
+      "displayName": "A Good Start",
+      "description": "Win the First UNO game.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "UNO_Ach_1"
+      ],
+      "summary": "Win your first UNO game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "win-game",
+            "text": "Win a full game of UNO."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_3",
+      "displayName": "Be Heard",
+      "description": "Successfully Call UNO 10 times.",
+      "hidden": false,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Call UNO successfully 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "The call button shows at the right of your cards once you hold 2 cards and can play one.",
+        "steps": [
+          {
+            "id": "press-uno",
+            "text": "With 2 cards in hand and a playable one, tap the UNO button as you lay down a card."
+          },
+          {
+            "id": "repeat-calls",
+            "text": "Repeat 10 times. Winning is not needed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_4",
+      "displayName": "Joker",
+      "description": "Successfully make opponent draw cards with Wild Draw Four 10 times.",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Force opponents to draw by playing Wild Draw Four 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "A challenge can cancel your +4 and make you draw, so it only counts when the opponent takes the cards.",
+        "steps": [
+          {
+            "id": "no-bluffing",
+            "text": "In the match setup, turn on the @mechanic{No Bluffing} rule so opponents cannot challenge your +4."
+          },
+          {
+            "id": "play-wd4",
+            "text": "Play Wild Draw Four whenever you can and let the opponent draw. Repeat 10 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_5",
+      "displayName": "Good Eye",
+      "description": "Successfully Challenge a missed UNO 15 times.",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Challenge a missed UNO successfully 15 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "AI opponents call UNO very fast, so real players are easier to catch.",
+        "steps": [
+          {
+            "id": "watch-one-card",
+            "text": "Watch for an opponent who plays down to 1 card without calling UNO."
+          },
+          {
+            "id": "press-challenge",
+            "text": "Press the exclamation-mark button that replaces the UNO button before they call. They draw 2. Repeat 15 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_6",
+      "displayName": "Our House",
+      "description": "Win 5 matches with at least 3 house rules.",
+      "hidden": false,
+      "globalPercent": 6.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win 5 matches while at least 3 house rules are switched on.",
+      "guide": {
+        "kind": "standard",
+        "context": "A match ends when your set rounds or point limit is finished, not after one round.",
+        "steps": [
+          {
+            "id": "pick-rules",
+            "text": "In the match setup, turn on any 3 house rules."
+          },
+          {
+            "id": "win-matches",
+            "text": "Play each match to the end and win it. Repeat until you have 5 wins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_7",
+      "displayName": "Action",
+      "description": "Play Action Cards 100 times.",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Play 100 action cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "Wild Draw Four, Wild, Draw Two, Skip, and Reverse all count.",
+        "steps": [
+          {
+            "id": "play-actions",
+            "text": "Play action cards in normal matches until you reach 100 plays in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_8",
+      "displayName": "Just a Machine",
+      "description": "Win 5 games against 3 AI.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win 5 games against 3 AI opponents.",
+      "guide": {
+        "kind": "standard",
+        "context": "A game ends when your set rounds or point limit is finished. You can pause and come back with the Resume match card.",
+        "steps": [
+          {
+            "id": "start-classic",
+            "text": "From the main menu, choose local play (far left), then @mechanic{Classic UNO} with 3 AI."
+          },
+          {
+            "id": "win-five",
+            "text": "Win 5 full games."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_9",
+      "displayName": "The Right Choice",
+      "description": "Change the Color with Action Cards 40 times.",
+      "hidden": false,
+      "globalPercent": 7.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Change the color 40 times with Wild or Wild Draw Four cards.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pick a color different from the one on the pile.",
+        "steps": [
+          {
+            "id": "play-wilds",
+            "text": "Play a Wild or Wild Draw Four and choose a new color. Repeat 40 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_10",
+      "displayName": "Nerves of Steel",
+      "description": "Win 20 Wild Draw Four challenges.",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Win 20 Wild Draw Four challenges.",
+      "guide": {
+        "kind": "standard",
+        "context": "You win when the opponent who played the +4 held a card of the current color. With Force Play on, the AI draws and then plays a +4 at once. You will most likely lose that challenge, so skip it.",
+        "steps": [
+          {
+            "id": "bluffing-off",
+            "text": "In the match setup, turn @mechanic{No Bluffing} off."
+          },
+          {
+            "id": "jump-in-off",
+            "text": "Turn @mechanic{Jump In} off so no one jumps in with another +4."
+          },
+          {
+            "id": "challenge-wd4",
+            "text": "When an opponent plays a +4 on you, challenge it if they could have played a card of the current color."
+          },
+          {
+            "id": "stacked",
+            "text": "With Stacking on, always challenge a stacked +4. Repeat until you have 20 wins."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_11",
+      "displayName": "Socializer",
+      "description": "Win 10 Online Games",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "UNO_Ach_2"
+      ],
+      "summary": "Win 10 full online games.",
+      "guide": {
+        "kind": "standard",
+        "context": "A lobby with only you and 3 AI still counts as online. Single-round lobbies finish faster than multi-round ones.",
+        "steps": [
+          {
+            "id": "join-online",
+            "text": "Create or join an online lobby."
+          },
+          {
+            "id": "win-ten",
+            "text": "Win 10 full games, not single rounds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "UNO_Ach_12",
+      "displayName": "Flying Higher",
+      "description": "Win a game with more than 700 points.",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Win a game while your score is above 700 points.",
+      "guide": {
+        "kind": "standard",
+        "context": "Points can add up over several rounds.",
+        "steps": [
+          {
+            "id": "set-limit",
+            "text": "Create a lobby and set the score limit to 750 or 1000."
+          },
+          {
+            "id": "keep-playing",
+            "text": "Keep playing rounds and win the game with more than 700 points."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "UNO_Ach_1",
+    "UNO_Ach_2",
+    "UNO_Ach_3",
+    "UNO_Ach_6",
+    "UNO_Ach_8",
+    "UNO_Ach_9",
+    "UNO_Ach_4",
+    "UNO_Ach_7",
+    "UNO_Ach_5",
+    "UNO_Ach_10",
+    "UNO_Ach_11",
+    "UNO_Ach_12"
+  ]
+}

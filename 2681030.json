@@ -1,0 +1,3856 @@
+{
+  "game": {
+    "appid": 2681030,
+    "slug": "outbound",
+    "title": "Outbound",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-12",
+    "estTotalHours": 30,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Forest and Farm",
+      "description": "Start the journey, repair the windmill, explore the Fire Lookout, and start the long counters: litter, caps, and crops.",
+      "achievementRefs": [
+        "ACH_START_YOUR_JOURNEY",
+        "ACH_EXPLORE_FIREWATCH",
+        "ACH_FIX_WINDMILL",
+        "ACH_RECYCLE",
+        "ACH_HARVEST_CROPS",
+        "ACH_BOTTLE_CAPS"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "The Coast",
+      "description": "Enter the Coast, adopt and pet the dog, solve the gear puzzle, fix the lighthouse, and get the clothing cabinet.",
+      "achievementRefs": [
+        "ACH_ENTER_COAST",
+        "ACH_ADOPT_COMPANION",
+        "ACH_PET_DOG",
+        "ACH_GEAR_PUZZLE",
+        "ACH_FIX_LIGHTHOUSE",
+        "ACH_CLOTHING_ALL_COLORS"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "The Canyons",
+      "description": "Enter the Canyons, faint, ride the balloon, repaint the van, and repair the ferry.",
+      "achievementRefs": [
+        "ACH_ENTER_CANYONS",
+        "ACH_FAINT_CANYONS",
+        "ACH_RIDE_AIR_BALLOON",
+        "ACH_VEHICLE_PAINTING",
+        "ACH_FIX_TRANSPORT_FERRY"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "The Mountains and cleanup",
+      "description": "Cross to the Mountains, pull every festival lever, finish the festival, then clear the collectibles and upgrades.",
+      "achievementRefs": [
+        "ACH_ENTER_MOUNTAINS",
+        "ACH_FESTIVAL_SITES",
+        "ACH_FESTIVAL_ENDING",
+        "ACH_DEV_GNOMES",
+        "ACH_ALL_GNOMES",
+        "ACH_ALL_CAIRNS",
+        "ACH_ALL_CAMPFIRES",
+        "ACH_ALL_PAINTINGS",
+        "ACH_ALL_GACHA_MACHINES",
+        "ACH_ALL_RECIPES",
+        "ACH_ALL_VEHICLE_UPGRADES",
+        "ACH_PLAYER_UPGRADE",
+        "ACH_UP_BALLOONS",
+        "ACH_MAX_BUILD_WEIGHT",
+        "ACH_DELIVER_RESEARCH"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_START_YOUR_JOURNEY",
+      "displayName": "Start Your Journey",
+      "description": "Start your journey in the outdoors.",
+      "hidden": false,
+      "globalPercent": 83.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "opening minutes",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Lift the barrier at the end of the starting parking lot to begin the journey.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Drive to the first parking lot, get out, and light the campfire with wood from the supply cache next to it."
+          },
+          {
+            "id": "s2",
+            "text": "Download Basic Tools from the signal tower on the left, then craft the Wrench in the van's trunk."
+          },
+          {
+            "id": "s3",
+            "text": "Lift the barrier."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ENTER_COAST",
+      "displayName": "To the Coast",
+      "description": "Journey to the coast.",
+      "hidden": true,
+      "globalPercent": 39.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "end of the first area",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_START_YOUR_JOURNEY"
+      ],
+      "summary": "Drive from Forest and Farm into the Coast.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Break the rocks blocking the Forest and Farm exit."
+          },
+          {
+            "id": "s2",
+            "text": "Drive through the exit and down the road."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ENTER_CANYONS",
+      "displayName": "Into the Canyons",
+      "description": "Journey to the canyons.",
+      "hidden": true,
+      "globalPercent": 21.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "end of the Coast",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_COAST"
+      ],
+      "summary": "Drive from the Coast into the Canyons.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Craft 3 Electronics and 2 battery components."
+          },
+          {
+            "id": "s2",
+            "text": "Clear the vines in front of the Coast exit, repair the console there, and pull the lever."
+          },
+          {
+            "id": "s3",
+            "text": "Drive through the exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ENTER_MOUNTAINS",
+      "displayName": "Up the Mountains",
+      "description": "Journey to the mountains.",
+      "hidden": true,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "end of the Canyons",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIX_TRANSPORT_FERRY"
+      ],
+      "summary": "Cross the ferry from the Canyons to the Mountains.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Repair the ferry."
+          },
+          {
+            "id": "s2",
+            "text": "Drive onto the ferry and ram the far wall to be moved to the Mountains."
+          },
+          {
+            "id": "s3",
+            "text": "Drive forward a little."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MAX_BUILD_WEIGHT",
+      "displayName": "Don't Break the Camel's Back",
+      "description": "Build the maximum weight on top of your vehicle.",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Fill the van's weight bar by building the maximum weight on top of it.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build wooden floors on top of the van until the weight bar in the top left is full."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PET_DOG",
+      "displayName": "Can you Pet the Dog?",
+      "description": "Pet the dog.",
+      "hidden": true,
+      "globalPercent": 35.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 minute",
+      "estMinutes": 1,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ADOPT_COMPANION"
+      ],
+      "summary": "Pet your dog companion.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Walk up to your dog, open its command wheel, and choose Pet."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIX_WINDMILL",
+      "displayName": "Round 'n Round",
+      "description": "Fix the windmill.",
+      "hidden": true,
+      "globalPercent": 52.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 minutes",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_START_YOUR_JOURNEY"
+      ],
+      "summary": "Repair the windmill so its sails turn.",
+      "guide": {
+        "kind": "standard",
+        "context": "The hill road to the windmill stalls the van until you craft the first Motor Upgrade. The repair uses 20 Scrap Metal, which is heavy, so leave other items in the van.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Craft Motor Upgrade 1: download the Vehicle Research Station blueprint at the signal tower north of the fields, build the station (4 Scrap Metal, 4 Everwood Planks) and a Bolt Press (7 Scrap Metal), put 30 Scrap Metal in the Bolt Press, then research and craft the upgrade."
+          },
+          {
+            "id": "s2",
+            "text": "Drive up to the windmill and go up the stairs inside to the panel with two levers."
+          },
+          {
+            "id": "s3",
+            "text": "Pull the left lever once, climb the ladder, climb the boxes, and hit the switch near the roof to drop a second ladder."
+          },
+          {
+            "id": "s4",
+            "text": "Climb the new ladder to the top floor. If it is out of reach, move the levers until the ladders line up."
+          },
+          {
+            "id": "s5",
+            "text": "Behind the brake lever, repair the cogwheel with 20 Scrap Metal."
+          },
+          {
+            "id": "s6",
+            "text": "Pull the brake lever."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIX_LIGHTHOUSE",
+      "displayName": "Edison Approves",
+      "description": "Fix the lighthouse.",
+      "hidden": true,
+      "globalPercent": 24.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 minutes",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_COAST"
+      ],
+      "summary": "Repair the lighthouse and turn on its beacon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Repair the broken bridge to the lighthouse with 10 Redwood Planks."
+          },
+          {
+            "id": "s2",
+            "text": "Go inside. On the top floor, pull the lever with the down arrow to lower the bulb one floor."
+          },
+          {
+            "id": "s3",
+            "text": "On the middle floor, pull the down lever. On the ground floor, pull the left lever to slide the bulb to the repair bench."
+          },
+          {
+            "id": "s4",
+            "text": "Repair the bulb with 3 Electronics."
+          },
+          {
+            "id": "s5",
+            "text": "Pull the right lever to slide the bulb back, then the up lever on the ground floor and the up lever on the middle floor."
+          },
+          {
+            "id": "s6",
+            "text": "On the top floor, pull the rotation lever (circular arrow)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIX_TRANSPORT_FERRY",
+      "displayName": "Ferry Poppins",
+      "description": "Get the ferry back in operation.",
+      "hidden": true,
+      "globalPercent": 13.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_CANYONS"
+      ],
+      "summary": "Repair the Canyons ferry so it can carry the van.",
+      "guide": {
+        "kind": "standard",
+        "context": "The ferry is near the Sickle 3 tower and Campfire 53 at the top of the road.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Craft 4 casings, 2 Electronics, and 2 hardened metal, then repair the ferry's motor."
+          },
+          {
+            "id": "s2",
+            "text": "Craft 6 strong weave and 6 hyper thread."
+          },
+          {
+            "id": "s3",
+            "text": "Repair the transport balloons on both sides of the ferry."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FESTIVAL_SITES",
+      "displayName": "Party Animal",
+      "description": "Party at all festival sites.",
+      "hidden": true,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Pull the levers at all 12 festival sites.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Some sites have several levers. Pull every one.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "site-01",
+            "index": 1,
+            "name": "Site 1",
+            "location": "Right after the first elevator in the Mountains, near campfire 67.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-02",
+            "index": 2,
+            "name": "Site 2",
+            "location": "On the road past the Axe 4 tower; pull all the levers on the left.",
+            "method": "Pull every lever."
+          },
+          {
+            "id": "site-03",
+            "index": 3,
+            "name": "Site 3",
+            "location": "Down from the road at the yellow trees, past the waterfall.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-04",
+            "index": 4,
+            "name": "Site 4",
+            "location": "Along the road north, near the Tea Station tower.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-05",
+            "index": 5,
+            "name": "Site 5",
+            "location": "On the right just after crossing the bridge, near campfire 70.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-06",
+            "index": 6,
+            "name": "Site 6",
+            "location": "On the left at the painting station.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-07",
+            "index": 7,
+            "name": "Site 7",
+            "location": "In the lookout up the stairs west of the road; pull all the levers.",
+            "method": "Pull every lever."
+          },
+          {
+            "id": "site-08",
+            "index": 8,
+            "name": "Site 8",
+            "location": "In the middle of the campers between the food tables; pull all 3 levers.",
+            "method": "Pull every lever."
+          },
+          {
+            "id": "site-09",
+            "index": 9,
+            "name": "Site 9",
+            "location": "In the lookout south of campfire 76; pull all 6 levers.",
+            "method": "Pull every lever."
+          },
+          {
+            "id": "site-10",
+            "index": 10,
+            "name": "Site 10",
+            "location": "On the right past the clothesline, further up the road after campfire 77.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-11",
+            "index": 11,
+            "name": "Site 11",
+            "location": "On the right of the road after Motor Upgrade 3, near campfire 79.",
+            "method": "Pull the lever."
+          },
+          {
+            "id": "site-12",
+            "index": 12,
+            "name": "Site 12",
+            "location": "Left after crossing the bridge on the main road east, on the beach side.",
+            "method": "Pull the lever."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DELIVER_RESEARCH",
+      "displayName": "Certified Researcher",
+      "description": "Deliver all research material at the four research centers.",
+      "hidden": true,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Deliver all research items to the four domes of the Canyons Research Center.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dome 4 takes items found only in the Mountains, so finish this after reaching them. Keep a few of each plantable food rather than eating everything.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Dome 1, in the right tent: deliver Sun Cap, Honey, Raw Coffee Beans, Sea Shell, and Coconut."
+          },
+          {
+            "id": "s2",
+            "text": "Dome 2, in the next tent west: deliver Cotton, Golden Bolete, Wild Tomatoes, Corn, and Red Ore."
+          },
+          {
+            "id": "s3",
+            "text": "Dome 3, in the third tent: deliver Coarse Ore, Fibre, Carrot, Indigo Cap, and Grain."
+          },
+          {
+            "id": "s4",
+            "text": "Dome 4, in the last tent under the satellite dish: deliver Bamboo, Cherries, Chrome Ore, Lotus Flower, and Pak Choi."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_VEHICLE_PAINTING",
+      "displayName": "Chromatic Confusion",
+      "description": "Paint your vehicle 10 times.",
+      "hidden": false,
+      "globalPercent": 1.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIX_WINDMILL",
+        "ACH_FIX_LIGHTHOUSE",
+        "ACH_ENTER_CANYONS"
+      ],
+      "summary": "Paint your vehicle 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "A repaint costs about 3 Paint, so plan for about 30 Paint.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the windmill, collect the Signal Decrypter (shelf left of the entrance), the floppy disk (top floor, on a crate) and the password (shelf in the room that opens once the mill runs), then download the Mortar and Pestle blueprint at the terminal and craft it."
+          },
+          {
+            "id": "s2",
+            "text": "At the lighthouse, collect the decryption item on the green table outside, the floppy disk on the second floor and the password on the floor to the right inside, then download the Paintbrush at the terminal."
+          },
+          {
+            "id": "s3",
+            "text": "Grind flower petals into Paint, drive to a painting station, and repaint the van 10 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_GEAR_PUZZLE",
+      "displayName": "Master of Gear",
+      "description": "Solve the gear puzzle.",
+      "hidden": false,
+      "globalPercent": 22.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 minutes",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_ENTER_COAST"
+      ],
+      "summary": "Solve the gear puzzle in the Coast cabin.",
+      "guide": {
+        "kind": "standard",
+        "context": "Solving it also drains the cave west of the cabin, which holds a gnome.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the cabin with the gear rooms, west of Heartmoor Float Village."
+          },
+          {
+            "id": "s2",
+            "text": "Repair the empty cogwheel slot on the right."
+          },
+          {
+            "id": "s3",
+            "text": "Starting from the left, press the first cog once, the next cog once, the spinning cogs three times, and each of the next two cogs once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RECYCLE",
+      "displayName": "Recyclops",
+      "description": "Recycle 100 pieces of litter.",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "gradual",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Recycle 100 pieces of litter in the van's recycler.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build a counter in the van, then build a Recycler on it."
+          },
+          {
+            "id": "s2",
+            "text": "Pick up litter around campsites and buildings, put it in the Recycler, and switch it on."
+          },
+          {
+            "id": "s3",
+            "text": "Keep going until you have recycled 100 pieces."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PLAYER_UPGRADE",
+      "displayName": "Top-Tier Threads",
+      "description": "Craft the best available pants and clothing upgrades.",
+      "hidden": false,
+      "globalPercent": 3.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Craft every shirt and pants upgrade.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first upgrades use thread, durathread, onyx minerals and seashells. Durathread comes from a spinning wheel and onyx minerals from a smasher.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On the Coast, download the Gear Research Station from the signal tower and build it."
+          },
+          {
+            "id": "s2",
+            "text": "Research and craft Shirt Upgrades 1 and 2 and Pants Upgrade 1."
+          },
+          {
+            "id": "s3",
+            "text": "In the Canyons, craft Shirt Upgrade 3 and Pants Upgrade 2."
+          },
+          {
+            "id": "s4",
+            "text": "In the Mountains, craft Pants Upgrade 3. The achievement unlocks with the last upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CLOTHING_ALL_COLORS",
+      "displayName": "Fashionista",
+      "description": "Use the clothing cabinet to change into clothing with all different colors.",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_COAST"
+      ],
+      "summary": "Change into clothing with every color slot set to a new color at the clothing cabinet.",
+      "guide": {
+        "kind": "standard",
+        "context": "Craft 1 Paint first: it needs the Mortar and Pestle blueprint from the windmill terminal and flower petals. The clothing cabinet blueprint comes from a signal tower on the Coast, and the cabinet costs 5 Redwood Planks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the clothing cabinet."
+          },
+          {
+            "id": "s2",
+            "text": "Change all eight colors: shirt main, shirt accent, gloves, fingernails, pants main, pants accent, shoes main, shoes accent."
+          },
+          {
+            "id": "s3",
+            "text": "Confirm the outfit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_HARVEST_CROPS",
+      "displayName": "Green Thumb",
+      "description": "Sow and harvest at least 30 crops.",
+      "hidden": false,
+      "globalPercent": 18.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "gradual",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Plant and harvest 30 crops in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Download the Gardening Plot from the signal tower on the cliff, then craft a watering can and plots."
+          },
+          {
+            "id": "s2",
+            "text": "Plant roadberries and water them; they are ready after you sleep."
+          },
+          {
+            "id": "s3",
+            "text": "Harvest, replant, and repeat until 30 crops are harvested."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EXPLORE_FIREWATCH",
+      "displayName": "Two Forks Memories",
+      "description": "Explore the Fire Lookout Tower.",
+      "hidden": false,
+      "globalPercent": 85.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Explore the Fire Lookout Tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb the Fire Lookout and take the floppy disk from the countertop inside."
+          },
+          {
+            "id": "s2",
+            "text": "Climb the balcony ladder to the roof and take the password and Signal Decrypter."
+          },
+          {
+            "id": "s3",
+            "text": "Use the terminal and download a blueprint."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ADOPT_COMPANION",
+      "displayName": "Fur-Ever Friend",
+      "description": "Adopt a furry friend.",
+      "hidden": false,
+      "globalPercent": 32.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 minutes",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_COAST"
+      ],
+      "summary": "Adopt a dog at the Paws and Whiskers Lounge.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can adopt only one dog and cannot swap it later, so save before choosing.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Drive from the Coast entrance to the Paws and Whiskers Lounge and go inside."
+          },
+          {
+            "id": "s2",
+            "text": "Walk through the building to the fenced yard."
+          },
+          {
+            "id": "s3",
+            "text": "Choose a dog, interact with it, type a name, and confirm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BOTTLE_CAPS",
+      "displayName": "Ring-a-Ding-Ding!",
+      "description": "Collect at least 100 bottle caps.",
+      "hidden": false,
+      "globalPercent": 22.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "gradual",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect at least 100 bottle caps.",
+      "guide": {
+        "kind": "standard",
+        "context": "Caps lie near benches, houses, tables, and campsites. If the achievement does not unlock at 100, hold 100 caps at once before spending any.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Loot caps near buildings and campsites as you travel until you have 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_VEHICLE_UPGRADES",
+      "displayName": "Decked Out",
+      "description": "Craft all available vehicle upgrades.",
+      "hidden": false,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 hours",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Craft every available vehicle upgrade.",
+      "guide": {
+        "kind": "standard",
+        "context": "Upgrades need Bolts, made by putting Scrap Metal into a Bolt Press. Scrap Metal respawns after you sleep twice, and towers and solar panels hold more.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build the Vehicle Research Station on a van counter after downloading its blueprint at a signal tower."
+          },
+          {
+            "id": "s2",
+            "text": "Keep researching and crafting at the station until nothing is left to craft. This includes the base Outdoor Building upgrade, Motor Upgrades 1 to 3, Battery Capacity Upgrades 1 to 3, Weight Capacity Upgrades 1 to 4, Outdoor Building Space Upgrades 1 to 3, and the Cooling System Upgrade."
+          },
+          {
+            "id": "s3",
+            "text": "The achievement unlocks with the last upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_CAMPFIRES",
+      "displayName": "Shine Your Light On Me",
+      "description": "Light all campfires.",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 hours",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Light all 80 campfires.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Light each campfire with wood from the supply caches in Forest and Farm, Redwood on the Coast and in the Canyons, or blossom wood in the Mountains. Rain stops you lighting a fire until it clears. Campfires are listed in route order.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "campfires-001",
+            "index": 1,
+            "group": "Forest and Farm",
+            "name": "Campfire 1: Lookout Campsite",
+            "location": "The first parking lot at the start; the nearby supply cache has wood.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-002",
+            "index": 2,
+            "group": "Forest and Farm",
+            "name": "Campfire 2: Rockside Camping",
+            "location": "After the first road bend, with litter and a supply cache beside it.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-003",
+            "index": 3,
+            "group": "Forest and Farm",
+            "name": "Campfire 3: Road campsite east of campsite 2",
+            "location": "Follow the road east past the rocks.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-004",
+            "index": 4,
+            "group": "Forest and Farm",
+            "name": "Campfire 4: Fork campsite",
+            "location": "At the right-hand fork in the road, just before the Sewing Table tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-005",
+            "index": 5,
+            "group": "Forest and Farm",
+            "name": "Campfire 5: North road campsite",
+            "location": "Head north from the Sawmill tower fork until you reach it.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-006",
+            "index": 6,
+            "group": "Forest and Farm",
+            "name": "Campfire 6: The Long Way Up",
+            "location": "North along the road, beside the broken bridge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-007",
+            "index": 7,
+            "group": "Forest and Farm",
+            "name": "Campfire 7: Lake Side Campsite",
+            "location": "Beside the lake, just beyond the northern bridge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-008",
+            "index": 8,
+            "group": "Forest and Farm",
+            "name": "Campfire 8: Tree Hill Camping",
+            "location": "Dead end on the road west of the Treehouse.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-009",
+            "index": 9,
+            "group": "Forest and Farm",
+            "name": "Campfire 9: Fences Campsite",
+            "location": "In the center of the map, south of the road after the Nailing Station tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-010",
+            "index": 10,
+            "group": "Forest and Farm",
+            "name": "Campfire 10: Main road campsite",
+            "location": "Down the main road south of the Pickaxe 1 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-011",
+            "index": 11,
+            "group": "Forest and Farm",
+            "name": "Campfire 11: Road-end farm campsite",
+            "location": "At the end of the road to the Farm, by the water containers.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-012",
+            "index": 12,
+            "group": "Forest and Farm",
+            "name": "Campfire 12: Tower campsite",
+            "location": "Beside the Solar Panel tower, south past the broken bridge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-013",
+            "index": 13,
+            "group": "Forest and Farm",
+            "name": "Campfire 13: Campsite past the bridge",
+            "location": "On your right after crossing the repaired bridge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-014",
+            "index": 14,
+            "group": "Forest and Farm",
+            "name": "Campfire 14: Southwest road end",
+            "location": "At the end of the road west of the Pickaxe 2 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-015",
+            "index": 15,
+            "group": "Forest and Farm",
+            "name": "Campfire 15: Shoreline campsite",
+            "location": "On the right when heading west from campsite 14.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-016",
+            "index": 16,
+            "group": "Forest and Farm",
+            "name": "Campfire 16: Campsite after Cap 'n Snap",
+            "location": "On the road east of the first Cap 'n Snap, before the rock gap leading south to the Furniture Pack 2 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-017",
+            "index": 17,
+            "group": "Forest and Farm",
+            "name": "Campfire 17: Stair campsite",
+            "location": "East up the stairs and along the dirt path, near a bench.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-018",
+            "index": 18,
+            "group": "Forest and Farm",
+            "name": "Campfire 18: Streetlight campsite",
+            "location": "North-northwest of campsite 17, beside a streetlight.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-019",
+            "index": 19,
+            "group": "Forest and Farm",
+            "name": "Campfire 19: Bench campsite",
+            "location": "South of the tower, up the stairs and north along the path.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-020",
+            "index": 20,
+            "group": "Forest and Farm",
+            "name": "Campfire 20: South path campsite",
+            "location": "South across the second bridge, at the end of the path.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-021",
+            "index": 21,
+            "group": "Coast",
+            "name": "Campfire 21: Lounge entrance campsite",
+            "location": "Across the street from the Paws and Whiskers Lounge entrance.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-022",
+            "index": 22,
+            "group": "Coast",
+            "name": "Campfire 22: Lounge path campsite",
+            "location": "Along the path past the lounge tower, before the lounge building.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-023",
+            "index": 23,
+            "group": "Coast",
+            "name": "Campfire 23: Hiking trail campsite",
+            "location": "On the dirt path past the trail's 'bridge', near a cliff edge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-024",
+            "index": 24,
+            "group": "Coast",
+            "name": "Campfire 24: Tent campsite",
+            "location": "Southeast along the dirt path from the Gear Research Station tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-025",
+            "index": 25,
+            "group": "Coast",
+            "name": "Campfire 25: Coffee farm house",
+            "location": "At the coffee farm house.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-026",
+            "index": 26,
+            "group": "Coast",
+            "name": "Campfire 26: Hill campsite",
+            "location": "West on the dirt path from the Sheet Press tower, then north.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-027",
+            "index": 27,
+            "group": "Coast",
+            "name": "Campfire 27: Ledge campsite",
+            "location": "Directly below campsite 26; drop down to it.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-028",
+            "index": 28,
+            "group": "Coast",
+            "name": "Campfire 28: East road campsite",
+            "location": "Along the main road east of the left turn, before the Sickle 2 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-029",
+            "index": 29,
+            "group": "Coast",
+            "name": "Campfire 29: Rainwater tower campsite",
+            "location": "At the end of the ladder path by the Rainwater energy tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-030",
+            "index": 30,
+            "group": "Coast",
+            "name": "Campfire 30: Volleyball court",
+            "location": "Beside the volleyball court at the blue house.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-031",
+            "index": 31,
+            "group": "Coast",
+            "name": "Campfire 31: Gear shed ladder",
+            "location": "South of the gear puzzle shed; climb the ladder on the right.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-032",
+            "index": 32,
+            "group": "Coast",
+            "name": "Campfire 32: Bend campsite",
+            "location": "On the road just north of the Companion Training tower, around the bend.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-033",
+            "index": 33,
+            "group": "Coast",
+            "name": "Campfire 33: Axe 3 lookout",
+            "location": "Near the north point by the Axe 3 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-034",
+            "index": 34,
+            "group": "Coast",
+            "name": "Campfire 34: Shipwreck campsite",
+            "location": "Down the dirt road west of the bridge, by the ship.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-035",
+            "index": 35,
+            "group": "Coast",
+            "name": "Campfire 35: Tree campsite",
+            "location": "Across the road from the Efficient Wind Turbine tower, near the tree with a cairn.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-036",
+            "index": 36,
+            "group": "Coast",
+            "name": "Campfire 36: Beach path campsite",
+            "location": "At the end of the dirt path on the right further west along the road.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-037",
+            "index": 37,
+            "group": "Coast",
+            "name": "Campfire 37: Mountain path campsite",
+            "location": "On a dirt path south of the main road, at the start of the climb to the Beehive 1 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-038",
+            "index": 38,
+            "group": "Coast",
+            "name": "Campfire 38: Upper mountain campsite",
+            "location": "West along the path past the Beehive 1 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-039",
+            "index": 39,
+            "group": "Coast",
+            "name": "Campfire 39: Island campsite",
+            "location": "On the closest island south of the beach, west of the Flashlight 1 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-040",
+            "index": 40,
+            "group": "Coast",
+            "name": "Campfire 40: Volleyball beach campsite",
+            "location": "North along the beach near the volleyball courts.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-041",
+            "index": 41,
+            "group": "Coast",
+            "name": "Campfire 41: Redwood barricade campsite",
+            "location": "South on the main road past the redwood barricade, on the left.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-042",
+            "index": 42,
+            "group": "Coast",
+            "name": "Campfire 42: Campsite beside road",
+            "location": "Across the road from the campsite tent with a cairn.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-043",
+            "index": 43,
+            "group": "Coast",
+            "name": "Campfire 43: West dirt road campsite",
+            "location": "Down a dirt road on the left, west along the main road.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-044",
+            "index": 44,
+            "group": "Coast",
+            "name": "Campfire 44: Pond lookout campsite",
+            "location": "North of the lookout tower with a painting, by the pond.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-045",
+            "index": 45,
+            "group": "Coast",
+            "name": "Campfire 45: Maze beach campsite",
+            "location": "On the beach southwest of the hay maze.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-046",
+            "index": 46,
+            "group": "Canyons",
+            "name": "Campfire 46: First canyon campsite",
+            "location": "Straight ahead on the road after entering the Canyons, beside a tree.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-047",
+            "index": 47,
+            "group": "Canyons",
+            "name": "Campfire 47: Road split campsite",
+            "location": "Where the road splits, before the canyon bridge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-048",
+            "index": 48,
+            "group": "Canyons",
+            "name": "Campfire 48: Canyon bottom bridge",
+            "location": "At a tree and a bridge in the canyon bottom.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-049",
+            "index": 49,
+            "group": "Canyons",
+            "name": "Campfire 49: Canyon trees campsite",
+            "location": "On the left river bank among trees, near a cairn in bushes.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-050",
+            "index": 50,
+            "group": "Canyons",
+            "name": "Campfire 50: Up-elevator campsite",
+            "location": "Up the elevator, then along a dirt road to the left on foot.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-051",
+            "index": 51,
+            "group": "Canyons",
+            "name": "Campfire 51: Kayak club campsite",
+            "location": "Across the road from the Kayak Club shed.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-052",
+            "index": 52,
+            "group": "Canyons",
+            "name": "Campfire 52: West road campsite",
+            "location": "Just past the blocked rocks on the road west, on the right.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-053",
+            "index": 53,
+            "group": "Canyons",
+            "name": "Campfire 53: Ferry hill campsite",
+            "location": "At the top of the road by the tower near the ferry.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-054",
+            "index": 54,
+            "group": "Canyons",
+            "name": "Campfire 54: Center area campsite",
+            "location": "In the center of the area, near the shed with a gnome.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-055",
+            "index": 55,
+            "group": "Canyons",
+            "name": "Campfire 55: Painting station campsite",
+            "location": "On the road after the painting station.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-056",
+            "index": 56,
+            "group": "Canyons",
+            "name": "Campfire 56: Rainwater campsite",
+            "location": "South of the efficient rainwater energy tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-057",
+            "index": 57,
+            "group": "Canyons",
+            "name": "Campfire 57: Pond campsite",
+            "location": "Behind the Cap 'n Snap between two ponds.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-058",
+            "index": 58,
+            "group": "Canyons",
+            "name": "Campfire 58: Building campsite",
+            "location": "North on the path past the Cap 'n Snap, on your left.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-059",
+            "index": 59,
+            "group": "Canyons",
+            "name": "Campfire 59: Green tree campsite",
+            "location": "Beside the green tree on the road north.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-060",
+            "index": 60,
+            "group": "Canyons",
+            "name": "Campfire 60: Shed campsite",
+            "location": "By the tower and shed in the desert.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-061",
+            "index": 61,
+            "group": "Canyons",
+            "name": "Campfire 61: Lake bed campsite",
+            "location": "On the east end of the lake bed.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-062",
+            "index": 62,
+            "group": "Canyons",
+            "name": "Campfire 62: Oasis campsite",
+            "location": "In the oasis next to the pool float in the water.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-063",
+            "index": 63,
+            "group": "Canyons",
+            "name": "Campfire 63: Satellite dish campsite",
+            "location": "At the end of the road toward the satellite dish.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-064",
+            "index": 64,
+            "group": "Canyons",
+            "name": "Campfire 64: Cliff path campsite",
+            "location": "Along the path past the Beehive 2 tower, up the cliff.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-065",
+            "index": 65,
+            "group": "Canyons",
+            "name": "Campfire 65: Cactus campsite",
+            "location": "Just east of the cactus with a gnome.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-066",
+            "index": 66,
+            "group": "Mountains",
+            "name": "Campfire 66: Beach campsite",
+            "location": "Down the path to the beach on the right at the start of the Mountains; use the wood in the nearby storage.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-067",
+            "index": 67,
+            "group": "Mountains",
+            "name": "Campfire 67: Elevator top campsite",
+            "location": "Straight ahead after riding the first elevator up.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-068",
+            "index": 68,
+            "group": "Mountains",
+            "name": "Campfire 68: Waterfall road campsite",
+            "location": "Left at the road split after the waterfall.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-069",
+            "index": 69,
+            "group": "Mountains",
+            "name": "Campfire 69: Spring path campsite",
+            "location": "On the road after the drawbridge bridge, next to the dirt path north.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-070",
+            "index": 70,
+            "group": "Mountains",
+            "name": "Campfire 70: Festival Site 5 campsite",
+            "location": "Northwest of Festival Site 5, after crossing the bridge.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-071",
+            "index": 71,
+            "group": "Mountains",
+            "name": "Campfire 71: Beehive 3 campsite",
+            "location": "Beside the Beehive 3 tower.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-072",
+            "index": 72,
+            "group": "Mountains",
+            "name": "Campfire 72: Parking lot campsite",
+            "location": "Up the stairs and south of the parking lot.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-073",
+            "index": 73,
+            "group": "Mountains",
+            "name": "Campfire 73: Cap 'n Snap campsite",
+            "location": "North across the street from the seventh Cap 'n Snap.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-074",
+            "index": 74,
+            "group": "Mountains",
+            "name": "Campfire 74: West turn campsite",
+            "location": "West along the road, taking a left when you can.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-075",
+            "index": 75,
+            "group": "Mountains",
+            "name": "Campfire 75: Tree gnome campsite",
+            "location": "On the right along the road west, near a tree with a gnome.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-076",
+            "index": 76,
+            "group": "Mountains",
+            "name": "Campfire 76: Lookout campsite",
+            "location": "At the end of the road south, near the lookout with six levers.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-077",
+            "index": 77,
+            "group": "Mountains",
+            "name": "Campfire 77: Bridge campsite",
+            "location": "After crossing the bridge past the second right turn.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-078",
+            "index": 78,
+            "group": "Mountains",
+            "name": "Campfire 78: Hill campsite",
+            "location": "On the hill north of the large white tent.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-079",
+            "index": 79,
+            "group": "Mountains",
+            "name": "Campfire 79: Streamer campsite",
+            "location": "On the right near some streamers, after Motor Upgrade 3.",
+            "method": "Light it with wood."
+          },
+          {
+            "id": "campfires-080",
+            "index": 80,
+            "group": "Mountains",
+            "name": "Campfire 80: Final campsite",
+            "location": "Right behind you at the tower where you download the Mushroom Plot Counter.",
+            "method": "Light it with wood."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_RECIPES",
+      "displayName": "Over-cooked!",
+      "description": "Cook all food recipes at least once.",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Cook every food recipe at least once.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Build every cooking station first: the Baking Oven and Food Processor from earlier towers, plus the Cooking Pot, Tea Station, Cake Maker, Bread Press, Roasting Station and Coffee Station. The newer stations need silverbark, scrap, water, red ore, grain, bolts, sheet metal, coarse metal, and roasted coffee beans. The Coffee Machine recipe is made at the Coffee Station.",
+        "collectibles": [
+          {
+            "id": "recipe-01",
+            "index": 1,
+            "group": "Food Processor",
+            "name": "Jam",
+            "location": "In your van.",
+            "method": "Cook Jam once."
+          },
+          {
+            "id": "recipe-02",
+            "index": 2,
+            "group": "Food Processor",
+            "name": "Tomato sauce",
+            "location": "In your van.",
+            "method": "Cook Tomato sauce once."
+          },
+          {
+            "id": "recipe-03",
+            "index": 3,
+            "group": "Food Processor",
+            "name": "Coconut smoothie",
+            "location": "In your van.",
+            "method": "Cook Coconut smoothie once."
+          },
+          {
+            "id": "recipe-04",
+            "index": 4,
+            "group": "Cooking Pot",
+            "name": "Mushroom soup",
+            "location": "In your van.",
+            "method": "Cook Mushroom soup once."
+          },
+          {
+            "id": "recipe-05",
+            "index": 5,
+            "group": "Tea Station",
+            "name": "Ginger tea",
+            "location": "In your van.",
+            "method": "Cook Ginger tea once."
+          },
+          {
+            "id": "recipe-06",
+            "index": 6,
+            "group": "Tea Station",
+            "name": "Lavender tea",
+            "location": "In your van.",
+            "method": "Cook Lavender tea once."
+          },
+          {
+            "id": "recipe-07",
+            "index": 7,
+            "group": "Baking Oven",
+            "name": "Bread",
+            "location": "In your van.",
+            "method": "Cook Bread once."
+          },
+          {
+            "id": "recipe-08",
+            "index": 8,
+            "group": "Baking Oven",
+            "name": "Pizza",
+            "location": "In your van.",
+            "method": "Cook Pizza once."
+          },
+          {
+            "id": "recipe-09",
+            "index": 9,
+            "group": "Cake Maker",
+            "name": "Carrot cake",
+            "location": "In your van.",
+            "method": "Cook Carrot cake once."
+          },
+          {
+            "id": "recipe-10",
+            "index": 10,
+            "group": "Cake Maker",
+            "name": "Banana bread",
+            "location": "In your van.",
+            "method": "Cook Banana bread once."
+          },
+          {
+            "id": "recipe-11",
+            "index": 11,
+            "group": "Cake Maker",
+            "name": "Corn bread",
+            "location": "In your van.",
+            "method": "Cook Corn bread once."
+          },
+          {
+            "id": "recipe-12",
+            "index": 12,
+            "group": "Bread Press",
+            "name": "Bread with jam",
+            "location": "In your van.",
+            "method": "Cook Bread with jam once."
+          },
+          {
+            "id": "recipe-13",
+            "index": 13,
+            "group": "Bread Press",
+            "name": "Bread with honey",
+            "location": "In your van.",
+            "method": "Cook Bread with honey once."
+          },
+          {
+            "id": "recipe-14",
+            "index": 14,
+            "group": "Roasting Station",
+            "name": "Salty popcorn",
+            "location": "In your van.",
+            "method": "Cook Salty popcorn once."
+          },
+          {
+            "id": "recipe-15",
+            "index": 15,
+            "group": "Roasting Station",
+            "name": "Sweet popcorn",
+            "location": "In your van.",
+            "method": "Cook Sweet popcorn once."
+          },
+          {
+            "id": "recipe-16",
+            "index": 16,
+            "group": "Coffee Machine",
+            "name": "Cup of coffee",
+            "location": "In your van.",
+            "method": "Cook Cup of coffee once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_GACHA_MACHINES",
+      "displayName": "Snapped 'Em All",
+      "description": "Collect all Cap 'n Snap blueprints.",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 hours",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Collect every blueprint from all 8 Cap 'n Snap machines.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each machine takes bottle caps and gives a random blueprint; about 36 caps empty one machine, so about 288 for all eight. Machines sit two per area.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "gacha_machines-001",
+            "index": 1,
+            "group": "Forest and Farm",
+            "name": "Machine 1",
+            "location": "Just past the repaired bridge beyond the Fire Lookout, on its right-hand side.",
+            "method": "Spend bottle caps until the machine gives nothing new. Repair the broken bridge with Everwood Planks first."
+          },
+          {
+            "id": "gacha_machines-002",
+            "index": 2,
+            "group": "Forest and Farm",
+            "name": "Machine 2",
+            "location": "A short way past machine 1; cross the bridge that sits between the Grrrreat Scott and Antiivvan gnomes.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          },
+          {
+            "id": "gacha_machines-003",
+            "index": 3,
+            "group": "Coast",
+            "name": "Machine 3",
+            "location": "Down a long twisting road below the Weather Station; it lies northeast of the Lighthouse.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          },
+          {
+            "id": "gacha_machines-004",
+            "index": 4,
+            "group": "Coast",
+            "name": "Machine 4",
+            "location": "Just past the east side of The Maze, over the bridge from Backrock Falls; the gnome foths is close.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          },
+          {
+            "id": "gacha_machines-005",
+            "index": 5,
+            "group": "Canyons",
+            "name": "Machine 5",
+            "location": "Southeast of Red Ridge Airstrip, off a road corner near some lakes in the far east.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          },
+          {
+            "id": "gacha_machines-006",
+            "index": 6,
+            "group": "Canyons",
+            "name": "Machine 6",
+            "location": "Next to the road at the Canyon Drawbridge's west end; follow the signal tower road northwest.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          },
+          {
+            "id": "gacha_machines-007",
+            "index": 7,
+            "group": "Mountains",
+            "name": "Machine 7",
+            "location": "Beside a signal tower where a road ends, southwest of the Outbound Festival site.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          },
+          {
+            "id": "gacha_machines-008",
+            "index": 8,
+            "group": "Mountains",
+            "name": "Machine 8",
+            "location": "Near the top middle of the map, by a signal tower, west of a painting station.",
+            "method": "Spend bottle caps until the machine gives nothing new."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FESTIVAL_ENDING",
+      "displayName": "The Festival",
+      "description": "Participate in the festival.",
+      "hidden": true,
+      "globalPercent": 10.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 minutes",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Take part in the festival.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Head east along the main road, enter the festival, and park at the marked spot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_CAIRNS",
+      "displayName": "Cairnivore",
+      "description": "Stack up every Cairn.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "6 hours",
+      "estMinutes": 360,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Stack all 90 cairns.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Interact with each cairn to stack a rock. Cairns are listed in route order, 20 in Forest and Farm, 25 on the Coast, 25 in the Canyons and 20 in the Mountains.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "cairns-001",
+            "index": 1,
+            "group": "Forest and Farm",
+            "name": "Cairn 1",
+            "location": "On the rocks beside the tower east of the second campsite; climb up and turn around.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-002",
+            "index": 2,
+            "group": "Forest and Farm",
+            "name": "Cairn 2",
+            "location": "At the top of the Fire Lookout, facing southeast.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-003",
+            "index": 3,
+            "group": "Forest and Farm",
+            "name": "Cairn 3",
+            "location": "Visible to the east when you reach the Treehouse by the dirt road.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-004",
+            "index": 4,
+            "group": "Forest and Farm",
+            "name": "Cairn 4",
+            "location": "South of cairn 3 along the cliff; the cairn sits on the east cliff by a grassy slope.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-005",
+            "index": 5,
+            "group": "Forest and Farm",
+            "name": "Cairn 5",
+            "location": "On the cliff north of the gardening plot tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-006",
+            "index": 6,
+            "group": "Forest and Farm",
+            "name": "Cairn 6",
+            "location": "On the east side of the cliff directly north of the lake gnome Gillgear Sardinwhiff.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-007",
+            "index": 7,
+            "group": "Forest and Farm",
+            "name": "Cairn 7",
+            "location": "On a rock in the open field west of the Metal Smelter tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-008",
+            "index": 8,
+            "group": "Forest and Farm",
+            "name": "Cairn 8",
+            "location": "In a small clearing below the road, east of where the road faces north up the mountain.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-009",
+            "index": 9,
+            "group": "Forest and Farm",
+            "name": "Cairn 9",
+            "location": "On the cliff just left of cairn 8.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-010",
+            "index": 10,
+            "group": "Forest and Farm",
+            "name": "Cairn 10",
+            "location": "Directly behind the white tree with yellow leaves beside the mountain road.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-011",
+            "index": 11,
+            "group": "Forest and Farm",
+            "name": "Cairn 11",
+            "location": "By boxes east of the Nailing Station tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-012",
+            "index": 12,
+            "group": "Forest and Farm",
+            "name": "Cairn 12",
+            "location": "On top of the tallest rock north of the lookout tower; jump over the rocks to reach it.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-013",
+            "index": 13,
+            "group": "Forest and Farm",
+            "name": "Cairn 13",
+            "location": "Northwest of the Pickaxe 1 tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-014",
+            "index": 14,
+            "group": "Forest and Farm",
+            "name": "Cairn 14",
+            "location": "On the cliff edge northeast of campfire 10.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-015",
+            "index": 15,
+            "group": "Forest and Farm",
+            "name": "Cairn 15",
+            "location": "At the cliff edge north of the road, south of the elevator.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-016",
+            "index": 16,
+            "group": "Forest and Farm",
+            "name": "Cairn 16",
+            "location": "By the waterfall south of campfire 12.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-017",
+            "index": 17,
+            "group": "Forest and Farm",
+            "name": "Cairn 17",
+            "location": "On the shoreline northwest of campfire 15.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-018",
+            "index": 18,
+            "group": "Forest and Farm",
+            "name": "Cairn 18",
+            "location": "At the end of the shoreline path east of the Food Processing tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-019",
+            "index": 19,
+            "group": "Forest and Farm",
+            "name": "Cairn 19",
+            "location": "Next to the pond south of the Furniture Pack 2 tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-020",
+            "index": 20,
+            "group": "Forest and Farm",
+            "name": "Cairn 20",
+            "location": "In front of the bench northwest of campfire 17.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-021",
+            "index": 21,
+            "group": "Coast",
+            "name": "Cairn 21",
+            "location": "On the west cliff edge at the end of the hiking trail southeast of the Paws and Whiskers Lounge.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-022",
+            "index": 22,
+            "group": "Coast",
+            "name": "Cairn 22",
+            "location": "At the cliff edge beside campfire 23.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-023",
+            "index": 23,
+            "group": "Coast",
+            "name": "Cairn 23",
+            "location": "On the northern tip of the beach east of the road overpass.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-024",
+            "index": 24,
+            "group": "Coast",
+            "name": "Cairn 24",
+            "location": "On a ledge above campfire 24, east of the tent.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-025",
+            "index": 25,
+            "group": "Coast",
+            "name": "Cairn 25",
+            "location": "On the cliff edge left of the tree-bridge south of the coffee farm.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-026",
+            "index": 26,
+            "group": "Coast",
+            "name": "Cairn 26",
+            "location": "On the outstretched log north of campfire 26.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-027",
+            "index": 27,
+            "group": "Coast",
+            "name": "Cairn 27",
+            "location": "At the cliff edge northwest of the solar panels.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-028",
+            "index": 28,
+            "group": "Coast",
+            "name": "Cairn 28",
+            "location": "On the ledge above the beach, north of the bridge with the Cap 'n Snap.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-029",
+            "index": 29,
+            "group": "Coast",
+            "name": "Cairn 29",
+            "location": "Beside the large rocks on the path past the ladder, near the Rainwater energy tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-030",
+            "index": 30,
+            "group": "Coast",
+            "name": "Cairn 30",
+            "location": "At the cliff edge to the west where the road bends 180 degrees.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-031",
+            "index": 31,
+            "group": "Coast",
+            "name": "Cairn 31",
+            "location": "On rocks in the water west of the blue house's deck.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-032",
+            "index": 32,
+            "group": "Coast",
+            "name": "Cairn 32",
+            "location": "At the cliff edge near the waterfall, northwest across the water from the houses.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-033",
+            "index": 33,
+            "group": "Coast",
+            "name": "Cairn 33",
+            "location": "Above the lever by the area exit; climb the slanted rock on the right.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-034",
+            "index": 34,
+            "group": "Coast",
+            "name": "Cairn 34",
+            "location": "At the north point by the Axe 3 tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-035",
+            "index": 35,
+            "group": "Coast",
+            "name": "Cairn 35",
+            "location": "In the bushes at the base of the tree by campfire 35.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-036",
+            "index": 36,
+            "group": "Coast",
+            "name": "Cairn 36",
+            "location": "On the northwestern point of the beach, reached through the water.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-037",
+            "index": 37,
+            "group": "Coast",
+            "name": "Cairn 37",
+            "location": "On the southern cliff edge behind the Lighthouse.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-038",
+            "index": 38,
+            "group": "Coast",
+            "name": "Cairn 38",
+            "location": "At the end of the left branch off the path up the mountain, on the cliff edge.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-039",
+            "index": 39,
+            "group": "Coast",
+            "name": "Cairn 39",
+            "location": "On the eastern point of the mountain level with the building and fuse box.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-040",
+            "index": 40,
+            "group": "Coast",
+            "name": "Cairn 40",
+            "location": "At the end of the southwest beach.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-041",
+            "index": 41,
+            "group": "Coast",
+            "name": "Cairn 41",
+            "location": "Near rocks east of the cooking pot tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-042",
+            "index": 42,
+            "group": "Coast",
+            "name": "Cairn 42",
+            "location": "Just west of the tent at the campsite across the road from campfire 42.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-043",
+            "index": 43,
+            "group": "Coast",
+            "name": "Cairn 43",
+            "location": "At the end of the rocks northwest of the rain catcher tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-044",
+            "index": 44,
+            "group": "Coast",
+            "name": "Cairn 44",
+            "location": "Directly northeast of campfire 44.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-045",
+            "index": 45,
+            "group": "Coast",
+            "name": "Cairn 45",
+            "location": "Inside the hay maze at the end of the route: left at the yellow arrow, right at the white arrow, right at the yellow arrow.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-046",
+            "index": 46,
+            "group": "Canyons",
+            "name": "Cairn 46",
+            "location": "At the cliff edge southeast of the glass smelter tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-047",
+            "index": 47,
+            "group": "Canyons",
+            "name": "Cairn 47",
+            "location": "On the cliff edge north of the glass smelter tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-048",
+            "index": 48,
+            "group": "Canyons",
+            "name": "Cairn 48",
+            "location": "On a sloped rock east of the building with Pickaxe 3.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-049",
+            "index": 49,
+            "group": "Canyons",
+            "name": "Cairn 49",
+            "location": "On the cliff edge northwest of the elevator top, before going down.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-050",
+            "index": 50,
+            "group": "Canyons",
+            "name": "Cairn 50",
+            "location": "By the waterfall at the bottom of the canyon, to the left of the elevator.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-051",
+            "index": 51,
+            "group": "Canyons",
+            "name": "Cairn 51",
+            "location": "In bushes near campfire 49 on the left river bank.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-052",
+            "index": 52,
+            "group": "Canyons",
+            "name": "Cairn 52",
+            "location": "On a sloped rock west of the road where it turns south.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-053",
+            "index": 53,
+            "group": "Canyons",
+            "name": "Cairn 53",
+            "location": "On the shoreline east of the kayak club.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-054",
+            "index": 54,
+            "group": "Canyons",
+            "name": "Cairn 54",
+            "location": "On a ledge east of the stairs northwest of campfire 51.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-055",
+            "index": 55,
+            "group": "Canyons",
+            "name": "Cairn 55",
+            "location": "On the cliff edge north of the dead tree, north of the road.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-056",
+            "index": 56,
+            "group": "Canyons",
+            "name": "Cairn 56",
+            "location": "West of the ladder at the stuffing maker tower; climb up and jump across.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-057",
+            "index": 57,
+            "group": "Canyons",
+            "name": "Cairn 57",
+            "location": "On the slope north of the painting station.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-058",
+            "index": 58,
+            "group": "Canyons",
+            "name": "Cairn 58",
+            "location": "On top of the right-hand rock past the fence south of campfire 55.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-059",
+            "index": 59,
+            "group": "Canyons",
+            "name": "Cairn 59",
+            "location": "On the cliff edge west of the large rock and bench.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-060",
+            "index": 60,
+            "group": "Canyons",
+            "name": "Cairn 60",
+            "location": "Right next to campfire 57, behind the Cap 'n Snap machine.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-061",
+            "index": 61,
+            "group": "Canyons",
+            "name": "Cairn 61",
+            "location": "On a rock beside the road where it curves right.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-062",
+            "index": 62,
+            "group": "Canyons",
+            "name": "Cairn 62",
+            "location": "Southeast of the tower and campfire 60.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-063",
+            "index": 63,
+            "group": "Canyons",
+            "name": "Cairn 63",
+            "location": "On the edge west of the tower on the lake bed.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-064",
+            "index": 64,
+            "group": "Canyons",
+            "name": "Cairn 64",
+            "location": "West of the landing spot after the hot air balloon.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-065",
+            "index": 65,
+            "group": "Canyons",
+            "name": "Cairn 65",
+            "location": "On the cliff rocks south of the oasis.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-066",
+            "index": 66,
+            "group": "Canyons",
+            "name": "Cairn 66",
+            "location": "Directly south of campfire 63, across the road.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-067",
+            "index": 67,
+            "group": "Canyons",
+            "name": "Cairn 67",
+            "location": "On the south side of the oasis shore.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-068",
+            "index": 68,
+            "group": "Canyons",
+            "name": "Cairn 68",
+            "location": "On the northwest side of the giant rock structure near campfire 64.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-069",
+            "index": 69,
+            "group": "Canyons",
+            "name": "Cairn 69",
+            "location": "South of the ferry, on the left after going between large rocks.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-070",
+            "index": 70,
+            "group": "Canyons",
+            "name": "Cairn 70",
+            "location": "On a lower cliff just south of the drawbridge tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-071",
+            "index": 71,
+            "group": "Mountains",
+            "name": "Cairn 71",
+            "location": "On the cliff edge west of the dirt path, past campfire 67.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-072",
+            "index": 72,
+            "group": "Mountains",
+            "name": "Cairn 72",
+            "location": "On the shore by the waterfall.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-073",
+            "index": 73,
+            "group": "Mountains",
+            "name": "Cairn 73",
+            "location": "On the rocks southwest of the Tea Station tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-074",
+            "index": 74,
+            "group": "Mountains",
+            "name": "Cairn 74",
+            "location": "On the hill northwest of the drawbridge.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-075",
+            "index": 75,
+            "group": "Mountains",
+            "name": "Cairn 75",
+            "location": "At the cliff edge along the path to the Pickaxe 4 tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-076",
+            "index": 76,
+            "group": "Mountains",
+            "name": "Cairn 76",
+            "location": "On the elevated ground west of the road, before the lookout with Festival Site 7.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-077",
+            "index": 77,
+            "group": "Mountains",
+            "name": "Cairn 77",
+            "location": "On the cliff edge west of the green van and pond.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-078",
+            "index": 78,
+            "group": "Mountains",
+            "name": "Cairn 78",
+            "location": "Off the lower right path north of campfire 73.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-079",
+            "index": 79,
+            "group": "Mountains",
+            "name": "Cairn 79",
+            "location": "At the top of the hill beside the Sickle 4 tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-080",
+            "index": 80,
+            "group": "Mountains",
+            "name": "Cairn 80",
+            "location": "Against the left wall and cliff edge below the rocks you break, south of campfire 74.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-081",
+            "index": 81,
+            "group": "Mountains",
+            "name": "Cairn 81",
+            "location": "On the cliff below the large gnome statue, east of the foot.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-082",
+            "index": 82,
+            "group": "Mountains",
+            "name": "Cairn 82",
+            "location": "South of the Gnome House computer.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-083",
+            "index": 83,
+            "group": "Mountains",
+            "name": "Cairn 83",
+            "location": "On the right side just before the bridge, east of the Gnome House.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-084",
+            "index": 84,
+            "group": "Mountains",
+            "name": "Cairn 84",
+            "location": "On the west side of the shed up the stairs from the structure with the last painting.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-085",
+            "index": 85,
+            "group": "Mountains",
+            "name": "Cairn 85",
+            "location": "On the left after the stairs, east of the previous building.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-086",
+            "index": 86,
+            "group": "Mountains",
+            "name": "Cairn 86",
+            "location": "On the cliff edge north of the Flashlight 2 tower.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-087",
+            "index": 87,
+            "group": "Mountains",
+            "name": "Cairn 87",
+            "location": "At the south end of the dead-end spur next to the geyser.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-088",
+            "index": 88,
+            "group": "Mountains",
+            "name": "Cairn 88",
+            "location": "On the right off-road, south of the charging station.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-089",
+            "index": 89,
+            "group": "Mountains",
+            "name": "Cairn 89",
+            "location": "Directly east of Festival Site 12, on the beach.",
+            "method": "Interact with it to stack a rock."
+          },
+          {
+            "id": "cairns-090",
+            "index": 90,
+            "group": "Mountains",
+            "name": "Cairn 90",
+            "location": "West of the gnome on the boxes, in the gray quartz area below the festival elevator.",
+            "method": "Interact with it to stack a rock."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_PAINTINGS",
+      "displayName": "Camper Van Gogh",
+      "description": "Collect every Painting.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Collect all 14 paintings.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Interact with a painting to take a copy for the van.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "paintings-001",
+            "index": 1,
+            "group": "Forest and Farm",
+            "name": "The Fire Lookout",
+            "location": "On a wall inside the small house on the westernmost plateau.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-002",
+            "index": 2,
+            "group": "Forest and Farm",
+            "name": "The Windmill",
+            "location": "Hangs over the turning platform inside the Windmill.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-003",
+            "index": 3,
+            "group": "Forest and Farm",
+            "name": "The Windy Fields",
+            "location": "On a wall inside the Farmhouse on the east side of the map.",
+            "method": "Needs Motor Upgrade 1 to reach the Farmhouse area. Interact with the painting."
+          },
+          {
+            "id": "paintings-004",
+            "index": 4,
+            "group": "Coast",
+            "name": "Heartmoor Float Village",
+            "location": "On the wall of the Weather Station building, above the couch, at the top of the central mountain.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-005",
+            "index": 5,
+            "group": "Coast",
+            "name": "The Lighthouse",
+            "location": "On the floor beside boxes on the second floor of the Lighthouse.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-006",
+            "index": 6,
+            "group": "Coast",
+            "name": "The Redwood Forest",
+            "location": "On the left wall inside the lookout on the plateau pond north of the coffee farm.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-007",
+            "index": 7,
+            "group": "Coast",
+            "name": "The Coffee Farm",
+            "location": "On the wall of the coffee farm house.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-008",
+            "index": 8,
+            "group": "Canyons",
+            "name": "The Waterfall",
+            "location": "On the wall of the abandoned cabin east of the oases and Research Center.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-009",
+            "index": 9,
+            "group": "Canyons",
+            "name": "Canyon Trees",
+            "location": "On the wall inside the Plant House in the southwest corner.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-010",
+            "index": 10,
+            "group": "Canyons",
+            "name": "The Canyons",
+            "location": "On the wall beside the terminal at the Red Rock Rapid Kayak Club.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-011",
+            "index": 11,
+            "group": "Canyons",
+            "name": "Red Ridge Airstrip",
+            "location": "In one of the large barn-style hangars.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-012",
+            "index": 12,
+            "group": "Mountains",
+            "name": "Golden Shores",
+            "location": "On the wall of the building next to the first elevator.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-013",
+            "index": 13,
+            "group": "Mountains",
+            "name": "The Gnome",
+            "location": "In the workspace of the Gnome House.",
+            "method": "Interact with the painting."
+          },
+          {
+            "id": "paintings-014",
+            "index": 14,
+            "group": "Mountains",
+            "name": "Silvermist Springs",
+            "location": "On the second floor of the main building at the springs.",
+            "method": "Interact with the painting."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ALL_GNOMES",
+      "displayName": "Gnome Sweet Gnome",
+      "description": "Collect every Gnome.",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "8 hours",
+      "estMinutes": 480,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Collect all 100 gnomes.",
+      "guide": {
+        "kind": "collectible",
+        "context": "The journal numbers gnomes 1 to 100 and lists them by area. Gnome 70 is last: it unlocks only after you bring five Mountains items back to the Canyons Research Center. Gnomes 85 and 86 are the developer gnomes. Gnomes 7, 9, 15, 17, 19, 21, 23 and 25 need Pickaxe 2 or Motor Upgrade 1 first. Most Canyons gnomes need Pickaxe 3, Motor Upgrade 2 and the Cooling System Upgrade, and gnomes 82, 97 and 100 need Motor Upgrade 3. Each entry lists what it needs.",
+        "ordered": true,
+        "collectibles": [
+          {
+            "id": "gnomes-001",
+            "index": 1,
+            "group": "Forest and Farm",
+            "name": "Tchii",
+            "location": "On a rock at the end of the walkable river bank, found by heading north from the Fire Lookout and then west at the river.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-002",
+            "index": 2,
+            "group": "Forest and Farm",
+            "name": "Ratpak",
+            "location": "On a Treehouse platform, hidden behind a rocking chair.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-003",
+            "index": 3,
+            "group": "Forest and Farm",
+            "name": "UncleGnome",
+            "location": "On the pier of the small lake north of the Fire Lookout, fishing off the left edge.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-004",
+            "index": 4,
+            "group": "Forest and Farm",
+            "name": "Darth Raxim MuadDib Sjet",
+            "location": "Tucked among boulders below the closest signal tower; you must walk, not drive.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-005",
+            "index": 5,
+            "group": "Forest and Farm",
+            "name": "Gillgear Sardinwhiff",
+            "location": "On a rock at the pond's east bank, north of the Treehouse.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-006",
+            "index": 6,
+            "group": "Forest and Farm",
+            "name": "LittleAshThings",
+            "location": "On the Treehouse hill, southwest of the huge tree and behind a rock.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-007",
+            "index": 7,
+            "group": "Forest and Farm",
+            "name": "ikookniet",
+            "location": "At the back of a cave blocked by Mossrock boulders.",
+            "method": "Break the boulders with Pickaxe 2 first."
+          },
+          {
+            "id": "gnomes-008",
+            "index": 8,
+            "group": "Forest and Farm",
+            "name": "Pirate Gnome Rustbeard",
+            "location": "The central plateau cabin has it on a shelf by the kitchen table.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-009",
+            "index": 9,
+            "group": "Forest and Farm",
+            "name": "Banagnome",
+            "location": "Among rocks at the far south of the map, up the switchbacks.",
+            "method": "Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-010",
+            "index": 10,
+            "group": "Forest and Farm",
+            "name": "Zacksonius",
+            "location": "On the base of one of the three wind turbines in the wheat fields.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-011",
+            "index": 11,
+            "group": "Forest and Farm",
+            "name": "Grrrreat Scott",
+            "location": "On an edge in plain view of the road, near the bridge that leads to the second Cap 'n Snap machine.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-012",
+            "index": 12,
+            "group": "Forest and Farm",
+            "name": "Cleeks",
+            "location": "On a bench by the picnic tables on the middle plateau.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-013",
+            "index": 13,
+            "group": "Forest and Farm",
+            "name": "Gnomey McGnomeface",
+            "location": "On a little table next to a chair inside the greenhouse by the Windmill.",
+            "method": "Climb the Windmill, then drop onto the greenhouse glass roof."
+          },
+          {
+            "id": "gnomes-014",
+            "index": 14,
+            "group": "Forest and Farm",
+            "name": "Gary",
+            "location": "By the window next to the drawbridge lever, just south of the three plateaus.",
+            "method": "Pull the drawbridge lever to reach it."
+          },
+          {
+            "id": "gnomes-015",
+            "index": 15,
+            "group": "Forest and Farm",
+            "name": "Antiivvan",
+            "location": "Under the cliff next to the Farm, across the water from the switchbacks.",
+            "method": "Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-016",
+            "index": 16,
+            "group": "Forest and Farm",
+            "name": "Indiana Gnomes",
+            "location": "On the railing at the top of the stairs on the Windmill platform.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-017",
+            "index": 17,
+            "group": "Forest and Farm",
+            "name": "The Western",
+            "location": "Under the small wind turbine kite in the Farm garage.",
+            "method": "Pull the handle on the wall to raise the kite. Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-018",
+            "index": 18,
+            "group": "Forest and Farm",
+            "name": "Just a Gnomeal Guy",
+            "location": "On a bench by the campfire on the easternmost central plateau.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-019",
+            "index": 19,
+            "group": "Forest and Farm",
+            "name": "Klaus Dieter von Zwergenthal",
+            "location": "Among the boxes on the platform of the giant tank-tread machine near the elevator.",
+            "method": "Climb the tank treads. Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-020",
+            "index": 20,
+            "group": "Forest and Farm",
+            "name": "WitchHazel",
+            "location": "On the windowsill of the small flower-covered cabin.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-021",
+            "index": 21,
+            "group": "Forest and Farm",
+            "name": "Jifferey Johnson",
+            "location": "In one of the cradles on the ground, west of the Farm, where the floating turbine kites are tied.",
+            "method": "Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-022",
+            "index": 22,
+            "group": "Forest and Farm",
+            "name": "Haita the Shepherd",
+            "location": "On the shelf under the window of the small lookout in the northeast.",
+            "method": "Climb the ladder into the lookout."
+          },
+          {
+            "id": "gnomes-023",
+            "index": 23,
+            "group": "Forest and Farm",
+            "name": "CarMagician",
+            "location": "In the room above the elevator.",
+            "method": "Climb the ladder on the elevator platform. Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-024",
+            "index": 24,
+            "group": "Forest and Farm",
+            "name": "Lindsey",
+            "location": "On a box among rocky ground directly west of the elevator; go on foot.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-025",
+            "index": 25,
+            "group": "Forest and Farm",
+            "name": "Kobel",
+            "location": "On the giant rain catchers at the Farm.",
+            "method": "Needs Motor Upgrade 1 to reach the area."
+          },
+          {
+            "id": "gnomes-026",
+            "index": 26,
+            "group": "Coast",
+            "name": "KingMat",
+            "location": "On a log statue on the small western peninsula that overlooks the islands.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-027",
+            "index": 27,
+            "group": "Coast",
+            "name": "Ms Pikman",
+            "location": "Behind the waterfall just south of the road, next to a chest.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-028",
+            "index": 28,
+            "group": "Coast",
+            "name": "foths",
+            "location": "Among the rocks by the waterfall in the far southeast corner.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-029",
+            "index": 29,
+            "group": "Coast",
+            "name": "Pink Samurai",
+            "location": "On the small island south of the Lighthouse.",
+            "method": "Swim to the island."
+          },
+          {
+            "id": "gnomes-030",
+            "index": 30,
+            "group": "Coast",
+            "name": "DisenchantedGnome",
+            "location": "On the deck of one of the floating homes in Heartmoor Float Village.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-031",
+            "index": 31,
+            "group": "Coast",
+            "name": "Thrax",
+            "location": "In a ring of rocks just north of the large solar panel field in the south.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-032",
+            "index": 32,
+            "group": "Coast",
+            "name": "The Nightowl Anya",
+            "location": "On the beach near the Cap 'n Snap machine, east of the walkable islands in the middle.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-033",
+            "index": 33,
+            "group": "Coast",
+            "name": "BuzzY",
+            "location": "By a huge redwood on the second curve of the road after entering the Coast.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-034",
+            "index": 34,
+            "group": "Coast",
+            "name": "Lonaluff",
+            "location": "On a pool floaty in the water north of the northernmost island, which two bridges link to the road.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-035",
+            "index": 35,
+            "group": "Coast",
+            "name": "Cameron",
+            "location": "On a clifftop over the road and the ocean, mid-map.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-036",
+            "index": 36,
+            "group": "Coast",
+            "name": "MrSniff",
+            "location": "In the mailbox outside the Paws and Whiskers Lounge.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-037",
+            "index": 37,
+            "group": "Coast",
+            "name": "Vato",
+            "location": "On the flower boxes on the small platform above the coffee plants at the coffee farm.",
+            "method": "Climb onto the platform."
+          },
+          {
+            "id": "gnomes-038",
+            "index": 38,
+            "group": "Coast",
+            "name": "Laura",
+            "location": "In yellow flowers beside the eastern end of the southeast solar panel line.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-039",
+            "index": 39,
+            "group": "Coast",
+            "name": "Andrew Gnammer",
+            "location": "In a cave west of the cabin with the gear puzzle, west of Heartmoor Float Village.",
+            "method": "Solve the gear puzzle to drain the cave."
+          },
+          {
+            "id": "gnomes-040",
+            "index": 40,
+            "group": "Coast",
+            "name": "Solareus",
+            "location": "On the sea-facing cliff mid-map, along the north edge of the Weather Station plateau.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-041",
+            "index": 41,
+            "group": "Coast",
+            "name": "Noguella",
+            "location": "Near a small tent in the south-central part of the map.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-042",
+            "index": 42,
+            "group": "Coast",
+            "name": "Decima",
+            "location": "In the middle of a ring of birdhouses west of the coffee farm.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-043",
+            "index": 43,
+            "group": "Coast",
+            "name": "Dearling",
+            "location": "Under the broken watering robot at the Farmhouse.",
+            "method": "Repair the robot with Electronics to uncover it."
+          },
+          {
+            "id": "gnomes-044",
+            "index": 44,
+            "group": "Coast",
+            "name": "Talked Tourmaline",
+            "location": "On a crate in a cave just north of Heartmoor Float Village.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-045",
+            "index": 45,
+            "group": "Coast",
+            "name": "Sir Gnomington of Banania",
+            "location": "Northeast part of the hay maze; easiest to spot from on top of the hay bales.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-046",
+            "index": 46,
+            "group": "Coast",
+            "name": "Ketchup",
+            "location": "On the Lighthouse railing at the top of the stairs.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-047",
+            "index": 47,
+            "group": "Coast",
+            "name": "NoKAP",
+            "location": "On a plastic flamingo between the two northernmost ponds north of Heartmoor Float Village.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-048",
+            "index": 48,
+            "group": "Coast",
+            "name": "Kyanome",
+            "location": "In a tree in a flower field with beehives, south across the water from Heartmoor Float Village.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-049",
+            "index": 49,
+            "group": "Coast",
+            "name": "Dia",
+            "location": "Inside one of the coarse ore rocks at the far east of the map.",
+            "method": "Mine the rocks until the gnome drops."
+          },
+          {
+            "id": "gnomes-050",
+            "index": 50,
+            "group": "Coast",
+            "name": "SirShrubby",
+            "location": "On the south shore of the pond north of the coffee farm.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-051",
+            "index": 51,
+            "group": "Canyons",
+            "name": "Gohn D Gnom",
+            "location": "Under the cliff edge north of the canyon, near a patch of grass.",
+            "method": "Needs Pickaxe 3 and Motor Upgrade 2 first."
+          },
+          {
+            "id": "gnomes-052",
+            "index": 52,
+            "group": "Canyons",
+            "name": "CrashtheDummy",
+            "location": "On piles of boxes and kegs inside one of the hangars at Red Ridge Airstrip.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-053",
+            "index": 53,
+            "group": "Canyons",
+            "name": "Marvelous Martin",
+            "location": "On a rock jutting over the canyon, just north of the bridge to the second peninsula.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-054",
+            "index": 54,
+            "group": "Canyons",
+            "name": "Beach Bob",
+            "location": "In the Red Rock Rapid Kayak Club, bottom right of the map.",
+            "method": "Needs Pickaxe 3 first."
+          },
+          {
+            "id": "gnomes-055",
+            "index": 55,
+            "group": "Canyons",
+            "name": "Kitt",
+            "location": "At the base of a dead tree east of the Research Center and oases, near a signal tower.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-056",
+            "index": 56,
+            "group": "Canyons",
+            "name": "Romolo",
+            "location": "On a park bench on a plateau on the peninsula south of the Painting Station.",
+            "method": "Needs Pickaxe 3 and Motor Upgrade 2 first."
+          },
+          {
+            "id": "gnomes-057",
+            "index": 57,
+            "group": "Canyons",
+            "name": "Bilmorn the Seaside Miner",
+            "location": "In the far northeast corner of the map, on the dark brown desert.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-058",
+            "index": 58,
+            "group": "Canyons",
+            "name": "Mirthleaf",
+            "location": "On a barrel by itself near the southern edge, mid-map.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-059",
+            "index": 59,
+            "group": "Canyons",
+            "name": "My Deer Fungi",
+            "location": "Inside a tent-shaped pile of rocks just south of the raised bridge.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-060",
+            "index": 60,
+            "group": "Canyons",
+            "name": "Gnomad the Wader",
+            "location": "Perched on a deck railing along the canyon's southern rim.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-061",
+            "index": 61,
+            "group": "Canyons",
+            "name": "Dominic",
+            "location": "At the top center of the map, by a small table, chairs, ladders and a rock pile.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-062",
+            "index": 62,
+            "group": "Canyons",
+            "name": "Chiara Livia Domeniconi",
+            "location": "On a chest under an orange and blue umbrella on an oasis beach.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-063",
+            "index": 63,
+            "group": "Canyons",
+            "name": "The Rizzler",
+            "location": "On a rock pile south of the Airstrip.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-064",
+            "index": 64,
+            "group": "Canyons",
+            "name": "Xiuzhi",
+            "location": "Inside the Plant House in the southwest corner of the map.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-065",
+            "index": 65,
+            "group": "Canyons",
+            "name": "Shroomy",
+            "location": "On a ledge east of the Plant House, overlooking the canyon and the westernmost bridge.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-066",
+            "index": 66,
+            "group": "Canyons",
+            "name": "odasa",
+            "location": "On a pile of mossy rocks on the shore of the oasis nearest the Research Center.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-067",
+            "index": 67,
+            "group": "Canyons",
+            "name": "PhoenixMastM",
+            "location": "Standing on a boulder above the main road, a bit east of the Plant House.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-068",
+            "index": 68,
+            "group": "Canyons",
+            "name": "GnomytheStriker",
+            "location": "Resting on a rock under a shady tree by the park benches along the southern main road.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-069",
+            "index": 69,
+            "group": "Canyons",
+            "name": "The Slippery Bandit",
+            "location": "West of the signal tower and campfire north of the Kayak Club.",
+            "method": "Needs Pickaxe 3 first."
+          },
+          {
+            "id": "gnomes-070",
+            "index": 70,
+            "group": "Canyons",
+            "name": "Janneke",
+            "location": "Inside the Research Center dome that locks until the Mountains items are delivered.",
+            "method": "Bring one each of Pak Choi, Chrome Ore, Lotus Flower, Cherry and Bamboo from the Mountains and place them around the dome."
+          },
+          {
+            "id": "gnomes-071",
+            "index": 71,
+            "group": "Canyons",
+            "name": "FoxQuallity",
+            "location": "At the battery recharge point south of an oasis.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-072",
+            "index": 72,
+            "group": "Canyons",
+            "name": "Trawlin Timmy",
+            "location": "Fishing on an island in the canyon beside the east elevator that goes down.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-073",
+            "index": 73,
+            "group": "Canyons",
+            "name": "Sirizio",
+            "location": "On a chair under the overhang of the small mining house in the northeast.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-074",
+            "index": 74,
+            "group": "Canyons",
+            "name": "Zin",
+            "location": "Beneath a dead tree, mid-desert, north of the salt flats.",
+            "method": "Needs Pickaxe 3, Motor Upgrade 2 and Cooling System Upgrade first."
+          },
+          {
+            "id": "gnomes-075",
+            "index": 75,
+            "group": "Canyons",
+            "name": "Miss Sillygoose",
+            "location": "At the foot of a cactus among dead trees north of the canyon rim.",
+            "method": "Needs Pickaxe 3 and Motor Upgrade 2 first."
+          },
+          {
+            "id": "gnomes-076",
+            "index": 76,
+            "group": "Mountains",
+            "name": "Summerdar",
+            "location": "Behind a small shed north of the campfire, near another camper van and piles of yellow paint.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-077",
+            "index": 77,
+            "group": "Mountains",
+            "name": "DreimalschwarzerKater",
+            "location": "On the hand of the smaller gnome statue in the Gnome House garden.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-078",
+            "index": 78,
+            "group": "Mountains",
+            "name": "Nilsilu",
+            "location": "On the edge of the hot spring in the little bamboo park.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-079",
+            "index": 79,
+            "group": "Mountains",
+            "name": "Mossbeard",
+            "location": "Fixed to the rear of the Gnome House mailbox.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-080",
+            "index": 80,
+            "group": "Mountains",
+            "name": "Play Daddy",
+            "location": "By the truck at the small building near the first elevator up the mountain.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-081",
+            "index": 81,
+            "group": "Mountains",
+            "name": "RoboticHurricane",
+            "location": "On the foot of the huge gnome statue just south of the Gnome House.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-082",
+            "index": 82,
+            "group": "Mountains",
+            "name": "Sean Nichols",
+            "location": "Under the second U of the colorful OUTBOUND letters.",
+            "method": "Needs Motor Upgrade 3 first."
+          },
+          {
+            "id": "gnomes-083",
+            "index": 83,
+            "group": "Mountains",
+            "name": "Ekkaia",
+            "location": "On a clothesline at the water's edge just south of the campgrounds.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-084",
+            "index": 84,
+            "group": "Mountains",
+            "name": "Sirius Snome",
+            "location": "By a small pond east of the Gnome House on the northern edge of the map.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-085",
+            "index": 85,
+            "group": "Mountains",
+            "name": "Marc",
+            "location": "On the signal terminal inside the Gnome House, with Tobi.",
+            "method": "Pick it up together with Tobi."
+          },
+          {
+            "id": "gnomes-086",
+            "index": 86,
+            "group": "Mountains",
+            "name": "Tobi",
+            "location": "On the signal terminal inside the Gnome House, with Marc.",
+            "method": "Pick it up together with Marc."
+          },
+          {
+            "id": "gnomes-087",
+            "index": 87,
+            "group": "Mountains",
+            "name": "Bonjo",
+            "location": "In a potted plant by the shelves of boxed gnomes inside the Gnome House.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-088",
+            "index": 88,
+            "group": "Mountains",
+            "name": "vinhui",
+            "location": "On the counter of the pink food truck in the food court.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-089",
+            "index": 89,
+            "group": "Mountains",
+            "name": "Noldor",
+            "location": "Inside the lookout reached after lowering the bridge on the east side of the mountain.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-090",
+            "index": 90,
+            "group": "Mountains",
+            "name": "danivince",
+            "location": "At the top of the map on a big hill, having a picnic.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-091",
+            "index": 91,
+            "group": "Mountains",
+            "name": "Juani",
+            "location": "On the lamp beside the drone lever inside the little house by the starting elevator platform.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-092",
+            "index": 92,
+            "group": "Mountains",
+            "name": "Jezeppie",
+            "location": "On a tiny island across the water to the east of the Ferry entrance.",
+            "method": "Wade through the water to reach it."
+          },
+          {
+            "id": "gnomes-093",
+            "index": 93,
+            "group": "Mountains",
+            "name": "Zinc",
+            "location": "Beneath a tree at a pond's edge, north of the mountain in the upper middle.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-094",
+            "index": 94,
+            "group": "Mountains",
+            "name": "Lemmy",
+            "location": "On a pile of boxes on a side road just after taking the second elevator down.",
+            "method": "Only reachable after the second elevator works, which happens once the Festival is done."
+          },
+          {
+            "id": "gnomes-095",
+            "index": 95,
+            "group": "Mountains",
+            "name": "Renegade Roadcrumb",
+            "location": "Beside a plant near the towel rack in one of the hot spring buildings.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-096",
+            "index": 96,
+            "group": "Mountains",
+            "name": "The Lone Wanderer",
+            "location": "On a bench on the small far-western island that a bridge joins to the main island.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-097",
+            "index": 97,
+            "group": "Mountains",
+            "name": "Mister Plop",
+            "location": "By a campfire at the very south edge of the map.",
+            "method": "Needs Motor Upgrade 3 first."
+          },
+          {
+            "id": "gnomes-098",
+            "index": 98,
+            "group": "Mountains",
+            "name": "Gnoompje Lars",
+            "location": "On a sofa under the large tent in the campground.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-099",
+            "index": 99,
+            "group": "Mountains",
+            "name": "Silver Luke",
+            "location": "On a table at the picnic area right after the elevator up the mountain.",
+            "method": "Pick it up."
+          },
+          {
+            "id": "gnomes-100",
+            "index": 100,
+            "group": "Mountains",
+            "name": "Brigids Gold",
+            "location": "At the base of the sand castle on the beach past the OUTBOUND letters.",
+            "method": "Needs Motor Upgrade 3 first."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FAINT_CANYONS",
+      "displayName": "Below Snakes, Apparently",
+      "description": "Faint in the canyons biome.",
+      "hidden": true,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 minutes",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_CANYONS"
+      ],
+      "summary": "Faint in the Canyons.",
+      "guide": {
+        "kind": "standard",
+        "context": "Fainting only returns you to your van with your items, so nothing is lost. The achievement may fail to unlock; if so, try again at a different campfire or with starvation or fall damage.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the Canyons, stand in a lit campfire until your health runs out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_RIDE_AIR_BALLOON",
+      "displayName": "Up, up and away!",
+      "description": "Take a ride with the Hot Air Balloon.",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 minutes",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_CANYONS"
+      ],
+      "summary": "Ride the hot air balloon at the Red Ridge Airstrip.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the Red Ridge Airstrip in the Canyons and get into the hot air balloon."
+          },
+          {
+            "id": "s2",
+            "text": "Look up and light the balloon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DEV_GNOMES",
+      "displayName": "Meet the Devs!",
+      "description": "Collect the gnomes at the Gnome Workshop.",
+      "hidden": true,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 minutes",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_MOUNTAINS"
+      ],
+      "summary": "Pick up the two developer gnomes at the Gnome Workshop.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the Gnome House at the top left of the Mountains map."
+          },
+          {
+            "id": "s2",
+            "text": "Pick up Marc and Tobi from the computer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UP_BALLOONS",
+      "displayName": "Up",
+      "description": "Have at least 10 Efficient Wind Turbines attached to your vehicle.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_ENTER_COAST"
+      ],
+      "summary": "Attach 10 or more Efficient Wind Turbines to the van.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ten turbines need 20 thread and 20 cloth, about 160 fibre.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Download the Efficient Wind Turbine blueprint from the signal tower on the Coast."
+          },
+          {
+            "id": "s2",
+            "text": "Craft 10 Efficient Wind Turbines and attach them to the van."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_START_YOUR_JOURNEY",
+    "ACH_EXPLORE_FIREWATCH",
+    "ACH_BOTTLE_CAPS",
+    "ACH_RECYCLE",
+    "ACH_HARVEST_CROPS",
+    "ACH_FIX_WINDMILL",
+    "ACH_ENTER_COAST",
+    "ACH_CLOTHING_ALL_COLORS",
+    "ACH_GEAR_PUZZLE",
+    "ACH_ADOPT_COMPANION",
+    "ACH_PET_DOG",
+    "ACH_FIX_LIGHTHOUSE",
+    "ACH_ENTER_CANYONS",
+    "ACH_RIDE_AIR_BALLOON",
+    "ACH_FAINT_CANYONS",
+    "ACH_VEHICLE_PAINTING",
+    "ACH_FIX_TRANSPORT_FERRY",
+    "ACH_UP_BALLOONS",
+    "ACH_ENTER_MOUNTAINS",
+    "ACH_DEV_GNOMES",
+    "ACH_FESTIVAL_SITES",
+    "ACH_FESTIVAL_ENDING",
+    "ACH_DELIVER_RESEARCH",
+    "ACH_PLAYER_UPGRADE",
+    "ACH_ALL_PAINTINGS",
+    "ACH_ALL_RECIPES",
+    "ACH_MAX_BUILD_WEIGHT",
+    "ACH_ALL_GACHA_MACHINES",
+    "ACH_ALL_VEHICLE_UPGRADES",
+    "ACH_ALL_CAMPFIRES",
+    "ACH_ALL_CAIRNS",
+    "ACH_ALL_GNOMES"
+  ]
+}

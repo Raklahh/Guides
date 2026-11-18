@@ -1,0 +1,444 @@
+{
+  "game": {
+    "appid": 1082430,
+    "slug": "before-your-eyes",
+    "title": "Before Your Eyes",
+    "version": "1.0",
+    "lastPatchChecked": "2025-11-11",
+    "estTotalHours": 3,
+    "difficultyRating": 2,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-11-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "New Game run",
+      "description": "Start from New Game with eye detection on. In Chapter 1 wait out the Ferryman for Obnoxious and Eyes of Steel, then turn eye detection off for the timed scenes. Pick Greece in Chapter 2, take the class notes in Chapter 4, finish the constellation in Chapter 6, and never throw or crumple anything. Recalibrate whenever you like and finish the game.",
+      "achievementRefs": [
+        "Obnoxious",
+        "Blinkasaurus Rex",
+        "Philhellenist",
+        "Punctilious",
+        "Star Gazer",
+        "Even Keeled",
+        "Dude, where's my face?",
+        "Before Your Eyes"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Chapter select cleanup",
+      "description": "After finishing, replay Chapter 2 and pick Egypt, then start from Chapter 5 for the phone challenge, and replay Chapter 6 with the opposite bed choice.",
+      "achievementRefs": [
+        "Egyptologist",
+        "Virtuoso",
+        "Redo"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "Star Gazer",
+      "displayName": "Star Gazer",
+      "description": "Complete the Constellation.",
+      "hidden": false,
+      "globalPercent": 41.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Punctilious"
+      ],
+      "summary": "Finish the beach constellation in Chapter 6 before blinking to the next scene.",
+      "guide": {
+        "kind": "standard",
+        "context": "Turn off @mechanic{use eye detection} in settings so a left click counts as a blink. The scene can end before the option appears. If you miss it, start again from that chapter. The constellation in the bed scene with Chloe near the end does not count.",
+        "steps": [
+          {
+            "id": "reach-beach",
+            "text": "In @loc{Chapter 6}, play until you reach the beach. This is about scene two or scene four, depending on your first choice in the chapter."
+          },
+          {
+            "id": "finish-constellation",
+            "text": "Finish the constellation first. Do not blink into the next scene before it is done."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Egyptologist",
+      "displayName": "Egyptologist",
+      "description": "Choose Egypt.",
+      "hidden": false,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Before Your Eyes"
+      ],
+      "summary": "Choose Egypt on the second page of the photo book in Chapter 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can only pick one country per run. Greece gives Philhellenist. Replay @loc{Chapter 2} to get the other one. Turn off @mechanic{use eye detection} in settings so a left click counts as a blink. The scene can end before the option appears. If you miss it, start again from that chapter.",
+        "steps": [
+          {
+            "id": "pick-egypt",
+            "text": "In @loc{Chapter 2}, your dad pages through a photo book. On its second page, pick Egypt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Philhellenist",
+      "displayName": "Philhellenist",
+      "description": "Choose Greece.",
+      "hidden": false,
+      "globalPercent": 40.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Obnoxious"
+      ],
+      "summary": "Choose Greece on the second page of the photo book in Chapter 2.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can only pick one country per run. Egypt gives Egyptologist. Replay @loc{Chapter 2} to get the other one. Turn off @mechanic{use eye detection} in settings so a left click counts as a blink. The scene can end before the option appears. If you miss it, start again from that chapter.",
+        "steps": [
+          {
+            "id": "pick-greece",
+            "text": "In @loc{Chapter 2}, your dad pages through a photo book. On its second page, pick Greece."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Dude, where's my face?",
+      "displayName": "Where's my face?",
+      "description": "Recalibrate 10 Times.",
+      "hidden": false,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 min",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Recalibrate eye tracking 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "recalibrate",
+            "text": "Press the spacebar in game to recalibrate. Do this 10 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Blinkasaurus Rex",
+      "displayName": "Eyes Of Steel ",
+      "description": "You can win any staring contest.",
+      "hidden": false,
+      "globalPercent": 43.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": true,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Keep your eyes open in front of the webcam for a little more than 30 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need a webcam with eye detection on. Click-to-blink mode does not work here. The achievement does not unlock on macOS. If a blink is coming, press Escape to pause, blink, then unpause.",
+        "steps": [
+          {
+            "id": "face-camera",
+            "text": "Keep eye detection on and sit in front of the camera. Start from @loc{Chapter 2} to reach a metronome fast, or wait in @loc{Chapter 1} until the @npc{Ferryman} talks about dry eyes."
+          },
+          {
+            "id": "hold-eyes-open",
+            "text": "Do not blink until more than 30 seconds, or more than 30 ticks, have passed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Before Your Eyes",
+      "displayName": "Before Your Eyes",
+      "description": "Complete the game.",
+      "hidden": false,
+      "globalPercent": 62.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "across playthrough",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Star Gazer",
+        "Even Keeled"
+      ],
+      "summary": "Finish the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Play through to the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Virtuoso",
+      "displayName": "Virtuoso",
+      "description": "Ignore distractions from piano.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Before Your Eyes"
+      ],
+      "summary": "Play the golden Bach book in Chapter 5 and reach the bed scene without picking up the phone.",
+      "guide": {
+        "kind": "standard",
+        "context": "You must do all of this in one run. Quitting is fine if you pick Continue and do not choose a chapter when you return.",
+        "steps": [
+          {
+            "id": "start-ch5",
+            "text": "Start from @loc{Chapter 5}."
+          },
+          {
+            "id": "play-book",
+            "text": "In scene three, play the golden Bach book and do not pick up the phone."
+          },
+          {
+            "id": "reach-bed",
+            "text": "Keep playing until you are in bed with two options. Do not pick up the phone here either."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Even Keeled",
+      "displayName": "Even Keeled",
+      "description": "Never show your anger.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "unverified",
+      "lockoutStage": 1,
+      "summary": "Play a run from New Game without taking any option to throw or crumple something.",
+      "guide": {
+        "kind": "standard",
+        "context": "Start from New Game, not a chapter. Chapter 2 should work, but players struggle to get it there. Look away from the eye so you cannot choose a throw by accident. If you throw something, start a new game.",
+        "steps": [
+          {
+            "id": "no-toddler-throw",
+            "text": "As a toddler at the easel, never throw your painting."
+          },
+          {
+            "id": "sign-contract",
+            "text": "Agree to the art agent's deal and sign the contract."
+          },
+          {
+            "id": "keep-canvas",
+            "text": "Your dad later phones to say he is selling the house, and the canvas gets thrown. This is forced and does not break the achievement."
+          },
+          {
+            "id": "no-phone-throw",
+            "text": "When Chloe calls and says you are faking, do not throw the phone. The achievement then unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Obnoxious",
+      "displayName": "Obnoxious",
+      "description": "Provoke the Ferryman's ire.",
+      "hidden": false,
+      "globalPercent": 7.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Keep waiting in Chapter 1 until the Ferryman says he is done with you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Turn off @mechanic{use eye detection} in settings so a left click counts as a blink. The scene can end before the option appears. If you miss it, start again from that chapter.",
+        "steps": [
+          {
+            "id": "start-ch1",
+            "text": "Start from @loc{Chapter 1}."
+          },
+          {
+            "id": "wait-second-blink",
+            "text": "Wait through the intro. The @npc{Ferryman} asks you to blink so you can live your life again. Let the second ask pass without blinking."
+          },
+          {
+            "id": "wait-rant",
+            "text": "Wait about a minute while he keeps insulting you. When he says he is done and you can rot, the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Redo",
+      "displayName": "Redo",
+      "description": "Live both sides of a big decision.",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "Before Your Eyes"
+      ],
+      "summary": "Pick the opposite option from your earlier run at the Chapter 6 bed choice.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need an earlier run where you already picked one of the two options. If you chose the same one again, replay @loc{Chapter 6}.",
+        "steps": [
+          {
+            "id": "bed-choice",
+            "text": "In @loc{Chapter 6} scene one, in bed with two options, choose the opposite of what you picked in your earlier run."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "Punctilious",
+      "displayName": "Punctilious",
+      "description": "Take all the notes in class.",
+      "hidden": false,
+      "globalPercent": 19.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "Philhellenist"
+      ],
+      "summary": "Take all of the class notes in Chapter 4.",
+      "guide": {
+        "kind": "standard",
+        "context": "Turn off @mechanic{use eye detection} in settings so a left click counts as a blink. The scene can end before the option appears. If you miss it, start again from that chapter.",
+        "steps": [
+          {
+            "id": "wait-notes",
+            "text": "In @loc{Chapter 4} scene two, after you answer Chloe or stay silent, keep waiting. Take the notes on how the class grades are organized to unlock it."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "Blinkasaurus Rex",
+    "Obnoxious",
+    "Philhellenist",
+    "Punctilious",
+    "Star Gazer",
+    "Even Keeled",
+    "Dude, where's my face?",
+    "Before Your Eyes",
+    "Egyptologist",
+    "Virtuoso",
+    "Redo"
+  ]
+}

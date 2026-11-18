@@ -1,0 +1,1249 @@
+{
+  "game": {
+    "appid": 5335510,
+    "slug": "moon-sweepers",
+    "title": "Moon Sweepers",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-16",
+    "estTotalHours": 200,
+    "difficultyRating": 8,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-18"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First Cleanup",
+      "description": "Sweep, deposit, launch a container, upgrade your brush, and finish your first region.",
+      "achievementRefs": [
+        "ACH_FIRST_SWEEP",
+        "ACH_DUST_10KG",
+        "ACH_FIRST_DEPOSIT",
+        "ACH_FIRST_LAUNCH",
+        "ACH_UPGRADE_FIRST_BRUSH",
+        "ACH_FIRST_REGION",
+        "ACH_DUST_100KG"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Machines, Wheels, and Friends",
+      "description": "Place a structure, run a conveyor and a closed loop, drive a cleaner, play with another player, and earn your first $1,000.",
+      "achievementRefs": [
+        "ACH_BUILD_FIRST",
+        "ACH_CONVEYOR_TO_DEPOT",
+        "ACH_CONVEYOR_LOOP",
+        "ACH_FIRST_VEHICLE",
+        "ACH_PLAY_WITH_A_FRIEND",
+        "ACH_EARN_1000"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Growing the Operation",
+      "description": "Build up launches, regions, sections, deposits, dust, and the $10,000 earn and spend marks.",
+      "achievementRefs": [
+        "ACH_TEN_LAUNCHES",
+        "ACH_TEN_REGIONS",
+        "ACH_DUST_1000KG",
+        "ACH_DEPOSITS_100",
+        "ACH_SECTIONS_100",
+        "ACH_EARN_10000",
+        "ACH_SPEND_10000"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Long Counters",
+      "description": "The 1% Moon mark, 1,000 sections, 1,000 deposits, 10,000 kg of dust, and the $100,000 marks.",
+      "achievementRefs": [
+        "ACH_MOON_CLEAN_1",
+        "ACH_SECTIONS_1000",
+        "ACH_EARN_100000",
+        "ACH_SPEND_100000",
+        "ACH_DUST_10000KG",
+        "ACH_DEPOSITS_1000"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "The Endgame Grind",
+      "description": "The 10,000 deposit setup, $1 million earned and spent, 10,000 sections, and the 10%, 50%, and 100% Moon marks.",
+      "achievementRefs": [
+        "ACH_MOON_CLEAN_10",
+        "ACH_EARN_1000000",
+        "ACH_SPEND_1000000",
+        "ACH_SECTIONS_10000",
+        "ACH_DEPOSITS_10000",
+        "ACH_MOON_CLEAN_50",
+        "ACH_MOON_CLEAN_100"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_FIRST_SWEEP",
+      "displayName": "One Small Sweep",
+      "description": "Clean your first patch of lunar dust.",
+      "hidden": false,
+      "globalPercent": 100.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Brush away the first bit of dirt on the Moon's surface.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Pick up the @item{Toothbrush} on the supply wall, walk out of the station, and brush any dirty ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIRST_REGION",
+      "displayName": "That’s Going to Take a While",
+      "description": "Clean your first region of the Moon.",
+      "hidden": false,
+      "globalPercent": 96.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_SWEEP"
+      ],
+      "summary": "Fully clean one region of the Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "A region is bigger than a section. Cleaning one section does not finish it.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep brushing the dirty ground in one area until every section in the region shows 100%."
+          },
+          {
+            "id": "step2",
+            "text": "If a section does not show @mechanic{SECTION COMPLETE}, look for narrow strips of dust you missed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIRST_DEPOSIT",
+      "displayName": "Dust Delivery",
+      "description": "Deposit dust at the depot for the first time.",
+      "hidden": false,
+      "globalPercent": 97.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_SWEEP"
+      ],
+      "summary": "Make your first dust deposit at the depot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Carry collected dust back to the @loc{Depot} and use the deposit interaction. Filling your brush or packing a capsule outside does not count."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIRST_LAUNCH",
+      "displayName": "Return to Sender",
+      "description": "Launch a full dust container into space.",
+      "hidden": false,
+      "globalPercent": 98.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_DEPOSIT"
+      ],
+      "summary": "Send a full container of dust off the Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "A deposit alone does not count. The container must be full and launched.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Deposit dust at the @loc{Depot} until the container is full."
+          },
+          {
+            "id": "step2",
+            "text": "Use the launch control and check that the launch completes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_FIRST_VEHICLE",
+      "displayName": "Finally, Wheels",
+      "description": "Clean dust while driving a vehicle for the first time.",
+      "hidden": false,
+      "globalPercent": 82.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Drive a vehicle that is cleaning ground for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buying a vehicle or driving over clean ground does not count. The walk-behind @item{Push Sweeper} is not a vehicle for this.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Buy a driveable cleaner such as the @item{Ride-on Sweeper} or @item{Lunar Sweeper}."
+          },
+          {
+            "id": "step2",
+            "text": "Drive it over dirty ground with its cleaning active."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TEN_REGIONS",
+      "displayName": "Making a Dent",
+      "description": "Help complete 10 cleaning regions.",
+      "hidden": false,
+      "globalPercent": 90.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_REGION"
+      ],
+      "summary": "Help complete 10 cleaning regions.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Finish regions one at a time, as you did for your first one, until you have helped complete 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_TEN_LAUNCHES",
+      "displayName": "Frequent Flyer Dust",
+      "description": "Contribute dust to 10 successful launches.",
+      "hidden": false,
+      "globalPercent": 90.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_LAUNCH"
+      ],
+      "summary": "Contribute dust to 10 successful launches.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ten deposits are not ten launches. You do not have to press the launch control yourself every time.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep depositing dust so containers fill and launch, until 10 launches have succeeded."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DUST_10KG",
+      "displayName": "Dust Bunny",
+      "description": "Collect 10 kg of lunar dust.",
+      "hidden": false,
+      "globalPercent": 98.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Collect 10 kg of lunar dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep brushing dirty ground. This comes during your first cleanup."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DUST_100KG",
+      "displayName": "Pocket Full of Moon",
+      "description": "Collect 100 kg of lunar dust.",
+      "hidden": false,
+      "globalPercent": 93.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DUST_10KG"
+      ],
+      "summary": "Collect 100 kg of lunar dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning by hand until your total reaches 100 kg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DUST_1000KG",
+      "displayName": "A Literal Ton of Dust",
+      "description": "Collect 1,000 kg of lunar dust.",
+      "hidden": false,
+      "globalPercent": 83.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DUST_100KG"
+      ],
+      "summary": "Gather a total of 1,000 kg of moon dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "Upgraded brushes and hand cleaning can reach this total.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning by hand until your total reaches 1,000 kg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DUST_10000KG",
+      "displayName": "Moon Dust Removal Specialist",
+      "description": "Collect 10,000 kg of lunar dust.",
+      "hidden": false,
+      "globalPercent": 58.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10 hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_DUST_1000KG"
+      ],
+      "summary": "Gather a total of 10,000 kg of moon dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dust collected by machines may not add to your own total. Check your progress after hand cleaning and again after machine cleaning.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning by hand, with upgraded brushes and vehicles, until your total reaches 10,000 kg."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTIONS_100",
+      "displayName": "A Good Start",
+      "description": "Help clean 100 sections.",
+      "hidden": false,
+      "globalPercent": 76.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_REGION"
+      ],
+      "summary": "Help clean 100 sections.",
+      "guide": {
+        "kind": "standard",
+        "context": "Section counts and the Moon percentage are separate. Many finished sections are still a small part of the Moon.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Clean each section until it shows 100% and the @mechanic{SECTION COMPLETE} message appears, until you have 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTIONS_1000",
+      "displayName": "Patchwork Moon",
+      "description": "Help clean 1,000 sections.",
+      "hidden": false,
+      "globalPercent": 45.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "8 hours",
+      "estMinutes": 480,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SECTIONS_100"
+      ],
+      "summary": "Help clean 1,000 sections.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep finishing sections until you have helped clean 1,000."
+          },
+          {
+            "id": "step2",
+            "text": "Before placing a @item{Robot Vacuum}, check how much ground the Mk I and the Mk II each cover."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SECTIONS_10000",
+      "displayName": "Hex Appeal",
+      "description": "Help clean 10,000 sections.",
+      "hidden": false,
+      "globalPercent": 21.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "40+ hours",
+      "estMinutes": 2400,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_SECTIONS_1000"
+      ],
+      "summary": "Help clean 10,000 sections.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep finishing sections until you have helped clean 10,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DEPOSITS_100",
+      "displayName": "Regular Customer",
+      "description": "Deposit dust at the depot 100 times.",
+      "hidden": false,
+      "globalPercent": 53.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_FIRST_DEPOSIT"
+      ],
+      "summary": "Make 100 separate dust deposits at the depot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only manual deposits at the @loc{Depot} count. Conveyor and robot deliveries do not.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Bring capsules back to the @loc{Depot} and deposit them yourself, again and again, until you reach 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DEPOSITS_1000",
+      "displayName": "Depot Resident",
+      "description": "Deposit dust at the depot 1,000 times.",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2 hours",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DEPOSITS_100"
+      ],
+      "summary": "Make 1,000 separate dust deposits at the depot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only manual deposits count. A collector feeding the depot by itself does not.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Place a Capsule Catcher outside by the station wall. Run 3 or 4 conveyors from it through the doorway to the depot intake."
+          },
+          {
+            "id": "step2",
+            "text": "Stand where capsules reach the intake and deposit each one yourself. Hold @mechanic{E} for about one second per capsule."
+          },
+          {
+            "id": "step3",
+            "text": "Repeat until you reach 1,000 deposits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_DEPOSITS_10000",
+      "displayName": "Do You Live Here?",
+      "description": "Deposit dust at the depot 10,000 times.",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 hour with setup",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_DEPOSITS_1000"
+      ],
+      "summary": "Make 10,000 separate dust deposits at the depot.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only manual deposits count. A collector feeding the depot by itself does not. Each player must do their own 10,000.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Place a Capsule Catcher outside, next to the station wall, and add more later on the same belt to keep capsules coming."
+          },
+          {
+            "id": "step2",
+            "text": "Run 3 or 4 conveyors from the Capsule Catcher through the doorway, ending in front of the depot intake. Six may get you stuck inside."
+          },
+          {
+            "id": "step3",
+            "text": "Stand where capsules reach the intake and alternate the pick-up key (@mechanic{F}) and the deposit key (@mechanic{E}), or hold @mechanic{E} for about one second per capsule."
+          },
+          {
+            "id": "step4",
+            "text": "Do not tap too quickly, or your tool fills with capsules instead of depositing them."
+          },
+          {
+            "id": "step5",
+            "text": "Repeat until the achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MOON_CLEAN_1",
+      "displayName": "You Missed a Spot",
+      "description": "Clean 1% of the Moon.",
+      "hidden": false,
+      "globalPercent": 41.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "10+ hours",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_SECTIONS_1000"
+      ],
+      "summary": "Clean 1% of the Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is the overall percentage on the @loc{Moon Map}, not the region or section count.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning new ground and check the overall percentage on the @loc{Moon Map} until it reaches 1%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MOON_CLEAN_10",
+      "displayName": "Visible From Space",
+      "description": "Clean 10% of the Moon.",
+      "hidden": false,
+      "globalPercent": 19.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20+ hours",
+      "estMinutes": 1200,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_MOON_CLEAN_1"
+      ],
+      "summary": "Clean 10% of the Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning new ground and check the overall percentage on the @loc{Moon Map} until it reaches 10%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MOON_CLEAN_50",
+      "displayName": "Half Way There",
+      "description": "Clean 50% of the Moon.",
+      "hidden": false,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "100+ hours",
+      "estMinutes": 6000,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_MOON_CLEAN_10"
+      ],
+      "summary": "Clean 50% of the Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning new ground and check the overall percentage on the @loc{Moon Map} until it reaches 50%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_MOON_CLEAN_100",
+      "displayName": "Time To Go Sleep...",
+      "description": "Clean 100% of the Moon.",
+      "hidden": false,
+      "globalPercent": 6.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 10,
+      "estTime": "200+ hours",
+      "estMinutes": 12000,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACH_MOON_CLEAN_50"
+      ],
+      "summary": "Clean 100% of the Moon.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Moon has 163,830 sectors. Measure your progress over a play session to see how long this will take.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep cleaning new ground and check the overall percentage on the @loc{Moon Map} until it reaches 100%."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_BUILD_FIRST",
+      "displayName": "Moon Improvement Project",
+      "description": "Place your first structure.",
+      "hidden": false,
+      "globalPercent": 84.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Place your first structure.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buying the @item{Building Tool} is not enough. You must place a structure.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Buy the @item{Building Tool} for $50."
+          },
+          {
+            "id": "step2",
+            "text": "Equip it, choose a structure you can afford, and place it on the ground."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CONVEYOR_TO_DEPOT",
+      "displayName": "Let the Belt Do It",
+      "description": "Move dust on a conveyor belt for the first time.",
+      "hidden": false,
+      "globalPercent": 89.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_BUILD_FIRST"
+      ],
+      "summary": "Have a dust capsule travel down a conveyor for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Placing a belt is not enough. A dust capsule has to travel along it.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Place a dust capsule source, such as a @item{Robot Vacuum} dock or a Capsule Catcher."
+          },
+          {
+            "id": "step2",
+            "text": "Connect a conveyor to its output so the belt runs away from it."
+          },
+          {
+            "id": "step3",
+            "text": "Wait for a capsule to appear and watch it travel along the belt."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_CONVEYOR_LOOP",
+      "displayName": "It’ll Get There Eventually",
+      "description": "Send dust around a closed conveyor loop.",
+      "hidden": true,
+      "globalPercent": 38.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_CONVEYOR_TO_DEPOT"
+      ],
+      "summary": "Get dust to circle a conveyor belt that closes back on itself.",
+      "guide": {
+        "kind": "standard",
+        "context": "This hidden achievement cannot be missed. You can build the loop at any time.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Build a small oval or tight rectangle of conveyor, with the last piece joining the first. Keep it away from the depot, machines, and Capsule Catchers."
+          },
+          {
+            "id": "step2",
+            "text": "Pack a capsule with your tool and pick it up."
+          },
+          {
+            "id": "step3",
+            "text": "Aim at the loop and place the capsule on the belt."
+          },
+          {
+            "id": "step4",
+            "text": "Wait for the capsule to travel one full lap. If nothing happens, check for gaps and rebuild the loop from several short pieces."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_PLAY_WITH_A_FRIEND",
+      "displayName": "OH You Have Friends?",
+      "description": "Start a game with a friend or more.",
+      "hidden": false,
+      "globalPercent": 56.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Begin a game that at least one other player joins.",
+      "guide": {
+        "kind": "standard",
+        "context": "Another player must actually join. An empty open lobby does not count.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Host a game and have a friend join, or join another player's public lobby."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EARN_1000",
+      "displayName": "Dust Pays the Bills",
+      "description": "Earn $1,000 in total.",
+      "hidden": false,
+      "globalPercent": 82.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Earn $1,000 in total from selling dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "The total counts everything you have earned, not your current money.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Deposit dust at the @loc{Depot} to sell it until your total earnings reach $1,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EARN_10000",
+      "displayName": "Filthy Rich",
+      "description": "Earn $10,000 in total.",
+      "hidden": false,
+      "globalPercent": 60.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_EARN_1000"
+      ],
+      "summary": "Earn $10,000 in total from selling dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep selling dust until your total earnings reach $10,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EARN_1000000",
+      "displayName": "The Moon Is a Gold Mine",
+      "description": "Earn $1,000,000 in total.",
+      "hidden": false,
+      "globalPercent": 21.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20+ hours",
+      "estMinutes": 1200,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_EARN_100000"
+      ],
+      "summary": "Earn $1,000,000 in total from selling dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep selling dust until your total earnings reach $1,000,000. Make sure your machines deliver to the @loc{Depot}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEND_10000",
+      "displayName": "Reinvesting in Dust",
+      "description": "Spend $10,000 on tools, vehicles or structures.",
+      "hidden": false,
+      "globalPercent": 70.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Pay a total of $10,000 for tools, vehicles, or structures.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only spending counts. Saving money does not.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Buy upgrades, vehicles, and structures until you have spent $10,000 in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEND_100000",
+      "displayName": "A Very Expensive Hobby",
+      "description": "Spend $100,000 on tools, vehicles or structures.",
+      "hidden": false,
+      "globalPercent": 46.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "6 hours",
+      "estMinutes": 360,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SPEND_10000"
+      ],
+      "summary": "Pay a total of $100,000 for tools, vehicles, or structures.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep buying upgrades, vehicles, and structures until you have spent $100,000 in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_SPEND_1000000",
+      "displayName": "Small loan of $1 million",
+      "description": "Spend $1 million on tools, vehicles or structures.",
+      "hidden": false,
+      "globalPercent": 23.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "20+ hours",
+      "estMinutes": 1200,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_SPEND_100000"
+      ],
+      "summary": "Pay a total of $1,000,000 for tools, vehicles, or structures.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep buying upgrades, vehicles, and structures until you have spent $1,000,000 in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_UPGRADE_FIRST_BRUSH",
+      "displayName": "Get A Better Brush",
+      "description": "Upgrade a brush for the first time.",
+      "hidden": false,
+      "globalPercent": 98.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Buy your first brush upgrade.",
+      "guide": {
+        "kind": "standard",
+        "context": "Switching to a different brush does not count.",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Open the @mechanic{Upgrade Matrix} and buy one brush upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_EARN_100000",
+      "displayName": "Lunar Payday",
+      "description": "Earn $100,000 in total.",
+      "hidden": false,
+      "globalPercent": 37.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "6 hours",
+      "estMinutes": 360,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ACH_EARN_10000"
+      ],
+      "summary": "Earn $100,000 in total from selling dust.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "step1",
+            "text": "Keep selling dust until your total earnings reach $100,000."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_UPGRADE_FIRST_BRUSH",
+    "ACH_FIRST_SWEEP",
+    "ACH_DUST_10KG",
+    "ACH_FIRST_DEPOSIT",
+    "ACH_FIRST_LAUNCH",
+    "ACH_DUST_100KG",
+    "ACH_FIRST_REGION",
+    "ACH_FIRST_VEHICLE",
+    "ACH_PLAY_WITH_A_FRIEND",
+    "ACH_BUILD_FIRST",
+    "ACH_EARN_1000",
+    "ACH_CONVEYOR_TO_DEPOT",
+    "ACH_CONVEYOR_LOOP",
+    "ACH_TEN_LAUNCHES",
+    "ACH_TEN_REGIONS",
+    "ACH_SPEND_10000",
+    "ACH_DEPOSITS_100",
+    "ACH_EARN_10000",
+    "ACH_SECTIONS_100",
+    "ACH_DUST_1000KG",
+    "ACH_DUST_10000KG",
+    "ACH_DEPOSITS_1000",
+    "ACH_SPEND_100000",
+    "ACH_EARN_100000",
+    "ACH_SECTIONS_1000",
+    "ACH_MOON_CLEAN_1",
+    "ACH_DEPOSITS_10000",
+    "ACH_SPEND_1000000",
+    "ACH_EARN_1000000",
+    "ACH_SECTIONS_10000",
+    "ACH_MOON_CLEAN_10",
+    "ACH_MOON_CLEAN_50",
+    "ACH_MOON_CLEAN_100"
+  ]
+}

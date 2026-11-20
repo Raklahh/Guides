@@ -1,0 +1,2154 @@
+{
+  "game": {
+    "appid": 965580,
+    "slug": "root",
+    "title": "Root",
+    "version": "1.0",
+    "lastPatchChecked": "2026-01-26",
+    "estTotalHours": 200,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "dlc": [
+      {
+        "appid": 1586100,
+        "title": "Riverfolk Expansion"
+      },
+      {
+        "appid": 2253060,
+        "title": "Underworld Expansion"
+      },
+      {
+        "appid": 3346620,
+        "title": "Marauder Expansion"
+      },
+      {
+        "appid": 3874110,
+        "title": "Hirelings & Landmarks"
+      }
+    ],
+    "createdAt": "2026-11-21"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Base game: general and faction goals",
+      "description": "Play ordinary matches against AI or online; local multiplayer does not count. Awards arrive when the match ends, and an action that also ends the match with a win may not count. Do the one-match faction goals while you rack up crafts and clear the Standard challenges.",
+      "achievementRefs": [
+        "1001",
+        "1002",
+        "1003",
+        "1004",
+        "1005",
+        "1006",
+        "1011",
+        "1012",
+        "1013",
+        "1014",
+        "1015",
+        "1016",
+        "1017",
+        "1018",
+        "1019"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Riverfolk Expansion",
+      "description": "Own the Riverfolk Expansion. Play the Lizard Cult, Riverfolk Company and the Arbiter and Scoundrel Vagabonds for their goals. Corner the Market is easiest on the Mountain map.",
+      "achievementRefs": [
+        "1022",
+        "1023",
+        "1024",
+        "1025",
+        "1026",
+        "1027"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Underworld Expansion",
+      "description": "Own the Underworld Expansion. Play the Corvid Conspiracy and Underground Duchy, and use the Lake and Mountain maps for the ferry and path goals.",
+      "achievementRefs": [
+        "1029",
+        "1030",
+        "1032",
+        "1033",
+        "1034",
+        "1035",
+        "1036",
+        "1037"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Marauder Expansion",
+      "description": "Own the Marauder Expansion. Play the Lord of the Hundreds and Keepers in Iron for their single-match goals.",
+      "achievementRefs": [
+        "1039",
+        "1040",
+        "1042",
+        "1043",
+        "1044",
+        "1045"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Hirelings & Landmarks",
+      "description": "Own Hirelings & Landmarks. Set up matches with the landmark or hireling you need and, for several, fewer than 4 players.",
+      "achievementRefs": [
+        "1046",
+        "1047",
+        "1048",
+        "1049",
+        "1050",
+        "1051",
+        "1052",
+        "1053",
+        "1054",
+        "1055",
+        "1056",
+        "1057",
+        "1058"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Win 25 games per faction",
+      "description": "Do this last or alongside the others. Each faction needs 25 wins of its own, and challenge wins count. It is by far the longest part.",
+      "achievementRefs": [
+        "1007",
+        "1008",
+        "1009",
+        "1010",
+        "1020",
+        "1021",
+        "1028",
+        "1031",
+        "1038",
+        "1041"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "1001",
+      "displayName": "Dominance Victory",
+      "description": "Win a game using Dominance.",
+      "hidden": false,
+      "globalPercent": 27.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1–2 matches",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a match by activating a Dominance card.",
+      "guide": {
+        "kind": "standard",
+        "context": "As the Vagabond, activating Dominance starts a Coalition instead, which counts for Coalition Victory, not this.",
+        "steps": [
+          {
+            "id": "points",
+            "text": "Reach 10 victory points so you can activate a @mechanic{Dominance} card. If you hold none, swap another card for a discarded one."
+          },
+          {
+            "id": "activate",
+            "text": "Activate the card, then rule the clearings it names at the start of your next turn. Fill them with warriors and keep Ambush cards ready."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1002",
+      "displayName": "Coalition Victory",
+      "description": "Share a victory in a Coalition.",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1–3 matches",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Win a match together with another player in a Coalition.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Vagabond in a Coalition can no longer score. If you hold no Dominance card, swap another card for a discarded one.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Play the @mechanic{Vagabond}, or trail everyone on points at the moment a Vagabond activates a Dominance card."
+          },
+          {
+            "id": "coalition",
+            "text": "Activate a Dominance card as the Vagabond to team up with the lowest-scoring player. Then help them win: aid players for cards, attack rivals to stop their scoring, and clear clearings for your partner."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1003",
+      "displayName": "Grand Decree",
+      "description": "Have a dozen cards in your decree at once as the Eyrie Dynasties.",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have 12 cards in your Decree at once as the Eyrie Dynasties.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "expand",
+            "text": "Add two cards each time you expand the Decree, using bird cards when you can."
+          },
+          {
+            "id": "balance",
+            "text": "Keep the Decree balanced with easy actions, and take plenty of Move actions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1004",
+      "displayName": "All Your Base",
+      "description": "Have all three bases on the map at once as the Woodland Alliance.",
+      "hidden": false,
+      "globalPercent": 31.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have the Woodland Alliance's three bases on the map together.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "sympathy",
+            "text": "Put a sympathy token on a rabbit, a mouse and a fox clearing, and hold all three."
+          },
+          {
+            "id": "bases",
+            "text": "Place a base on each. A base needs a sympathy token on a clearing of its suit and spends matching supporters."
+          },
+          {
+            "id": "defend",
+            "text": "Defend them with guerrilla war until all three bases are out together."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1005",
+      "displayName": "Collector",
+      "description": "Have at least one of each kind of item at once as the Vagabond.",
+      "hidden": false,
+      "globalPercent": 18.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hold all eight item types at once as the Vagabond: torch, boot, bag, sword, hammer, crossbow, coin stack and root tea.",
+      "guide": {
+        "kind": "standard",
+        "context": "Thief starts with root tea and Ranger with a crossbow. Vagrant (coin stack), Scoundrel (crossbow) and Harrier (coin stack and crossbow) need extra DLC, but this can be done without them.",
+        "steps": [
+          {
+            "id": "ruins",
+            "text": "Take the boot, bag, hammer and sword from the four ruins. Your torch is a starting item."
+          },
+          {
+            "id": "rest",
+            "text": "Get a coin stack, a crossbow and root tea by crafting, by aiding another player, or from starting gear."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1006",
+      "displayName": "The Mightiest Army",
+      "description": "Have 25 Warriors on the map as the Marquise de Cat.",
+      "hidden": false,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have all 25 warriors on the map at once as the Marquise de Cat.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "deploy",
+            "text": "Recruit until none of your warriors are in your supply."
+          },
+          {
+            "id": "check",
+            "text": "Make sure the Riverfolk Company holds none of your warriors in its funds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1007",
+      "displayName": "Liberator of the Woodlands",
+      "description": "Win 25 games as the Woodland Alliance.",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Reach 25 match wins playing @mechanic{Woodland Alliance}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Woodland Alliance} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1008",
+      "displayName": "Duke de Cat",
+      "description": "Win 25 games as the Marquise de Cat.",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Reach 25 match wins playing @mechanic{Marquise de Cat}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Marquise de Cat} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1009",
+      "displayName": "Vagabond King",
+      "description": "Win 25 games as the Vagabond.",
+      "hidden": false,
+      "globalPercent": 1.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Reach 25 match wins playing @mechanic{Vagabond}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Vagabond} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1010",
+      "displayName": "Eyrie Emperor",
+      "description": "Win 25 games as the Eyrie Dynasties.",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Reach 25 match wins playing @mechanic{Eyrie Dynasties}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Eyrie Dynasties} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1011",
+      "displayName": "Sneak Attack",
+      "description": "Eliminate all attacking warriors with an Ambush.",
+      "hidden": false,
+      "globalPercent": 38.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "alongside matches",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Remove every attacking warrior with an Ambush card.",
+      "guide": {
+        "kind": "standard",
+        "context": "The attacker cannot answer with an Ambush of their own, or the attempt fails.",
+        "steps": [
+          {
+            "id": "hold",
+            "text": "Keep an Ambush card in your hand."
+          },
+          {
+            "id": "play",
+            "text": "When another player attacks with one or two warriors in a clearing matching the card, play it. The Ambush removes up to two attackers, so it must clear them all."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1012",
+      "displayName": "Socialite",
+      "description": "Improve your relationship with 3 different factions in one game as the Vagabond.",
+      "hidden": false,
+      "globalPercent": 16.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 match",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "As the Vagabond, raise your standing with three different factions in one match.",
+      "guide": {
+        "kind": "standard",
+        "context": "Never attack a player you want to improve with, because attacking ends improvement with that faction. Retry next match if you did.",
+        "steps": [
+          {
+            "id": "gift",
+            "text": "Give each of three other players a card. Reaching the first relationship level with each is enough."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1013",
+      "displayName": "Vagabond Commander",
+      "description": "Command allied warriors to move or battle as the Vagabond.",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 match",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Move or battle with another faction's warriors as the Vagabond.",
+      "guide": {
+        "kind": "standard",
+        "context": "Attacking that faction stops further improvement.",
+        "steps": [
+          {
+            "id": "improve",
+            "text": "Improve your relationship with one faction three times."
+          },
+          {
+            "id": "command",
+            "text": "In a clearing with that faction's warriors, use the command ability to move or battle with them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1014",
+      "displayName": "Craftsmen",
+      "description": "Craft 50 times.",
+      "hidden": false,
+      "globalPercent": 14.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across several matches",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Craft 50 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crafts add up across matches. Woodland Alliance, Riverfolk Company and Underground Duchy craft the most.",
+        "steps": [
+          {
+            "id": "craft",
+            "text": "Craft cards in matches until your total reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1015",
+      "displayName": "Revolutionary",
+      "description": "Destroy 5 or more enemy pieces in a single revolt as the Woodland Alliance.",
+      "hidden": false,
+      "globalPercent": 22.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "As the Woodland Alliance, wipe out 5 or more enemy pieces with one revolt.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Find a clearing holding 5 or more enemy warriors, buildings and tokens in any mix."
+          },
+          {
+            "id": "revolt",
+            "text": "Start a revolt there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1016",
+      "displayName": "Iron Grip",
+      "description": "Complete an entire game without entering Turmoil as the Eyrie Dynasty.",
+      "hidden": false,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "1–2 matches",
+      "estMinutes": 90,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Finish a whole match without entering Turmoil as the Eyrie Dynasties.",
+      "guide": {
+        "kind": "standard",
+        "context": "Turmoil ends the attempt. Start a new match to try again.",
+        "steps": [
+          {
+            "id": "decree",
+            "text": "Add one card to the Decree at a time, mostly bird cards, with easy actions."
+          },
+          {
+            "id": "builds",
+            "text": "Add at most one Build action because roosts are limited. Play safe even if it costs you the win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1017",
+      "displayName": "Workaholic",
+      "description": "Overwork two turns in a row as Marquise de Cat.",
+      "hidden": false,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Overwork on two turns in a row as the Marquise de Cat.",
+      "guide": {
+        "kind": "standard",
+        "context": "Overwork cannot be used while 8 wood tokens are on the map.",
+        "steps": [
+          {
+            "id": "save",
+            "text": "Keep two cards that match clearings with sawmills."
+          },
+          {
+            "id": "overwork",
+            "text": "Use Overwork on two turns in a row, each time discarding a matching card to make a wood token."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1018",
+      "displayName": "Wrecking Crew",
+      "description": "Destroy 2 enemy buildings in a single battle.",
+      "hidden": false,
+      "globalPercent": 32.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "alongside matches",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Wipe out two enemy buildings within one battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "target",
+            "text": "Attack a clearing with two enemy buildings, stacking warriors and playing combat cards to hit hard."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1019",
+      "displayName": "Challenger",
+      "description": "Complete all challenges.",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across all challenges",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete every challenge in the Standard tab, including the harder versions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenges from updates and expansions do not count.",
+        "steps": [
+          {
+            "id": "standard",
+            "text": "Beat each challenge in the Standard tab."
+          },
+          {
+            "id": "hard",
+            "text": "Then beat the harder version each one unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1020",
+      "displayName": "Cult Leader",
+      "description": "Win 25 games as the Lizard Cult.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "Reach 25 match wins playing @mechanic{Lizard Cult}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Lizard Cult} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1021",
+      "displayName": "Company Man",
+      "description": "Win 25 games as the Riverfolk Company.",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "Reach 25 match wins playing @mechanic{Riverfolk Company}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Riverfolk Company} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1022",
+      "displayName": "Corner the Market",
+      "description": "Establish a Trade Post in every river clearing.",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "As the Riverfolk Company, put a Trade Post in each clearing that touches a river.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Mountain and Lake maps need the Underworld Expansion.",
+        "steps": [
+          {
+            "id": "map",
+            "text": "Pick a map: the Mountain map has only 3 river clearings, Lake and Winter 4, Autumn 5."
+          },
+          {
+            "id": "posts",
+            "text": "Place a Trade Post in each clearing that touches water."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1023",
+      "displayName": "Faithful Crusader",
+      "description": "Crusade 15 times.",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "across several matches",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "Crusade 15 times as the Lizard Cult.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crusades add up across matches.",
+        "steps": [
+          {
+            "id": "crusade",
+            "text": "Spend 2 acolytes on Crusade (move, then battle) until your total reaches 15."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1024",
+      "displayName": "Prosperous Peddler",
+      "description": "Sell 100 services.",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "across several matches",
+      "estMinutes": 150,
+      "stage": 2,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "Sell 100 services as the Riverfolk Company.",
+      "guide": {
+        "kind": "standard",
+        "context": "Sales add up across matches.",
+        "steps": [
+          {
+            "id": "sell",
+            "text": "Set your service price to the lowest and sell until your total reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1025",
+      "displayName": "It's All Connected",
+      "description": "Perform 3+ Conspiracies in a single round.",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "Perform 3 or more conspiracies in a single round as the Lizard Cult.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "save",
+            "text": "Save 6 acolytes."
+          },
+          {
+            "id": "spend",
+            "text": "Do three conspiracies in one turn. Sanctify costs 3 acolytes, and Crusade and Convert cost 2 each."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1026",
+      "displayName": "Dirty Rotten Scoundrel",
+      "description": "Remove 10+ pieces in a single action with the Scoundrel's Scorched Earth ability.",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "Remove 10 or more pieces with one Scorched Earth as the Scoundrel Vagabond.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Find a clearing with 10 or more tokens, buildings and warriors in any mix."
+          },
+          {
+            "id": "burn",
+            "text": "Use Scorched Earth there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1027",
+      "displayName": "Bodyguard ",
+      "description": "Assist 10 players in battle as the Arbiter.",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "across several matches",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "dlcAppid": 1586100,
+      "summary": "As the Arbiter, help 10 other players in their battles.",
+      "guide": {
+        "kind": "standard",
+        "context": "Other players must choose to use it. Chatting with them in multiplayer helps.",
+        "steps": [
+          {
+            "id": "position",
+            "text": "Stand in clearings where fights are likely."
+          },
+          {
+            "id": "assist",
+            "text": "Let other players use your ability to help in battle. Do this 10 times in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1028",
+      "displayName": "Underground Supremacy",
+      "description": "Win 25 games as the Underground Duchy.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "Reach 25 match wins playing @mechanic{Underground Duchy}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Underground Duchy} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1029",
+      "displayName": "Lord of all Lords",
+      "description": "Have all three lord ministers in play at once.",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "As the Underground Duchy, have the three lord ministers out at the same time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each destroyed building costs you one of your highest ministers. Avoid matches with the Lizard Cult or the Scoundrel Vagabond, who can destroy buildings directly.",
+        "steps": [
+          {
+            "id": "group",
+            "text": "Keep your buildings together in a few guarded clearings."
+          },
+          {
+            "id": "sway",
+            "text": "Sway the lords using your hand and tiles that match the suits of your cards."
+          },
+          {
+            "id": "protect",
+            "text": "Stop all building losses for at least two turns."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1030",
+      "displayName": "Underground Express",
+      "description": "Move 5 or more warriors from the Burrow to the map in a single move.",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "1 match",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "As the Underground Duchy, bring 5 or more warriors out of the Burrow onto the map with one move.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "fill",
+            "text": "Get at least 5 warriors into the Burrow by recruiting or moving them there."
+          },
+          {
+            "id": "out",
+            "text": "Bring them all out with one move action."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1031",
+      "displayName": "Grand Conspiracy",
+      "description": "Win 25 games as the Corvid Conspiracy.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "Reach 25 match wins playing @mechanic{Corvid Conspiracy}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Corvid Conspiracy} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1032",
+      "displayName": "Kaboom!",
+      "description": "Remove 5 or more enemy pieces with a single Bomb Plot.",
+      "hidden": false,
+      "globalPercent": 4.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "As the Corvid Conspiracy, kill 5 or more enemy pieces with one flipped Bomb Plot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find",
+            "text": "Place a bomb plot in a clearing holding 5 or more enemy tokens, buildings and warriors in any mix."
+          },
+          {
+            "id": "flip",
+            "text": "Flip it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1033",
+      "displayName": "Plotter",
+      "description": "End a turn with one of each Plot type on the map.",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "As the Corvid Conspiracy, finish a turn with a bomb, extortion, snare and raid plot all on the map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "place",
+            "text": "Place a bomb, extortion, snare and raid plot, in any turns and in any flip state."
+          },
+          {
+            "id": "end",
+            "text": "End a turn with all four on the map."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1034",
+      "displayName": "Amphibious Warfare",
+      "description": "Start a battle in a clearing you just moved to with the Ferry on the Lake Map.",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "On the Lake map, begin a battle in the clearing you have just reached using the Ferry.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ferry",
+            "text": "Move out of the Ferry's clearing to a clearing beside the lake that holds enemy warriors."
+          },
+          {
+            "id": "battle",
+            "text": "Use a spare action to battle there right away."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1035",
+      "displayName": "Ferrier",
+      "description": "Use the Ferry 20 times on the Lake Map.",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "across several matches",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "Use the Ferry 20 times on the Lake map.",
+      "guide": {
+        "kind": "standard",
+        "context": "Uses add up across matches.",
+        "steps": [
+          {
+            "id": "ferry",
+            "text": "Once a turn, move pieces from the Ferry's clearing to another clearing beside the lake, until your total reaches 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1036",
+      "displayName": "Towering Success",
+      "description": "Score the Tower for 3 turns in a row on the Mountain Map.",
+      "hidden": false,
+      "globalPercent": 5.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "On the Mountain map, score the Tower on three of your turns in a row.",
+      "guide": {
+        "kind": "standard",
+        "context": "Lizard Cult (gardens give automatic rule) and Marquise de Cat (many warriors) are good fits.",
+        "steps": [
+          {
+            "id": "rule",
+            "text": "Rule the Tower clearing when your turn ends to earn its victory point."
+          },
+          {
+            "id": "repeat",
+            "text": "Do it on 3 turns in a row. Retake the clearing on your turn if a rival takes it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1037",
+      "displayName": "Mountaineer",
+      "description": "Clear 20 closed paths on the Mountain Map.",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "across several matches",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "dlcAppid": 2253060,
+      "summary": "Clear 20 closed paths on the Mountain map.",
+      "guide": {
+        "kind": "standard",
+        "context": "Paths add up across matches.",
+        "steps": [
+          {
+            "id": "open",
+            "text": "Pay a card to open a blocked path, once per turn, until your total reaches 20."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1038",
+      "displayName": "Iron WIll",
+      "description": "Win 25 games as the Keepers in Iron.",
+      "hidden": false,
+      "globalPercent": 0.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "Reach 25 match wins playing @mechanic{Keepers in Iron}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Keepers in Iron} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1039",
+      "displayName": "Relic Mastery",
+      "description": "Score 3 columns of Relics in a single game as Keepers in Iron.",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "2–4 matches",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "As the Keepers in Iron, score three columns of Relics in one match.",
+      "guide": {
+        "kind": "standard",
+        "context": "Relics give many points, at least 19 for nine, so the risk is winning before you finish.",
+        "steps": [
+          {
+            "id": "collect",
+            "text": "Collect 3 relics of each type, nine in all, taking the 1- and 2-point ones and never a fourth in a column."
+          },
+          {
+            "id": "safe",
+            "text": "Do not destroy buildings or tokens, and do not craft cards that give points."
+          },
+          {
+            "id": "move",
+            "text": "Use Retinue movement to reach spread-out relics."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1040",
+      "displayName": "No Badger Left Behind",
+      "description": "Complete a game without losing any warriors to Live off the Land as Keepers in Iron.",
+      "hidden": false,
+      "globalPercent": 1.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "As the Keepers in Iron, play a whole match without Live off the Land costing you a warrior.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Vagabond allied with you can move your warriors, so watch for that. Start a new match if you lose one.",
+        "steps": [
+          {
+            "id": "limit",
+            "text": "End every turn with no more than 3 of your warriors in any clearing."
+          },
+          {
+            "id": "move",
+            "text": "Use Retinue movement to empty crowded clearings."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1041",
+      "displayName": "Hundreds Reign",
+      "description": "Win 25 games as the Lord of the Hundreds.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "25 wins across many matches",
+      "estMinutes": 1000,
+      "stage": 6,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "Reach 25 match wins playing @mechanic{Lord of the Hundreds}.",
+      "guide": {
+        "kind": "standard",
+        "context": "Challenge wins count too, so finish challenges for this faction and take easy ones to speed up.",
+        "steps": [
+          {
+            "id": "win",
+            "text": "Keep winning matches with @mechanic{Lord of the Hundreds} until you have 25 wins in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1042",
+      "displayName": "Crushing Dominion",
+      "description": "Oppress 7 clearings in one turn as the Lord of the Hundreds.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "As the Lord of the Hundreds, oppress seven clearings during one turn.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "build",
+            "text": "Build up warriors and fill your hoard for many actions."
+          },
+          {
+            "id": "oppress",
+            "text": "Fight until you have warriors alone in 7 clearings with nothing else there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1043",
+      "displayName": "All the Feels",
+      "description": "Experience every mood in a single game as Lord of the Hundreds.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "Experience every mood in a single match as the Lord of the Hundreds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "track",
+            "text": "Write down the moods you have used."
+          },
+          {
+            "id": "hoard",
+            "text": "Add only items that match moods you have not used yet, since each item type disables one mood."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1044",
+      "displayName": "Dissenters will Burn",
+      "description": "Remove 10 or more enemy pieces in a single turn as Lord of the Hundreds.",
+      "hidden": false,
+      "globalPercent": 3.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "As the Lord of the Hundreds, remove 10 or more enemy pieces during one turn.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hoard",
+            "text": "Fill the hoard for many actions."
+          },
+          {
+            "id": "remove",
+            "text": "Kill warriors, and use mobs to remove buildings and tokens. Favour cards count too."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1045",
+      "displayName": "Full Assembly",
+      "description": "Have a full Retinue (10 cards) as Keepers in Iron.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 3346620,
+      "summary": "Have a full Retinue of 10 cards as the Keepers in Iron.",
+      "guide": {
+        "kind": "standard",
+        "context": "You lose a card when you delve or recover a relic without ruling as many clearings as its value.",
+        "steps": [
+          {
+            "id": "draw",
+            "text": "Place all 3 waystations for more card draw and keep your cards."
+          },
+          {
+            "id": "safe",
+            "text": "Recover a relic of unknown value only if you rule 3 clearings around it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1046",
+      "displayName": "The Exile's Revenge",
+      "description": "Deal 3 hits with The Exile hireling in a single combat.",
+      "hidden": false,
+      "globalPercent": 0.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "2–4 matches",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Land 3 hits in a single fight using the Exile hireling.",
+      "guide": {
+        "kind": "standard",
+        "context": "Cards, hirelings or abilities that block hits ruin the roll. More items give more moves and retries.",
+        "steps": [
+          {
+            "id": "items",
+            "text": "Give the Exile crafted items. Get at least 3."
+          },
+          {
+            "id": "target",
+            "text": "Fight a clearing with at least 3 pieces and roll 3 hits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1047",
+      "displayName": "Spring Awakening",
+      "description": "Remove 5 or more enemy pieces with the Spring Uprising hireling in a single turn.",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "2–4 matches",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "With the Spring Uprising hireling, remove 5 or more enemy pieces during one turn.",
+      "guide": {
+        "kind": "standard",
+        "context": "The warrior's removal also clears every enemy piece from that clearing. Keepers in Iron, Underground Duchy or Marquise de Cat make crowded clearings likely.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Place its warriors in busy clearings."
+          },
+          {
+            "id": "roll",
+            "text": "Roll the die for a suit and remove a warrior from a matching clearing holding 5 or more enemy pieces."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1048",
+      "displayName": "Twin Strike",
+      "description": "Battle twice in one turn with the Last Dynasty hireling.",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Fight two battles in the same turn using the Last Dynasty hireling.",
+      "guide": {
+        "kind": "standard",
+        "context": "It battles twice only from a clearing it does not rule.",
+        "steps": [
+          {
+            "id": "promote",
+            "text": "Take control of the Last Dynasty."
+          },
+          {
+            "id": "battle",
+            "text": "Battle a weak target first so its warriors survive, then battle again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1049",
+      "displayName": "On the March",
+      "description": "Move 6 or more Forest Patrol hireling warriors from one clearing to another.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Move at least 6 Forest Patrol hireling warriors together from one clearing into another.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "gather",
+            "text": "Use the place action to put all removed warriors in one clearing, late in the match."
+          },
+          {
+            "id": "move",
+            "text": "Keep the group away from enemies, then move all 6 or more together next turn."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1050",
+      "displayName": "Concert",
+      "description": "Force multiple enemy players to move in a single turn with the Popular Band hireling.",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Make several enemy players move during one turn with the Popular Band hireling.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "place",
+            "text": "Put a Popular Band warrior in a central clearing."
+          },
+          {
+            "id": "concert",
+            "text": "Use it to pull one warrior from each neighbouring clearing, so that at least two neighbours belong to different players."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1051",
+      "displayName": "Small but Mighty",
+      "description": "Remove a Marquise Keep or Alliance Base with hirelings.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Use hirelings to destroy a Marquise Keep or an Alliance Base.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "hire",
+            "text": "Play with fewer players so more hirelings are promoted, such as the Exile or Forest Patrol."
+          },
+          {
+            "id": "remove",
+            "text": "Use them to destroy a Keep or Base."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1052",
+      "displayName": "Omnipresence",
+      "description": "End a turn with control of two hirelings and ruling two landmarks clearings.",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "End a turn controlling two hirelings and ruling two landmark clearings.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hirelings are often passed to the player in last place.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "In setup, raise the landmark count from 1 to 2 and place them close together."
+          },
+          {
+            "id": "end",
+            "text": "End a turn controlling two hirelings and ruling both landmark clearings."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1053",
+      "displayName": "Pulling the Strings",
+      "description": "End your turn ruling a landmark clearing without any of your faction pieces there.",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "2–3 matches",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Finish your turn ruling a landmark clearing where your own faction has no pieces.",
+      "guide": {
+        "kind": "standard",
+        "context": "Riverfolk Company warriors also count toward your rule once you buy Mercenaries.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Use promoted hirelings with many warriors, such as Forest Patrol or Sunward Expedition, and a remote landmark."
+          },
+          {
+            "id": "rule",
+            "text": "Place their warriors on it, remove your own, and be the strongest there."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1054",
+      "displayName": "Treetoppled",
+      "description": "Remove an enemy building in the Elder Treetop building slot.",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1–3 matches",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Destroy an enemy building sitting in the Elder Treetop's extra slot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Play against factions that build a lot, such as Marquise de Cat or Underground Duchy."
+          },
+          {
+            "id": "destroy",
+            "text": "Attack the clearing and destroy the building in the extra slot."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1055",
+      "displayName": "Proxy War",
+      "description": "Remove 2 or more hireling warriors in a single combat with another hireling.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "3–5 matches",
+      "estMinutes": 150,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Kill 2 or more hireling warriors during one fight started by another hireling.",
+      "guide": {
+        "kind": "standard",
+        "context": "Abilities that remove pieces directly do not count.",
+        "steps": [
+          {
+            "id": "setup",
+            "text": "Keep the match to fewer than 4 players so several hirelings get promoted, such as Last Dynasty or the Exile."
+          },
+          {
+            "id": "fight",
+            "text": "Start a fight with your hireling in a clearing where another hireling has at least two warriors, and deal 2 or more hits."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1056",
+      "displayName": "Found City",
+      "description": "Rule the clearing with the Lost City for 3 or more consecutive turns.",
+      "hidden": false,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1–2 matches",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Rule the Lost City's clearing at the end of three or more turns in a row.",
+      "guide": {
+        "kind": "standard",
+        "context": "Lizard Cult and Lord of the Hundreds can take the clearing from you even when you hold many warriors there.",
+        "steps": [
+          {
+            "id": "start",
+            "text": "Start near the Lost City and take it early."
+          },
+          {
+            "id": "hold",
+            "text": "Fill it with warriors and rule it on 3 turns in a row."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1057",
+      "displayName": "Legendary Craftsmanship",
+      "description": "Craft 4 items from the Legendary Forge in a single game.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "3–6 matches",
+      "estMinutes": 180,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Craft four Legendary Forge items during one match.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each crafted Forge item gives 1 victory point and a card.",
+        "steps": [
+          {
+            "id": "pick",
+            "text": "Choose a faction with strong card draw and crafting."
+          },
+          {
+            "id": "hold",
+            "text": "Hold the Forge's clearing clear of enemies so only you can craft."
+          },
+          {
+            "id": "craft",
+            "text": "Craft all four Forge items."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "1058",
+      "displayName": "Market Manipulation",
+      "description": "Swap 5 cards with the Black Market in a single game.",
+      "hidden": false,
+      "globalPercent": 0.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1 match",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 3874110,
+      "summary": "Trade cards with the Black Market on five turns in one match.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "piece",
+            "text": "Keep a piece in the Black Market's clearing."
+          },
+          {
+            "id": "swap",
+            "text": "Once per turn, trade one of your cards for one of the 3 cards on offer. Do this on 5 turns."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "1011",
+    "1018",
+    "1012",
+    "1013",
+    "1004",
+    "1015",
+    "1006",
+    "1005",
+    "1017",
+    "1003",
+    "1001",
+    "1002",
+    "1016",
+    "1014",
+    "1019",
+    "1025",
+    "1022",
+    "1026",
+    "1023",
+    "1024",
+    "1027",
+    "1030",
+    "1033",
+    "1032",
+    "1034",
+    "1036",
+    "1037",
+    "1035",
+    "1029",
+    "1044",
+    "1045",
+    "1043",
+    "1042",
+    "1040",
+    "1039",
+    "1048",
+    "1058",
+    "1056",
+    "1050",
+    "1049",
+    "1052",
+    "1054",
+    "1051",
+    "1053",
+    "1046",
+    "1047",
+    "1055",
+    "1057",
+    "1009",
+    "1007",
+    "1010",
+    "1008",
+    "1020",
+    "1021",
+    "1028",
+    "1031",
+    "1041",
+    "1038"
+  ]
+}

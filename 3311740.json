@@ -1,0 +1,305 @@
+{
+  "game": {
+    "appid": 3311740,
+    "slug": "the-cabin-factory",
+    "title": "The Cabin Factory",
+    "version": "1.0",
+    "lastPatchChecked": "2025-03-10",
+    "estTotalHours": 2,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Jumpscare option",
+      "description": "Start the game, open the options and turn jumpscares on.",
+      "achievementRefs": [
+        "ACHIEVEMENT_BOO"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Inspect cabins and stare at the four family members",
+      "description": "Judge cabins correctly while staring at the daughter, son, father and mother in their special cabins.",
+      "achievementRefs": [
+        "ACHIEVEMENT_FACEGRETA",
+        "ACHIEVEMENT_FACEHANS",
+        "ACHIEVEMENT_FACEFATHER",
+        "ACHIEVEMENT_FACEMOTHER"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Finish the day and clear all 41 cabins",
+      "description": "Judge every cabin correctly and leave through the stairs next to the elevator once the balloons drop.",
+      "achievementRefs": [
+        "ACHIEVEMENT_SEEALLCABINS",
+        "ACHIEVEMENT_FINISHONCE"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACHIEVEMENT_FINISHONCE",
+      "displayName": "Cabin Inspector",
+      "description": "Finish the work day.",
+      "hidden": false,
+      "globalPercent": 51.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Judge 8 cabins correctly in a row, then leave through the stairs after the balloons drop and finish the apartment cutscene.",
+      "guide": {
+        "kind": "standard",
+        "context": "A wrong judgment resets the count of correct cabins in a row.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Judge cabins with the red or green button until you have 8 correct in a row."
+          },
+          {
+            "id": "s2",
+            "text": "Once the balloons drop, take the stairs beside the elevator and go through the door."
+          },
+          {
+            "id": "s3",
+            "text": "In your apartment, use the door that looks like a cabin and watch the short cutscene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_SEEALLCABINS",
+      "displayName": "Employee of the Month",
+      "description": "Complete all cabins",
+      "hidden": false,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1.5 h",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Correctly judge all 41 cabins as haunted or not haunted.",
+      "guide": {
+        "kind": "standard",
+        "context": "There are 26 haunted and 15 non-haunted cabins. A wrong judgment or a death puts that cabin back in the pool to redo. A counter in the elevator and a sticky note on the panel show how many are left.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Look over each cabin for any movement or change, and check upstairs too."
+          },
+          {
+            "id": "s2",
+            "text": "Press the red button for a haunted cabin and the green button for a safe one."
+          },
+          {
+            "id": "s3",
+            "text": "Keep inspecting until the elevator counter reaches zero."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_FACEGRETA",
+      "displayName": "Face your past: Greta",
+      "description": "Face little silent Greta.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Stare at the daughter hiding under the stairs in a non-haunted cabin.",
+      "guide": {
+        "kind": "standard",
+        "context": "This cabin is not haunted because nothing moves, so the green button is correct.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the cabin where the daughter crouches beneath the staircase with a finger over her lips."
+          },
+          {
+            "id": "s2",
+            "text": "Keep looking at her for a few seconds until the dialogue plays."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_FACEHANS",
+      "displayName": "Face your past: Hans",
+      "description": "Face hungry Hans",
+      "hidden": false,
+      "globalPercent": 7.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Stare at the son upstairs in a non-haunted cabin where he has bread beside him.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the cabin where both parents eat at the table and the daughter sits beneath the staircase with bread."
+          },
+          {
+            "id": "s2",
+            "text": "Go upstairs and stare at the son, whose face is uncovered, until the dialogue plays."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_FACEFATHER",
+      "displayName": "Face your past: Father",
+      "description": "Face an absent Father",
+      "hidden": false,
+      "globalPercent": 8.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Stare at the father standing outside the window in a non-haunted cabin.",
+      "guide": {
+        "kind": "standard",
+        "context": "A haunted version also has the father at the window, but there the window shatters as you approach. That version does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the cabin where the father stands still outside the back right window."
+          },
+          {
+            "id": "s2",
+            "text": "Stare at him until the dialogue plays."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_FACEMOTHER",
+      "displayName": "Face your past: Mother",
+      "description": "Face and part from Mother.",
+      "hidden": false,
+      "globalPercent": 7.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Stare at the mother outside the cabin after she vanishes from the wall portrait in a haunted cabin.",
+      "guide": {
+        "kind": "standard",
+        "context": "This cabin is haunted, so the red button is correct. You may need to stare for about 30 seconds, from the right spot, before the dialogue starts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Enter the cabin where, after you go up, the mother has left the wall portrait."
+          },
+          {
+            "id": "s2",
+            "text": "Leave the cabin and find her standing outside."
+          },
+          {
+            "id": "s3",
+            "text": "Stare at her until the dialogue plays."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACHIEVEMENT_BOO",
+      "displayName": "Boo!",
+      "description": "Face the optional jumpscare.",
+      "hidden": true,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Turn on the optional jumpscare setting and face the jumpscare.",
+      "guide": {
+        "kind": "standard",
+        "context": "The setting is in the options menu after you start the game, not the main menu.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start the game and open the options."
+          },
+          {
+            "id": "s2",
+            "text": "Turn jumpscares on; the jumpscare plays right away."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACHIEVEMENT_BOO",
+    "ACHIEVEMENT_FACEGRETA",
+    "ACHIEVEMENT_FACEFATHER",
+    "ACHIEVEMENT_FACEHANS",
+    "ACHIEVEMENT_FACEMOTHER",
+    "ACHIEVEMENT_FINISHONCE",
+    "ACHIEVEMENT_SEEALLCABINS"
+  ]
+}

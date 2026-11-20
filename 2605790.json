@@ -1,0 +1,1029 @@
+{
+  "game": {
+    "appid": 2605790,
+    "slug": "deep-rock-galactic-rogue-core",
+    "title": "Deep Rock Galactic: Rogue Core",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-19",
+    "estTotalHours": 95,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First runs",
+      "description": "Pass the opening assessment, take your first elevator ride, and fail one mission.",
+      "achievementRefs": [
+        "PCAA_CERTIFIED",
+        "ITS_GOING_DOWN",
+        "ROGUED_OUT"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Depth 1 clears and Ramrod extras",
+      "description": "Reclaim a Depth 1 facility, kill your first Gatekeeper, finish one Intel clearance level and a Deployment, and gather four players in the showers.",
+      "achievementRefs": [
+        "RECLAIMER_IRON",
+        "GOTOORAK_SLAYER",
+        "ABOVE_AND_BEYOND",
+        "JUNIOR_DETECTIVE",
+        "A_DEPLOYMENT_A_DAY",
+        "RAM_ROD_REALLY_ROCKS"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Depth 2 facilities",
+      "description": "Reclaim a Depth 2 facility and kill a Ramok Gatekeeper.",
+      "achievementRefs": [
+        "RECLAIMER_BRONZE",
+        "RAMOK_CONQUEROR"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Depth 3 facilities",
+      "description": "Reclaim a Depth 3 facility and kill a Molaktula Gatekeeper.",
+      "achievementRefs": [
+        "RECLAIMER_SILVER",
+        "MALAKTULA_VANQUISHER"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Depth 4 facilities",
+      "description": "Reclaim a Depth 4 facility and kill a Balgorath Gatekeeper.",
+      "achievementRefs": [
+        "RECLAIMER_GOLD",
+        "BALGORATH_ANNIHILATOR"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Level and Ascend every class",
+      "description": "Take each of the five Reclaimers to level 15 and Ascend them.",
+      "achievementRefs": [
+        "PROMOTION_SPOTTED",
+        "GALLANT_GUARDIAN",
+        "A_SLICE_OF_GREATNESS",
+        "DRONE_SCHOOL_STAR",
+        "GREAT_IN_EVERY_TIMELINE"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Ascension perks",
+      "description": "Watch a friend's Ascension, then clear a facility with another class's Bio-Booster deck.",
+      "achievementRefs": [
+        "WITNESS_ASCENSION",
+        "STOLEN_VALOR"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Standard Gauntlet",
+      "description": "Survive a Standard weekly Gauntlet with an Ascended Reclaimer.",
+      "achievementRefs": [
+        "DOESNT_AFRAID_OF_ANYTHING"
+      ]
+    },
+    {
+      "step": 9,
+      "title": "Hardest Gauntlet",
+      "description": "Beat OMEGA's harder weekly Gauntlet.",
+      "achievementRefs": [
+        "GAUNTLET_LEGEND"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "PCAA_CERTIFIED",
+      "displayName": "PCAA Certified",
+      "description": "You passed your Post-Cryonic Aptitude Assessment. Now get to work.",
+      "hidden": false,
+      "globalPercent": 85.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Pass the Post-Cryonic Aptitude Assessment.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Look for the Post-Cryonic Aptitude Assessment when you first start the game. It is most likely the opening tutorial, so play it through to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ROGUED_OUT",
+      "displayName": "Rogue'd Out",
+      "description": "You've had your first bitter taste of failure.",
+      "hidden": false,
+      "globalPercent": 72.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "PCAA_CERTIFIED"
+      ],
+      "summary": "Fail a mission for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "A failed mission still gives partial rewards and progress.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start a mission at the @loc{Mission Terminal} and let every player die, or let the timer run out until the endless enemies arrive and wipe the team."
+          },
+          {
+            "id": "s2",
+            "text": "Solo, @npc{Cooper} revives you, so let him run out of revives too."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ABOVE_AND_BEYOND",
+      "displayName": "Above and Beyond",
+      "description": "Successfully complete an entire run without getting downed.",
+      "hidden": false,
+      "globalPercent": 54.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Finish an entire run without being downed.",
+      "guide": {
+        "kind": "standard",
+        "context": "Swarms arrive on the timer and when you start an Expenite Event or the elevator. Do not start two at once. Keep teammates up too, since a teammate going down may also count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick a Depth 1 mission at the @loc{Mission Terminal}, ideally a short one."
+          },
+          {
+            "id": "s2",
+            "text": "Take the @mechanic{elevator} on every stage without going down."
+          },
+          {
+            "id": "s3",
+            "text": "Defeat the @enemy{Gatekeeper} at the end. Shoot its exposed weak points."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROMOTION_SPOTTED",
+      "displayName": "Promotion Spotted",
+      "description": "Earn an Ascension as Spotter.",
+      "hidden": false,
+      "globalPercent": 15.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Ascend the Spotter Reclaimer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension is tracked for each class, so every class needs its own. You earn Merits from Directives and Deployments at the Operations Command terminal and from Gauntlets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play missions as the Spotter until that class reaches level 15. It stops gaining XP at that level."
+          },
+          {
+            "id": "s2",
+            "text": "Open the @loc{Ascension Terminal} outside the Ascension Hall on the @loc{Ramrod} and pay the Merits it asks for to Ascend the Spotter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GREAT_IN_EVERY_TIMELINE",
+      "displayName": "Great in Every Timeline",
+      "description": "Earn an Ascension as Retcon.",
+      "hidden": false,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Ascend the Retcon Reclaimer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension is tracked for each class, so every class needs its own. You earn Merits from Directives and Deployments at the Operations Command terminal and from Gauntlets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play missions as the Retcon until that class reaches level 15. It stops gaining XP at that level."
+          },
+          {
+            "id": "s2",
+            "text": "Open the @loc{Ascension Terminal} outside the Ascension Hall on the @loc{Ramrod} and pay the Merits it asks for to Ascend the Retcon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GALLANT_GUARDIAN",
+      "displayName": "Gallant Guardian",
+      "description": "Earn an Ascension as Guardian.",
+      "hidden": false,
+      "globalPercent": 15.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Ascend the Guardian Reclaimer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension is tracked for each class, so every class needs its own. You earn Merits from Directives and Deployments at the Operations Command terminal and from Gauntlets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play missions as the Guardian until that class reaches level 15. It stops gaining XP at that level."
+          },
+          {
+            "id": "s2",
+            "text": "Open the @loc{Ascension Terminal} outside the Ascension Hall on the @loc{Ramrod} and pay the Merits it asks for to Ascend the Guardian."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A_SLICE_OF_GREATNESS",
+      "displayName": "A Slice of Greatness",
+      "description": "Earn an Ascension as Slicer.",
+      "hidden": false,
+      "globalPercent": 17.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Ascend the Slicer Reclaimer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension is tracked for each class, so every class needs its own. You earn Merits from Directives and Deployments at the Operations Command terminal and from Gauntlets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play missions as the Slicer until that class reaches level 15. It stops gaining XP at that level."
+          },
+          {
+            "id": "s2",
+            "text": "Open the @loc{Ascension Terminal} outside the Ascension Hall on the @loc{Ramrod} and pay the Merits it asks for to Ascend the Slicer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DRONE_SCHOOL_STAR",
+      "displayName": "Drone School Star",
+      "description": "Earn an Ascension as Falconer.",
+      "hidden": false,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Ascend the Falconer Reclaimer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Ascension is tracked for each class, so every class needs its own. You earn Merits from Directives and Deployments at the Operations Command terminal and from Gauntlets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play missions as the Falconer until that class reaches level 15. It stops gaining XP at that level."
+          },
+          {
+            "id": "s2",
+            "text": "Open the @loc{Ascension Terminal} outside the Ascension Hall on the @loc{Ramrod} and pay the Merits it asks for to Ascend the Falconer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ITS_GOING_DOWN",
+      "displayName": "It's Going Down",
+      "description": "Enjoy your first elevator ride.",
+      "hidden": false,
+      "globalPercent": 87.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "PCAA_CERTIFIED"
+      ],
+      "summary": "Ride an elevator for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Follow the cable from the start outpost to the @mechanic{elevator} and activate it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JUNIOR_DETECTIVE",
+      "displayName": "Junior Detective",
+      "description": "Fully complete every task in any single Intel clearance level.",
+      "hidden": false,
+      "globalPercent": 53.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ITS_GOING_DOWN"
+      ],
+      "summary": "Complete all four Intel tasks of one Clearance level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tasks include reclaiming a facility, recovering security cameras, summoning a Gatekeeper and downloading terminal data. Cameras often hang on high structures, so look up.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @loc{Mission Terminal} and read the four Intel tasks of your current Clearance level."
+          },
+          {
+            "id": "s2",
+            "text": "Do those tasks in missions. Progress carries over between missions, and the same task progresses together."
+          },
+          {
+            "id": "s3",
+            "text": "Claim the rewards at the terminal once all four are finished."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RECLAIMER_IRON",
+      "displayName": "Reclaimer Iron",
+      "description": "Successfully reclaim a Depth 1 facility.",
+      "hidden": false,
+      "globalPercent": 72.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ITS_GOING_DOWN"
+      ],
+      "summary": "Reclaim a Depth 1 facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose a Depth 1 mission at the @loc{Mission Terminal}."
+          },
+          {
+            "id": "s2",
+            "text": "Go down stage by stage and defeat the @enemy{Gatekeeper} at the bottom to win the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RECLAIMER_BRONZE",
+      "displayName": "Reclaimer Bronze",
+      "description": "Successfully reclaim a Depth 2 facility.",
+      "hidden": false,
+      "globalPercent": 47.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Reclaim a Depth 2 facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "Depths open as your Intel Clearance rises. Enemies hit harder and the timer is shorter each Depth.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose a Depth 2 mission at the @loc{Mission Terminal}. If you have not unlocked it, join a friend's lobby at that Depth."
+          },
+          {
+            "id": "s2",
+            "text": "Go down stage by stage and defeat the @enemy{Gatekeeper} at the bottom to win the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RECLAIMER_SILVER",
+      "displayName": "Reclaimer Silver",
+      "description": "Successfully reclaim a Depth 3 facility.",
+      "hidden": false,
+      "globalPercent": 28.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_BRONZE"
+      ],
+      "summary": "Reclaim a Depth 3 facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "Depths open as your Intel Clearance rises. Enemies hit harder and the timer is shorter each Depth.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose a Depth 3 mission at the @loc{Mission Terminal}. If you have not unlocked it, join a friend's lobby at that Depth."
+          },
+          {
+            "id": "s2",
+            "text": "Go down stage by stage and defeat the @enemy{Gatekeeper} at the bottom to win the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RECLAIMER_GOLD",
+      "displayName": "Reclaimer Gold",
+      "description": "Successfully reclaim a Depth 4 facility.",
+      "hidden": false,
+      "globalPercent": 14.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "5 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_SILVER"
+      ],
+      "summary": "Reclaim a Depth 4 facility.",
+      "guide": {
+        "kind": "standard",
+        "context": "Depth 4 is the hardest. Bring a full set of high-level Enhancements first.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Choose a Depth 4 mission at the @loc{Mission Terminal}. If you have not unlocked it, join a friend's lobby at that Depth."
+          },
+          {
+            "id": "s2",
+            "text": "Go down stage by stage and defeat the @enemy{Gatekeeper} at the bottom to win the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GOTOORAK_SLAYER",
+      "displayName": "Gotoorak Slayer",
+      "description": "Defeat a Gotoorak Gatekeeper.",
+      "hidden": false,
+      "globalPercent": 73.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ITS_GOING_DOWN"
+      ],
+      "summary": "Defeat a Gotoorak Gatekeeper.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killing a Gatekeeper seals its gate at the same time.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the @loc{Mission Terminal}, pick a facility whose Gatekeeper is the Gotoorak."
+          },
+          {
+            "id": "s2",
+            "text": "Reach the Gate at the end of the last stage and fight the @enemy{Gatekeeper}. Its armor plates cannot be broken, so shoot its exposed weak points."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RAMOK_CONQUEROR",
+      "displayName": "Ramok Conqueror",
+      "description": "Defeat a Ramok Gatekeeper.",
+      "hidden": false,
+      "globalPercent": 41.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Defeat a Ramok Gatekeeper.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killing a Gatekeeper seals its gate at the same time.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the @loc{Mission Terminal}, pick a facility whose Gatekeeper is the Ramok."
+          },
+          {
+            "id": "s2",
+            "text": "Reach the Gate at the end of the last stage and fight the @enemy{Gatekeeper}. Its armor plates cannot be broken, so shoot its exposed weak points."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MALAKTULA_VANQUISHER",
+      "displayName": "Molaktula Vanquisher",
+      "description": "Defeat a Molaktula Gatekeeper.",
+      "hidden": false,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_BRONZE"
+      ],
+      "summary": "Defeat a Molaktula Gatekeeper.",
+      "guide": {
+        "kind": "standard",
+        "context": "Killing a Gatekeeper seals its gate at the same time.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the @loc{Mission Terminal}, pick a facility whose Gatekeeper is the Molaktula."
+          },
+          {
+            "id": "s2",
+            "text": "Reach the Gate at the end of the last stage and fight the @enemy{Gatekeeper}. Its armor plates cannot be broken, so shoot its exposed weak points."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "A_DEPLOYMENT_A_DAY",
+      "displayName": "A Deployment A Day",
+      "description": "Complete and claim a daily Deployment assignment.",
+      "hidden": false,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Complete a daily Deployment and claim its reward.",
+      "guide": {
+        "kind": "standard",
+        "context": "Deployments are tied to a class. They open when you reach their rank.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @loc{Operations Command} terminal on the @loc{Ramrod} and start a Deployment that is open for your class."
+          },
+          {
+            "id": "s2",
+            "text": "Finish its objective in missions."
+          },
+          {
+            "id": "s3",
+            "text": "Return to the terminal and claim the reward."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DOESNT_AFRAID_OF_ANYTHING",
+      "displayName": "Doesn't Afraid of Anything",
+      "description": "You survived a standard weekly Gauntlet and lived to tell the tale.",
+      "hidden": false,
+      "globalPercent": 5.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "PROMOTION_SPOTTED"
+      ],
+      "summary": "Complete a Standard weekly Gauntlet.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Gauntlet fails if the timer runs out or everyone dies. You can retry, but the rewards pay once.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Ascend one Reclaimer. Gauntlets unlock after a Reclaimer's first Ascension."
+          },
+          {
+            "id": "s2",
+            "text": "Open the weekly @mechanic{Gauntlet} on the @loc{Ramrod} and start the Standard one."
+          },
+          {
+            "id": "s3",
+            "text": "Reach the kill goal on each of the 7 levels to open the elevator, and have every player in the elevator before the timer turns critical."
+          },
+          {
+            "id": "s4",
+            "text": "Reach the final kill goal on level 7 to call the drop pod."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GAUNTLET_LEGEND",
+      "displayName": "Gauntlet Legend",
+      "description": "You beat one of OMEGA's extra-spicy weekly Gauntlets. Badass.",
+      "hidden": false,
+      "globalPercent": 2.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "4 h",
+      "estMinutes": 240,
+      "stage": 9,
+      "confidence": "unverified",
+      "prerequisites": [
+        "DOESNT_AFRAID_OF_ANYTHING"
+      ],
+      "summary": "Complete one of OMEGA's harder weekly Gauntlets.",
+      "guide": {
+        "kind": "standard",
+        "context": "The run fails if the timer ends or everyone dies. Fights never pause, and the kill goals grow each level.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the weekly @mechanic{Gauntlet} on the @loc{Ramrod}. Choose the harder Advanced Gauntlet if it is offered next to the Standard one."
+          },
+          {
+            "id": "s2",
+            "text": "Reach the kill goal on each of the 7 levels to open the elevator, and have every player in the elevator before the timer turns critical."
+          },
+          {
+            "id": "s3",
+            "text": "Reach the final kill goal on level 7 to call the drop pod."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STOLEN_VALOR",
+      "displayName": "Stolen Valor",
+      "description": "Reclaim a facility with another class' Bio-Booster Deck equipped.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "2 h",
+      "estMinutes": 120,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "PROMOTION_SPOTTED",
+        "RECLAIMER_IRON"
+      ],
+      "summary": "Reclaim a facility with another class's Bio-Booster deck equipped.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Ascend one Reclaimer to unlock deck swapping. If swapping is still locked, Ascend a second one."
+          },
+          {
+            "id": "s2",
+            "text": "In the @loc{Loadout Terminal}, equip a Bio-Booster deck that belongs to a different class."
+          },
+          {
+            "id": "s3",
+            "text": "Win a mission by defeating the @enemy{Gatekeeper}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RAM_ROD_REALLY_ROCKS",
+      "displayName": "Ram Rod Really Rocks",
+      "description": "Hidden achievement. Four Reclaimers must be together in the showers of the Ramrod.",
+      "hidden": true,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "unverified",
+      "summary": "Get four Reclaimers into the Ramrod showers together.",
+      "guide": {
+        "kind": "standard",
+        "context": "This needs four players. The achievement is hidden.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Form a lobby of four players on the @loc{Ramrod}."
+          },
+          {
+            "id": "s2",
+            "text": "Have all four walk into the showers at the same time."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WITNESS_ASCENSION",
+      "displayName": "Reverence for a Comrade",
+      "description": "Witness the Ascension Ceremony of a fellow Reclaimer.",
+      "hidden": false,
+      "globalPercent": 23.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 7,
+      "confidence": "unverified",
+      "prerequisites": [
+        "PROMOTION_SPOTTED"
+      ],
+      "summary": "Witness a fellow Reclaimer's Ascension Ceremony.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Stay on the @loc{Ramrod} near the Ascension Hall while a friend Ascends a Reclaimer."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BALGORATH_ANNIHILATOR",
+      "displayName": "Balgorath Annihilator",
+      "description": "Defeat a Balgorath Gatekeeper",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "5 h",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "RECLAIMER_SILVER"
+      ],
+      "summary": "Defeat a Balgorath Gatekeeper.",
+      "guide": {
+        "kind": "standard",
+        "context": "Balgorath came with Update 03, together with Depth 4.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the @loc{Mission Terminal}, pick a facility whose Gatekeeper is the Balgorath."
+          },
+          {
+            "id": "s2",
+            "text": "Reach the Gate at the end of the last stage and fight the @enemy{Gatekeeper}. Its armor plates cannot be broken, so shoot its exposed weak points."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "PCAA_CERTIFIED",
+    "ROGUED_OUT",
+    "ITS_GOING_DOWN",
+    "RAM_ROD_REALLY_ROCKS",
+    "GOTOORAK_SLAYER",
+    "JUNIOR_DETECTIVE",
+    "RECLAIMER_IRON",
+    "A_DEPLOYMENT_A_DAY",
+    "ABOVE_AND_BEYOND",
+    "RAMOK_CONQUEROR",
+    "RECLAIMER_BRONZE",
+    "MALAKTULA_VANQUISHER",
+    "RECLAIMER_SILVER",
+    "RECLAIMER_GOLD",
+    "BALGORATH_ANNIHILATOR",
+    "A_SLICE_OF_GREATNESS",
+    "DRONE_SCHOOL_STAR",
+    "GALLANT_GUARDIAN",
+    "GREAT_IN_EVERY_TIMELINE",
+    "PROMOTION_SPOTTED",
+    "WITNESS_ASCENSION",
+    "STOLEN_VALOR",
+    "DOESNT_AFRAID_OF_ANYTHING",
+    "GAUNTLET_LEGEND"
+  ]
+}

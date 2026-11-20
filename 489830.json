@@ -8,7 +8,7 @@
     "estTotalHours": 100,
     "difficultyRating": 4,
     "minPlaythroughs": 1,
-    "createdAt": "2026-07-28"
+    "createdAt": "2026-11-21"
   },
   "roadmap": [
     {
@@ -158,7 +158,7 @@
       "summary": "Complete the opening quest Unbound by escaping @loc{Helgen}.",
       "guide": {
         "kind": "standard",
-        "context": "Unbound is the mandatory tutorial and has no prerequisites or route choices that affect later achievements.",
+        "context": "",
         "steps": [
           {
             "id": "escape-helgen",
@@ -228,7 +228,7 @@
       "summary": "Complete The Way of the Voice by finishing the Greybeards' training at @loc{High Hrothgar}.",
       "guide": {
         "kind": "standard",
-        "context": "The Way of the Voice follows Dragon Rising, after the first dragon soul and the Greybeards' summons establish the shout system.",
+        "context": "The Way of the Voice follows Dragon Rising.",
         "steps": [
           {
             "id": "reach-high-hrothgar",
@@ -236,7 +236,7 @@
           },
           {
             "id": "finish-training",
-            "text": "Speak with @npc{Arngeir}, complete every prompted shout lesson, and demonstrate Whirlwind Sprint to finish the quest."
+            "text": "Speak with @npc{Arngeir} and complete the Greybeards' training lessons to finish the quest."
           }
         ]
       }
@@ -265,7 +265,7 @@
       "summary": "Complete Diplomatic Immunity by infiltrating the @loc{Thalmor Embassy} and escaping with the investigation evidence.",
       "guide": {
         "kind": "standard",
-        "context": "Delphine temporarily stores normal equipment before the party, so only gear passed to Malborn is available inside the restricted area.",
+        "context": "Leave your normal gear with Malborn in Solitude before the party, because anything you keep is confiscated inside the embassy.",
         "steps": [
           {
             "id": "prepare-gear",
@@ -302,7 +302,7 @@
       "summary": "Complete Alduin's Wall by escorting Delphine and Esbern to @loc{Sky Haven Temple}.",
       "guide": {
         "kind": "standard",
-        "context": "Alduin's Wall follows the search for Esbern and opens the Blades' base at Sky Haven Temple.",
+        "context": "",
         "steps": [
           {
             "id": "reach-temple",
@@ -447,7 +447,7 @@
       "summary": "Join the @mechanic{Companions} by completing the initiation tasks at @loc{Jorrvaskr} in Whiterun.",
       "guide": {
         "kind": "standard",
-        "context": "Jorrvaskr is beside Dragonsreach and the faction can be joined without committing to a mutually exclusive guild.",
+        "context": "",
         "steps": [
           {
             "id": "request-entry",
@@ -455,7 +455,7 @@
           },
           {
             "id": "complete-initiation",
-            "text": "Finish the weapon test, delivery, and first assigned job, then complete Take Up Arms to become a Companion."
+            "text": "Finish the combat training with Vilkas, deliver the sword to Eorlund and the shield to Aela, then finish the Jorrvaskr tour to become a Companion."
           }
         ]
       }
@@ -484,7 +484,7 @@
       "summary": "Become a member of the @mechanic{Circle} by accepting the werewolf ritual during The Silver Hand.",
       "guide": {
         "kind": "standard",
-        "context": "The Circle invitation arrives after several Companions quests and temporarily grants lycanthropy, which is also needed for the Dawnguard werewolf-perk achievement.",
+        "context": "The Circle invitation arrives after several Companions quests. This is also the start of the werewolf form needed for Werewolf Mastered.",
         "steps": [
           {
             "id": "advance-companions",
@@ -492,7 +492,7 @@
           },
           {
             "id": "accept-ritual",
-            "text": "Meet Skjor beneath @loc{The Underforge} at night and drink @npc{Aela}'s blood to complete the transformation."
+            "text": "Meet Skjor beneath @loc{The Underforge} and accept his offer to join the Circle and become a werewolf."
           }
         ]
       }
@@ -592,7 +592,7 @@
       "summary": "Complete Revealing the Unseen by locating the Staff of Magnus and finishing the @loc{Mzulft} expedition.",
       "guide": {
         "kind": "standard",
-        "context": "This College quest follows Containment and uses the Oculory to identify the Staff of Magnus's location.",
+        "context": "Mirabelle sends you to Mzulft to find the Staff of Magnus.",
         "steps": [
           {
             "id": "enter-mzulft",
@@ -600,7 +600,11 @@
           },
           {
             "id": "focus-oculory",
-            "text": "Place the crystal in the Oculory, use frost or flame magic to align the beams, and complete the projection sequence."
+            "text": "Place the crystal in the Dwarven Armillary, use Frostbite on its lenses to aim the beams, then use the buttons to turn the rings until each beam hits a mirror. If you overshoot, use Flames to undo it."
+          },
+          {
+            "id": "report-college",
+            "text": "Return to the @loc{College of Winterhold} and report the result to complete the quest."
           }
         ]
       }
@@ -853,15 +857,15 @@
       "summary": "Complete Hail Sithis! by finishing the final @mechanic{Dark Brotherhood} assassination contract.",
       "guide": {
         "kind": "standard",
-        "context": "Hail Sithis! follows Death Incarnate and concludes the Brotherhood's primary questline.",
+        "context": "Hail Sithis! follows Death Incarnate and ends the Dark Brotherhood questline.",
         "steps": [
           {
             "id": "board-katariah",
-            "text": "Follow the contract route onto @loc{The Katariah} and reach the Emperor's cabin."
+            "text": "Go to @loc{The Katariah}, northeast of the Solitude harbor, and climb the anchor chain to reach the lower decks."
           },
           {
             "id": "finish-contract",
-            "text": "Kill the Emperor, leave the ship, collect the payment, and complete the final report to finish Hail Sithis!."
+            "text": "Kill the final target, report to Motierre, collect the dead drop at the Volunruud chamber, then speak with @npc{Nazir} at the new Dawnstar sanctuary to complete Hail Sithis!."
           }
         ]
       }
@@ -907,7 +911,7 @@
       "hidden": false,
       "globalPercent": 11.0,
       "flags": {
-        "missable": true,
+        "missable": false,
         "online": false,
         "grind": false,
         "glitched": false,
@@ -918,14 +922,13 @@
       "estMinutes": 150,
       "stage": 2,
       "confidence": "verified",
-      "lockoutStage": 2,
       "prerequisites": [
         "NEW_ACHIEVEMENT_21_0"
       ],
       "summary": "Capture @loc{Fort Sungard} or @loc{Fort Greenwall} during the civil-war questline.",
       "guide": {
         "kind": "standard",
-        "context": "Season Unending can transfer holds and change which fort battle appears; a manual save before the peace council protects this missable milestone.",
+        "context": "Season Unending can change which fort battle appears. Make a manual save before the peace council and reload it if the fort battle is lost.",
         "steps": [
           {
             "id": "join-army",
@@ -1320,14 +1323,18 @@
       "estMinutes": 90,
       "stage": 1,
       "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_5_0",
+        "NEW_ACHIEVEMENT_43_0"
+      ],
       "summary": "Buy any city house, such as @loc{Breezehome} in Whiterun for 5,000 gold.",
       "guide": {
         "kind": "standard",
-        "context": "Breezehome becomes available from Proventus Avenicci after helping Whiterun's Jarl and is the earliest straightforward purchase.",
+        "context": "Proventus Avenicci sells Breezehome only after you become Thane of Whiterun.",
         "steps": [
           {
             "id": "unlock-breezehome",
-            "text": "Complete Bleak Falls Barrow and Whiterun's early Jarl objectives."
+            "text": "Complete Bleak Falls Barrow and Dragon Rising, then report back to Jarl Balgruuf and become Thane of Whiterun."
           },
           {
             "id": "buy-house",
@@ -1395,7 +1402,7 @@
         "steps": [
           {
             "id": "obtain-amulet",
-            "text": "Pay @npc{Maramal} 200 gold at Riften's Temple of Mara or Bee and Barb to obtain an @item{Amulet of Mara}, then wear the amulet."
+            "text": "Buy an @item{Amulet of Mara} from @npc{Maramal} at Riften's Temple of Mara, then wear the amulet."
           },
           {
             "id": "propose",
@@ -1838,10 +1845,13 @@
       "estMinutes": 20,
       "stage": 1,
       "confidence": "verified",
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_5_0"
+      ],
       "summary": "Kill a dragon and remain beside the corpse until one @mechanic{dragon soul} is absorbed.",
       "guide": {
         "kind": "standard",
-        "context": "Dragon souls become available after Dragon Rising; leaving the area before the burning-corpse sequence finishes can delay the credit.",
+        "context": "Dragon souls become available after Dragon Rising.",
         "steps": [
           {
             "id": "kill-dragon",
@@ -1849,7 +1859,7 @@
           },
           {
             "id": "absorb-soul",
-            "text": "Stay near the dragon's corpse until the visual effect ends and the Dragon Souls counter increases."
+            "text": "Stay near the dragon's corpse until its soul is absorbed."
           }
         ]
       }
@@ -1982,7 +1992,7 @@
       "summary": "Increase character skills until the character reaches level 5.",
       "guide": {
         "kind": "standard",
-        "context": "Every skill increase contributes character experience, so normal combat, crafting, stealth, and magic use all advance this early milestone.",
+        "context": "",
         "steps": [
           {
             "id": "reach-level-5",
@@ -2015,7 +2025,7 @@
       "summary": "Increase character skills until the character reaches level 10.",
       "guide": {
         "kind": "standard",
-        "context": "Every skill increase contributes character experience, so normal combat, crafting, stealth, and magic use all advance this early milestone.",
+        "context": "",
         "steps": [
           {
             "id": "reach-level-10",
@@ -2359,7 +2369,7 @@
       "hidden": false,
       "globalPercent": 3.3,
       "flags": {
-        "missable": true,
+        "missable": false,
         "online": false,
         "grind": true,
         "glitched": false,
@@ -2370,7 +2380,9 @@
       "estMinutes": 240,
       "stage": 4,
       "confidence": "verified",
-      "lockoutStage": 4,
+      "prerequisites": [
+        "NEW_ACHIEVEMENT_51_0"
+      ],
       "summary": "Buy all eleven @mechanic{Vampire Lord} perks after earning progress with Vampire Lord abilities.",
       "guide": {
         "kind": "standard",
@@ -2810,7 +2822,7 @@
       "stage": 6,
       "confidence": "verified",
       "prerequisites": [
-        "NEW_ACHIEVEMENT_67_0"
+        "NEW_ACHIEVEMENT_69_0"
       ],
       "group": "collections",
       "summary": "Learn the three @mechanic{Dragon Aspect} words from the Temple of Miraak, Raven Rock Mine, and Apocrypha.",
@@ -2861,7 +2873,7 @@
       "stage": 6,
       "confidence": "verified",
       "prerequisites": [
-        "NEW_ACHIEVEMENT_67_0"
+        "NEW_ACHIEVEMENT_68_0"
       ],
       "group": "collections",
       "summary": "Reach the reward chamber in five different @item{Black Books} and choose one secret from each.",
@@ -2891,7 +2903,7 @@
       "hidden": false,
       "globalPercent": 4.0,
       "flags": {
-        "missable": true,
+        "missable": false,
         "online": false,
         "grind": false,
         "glitched": true,
@@ -2902,14 +2914,13 @@
       "estMinutes": 180,
       "stage": 6,
       "confidence": "verified",
-      "lockoutStage": 6,
       "prerequisites": [
         "NEW_ACHIEVEMENT_68_0"
       ],
       "summary": "Complete A New Source of Stalhrim, reach Smithing 80 with Ebony Smithing, and craft one @item{Stalhrim} item.",
       "guide": {
         "kind": "standard",
-        "context": "Baldor Iron-Shaper teaches the recipe after his rescue; protect him until the quest is finished because losing the Skaal blacksmith can close the crafting route.",
+        "context": "Baldor Iron-Shaper teaches the recipe after his rescue. Protect him until the quest is finished, and reload your manual save if a Skaal villager dies or Baldor is lost.",
         "steps": [
           {
             "id": "unlock-quest",
@@ -3042,12 +3053,12 @@
   "completionOrder": [
     "NEW_ACHIEVEMENT_29_0",
     "NEW_ACHIEVEMENT_1_0",
-    "NEW_ACHIEVEMENT_43_0",
     "NEW_ACHIEVEMENT_2_0",
     "NEW_ACHIEVEMENT_3_0",
     "NEW_ACHIEVEMENT_47_0",
     "NEW_ACHIEVEMENT_4_0",
     "NEW_ACHIEVEMENT_5_0",
+    "NEW_ACHIEVEMENT_43_0",
     "NEW_ACHIEVEMENT_45_0",
     "NEW_ACHIEVEMENT_31_0",
     "NEW_ACHIEVEMENT_6_0",
@@ -3079,9 +3090,9 @@
     "NEW_ACHIEVEMENT_28_0",
     "NEW_ACHIEVEMENT_33_0",
     "NEW_ACHIEVEMENT_57_0",
-    "NEW_ACHIEVEMENT_58_0",
     "NEW_ACHIEVEMENT_59_0",
     "NEW_ACHIEVEMENT_51_0",
+    "NEW_ACHIEVEMENT_58_0",
     "NEW_ACHIEVEMENT_52_0",
     "NEW_ACHIEVEMENT_55_0",
     "NEW_ACHIEVEMENT_53_0",

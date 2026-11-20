@@ -1,0 +1,805 @@
+{
+  "game": {
+    "appid": 2899050,
+    "slug": "desert-stalker",
+    "title": "Desert Stalker",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-09",
+    "estTotalHours": 12,
+    "difficultyRating": 1,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Choose the intro rescues",
+      "description": "Pick one intro path: rescue both captives for Damsels in distress, or abandon both for Not my problem. Switching needs a new game.",
+      "achievementRefs": [
+        "intro_complete",
+        "damsels_in_distress",
+        "not_my_problem"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Fairy, Pepper and the household",
+      "description": "Save before the first Fairy visit and before the Hive mission, then finish Fairy's path, Pepper's offer and the household scenes.",
+      "achievementRefs": [
+        "for_science",
+        "hell_and_back",
+        "ignorance",
+        "getting_crowded",
+        "different_training"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Shani's Zone expedition and the Hive",
+      "description": "Complete the Zone trip, replay it for the haunted apartment and the Julia stay, and take the Hive Queen's offer.",
+      "achievementRefs": [
+        "rite_of_passage",
+        "i_hate_it",
+        "remember_me",
+        "no_ragrets"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Overpass and palace",
+      "description": "Save before the highway settlement, take the kind route, then reload for the harsh one.",
+      "achievementRefs": [
+        "past_present",
+        "sins_of_fathers",
+        "people_pleaser",
+        "eat_cake"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Queen scene",
+      "description": "Finish the Queen scene.",
+      "achievementRefs": [
+        "queen_clothes"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "intro_complete",
+      "displayName": "First steps",
+      "description": "You have completed the introduction",
+      "hidden": false,
+      "globalPercent": 85.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Finish the introduction.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-intro-complete-1",
+            "text": "Play through the opening story until the introduction ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "damsels_in_distress",
+      "displayName": "Damsels in distress",
+      "description": "You saved both the mutant and the raider during the intro",
+      "hidden": false,
+      "globalPercent": 77.1,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "intro_complete"
+      ],
+      "lockoutStage": 1,
+      "summary": "Save the mutant and the raider in the introduction.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutually exclusive with Not my problem. The choices cannot be reversed once made, so earning both needs two separate new games.",
+        "steps": [
+          {
+            "id": "ach-damsels-in-distress-1",
+            "text": "Start a new game, picking the full-experience and all-options settings."
+          },
+          {
+            "id": "ach-damsels-in-distress-2",
+            "text": "With the mutant, choose @mechanic{Disarm her} twice, then @mechanic{Ask to know more} and @mechanic{Let her make up for it}."
+          },
+          {
+            "id": "ach-damsels-in-distress-3",
+            "text": "Head into the ruins on the right, try every dialogue option, and give up the artifact to free the elf (the @mechanic{Hand over} choice)."
+          },
+          {
+            "id": "ach-damsels-in-distress-4",
+            "text": "On the first @loc{Travel} after the intro, choose @mechanic{Save the raider}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "not_my_problem",
+      "displayName": "Not my problem",
+      "description": "You saved neither the mutant nor the raider during the intro",
+      "hidden": false,
+      "globalPercent": 5.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "intro_complete"
+      ],
+      "lockoutStage": 1,
+      "summary": "Leave the mutant and the raider unsaved in the introduction.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutually exclusive with Damsels in distress. Start a separate new game for it.",
+        "steps": [
+          {
+            "id": "ach-not-my-problem-1",
+            "text": "Start a new game. In the mutant scene, pick @mechanic{Take her out} and @mechanic{Kill her}. Continue with @mechanic{Use her} and @mechanic{Hydrate her}, and end with @mechanic{Toss her away and leave}."
+          },
+          {
+            "id": "ach-not-my-problem-2",
+            "text": "Head into the ruins on the right, try every dialogue option, and choose @mechanic{Walk away}."
+          },
+          {
+            "id": "ach-not-my-problem-3",
+            "text": "On the first @loc{Travel} after the intro, choose @mechanic{Leave her to her fate}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "rite_of_passage",
+      "displayName": "Rite of passage",
+      "description": "Completed the Zone while playing as Shani",
+      "hidden": false,
+      "globalPercent": 53.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "different_training"
+      ],
+      "summary": "Finish the Zone expedition as Shani.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-rite-of-passage-1",
+            "text": "After the Fairy scenes, choose @mechanic{Switch to Shani} in the Master Bedroom and agree to team up (@mechanic{Okay, we can try})."
+          },
+          {
+            "id": "ach-rite-of-passage-2",
+            "text": "Leave the bunker and follow Abrax's map. At Julia's place, choose @mechanic{Spend some time with her} and @mechanic{Spend more time together}, then @mechanic{Continue the mission}."
+          },
+          {
+            "id": "ach-rite-of-passage-3",
+            "text": "At the skeleton, take a look, investigate before climbing down, read the note, and leave the bunker."
+          },
+          {
+            "id": "ach-rite-of-passage-4",
+            "text": "Find the Scout and leave the Zone. When the Scout talks, choose the @mechanic{Play along} line, then @mechanic{Respond}. Follow the prompts in the next cutscene."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "remember_me",
+      "displayName": "Remember me, but let me go",
+      "description": "You have taken too much advantage of Julia's hospitality while playing as Shani",
+      "hidden": false,
+      "globalPercent": 27.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "different_training"
+      ],
+      "summary": "Stay with Julia too long during the Shani expedition.",
+      "guide": {
+        "kind": "standard",
+        "context": "Make a manual save at Julia's place before sleeping; if you continue the mission instead, reload it.",
+        "steps": [
+          {
+            "id": "ach-remember-me-1",
+            "text": "Switch to Shani, leave the bunker, and follow Abrax's map. Pick the @mechanic{Why would you stay here?} line to reach Julia."
+          },
+          {
+            "id": "ach-remember-me-2",
+            "text": "Choose @mechanic{Spend some time with her}, then @mechanic{Spend more time together}, and save."
+          },
+          {
+            "id": "ach-remember-me-3",
+            "text": "Choose @mechanic{Go to sleep} instead of continuing the mission."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "i_hate_it",
+      "displayName": "Thanks, I hate it",
+      "description": "You have escaped from the haunted apartment while playing as Shani",
+      "hidden": false,
+      "globalPercent": 37.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "different_training"
+      ],
+      "summary": "Escape the haunted apartment as Shani.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any save from before @mechanic{Switch to Shani} works if you already finished the Zone trip.",
+        "steps": [
+          {
+            "id": "ach-i-hate-it-1",
+            "text": "Switch to Shani, leave the bunker, and choose the optional @mechanic{Investigate the apartment}, then @mechanic{Head inside}."
+          },
+          {
+            "id": "ach-i-hate-it-2",
+            "text": "Check the kitchen, bedroom and entrance, going back after each. Then return and check the radio, read the note, and turn the radio off when it plays."
+          },
+          {
+            "id": "ach-i-hate-it-3",
+            "text": "Approach the body, check the radio and the note, and turn the radio off again. Check the bedroom."
+          },
+          {
+            "id": "ach-i-hate-it-4",
+            "text": "Choose @mechanic{Run out}, then @mechanic{Check the note} and @mechanic{Turn it off}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hell_and_back",
+      "displayName": "To hell and back",
+      "description": "Fairy has joined your home and you helped her recover",
+      "hidden": false,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "for_science"
+      ],
+      "summary": "Help Fairy recover after she joins your home.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutually exclusive with Ignorance is bliss. The first visits after the rescue set her path, so save before your first Fairy visit and reload that save for the other achievement.",
+        "steps": [
+          {
+            "id": "ach-hell-and-back-1",
+            "text": "Save before your first Fairy visit. From @loc{Basement}, choose @mechanic{Visit Fairy} and communicate gently, ending with @mechanic{You are under no pressure here}."
+          },
+          {
+            "id": "ach-hell-and-back-2",
+            "text": "On later visits, choose @mechanic{See to her needs}: get her attention first, hand over what she needs, and tell her to rest. Let her eat on her own and give her a proper bed."
+          },
+          {
+            "id": "ach-hell-and-back-3",
+            "text": "At the bath visit, send Emilia away and take over, then massage her head."
+          },
+          {
+            "id": "ach-hell-and-back-4",
+            "text": "After the grocery scene, go back to the @loc{Basement} and choose @mechanic{Try talking to her again}. The achievement unlocks before the Asani visit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ignorance",
+      "displayName": "Ignorance is bliss",
+      "description": "Fairy has joined your home and you didn't help her recover",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "for_science"
+      ],
+      "summary": "Let Fairy join your home without helping her recover.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutually exclusive with To hell and back. Save before your first Fairy visit and reload it to switch. A mixed route earns neither.",
+        "steps": [
+          {
+            "id": "ach-ignorance-1",
+            "text": "Save before your first Fairy visit. From @loc{Basement}, choose @mechanic{Visit Fairy}, inspect her, and tell her your body will do just fine."
+          },
+          {
+            "id": "ach-ignorance-2",
+            "text": "On later visits, tell her to be ready to serve, treat her roughly, make her eat off the floor, and give her a pet bed."
+          },
+          {
+            "id": "ach-ignorance-3",
+            "text": "At the bath visit, send Emilia away, take over, and remind her of her place."
+          },
+          {
+            "id": "ach-ignorance-4",
+            "text": "Visit her again and choose @mechanic{Tell me, who's your Master}. If the achievement hasn't unlocked, keep visiting her and use every option."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "people_pleaser",
+      "displayName": "People pleaser",
+      "description": "You have taken control of the overpass and improved their living conditions",
+      "hidden": false,
+      "globalPercent": 40.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "past_present"
+      ],
+      "summary": "Take control of the overpass and improve the residents' living conditions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutually exclusive with Let them eat cake. Save before leaving for the highway settlement.",
+        "steps": [
+          {
+            "id": "ach-people-pleaser-1",
+            "text": "Travel to the highway settlement and speak politely: say you are there for the Queen, hear their offer, and warn that the Queen will not be pleased."
+          },
+          {
+            "id": "ach-people-pleaser-2",
+            "text": "Speak to the medic, search the shack, and talk the father into letting his son work there."
+          },
+          {
+            "id": "ach-people-pleaser-3",
+            "text": "Help each resident: let the bald woman speak for the community, promise the man his own slave, promise the woman an improved system, and ask Wick about his demands."
+          },
+          {
+            "id": "ach-people-pleaser-4",
+            "text": "Return to the medic and ask whether they will keep their word."
+          },
+          {
+            "id": "ach-people-pleaser-5",
+            "text": "Later, open the Raider's Camp mission table and start @mechanic{Sekhmet's Legion (Part 1)}. Be supportive when asked: praise their spirit and sympathize with what happened to her."
+          },
+          {
+            "id": "ach-people-pleaser-6",
+            "text": "Walk around the settlement using its arrow, then return home. The achievement unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "eat_cake",
+      "displayName": "Let them eat cake",
+      "description": "You have taken control of the overpass and exploited the residents",
+      "hidden": false,
+      "globalPercent": 15.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "people_pleaser"
+      ],
+      "summary": "Take control of the overpass and exploit the residents.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mutually exclusive with People pleaser, which you can earn first in the same run. Reload the save made before the highway settlement.",
+        "steps": [
+          {
+            "id": "ach-eat-cake-1",
+            "text": "Travel to the highway settlement and choose @mechanic{I need to see your boss}, then @mechanic{You're going to regret this}."
+          },
+          {
+            "id": "ach-eat-cake-2",
+            "text": "Speak to the medic, search the shack, and talk the father into letting his son work there."
+          },
+          {
+            "id": "ach-eat-cake-3",
+            "text": "Exploit each resident: make the bald woman's skills available to everyone, threaten the man over Kitty, make the woman distribute water on merit, and plot against Wick."
+          },
+          {
+            "id": "ach-eat-cake-4",
+            "text": "Return to the medic and ask whether they will keep their word."
+          },
+          {
+            "id": "ach-eat-cake-5",
+            "text": "Later, at the @loc{Raider's Camp}, walk around the settlement and choose @mechanic{Peek inside}, @mechanic{Try out her...}, then send him out, stop him, and tell him to keep it up. Click the last arrow."
+          },
+          {
+            "id": "ach-eat-cake-6",
+            "text": "Visit the Palace, say the task was dangerous and she almost died, and go through both options."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "past_present",
+      "displayName": "Past and present",
+      "description": "Listened to Ivy's story of her tower",
+      "hidden": false,
+      "globalPercent": 46.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "rite_of_passage"
+      ],
+      "summary": "Listen to Ivy's story of her tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-past-present-1",
+            "text": "Finish @mechanic{The Hive (Part 2)}. Then visit Ivy and open her entries, try every option, read entry #13, back out twice, and shut the screen down."
+          },
+          {
+            "id": "ach-past-present-2",
+            "text": "Visit the lab and gym, then go to sleep. Visit the lab again and request a hand massage."
+          },
+          {
+            "id": "ach-past-present-3",
+            "text": "Go Home and open the @loc{Master Bedroom}. Ask Igor and his girlfriend over, then pick @mechanic{Yes, tomorrow is good}."
+          },
+          {
+            "id": "ach-past-present-4",
+            "text": "Choose @loc{Travel}, then @mechanic{Visit Yuna}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "no_ragrets",
+      "displayName": "No ragrets",
+      "description": "You have accepted the Hive Queen's offer",
+      "hidden": false,
+      "globalPercent": 23.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "rite_of_passage"
+      ],
+      "summary": "Accept the Hive Queen's offer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Save before opening The Hive (Part 2). If you pick the other lines, reload it.",
+        "steps": [
+          {
+            "id": "ach-no-ragrets-1",
+            "text": "Open the @loc{Mutants} mission table and start @mechanic{The Hive (Part 2)}."
+          },
+          {
+            "id": "ach-no-ragrets-2",
+            "text": "Choose @mechanic{Agree}, @mechanic{Go with her}, then @mechanic{I stopped counting...}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "for_science",
+      "displayName": "For science!",
+      "description": "You have accepted Pepper's offer",
+      "hidden": false,
+      "globalPercent": 54.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "intro_complete"
+      ],
+      "summary": "Accept Pepper's offer.",
+      "guide": {
+        "kind": "standard",
+        "context": "Make a manual save right before this.",
+        "steps": [
+          {
+            "id": "ach-for-science-1",
+            "text": "Save before opening @mechanic{The Hive (Part 1)}. After it, take her back to base and visit the lab."
+          },
+          {
+            "id": "ach-for-science-2",
+            "text": "Pick @mechanic{You live and learn, right?}, then give her the go-ahead with the line that starts @mechanic{Alright then}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "queen_clothes",
+      "displayName": "The Emperor's new clothes",
+      "description": "You have exposed the Queen (literally)",
+      "hidden": false,
+      "globalPercent": 45.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "people_pleaser"
+      ],
+      "summary": "Expose the Queen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-queen-clothes-1",
+            "text": "At the @loc{Palace}, ask about Sharifa and answer that it is elegant and alluring."
+          },
+          {
+            "id": "ach-queen-clothes-2",
+            "text": "Choose @mechanic{Approach her}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "getting_crowded",
+      "displayName": "It's getting crowded",
+      "description": "Emilia, Fairy and Kateryna have joined your household",
+      "hidden": false,
+      "globalPercent": 55.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "for_science"
+      ],
+      "summary": "Have Emilia, Fairy and Kateryna all join your household.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-getting-crowded-1",
+            "text": "Invite Igor and Kateryna from the @loc{Master Bedroom} early in the story, and keep Fairy at home."
+          },
+          {
+            "id": "ach-getting-crowded-2",
+            "text": "Have the Ivy and Fangs conversations: ask whether Fangs needs help again, and say goodbye to Ivy."
+          },
+          {
+            "id": "ach-getting-crowded-3",
+            "text": "In @loc{Shani's Bedroom}, choose @mechanic{Of course}, then @mechanic{Look at your wife}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "different_training",
+      "displayName": "A different kind of training",
+      "description": "You became more intimate with Shani",
+      "hidden": false,
+      "globalPercent": 50.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "getting_crowded"
+      ],
+      "summary": "Become more intimate with Shani.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-different-training-1",
+            "text": "In @loc{Shani's Bedroom}, choose @mechanic{Yes}, then @mechanic{Look down}. Say you have restrained yourself because her training is unfinished, then ask what's wrong."
+          },
+          {
+            "id": "ach-different-training-2",
+            "text": "Choose @mechanic{You are beautiful}, then @mechanic{Caress her neck}. Finish by joining hands and admitting you didn't really listen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "sins_of_fathers",
+      "displayName": "Sins of our fathers",
+      "description": "You have discussed Shani's findings with Abrax",
+      "hidden": false,
+      "globalPercent": 48.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "people_pleaser"
+      ],
+      "summary": "Discuss Shani's findings with Abrax.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ach-sins-of-fathers-1",
+            "text": "After the highway settlement choices, go to the @loc{Palace}, choose @mechanic{Planning work}, then @mechanic{Take the offer} and @mechanic{Give me a twirl}."
+          },
+          {
+            "id": "ach-sins-of-fathers-2",
+            "text": "Go to @loc{Decayed}, describe the cylinder, choose @mechanic{The remains of a dead civilization}, then @mechanic{Why would I...}."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "intro_complete",
+    "damsels_in_distress",
+    "not_my_problem",
+    "for_science",
+    "hell_and_back",
+    "ignorance",
+    "getting_crowded",
+    "different_training",
+    "i_hate_it",
+    "remember_me",
+    "rite_of_passage",
+    "no_ragrets",
+    "past_present",
+    "people_pleaser",
+    "sins_of_fathers",
+    "eat_cake",
+    "queen_clothes"
+  ]
+}

@@ -1,0 +1,1856 @@
+{
+  "game": {
+    "appid": 894020,
+    "slug": "death-s-door",
+    "title": "Death's Door",
+    "version": "1.0",
+    "lastPatchChecked": "2026-07-20",
+    "estTotalHours": 14,
+    "difficultyRating": 4,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Hall of Doors and Lost Cemetery",
+      "description": "Start the Umbrella run before swinging any other weapon, then gather the forest spirits in the Grove of Spirits.",
+      "achievementRefs": [
+        "ach_umbrella",
+        "ach_conga"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Estate of the Urn Witch, Ceramic Manor and Furnace",
+      "description": "Pass the metal detector with a spirit, open the secret garden, and beat the Urn Witch with a fire attack on her pot.",
+      "achievementRefs": [
+        "ach_tsa",
+        "ach_pothead",
+        "ach_hotpot"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Overgrown Ruins, Mushroom Dungeon and Flooded Fortress",
+      "description": "Beat the Frog King with a bomb, then upgrade the Fire and Bomb abilities in the Lost Cemetery area.",
+      "achievementRefs": [
+        "ach_king",
+        "ach_fire",
+        "ach_bomb"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Stranded Sailor to the Old Watchtowers",
+      "description": "Free Grunt, take Jefferson's soup, hear Barb's song, then finish the Hookshot and Arrow upgrades and the weapon set.",
+      "achievementRefs": [
+        "ach_clever",
+        "ach_soup",
+        "ach_tune",
+        "ach_hook",
+        "ach_arrow",
+        "ach_weapons"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "The Last Lord and the ending",
+      "description": "Spend your souls in the shop, then beat the Last Lord.",
+      "achievementRefs": [
+        "ach_specialist",
+        "ach_spend",
+        "ach_game"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Post-game night cleanup and true ending",
+      "description": "Ring the bell for night, then finish shinies, shrines, seeds, owls, Jefferson and the seven tablets.",
+      "achievementRefs": [
+        "ach_shiny",
+        "ach_shrines",
+        "ach_plants",
+        "ach_jeff",
+        "ach_owls",
+        "ach_truth",
+        "ach_chore"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ach_game",
+      "displayName": "Crow Gamer",
+      "description": "Beat the game",
+      "hidden": false,
+      "globalPercent": 29.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 h",
+      "estMinutes": 600,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_tune"
+      ],
+      "summary": "Beat the game by defeating the Last Lord and finishing the story.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "finish",
+            "text": "Play through the story and beat the @enemy{Last Lord}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_umbrella",
+      "displayName": "Academy of Umbrellas",
+      "description": "Beat the game only ever using an umbrella as your melee weapon",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "120 min",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 1,
+      "summary": "Beat the game using only the Discarded Umbrella for melee attacks.",
+      "guide": {
+        "kind": "standard",
+        "context": "Swinging any other melee weapon, even once and even without hitting anything, ends the run. Check the weapon screen: a red background on the Umbrella means you are still eligible.",
+        "steps": [
+          {
+            "id": "get-umbrella",
+            "text": "Before swinging the starting sword, go to the @loc{Hall of Doors} office area. Go left, up the staircase on the left, and take the @item{Discarded Umbrella} leaning on a lamp post.",
+            "kind": "warning"
+          },
+          {
+            "id": "equip",
+            "text": "Equip the Umbrella and never swing another melee weapon for the rest of the game."
+          },
+          {
+            "id": "magic",
+            "text": "Spend your souls on Magic first. Use arrows and spells until your magic runs out, then swing the Umbrella to refill it."
+          },
+          {
+            "id": "finish",
+            "text": "Beat the @enemy{Last Lord}. The Umbrella deals half damage, so fights take longer.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_king",
+      "displayName": "Meal for a King",
+      "description": "Feed the Frog King an explosive treat",
+      "hidden": false,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_hotpot"
+      ],
+      "summary": "Throw a bomb into the Frog King's mouth during his second phase.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Bomb spell, which you get in the @loc{Mushroom Dungeon}.",
+        "steps": [
+          {
+            "id": "phase1",
+            "text": "Fight the @enemy{Frog King} in the @loc{Flooded Fortress} until he grows into his large form."
+          },
+          {
+            "id": "jump",
+            "text": "In the second phase, wait for him to jump off the arena into the water and tilt the arena up."
+          },
+          {
+            "id": "bomb",
+            "text": "When he starts sucking in air, throw a bomb into his open mouth with the Bomb spell."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_hotpot",
+      "displayName": "Hot Pot",
+      "description": "Set Grandma's pot on fire",
+      "hidden": false,
+      "globalPercent": 17.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Set the Urn Witch's pot on fire with a fire attack.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Fire spell, which you get in the @loc{Estate of the Urn Witch}.",
+        "steps": [
+          {
+            "id": "phase2",
+            "text": "In the second phase of the @enemy{Witch of Urns} fight, she hops around inside her pot."
+          },
+          {
+            "id": "fire",
+            "text": "When she falls over and fires projectiles in a circle, hit the pot lid with a fire attack. The fire also stuns her."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_tune",
+      "displayName": "Banging Tune",
+      "description": "Listen to Barb's magnum opus",
+      "hidden": false,
+      "globalPercent": 21.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_clever"
+      ],
+      "summary": "Listen to Barb's whole song in the Stranded Sailor.",
+      "guide": {
+        "kind": "standard",
+        "context": "Barb follows you through @loc{Castle Lockstone} and the @loc{Camp of the Free Crows}.",
+        "steps": [
+          {
+            "id": "giant",
+            "text": "Beat the third Giant."
+          },
+          {
+            "id": "talk",
+            "text": "Return to the @loc{Stranded Sailor} and talk to @npc{Barb}. When she offers to sing, choose \"Yes\". The achievement unlocks when the song ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_clever",
+      "displayName": "Clever Too Much",
+      "description": "Gain a devoted fan",
+      "hidden": false,
+      "globalPercent": 36.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_king"
+      ],
+      "summary": "Free Grunt from his cell, then talk to him again in the Stranded Sailor.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Bomb spell from the @loc{Mushroom Dungeon}.",
+        "steps": [
+          {
+            "id": "free",
+            "text": "Go back to the start of the @loc{Mushroom Dungeon}. Bomb the breakable wall to free @npc{Grunt} from his cell and talk to him."
+          },
+          {
+            "id": "talk",
+            "text": "Find @npc{Grunt} next to the @loc{Hall of Doors} door in the @loc{Stranded Sailor} and talk to him again. The achievement unlocks during the conversation. He may also stand in the @loc{Overgrown Ruins}; talk to him there instead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_specialist",
+      "displayName": "Specialist",
+      "description": "Max out any of the 4 stats",
+      "hidden": false,
+      "globalPercent": 30.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Buy all 5 upgrades for any one of the four stats.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy",
+            "text": "At the big crow by the Soul Vault in the @loc{Hall of Doors} office area, buy all 5 upgrades of one stat: Strength, Dexterity, Haste or Magic. The levels cost 400, 600, 800, 1000 and 1500."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_spend",
+      "displayName": "Big Spender",
+      "description": "Purchase 12 stat upgrades",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "summary": "Buy 12 stat upgrades in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "buy",
+            "text": "At the big crow by the Soul Vault in the @loc{Hall of Doors}, buy any 12 stat upgrades."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_shiny",
+      "displayName": "Ooh Shiny!",
+      "description": "Collect all shiny things",
+      "hidden": false,
+      "globalPercent": 14.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "120 min",
+      "estMinutes": 120,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_game"
+      ],
+      "summary": "Collect all 24 shiny things.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Some need all your spells. A few can only be taken after you beat the game.",
+        "collectibles": [
+          {
+            "id": "co-01",
+            "index": 1,
+            "group": "Lost Cemetery",
+            "name": "Undying Blossom",
+            "location": "Green-topped building in the south",
+            "method": "Walk toward the building; the camera spins and you enter.",
+            "missable": false
+          },
+          {
+            "id": "co-02",
+            "index": 2,
+            "group": "Lost Cemetery",
+            "name": "Incense",
+            "location": "Summit, southwest edge",
+            "method": "From the summit, jump down on the southwest side and climb onto the coffin lid.",
+            "missable": false
+          },
+          {
+            "id": "co-03",
+            "index": 3,
+            "group": "Lost Cemetery",
+            "name": "Old Compass",
+            "location": "Spider caverns",
+            "method": "Take the south exit once you reach the higher ledge. It lies on the floor.",
+            "missable": false
+          },
+          {
+            "id": "co-04",
+            "index": 4,
+            "group": "Lost Cemetery",
+            "name": "Token of Death",
+            "location": "Cave toward the Stranded Sailor",
+            "method": "Hookshot across the water to find it on the other side.",
+            "missable": false
+          },
+          {
+            "id": "co-05",
+            "index": 5,
+            "group": "Ceramic Manor",
+            "name": "Old Engagement Ring",
+            "location": "Rafters above the ballroom",
+            "method": "Climb to the rafters and take it from a shelf.",
+            "missable": false
+          },
+          {
+            "id": "co-06",
+            "index": 6,
+            "group": "Ceramic Manor",
+            "name": "Old Photograph",
+            "location": "Rafters above the ballroom",
+            "method": "Light the brazier in the hallway off to the side. A ladder appears up to the rafters; cross them to reach it. Its back shows the urn order for Plot Head.",
+            "missable": false
+          },
+          {
+            "id": "co-07",
+            "index": 7,
+            "group": "Estate of the Urn Witch",
+            "name": "Sludge-Filled Urn",
+            "location": "West of the estate",
+            "method": "Push through the bushes onto the hidden path, climb the tower and Hookshot across. Follow the pipes and poles to a spot under a platform.",
+            "missable": false
+          },
+          {
+            "id": "co-08",
+            "index": 8,
+            "group": "Estate of the Urn Witch",
+            "name": "Rusty Garden Trowel",
+            "location": "Pothead's secret garden",
+            "method": "Open the garden with the urn puzzle, then take it.",
+            "missable": false
+          },
+          {
+            "id": "co-09",
+            "index": 9,
+            "group": "Grove of Spirits",
+            "name": "Makeshift Soul Key",
+            "location": "South of the grove",
+            "method": "Hookshot across to the pole, then go down the stairs to the south.",
+            "missable": false
+          },
+          {
+            "id": "co-10",
+            "index": 10,
+            "group": "Overgrown Ruins",
+            "name": "Magical Forest Horn",
+            "location": "Northern part, in the open",
+            "method": "Take it from open ground. You need it to reach the Mushroom Dungeon.",
+            "missable": false
+          },
+          {
+            "id": "co-11",
+            "index": 11,
+            "group": "Overgrown Ruins",
+            "name": "Malformed Seed",
+            "location": "Ledge above the Mushroom Dungeon entrance",
+            "method": "Hookshot across the pole and keep hooking until you can drop to its ledge.",
+            "missable": false
+          },
+          {
+            "id": "co-12",
+            "index": 12,
+            "group": "Mushroom Dungeon",
+            "name": "Corrupted Antler",
+            "location": "Room with a breakable wall in the corner",
+            "method": "In the next room, smash the low wall, unlock the gate with the green key, and check beneath the bridge.",
+            "missable": false
+          },
+          {
+            "id": "co-13",
+            "index": 13,
+            "group": "Flooded Fortress",
+            "name": "Giant Arrowhead",
+            "location": "Frog King's area",
+            "method": "After beating the Frog King, climb the ladder at the back of his area and take it from the corner.",
+            "missable": false
+          },
+          {
+            "id": "co-14",
+            "index": 14,
+            "group": "Hall of Doors",
+            "name": "Ancient Door Scale Model",
+            "location": "Southwest",
+            "method": "Once you have Fire, burn the braziers to unlock the gate.",
+            "missable": false
+          },
+          {
+            "id": "co-15",
+            "index": 15,
+            "group": "Hall of Doors",
+            "name": "Modern Door Scale Model",
+            "location": "Floating islands to the east",
+            "method": "Hookshot to the pole on the small island and follow the islands to the end.",
+            "missable": false
+          },
+          {
+            "id": "co-16",
+            "index": 16,
+            "group": "Hall of Doors",
+            "name": "Surveillance Device",
+            "location": "North wall",
+            "method": "Bomb the breakable wall and take it.",
+            "missable": false
+          },
+          {
+            "id": "co-17",
+            "index": 17,
+            "group": "Hall of Doors",
+            "name": "Rusty Belltower Key",
+            "location": "Middle of the lobby",
+            "method": "Pick it up after beating the Last Lord.",
+            "missable": false,
+            "note": "Only available after you beat the game."
+          },
+          {
+            "id": "co-18",
+            "index": 18,
+            "group": "Stranded Sailor",
+            "name": "Captain's Log",
+            "location": "Hole in the cliff side near the stairs",
+            "method": "Go down the stairs, turn around and enter the hole to a small area.",
+            "missable": false
+          },
+          {
+            "id": "co-19",
+            "index": 19,
+            "group": "Stranded Sailor",
+            "name": "Grunt's Old Mask",
+            "location": "By the Hall of Doors door",
+            "method": "Free Grunt in the Mushroom Dungeon, then talk to him here for the mask.",
+            "missable": false
+          },
+          {
+            "id": "co-20",
+            "index": 20,
+            "group": "Stranded Sailor",
+            "name": "Ink-Covered Teddy Bear",
+            "location": "Platform by the dock",
+            "method": "At night, Hookshot to the platform, beat the Giant Knight and climb the ladder.",
+            "missable": false,
+            "note": "You can only get it at night after beating the game."
+          },
+          {
+            "id": "co-21",
+            "index": 21,
+            "group": "Castle Lockstone",
+            "name": "Ancient Crown",
+            "location": "Room north of the main hall",
+            "method": "Drop down the pipe, then turn right at the first chance and follow the pipes to the crown.",
+            "missable": false
+          },
+          {
+            "id": "co-22",
+            "index": 22,
+            "group": "Castle Lockstone",
+            "name": "Death's Contract",
+            "location": "Hidden corridor behind fallen doors",
+            "method": "Fall through the grate in a statue room and follow the hidden corridor.",
+            "missable": false
+          },
+          {
+            "id": "co-23",
+            "index": 23,
+            "group": "Camp of the Free Crows",
+            "name": "Shiny Medallion",
+            "location": "Cave behind the lift",
+            "method": "Break the wall behind the lift and enter the cave.",
+            "missable": false
+          },
+          {
+            "id": "co-24",
+            "index": 24,
+            "group": "Old Watchtowers",
+            "name": "Mysterious Locket",
+            "location": "Ledge above Betty's Lair",
+            "method": "Smash the ice beside the lair and climb to the ledge. The door opens at night.",
+            "missable": false,
+            "note": "You can only get it at night after beating the game."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_weapons",
+      "displayName": "Weapon Master",
+      "description": "Collect all weapons",
+      "hidden": false,
+      "globalPercent": 26.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_clever"
+      ],
+      "summary": "Collect all 5 melee weapons.",
+      "guide": {
+        "kind": "standard",
+        "context": "You start with the Reaper's Sword, so you need 4 more. Collecting them is enough; you do not have to swing them.",
+        "steps": [
+          {
+            "id": "umbrella",
+            "text": "Discarded Umbrella: in the @loc{Hall of Doors}, go left of the office area and up the left staircase. It leans on a lamp post."
+          },
+          {
+            "id": "daggers",
+            "text": "Rogue Daggers: in the @loc{Estate of the Urn Witch}, behind a locked gate next to the @loc{Ceramic Manor} entrance. First walk east, then loop back to reach the gate."
+          },
+          {
+            "id": "hammer",
+            "text": "Thunder Hammer: in the @loc{Overgrown Ruins}, pull the lever that opens the other @loc{Mushroom Dungeon} entrance. Go through the gate and two rooms, break the crates around the hole and drop onto the platform with the hammer."
+          },
+          {
+            "id": "sword",
+            "text": "Reaper's Great Sword: behind a locked gate on the @loc{Stranded Sailor}'s western docks. Find and press 4 hidden switches first. Each one is behind a wall you open with the Bomb spell."
+          },
+          {
+            "id": "switch1",
+            "text": "Switch 1: bomb the wall under the long stairs behind Jefferson's boat."
+          },
+          {
+            "id": "switch2",
+            "text": "Switch 2: from switch 1 go up the stairs and bomb the wall opposite the big stone head."
+          },
+          {
+            "id": "switch3",
+            "text": "Switch 3: go down the wooden stairs, left over the wooden bridge, and bomb the first wall after the bridge."
+          },
+          {
+            "id": "switch4",
+            "text": "Switch 4: climb the stone stairway behind the tower building after breaking the ice crystals, and bomb the wall below the gargoyle."
+          },
+          {
+            "id": "take",
+            "text": "Cross the wooden bridge from the @loc{Hall of Doors} door, take the left bridge, Hookshot across, pull the lever that unlocks the gate, and take the sword."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_shrines",
+      "displayName": "Zen",
+      "description": "Find all shrines",
+      "hidden": false,
+      "globalPercent": 17.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "summary": "Pray at all 16 shrines.",
+      "guide": {
+        "kind": "collectible",
+        "context": "There are 8 vitality and 8 magic shrines. Four shrines of one kind give one upgrade.",
+        "collectibles": [
+          {
+            "id": "pr-01",
+            "index": 1,
+            "group": "Lost Cemetery",
+            "name": "Vitality Shrine 1",
+            "location": "Behind the lift building",
+            "method": "Take the lift down, circle behind the building, go down the ladders and into the cave.",
+            "missable": false
+          },
+          {
+            "id": "pr-02",
+            "index": 2,
+            "group": "Lost Cemetery",
+            "name": "Vitality Shrine 3",
+            "location": "North walkway from the Reaper Door",
+            "method": "With the Hookshot, hook to the walkway north of the Reaper Door, follow the broken bridge and drop down.",
+            "missable": false
+          },
+          {
+            "id": "pr-03",
+            "index": 3,
+            "group": "Lost Cemetery",
+            "name": "Magic Shrine 4",
+            "location": "Before the cave to the Stranded Sailor",
+            "method": "Drop down the ladder, break the wall and beat the Giant Knight. Take the west exit and climb the ladders.",
+            "missable": false
+          },
+          {
+            "id": "pr-04",
+            "index": 4,
+            "group": "Estate of the Urn Witch",
+            "name": "Magic Shrine 1",
+            "location": "Northwest hedges",
+            "method": "Push into the bush at the center of the hedges, then continue north through more bushes.",
+            "missable": false
+          },
+          {
+            "id": "pr-05",
+            "index": 5,
+            "group": "Estate of the Urn Witch",
+            "name": "Vitality Shrine 4",
+            "location": "East of the estate",
+            "method": "Light all the fires so a bridge rises to a small island. Cross it and go down the ladder.",
+            "missable": false
+          },
+          {
+            "id": "pr-06",
+            "index": 6,
+            "group": "Ceramic Manor",
+            "name": "Magic Shrine 2",
+            "location": "Bathroom",
+            "method": "Look at the floor reflections to see jars that are not in the room. Hit those invisible jars to open the door.",
+            "missable": false
+          },
+          {
+            "id": "pr-07",
+            "index": 7,
+            "group": "Furnace Observation Rooms",
+            "name": "Vitality Shrine 5",
+            "location": "Bull lift platform",
+            "method": "Use the northeast bull lift, then take the ladder north and walk west along the pipes.",
+            "missable": false
+          },
+          {
+            "id": "pr-08",
+            "index": 8,
+            "group": "Overgrown Ruins",
+            "name": "Magic Shrine 3",
+            "location": "Before the forest village",
+            "method": "Drop over the edge, then walk north after the camera pans.",
+            "missable": false
+          },
+          {
+            "id": "pr-09",
+            "index": 9,
+            "group": "Overgrown Ruins",
+            "name": "Vitality Shrine 2",
+            "location": "North of the ruins",
+            "method": "Break the low wall, stomp down into the pipe and follow it out onto an eastern ledge. The shrine is in the cave there.",
+            "missable": false
+          },
+          {
+            "id": "pr-10",
+            "index": 10,
+            "group": "Overgrown Ruins",
+            "name": "Magic Shrine 6",
+            "location": "West of the entrance gondola",
+            "method": "Hookshot over the water, hit the button with an arrow, and survive the enemy waves, which end with the Poison Knight. Climb the vine, then take the stairs north.",
+            "missable": false
+          },
+          {
+            "id": "pr-11",
+            "index": 11,
+            "group": "Mushroom Dungeon",
+            "name": "Vitality Shrine 6",
+            "location": "Room with the grenade knights",
+            "method": "Bomb the breakable wall in the corner. In the next room, light 3 fires to open the gate.",
+            "missable": false
+          },
+          {
+            "id": "pr-12",
+            "index": 12,
+            "group": "Flooded Fortress",
+            "name": "Magic Shrine 7",
+            "location": "North of the start",
+            "method": "Walk the north walkway and fire an arrow through the arch at the distant button. Follow the new tiles north.",
+            "missable": false
+          },
+          {
+            "id": "pr-13",
+            "index": 13,
+            "group": "Stranded Sailor",
+            "name": "Magic Shrine 5",
+            "location": "Behind the stairs building",
+            "method": "Go up the stairs and behind the building, drop by the gargoyle, drop again, and stomp into the pipe. Follow it to the shrine.",
+            "missable": false
+          },
+          {
+            "id": "pr-14",
+            "index": 14,
+            "group": "Stranded Sailor",
+            "name": "Vitality Shrine 7",
+            "location": "Western docks",
+            "method": "Hookshot north across the docks, beat all the enemies and climb the ladders.",
+            "missable": false
+          },
+          {
+            "id": "pr-15",
+            "index": 15,
+            "group": "Castle Lockstone",
+            "name": "Magic Shrine 8",
+            "location": "Outside, west",
+            "method": "Light the brazier in the west statue room and leave south. Hookshot into the alcove and pull the hidden lever to open the west gate.",
+            "missable": false
+          },
+          {
+            "id": "pr-16",
+            "index": 16,
+            "group": "Old Watchtowers",
+            "name": "Vitality Shrine 8",
+            "location": "West cave and icy path",
+            "method": "Take the west path and Hookshot across the gaps. Cross the ice, shooting buttons and running onto pillars when they lower.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_jeff",
+      "displayName": "A Stroll with Jefferson",
+      "description": "Take a midnight stroll with Jefferson",
+      "hidden": true,
+      "globalPercent": 17.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_game"
+      ],
+      "summary": "Carry Jefferson on your back at night after beating the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can only do this after beating the game.",
+        "steps": [
+          {
+            "id": "key",
+            "text": "Pick up the @item{Rusty Belltower Key} the Last Lord drops in the @loc{Hall of Doors} lobby."
+          },
+          {
+            "id": "bell",
+            "text": "In the @loc{Lost Cemetery}, go to the belltower by the entrance to the @loc{Estate of the Urn Witch}. Unlock the gate, climb up and hit the bell with your weapon to make it night."
+          },
+          {
+            "id": "bear",
+            "text": "At night in the @loc{Stranded Sailor}, go to the dock and Hookshot to the platform. Beat the @enemy{Giant Knight}, climb the ladder and take the @item{Ink-Covered Teddy Bear}."
+          },
+          {
+            "id": "jeff",
+            "text": "Bring the Teddy Bear to @npc{Jefferson} in the big ship building and talk to him. He jumps on your back."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_plants",
+      "displayName": "Reap what you sow",
+      "description": "All seeds collected and planted",
+      "hidden": false,
+      "globalPercent": 14.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "150 min",
+      "estMinutes": 150,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_pothead"
+      ],
+      "summary": "Collect all 50 Life Seeds and plant each one in a pot.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each seed must also be planted in a pot. Pots are in the same areas, and 2 of them are in the secret garden of the Estate of the Urn Witch. After you beat the game, doors in the Hall of Doors glow red when that level has an unplanted pot. With the Rusty Garden Trowel, your inventory glows blue at night in a region with a seed left. Pothead in his secret garden at night hints at which areas still have empty pots.",
+        "collectibles": [
+          {
+            "id": "co-01",
+            "index": 1,
+            "group": "Lost Cemetery",
+            "name": "Life Seed 1",
+            "location": "Under the bridge",
+            "method": "When the Grey Crow flies overhead, enter the building to the northwest and exit the other side.",
+            "missable": false
+          },
+          {
+            "id": "co-02",
+            "index": 2,
+            "group": "Lost Cemetery",
+            "name": "Life Seed 2",
+            "location": "Southwest of the Reaper Door",
+            "method": "Climb the ladder on the building.",
+            "missable": false
+          },
+          {
+            "id": "co-03",
+            "index": 3,
+            "group": "Lost Cemetery",
+            "name": "Life Seed 3",
+            "location": "West cavern",
+            "method": "Cross the chasm to the end of the broken bridge.",
+            "missable": false
+          },
+          {
+            "id": "co-04",
+            "index": 4,
+            "group": "Lost Cemetery",
+            "name": "Life Seed 4",
+            "location": "West of the lift",
+            "method": "It is just above the long ladder to the large west door.",
+            "missable": false
+          },
+          {
+            "id": "co-05",
+            "index": 5,
+            "group": "Lost Cemetery",
+            "name": "Life Seed 27",
+            "location": "Cave to the Stranded Sailor",
+            "method": "Go northwest, enter the cave and break the crates in the corner.",
+            "missable": false
+          },
+          {
+            "id": "co-06",
+            "index": 6,
+            "group": "Estate of the Urn Witch",
+            "name": "Life Seed 5",
+            "location": "South of the lift",
+            "method": "Go around the rocks after the lift.",
+            "missable": false
+          },
+          {
+            "id": "co-07",
+            "index": 7,
+            "group": "Estate of the Urn Witch",
+            "name": "Life Seed 6",
+            "location": "First locked gate",
+            "method": "Enter the bushes on the northwest side.",
+            "missable": false
+          },
+          {
+            "id": "co-08",
+            "index": 8,
+            "group": "Estate of the Urn Witch",
+            "name": "Life Seed 7",
+            "location": "West side",
+            "method": "It lies on the ground.",
+            "missable": false
+          },
+          {
+            "id": "co-09",
+            "index": 9,
+            "group": "Estate of the Urn Witch",
+            "name": "Life Seed 8",
+            "location": "West garden",
+            "method": "It is next to a bench.",
+            "missable": false
+          },
+          {
+            "id": "co-10",
+            "index": 10,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 9",
+            "location": "By the Ancient Door",
+            "method": "Go up the stairs; it is on the north side.",
+            "missable": false
+          },
+          {
+            "id": "co-11",
+            "index": 11,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 10",
+            "location": "West door",
+            "method": "It is on top of a shelf.",
+            "missable": false
+          },
+          {
+            "id": "co-12",
+            "index": 12,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 11",
+            "location": "Vase room",
+            "method": "It is on a shelf.",
+            "missable": false
+          },
+          {
+            "id": "co-13",
+            "index": 13,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 12",
+            "location": "After the braziers",
+            "method": "Climb the ladder and break the crates in the corner of the room above.",
+            "missable": false
+          },
+          {
+            "id": "co-14",
+            "index": 14,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 13",
+            "location": "South ballroom",
+            "method": "It is on the walkway.",
+            "missable": false
+          },
+          {
+            "id": "co-15",
+            "index": 15,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 14",
+            "location": "Ballroom rafters",
+            "method": "Climb the long ladder.",
+            "missable": false
+          },
+          {
+            "id": "co-16",
+            "index": 16,
+            "group": "Ceramic Manor",
+            "name": "Life Seed 15",
+            "location": "North of the Ancient Door",
+            "method": "Go through the north door; it is on a shelf.",
+            "missable": false
+          },
+          {
+            "id": "co-17",
+            "index": 17,
+            "group": "Overgrown Ruins",
+            "name": "Life Seed 16",
+            "location": "Higher platform",
+            "method": "Swipe the vine to climb up and break the crates.",
+            "missable": false
+          },
+          {
+            "id": "co-18",
+            "index": 18,
+            "group": "Overgrown Ruins",
+            "name": "Life Seed 17",
+            "location": "North grass strip",
+            "method": "Beat the fire plants and go to the end of the strip.",
+            "missable": false
+          },
+          {
+            "id": "co-19",
+            "index": 19,
+            "group": "Overgrown Ruins",
+            "name": "Life Seed 18",
+            "location": "Behind the forest village",
+            "method": "Climb the ladder and follow the stone walkway to the left.",
+            "missable": false
+          },
+          {
+            "id": "co-20",
+            "index": 20,
+            "group": "Overgrown Ruins",
+            "name": "Life Seed 19",
+            "location": "Southeast",
+            "method": "It is in the open near the tick-infested ground.",
+            "missable": false
+          },
+          {
+            "id": "co-21",
+            "index": 21,
+            "group": "Overgrown Ruins",
+            "name": "Life Seed 20",
+            "location": "Statue head",
+            "method": "It sits in the grass, hidden behind a large stone head.",
+            "missable": false
+          },
+          {
+            "id": "co-22",
+            "index": 22,
+            "group": "Overgrown Ruins",
+            "name": "Life Seed 21",
+            "location": "East wall",
+            "method": "Break the wall with the bomb plant and drop down.",
+            "missable": false
+          },
+          {
+            "id": "co-23",
+            "index": 23,
+            "group": "Mushroom Dungeon",
+            "name": "Life Seed 22",
+            "location": "Bridge where the Frog King talks",
+            "method": "It is in the open on the bridge.",
+            "missable": false
+          },
+          {
+            "id": "co-24",
+            "index": 24,
+            "group": "Mushroom Dungeon",
+            "name": "Life Seed 23",
+            "location": "Key room to the south",
+            "method": "Look on a ledge to the west.",
+            "missable": false
+          },
+          {
+            "id": "co-25",
+            "index": 25,
+            "group": "Mushroom Dungeon",
+            "name": "Life Seed 24",
+            "location": "Stairs toward an exit",
+            "method": "It is by the gate at the top.",
+            "missable": false
+          },
+          {
+            "id": "co-26",
+            "index": 26,
+            "group": "Mushroom Dungeon",
+            "name": "Life Seed 25",
+            "location": "Southwest exit after a battle",
+            "method": "Look on the ledge beside a wall you can break.",
+            "missable": false
+          },
+          {
+            "id": "co-27",
+            "index": 27,
+            "group": "Mushroom Dungeon",
+            "name": "Life Seed 26",
+            "location": "West of the Ancient Door",
+            "method": "Use the room with another key; it is behind a breakable wall.",
+            "missable": false
+          },
+          {
+            "id": "co-28",
+            "index": 28,
+            "group": "Stranded Sailor",
+            "name": "Life Seed 28",
+            "location": "North",
+            "method": "Look on a crate near a little campsite.",
+            "missable": false
+          },
+          {
+            "id": "co-29",
+            "index": 29,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 29",
+            "location": "North exit to the Ancient Door",
+            "method": "It is in a crate behind the door.",
+            "missable": false
+          },
+          {
+            "id": "co-30",
+            "index": 30,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 30",
+            "location": "West of the main hall",
+            "method": "Climb the ladder and break the crates to the right.",
+            "missable": false
+          },
+          {
+            "id": "co-31",
+            "index": 31,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 31",
+            "location": "Spinning laser puzzle",
+            "method": "It is by the far wall.",
+            "missable": false
+          },
+          {
+            "id": "co-32",
+            "index": 32,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 32",
+            "location": "West exit, then south",
+            "method": "Break the crates.",
+            "missable": false
+          },
+          {
+            "id": "co-33",
+            "index": 33,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 43",
+            "location": "Secret gate on the west side",
+            "method": "Open the gate to the outside, cross the platforms south, and look behind the closed gate.",
+            "missable": false
+          },
+          {
+            "id": "co-34",
+            "index": 34,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 44",
+            "location": "Outside campsite",
+            "method": "Break the crates.",
+            "missable": false
+          },
+          {
+            "id": "co-35",
+            "index": 35,
+            "group": "Castle Lockstone",
+            "name": "Life Seed 45",
+            "location": "Path to the Camp of the Free Crows",
+            "method": "Pass the fires and climb the ladders to the top ledge.",
+            "missable": false
+          },
+          {
+            "id": "co-36",
+            "index": 36,
+            "group": "Furnace Observation Rooms",
+            "name": "Life Seed 33",
+            "location": "North building",
+            "method": "Smash the crates along the far wall.",
+            "missable": false
+          },
+          {
+            "id": "co-37",
+            "index": 37,
+            "group": "Furnace Observation Rooms",
+            "name": "Life Seed 34",
+            "location": "South of the shrine",
+            "method": "Drop down south and break the crates.",
+            "missable": false
+          },
+          {
+            "id": "co-38",
+            "index": 38,
+            "group": "Furnace Observation Rooms",
+            "name": "Life Seed 35",
+            "location": "Conveyor",
+            "method": "Run backwards along the conveyor, climb the pistons and follow the path.",
+            "missable": false
+          },
+          {
+            "id": "co-39",
+            "index": 39,
+            "group": "Furnace Observation Rooms",
+            "name": "Life Seed 36",
+            "location": "Pistons over the chasm",
+            "method": "Run to the south side.",
+            "missable": false
+          },
+          {
+            "id": "co-40",
+            "index": 40,
+            "group": "Furnace Observation Rooms",
+            "name": "Life Seed 37",
+            "location": "Conveyor with pistons",
+            "method": "It is at the south end.",
+            "missable": false
+          },
+          {
+            "id": "co-41",
+            "index": 41,
+            "group": "Flooded Fortress",
+            "name": "Life Seed 38",
+            "location": "Southeast",
+            "method": "Break the crates; it is underneath.",
+            "missable": false
+          },
+          {
+            "id": "co-42",
+            "index": 42,
+            "group": "Flooded Fortress",
+            "name": "Life Seed 39",
+            "location": "Tower",
+            "method": "Climb up, beat the enemy and break the crate.",
+            "missable": false
+          },
+          {
+            "id": "co-43",
+            "index": 43,
+            "group": "Flooded Fortress",
+            "name": "Life Seed 40",
+            "location": "Giant Frog King statue",
+            "method": "It is on a platform to the south.",
+            "missable": false
+          },
+          {
+            "id": "co-44",
+            "index": 44,
+            "group": "Flooded Fortress",
+            "name": "Life Seed 41",
+            "location": "South walkway",
+            "method": "Smash the crates on the eastern side; enemies appear when you do.",
+            "missable": false
+          },
+          {
+            "id": "co-45",
+            "index": 45,
+            "group": "Flooded Fortress",
+            "name": "Life Seed 42",
+            "location": "West platforms",
+            "method": "Drop down west, beat the archers to the north, and look in the top corner.",
+            "missable": false
+          },
+          {
+            "id": "co-46",
+            "index": 46,
+            "group": "Camp of the Free Crows",
+            "name": "Life Seed 46",
+            "location": "Northern stall",
+            "method": "It sits in the northern stall.",
+            "missable": false
+          },
+          {
+            "id": "co-47",
+            "index": 47,
+            "group": "Old Watchtowers",
+            "name": "Life Seed 47",
+            "location": "Drop-down area",
+            "method": "Break the crates on the ground.",
+            "missable": false
+          },
+          {
+            "id": "co-48",
+            "index": 48,
+            "group": "Old Watchtowers",
+            "name": "Life Seed 48",
+            "location": "Northeast door",
+            "method": "Look just outside the northeast door of the tablet room with the 6 fires.",
+            "missable": false
+          },
+          {
+            "id": "co-49",
+            "index": 49,
+            "group": "Old Watchtowers",
+            "name": "Life Seed 49",
+            "location": "Collapsing platforms",
+            "method": "Hookshot to the ledge with 2 archers.",
+            "missable": false
+          },
+          {
+            "id": "co-50",
+            "index": 50,
+            "group": "Old Watchtowers",
+            "name": "Life Seed 50",
+            "location": "Icy path",
+            "method": "It is behind the lever and gate, past the slippery ice.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_conga",
+      "displayName": "Conga Line",
+      "description": "Have a gang of 10+ forest spirits follow you",
+      "hidden": false,
+      "globalPercent": 16.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Have 10 or more forest spirits following you at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "gather",
+            "text": "In the @loc{Grove of Spirits}, walk up close to the little green forest spirits and they start following you."
+          },
+          {
+            "id": "gate",
+            "text": "Lead them to the gate of the first boss. After the boss, round up the new spirits and lead them back to that gate, where the first group waits."
+          },
+          {
+            "id": "alt",
+            "text": "Alternative: once you have the Hookshot, return, grab the hidden item and the spirits beside it, then collect the remaining ones. You do not need to fight the boss again.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_pothead",
+      "displayName": "Plot Head",
+      "description": "Access Pothead's secret garden",
+      "hidden": false,
+      "globalPercent": 24.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Open the secret garden behind the urn puzzle in the Estate of the Urn Witch.",
+      "guide": {
+        "kind": "standard",
+        "context": "The correct order is shown on the reverse side of the Old Photograph, a shiny thing in the @loc{Ceramic Manor}. See the Ooh Shiny! list for where to find it.",
+        "steps": [
+          {
+            "id": "urns",
+            "text": "In the west of the @loc{Estate of the Urn Witch}, find the chessboard of urns. Break 5 urns in the order shown on the reverse of the @item{Old Photograph}."
+          },
+          {
+            "id": "reset",
+            "text": "If you break the wrong urns, wait a few seconds or break 5 urns to reset the board.",
+            "kind": "tip"
+          },
+          {
+            "id": "garden",
+            "text": "Walk through the opened passage to the other side and take the @item{Rusty Garden Trowel}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_chore",
+      "displayName": "Lord of Chores",
+      "description": "100% Complete the game",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_truth",
+        "ach_shiny",
+        "ach_shrines",
+        "ach_plants",
+        "ach_weapons",
+        "ach_fire",
+        "ach_bomb",
+        "ach_hook",
+        "ach_arrow"
+      ],
+      "summary": "Reach 100% completion on a save file.",
+      "guide": {
+        "kind": "standard",
+        "context": "In the @loc{Hall of Doors}, a glowing level door means that level is not finished. Your save file shows the percentage.",
+        "steps": [
+          {
+            "id": "list",
+            "text": "Finish all of these: plant all 50 Life Seeds, pray at all 16 shrines, collect all 24 shiny things, upgrade all four abilities, and collect all 5 weapons."
+          },
+          {
+            "id": "owls",
+            "text": "Meet the 3 owls and collect all 7 tablets for the true ending."
+          },
+          {
+            "id": "digger",
+            "text": "Once every shiny thing is collected, go at night to the @loc{Lost Cemetery} and beat the @enemy{Grave Digger}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_soup",
+      "displayName": "Squid Soup?",
+      "description": "Accept Jefferson's Soup",
+      "hidden": false,
+      "globalPercent": 39.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_king"
+      ],
+      "summary": "Accept the soup offered by Jefferson in the Stranded Sailor.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "soup",
+            "text": "Enter the big ship building in the @loc{Stranded Sailor}, talk to @npc{Jefferson}, and choose \"Yes\"."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_tsa",
+      "displayName": "Baul Plart, Hall Cop",
+      "description": "Trigger the metal detector without detecting a threat",
+      "hidden": false,
+      "globalPercent": 9.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Walk through the Hall of Doors metal detector without it detecting a threat.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "spirit",
+            "text": "Once you are about as far as the @loc{Ceramic Manor}, find the forest spirit sitting on a bench in the @loc{Hall of Doors}. Make it follow you."
+          },
+          {
+            "id": "scan",
+            "text": "Go to the far south end of the map, where the game begins, and walk through the metal detector."
+          },
+          {
+            "id": "umbrella",
+            "text": "Walking through with the Umbrella equipped also works.",
+            "kind": "tip"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_owls",
+      "displayName": "In Caw-Hoots",
+      "description": "Meet with 3 owls",
+      "hidden": true,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_game"
+      ],
+      "summary": "Meet all 3 owls at night after beating the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bell must be rung first to make it night: pick up the @item{Rusty Belltower Key} in the @loc{Hall of Doors} lobby and hit the bell in the @loc{Lost Cemetery}.",
+        "steps": [
+          {
+            "id": "estate",
+            "text": "@loc{Estate of the Urn Witch}: find the owl on the bridge outside, a little to the right of the manor entrance."
+          },
+          {
+            "id": "ruins",
+            "text": "@loc{Overgrown Ruins}: find the owl above the abandoned forest settlement."
+          },
+          {
+            "id": "towers",
+            "text": "@loc{Old Watchtowers}: pass the icy path with the targeting lasers. The owl is at the end, by a lever."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_fire",
+      "displayName": "Cremation",
+      "description": "Upgrade the fire ability",
+      "hidden": false,
+      "globalPercent": 30.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upgrade the Fire ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Fire spell from the @loc{Estate of the Urn Witch}.",
+        "steps": [
+          {
+            "id": "go",
+            "text": "Find the building with the bird cage elevator. It sits between the @loc{Lost Cemetery} and the @loc{Estate of the Urn Witch}."
+          },
+          {
+            "id": "door",
+            "text": "Leave the elevator room and take the other exit, guarded by 2 flaming guardians. Burn the cobweb doorway with a fire attack."
+          },
+          {
+            "id": "boss",
+            "text": "Go through the mini boss door and beat the mini boss to get the upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_bomb",
+      "displayName": "Demo Crow",
+      "description": "Upgrade the bomb ability",
+      "hidden": false,
+      "globalPercent": 28.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Upgrade the Bomb ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Bomb spell from the @loc{Mushroom Dungeon}.",
+        "steps": [
+          {
+            "id": "go",
+            "text": "In the @loc{Lost Cemetery}, go to the east side past the sign pointing to the @loc{Overgrown Ruins}, below the long bridge."
+          },
+          {
+            "id": "boss",
+            "text": "Bomb the hidden entrance, enter the arena and beat the mini boss to get the upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_hook",
+      "displayName": "Crouching Tiger Hidden Crow",
+      "description": "Upgrade the hookshot ability",
+      "hidden": false,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Upgrade the Hookshot ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Hookshot spell.",
+        "steps": [
+          {
+            "id": "lever",
+            "text": "Inside the cave you pass through on the way from the @loc{Stranded Sailor} back to the @loc{Lost Cemetery}, Hookshot to the small island and pull the lever, then Hookshot back."
+          },
+          {
+            "id": "boss",
+            "text": "Enter the opened gate with 2 green guardians and beat the mini boss to get the upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_arrow",
+      "displayName": "Hawk Eye",
+      "description": "Upgrade the arrow ability",
+      "hidden": false,
+      "globalPercent": 25.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_fire",
+        "ach_bomb",
+        "ach_hook"
+      ],
+      "summary": "Upgrade the Arrow ability.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the Fire, Bomb and Hookshot spells to reach this area.",
+        "steps": [
+          {
+            "id": "go",
+            "text": "In the @loc{Lost Cemetery}, enter the tower to the left of the @loc{Hall of Doors} door."
+          },
+          {
+            "id": "fight",
+            "text": "Beat the many enemies and light the braziers, then beat the mini boss to get the upgrade."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_truth",
+      "displayName": "A True End",
+      "description": "Reach the true ending",
+      "hidden": true,
+      "globalPercent": 14.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_owls",
+        "ach_plants",
+        "ach_jeff",
+        "ach_shiny"
+      ],
+      "summary": "Place all 7 tablets on the wall in the Camp of the Free Crows to unlock the true ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can only do this after beating the game. The bell must be rung first to make it night, and it must stay night for the tablets. Hit the bell as described in the A Stroll with Jefferson guide.",
+        "steps": [
+          {
+            "id": "night",
+            "text": "Pick up the @item{Rusty Belltower Key} in the @loc{Hall of Doors} lobby and ring the bell in the @loc{Lost Cemetery} to make it night."
+          },
+          {
+            "id": "t1",
+            "text": "Tablet 1: in the @loc{Lost Cemetery} at night, lead all 7 pink lost ghosts to the statues near them. Hit a ghost with your weapon to steer it. When all are placed, a large door in the south opens with the tablet."
+          },
+          {
+            "id": "t2",
+            "text": "Tablet 2: meet the 3 owls. Each one gives a fragment."
+          },
+          {
+            "id": "t3",
+            "text": "Tablet 3: plant all 50 Life Seeds. A door opens in the secret garden of the @loc{Estate of the Urn Witch}."
+          },
+          {
+            "id": "t4",
+            "text": "Tablet 4: in the @loc{Overgrown Ruins}, go south from the @loc{Hall of Doors} door past the gondola area. Open the chest and beat 4 waves of enemies."
+          },
+          {
+            "id": "t5",
+            "text": "Tablet 5: with the Teddy Bear, talk to @npc{Jefferson}. He rides your back, and you cannot use the Reaper Doors. Walk through the @loc{Lost Cemetery}, take the gondola to the @loc{Overgrown Ruins}, and go through the @loc{Mushroom Dungeon} to the @loc{Flooded Fortress}. Follow the glowing tiles to the shrine and pray."
+          },
+          {
+            "id": "t6",
+            "text": "Tablet 6: in the @loc{Old Watchtowers}, light all 6 braziers with Fire. Go through the door that opens in the northeast."
+          },
+          {
+            "id": "t7",
+            "text": "Tablet 7: with the Mysterious Locket, open the Mausoleum in the @loc{Lost Cemetery} at night and beat the @enemy{Grave Digger}."
+          },
+          {
+            "id": "place",
+            "text": "Return to the @loc{Camp of the Free Crows}, then place all 7 tablets on the wall at the northeast end. Walk down the path that opens to see the true ending."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ach_umbrella",
+    "ach_conga",
+    "ach_tsa",
+    "ach_pothead",
+    "ach_hotpot",
+    "ach_fire",
+    "ach_bomb",
+    "ach_king",
+    "ach_soup",
+    "ach_clever",
+    "ach_tune",
+    "ach_hook",
+    "ach_arrow",
+    "ach_weapons",
+    "ach_spend",
+    "ach_specialist",
+    "ach_game",
+    "ach_jeff",
+    "ach_owls",
+    "ach_shrines",
+    "ach_plants",
+    "ach_shiny",
+    "ach_truth",
+    "ach_chore"
+  ]
+}

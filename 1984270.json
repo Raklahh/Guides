@@ -1,0 +1,2349 @@
+{
+  "game": {
+    "appid": 1984270,
+    "slug": "digimon-story-time-stranger",
+    "title": "Digimon Story Time Stranger",
+    "version": "1.0",
+    "lastPatchChecked": "2026-10-26",
+    "estTotalHours": 80,
+    "difficultyRating": 5,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First playthrough",
+      "description": "Play the full story, buying costumes, training on the Digifarm and fighting for conversions and digivolutions as they open.",
+      "achievementRefs": [
+        "ACH_ID_01",
+        "ACH_ID_02",
+        "ACH_ID_03",
+        "ACH_ID_04",
+        "ACH_ID_05",
+        "ACH_ID_06",
+        "ACH_ID_07",
+        "ACH_ID_08",
+        "ACH_ID_09",
+        "ACH_ID_10",
+        "ACH_ID_11",
+        "ACH_ID_12",
+        "ACH_ID_13",
+        "ACH_ID_14",
+        "ACH_ID_15",
+        "ACH_ID_16",
+        "ACH_ID_17",
+        "ACH_ID_18",
+        "ACH_ID_19",
+        "ACH_ID_20",
+        "ACH_ID_21",
+        "ACH_ID_22",
+        "ACH_ID_23",
+        "ACH_ID_24",
+        "ACH_ID_27",
+        "ACH_ID_29",
+        "ACH_ID_30",
+        "ACH_ID_31",
+        "ACH_ID_32",
+        "ACH_ID_36",
+        "ACH_ID_28",
+        "ACH_ID_44",
+        "ACH_ID_25"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Post-game cleanup",
+      "description": "After the final boss, load the cleared save to finish the end-of-story side missions, Outer Dungeons, Greatest OMNI Carnival, card quest and Agent Rank.",
+      "achievementRefs": [
+        "ACH_ID_33",
+        "ACH_ID_34",
+        "ACH_ID_35",
+        "ACH_ID_37",
+        "ACH_ID_38",
+        "ACH_ID_40",
+        "ACH_ID_41",
+        "ACH_ID_42",
+        "ACH_ID_43",
+        "ACH_ID_45",
+        "ACH_ID_39"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "New Game Plus on Mega+",
+      "description": "Start New Game Plus on an easier difficulty and switch to Mega+ before the final boss.",
+      "achievementRefs": [
+        "ACH_ID_26",
+        "ACH_ID_46"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ACH_ID_01",
+      "displayName": "My Very First Battle",
+      "description": "Defeat an enemy for the first time.",
+      "hidden": false,
+      "globalPercent": 96.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Tutorial battle early in the story.",
+      "prerequisites": [],
+      "summary": "Win your first fight against an enemy.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win the first battle in the opening tutorial."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_02",
+      "displayName": "The Secrets of Conversion",
+      "description": "Convert a Digimon with a Scan Rate of 200%.",
+      "hidden": false,
+      "globalPercent": 95.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "early",
+      "sortReason": "Raise Scan Rate on early wild Digimon.",
+      "prerequisites": [],
+      "summary": "Convert a Digimon that has a 200% Scan Rate.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each defeat adds about 20% Scan Rate, and Convert works once the rate is between 100% and 200%.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Defeat the same wild Digimon again and again until its Scan Rate reaches 200%."
+          },
+          {
+            "id": "s2",
+            "text": "Open the @mechanic{Digivice}, open the Digimon menu, select @mechanic{Convert}, and pick that Digimon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_03",
+      "displayName": "Signs of an Anomaly",
+      "description": "Witness signs of an anomaly.",
+      "hidden": true,
+      "globalPercent": 96.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "summary": "Complete the main mission Signs of an Anomaly.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Signs of an Anomaly} by defeating @enemy{Kuwagamon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_04",
+      "displayName": "The Shinjuku Inferno",
+      "description": "Get caught in the Tokyo Metropolitan Government Building explosion.",
+      "hidden": true,
+      "globalPercent": 93.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_03"
+      ],
+      "summary": "Complete the main mission The View after the End.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The View after the End}. The explosion scene unlocks the achievement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_05",
+      "displayName": "The Time Stranger",
+      "description": "Travel through time into the past.",
+      "hidden": true,
+      "globalPercent": 90.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_04"
+      ],
+      "summary": "Complete the main mission The Time Stranger.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Time Stranger} to travel into the past."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_06",
+      "displayName": "Welcome to the In-Between Theater",
+      "description": "Visit the special dimension between space-time worlds known as the In-Between.",
+      "hidden": true,
+      "globalPercent": 88.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_05"
+      ],
+      "summary": "Enter the In-Between Theater for the first time in the main mission The Time Stranger.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "While playing @loc{The Time Stranger}, use the door in the @loc{Kabukicho back alley} to step into the @loc{In-Between Theater}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_07",
+      "displayName": "Visitor from the Digital World",
+      "description": "Befriend Minervamon.",
+      "hidden": true,
+      "globalPercent": 83.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_06"
+      ],
+      "summary": "Complete the main mission Shinjuku Rhapsody and befriend Minervamon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Shinjuku Rhapsody} by defeating @enemy{Greymon (Blue)}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_08",
+      "displayName": "The World Where Digimon Live",
+      "description": "Visit the Digital World.",
+      "hidden": true,
+      "globalPercent": 78.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_07"
+      ],
+      "summary": "Complete the main mission To the Untrodden World to visit the Digital World.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{To the Untrodden World}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_09",
+      "displayName": "A Moment's Respite",
+      "description": "Reclaim Central Tower.",
+      "hidden": true,
+      "globalPercent": 74.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_08"
+      ],
+      "summary": "Complete the main mission Gathering Storm Clouds by reclaiming Central Tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "@npc{Merukimon} joins the fight partway through, which makes it easier.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Beat @enemy{Parrotmon}, the boss waiting on top of @loc{Central Tower}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_10",
+      "displayName": "Power Uninterrupted",
+      "description": "Restore the reactor located in the Factorial Area.",
+      "hidden": true,
+      "globalPercent": 71.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_09"
+      ],
+      "summary": "Complete the main mission Incoming Conflict by restoring the reactor in Factorial Area.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Incoming Conflict} by defeating @enemy{UltimateBrachiomon} and @enemy{Vulcanusmon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_11",
+      "displayName": "The Lonely Warrior",
+      "description": "Drive the Titans from the Abyss Area.",
+      "hidden": true,
+      "globalPercent": 66.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_10"
+      ],
+      "summary": "Complete the main mission On the Shores of Another World by driving the Titans from Abyss Area.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{On the Shores of Another World} by defeating @enemy{Sharkmon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_12",
+      "displayName": "The Great Guardian",
+      "description": "Digivolve into Aegiochusmon.",
+      "hidden": true,
+      "globalPercent": 62.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_11"
+      ],
+      "summary": "Digivolve into Aegiochusmon, which happens at the end of the main mission The Defense of Nishi-Shinjuku.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "At the temple where @npc{Junomon} waits, defeat the three Ogremon-type enemies."
+          },
+          {
+            "id": "s2",
+            "text": "Watch the cutscenes and go through the portal. The achievement unlocks when you regain control in the real world."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_13",
+      "displayName": "Back to the Real World...?",
+      "description": "Return to Shinjuku eight years in the future.",
+      "hidden": true,
+      "globalPercent": 60.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_12"
+      ],
+      "summary": "Complete the main mission Revelation in the White Light by arriving in Shinjuku eight years ahead.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In past Shinjuku, follow @npc{Junomon}'s treasure and defeat @enemy{Titamon}. Fire and Holy moves deal strong damage."
+          },
+          {
+            "id": "s2",
+            "text": "Watch the cutscenes in the @loc{In-Between Theater}. The achievement unlocks when you can move again eight years ahead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_14",
+      "displayName": "A Token of Peace",
+      "description": "Deliver the wine to Neptunemon.",
+      "hidden": true,
+      "globalPercent": 59.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_13"
+      ],
+      "summary": "Complete the main mission Red Seas and Regret.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Red Seas and Regret} by defeating @enemy{SkullSeadramon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_15",
+      "displayName": "Peace on the High Seas",
+      "description": "Rewrite the Abyss Area's destiny.",
+      "hidden": true,
+      "globalPercent": 58.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_14"
+      ],
+      "summary": "Complete the main mission A Promise on a Scarf.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{A Promise on a Scarf} by defeating @enemy{Calmaramon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_16",
+      "displayName": "Breath of the Great Tree",
+      "description": "Rewrite the Gear Forest's destiny.",
+      "hidden": true,
+      "globalPercent": 57.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_15"
+      ],
+      "summary": "Complete the main mission The Titans' Grudge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Titans' Grudge} by defeating @enemy{Witchmon} and @enemy{TyrantKabuterimon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_17",
+      "displayName": "SDGP Champion",
+      "description": "Become the SDGP Champion.",
+      "hidden": true,
+      "globalPercent": 56.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_16"
+      ],
+      "summary": "Complete the main mission The Destruction of All Order and become the SDGP Champion.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Destruction of All Order}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_18",
+      "displayName": "PCGT Champion",
+      "description": "Become the PCGT Champion.",
+      "hidden": true,
+      "globalPercent": 55.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_17"
+      ],
+      "summary": "Complete the main mission The Paradise Colosseum and become the PCGT Champion.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Paradise Colosseum} by defeating @enemy{Callismon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_19",
+      "displayName": "Central Town Reclaimed!",
+      "description": "Reclaim Central Town.",
+      "hidden": true,
+      "globalPercent": 54.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_18"
+      ],
+      "summary": "Complete the main mission The God of Speed's Wish to reclaim Central Town.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The God of Speed's Wish} by defeating @enemy{VenomMyotismon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_20",
+      "displayName": "Historical Truths",
+      "description": "Get the truth from Plutomon.",
+      "hidden": true,
+      "globalPercent": 53.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_19"
+      ],
+      "summary": "Complete the main mission Throne of the Underworld.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Throne of the Underworld} by defeating @enemy{ZombiePlutomon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_21",
+      "displayName": "Action Figures FTW",
+      "description": "Rescue Vulcanusmon.",
+      "hidden": true,
+      "globalPercent": 52.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_20"
+      ],
+      "summary": "Complete the main mission No Cure for Stupidity to rescue Vulcanusmon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{No Cure for Stupidity} by defeating @enemy{Power Loader}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_22",
+      "displayName": "A Bond Restored",
+      "description": "Free Junomon from the spell.",
+      "hidden": true,
+      "globalPercent": 50.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_21"
+      ],
+      "summary": "Complete the main mission The Mad Oracle to free Junomon from the spell.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Mad Oracle} by defeating @enemy{Junomon HM}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_23",
+      "displayName": "The Final Light",
+      "description": "Light the light clock's final light.",
+      "hidden": true,
+      "globalPercent": 49.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_22"
+      ],
+      "summary": "Complete the main mission The Cycle of Time to light the light clock's final light.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Cycle of Time}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_24",
+      "displayName": "Aegiomon's Vow",
+      "description": "Renew the vow that Aegiomon pledged under the starry sky.",
+      "hidden": true,
+      "globalPercent": 49.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_23"
+      ],
+      "summary": "Complete the main mission The Cycle of Time to renew Aegiomon's vow.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{The Cycle of Time}. This achievement unlocks in the same mission as @loc{The Final Light}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_25",
+      "displayName": "To a World Far, Far Away",
+      "description": "Bring an end to the story.",
+      "hidden": false,
+      "globalPercent": 41.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "story",
+      "sortReason": "Automatic story progression.",
+      "prerequisites": [
+        "ACH_ID_24"
+      ],
+      "summary": "Clear the closing story chapter, called Final Battle Over the Natural Order.",
+      "guide": {
+        "kind": "standard",
+        "context": "The mission is a chain of boss fights against Barbamon, Creepymon, Lilithmon, Leviamon, Lucemon SM and Beelzemon BM, followed by Belphemon RM and Chronomon.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Win each boss fight until @enemy{Chronomon} falls."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_26",
+      "displayName": "The Pinnacle of Existence",
+      "description": "Complete the game on Mega + difficulty.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "8 h",
+      "estMinutes": 480,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "mega-plus",
+      "sortReason": "New Game Plus, Mega+ final boss.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Complete the game on Mega+ difficulty.",
+      "guide": {
+        "kind": "standard",
+        "context": "Mega+ blocks escaping and item use in battle, so healing has to come from skills. A team that worked: @enemy{Apocalymon} using Darkness-Zone each turn, plus two healers with the Great Embrace personality skill (Overprotective personality, raises max HP to double), X-Aura and X-Revive. Wear Multi Wall for status immunity. During Chronomon's de-digivolve phase, X-Aura lets healers keep healing.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear the story once to unlock New Game Plus, then start a New Game Plus."
+          },
+          {
+            "id": "s2",
+            "text": "Get every item you want before the final area. The smith cannot be used in @loc{Akashic Records}."
+          },
+          {
+            "id": "s3",
+            "text": "Switch the difficulty to @mechanic{Mega+} in Options before the last battle at @loc{Akashic Records: Innermost Depths}, then defeat @enemy{Chronomon} on Mega+."
+          },
+          {
+            "id": "s4",
+            "text": "Keep playing through the credits. The achievement unlocks afterward."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_27",
+      "displayName": "A Mighty Blow",
+      "description": "Achieve a rating of \"EXCELLENT!!!\" when attacking an enemy's weak point.",
+      "hidden": false,
+      "globalPercent": 76.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "early",
+      "sortReason": "Weak-point hits occur during the Parrotmon fight.",
+      "prerequisites": [
+        "ACH_ID_09"
+      ],
+      "summary": "Get an EXCELLENT!!! rating by attacking an enemy's weak point.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can also reach it by hitting an enemy's attribute and element weakness yourself.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fight the @enemy{Parrotmon} boss on @loc{Central Tower}. Once @npc{Merukimon} joins, his opening attack deals Excellent damage."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_28",
+      "displayName": "Unrivaled Strength",
+      "description": "Defeat an enemy of Ultimate or greater Generation with a single DigiAttack.",
+      "hidden": true,
+      "globalPercent": 53.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "unverified",
+      "group": "combat",
+      "sortReason": "Needs a strong Digimon; later game is easier.",
+      "prerequisites": [
+        "ACH_ID_11"
+      ],
+      "summary": "Defeat an enemy of Ultimate generation or higher with a single DigiAttack.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only party Battle Members can DigiAttack. DigiAttack uses no SP and picks the member best suited to the enemy. Raise your Digimon above the enemy's level and carry varied elemental skills so the hit lands on a weakness.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Face an Ultimate or higher enemy on the field and press the DigiAttack key (E on keyboard) once. A kill skips the battle."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_29",
+      "displayName": "Initial Digivolution",
+      "description": "Digivolve a Digimon for the first time.",
+      "hidden": false,
+      "globalPercent": 93.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "early",
+      "sortReason": "First Digivolution happens in the early story.",
+      "prerequisites": [],
+      "summary": "Digivolve one of your Digimon for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Digivolve any Digimon from the Digivice when the game offers it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_30",
+      "displayName": "Maiden De-Digivolution",
+      "description": "De-Digivolve a Digimon for the first time.",
+      "hidden": false,
+      "globalPercent": 80.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "early",
+      "sortReason": "First De-Digivolution in the early story.",
+      "prerequisites": [],
+      "summary": "De-Digivolve one of your Digimon for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "De-Digivolve any Digimon from the Digivice."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_31",
+      "displayName": "Hard Work Pays Off",
+      "description": "Train Digimon on the Digifarm 30 times.",
+      "hidden": false,
+      "globalPercent": 49.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "farm",
+      "sortReason": "Digifarm opens early; repeat training.",
+      "prerequisites": [
+        "ACH_ID_06"
+      ],
+      "summary": "Complete 30 Digifarm training sessions.",
+      "guide": {
+        "kind": "standard",
+        "context": "Each training normally takes 30 real minutes. Quick Complete costs yen, so keep some on hand.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @mechanic{Digifarm} through the In-Between Theater reception and choose @mechanic{Training}."
+          },
+          {
+            "id": "s2",
+            "text": "Pick a Training Set and a Digimon. Start the training, then pick @mechanic{Quick Complete Training} to finish it for yen."
+          },
+          {
+            "id": "s3",
+            "text": "Repeat until the achievement unlocks. Any Digimon counts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_32",
+      "displayName": "Card Battle Debut",
+      "description": "Win a card battle.",
+      "hidden": false,
+      "globalPercent": 68.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "early",
+      "sortReason": "Card battles available early.",
+      "prerequisites": [],
+      "summary": "Win a card battle.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Challenge a card-battle NPC in the world and win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_33",
+      "displayName": "A Card of Legend",
+      "description": "Obtain a legendary card.",
+      "hidden": false,
+      "globalPercent": 29.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "side-missions",
+      "sortReason": "Post-game side mission.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Obtain a legendary card.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the end-of-story side missions to be open. A lost card battle can be retried. Play high-number cards with good generation fit. If your hand is weak, hold two cards that share an attribute or generation; that can create a new card when the round ends.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open @npc{King Drasil}'s Royal Knights mission, then go to the top of @loc{Central Tower} with @npc{Agumon} and @npc{Gabumon}. This opens the side mission @loc{A Facilitator's Woes}; finish it."
+          },
+          {
+            "id": "s2",
+            "text": "Time Jump to the present-day @loc{Higashi-Shinjuku: Back Alley}, then ride a taxi to the @loc{Electric Town South Exit} of @loc{Akihabara Station}, and talk to @npc{Card King}."
+          },
+          {
+            "id": "s3",
+            "text": "Beat @npc{Card King} in a card battle, then beat the @npc{True Card King} in @loc{Shinjuku: East Shopping District}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_34",
+      "displayName": "Darkness Awakens",
+      "description": "Digivolve into Aegiochusmon: Dark.",
+      "hidden": true,
+      "globalPercent": 19.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "agent",
+      "sortReason": "Needs rank 9 and bond skills.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Digivolve Aegiomon into Aegiochusmon: Dark.",
+      "guide": {
+        "kind": "standard",
+        "context": "Most Anomaly Points come from completing every side mission, including the ones that open after the final boss. Skills cannot be refunded, so save before spending points to be able to reload.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Agent Rank 9 or higher."
+          },
+          {
+            "id": "s2",
+            "text": "Raise Aegiomon to at least 3070 ATK and 2980 INT."
+          },
+          {
+            "id": "s3",
+            "text": "Learn 46 Agent Skills each in Bonds of Valor, Amicability and Wisdom."
+          },
+          {
+            "id": "s4",
+            "text": "Digivolve Aegiomon into Aegiochusmon: Dark in the Digivice."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_35",
+      "displayName": "Beyond Digivolution",
+      "description": "Add Chronomon: Destroy Mode to your Field Guide.",
+      "hidden": true,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "60 min",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "agent",
+      "sortReason": "Needs rank 10 and Aegiochusmon Dark.",
+      "prerequisites": [
+        "ACH_ID_34"
+      ],
+      "summary": "Add Chronomon: Destroy Mode to your Field Guide.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need every side mission, including post-game ones, to earn enough Anomaly Points. Skills cannot be refunded, so save before spending points to be able to reload.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach Agent Rank 10 and learn 46 Agent Skills each in Bonds of Valor, Philanthropy, Amicability and Wisdom."
+          },
+          {
+            "id": "s2",
+            "text": "Digivolve Aegiochusmon: Dark into Chronomon DM. The path runs Punimon to Tsunomon to Elecmon to Aegiomon to Aegiochusmon: Dark to Chronomon DM."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_36",
+      "displayName": "An Agent's Proclivities",
+      "description": "Collect ten or more costumes.",
+      "hidden": true,
+      "globalPercent": 42.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "early",
+      "sortReason": "Clothes shop opens after The Time Stranger.",
+      "prerequisites": [
+        "ACH_ID_05"
+      ],
+      "summary": "Own 10 or more costumes.",
+      "guide": {
+        "kind": "standard",
+        "context": "DLC outfits also count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the clothes shop in @loc{Shinjuku: East Shopping District} after finishing @loc{The Time Stranger}."
+          },
+          {
+            "id": "s2",
+            "text": "Buy every item. Each costs about 1,000 to 2,000 yen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_37",
+      "displayName": "Elite Agent",
+      "description": "Raise your Agent Rank to the maximum level.",
+      "hidden": false,
+      "globalPercent": 25.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5 h",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "agent",
+      "sortReason": "Needs post-game Anomaly Points.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Reach the top Agent Rank.",
+      "guide": {
+        "kind": "standard",
+        "context": "Agent Skills cannot be refunded. Save before spending points so you can reload to change your mind. The last 300 points only come after the final boss.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Spend Anomaly Points on Agent Skills as you earn them from main and side missions."
+          },
+          {
+            "id": "s2",
+            "text": "Beat the final boss to earn 150 more points, then load the cleared save."
+          },
+          {
+            "id": "s3",
+            "text": "After loading the cleared save, finish the post-game side mission for the last 150 points, then spend everything until Agent Rank stops rising."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_38",
+      "displayName": "Grand Slam",
+      "description": "Win the title in The Greatest OMNI Carnival.",
+      "hidden": true,
+      "globalPercent": 23.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "side-missions",
+      "sortReason": "Final matches open at the end of the story.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Win the title in The Greatest OMNI Carnival.",
+      "guide": {
+        "kind": "standard",
+        "context": "@npc{Volcanomon} sends a Digiline message when the second-to-last fight is ready.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start it by talking to @npc{Volcanomon} in @loc{Paradise Colosseum} during @loc{The Violence of Humans}."
+          },
+          {
+            "id": "s2",
+            "text": "Win every match. New matches open as you finish side missions and story."
+          },
+          {
+            "id": "s3",
+            "text": "Before the final boss dialogue, head to the far left edge, beyond your allies standing on the cliff, and go into the @loc{In-Between Theater} to open the second-to-last match. Win it to open the final match against @enemy{Marsmon}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_39",
+      "displayName": "Gajillionaire",
+      "description": "Spend 1,000,000 YEN in shops.",
+      "hidden": false,
+      "globalPercent": 49.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "farm",
+      "sortReason": "Spend yen in shops over the game.",
+      "prerequisites": [],
+      "summary": "Pay a total of 1,000,000 YEN at shops.",
+      "guide": {
+        "kind": "standard",
+        "context": "Spending adds up across all purchases. One farm that worked: after loading a cleared save, fight @enemy{Olympos XII} in @loc{Akihabara: A Certain Back Alley} for about 300,000 yen per run.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy items from shops until your total spending reaches 1,000,000 yen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_40",
+      "displayName": "Dreams or Reality?",
+      "description": "Collect all of Hiroko Sagisaka's Monikers.",
+      "hidden": true,
+      "globalPercent": 25.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "side-missions",
+      "sortReason": "Collection side mission opened at the end of the story.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Collect all 13 of Hiroko Sagisaka's Monikers.",
+      "guide": {
+        "kind": "collectible",
+        "context": "This side mission opens during the final main mission after you finish A Gift from the Hosts. Leave the In-Between Theater and Time Jump to each place. Any order works. When you have all 13, return to the In-Between Theater for the last message.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "group": "8 Years Ago",
+            "name": "Moniker 1",
+            "location": "@loc{Steel Point on Central Tower (8 Years Ago)}, by the northern guardrail",
+            "method": "Time Jump to Central Town (8 Years Ago), cross the Steel Maze, take the elevators up, and talk to Hiroko."
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "group": "8 Years Ago",
+            "name": "Moniker 2",
+            "location": "@loc{Factorial Core (8 Years Ago)}, southwest near the guardrail",
+            "method": "Time Jump to Factorial Town (8 Years Ago) and go down to the Core area."
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "group": "8 Years Ago",
+            "name": "Moniker 3",
+            "location": "@loc{Abyss Depths (8 Years Ago)}, southwest",
+            "method": "Time Jump to Abyss Beach (8 Years Ago) and head to the Depths."
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "group": "8 Years Ago",
+            "name": "Moniker 4",
+            "location": "@loc{Gear Forest: Sanctuary (8 Years Ago)}, north, lying on the ground",
+            "method": "Go to the Sanctuary."
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "group": "8 Years Ago",
+            "name": "Moniker 5",
+            "location": "@loc{Guardian Palace (8 Years Ago)}, right side near the entrance",
+            "method": "Time Jump to Guardian Palace (8 Years Ago) and walk inside."
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "group": "Present Day",
+            "name": "Moniker 6",
+            "location": "@loc{Spiral Waterway under Central Town (Present Day)}, upper-left corner of the lowest room",
+            "method": "Time Jump to Central Town (Present Day) and enter the sewer entrance on your left."
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "group": "Present Day",
+            "name": "Moniker 7",
+            "location": "@loc{Factorial Core (Present Day)}, beside the central machine",
+            "method": "Time Jump to Factorial Town (Present Day) and go to Vulcanusmon's area."
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "group": "Present Day",
+            "name": "Moniker 8",
+            "location": "@loc{Guardian Palace: Throne Room (Present Day)}, in front of the throne",
+            "method": "Time Jump to Guardian Palace (Present Day) and go north to the Throne Room."
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "group": "Present Day",
+            "name": "Moniker 9",
+            "location": "@loc{Abyss Sanctuary (Present Day)}, northeast",
+            "method": "Time Jump to Abyss Beach (Present Day) and head to the Sanctuary."
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "group": "Present Day",
+            "name": "Moniker 10",
+            "location": "@loc{Floating Island Plains in Gear Forest (Present Day)}, in the north",
+            "method": "Time Jump to Gear Forest Village (Present Day) and go to the Floating Island Plains."
+          },
+          {
+            "id": "i11",
+            "index": 11,
+            "group": "Present Day",
+            "name": "Moniker 11",
+            "location": "@loc{Rebellion Village (Present Day)}, northwest",
+            "method": "Time Jump to Rebellion Village."
+          },
+          {
+            "id": "i12",
+            "index": 12,
+            "group": "Present Day",
+            "name": "Moniker 12",
+            "location": "@loc{Dark Garden (Present Day)}, north, outside the throne room",
+            "method": "Time Jump to Dark Crevasse (Present Day) and go to the Garden."
+          },
+          {
+            "id": "i13",
+            "index": 13,
+            "group": "Present Day",
+            "name": "Moniker 13",
+            "location": "@loc{Chill Cosmic: Throne Room (Present Day)}, north, behind the throne",
+            "method": "Time Jump to Cosmic Terminal (Present Day), take the elevator to Chill Cosmic, and go to the Throne Room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_41",
+      "displayName": "All Eyes on Me!",
+      "description": "Collect all of Etemon's Soul Bits.",
+      "hidden": true,
+      "globalPercent": 26.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "side-missions",
+      "sortReason": "Collection side mission opened at the end of the story.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Collect all 17 of Etemon's Soul Bits.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Every Soul Bit is in the 8 Years Ago maps. After the final main mission starts and A Gift from the Hosts is done, Time Jump to the 8-years-ago back alley in Higashi-Shinjuku to get Etemon's message. Any order works. Return to the In-Between Theater after the last one.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "group": "Higashi-Shinjuku",
+            "name": "Soul Bit 1",
+            "location": "@loc{Vision Square}, center of the map",
+            "method": "Hit it with DigiAttack to capture it."
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "group": "Higashi-Shinjuku",
+            "name": "Soul Bit 2",
+            "location": "@loc{Koshu-Kaido Intersection}, south, hanging from a tree",
+            "method": "Go north from Vision Square and DigiAttack it."
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "group": "Higashi-Shinjuku",
+            "name": "Soul Bit 3",
+            "location": "@loc{Nakazawa Gourmet Coffee}, north of Koshu-Kaido Intersection",
+            "method": "Go inside and DigiAttack it."
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "group": "Shinjuku Underground",
+            "name": "Soul Bit 4",
+            "location": "@loc{Subroad}, southwest",
+            "method": "Take the stairs down from Vision Square and DigiAttack it."
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "group": "Shinjuku Underground",
+            "name": "Soul Bit 5",
+            "location": "@loc{Marunonaka Line: Shinjuku Station}, north, on the ground",
+            "method": "Take the southern stairs down from Subroad and DigiAttack it."
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "group": "Shinjuku Underground",
+            "name": "Soul Bit 6",
+            "location": "@loc{Promenade}, center",
+            "method": "Go east from Shinjuku Station: East Gate and DigiAttack it."
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "group": "Shinjuku Underground",
+            "name": "Soul Bit 7",
+            "location": "@loc{Waterway: North Block}, south",
+            "method": "Climb down the ladder in the northeast of Shinjuku: A Certain Back Alley and DigiAttack it."
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "group": "Shinjuku Underground",
+            "name": "Soul Bit 8",
+            "location": "@loc{Waterway: South Block}, southeast",
+            "method": "Go to Shinjuku Park: Community Forest, northeast of Waterfall Plaza, and enter the Waterway."
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "group": "Shinjuku Underground",
+            "name": "Soul Bit 9",
+            "location": "@loc{Underground Reservoir}, northwest",
+            "method": "Go east from Waterway: North Block and DigiAttack it."
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "group": "Shinjuku streets",
+            "name": "Soul Bit 10",
+            "location": "@loc{Seibu-Shinjuku: Overbridge Intersection}, west, hanging from the ceiling",
+            "method": "Take the western road from Vision Square."
+          },
+          {
+            "id": "i11",
+            "index": 11,
+            "group": "Shinjuku streets",
+            "name": "Soul Bit 11",
+            "location": "@loc{A Certain Back Alley}, south",
+            "method": "Walk southwest from East Shopping District, or Time Jump there from the In-Between Theater."
+          },
+          {
+            "id": "i12",
+            "index": 12,
+            "group": "Shinjuku streets",
+            "name": "Soul Bit 12",
+            "location": "@loc{Shinjuku Station: East Gate}, east",
+            "method": "Enter the station from the south side of Vision Square."
+          },
+          {
+            "id": "i13",
+            "index": 13,
+            "group": "Shinjuku streets",
+            "name": "Soul Bit 13",
+            "location": "@loc{East Shopping District}, south",
+            "method": "Go south from A Certain Back Alley."
+          },
+          {
+            "id": "i14",
+            "index": 14,
+            "group": "Shinjuku streets",
+            "name": "Soul Bit 14",
+            "location": "@loc{Tokyo Metropolitan Government Building: Exterior}, center",
+            "method": "Take a taxi, or walk west from Waterfall Plaza."
+          },
+          {
+            "id": "i15",
+            "index": 15,
+            "group": "Shinjuku streets",
+            "name": "Soul Bit 15",
+            "location": "@loc{Shinjuku Park: Waterfall Plaza}, east, hanging from a tree",
+            "method": "Go northeast from the Government Building exterior."
+          },
+          {
+            "id": "i16",
+            "index": 16,
+            "group": "Akihabara",
+            "name": "Soul Bit 16",
+            "location": "@loc{Akihabara Station: Electric Town South Exit}, right side of the street",
+            "method": "Take a taxi and choose this stop."
+          },
+          {
+            "id": "i17",
+            "index": 17,
+            "group": "Akihabara",
+            "name": "Soul Bit 17",
+            "location": "@loc{Akihabara: A Certain Back Alley}, northeast",
+            "method": "Go north from Electric Town South Exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_42",
+      "displayName": "Silent Envy",
+      "description": "Collect all of Dr. Kuga's Core Dumps.",
+      "hidden": true,
+      "globalPercent": 29.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "90 min",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "side-missions",
+      "sortReason": "Collection side mission opened at the end of the story.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Collect all 13 of Dr. Kuga's Core Dumps.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Every Core Dump is in the Present Day maps, next to a Kuramon you defeat with DigiAttack. After the final main mission starts and A Gift from the Hosts is done, Time Jump to the present-day back alley in Higashi-Shinjuku to get Dr. Simmons's message. Any order works. Return to the In-Between Theater after the last one.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "group": "Higashi-Shinjuku",
+            "name": "Core Dump 1",
+            "location": "@loc{Vision Square}, center",
+            "method": "DigiAttack the Kuramon next to it."
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "group": "Higashi-Shinjuku",
+            "name": "Core Dump 2",
+            "location": "@loc{Koshu-Kaido Intersection}, center",
+            "method": "Go north from Vision Square."
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "group": "Shinjuku streets",
+            "name": "Core Dump 3",
+            "location": "@loc{A Certain Back Alley}, northeast",
+            "method": "Walk southwest from East Shopping District, or Time Jump there from the In-Between Theater."
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "group": "Shinjuku streets",
+            "name": "Core Dump 4",
+            "location": "@loc{East Shopping District}, center",
+            "method": "Go south from A Certain Back Alley."
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "group": "Shinjuku streets",
+            "name": "Core Dump 5",
+            "location": "@loc{Kabukicho: Theater Square}, northwest",
+            "method": "Go southwest from A Certain Back Alley."
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "group": "Shinjuku streets",
+            "name": "Core Dump 6",
+            "location": "@loc{Seibu-Shinjuku: Overbridge Intersection}, east",
+            "method": "Take the western road from Vision Square."
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "group": "Shinjuku streets",
+            "name": "Core Dump 7",
+            "location": "@loc{Wall of Hope}, center",
+            "method": "Go north from Overbridge Intersection."
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "group": "Shinjuku streets",
+            "name": "Core Dump 8",
+            "location": "@loc{Shinjuku Station: East Gate}, northwest",
+            "method": "Enter the station from the south side of Vision Square."
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "group": "Shinjuku Underground",
+            "name": "Core Dump 9",
+            "location": "@loc{Promenade}, southwest",
+            "method": "Go east from East Gate."
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "group": "Shinjuku Underground",
+            "name": "Core Dump 10",
+            "location": "@loc{Subroad}, northeast",
+            "method": "Take the stairs down from Vision Square."
+          },
+          {
+            "id": "i11",
+            "index": 11,
+            "group": "Shinjuku Underground",
+            "name": "Core Dump 11",
+            "location": "@loc{Marunonaka Line: Shinjuku Station}, west",
+            "method": "Take the southern stairs down from Subroad."
+          },
+          {
+            "id": "i12",
+            "index": 12,
+            "group": "Akihabara",
+            "name": "Core Dump 12",
+            "location": "@loc{Akihabara Station: Electric Town South Exit}, north",
+            "method": "Take a taxi and choose this stop."
+          },
+          {
+            "id": "i13",
+            "index": 13,
+            "group": "Akihabara",
+            "name": "Core Dump 13",
+            "location": "@loc{Akihabara: A Certain Back Alley}, west",
+            "method": "Go north from Electric Town South Exit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_43",
+      "displayName": "Royal Knights, Assemble!",
+      "description": "Bring every Royal Knight to Central Tower.",
+      "hidden": true,
+      "globalPercent": 30.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3 h",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "side-missions",
+      "sortReason": "Many side-mission chains at end of story.",
+      "prerequisites": [
+        "ACH_ID_25"
+      ],
+      "summary": "Bring every Royal Knight to Central Tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "Eleven knights gather on top of Central Tower when you finish: Craniamon, Gallantmon, Magnamon, Examon, Dynasmon, Leopardmon, Gankoomon, Jesmon, Kentaurosmon, LordKnightmon and UlforceVeedramon.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Once A Missing Friend, Between the Worlds and A Gift from the Hosts are all finished, talk to @npc{King Drasil} in the @loc{In-Between Theater} VIP room."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the top of @loc{Central Tower} with @npc{Agumon} and @npc{Gabumon} to open six side-mission chains."
+          },
+          {
+            "id": "s3",
+            "text": "Complete all six chains: @loc{A Stubborn Fighter?}, @loc{A Facilitator's Woes}, @loc{Duels Must Be Fair}, @loc{Veemon's Growth}, @loc{One Shield Maker's Struggle} and @loc{Knowing One's Strength}."
+          },
+          {
+            "id": "s4",
+            "text": "Return to @npc{King Drasil} in the VIP room to finish."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_44",
+      "displayName": "The In-Between Explorer",
+      "description": "Discover all of the Outer Dungeons.",
+      "hidden": false,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 h",
+      "estMinutes": 240,
+      "stage": 1,
+      "confidence": "verified",
+      "group": "outer-dungeons",
+      "sortReason": "Dungeons are discovered across the story and post-game.",
+      "prerequisites": [],
+      "summary": "Discover all of the Outer Dungeons.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Outer Dungeons are red portals in the world. Some open only after story progress. If the achievement is missing after you find them all, go back to the first Time Attack Boss Battle portal in Akihabara.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "group": "Survive to the End",
+            "name": "Survive to the End 1",
+            "location": "@loc{Shinjuku: A Certain Back Alley}, northwest",
+            "method": "Reach it through East Shopping District."
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "group": "Survive to the End",
+            "name": "Survive to the End 2",
+            "location": "@loc{Marunonaka Line: Shinjuku Station}, south",
+            "method": "Go down to the train platform at Shinjuku Station."
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "group": "Survive to the End",
+            "name": "Survive to the End 3",
+            "location": "@loc{Abyss Sanctuary}, bottom right",
+            "method": "Available after you return to the present."
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "group": "Survive to the End",
+            "name": "Survive to the End 4",
+            "location": "@loc{Heat Cosmic: Yellowflame Area}, left side",
+            "method": "Late-game area."
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "group": "Speed is Victory",
+            "name": "Speed is Victory 1",
+            "location": "@loc{Factorial Area}, northwest, beside an item-selling Ebemon",
+            "method": "Walk to the portal."
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "group": "Speed is Victory",
+            "name": "Speed is Victory 2",
+            "location": "@loc{Factorial Town}, train platform",
+            "method": "Smash the barrel on the platform."
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "group": "Speed is Victory",
+            "name": "Speed is Victory 3",
+            "location": "@loc{Abyss Beach}, hidden area up the ladder on the western path",
+            "method": "Available after you return to the present."
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "group": "Speed is Victory",
+            "name": "Speed is Victory 4",
+            "location": "@loc{Paradise Colosseum}",
+            "method": "Appears during the Paradise Colosseum main mission in the present."
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "group": "Time Attack Boss Battle",
+            "name": "Time Attack Boss Battle 1",
+            "location": "@loc{Akihabara: A Certain Back Alley}, central alley",
+            "method": "Walk to the portal."
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "group": "Time Attack Boss Battle",
+            "name": "Time Attack Boss Battle 2",
+            "location": "@loc{Abyss Beach}, bottom left",
+            "method": "Walk to the portal."
+          },
+          {
+            "id": "i11",
+            "index": 11,
+            "group": "Time Attack Boss Battle",
+            "name": "Time Attack Boss Battle 3",
+            "location": "@loc{Shinjuku: East Shopping District}, beside the Misono home",
+            "method": "Smash the garbage pile."
+          },
+          {
+            "id": "i12",
+            "index": 12,
+            "group": "Time Attack Boss Battle",
+            "name": "Time Attack Boss Battle 4",
+            "location": "@loc{Gear Forest: Shade Tree Pier}, floating island in the east",
+            "method": "Leave Gear Forest Village by the east exit and grapple over."
+          },
+          {
+            "id": "i13",
+            "index": 13,
+            "group": "Protect the Giant Digimeat",
+            "name": "Protect the Giant Digimeat 1",
+            "location": "@loc{Gear Forest Village}, west",
+            "method": "Walk to the portal."
+          },
+          {
+            "id": "i14",
+            "index": 14,
+            "group": "Protect the Giant Digimeat",
+            "name": "Protect the Giant Digimeat 2",
+            "location": "@loc{Odd Underground Passage}",
+            "method": "Use the manhole at the south exit of Central Town."
+          },
+          {
+            "id": "i15",
+            "index": 15,
+            "group": "Protect the Giant Digimeat",
+            "name": "Protect the Giant Digimeat 3",
+            "location": "@loc{Dark Castle}, northeast",
+            "method": "Walk to the portal."
+          },
+          {
+            "id": "i16",
+            "index": 16,
+            "group": "Protect the Giant Digimeat",
+            "name": "Protect the Giant Digimeat 4",
+            "location": "@loc{Chill Cosmic: Throne Room}, very top",
+            "method": "Late-game area."
+          },
+          {
+            "id": "i17",
+            "index": 17,
+            "group": "Fight the Ultimate Digimon",
+            "name": "Fight the Ultimate Digimon 1",
+            "location": "@loc{Central Town: Spiral Waterway}, behind barrels to the left of the entrance",
+            "method": "Smash the barrels."
+          },
+          {
+            "id": "i18",
+            "index": 18,
+            "group": "Fight the Ultimate Digimon",
+            "name": "Fight the Ultimate Digimon 2",
+            "location": "@loc{Gear Forest: Shaded Woods}, south",
+            "method": "Save Hawkmon and Floramon at the top, grapple left, and head south."
+          },
+          {
+            "id": "i19",
+            "index": 19,
+            "group": "Fight the Ultimate Digimon",
+            "name": "Fight the Ultimate Digimon 3",
+            "location": "@loc{Central Town: Downtown}, back alley",
+            "method": "Smash the large crate. Guardromon may block the way until later."
+          },
+          {
+            "id": "i20",
+            "index": 20,
+            "group": "Fight the Ultimate Digimon",
+            "name": "Fight the Ultimate Digimon 4",
+            "location": "@loc{Chill Cosmic: Crescent Moon Area}, top right",
+            "method": "Late-game area."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_45",
+      "displayName": "Problem Solver",
+      "description": "Beat the main challenge of every Outer Dungeon.",
+      "hidden": true,
+      "globalPercent": 7.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "6 h",
+      "estMinutes": 360,
+      "stage": 2,
+      "confidence": "verified",
+      "group": "outer-dungeons",
+      "sortReason": "Beat main challenge in each dungeon after finding them.",
+      "prerequisites": [
+        "ACH_ID_44"
+      ],
+      "summary": "Beat the main challenge of every Outer Dungeon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Survive to the End: stay alive until the timer ends. Speed is Victory: win the race. Time Attack Boss Battle: defeat the boss that closes each challenge. Fight the Ultimate Digimon: beat the three strongest enemies. Protect the Giant Digimeat: stop all 30 enemies from crossing the defense line.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find every Outer Dungeon, then beat the main challenge in each one."
+          },
+          {
+            "id": "s2",
+            "text": "Skip the extra optional challenges. They are not required."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACH_ID_46",
+      "displayName": "Agent of Perfection",
+      "description": "Obtain all of the achievements.",
+      "hidden": false,
+      "globalPercent": 2.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 3,
+      "confidence": "verified",
+      "group": "final",
+      "sortReason": "Unlocks after all others.",
+      "prerequisites": [
+        "ACH_ID_01",
+        "ACH_ID_02",
+        "ACH_ID_03",
+        "ACH_ID_04",
+        "ACH_ID_05",
+        "ACH_ID_06",
+        "ACH_ID_07",
+        "ACH_ID_08",
+        "ACH_ID_09",
+        "ACH_ID_10",
+        "ACH_ID_11",
+        "ACH_ID_12",
+        "ACH_ID_13",
+        "ACH_ID_14",
+        "ACH_ID_15",
+        "ACH_ID_16",
+        "ACH_ID_17",
+        "ACH_ID_18",
+        "ACH_ID_19",
+        "ACH_ID_20",
+        "ACH_ID_21",
+        "ACH_ID_22",
+        "ACH_ID_23",
+        "ACH_ID_24",
+        "ACH_ID_25",
+        "ACH_ID_26",
+        "ACH_ID_27",
+        "ACH_ID_28",
+        "ACH_ID_29",
+        "ACH_ID_30",
+        "ACH_ID_31",
+        "ACH_ID_32",
+        "ACH_ID_33",
+        "ACH_ID_34",
+        "ACH_ID_35",
+        "ACH_ID_36",
+        "ACH_ID_37",
+        "ACH_ID_38",
+        "ACH_ID_39",
+        "ACH_ID_40",
+        "ACH_ID_41",
+        "ACH_ID_42",
+        "ACH_ID_43",
+        "ACH_ID_44",
+        "ACH_ID_45"
+      ],
+      "summary": "Obtain all of the achievements.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock every other achievement. This one unlocks on its own."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ACH_ID_01",
+    "ACH_ID_29",
+    "ACH_ID_30",
+    "ACH_ID_32",
+    "ACH_ID_02",
+    "ACH_ID_03",
+    "ACH_ID_04",
+    "ACH_ID_05",
+    "ACH_ID_36",
+    "ACH_ID_06",
+    "ACH_ID_31",
+    "ACH_ID_07",
+    "ACH_ID_08",
+    "ACH_ID_09",
+    "ACH_ID_27",
+    "ACH_ID_10",
+    "ACH_ID_11",
+    "ACH_ID_28",
+    "ACH_ID_12",
+    "ACH_ID_13",
+    "ACH_ID_14",
+    "ACH_ID_15",
+    "ACH_ID_16",
+    "ACH_ID_17",
+    "ACH_ID_18",
+    "ACH_ID_19",
+    "ACH_ID_20",
+    "ACH_ID_21",
+    "ACH_ID_22",
+    "ACH_ID_23",
+    "ACH_ID_24",
+    "ACH_ID_25",
+    "ACH_ID_44",
+    "ACH_ID_39",
+    "ACH_ID_45",
+    "ACH_ID_42",
+    "ACH_ID_41",
+    "ACH_ID_40",
+    "ACH_ID_43",
+    "ACH_ID_33",
+    "ACH_ID_37",
+    "ACH_ID_34",
+    "ACH_ID_35",
+    "ACH_ID_38",
+    "ACH_ID_26",
+    "ACH_ID_46"
+  ]
+}

@@ -1,0 +1,2078 @@
+{
+  "game": {
+    "appid": 1119980,
+    "slug": "in-sound-mind",
+    "title": "In Sound Mind",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-28",
+    "estTotalHours": 13,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "First visit to the building",
+      "description": "Hang up on the stalker's calls, then build the pistol.",
+      "achievementRefs": [
+        "IsmHangUp",
+        "IsmGetPistol"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Tape 1: Virginia",
+      "description": "Play Tape 1 in the supermarket, then finish it with the Mirror Shard.",
+      "achievementRefs": [
+        "IsmC1Cart",
+        "IsmC1WatcherMirror",
+        "IsmC1Stickynote",
+        "IsmAllPillsC1",
+        "IsmCompleteC1"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Second visit",
+      "description": "Pet Tonia, get the gas mask, and take the pills and Virginia's record.",
+      "achievementRefs": [
+        "IsmPetCat",
+        "IsmGetGasMask"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Tape 2: Allen",
+      "description": "Shoot a crow and the Shade, collect the lighthouse pills, and finish Tape 2.",
+      "achievementRefs": [
+        "IsmC2Crow",
+        "IsmC2ShadeHeadshot",
+        "IsmC2ShadeProjectile",
+        "IsmAllPillsC2",
+        "IsmCompleteC2"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Third visit",
+      "description": "Get the shotgun with the flare gun.",
+      "achievementRefs": [
+        "IsmGetShotgun"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Tape 3: Max",
+      "description": "Ride and trick the Bull, open the Mayer Lab, collect the factory pills, and finish Tape 3.",
+      "achievementRefs": [
+        "IsmC3BullRide",
+        "IsmC3BullRunOver",
+        "IsmC3Lab",
+        "IsmAllPillsC3",
+        "IsmCompleteC3"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Tape 4: Lucas",
+      "description": "Collect the fragments, Rosemary's record and the forest pills, stun the Flash, and finish Tape 4.",
+      "achievementRefs": [
+        "IsmC4FlashStun",
+        "IsmC4Beacons",
+        "IsmC4EmptySong",
+        "IsmAllPillsC4",
+        "IsmAllWeapons",
+        "IsmCompleteC4"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Rainbow Tape and ending",
+      "description": "High five Dave, finish Tape 5, then clean up building pills and records and finish the game.",
+      "achievementRefs": [
+        "IsmC5HighFive",
+        "IsmCompleteC5",
+        "IsmAllPillsHub",
+        "IsmAllRecords",
+        "IsmAllPills",
+        "IsmCompleteGame"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "IsmCompleteC1",
+      "displayName": "Mirror, Mirror, on the Wall...",
+      "description": "Finish Tape 1",
+      "hidden": false,
+      "globalPercent": 42.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Finish Tape 1, Virginia's tape.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play the tape in the office, then use the @item{Mirror Shard} to make @npc{Virginia} fly into the mirrors until you reach the dollhouse party."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmCompleteC2",
+      "displayName": "Lights Out!",
+      "description": "Finish Tape 2",
+      "hidden": false,
+      "globalPercent": 32.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1.25 hours",
+      "estMinutes": 75,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Finish Tape 2, Allen's tape.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the tape from Allen's house and play it in the office."
+          },
+          {
+            "id": "s2",
+            "text": "Get the @item{Flare Gun} from the ship below the lighthouse, go through the warehouse, and put the bulb back in the lighthouse."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmCompleteC3",
+      "displayName": "Take a Chill Pill",
+      "description": "Finish Tape 3",
+      "hidden": false,
+      "globalPercent": 25.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1.5 hours",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC2"
+      ],
+      "summary": "Finish Tape 3, Max's tape.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the tape from Max's apartment, play it in the office, and play through the factory level to its end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmCompleteC4",
+      "displayName": "Flashback",
+      "description": "Finish Tape 4",
+      "hidden": false,
+      "globalPercent": 23.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1.5 hours",
+      "estMinutes": 90,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC3"
+      ],
+      "summary": "Finish Tape 4, Lucas's tape.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bunker code is different each time you play Tape 4.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the tape from Lucas's apartment and play it in the office."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the bunker entrance. Its code comes from four towers: by the water plant, by the gondola route, at the church steeple, and behind the crypt. At each tower, point the radio at the bright stars. Each star shows a number from 0 to 9."
+          },
+          {
+            "id": "s3",
+            "text": "Enter the code at the bunker, open the bunker room doors, then use the large weapon in the Radar Tower to defeat @enemy{The Flash}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmCompleteC5",
+      "displayName": "Improvise. Adapt. Overcome",
+      "description": "Finish Tape 5.",
+      "hidden": true,
+      "globalPercent": 22.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC4"
+      ],
+      "summary": "Finish Tape 5, the Rainbow Tape.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find the open large container by the building's front entrance on floor 1, take the tape inside, and play it in the office."
+          },
+          {
+            "id": "s2",
+            "text": "Play each tape you find to unlock the next platforming section, and fight through to the end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmCompleteGame",
+      "displayName": "Patients and Grace",
+      "description": "Finish the game.",
+      "hidden": true,
+      "globalPercent": 22.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 15 minutes",
+      "estMinutes": 15,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC5"
+      ],
+      "summary": "Finish the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the Rainbow Tape, then play through the last visit to the building to the ending."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllPillsC1",
+      "displayName": "Pill Prescriber",
+      "description": "Collect all pills in the supermarket level",
+      "hidden": false,
+      "globalPercent": 23.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Collect all 12 pills in the Tape 1 level.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "Three Homa-Mart coins are needed. Scan the $1 card and the $0.50 card at the registers that ask for $4, $5 and $2.50. Cards glow white in the @item{Mirror Shard} view. Pills glow light blue.",
+        "collectibles": [
+          {
+            "id": "allpillsc1-1",
+            "index": 1,
+            "name": "Vitalyxe pill",
+            "location": "Carts at the entrance",
+            "method": "Put a Homa-Mart coin in the cart rack and take the pill.",
+            "missable": false,
+            "group": "Shop floor"
+          },
+          {
+            "id": "allpillsc1-2",
+            "index": 2,
+            "name": "Detectynol pill",
+            "location": "Photo booth, back left of the main area",
+            "method": "Use a coin, wait for the photo, take it, then turn around for the pill.",
+            "missable": false,
+            "group": "Shop floor"
+          },
+          {
+            "id": "allpillsc1-3",
+            "index": 3,
+            "name": "Vitalyxe pill",
+            "location": "Safe, manager's office",
+            "method": "Enter code 4152. The safe holds four pills.",
+            "missable": false,
+            "group": "Manager's office"
+          },
+          {
+            "id": "allpillsc1-4",
+            "index": 4,
+            "name": "Detectynol pill",
+            "location": "Safe, manager's office",
+            "method": "Same safe as above.",
+            "missable": false,
+            "group": "Manager's office"
+          },
+          {
+            "id": "allpillsc1-5",
+            "index": 5,
+            "name": "Enduramyn pill",
+            "location": "Safe, manager's office",
+            "method": "Same safe as above.",
+            "missable": false,
+            "group": "Manager's office"
+          },
+          {
+            "id": "allpillsc1-6",
+            "index": 6,
+            "name": "Fastonyde pill",
+            "location": "Safe, manager's office",
+            "method": "Same safe as above.",
+            "missable": false,
+            "group": "Manager's office"
+          },
+          {
+            "id": "allpillsc1-7",
+            "index": 7,
+            "name": "Enduramyn pill",
+            "location": "Office past the manager's room",
+            "method": "Duck under the grated fence on the left; a mannequin holds the pill.",
+            "missable": false,
+            "group": "East Wing"
+          },
+          {
+            "id": "allpillsc1-8",
+            "index": 8,
+            "name": "Vitalyxe pill",
+            "location": "Staff room kitchenette",
+            "method": "Open the drawer on the back wall.",
+            "missable": false,
+            "group": "East Wing"
+          },
+          {
+            "id": "allpillsc1-9",
+            "index": 9,
+            "name": "Fastonyde pill",
+            "location": "Staff room vending machine",
+            "method": "Turn off the staff room power at the power room (lever 4), put in a coin, turn the power on and straight back off, then take the pill.",
+            "missable": false,
+            "group": "East Wing"
+          },
+          {
+            "id": "allpillsc1-10",
+            "index": 10,
+            "name": "Enduramyn pill",
+            "location": "Maintenance Closet in the West Wing",
+            "method": "Climb the boxes, go through the grate, cross the pipes to the freezer roof.",
+            "missable": false,
+            "group": "West Wing and warehouse"
+          },
+          {
+            "id": "allpillsc1-11",
+            "index": 11,
+            "name": "Fastonyde pill",
+            "location": "Loading bay",
+            "method": "Raise the gate with the forklift, then climb on the forklift.",
+            "missable": false,
+            "group": "West Wing and warehouse"
+          },
+          {
+            "id": "allpillsc1-12",
+            "index": 12,
+            "name": "Detectynol pill",
+            "location": "Fenced-off corner at the back left of the warehouse",
+            "method": "Go through the small maze inside.",
+            "missable": false,
+            "group": "West Wing and warehouse"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllPillsC2",
+      "displayName": "Pill Pusher",
+      "description": "Collect all pills in the lighthouse level",
+      "hidden": false,
+      "globalPercent": 13.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Collect all 12 pills in the Tape 2 level.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "Several pills need the Shade to break crates. You can also wait until you defeat the Shade, when all the crates break.",
+        "collectibles": [
+          {
+            "id": "allpillsc2-1",
+            "index": 1,
+            "name": "Fastonyde pill",
+            "location": "Shipping container past the beach shed",
+            "method": "Cross the crates in the water, then use the gas mask on the container to reach the end.",
+            "missable": false,
+            "group": "Beach and roads"
+          },
+          {
+            "id": "allpillsc2-2",
+            "index": 2,
+            "name": "Detectynol pill",
+            "location": "Caved-in tunnel at the end of the left road",
+            "method": "Go inside.",
+            "missable": false,
+            "group": "Beach and roads"
+          },
+          {
+            "id": "allpillsc2-3",
+            "index": 3,
+            "name": "Vitalyxe pill",
+            "location": "Large truck sunk in the road",
+            "method": "Climb over the front, drop onto the pallet, and go inside.",
+            "missable": false,
+            "group": "Beach and roads"
+          },
+          {
+            "id": "allpillsc2-4",
+            "index": 4,
+            "name": "Enduramyn pill",
+            "location": "Hut by the next junction",
+            "method": "Go around the back through the fence, shoot the boards on the front door, and take it from the desk.",
+            "missable": false,
+            "group": "Beach and roads"
+          },
+          {
+            "id": "allpillsc2-5",
+            "index": 5,
+            "name": "Fastonyde pill",
+            "location": "Top of a box tower, left side of the yard",
+            "method": "Walk the Shade through the stack so the boxes break and the pill drops.",
+            "missable": false,
+            "group": "Lighthouse courtyard"
+          },
+          {
+            "id": "allpillsc2-6",
+            "index": 6,
+            "name": "Vitalyxe pill",
+            "location": "Fenced area left of the wooden shed",
+            "method": "Lure the Shade across the box in front to break it.",
+            "missable": false,
+            "group": "Lighthouse courtyard"
+          },
+          {
+            "id": "allpillsc2-7",
+            "index": 7,
+            "name": "Enduramyn pill",
+            "location": "Outcrop on the cliff path",
+            "method": "Jump up on the left and across. It slides toward the edge, so edge over to it.",
+            "missable": false,
+            "group": "Lighthouse courtyard"
+          },
+          {
+            "id": "allpillsc2-8",
+            "index": 8,
+            "name": "Detectynol pill",
+            "location": "Whale ribs near the red light",
+            "method": "Use the Mirror Shard to reveal the hidden path up to it.",
+            "missable": false,
+            "group": "Beach and whale bones"
+          },
+          {
+            "id": "allpillsc2-9",
+            "index": 9,
+            "name": "Vitalyxe pill",
+            "location": "Second whale skeleton, left of the pier area",
+            "method": "After you get the flare gun, shoot the darkness inside and walk to the end of the red container.",
+            "missable": false,
+            "group": "Beach and whale bones"
+          },
+          {
+            "id": "allpillsc2-10",
+            "index": 10,
+            "name": "Enduramyn pill",
+            "location": "Crane counterweight",
+            "method": "Edge across the beams to reach it.",
+            "missable": false,
+            "group": "Wharf"
+          },
+          {
+            "id": "allpillsc2-11",
+            "index": 11,
+            "name": "Detectynol pill",
+            "location": "House across from the gate between the wharf entrance and the crane",
+            "method": "Lure the Shade to break the boxes, shoot the boards on the door through the window, and go in.",
+            "missable": false,
+            "group": "Wharf"
+          },
+          {
+            "id": "allpillsc2-12",
+            "index": 12,
+            "name": "Fastonyde pill",
+            "location": "Second crate stack, past the generator in the next area",
+            "method": "Lure the Shade to break the stacks, climb the beam that drops, and follow it to the end.",
+            "missable": false,
+            "group": "Wharf"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllPillsC3",
+      "displayName": "Pill Prospector ",
+      "description": "Collect all pills in the factory level",
+      "hidden": false,
+      "globalPercent": 11.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC2"
+      ],
+      "summary": "Collect all 12 pills in the Tape 3 level.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "Pills 3, 10 and 11 need the Bull, so take them before you defeat it. Pill 2 is a crate you break with the rail cart; if you move the ram onto the wheels first, you can no longer break it. If you miss any, replay the tape.",
+        "collectibles": [
+          {
+            "id": "allpillsc3-1",
+            "index": 1,
+            "name": "Detectynol pill",
+            "location": "Behind the train house",
+            "method": "Break the boards on the window, shoot the barrel, go out and around to the open container.",
+            "missable": false,
+            "group": "Train yard"
+          },
+          {
+            "id": "allpillsc3-2",
+            "index": 2,
+            "name": "Vitalyxe pill",
+            "location": "Crate in front of the rail stopper",
+            "method": "Turn the rail platform toward it and use the cart to smash the crate.",
+            "missable": false,
+            "group": "Train yard"
+          },
+          {
+            "id": "allpillsc3-3",
+            "index": 3,
+            "name": "Fastonyde pill",
+            "location": "Roofless red railcar, front left of the yard",
+            "method": "Stun the Bull with a shot to its eyes and climb it, or use a lure pill later.",
+            "missable": false,
+            "group": "Train yard"
+          },
+          {
+            "id": "allpillsc3-4",
+            "index": 4,
+            "name": "Vitalyxe pill",
+            "location": "Top of the tall electric pole",
+            "method": "Cross the transformers and beams, then shoot the pill down with the pistol.",
+            "missable": false,
+            "group": "Power station and hangar"
+          },
+          {
+            "id": "allpillsc3-5",
+            "index": 5,
+            "name": "Fastonyde pill",
+            "location": "Assembly room, behind a fence",
+            "method": "Plug the 3V chip into the socket in the room's far right corner, pull it out right away, then go through the open gate.",
+            "missable": false,
+            "group": "Power station and hangar"
+          },
+          {
+            "id": "allpillsc3-6",
+            "index": 6,
+            "name": "Enduramyn pill",
+            "location": "Desk at the end of the lab",
+            "method": "Open the lab first.",
+            "missable": false,
+            "group": "Mayer Lab"
+          },
+          {
+            "id": "allpillsc3-7",
+            "index": 7,
+            "name": "Detectynol pill",
+            "location": "Desk at the end of the lab",
+            "method": "Same desk as above.",
+            "missable": false,
+            "group": "Mayer Lab"
+          },
+          {
+            "id": "allpillsc3-8",
+            "index": 8,
+            "name": "Vitalyxe pill",
+            "location": "Desk at the end of the lab",
+            "method": "Same desk as above.",
+            "missable": false,
+            "group": "Mayer Lab"
+          },
+          {
+            "id": "allpillsc3-9",
+            "index": 9,
+            "name": "Detectynol pill",
+            "location": "Railcar behind a crate, yard before the power station",
+            "method": "Drop a lure pill on the oil puddle; the blast breaks the crate.",
+            "missable": false,
+            "group": "After the lure pills"
+          },
+          {
+            "id": "allpillsc3-10",
+            "index": 10,
+            "name": "Enduramyn pill",
+            "location": "Island in the lake",
+            "method": "Lure the Bull into the crate stacks, then use the crates to cross.",
+            "missable": false,
+            "group": "After the lure pills"
+          },
+          {
+            "id": "allpillsc3-11",
+            "index": 11,
+            "name": "Fastonyde pill",
+            "location": "Tunnel at the top of the track",
+            "method": "Lure the Bull to break the fence.",
+            "missable": false,
+            "group": "After the lure pills"
+          },
+          {
+            "id": "allpillsc3-12",
+            "index": 12,
+            "name": "Enduramyn pill",
+            "location": "Quarry building conveyor",
+            "method": "Climb the truck, jump on the conveyor, cross the narrow beam to the other conveyor, and jump the hole at the top.",
+            "missable": false,
+            "group": "After the lure pills"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllPillsC4",
+      "displayName": "Pill Popper",
+      "description": "Collect all pills in the forest level",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC3"
+      ],
+      "summary": "Collect all 12 pills in the Tape 4 level.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "Some pills are hard to reach while The Flash attacks. You can take them after you defeat it.",
+        "collectibles": [
+          {
+            "id": "allpillsc4-1",
+            "index": 1,
+            "name": "Detectynol pill",
+            "location": "Bathtub in the ranger cabin",
+            "method": "Shoot the barrel and planks over the bathroom door through the back window, then climb the roof and drop through the attic.",
+            "missable": false,
+            "group": "Cabin and bridge"
+          },
+          {
+            "id": "allpillsc4-2",
+            "index": 2,
+            "name": "Vitalyxe pill",
+            "location": "Tip of the fallen electric pole",
+            "method": "The Flash opens the fence. Cross the boards to the tip.",
+            "missable": false,
+            "group": "Cabin and bridge"
+          },
+          {
+            "id": "allpillsc4-3",
+            "index": 3,
+            "name": "Enduramyn pill",
+            "location": "Standing electric pole south of that one",
+            "method": "Use the radio to open the gate.",
+            "missable": false,
+            "group": "Cabin and bridge"
+          },
+          {
+            "id": "allpillsc4-4",
+            "index": 4,
+            "name": "Fastonyde pill",
+            "location": "Roof of a half-sunken house in the lake",
+            "method": "Jump across the floating boards.",
+            "missable": false,
+            "group": "Forest west"
+          },
+          {
+            "id": "allpillsc4-5",
+            "index": 5,
+            "name": "Vitalyxe pill",
+            "location": "Well",
+            "method": "Use the water-treatment valve to raise the bucket.",
+            "missable": false,
+            "group": "Forest west"
+          },
+          {
+            "id": "allpillsc4-6",
+            "index": 6,
+            "name": "Enduramyn pill",
+            "location": "Cable car platform",
+            "method": "Ride up, send the car back down with the lever, jump out, then jump across.",
+            "missable": false,
+            "group": "Forest west"
+          },
+          {
+            "id": "allpillsc4-7",
+            "index": 7,
+            "name": "Detectynol pill",
+            "location": "Lookout beside the memorial plaque",
+            "method": "Use key B on the fence gate outside the Visitor Center.",
+            "missable": false,
+            "group": "Visitor Center"
+          },
+          {
+            "id": "allpillsc4-8",
+            "index": 8,
+            "name": "Fastonyde pill",
+            "location": "Picnic bench at the playground",
+            "method": "Go behind the map after the gate opens.",
+            "missable": false,
+            "group": "Forest east"
+          },
+          {
+            "id": "allpillsc4-9",
+            "index": 9,
+            "name": "Fastonyde pill",
+            "location": "Blue shipping container on a hill",
+            "method": "Use the Mirror Shard to find the device inside, then use the radio through the hole in the lead plating.",
+            "missable": false,
+            "group": "Forest east"
+          },
+          {
+            "id": "allpillsc4-10",
+            "index": 10,
+            "name": "Enduramyn pill",
+            "location": "End of the mine path past the bridge",
+            "method": "Use the radio between the bridge planks to open the gate, then cross the minefield.",
+            "missable": false,
+            "group": "Forest east"
+          },
+          {
+            "id": "allpillsc4-11",
+            "index": 11,
+            "name": "Detectynol pill",
+            "location": "Crypt, behind a loose brick",
+            "method": "Cross the coffins, stand on the shattered glass, find the brick with the Mirror Shard, and push it.",
+            "missable": false,
+            "group": "Church and bunker"
+          },
+          {
+            "id": "allpillsc4-12",
+            "index": 12,
+            "name": "Vitalyxe pill",
+            "location": "Behind door 7 in the bunker",
+            "method": "Enter the bunker code and use the radio to open the doors.",
+            "missable": false,
+            "group": "Church and bunker"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllPillsHub",
+      "displayName": "Pharma Bro",
+      "description": "Collect all pills in your building",
+      "hidden": false,
+      "globalPercent": 10.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 1 hour",
+      "estMinutes": 60,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC4"
+      ],
+      "summary": "Collect all 24 pills in your building.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "The pills are spread over five visits. After Tape 4 the basement floods. If you missed basement pills, break the two large crates on your right in the water by shooting a flare over them. Shoot the glowing barrels and throw pills into the toxic puddles, then toss one more pill across the fence so it lands in the puddle behind it. That drains the water.",
+        "collectibles": [
+          {
+            "id": "allpillshub-1",
+            "index": 1,
+            "name": "Fastonyde pill",
+            "location": "Top of the washing machines, basement laundry room",
+            "method": "Use the boxes to climb up.",
+            "missable": false,
+            "group": "Visit 1"
+          },
+          {
+            "id": "allpillshub-2",
+            "index": 2,
+            "name": "Detectynol pill",
+            "location": "Behind boards in the basement workshop corridor",
+            "method": "After you build the pistol, shoot the barrel by the oil.",
+            "missable": false,
+            "group": "Visit 1"
+          },
+          {
+            "id": "allpillshub-3",
+            "index": 3,
+            "name": "Vitalyxe pill",
+            "location": "Basement vent, top left of the room",
+            "method": "Shoot out the vent grate with the pistol and climb the boxes.",
+            "missable": false,
+            "group": "Visit 1"
+          },
+          {
+            "id": "allpillshub-4",
+            "index": 4,
+            "name": "Enduramyn pill",
+            "location": "Maintenance room hallway, floor 1",
+            "method": "Shoot the barrel at the end of the hall.",
+            "missable": false,
+            "group": "Visit 1"
+          },
+          {
+            "id": "allpillshub-5",
+            "index": 5,
+            "name": "Detectynol pill",
+            "location": "Roof vent exhaust",
+            "method": "Go up the stairs behind the yellow tape and time your jump.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-6",
+            "index": 6,
+            "name": "Enduramyn pill",
+            "location": "Basement ventilation room",
+            "method": "Cut the tape, then break the planks.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-7",
+            "index": 7,
+            "name": "Vitalyxe pill",
+            "location": "Utility Room pipes",
+            "method": "Cut the tape and use the gas mask.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-8",
+            "index": 8,
+            "name": "Fastonyde pill",
+            "location": "Map room, behind a fake wall",
+            "method": "Break the wall with the shard.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-9",
+            "index": 9,
+            "name": "Vitalyxe pill",
+            "location": "Outside a window, Main Lobby upper right balcony",
+            "method": "Climb the walls to reach it.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-10",
+            "index": 10,
+            "name": "Fastonyde pill",
+            "location": "Main Lobby, bottom floor",
+            "method": "In the open.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-11",
+            "index": 11,
+            "name": "Pill of your choice",
+            "location": "Vending machine, Main Lobby upper level",
+            "method": "Climb boxes in the Reception Back Room, break the grate, and take the coin. Use it in the machine.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-12",
+            "index": 12,
+            "name": "Fastonyde pill",
+            "location": "Safe, Mail Room",
+            "method": "Enter code 1997. The safe holds four pills.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-13",
+            "index": 13,
+            "name": "Vitalyxe pill",
+            "location": "Safe, Mail Room",
+            "method": "Same safe as above.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-14",
+            "index": 14,
+            "name": "Enduramyn pill",
+            "location": "Safe, Mail Room",
+            "method": "Same safe as above.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-15",
+            "index": 15,
+            "name": "Detectynol pill",
+            "location": "Safe, Mail Room",
+            "method": "Same safe as above.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-16",
+            "index": 16,
+            "name": "Pill of your choice",
+            "location": "Vending machine, Main Lobby upper level",
+            "method": "Take the coin behind some oil on the left balcony.",
+            "missable": false,
+            "group": "Visit 2, after Tape 1"
+          },
+          {
+            "id": "allpillshub-17",
+            "index": 17,
+            "name": "Pill of your choice",
+            "location": "Vending machine, Main Lobby upper level",
+            "method": "Shoot the board behind the open locker left of the front desk, shoot a flare through, then take the coin in the Mail Room.",
+            "missable": false,
+            "group": "Visit 3, after Tape 2"
+          },
+          {
+            "id": "allpillshub-18",
+            "index": 18,
+            "name": "Enduramyn pill",
+            "location": "Map room tunnel, past the fake wall",
+            "method": "Break the second fake wall, clear the darkness, shoot a flare over the fence, break the boards on the back wall, shoot a flare into the hole, and grab the pill in midair.",
+            "missable": false,
+            "group": "Visit 3, after Tape 2"
+          },
+          {
+            "id": "allpillshub-19",
+            "index": 19,
+            "name": "Vitalyxe pill",
+            "location": "Janitor's Closet, maintenance room",
+            "method": "Shoot a flare through the open vent on the left wall of the East Wing corridor, then go around to the other side.",
+            "missable": false,
+            "group": "Visit 3, after Tape 2"
+          },
+          {
+            "id": "allpillshub-20",
+            "index": 20,
+            "name": "Pill of your choice",
+            "location": "Vending machine, Main Lobby upper level",
+            "method": "After the elevator scene, go back up to floor 2 and grab the coin through the bars.",
+            "missable": false,
+            "group": "Visit 4, after Tape 3"
+          },
+          {
+            "id": "allpillshub-21",
+            "index": 21,
+            "name": "Detectynol pill",
+            "location": "Utility Room, back",
+            "method": "Drop a lure pill onto the oil puddle to smash the crates.",
+            "missable": false,
+            "group": "Visit 4, after Tape 3"
+          },
+          {
+            "id": "allpillshub-22",
+            "index": 22,
+            "name": "Detectynol pill",
+            "location": "Main Lobby balcony vent",
+            "method": "Throw a lure pill into the oil on the balcony to break the crate and go down the vent.",
+            "missable": false,
+            "group": "Visit 4, after Tape 3"
+          },
+          {
+            "id": "allpillshub-23",
+            "index": 23,
+            "name": "Fastonyde pill",
+            "location": "Roof, locked area",
+            "method": "Open it with the radio.",
+            "missable": false,
+            "group": "Visit 5, after Tape 4"
+          },
+          {
+            "id": "allpillshub-24",
+            "index": 24,
+            "name": "Enduramyn pill",
+            "location": "Roof, second locked area",
+            "method": "Open it with the radio.",
+            "missable": false,
+            "group": "Visit 5, after Tape 4"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllRecords",
+      "displayName": "Audiophile",
+      "description": "Collect all vinyl records",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 45 minutes",
+      "estMinutes": 45,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC5"
+      ],
+      "summary": "Collect all 6 vinyl records.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": false,
+        "context": "Put each record on the office turntable. Five are in your building and one is in Tape 4.",
+        "collectibles": [
+          {
+            "id": "allrecords-1",
+            "index": 1,
+            "name": "Virginia's record",
+            "location": "@loc{Virginia's apartment}",
+            "method": "After Tape 1, cut the yellow tape with the @item{Mirror Shard}, look at the broken mirror to reveal a key, open the bathroom door behind it, and take the record from the sink.",
+            "missable": false
+          },
+          {
+            "id": "allrecords-2",
+            "index": 2,
+            "name": "Allen's record",
+            "location": "@loc{Allen's apartment}",
+            "method": "After Tape 2, fire a flare at the darkness over the attic stairs, cross the attic, and shoot a flare down through the hole in the floor. Back downstairs, use the door on the left in the back area and fire another flare through the gap in the wall. Go into the new area, through the door straight ahead, shoot the last darkness, and take the record from the bed.",
+            "missable": false
+          },
+          {
+            "id": "allrecords-3",
+            "index": 3,
+            "name": "Max's record",
+            "location": "@loc{Max's apartment}",
+            "method": "After Tape 3, throw a lure pill into the truck's engine, drive through the wall into the daughter's room, and take the record from the desk. Reverse the truck to get out.",
+            "missable": false
+          },
+          {
+            "id": "allrecords-4",
+            "index": 4,
+            "name": "Lucas's record",
+            "location": "@loc{Lucas's apartment}",
+            "method": "After Tape 4, use the radio on the devices in the back room, starting near the front door, to open the sealed chest. Some need an odd angle, such as from inside the fireplace or from boxes.",
+            "missable": false
+          },
+          {
+            "id": "allrecords-5",
+            "index": 5,
+            "name": "Rosemary's record",
+            "location": "@loc{Church graveyard}, Tape 4",
+            "method": "Fire a flare at the graveyard darkness, then aim the radio at the record by the grave with glasses on it.",
+            "missable": false
+          },
+          {
+            "id": "allrecords-6",
+            "index": 6,
+            "name": "Desmond's record",
+            "location": "Your apartment bedroom",
+            "method": "After the Rainbow Tape, @npc{Tonia} gives you the bedroom key. Fire one flare to clear the darkness and take the record from the back cabinet.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmPetCat",
+      "displayName": "GOTY 10/10",
+      "description": "Pet Tonia",
+      "hidden": false,
+      "globalPercent": 64.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Pet @npc{Tonia}, the white cat.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After finishing Tape 1, go to the office when @npc{Tonia} is there and pet her."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmHangUp",
+      "displayName": "Nope.",
+      "description": "Hang up on your sneaky stalker",
+      "hidden": false,
+      "globalPercent": 59.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Hang up on the stalker's phone call.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When the phone rings, pick it up and hang up before the caller finishes, for example by walking away."
+          },
+          {
+            "id": "s2",
+            "text": "The phone rings several times in the story, so you can try again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmGetPistol",
+      "displayName": "Point and Shoot",
+      "description": "Acquire the Pistol in your building",
+      "hidden": false,
+      "globalPercent": 62.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build the @item{Pistol} in your building.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the pistol slide from the top of the vending machine in the 2nd-floor hallway."
+          },
+          {
+            "id": "s2",
+            "text": "The pistol barrel is taped beneath the Maintenance Room's table; grab it."
+          },
+          {
+            "id": "s3",
+            "text": "In the basement laundry room, take the fuse from one washing machine and put it in the washing machine next to it. When the machine moves, take the grip from the wall behind it."
+          },
+          {
+            "id": "s4",
+            "text": "Use the three parts on the workbench in the basement."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmGetGasMask",
+      "displayName": "Breathing Exercises",
+      "description": "Acquire the Gas Mask in your building",
+      "hidden": false,
+      "globalPercent": 37.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Pick up the @item{Gas Mask} in your building.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Tape 1, go to the basement and cut the yellow tape next to the elevator with the @item{Mirror Shard}."
+          },
+          {
+            "id": "s2",
+            "text": "Break the planks over the vent, crawl through it, and take the mask from the table."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmGetShotgun",
+      "displayName": "Scatterbrain",
+      "description": "Acquire the Shotgun in your building",
+      "hidden": false,
+      "globalPercent": 28.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC2"
+      ],
+      "summary": "Pick up the @item{Shotgun} in your building.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After Tape 2, go to the vent near Max's door on floor 1. Fire a @item{Flare Gun} shot at the darkness, then shoot the board holding the shotgun so it falls."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the basement vent room, shoot the darkness there, and pick up the shotgun."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC1Cart",
+      "displayName": "Shopping for Achievements",
+      "description": "Push a cart into the water on the way to Homa Mart",
+      "hidden": false,
+      "globalPercent": 41.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Knock a shopping cart into the water while heading to @loc{Homa-Mart}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Walk to the store and push one of the shopping carts you find until it falls into the water."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC1Stickynote",
+      "displayName": "Turn that Frown Upside Down",
+      "description": "Give a mannequin a face",
+      "hidden": false,
+      "globalPercent": 14.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [],
+      "summary": "Put a sticky note on a mannequin's face.",
+      "guide": {
+        "kind": "standard",
+        "context": "If the note is not on the office desk, check the table in the CCTV room.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After you turn off the power in the offices, take the sticky note from the desk."
+          },
+          {
+            "id": "s2",
+            "text": "Go back to the shop floor and stick it on the standing mannequin's face."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC1WatcherMirror",
+      "displayName": "You're a Mean One...",
+      "description": "Scare The Watcher away using the Mirror Shard",
+      "hidden": false,
+      "globalPercent": 46.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Scare away @enemy{The Watcher} with the @item{Mirror Shard}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get the Watcher's attention so it charges you."
+          },
+          {
+            "id": "s2",
+            "text": "Turn around and hold up the shard just before it reaches you so it sees its own reflection."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC2Crow",
+      "displayName": "A Murder of Crows",
+      "description": "Shoot a crow",
+      "hidden": false,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Shoot a crow.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you miss, reload the last auto-save to try again. A pistol ammo box is in the rowboat on the beach to the left of the start.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip the @item{Pistol}. Early in Tape 2, take the lighthouse bulb from the shack on the beach."
+          },
+          {
+            "id": "s2",
+            "text": "Climb the rock slope that goes up to the right. Three crows sit on the fence above; shoot one before they fly off."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC2ShadeHeadshot",
+      "displayName": "Take That!",
+      "description": "Damage The Shade using a weapon",
+      "hidden": false,
+      "globalPercent": 33.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "about 2 minutes",
+      "estMinutes": 2,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Damage @enemy{The Shade} with a weapon.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When the Shade comes at you in the parking lot, shoot the man-shaped figure in the middle of the black mass."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC2ShadeProjectile",
+      "displayName": "Give Me All You Got!",
+      "description": "Shoot down a Shade projectile",
+      "hidden": false,
+      "globalPercent": 21.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC1"
+      ],
+      "summary": "Shoot a falling object thrown by @enemy{The Shade}.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After you open the electric gate and climb down the cliff, the Shade throws crates. Look up and shoot one while it is in the air."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC3BullRide",
+      "displayName": "Rodeo Clown",
+      "description": "Ride The Bull for 5 seconds",
+      "hidden": false,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC2"
+      ],
+      "summary": "Stay on top of @enemy{The Bull} for 5 seconds.",
+      "guide": {
+        "kind": "standard",
+        "context": "This only works while the Bull is there. If you missed it, replay Tape 3.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the tunnel, run past the Bull to the end and climb up on the rocks."
+          },
+          {
+            "id": "s2",
+            "text": "When it comes at you, jump onto its back and hold on for at least 5 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC3Lab",
+      "displayName": "Access Granted",
+      "description": "Open the Mayer Lab.",
+      "hidden": true,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 20 minutes",
+      "estMinutes": 20,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC2"
+      ],
+      "summary": "Open the Mayer Lab.",
+      "guide": {
+        "kind": "standard",
+        "context": "Use the Mirror Shard to find the sockets. You get the chips as you play through the factory.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On the factory's 3rd floor, take the keycard from the Archives room."
+          },
+          {
+            "id": "s2",
+            "text": "Put the 3V chip in the socket farthest from the lab, the 2V chip in the socket behind the fence to the side, and the 1V chip in the socket next to the lab door."
+          },
+          {
+            "id": "s3",
+            "text": "Use the keycard on the reader at the lab door."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC3BullRunOver",
+      "displayName": "Ole!",
+      "description": "Trick The Bull into attacking an inkblot",
+      "hidden": false,
+      "globalPercent": 23.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC2"
+      ],
+      "summary": "Lure @enemy{The Bull} into hitting an inkblot.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After you make the lure pills, go to the train tracks toward the quarry, where inkblots attack you. Do not kill them."
+          },
+          {
+            "id": "s2",
+            "text": "Throw a lure pill near the inkblots so the Bull charges."
+          },
+          {
+            "id": "s3",
+            "text": "Keep the inkblots in that spot until the Bull hits one."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC4Beacons",
+      "displayName": "Good Listener",
+      "description": "Find and listen to all of Lucas' session fragments",
+      "hidden": false,
+      "globalPercent": 10.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "about 30 minutes",
+      "estMinutes": 30,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC3"
+      ],
+      "summary": "Find and listen to all 10 of Lucas's session fragments.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "Hold the @item{Radio Device} while you walk. Spikes show on its display, and it turns green when you are near a fragment. At the camp tents, activate the red light on the radio to listen. The first five appear after the towers light up, and the last five appear after the Flash leaves the area near the bunker.",
+        "collectibles": [
+          {
+            "id": "frag-1",
+            "index": 1,
+            "name": "Session fragment 1",
+            "group": "Forest centre and west",
+            "location": "Little dugout just past the bridge on the west side",
+            "method": "East of the well. Use the radio near the camp tent.",
+            "missable": false
+          },
+          {
+            "id": "frag-2",
+            "index": 2,
+            "name": "Session fragment 2",
+            "group": "Forest centre and west",
+            "location": "Just past the bridge, on the east side of the forest centre",
+            "method": "Use the radio near the tent.",
+            "missable": false
+          },
+          {
+            "id": "frag-3",
+            "index": 3,
+            "name": "Session fragment 3",
+            "group": "Forest centre and west",
+            "location": "Back of the well area",
+            "method": "Use the radio near the tent.",
+            "missable": false
+          },
+          {
+            "id": "frag-4",
+            "index": 4,
+            "name": "Session fragment 4",
+            "group": "Forest centre and west",
+            "location": "Lake shore near the Water Treatment Facility, by the sunken cabins",
+            "method": "Use the radio near the tent.",
+            "missable": false
+          },
+          {
+            "id": "frag-5",
+            "index": 5,
+            "name": "Session fragment 5",
+            "group": "Forest centre and west",
+            "location": "Further east of that shore fragment, around the hill",
+            "method": "Use the radio near the tent.",
+            "missable": false
+          },
+          {
+            "id": "frag-6",
+            "index": 6,
+            "name": "Session fragment 6",
+            "group": "Forest east and bunker",
+            "location": "Dugout south-east of the forest centre",
+            "method": "Follow the cleared path, staying along its right edge.",
+            "missable": false
+          },
+          {
+            "id": "frag-7",
+            "index": 7,
+            "name": "Session fragment 7",
+            "group": "Forest east and bunker",
+            "location": "On a hill a little further along, near the playground",
+            "method": "The third tower, by the cemetery, is across a road from it.",
+            "missable": false
+          },
+          {
+            "id": "frag-8",
+            "index": 8,
+            "name": "Session fragment 8",
+            "group": "Forest east and bunker",
+            "location": "East of the bunker, first small green path on the right",
+            "method": "Follow the path to the end.",
+            "missable": false
+          },
+          {
+            "id": "frag-9",
+            "index": 9,
+            "name": "Session fragment 9",
+            "group": "Forest east and bunker",
+            "location": "East of the bunker, second small green path on the right",
+            "method": "Follow the path to the end.",
+            "missable": false
+          },
+          {
+            "id": "frag-10",
+            "index": 10,
+            "name": "Session fragment 10",
+            "group": "Forest east and bunker",
+            "location": "Near the entrance to the church",
+            "method": "Use the radio near the tent.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC4EmptySong",
+      "displayName": "Unsung Hero",
+      "description": "Find Rosemary's secret song.",
+      "hidden": true,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC3"
+      ],
+      "summary": "Find Rosemary's hidden record.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In Tape 4, after the church tower code, climb to the tower roof and shoot the darkness in the graveyard with the @item{Flare Gun}."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the fresh grave with glasses on it, look with the @item{Mirror Shard}, and use the radio on the record to pick it up."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC4FlashStun",
+      "displayName": "Feedback Loop\t",
+      "description": "Stun The Flash using your Radio Device",
+      "hidden": false,
+      "globalPercent": 17.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 10 minutes",
+      "estMinutes": 10,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC3"
+      ],
+      "summary": "Stun @enemy{The Flash} with the @item{Radio Device}.",
+      "guide": {
+        "kind": "standard",
+        "context": "The red lights are not always showing, so keep running until they appear.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "While the Flash chases you, point the radio at its three red lights and activate each one."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmC5HighFive",
+      "displayName": "High Five for Dummies",
+      "description": "Give Dave a high five while fighting for your mind",
+      "hidden": false,
+      "globalPercent": 17.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "about 5 minutes",
+      "estMinutes": 5,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC4"
+      ],
+      "summary": "High five the mannequin Dave in the Rainbow Tape.",
+      "guide": {
+        "kind": "standard",
+        "context": "If you miss it, reload the last checkpoint and try again.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Inside the Rainbow Tape, after you finish overwriting Virginia's section, jump into the open shipping container full of mannequins."
+          },
+          {
+            "id": "s2",
+            "text": "Interact with the one holding out its hand as you jump toward it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllWeapons",
+      "displayName": "Fully Loaded",
+      "description": "Find all weapons in the game",
+      "hidden": false,
+      "globalPercent": 23.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story progression",
+      "estMinutes": 0,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmCompleteC3"
+      ],
+      "summary": "Find all 7 weapons.",
+      "guide": {
+        "kind": "collectible",
+        "ordered": true,
+        "context": "You pick these up as you play; the radio is the last one.",
+        "collectibles": [
+          {
+            "id": "allweapons-1",
+            "index": 1,
+            "name": "Flashlight",
+            "location": "@loc{Basement} shelf",
+            "method": "Take it from the shelf.",
+            "missable": false
+          },
+          {
+            "id": "allweapons-2",
+            "index": 2,
+            "name": "Pistol",
+            "location": "Your building",
+            "method": "Build it from three parts at the basement workbench.",
+            "missable": false
+          },
+          {
+            "id": "allweapons-3",
+            "index": 3,
+            "name": "Mirror Shard",
+            "location": "Tape 1",
+            "method": "Take it as part of the story.",
+            "missable": false
+          },
+          {
+            "id": "allweapons-4",
+            "index": 4,
+            "name": "Flare Gun",
+            "location": "Tape 2",
+            "method": "Take it from the ship below the lighthouse.",
+            "missable": false
+          },
+          {
+            "id": "allweapons-5",
+            "index": 5,
+            "name": "Shotgun",
+            "location": "Your building",
+            "method": "Shoot down the board with the flare gun, then collect it in the basement.",
+            "missable": false
+          },
+          {
+            "id": "allweapons-6",
+            "index": 6,
+            "name": "Lure Pills",
+            "location": "Tape 3",
+            "method": "Make them as part of the story.",
+            "missable": false
+          },
+          {
+            "id": "allweapons-7",
+            "index": 7,
+            "name": "Radio Device",
+            "location": "Tape 4",
+            "method": "Take it from the ranger cabin at the start of Tape 4.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IsmAllPills",
+      "displayName": "Well Medicated",
+      "description": "Find all pills in the game",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "covered by the area pill achievements",
+      "estMinutes": 0,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "IsmAllPillsC1",
+        "IsmAllPillsC2",
+        "IsmAllPillsC3",
+        "IsmAllPillsC4",
+        "IsmAllPillsHub"
+      ],
+      "summary": "Collect all 72 pills in the game.",
+      "guide": {
+        "kind": "standard",
+        "context": "The count is 24 in the building and 12 in each of the four tapes.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect every pill on the five lists: your building and Tapes 1 to 4."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "IsmHangUp",
+    "IsmGetPistol",
+    "IsmC1Cart",
+    "IsmC1WatcherMirror",
+    "IsmC1Stickynote",
+    "IsmCompleteC1",
+    "IsmAllPillsC1",
+    "IsmPetCat",
+    "IsmGetGasMask",
+    "IsmC2Crow",
+    "IsmC2ShadeHeadshot",
+    "IsmC2ShadeProjectile",
+    "IsmAllPillsC2",
+    "IsmCompleteC2",
+    "IsmGetShotgun",
+    "IsmC3BullRide",
+    "IsmC3Lab",
+    "IsmC3BullRunOver",
+    "IsmCompleteC3",
+    "IsmAllPillsC3",
+    "IsmAllWeapons",
+    "IsmC4EmptySong",
+    "IsmC4FlashStun",
+    "IsmC4Beacons",
+    "IsmCompleteC4",
+    "IsmAllPillsC4",
+    "IsmC5HighFive",
+    "IsmCompleteC5",
+    "IsmCompleteGame",
+    "IsmAllRecords",
+    "IsmAllPillsHub",
+    "IsmAllPills"
+  ]
+}

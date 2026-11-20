@@ -1,0 +1,514 @@
+{
+  "game": {
+    "appid": 3372980,
+    "slug": "tower-wizard",
+    "title": "Tower Wizard",
+    "version": "1.0",
+    "lastPatchChecked": "2026-05-21",
+    "estTotalHours": 12,
+    "difficultyRating": 2,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-20"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Learn the basics",
+      "description": "Build the tower, ascend until Forestry unlocks, buy a Totem, then prestige. Change the theme any time.",
+      "achievementRefs": [
+        "build_tower",
+        "build_totem",
+        "prestige",
+        "inverted"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Build the Dragon and Alchemy side",
+      "description": "Choose the Dragon Nest in Building, craft the Holy Grail, and raise the Dragon to level 50.",
+      "achievementRefs": [
+        "build_dragon_nest",
+        "holy_grail",
+        "dragon_level_50"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Break the walls and finish",
+      "description": "Break the Cloud Wall, buy the whole Embassy map, then break the Solar and Cosmic Walls and reach the ending.",
+      "achievementRefs": [
+        "wall_break",
+        "diplomacy",
+        "wall_break_2",
+        "wall_break_3",
+        "the_ending"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "build_tower",
+      "displayName": "The Tower",
+      "description": "Build your first tower",
+      "hidden": false,
+      "globalPercent": 99.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 minutes",
+      "estMinutes": 2,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Build the first tower.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Click or hold on the floating ball until you have 30 resources."
+          },
+          {
+            "id": "s2",
+            "text": "Press Build Tower. It costs nothing."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "prestige",
+      "displayName": "Prestige",
+      "description": "Prestige for the first time",
+      "hidden": false,
+      "globalPercent": 92.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30-60 minutes",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "build_totem"
+      ],
+      "summary": "Prestige for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Prestige ends the current run. You restart with your Prestige Points and Blessings.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep ascending the tower until the Prestige mechanic unlocks and a smaller tower shows your Prestige."
+          },
+          {
+            "id": "s2",
+            "text": "Click @mechanic{Prestige}, pick your Blessings, and confirm."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wall_break_3",
+      "displayName": "The Cosmic Wall",
+      "description": "Break through The Cosmic Wall",
+      "hidden": false,
+      "globalPercent": 66.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-3 hours",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "wall_break_2"
+      ],
+      "summary": "Break the Cosmic Wall.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Summon Temple Spirits to find the wall's weakness."
+          },
+          {
+            "id": "s2",
+            "text": "Once you have 42 Cosmic Dust in total, press the Fire Magic Beam button to break the wall."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wall_break_2",
+      "displayName": "The Solar Wall",
+      "description": "Break through The Solar Wall",
+      "hidden": false,
+      "globalPercent": 70.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "wall_break"
+      ],
+      "summary": "Break the Solar Wall.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After the Cloud Wall breaks, raise your damage above 500 million, the most the Solar Wall can heal, until it breaks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "wall_break",
+      "displayName": "The Cloud Wall",
+      "description": "Break through The Cloud Wall",
+      "hidden": false,
+      "globalPercent": 75.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2-3 hours",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "build_dragon_nest"
+      ],
+      "summary": "Break the Cloud Wall.",
+      "guide": {
+        "kind": "standard",
+        "context": "Hover over the wall to see what it needs. You must break it before you can ascend further.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build up damage. @mechanic{Sorcery} is the strongest source."
+          },
+          {
+            "id": "s2",
+            "text": "Hold-click Sorcery and watch the wall health drop. If it is too slow, prestige or add more damage."
+          },
+          {
+            "id": "s3",
+            "text": "When the wall breaks, the option to ascend appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "build_totem",
+      "displayName": "Totems",
+      "description": "Carve your first Totem",
+      "hidden": false,
+      "globalPercent": 97.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15-30 minutes",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "build_tower"
+      ],
+      "summary": "Carve the first Totem.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep ascending the tower until a message says Forestry is unlocked."
+          },
+          {
+            "id": "s2",
+            "text": "Summon a Druid, collect Wood, and buy your first Totem."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "holy_grail",
+      "displayName": "The Holy Grail",
+      "description": "Obtain a Holy Grail",
+      "hidden": false,
+      "globalPercent": 79.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "build_dragon_nest"
+      ],
+      "summary": "Obtain a Holy Grail.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Alchemy Lab makes gold. The Holy Grail needs 10 Dragonite and 10 Mana Stones, so plan for about 200 gold in total.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the @mechanic{Alchemy Lab} and summon Alchemists to collect gold."
+          },
+          {
+            "id": "s2",
+            "text": "Spend gold on 10 Mana Stones and 10 Dragonite first."
+          },
+          {
+            "id": "s3",
+            "text": "Buy the Holy Grail."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "inverted",
+      "displayName": "Inverted",
+      "description": "Choose the Inverted theme",
+      "hidden": false,
+      "globalPercent": 63.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "under 5 minutes",
+      "estMinutes": 1,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Choose the Inverted theme in the settings.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open Settings with the cogwheel in the left corner, choose Theme, and pick Inverted. You can switch back afterwards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "the_ending",
+      "displayName": "The End",
+      "description": "Reach the ending",
+      "hidden": false,
+      "globalPercent": 64.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "wall_break_3"
+      ],
+      "summary": "Reach the ending by collecting 50 Cosmic Dust and using the final Ascension.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 8 more Cosmic Dust than the Cosmic Wall required.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Turn the Cosmic Wall back on with the restore checkbox and keep damaging it. Upgrades make this faster."
+          },
+          {
+            "id": "s2",
+            "text": "When you have 50 Cosmic Dust in total, click the final Ascension button."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "diplomacy",
+      "displayName": "Diplomacy",
+      "description": "Have trade relations with all nations (Including the hidden one)",
+      "hidden": false,
+      "globalPercent": 75.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "3-4 hours",
+      "estMinutes": 210,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "wall_break"
+      ],
+      "summary": "Buy every piece of land on the Embassy map.",
+      "guide": {
+        "kind": "standard",
+        "context": "Your Diplomats are refunded once every Trade Agreement is bought, so you can put all Spirits into the Embassy. Reaching 13 Prestige Points unlocks the fourth-row Blessing that adds a secret nation. It switches on by itself in your next run.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy the Embassy from the Building and summon at least one Diplomat."
+          },
+          {
+            "id": "s2",
+            "text": "Prestige until you reach 13 Prestige Points to unlock the secret nation."
+          },
+          {
+            "id": "s3",
+            "text": "Start a new run and move all Spirits into the Embassy. Head for the island nation in the south-east first."
+          },
+          {
+            "id": "s4",
+            "text": "Buy Trade Agreements with every nation until you own all the land."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "dragon_level_50",
+      "displayName": "Elder Dragon",
+      "description": "Reach Dragon Level 50",
+      "hidden": false,
+      "globalPercent": 78.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2-3 hours",
+      "estMinutes": 150,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "build_dragon_nest"
+      ],
+      "summary": "Raise the Dragon to level 50.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Dragon only gains levels when you have at least one Dragon Keeper.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Summon at least one Dragon Keeper."
+          },
+          {
+            "id": "s2",
+            "text": "For faster levels, open the Academy, research the Dragon branch, and buy the Dragon Alphabet upgrade."
+          },
+          {
+            "id": "s3",
+            "text": "Keep playing until the Dragon reaches level 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "build_dragon_nest",
+      "displayName": "Dragon Nest",
+      "description": "Build the Dragon Nest",
+      "hidden": false,
+      "globalPercent": 90.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1-2 hours",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "prestige"
+      ],
+      "summary": "Build the Dragon Nest.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep ascending until the @mechanic{Building} option unlocks."
+          },
+          {
+            "id": "s2",
+            "text": "Choose Dragon Nest from its list. It costs Knowledge."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "inverted",
+    "build_tower",
+    "build_totem",
+    "prestige",
+    "build_dragon_nest",
+    "holy_grail",
+    "dragon_level_50",
+    "wall_break",
+    "diplomacy",
+    "wall_break_2",
+    "wall_break_3",
+    "the_ending"
+  ]
+}

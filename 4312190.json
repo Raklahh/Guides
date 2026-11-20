@@ -1,0 +1,1651 @@
+{
+  "game": {
+    "appid": 4312190,
+    "slug": "crack",
+    "title": "CRACK",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-19",
+    "estTotalHours": 12,
+    "difficultyRating": 4,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-11-21"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Early work orders and workplace events",
+      "description": "Play the opening Work Orders and clear workplace events as they come up. Sleep in your quarters every night from the start for Well Rested.",
+      "achievementRefs": [
+        "FIRST_CRACK",
+        "AUTOMATION",
+        "STRUCK_GOLD",
+        "ARTERY_SACK",
+        "TENURE",
+        "FIVE_FIGURES",
+        "SWALLOWED",
+        "PEST_CONTROL",
+        "HOT_POTATO",
+        "PLUMBER",
+        "AUDIT_PASSED",
+        "AUDIT_FAILED",
+        "CLEANUP_CREW",
+        "PROFESSIONAL_INTERN",
+        "GOOD_SLEEPER"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Workbots, Break Room and hazards",
+      "description": "Use the Workbots, arcade cabinets, pills and slot machines, and try the hazard achievements with scaffolding and dynamite.",
+      "achievementRefs": [
+        "IT_SPECIALIST",
+        "FULLY_UPGRADED",
+        "HIGH_SCORE",
+        "NOTHING_BUT_NET",
+        "PHARMACOLOGY",
+        "JACKPOT",
+        "FULL_WARDROBE",
+        "OWN_GOAL",
+        "GAS_FALL",
+        "SCAFFOLD_COLLAPSE",
+        "PLAY_THE_GAME",
+        "PERFECT_SNAKE"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Secret rooms and co-op",
+      "description": "Open the hidden rooms, then play with a coworker for the co-op achievements.",
+      "achievementRefs": [
+        "SEIZED_ASSETS",
+        "COLD_CASE",
+        "STAFF_ONLY",
+        "ACCESS_GRANTED",
+        "PAPER_TRAIL",
+        "HIT_AND_RUN",
+        "EGG_ON_YOUR_FACE",
+        "TEAM_PLAYER",
+        "CHAMPION"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Final excavation and ending",
+      "description": "Break the plating and yolk sack, open the escape route, then pick one ending.",
+      "achievementRefs": [
+        "BREACH",
+        "YOLKED",
+        "FREE_RANGE",
+        "WELL_DONE"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "FIRST_CRACK",
+      "displayName": "First Crack",
+      "description": "Crack the outer shell.",
+      "hidden": false,
+      "globalPercent": 98.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Break through the egg's outer shell.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start the opening assignment and mine the shell until it cracks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AUTOMATION",
+      "displayName": "Automation",
+      "description": "Power on a workbot.",
+      "hidden": false,
+      "globalPercent": 76.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "story",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Power on one Workbot.",
+      "guide": {
+        "kind": "standard",
+        "context": "One powered-on robot is enough.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the Work Order that unlocks Workbots."
+          },
+          {
+            "id": "s2",
+            "text": "Buy a Workbot and switch it on."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BREACH",
+      "displayName": "EGG: Containment Breach",
+      "description": "Break through the Containment Plating.",
+      "hidden": false,
+      "globalPercent": 46.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "STRUCK_GOLD",
+        "ARTERY_SACK",
+        "AUTOMATION"
+      ],
+      "summary": "Break through the Containment Plating.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pickaxe, Shovel and Jackhammer do not break it.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy Dynamite Mk III and a Blowtorch."
+          },
+          {
+            "id": "s2",
+            "text": "Place the dynamite against the plating and move back to a safe spot."
+          },
+          {
+            "id": "s3",
+            "text": "Light it and wait for the plating to break."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "YOLKED",
+      "displayName": "Yolked",
+      "description": "Break open the yolk sack.",
+      "hidden": false,
+      "globalPercent": 45.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "story",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "BREACH"
+      ],
+      "summary": "Break open the yolk sack.",
+      "guide": {
+        "kind": "standard",
+        "context": "The first breach through the plating does not unlock this. Reach the inner sack.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After the plating breaks, dig deeper into the egg."
+          },
+          {
+            "id": "s2",
+            "text": "Break the yolk sack with a chainsaw."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WELL_DONE",
+      "displayName": "Well Done",
+      "description": "Hidden ending achievement.",
+      "hidden": true,
+      "globalPercent": 38.7,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "YOLKED"
+      ],
+      "lockoutStage": 4,
+      "summary": "Deliver the specimen to the company.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ending and Free Range cannot both come from one playthrough.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Break the inner containment sack and catch the chicken."
+          },
+          {
+            "id": "s2",
+            "text": "Carry it to the Holding Chamber and put it in the receiving unit."
+          },
+          {
+            "id": "s3",
+            "text": "Finish the dispatch interaction when it starts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FREE_RANGE",
+      "displayName": "Free Range",
+      "description": "Hidden ending achievement.",
+      "hidden": true,
+      "globalPercent": 21.9,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "YOLKED",
+        "STAFF_ONLY"
+      ],
+      "lockoutStage": 4,
+      "summary": "Help the specimen escape.",
+      "guide": {
+        "kind": "standard",
+        "context": "This ending and Well Done cannot both come from one playthrough. Open the escape route before the final delivery.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the Break Room, clear the boards from the Do Not Enter door, then dig up the passage behind it until you reach the door with a chicken symbol."
+          },
+          {
+            "id": "s2",
+            "text": "Break the inner containment sack and catch the chicken."
+          },
+          {
+            "id": "s3",
+            "text": "Bring the chicken up the passage to the door with the chicken symbol."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TENURE",
+      "displayName": "Tenure",
+      "description": "Work 10 shifts.",
+      "hidden": false,
+      "globalPercent": 60.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 shifts",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Work 10 shifts in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish shifts as normal until your tenth shift ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STAFF_ONLY",
+      "displayName": "Bad Listener",
+      "description": "Hidden secret-area achievement.",
+      "hidden": true,
+      "globalPercent": 27.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Walk through the Break Room door that is boarded up and labeled Do Not Enter.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find the boarded door in the Break Room."
+          },
+          {
+            "id": "s2",
+            "text": "Remove the bolts on the planks with a Hammer."
+          },
+          {
+            "id": "s3",
+            "text": "Walk into the room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ARTERY_SACK",
+      "displayName": "Burst Vessel",
+      "description": "Burst an Artery Sack.",
+      "hidden": false,
+      "globalPercent": 51.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Burst an Artery Sack inside the egg.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bursting one also opens the Breakroom Extension, which holds the slot machines.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Dig inside the egg until you find a glowing Artery Sack."
+          },
+          {
+            "id": "s2",
+            "text": "Hit the sack until it bursts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "STRUCK_GOLD",
+      "displayName": "Struck Gold",
+      "description": "Break a chunk off a Gold Geode.",
+      "hidden": false,
+      "globalPercent": 59.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "story",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Knock a piece off a Gold Geode.",
+      "guide": {
+        "kind": "standard",
+        "context": "Scanning a geode does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Dig past the membrane to the deeper deposits."
+          },
+          {
+            "id": "s2",
+            "text": "Find a Gold Geode and break a piece off it with a tool."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FIVE_FIGURES",
+      "displayName": "Great Asset",
+      "description": "Earn $10,000 for the Company.",
+      "hidden": false,
+      "globalPercent": 25.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Earn $10,000 for the company.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only finished sales count. Material still sitting in Buckets, and money you transfer, do not.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Fill Buckets with valuable material and sell them at the Resource Depot until your total earnings reach $10,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "JACKPOT",
+      "displayName": "Jackpot",
+      "description": "Get the max payout on a slot machine.",
+      "hidden": false,
+      "globalPercent": 13.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "ARTERY_SACK"
+      ],
+      "summary": "Win the top prize on a slot machine.",
+      "guide": {
+        "kind": "standard",
+        "context": "A $250 win only unlocks the Executive Catalog and is not the maximum. The pill that improves gambling odds helps.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Burst an Artery Sack to unlock the Breakroom Extension."
+          },
+          {
+            "id": "s2",
+            "text": "Play the slot machines, ideally while a gambling-odds pill is active, until one pays the maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "TEAM_PLAYER",
+      "displayName": "Team Player",
+      "description": "Transfer $1,000 to a coworker.",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIVE_FIGURES"
+      ],
+      "summary": "Transfer $1,000 to a coworker.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs a second player. Buying items for them does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Make sure you have at least $1,000."
+          },
+          {
+            "id": "s2",
+            "text": "Use the balance transfer station to send them $1,000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SWALLOWED",
+      "displayName": "Swallowed",
+      "description": "Get pulled in by a tentacle.",
+      "hidden": false,
+      "globalPercent": 48.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "event",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Get pulled in by a tentacle from the egg.",
+      "guide": {
+        "kind": "standard",
+        "context": "Tentacles come out when the egg is too stressed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep disturbing the egg until tentacles appear."
+          },
+          {
+            "id": "s2",
+            "text": "Stay close and let one pull you in."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HOT_POTATO",
+      "displayName": "Hot Potato",
+      "description": "Hold on to a parasite a little too long.",
+      "hidden": false,
+      "globalPercent": 29.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Hold a Parasite for too long.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Parasite reacts if you keep it in your hands. Normally you drop it into the Shredder quickly.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick up a Parasite and keep holding it until it reacts."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PEST_CONTROL",
+      "displayName": "Pest Control",
+      "description": "Squish 25 beetles.",
+      "hidden": false,
+      "globalPercent": 4.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 40,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Squish 25 beetles.",
+      "guide": {
+        "kind": "standard",
+        "context": "The count carries over between beetle events.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Wait for a beetle event after you disturb the egg."
+          },
+          {
+            "id": "s2",
+            "text": "Hit the beetles with any tool. Repeat on later events until you reach 25."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PLUMBER",
+      "displayName": "#1 Plumber",
+      "description": "Fix all burst pipes.",
+      "hidden": false,
+      "globalPercent": 63.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "event",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Repair all of the burst pipes in a pipe-rupture event.",
+      "guide": {
+        "kind": "standard",
+        "context": "The event starts when the egg gets too stressed. Fixing the pipes takes about 120 shell pieces in Buckets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When pipes burst, stop other work and repair each broken pipe."
+          },
+          {
+            "id": "s2",
+            "text": "Keep repairing until the event says every pipe is fixed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AUDIT_PASSED",
+      "displayName": "Audit Passed",
+      "description": "Pass a productivity audit.",
+      "hidden": false,
+      "globalPercent": 53.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "event",
+      "estMinutes": 20,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Pass a productivity audit.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When an audit starts, read the dollar target and deadline on screen."
+          },
+          {
+            "id": "s2",
+            "text": "Sell enough material to reach the target before the deadline."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIGH_SCORE",
+      "displayName": "High Score",
+      "description": "Score 10,000 points in Eggsteroids.",
+      "hidden": false,
+      "globalPercent": 18.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Score 10,000 points in Eggsteroids.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Work Order only asks for 3,500 points, so it does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "After the Break Room unlocks, play Eggsteroids at the cabinet."
+          },
+          {
+            "id": "s2",
+            "text": "Keep playing until a single game ends on 10,000 points or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PERFECT_SNAKE",
+      "displayName": "Snake Whisperer",
+      "description": "Fill half the board in Snake.",
+      "hidden": false,
+      "globalPercent": 1.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HIGH_SCORE"
+      ],
+      "summary": "Fill half of the board in a game of Snake.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the Snake machine in the bigger arcade area."
+          },
+          {
+            "id": "s2",
+            "text": "Play Snake until your snake fills half of the board."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CHAMPION",
+      "displayName": "Arcade Master",
+      "description": "Beat a coworker at every two player arcade game.",
+      "hidden": false,
+      "globalPercent": 2.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "30 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HIGH_SCORE"
+      ],
+      "summary": "Win against a coworker in each two-player arcade game.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs a second player. There are four two-player cabinets.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the arcade with your coworker."
+          },
+          {
+            "id": "s2",
+            "text": "Play each two-player cabinet against them and win."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EGG_ON_YOUR_FACE",
+      "displayName": "Egg on Your Face",
+      "description": "Hit a coworker in the head with an egg.",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Throw an egg so it hits a coworker's head.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs a second player.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take an egg from the fridge."
+          },
+          {
+            "id": "s2",
+            "text": "Have your coworker stand still, then throw the egg at their head."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HIT_AND_RUN",
+      "displayName": "Hit and Run",
+      "description": "Run over a coworker with a vehicle.",
+      "hidden": false,
+      "globalPercent": 55.5,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Drive a vehicle into a coworker.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs a second player.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the Vehicle Bay and get the Golf Cart."
+          },
+          {
+            "id": "s2",
+            "text": "Have your coworker stand on foot in front of the cart."
+          },
+          {
+            "id": "s3",
+            "text": "Drive into them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PHARMACOLOGY",
+      "displayName": "Junkie",
+      "description": "Try every pill type.",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Try every type of pill.",
+      "guide": {
+        "kind": "standard",
+        "context": "Some pills are also found inside the egg or in the Do Not Enter area.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy pills from the Break Room pill dispenser and take them across your shifts."
+          },
+          {
+            "id": "s2",
+            "text": "Let each effect end before taking the next one."
+          },
+          {
+            "id": "s3",
+            "text": "Also take any pills you find in the egg or the Do Not Enter area."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SEIZED_ASSETS",
+      "displayName": "Seized Assets",
+      "description": "Lose half of your money to a wealth redistribution.",
+      "hidden": false,
+      "globalPercent": 5.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "event",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIVE_FIGURES",
+        "ACCESS_GRANTED"
+      ],
+      "summary": "Lose more than half your money in a wealth redistribution.",
+      "guide": {
+        "kind": "standard",
+        "context": "The redistribution can happen on its own. The steps below start it yourself with a second player. Cheating with the developer console disables achievements, but the in-game terminal does not.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get your balance to an even number of cents so it splits exactly in half. Sell Buckets with different amounts to change the cents."
+          },
+          {
+            "id": "s2",
+            "text": "If needed, have a coworker buy items that match your cents, then transfer all of their money to you. Do not use discounts."
+          },
+          {
+            "id": "s3",
+            "text": "Open the Redacted room, log in at the far-left computer with your keycard, and type wealth_distribution."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "AUDIT_FAILED",
+      "displayName": "Corrective Action",
+      "description": "Fail a productivity audit.",
+      "hidden": false,
+      "globalPercent": 33.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "event",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Fail a productivity audit.",
+      "guide": {
+        "kind": "standard",
+        "context": "Failing can cost you money, so avoid it before a big purchase.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When an audit starts, do not reach the dollar target."
+          },
+          {
+            "id": "s2",
+            "text": "Let the deadline pass."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COLD_CASE",
+      "displayName": "Cold Case",
+      "description": "Hidden secret-area achievement.",
+      "hidden": true,
+      "globalPercent": 30.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Open the suspicious vent.",
+      "guide": {
+        "kind": "standard",
+        "context": "Inside the duct is the UV Flashlight that the Redacted room needs.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build scaffolding up to the vent above the Break Room."
+          },
+          {
+            "id": "s2",
+            "text": "Hold a Hammer and right-click the bolts on the cover to open it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ACCESS_GRANTED",
+      "displayName": "Access Granted",
+      "description": "Hidden secret-room achievement.",
+      "hidden": true,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "COLD_CASE",
+        "ARTERY_SACK"
+      ],
+      "summary": "Enter the Redacted room.",
+      "guide": {
+        "kind": "standard",
+        "context": "The six-digit code is different in every playthrough, so a code from another player will not work.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get the UV Flashlight from the duct above the Break Room."
+          },
+          {
+            "id": "s2",
+            "text": "Shine it on a wall in the Breakroom Extension to read two digits and where they go."
+          },
+          {
+            "id": "s3",
+            "text": "Do the same at the Vehicle Bay wall, and then above the Redacted keypad."
+          },
+          {
+            "id": "s4",
+            "text": "Type the six digits into the keypad in their marked positions."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PAPER_TRAIL",
+      "displayName": "Paper Trail",
+      "description": "Hidden collectible achievement.",
+      "hidden": true,
+      "globalPercent": 3.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "across playthrough",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ACCESS_GRANTED",
+        "STAFF_ONLY"
+      ],
+      "summary": "Find every clipboard.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Some clipboards sit in ordinary rooms and others in the secret areas, so check every new room you open.",
+        "collectibles": [
+          {
+            "id": "clip-duct",
+            "index": 1,
+            "name": "Duct clipboard",
+            "location": "@loc{Vent duct above the Break Room}",
+            "method": "Open the vent with a Hammer, then read the clipboard next to the former employee near the UV Flashlight."
+          },
+          {
+            "id": "clip-room",
+            "index": 2,
+            "name": "Do Not Enter room clipboard",
+            "location": "@loc{Do Not Enter room}",
+            "method": "Remove the planks, enter the room, and read the clipboard saying dirt blocks the old passage."
+          },
+          {
+            "id": "clip-exit",
+            "index": 3,
+            "name": "Chicken exit clipboard",
+            "location": "@loc{Chicken-marked door}",
+            "method": "Dig up the passage to the door with the chicken symbol and read the clipboard next to it."
+          },
+          {
+            "id": "clip-redacted",
+            "index": 4,
+            "name": "Supervisor Duties clipboard",
+            "location": "@loc{Redacted room}",
+            "method": "Enter the Redacted room and read the Supervisor Duties clipboard."
+          },
+          {
+            "id": "clip-extra",
+            "index": 5,
+            "name": "More clipboards in ordinary rooms",
+            "location": "@loc{Rooms unlocked by Work Orders}",
+            "method": "Check each room you unlock for more clipboards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GAS_FALL",
+      "displayName": "Out Cold",
+      "description": "Fall 10 meters after the sleep gas knocks you out.",
+      "hidden": false,
+      "globalPercent": 3.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 shift",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Fall 10 meters after sleep gas knocks you out.",
+      "guide": {
+        "kind": "standard",
+        "context": "A voluntary jump does not count. The fall has to follow the knockout.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build scaffolding at least 10 meters high and climb to the top."
+          },
+          {
+            "id": "s2",
+            "text": "Wait there until the sleep gas arrives at the end of the day and knocks you out."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PLAY_THE_GAME",
+      "displayName": "Get Back to Work",
+      "description": "Get a score of 50,000 in Eggsteroids.",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1 hour",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "HIGH_SCORE"
+      ],
+      "summary": "Score 50,000 points in Eggsteroids.",
+      "guide": {
+        "kind": "standard",
+        "context": "This is separate from the 10,000-point achievement. Use a game's score, not points from many games added up.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play Eggsteroids at the Break Room cabinet until one game ends on 50,000 points or more."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PROFESSIONAL_INTERN",
+      "displayName": "Professional Intern",
+      "description": "Get a 10% Dream Bonus on a $0 profit.",
+      "hidden": false,
+      "globalPercent": 21.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 shift",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Receive a 10% Dream Bonus after a shift that made $0 profit.",
+      "guide": {
+        "kind": "standard",
+        "context": "Both conditions must be true in the same shift. A $0 bank balance is not the same as $0 profit.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Make no profit on a shift."
+          },
+          {
+            "id": "s2",
+            "text": "Go to sleep in your quarters and break eggs during the sleep phase. Each broken egg adds 1% to the Dream Bonus."
+          },
+          {
+            "id": "s3",
+            "text": "Check that the bonus reaches 10% on that shift."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OWN_GOAL",
+      "displayName": "Explosive Personality",
+      "description": "Get caught in the blast of your own dynamite.",
+      "hidden": false,
+      "globalPercent": 31.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Get caught in the blast of dynamite you set yourself.",
+      "guide": {
+        "kind": "standard",
+        "context": "Another player's blast does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock Dynamite and place or throw a stick yourself."
+          },
+          {
+            "id": "s2",
+            "text": "Stay inside the blast range as it explodes."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "NOTHING_BUT_NET",
+      "displayName": "Nothing But Net",
+      "description": "Score 10 baskets in the breakroom.",
+      "hidden": false,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Score 10 baskets in the breakroom.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick up the basketball in the breakroom."
+          },
+          {
+            "id": "s2",
+            "text": "Shoot it into the hoop until you have scored 10 baskets."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SCAFFOLD_COLLAPSE",
+      "displayName": "Structural Collapse",
+      "description": "Go down with the scaffolding during a collapse.",
+      "hidden": false,
+      "globalPercent": 10.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Go down with a scaffold when it collapses.",
+      "guide": {
+        "kind": "standard",
+        "context": "Watching it fall from the floor does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Build a small scaffold you can afford to lose."
+          },
+          {
+            "id": "s2",
+            "text": "Climb up and loosen one bolt with a hammer."
+          },
+          {
+            "id": "s3",
+            "text": "Disturb the egg until the scaffold collapses while you stand on it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "IT_SPECIALIST",
+      "displayName": "IT Specialist",
+      "description": "Repair 10 Workbots.",
+      "hidden": false,
+      "globalPercent": 34.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "across playthrough",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Repair Workbots 10 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "Buying a new Workbot does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When a Workbot's Condition drops, use a Wrench on it."
+          },
+          {
+            "id": "s2",
+            "text": "Repeat until you have made 10 repairs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "CLEANUP_CREW",
+      "displayName": "Nice and Tidy",
+      "description": "Pass a workplace inspection.",
+      "hidden": false,
+      "globalPercent": 44.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "event",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "FIRST_CRACK"
+      ],
+      "summary": "Pass a workplace inspection.",
+      "guide": {
+        "kind": "standard",
+        "context": "An inspection is not a productivity audit. Selling material will not pass it.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "When an inspection starts, collect spare tools and items that are out of place."
+          },
+          {
+            "id": "s2",
+            "text": "Put them in the Shredder until the inspection ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FULL_WARDROBE",
+      "displayName": "Fashion Police",
+      "description": "Buy all lab coat colors.",
+      "hidden": false,
+      "globalPercent": 12.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ARTERY_SACK"
+      ],
+      "summary": "Buy every lab coat color.",
+      "guide": {
+        "kind": "standard",
+        "context": "Wearing a color is not enough. Each one has to be bought.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the lab coat options and buy each color you have not bought yet."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FULLY_UPGRADED",
+      "displayName": "Overclocked",
+      "description": "Fully upgrade a Workbot to max level.",
+      "hidden": false,
+      "globalPercent": 36.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "across playthrough",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "AUTOMATION"
+      ],
+      "summary": "Fully upgrade one Workbot to its maximum level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Upgrades must go on the same robot. Purple Chalazite adds 3 levels at once.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect Chalazite crystals from inside the egg."
+          },
+          {
+            "id": "s2",
+            "text": "Use them on one Workbot until it reaches max level."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GOOD_SLEEPER",
+      "displayName": "Well Rested",
+      "description": "Sleep in your quarters every night.",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "across playthrough",
+      "estMinutes": 0,
+      "stage": 1,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Sleep in your quarters every night of one playthrough.",
+      "guide": {
+        "kind": "standard",
+        "context": "A night spent knocked out by sleep gas, or at work when the company ends your shift, is not a night in your bed. If you miss a night, start a new playthrough.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "End every day by going to your quarters and using the bed."
+          },
+          {
+            "id": "s2",
+            "text": "Finish the playthrough without missing a night."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "GOOD_SLEEPER",
+    "TENURE",
+    "FIRST_CRACK",
+    "AUDIT_PASSED",
+    "SWALLOWED",
+    "CLEANUP_CREW",
+    "HOT_POTATO",
+    "AUDIT_FAILED",
+    "PROFESSIONAL_INTERN",
+    "PEST_CONTROL",
+    "AUTOMATION",
+    "STRUCK_GOLD",
+    "ARTERY_SACK",
+    "PLUMBER",
+    "FIVE_FIGURES",
+    "OWN_GOAL",
+    "IT_SPECIALIST",
+    "NOTHING_BUT_NET",
+    "FULL_WARDROBE",
+    "SCAFFOLD_COLLAPSE",
+    "FULLY_UPGRADED",
+    "GAS_FALL",
+    "PHARMACOLOGY",
+    "JACKPOT",
+    "HIGH_SCORE",
+    "PERFECT_SNAKE",
+    "PLAY_THE_GAME",
+    "HIT_AND_RUN",
+    "EGG_ON_YOUR_FACE",
+    "TEAM_PLAYER",
+    "CHAMPION",
+    "STAFF_ONLY",
+    "COLD_CASE",
+    "ACCESS_GRANTED",
+    "SEIZED_ASSETS",
+    "PAPER_TRAIL",
+    "BREACH",
+    "YOLKED",
+    "FREE_RANGE",
+    "WELL_DONE"
+  ]
+}

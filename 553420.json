@@ -1,0 +1,2042 @@
+{
+  "game": {
+    "appid": 553420,
+    "slug": "tunic",
+    "title": "TUNIC",
+    "version": "1.0",
+    "lastPatchChecked": "2026-02-24",
+    "estTotalHours": 14,
+    "difficultyRating": 5,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-24"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Start beach and first overworld",
+      "description": "Take the stick, die once, and enter the start-area codes. Kill enemies for about 100 gold so you can make an offering at a shrine. Keep any golden coin for a wishing well.",
+      "achievementRefs": [
+        "STICK",
+        "RESURRECTION",
+        "GT9",
+        "GT8",
+        "GT3",
+        "GT4",
+        "FAIRY",
+        "OFFERING",
+        "COIN1"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Frog's Domain and Ruined Atoll",
+      "description": "Collect bombs in Frog's Domain and take the magic orb. Pray at an obelisk.",
+      "achievementRefs": [
+        "BONUSBOMB",
+        "FUSE"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Mountain door and Quarry",
+      "description": "Open the mountain gate and take the gun in the Quarry before you ever pick up the sword. Beat the scavenger boss in the Rooted Ziggurat.",
+      "achievementRefs": [
+        "WRONGFIGHT",
+        "HEX3"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Beneath the Well, Dark Tomb and West Garden",
+      "description": "Get the ice bomb, then the sword in West Garden. Ring the west bell and keep cutting grass.",
+      "achievementRefs": [
+        "FREEZESELF",
+        "SWORD",
+        "ROLLSTAB",
+        "WESTBELL",
+        "GT1",
+        "GRASS"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "East Forest, Eastern Vault and Library",
+      "description": "Ring the east bell, freeze the slime for the treasure, and beat the Siege Engine and the Librarian.",
+      "achievementRefs": [
+        "EASTBELL",
+        "GT6",
+        "HEX1",
+        "HEX2"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Sealed Temple",
+      "description": "Place the three keys in the Sealed Temple.",
+      "achievementRefs": [
+        "GYRO"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Swamp, Cathedral and spirit realm",
+      "description": "As a spirit, push the skulls in the Swamp and clear the Cathedral challenges for the air dash.",
+      "achievementRefs": [
+        "GT5",
+        "DASH"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Restoring stats and finishing",
+      "description": "Pray at all six Hero's Graves, collect the leftover pages, fairies, coins and effigies, then finish the Heir fight and the dash treasures.",
+      "achievementRefs": [
+        "RELICS",
+        "GT11",
+        "GT12",
+        "GT10",
+        "GT2",
+        "GT7",
+        "PIGGYBANKS",
+        "COIN15",
+        "BADEND",
+        "MANUAL"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "STICK",
+      "displayName": "A Stick!",
+      "description": "Pick up the stick from the chest at the start.",
+      "hidden": true,
+      "globalPercent": 96.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Pick up the stick from the chest at the start.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "open-chest",
+            "text": "Go forward from the start, enter the lit doorway on the left, and open the chest to take the stick."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "SWORD",
+      "displayName": "A Sword!",
+      "description": "Pick up the sword.",
+      "hidden": true,
+      "globalPercent": 81.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "FREEZESELF"
+      ],
+      "summary": "Pick up the sword.",
+      "guide": {
+        "kind": "standard",
+        "context": "Take the gun first if you want the gun-before-sword achievement. Once you hold the sword, that one needs a new file.",
+        "steps": [
+          {
+            "id": "open-door",
+            "text": "In @loc{West Garden}, stand in front of the door under the bridge and enter Down, Left, Up, Right, Up, Left on the D-pad. Open the chest inside for the sword."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RESURRECTION",
+      "displayName": "What just happened?",
+      "description": "Die once and reach the character waiting in spirit form.",
+      "hidden": true,
+      "globalPercent": 87.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "STICK"
+      ],
+      "summary": "Die once and reach the character waiting in spirit form.",
+      "guide": {
+        "kind": "standard",
+        "context": "Slimes near the start beach are an easy way to die.",
+        "steps": [
+          {
+            "id": "die",
+            "text": "Let an enemy defeat you. Wake as a spirit and follow the only path to the waiting character."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "EASTBELL",
+      "displayName": "Ding",
+      "description": "Rang the Eastern Bell",
+      "hidden": false,
+      "globalPercent": 75.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "SWORD"
+      ],
+      "summary": "Ring the Eastern Bell.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "ring",
+            "text": "Beat @loc{Guard House 1} in the East Forest, then hit the golden bell at the forest entrance with your weapon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WESTBELL",
+      "displayName": "Dong",
+      "description": "Rang the Western Bell",
+      "hidden": false,
+      "globalPercent": 53.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SWORD"
+      ],
+      "summary": "Ring the Western Bell.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "go",
+            "text": "Cross @loc{Beneath the Well} and the docks, then climb the ladder in @loc{West Garden}."
+          },
+          {
+            "id": "boss",
+            "text": "Defeat the boss at the top."
+          },
+          {
+            "id": "ring",
+            "text": "Hit the Western Bell with your weapon."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FUSE",
+      "displayName": "You hear a strange hum",
+      "description": "Pray at an obelisk to activate it.",
+      "hidden": true,
+      "globalPercent": 51.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Pray at an obelisk to activate it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Two early ones are the obelisk near the end of @loc{Beneath the Well} and the one in the @loc{Ruined Atoll}.",
+        "steps": [
+          {
+            "id": "pray",
+            "text": "Stand on an obelisk's rune and hold the roll button (A or Space) for about 3 seconds without moving."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "OFFERING",
+      "displayName": "Your gift is accepted",
+      "description": "Burn an upgrade item at a fox shrine.",
+      "hidden": true,
+      "globalPercent": 58.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Burn an upgrade item at a fox shrine.",
+      "guide": {
+        "kind": "standard",
+        "context": "Keep about 100 gold, which is what the first offering costs.",
+        "steps": [
+          {
+            "id": "offer",
+            "text": "Stand next to a fox shrine, open the inventory, and burn an upgrade component (lower right). You need some gold."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HEX1",
+      "displayName": "Deep In The Forest",
+      "description": "Found the red key",
+      "hidden": false,
+      "globalPercent": 46.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "EASTBELL"
+      ],
+      "summary": "Defeat the Siege Engine boss in the Eastern Vault Fortress.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss",
+            "text": "Fight through the @loc{Eastern Vault Fortress} and defeat the @enemy{Siege Engine}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HEX2",
+      "displayName": "High Above The Clouds",
+      "description": "Found the green key",
+      "hidden": false,
+      "globalPercent": 44.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "HEX1"
+      ],
+      "summary": "Defeat the Librarian boss in the Library.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss",
+            "text": "Go through @loc{Ruined Atoll} to the @loc{Library} and defeat the @enemy{Librarian} at the top."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HEX3",
+      "displayName": "At The Root of The World",
+      "description": "Found the blue key",
+      "hidden": false,
+      "globalPercent": 41.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "summary": "Defeat the boss that guards the end of the Rooted Ziggurat.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "boss",
+            "text": "Cross the @loc{Quarry} into the @loc{Rooted Ziggurat} and defeat the @enemy{Scavenger Boss} at its end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GYRO",
+      "displayName": "What now?",
+      "description": "Place the three boss keys in the Sealed Temple.",
+      "hidden": true,
+      "globalPercent": 41.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "HEX1",
+        "HEX2",
+        "HEX3",
+        "EASTBELL",
+        "WESTBELL"
+      ],
+      "summary": "Place the three boss keys in the Sealed Temple.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "keys",
+            "text": "Defeat the three gem bosses so you hold all three keys."
+          },
+          {
+            "id": "bells",
+            "text": "Ring both bells so the golden door of the @loc{Sealed Temple} opens."
+          },
+          {
+            "id": "slots",
+            "text": "Put the three keys in the three slots of the mechanism inside."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "DASH",
+      "displayName": "You feel a tingling...",
+      "description": "Beat all 6 Cathedral statue challenges to get the air dash.",
+      "hidden": true,
+      "globalPercent": 38.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "GYRO"
+      ],
+      "summary": "Beat all 6 Cathedral statue challenges to get the air dash.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "spirit",
+            "text": "Place the three keys in the @loc{Sealed Temple}, then enter the middle teleporter in the hub and talk to the fox. You lose this fight and wake as a spirit."
+          },
+          {
+            "id": "enter",
+            "text": "As a spirit, go into the @loc{Cathedral} and ride the elevator down to the main room."
+          },
+          {
+            "id": "ladder",
+            "text": "Climb down the ladder at the altar."
+          },
+          {
+            "id": "fights",
+            "text": "Beat all 6 challenges (statue fights) to receive the air dash."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "RELICS",
+      "displayName": "Your body is restored.",
+      "description": "Pray at all six Hero's Graves to restore your body.",
+      "hidden": true,
+      "globalPercent": 36.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "DASH"
+      ],
+      "summary": "Pray at all six Hero's Graves to restore your body.",
+      "guide": {
+        "kind": "collectible",
+        "context": "You need the air dash. All six work at night. Sleep in a bed afterward to get back to daytime.",
+        "collectibles": [
+          {
+            "id": "east-forest",
+            "index": 1,
+            "name": "East Forest grave",
+            "location": "Far right corner of the temple-like structure in front of the teleporter",
+            "method": "Pray to get your strength back."
+          },
+          {
+            "id": "library",
+            "index": 2,
+            "name": "Library grave",
+            "location": "Main hall of the @loc{Library}",
+            "method": "Defeat the two guardians to reveal the tomb, then pray for mana."
+          },
+          {
+            "id": "vault",
+            "index": 3,
+            "name": "Eastern Vault grave",
+            "location": "Outside, east on the ground floor, far right",
+            "method": "Pray to restore your HP."
+          },
+          {
+            "id": "monastery",
+            "index": 4,
+            "name": "Monastery grave",
+            "location": "@loc{Monastery} in the Quarry",
+            "method": "Go to the tomb, return to trigger a fight, beat the enemy, then pray for your potions."
+          },
+          {
+            "id": "west-garden",
+            "index": 5,
+            "name": "West Garden grave",
+            "location": "West Garden",
+            "method": "Pray to restore your defense."
+          },
+          {
+            "id": "swamp",
+            "index": 6,
+            "name": "Swamp grave",
+            "location": "Outside the @loc{Cathedral}",
+            "method": "Pray to restore your stamina."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BADEND",
+      "displayName": "Game Over",
+      "description": "Defeat the Heir without having every manual page.",
+      "hidden": true,
+      "globalPercent": 24.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "RELICS"
+      ],
+      "summary": "Defeat the Heir without having every manual page.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can still get this after the true ending by reloading the old save, since New Game+ starts in a new slot.",
+        "steps": [
+          {
+            "id": "return",
+            "text": "After you hold the air dash and have restored your body, return to the hub and enter the middle teleporter."
+          },
+          {
+            "id": "fight",
+            "text": "Talk to the fox and defeat the Heir while you are still missing manual pages."
+          },
+          {
+            "id": "all",
+            "text": "If you already hold every page, attack the Heir instead of talking to her. This starts the same fight.",
+            "kind": "tip"
+          },
+          {
+            "id": "retry",
+            "text": "When the game offers New Game+ or Retry, choose Retry."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "MANUAL",
+      "displayName": "Thank you for playing!",
+      "description": "Find all 28 sets of manual pages.",
+      "hidden": true,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1.5 h",
+      "estMinutes": 90,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "BADEND",
+        "DASH"
+      ],
+      "summary": "Find all 28 sets of manual pages.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Pages come in pairs on facing sheets, plus the cover with page 1.",
+        "collectibles": [
+          {
+            "id": "p-2-3",
+            "index": 1,
+            "name": "Pages 2/3",
+            "location": "Start plate",
+            "method": "Stand on the first golden plate and hold the roll button for 3 seconds.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-32-33",
+            "index": 2,
+            "name": "Pages 32/33",
+            "location": "Under the start-area bridge, beach",
+            "method": "Walk behind the waterfall to the left of the bridge.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-16-17",
+            "index": 3,
+            "name": "Pages 16/17",
+            "location": "Golden plate below the west windmill",
+            "method": "Walk onto the plate.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-18-19",
+            "index": 4,
+            "name": "Pages 18/19",
+            "location": "Behind the windmill",
+            "method": "Take the page beside the entrance to @loc{Beneath the Well}.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-10-11",
+            "index": 5,
+            "name": "Pages 10/11",
+            "location": "Building on the east route to the Hero's Grave",
+            "method": "Use the key from near the west windmill to open the door.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-52-53",
+            "index": 6,
+            "name": "Pages 52/53",
+            "location": "Back room of the old house",
+            "method": "Trace the door below the stairs on the D-pad: U R D L D R.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-28-29",
+            "index": 7,
+            "name": "Pages 28/29",
+            "location": "Lake platform in front of the East Forest skull entrance",
+            "method": "Cut through the trees with the sword.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-22-23",
+            "index": 8,
+            "name": "Pages 22/23",
+            "location": "Stone head island above the East Forest entrance",
+            "method": "Dash into the statue's mouth. The shopkeeper inside gives the page.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-4-5",
+            "index": 9,
+            "name": "Pages 4/5",
+            "location": "Rock behind the windmill below the Dark Tomb entrance",
+            "method": "Dash to reach it.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-42-43",
+            "index": 10,
+            "name": "Pages 42/43",
+            "location": "Fountain between the windmill and the beach",
+            "method": "Dash to reach it.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-44-45",
+            "index": 11,
+            "name": "Pages 44/45",
+            "location": "Door above the fountain",
+            "method": "Trace the door on the D-pad: D R U L U R.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-8-9",
+            "index": 12,
+            "name": "Pages 8/9",
+            "location": "South-east beach left of the rune pillar",
+            "method": "Dash to reach it. It appears after the Cathedral.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-54-55",
+            "index": 13,
+            "name": "Pages 54/55",
+            "location": "Fairy fountain room behind the waterfall by the Dark Tomb",
+            "method": "Free at least 10 fairies first.",
+            "group": "Overworld"
+          },
+          {
+            "id": "p-34-35",
+            "index": 14,
+            "name": "Pages 34/35",
+            "location": "Room left of the first save shrine",
+            "method": "The page is on the floor below as you enter.",
+            "group": "Beneath the Well"
+          },
+          {
+            "id": "p-30-31",
+            "index": 15,
+            "name": "Pages 30/31",
+            "location": "End of the area by the save shrine",
+            "method": "Beat the guards, then unlock the gate next to the shrine.",
+            "group": "Beneath the Well"
+          },
+          {
+            "id": "p-26-27",
+            "index": 16,
+            "name": "Pages 26/27",
+            "location": "Narrow path north of the save shrine",
+            "method": "Go north after the first Chompignon.",
+            "group": "West Garden"
+          },
+          {
+            "id": "p-46-47",
+            "index": 17,
+            "name": "Pages 46/47",
+            "location": "Behind the island past the ice dagger area",
+            "method": "Power the obelisk near the fox shrine as a spirit, teleport away and back, then dash across the pillars behind the island.",
+            "group": "West Garden"
+          },
+          {
+            "id": "p-12-13",
+            "index": 18,
+            "name": "Pages 12/13",
+            "location": "In front of the Eastern Bell shrine",
+            "method": "Take the page at the forest entrance.",
+            "group": "East Forest"
+          },
+          {
+            "id": "p-14-15",
+            "index": 19,
+            "name": "Pages 14/15",
+            "location": "Golden plate in the forest",
+            "method": "Walk onto the plate.",
+            "group": "East Forest"
+          },
+          {
+            "id": "p-6-7",
+            "index": 20,
+            "name": "Pages 6/7",
+            "location": "Fortress entrance",
+            "method": "Pray at the obelisk blocking the path. The page is behind it.",
+            "group": "Eastern Vault"
+          },
+          {
+            "id": "p-36-37",
+            "index": 21,
+            "name": "Pages 36/37",
+            "location": "Balcony above the fox obelisk room",
+            "method": "Take the far left walkway on the upper level.",
+            "group": "Eastern Vault"
+          },
+          {
+            "id": "p-38-39",
+            "index": 22,
+            "name": "Pages 38/39",
+            "location": "Laboratory above the book stack",
+            "method": "Smash the glass cases.",
+            "group": "Library"
+          },
+          {
+            "id": "p-40-41",
+            "index": 23,
+            "name": "Pages 40/41",
+            "location": "Laboratory above the book stack",
+            "method": "Smash the glass cases.",
+            "group": "Library"
+          },
+          {
+            "id": "p-50-51",
+            "index": 24,
+            "name": "Pages 50/51",
+            "location": "Laboratory above the book stack",
+            "method": "Smash the glass cases.",
+            "group": "Library"
+          },
+          {
+            "id": "p-24-25",
+            "index": 25,
+            "name": "Pages 24/25",
+            "location": "Upper level, north-east ledge",
+            "method": "Walk the inside edge to the ledge.",
+            "group": "Sealed Temple"
+          },
+          {
+            "id": "p-48-49",
+            "index": 26,
+            "name": "Pages 48/49",
+            "location": "Golden tablet with two grapple points before the snowy mountain",
+            "method": "Trace it on the D-pad: U L D R D L U R.",
+            "group": "Mountain"
+          },
+          {
+            "id": "p-20-21",
+            "index": 27,
+            "name": "Pages 20/21",
+            "location": "Top of the map in front of the locked gate",
+            "method": "Walk up to the gate.",
+            "group": "Mountain"
+          },
+          {
+            "id": "p-cover-1",
+            "index": 28,
+            "name": "Cover and page 1",
+            "location": "Behind the mountain gate",
+            "method": "Collect every other page first. Then stand at the gate and input: U L D L U L D L U R U R U L U R D R U L U L U R U L D L U R U U L U R D R D R U R D L D R U R R D R U R D R U R R D L D L D R D R D L L D R D L D R U R D R U R R D D L U R U L D L U L U L U R R U L U.",
+            "group": "Mountain"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FAIRY",
+      "displayName": "I'm free!",
+      "description": "Free at least one fairy.",
+      "hidden": true,
+      "globalPercent": 33.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Free at least one fairy.",
+      "guide": {
+        "kind": "standard",
+        "context": "U/D/L/R mean Up, Down, Left, Right. Any of the 20 fairies counts, and the full list is in the Spring Falls checklist.",
+        "steps": [
+          {
+            "id": "island",
+            "text": "On the south island under the right end of the bridge, stand by the big pink flower and input U R D L D L D L D L U on the D-pad."
+          },
+          {
+            "id": "chest",
+            "text": "Open the fairy chest that appears."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT1",
+      "displayName": "Mr Mayor",
+      "description": "Open secret treasure 1, Mr Mayor.",
+      "hidden": true,
+      "globalPercent": 29.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Open secret treasure 1, Mr Mayor.",
+      "guide": {
+        "kind": "standard",
+        "context": "U/D/L/R mean Up, Down, Left, Right on the D-pad.",
+        "steps": [
+          {
+            "id": "key",
+            "text": "Use the key found near the west windmill to open the door above the first stairs in the east building."
+          },
+          {
+            "id": "trace",
+            "text": "Inside, trace the groove pattern on the wall: L U R U L D L U R D R U L U R D."
+          },
+          {
+            "id": "chest",
+            "text": "Walk the path that opens and take the treasure from the chest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT2",
+      "displayName": "A Secret Legend",
+      "description": "Open secret treasure 2, A Secret Legend.",
+      "hidden": true,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "RELICS"
+      ],
+      "summary": "Open secret treasure 2, A Secret Legend.",
+      "guide": {
+        "kind": "standard",
+        "context": "Part 1 works at night or as a spirit. Part 2 needs the restored body so you can change the time of day. U/D/L/R mean Up, Down, Left, Right on the D-pad.",
+        "steps": [
+          {
+            "id": "night",
+            "text": "Go to the @loc{Cathedral} as a spirit or at night. Take the first door on the left."
+          },
+          {
+            "id": "push",
+            "text": "Push the wall where the bone ladder rests. Then push the wall behind the chest you find."
+          },
+          {
+            "id": "door",
+            "text": "At the back door, input L U L U R U L U R D R R U R D L D R D L D L."
+          },
+          {
+            "id": "day",
+            "text": "After your body is restored, sleep in a bed to make it day."
+          },
+          {
+            "id": "chest",
+            "text": "Return the same way. The chest is no longer blocked. Open it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT3",
+      "displayName": "Sacred Geometry",
+      "description": "Open secret treasure 3, Sacred Geometry.",
+      "hidden": true,
+      "globalPercent": 26.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open secret treasure 3, Sacred Geometry.",
+      "guide": {
+        "kind": "standard",
+        "context": "U/D/L/R mean Up, Down, Left, Right on the D-pad.",
+        "steps": [
+          {
+            "id": "windmill",
+            "text": "Stand in front of the west windmill and input D L L U U R R L D R U D on the D-pad."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT4",
+      "displayName": "Vintage",
+      "description": "Open secret treasure 4, Vintage.",
+      "hidden": true,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open secret treasure 4, Vintage.",
+      "guide": {
+        "kind": "standard",
+        "context": "D, R and L mean Down, Right and Left on the D-pad.",
+        "steps": [
+          {
+            "id": "island",
+            "text": "Wade to the island with the gold tail-shaped stand by the south beach and stand in the shallow water."
+          },
+          {
+            "id": "input",
+            "text": "Enter D, then R 11 times, then L 12 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT5",
+      "displayName": "Just Some Pals",
+      "description": "Open secret treasure 5, Just Some Pals.",
+      "hidden": true,
+      "globalPercent": 17.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 7,
+      "confidence": "verified",
+      "prerequisites": [
+        "GYRO"
+      ],
+      "summary": "Open secret treasure 5, Just Some Pals.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "find",
+            "text": "In the @loc{Swamp} burying ground, find the four skulls. One is behind a gravestone, so tilt the camera."
+          },
+          {
+            "id": "push",
+            "text": "Push all four into the small pool in front of the grave that has a skull on top."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT6",
+      "displayName": "Regal Weasel",
+      "description": "Open secret treasure 6, Regal Weasel.",
+      "hidden": true,
+      "globalPercent": 25.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "EASTBELL"
+      ],
+      "summary": "Open secret treasure 6, Regal Weasel.",
+      "guide": {
+        "kind": "standard",
+        "context": "If the slime dies first, pray at a shrine to reset the area.",
+        "steps": [
+          {
+            "id": "equip",
+            "text": "Equip the magic dagger, magic wand, and magic orb."
+          },
+          {
+            "id": "freeze",
+            "text": "In @loc{Lower East Forest}, use the dagger and wand together on the slime on the cliff to freeze it."
+          },
+          {
+            "id": "hook",
+            "text": "Grapple the frozen slime with the orb to reach the ledge and open the chest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT7",
+      "displayName": "Spring Falls",
+      "description": "Free all 20 fairies, then open the chest in the fairy fountain room.",
+      "hidden": true,
+      "globalPercent": 20.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "FAIRY",
+        "DASH"
+      ],
+      "summary": "Free all 20 fairies, then open the chest in the fairy fountain room.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Each fairy chest opens when you trace a pattern on the D-pad at its spot. U/D/L/R mean Up, Down, Left, Right on the D-pad. Freeing 10 fairies gives pages 54/55. After all 20, open the chest in the fairy fountain, found past the waterfall beside the @loc{Dark Tomb}.",
+        "collectibles": [
+          {
+            "id": "f2",
+            "index": 1,
+            "name": "South island",
+            "location": "South island beneath the right end of the bridge",
+            "method": "Use the big pink flower as the hint. Input: U R D L D L D L D L U.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f5",
+            "index": 2,
+            "name": "Waterfall room",
+            "location": "Fairy room behind the west waterfall",
+            "method": "Input: D R U R U R U L U L U R U R U L D L D L D R D L D R D R U R.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f12",
+            "index": 3,
+            "name": "Old house",
+            "location": "Old house under the west windmill",
+            "method": "Trace the curtain design. Input: U U R D D R U U R D D D.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f13",
+            "index": 4,
+            "name": "Dark room",
+            "location": "Dark room down the ladder near the north-east waterfall",
+            "method": "Follow the enemy's movements. Input: D D R U R D L D R U R D D.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f14",
+            "index": 5,
+            "name": "Spiral stairs",
+            "location": "Secret door by flowers at the bottom of the spiral stairs west of the start",
+            "method": "Bomb the wall, then follow the rotating cube. Input: R R R R U U U U R R R U U U R R U U R U.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f4",
+            "index": 6,
+            "name": "Bridge cave",
+            "location": "Door under the bridge to the Atoll",
+            "method": "Follow the pool lights. Input: R U L U R D R U R D L D R.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f15",
+            "index": 7,
+            "name": "Invisible-wall room",
+            "location": "Empty room north of the bridge to the Atoll",
+            "method": "Walk the invisible path. Input: U L D L U R D R U R D L U L U.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f16",
+            "index": 8,
+            "name": "Fountain",
+            "location": "Fountain in the south-west",
+            "method": "Follow the numbered blue floor tiles. Input: D L L D U R D.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f11",
+            "index": 9,
+            "name": "Grave",
+            "location": "Grave near the East Forest entrance",
+            "method": "Read the sign and repeat it. Input: L R D U U D R L U R D L U D R L.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f3",
+            "index": 10,
+            "name": "West bell",
+            "location": "Stairs under the Western Bell tower",
+            "method": "Trace the wall lines. Input: U R U L D L U L U R D R D R U L U R D R D.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f1",
+            "index": 11,
+            "name": "Pink flower",
+            "location": "Pink flower above the East Forest entrance, in front of the Fortress entrance",
+            "method": "Trace a trail between the flowers. Input: U L D L D L D L U R D R R D R.",
+            "group": "Overworld"
+          },
+          {
+            "id": "f10",
+            "index": 12,
+            "name": "Hourglass room",
+            "location": "Tower of the hourglass room",
+            "method": "Follow the wall grooves above the platform. Input: L U R U R D R U R U L L L U R U.",
+            "group": "Ruined Atoll"
+          },
+          {
+            "id": "f9",
+            "index": 13,
+            "name": "Library rug",
+            "location": "Rug in the middle of the main hall",
+            "method": "Trace the rug lines. Input: U L D L U R U L U R U L D R D L U L D L U R U L U R U R D L D R D L.",
+            "group": "Library"
+          },
+          {
+            "id": "f7",
+            "index": 14,
+            "name": "Quarry rocks",
+            "location": "Top of the Quarry with scattered rocks",
+            "method": "Start at the rocks stacked three high. Input: U R D L U R U L D L U R R D.",
+            "group": "Quarry"
+          },
+          {
+            "id": "f17",
+            "index": 15,
+            "name": "Single-tree island",
+            "location": "South-west island with one tree",
+            "method": "Dash across. Input: L D R L U D.",
+            "group": "West Garden"
+          },
+          {
+            "id": "f18",
+            "index": 16,
+            "name": "Long runway",
+            "location": "Long runway with a rune",
+            "method": "Trace the blue tiles. Input: U R U L U R U L U R D R U L D L U R U L U R U L U.",
+            "group": "West Garden"
+          },
+          {
+            "id": "f8",
+            "index": 17,
+            "name": "Spirit fox",
+            "location": "Top area of the forest",
+            "method": "Come as a ghost or at night and follow the fox. Input: U D U D L R L R D L U R.",
+            "group": "East Forest"
+          },
+          {
+            "id": "f20",
+            "index": 18,
+            "name": "Broken shrine",
+            "location": "Lower forest, east, broken golden shrine",
+            "method": "Read the code on the monument base after finding its four missing pieces around the world. Input: D R D L U L D L U R U L U R U R U L U R D R D R D L D R D L U.",
+            "group": "East Forest"
+          },
+          {
+            "id": "f19",
+            "index": 19,
+            "name": "Candle obelisk",
+            "location": "Lower level of the second obelisk room",
+            "method": "Stand on the activated obelisk. Input: R L D R U L.",
+            "group": "Eastern Vault"
+          },
+          {
+            "id": "f6",
+            "index": 20,
+            "name": "Fox statue",
+            "location": "First temple room under the statue with three foxes",
+            "method": "Trace the floor tiles. Input: U R U L U R U L U R D R U U L.",
+            "group": "Sealed Temple"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT8",
+      "displayName": "Power Up",
+      "description": "Open secret treasure 8, Power Up.",
+      "hidden": true,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open secret treasure 8, Power Up.",
+      "guide": {
+        "kind": "standard",
+        "context": "U/D/L/R mean Up, Down, Left, Right on the D-pad.",
+        "steps": [
+          {
+            "id": "chime",
+            "text": "Stand by the wind chime outside the old house under the west windmill and input U D R U D L U D L R D L R U on the D-pad."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT9",
+      "displayName": "Back to Work",
+      "description": "Open secret treasure 9, Back to Work.",
+      "hidden": true,
+      "globalPercent": 18.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Open secret treasure 9, Back to Work.",
+      "guide": {
+        "kind": "standard",
+        "context": "U/D/L/R mean Up, Down, Left, Right on the D-pad.",
+        "steps": [
+          {
+            "id": "plate",
+            "text": "Stand on the first golden plate where you start and input R D L U L L D R R D D on the D-pad."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT10",
+      "displayName": "Phonomath",
+      "description": "Open secret treasure 10, Phonomath.",
+      "hidden": true,
+      "globalPercent": 16.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "DASH"
+      ],
+      "summary": "Open secret treasure 10, Phonomath.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the air dash.",
+        "steps": [
+          {
+            "id": "dash",
+            "text": "In the @loc{Ruined Atoll}, go left to the spot where a rune is cut. Dash across the water gap to the brick walkway on the far side and follow it to the chest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT11",
+      "displayName": "Dusty",
+      "description": "Open secret treasure 11, Dusty.",
+      "hidden": true,
+      "globalPercent": 22.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "DASH"
+      ],
+      "summary": "Open secret treasure 11, Dusty.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the air dash.",
+        "steps": [
+          {
+            "id": "dash",
+            "text": "Near the Hero's Grave outside the @loc{Eastern Vault}, dash across the rubble to the cave on the north side."
+          },
+          {
+            "id": "leaves",
+            "text": "Break all four piles of leaves to make the chest appear, then open it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GT12",
+      "displayName": "Forever Friend",
+      "description": "Open secret treasure 12, Forever Friend.",
+      "hidden": true,
+      "globalPercent": 19.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "DASH"
+      ],
+      "summary": "Open secret treasure 12, Forever Friend.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the air dash.",
+        "steps": [
+          {
+            "id": "hub",
+            "text": "In the teleporter hub, find the concealed route linking the main teleporters with the lone southern one."
+          },
+          {
+            "id": "dash",
+            "text": "Dash west along it to the chest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "GRASS",
+      "displayName": "Lawnmower",
+      "description": "Cut 1000 pieces of grass with the sword.",
+      "hidden": true,
+      "globalPercent": 59.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SWORD"
+      ],
+      "summary": "Cut 1000 pieces of grass with the sword.",
+      "guide": {
+        "kind": "standard",
+        "context": "The counter keeps running through the game, so you will reach it in normal play.",
+        "steps": [
+          {
+            "id": "cut",
+            "text": "Cut grass with the sword whenever you pass it until it unlocks."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "PIGGYBANKS",
+      "displayName": "Too Cute To Smash",
+      "description": "Hold 10 effigies at once without using any.",
+      "hidden": true,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "RELICS"
+      ],
+      "lockoutStage": 8,
+      "summary": "Hold 10 effigies at once without using any.",
+      "guide": {
+        "kind": "collectible",
+        "context": "12 effigies exist and you need to hold any 10 at once. Do not use or break any. If you do, you can still earn this in New Game+ by carrying over items and collecting what is missing.",
+        "collectibles": [
+          {
+            "id": "eff-o1",
+            "index": 1,
+            "name": "Overworld trees chest",
+            "location": "Up two ladders, left through the trees",
+            "method": "Open the chest.",
+            "group": "Overworld"
+          },
+          {
+            "id": "eff-o2",
+            "index": 2,
+            "name": "Rudeling chest",
+            "location": "Path south toward the Ruined Atoll, by a blue Rudeling",
+            "method": "Open the chest.",
+            "group": "Overworld"
+          },
+          {
+            "id": "eff-ef",
+            "index": 3,
+            "name": "Hero's Grave chest",
+            "location": "Top of the stairs in front of the Hero's Grave",
+            "method": "Cut the bushes to get behind the wall. Needs the sword.",
+            "group": "East Forest"
+          },
+          {
+            "id": "eff-w",
+            "index": 4,
+            "name": "Hallway chest",
+            "location": "Far right of the pink-line hallway",
+            "method": "Go through the north wall and open the chest.",
+            "group": "Beneath the Well"
+          },
+          {
+            "id": "eff-t",
+            "index": 5,
+            "name": "Laser room chest",
+            "location": "Center of the room full of lasers",
+            "method": "Cross the lasers and open the chest.",
+            "group": "Dark Tomb"
+          },
+          {
+            "id": "eff-g1",
+            "index": 6,
+            "name": "Bridge chest",
+            "location": "Under the bridge via planks toward a short ladder",
+            "method": "Go under the tunnel to the chest on the right.",
+            "group": "West Garden"
+          },
+          {
+            "id": "eff-g2",
+            "index": 7,
+            "name": "Guardian island chest",
+            "location": "Island with a stone Garden Guardian",
+            "method": "Dash to the island and open the chest behind the stone.",
+            "group": "West Garden"
+          },
+          {
+            "id": "eff-a",
+            "index": 8,
+            "name": "Obelisk chest",
+            "location": "Behind the south-west obelisk on the beach level",
+            "method": "Follow the pink and gray path.",
+            "group": "Ruined Atoll"
+          },
+          {
+            "id": "eff-l",
+            "index": 9,
+            "name": "Library chest",
+            "location": "Left of the obelisk",
+            "method": "Open the chest.",
+            "group": "Library"
+          },
+          {
+            "id": "eff-q",
+            "index": 10,
+            "name": "Pillar chest",
+            "location": "Scaffolding before the drop bridge",
+            "method": "Go right across the scaffolding to the chest behind the pillar.",
+            "group": "Quarry"
+          },
+          {
+            "id": "eff-s1",
+            "index": 11,
+            "name": "Wall chest",
+            "location": "Past the gate, behind the stone wall on the left",
+            "method": "Squeeze through the gap right of the statue and left of the tree.",
+            "group": "Swamp"
+          },
+          {
+            "id": "eff-s2",
+            "index": 12,
+            "name": "Secret room chest",
+            "location": "First secret room behind the ladder",
+            "method": "Open the chest.",
+            "group": "Swamp"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COIN1",
+      "displayName": "Nothing happened...",
+      "description": "Throw a golden coin into a wishing well.",
+      "hidden": true,
+      "globalPercent": 51.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Throw a golden coin into a wishing well.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "coin",
+            "text": "Take a golden coin from a chest. The first one is in a secret room behind trees in the overworld."
+          },
+          {
+            "id": "equip",
+            "text": "Stand at a wishing well, equip the golden coin, and throw it in."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "COIN15",
+      "displayName": "Well done!",
+      "description": "Throw 15 golden coins into wishing wells in one playthrough.",
+      "hidden": true,
+      "globalPercent": 11.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 h",
+      "estMinutes": 60,
+      "stage": 8,
+      "confidence": "verified",
+      "prerequisites": [
+        "COIN1",
+        "DASH"
+      ],
+      "summary": "Throw 15 golden coins into wishing wells in one playthrough.",
+      "guide": {
+        "kind": "collectible",
+        "context": "15 coins sit in chests across the world. They do not need to go into one well or all at once. Coins already thrown do not carry into New Game+.",
+        "collectibles": [
+          {
+            "id": "c1",
+            "index": 1,
+            "name": "Secret stairs",
+            "location": "Right of the fountain behind the trees",
+            "method": "Go down the hidden stairs and open the chest.",
+            "group": "Overworld"
+          },
+          {
+            "id": "c2",
+            "index": 2,
+            "name": "Beach chest",
+            "location": "Beach under the bridge, slightly right",
+            "method": "Open the chest.",
+            "group": "Overworld"
+          },
+          {
+            "id": "c3",
+            "index": 3,
+            "name": "Bell beach",
+            "location": "Beach under the Western Bell",
+            "method": "Use the magic orb to lasso across to the chest.",
+            "group": "Overworld"
+          },
+          {
+            "id": "c4",
+            "index": 4,
+            "name": "Lower forest",
+            "location": "Lower Forest through Guardhouse 2, south-east trees by the water",
+            "method": "Go around the trees under the stone bridge to the chest.",
+            "group": "East Forest"
+          },
+          {
+            "id": "c5",
+            "index": 5,
+            "name": "Ledge chest",
+            "location": "Opposite ledge above the save shrine",
+            "method": "Open the chest.",
+            "group": "Beneath the Well"
+          },
+          {
+            "id": "c6",
+            "index": 6,
+            "name": "Skull room",
+            "location": "Secret room behind the six-skull chest after the obelisk",
+            "method": "The wall is now open. Open the chest.",
+            "group": "Beneath the Well"
+          },
+          {
+            "id": "c7",
+            "index": 7,
+            "name": "Laser room coin",
+            "location": "North-east passage of the room with three lasers",
+            "method": "Take the hidden chest.",
+            "group": "Dark Tomb"
+          },
+          {
+            "id": "c8",
+            "index": 8,
+            "name": "Under obelisk",
+            "location": "Under the obelisk by three flowers",
+            "method": "Press A on the wall and open the chest.",
+            "group": "West Garden"
+          },
+          {
+            "id": "c9",
+            "index": 9,
+            "name": "Barrel room",
+            "location": "First obelisk room, far north of the upper ledge",
+            "method": "Destroy the barrels to enter the room with the chest.",
+            "group": "Eastern Vault"
+          },
+          {
+            "id": "c10",
+            "index": 10,
+            "name": "Monastery ladder",
+            "location": "Ladder right of the save shrine in front of the Monastery door",
+            "method": "Climb it and open the chest.",
+            "group": "Quarry"
+          },
+          {
+            "id": "c11",
+            "index": 11,
+            "name": "Fleemer chest",
+            "location": "Down the ramp on the right",
+            "method": "Defeat the Giant Fleemer next to the gravestone and open the chest.",
+            "group": "Swamp"
+          },
+          {
+            "id": "c12",
+            "index": 12,
+            "name": "Cliff passage",
+            "location": "North-east past the gate along the cliff",
+            "method": "Take the hidden passage at the north end of the water to the chest.",
+            "group": "Swamp"
+          },
+          {
+            "id": "c13",
+            "index": 13,
+            "name": "Back cliff",
+            "location": "Ramps on the far back cliff",
+            "method": "Go up the ramps, then right to the chest.",
+            "group": "Swamp"
+          },
+          {
+            "id": "c14",
+            "index": 14,
+            "name": "Birdcage room",
+            "location": "Back right corner of the Cathedral birdcage room",
+            "method": "Press A to open the wall and take the chest.",
+            "group": "Swamp"
+          },
+          {
+            "id": "c15",
+            "index": 15,
+            "name": "Dash cliff",
+            "location": "Ladder after the gate",
+            "method": "Dash back toward the ladder to the stone pillars, then dash right and to the cliff chest. Needs the air dash.",
+            "group": "Swamp"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ROLLSTAB",
+      "displayName": "It uses stamina",
+      "description": "Perform the roll attack with the sword.",
+      "hidden": true,
+      "globalPercent": 71.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "SWORD"
+      ],
+      "summary": "Perform the roll attack with the sword.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need the sword first.",
+        "steps": [
+          {
+            "id": "lunge",
+            "text": "Press the sword button and the roll button at the same time while moving."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "WRONGFIGHT",
+      "displayName": "Bring it to the wrong fight",
+      "description": "Pick up the gun before you pick up the sword.",
+      "hidden": true,
+      "globalPercent": 6.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "lockoutStage": 4,
+      "summary": "Pick up the gun before you pick up the sword.",
+      "guide": {
+        "kind": "standard",
+        "context": "Easier with No Fail Mode and unlimited stamina turned on. Taking the sword first means starting a new file.",
+        "steps": [
+          {
+            "id": "quarry",
+            "text": "Open the mountain gate, then take the back path to the @loc{Quarry}."
+          },
+          {
+            "id": "hidden",
+            "text": "Take the hidden passage to the plateau with the gun and pick it up."
+          },
+          {
+            "id": "warn",
+            "text": "Do not take the sword before this.",
+            "kind": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "FREEZESELF",
+      "displayName": "Whoops",
+      "description": "Freeze yourself with an ice bomb.",
+      "hidden": true,
+      "globalPercent": 37.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 4,
+      "confidence": "verified",
+      "summary": "Freeze yourself with an ice bomb.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only an ice bomb works. The magic wand and dagger do not count.",
+        "steps": [
+          {
+            "id": "get",
+            "text": "Open the chest in @loc{Beneath the Well} that holds an @item{ice bomb}."
+          },
+          {
+            "id": "use",
+            "text": "Throw it at a wall and stay inside the blast so you freeze."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "BONUSBOMB",
+      "displayName": "Your pocket feels heavier...",
+      "description": "Use 10 bombs and rest at a shrine.",
+      "hidden": true,
+      "globalPercent": 58.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "summary": "Use 10 bombs and rest at a shrine.",
+      "guide": {
+        "kind": "standard",
+        "context": "Any bomb type counts. The bonus bombs return each time you rest afterward.",
+        "steps": [
+          {
+            "id": "get",
+            "text": "Collect bombs in @loc{Frog's Domain}."
+          },
+          {
+            "id": "use",
+            "text": "Use 10 bombs."
+          },
+          {
+            "id": "rest",
+            "text": "Rest at a fox shrine."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "STICK",
+    "RESURRECTION",
+    "GT9",
+    "FAIRY",
+    "GT8",
+    "GT3",
+    "COIN1",
+    "GT4",
+    "OFFERING",
+    "BONUSBOMB",
+    "FUSE",
+    "WRONGFIGHT",
+    "HEX3",
+    "FREEZESELF",
+    "SWORD",
+    "ROLLSTAB",
+    "GRASS",
+    "GT1",
+    "WESTBELL",
+    "EASTBELL",
+    "GT6",
+    "HEX1",
+    "HEX2",
+    "GYRO",
+    "GT5",
+    "DASH",
+    "GT12",
+    "GT11",
+    "GT10",
+    "RELICS",
+    "PIGGYBANKS",
+    "COIN15",
+    "GT7",
+    "GT2",
+    "BADEND",
+    "MANUAL"
+  ]
+}

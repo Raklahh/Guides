@@ -1,0 +1,1008 @@
+{
+  "game": {
+    "appid": 1468260,
+    "slug": "leaf-blower-revolution-idle-game",
+    "title": "Leaf Blower Revolution - Idle Game",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-06",
+    "estTotalHours": 150,
+    "difficultyRating": 3,
+    "minPlaythroughs": 1,
+    "createdAt": "2026-11-24"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Early leaves and first prestige",
+      "description": "Blow leaves, buy the Leaf Blower, unlock Gold Leaves and the Leaf Portal, prestige, then reach Platinum, Bismuth, Cosmic and Void Leaves.",
+      "achievementRefs": [
+        "ach_wpn_leaf_blower",
+        "ach_leaves_blown_total_1k",
+        "ach_leaf_gold",
+        "ach_prestige",
+        "ach_leaf_platinum",
+        "ach_leaf_bismuth",
+        "ach_leaf_cosmic",
+        "ach_leaf_void",
+        "ach_leaves_blown_total_1m"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Flasks",
+      "description": "Use converters to turn Void Leaves into each flask type up to Black Flasks.",
+      "achievementRefs": [
+        "ach_flask_red",
+        "ach_flask_green",
+        "ach_flask_blue",
+        "ach_flask_magenta",
+        "ach_flask_orange",
+        "ach_flask_black"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "First Big Leaf Crunch",
+      "description": "Buy the BLC portal in the Black Flask shop and crunch.",
+      "achievementRefs": [
+        "ach_prestige_crunch"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Unique leaves",
+      "description": "Earn 20m BLC coins, open the needed areas, then blow each unique leaf off screen with the right tool and leaf amount.",
+      "achievementRefs": [
+        "ach_uleaf_heart",
+        "ach_uleaf_crystal",
+        "ach_uleaf_glitter",
+        "ach_uleaf_fire",
+        "ach_uleaf_ghost",
+        "ach_uleaf_robot",
+        "ach_uleaf_rainbow",
+        "ach_uleaf_bone"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "ach_prestige",
+      "displayName": "Leaf Portals",
+      "description": "Where do all the leaves come from?",
+      "hidden": false,
+      "globalPercent": 76.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_leaf_gold"
+      ],
+      "summary": "Enter the Leaf Portal for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "The portal suggests 20+ coins, but @mechanic{Leaf Combo} gives far more if you wait.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @item{Unlock Leaf Portal} in the @mechanic{Gold Shop}."
+          },
+          {
+            "id": "s2",
+            "text": "Blow leaves and buy upgrades until you have several hundred coins ready to claim, then enter the @mechanic{Leaf Portal}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_prestige_crunch",
+      "displayName": "Big Leaf Crunch",
+      "description": "SO. MANY. LEAVES.",
+      "hidden": false,
+      "globalPercent": 41.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_flask_black"
+      ],
+      "summary": "Enter the Big Leaf Crunch portal for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "Crunching wipes your leaves, flasks and prestige coins. You keep BLC coins, areas, gems and unique leaves.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy the BLC portal in the @mechanic{Black Flask} shop."
+          },
+          {
+            "id": "s2",
+            "text": "Enter the red @mechanic{Big Leaf Crunch} portal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_wpn_leaf_blower",
+      "displayName": "Leaf Blower",
+      "description": "Blowing leaves is quite fun with a leaf blower!",
+      "hidden": false,
+      "globalPercent": 90.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Buy the Leaf Blower tool.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @mechanic{Tool Shop} and buy the tool shown as a question mark, the @item{Leaf Blower}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaves_blown_total_1k",
+      "displayName": "Leaf Blower Novice",
+      "description": "You have blown away 1.000 leaves. Neat.",
+      "hidden": false,
+      "globalPercent": 95.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Blow away 1,000 leaves in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Blow leaves off the screen until you reach 1,000 in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaves_blown_total_1m",
+      "displayName": "Leaf Blower Pro",
+      "description": "You have blown away 1 million leaves. Wow.",
+      "hidden": false,
+      "globalPercent": 81.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Blow away 1 million leaves in total.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep blowing leaves off the screen until you reach 1 million in total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_flask_red",
+      "displayName": "Red Flasks",
+      "description": "Make science with leaves.",
+      "hidden": false,
+      "globalPercent": 53.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_leaf_void"
+      ],
+      "summary": "Get Red Flasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @item{Unlock Converters} in the coins shop."
+          },
+          {
+            "id": "s2",
+            "text": "Reach 10.14k Void Leaves to open the red flask shop."
+          },
+          {
+            "id": "s3",
+            "text": "Start the Red Flask converter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_flask_green",
+      "displayName": "Green Flasks",
+      "description": "Make more science with leaves.",
+      "hidden": false,
+      "globalPercent": 53.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_flask_red"
+      ],
+      "summary": "Get Green Flasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect 930 Red Flasks to open the Green flask shop."
+          },
+          {
+            "id": "s2",
+            "text": "Start the Green Flask converter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_flask_blue",
+      "displayName": "Blue Flasks",
+      "description": "You have researched RGB science.",
+      "hidden": false,
+      "globalPercent": 52.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_flask_green"
+      ],
+      "summary": "Get Blue Flasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect 930 Green Flasks to open the Blue flask shop."
+          },
+          {
+            "id": "s2",
+            "text": "Start the Blue Flask converter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_flask_magenta",
+      "displayName": "Magenta Flasks",
+      "description": "They look SO cool.",
+      "hidden": false,
+      "globalPercent": 50.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_flask_blue"
+      ],
+      "summary": "Get Magenta Flasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect 930 Blue Flasks to open the Magenta flask shop."
+          },
+          {
+            "id": "s2",
+            "text": "Start the Magenta Flask converter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_flask_orange",
+      "displayName": "Orange Flasks",
+      "description": "Where do you store all the flasks?",
+      "hidden": false,
+      "globalPercent": 49.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_flask_magenta"
+      ],
+      "summary": "Get Orange Flasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect 930 Magenta Flasks to open the Orange flask shop."
+          },
+          {
+            "id": "s2",
+            "text": "Start the Orange Flask converter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_flask_black",
+      "displayName": "Black Flasks",
+      "description": "Nothing escapes from black flasks except...",
+      "hidden": false,
+      "globalPercent": 48.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "6 hr",
+      "estMinutes": 360,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_flask_orange"
+      ],
+      "summary": "Get Black Flasks.",
+      "guide": {
+        "kind": "standard",
+        "context": "The black flask shop also sells the BLC portal used for the Big Leaf Crunch.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect 930 Orange Flasks to open the black flask shop."
+          },
+          {
+            "id": "s2",
+            "text": "Start the Black Flask converter."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaf_gold",
+      "displayName": "Gold Leaves",
+      "description": "Gold leaves? They must be worth something.",
+      "hidden": false,
+      "globalPercent": 86.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "unverified",
+      "summary": "Blow Gold Leaves off the screen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @item{Gold Leaves} in the leaf shop."
+          },
+          {
+            "id": "s2",
+            "text": "Blow a gold leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaf_platinum",
+      "displayName": "Platinum Leaves",
+      "description": "Platinum leaves? What kind of tree drops platinum leaves?",
+      "hidden": false,
+      "globalPercent": 67.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 1,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_prestige"
+      ],
+      "summary": "Blow Platinum Leaves off the screen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy @item{Unlock Areas} in the coins shop for 20 coins."
+          },
+          {
+            "id": "s2",
+            "text": "Buy @item{Platinum Leaves} in the @mechanic{Gold Shop}."
+          },
+          {
+            "id": "s3",
+            "text": "Open the areas menu and go to the @loc{Neighbors' Garden}."
+          },
+          {
+            "id": "s4",
+            "text": "Blow a platinum leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaf_bismuth",
+      "displayName": "Bismuth Leaves",
+      "description": "Bismuth leaves? HAVE YOU EVER SEEN ANY BISMUTH LEAVES?!",
+      "hidden": false,
+      "globalPercent": 62.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_leaf_platinum"
+      ],
+      "summary": "Blow Bismuth Leaves off the screen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy everything in the platinum shop to unlock bismuth."
+          },
+          {
+            "id": "s2",
+            "text": "Start the platinum-to-bismuth converter, then blow bismuth leaves off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaf_cosmic",
+      "displayName": "Cosmic Leaves",
+      "description": "Cosmic leaves? What is this, a space game?",
+      "hidden": false,
+      "globalPercent": 58.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 1,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_leaf_bismuth"
+      ],
+      "summary": "Blow Cosmic Leaves off the screen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy everything in the bismuth shop."
+          },
+          {
+            "id": "s2",
+            "text": "Start the bismuth-to-cosmic converter, then blow cosmic leaves off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_leaf_void",
+      "displayName": "Void Leaves",
+      "description": "Void leaves? Yeah, right.",
+      "hidden": false,
+      "globalPercent": 56.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 1,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_leaf_cosmic"
+      ],
+      "summary": "Blow Void Leaves off the screen.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy everything in the cosmic shop and open @loc{THE VOID} from the areas menu."
+          },
+          {
+            "id": "s2",
+            "text": "Blow void leaves off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_crystal",
+      "displayName": "Crystal Leaf",
+      "description": "Help your neighbor to pick up some platinum leaves.",
+      "hidden": false,
+      "globalPercent": 9.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_prestige_crunch",
+        "ach_leaf_platinum"
+      ],
+      "summary": "Blow the Crystal Leaf off the screen in the Neighbors' Garden with your hands while holding 1c Platinum Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip @item{Your Hands} and go to the @loc{Neighbors' Garden}."
+          },
+          {
+            "id": "s2",
+            "text": "Hold at least 1c (1e21) Platinum Leaves."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Crystal Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_fire",
+      "displayName": "Fire Leaf",
+      "description": "Lazers can be dangerous in voids.",
+      "hidden": false,
+      "globalPercent": 9.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_prestige_crunch",
+        "ach_leaf_void"
+      ],
+      "summary": "Blow the Fire Leaf off the screen in THE VOID with the Lazer while holding 1C Void Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open @loc{THE VOID} from the areas menu for about 2.5k coins, then equip the @item{Lazer} and go there."
+          },
+          {
+            "id": "s2",
+            "text": "Hold at least 1C (1e24) Void Leaves."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Fire Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_ghost",
+      "displayName": "Ghost Leaf",
+      "description": "Did you know can blow away Ghosts in Space with a fish?",
+      "hidden": false,
+      "globalPercent": 9.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_prestige_crunch",
+        "ach_leaf_cosmic"
+      ],
+      "summary": "Blow the Ghost Leaf off the screen in Space with the Blowfish while holding 1d Cosmic Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open @loc{Space} from the areas menu for 500 coins, then equip the @item{Blowfish} and go there."
+          },
+          {
+            "id": "s2",
+            "text": "Hold at least 1d (1e27) Cosmic Leaves."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Ghost Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_glitter",
+      "displayName": "Glitter Leaf",
+      "description": "A rake can be used as a cane in the mountains.",
+      "hidden": false,
+      "globalPercent": 9.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_prestige_crunch",
+        "ach_leaf_bismuth"
+      ],
+      "summary": "Blow the Glitter Leaf off the screen at the Mountain with a rake while holding 1D Bismuth Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @loc{Mountain} from the areas menu for 10 coins, then equip any @item{Rake} and go there."
+          },
+          {
+            "id": "s2",
+            "text": "Hold at least 1D (1e30) Bismuth Leaves."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Glitter Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_heart",
+      "displayName": "Heart Leaf",
+      "description": "Home is where your Leaf Blower is.",
+      "hidden": false,
+      "globalPercent": 8.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "ach_prestige_crunch",
+        "ach_leaf_gold"
+      ],
+      "summary": "Blow the Heart Leaf off the screen in the Home Garden with the Leaf Blower while holding 100e Gold Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip the @item{Leaf Blower} and go to the @loc{Home Garden}."
+          },
+          {
+            "id": "s2",
+            "text": "Hold at least 100e (1e35) Gold Leaves. The suffix e means 1e33, so this is 100 times that."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Heart Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_rainbow",
+      "displayName": "Rainbow Leaf",
+      "description": "A physical device may help you to reach the sky.",
+      "hidden": false,
+      "globalPercent": 10.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "20 hr",
+      "estMinutes": 1200,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_prestige_crunch"
+      ],
+      "summary": "Blow the Rainbow Leaf off the screen at the Celestial Plane with the Rocket Engine while holding 100k Celestial Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @loc{Celestial Plane} for 1m BLC coins, then equip the @item{Rocket Engine} and go there."
+          },
+          {
+            "id": "s2",
+            "text": "Hold at least 100k (1e5) Celestial Leaves."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Rainbow Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_robot",
+      "displayName": "Robot Leaf",
+      "description": "01000111 01010000 01010101 00100000 01000001 01100010 01111001 01110011 01110011 00100000 00110001 00110000 00110000 01101011 00100000 01000101 01111000 01101111 01110100 01101001 01100011",
+      "hidden": false,
+      "globalPercent": 10.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "15 hr",
+      "estMinutes": 900,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_prestige_crunch"
+      ],
+      "summary": "Blow the Robot Leaf off the screen in the Abyss with the Graphics Card while holding 1m Exotic Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @loc{Abyss} for 25k Strange Flasks, then equip the @item{Graphics Card} and go there."
+          },
+          {
+            "id": "s2",
+            "text": "Buy @item{Exotic Leaves} in the Strange Flask shop, then hold at least 1m (1e6) of them."
+          },
+          {
+            "id": "s3",
+            "text": "Blow the Robot Leaf off the screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ach_uleaf_bone",
+      "displayName": "Bone Leaf",
+      "description": "Playing for the high one, dancing with the fire.",
+      "hidden": false,
+      "globalPercent": 8.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 hr",
+      "estMinutes": 1800,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "ach_uleaf_ghost"
+      ],
+      "summary": "Blow the Bone Leaf off the screen in the Volcano with the Ace of Spades while holding 100m Lava Leaves.",
+      "guide": {
+        "kind": "standard",
+        "context": "You need 20m BLC coins before unique leaves unlock. The areas menu is already open by then (@item{Unlock Areas} costs 20 coins in the coins shop).",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open the @loc{Volcano} for 500m BLC coins. It hurts you, so buy defense upgrades first."
+          },
+          {
+            "id": "s2",
+            "text": "Equip the @item{Ace of Spades} and go there."
+          },
+          {
+            "id": "s3",
+            "text": "Hold at least 100m (1e8) Lava Leaves, then blow the Bone Leaf off the screen."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "ach_leaves_blown_total_1k",
+    "ach_wpn_leaf_blower",
+    "ach_leaf_gold",
+    "ach_prestige",
+    "ach_leaf_platinum",
+    "ach_leaf_bismuth",
+    "ach_leaf_cosmic",
+    "ach_leaf_void",
+    "ach_leaves_blown_total_1m",
+    "ach_flask_red",
+    "ach_flask_green",
+    "ach_flask_blue",
+    "ach_flask_magenta",
+    "ach_flask_orange",
+    "ach_flask_black",
+    "ach_prestige_crunch",
+    "ach_uleaf_crystal",
+    "ach_uleaf_fire",
+    "ach_uleaf_glitter",
+    "ach_uleaf_heart",
+    "ach_uleaf_robot",
+    "ach_uleaf_rainbow",
+    "ach_uleaf_ghost",
+    "ach_uleaf_bone"
+  ]
+}

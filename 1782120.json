@@ -1,0 +1,2368 @@
+{
+  "game": {
+    "appid": 1782120,
+    "slug": "zero-sievert",
+    "title": "ZERO Sievert",
+    "version": "1.0",
+    "lastPatchChecked": "2026-11-25",
+    "estTotalHours": 70,
+    "difficultyRating": 7,
+    "minPlaythroughs": 2,
+    "createdAt": "2026-11-25"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Bunker basics and Prologue",
+      "description": "Finish the Prologue, then die once, kill an enemy and craft an item.",
+      "achievementRefs": [
+        "tutorialcompleted",
+        "firstblood",
+        "welcometozerosievert",
+        "blacksmith",
+        "scavenger",
+        "pestcontrol"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Forest and early Barman quests",
+      "description": "Beat Lazar, help Igor and take early quests; buy Milk daily.",
+      "achievementRefs": [
+        "lostinthewoods",
+        "eyeforaneye",
+        "gunforhire",
+        "handyman",
+        "nothingbutjunk",
+        "finderkeepers",
+        "milkrun",
+        "allthatforadropofblood"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Camp, Industrial Area, Swamp and Mall",
+      "description": "Clear Orel, Arman, Voss, Rotking and Phantom, reach the Mall and open Zakov.",
+      "achievementRefs": [
+        "waycleared",
+        "campereliminated",
+        "downwiththesickness",
+        "abigwin",
+        "expandyourhorizons",
+        "hailtotherotkingbaby",
+        "beataroundthebush",
+        "deaddrop",
+        "onemanstrash",
+        "canispeaktothemanager",
+        "signalfound",
+        "pirateradio",
+        "skininthegame",
+        "welcometozakovcity"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Zakov, army factions and Barman finale",
+      "description": "Finish the Mall and Zakov quests, pick an army faction and reach the plant.",
+      "achievementRefs": [
+        "madedevilcry",
+        "mybloodyvalentine",
+        "ghoulbusters",
+        "aliensexist",
+        "manabouttown",
+        "corporateclimber",
+        "noteasybeinggreen",
+        "lastorders",
+        "unlocknpp"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Endgame bosses and secret ending",
+      "description": "Finish Unknown quests, beat the Outer Deity, then the secret ending.",
+      "achievementRefs": [
+        "intotheunknown",
+        "crystalclear",
+        "shadowofzakov",
+        "innerdeity",
+        "fashionshow"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Long grinds and challenges",
+      "description": "Counters, money, skills, factions, second playthrough and the permadeath run.",
+      "achievementRefs": [
+        "headhunter",
+        "dietrying",
+        "allaboard",
+        "donedeal",
+        "bestfriends",
+        "heavypockets",
+        "rockbottom",
+        "hoardersparadise",
+        "labassisntant",
+        "railwaycollector",
+        "ironman",
+        "maxedoutpistol",
+        "maxedoutsmg",
+        "maxedoutshotgun",
+        "maxedoutrifle",
+        "maxedoutdmr",
+        "maxedoutsniper"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "firstblood",
+      "displayName": "First Blood",
+      "description": "Defeat your first enemy",
+      "hidden": false,
+      "globalPercent": 65.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Defeat your first enemy.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Kill any enemy in a raid."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "welcometozerosievert",
+      "displayName": "That Must've Hurt",
+      "description": "Die for the first time",
+      "hidden": false,
+      "globalPercent": 57.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Die for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "After a death you return to the @npc{Trainman} with your inventory restored.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go on a raid and die to an enemy or hazard."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "dietrying",
+      "displayName": "Die Trying",
+      "description": "Die 100 times",
+      "hidden": false,
+      "globalPercent": 6.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "welcometozerosievert"
+      ],
+      "summary": "Die 100 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Die in raids until your death count reaches 100."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "blacksmith",
+      "displayName": "Blacksmith",
+      "description": "Craft your first item",
+      "hidden": false,
+      "globalPercent": 38.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Craft your first item.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open a crafting station in the @loc{Bunker} and craft any item, such as drinkable water from irradiated water."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "gunforhire",
+      "displayName": "Gun for Hire",
+      "description": "Complete 10 quests",
+      "hidden": false,
+      "globalPercent": 28.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Complete 10 quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Quests come from the @npc{Barman}, the @npc{Doctor}, the @npc{General} and the @npc{Trainman}.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Accept quests from the quest givers at the @loc{Bunker} and turn in 10 of them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "scavenger",
+      "displayName": "Scavenger",
+      "description": "Open 50 containers",
+      "hidden": false,
+      "globalPercent": 36.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Open 50 containers.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Open containers while looting raids until the count reaches 50."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "pestcontrol",
+      "displayName": "Pest Control",
+      "description": "Kill 50 animals",
+      "hidden": false,
+      "globalPercent": 29.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Kill 50 animals.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Hunt animals on any map until 50 are dead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "handyman",
+      "displayName": "Handyman",
+      "description": "Repair 50 items (armour or weapons)",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "blacksmith"
+      ],
+      "summary": "Repair 50 weapons or armour pieces.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Repair damaged weapons and armour with repair kits or the Workshop until you have done 50 repairs."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "headhunter",
+      "displayName": "Headhunter",
+      "description": "Defeat 1000 enemies",
+      "hidden": false,
+      "globalPercent": 17.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Defeat 1000 enemies.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep killing enemies across raids until the total reaches 1000."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "abigwin",
+      "displayName": "A Big Win",
+      "description": "Defeat a big for the first time",
+      "hidden": false,
+      "globalPercent": 20.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Kill your first Big, a large mutant.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Big has 370 HP and charges, then stands still.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find a Big in the Mall, the Swamp, Industrial Area buildings or the end of the Laboratory."
+          },
+          {
+            "id": "s2",
+            "text": "Kill it: about 5 close shotgun blasts or many rifle shots."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "welcometozakovcity",
+      "displayName": "Welcome To Zakov City",
+      "description": "Enter the city map",
+      "hidden": false,
+      "globalPercent": 8.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Enter the Zakov city map.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the Mall quests up to @mechanic{The bridge to Zakov}, which repairs the power grid."
+          },
+          {
+            "id": "s2",
+            "text": "Cross the bridge from the @loc{Mall} into @loc{Zakov}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allaboard",
+      "displayName": "All Aboard!",
+      "description": "Board the train 100 times",
+      "hidden": false,
+      "globalPercent": 15.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Board the train 100 times.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Travel to maps with the @npc{Trainman} until you have boarded 100 times."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "lastorders",
+      "displayName": "Last Orders",
+      "description": "Complete all of the Barman’s quests",
+      "hidden": false,
+      "globalPercent": 1.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "canispeaktothemanager",
+        "hailtotherotkingbaby",
+        "unlocknpp"
+      ],
+      "summary": "Complete all of the Barman's quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "Includes @mechanic{Stylish one p.2}: kill Kibba 15 times in the Mall.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Keep taking and finishing the @npc{Barman}'s quests until none are left, ending with @mechanic{What next?}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "downwiththesickness",
+      "displayName": "Down with the Sickness",
+      "description": "Complete the quest Radiation effect.",
+      "hidden": true,
+      "globalPercent": 22.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "summary": "Complete the Barman's quest Radiation effect by reaching the orange radiation level.",
+      "guide": {
+        "kind": "standard",
+        "context": "Orange level is 5.00 or higher and causes bleeding.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take @mechanic{Radiation effect} from the @npc{Barman}."
+          },
+          {
+            "id": "s2",
+            "text": "Raise radiation: stand where the screen turns to white noise, such as near big trucks, or drink rotten water."
+          },
+          {
+            "id": "s3",
+            "text": "Bandage the bleeding, then return to the Barman."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "donedeal",
+      "displayName": "Done Deal",
+      "description": "Complete 50 trades",
+      "hidden": false,
+      "globalPercent": 28.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Complete 50 trades.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy from or sell to traders until you have made 50 trades."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ghoulbusters",
+      "displayName": "Ghoulbusters",
+      "description": "Defeat 100 ghouls",
+      "hidden": false,
+      "globalPercent": 24.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "welcometozakovcity"
+      ],
+      "summary": "Defeat 100 ghouls.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Hunt ghouls in @loc{Zakov} until 100 are dead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "lostinthewoods",
+      "displayName": "Lost in the Woods",
+      "description": "Defeat Lazar in the Forest.",
+      "hidden": true,
+      "globalPercent": 29.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Defeat Lazar, the boss of the Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Lazar stays near the police station with four guards.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the village at the center of the @loc{Forest} and find the police station."
+          },
+          {
+            "id": "s2",
+            "text": "Pick off the guards from range first; this usually draws @enemy{Lazar} out."
+          },
+          {
+            "id": "s3",
+            "text": "Kill @enemy{Lazar}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "canispeaktothemanager",
+      "displayName": "Can I Speak to the Manager?",
+      "description": "Kill Kibba, the boss who guards the Mall.",
+      "hidden": true,
+      "globalPercent": 12.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "25 min",
+      "estMinutes": 25,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Kill Kibba, the boss who guards the Mall.",
+      "guide": {
+        "kind": "standard",
+        "context": "Kibba chases hard and fires a PRK 16 from a large drum magazine.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock the @loc{Mall} through the @npc{Barman}'s quests."
+          },
+          {
+            "id": "s2",
+            "text": "Find @enemy{Kibba} in the center of the @loc{Mall}, around the GUNS store or the food court."
+          },
+          {
+            "id": "s3",
+            "text": "Kill him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "campereliminated",
+      "displayName": "Camper Eliminated",
+      "description": "Defeat Arman in the Makeshift Camp.",
+      "hidden": true,
+      "globalPercent": 16.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Defeat Arman, the boss of the Makeshift Camp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Arman has no fixed spot and ambushes. Suppressed gunfire or corpses with no clear killer show he is near.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Search the @loc{Makeshift Camp} until you find @enemy{Arman}."
+          },
+          {
+            "id": "s2",
+            "text": "Shoot him first if you can; he takes cover to reload."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "finderkeepers",
+      "displayName": "Finder Keepers",
+      "description": "Loot from 10 Hidden Stashes",
+      "hidden": false,
+      "globalPercent": 28.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Loot 10 hidden stashes.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find hidden stashes in raids and loot 10 of them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "eyeforaneye",
+      "displayName": "Eye for an Eye",
+      "description": "Complete Igor's questline",
+      "hidden": false,
+      "globalPercent": 20.4,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "lockoutStage": 2,
+      "summary": "Complete Igor's questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "Do not kill Igor, even if the General asks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Find @npc{Igor}'s fenced house in the @loc{Forest}."
+          },
+          {
+            "id": "s2",
+            "text": "Bring 2 Medikit T-000, 4 Bandages and 10 Raw meat."
+          },
+          {
+            "id": "s3",
+            "text": "Take @mechanic{Revenge for Igor} and kill Private Bogdanov."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "nothingbutjunk",
+      "displayName": "Nothing but Junk",
+      "description": "Litter the ground with 1000 bullets in one raid",
+      "hidden": false,
+      "globalPercent": 4.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Fire 1000 bullets in a single raid.",
+      "guide": {
+        "kind": "standard",
+        "context": "The bullets count as shots fired, not dropped ammo.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy about 1000 rounds and bring a fast automatic weapon at full durability."
+          },
+          {
+            "id": "s2",
+            "text": "In one raid, fire all of them without leaving."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "ironman",
+      "displayName": "Iron Man",
+      "description": "Complete the game with permadeath enabled",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 9,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "lockoutStage": 6,
+      "summary": "Finish the game on a save with permadeath turned on.",
+      "guide": {
+        "kind": "standard",
+        "context": "Dying ends that save. Difficulty settings can lower enemy health and damage; enemy grenades still kill.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Begin a fresh save, switch permadeath on, and pick easier difficulty settings."
+          },
+          {
+            "id": "s2",
+            "text": "Finish the story without dying."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "allthatforadropofblood",
+      "displayName": "All that for a Drop of Blood",
+      "description": "[Heal bleed]/[Heal HP] at 10HP or less",
+      "hidden": false,
+      "globalPercent": 42.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Heal bleeding or HP while at 10 HP or less.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get down to 10 HP or less in a raid."
+          },
+          {
+            "id": "s2",
+            "text": "Use a bandage or medkit to heal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "bestfriends",
+      "displayName": "Best Friends",
+      "description": "Reach maximum relationship with any faction",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach maximum relationship with any faction.",
+      "guide": {
+        "kind": "standard",
+        "context": "Relations start at 300; kills lower them. Trading with a faction trader adds 1 point per 20000 Roubles.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick one faction and finish its leader's quests."
+          },
+          {
+            "id": "s2",
+            "text": "Buy and sell with its trader."
+          },
+          {
+            "id": "s3",
+            "text": "Do Networker tasks for it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "heavypockets",
+      "displayName": "Heavy Pockets",
+      "description": "Hold 1 million Roubles at once",
+      "hidden": false,
+      "globalPercent": 10.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Hold 1 million Roubles at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "Higher trader money and sale prices in the difficulty settings make this faster.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Sell loot and quest rewards while saving Roubles until you hold 1,000,000 at once."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "rockbottom",
+      "displayName": "Rock Bottom",
+      "description": "Hold less than 10 Roubles at once",
+      "hidden": false,
+      "globalPercent": 9.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Have under 10 Roubles on you at one time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Spend or store your Roubles until you carry under 10."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "aliensexist",
+      "displayName": "Aliens Exist",
+      "description": "Kill 182 Blinks",
+      "hidden": false,
+      "globalPercent": 4.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "welcometozakovcity"
+      ],
+      "summary": "Kill 182 Blinks.",
+      "guide": {
+        "kind": "standard",
+        "context": "A Blink is fast and bites for heavy damage with bleeding, so keep bandages ready.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Hunt Blinks in @loc{Zakov} until 182 are dead."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "manabouttown",
+      "displayName": "Man about Town",
+      "description": "Complete 5 daily quests",
+      "hidden": false,
+      "globalPercent": 28.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Complete 5 daily quests.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take a daily mission from the @npc{Networker}."
+          },
+          {
+            "id": "s2",
+            "text": "Finish it and turn it in; repeat until you have 5."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "milkrun",
+      "displayName": "Milkrun",
+      "description": "Fill your inventory with milk.",
+      "hidden": true,
+      "globalPercent": 1.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Fill your inventory completely with milk.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Barman sells 2 Milk a day at 800 Roubles each, and shop stock resets at 7:30 am.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy all Milk from the @npc{Barman} every day."
+          },
+          {
+            "id": "s2",
+            "text": "Keep it in your inventory until it is full."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "maxedoutpistol",
+      "displayName": "Maxed out: Pistol",
+      "description": "Reach maximum level for pistols",
+      "hidden": false,
+      "globalPercent": 2.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach the maximum level for pistols.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use pistols in raids so the skill levels up until it reaches its maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "maxedoutsmg",
+      "displayName": "Maxed out: SMG",
+      "description": "Reach maximum level for SMGs",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach the maximum level for SMGs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use SMGs in raids so the skill levels up until it reaches its maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "maxedoutshotgun",
+      "displayName": "Maxed out: Shotgun",
+      "description": "Reach maximum level for shotguns",
+      "hidden": false,
+      "globalPercent": 4.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach the maximum level for shotguns.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use shotguns in raids so the skill levels up until it reaches its maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "maxedoutrifle",
+      "displayName": "Maxed out: Rifle",
+      "description": "Reach maximum level for rifles",
+      "hidden": false,
+      "globalPercent": 14.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach the maximum level for rifles.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use rifles in raids so the skill levels up until it reaches its maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "maxedoutdmr",
+      "displayName": "Maxed out: DMR",
+      "description": "Reach maximum level for DMR",
+      "hidden": false,
+      "globalPercent": 3.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach the maximum level for DMRs.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use DMRs in raids so the skill levels up until it reaches its maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "maxedoutsniper",
+      "displayName": "Maxed out: Sniper",
+      "description": "Reach maximum level for sniper",
+      "hidden": false,
+      "globalPercent": 6.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "4 hr",
+      "estMinutes": 240,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach the maximum level for sniper rifles.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Use sniper rifles in raids so the skill levels up until it reaches its maximum."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "tutorialcompleted",
+      "displayName": "Ready for Action",
+      "description": "Complete the Prologue",
+      "hidden": false,
+      "globalPercent": 20.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "summary": "Complete the Prologue.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Play through the Prologue until it ends."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "signalfound",
+      "displayName": "Signal Found",
+      "description": "Complete \"Get some Music\" quest",
+      "hidden": false,
+      "globalPercent": 9.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Complete the quest Get some Music.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the quest @mechanic{Get some Music} and finish its objectives."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "pirateradio",
+      "displayName": "Pirate Radio",
+      "description": "Play your first track on the radio",
+      "hidden": false,
+      "globalPercent": 6.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Play a track on the radio for the first time.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Once the radio quest unlocks the radio, play any track on it in the @loc{Bunker}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hoardersparadise",
+      "displayName": "Hoarder's Paradise",
+      "description": "Fill any container to 1000+ of a single item",
+      "hidden": false,
+      "globalPercent": 4.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 6,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Put 1000 or more of a single item into one container.",
+      "guide": {
+        "kind": "standard",
+        "context": "Loot settings can make ammo drop in packs up to 999.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect one item type, such as ammo, and store 1000 or more of it in one container."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "skininthegame",
+      "displayName": "Skin in the Game",
+      "description": "Unlock your first Train Skin",
+      "hidden": false,
+      "globalPercent": 12.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Unlock your first train skin.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get a train skin from the @npc{Conductor}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "railwaycollector",
+      "displayName": "Railway Collector",
+      "description": "Unlock all six Train Skins",
+      "hidden": false,
+      "globalPercent": 0.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "skininthegame"
+      ],
+      "summary": "Unlock all six train skins.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skins carry over between saves. One playthrough gives 4 or 5, depending on the ending.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Unlock skins in one playthrough; it gives 4 or 5 of the six, depending on the ending."
+          },
+          {
+            "id": "s2",
+            "text": "Start a second playthrough and join the Green Army to unlock the rest."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "corporateclimber",
+      "displayName": "Corporate Climber",
+      "description": "Complete Crimson Corporation Questline",
+      "hidden": false,
+      "globalPercent": 0.8,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "lockoutStage": 4,
+      "summary": "Complete the Crimson Corporation questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can join only one army faction per save, so this and the Green Army questline need separate playthroughs.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @mechanic{New arrivals} to unlock @npc{Reynard Shepard}."
+          },
+          {
+            "id": "s2",
+            "text": "Join Crimson Corporation and finish all of his quests, ending with @mechanic{The War}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "waycleared",
+      "displayName": "Way, Cleared",
+      "description": "Defeat Orel, leader of the Makeshift Camp",
+      "hidden": false,
+      "globalPercent": 7.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Defeat Orel, the leader of the Makeshift Camp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Orel is at the far west of the Train station area with several bandits.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the Barman's quest @mechanic{Clear the way}."
+          },
+          {
+            "id": "s2",
+            "text": "Enter the @loc{Makeshift Camp} train station and take a side path, not the middle."
+          },
+          {
+            "id": "s3",
+            "text": "Kill the bandits, then @enemy{Orel}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "expandyourhorizons",
+      "displayName": "Expand your Horizons",
+      "description": "Defeat Voss, Commander of Horizon",
+      "hidden": false,
+      "globalPercent": 0.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "summary": "Defeat Voss, the commander of Horizon.",
+      "guide": {
+        "kind": "standard",
+        "context": "Horizon appears in Industrial Area after you accept the Barman's @mechanic{Any news?} quest.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Go to the north-east docks of the @loc{Industrial Area}."
+          },
+          {
+            "id": "s2",
+            "text": "Kill @enemy{Commander Voss}, who chases fast."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "madedevilcry",
+      "displayName": "Made Devil Cry",
+      "description": "Defeat the Devil in the Parking Lot",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "canispeaktothemanager"
+      ],
+      "summary": "Defeat the Devil in the Mall's parking lot.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Devil spawns in the Mall basement only after @mechanic{Clear the way, again} or @mechanic{A new Devil}.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Complete either @mechanic{Clear the way, again} or @mechanic{A new Devil}."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the @loc{Mall} basement and kill @enemy{Devil} (100 HP, class 6 armor)."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "mybloodyvalentine",
+      "displayName": "My Bloody Valentine",
+      "description": "Defeat Valentine in Zakov City",
+      "hidden": false,
+      "globalPercent": 1.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 4,
+      "confidence": "unverified",
+      "prerequisites": [
+        "welcometozakovcity"
+      ],
+      "summary": "Defeat Valentine in Zakov City.",
+      "guide": {
+        "kind": "standard",
+        "context": "Valentine roams with 5 to 6 guards.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Search @loc{Zakov} near the school, the park and west of the police station."
+          },
+          {
+            "id": "s2",
+            "text": "Kill @enemy{Valentine} and his guards."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "labassisntant",
+      "displayName": "Lab Assistant",
+      "description": "Obtain 450 reputation with Scientists",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 6,
+      "confidence": "unverified",
+      "prerequisites": [
+        "tutorialcompleted"
+      ],
+      "summary": "Reach 450 reputation with the Scientists.",
+      "guide": {
+        "kind": "standard",
+        "context": "The @npc{Doctor} is the Scientists' trader.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Raise Scientists reputation, for example by trading with the @npc{Doctor}, until it reaches 450."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "noteasybeinggreen",
+      "displayName": "Not Easy Being Green",
+      "description": "Complete the Green Army's Questline",
+      "hidden": false,
+      "globalPercent": 0.5,
+      "flags": {
+        "missable": true,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "lockoutStage": 4,
+      "summary": "Complete the Green Army questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "You can join only one army faction per save, so this and the Crimson Corporation questline need separate playthroughs.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @mechanic{Clear the way} to unlock @npc{General Artemovich}."
+          },
+          {
+            "id": "s2",
+            "text": "Join the Green Army and finish all of his quests, ending with @mechanic{The War}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "beataroundthebush",
+      "displayName": "Beat Around the Bush",
+      "description": "Defeat the Phantom of the Swamp",
+      "hidden": false,
+      "globalPercent": 3.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "summary": "Defeat the Phantom in the Swamp.",
+      "guide": {
+        "kind": "standard",
+        "context": "The Phantom roams the surface in a ghillie suit and blends in.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Search the @loc{Swamp} surface for @enemy{Phantom}."
+          },
+          {
+            "id": "s2",
+            "text": "Kill him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "shadowofzakov",
+      "displayName": "Shadow of Zakov",
+      "description": "Complete the Secret Ending",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "intotheunknown",
+        "lastorders"
+      ],
+      "summary": "Complete the secret ending.",
+      "guide": {
+        "kind": "standard",
+        "context": "There is no journal entry for this step. The binary on Unknown's documents spells the word you type.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish the Barman's quests and Unknown's quests."
+          },
+          {
+            "id": "s2",
+            "text": "Enter the Watchers HQ in @loc{Zakov} and reach the purple crystal at the end."
+          },
+          {
+            "id": "s3",
+            "text": "Pick no dialogue option; type @item{stalker}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "fashionshow",
+      "displayName": "Fashion Show",
+      "description": "Own each of the Bosses' unique armors",
+      "hidden": false,
+      "globalPercent": 0.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "mybloodyvalentine",
+        "madedevilcry",
+        "expandyourhorizons",
+        "beataroundthebush",
+        "hailtotherotkingbaby",
+        "lostinthewoods",
+        "campereliminated",
+        "waycleared",
+        "canispeaktothemanager"
+      ],
+      "summary": "Own the unique armor of every boss.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Armor drops are not guaranteed; fight a boss again in a later raid if it does not drop.",
+        "collectibles": [
+          {
+            "id": "armor-lazar",
+            "index": 1,
+            "name": "Lazar's armor",
+            "group": "Forest",
+            "location": "@loc{Forest}: Outside the police station in the village.",
+            "method": "Kill Lazar and take his armor; it does not always drop.",
+            "missable": false
+          },
+          {
+            "id": "armor-arman",
+            "index": 2,
+            "name": "Arman's armor",
+            "group": "Makeshift Camp",
+            "location": "@loc{Makeshift Camp}: Roams the whole map; no fixed spot.",
+            "method": "Kill Arman and take the Arman suit.",
+            "missable": false
+          },
+          {
+            "id": "armor-orel",
+            "index": 3,
+            "name": "Orel's armor",
+            "group": "Makeshift Camp",
+            "location": "@loc{Makeshift Camp}: Far west of the train station area.",
+            "method": "Kill Orel; his armor only drops with the NPCs drop armor setting on.",
+            "missable": false
+          },
+          {
+            "id": "armor-commander-voss",
+            "index": 4,
+            "name": "Commander Voss's armor",
+            "group": "Industrial Area",
+            "location": "@loc{Industrial Area}: North-east docks.",
+            "method": "Kill Voss and take the Commander Voss suit.",
+            "missable": false
+          },
+          {
+            "id": "armor-rotking",
+            "index": 5,
+            "name": "Rotking's armor",
+            "group": "Swamp",
+            "location": "@loc{Swamp}: Sewer laboratory area, before the valve.",
+            "method": "Kill Rotking and take the Rotking Armor.",
+            "missable": false
+          },
+          {
+            "id": "armor-phantom",
+            "index": 6,
+            "name": "Phantom's armor",
+            "group": "Swamp",
+            "location": "@loc{Swamp}: Roams the Swamp surface.",
+            "method": "Kill the Phantom and take the ghillie suit.",
+            "missable": false
+          },
+          {
+            "id": "armor-kibba",
+            "index": 7,
+            "name": "Kibba's armor",
+            "group": "Mall",
+            "location": "@loc{Mall}: Center of the Mall.",
+            "method": "Take Kibba Armor as the reward for Stylish one p.1.",
+            "missable": false
+          },
+          {
+            "id": "armor-devil",
+            "index": 8,
+            "name": "Devil's armor",
+            "group": "Mall",
+            "location": "@loc{Mall}: Mall basement.",
+            "method": "Kill the Devil; his armor drops rarely.",
+            "missable": false
+          },
+          {
+            "id": "armor-valentine",
+            "index": 9,
+            "name": "Valentine's armor",
+            "group": "Zakov",
+            "location": "@loc{Zakov}: Roams Zakov with guards.",
+            "method": "Kill Valentine and check what he drops.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "hailtotherotkingbaby",
+      "displayName": "Hail to the Rotking, baby",
+      "description": "Defeat Rotking, who hides in the Sewers",
+      "hidden": false,
+      "globalPercent": 2.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "summary": "Defeat Rotking in the Swamp sewers.",
+      "guide": {
+        "kind": "standard",
+        "context": "Rotking is in the laboratory area, right before the valve.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Get the sewer key through the main quest."
+          },
+          {
+            "id": "s2",
+            "text": "Enter the @loc{Swamp} sewers and reach the laboratory area."
+          },
+          {
+            "id": "s3",
+            "text": "Kill @enemy{Rotking}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "deaddrop",
+      "displayName": "Dead Drop",
+      "description": "Loot the Phantom's Hidden Stash",
+      "hidden": false,
+      "globalPercent": 3.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "beataroundthebush"
+      ],
+      "summary": "Loot the Phantom's hidden stash.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the note from @enemy{Phantom}'s body."
+          },
+          {
+            "id": "s2",
+            "text": "Follow it to the stash and loot it."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "onemanstrash",
+      "displayName": "One Man's Trash",
+      "description": "Find Mr Junk",
+      "hidden": false,
+      "globalPercent": 6.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [
+        "waycleared"
+      ],
+      "summary": "Find Mr. Junk.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Search the sewers of the @loc{Makeshift Camp} for @npc{Mr. Junk}'s hideout and talk to him."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "crystalclear",
+      "displayName": "Crystal Clear",
+      "description": "Defeat the Outer Deity",
+      "hidden": false,
+      "globalPercent": 2.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "hailtotherotkingbaby"
+      ],
+      "summary": "Defeat the Outer Deity.",
+      "guide": {
+        "kind": "standard",
+        "context": "Bring the Psy Helmet, plenty of ammo and a high-capacity gun.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @npc{Unknown}'s quests The Psy Helmet p.1 and p.2 to get the Psy Helmet, then take @mechanic{Outer Deity}."
+          },
+          {
+            "id": "s2",
+            "text": "Keep the Psy Helmet in your inventory."
+          },
+          {
+            "id": "s3",
+            "text": "Go to the @loc{Swamp} village and touch the violet crystal."
+          },
+          {
+            "id": "s4",
+            "text": "In the white space, dodge the homing crystals by running in circles and kill the Outer Deity."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "intotheunknown",
+      "displayName": "Into the Unknown",
+      "description": "Complete Unknown's Questline",
+      "hidden": false,
+      "globalPercent": 1.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "hailtotherotkingbaby",
+        "crystalclear"
+      ],
+      "summary": "Complete Unknown's questline.",
+      "guide": {
+        "kind": "standard",
+        "context": "Unknown's quests: The Psy Helmet p.1 and p.2, Outer Deity, Revelations.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Meet @npc{Unknown} in the @loc{Swamp} sewers after the Barman's @mechanic{The crystal}."
+          },
+          {
+            "id": "s2",
+            "text": "Finish all four of his quests in order."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "unlocknpp",
+      "displayName": "Nuclear Powered",
+      "description": "Travel to the Nuclear Power Plant",
+      "hidden": false,
+      "globalPercent": 0.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "prerequisites": [
+        "welcometozakovcity"
+      ],
+      "summary": "Travel to the Nuclear Power Plant.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Take the Barman's @mechanic{What next?} quest."
+          },
+          {
+            "id": "s2",
+            "text": "Go through the Watchers HQ in @loc{Zakov} and follow the railroad marked Towards Nuclear Facility."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "innerdeity",
+      "displayName": "Shine on you Crazy Diamond",
+      "description": "Defeat the Inner Deity",
+      "hidden": false,
+      "globalPercent": 0.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "unverified",
+      "prerequisites": [
+        "shadowofzakov"
+      ],
+      "summary": "Defeat the Inner Deity.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Reach the crystal anomaly through the Watchers HQ route."
+          },
+          {
+            "id": "s2",
+            "text": "Look for the Inner Deity there and kill it."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "tutorialcompleted",
+    "firstblood",
+    "scavenger",
+    "pestcontrol",
+    "welcometozerosievert",
+    "blacksmith",
+    "eyeforaneye",
+    "allthatforadropofblood",
+    "nothingbutjunk",
+    "handyman",
+    "finderkeepers",
+    "gunforhire",
+    "milkrun",
+    "lostinthewoods",
+    "abigwin",
+    "skininthegame",
+    "signalfound",
+    "pirateradio",
+    "waycleared",
+    "downwiththesickness",
+    "onemanstrash",
+    "welcometozakovcity",
+    "canispeaktothemanager",
+    "campereliminated",
+    "beataroundthebush",
+    "deaddrop",
+    "hailtotherotkingbaby",
+    "expandyourhorizons",
+    "noteasybeinggreen",
+    "corporateclimber",
+    "manabouttown",
+    "ghoulbusters",
+    "aliensexist",
+    "madedevilcry",
+    "mybloodyvalentine",
+    "unlocknpp",
+    "lastorders",
+    "fashionshow",
+    "crystalclear",
+    "intotheunknown",
+    "shadowofzakov",
+    "innerdeity",
+    "ironman",
+    "rockbottom",
+    "donedeal",
+    "hoardersparadise",
+    "allaboard",
+    "dietrying",
+    "labassisntant",
+    "heavypockets",
+    "railwaycollector",
+    "bestfriends",
+    "headhunter",
+    "maxedoutrifle",
+    "maxedoutsniper",
+    "maxedoutshotgun",
+    "maxedoutsmg",
+    "maxedoutdmr",
+    "maxedoutpistol"
+  ]
+}

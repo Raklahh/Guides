@@ -714,24 +714,408 @@
       "group": "collectibles",
       "summary": "After @mechanic{Far Out}, collect all 50 @item{Spaceship Parts} and complete Omega's @mechanic{The Final Frontier}.",
       "guide": {
-        "kind": "standard",
-        "context": "The parts appear only after Franklin meets Omega following Fame or Shame, although any protagonist may collect them afterward.",
-        "steps": [
+        "kind": "collectible",
+        "context": "The parts appear after Franklin starts Omega's @mechanic{Far Out} in Sandy Shores, which opens once Trevor is in Los Santos and @mechanic{Fame or Shame} is done. Any protagonist can then collect them. After the 50th, Franklin completes Omega's @mechanic{The Final Frontier}.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "As Franklin, complete @mechanic{Far Out} for @npc{Omega} in Sandy Shores."
+            "id": "part-01",
+            "index": 1,
+            "group": "Los Santos",
+            "name": "Airport hangar rear",
+            "location": "@loc{Los Santos International Airport}, hangar southwest of your purchasable private hangar",
+            "method": "Look on the ground behind the hangar."
           },
           {
-            "id": "s2",
-            "text": "Open the Rockstar Games @mechanic{Career > Checklist} page for the active Story save and filter the map to @item{Spaceship Parts}; clear every unfinished marker."
+            "id": "part-02",
+            "index": 2,
+            "group": "Los Santos",
+            "name": "Gas holders bridge",
+            "location": "@loc{Elysian Island}, two round gas holders in the northeast",
+            "method": "Climb the stairs and ladders to the top of one, then cross the bridge to the middle."
           },
           {
-            "id": "s3",
-            "text": "Collect all 50 glowing, humming @item{Spaceship Parts} across Los Santos and Blaine County."
+            "id": "part-03",
+            "index": 3,
+            "group": "Los Santos",
+            "name": "Sunken wreck",
+            "location": "@loc{Elysian Island}, easternmost pier",
+            "method": "Dive to the wreckage under the water."
           },
           {
-            "id": "s4",
-            "text": "Return as Franklin and complete @mechanic{The Final Frontier} when Omega's final marker appears."
+            "id": "part-04",
+            "index": 4,
+            "group": "Los Santos",
+            "name": "Beach grating",
+            "location": "@loc{El Burro Heights}, south beach",
+            "method": "Look in the broken grating just west of the dirt ramp up to the Elysian Island bridge street."
+          },
+          {
+            "id": "part-05",
+            "index": 5,
+            "group": "Los Santos",
+            "name": "Middle island",
+            "location": "@loc{El Burro Heights}, three small islands off the south coast",
+            "method": "Land on the middle island."
+          },
+          {
+            "id": "part-06",
+            "index": 6,
+            "group": "Los Santos",
+            "name": "Green container",
+            "location": "@loc{El Burro Heights}, far east, east of the Tattoo Parlor icon",
+            "method": "Look in the open green container against the wall of the large building near the smoke stacks."
+          },
+          {
+            "id": "part-07",
+            "index": 7,
+            "group": "Los Santos",
+            "name": "Murrieta Heights dam",
+            "location": "@loc{Murrieta Heights}, small dam north of the freeway, east of the big intersection",
+            "method": "Walk onto the top of the dam."
+          },
+          {
+            "id": "part-08",
+            "index": 8,
+            "group": "Los Santos",
+            "name": "Rancho sculpture",
+            "location": "@loc{Rancho}, park in the south, opposite the bridge to Elysian Island",
+            "method": "Check the foot of the large metal sculpture."
+          },
+          {
+            "id": "part-09",
+            "index": 9,
+            "group": "Los Santos",
+            "name": "Hospital helipad",
+            "location": "@loc{Davis}, hospital southeast of Trevor's strip club",
+            "method": "Climb the ladder at the building's north end, by the ambulance bay, to the helipad."
+          },
+          {
+            "id": "part-10",
+            "index": 10,
+            "group": "Los Santos",
+            "name": "Homeless camp",
+            "location": "@loc{Strawberry}, under the highway overpass north of Trevor's strip club",
+            "method": "Follow the underpass west to the camp and look on the floor by the couch in the north."
+          },
+          {
+            "id": "part-11",
+            "index": 11,
+            "group": "Los Santos",
+            "name": "Rug market alley",
+            "location": "@loc{Textile City}, side alley market east of Binco, opposite the yellow RUGS sign",
+            "method": "Check the small side area."
+          },
+          {
+            "id": "part-12",
+            "index": 12,
+            "group": "Los Santos",
+            "name": "Subway construction site",
+            "location": "@loc{Downtown Los Santos}, subway tunnels beneath the Penris building",
+            "method": "Follow the tracks to the construction site and take it from the top of the east elevator behind the red barricade."
+          },
+          {
+            "id": "part-13",
+            "index": 13,
+            "group": "Los Santos",
+            "name": "Penris rooftop",
+            "location": "@loc{Downtown Los Santos}, top of the Penris building with blue neon, northwest of the Ten Cent Theatre",
+            "method": "Land a helicopter on the roof."
+          },
+          {
+            "id": "part-14",
+            "index": 14,
+            "group": "Los Santos",
+            "name": "Rockford Plaza green",
+            "location": "@loc{Burton}, parking entrance east of the Rockford Plaza mall",
+            "method": "Follow the entrance to the looping turn and look in the middle of the green area on the left."
+          },
+          {
+            "id": "part-15",
+            "index": 15,
+            "group": "Los Santos",
+            "name": "Rooftop pool",
+            "location": "@loc{Burton}, building directly west of the Los Santos Customs icon",
+            "method": "Land a helicopter on the roof and look in the empty pool."
+          },
+          {
+            "id": "part-16",
+            "index": 16,
+            "group": "Los Santos",
+            "name": "Billboard ledge",
+            "location": "@loc{Vespucci Canals}, main street south of the canals, billboard reading Destroy the Ring or X Nogo Vodka",
+            "method": "Climb the ladder behind the building to the billboard ledge."
+          },
+          {
+            "id": "part-17",
+            "index": 17,
+            "group": "Los Santos",
+            "name": "Film set roof",
+            "location": "@loc{Richards Majestic} studio, center film set",
+            "method": "Climb to the roof in the southwest corner. Visit after a few Solomon missions to avoid police."
+          },
+          {
+            "id": "part-18",
+            "index": 18,
+            "group": "Los Santos",
+            "name": "Golf course island",
+            "location": "@loc{Golf Club}, west water hazard in north Los Santos",
+            "method": "Reach the small island in the south of the pond."
+          },
+          {
+            "id": "part-19",
+            "index": 19,
+            "group": "Hills and Los Santos County",
+            "name": "Dam underwater",
+            "location": "@loc{Vinewood Hills}, lake in the north",
+            "method": "Dive beneath the dam wall on the south side."
+          },
+          {
+            "id": "part-20",
+            "index": 20,
+            "group": "Hills and Los Santos County",
+            "name": "Lake tower",
+            "location": "@loc{Vinewood Hills}, concrete tower in the east of the same lake",
+            "method": "Land a helicopter on top."
+          },
+          {
+            "id": "part-21",
+            "index": 21,
+            "group": "Hills and Los Santos County",
+            "name": "Observatory roof",
+            "location": "@loc{Galileo Observatory}",
+            "method": "Climb to the roof of the building."
+          },
+          {
+            "id": "part-22",
+            "index": 22,
+            "group": "Hills and Los Santos County",
+            "name": "Mansion pool",
+            "location": "@loc{Richman Glen}, first mansion on the right of the road in line with the central Vinewood Hills lake",
+            "method": "Look under the tree next to the small decorative pool."
+          },
+          {
+            "id": "part-23",
+            "index": 23,
+            "group": "Hills and Los Santos County",
+            "name": "Telescope backyard",
+            "location": "@loc{Banham Canyon}, mansion at the end of a large driveway on the road east from Chumash",
+            "method": "Walk to the backyard. The part sits beside a telescope."
+          },
+          {
+            "id": "part-24",
+            "index": 24,
+            "group": "Hills and Los Santos County",
+            "name": "Tea plantation",
+            "location": "@loc{Tongva Hills}, tea plantation in the southwest",
+            "method": "Look between the rows of tea plants."
+          },
+          {
+            "id": "part-25",
+            "index": 25,
+            "group": "Hills and Los Santos County",
+            "name": "River cave",
+            "location": "@loc{Tongva Hills}, longer western branch of the river running south",
+            "method": "Follow the branch into the hills, watch for a shrub-covered cave on the north side, and look inside."
+          },
+          {
+            "id": "part-26",
+            "index": 26,
+            "group": "Hills and Los Santos County",
+            "name": "Waterfall dive",
+            "location": "@loc{Tongva Valley}, southwest of the Zancudo River Ammu-Nation",
+            "method": "Take the road southwest, turn left, then right to a bridge. Jump, parachute down, swim to the waterfall and dive in front of it."
+          },
+          {
+            "id": "part-27",
+            "index": 27,
+            "group": "Hills and Los Santos County",
+            "name": "Covered bridge",
+            "location": "@loc{Zancudo River}, large covered wooden bridge east of the Ammu-Nation",
+            "method": "Look beneath the bridge, on the river's eastern bank."
+          },
+          {
+            "id": "part-28",
+            "index": 28,
+            "group": "Hills and Los Santos County",
+            "name": "Rail bridge river bank",
+            "location": "@loc{Zancudo River}, railway bridge",
+            "method": "From the west bank, follow the river south to a small rocky area."
+          },
+          {
+            "id": "part-29",
+            "index": 29,
+            "group": "Blaine County and desert",
+            "name": "Mount Josiah ledge",
+            "location": "@loc{Mount Josiah}, east side, east of Fort Zancudo",
+            "method": "Reach the cliff ledge. A helicopter makes it easier."
+          },
+          {
+            "id": "part-30",
+            "index": 30,
+            "group": "Blaine County and desert",
+            "name": "Waterfall top",
+            "location": "@loc{Cassidy Creek}, south bank below the railway bridge",
+            "method": "Climb to the top of the waterfall."
+          },
+          {
+            "id": "part-31",
+            "index": 31,
+            "group": "Blaine County and desert",
+            "name": "Bridge buttress",
+            "location": "@loc{Raton Canyon}, large western bridge over Cassidy Creek",
+            "method": "Reach the south buttress on the west side by landing a helicopter between supports or by parachuting onto it."
+          },
+          {
+            "id": "part-32",
+            "index": 32,
+            "group": "Blaine County and desert",
+            "name": "Paleto Cove peninsula",
+            "location": "@loc{Paleto Cove}, north of the Sonar Collections Depot",
+            "method": "Follow the coast north to the next peninsula."
+          },
+          {
+            "id": "part-33",
+            "index": 33,
+            "group": "Blaine County and desert",
+            "name": "Creek tunnel",
+            "location": "@loc{Paleto Forest}, creek north of the cable car station",
+            "method": "Follow the creek east to where a small dirt road crosses it and check the tunnel under the road."
+          },
+          {
+            "id": "part-34",
+            "index": 34,
+            "group": "Blaine County and desert",
+            "name": "Fire training building",
+            "location": "@loc{Paleto Bay}, behind the Ammu-Nation",
+            "method": "Climb the east building by the outside fire stairs and look on the third floor."
+          },
+          {
+            "id": "part-35",
+            "index": 35,
+            "group": "Blaine County and desert",
+            "name": "Farm barn",
+            "location": "@loc{Paleto Bay}, farm on the east edge of town",
+            "method": "Look inside the barn. This is the farm from the Minute Man Blues mission."
+          },
+          {
+            "id": "part-36",
+            "index": 36,
+            "group": "Blaine County and desert",
+            "name": "Mountain tool shed",
+            "location": "@loc{Mount Chiliad}, road north of Grapeseed up to the end",
+            "method": "Look in the open shed opposite the farmhouse."
+          },
+          {
+            "id": "part-37",
+            "index": 37,
+            "group": "Blaine County and desert",
+            "name": "Animal pens",
+            "location": "@loc{Grapeseed}, farm just above the canal junction",
+            "method": "Check the middle of the animal pens."
+          },
+          {
+            "id": "part-38",
+            "index": 38,
+            "group": "Blaine County and desert",
+            "name": "Shipbuilder shed",
+            "location": "@loc{San Chianski Mountain Range}, end of the road south from the coast east of Grapeseed",
+            "method": "Check the shed behind the red ship on the sand."
+          },
+          {
+            "id": "part-39",
+            "index": 39,
+            "group": "Blaine County and desert",
+            "name": "Painted hill",
+            "location": "@loc{Sandy Shores}, brightly painted hill with messages to aliens, south of the railway",
+            "method": "Climb to the very top."
+          },
+          {
+            "id": "part-40",
+            "index": 40,
+            "group": "Blaine County and desert",
+            "name": "Rock walls underwater",
+            "location": "@loc{Sandy Shores}, north shore at the Alamo Sea",
+            "method": "Dive between the two rock-wall peninsulas that point toward each other."
+          },
+          {
+            "id": "part-41",
+            "index": 41,
+            "group": "Blaine County and desert",
+            "name": "Rock formation",
+            "location": "@loc{Sandy Shores}, largest rock formation south of the train line, south of the barber icon",
+            "method": "Climb about halfway up."
+          },
+          {
+            "id": "part-42",
+            "index": 42,
+            "group": "Blaine County and desert",
+            "name": "Satellite dish",
+            "location": "@loc{Grand Senora Desert}, satellite dishes south of the Darts icon",
+            "method": "Climb the ladder and stairs to the top of the westernmost dish."
+          },
+          {
+            "id": "part-43",
+            "index": 43,
+            "group": "Blaine County and desert",
+            "name": "Caravan boat",
+            "location": "@loc{Grand Senora Desert}, southwest of the Sandy Shores airstrip",
+            "method": "Take the northbound dirt road to the caravan with a large boat and check the ground by the boat."
+          },
+          {
+            "id": "part-44",
+            "index": 44,
+            "group": "Blaine County and desert",
+            "name": "Hairpin house deck",
+            "location": "@loc{Grand Senora Desert}, U-shaped turn south of the desert",
+            "method": "Look on the back deck of the building south of the road."
+          },
+          {
+            "id": "part-45",
+            "index": 45,
+            "group": "Blaine County and desert",
+            "name": "Hairpin cliff base",
+            "location": "@loc{Grand Senora Desert}, short road south of Redwood Lights Track with four hairpins",
+            "method": "Find it at the cliff base below the road into the third hairpin (coming from the north)."
+          },
+          {
+            "id": "part-46",
+            "index": 46,
+            "group": "Blaine County and desert",
+            "name": "Windmill house",
+            "location": "@loc{Grand Senora Desert}, second street on the right south of the Los Santos Customs",
+            "method": "Go behind the small house with a flagpole and windmill and check by the seating area."
+          },
+          {
+            "id": "part-47",
+            "index": 47,
+            "group": "Coast and reservoir",
+            "name": "Davis Quartz cave dive",
+            "location": "@loc{Pacific Ocean}, inlet south of Davis Quartz",
+            "method": "Enter the cave by boat and dive on the right side."
+          },
+          {
+            "id": "part-48",
+            "index": 48,
+            "group": "Coast and reservoir",
+            "name": "Peninsula shore",
+            "location": "@loc{Tataviam Mountains}, peninsula beside the Jet Ski race icon, close to the wind farm and Palmer-Taylor plant",
+            "method": "Check the small sandy shore on the north side."
+          },
+          {
+            "id": "part-49",
+            "index": 49,
+            "group": "Coast and reservoir",
+            "name": "Reservoir pipes",
+            "location": "@loc{Land Act Reservoir}, northernmost thin creek",
+            "method": "Swim across the creek and look at the south end of the pipes."
+          },
+          {
+            "id": "part-50",
+            "index": 50,
+            "group": "Coast and reservoir",
+            "name": "Jetty underwater",
+            "location": "@loc{Land Act Reservoir}, jetty north of the dam",
+            "method": "Dive beneath the jetty."
           }
         ]
       }
@@ -757,24 +1141,408 @@
       "group": "collectibles",
       "summary": "Collect all 50 @item{Letter Scraps}, then have Franklin complete @mechanic{A Starlet in Vinewood} and kill Peter Dreyfuss.",
       "guide": {
-        "kind": "standard",
-        "context": "Letter Scraps exist from the start and may be collected by any protagonist, but Franklin must resolve the unlocked Killer mission.",
-        "steps": [
+        "kind": "collectible",
+        "context": "The scraps are there from the start and any protagonist can pick them up by walking over them. After the 50th, switch to Franklin, enter the green @mechanic{Killer} marker, complete @mechanic{A Starlet in Vinewood}, and kill @npc{Peter Dreyfuss} before he escapes.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Open the Rockstar Games @mechanic{Career > Checklist} page for the active Story save and filter the map to @item{Letter Scraps}; clear every unfinished marker."
+            "id": "scrap-01",
+            "index": 1,
+            "group": "Los Santos",
+            "name": "Airport taxi stand",
+            "location": "@loc{Los Santos International Airport}, outside the terminal",
+            "method": "It lies on the pavement where taxis stop, beside the steps down to the subway."
           },
           {
-            "id": "s2",
-            "text": "Collect all 50 glowing @item{Letter Scraps} across the map."
+            "id": "scrap-02",
+            "index": 2,
+            "group": "Los Santos",
+            "name": "Airport circular platform",
+            "location": "@loc{Los Santos International Airport}, northeast of the main terminal",
+            "method": "Land a helicopter on the upper platform of the round structure."
           },
           {
-            "id": "s3",
-            "text": "Switch to Franklin and enter the green @mechanic{Killer} question-mark marker."
+            "id": "scrap-03",
+            "index": 3,
+            "group": "Los Santos",
+            "name": "Olifantus boat",
+            "location": "@loc{Elysian Island} docks, dry-dock area in the south",
+            "method": "Board the green boat named Olifantus and check the second deck in front of the captain's cabin."
           },
           {
-            "id": "s4",
-            "text": "Complete @mechanic{A Starlet in Vinewood} and kill @npc{Peter Dreyfuss} before he escapes."
+            "id": "scrap-04",
+            "index": 4,
+            "group": "Los Santos",
+            "name": "Port container",
+            "location": "@loc{Port of Los Santos}, far southeast container yard",
+            "method": "In the container grid, use the block in the 2nd row from the north edge and 2nd column from the east edge. Climb the crates onto the blue container."
+          },
+          {
+            "id": "scrap-05",
+            "index": 5,
+            "group": "Los Santos",
+            "name": "Railway tunnel platform",
+            "location": "@loc{Cypress Flats}, train tunnel",
+            "method": "Drop onto the tracks from the southwest corner where three bridges meet, run north and watch for trains. The scrap is on a service platform on the left."
+          },
+          {
+            "id": "scrap-06",
+            "index": 6,
+            "group": "Los Santos",
+            "name": "Scrapyard bus",
+            "location": "@loc{El Burro Heights}, car scrapyard",
+            "method": "Look inside the wrecked bus under one of the iron sheds."
+          },
+          {
+            "id": "scrap-07",
+            "index": 7,
+            "group": "Los Santos",
+            "name": "Grove Street porch",
+            "location": "@loc{Grove Street}, cul-de-sac",
+            "method": "South side of the street: a blue house, red garage door. The scrap is on its back porch."
+          },
+          {
+            "id": "scrap-08",
+            "index": 8,
+            "group": "Los Santos",
+            "name": "Mega Mall dumpster",
+            "location": "@loc{Davis}, Mega Mall car park north of the Grove Street garage",
+            "method": "Climb into the dumpster and take it from the garbage pile."
+          },
+          {
+            "id": "scrap-09",
+            "index": 9,
+            "group": "Los Santos",
+            "name": "Construction crane top",
+            "location": "@loc{Pillbox Hill}, construction site across from the Maze Bank tower",
+            "method": "Climb to the very top of the large crane."
+          },
+          {
+            "id": "scrap-10",
+            "index": 10,
+            "group": "Los Santos",
+            "name": "Canal tunnel divider",
+            "location": "@loc{Vespucci Canals}, waterway tunnel running south toward La Puerta",
+            "method": "Take it from the cement divider in the middle of the channel."
+          },
+          {
+            "id": "scrap-11",
+            "index": 11,
+            "group": "Los Santos",
+            "name": "Skate park bowl",
+            "location": "@loc{Vespucci Beach}, skate park just south of the mask shop",
+            "method": "Look in one of the bowls."
+          },
+          {
+            "id": "scrap-12",
+            "index": 12,
+            "group": "Los Santos",
+            "name": "Del Perro Pier deck",
+            "location": "@loc{Del Perro Pier}, upper level at the far end",
+            "method": "It is on the floor of the deck over the restaurant."
+          },
+          {
+            "id": "scrap-13",
+            "index": 13,
+            "group": "Los Santos",
+            "name": "Resort pool bar",
+            "location": "@loc{Pacific Bluffs}, resort on the Great Ocean Highway",
+            "method": "Find it on the bar in the middle of the pool behind the resort."
+          },
+          {
+            "id": "scrap-14",
+            "index": 14,
+            "group": "Los Santos",
+            "name": "Kortz Center hedge maze",
+            "location": "@loc{Kortz Center}",
+            "method": "Search the hedge maze."
+          },
+          {
+            "id": "scrap-15",
+            "index": 15,
+            "group": "Los Santos",
+            "name": "Cemetery lake island",
+            "location": "@loc{Morningwood}, cemetery park west of Ponsonby's",
+            "method": "Reach the small island in the middle of the lake."
+          },
+          {
+            "id": "scrap-16",
+            "index": 16,
+            "group": "Los Santos",
+            "name": "Studio lot catwalk",
+            "location": "@loc{Richards Majestic} studio lot, northwest corner",
+            "method": "Climb the stairs to the raised catwalks. Visit after a few Solomon missions so the lot is open without police."
+          },
+          {
+            "id": "scrap-17",
+            "index": 17,
+            "group": "Los Santos",
+            "name": "Eclipse Lodge barbecue",
+            "location": "@loc{West Vinewood}, Eclipse Lodge Apartments outdoor eating area",
+            "method": "Take it from the side of the barbecue."
+          },
+          {
+            "id": "scrap-18",
+            "index": 18,
+            "group": "Los Santos",
+            "name": "Alta excavation hole",
+            "location": "@loc{Alta}, south end of the construction zone",
+            "method": "Drop into the dug-out hole ringed by orange markers."
+          },
+          {
+            "id": "scrap-19",
+            "index": 19,
+            "group": "Los Santos",
+            "name": "Half-pipe rooftop",
+            "location": "@loc{Hawick}, rooftop car park of the Hawaiian Snow building, east of the Suburban store",
+            "method": "Find it in the middle of the skate half-pipe."
+          },
+          {
+            "id": "scrap-20",
+            "index": 20,
+            "group": "Los Santos",
+            "name": "La Mesa bridge arch",
+            "location": "@loc{La Mesa}, bridge just north of Ammu-Nation and Los Santos Customs",
+            "method": "Check the viewing platforms under the stone arches on the south side."
+          },
+          {
+            "id": "scrap-21",
+            "index": 21,
+            "group": "Los Santos",
+            "name": "Reservoir tunnel platform",
+            "location": "@loc{East Vinewood}, just south of the Vinewood Racetrack where dam water runs down",
+            "method": "Use the concrete platform north of the middle tunnel, above the little reservoir."
+          },
+          {
+            "id": "scrap-22",
+            "index": 22,
+            "group": "Los Santos",
+            "name": "Racetrack bleachers",
+            "location": "@loc{Vinewood Racetrack}, west side",
+            "method": "Check the bleachers."
+          },
+          {
+            "id": "scrap-23",
+            "index": 23,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Vinewood sign letter I",
+            "location": "@loc{Vinewood Hills}, Vinewood sign",
+            "method": "Climb on top of the letter I."
+          },
+          {
+            "id": "scrap-24",
+            "index": 24,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Mansion glass room",
+            "location": "@loc{Vinewood Hills}, mansion north of the lake in the far north of the hills",
+            "method": "Look on the floor of the open glass room by the pool."
+          },
+          {
+            "id": "scrap-25",
+            "index": 25,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Giant tennis ball",
+            "location": "@loc{Vinewood Hills}, tourist spot north of the Galileo Observatory car park",
+            "method": "Follow the dirt path north, take the left fork, and check the ground by the benches in front of the giant tennis ball."
+          },
+          {
+            "id": "scrap-26",
+            "index": 26,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Tongva Valley information sign",
+            "location": "@loc{Tongva Valley}, east side of the main north-south road",
+            "method": "Check the dirt car park under the tourist information sign."
+          },
+          {
+            "id": "scrap-27",
+            "index": 27,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Lago Zancudo marsh",
+            "location": "@loc{Lago Zancudo}, north of the Great Ocean Highway bridge",
+            "method": "Go off-road along the river bank east. After the third small inlet, look at the marsh bank."
+          },
+          {
+            "id": "scrap-28",
+            "index": 28,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Dry creek bridge",
+            "location": "@loc{Zancudo River}, east of the Ammu-Nation and clothing store on the south bank",
+            "method": "Look under the bridge over the dry creek bed."
+          },
+          {
+            "id": "scrap-29",
+            "index": 29,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Mine tunnel entrance",
+            "location": "@loc{Great Chaparral}, dirt road north of the off-road truck race marker",
+            "method": "After the second hairpin turn, look at the cliff on the right for a blocked mine tunnel. The scrap is on the ground in front."
+          },
+          {
+            "id": "scrap-30",
+            "index": 30,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Hairpin billboard",
+            "location": "@loc{Great Chaparral}, road south of the Grand Senora Desert's southern tip",
+            "method": "Stop at the U-shaped turn and look behind the billboard in its center."
+          },
+          {
+            "id": "scrap-31",
+            "index": 31,
+            "group": "Vinewood Hills to Chaparral",
+            "name": "Church graveyard",
+            "location": "@loc{Great Chaparral}, church yard west of the Grand Senora Desert",
+            "method": "Look on the ground near the graves."
+          },
+          {
+            "id": "scrap-32",
+            "index": 32,
+            "group": "Blaine County",
+            "name": "Cement factory roof",
+            "location": "@loc{Grand Senora Desert}, cement factory north of Harmony",
+            "method": "Climb onto the factory roof."
+          },
+          {
+            "id": "scrap-33",
+            "index": 33,
+            "group": "Blaine County",
+            "name": "Redwood Lights Track crane",
+            "location": "@loc{Redwood Lights Track}, construction site south of Franklin's Los Santos Customs",
+            "method": "Find the half-built round structure under the north crane and look in the hole at its center."
+          },
+          {
+            "id": "scrap-34",
+            "index": 34,
+            "group": "Blaine County",
+            "name": "McKenzie Field rock",
+            "location": "@loc{McKenzie Field}, near Sandy Shores",
+            "method": "Climb the tall layered rock about halfway down the southern runway."
+          },
+          {
+            "id": "scrap-35",
+            "index": 35,
+            "group": "Blaine County",
+            "name": "Motel pool",
+            "location": "@loc{Sandy Shores}, abandoned motel in the southwest",
+            "method": "Look in the empty swimming pool."
+          },
+          {
+            "id": "scrap-36",
+            "index": 36,
+            "group": "Blaine County",
+            "name": "Alamo Sea peninsula",
+            "location": "@loc{Alamo Sea}, northwest corner near Cassidy Creek",
+            "method": "Follow the coast north and east to a rounded peninsula. The scrap is on its west side by the water."
+          },
+          {
+            "id": "scrap-37",
+            "index": 37,
+            "group": "Blaine County",
+            "name": "Raton Canyon outcrop",
+            "location": "@loc{Raton Canyon}, above Cassidy Creek",
+            "method": "From the first off-road race marker go south to the first wide U-bend. Land a helicopter on the unclimbable rock inside the bend."
+          },
+          {
+            "id": "scrap-38",
+            "index": 38,
+            "group": "Blaine County",
+            "name": "Altruist Camp weather station",
+            "location": "@loc{Mount Chiliad} wilderness, east of the Sonar Collections Dock",
+            "method": "Get past the locked gate by jumping over it, or finish the Altruist shootout with Trevor. Hug the left wall and climb the stairs to the weather station."
+          },
+          {
+            "id": "scrap-39",
+            "index": 39,
+            "group": "Blaine County",
+            "name": "Paleto Forest trees",
+            "location": "@loc{Paleto Forest}, southwest of the cable car station",
+            "method": "Look on the ground among the trees where the looping road meets dirt tracks."
+          },
+          {
+            "id": "scrap-40",
+            "index": 40,
+            "group": "Blaine County",
+            "name": "Chiliad cable car summit",
+            "location": "@loc{Mount Chiliad}, top cable car station",
+            "method": "Ride the cable car up. The scrap lies on the ground right in front of you."
+          },
+          {
+            "id": "scrap-41",
+            "index": 41,
+            "group": "Blaine County",
+            "name": "Paleto Bay house deck",
+            "location": "@loc{Paleto Bay}, northwest road from The Hen House",
+            "method": "At the T-junction, check the raised deck of the house straight ahead."
+          },
+          {
+            "id": "scrap-42",
+            "index": 42,
+            "group": "Blaine County",
+            "name": "Abandoned house yard",
+            "location": "@loc{Paleto Bay}, northwest of Beeker's garage",
+            "method": "Look in the small open area behind the run-down house."
+          },
+          {
+            "id": "scrap-43",
+            "index": 43,
+            "group": "Blaine County",
+            "name": "Roadside restroom steps",
+            "location": "@loc{Paleto Bay}, circle road north of the coastal highway east of town",
+            "method": "Check the steps of the restrooms."
+          },
+          {
+            "id": "scrap-44",
+            "index": 44,
+            "group": "Blaine County",
+            "name": "Camping commune building",
+            "location": "@loc{Paleto Bay}, camping commune south of the coastal highway, just south of the restroom scrap",
+            "method": "Enter the building."
+          },
+          {
+            "id": "scrap-45",
+            "index": 45,
+            "group": "Blaine County",
+            "name": "Grapeseed greenhouse tent",
+            "location": "@loc{Grapeseed}, northwest side",
+            "method": "Look inside one of the greenhouse tents."
+          },
+          {
+            "id": "scrap-46",
+            "index": 46,
+            "group": "Blaine County",
+            "name": "Alamo Sea boat shop",
+            "location": "@loc{Alamo Sea}, middle of the north shore",
+            "method": "Check the ground by the boat shop near the long dock."
+          },
+          {
+            "id": "scrap-47",
+            "index": 47,
+            "group": "Islands and coast",
+            "name": "El Gordo Lighthouse",
+            "location": "@loc{El Gordo Lighthouse}, small island off the northeast coast",
+            "method": "Check the base of the lighthouse. A Jet Ski race marker may show here."
+          },
+          {
+            "id": "scrap-48",
+            "index": 48,
+            "group": "Islands and coast",
+            "name": "Davis Quartz cave",
+            "location": "@loc{Pacific Ocean}, inlet south of Davis Quartz",
+            "method": "Go by boat or swim into the cave and look on the rock shelf on the left."
+          },
+          {
+            "id": "scrap-49",
+            "index": 49,
+            "group": "Islands and coast",
+            "name": "Power station north island",
+            "location": "@loc{Pacific Ocean}, pair of large islands just offshore from the Palmer-Taylor Power Station",
+            "method": "Search the ground in the north part of the north island."
+          },
+          {
+            "id": "scrap-50",
+            "index": 50,
+            "group": "Islands and coast",
+            "name": "Palomino island beach",
+            "location": "@loc{Pacific Ocean}, largest island off the Palomino Highlands",
+            "method": "Check the beach on the island's east side."
           }
         ]
       }
@@ -803,20 +1571,248 @@
       "group": "collectibles",
       "summary": "Buy @loc{Sonar Collections Dock} for $250,000 and collect all 30 @item{Nuclear Waste} barrels.",
       "guide": {
-        "kind": "standard",
-        "context": "Purchasing the dock unlocks its submersible and the Trackify sonar, which points to the nearest barrel even though the world map does not.",
-        "steps": [
+        "kind": "collectible",
+        "context": "After @mechanic{The Merryweather Heist}, buy @loc{Sonar Collections Dock} for $250,000 on the western coast. This unlocks its yellow submersible and the @mechanic{Trackify} radar, which points to the nearest barrel. Depths are given in feet; the deepest barrels are past the safe limit, so grab them fast.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "After @mechanic{The Merryweather Heist}, purchase @loc{Sonar Collections Dock} on the western coast."
+            "id": "barrel-01",
+            "index": 1,
+            "group": "Off Fort Zancudo",
+            "name": "Deepest barrel",
+            "location": "@loc{Pacific Ocean}, 469 feet down",
+            "method": "Grab it quickly because the depth is past the safe limit."
           },
           {
-            "id": "s2",
-            "text": "Enter the yellow submersible at the dock and follow the @mechanic{Trackify} radar toward each barrel."
+            "id": "barrel-02",
+            "index": 2,
+            "group": "Off Fort Zancudo",
+            "name": "Trench ledge",
+            "location": "@loc{Pacific Ocean}, 338 feet down, just south of the deepest barrel",
+            "method": "Take it from the rocky ledge inside the trench."
           },
           {
-            "id": "s3",
-            "text": "Collect all 30 underwater @item{Nuclear Waste} barrels."
+            "id": "barrel-03",
+            "index": 3,
+            "group": "Off Fort Zancudo",
+            "name": "Runway end",
+            "location": "@loc{Fort Zancudo}, seabed straight out from the runway end, 161 feet down",
+            "method": "Find it among rocks and seaweed."
+          },
+          {
+            "id": "barrel-04",
+            "index": 4,
+            "group": "Off Fort Zancudo",
+            "name": "West of base",
+            "location": "@loc{Fort Zancudo}, seabed directly west, 154 feet down",
+            "method": "Follow the Trackify radar."
+          },
+          {
+            "id": "barrel-05",
+            "index": 5,
+            "group": "Off Fort Zancudo",
+            "name": "Southern inlet",
+            "location": "@loc{Fort Zancudo}, inlet below the little headlands south of the base, 69 feet down",
+            "method": "Check the seabed of the inlet."
+          },
+          {
+            "id": "barrel-06",
+            "index": 6,
+            "group": "Los Santos coast",
+            "name": "Tongva Hills coast",
+            "location": "@loc{Pacific Ocean}, west of northern Tongva Hills, 84 feet down",
+            "method": "Follow the Trackify radar."
+          },
+          {
+            "id": "barrel-07",
+            "index": 7,
+            "group": "Los Santos coast",
+            "name": "Chumash pier",
+            "location": "@loc{Chumash}, south of the large pier, 26 feet down",
+            "method": "Look just south of the pier."
+          },
+          {
+            "id": "barrel-08",
+            "index": 8,
+            "group": "Los Santos coast",
+            "name": "Pacific Bluffs resort",
+            "location": "@loc{Pacific Bluffs}, southwest of the resort on the Great Ocean Highway, 49 feet down",
+            "method": "Find it on the ocean floor."
+          },
+          {
+            "id": "barrel-09",
+            "index": 9,
+            "group": "Los Santos coast",
+            "name": "Pacific Bluffs rocks",
+            "location": "@loc{Pacific Bluffs}, southeast of the resort barrel, 75 feet down",
+            "method": "Take it from between the rock structures."
+          },
+          {
+            "id": "barrel-10",
+            "index": 10,
+            "group": "Los Santos coast",
+            "name": "Ferris wheel offshore",
+            "location": "@loc{Del Perro}, east of the Ferris wheel marker by the pier, about 200 feet down",
+            "method": "Look between the rocky structures."
+          },
+          {
+            "id": "barrel-11",
+            "index": 11,
+            "group": "Los Santos coast",
+            "name": "Pier northwest",
+            "location": "@loc{Del Perro Pier}, northwest of the pier end, 85 feet down",
+            "method": "Check the seabed."
+          },
+          {
+            "id": "barrel-12",
+            "index": 12,
+            "group": "Los Santos coast",
+            "name": "Pier poles",
+            "location": "@loc{Del Perro Pier}, south near the pier end, 49 feet down",
+            "method": "Look between the wooden poles on the sea floor."
+          },
+          {
+            "id": "barrel-13",
+            "index": 13,
+            "group": "Southeast sea",
+            "name": "Plane wreck ledge",
+            "location": "@loc{Port of Los Santos}, east of the port and south of Palomino Highlands, 141 feet down",
+            "method": "Look on the rock ledge near the airplane wreckage."
+          },
+          {
+            "id": "barrel-14",
+            "index": 14,
+            "group": "Southeast sea",
+            "name": "Beside the wreck",
+            "location": "@loc{Port of Los Santos}, east of the port and south of Palomino Highlands, 144 feet down, northeast of the plane wreck barrel",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-15",
+            "index": 15,
+            "group": "Southeast sea",
+            "name": "Deep south barrel",
+            "location": "@loc{Palomino Highlands}, south, 369 feet down, northeast of the two barrels near the wreck",
+            "method": "Collect it from the ocean floor."
+          },
+          {
+            "id": "barrel-16",
+            "index": 16,
+            "group": "Southeast sea",
+            "name": "Far east barrel",
+            "location": "@loc{Palomino Highlands}, east of the southern part of the large island, 460 feet down",
+            "method": "Grab it quickly because the depth is past the safe limit."
+          },
+          {
+            "id": "barrel-17",
+            "index": 17,
+            "group": "Southeast sea",
+            "name": "Island cove",
+            "location": "@loc{Palomino Highlands}, east, cove sheltered by the north tip of the big island, 55 feet down",
+            "method": "Check the cove floor."
+          },
+          {
+            "id": "barrel-18",
+            "index": 18,
+            "group": "Humane Labs and Mount Gordo",
+            "name": "Humane Labs approach",
+            "location": "@loc{San Chianski Mountains}, east of the cove entrance by Humane Labs, 110 feet down",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-19",
+            "index": 19,
+            "group": "Humane Labs and Mount Gordo",
+            "name": "Humane Labs cove",
+            "location": "@loc{San Chianski Mountains}, inside the cove by Humane Labs, 65 feet down",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-20",
+            "index": 20,
+            "group": "Humane Labs and Mount Gordo",
+            "name": "Cove rock",
+            "location": "@loc{San Chianski Mountains}, inside the same cove nearer the beach, 42 feet down",
+            "method": "Look on the small rock on the sea floor."
+          },
+          {
+            "id": "barrel-21",
+            "index": 21,
+            "group": "Humane Labs and Mount Gordo",
+            "name": "Mount Gordo east",
+            "location": "@loc{Mount Gordo}, northeast coast, 100 feet down, just east of the next barrel",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-22",
+            "index": 22,
+            "group": "Humane Labs and Mount Gordo",
+            "name": "Mount Gordo west",
+            "location": "@loc{Mount Gordo}, northeast coast, 65 feet down, just west of the previous barrel",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-23",
+            "index": 23,
+            "group": "Northwest coast",
+            "name": "Trench platform east",
+            "location": "@loc{Mount Gordo}, north coast, 460 feet down, just east of the next barrel",
+            "method": "Take it from the rocky platform in the trench. Grab it quickly because the depth is past the safe limit."
+          },
+          {
+            "id": "barrel-24",
+            "index": 24,
+            "group": "Northwest coast",
+            "name": "Trench floor",
+            "location": "@loc{Mount Gordo}, north coast, 500 feet down, just west of the previous barrel",
+            "method": "Take it from the trench floor. Grab it quickly because the depth is past the safe limit."
+          },
+          {
+            "id": "barrel-25",
+            "index": 25,
+            "group": "Northwest coast",
+            "name": "Drop-off rock",
+            "location": "@loc{Pacific Ocean}, offshore northwest of Mount Gordo, beyond the Great Ocean Highway, 445 feet down",
+            "method": "Look on the rocky structure just before the large drop-off."
+          },
+          {
+            "id": "barrel-26",
+            "index": 26,
+            "group": "Northwest coast",
+            "name": "Rock archway",
+            "location": "@loc{Pacific Ocean}, north of the small beach loop road west of Paleto Bay, 115 feet down",
+            "method": "Check beneath the large rock archway."
+          },
+          {
+            "id": "barrel-27",
+            "index": 27,
+            "group": "Northwest coast",
+            "name": "Deep trench",
+            "location": "@loc{Pacific Ocean}, northwest of the same beach loop road, 430 feet down",
+            "method": "Take it from the deep trench. Grab it quickly because the depth is past the safe limit."
+          },
+          {
+            "id": "barrel-28",
+            "index": 28,
+            "group": "Northwest coast",
+            "name": "Off Paleto Bay",
+            "location": "@loc{Paleto Bay}, straight off the shore, 85 feet down",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-29",
+            "index": 29,
+            "group": "Northwest coast",
+            "name": "Paleto peninsula",
+            "location": "@loc{Paleto Bay}, just off the southwest headland of town, 105 feet down",
+            "method": "Take it from the sea floor."
+          },
+          {
+            "id": "barrel-30",
+            "index": 30,
+            "group": "Northwest coast",
+            "name": "Dock north coast",
+            "location": "@loc{Sonar Collections Dock}, north along the coast, west of the Chiliad cable car marker, 90 feet down",
+            "method": "Take it from the sea floor."
           }
         ]
       }
@@ -2767,18 +3763,226 @@
         "ACHR4"
       ],
       "group": "director",
-      "summary": "Visit all 22 selectable @mechanic{Locations} in Director Mode.",
+      "summary": "Load into all 27 starting locations in Director Mode, not counting the two User Locations.",
       "guide": {
-        "kind": "standard",
-        "context": "Visited destinations show a green check beside their yellow location dot, making the short teleport sweep self-tracking.",
-        "steps": [
+        "kind": "collectible",
+        "context": "Enter Director Mode as any actor, open the @mechanic{Interaction Menu}, and choose @mechanic{Location}. Each of the 27 starting points must be loaded into once. The two User Locations do not count.",
+        "collectibles": [
           {
-            "id": "s1",
-            "text": "Enter Director Mode as any actor and press @mechanic{M} to open the Interaction Menu."
+            "id": "loc-01",
+            "index": 1,
+            "group": "Locations 1-14",
+            "name": "LS International Airport",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose LS International Airport and load in."
           },
           {
-            "id": "s2",
-            "text": "Choose @mechanic{Location} and teleport to each of the 22 entries, confirming a green check appears before moving to the next."
+            "id": "loc-02",
+            "index": 2,
+            "group": "Locations 1-14",
+            "name": "Docks",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Docks and load in."
+          },
+          {
+            "id": "loc-03",
+            "index": 3,
+            "group": "Locations 1-14",
+            "name": "LS Downtown",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose LS Downtown and load in."
+          },
+          {
+            "id": "loc-04",
+            "index": 4,
+            "group": "Locations 1-14",
+            "name": "Del Perro Pier",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Del Perro Pier and load in."
+          },
+          {
+            "id": "loc-05",
+            "index": 5,
+            "group": "Locations 1-14",
+            "name": "Vinewood Hills",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Vinewood Hills and load in."
+          },
+          {
+            "id": "loc-06",
+            "index": 6,
+            "group": "Locations 1-14",
+            "name": "Wind Farms",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Wind Farms and load in."
+          },
+          {
+            "id": "loc-07",
+            "index": 7,
+            "group": "Locations 1-14",
+            "name": "Sandy Shores",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Sandy Shores and load in."
+          },
+          {
+            "id": "loc-08",
+            "index": 8,
+            "group": "Locations 1-14",
+            "name": "Stab City",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Stab City and load in."
+          },
+          {
+            "id": "loc-09",
+            "index": 9,
+            "group": "Locations 1-14",
+            "name": "Fort Zancudo",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Fort Zancudo and load in."
+          },
+          {
+            "id": "loc-10",
+            "index": 10,
+            "group": "Locations 1-14",
+            "name": "Canyon",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Canyon and load in."
+          },
+          {
+            "id": "loc-11",
+            "index": 11,
+            "group": "Locations 1-14",
+            "name": "Cable Car",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Cable Car and load in."
+          },
+          {
+            "id": "loc-12",
+            "index": 12,
+            "group": "Locations 1-14",
+            "name": "Paleto Bay",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Paleto Bay and load in."
+          },
+          {
+            "id": "loc-13",
+            "index": 13,
+            "group": "Locations 1-14",
+            "name": "The Lighthouse",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose The Lighthouse and load in."
+          },
+          {
+            "id": "loc-14",
+            "index": 14,
+            "group": "Locations 1-14",
+            "name": "Vineyard",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Vineyard and load in."
+          },
+          {
+            "id": "loc-15",
+            "index": 15,
+            "group": "Locations 15-27",
+            "name": "Richards Majestic Studio",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Richards Majestic Studio and load in."
+          },
+          {
+            "id": "loc-16",
+            "index": 16,
+            "group": "Locations 15-27",
+            "name": "Golf Club",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Golf Club and load in."
+          },
+          {
+            "id": "loc-17",
+            "index": 17,
+            "group": "Locations 15-27",
+            "name": "Altruist Camp",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Altruist Camp and load in."
+          },
+          {
+            "id": "loc-18",
+            "index": 18,
+            "group": "Locations 15-27",
+            "name": "Power Station",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Power Station and load in."
+          },
+          {
+            "id": "loc-19",
+            "index": 19,
+            "group": "Locations 15-27",
+            "name": "Saw Mill",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Saw Mill and load in."
+          },
+          {
+            "id": "loc-20",
+            "index": 20,
+            "group": "Locations 15-27",
+            "name": "Quarry Pit",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Quarry Pit and load in."
+          },
+          {
+            "id": "loc-21",
+            "index": 21,
+            "group": "Locations 15-27",
+            "name": "Dam",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Dam and load in."
+          },
+          {
+            "id": "loc-22",
+            "index": 22,
+            "group": "Locations 15-27",
+            "name": "Storm Drain",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Storm Drain and load in."
+          },
+          {
+            "id": "loc-23",
+            "index": 23,
+            "group": "Locations 15-27",
+            "name": "Observatory",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Observatory and load in."
+          },
+          {
+            "id": "loc-24",
+            "index": 24,
+            "group": "Locations 15-27",
+            "name": "Radio Telescope Array",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Radio Telescope Array and load in."
+          },
+          {
+            "id": "loc-25",
+            "index": 25,
+            "group": "Locations 15-27",
+            "name": "LSU",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose LSU and load in."
+          },
+          {
+            "id": "loc-26",
+            "index": 26,
+            "group": "Locations 15-27",
+            "name": "Cove",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Cove and load in."
+          },
+          {
+            "id": "loc-27",
+            "index": 27,
+            "group": "Locations 15-27",
+            "name": "Mt. Gordo",
+            "location": "@mechanic{Interaction Menu > Location}",
+            "method": "Choose Mt. Gordo and load in."
           }
         ]
       }

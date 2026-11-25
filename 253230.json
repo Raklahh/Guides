@@ -1,0 +1,2702 @@
+{
+  "game": {
+    "appid": 253230,
+    "slug": "a-hat-in-time",
+    "title": "A Hat in Time",
+    "version": "1.0",
+    "lastPatchChecked": "2026-09-28",
+    "estTotalHours": 60,
+    "difficultyRating": 7,
+    "minPlaythroughs": 1,
+    "dlc": [
+      {
+        "appid": 787340,
+        "title": "Seal the Deal"
+      },
+      {
+        "appid": 940220,
+        "title": "Nyakuza Metro + Online Party"
+      }
+    ],
+    "createdAt": "2026-11-25"
+  },
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Ship and Mafia Town basics",
+      "description": "On the ship, sit in three seats, ride the vacuum and buy your first badge. Do Welcome to Mafia Town away from the main path, then kick the sitting Mafia and slide down the beach slope.",
+      "achievementRefs": [
+        "HAT_ACHIEVEMENT_SITCHAIRS",
+        "HAT_ACHIEVEMENT_RIDE_VACUUM",
+        "HAT_ACHIEVEMENT_FIRSTPIN",
+        "HAT_ACHIEVEMENT_SEQBREAK",
+        "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK",
+        "HAT_ACHIEVEMENT_SLIDE_LONGTIME",
+        "HAT_ACHIEVEMENT_MAFIA_KNOCKOFF_ALL"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Battle of the Birds and Subcon Forest",
+      "description": "Pick up the badge pins and scooter, then finish the stealth, clue and parade challenges. Get the Hookshot in the Subcon Well and do the well, mushroom and hideout challenges.",
+      "achievementRefs": [
+        "HAT_ACHIEVEMENT_SCOOTER_360",
+        "HAT_ACHIEVEMENT_3_BADGES",
+        "HAT_ACHIEVEMENT_SWEARWORD",
+        "HAT_ACHIEVEMENT_DEADBIRD_NOSPOT",
+        "HAT_ACHIEVEMENT_MURDER_NOCLUES",
+        "HAT_ACHIEVEMENT_MURDER_ALLCLUES",
+        "HAT_ACHIEVEMENT_PARADE_NOTOUCH",
+        "HAT_ACHIEVEMENT_BIRDS_HIGHSCORE",
+        "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM",
+        "HAT_ACHIEVEMENT_SUBCON_MUSHROOM",
+        "HAT_ACHIEVEMENT_MAILROOM_FAN",
+        "HAT_ACHIEVEMENT_SPACESHIP_HIDEOUT",
+        "HAT_ACHIEVEMENT_1HITKILL"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Alpine Skyline and chapter clears",
+      "description": "Do the Lava Cake and spider chain in Alpine Skyline, craft the Time Stop Hat, then clear Train Rush and finish every Time Piece in the four chapters.",
+      "achievementRefs": [
+        "HAT_ACHIEVEMENT_LAVACAKE_NOTOUCH",
+        "HAT_ACHIEVEMENT_HOMING_CHAIN_5",
+        "HAT_ACHIEVEMENT_TRAINWRECK_TIME",
+        "HAT_ACHIEVEMENT_MAFIATOWN_CLEAR",
+        "HAT_ACHIEVEMENT_BIRDS_CLEAR",
+        "HAT_ACHIEVEMENT_SUBCON_CLEAR",
+        "HAT_ACHIEVEMENT_ALPINE_CLEAR",
+        "HAT_ACHIEVEMENT_ALL_TIMEPIECES"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Seal the Deal and Nyakuza Metro DLC",
+      "description": "With Seal the Deal, clear the Arctic Cruise, Death Wish contracts and stamps. With Nyakuza Metro, collect the stickers, food combos and Time Pieces.",
+      "achievementRefs": [
+        "HAT_ACHIEVEMENT_CRUISE_FASTDELIVERY",
+        "HAT_ACHIEVEMENT_CRUISE_CLEAR",
+        "HAT_ACHIEVEMENT_DW_CLEAR_3_OBJ",
+        "HAT_ACHIEVEMENT_DW_70",
+        "HAT_ACHIEVEMENT_DW_CLEAR",
+        "HAT_ACHIEVEMENT_MANY_STICKERS",
+        "HAT_ACHIEVEMENT_10_STICKERS_CAMERA",
+        "HAT_ACHIEVEMENT_RARE_STICKER",
+        "HAT_ACHIEVEMENT_FOODCOMBO",
+        "HAT_ACHIEVEMENT_METRO_CLEAR"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Co-op, Workshop and Online Party",
+      "description": "Enable co-op on three new Time Pieces, play and rate Workshop levels, then finish the Online Party tasks.",
+      "achievementRefs": [
+        "HAT_ACHIEVEMENT_COOP_TP",
+        "HAT_ACHIEVEMENT_PLAYMOD",
+        "HAT_ACHIEVEMENT_RATEMOD",
+        "HAT_ACHIEVEMENT_MANY_MOD_TIMEPIECES",
+        "HAT_ACHIEVEMENT_CHALLENGEROAD",
+        "HAT_ACHIEVEMENT_GP_CLEAR_CROWN",
+        "HAT_ACHIEVEMENT_GP_BIGPARTY",
+        "HAT_ACHIEVEMENT_GP_COLLECT_TP"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "apiName": "HAT_ACHIEVEMENT_FIRSTPIN",
+      "displayName": "Put a Badge On It",
+      "description": "Put on your first badge!",
+      "hidden": false,
+      "globalPercent": 76.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Equip your first badge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy any badge from the @npc{Badge Seller}, such as the 50-Pon @item{Item Magnet Badge}, and equip it on your hat."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SEQBREAK",
+      "displayName": "Sequence Break",
+      "description": "No hand-holding for you, apparently!",
+      "hidden": false,
+      "globalPercent": 12.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Clear the first Mafia Town act while @npc{Mustache Girl} never spots you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Another route is to jump on the barrel to your right and double jump around the edge of the tarp.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Start @loc{Welcome to Mafia Town} and stay in the starting alley. Do not take the main path or press the crane button."
+          },
+          {
+            "id": "s2",
+            "text": "Go to the back wall, double jump and wall run to grab the railing, then climb over it toward the fountain."
+          },
+          {
+            "id": "s3",
+            "text": "Walk to the Time Piece in the main plaza. If @npc{Mustache Girl} appears, restart the act."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_TRAINWRECK_TIME",
+      "displayName": "No Time To Explain",
+      "description": "Complete Train Rush without dying or time bonuses!",
+      "hidden": false,
+      "globalPercent": 7.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_PARADE_NOTOUCH",
+        "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM"
+      ],
+      "summary": "Finish Train Rush without dying or picking up a time bonus.",
+      "guide": {
+        "kind": "standard",
+        "context": "Train Rush needs the @item{Hookshot Badge} from @loc{Subcon Forest}.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Craft the @item{Time Stop Hat} from yarn found in @loc{Alpine Skyline}, and equip the @item{Fast Hatter Badge}."
+          },
+          {
+            "id": "s2",
+            "text": "Replay @loc{Train Rush} (Chapter 2, Act 4) and avoid every time bonus."
+          },
+          {
+            "id": "s3",
+            "text": "Skip the bonus inside the flaming hoop: double jump and dive to the platform behind it instead of using the @item{Hookshot Badge}."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MAILROOM_FAN",
+      "displayName": "Fan-tastic!",
+      "description": "Hook onto a ceiling fan with the hookshot!",
+      "hidden": false,
+      "globalPercent": 22.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM"
+      ],
+      "summary": "Hook onto the ceiling fan in the ship's mail room with the Hookshot Badge.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Pick up the @item{Hookshot Badge} at the base of the well in @loc{Subcon Forest} (act two), and craft the @item{Ice Hat}."
+          },
+          {
+            "id": "s2",
+            "text": "In the ship's main room, use the Ice Hat ability on the slide near the Chapter 2 door to reach the mail room."
+          },
+          {
+            "id": "s3",
+            "text": "Equip the Hookshot Badge and hook onto the ceiling fan."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_1HITKILL",
+      "displayName": "One Punch",
+      "description": "Defeat any boss with the 1-hit hero badge equipped!",
+      "hidden": false,
+      "globalPercent": 7.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 7,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK"
+      ],
+      "summary": "Beat a boss other than @enemy{Snatcher} while wearing the @item{1-Hit Hero Badge}.",
+      "guide": {
+        "kind": "standard",
+        "context": "@enemy{Snatcher} takes your hat, which turns the badge off, so that fight does not count.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Equip the @item{1-Hit Hero Badge} and fight the @enemy{Mafia Boss} or the @enemy{Toilet of Doom}, which are the easiest picks."
+          },
+          {
+            "id": "s2",
+            "text": "Stay far from the @enemy{Mafia Boss} during his spin, and watch for his shock waves and bouncing sparks. Any hit ends the try."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SITCHAIRS",
+      "displayName": "If I fit, I sit",
+      "description": "Sit in 3 different chairs!",
+      "hidden": false,
+      "globalPercent": 81.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "5 min",
+      "estMinutes": 5,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Sit in 3 different seats.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "On the ship, sit in the bedroom chair, on the pillow in front of the TV, and in the Captain's chair in the main room."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SCOOTER_360",
+      "displayName": "360 no-feet",
+      "description": "Do a 360 flip on the scooter!",
+      "hidden": false,
+      "globalPercent": 21.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_FIRSTPIN"
+      ],
+      "summary": "Spin the scooter 360 degrees in the air and land.",
+      "guide": {
+        "kind": "standard",
+        "context": "A true flip is not possible; a full spin counts.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Purchase the @item{Scooter Badge} for 500 Pons at the @npc{Badge Seller}, then wear it together with the @item{Sprint Hat}."
+          },
+          {
+            "id": "s2",
+            "text": "Ride off a tall ledge, for example @loc{Mafia HQ} in @loc{Mafia Town}. Hold left or right in the air to turn once all the way around, then land."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MAFIATOWN_CLEAR",
+      "displayName": "Mafia Town - All clear!",
+      "description": "Collect all Time Pieces in Mafia Town!",
+      "hidden": false,
+      "globalPercent": 27.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Collect every Time Piece in Mafia Town.",
+      "guide": {
+        "kind": "collectible",
+        "context": "",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Welcome to Mafia Town",
+            "location": "Act 1",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Barrel Battle",
+            "location": "Act 2",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "She Came from Outer Space",
+            "location": "Act 3",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Down with the Mafia!",
+            "location": "Act 4",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Cheating the Race",
+            "location": "Act 5",
+            "method": "Finish the race. The @item{Time Stop Hat} from Alpine Skyline yarn is the intended tool, so leave this for late.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "Heating Up Mafia Town",
+            "location": "Act 6",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "name": "The Golden Vault",
+            "location": "Act 7",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "name": "Sewers rift",
+            "location": "Start of the level, off the right side of the blue bridge, inside a drainage pipe on the brick wall (stay left of the water)",
+            "method": "Enter the rift and collect its Time Piece. It appears after Down with the Mafia!.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "name": "Bazaar rift",
+            "location": "Far corner of the Mafia Bazaar, in the cave",
+            "method": "Enter the rift and collect its Time Piece. It appears after Heating Up Mafia Town.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "name": "Mafia of Cooks rift",
+            "location": "Beach area, beside the red teapot launcher",
+            "method": "Enter the rift and collect its Time Piece. It appears after you clear the Hamburger relic.",
+            "missable": false,
+            "group": "Time Rifts"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SUBCON_CLEAR",
+      "displayName": "Subcon Forest - All clear!",
+      "description": "Collect all Time Pieces in Subcon Forest!",
+      "hidden": false,
+      "globalPercent": 25.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "2.5 hr",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "unverified",
+      "prerequisites": [],
+      "summary": "Collect every Time Piece in Subcon Forest.",
+      "guide": {
+        "kind": "collectible",
+        "context": "New acts open when you sign Snatcher's contracts.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Contractual Obligations",
+            "location": "Act 1",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "The Subcon Well",
+            "location": "Act 2",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "Toilet of Doom",
+            "location": "Act 3",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Queen Vanessa's Manor",
+            "location": "Act 4",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Mail Delivery Service",
+            "location": "Act 5",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "Your Contract has Expired",
+            "location": "Act 6",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "name": "Pipe rift",
+            "location": "Sewer pool by the Burning Forest, on the left side of Snatcher's stop and the Manor bridge",
+            "method": "Enter the rift and collect its Time Piece. It appears after the first contract.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "name": "Village rift",
+            "location": "Abandoned village on the forest outskirts",
+            "method": "Enter the rift and collect its Time Piece.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "name": "Sleepy Subcon rift",
+            "location": "Frozen pillar in the Subcon Ruins",
+            "method": "Enter the rift and take its Time Piece. It shows up after you finish that relic (Mockery of Off-Planet Life).",
+            "missable": false,
+            "group": "Time Rifts"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_BIRDS_CLEAR",
+      "displayName": "Battle of the Birds - All clear!",
+      "description": "Collect all Time Pieces in Battle of the Birds!",
+      "hidden": false,
+      "globalPercent": 31.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM"
+      ],
+      "summary": "Collect every Time Piece in Battle of the Birds.",
+      "guide": {
+        "kind": "collectible",
+        "context": "",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Dead Bird Studio",
+            "location": "Act 1",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Murder on the Owl Express",
+            "location": "Act 2",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "Picture Perfect",
+            "location": "Act 3",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Train Rush",
+            "location": "Act 4",
+            "method": "Finish the act. It needs the @item{Hookshot Badge} from Subcon Forest.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "The Big Parade",
+            "location": "Act 5",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "Award Ceremony",
+            "location": "Act 6",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "name": "The Owl Express rift",
+            "location": "Dining cart, by the locked door",
+            "method": "Enter the rift and take its Time Piece. It shows up after you finish the train murder act and the Picture Perfect act.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "name": "The Moon rift",
+            "location": "Bottom green awning in front of the saxophone sign",
+            "method": "Enter the rift and collect its Time Piece. It appears after Train Rush and The Big Parade.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "name": "Dead Bird Studio rift",
+            "location": "On the house after the first sneak past the Conductor, near the Ice Yarn",
+            "method": "Enter the rift and collect its Time Piece. It appears after you clear the Train relic.",
+            "missable": false,
+            "group": "Time Rifts"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_ALPINE_CLEAR",
+      "displayName": "Alpine Skyline - All clear!",
+      "description": "Collect all Time Pieces in Alpine Skyline!",
+      "hidden": false,
+      "globalPercent": 22.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "2.5 hr",
+      "estMinutes": 150,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Collect every Time Piece in Alpine Skyline.",
+      "guide": {
+        "kind": "collectible",
+        "context": "",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "The Birdhouse",
+            "location": "Peak, free roam",
+            "method": "Climb to the peak and collect the Time Piece.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "The Lava Cake",
+            "location": "Peak, free roam",
+            "method": "Climb to the peak and collect the Time Piece.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "The Windmill",
+            "location": "Peak, free roam",
+            "method": "Climb to the peak and collect the Time Piece.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "The Twilight Bell",
+            "location": "Peak, free roam",
+            "method": "Climb to the peak and collect the Time Piece.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "The Illness has Spread",
+            "location": "All four peaks",
+            "method": "After the four peak Time Pieces, return to each peak and beat its boss, then take the reward Time Piece.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "Alpine Skyline rift",
+            "location": "Right where you spawn, past the hay barrels at the end of the wood platform",
+            "method": "Enter the rift and collect its Time Piece. Open from the start of free roam.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "name": "Curly Tail Peak rift",
+            "location": "Roofs of the houses past the Curly Tail Horn Trail rope, reached by Windy Passage, the windmill and the Ice Hat platform",
+            "method": "Enter the rift and collect its Time Piece. Open from the start of free roam.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "name": "Twilight Bell rift",
+            "location": "On the tree to the right at the start of the Twilight Bell act",
+            "method": "Enter the rift and collect its Time Piece. It appears after you clear the Ancient Graffiti Kit relic.",
+            "missable": false,
+            "group": "Time Rifts"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_DEADBIRD_NOSPOT",
+      "displayName": "Secret Intruder",
+      "description": "Make it through Dead Bird Studio without being seen at all!",
+      "hidden": false,
+      "globalPercent": 6.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Finish Dead Bird Studio without any enemy seeing you.",
+      "guide": {
+        "kind": "standard",
+        "context": "Wearing the @item{Time Stop Hat} and the @item{Fast Hatter Badge} together slows the guards, so you have longer to react.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Replay the first act of Chapter 2, @loc{Dead Bird Studio}. Study how each owl and penguin patrols before you move."
+          },
+          {
+            "id": "s2",
+            "text": "Use the @item{Ice Hat} to stay unseen, and use the @item{Camera Badge} to look ahead. On the automated train near the end, the Ice Hat lets you ride past unseen."
+          },
+          {
+            "id": "s3",
+            "text": "Reach the bottom of the red carpet without being seen at all. Even a brief sighting ends the try, so restart the act if that happens."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MURDER_ALLCLUES",
+      "displayName": "True Detective",
+      "description": "Find all Murder on the Owl Express clues!",
+      "hidden": false,
+      "globalPercent": 39.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "40 min",
+      "estMinutes": 40,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MURDER_NOCLUES"
+      ],
+      "summary": "Collect all 6 clues in Murder on the Owl Express.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Take the Rec Room, Luggage Room and VIP Room clues before moving on to the heavily guarded rooms. If you fail to rescue your pet's pet, replay the act.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Rec Room clue",
+            "location": "@loc{Rec Room}, on the floor",
+            "method": "Walk up and pick it up.",
+            "missable": false
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Luggage Room clue",
+            "location": "@loc{Luggage Room}, back corner patrolled by a pair of @enemy{C.A.W. agents}",
+            "method": "Wall jump until an agent walks past, or jump to the ledge on the right path, then grab it.",
+            "missable": false
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "VIP Room clue",
+            "location": "@loc{VIP Room}, on a table circled by one @enemy{C.A.W. agent}",
+            "method": "Time your run past the agent and take it.",
+            "missable": false
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Engine Room clue",
+            "location": "@loc{Engine Room}",
+            "method": "Climb up to the switch and rescue your pet's pet, who then gives you the clue.",
+            "missable": false
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Lounge clue",
+            "location": "@loc{Lounge}, on a cart (two right turns in), with two agents patrolling",
+            "method": "Avoid the agents and take it.",
+            "missable": false
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "KEEP OUT room clue",
+            "location": "Room painted \"KEEP OUT\" above the room full of crows watching the monitor",
+            "method": "Press the switch you reach after leaving the Lounge to open the door. Grab this clue last, since exiting that room ends the act.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MURDER_NOCLUES",
+      "displayName": "False Detective",
+      "description": "Make it through Murder on the Owl Express without finding any clues (you suck)!",
+      "hidden": false,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Clear Murder on the Owl Express while picking up zero clues.",
+      "guide": {
+        "kind": "standard",
+        "context": "Skipped clues cost 600 points toward Fueling the Feud, so do this run first and replay for the clues later.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Run the second act of Chapter 2 normally (@loc{Murder on the Owl Express}), walking through the rooms but leaving every clue where it is."
+          },
+          {
+            "id": "s2",
+            "text": "At the end, pick the @npc{Conductor} as the culprit."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_RIDE_VACUUM",
+      "displayName": "Vacuum Vandal",
+      "description": "Ride the vacuum!",
+      "hidden": false,
+      "globalPercent": 53.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Ride the vacuum on the ship.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Hit the vacuum @npc{Rumbi} in the ship's main room to stun it, or pin it against a wall, then jump on top and stay on for a few seconds."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM",
+      "displayName": "Afraid of Water",
+      "description": "Don't fall into the rising water in Subcon Well!",
+      "hidden": false,
+      "globalPercent": 23.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Climb out of Subcon Well without touching the rising water.",
+      "guide": {
+        "kind": "standard",
+        "context": "The small puddle at the start is safe to touch before the water begins rising.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In the well act of @loc{Subcon Forest}, pull the lever, then dive straight into the pipe so the water cannot catch you."
+          },
+          {
+            "id": "s2",
+            "text": "Climb to the top without touching the water. The water stops rising while you wait. If you fall in, restart the act."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SLIDE_LONGTIME",
+      "displayName": "Slip 'n Slide",
+      "description": "Slide down a really long slope!",
+      "hidden": false,
+      "globalPercent": 49.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK"
+      ],
+      "summary": "Slide more than 20 metres along the ground in one go.",
+      "guide": {
+        "kind": "standard",
+        "context": "Only horizontal distance counts, so a steep drop does not help.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Mafia Town}, enter the big yellow slide near the beach and avoid the sign at its end."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_LAVACAKE_NOTOUCH",
+      "displayName": "The Floor is Lava",
+      "description": "Complete the Lava Cake peak without touching the lava at all!",
+      "hidden": false,
+      "globalPercent": 10.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Reach the top of the Lava Cake without touching lava.",
+      "guide": {
+        "kind": "standard",
+        "context": "Fire damage from other sources is allowed.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Climb the pillars of @loc{The Lava Cake} in @loc{Alpine Skyline} and take the Time Piece at the top without touching the lava."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_PARADE_NOTOUCH",
+      "displayName": "Encore!",
+      "description": "Complete The Big Parade without falling into the audience below!",
+      "hidden": false,
+      "globalPercent": 9.4,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Finish The Big Parade without falling onto the penguin crowd.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Replay the fifth act of Chapter 2 (@loc{The Big Parade}). Hop across the roofs and stay out of the crowd on the ground."
+          },
+          {
+            "id": "s2",
+            "text": "If hazards threaten, take their damage rather than risk falling."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SUBCON_MUSHROOM",
+      "displayName": "Take a Hike",
+      "description": "Climb to the top of Subcon Forest's big mushroom!",
+      "hidden": false,
+      "globalPercent": 33.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Climb to the big mushroom at the top of the tree in Subcon Forest.",
+      "guide": {
+        "kind": "standard",
+        "context": "Equip the Umbrella Badge to soften falls. A fall to the bottom lands in water and does no damage.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Subcon Forest} Act 1, turn around at the start and climb the tree to the giant blue mushroom."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SPACESHIP_HIDEOUT",
+      "displayName": "Pillow Fort",
+      "description": "Find Your Secret Hideout!",
+      "hidden": false,
+      "globalPercent": 37.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_DEADBIRD_NOSPOT"
+      ],
+      "summary": "Enter Hat Kid's secret hideout on the ship.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect @item{Ice Yarn}, for example in the @loc{Dead Bird Studio} act, and craft the @item{Ice Hat}."
+          },
+          {
+            "id": "s2",
+            "text": "Open the bedroom, which needs 7 Time Pieces."
+          },
+          {
+            "id": "s3",
+            "text": "In the bedroom, use the Ice Hat ability on the pillar of light above the pillow pile."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_3_BADGES",
+      "displayName": "Badge Master",
+      "description": "Equip 3 badges!",
+      "hidden": false,
+      "globalPercent": 45.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_FIRSTPIN"
+      ],
+      "summary": "Equip 3 badges at once.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Buy both Badge Pins from the @npc{Badge Seller}. If no pin is offered yet, keep buying badges until one appears."
+          },
+          {
+            "id": "s2",
+            "text": "Equip three badges."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MAFIA_KNOCKOFF_ALL",
+      "displayName": "A Series of Unfortunate Accidents",
+      "description": "Knock off all the sitting Mafia in Mafia Town!",
+      "hidden": false,
+      "globalPercent": 8.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK"
+      ],
+      "summary": "Kick all 5 sitting Mafia off their perches in Mafia Town in one run.",
+      "guide": {
+        "kind": "collectible",
+        "context": "All five are reachable without badges or hats. They return when the act ends, so get all five before finishing the act. Act 7 is a good one to use.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Factory roof Mafia",
+            "location": "Blue-roofed building by the red vault and the factory",
+            "method": "Kick it off.",
+            "missable": false
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Broken house Mafia",
+            "location": "Balcony of the damaged house behind where you land",
+            "method": "Kick it off.",
+            "missable": false
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "Construction site Mafia",
+            "location": "Red construction beams above the path with a Mafia rolling a giant meat",
+            "method": "Kick it off.",
+            "missable": false
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Plaza tower Mafia",
+            "location": "Tower beside the Mafia plaza, where you get the first Time Piece and the Umbrella",
+            "method": "Kick it off.",
+            "missable": false
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Port Mafia",
+            "location": "Docks near the lighthouse, below the blue roof Mafia",
+            "method": "Kick it off.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_HOMING_CHAIN_5",
+      "displayName": "Personally I Prefer the Air",
+      "description": "Do 5 homing attacks in a row, without touching the ground!",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Defeat 5 enemies in a row with homing attacks without touching the ground.",
+      "guide": {
+        "kind": "standard",
+        "context": "In Mafia Town, a blue vault ticket draws crows that also work.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Alpine Skyline}, take the path toward the Lava Cake where spiders drop down. At the fork, homing attack one group of three spiders, then keep going on the other group."
+          },
+          {
+            "id": "s2",
+            "text": "If you land, start again."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_ALL_TIMEPIECES",
+      "displayName": "Return Home",
+      "description": "Collect all Time Pieces!",
+      "hidden": false,
+      "globalPercent": 16.2,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 8,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 3,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MAFIATOWN_CLEAR",
+        "HAT_ACHIEVEMENT_BIRDS_CLEAR",
+        "HAT_ACHIEVEMENT_SUBCON_CLEAR",
+        "HAT_ACHIEVEMENT_ALPINE_CLEAR"
+      ],
+      "summary": "Own all Time Pieces that exist in your installed game content.",
+      "guide": {
+        "kind": "standard",
+        "context": "If it does not unlock with DLC installed, turn off all DLC in the game's Steam properties and collect any base Time Piece again.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear the four main chapters with the checklists in this guide. Then take the two ship rifts: one in the mail room (reach it with the Ice Hat) and one in the Chapter 2 hub (go left, pass the green door marked with a brush, and stand mid-room)."
+          },
+          {
+            "id": "s2",
+            "text": "Finish Chapter 5 (Time's End) for the final base Time Piece."
+          },
+          {
+            "id": "s3",
+            "text": "Seal the Deal adds 6 more (5 on the cruise and 1 on the ship), and Nyakuza Metro adds 10. The game wants 40 pieces for the base game, 46 with Seal the Deal, 50 with Nyakuza Metro, or 56 with both."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_BIRDS_HIGHSCORE",
+      "displayName": "Fueling the Feud",
+      "description": "Get a total of 2000 points in Battle of the Birds!",
+      "hidden": false,
+      "globalPercent": 30.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 4,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MURDER_ALLCLUES",
+        "HAT_ACHIEVEMENT_PARADE_NOTOUCH",
+        "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM"
+      ],
+      "summary": "Reach 2000 total points in Acts 2 to 5 of Battle of the Birds.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Earn points in acts two to five of Chapter 2 (the train murder, Picture Perfect, Train Rush and the parade). A director icon is worth 100, a Pon 4, a clue 60, and each second left in Train Rush 3."
+          },
+          {
+            "id": "s2",
+            "text": "Take every clue and director icon in Murder on the Owl Express and farm Pons in Picture Perfect. Train Rush needs the @item{Hookshot Badge} from the Subcon well."
+          },
+          {
+            "id": "s3",
+            "text": "Replay any act before Act 6 to raise the total."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK",
+      "displayName": "Let there be light",
+      "description": "Light up the spaceship!",
+      "hidden": false,
+      "globalPercent": 82.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 1,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Collect your first Time Piece to light up the spaceship.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Welcome to Mafia Town} and collect the Time Piece."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_SWEARWORD",
+      "displayName": "Why",
+      "description": "just... why... ?",
+      "hidden": false,
+      "globalPercent": 28.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 2,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK"
+      ],
+      "summary": "Type a swear word into an answer box.",
+      "guide": {
+        "kind": "standard",
+        "context": "Battle of the Birds opens at 4 Time Pieces.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In @loc{Murder on the Owl Express}, answer the crow agent in the cafeteria who asks which body part you are ashamed of with a swear word. The Chapter 2 supercomputer also takes input."
+          },
+          {
+            "id": "s2",
+            "text": "\"peck\", \"peckneck\" and \"timmy\" also work."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_PLAYMOD",
+      "displayName": "Unlimited Possibilities",
+      "description": "Play a mod from the Steam Workshop!",
+      "hidden": false,
+      "globalPercent": 58.1,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 1,
+      "estTime": "10 min",
+      "estMinutes": 10,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Play a Steam Workshop mod.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Subscribe to any mod in the Steam Workshop, then launch the game with it installed."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_RATEMOD",
+      "displayName": "Community Contributor",
+      "description": "Rate a Steam Workshop level!",
+      "hidden": false,
+      "globalPercent": 13.7,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_PLAYMOD"
+      ],
+      "summary": "Rate a Steam Workshop level.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Subscribe to a level, then talk to the @npc{Mafia goon} in the ship's mail room to play it."
+          },
+          {
+            "id": "s2",
+            "text": "Finish the level and press thumbs up or thumbs down on the rating screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MANY_MOD_TIMEPIECES",
+      "displayName": "The Community Thanks You",
+      "description": "Collect 30 Mod Rift Tokens from Steam Workshop levels!",
+      "hidden": false,
+      "globalPercent": 2.9,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 5,
+      "estTime": "5 hr",
+      "estMinutes": 300,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_RATEMOD"
+      ],
+      "summary": "Collect 30 Rift Tokens from Steam Workshop levels.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Talk to the @npc{Mafia goon} in the ship's mail room and play Workshop levels. Collect each level's Time Piece, which gives one Mod Rift Token. Tokens found inside a level do not count."
+          },
+          {
+            "id": "s2",
+            "text": "Check your count on the save file screen."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_DW_CLEAR_3_OBJ",
+      "displayName": "Prepare to Die",
+      "description": "Clear All Objectives In a Single Death Wish!",
+      "hidden": false,
+      "globalPercent": 27.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 5,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 787340,
+      "prerequisites": [],
+      "summary": "Complete the main goal and both bonus goals of one Death Wish contract.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Seal the Deal DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Finish @loc{Your Contract has Expired} and collect 27 Time Pieces to unlock Death Wish, then talk to @npc{Snatcher}."
+          },
+          {
+            "id": "s2",
+            "text": "Pick one contract and clear its main goal first, then each bonus goal. You can do them on separate tries."
+          },
+          {
+            "id": "s3",
+            "text": "Do not turn on Peace and Tranquility or Assist Mode, which disables the bonus goals."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_DW_70",
+      "displayName": "Punished Kid",
+      "description": "Obtain 50 Death Wish Stamps!",
+      "hidden": false,
+      "globalPercent": 11.0,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 7,
+      "estTime": "10 hr",
+      "estMinutes": 600,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 787340,
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_DW_CLEAR_3_OBJ"
+      ],
+      "summary": "Earn 50 Death Wish stamps.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Seal the Deal DLC. Each contract is worth 3 stamps.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear the main goal and both bonus goals of contracts for 3 stamps each, until you have 50."
+          },
+          {
+            "id": "s2",
+            "text": "Keep Peace and Tranquility off so every bonus counts as normal."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_DW_CLEAR",
+      "displayName": "I Refuse To Die!",
+      "description": "Obtain All Death Wish Stamps!",
+      "hidden": false,
+      "globalPercent": 4.3,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 9,
+      "estTime": "25 hr",
+      "estMinutes": 1500,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 787340,
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_DW_70"
+      ],
+      "summary": "Earn every Death Wish stamp.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Seal the Deal DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear the main goal and both bonus goals of every contract on the Death Wish map, including the Community Rift stamps, for 111 stamps (114 with Nyakuza Metro installed)."
+          },
+          {
+            "id": "s2",
+            "text": "Keep Peace and Tranquility off."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_CRUISE_FASTDELIVERY",
+      "displayName": "Minimum Shippable",
+      "description": "Clear Ship Shape Without Upsetting The Captain!",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 787340,
+      "prerequisites": [],
+      "summary": "Finish Ship Shape without letting the Captain's anger go past blue.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Seal the Deal DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Replay @loc{Ship Shape}, the second act of @loc{The Arctic Cruise}."
+          },
+          {
+            "id": "s2",
+            "text": "Equip the @item{Sprint Hat} for speed. Or wear the @item{Time Stop Hat} and add the @item{Fast Hatter Badge}, which slows the anger meter."
+          },
+          {
+            "id": "s3",
+            "text": "Keep the Captain's anger meter below 3 notches until every task is done. Start all available tasks so the meter pauses."
+          },
+          {
+            "id": "s4",
+            "text": "Use the Ice Hat pad on the ship's edge to reach the pool quickly."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_CRUISE_CLEAR",
+      "displayName": "The Arctic Cruise - All clear!",
+      "description": "Collect all Time Pieces in The Arctic Cruise!",
+      "hidden": false,
+      "globalPercent": 22.9,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 787340,
+      "prerequisites": [],
+      "summary": "Collect every Time Piece in The Arctic Cruise.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Needs the Seal the Deal DLC. The Arctic Cruise opens at 35 Time Pieces.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Bon Voyage!",
+            "location": "Act 1",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Ship Shape",
+            "location": "Act 2",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "Rock the Boat",
+            "location": "Act 3",
+            "method": "Finish the act.",
+            "missable": false,
+            "group": "Acts"
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Balcony rift",
+            "location": "Garden room, one row below the very top of the ship",
+            "method": "Enter the rift and collect its Time Piece. It appears after Rock the Boat.",
+            "missable": false,
+            "group": "Time Rifts"
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Deep Sea rift",
+            "location": "Dive down from the start into the gap separating the cruise liner from the Mafia vessel",
+            "method": "Enter the rift and collect its Time Piece. It appears after you clear the Cake Museum relic.",
+            "missable": false,
+            "group": "Time Rifts"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_COOP_TP",
+      "displayName": "Little Help From My Friends",
+      "description": "Collect 3 new Time Pieces In local Co-op!",
+      "hidden": false,
+      "globalPercent": 9.8,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 2,
+      "estTime": "20 min",
+      "estMinutes": 20,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [],
+      "summary": "Collect 3 new Time Pieces with co-op on.",
+      "guide": {
+        "kind": "standard",
+        "context": "Pieces you already own do not count. If all are collected, start a new save file.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Plug in a second controller and turn co-op on before touching a Time Piece you have not collected yet. Repeat for three pieces."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_10_STICKERS_CAMERA",
+      "displayName": "A Work of Art",
+      "description": "Put 10 different stickers on a single screenshot!",
+      "hidden": false,
+      "globalPercent": 11.6,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 2,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_MANY_STICKERS"
+      ],
+      "summary": "Take a photo with 10 different stickers on it.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Nyakuza Metro DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Collect at least 10 different stickers (you start with 3). Get the @item{Camera Badge} from the island with the Tourist in @loc{Mafia Town}."
+          },
+          {
+            "id": "s2",
+            "text": "Open the camera, place 10 different stickers on the frame, and take the picture."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_MANY_STICKERS",
+      "displayName": "Stickin' Star",
+      "description": "Collect 30 Stickers in Nyakuza Metro!",
+      "hidden": false,
+      "globalPercent": 17.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "2 hr",
+      "estMinutes": 120,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Collect 30 stickers in Nyakuza Metro.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Needs the Nyakuza Metro DLC. 46 stickers lie around the Metro, and 6 more come from food combos. Collect all of the Metro ones to be safe. A sticker on a wall drops to the floor when touched, so pick it up there.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Main Station sticker 1",
+            "location": "Right of Ora-Oramen, on the escalator side of the raised platform",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Main Station"
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Main Station sticker 2",
+            "location": "Alleyway left of Le Félin",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Main Station"
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "Main Station sticker 3",
+            "location": "In Le Félin, over the window on the left",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Main Station"
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Main Station sticker 4",
+            "location": "Beside the gates that lead to Pink Paw Station",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Main Station"
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Main Station sticker 5",
+            "location": "Above the Bluefin Tunnel entrance",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Main Station"
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "Main Station sticker 6",
+            "location": "Roof of Ora-Oramen",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Main Station"
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "name": "Yellow Overpass sticker 1",
+            "location": "Wall just ahead of the first Cat Train, after the entrance tunnel",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "name": "Yellow Overpass sticker 2",
+            "location": "Shadowy corner behind a food truck once you leave the first tunnels",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "name": "Yellow Overpass sticker 3",
+            "location": "Over a shop at the end of the alley on your left",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "name": "Yellow Overpass sticker 4",
+            "location": "At the ledge drop on your right once the first tunnels end",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i11",
+            "index": 11,
+            "name": "Yellow Overpass sticker 5",
+            "location": "Over the doorway of the restaurant area that holds the manhole",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i12",
+            "index": 12,
+            "name": "Yellow Overpass sticker 6",
+            "location": "Wall where the long Cat Train turns around before the Yellow Ticket booth",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i13",
+            "index": 13,
+            "name": "Yellow Overpass sticker 7",
+            "location": "Behind boxes smashed with the Brewing Hat past the Yellow Ticket booth",
+            "method": "Smash the boxes with the Brewing Hat, then touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i14",
+            "index": 14,
+            "name": "Yellow Overpass sticker 8",
+            "location": "Wall of the area below the floating Hookshot points",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass"
+          },
+          {
+            "id": "i15",
+            "index": 15,
+            "name": "Yellow Overpass Manhole sticker 1",
+            "location": "Above a food truck left of the entrance",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass Manhole"
+          },
+          {
+            "id": "i16",
+            "index": 16,
+            "name": "Yellow Overpass Manhole sticker 2",
+            "location": "Behind boxes smashed with the Brewing Hat, before the first Cat Train",
+            "method": "Smash the boxes with the Brewing Hat, then touch it.",
+            "missable": false,
+            "group": "Yellow Overpass Manhole"
+          },
+          {
+            "id": "i17",
+            "index": 17,
+            "name": "Yellow Overpass Manhole sticker 3",
+            "location": "On top of a vending machine ahead of the last Cat Train",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Yellow Overpass Manhole"
+          },
+          {
+            "id": "i18",
+            "index": 18,
+            "name": "Green Clean sticker 1",
+            "location": "To the left, reached by bouncing off the Cat Vacuum in Main Station",
+            "method": "Bounce off the Cat Vacuum to reach it, then touch it.",
+            "missable": false,
+            "group": "Green Clean"
+          },
+          {
+            "id": "i19",
+            "index": 19,
+            "name": "Green Clean sticker 2",
+            "location": "Side of the tunnel above the alley with the manhole and Pink Paw gates",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean"
+          },
+          {
+            "id": "i20",
+            "index": 20,
+            "name": "Green Clean sticker 3",
+            "location": "Left of the Green Ticket booth",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean"
+          },
+          {
+            "id": "i21",
+            "index": 21,
+            "name": "Green Clean sticker 4",
+            "location": "Back wall of the Time Piece area",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean"
+          },
+          {
+            "id": "i22",
+            "index": 22,
+            "name": "Green Clean Manhole sticker 1",
+            "location": "Above a sign left of the entrance",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean Manhole"
+          },
+          {
+            "id": "i23",
+            "index": 23,
+            "name": "Green Clean Manhole sticker 2",
+            "location": "Left wall after the first vent",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean Manhole"
+          },
+          {
+            "id": "i24",
+            "index": 24,
+            "name": "Green Clean Manhole sticker 3",
+            "location": "Freezer room through the vent right of the restaurant",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean Manhole"
+          },
+          {
+            "id": "i25",
+            "index": 25,
+            "name": "Green Clean Manhole sticker 4",
+            "location": "On the floor under where the Time Piece sits",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Green Clean Manhole"
+          },
+          {
+            "id": "i26",
+            "index": 26,
+            "name": "Bluefin Tunnel sticker 1",
+            "location": "Wall after the entrance escalators",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Bluefin Tunnel"
+          },
+          {
+            "id": "i27",
+            "index": 27,
+            "name": "Bluefin Tunnel sticker 2",
+            "location": "Unlit tunnel under a Cat Train, past the tunnel with a single train",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Bluefin Tunnel"
+          },
+          {
+            "id": "i28",
+            "index": 28,
+            "name": "Bluefin Tunnel sticker 3",
+            "location": "Right of the Time Piece shard",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Bluefin Tunnel"
+          },
+          {
+            "id": "i29",
+            "index": 29,
+            "name": "Pink Paw sticker 1",
+            "location": "Wall right of the entrance",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i30",
+            "index": 30,
+            "name": "Pink Paw sticker 2",
+            "location": "Wall of the room where you enter the vent",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i31",
+            "index": 31,
+            "name": "Pink Paw sticker 3",
+            "location": "To your left as you drop out of the vent",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i32",
+            "index": 32,
+            "name": "Pink Paw sticker 4",
+            "location": "Room beyond the tunnel with two Cat Trains",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i33",
+            "index": 33,
+            "name": "Pink Paw sticker 5",
+            "location": "Wall of the room joined to Main Station, after the second vent",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i34",
+            "index": 34,
+            "name": "Pink Paw sticker 6",
+            "location": "Rear of a food truck where the second vent lets you out",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i35",
+            "index": 35,
+            "name": "Pink Paw sticker 7",
+            "location": "Pillar on the right after that room",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i36",
+            "index": 36,
+            "name": "Pink Paw sticker 8",
+            "location": "Wall in the restaurant area below the end of the second Cat Train path",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i37",
+            "index": 37,
+            "name": "Pink Paw sticker 9",
+            "location": "Train-less path next to the Dweller blocks",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i38",
+            "index": 38,
+            "name": "Pink Paw sticker 10",
+            "location": "Left of the Dweller wall after two Hookshot points",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i39",
+            "index": 39,
+            "name": "Pink Paw sticker 11",
+            "location": "Behind the big spinning fan by the Pink Ticket booth (Time Stop Hat needed)",
+            "method": "Get past the fan with the Time Stop Hat, then touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i40",
+            "index": 40,
+            "name": "Pink Paw sticker 12",
+            "location": "Above the sideways Cat Vacuum section",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i41",
+            "index": 41,
+            "name": "Pink Paw sticker 13",
+            "location": "Escalator flank within the overhang",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i42",
+            "index": 42,
+            "name": "Pink Paw sticker 14",
+            "location": "Edge of the platform where the Time Piece is",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Pink Paw"
+          },
+          {
+            "id": "i43",
+            "index": 43,
+            "name": "Pink Paw Manhole sticker 1",
+            "location": "Shop window reached by jumping off the yellow or pink train",
+            "method": "Jump off a train toward the window, then touch it.",
+            "missable": false,
+            "group": "Pink Paw Manhole"
+          },
+          {
+            "id": "i44",
+            "index": 44,
+            "name": "Pink Paw Manhole sticker 2",
+            "location": "Final spot of the hidden Snatcher cat-train challenge (Wowza Sticker)",
+            "method": "Collect 100 Power Pons, press the 4 switches in the area, then clear the platforming challenge at the end.",
+            "missable": false,
+            "group": "Pink Paw Manhole"
+          },
+          {
+            "id": "i45",
+            "index": 45,
+            "name": "Rush Hour sticker 1",
+            "location": "Room after dropping from the destructible box",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Rush Hour"
+          },
+          {
+            "id": "i46",
+            "index": 46,
+            "name": "Rush Hour sticker 2",
+            "location": "Large room with three Cat Trains, before the Cat Vacuum room",
+            "method": "Touch it.",
+            "missable": false,
+            "group": "Rush Hour"
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_RARE_STICKER",
+      "displayName": "Stick It To The Man",
+      "description": "Collect your first holographic sticker!",
+      "hidden": false,
+      "globalPercent": 38.5,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Collect your first holographic sticker.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Nyakuza Metro DLC. Only one spawns per day, and it can appear in any level.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Clear any level. If a holographic sticker spawns, the game names its act, and the console in the ship also shows it."
+          },
+          {
+            "id": "s2",
+            "text": "Equip the @item{Compass Badge} (400 Pons from the Mafia Boss). Its rainbow arrow points toward the sticker with some error."
+          },
+          {
+            "id": "s3",
+            "text": "Find and touch the sticker."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_FOODCOMBO",
+      "displayName": "Culinary Creativity",
+      "description": "Discover a secret food combination!",
+      "hidden": false,
+      "globalPercent": 32.1,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 1,
+      "estTime": "15 min",
+      "estMinutes": 15,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Eat a secret food combination.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Nyakuza Metro DLC. Large Soda also pairs with Hamburger, Pizza Slice or Triple Scoop, but the five pairs named in the step are the safest picks.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "In a @loc{Nyakuza Metro} restaurant, buy both foods of a pair and eat them together, such as Cake with Juice Box, Coffee with Cookies, Fish with French Fries, Katsu Curry with Rice, or Soup Dumplings with Tea."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_METRO_CLEAR",
+      "displayName": "Nyakuza Metro - All clear!",
+      "description": "Collect all Time Pieces in Nyakuza Metro!",
+      "hidden": false,
+      "globalPercent": 29.7,
+      "flags": {
+        "missable": false,
+        "online": false,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 6,
+      "estTime": "3 hr",
+      "estMinutes": 180,
+      "stage": 4,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Collect every Time Piece in Nyakuza Metro.",
+      "guide": {
+        "kind": "collectible",
+        "context": "Needs the Nyakuza Metro DLC. It opens at 20 Time Pieces through the Storage Room (Science Lab, basement). If it does not unlock, recollect an already collected piece here.",
+        "collectibles": [
+          {
+            "id": "i1",
+            "index": 1,
+            "name": "Main Station",
+            "location": "Free roam hub",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i2",
+            "index": 2,
+            "name": "Yellow Overpass Station",
+            "location": "Yellow area",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i3",
+            "index": 3,
+            "name": "Yellow Overpass Manhole",
+            "location": "Use the Ice Hat to ground pound the manhole",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i4",
+            "index": 4,
+            "name": "Green Clean Station",
+            "location": "Green area",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i5",
+            "index": 5,
+            "name": "Green Clean Manhole",
+            "location": "Use the Ice Hat to ground pound the manhole",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i6",
+            "index": 6,
+            "name": "Bluefin Tunnel",
+            "location": "Blue area",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i7",
+            "index": 7,
+            "name": "Pink Paw Station",
+            "location": "Pink area",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i8",
+            "index": 8,
+            "name": "Pink Paw Manhole",
+            "location": "Use the Ice Hat to ground pound the manhole",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          },
+          {
+            "id": "i9",
+            "index": 9,
+            "name": "Rush Hour",
+            "location": "Final act",
+            "method": "Finish the act.",
+            "missable": false
+          },
+          {
+            "id": "i10",
+            "index": 10,
+            "name": "Rumbi Factory rift",
+            "location": "Time Rift",
+            "method": "Collect the Time Piece.",
+            "missable": false
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_GP_CLEAR_CROWN",
+      "displayName": "Life of the Party",
+      "description": "Clear an act in Online Party as the person in lead!",
+      "hidden": false,
+      "globalPercent": 12.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 4,
+      "estTime": "45 min",
+      "estMinutes": 45,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Finish an Online Party act in first place.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Nyakuza Metro DLC. The score is added up when the Time Piece is taken.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Turn on Online Party and join a lobby with another player. Start an act that player joins."
+          },
+          {
+            "id": "s2",
+            "text": "Collect the Time Piece first. It gives 80, 50 or 20 points for 1st, 2nd or 3rd. Blue rift acts are fast."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_GP_BIGPARTY",
+      "displayName": "Party Planner",
+      "description": "Participate in an Online Party with 10 or more total players!",
+      "hidden": false,
+      "globalPercent": 7.8,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "30 min",
+      "estMinutes": 30,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Join an Online Party lobby of at least 10 players.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Nyakuza Metro DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Turn on Online Party and join a busy lobby name, such as \"peck\". Events fill lobbies faster."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_GP_COLLECT_TP",
+      "displayName": "Party Animal",
+      "description": "Collect 10 Time Pieces in an active Online Party!",
+      "hidden": false,
+      "globalPercent": 6.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": true,
+        "glitched": false,
+        "dlc": true
+      },
+      "difficulty": 3,
+      "estTime": "1 hr",
+      "estMinutes": 60,
+      "stage": 5,
+      "confidence": "verified",
+      "dlcAppid": 940220,
+      "prerequisites": [],
+      "summary": "Get 10 Time Pieces while Online Party is on.",
+      "guide": {
+        "kind": "standard",
+        "context": "Needs the Nyakuza Metro DLC.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Turn on Online Party and finish acts. Repeating the same act counts, and Welcome to Mafia Town is fast."
+          },
+          {
+            "id": "s2",
+            "text": "If it does not count, join levels that have other players in them."
+          }
+        ]
+      }
+    },
+    {
+      "apiName": "HAT_ACHIEVEMENT_CHALLENGEROAD",
+      "displayName": "Challenge Road",
+      "description": "Clear a Challenge Road!",
+      "hidden": false,
+      "globalPercent": 5.6,
+      "flags": {
+        "missable": false,
+        "online": true,
+        "grind": false,
+        "glitched": false,
+        "dlc": false
+      },
+      "difficulty": 6,
+      "estTime": "1.5 hr",
+      "estMinutes": 90,
+      "stage": 5,
+      "confidence": "verified",
+      "prerequisites": [
+        "HAT_ACHIEVEMENT_PLAYMOD"
+      ],
+      "summary": "Clear a Challenge Road.",
+      "guide": {
+        "kind": "standard",
+        "context": "",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Talk to the @npc{Mafia goon} in the ship's mail room and download the Workshop levels for a Challenge Road."
+          },
+          {
+            "id": "s2",
+            "text": "Finish its 2 to 7 levels in order. You have 3 lives in total, and losing all of them sends you back to the start."
+          }
+        ]
+      }
+    }
+  ],
+  "completionOrder": [
+    "HAT_ACHIEVEMENT_SITCHAIRS",
+    "HAT_ACHIEVEMENT_RIDE_VACUUM",
+    "HAT_ACHIEVEMENT_SEQBREAK",
+    "HAT_ACHIEVEMENT_FIRSTPIN",
+    "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK",
+    "HAT_ACHIEVEMENT_SLIDE_LONGTIME",
+    "HAT_ACHIEVEMENT_MAFIA_KNOCKOFF_ALL",
+    "HAT_ACHIEVEMENT_3_BADGES",
+    "HAT_ACHIEVEMENT_SWEARWORD",
+    "HAT_ACHIEVEMENT_SCOOTER_360",
+    "HAT_ACHIEVEMENT_SUBCON_MUSHROOM",
+    "HAT_ACHIEVEMENT_DEADBIRD_NOSPOT",
+    "HAT_ACHIEVEMENT_SPACESHIP_HIDEOUT",
+    "HAT_ACHIEVEMENT_1HITKILL",
+    "HAT_ACHIEVEMENT_MURDER_NOCLUES",
+    "HAT_ACHIEVEMENT_MURDER_ALLCLUES",
+    "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM",
+    "HAT_ACHIEVEMENT_MAILROOM_FAN",
+    "HAT_ACHIEVEMENT_PARADE_NOTOUCH",
+    "HAT_ACHIEVEMENT_BIRDS_HIGHSCORE",
+    "HAT_ACHIEVEMENT_HOMING_CHAIN_5",
+    "HAT_ACHIEVEMENT_LAVACAKE_NOTOUCH",
+    "HAT_ACHIEVEMENT_TRAINWRECK_TIME",
+    "HAT_ACHIEVEMENT_SUBCON_CLEAR",
+    "HAT_ACHIEVEMENT_BIRDS_CLEAR",
+    "HAT_ACHIEVEMENT_MAFIATOWN_CLEAR",
+    "HAT_ACHIEVEMENT_ALPINE_CLEAR",
+    "HAT_ACHIEVEMENT_FOODCOMBO",
+    "HAT_ACHIEVEMENT_RARE_STICKER",
+    "HAT_ACHIEVEMENT_CRUISE_FASTDELIVERY",
+    "HAT_ACHIEVEMENT_CRUISE_CLEAR",
+    "HAT_ACHIEVEMENT_METRO_CLEAR",
+    "HAT_ACHIEVEMENT_ALL_TIMEPIECES",
+    "HAT_ACHIEVEMENT_MANY_STICKERS",
+    "HAT_ACHIEVEMENT_10_STICKERS_CAMERA",
+    "HAT_ACHIEVEMENT_DW_CLEAR_3_OBJ",
+    "HAT_ACHIEVEMENT_DW_70",
+    "HAT_ACHIEVEMENT_DW_CLEAR",
+    "HAT_ACHIEVEMENT_COOP_TP",
+    "HAT_ACHIEVEMENT_GP_BIGPARTY",
+    "HAT_ACHIEVEMENT_GP_CLEAR_CROWN",
+    "HAT_ACHIEVEMENT_GP_COLLECT_TP",
+    "HAT_ACHIEVEMENT_PLAYMOD",
+    "HAT_ACHIEVEMENT_CHALLENGEROAD",
+    "HAT_ACHIEVEMENT_RATEMOD",
+    "HAT_ACHIEVEMENT_MANY_MOD_TIMEPIECES"
+  ]
+}
